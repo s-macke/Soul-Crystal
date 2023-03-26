@@ -1,0 +1,1575 @@
+<head>
+<title>Soul Crystal</title>
+
+<script src="tables.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+var roomnumber;
+var textoutput;
+var object1;
+var object2;
+
+// Bei Entriegeln wird noch eine Tabelle nicht ausgeführt
+// richtungen müssen nochmal ausgewertet werden. Seltsame Funktion wird aufgerufen
+// am Anfang fehlt noch was
+// alle /* ... */ überprüfen
+
+function ParseGIB()
+{
+mem810D:
+textoutput = 0x12
+return; //from sub
+//Command E6 at 8112
+}
+
+// ---------------------------------------------------
+
+function ParseZIEHE()
+{
+	textoutput = 0x0258;
+}
+
+function ParseBEWEGE()
+{
+	textoutput = 0x10;
+}
+
+function ParseBEFESTIGE()
+{
+	textoutput = 0x18;
+
+}
+
+function ParseVERLASSE()
+{
+	textoutput = 0x55;
+}
+
+function ParseWARTE()
+{
+	textoutput = 0x36;
+}
+
+function ParseGRABE()
+{
+/*
+if ((roomnumber >= 0x0A) && (roomnumber <= 0x0D))
+{
+	textoutput = 0x32
+	goto mem780D;
+}
+
+textoutput = 0x33
+
+mem780D:
+return; //from sub
+//Command 94 at 780E
+*/
+
+}
+
+function ParseUEBERSOUL()
+{
+	textoutput = 0x1B;
+}
+
+function ParseCREDITS()
+{
+	textoutput = 0x1C;
+}
+
+
+
+function ParseVERRIEGELE()
+{
+/*
+mem8112:
+addr69B3 = 0x82D7
+//Command 93 at 8115
+addr6992 = 0x01
+//Command E4 at 8119
+addr699F = mem[addr69B3];
+addr69B3++;
+addr6996 = addr699F
+//Command E4 at 811B
+addr699F = mem[addr69B3];
+addr69B3++;
+addr699A = addr699F
+if ((addr6996 == object1))
+{
+	goto mem8135;
+}
+
+//Command 93 at 8126
+addr6992 = addr6992 + 0x01
+if ((addr6992 <= 0x0C))
+{
+	goto mem8119;
+}
+
+
+mem8135:
+if ((addr6992 > 0x0C))
+{
+	textoutput = 0x15
+	goto mem81B4;
+}
+
+if ((addr699A != object2))
+{
+	//Command E6 at 8148
+	addr69B3 = 0x82EF
+	//Command 93 at 814B
+	addr6992 = 0x01
+	//Command E4 at 814F
+	addr699F = mem[addr69B3];
+	addr69B3++;
+	addr6996 = addr699F
+	if ((addr6996 == object1))
+	{
+		goto mem8169;
+	}
+	
+	//Command 93 at 815A
+	addr6992 = addr6992 + 0x01
+	if ((addr6992 <= 0x07))
+	{
+		goto mem814F;
+	}
+	
+	
+	mem8169:
+	if ((addr6992 > 0x07))
+	{
+		textoutput = 0x14
+		goto mem81B4;
+	}
+	
+	textoutput = 0x6A
+	goto mem81B4;
+}
+else
+{
+	if ((addr699A == object2))
+	{
+		if ((objectstatus[object1] == UNKNOWN1))
+		{
+			textoutput = 0x68
+			goto mem81B4;
+		}
+		else
+		{
+			if ((objectstatus[object1] == STEINALTAR) || 
+(objectstatus[object1] == ABENTEURER))
+			{
+				if ((objectstatus[object1] == ABENTEURER))
+				{
+					  gosub mem7AAC;
+					
+					mem81AAret:
+				}
+				
+				//Command A7 at 81AB
+				objectstatus[object1] = UNKNOWN1
+			}
+			
+		}
+		
+	}
+	
+}
+
+
+mem81B4:
+return; //from sub
+//Command E6 at 81B5
+*/
+
+}
+
+// ---------------------------------------------------
+
+
+function ParseSCHLIESSE()
+{
+/*
+mem7AAC:
+addr69B3 = 0x8286
+//Command 93 at 7AAF
+addr6992 = 0x01
+//Command E4 at 7AB3
+addr699F = mem[addr69B3];
+addr69B3++;
+addr6996 = addr699F
+//Command E4 at 7AB5
+addr699F = mem[addr69B3];
+addr69B3++;
+addr699A = addr699F
+//Command E4 at 7AB7
+addr699F = mem[addr69B3];
+addr69B3++;
+addr6998 = addr699F
+if ((addr6996 == object1))
+{
+	goto mem7AD1;
+}
+
+//Command 93 at 7AC2
+addr6992 = addr6992 + 0x01
+if ((addr6992 <= 0x1C))
+{
+	goto mem7AB3;
+}
+
+
+mem7AD1:
+if ((addr6992 > 0x1C))
+{
+	textoutput = 0x07
+	goto mem7B38;
+}
+
+if ((objectstatus[object1] == STEINALTAR) || (objectstatus[object1] == 
+UNKNOWN1))
+{
+	textoutput = 0x3A
+	goto mem7B38;
+}
+
+if ((objectstatus[object1] == ABENTEURER))
+{
+	//Command A7 at 7AFB
+	objectstatus[object1] = STEINALTAR
+	textoutput = 0x06
+	if ((addr699A == 0x01))
+	{
+		//Command A0 at 7B0A
+		north[roomnumber] = 0x00
+	}
+	else
+	{
+		if ((addr699A == 0x02))
+		{
+			//Command A2 at 7B16
+			south[roomnumber] = 0x00
+		}
+		else
+		{
+			if ((addr699A == 0x03))
+			{
+				//Command A3 at 7B22
+				west[roomnumber] = 0x00
+			}
+			else
+			{
+				if ((addr699A == 0x04))
+				{
+					//Command A1 at 7B2E
+					east[roomnumber] = 0x00
+				}
+				
+			}
+			
+		}
+		
+	}
+	
+}
+
+
+mem7B38:
+return; //from sub
+//Command E6 at 7B39
+*/
+
+}
+
+// ---------------------------------------------------
+
+
+function ParseUP()
+{
+/*
+mem79C0:
+addr6994 = 0xFF
+if ((up[roomnumber] != 0x00))
+{
+	//Command 83 at 79CB
+	roomnumber = up[roomnumber]
+	//Command ED at 79CF
+	Code2E5B()
+	//Command A6 at 79D0
+	objectposition[DAVE] = roomnumber
+	//Command 94 at 79D5
+	addr6994 = roomnumber
+}
+else
+{
+	if ((up[roomnumber] == 0x00))
+	{
+		textoutput = 0x05
+	}
+	
+}
+
+if ((addr6994 != 0xFF))
+{
+	//Command EB at 79EC
+	Code4087()
+}
+
+return; //from sub
+*/
+
+}
+
+// ---------------------------------------------------
+
+
+function ParseDOWN()
+{
+
+/*
+
+mem780E:
+addr6994 = 0xFF
+if ((down[roomnumber] != 0x00))
+{
+	//Command 83 at 7819
+	roomnumber = down[roomnumber]
+	//Command A6 at 781D
+	objectposition[DAVE] = roomnumber
+	//Command ED at 7822
+	Code2E5B()
+	//Command 94 at 7823
+	addr6994 = roomnumber
+}
+else
+{
+	if ((down[roomnumber] == 0x00))
+	{
+		textoutput = 0x05
+	}
+	
+}
+
+if ((addr6994 != 0xFF))
+{
+	//Command EB at 783A
+	Code4087()
+}
+
+return; //from sub
+//Command 94 at 783D
+*/
+}
+
+// ---------------------------------------------------
+
+
+function ParseBETRITT()
+{
+/*
+if ((object1 == HOTEL))
+{
+	roomnumber = 0x02
+	objectposition[DAVE] = 0x02
+	addr6994 = roomnumber
+	Code4087()
+	Code2E5B()
+	Code3C02(); // stelle text dar
+	addr6994 = 0xFF
+	goto mem7C24;
+}
+
+textoutput = 0x0A
+
+mem7C24:
+return; //from sub
+*/
+
+}
+
+// ---------------------------------------------------
+
+function ParseZERSTOERE()
+{
+/*
+mem7B39:
+addr69B3 = 0x834A
+//Command 93 at 7B3C
+addr6992 = 0x01
+//Command E5 at 7B40
+addr699F = mem[addr69B3] + (mem[addr69B3+1] << 8);
+addr69B3 += 2;
+addr6996 = addr699F
+//Command E5 at 7B42
+addr699F = mem[addr69B3] + (mem[addr69B3+1] << 8);
+addr69B3 += 2;
+textoutput = addr699F
+if ((addr6996 == object1))
+{
+	goto mem7B5C;
+}
+
+//Command 93 at 7B4D
+addr6992 = addr6992 + 0x01
+if ((addr6992 <= 0x07))
+{
+	goto mem7B40;
+}
+
+
+mem7B5C:
+if ((addr6992 <= 0x07))
+{
+	goto mem7B80;
+}
+
+if ((object1 == DAVE))
+{
+	textoutput = 0x3C
+	//Command E8 at 7B70
+	Code3C02(); // stelle text dar
+	//Command EE at 7B71
+	CodeCDB()
+	//Command A6 at 7B72
+	objectposition[DAVE] = 0xFF
+	goto mem7B80;
+}
+
+textoutput = 0x3D
+
+mem7B80:
+return; //from sub
+*/
+
+}
+
+// ---------------------------------------------------
+
+
+function ParseHILF()
+{
+/*
+mem7CDB:
+addr69B3 = 0x82F6
+//Command 93 at 7CDE
+addr6992 = 0x01
+//Command E5 at 7CE2
+addr699F = mem[addr69B3] + (mem[addr69B3+1] << 8);
+addr69B3 += 2;
+addr6996 = addr699F
+//Command E5 at 7CE4
+addr699F = mem[addr69B3] + (mem[addr69B3+1] << 8);
+addr69B3 += 2;
+textoutput = addr699F
+if ((addr6996 == object1))
+{
+	goto mem7CFE;
+}
+
+//Command 93 at 7CEF
+addr6992 = addr6992 + 0x01
+if ((addr6992 <= 0x15))
+{
+	goto mem7CE2;
+}
+
+
+mem7CFE:
+if ((object1 == DORFBEWOHNER))
+{
+	if ((objectstatus[DORFBEWOHNER] == 0x00))
+	{
+		goto mem7D97;
+	}
+	else
+	{
+		if ((objectstatus[DORFBEWOHNER] != 0x00))
+		{
+			textoutput = 0x53
+			goto mem7D97;
+		}
+		
+	}
+	
+}
+
+if ((object1 == EINHORN) && (objectposition[WOLF] == 0x00))
+{
+	textoutput = 0x53
+	goto mem7D97;
+}
+
+if ((addr6992 <= 0x15))
+{
+	goto mem7D97;
+}
+
+if ((object1 == EINHORN) && (objectstatus[WOLF] == 0x00))
+{
+	//Command 90 at 7D4E
+	addr698C = addr698C + points[0x98]
+	//Command B0 at 7D54
+	points[0x98] = 0x00
+	//Command A7 at 7D5A
+	objectstatus[EINHORN] = 0x01
+	//Command A6 at 7D60
+	objectposition[WOLF] = 0x00
+	//Command A7 at 7D66
+	objectstatus[WOLF] = 0x01
+	textoutput = 0x99
+	goto mem7D97;
+}
+
+if ((object1 == WOLF))
+{
+	//Command 94 at 7D7A
+	addr6994 = 0x83
+	//Command A6 at 7D7E
+	objectposition[DAVE] = 0xFF
+	//Command EB at 7D84
+	Code4087()
+	textoutput = 0x9A
+	//Command E8 at 7D89
+	Code3C02(); // stelle text dar
+	//Command EE at 7D8A
+	CodeCDB()
+	//Command 94 at 7D8B
+	addr6994 = 0xFF
+	goto mem7D97;
+}
+
+textoutput = 0x53
+
+mem7D97:
+return; //from sub
+*/
+
+}
+
+// ---------------------------------------------------
+
+function ParseVERLIERE()
+{
+
+if ((objectposition[object1] != 0xFF))
+{
+	textoutput = 0x41;
+	return;
+}
+
+if ((object1 == OBJECTS.AMULETT) || (object1 == OBJECTS.FELLSTIEFEL) || (object1 == OBJECTS.JEANS) || 
+(object1 == OBJECTS.BAUMWOLLHEMD) || (object1 == OBJECTS.TURNSCHUHE) || (object1 == OBJECTS.TSHIRT) || 
+(object1 == OBJECTS.PURPURMANTEL) || (object1 == OBJECTS.HOSE) || (object1 == OBJECTS.BADEHOSE))
+{
+	if ((objectstatus[object1] == 0x1))
+	{
+		objectstatus[object1] = 0x0;
+	}
+}
+
+if ((object1 == OBJECTS.BLUT))
+{
+	textoutput = 0x026E;
+	return;
+}
+
+if ((object1 == OBJECTS.GEBET))
+{
+	textoutput = 0x026F;
+	return;
+}
+
+if ((object1 == OBJECTS.ZAUBERSPRUCH))
+{
+	textoutput = 0x0270;
+	return;
+}
+
+textoutput = 0x08;
+objectposition[object1] = roomnumber;
+
+
+}
+
+
+// ---------------------------------------------------
+
+
+function ParseWENDE()
+{
+
+if (object2 == OBJECTS.DAVE)
+{
+	if ((object1 == OBJECTS.BADEHOSE) && (objectstatus[OBJECTS.BADEHOSE] == 0x00))
+	{
+		if (objectstatus[OBJECTS.JEANS] == 0x01)
+		{
+			textoutput = 0x18;
+			return;
+		}
+		
+		textoutput = 0x62;
+		objectstatus[OBJECTS.BADEHOSE] = 0x01;
+		objectposition[OBJECTS.BADEHOSE] = 0xFF;
+		return;
+	}
+	else
+	{
+		if ((object1 == OBJECTS.JEANS) && (objectstatus[OBJECTS.JEANS] == 0x00))
+		{
+			textoutput = 0xA1;
+			objectstatus[OBJECTS.JEANS] = 0x01;
+			objectposition[OBJECTS.JEANS] = 0xFF;
+			return;
+		}
+		else
+		{
+			if ((object1 == OBJECTS.TURNSCHUHE) && (objectstatus[OBJECTS.TURNSCHUHE] == 0x00))
+			{
+				textoutput = 0xA2;
+				objectstatus[OBJECTS.TURNSCHUHE] = 0x01;
+				objectposition[OBJECTS.TURNSCHUHE] = 0xFF;
+				return;
+			}
+			else
+			{
+				if ((object1 == OBJECTS.TSHIRT) && (objectstatus[OBJECTS.TSHIRT] == 0x00))
+				{
+					textoutput = 0xA3;
+					objectstatus[OBJECTS.TSHIRT] = 0x01;
+					objectposition[OBJECTS.TSHIRT] = 0xFF;
+					return;
+				}
+				
+			}
+			
+		}
+		
+	}
+	
+}
+
+if ((object1 == OBJECTS.DAVE))
+{
+	if ((object2 == OBJECTS.ABENTEURER) || (object2 == OBJECTS.ORKKIND) || (object2 == OBJECTS.KADAVER) || 
+	(object2 == OBJECTS.CUmATH) || (object2 == OBJECTS.EREMIT) || (object2 == OBJECTS.FAEHRMANN) || 
+	(object2 == OBJECTS.FIRON) || (object2 == OBJECTS.PORTIER) || (object2 == OBJECTS.KOENIG) || 
+	(object2 == OBJECTS.MYLGOR) || (object2 == OBJECTS.DORFBEWOHNER) || (object2 == OBJECTS.VERKAEUFER) || 
+	(object2 == OBJECTS.YETI) || (object2 == OBJECTS.ZARGON))
+	{
+		textoutput = 0x65;
+		return;
+	}
+	
+	if ((object2 == OBJECTS.GAESTEBETT))
+	{
+		textoutput = 0x63;
+		return;
+	}
+	
+	if ((object2 == OBJECTS.STUHL))
+	{
+		textoutput = 0xA5;
+		return;
+	}
+	
+	if ((object2 == OBJECTS.KLEIDERSCHRANK))
+	{
+		//textoutput = 0x026C;
+		textoutput = 0xD1;
+		return;
+	}
+	
+}
+
+textoutput = 0x67;
+
+
+}
+// ---------------------------------------------------
+
+
+function ParseENTRIEGELE()
+{
+
+var canunlockindex = -1;
+var object2index = -1;
+for(i=0; i< 0xB; i++)
+{
+	if (canunlock[i*2 + 0] == object1)
+	{
+		canunlockindex = i;
+		object2index = canunlock[i*2 + 1];
+	}
+}
+
+
+if (canunlockindex == -1)
+{
+	textoutput = 0x18;
+	return;
+}
+
+if ((object2index != object2))
+{
+/*
+	addr69B3 = 0x82EF;
+	addr6992 = 0x01;
+	addr699F = mem[addr69B3];
+	addr69B3++;
+	addr6996 = addr699F;
+	if ((addr6996 == object2))
+	{
+		goto mem820C;
+	}
+	
+	addr6992 = addr6992 + 0x01;
+	if ((addr6992 <= 0x07))
+	{
+		goto mem81F2;
+	}
+	
+	
+	mem820C:
+	if ((addr6992 > 0x07))
+	{
+		textoutput = 0x17;
+		return;
+	}
+	
+	textoutput = 0x6A;
+	return;
+*/	
+}
+else
+{
+	if (object2index == object2)
+	{
+		if (objectstatus[object1] > 0x0)
+		{
+			textoutput = 0x69;
+			return;
+		}
+		else
+		{
+			if (objectstatus[object1] == 0x0)
+			{
+				objectstatus[object1] = 0x2;
+				textoutput = 0x16;
+			}
+			
+		}
+		
+	}
+	
+}
+
+
+
+}
+// ---------------------------------------------------
+
+
+function ParseOEFFNE()
+{
+
+if ((object1 == OBJECTS.JEANS) || (object1 == OBJECTS.HOSE))
+{
+//	textoutput = 0x0268;
+	textoutput = 0xCD;
+	return;
+}
+
+var canopenindex = -1;
+var direction = 0;
+var to = 0;
+for(i=0; i<0x1B; i++)
+{
+	if (canopen[i*3+0] == object1)
+	{
+		canopenindex = i;
+		direction = canopen[i*3+1];
+		to = canopen[i*3+2];
+	}
+}
+
+if ((canopenindex == -1))
+{
+	textoutput = 0x58;
+	return;
+}
+
+if ((objectstatus[object1] == 0x0))
+{
+	textoutput = 0x11;
+	return;
+}
+else
+{
+	if ((objectstatus[object1] == 0x1))
+	{
+		textoutput = 0x57;
+		return;
+	}
+	else
+	{
+		if ((objectstatus[object1] == 0x2))
+		{
+			objectstatus[object1] = 0x1;
+			if ((direction == 0x01))
+			{
+				north[roomnumber] = to;
+			}
+			else
+			{
+				if ((direction == 0x02))
+				{
+					south[roomnumber] = to;
+				}
+				else
+				{
+					if ((direction == 0x03))
+					{
+						west[roomnumber] = to;
+					}
+					else
+					{
+						if ((direction == 0x04))
+						{
+							east[roomnumber] = addr6998;
+						}
+						
+					}
+					
+				}
+				
+			}
+			
+			textoutput = 0x56;
+		}
+		
+	}
+	
+}
+
+
+}
+// ---------------------------------------------------
+
+
+function ParseSPRICH()
+{
+
+textoutput = 0x5B;
+cantalkindex = -1;
+
+for(i=0; i<0xE; i++)
+{
+	if (cantalk[i*2] == object1)
+	{
+		textoutput = cantalk[i*2+1];		
+		cantalkindex = i;
+	}
+}
+
+/*
+
+addr69B3 = 0x8366
+
+addr6992 = 0x01
+
+addr699F = mem[addr69B3] + (mem[addr69B3+1] << 8);
+addr69B3 += 2;
+addr6996 = addr699F
+
+addr699F = mem[addr69B3] + (mem[addr69B3+1] << 8);
+addr69B3 += 2;
+textoutput = addr699F
+if ((addr6996 == object1))
+{
+	goto mem7F54;
+}
+
+addr6992 = addr6992 + 0x01
+if ((addr6992 <= 0x0F))
+{
+	goto mem7F38;
+}
+
+
+mem7F54:
+if ((addr6992 > 0x0F))
+{
+	textoutput = 0x5B
+}
+*/
+
+if (cantalkindex == -1)
+{
+	textoutput = 0x5B;
+}
+
+
+if ((object1 == OBJECTS.PORTIER))
+{
+	textoutput = 0x9D;
+	objectposition[OBJECTS.ZIMMERSCHLUESSEL] = roomnumber;
+	objectposition[OBJECTS.PORTIER] = 0x00;
+	return;
+}
+
+if ((object1 == OBJECTS.DORFBEWOHNER) && (objectstatus[OBJECTS.DORFBEWOHNER] == 0x00))
+{
+	textoutput = 0x9E;
+	objectstatus[OBJECTS.DORFBEWOHNER] = 0x01;
+	return;
+}
+else
+{
+	if ((object1 == OBJECTS.DORFBEWOHNER) && (objectstatus[OBJECTS.DORFBEWOHNER] == 0x01))
+	{
+		textoutput = 0x9F;
+		return;
+	}
+	
+}
+
+if ((object1 == OBJECTS.EINHORN) && (objectstatus[OBJECTS.WOLF] == 0x01))
+{
+	objectposition[OBJECTS.KRISTALLKUGEL] = roomnumber;
+	objectposition[OBJECTS.EINHORN] = 0x00;
+	west[0x0F] = 0x19;
+	textoutput = 0xA0;
+	return;
+}
+
+
+}
+
+
+// ---------------------------------------------------
+
+function ParseNIMM()
+{
+
+var cantakeobject = -1;
+for(i=0; i<40; i++)
+{
+	if (cantake[i] == object1)
+	{
+		cantakeobject = i;
+	}
+	
+}
+
+
+	var addr6992 = cantakeobject;
+	
+	if ((addr6992 == -1))
+	{
+		textoutput = 0x0E;
+	} else
+	if ((objectposition[object1] == 0xFF))
+	{
+		textoutput = 0x0D;
+	} else
+	{
+		objectposition[object1] = 0xFF;
+		textoutput = 0x0C;
+	}
+	
+	if ((object1 == OBJECTS.SPEISEKARTE))
+	{
+		textoutput = 0x96;
+		objectposition[object1] = roomnumber;
+		return;
+	}
+
+}
+
+
+// ---------------------------------------------------
+
+function ParseDRUECKEN()
+{
+
+if ((object1 == OBJECTS.KLINGEL))
+{
+	if ((objectstatus[OBJECTS.KLINGEL] < 0x03))
+	{
+		objectstatus[OBJECTS.KLINGEL] = objectstatus[OBJECTS.KLINGEL] + 0x01;
+	}
+	
+	if ((objectstatus[OBJECTS.KLINGEL] == 0x03) && (objectposition[OBJECTS.ZIMMERSCHLUESSEL] == 0x00))
+	{
+		objectposition[OBJECTS.PORTIER] = roomnumber;
+		objectstatus[OBJECTS.KLINGEL] = 0x04;
+		textoutput = 0x9C;
+		return;
+	}
+	else
+	{
+		if ((objectstatus[OBJECTS.KLINGEL] == 0x03) && (objectposition[OBJECTS.ZIMMERSCHLUESSEL] != 0x00))
+		{
+			objectstatus[OBJECTS.KLINGEL] = 0x00;
+			textoutput = 0x9B;
+			return;
+		}
+		
+	}
+	
+	textoutput = 0x9B;
+	return;
+}
+
+textoutput = 0x59
+
+
+}
+
+
+// ---------------------------------------------------
+
+function ParseBETRACHTEN()
+{
+
+textoutput = objectdescription[object1];
+if ((object1 == OBJECTS.TRESEN) && (objectposition[OBJECTS.KLINGEL] == 0x00))
+{
+	objectposition[OBJECTS.KLINGEL] = roomnumber;
+	if ((objectposition[OBJECTS.PROSPEKT] == 0x00))
+	{
+		objectposition[OBJECTS.PROSPEKT] = roomnumber;
+	}
+	
+	objectdescription[OBJECTS.TRESEN] = 0x0B;
+}
+
+if ((object1 == OBJECTS.PROSPEKT) && (objectstatus[OBJECTS.PROSPEKT] == 0x01))
+{
+	textoutput = 0x80;
+}
+
+
+if ((object1 == OBJECTS.ESSTISCH2) && (objectposition[OBJECTS.SPEISEKARTE] == 0x00))
+{
+
+	objectposition[OBJECTS.SPEISEKARTE] = roomnumber;
+	objectdescription[OBJECTS.ESSTISCH2] = 0x90;
+}
+else
+{
+	if ((object1 == OBJECTS.ESSTISCH2) && (objectdescription[OBJECTS.ESSTISCH2] == 0x90))
+	{
+		objectdescription[OBJECTS.ESSTISCH2] = 0x0B;
+	}
+	
+}
+
+if ((object1 == OBJECTS.SPEISEKARTE))
+{
+	textoutput = 0x89;
+}
+
+if ((object1 == OBJECTS.STUHL) && (objectposition[OBJECTS.BADEHOSE] == 0x00))
+{
+	objectposition[OBJECTS.BADEHOSE] = roomnumber;
+	objectdescription[OBJECTS.STUHL] = 0x0B;
+}
+
+
+}
+
+
+// ---------------------------------------------------
+
+function ParseSUED()
+{
+	var addr6994;
+	
+	addr6994 = 0xFF
+	if ((south[roomnumber] != 0x00))
+	{
+		roomnumber = south[roomnumber];
+		textoutput = roomnumber + 106;		
+//		Code2E5B();
+		objectposition[OBJECTS.DAVE] = roomnumber;
+		addr6994 = roomnumber;
+	}
+	else
+	{
+		if ((south[roomnumber] == 0x00))
+		{
+			textoutput = 0x05;
+		}
+	
+	}
+/*
+if ((roomnumber == 0x07))
+{
+	objectposition[DAVE] = 0xFF;
+	Code4087();
+	Code2E5B();
+	Code3C02(); // stelle text dar
+	CodeCDB();
+	addr6994 = 0xFF;
+	goto mem79B3;
+}
+
+if ((roomnumber == 0x0D))
+{
+	textoutput = 0x2F;
+	goto mem79B3;
+}
+
+
+
+mem79B3:
+if ((addr6994 != 0xFF))
+{
+	//Command EB at 79B9
+	Code4087()
+}
+*/
+
+}
+
+// ---------------------------------------------------
+
+
+function ParseNORD()
+{
+var addr6994;
+addr6994 = 0xFF;
+
+/*
+if ((roomnumber == 0x0E) && (objectposition[WOLF] != 0x00))
+{
+	roomnumber = 0x0F
+	addr6994 = roomnumber
+	Code4087()
+	Code2E5B()
+	Code3C02(); // stelle text dar
+	CodeCDB()
+	textoutput = 0x7A
+	objectposition[DAVE] = 0x0F
+	addr6994 = 0xFF
+	goto mem7939;
+}
+*/
+if ((north[roomnumber] != 0x00))
+{
+	roomnumber = north[roomnumber]
+//	Code2E5B()
+	textoutput = roomnumber + 106;
+	objectposition[OBJECTS.DAVE] = roomnumber
+	addr6994 = roomnumber
+}
+else
+{
+	if ((north[roomnumber] == 0x00))
+	{
+		textoutput = 0x05
+	}
+	
+}
+
+/*
+if ((roomnumber == 0x0B))
+{
+
+	addr6996 = 0x00
+	addr6992 = 0x01
+	if ((objectposition[addr6992] == 0xFF))
+	{
+		addr6996 = addr6996 + 0x01
+	}
+	
+	addr6992 = addr6992 + 0x01
+	if ((addr6992 <= 0xA5))
+	{
+		goto mem78DD;
+	}
+	
+	if ((addr6996 == 0x01) && (objectstatus[BADEHOSE] == 0x01))
+	{
+		goto mem7939;
+	}
+	
+	addr6994 = 0x82
+	objectposition[DAVE] = 0xFF
+	Code4087()
+	textoutput = 0x7B
+	Code3C02(); // stelle text dar
+	CodeCDB()
+	addr6994 = 0xFF
+	goto mem7939;
+}
+
+if ((roomnumber == 0x0D))
+{
+	addr698C = addr698C + points[0x9C]
+	points[0x9C] = 0x00
+	goto mem7939;
+}
+
+
+mem7939:
+if ((addr6994 != 0xFF))
+{
+	Code4087()
+}
+*/
+
+}
+
+// ---------------------------------------------------
+
+
+function ParseWEST()
+{
+	var addr6994;
+	
+	addr6994 = 0xFF
+	if ((west[roomnumber] != 0x00))
+	{
+		roomnumber = west[roomnumber]
+		objectposition[OBJECTS.DAVE] = roomnumber
+		textoutput = roomnumber + 106;
+	//	Code2E5B()
+		addr6994 = roomnumber
+	}
+	else
+	{
+		if ((west[roomnumber] == 0x00))
+		{
+			textoutput = 0x05
+		}
+	}
+
+/*
+if ((roomnumber == 0x0D))
+{
+	addr6996 = 0x00
+	addr6992 = 0x01
+	if ((objectposition[addr6992] == 0xFF))
+	{
+		addr6996 = addr6996 + 0x01
+	}
+	
+	addr6992 = addr6992 + 0x01
+	if ((addr6992 <= 0xA5))
+	{
+		goto mem7A3C;
+	}
+	
+	if ((addr6996 == 0x01) && (objectstatus[BADEHOSE] == 0x01))
+	{
+		goto mem7AA1;
+	}
+	
+	addr6994 = 0x82
+	objectposition[DAVE] = 0xFF
+	Code4087()
+	textoutput = 0x7B
+	Code3C02(); // stelle text dar
+	CodeCDB()
+	addr6994 = 0xFF
+	goto mem7AA9;
+}
+
+if ((roomnumber == 0x19) && (visited[0x19] == 0x00))
+{
+	textoutput = 0xA6
+	Code3C02(); // stelle text dar
+	CodeCDB()
+	//EF:  setting addr6992 to 1 or 0 ???0x01
+	Code36B3() //jump
+	objectposition[DAVE] = roomnumber
+	goto mem7AA9;
+}
+
+
+mem7AA1:
+if ((addr6994 != 0xFF))
+{
+	Code4087()
+}
+*/
+
+}
+
+
+// ---------------------------------------------------
+
+function ParseOST()
+{
+	roomnumber = objectposition[OBJECTS.DAVE];
+	var addr6994;
+
+	addr6994 = 0xFF;
+	if ((east[roomnumber] != 0x00))
+	{
+		roomnumber = east[roomnumber];
+		objectposition[OBJECTS.DAVE] = roomnumber;
+		textoutput = roomnumber + 106;
+	//	Code2E5B();
+		addr6994 = roomnumber;
+	}
+	else
+	{
+		if ((east[roomnumber] == 0x00))
+		{
+			textoutput = 0x05;
+		}
+	
+	}
+	/*
+	if ((addr6994 != 0xFF))
+	{
+		Code4087();
+	}
+	*/
+
+
+//	alert(textoutput);
+
+}
+
+// ---------------------------------------------------
+
+function Parse(command)
+{
+
+//	alert(this.form.objects1.options[this.form.objects1.selectedIndex].value);
+//alert(this.form.Pizza.options[this.form.Pizza.selectedIndex].value)
+//	alert(document.forms["objects1"].selectedIndex);
+//	alert(document.objects1.selectedIndex);
+	
+	roomnumber = objectposition[OBJECTS.DAVE];
+	switch (command) 
+	{
+		case COMMAND.OST: ParseOST(); break;	
+		case COMMAND.SUED: ParseSUED(); break;	
+		case COMMAND.NORD: ParseNORD(); break;	
+		case COMMAND.WEST: ParseWEST(); break;	
+		case COMMAND.BETRACHTEN: ParseBETRACHTEN(); break;	
+		case COMMAND.DRUECKE: ParseDRUECKEN(); break;	
+		case COMMAND.NIMM: ParseNIMM(); break;	
+		case COMMAND.SPRICH: ParseSPRICH(); break;
+		case COMMAND.OEFFNE: ParseOEFFNE(); break;
+		case COMMAND.ENTRIEGELE: ParseENTRIEGELE(); break;
+		case COMMAND.WENDE: ParseWENDE(); break;
+		case COMMAND.VERLIERE: ParseVERLIERE(); break;
+			
+	}
+
+	WriteObject1();
+	WriteObject2();
+	WriteInventar();
+	WriteRichtungen();	
+	WriteTitle();
+
+	document.getElementById("text").innerHTML = text[textoutput-1];
+
+}
+
+function WriteInventar()
+{
+	var s;
+	
+	s = "Sie führen bei sich:<br>";
+
+	for(i=0; i<167; i++)
+	{
+		if (objectposition[i] == 0xFF)
+			s += objectnames[i] + "<br>";
+	
+	}
+	
+	document.getElementById("inventar").innerHTML = s;
+}
+
+function WriteTitle()
+{
+	roomnumber = objectposition[OBJECTS.DAVE];
+	document.getElementById("title").innerHTML = "<b>" + roomnames[roomnumber-1] + "</b>" + roomnumber;
+}
+
+function WriteRichtungen()
+{
+	var s;
+	
+	s = "Mögliche Richtungen:<br>";
+	roomnumber = objectposition[OBJECTS.DAVE];
+
+		if (north[roomnumber] != 0)
+			s += "NORDEN" + "<br>";
+		if (east[roomnumber] != 0)
+			s += "OSTEN" + "<br>";
+		if (west[roomnumber] != 0)
+			s += "WESTEN" + "<br>";
+		if (south[roomnumber] != 0)
+			s += "SÜDEN" + "<br>";
+	
+	document.getElementById("richtungen").innerHTML = s;
+}
+
+function WriteObject1()
+{
+
+	roomnumber = objectposition[OBJECTS.DAVE];
+
+	var s="";
+
+	s += "<form>";
+	s += "<select name=\"objects1\" size=\"10\" style=\"background-color:#000000; color:#FFFFFF;\" onchange=\"object1=this.options[this.selectedIndex].value \">";
+
+	for(i=0; i<167; i++)
+	{
+		if (objectposition[i] == roomnumber)
+			s += "   <option value=\"" + i + "\" >" + objectnames[i] + "</option>";
+	}
+	s+= "<option>---------------------------------</option>";
+	
+	for(i=0; i<167; i++)
+	{
+		if (objectposition[i] == 0xFF)
+			s += "   <option value=\"" + i + "\" >" + objectnames[i] + "</option>";
+	}
+
+	s += "</select>";
+	s += "</form>";
+
+	document.getElementById("object1").innerHTML = s;
+
+}
+
+function WriteObject2()
+{
+
+	roomnumber = objectposition[OBJECTS.DAVE];
+
+	var s="";
+
+	s += "<form>";
+	s += "<select name=\"objects1\" size=\"10\" style=\"background-color:#000000; color:#FFFFFF;\" onchange=\"object2=this.options[this.selectedIndex].value \">";
+
+	for(i=0; i<167; i++)
+	{
+		if (objectposition[i] == roomnumber)
+			s += "   <option value=\"" + i + "\" >" + objectnames[i] + "</option>";
+	}
+	s+= "<option>---------------------------------</option>";
+	
+	for(i=0; i<167; i++)
+	{
+		if (objectposition[i] == 0xFF)
+			s += "   <option value=\"" + i + "\" >" + objectnames[i] + "</option>";
+	}
+
+	s += "</select>";
+	s += "</form>";
+
+	document.getElementById("object2").innerHTML = s;
+
+}
+
+
+
+
+</script>
+
+</head>
+
+
+<body>
+
+<table>
+<tr>
+<td width="300">
+
+<div id="title"> 
+</div>
+
+
+<br>
+
+
+<div id="text"> 
+</div>
+
+</td>
+<td>
+
+<table><tr><td>
+Objekt1:
+<div id="object1"> 
+</div>
+</td><td>
+Objekt2:
+<div id="object2"> 
+</div>
+
+</td></tr>
+
+<tr><td>
+
+<a href="javascript:Parse(COMMAND.NORD)" >Nord</a>
+<a href="javascript:Parse(COMMAND.SUED)" >Sued</a>
+<a href="javascript:Parse(COMMAND.OST)">Ost</a>
+<a href="javascript:Parse(COMMAND.WEST)">West</a>
+<br>
+<a href="javascript:Parse(COMMAND.BETRACHTEN)">Betrachten</a>
+<br>
+<a href="javascript:Parse(COMMAND.DRUECKE)">Drücke</a>
+<br>
+<a href="javascript:Parse(COMMAND.NIMM)">Nimm</a>
+<br>
+<a href="javascript:Parse(COMMAND.SPRICH)">Sprich</a>
+<br>
+<a href="javascript:Parse(COMMAND.OEFFNE)">Öffne</a>
+<br>
+<a href="javascript:Parse(COMMAND.ENTRIEGELE)">Entriegele ... mit ...</a>
+<br>
+<a href="javascript:Parse(COMMAND.WENDE)">Wende .. an ...</a>
+<br>
+<a href="javascript:Parse(COMMAND.VERLIERE)">Verliere</a>
+<br>
+
+</td><td>
+
+<div id="inventar"> 
+</div>
+<br>
+<div id="richtungen"> 
+</div>
+
+</td></tr></table>
+
+
+
+
+</td>
+
+
+
+
+<script type="text/javascript">
+
+	objectposition[OBJECTS.DAVE] = 0x1;
+	WriteObject1();
+	WriteObject2();
+	WriteInventar();
+	WriteRichtungen();
+	WriteTitle();
+</script>
+
+
+
+
+
+</body>

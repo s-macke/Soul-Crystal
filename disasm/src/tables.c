@@ -1,0 +1,374 @@
+#ifndef TABLES_H
+#define TABLES_H
+
+typedef struct
+{
+  char ass[4];
+  unsigned char count, amode, op;
+} tcode2asm;
+
+#define OP_NONE		1
+#define OP_ADC		2
+#define OP_AND		3
+#define OP_ASL		4
+#define OP_BCC		5
+#define OP_BCS		6
+#define OP_BEQ		7
+#define OP_BIT		8
+#define OP_BMI		9
+#define OP_BNE		10
+#define OP_BPL		11
+#define OP_BRK		12
+#define OP_BVC		13
+#define OP_BVS		14
+#define OP_CLC		15
+#define OP_CLD		16
+#define OP_CLI		17
+#define OP_CLV		18
+#define OP_CMP		19
+#define OP_CPX		20
+#define OP_CPY		21
+#define OP_DEC		22
+#define OP_DEX		23
+#define OP_DEY		24
+#define OP_EOR		25
+#define OP_INC		26
+#define OP_INX		27
+#define OP_INY		28
+#define OP_JMP		29
+#define OP_JSR		30
+#define OP_LDA		31
+#define OP_LDX		32
+#define OP_LDY		33
+#define OP_LSR		34
+#define OP_NOP		35
+#define OP_ORA		36
+#define OP_PHA		37
+#define OP_PLA		38
+#define OP_PHP		39
+#define OP_PLP		40
+#define OP_ROL		41
+#define OP_ROR		42
+#define OP_RTI		43
+#define OP_RTS		44
+#define OP_SBC		45
+#define OP_SEC		46
+#define OP_SED		47
+#define OP_SEI		48
+#define OP_STA		49
+#define OP_STX		50
+#define OP_STY		51
+#define OP_TAX		52
+#define OP_TAY		53
+#define OP_TSX		54
+#define OP_TXA		55
+#define OP_TXS		56
+#define OP_TYA		57
+
+#define AMODE_IMP  1
+#define AMODE_ACC  2
+#define AMODE_ABS  3
+#define AMODE_ZP   4
+#define AMODE_IMM  5
+#define AMODE_ABSX 6
+#define AMODE_ABSY 7
+#define AMODE_INDX 8
+#define AMODE_INDY 9
+#define AMODE_ZPX  10
+#define AMODE_ZPY  11
+#define AMODE_REL  12
+#define AMODE_IND  13
+
+
+const tcode2asm opcodelist[]={
+//0x
+"BRK",7,AMODE_IMP,OP_BRK,         //0
+"ORA",6,AMODE_INDX,OP_ORA,
+"non",0,0,0,
+"non",8,0,0,
+"NOP",3,AMODE_ZP,OP_NOP,  //???
+"ORA",3,AMODE_ZP,OP_ORA,
+"ASL",5,AMODE_ZP,OP_ASL,
+"non",6,0,0,
+
+"PHP",3,AMODE_IMP,OP_PHP,       //8
+"ORA",2,AMODE_IMM,OP_ORA,
+"ASL",2,AMODE_ACC,OP_ASL,
+"non",2,0,0,
+"NOP",4,AMODE_ABS,OP_NOP,  //???
+"ORA",4,AMODE_ABS,OP_ORA,
+"ASL",6,AMODE_ABS,OP_ASL,
+"non",6,0,0,
+//1x
+"BPL",2,AMODE_REL,OP_BPL,         //16
+"ORA",5,AMODE_INDY,OP_ORA,
+"non",0,0,0,
+"non",8,0,0,
+"NOP",4,AMODE_ZPX,OP_NOP,  //???
+"ORA",4,AMODE_ZPX,OP_ORA,
+"ASL",6,AMODE_ZPX,OP_ASL,
+"non",6,0,0,
+
+"CLC",2,AMODE_IMP,OP_CLC,         //24
+"ORA",4,AMODE_ABSY,OP_ORA,
+"NOP",2,AMODE_IMP,OP_NOP,  //???
+"non",7,0,0,
+"NOP",4,AMODE_ABS,OP_NOP,  //???
+"ORA",4,AMODE_ABSX,OP_ORA,
+"ASL",7,AMODE_ABSX,OP_ASL,
+"non",7,0,0,
+//2x
+"JSR",6,AMODE_ABS,OP_JSR,     //32
+"AND",6,AMODE_INDX,OP_AND,
+"non",0,0,0,
+"non",8,0,0,
+"BIT",3,AMODE_ZP,OP_BIT,
+"AND",3,AMODE_ZP,OP_AND,
+"ROL",5,AMODE_ZP,OP_ROL,
+"non",5,0,0,
+
+"PLP",4,AMODE_IMP,OP_PLP,
+"AND",2,AMODE_IMM,OP_AND,
+"ROL",2,AMODE_ACC,OP_ROL,
+"non",2,0,0,
+"BIT",4,AMODE_ABS,OP_BIT,
+"AND",4,AMODE_ABS,OP_AND,
+"ROL",6,AMODE_ABS,OP_ROL,
+"non",6,0,0,
+//3x
+"BMI",2,AMODE_REL,OP_BMI,
+"AND",5,AMODE_INDY,OP_AND,
+"non",0,0,0,
+"non",8,0,0,
+"NOP",4,AMODE_ZPX,OP_NOP,  //???
+"AND",4,AMODE_ZPX,OP_AND,
+"ROL",6,AMODE_ZPX,OP_ROL,
+"non",6,0,0,
+
+"SEC",2,AMODE_IMP,OP_SEC,     //56
+"AND",4,AMODE_ABSY,OP_AND,
+"NOP",2,AMODE_IMP,OP_NOP,    //???
+"non",7,0,0,
+"NOP",4,AMODE_ABSX,OP_NOP,  //???
+"AND",4,AMODE_ABSX,OP_AND,
+"ROL",7,AMODE_ABSX,OP_ROL,
+"non",7,0,0,
+//4x
+"RTI",6,AMODE_IMP,OP_RTI,    //64
+"EOR",6,AMODE_INDX,OP_EOR,
+"non",0,0,0,
+"non",8,0,0,
+"NOP",3,AMODE_ZP,OP_NOP,  //???
+"EOR",3,AMODE_ZP,OP_EOR,
+"LSR",5,AMODE_ZP,OP_LSR,
+"non",5,0,0,
+
+"PHA",3,AMODE_IMP,OP_PHA,
+"EOR",2,AMODE_IMM,OP_EOR,
+"LSR",2,AMODE_ACC,OP_LSR,
+"non",2,0,0,
+"JMP",3,AMODE_ABS,OP_JMP,
+"EOR",4,AMODE_ABS,OP_EOR,
+"LSR",6,AMODE_ABS,OP_LSR,
+"non",6,0,0,
+//5x
+"BVC",2,AMODE_REL,OP_BVC,    //80
+"EOR",5,AMODE_INDY,OP_EOR,
+"non",0,0,0,
+"non",8,0,0,
+"NOP",4,AMODE_ZPX,OP_NOP,  //???
+"EOR",4,AMODE_ZPX,OP_EOR,
+"LSR",6,AMODE_ZPX,OP_LSR,
+"non",6,0,0,
+
+"CLI",2,AMODE_IMP,OP_CLI,   //88
+"EOR",4,AMODE_ABSY,OP_EOR,
+"NOP",2,AMODE_IMP,OP_NOP,   //???
+"non",7,0,0,
+"NOP",4,AMODE_ABSX,OP_NOP,  //???
+"EOR",4,AMODE_ABSX,OP_EOR,
+"LSR",7,AMODE_ABSX,OP_LSR,
+"non",7,0,0,
+//6x
+"RTS",6,AMODE_IMP,OP_RTS,     //96 0x60
+"ADC",6,AMODE_INDX,OP_ADC,
+"non",0,0,0,
+"non",8,0,0,
+"NOP",3,AMODE_ZP,OP_NOP,  //???
+"ADC",3,AMODE_ZP,OP_ADC,
+"ROR",5,AMODE_ZP,OP_ROR,
+"non",5,0,0,
+
+"PLA",4,AMODE_IMP,OP_PLA,  //104
+"ADC",2,AMODE_IMM,OP_ADC,
+"ROR",2,AMODE_ACC,OP_ROR,
+"non",2,0,0,
+"JMP",5,AMODE_IND,OP_JMP,
+"ADC",4,AMODE_ABS,OP_ADC,
+"ROR",6,AMODE_ABS,OP_ROR,
+"non",6,0,0,
+//7x
+"BVS",2,AMODE_REL,OP_BVS,   //112
+"ADC",5,AMODE_INDY,OP_ADC,
+"non",0,0,0,
+"non",8,0,0,
+"NOP",4,AMODE_ZPX,OP_NOP,  //???
+"ADC",4,AMODE_ZPX,OP_ADC,
+"ROR",6,AMODE_ZPX,OP_ROR,
+"non",6,0,0,
+
+"SEI",2,AMODE_IMP,OP_SEI,    //120
+"ADC",4,AMODE_ABSY,OP_ADC,
+"NOP",2,AMODE_IMP,OP_NOP,
+"non",7,0,0,
+"NOP",4,AMODE_ABSX,OP_NOP,  //???
+"ADC",4,AMODE_ABSX,OP_ADC,
+"ROR",7,AMODE_ABSX,OP_ROR,
+"non",7,0,0,
+//8x
+"NOP",2,AMODE_IMP,OP_NOP,
+"STA",6,AMODE_INDX,OP_STA,
+"NOP",2,AMODE_IMP,OP_NOP,
+"non",6,0,0,
+"STY",3,AMODE_ZP,OP_STY,
+"STA",3,AMODE_ZP,OP_STA,
+"STX",3,AMODE_ZP,OP_STX,
+"non",3,0,0,
+				//136
+"DEY",2,AMODE_IMP,OP_DEY,
+"NOP",2,AMODE_IMP,OP_NOP,
+"TXA",2,AMODE_IMP,OP_TXA,
+"non",2,0,0,
+"STY",4,AMODE_ABS,OP_STY,
+"STA",4,AMODE_ABS,OP_STA,
+"STX",4,AMODE_ABS,OP_STX,
+"non",4,0,0,
+//9x
+"BCC",2,AMODE_REL,OP_BCC,
+"STA",6,AMODE_INDY,OP_STA,
+"non",0,0,0,
+"non",6,0,0,
+"STY",4,AMODE_ZPX,OP_STY,
+"STA",4,AMODE_ZPX,OP_STA,
+"STX",4,AMODE_ZPY,OP_STX,
+"non",4,0,0,
+
+"TYA",2,AMODE_IMP,OP_TYA,
+"STA",5,AMODE_ABSY,OP_STA,
+"TXS",2,AMODE_IMP,OP_TXS,
+"non",5,0,0,
+"non",5,0,0,
+"STA",5,AMODE_ABSX,OP_STA,
+"non",5,0,0,
+"non",5,0,0,
+//Ax
+"LDY",2,AMODE_IMM,OP_LDY,
+"LDA",6,AMODE_INDX,OP_LDA,
+"LDX",2,AMODE_IMM,OP_LDX,
+"non",6,0,0,
+"LDY",3,AMODE_ZP,OP_LDY,
+"LDA",3,AMODE_ZP,OP_LDA,
+"LDX",3,AMODE_ZP,OP_LDX,
+"non",3,0,0,
+
+"TAY",2,AMODE_IMP,OP_TAY,
+"LDA",2,AMODE_IMM,OP_LDA,
+"TAX",2,AMODE_IMP,OP_TAX,
+"non",2,0,0,
+"LDY",4,AMODE_ABS,OP_LDY,
+"LDA",4,AMODE_ABS,OP_LDA,
+"LDX",4,AMODE_ABS,OP_LDX,
+"non",4,0,0,
+//Bx
+"BCS",2,AMODE_REL,OP_BCS,
+"LDA",5,AMODE_INDY,OP_LDA,
+"non",0,0,0,
+"non",5,0,0,
+"LDY",4,AMODE_ZPX,OP_LDY,
+"LDA",4,AMODE_ZPX,OP_LDA,
+"LDX",4,AMODE_ZPY,OP_LDX,
+"non",4,0,0,
+
+"CLV",2,AMODE_IMP,OP_CLV,
+"LDA",4,AMODE_ABSY,OP_LDA,
+"TSX",2,AMODE_IMP,OP_TSX,
+"non",4,0,0,
+"LDY",4,AMODE_ABSX,OP_LDY,
+"LDA",4,AMODE_ABSX,OP_LDA,
+"LDX",4,AMODE_ABSY,OP_LDX,
+"non",4,0,0,
+//Cx
+"CPY",2,AMODE_IMM,OP_CPY,
+"CMP",6,AMODE_INDX,OP_CMP,
+"NOP",2,AMODE_IMP,OP_NOP,
+"non",8,0,0,
+"CPY",3,AMODE_ZP,OP_CPY,
+"CMP",3,AMODE_ZP,OP_CMP,
+"DEC",5,AMODE_ZP,OP_DEC,
+"non",5,0,0,
+
+"INY",2,AMODE_IMP,OP_INY,
+"CMP",2,AMODE_IMM,OP_CMP,
+"DEX",2,AMODE_IMP,OP_DEX,
+"non",2,0,0,
+"CPY",4,AMODE_ABS,OP_CPY,
+"CMP",4,AMODE_ABS,OP_CMP,
+"DEC",6,AMODE_ABS,OP_DEC,
+"non",6,0,0,
+//Dx
+"BNE",2,AMODE_REL,OP_BNE,     //208
+"CMP",5,AMODE_INDY,OP_CMP,
+"non",0,0,0,
+"non",8,0,0,
+"NOP",4,AMODE_ZPX,OP_NOP,  //???
+"CMP",4,AMODE_ZPX,OP_CMP,
+"DEC",6,AMODE_ZPX,OP_DEC,
+"non",6,0,0,
+
+"CLD",2,AMODE_IMP,OP_CLD,     //216
+"CMP",4,AMODE_ABSY,OP_CMP,
+"NOP",2,AMODE_IMP,OP_NOP,
+"non",7,0,0,
+"NOP",4,AMODE_ABSX,OP_NOP,  //???
+"CMP",4,AMODE_ABSX,OP_CMP,
+"DEC",7,AMODE_ABSX,OP_DEC,
+"non",7,0,0,
+//Ex
+"CPX",2,AMODE_IMM,OP_CPX,      //224
+"SBC",6,AMODE_INDX,OP_SBC,
+"NOP",2,AMODE_IMP,OP_NOP,
+"non",8,0,0,
+"CPX",3,AMODE_ZP,OP_CPX,
+"SBC",3,AMODE_ZP,OP_SBC,
+"INC",5,AMODE_ZP,OP_INC,
+"non",5,0,0,
+
+"INX",2,AMODE_IMP,OP_INX,       //232
+"SBC",2,AMODE_IMM,OP_SBC,
+"NOP",2,AMODE_IMP,OP_NOP,
+"non",2,0,0,
+"CPX",4,AMODE_ABS,OP_CPX,
+"SBC",4,AMODE_ABS,OP_SBC,
+"INC",6,AMODE_ABS,OP_INC,
+"non",6,0,0,
+//Fx
+"BEQ",2,AMODE_REL,OP_BEQ,       // 240
+"SBC",5,AMODE_INDY,OP_SBC,
+"non",0,0,0,
+"non",8,0,0,
+"NOP",4,AMODE_ZPX,OP_NOP,  //???
+"SBC",4,AMODE_ZPX,OP_SBC,
+"INC",6,AMODE_ZPX,OP_INC,
+"non",6,0,0,
+
+"SED",2,AMODE_IMP,OP_SED,        //248
+"SBC",4,AMODE_ABSY,OP_SBC,
+"NOP",2,AMODE_IMP,OP_NOP,
+"non",7,0,0,
+"NOP",4,AMODE_ABSX,OP_NOP,  //???
+"SBC",4,AMODE_ABSX,OP_SBC,
+"INC",7,AMODE_ABSX,OP_INC,
+"non",7,0,0                       //255
+};
+
+#endif

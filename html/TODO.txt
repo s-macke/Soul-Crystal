@@ -1,0 +1,333 @@
+textoutput = 0x00
+if ((command == HINUNTER) || (command == OST) || (command == NORD) || (command == SUED) || (command == HINAUF) || (command == WEST))
+{
+	if ((roomnumber != 0x11))
+	{
+		//EF:  setting addr6992 to 1 or 0 ???0x64
+		Code305C();
+		if ((addr6992 == 0x01))
+		{
+			textoutput = 0x2E
+			goto mem7799;
+		}
+		else
+		{
+			//EF:  setting addr6992 to 1 or 0 ???0x65
+			Code31AB();
+			if ((addr6992 == 0x01))
+			{
+				//Command A7 at 7643
+				objectstatus[DAVE] = 0x64
+			}
+			
+		}
+		
+	}
+	
+}
+
+//EF:  setting addr6992 to 1 or 0 ???0x66
+Code324F();
+if ((addr6992 == 0x01))
+{
+	//EF:  setting addr6992 to 1 or 0 ???0x67
+	Code3317();
+	if ((addr6992 == 0x01))
+	{
+		if ((addr6963 == 0x01))
+		{
+			//EF:  setting addr6992 to 1 or 0 ???0x68
+			Code33DA();
+			if ((addr6992 == 0x01))
+			{
+				//Command A7 at 766E
+				objectstatus[DAVE] = objectstatus[DAVE] - 0x01
+			}
+			else
+			{
+				//Command A7 at 7678
+				objectstatus[DAVE] = 0x64
+			}
+			
+		}
+		else
+		{
+			if ((addr6963 == 0x02))
+			{
+			}
+			else
+			{
+				if ((addr6963 == 0x03))
+				{
+				}
+				else
+				{
+					if ((addr6963 == 0x04))
+					{
+					}
+					
+				}
+				
+			}
+			
+		}
+		
+		if ((objectstatus[DAVE] == 0x4B) || (objectstatus[DAVE] == 0x32) || (objectstatus[DAVE] == 0x19))
+		{
+			textoutput = 0x30
+			//Command E8 at 76B2
+			Code3C02(); // stelle text dar
+			//Command EE at 76B3
+			CodeCDB()
+			textoutput = 0x00
+			goto mem76E0;
+		}
+		else
+		{
+			if ((objectstatus[DAVE] <= 0x00))
+			{
+				//Command 94 at 76C4
+				addr6994 = 0x81
+				//Command A6 at 76C8
+				objectposition[DAVE] = 0xFF
+				//Command EB at 76CE
+				Code4087()
+				textoutput = 0x31
+				//Command E8 at 76D3
+				Code3C02(); // stelle text dar
+				//Command EE at 76D4
+				CodeCDB()
+				textoutput = 0x00
+				goto mem77D7;
+			}
+			
+		}
+		
+	}
+	
+}
+
+
+mem76E0:
+switch(command)
+ case 1: gosub mem77D8
+ case 2: gosub mem77DD
+ case 3: gosub mem77F1
+ case 4: gosub mem77F6
+ case 5: gosub mem780E
+ case 6: gosub mem783D
+ case 7: gosub mem786C
+ case 8: gosub mem7870
+ case 9: gosub mem7874
+ case 10: gosub mem7878
+ case 11: gosub mem787F
+ case 12: gosub mem7942
+ case 13: gosub mem7946
+
+mem7709ret:
+if ((textoutput != 0x00))
+{
+	goto mem7799;
+}
+
+//Command 93 at 7713
+addr6992 = command - NEUSTART
+switch(addr6992)
+ case 1: gosub mem794A
+ case 2: gosub mem794E
+ case 3: gosub mem7953
+ case 4: gosub mem7957
+ case 5: gosub mem795F
+ case 6: gosub mem7967
+ case 7: gosub mem79BC
+ case 8: gosub mem79C0
+ case 9: gosub mem79EF
+ case 10: gosub mem7A03
+ case 11: gosub mem7A08
+ case 12: gosub mem7AAA
+ case 13: gosub mem7AAB
+
+mem7741ret:
+if ((textoutput != 0x00))
+{
+	goto mem7799;
+}
+
+//Command 93 at 774B
+addr6992 = command - NIX2
+switch(addr6992)
+ case 1: gosub mem7AAC
+ case 2: gosub mem7B39
+ case 3: gosub mem7B81
+ case 4: gosub mem7C02
+ case 5: gosub mem7C25
+ case 6: gosub mem7CDB
+ case 7: gosub mem7D98
+ case 8: gosub mem7D9D
+ case 9: gosub mem7DA2
+ case 10: gosub mem7E52
+ case 11: gosub mem7E58
+
+mem7773ret:
+if ((textoutput != 0x00))
+{
+	goto mem7799;
+}
+
+//Command 93 at 777D
+addr6992 = command - DRUECKE
+switch(addr6992)
+ case 1: gosub mem7EBD
+ case 2: gosub mem7F2D
+ case 3: gosub mem7FDA
+ case 4: gosub mem8108
+ case 5: gosub mem810D
+ case 6: gosub mem8112
+ case 7: gosub mem81B5
+
+mem7799:
+
+mem7799ret:
+if ((objectposition[DAVE] != 0xFF))
+{
+	if ((addr6963 == 0x02))
+	{
+	}
+	
+	if ((addr6963 == 0x03))
+	{
+	}
+	
+	if ((addr6963 == 0x04))
+	{
+	}
+	
+}
+
+if ((command != INVENTAR) && (command != AUSGAENGE) && (command != LADEN) && (command != SPEICHERN) && (command != DISKETTEINSTALLIEREN))
+{
+	//Command 91 at 77D1
+	addr698E = addr698E + 0x01
+}
+
+
+mem77D7:
+return; //from sub
+
+
+
+
+mem786C:
+//EF:  setting addr6992 to 1 or 0 ???0x08
+Code36B3() //jump
+return; //from sub
+
+mem7870:
+//EF:  setting addr6992 to 1 or 0 ???0x09
+Code36B3() //jump
+return; //from sub
+
+mem7874:
+//EF:  setting addr6992 to 1 or 0 ???0x0A
+Code36B3() //jump
+return; //from sub
+//Command A8 at 7878
+
+mem7878:
+visited[roomnumber] = 0x00
+//Command ED at 787D
+Code2E5B()
+return; //from sub
+
+
+mem7942:
+//EF:  setting addr6992 to 1 or 0 ???0x05
+Code36B3() //jump
+return; //from sub
+
+mem7946:
+//EF:  setting addr6992 to 1 or 0 ???0x04
+Code36B3() //jump
+return; //from sub
+
+mem794A:
+//EF:  setting addr6992 to 1 or 0 ???0x02
+Code36B3() //jump
+return; //from sub
+
+mem794E:
+textoutput = 0x01
+return; //from sub
+
+mem7953:
+//EF:  setting addr6992 to 1 or 0 ???0x06
+Code36B3() //jump
+return; //from sub
+//Command 93 at 7957
+
+mem7957:
+addr6992 = 0x00
+//EF:  setting addr6992 to 1 or 0 ???0x07
+Code36B3() //jump
+return; //from sub
+//Command 93 at 795F
+
+mem795F:
+addr6992 = 0x01
+//EF:  setting addr6992 to 1 or 0 ???0x08
+Code36B3() //jump
+return; //from sub
+//Command 94 at 7967
+
+
+mem79BC:
+//EF:  setting addr6992 to 1 or 0 ???0x03
+Code36B3() //jump
+return; //from sub
+//Command 94 at 79C0
+
+
+mem7A03:
+textoutput = 0x36
+return; //from sub
+//Command 94 at 7A08
+
+
+
+mem7AA9:
+return; //from sub
+
+mem7AAA:
+return; //from sub
+
+mem7AAB:
+return; //from sub
+//Command E6 at 7AAC
+
+
+
+
+mem7C02:
+
+
+
+mem7D98:
+textoutput = 0x55
+return; //from sub
+
+mem7D9D:
+textoutput = 0x10
+return; //from sub
+
+
+mem7E52:
+textoutput = 0x0258
+return; //from sub
+
+
+
+
+
+
+
+

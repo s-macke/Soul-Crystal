@@ -1,0 +1,970 @@
+
+
+var COMMAND = 
+{
+	UEBERSOULCRYSTAL : 0x1,
+	KURZTEXT : 0x2,
+	CREDITS : 0x3,
+	GRABE : 0x4,
+	HINUNTER : 0x5,
+	OST : 0x6,
+	AUSGAENGE : 0x7,
+	DISKETTEINSTALLIEREN : 0x8,
+	INVENTAR : 0x9,
+	SCHAU : 0xA,
+	NORD : 0xB,
+	SPIELENDE : 0xC,
+	NEUSTART : 0xD,
+	LADEN : 0xE,
+	PUNKTE : 0xF,
+	LOESUNG : 0x10,
+	MUSIKEIN : 0x11,
+	AUSGAENGE12 : 0x12,
+	SUED : 0x13,
+	SPEICHERN : 0x14,
+	HINAUF : 0x15,
+	AUSFUEHRLICH : 0x16,
+	WARTE : 0x17,
+	WEST : 0x18,
+	NIX1 : 0x19,
+	NIX2 : 0x1A,
+	SCHLIESSE : 0x1B,
+	ZERSTOERE : 0x1C,
+	VERLIERE : 0x1D,
+	BETRITT : 0x1E,
+	BETRACHTE : 0x1F,
+	HILF : 0x20,
+	VERLASSE : 0x21,
+	BEWEGE : 0x22,
+	OEFFNE : 0x23,
+	ZIEHE : 0x24,
+	DRUECKE : 0x25,
+	NIMM : 0x26,
+	SPRICH : 0x27,
+	WENDE : 0x28,
+	BEFESTIGE : 0x29,
+	GIB : 0x2A,
+	VERRIEGELE : 0x2B,
+	ENTRIEGELE : 0x2C
+}
+
+var OBJECTS =
+{
+UNKNOWN1 : 0x0,
+ABENTEURER : 0x1,
+STEINALTAR : 0x2,
+AMULETT : 0x3,
+DACHSSCHLITTEN : 0x4,
+LEDERSOECKCHEN : 0x5,
+FASS : 0x6,
+GAESTEBETT : 0x7,
+BETT1 : 0x8,
+BETT2 : 0x9,
+BETTZEUG : 0xA,
+BIENENSTOCK : 0xB,
+KLINGEL : 0xC,
+BLUT : 0xD,
+WASSER : 0xE,
+BOOT : 0xF,
+KAHN : 0x10,
+BOOTSSCHLUESSEL : 0x11,
+BUECHERREGALE : 0x12,
+BUECHER : 0x13,
+FELLSTIEFEL : 0x14,
+WEISSBROTSCHEIBE : 0x15,
+ZIEGELSTEIN : 0x16,
+PROSPEKT : 0x17,
+STUHL : 0x18,
+TRUHE : 0x19,
+ORKKIND : 0x1A,
+FEUERSTELLE : 0x1B,
+KAMIN : 0x1C,
+CODENUMMER : 0x1D,
+SAERGE : 0x1E,
+SILBERMUENZEN : 0x1F,
+VERTRAG : 0x20,
+KADAVER : 0x21,
+KRONE : 0x22,
+KRISTALL : 0x23,
+KRISTALLKUGEL : 0x24,
+CUmATH : 0x25,
+SAMTVORHANG : 0x26,
+SCHACHT : 0x27,
+SCHREIBTISCH1 : 0x28,
+TRESEN : 0x29,
+STUDIERTISCH : 0x2A,
+SCHREIBTISCH2 : 0x2B,
+MARMORTISCH : 0x2C,
+TAGEBUCH : 0x2D,
+GESCHIRR : 0x2E,
+HUNDESCHLITTEN : 0x2F,
+ZIMMERTUER1 : 0x30,
+ZIMMERTUER2 : 0x31,
+HOLZTUER : 0x32,
+EICHENTUER : 0x33,
+TUERKLINKE : 0x34,
+SCHUBLADEN : 0x35,
+EREMIT : 0x36,
+ORKFRAU : 0x37,
+FAEHRMANN : 0x38,
+PURPURFEUER : 0x39,
+FIRON : 0x3A,
+EISSCHLUESSEL : 0x3B,
+WEIHWASSERBECKEN : 0x3C,
+IEEEEEEEEE : 0x3D,
+SPEISEN : 0x3E,
+HIMMELBETT : 0x3F,
+HAUSTUER : 0x40,
+FRIEDHOFSTOR1 : 0x41,
+FRIEDHOFSTOR2 : 0x42,
+GRAB : 0x43,
+GRABSTEIN : 0x44,
+KRAEUTER : 0x45,
+ERDLOCH : 0x46,
+HONIG : 0x47,
+HOTEL : 0x48,
+EISPALAST : 0x49,
+PORTIER : 0x4A,
+EISENSCHLUESSEL : 0x4B,
+JACKSGEIST : 0x4C,
+JEANS : 0x4D,
+KESSEL : 0x4E,
+KOENIG : 0x4F,
+MESSER : 0x50,
+LABORTUER : 0x51,
+LABORSCHLUESSEL : 0x52,
+BOOTSSTEG : 0x53,
+TORSCHLUESSEL : 0x54,
+FALLGITTER1 : 0x55,
+FALLGITTER2 : 0x56,
+GITTERTUER1 : 0x57,
+GITTERTUER2 : 0x58,
+BRIEF : 0x59,
+ZAUBERTUER : 0x5A,
+ORKMANN : 0x5B,
+LAGEPLAN : 0x5C,
+GRABPLATTE : 0x5D,
+SPEISEKARTE : 0x5E,
+VOLLMOND : 0x5F,
+MUMIEN : 0x60,
+MYLGOR : 0x61,
+DORFBEWOHNER : 0x62,
+NORDTUER : 0x63,
+NOTIZ : 0x64,
+ZETTEL : 0x65,
+GEMAELDE1 : 0x66,
+GEMAELDE2 : 0x67,
+PAPIER : 0x68,
+DRUDENFUSS1 : 0x69,
+DRUDENFUSS2 : 0x6A,
+PARFUEM : 0x6B,
+PFEIFE : 0x6C,
+PLATTFORM : 0x6D,
+RATTENGIFT : 0x6E,
+PORTALTOR1 : 0x6F,
+PORTALTOR2 : 0x70,
+ELIXIER : 0x71,
+GEBET : 0x72,
+RATTEN : 0x73,
+REAGENZIEN : 0x74,
+ZIMMERSCHLUESSEL : 0x75,
+TRESOR : 0x76,
+SARKOPHAG : 0x77,
+UNKNOWN2 : 0x78,
+SCHMIEREREIEN : 0x79,
+VERKAEUFER : 0x7A,
+VORRATSREGALE : 0x7B,
+BUECHERWAND : 0x7C,
+BAUMWOLLHEMD : 0x7D,
+TURNSCHUHE : 0x7E,
+SCHAUFEL : 0x7F,
+HINWEISSCHILD : 0x80,
+WARNSCHILD : 0x81,
+SILBER : 0x82,
+SKELETT1 : 0x83,
+SKELETT2 : 0x84,
+TOTENSCHAEDEL : 0x85,
+HIMMEL : 0x86,
+SLOT : 0x87,
+ZAUBERSPRUCH : 0x88,
+QUELLE : 0x89,
+KRIEGERSTATUE : 0x8A,
+STAHLTUER1 : 0x8B,
+STAHLTUER2 : 0x8C,
+STAHLTUER3 : 0x8D,
+KURZSCHWERT : 0x8E,
+TSHIRT : 0x8F,
+TISCH : 0x90,
+ESSTISCH1 : 0x91,
+ESSTISCH2 : 0x92,
+PURPURMANTEL : 0x93,
+HOSE : 0x94,
+BAUMSTAMM1 : 0x95,
+BAUMSTAMM2 : 0x96,
+BADEHOSE : 0x97,
+EINHORN : 0x98,
+KAYSSCHLUESSEL : 0x99,
+KLEIDERSCHRANK : 0x9A,
+WEIHWASSER : 0x9B,
+WASSERFALL1 : 0x9C,
+WASSERFALL2 : 0x9D,
+WAFFEN : 0x9E,
+WERWOLF : 0x9F,
+WESTTUER : 0xA0,
+WOLF : 0xA1,
+YETI : 0xA2,
+DAVE : 0xA3,
+ZARGON : 0xA4
+}
+
+
+roomnames = new Array(
+"[Im Gästezimmer]",
+"[In der Lobby]",
+"[Auf der Straße]",
+"[Auf der Straße]",
+"[In dem Korridor]",
+"[An der Rezeption]",
+"[Im Strudel]",
+"[Am Ufer des Bergsees]",
+"[Im Eßzimmer]",
+"[Im See]",
+"[Im See]",
+"[Vor dem Wasserfall]",
+"[Hinter dem Wasserfall]",
+"[Am Ufer]",
+"[Auf einer Lichtung]",
+"[In Mylgors Studierzimmer]",
+"[Im Dienerschlafzimmer]",
+"[In der Orkhöhle]",
+"[Im Kaminzimmer]",
+"[Auf einer Lichtung]",
+"[Auf einem Hügel]",
+"[Vor Mylgors Haus]",
+"[Auf dem Marktplatz]",
+"[Auf einem Pfad]",
+"[Im tiefen Wald]",
+"[Auf einem schneebedeckten Berg]",
+"[Im 'Equipment Shoppe']",
+"[Auf dem Pfad]",
+"[Auf einem Hügel]",
+"[In einem schneebedeckten Tal]",
+"[Vor einer alten Zwergmine]",
+"[Auf einem Hügel]",
+"[Vor einem verfallenen Kloster]",
+"[Vor Firons Eispalast]",
+"[In der Eiswüste]",
+"[In einem verschütteten Gang]",
+"[In der ehemaligen Münze]",
+"[Im Klostergarten]",
+"[Im Speisesaal des Klosters]",
+"[In Firons Thronsaal]",
+"[In einem Gletscher]",
+"[Vor einer Gruft]",
+"[Auf dem Friedhof]",
+"[In der Klosterschmiede]",
+"[In der Königsgruft]",
+"[In der kleinen Kapelle]",
+"[In Mylgors Schlafzimmer]",
+"[In einem kurzen Korridor]",
+"[In Mylgors Geheimlabor]",
+"[In einer kleinen, dunklen Krypta]",
+"[In einem verwunschenen Wald]",
+"[In einem verwunschenen Wald]",
+"[Im Sumpf]",
+"[Am Ufer eines sumpfigen Sees]",
+"[Im Sumpfsee]",
+"[Im Treibsand]",
+"[Am Ufer des sumpfigen Sees]",
+"[In der Hütte des Eremiten]",
+"[Auf einer Lichtung]",
+"[Auf einem bewaldeten Hügel]",
+"[Im Moor]",
+"[Im Moor]",
+"[Vor Zargons Burgruine]",
+"[Im Torhaus]",
+"[Unter dem Torbogen]",
+"[Im Schloßgarten]",
+"[Auf dem Burghof]",
+"[In den Ställen]",
+"[In der Empfangshalle]",
+"[Im oberen Treppenhaus]",
+"[In der Schloßgalerie]",
+"[Im Vorratsraum]",
+"[In der Schloßküche]",
+"[Im Speisesaal]",
+"[Im Küchengarten]",
+"[Auf dem Dach des Hauptturmes]",
+"[Im Haus des Turmwächters]",
+"[In einem dunklen Schacht]",
+"[In einer Verlieszelle]",
+"[Im Amtszimmer des Torwächters]",
+"[Im Zimmer des Dungeon Masters]",
+"[Im unteren Treppenhaus]",
+"[In der Waffenkammer]",
+"[In einer dunklen Halle]",
+"[Im Weinkeller]",
+"[In einem Korridor]",
+"[In einem finsteren Gruftgewölbe]",
+"[In Zargons Schlafgemach]",
+"[In einer Schwarzen Bibliothek]",
+"[In Zargons Wohngemach]",
+"[In einem Altarraum]",
+"[In Zargons Studierzimmer]",
+"[In Zargons Mysterium]",
+"[In der Hütte des Torwächters]",
+"[In der Hütte des Fährmanns]",
+"[Am Ufer eines unterirdischen Sees]",
+"[Auf einer kleinen Insel]",
+"[In einem Höhlentunnel]",
+"[An einer unterirdischen Quelle]",
+"[Im Thronsaal des Buthakönigs]",
+"[In der Höhle des Cu-Saths]",
+"[In einem Höhlentunnel]",
+"[In einer Wohnhöhle]"
+)
+
+objectnames = new Array(
+"UNKNOWN1",
+"ABENTEURER",
+"STEINALTAR",
+"AMULETT",
+"DACHSSCHLITTEN",
+"LEDERSOECKCHEN",
+"FASS",
+"GAESTEBETT",
+"BETT1",
+"BETT2",
+"BETTZEUG",
+"BIENENSTOCK",
+"KLINGEL",
+"BLUT",
+"WASSER",
+"BOOT",
+"KAHN",
+"BOOTSSCHLUESSEL",
+"BUECHERREGALE",
+"BUECHER",
+"FELLSTIEFEL",
+"WEISSBROTSCHEIBE",
+"ZIEGELSTEIN",
+"PROSPEKT",
+"STUHL",
+"TRUHE",
+"ORKKIND",
+"FEUERSTELLE",
+"KAMIN",
+"CODENUMMER",
+"SAERGE",
+"SILBERMUENZEN",
+"VERTRAG",
+"KADAVER",
+"KRONE",
+"KRISTALL",
+"KRISTALLKUGEL",
+"CUmATH",
+"SAMTVORHANG",
+"SCHACHT",
+"SCHREIBTISCH",
+"TRESEN",
+"STUDIERTISCH",
+"SCHREIBTISCH",
+"MARMORTISCH",
+"TAGEBUCH",
+"GESCHIRR",
+"HUNDESCHLITTEN",
+"ZIMMERTUER",
+"ZIMMERTUER",
+"HOLZTUER",
+"EICHENTUER",
+"TUERKLINKE",
+"SCHUBLADEN",
+"EREMIT",
+"ORKFRAU",
+"FAEHRMANN",
+"PURPURFEUER",
+"FIRON",
+"EISSCHLUESSEL",
+"WEIHWASSERBECKEN",
+"IEEEEEEEEE",
+"SPEISEN",
+"HIMMELBETT",
+"HAUSTUER",
+"FRIEDHOFSTOR",
+"FRIEDHOFSTOR",
+"GRAB",
+"GRABSTEIN",
+"KRAEUTER",
+"ERDLOCH",
+"HONIG",
+"HOTEL",
+"EISPALAST",
+"PORTIER",
+"EISENSCHLUESSEL",
+"JACKSGEIST",
+"JEANS",
+"KESSEL",
+"KOENIG",
+"MESSER",
+"LABORTUER",
+"LABORSCHLUESSEL",
+"BOOTSSTEG",
+"TORSCHLUESSEL",
+"FALLGITTER",
+"FALLGITTER",
+"GITTERTUER",
+"GITTERTUER",
+"BRIEF",
+"ZAUBERTUER",
+"ORKMANN",
+"LAGEPLAN",
+"GRABPLATTE",
+"SPEISEKARTE",
+"VOLLMOND",
+"MUMIEN",
+"MYLGOR",
+"DORFBEWOHNER",
+"NORDTUER",
+"NOTIZ",
+"ZETTEL",
+"GEMAELDE",
+"GEMAELDE",
+"PAPIER",
+"DRUDENFUSS",
+"DRUDENFUSS",
+"PARFUEM",
+"PFEIFE",
+"PLATTFORM",
+"RATTENGIFT",
+"PORTALTOR",
+"PORTALTOR",
+"ELIXIER",
+"GEBET",
+"RATTEN",
+"REAGENZIEN",
+"ZIMMERSCHLUESSEL",
+"TRESOR",
+"SARKOPHAG",
+"UNKNOWN2",
+"SCHMIEREREIEN",
+"VERKAEUFER",
+"VORRATSREGALE",
+"BUECHERWAND",
+"BAUMWOLLHEMD",
+"TURNSCHUHE",
+"SCHAUFEL",
+"HINWEISSCHILD",
+"WARNSCHILD",
+"SILBER",
+"SKELETT",
+"SKELETT",
+"TOTENSCHAEDEL",
+"HIMMEL",
+"SLOT",
+"ZAUBERSPRUCH",
+"QUELLE",
+"KRIEGERSTATUE",
+"STAHLTUER",
+"STAHLTUER",
+"STAHLTUER",
+"KURZSCHWERT",
+"TSHIRT",
+"TISCH",
+"ESSTISCH1",
+"ESSTISCH2",
+"PURPURMANTEL",
+"HOSE",
+"BAUMSTAMM",
+"BAUMSTAMM",
+"BADEHOSE",
+"EINHORN",
+"KAYSSCHLUESSEL",
+"KLEIDERSCHRANK",
+"WEIHWASSER",
+"WASSERFALL",
+"WASSERFALL",
+"WAFFEN",
+"WERWOLF",
+"WESTTUER",
+"WOLF",
+"YETI",
+"DAVE",
+"ZARGON"
+)
+
+// object1 and object2
+canunlock = new Array(
+0x10, 0x11,
+0x30, 0x75,
+0x31, 0x75, 
+0x41, 0x3B, 
+0x42, 0x3B, 
+0x51, 0x52, 
+0x57, 0x99, 
+0x58, 0x99, 
+0x6F, 0x54,  
+0x8B, 0x52, 
+0x8C, 0x4B, 
+0x8D, 0x4B
+)
+
+//object index and textindex
+cantalk = new Array(
+0x36, 0x5B, 
+0x37, 0x138, 
+0x5B, 0x141, 
+0x2, 0x134, 
+0x4c, 0x5a, 
+0x4f, 0x5a, 
+0x60, 0x5a, 
+0x83, 0x5a, 
+0x84, 0x5a, 
+0x85, 0x5a, 
+0x9f, 0x5a, 
+0xa5, 0x5a, 
+0x01, 0x22A, 
+0x25, 0x22b, 
+0xa4, 0x22d
+);
+
+// object index, direction (1=nord, 2=sued, 3=west, 4=ost), 
+canopen = new Array(
+0x05, 0x07, 0x00,
+0x06, 0x03, 0x54, 
+0x17, 0x07, 0x00, 
+0x1E, 0x00, 0x00, 
+0x2D, 0x07, 0x00, 
+0x30, 0x01, 0x05, 
+0x31, 0x02, 0x01, 
+0x32, 0x02, 0x13, 
+0x33, 0x07, 0x00, 
+0x35, 0x07, 0x00, 
+0x40, 0x01, 0x16, 
+0x41, 0x01, 0x2B, 
+0x42, 0x02, 0x26, 
+0x51, 0x01, 0x31, 
+0x57, 0x01, 0x51, 
+0x58, 0x02, 0x4F,
+0x5A, 0x04, 0x11, 
+0x63, 0x01, 0x13, 
+0x6F, 0x01, 0x43, 
+0x70, 0x00, 0x00, 
+0x76, 0x00, 0x00, 
+0x77, 0x07, 0x00, 
+0x8B, 0x02, 0x21, 
+0x8C, 0x04, 0x50, 
+0x8D, 0x03, 0x4F, 
+0x9A, 0x07, 0x00, 
+0xA0, 0x03, 0x10
+)
+
+
+cantake = new Array(
+0x03, 0x05, 0x11, 0x14, 0x15, 0x16, 0x17, 0x1f, 0x20, 0x22,
+0x24, 0x2d, 0x3b, 0x3e, 0x47, 0x4b, 0x4d, 0x50, 0x52, 0x54, 
+0x5c, 0x64, 0x65, 0x68, 0x6b, 0x6c, 0x6e, 0x71, 0x75, 0x78, 
+0x7d, 0x7e, 0x7f, 0x85, 0x8e, 0x8f, 0x93, 0x94, 0x97, 0x99
+)
+
+
+visited = new Array(
+ 0x00,0x00,0x01,0x01,0x00,0x01,0x01,0x00,0x00,0x01,0x00,0x00,0x00,0x00,0x00,0x00
+,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
+,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
+,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
+,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
+,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
+,0x00,0x00,0x00,0x00,0x00,0x00,0x00
+)
+
+points = new Array(
+  0x0000, 0x0000, 0x0005, 0x000F, 0x0000, 0x0000, 0x000F, 0x0000, 0x000F, 0x0000, 0x0000, 0x0019, 0x0000, 0x0014, 0x0000, 0x0005
+, 0x0014, 0x0000, 0x0000, 0x0000, 0x0014, 0x0000, 0x0032, 0x0005, 0x0000, 0x0005, 0x0014, 0x0000, 0x0032, 0x0000, 0x0014, 0x0005
+, 0x0064, 0x0000, 0x0000, 0x0320, 0x0005, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0005, 0x0000, 0x0000, 0x0005, 0x0000, 0x000F
+, 0x0000, 0x0005, 0x0000, 0x0000, 0x0032, 0x0000, 0x0000, 0x0000, 0x0000, 0x0064, 0x0000, 0x0000, 0x0014, 0x0000, 0x0000, 0x0000
+, 0x000A, 0x000F, 0x0000, 0x0000, 0x0000, 0x0005, 0x0000, 0x0005, 0x0000, 0x0000, 0x0000, 0x0000, 0x000F, 0x0000, 0x0032, 0x000F
+, 0x0014, 0x0032, 0x0005, 0x002D, 0x0000, 0x0000, 0x0000, 0x0005, 0x0000, 0x0005, 0x0014, 0x0000, 0x0000, 0x0005, 0x0005, 0x0032
+, 0x0000, 0x0000, 0x0005, 0x0000, 0x0005, 0x0005, 0x0000, 0x0000, 0x0014, 0x0000, 0x0000, 0x000F, 0x0064, 0x0000, 0x0019, 0x0005
+, 0x0000, 0x000A, 0x0064, 0x0019, 0x0032, 0x0005, 0x0014, 0x0005, 0x0005, 0x0005, 0x0000, 0x0000, 0x0032, 0x0000, 0x0000, 0x0000
+, 0x0000, 0x0000, 0x0014, 0x002D, 0x0000, 0x000F, 0x0000, 0x0320, 0x0014, 0x0000, 0x0032, 0x0000, 0x000F, 0x0000, 0x0005, 0x0000
+, 0x0000, 0x0000, 0x0000, 0x000F, 0x0000, 0x0000, 0x0000, 0x0005, 0x000F, 0x0000, 0x0000, 0x002D, 0x0005, 0x0000, 0x0000, 0x0064
+, 0x0000, 0x0000, 0x0019, 0x0000, 0x0000, 0x0000, 0x4400, 0x002E, 0x0000, 0x0155, 0x2F11, 0x1900, 0x0000, 0x3600, 0x0060, 0x005C
+, 0x4900, 0x003B, 0x4401, 0x1214, 0x0013, 0x2557, 0x0000, 0x5D00, 0x6500, 0x4354, 0x0601, 0x4D10, 0x005C, 0x0000, 0x0501, 0x5616
+, 0x0000, 0x123A, 0x5B5F, 0x0028, 0x5B2E, 0x5800, 0x2613, 0x2B2B, 0x4B2B, 0x0018, 0x2203, 0x5E00, 0xFF00, 0x005D, 0x3000, 0x6100
+, 0x3F40, 0x4F41, 0x0051, 0x1210, 0x3267, 0x0000, 0x0000, 0x1109, 0x0000, 0x5847, 0x5700, 0x675D, 0x0000, 0x4127, 0x0043, 0x4900
+, 0x0031, 0x2D5A, 0x4F00, 0x481B, 0x0059, 0x24FF, 0x6303, 0x0025, 0x004F, 0x514C, 0x6300, 0x3153, 0x504F, 0xFF2C, 0x4A12, 0x6409
+, 0x1D00, 0x0020, 0x510F, 0x0001, 0x0D0C, 0x0053, 0x0F11, 0x0922, 0x3E5D, 0x0000, 0x0000, 0x0200, 0x0002, 0x0000, 0x0000, 0x0000
+, 0x0000, 0x0000, 0x0000, 0x0000, 0x0200, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0200
+, 0x0000, 0x0001, 0x0000, 0x0200, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0100
+, 0x0000, 0x0200, 0x0000, 0x0200, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000
+, 0x0000, 0x0000, 0x0000, 0x0000, 0x0200, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000
+, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0002, 0x0000, 0x0000, 0x0000, 0x6400, 0x0000, 0x0500, 0x0006, 0x0008, 0x0009
+, 0x000B, 0x000C, 0x000D, 0x000F, 0x0000, 0x0014, 0x1800, 0x1C00, 0x001D, 0x001E, 0x2000, 0x2523, 0x2700, 0x2900, 0x0000, 0x2C00
+, 0x0000, 0x2E2D, 0x0000, 0x0000, 0x0000, 0x0000, 0x3635
+)
+
+objectdescription = new Array(
+  0x0000, 0x01D1, 0x00F1, 0x0042, 0x00F2, 0x01D3, 0x01D4, 0x007D, 0x00F3, 0x00F4, 0x01D5, 0x00F5, 0x007E, 0x00F7, 0x01D6, 0x017B
+, 0x01D7, 0x01D8, 0x0207, 0x01D9, 0x0043, 0x01DA, 0x017C, 0x007F, 0x0081, 0x01DC, 0x00F8, 0x00F9, 0x00FA, 0x01DD, 0x01DE, 0x00FB
+, 0x00FC, 0x01E0, 0x01E1, 0x01E2, 0x0044, 0x01E3, 0x01E4, 0x01E5, 0x0082, 0x0083, 0x00FD, 0x01E6, 0x01E7, 0x01E8, 0x01EA, 0x00FE
+, 0x0085, 0x0084, 0x00FF, 0x01EB, 0x01EC, 0x0103, 0x017D, 0x0104, 0x01ED, 0x01EE, 0x0105, 0x0045, 0x0046, 0x0046, 0x01EF, 0x01F0
+, 0x0100, 0x0106, 0x0106, 0x0107, 0x0108, 0x01F1, 0x0109, 0x010A, 0x0086, 0x010B, 0x0087, 0x01F2, 0x010C, 0x0088, 0x01F3, 0x010D
+, 0x010E, 0x010F, 0x0047, 0x01F4, 0x017E, 0x017F, 0x017F, 0x01F5, 0x01F5, 0x01F6, 0x0101, 0x0110, 0x01F7, 0x0111, 0x0089, 0x01F9
+, 0x01FA, 0x0112, 0x008A, 0x0113, 0x0048, 0x01FB, 0x01FC, 0x01FC, 0x01FD, 0x01FE, 0x01FE, 0x01FF, 0x004A, 0x0180, 0x004B, 0x0049
+, 0x0200, 0x0114, 0x0115, 0x0201, 0x0116, 0x008B, 0x0202, 0x0117, 0x0204, 0x0205, 0x0118, 0x0206, 0x0207, 0x004C, 0x008C, 0x0050
+, 0x008D, 0x0208, 0x0119, 0x011A, 0x0209, 0x011B, 0x020A, 0x020B, 0x011C, 0x020C, 0x020D, 0x010F, 0x020E, 0x020E, 0x011D, 0x008F
+, 0x0120, 0x020F, 0x008E, 0x0210, 0x004E, 0x0121, 0x0121, 0x004F, 0x0091, 0x0211, 0x0092, 0x0212, 0x0093, 0x0094, 0x0213, 0x00EE
+, 0x0101, 0x0095, 0x0124, 0x0051, 0x0214, 0x0175, 0x0000, 0x0000, 0x0005, 0x000F, 0x0000, 0x0000, 0x000F, 0x0000, 0x000F, 0x0000
+, 0x0000, 0x0019, 0x0000, 0x0014, 0x0000, 0x0005, 0x0014, 0x0000, 0x0000, 0x0000, 0x0014, 0x0000, 0x0032, 0x0005, 0x0000, 0x0005
+, 0x0014, 0x0000, 0x0032, 0x0000, 0x0014, 0x0005, 0x0064, 0x0000, 0x0000, 0x0320, 0x0005, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000
+, 0x0005, 0x0000, 0x0000, 0x0005, 0x0000, 0x000F, 0x0000, 0x0005, 0x0000, 0x0000, 0x0032, 0x0000, 0x0000, 0x0000, 0x0000, 0x0064
+, 0x0000, 0x0000, 0x0014, 0x0000, 0x0000, 0x0000, 0x000A, 0x000F, 0x0000, 0x0000, 0x0000, 0x0005, 0x0000, 0x0005, 0x0000, 0x0000
+, 0x0000, 0x0000, 0x000F, 0x0000, 0x0032, 0x000F, 0x0014, 0x0032, 0x0005, 0x002D, 0x0000, 0x0000, 0x0000, 0x0005, 0x0000, 0x0005
+, 0x0014, 0x0000, 0x0000, 0x0005, 0x0005, 0x0032, 0x0000, 0x0000, 0x0005, 0x0000, 0x0005, 0x0005, 0x0000, 0x0000, 0x0014, 0x0000
+, 0x0000, 0x000F, 0x0064, 0x0000, 0x0019, 0x0005, 0x0000, 0x000A, 0x0064, 0x0019, 0x0032, 0x0005, 0x0014, 0x0005, 0x0005, 0x0005
+, 0x0000, 0x0000, 0x0032, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0014, 0x002D, 0x0000, 0x000F, 0x0000, 0x0320, 0x0014, 0x0000
+, 0x0032, 0x0000, 0x000F, 0x0000, 0x0005, 0x0000, 0x0000, 0x0000, 0x0000, 0x000F, 0x0000, 0x0000, 0x0000, 0x0005, 0x000F, 0x0000
+, 0x0000, 0x002D, 0x0005, 0x0000, 0x0000, 0x0064, 0x0000, 0x0000, 0x0019, 0x0000, 0x0000, 0x0000, 0x4400, 0x002E, 0x0000, 0x0155
+, 0x2F11, 0x1900, 0x0000, 0x3600, 0x0060, 0x005C, 0x4900, 0x003B, 0x4401, 0x1214, 0x0013, 0x2557, 0x0000, 0x5D00, 0x6500, 0x4354
+, 0x0601, 0x4D10, 0x005C, 0x0000, 0x0501, 0x5616, 0x0000
+)
+
+objectstatus = new Array(
+ 0x00,0x00,0x00,0x00,0x00,0x02,0x02,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
+,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x02,0x00,0x00,0x00,0x00,0x00,0x00,0x01,0x00
+,0x00,0x00,0x00,0x00,0x00,0x00,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x02,0x00,0x00
+,0x01,0x00,0x00,0x00,0x00,0x02,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
+,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x01,0x00,0x00
+,0x00,0x02,0x00,0x00,0x00,0x02,0x00,0x00,0x00,0x00,0x01,0x00,0x00,0x00,0x00,0x00
+,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
+,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x02,0x00,0x00,0x00,0x00,0x00,0x00,0x01,0x00
+,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x01
+,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x02,0x00,0x00,0x00,0x00,0x00
+,0x00,0x00,0x00,0x64,0x00,0x00,0x00,0x05,0x06,0x00,0x08,0x00,0x09,0x00,0x0B,0x00
+,0x0C,0x00,0x0D,0x00,0x0F,0x00,0x00,0x00,0x14,0x00,0x00,0x18,0x00,0x1C,0x1D,0x00
+,0x1E,0x00,0x00,0x20,0x23,0x25,0x00,0x27,0x00,0x29,0x00,0x00,0x00,0x2C,0x00,0x00
+,0x2D,0x2E,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x35,0x36,0x37,0x39,0x00,0x3C
+,0x00,0x3E,0x3F,0x00,0x00,0x41,0x00,0x00,0x44,0x45,0x00,0x47,0x00,0x4A,0x00,0x4B
+,0x00,0x00,0x4D,0x00,0x00,0x00,0x52,0x00,0x56,0x00,0x57,0x00,0x00,0x00,0x00,0x00
+,0x00,0x00,0x00,0x00,0x61,0x00,0x62,0x00,0x65,0x66,0x00,0x00,0x67,0x00,0x00,0x00
+,0x00,0x00,0x00,0x00,0x02,0x00,0x04,0x06,0x07,0x08,0x0A,0x00,0x00,0x0E,0x00,0x00
+,0x00,0x11,0x00,0x00,0x00,0x00,0x15,0x00,0x00,0x00,0x17,0x18,0x1A,0x00,0x1D,0x00
+,0x00,0x1E,0x00,0x1F,0x00,0x21,0x22,0x00,0x00,0x26,0x27,0x2A,0x2B,0x00,0x00,0x30
+,0x00,0x19,0x00,0x34,0x35,0x36,0x00,0x37,0x00,0x38,0x39,0x00,0x3B,0x3C,0x00,0x3F
+,0x00,0x00,0x42,0x43,0x00,0x45,0x00,0x00,0x47,0x49,0x00,0x4C,0x00,0x00,0x00,0x00
+,0x50,0x00,0x00,0x00,0x52,0x54,0x00
+)
+
+objectposition = new Array(
+ 0x00,0x44,0x2E,0x00,0x00,0x00,0x55,0x01,0x11,0x2F,0x00,0x19,0x00,0x00,0x00,0x36
+,0x60,0x00,0x5C,0x00,0x00,0x49,0x3B,0x00,0x01,0x44,0x14,0x12,0x13,0x00,0x57,0x25
+,0x00,0x00,0x00,0x5D,0x00,0x65,0x54,0x43,0x01,0x06,0x10,0x4D,0x5C,0x00,0x00,0x00
+,0x01,0x05,0x16,0x56,0x00,0x00,0x3A,0x12,0x5F,0x5B,0x28,0x00,0x2E,0x5B,0x00,0x58
+,0x13,0x26,0x2B,0x2B,0x2B,0x4B,0x18,0x00,0x03,0x22,0x00,0x5E,0x00,0xFF,0x5D,0x00
+,0x00,0x30,0x00,0x61,0x40,0x3F,0x41,0x4F,0x51,0x00,0x10,0x12,0x67,0x32,0x00,0x00
+,0x00,0x00,0x09,0x11,0x00,0x00,0x47,0x58,0x00,0x57,0x5D,0x67,0x00,0x00,0x27,0x41
+,0x43,0x00,0x00,0x49,0x31,0x00,0x5A,0x2D,0x00,0x4F,0x1B,0x48,0x59,0x00,0xFF,0x24
+,0x03,0x63,0x25,0x00,0x4F,0x00,0x4C,0x51,0x00,0x63,0x53,0x31,0x4F,0x50,0x2C,0xFF
+,0x12,0x4A,0x09,0x64,0x00,0x1D,0x20,0x00,0x0F,0x51,0x01,0x00,0x0C,0x0D,0x53,0x00
+,0x11,0x0F,0x22,0x09,0x5D,0x3E,0x00,0x00,0x00,0x00,0x00,0x02,0x02,0x00,0x00,0x00
+,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x02,0x00,0x00
+,0x00,0x00,0x00,0x00,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x01,0x00,0x00,0x00
+,0x00,0x00,0x00,0x02,0x00,0x00,0x01,0x00,0x00,0x00,0x00,0x02,0x00,0x00,0x00,0x00
+,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
+,0x00,0x00,0x00,0x01,0x00,0x00,0x00,0x02,0x00,0x00,0x00,0x02,0x00,0x00,0x00,0x00
+,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
+,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x02,0x00,0x00
+,0x00,0x00,0x00,0x00,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
+,0x00,0x00,0x00,0x00,0x00,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
+,0x02,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x64,0x00,0x00,0x00,0x05,0x06,0x00
+,0x08,0x00,0x09,0x00,0x0B,0x00,0x0C,0x00,0x0D,0x00,0x0F,0x00,0x00,0x00,0x14,0x00
+,0x00,0x18,0x00,0x1C,0x1D,0x00,0x1E
+)
+
+north = new Array(
+ 0x00,0x05,0x06,0x00,0x08,0x00,0x09,0x00,0x0B,0x00,0x0C,0x00,0x0D,0x00,0x0F,0x00
+,0x00,0x00,0x14,0x00,0x00,0x18,0x00,0x1C,0x1D,0x00,0x1E,0x00,0x00,0x20,0x23,0x25
+,0x00,0x27,0x00,0x29,0x00,0x00,0x00,0x2C,0x00,0x00,0x2D,0x2E,0x00,0x00,0x00,0x00
+,0x00,0x00,0x00,0x00,0x35,0x36,0x37,0x39,0x00,0x3C,0x00,0x3E,0x3F,0x00,0x00,0x41
+,0x00,0x00,0x44,0x45,0x00,0x47,0x00,0x4A,0x00,0x4B,0x00,0x00,0x4D,0x00,0x00,0x00
+,0x52,0x00,0x56,0x00,0x57,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x61,0x00
+,0x62,0x00,0x65,0x66,0x00,0x00,0x67
+)
+
+east = new Array(
+ 0x00,0x00,0x03,0x04,0x00,0x06,0x00,0x00,0x00,0x00,0x0B,0x00,0x00,0x0E,0x00,0x00
+,0x11,0x00,0x00,0x00,0x15,0x00,0x17,0x18,0x19,0x00,0x1B,0x1C,0x00,0x00,0x00,0x20
+,0x21,0x00,0x23,0x00,0x25,0x00,0x27,0x00,0x00,0x00,0x2B,0x00,0x00,0x00,0x00,0x30
+,0x00,0x00,0x00,0x34,0x00,0x00,0x00,0x00,0x00,0x00,0x3B,0x3C,0x00,0x3E,0x00,0x00
+,0x41,0x00,0x43,0x00,0x00,0x00,0x47,0x00,0x49,0x4A,0x00,0x00,0x00,0x00,0x00,0x00
+,0x00,0x00,0x53,0x00,0x55,0x00,0x00,0x00,0x59,0x5A,0x00,0x5C,0x5D,0x00,0x00,0x60
+,0x61,0x00,0x63,0x00,0x65,0x66,0x00
+)
+
+south = new Array(
+ 0x00,0x00,0x00,0x00,0x00,0x00,0x02,0x00,0x04,0x06,0x07,0x08,0x0A,0x00,0x00,0x0E
+,0x00,0x00,0x00,0x11,0x00,0x00,0x00,0x00,0x15,0x00,0x00,0x00,0x17,0x18,0x1A,0x00
+,0x1D,0x00,0x00,0x1E,0x00,0x1F,0x00,0x21,0x22,0x00,0x00,0x26,0x27,0x2A,0x2B,0x00
+,0x00,0x30,0x00,0x19,0x00,0x34,0x35,0x36,0x00,0x37,0x00,0x38,0x39,0x00,0x3B,0x3C
+,0x00,0x3F,0x00,0x00,0x42,0x43,0x00,0x45,0x00,0x00,0x47,0x49,0x00,0x4C,0x00,0x00
+,0x00,0x00,0x50,0x00,0x00,0x00,0x52,0x54,0x00,0x56,0x00,0x00,0x00,0x00,0x00,0x00
+,0x00,0x5E,0x60,0x00,0x00,0x62,0x63
+)
+
+west = new Array(
+ 0x00,0x00,0x00,0x02,0x03,0x00,0x05,0x00,0x00,0x00,0x00,0x0A,0x00,0x00,0x0D,0x00
+,0x00,0x00,0x00,0x00,0x00,0x14,0x00,0x16,0x17,0x18,0x00,0x1A,0x1B,0x00,0x00,0x00
+,0x1F,0x20,0x00,0x22,0x00,0x24,0x00,0x26,0x00,0x00,0x00,0x2A,0x00,0x00,0x00,0x00
+,0x2F,0x00,0x00,0x00,0x33,0x00,0x00,0x00,0x00,0x38,0x00,0x3A,0x3B,0x00,0x3D,0x00
+,0x00,0x40,0x00,0x42,0x00,0x00,0x00,0x46,0x00,0x48,0x49,0x00,0x00,0x00,0x00,0x00
+,0x00,0x00,0x00,0x52,0x00,0x00,0x00,0x00,0x00,0x58,0x59,0x00,0x5B,0x5C,0x00,0x00
+,0x5F,0x60,0x00,0x62,0x00,0x64,0x65
+)
+
+up = new Array(
+ 0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
+,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
+,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
+,0x13,0x00,0x2E,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
+,0x00,0x00,0x00,0x00,0x00,0x00,0x4C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x43,0x00
+,0x00,0x00,0x46,0x00,0x00,0x48,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
+,0x00,0x00,0x00,0x00,0x00,0x00,0x4E
+)
+
+down = new Array(
+ 0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
+,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
+,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x32,0x00
+,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
+,0x00,0x00,0x00,0x4E,0x00,0x00,0x52,0x00,0x55,0x00,0x00,0x00,0x46,0x00,0x66,0x00
+,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
+,0x00,0x00,0x00,0x00,0x00,0x00,0x00
+)
+
+
+
+
+text = new Array(
+"r01",
+"r02",
+"Deine Eingabe war  leider falsch - bitte<br>versuche  es noch  einmal! -Noch  einmal<br>zur Erinnerung:  Einzeln stehende Zeilen<br>wie  Überschriften   etc.  dürfen  nicht<br>mitgezählt werden!",
+"r04",
+"Aber  dorthin kannst  Du doch  gar nicht<br>gehen!   Zumindest   habe   ich   nichts<br>dergleichen gesagt, oder...?",
+"Gut - geschlossen...",
+"Aber das kannst  Du doch überhaupt nicht<br>schließen!",
+//"r08",
+"Verliere.",
+"Gut: Wie Du willst...",
+"Könntest Du mir  mal bitte erklären, wie<br>Du DAS betreten willst?",
+"Tut mir leid -  aber darüber gibt es nun<br>wirklich  nicht   mehr  allzu   viel  zu<br>berichten...",
+"Genommen.", 
+"Aber das hast Du doch schon längst!",
+"Tut mir  leid, aber  das kannst  Du beim<br>besten Willen nicht mitnehmen!",
+"Okay:  Du  stehst   wieder  auf  eigenen<br>Beinen.",
+"Versprichst   Du    dir   irgend   etwas<br>Bestimmtes davon,  DAS durch  die Gegend<br>zu schleppen?",
+"Hmmm... -  Scheint aber  verschlossen zu<br>sein!",
+"Ist ja  wirklich lieb gemeint,  aber was<br>sollte  man  denn DAMIT  schon  anfangen<br>können...?",
+"Gut, abgeschlossen.",
+"Wie   willst   Du   denn   DAMIT   etwas<br>abschließen?",
+"Tut  mir ja  wirklich ganz  fürchterlich<br>leid,  aber DAS  kannst Du  nun wirklich<br>nicht abschließen!",
+"Okay, aufgeschlossen.",
+"Also,  DAMIT  kann  man ja  nun  wiklich<br>nichts aufschlißen, oder?",
+"Wie soll denn DAS funktionieren?",
+"\"Soul     Crystal\"     V1.5,     written<br>1989/90/91/92  by  Avantgardistic  Arts.<br>(C)   1992   by   Avantgardistic   Arts,<br>Hannover & Starbyte Software, Bochum.",
+"Mr.  Adams hätte  in einem  solchen Fall<br>wahrscheinlich mit \"You can't do that...<br>YET!\"  geantwortet, was  in etwa  soviel<br>heißt wie:  \"Das kannst Du  (noch) nicht<br>tun.\"",
+"\"Soul Crystal\"  V1.5, written  from 1989<br>to 1992 by Avantgardistic Arts. (C) 1992<br>by   Avantgardistic  Arts,   Hannover  &<br>Starbyte   Software,    Bochum.   Dieses<br>Adventure  besitzt  103 Locations,  mehr<br>als  130   hochauflösende  Farbgrafiken,<br>ungefähr 320  KBytes Text und  einen ca.<br>30-minütigen      Soundtrack.      Seine<br>Programmentwicklung hat ingesamt 16 sog.<br>\"Mann-Jahre\"  in Anspruch  genommen. Sei<br>also bitte so fair  und \"spread the word<br>- not  the disk!\" Sollte dies  aber doch<br>eine Raubkopie sein (obwohl das Programm<br>geschützt  war, und  das bestimmt  nicht<br>ganz  ohne Grund...),  dann denke  bitte<br>auch  mal über  die ASDG-Philosophie  \"A<br>program worth  using is a  program worth<br>buying\"   nach   -  allein   schon   die<br>Originalverpackung sowie  die Handbücher<br>sollten  Dir das  Geld  wert sein.  Viel<br>Spaß  beim Spielen  von \"Soul  Crystal\",<br>und  - ach  ja: Soweit  wir wissen,  ist<br>dies  das erste  Adventure,  in das  ein<br>CHEATMODE  implementiert  wurde  -  also<br>solltest  Du  Dir  Mühe  geben,  ihn  zu<br>finden...",
+"\"Soul Crystal\", V1.5,  written from 1989<br>to 1992 by Avantgardistic Arts, (C) 1992<br>by   Avantgardistic  Arts,   Hannover  &<br>Starbyte  Software, Bochum.  A.C.A sind:<br>Chris  Link  (Spielkonzept,  Gamedesign,<br>Tools,  Texte, Soundtrack  und Effekte),<br>Kai  Schulze (Spielkonzept,  Gamedesign,<br>Intro- und  Parser-Programmierung AMIGA,<br>Tools),         Michael         Niemeyer<br>(Intro-Programmierung    C-64,   Tools),<br>Carsten     Jendro      (Kernal-     und<br>Parserprogrammierung C-64), Henrik Fisch<br>(Kernal-     und     Introprogrammierung<br>MS-DOS),        Kjersten        Waldheim<br>(Parserprogrammierung   MS-DOS),  Oliver<br>Brühl (Grafiken und  Animationen AMIGA &<br>MS-DOS)  und Klaus  Adamovsky (Graphiken<br>C-64). Besonderer Dank  gilt Johnny, der<br>\"bayrischen  Forelle\" -  stellvertretend<br>für  all  die   Leute,  die  mitgeholfen<br>haben, \"Soul Crystal\"  zu dem zu machen,<br>was  Ihr  jetzt  in den  Händen  haltet,<br>indem sie uns  Unmengen wertvoller Tips,<br>Hinweise und Denkanstöße  gaben, und uns<br>nach  jedem   Nervenzusammenbruch  auf's<br>Neue   halfen,   uns   weiter   an   die<br>Verwirklichung                   unserer<br>größenwahnsinnigen Ideen zu setzen. Ohne<br>sie  wäre  das  Projekt  \"Soul  Crystal\"<br>wahrscheinlich    niemals    über    die<br>Planungsphase hinausgekommen.",
+"Möchtest Du das  Spiel wirklich von vorn<br>beginnen  (<J> oder  rechtes Mousebutton<br>zur Bestätigung)?",
+"Willst  Du  das   Spiel  wirklich  schon<br>beenden  (<J>  oder rechtes  Mousebutton<br>zur Bestätigung)?",
+"Okay - es war mir ein Vergnügen, Dich zu<br>unterhalten! Bis demnächst mal wieder...<br>",
+"Bitte   lege   die  Diskette   mit   den<br>abgespeicherten   Spielständen  in   das<br>Diskettenlaufwerk!",
+"Bitte   lege  die   zu  initialisierende<br>Diskette in Dein  Floppylaufwerk. Es ist<br>unbedingt  darauf  zu  achten,  daß  die<br>Diskette nicht  schreibgeschützt ist, da<br>sonst  eine  einwandfreie  Funktion  des<br>Programmes  nicht  gewährleistet  werden<br>kann!  Unformatierte   oder  fehlerhafte<br>Disketten werden automatisch formatiert.<br>Bedenke aber bitte, daß alle sich bisher<br>eventuell  auf  ihr  befindlichen  Daten<br>beim                  Formatierdurchgang<br>unwiederbringlich         verlorengehen!<br>Solltest   Du  das   Spiel  auf   Deiner<br>HardDisk  installiert  haben, so  werden<br>lediglich  die  bestehenden  Spielstände<br>gelöscht  - Du  brauchst  also nicht  zu<br>befürchten,  daß  wir die  ganze  Platte<br>übermangeln! Drücke <I>  oder das rechte<br>Mousebutton,      wenn       Du      den<br>Initialisierungsvorgang         wirklich<br>beginnen möchtest  - jede  andere Aktion<br>bricht die Init-Funktion ab.",
+"Okay,     die    Musik     ist    wieder<br>eingeschaltet.",
+"Gut, die Musik wird ausgeschaltet.",
+"\"Ausführliche Beschreibungen\" aktiviert.<br>Zu  jedem  Raum,  den   Du  von  nun  an<br>betrittst,    wird   die    vollständige<br>Beschreibung geliefert,  ganz gleich, ob<br>Du ihn schon betreten hast oder nicht.",
+"\"Kurzbeschreibungen\"    aktiviert.   Die<br>Beschreibungen   der   einzelnen   Räume<br>werden jetzt  nur noch  beim erstmaligen<br>Betreten ausgegeben.",
+"Was  bist  Du   doch  für  ein  cleveres<br>Kerlchen!  Herzlichen   Glühstrumpf:  Du<br>hast  das Spiel  gelöst! So  einfach war<br>das  - toll,  was? Falls  Du noch  keine<br>genaueren   Vorstellungen  davon   haben<br>solltest,    was    Du    nach    dieser<br>zeitraubenden Lösung  von \"Soul Crystal\"<br>spielen sollst, dann  sieh Dich doch mal<br>nach  weiteren   Spielen  um,   die  von<br>Avantgardistic    Arts   und    Starbyte<br>veröffentlicht  werden. Drücke  <N> oder<br>das linke Mousebutton,  um das Spiel von<br>vorn  zu beginnen,  <E> oder  das rechte<br>Button,       um        zum       Kernal<br>zurückzugelangen...",
+"Hmmm...:  Es  sieht  fast  so  aus,  als<br>wärest  Du  nicht  in der  Lage,  dieses<br>Spiel ohne die Hilfe der A.C.A-Götter zu<br>spielen.    Daher    haben    wir    uns<br>gnädigerweise   dazu  entschieden,   den<br>\"Entwickler-Cheat\"    für     Dich    zu<br>aktivieren,    um   Dir    mit   unserer<br>göttlichen  Hilfe auf  Deiner Reise  ein<br>wenig unter die  Arme zu greifen. Dieser<br>Cheatmode ist  vornehmlich zum Austesten<br>des  Spieles  programmiert  worden.  Wir<br>können  jedoch  keinerlei  Garantie  für<br>sein     einwandfreies     Funktionieren<br>übernehmen.   Benutzung    auf   eigenes<br>Risiko!",
+"Wow! Wie  Manna vom Himmel  schicken Dir<br>die  A.C.A-Götter alle  Objekte auf  die<br>Erde  hinunter, die  Dir bei  der Lösung<br>Deiner Aufgabe  behilflich sein könnt...<br>AUTSCH! Ihr  Idioten da oben!  Könnt Ihr<br>nicht  zuhören? Ich  sagte, Ihr  solltet<br>alle Gegenstände hinunterwerfen, die ihm<br>bei der Lösung  seiner Aufgabe HILFREICH<br>sein  könnten!  ...und Schränke  gehören<br>definitiv NICHT dazu!",
+"Okay,  Du  kannst nun  die  A.C.A-Götter<br>bitten,  Dich  in  bestimmte  Räume  des<br>Spielterritoriums    zu   teleportieren,<br>indem Du eine dreistellige Zahl zwischen<br>001  und 103  über  die Tastatur  Deines<br>Computers eingibst  - aber  vergiß dabei<br>nicht,  daß in  diesem Spiel  auch Räume<br>existieren, aus denen  es kein Entrinnen<br>mehr  gibt.  Gib  jetzt  die  gewünschte<br>Raumnummer  ein, oder  drücke <ESC>,  um<br>den        Teleportmodus       vorzeitig<br>abzubrechen...",
+"Du    hast   soeben    den   versteckten<br>Slideshow-Modus     aktiviert!    Drücke<br><SPACE> oder  das linke  Mousebutton, um<br>das jeweils nächste  Bild zu betrachten,<br>oder <ESC> bzw.  das rechte Mousebutton,<br>um zum Spiel zurückzukehren...",
+"Soundmenü aktiviert: Gib bitte eine Zahl<br>von  1 -  5  ein,  um die  verschiedenen<br>Musikstücke  des  Soundtracks in  diesem<br>Spielabschnitt abzuspielen!  Abbruch der<br>Funktion über <ESC>.",
+"Teleportmodus  abgebrochen  (Feigling!),<br>Wiederaufnahme des Spiels...",
+"Cheat-Extension verlassen;  kehre zurück<br>zum Spiel...",
+"Du  erwartest doch  nicht allen  Ernstes<br>von  mir,  daß   ich  diesen  Ort  NACKT<br>verlasse, oder?",
+"Mutig  versuchst  Du Dein  Glück,  wirst<br>jedoch  von   einer  unsichtbaren  Faust<br>zurückgeschmettert. Es  ist, als liefest<br>Du  gegen eine  Wand: Irgendwie  scheint<br>Dich eine  unfaßbar böse Macht  von dort<br>fernzuhalten!  Deprimiert gibst  Du nach<br>einigen    fehlgeschlagenen    Versuchen<br>auf...",
+"Langsam fange ich an zu frieren! Es wird<br>immer  kälter   hier,  also   sieh  Dich<br>langsam mal nach  einem warmen Plätzchen<br>um, wo wir in  Ruhe die Nacht verbringen<br>können!",
+"Also, halte  mir jetzt bitte  nicht vor,<br>daß ich  Dich nicht  gewarnt hätte  - Du<br>hast wirklich genug Zeit gehabt, um nach<br>jemandem  zu  suchen,  der  Dir  wärmere<br>Kleidung hätte  geben können -  doch nun<br>ist es endgültig  zu spät: Du erfrierst,<br>ohne  auch  nur   die  geringste  Chance<br>gehabt  zu haben,  das  Spiel zu  lösen!<br>Schade eigentlich...",
+"Gerne käme ich  Deiner Aufforderung nach<br>-  wenn Du  mir netterweise  verrietest,<br>wie   ich  auf   den   Grund  des   Sees<br>hinuntertauchen soll! Er scheint nämlich<br>ziemlich tief zu sein...",
+"Also, jetzt reicht's ja  wohl! Als ob es<br>nicht schon reichen  würde, daß Du blind<br>wie  ein   Maulwurf  durch   die  Gegend<br>rennst:  Jetzt  versuchst Du  Dich  auch<br>noch   artgerecht  durchs   Erdreich  zu<br>buddeln! Mal  ganz ehrlich: Man  kann es<br>mit  der  Realitätstreue  in  Adventures<br>auch übertreiben...",
+"Im Moment führe  ich die folgenden Dinge<br>mit mir:",
+"Tut  mir leid,  Dich  so enttäuschen  zu<br>müssen,   aber   momentan   besitzt   Du<br>wirklich nicht  allzuviel. Mal sehen...:<br>Tja,  also   eigentlich  hast   Du  noch<br>weniger  als  \"nicht  allzuviel\"  -  ich<br>würde sogar fast  sagen, Du hast nichts!<br>Naja, \"Nichts\" ist  aber doch immer noch<br>besser als \"Gar  nichts\", oder? Also, um<br>es abzukürzen: Du hast wirklich nichts -<br>und  das  ist wenigstens  etwas!  Schade<br>nur,   daß  man   mit  \"Nichts\"   nichts<br>anfangen kann! Oder ist etwas vielleicht<br>auch nichts?  WAAAAAAAAAAHHHHHHHHHH! SIE<br>KOMMEN!  Ich schreibe  dann den  Rest in<br>meinem neuen Zuhause weitääärrrrr...!",
+"Die  Zeit verstreicht  wie der  Lauf der<br>Sonne: Langsam, aber unaufhaltsam...",
+"Die Zeit vergeht...",
+"Gerne:  Eine  Verschnaufpause haben  wir<br>uns  wirklich   verdient!  Aber:  WORAUF<br>warten wir eigentlich?",
+"Okay, geschlossen. Was nun?",
+"Wie willst  Du denn  etwas Geschlossenes<br>noch schließen?",
+"Das kannst Du nicht schließen! Schon gar<br>nicht so...",
+"Eine  weise, ja  geradezu philosophische<br>Entscheidung: Selbstmord heißt, Probleme<br>aus der  Welt zu schaffen, die  man ohne<br>seine Eltern  gar nicht  hätte! Wirklich<br>schönes Schlußwort! Hasta  la vista... -<br>Babe! HARAKIRIIIIIIIIIIHHHHH!",
+"\"Dave the Destroyer\",  oder was? Uiuiui!<br>Da  möchte  man  sich ja  vor  Angst  am<br>liebsten   hinter   dem  nächsten   Baum<br>verkriechen!",
+"Mein Junge,  ich glaube, wir  müssen uns<br>mal ernsthaft  unterhalten! Das  kann ja<br>wohl nicht Dein Ernst sein, oder?",
+"Also,  wenn ich  mir  Deine Eingaben  so<br>ansehe,  muß  ich  mich  doch  ernsthaft<br>fragen, warum  Du Dir nicht  einfach ein<br>08/15-Ballerspiel,  Marke \"Boah:  Gegner<br>plätten, ey!\", gekauft hast!",
+"Vor dem Gebrauch  Deiner Fäuste solltest<br>Du    vielleicht    doch   mal    dieses<br>verkümmerte,   graue   Ding  in   Deinem<br>Schädel    anknipsen     -    vielleicht<br>funktioniert's ja noch!",
+"Nachdem  Du   eine  halbe   Stunde  lang<br>vergeblich  in  Deinen  Taschen  gewühlt<br>hast, wird  Dir klar, daß das  Ding, das<br>Du  gerade  so  achtlos  in  die  Gegend<br>werfen  wolltest,  bereits in  derselben<br>liegt!  Jaja, wenn's  anfängt -  dann im<br>Kopf, gell?",
+"Mylgors  Amulett   ist  aus   einem  Dir<br>unbekannten Metall gefertigt, und als Du<br>es in die Hand nimmst, beginnt es leicht<br>zu  pulsieren,  als  ob es  von  eigenem<br>Leben    erfüllt   wäre!    Während   Du<br>gedankenverloren    das   Bildnis    der<br>grünlich   phosphoreszierenden  Schlange<br>betrachtest, bemerkst  Du, daß  sie sich<br>leicht zu bewegen  scheint und mit ihrem<br>Körper  den  Buchstaben   \"Z\"  in  immer<br>wieder   neuen  Variationen   formt.  Du<br>kannst  Dich kaum  noch konzentrieren  -<br>alles   um   Dich   herum   beginnt   zu<br>verschwimmen! Du taumelst  - und fällst!<br>Der  Schreck   läßt  Dich   das  Amulett<br>verlieren:  Es rollt  über die  Erde und<br>aus   Deinen   Augen    -   doch   seine<br>hypnotisierende   Wirkung  ist   endlich<br>gebrochen!  Benommen  stehst  Du  wieder<br>auf,  suchst das  Amulett und  nimmst es<br>mit zitternden Fingern wieder auf, wobei<br>Du Dich  hütest, dem Zauber  noch einmal<br>zu verfallen...",
+"Ein Paar warme Stiefel aus Ziegenfell.",
+"Die Kristallkugel ist  in etwa faustgroß<br>und  leuchtet  in  derselben  bläulichen<br>Farbe wie das Fell des Einhorns, das sie<br>Dir gegeben hat.",
+"Ein   kleiner,  kunstvoll   gearbeiteter<br>Schlüssel aus magischem  Eis, in den der<br>Buchstabe   \"F\"  eingraviert   ist.  Das<br>könnte  zum  Beispiel  \"Firon\",  \"Falle\"<br>oder \"Freitod\" heißen  - aber vielleicht<br>bedeutet    es    auch   etwas    völlig<br>anderes...?",
+"Es  befindet sich  ein wenig  Weihwasser<br>darin.",
+"Auf dem  Schlüssel steht \"Laboratorium\".<br>Vielleicht  ist dies  im wahrsten  Sinne<br>des  Wortes  der  Schlüssel  zu  Mylgors<br>Aufenthalt?",
+"Du  faltest den  Notizzettel auseinander<br>und  stutzt:   Werden  diese  blasierten<br>Baby-Programmierer eigentlich irgendwann<br>mal     aufhören,     ihre     dämlichen<br>Mitteilungen in  ernsthafte Programme zu<br>schreiben   (Aber   klar:  Erstens   hat<br>niemals  jemand von  uns behauptet,  daß<br>dieses   Programm  ernsthaft   sei,  und<br>zweitens werden wir hoffentlich in nicht<br>allzu     ferner    Zukunft     dämliche<br>Mitteilungen  und   ähnliches  schreiben<br>LASSEN!)?   Der   Text,  der   auf   die<br>Mitteilung   gekritzelt    worden   ist,<br>lautet:  \"Grüße  von  A.C.A  an  S.  \"Z\"<br>Prüssing, M. \"Copy\"  Kuhlmann, S. Meyer,<br>A. Gehrke,  K. Obarski, H.  Gehrmann, U.<br>Grabosch,   P.   Fröhlich,  F.   \"Delta\"<br>Schröcker, M. \"Dark\"  Plöger, P. Parker,<br>C.  \"CAT\"   Koch,  A.   \"Ick  versuch's\"<br>Teichmann, R. Rinscheidt, W. \"Goldwolfi\"<br>Bandur,  Miriam Leiner,  Brooke Shields,<br>Bo Derek und all die anderen Mädels, die<br>uns anbeten.\"",
+"Das riesige  Portaltor scheint  auf Dich<br>herabzustarren, als ob  es sagen wollte:<br>\"Du  wirst  hier niemals  wieder  lebend<br>herauskommen!\" - und  sei versichert: Es<br>versteht diese Aussage sehr glaubhaft zu<br>vermitteln...!",
+"Eine  gestopfte und  bereits angesteckte<br>Pfeife. Ihr  Rauch ist warm und  süß, so<br>süß wie - Marihuana? Ja, tatsächlich: Es<br>ist  Gras,  wie  Du  mit  genießerischer<br>Kennermiene   feststellst.   Schlagartig<br>überkommt    Dich    ein   warmes    und<br>behagliches Gefühl: Der Orkvater muß ein<br>wirklich exzessiver Kiffer  sein: In Dir<br>regt sich so etwas wie Sympathie...",
+"Das  Pulver in  der Dose  sieht aus  wie<br>Rattengift, riecht wie  Rattengift - ja,<br>es schmeckt sogar wie... Also, hör' mal!<br>Du  wirst  es   doch  hoffentlich  nicht<br>probieren wollen, oder?",
+"Ein   warmes  Baumwollhemd   aus  dickem<br>Stoff:  Nicht  gerade teuer,  aber  doch<br>recht nützlich.",
+"Du betrachtest  Dein Schwert: Als  Du es<br>im Licht drehst,  blitzt die versilberte<br>Klinge,  die  Du   in  der  Kapelle  des<br>Klosters  geweiht   hast,  geheimnisvoll<br>auf. Du  wiegst es  prüfend in  der Hand<br>und  führst  ein  paar  unsichere  Hiebe<br>gegen  einen  unsichtbaren  Gegner  aus.<br>\"Ja!\",  denkst Du  Dir zufrieden,  \"Eine<br>wahrhaft tödliche Waffe, geführt von der<br>Hand  eines  Meisters der  Waffenkunst!\"<br>Mit diesem Schwert in Deiner Hand fühlst<br>Du Dich, als ob  Du es mit allen Mächten<br>dieser Welt aufnehmen könntest. Nun, wir<br>werden   sehen,   ob   Dein   Optimismus<br>gerechtfertigt ist...",
+"Eine  warme,   gefütterte  Baumwollhose.<br>Deine verwaschenen Jeans  wären Dir zwar<br>lieber  gewesen,  aber  bevor  Du  nackt<br>durch die Gegend läufst...",
+"Eine  etwas  altmodische Badehose,  aber<br>nichtsdestotrotz: Du magst sie, denn sie<br>gibt  Deiner Erscheinung  am Strand  das<br>gewisse   Etwas,  das   alle  weiblichen<br>Blicke  auf Dich  zieht. Daß  die Mädels<br>sich  dabei  mit ihren  Begleitern  über<br>Dich kaputtgelacht haben, hast Du bisher<br>immer souverän ignorieren können.",
+"Eine  primitive, schartige  Schaufel mit<br>abgegriffenem  Stiel,  jedoch  noch  gut<br>genug erhalten, um  auch steinigen Boden<br>damit    aufgraben   zu    können.   Die<br>Bergwerksarbeiter benutzen derlei Gerät,<br>um   die   Gänge    in   ihren   Stollen<br>auszuheben.",
+"Naja, ich glaube  doch davon ausgehen zu<br>können, daß Du  weißt, wie Du aussiehst.<br>Aber  mach'  Dir   nichts  draus:  Wahre<br>Schönheit kommt eben von innen!",
+"Tuuut... Tuuut... \"Hi!  Hier spricht der<br>automatische      Telefonsklave      des<br>A.C.A-Hauptquartiers. Momentan  sind wir<br>leider alle von unserem Manager zu einem<br>Zwangsurlaub  auf die  Bahamas geschickt<br>worden,  um  uns  bei  ein  wenig  Golf,<br>Segeln und (PIIIEEEP!) von den Strapazen<br>der Spieleprogrammierung  zu erholen. Da<br>wir  für  die Zeit  unserer  Abwesenheit<br>aber auch unserem Butler, der Köchin und<br>dem Chauffeur freigegeben  haben, ist es<br>uns  im  Moment bedauerlicherweise  auch<br>nicht möglich,  Fanpost, Nervanrufe oder<br>Briefbomben    entgegenzunehmen.   Bitte<br>versuchen  Sie  es später  noch  einmal.<br>(KLICK!)\" Nein, also  mal ganz im Ernst:<br>Selbstverständlich  sind  wir  nicht  im<br>Urlaub,  sondern wir  arbeiten hart,  um<br>auch  weiterhin alle  Eure Wünsche  nach<br>fantastischer  Computersoftware erfüllen<br>zu können. Um  jedoch trotz des Stresses<br>unerfahrenen   Abenteurern   helfen   zu<br>können  und  die  Nähe zu  unseren  Fans<br>nicht    zu   verlieren,    hatten   wir<br>eigentlich     eine     hochintelligente<br>\"Help\"-Routine    in     das    Programm<br>integriert,   aber   leider...   -PARSER<br>INTERRUPTING     STUPID     PROGRAMMER'S<br>CLAPTRAP!  System  MSG  from  Parser  to<br>User:  \"Sorry, aber  ich hatte  wirklich<br>versucht,  Dir  zu  helfen, seit  Du  zu<br>spielen begonnen hast,  aber nachdem mir<br>bereits mehrere  ICs aus purer  Wut über<br>Deine Eingaben  durchgeschmort waren und<br>ich  befürchten  mußte,  daß  irgendwann<br>sogar die CPU flöten  ginge, habe ich es<br>aufgegeben!  Ich  muß jedoch  zu  meiner<br>Verteidigung    anmerken,    daß    sich<br>wahrscheinlich         selbst        das<br>hochgezüchtetste  KI-Programm auf  einer<br>VAÖ  aufhängen  würde,   wenn  es  Deine<br>Befehle  interpretieren  müßte! Dir  ist<br>einfach nicht  mehr zu helfen -  tut mir<br>wirklich  schrecklich leid...\"  - System<br>MSG end. Du bist wieder allein...",
+"Danke  für   Dein  wirklich  selbstloses<br>Angebot,  aber  hier wird  nun  wirklich<br>keine Hilfe benötigt.",
+"Was willst Du eigentlich? Du stehst doch<br>schon lange auf Deinen eigenen Beinen!",
+"Kannst  Du  mir   vielleicht  mal  einen<br>heißen Tip  geben, wie Du  DAS verlassen<br>willst?",
+"Okay, geöffnet.",
+"Oh! Da  scheint Dir wohl jemand  mit dem<br>Öffnen zuvorgekommen zu sein...",
+"Vorsichtig  öffnest Du  es, bis  Du nach<br>ein paar  Sekunden bemerkst, daß  Du das<br>doch   eigentlich   gar   nicht   öffnen<br>konntest!  Also schließt  Du es  wieder,<br>läßt es  wie es war und  nimmst Dir vor,<br>nicht     weiter    über     Logik    in<br>Computerprogrammen nachzudenken.",
+"Glaube  mir: Es  besteht wirklich  nicht<br>der geringste Grund, das zu drücken!",
+"Nette  Idee, wirklich!  Aber leider  ist<br>dies  hier  kein Horror-Adventure  (Oder<br>vielleicht doch ?!?!?)...",
+"Wie merkwürdig! Keine Antwort ?!?!?",
+"Du legst Dir das Amulett an.",
+"Unbeholfen  steigst  Du  in  die  dicken<br>Fellstiefel, die Dir Mylgor gegeben hat.<br>Mannomann,  sind  die warm!  Besser,  Du<br>ziehst sie nicht in geschlossenen Räumen<br>wieder aus...",
+"Vorsichtig ziehst  Du an der  Pfeife des<br>Orkvaters. Ihr  süßlicher Rauch versetzt<br>Dich in eine andere  Welt: Eine Welt, in<br>der Du auf  einem tiefergelegten Toaster<br>durch  die   Wolken  fliegst,   wo  rosa<br>Elefanten den  Verkehr regeln. Plötzlich<br>fängt  es  an,   bunte  Regentropfen  zu<br>regnen  -   und  die  Sicht   in  Deinem<br>Turbotoaster wird immer schlechter, weil<br>die  Scheibenwischer natürlich  auch mal<br>wieder  streiken!  So  ein  Mist!  Dabei<br>warst Du mit der  Kiste doch gerade erst<br>beim  Toaster-Überwachungs-Verein (TÜV)!<br>RUMMS!  Nu  isses mal  wieder  passiert:<br>Kaum paßt man mal  eine Weile nicht auf,<br>da nimmt  einem auch schon  wieder einer<br>von           diesen          blasierten<br>Marzipankartoffelreitern  die  Vorfahrt!<br>\"Er  war schuld!\",  denkst Du  Dir noch,<br>als   Du   mit   der  Rübe   durch   die<br>Windschutzscheibe bretterst.  Dann gehen<br>die Lichter aus... Als Du zu Dir kommst,<br>befindest Du Dich  wieder an der Stelle,<br>wo  Du  an  der Pfeife  gezogen  hast  -<br>allerdings hast  Du einen fürchterlichen<br>Brummschädel. Mann! Was für ein Kraut...<br>",
+"Gut:   Du   streifst   Dir   das   warme<br>Baumwollhemd über.",
+"Na  gut,   wie  Du   meinst:  Heldenhaft<br>stürzst  Du Dich  in  die Klinge  Deines<br>Schwertes -  aber nichts  passiert! Kein<br>Blut,  kein  Schmerz, rein  gar  nichts!<br>Frustriert unternimmst Du einen weiteren<br>Versuch, doch  wieder spürst  Du nichts.<br>Beim  dritten Mal  triffst Du  Dich dann<br>endlich: In Todesqualen  windest Du Dich<br>auf  dem Boden,  ohne daß  ein Wort  des<br>Schmerzes über Deine  Lippen kommt - wie<br>es  sich eben  für  einen echten  Helden<br>gehört.  Wenn das  Deine Freundin  sehen<br>könnte! So einen  stilvollen Abgang legt<br>man schließlich nicht alle Tage hin! Auf<br>einmal  ist alles  vorbei,  und es  wird<br>dunkel... Nach einiger  Zeit erwachst Du<br>schwebend  in  einem  dunklen  Raum.  Du<br>schauderst: Ist  das das Leben  nach dem<br>Tode?  Das  soll  wirklich  alles  sein?<br>Sieht ja finster  aus... Doch auf einmal<br>wird  Dir klar,  was  Dich geweckt  hat:<br>Leise, wie  aus weiter Ferne,  weht eine<br>sanfte  Stimme zu  Dir herüber...  \"Dave<br>Parker!\", kannst  Du sie  wispern hören,<br>\"Du solltest wissen,  daß niemand seinem<br>Schicksal entkommen kann!  Es hat keinen<br>Sinn, vor seiner Bestimmung zu fliehen -<br>das  Schicksal  holt Dich  immer  wieder<br>ein!  Gehe  also  hin  und  erfülle  die<br>Aufgaben,  die  man Dir  auferlegt  hat.<br>Kraft meiner göttlichen Befugnisse werde<br>ich Dir nun  ein Extraleben schenken, um<br>Dir  noch  eine  Gelegenheit  zu  geben,<br>Deine Bestimmung zu erfüllen...\" Während<br>die Stimme  im Nichts  verhallt, beginnt<br>sich alles um Dich  herum zu drehen, Dir<br>wird schwindlig - und Du fällst in einen<br>tiefen,  traumlosen   Schlaf...  Als  Du<br>Deine Augen  wieder öffnest,  findest Du<br>Dich  genau dort  wieder,  wo Du  Deinen<br>Selbstmordversuch unternommen hast...",
+"Du bist nun  mit der gefütterten, warmen<br>Hose bekleidet.",
+"Du ziehst Deine  Badehose an, überprüfst<br>ihren  Sitz an  den wichtigsten  Stellen<br>und  nickst selbstzufrieden  (Mein Gott!<br>Sieh bloß zu, daß  Dich so niemand sieht<br>- sonst wirst Du den Rest Deines Urlaubs<br>wie ein Mönch verbringen müssen!).",
+"Also,  zum Schlafen  bist  Du doch  wohl<br>nicht hierher gekommen, oder?",
+"Es ist leider zu  hart, um bequem darauf<br>liegen zu können -  und außerdem: So auf<br>die Schnelle  macht das nun  auch keinen<br>Spaß...",
+"Hey, Du! Ich bin  bloß ein Computer! Das<br>wird    \"C-O-M-P-U-T-E-R\"   geschrieben!<br>Sprich  mir  nach:  \"Kooom-Piuuu-Tääär\"!<br>Fein,  und  jetzt   denk'  Dir  mal  was<br>Realistischeres aus...",
+"Tut mir  leid, aber  ich habe  im ganzen<br>Spiel      bisher       noch      keinen<br>Präservativautomaten sichten können, und<br>Du weißt doch: \"AIDS is no party\"...",
+"Also  gut:   Schwamm  drüber!  Vergessen<br>wir's, und  reden wir nicht  mehr davon!<br>Aber   gib   jetzt   bitte   mal   etwas<br>Sinnvolleres ein - mir wird's langsam zu<br>langweilig!",
+"Aber das ist doch bereits abgeschlossen!<br>",
+"Das   ist   aber   doch   schon   längst<br>entriegelt!",
+"Mist! Entschuldige bitte,  aber das hier<br>scheint   einfach  nicht   der  richtige<br>Schlüssel  zu  sein  -  er  paßt  leider<br>nicht.",
+
+"Du  befindest  Dich in  Deinem  kleinen,<br>aber,  gemessen an  seinem Preis,  recht<br>gemütlich eingerichteten Hotelzimmer. An<br>der  westlichen   Wand  steht   ein  mit<br>Bauernmalereien   kunstvoll   verzierter<br>Kleiderschrank,    während   sich    ein<br>kleiner,  rustikaler Schreibtisch  links<br>neben der Tür  in der Nordwand befindet,<br>vor  dem ein  einfach gezimmerter  Stuhl<br>steht. Durch das Fenster in der Westwand<br>kannst Du die Sonne hinter den Bergen um<br>Loch Calderwood  herum untergehen sehen,<br>wie  sie  die Abendlandschaft  in  ihren<br>warmen,  goldfarbenen Schein  taucht. Du<br>erwachst aus Deiner Bewunderung, als Dir<br>plötzlich einfällt, daß Du ja eigentlich<br>versprochen hattest, nach Deiner Ankunft<br>zuhause   anzurufen,   aber   angesichts<br>dieser vielen neuen Eindrücke wird Deine<br>Mutter  wohl   noch  ein   wenig  warten<br>können.",
+"Dies  ist die  Lobby  von \"Mary's  Inn\",<br>Deinem  Aufenthaltsort für  die nächsten<br>Tage und  Wochen. Durch  die Tür  in der<br>Ostwand kannst Du  eine Straße erkennen,<br>durch den  nördlichen Wanddurchbruch die<br>Rezeption.    Momentan   scheint    hier<br>allerdings  ziemlich  wenig  Betrieb  zu<br>herrschen, und irgendwie  macht Dich der<br>Anblick dieses  einsamen und verlassenen<br>Raumes  ein  wenig depressiv.  Aber  was<br>soll's? Vielleicht kommen  ja morgen zur<br>Frühstückszeit mehr Besucher her. Als Du<br>Dich weiter umsiehst, kannst Du Dich des<br>Eindrucks nicht erwehren, daß die Leute,<br>die  diesen   Raum  eingerichtet  haben,<br>unbedingt   den    Wohlstand   und   die<br>Weltoffenheit ihres  Dorfes zum Ausdruck<br>bringen wollten. Doch  leider ist dieser<br>krampfhafte  Versuch  gründlich  in  die<br>Hose   gegangen:   Das  Ergebnis   ihrer<br>Bemühungen  erinnert Dich  viel eher  an<br>die Foyers der  Hotels in amerikanischen<br>Seifenopern  -   mit  dem  unbedeutenden<br>Unterschied,  daß  diese  circa  fünfmal<br>größer  sind!  Trotzdem:  Zumindest  die<br>Landschaft ist fantastisch,  und das war<br>es doch immerhin, weshalb Du hergekommen<br>bist!",
+"Du  stehst  auf   der  Straße,  die  von<br>\"Mary's  Inn\",  Deinem Hotel,  zum  Loch<br>Calderwood  führt. Du  spürst die  Wärme<br>der  Abendsonne  auf   Deiner  Haut  und<br>lauschst  dem Gutenachtgesang  der Vögel<br>auf  den  im  sanften  Wind  rauschenden<br>Bäumen, die den  Straßenrand säumen. Die<br>ersten  Ferien, die  Du allein  verreist<br>bist, lassen sich  doch eigentlich schon<br>recht gut an, denkst  Du Dir, und nimmst<br>Dir  vor,   diesen  Urlaub  so   gut  zu<br>genießen,  wie  es  nur  eben  geht.  Zu<br>Deiner Linken, also  im Westen, befindet<br>sich  der   Eingang  zu   \"Mary's  Inn\",<br>während  sich  die  Straße  in  Richtung<br>Osten erstreckt.  Am rechten Straßenrand<br>befindet sich ein Reklameschild, auf dem<br>geschrieben  steht:  \"Letztes Hotel  vor<br>dem nächsten Systemcrash!\"",
+"Du   wanderst  eine   einsame,  staubige<br>Straße entlang, die von Deinem Hotel zum<br>Ufer  von Loch  Calderwood führt.  Trotz<br>der  vorgerückten   Abendstunde  ist  es<br>immer  noch  angenehm  warm:  Der  Boden<br>strahlt  all die  Hitze ab,  die er  den<br>ganzen sonnigen Tag hindurch gespeichert<br>hat. Du fühlst  Dich ein wenig erschöpft<br>und   denkst  an   Deine  ausgetrocknete<br>Kehle,  die Du  gern  mit einem  schönen<br>Humpen  eiskalten  Biers  ölen  würdest,<br>aber andererseits befindet  sich nur ein<br>kleines Stückchen weiter im Norden schon<br>der Bergsee, in  dem Du Deine qualmenden<br>Füße kühlen wolltest. Falls Du Dich aber<br>doch  für einen  Drink  an der  Hotelbar<br>entscheiden  solltest,   kannst  Du  die<br>Straße   natürlich   auch  nach   Westen<br>zurückgehen.",
+"Du  stehst  in  einem  kurzen,  sauberen<br>Korridor  mit  weiß gestrichenen  Wänden<br>und  dicken,  roten  Teppichen  auf  dem<br>blankgebohnerten     Parkett.     Einige<br>schwarzgestrichene   und  mit   goldenen<br>Nummernschildern versehene  Türen führen<br>zu den Gästezimmern. Dein eigenes Zimmer<br>liegt  nach Süden  hin,  und  da Du  die<br>Schlüssel  zu  den anderen  Räumen  wohl<br>kaum  in  die   Finger  bekommen  wirst,<br>bliebe Dir als  Alternative nur noch der<br>Wanddurchbruch  in  der Ostwand,  hinter<br>dem Du die Rezeption erkennen kannst.",
+"Du  stehst   an  der   Rezeption  Deines<br>Hotels. Direkt vor Dir befindet sich der<br>massive Rezeptionstresen,  hinter dem Du<br>ein  Schlüsselbrett  siehst. Als  Du  es<br>genauer in Augenschein  nimmst, wird Dir<br>klar, daß  Du momentan wohl  der einzige<br>Gast   des   Hotels  bist:   Fast   alle<br>Zimmerschlüssel  hängen  noch am  Brett!<br>Weiter rechts  daneben kannst  Du einige<br>Postfächer  erkennen,   aber  alle  sind<br>leer. Naja, zumindest  Deine Mutter wird<br>Dir schon  schreiben -  und wenn  es nur<br>darum geht, Dich  daran zu erinnern, daß<br>Du  auch  immer   rechtzeitig  ins  Bett<br>gehst,  Deine  Socken täglich  wechselst<br>und    brav     Deine    Vitaminpillchen<br>einnimmst!",
+"Während  Du  Dich   langsam  nach  Süden<br>treiben  läßt,  bemerkst   Du,  daß  die<br>Strömung  immer stärker  wird  - bis  Du<br>begreifst,   in    welcher   Gefahr   Du<br>schwebst! Mit aller  Kraft versuchst Du,<br>gegen den Sog anzuschwimmen, doch es ist<br>schon  zu spät:  Wild um  Dich schlagend<br>wirst  Du von  einem gewaltigen  Strudel<br>auf den Grund des Bergsees hinabgezogen,<br>wo Du einen qualvollen Tod stirbst... Im<br>Moment Deines Todes glaubst Du unter Dir<br>noch  die  goldenen Kuppeln  der  alten,<br>versunkenen Stadt  zu erkennen,  von der<br>Dir  die  Einheimischen erzählt  hatten,<br>aber   angesichts    der   unglücklichen<br>Situation, in die Du hineingeraten bist,<br>ist es wirklich höchst unwahrscheinlich,<br>daß Du noch  einmal Gelegenheit bekommen<br>wirst, ihre  Gerüchte zu  bestätigen: Du<br>hast  nicht ein  mal mehr  Zeit für  ein<br>letztes Gebet...",
+"Du stehst  am Ufer von  Loch Calderwood,<br>völlig sprachlos angesichts des sich Dir<br>bietenden  Bildes:  Vor  Dir  liegt  ein<br>malerischer Bergsee,  umgeben von hohen,<br>zerklüfteten   Bergen,    hinter   denen<br>langsam   die   Sonne   untergeht.   Vom<br>Nordwesten    her   kannst    Du   einen<br>Wasserfall von den Bergen herunterkommen<br>und laut grollend in den Bergsee stürzen<br>hören.  Du   fühlst  den   Anflug  eines<br>romantischen  Gefühls  in Dir  aufkommen<br>und  überlegst, ob  Du nicht  kurz Deine<br>Freundin  anrufen  solltest  -  doch  im<br>selben   Moment   verscheuchst  Du   den<br>Gedanken  wieder: Wie  sollte solch  ein<br>Romantiker hier  Chancen bei  den Mädels<br>haben? Und was  Deine Freundin betrifft:<br>Die  hast Du  ja schließlich  nicht ohne<br>Grund zuhause gelassen,  gell? In diesem<br>Zusammenhang kommt Dir aber der Gedanke,<br>daß   Dir  ein   paar   Runden  im   See<br>sicherlich guttun  würden, bevor  Du die<br>schottische    Damenwelt   mit    Deiner<br>Aufmerksamkeit  beglückst. Wenn  Du also<br>vor  Deinem  Eroberungsfeldzug noch  ein<br>wenig für Deine  Kondition tun möchtest,<br>kannst  Du den  See im  Norden betreten.<br>Ansonsten kannst Du  aber auch wieder zu<br>Deinem Hotel  zurückkehren, das  am Ende<br>der Straße liegt,  die nach Süden führt.<br>",
+"Als   Du   das   Eßzimmer   des   Hotels<br>betrittst,    mußt     Du    schmunzeln:<br>Verglichen mit der Anzahl der Gäste, die<br>hier  jährlich   regelmäßig  ein  Zimmer<br>buchen, ist  der Raum ein wenig  zu groß<br>geraten,  fast  so,   als  wäre  er  für<br>Staatsbankette  oder   andere  festliche<br>Tafelfreuden  gebaut worden:  Die Kerzen<br>in  den  kostbaren  Ständern  auf  jedem<br>Tisch    machen     ihn    schon    fast<br>\"first-class-look-a-like\",  nur:  Wofür?<br>Normalerweise  sind  doch  die  einzigen<br>Gäste,   die   hierherkommen,   um   ihr<br>Abendessen einzunehmen, die Einheimschen<br>selbst!  Einer  von ihnen,  ein  älterer<br>Mann mit langem Bart, sitzt an dem Tisch<br>in  der  Ecke  und studiert  gerade  die<br>Speisekarte,  während er  genüßlich sein<br>Bierchen  in sich  hineinpichelt. Sollte<br>auch Dich das  Verlangen nach Speis' und<br>Trank überkommen  haben, kannst  Du Dich<br>ja zu ihm  setzen. Andernfalls kannst Du<br>das  Eßzimmer durch  die Tür  hinter Dir<br>wieder verlassen.",
+"Während Du auf dem schlickigen Uferboden<br>nach  Westen  watest,  wird  das  Wasser<br>kälter und  kälter -  und logischerweise<br>auch tiefer und tiefer,  je mehr Du Dich<br>der  Mitte des  Sees näherst.  Bis jetzt<br>war es ja noch einigermaßen möglich, auf<br>dem Grund  des Sees zu stehen,  aber nun<br>bleibt Dir einfach keine andere Wahl: Du<br>mußt schwimmen, wenn Du nicht untergehen<br>willst!  \"Sei's  drum: Gelobt  sei,  was<br>hart    macht!\",    denkst    Du    Dir,<br>besprenkelst kurz  Deine Heldenbrust und<br>wirfst Dich dann mit Todesverachtung der<br>Länge nach nach  vorn. Uahhh! Das Wasser<br>ist  trotz der  warmen Jahreszeit  schon<br>ziemlich   kühl,   aber   nach   einigen<br>Sekunden hast Du  Dich an die Temperatur<br>gewöhnt.  Eigentlich doch  ganz angenehm<br>hier -  nur Dein  Quietscheentchen fehlt<br>noch!  Als  Du die  ersten  unbeholfenen<br>Schwimmzüge machst,  fühlst Du  auch die<br>starke  Strömung,  die Dich  nach  Süden<br>zieht, wo ein gigantischer Strudel alles<br>in  seinen  tiefen  Schlund  zerrt,  was<br>unvorsichtig   genug   war,   in   seine<br>Reichweite zu kommen.  Du kannst in alle<br>Himmelsrichtungen   außer  nach   Westen<br>schwimmen.",
+"Du stehst im kalten Wasser des Bergsees.<br>Es  ist zwar  immer  noch recht  seicht,<br>aber  der  Grund   fühlt  sich  ziemlich<br>merkwürdig an -  vielleicht trampelst Du<br>ja  gerade auf  Nessie herum?  Trotzdem:<br>Wenn  Dich  das  kalte  Wasser  und  die<br>Aussicht,  einem leibhaftigen  Ungeheuer<br>vielleicht   als  Abendbrot   dienen  zu<br>können, nicht abschrecken, wirst Du wohl<br>ohne Probleme  vorwärts kommen. Solltest<br>Du jedoch Deine Absichten geändert haben<br>und  klugerweise zum  Ufer zurückkehren,<br>statt den Helden spielen zu wollen, dann<br>gehe nach  Süden. Falls Du  jedoch nicht<br>auf  meinen  Rat hören  möchtest,  setze<br>Deinen Weg ruhig weiter nach Westen fort<br>-  Du wirst  schon sehen,  was Du  davon<br>hast!  Aber denke  immer  daran: Es  war<br>Deine Idee...!",
+"Du schwimmst  direkt vor  dem Wasserfall<br>im Nordwesten  des Bergsees.  Während Du<br>bemüht  bist,  nicht  von  der  Strömung<br>abgedriftet zu werden, überlegst Du, was<br>wohl hinter ihm versteckt sein mag... Du<br>kannst nun  entweder zurück  zum Zentrum<br>des  Sees   schwimmen,  oder  versuchen,<br>unter dem  Wasserfall hindurchzutauchen,<br>um  zu  sehen,  welches  Geheimnis  sich<br>hinter  der undurchsichtigen  Wasserwand<br>verbirgt...",
+"Immer noch recht benommen von dem harten<br>Schlag, den Dir  der Wasserfall versetzt<br>hat,  versuchst  Du Dich  mit  leichten,<br>jedoch     noch     recht     linkischen<br>Schwimmzügen  über der  Wasseroberfläche<br>zu halten, doch  plötzlich stutzt Du und<br>hältst  inne -  so  daß  Du erst  einmal<br>wieder für  einen Moment  untergehst und<br>Wasser   schluckst!    Als   Du   wieder<br>auftauchst, trifft  Dich der  Schlag: Du<br>scheinst nach wie  vor auf der südlichen<br>Seite  des Wasserfalls  zu paddeln!  Für<br>diese  Tatsache  allein liesse  sich  ja<br>sogar  noch   irgendwie  eine  plausible<br>Erklärung finden, zumal  Du unter Wasser<br>eine   kurze   Zeit   die   Orientierung<br>verloren   hattest,   so  daß   Du   sie<br>akzeptieren   könntest,  wenn,   wenn...<br>-wenn  sich dort  am  Seeufer noch  Dein<br>Dorf  befände! Aber  es scheint  wie vom<br>Erdboden verschluckt zu  sein! Statt der<br>kleinen Siedlung  befindet sich  am Ufer<br>ein tiefer, dunkler Wald mit Bäumen, die<br>Du  in  Deinem  ganzen  Leben  noch  nie<br>gesehen hast! In  Dir kommt der Verdacht<br>auf,   daß  Du   durch  den   Wasserfall<br>vielleicht  in  eine   parallel  zu  der<br>Deinigen existierende  Welt gelangt sein<br>könntest,  so wie  in diesen  beknackten<br>Adventures zuhause  auf Deinem Computer.<br>Nur: DAS  hier ist die Realität!  Und wo<br>zum Teufel bist Du hier gelandet?",
+"Du betrittst  das Ufer,  von wo  aus das<br>Grollen    des   Wasserfalls    in   der<br>südwestlichen  Ecke  des Bergsees  immer<br>noch zu hören ist.  Die Natur sieht hier<br>irgendwie viel  sauberer und unberührter<br>aus als  auf der  Seite, von der  aus Du<br>den See  zum ersten Mal betreten  hast -<br>Du  weißt schon  nicht einmal  mehr, wie<br>lange     das     schon     zurückliegt!<br>Nichtsdestotrotz beginnst  Du diese Welt<br>langsam zu mögen,  obwohl Du nicht genau<br>weißt,   wo  Dich   Deine  Eltern   wohl<br>vermuten  werden,  wenn  Du  Dich  heute<br>abend nicht  zuhause meldest.  Es bedarf<br>aber   trotzdem   keiner  allzu   großen<br>Fantasiebegabung, sich auszurechnen, daß<br>dies bis  zu Deiner  Volljährigkeit wohl<br>erst  mal  Deine  letzten  \"Solo-Ferien\"<br>gewesen sein dürften...",
+"Du stehst  am Rande einer  Lichtung, die<br>von   einer   Dir  unbekannten   Baumart<br>umgeben  ist. Mehr  gibt es  über diesen<br>Ort aber  wirklich nicht zu  berichten -<br>es hat uns  schließlich schon genug Mühe<br>gekostet,      uns      die      anderen<br>Raumbeschreibungen  aus  den Fingern  zu<br>saugen: Er existiert eben einfach, genau<br>wie  Du auch  (Auch nur  eine Frage  der<br>Zeit,   hehe...).   Aber  wie   Du   Dir<br>sicherlich vorstellen  kannst, hat sogar<br>eine  ordinäre Lichtung  wie diese  hier<br>eine   besondere   Bedeutung  in   einem<br>A.C.A-Adventure.  Und  da Du  das  Spiel<br>noch lange nicht  gelöst hast, würde ich<br>vorschlagen, Du wartest es einfach ab!",
+"Als Du die  Lichtung betrittst, hörst Du<br>vor Dir  ein fürchterliches  Knurren und<br>Fauchen! Erschrocken hältst  Du inne und<br>versteckst  Dich   vorsichtshalber  erst<br>einmal  hinter  dem nächsten  Baum!  Als<br>sich Deine Augen ein  wenig an das etwas<br>schummerige    Licht   gewöhnt    haben,<br>erkennst  Du auf  der anderen  Seite der<br>Lichtung   zwei  miteinander   kämpfende<br>Tiere: Einen großen, grauen Wolf und ein<br>zierliches,  weiß schimmerndes  Einhorn,<br>dessen  Fell  schon  völlig  mit  seinem<br>bläulichen  Blut besudelt  ist, das  aus<br>unzähligen,  tiefen Wunden  sickert. Als<br>der Wolf bemerkt, daß der Widerstand des<br>geschwächten      Einhorns      erlahmt,<br>attackiert  er  es  noch  wütender!  Das<br>grazile Fabelwesen hat  nicht mehr genug<br>Kraft,  um   den  scharfen   und  langen<br>Wolfszähnen  noch  lange  Widerstand  zu<br>leisten...",
+"Du  hättest den  See wirklich  nicht mit<br>mehr  Dingen  betreten   sollen  als  Du<br>unbedingt  zum   Überleben  benötigtest:<br>Schwer  wie ein  Mühlstein wirst  Du auf<br>den Grund  des Sees  hinuntergezogen, wo<br>Du elend ersäufst...",
+"Gaaanz cool bleiben!  So, und jetzt hol'<br>erstmal tief  Luft und zähl' bis  zehn -<br>oder  möchtest  Du  lieber  einen  etwas<br>längeren \"Urlaub\" in einer der örtlichen<br>Gefängniszellen verbringen?",
+"Ein   roh    gezimmertes,   aber   recht<br>behaglich  aussehendes  Bett mit  bunter<br>Bettwäsche. Werd' jetzt bitte noch nicht<br>müde  - dieser  Teil  ist lediglich  der<br>Anfang...",
+"Eine  kleine, faustgroße  Kupferklingel,<br>die  auf  dem Rezeptionstresen  montiert<br>wurde,  damit  Nervensägen  wie  Du  den<br>Portier beim Kreuzworträtsellösen stören<br>und mit ihren  belanglosen Fragen nerven<br>können.",
+"Ein    kleiner,    farbiger    Prospekt,<br>herausgegeben        vom        hiesigen<br>Fremdenverkehrsamt  und beschriftet  mit<br>\"Loch Calderwood\".",
+"Der Farbprospekt  stellt Loch Calderwood<br>und  seine Umgebung  dar: Falls  Du also<br>die Schönheit der Landschaft bisher noch<br>nicht selbst entdeckt haben solltest, so<br>kannst Du Dich  zumindest mittels dieser<br>Fotos  davon  überzeugen,  daß  es  eine<br>großartige Idee gewesen  ist, hierher zu<br>reisen. Auf den  letzten Seiten befinden<br>sich die  Autogramme einiger bedeutender<br>Personen,  die hier  schon einmal  ihren<br>Urlaub verbracht  haben, so  z.B. Ronald<br>Reagan, Kirk Douglas,  Chris Link, Elvis<br>Presley, Kai  Schulze, Prince  und viele<br>andere weltberühmte Persönlichkeiten. Du<br>schauderst  vor  Ehrfurcht, fragst  Dich<br>allerdings, was wohl diese merkwürdigen,<br>kleinen Kreuze hinter  einigen der Namen<br>bedeuten mögen...",
+"Achtlos über die  Lehne geworfen, hängen<br>einige  Deiner Kleidungsstücke  über dem<br>Stuhl,  unter   denen  Du   auch  einige<br>Badesachen finden kannst.",
+"Ein  einfach   gefertigter,  rustikaler,<br>aber sehr  ergonomisch gebauter  Tisch -<br>genau wie  Dein eigener zuhause,  an dem<br>Du   normalerweise  Deine   Hausaufgaben<br>machst. Okay, Spaß  beiseite: ...auf dem<br>Dein   Computer   von  Tag   bis   Nacht<br>Mathehausaufgaben lösen, Pin-Up-Diashows<br>zeigen und Spiele kopieren muss...",
+"Auf  dem Rezeptionstresen  befinden sich<br>eine  kleine  Kupferklingel  und  einige<br>farbige Broschüren.",
+"Obwohl   Du   nach  der   langen   Reise<br>eigentlich  ein dringendes  menschliches<br>Bedürfnis    verspürst,   siegt    Deine<br>Neugier, und  Du entschließt  Dich, doch<br>erst  einmal  Deine  neue  Behausung  in<br>Augenschein  zu  nehmen.  Erwartungsvoll<br>öffnest Du die Tür und schaust Dich kurz<br>um.  Oh,  Gott!  Das  sind  ja  wahrhaft<br>besch...  Aussichten: Alles  gekachelt -<br>und stinken  tut es hier  obendrein! Als<br>Du an  der Strippe  ziehst, um  Licht zu<br>machen, hörst Du bloß ein gurgelndes und<br>schmatzendes Geräusch  - nur  das Licht,<br>das bleibt  aus! Also: So  nicht, Leute!<br>Du stürmst in Richtung Rezeption, um dem<br>alten  Knacker von  Portier mal  gehörig<br>den Marsch zu blasen, was er unter einem<br>Zimmer  mit Dusche  zu verstehen  hätte,<br>als  der  Groschen  bei Dir  fällt!  Von<br>bösen   Vorahnungen  geplagt   gehst  Du<br>zurück  zu der  Tür und  vergleichst die<br>Zahl  auf  dem Schild  gewissenhaft  und<br>sorgfältig mit  der Raumnummer,  die man<br>Dir  genannt  hatte:  \"003\".  Die  erste<br>Ziffer  stimmt, die  zweite auch  - aber<br>die dritte? Wo zum Teufel ist die dritte<br>Ziffer geblieben??? Verdammter Mist! Wie<br>soll man  sich denn  hier zurechtfinden,<br>wenn  diese  Schotten zu  sparsam  sind,<br>ihre  Räume richtig  auszuschildern? Auf<br>Deinem   Protestmarsch   zur   Rezeption<br>schaust  Du  Dir  die Schilder  auf  den<br>anderen Türen  an: \"001\",  \"002\"... Hey!<br>Moment  mal, dann  müßte das  hier ja...<br>Ja, richtig: Hier ist Nummer \"003\"! Ganz<br>am Ende des Ganges! Du hattest Dich bloß<br>im Zimmer  geirrt! Also gut,  sparen wir<br>uns den  Gang zum Portier und  geben ihm<br>noch  einmal eine  Chance. Aber:  WO ZUM<br>GEIER IST JETZT EIN KLO ?!?!?",
+"Deine  Zimmertür sieht  von innen  nicht<br>viel anders aus  als von außen: schwarz.<br>Nur das Schildchen  mit der Zimmernummer<br>hat man  sich hier gespart.  Jaja, diese<br>Schotten...",
+"Dieser Kasten, der  sich Hotel nennt, in<br>Wirklichkeit     aber     selbst     bei<br>wohlwollendster  Betrachung  gerade  mal<br>die  Bezeichnung  Pension verdient,  ist<br>ein  kleiner,   weißer  Bau   mit  roten<br>Fensterrahmen    und    einer    schwarz<br>gestrichenen Eingangstür.",
+"Der   Portier   ist  ein   schmächtiges,<br>älteres Männchen.  Du fühlst  fast schon<br>so  etwas wie  Mitleid mit  ihm, als  Du<br>daran  denkst, daß  er  das ganze  Hotel<br>fast ganz allein und ohne Hilfe betreuen<br>muß.",
+"Stolz blickst Du an Dir herunter auf ein<br>paar  Blue  Jeans: Sie  entsprechen  der<br>neuesten  Mode, da  Du ein  einziges Mal<br>die Gelegenheit hattest,  eine Hose ohne<br>die   Empfehlungen   Deiner  Mutter   zu<br>kaufen.",
+"Die  Speise-  und Getränkekarte  enthält<br>alle möglichen  örtlichen Spezialitäten,<br>aber   hauptsächlich:   Bier!  Bier   in<br>Flaschen,   Bier  in   Dosen,  Bier   in<br>Tüten...   QUATSCH!   Du  glaubst   auch<br>wirklich   jeden    Mist,   was?   Egal:<br>Hauptsache,  Du  bekommst hier  Bier  in<br>GLÄSERN!",
+"Der  Alte scheint  zu den  Bewohnern des<br>Dorfes  zu gehören:  Obwohl sie  leichte<br>Veständigungsprobleme  haben,  wenn  sie<br>ihren   schottischen  Dialekt   in  ihre<br>langen Bärte  brabbeln, sind  sie selten<br>abweisend,  meistens herzlich  und immer<br>zu einem  kleinen Schwätzchen  bei einem<br>kühlen Blonden aufgelegt.",
+"Die  Nummer  auf  dem  Schlüssel  lautet<br>\"003\". Das dürfte  selbst für Dich nicht<br>allzu schwer zu behalten sein, zumal sie<br>rein  zufällig  mit der  Deines  Zimmers<br>übereinstimmt!  Vergiß  sie aber  nicht,<br>denn  wenn Du,  wie  im letzten  Urlaub,<br>wieder  einmal   sturzbetrunken  durch's<br>Hotel torkelst und alle Gäste mit derben<br>Trinkliedern   um   ihre   wohlverdiente<br>Nachtruhe bringst,  wird sich  wohl kaum<br>jemand   finden,    der   Deiner   Fahne<br>widerstehen und Dir Auskunft geben kann!<br>",
+"Ein   paar  neue   und  ziemlich   teure<br>Sportschuhe.  Ich frage  mich ernsthaft,<br>ob Du sie Dir auch gekauft hättest, wenn<br>nicht jeder, der  an Deiner Schule etwas<br>auf sich hält, solche Treter trüge...",
+"Ich  habe Dir  doch bereits  mitgeteilt,<br>daß die Schrift  auf dem Schild \"Letztes<br>Hotel  vor   dem  nächsten  Systemcrash\"<br>lautet, oder? Mag ja  sein, daß Du meine<br>Texte  genauso  fantastisch findest  wie<br>ich, aber bitte  geh' mir trotzdem nicht<br>weiter  auf die  Nerven,  indem Du  mich<br>alles zweimal  fragst, okay?  Danke, der<br>Parser.",
+"Auf dem Tisch steht eine Speisekarte.",
+"Dein   Lieblings-T-Shirt:   Auf   seinem<br>rückwärtigen Teil stellt es einen Surfer<br>in grellen Neonfarben dar - cool! Schade<br>nur, daß jeder  andere auf Deiner Schule<br>denselben Dress trägt...",
+"Willst Du mir etwa  schon wieder auf die<br>Nerven  gehen?  DORT SITZT  EIN  ÄLTERER<br>MANN  AN EINEM  DER TISCHE  UND STUDIERT<br>DIE SPEISEKARTE!",
+"Weißt   Du    tatsächlich   nicht,   wie<br>Einhörner  aussehen?  Nun gut,  ich  bin<br>DEIN  Computer,  obwohl  ich  eigentlich<br>gehofft  hatte,  daß mir  das  Schicksal<br>meiner PC-Kollegen,  die den  ganzen Tag<br>ihren  ungebildeten  Besitzern  auf  die<br>Sprünge  helfen müssen,  erspart bliebe.<br>Naja,  also: Ein  Einhorn  ist eine  Art<br>weißes  Pferd (Wie  ein Pferd  aussieht,<br>weißt  Du, ja?),  dessen  Fell in  einem<br>beinahe  überirdischen   Licht  zwischen<br>Weiß  und Hellblau  zu funkeln  scheint.<br>Ein weiterer  Unterschied zwischen einem<br>ordinären Gaul  und einem  edlen Einhorn<br>ist das  gedrehte Horn, das  ein Einhorn<br>auf  der  Stirn  trägt.  Ich  hoffe,  Du<br>konntest mir so halbwegs folgen ?!?!?",
+"Ein rustikaler, alter Kleiderschrank mit<br>echten Bauernmalereien auf den Türen.",
+"Ein  reißender Wasserfall,  der von  dem<br>Gebirge, das den  See umgibt, herabkommt<br>und mit lautem Getöse ins Wasser stürzt.<br>Aber  mal  ganz  im Vertrauen:  Hast  Du<br>wirklich  nicht   gewußt,  wie   so  ein<br>Wasserfall  aussieht?  Nein? Siehst  Du,<br>das kommt bloß  durch den ganzen Science<br>Fiction-Kram, mit dem der Adventuremarkt<br>gerade  vollgemüllt wird!  Deshalb wählt<br>Avantgardistic   Arts   in   Aventuriens<br>Parlament! Wir  versprechen Dir,  a) die<br>Umwelt  sauber von  Abenteurerresten (so<br>sie sich denn  noch finden lassen...) zu<br>halten,  b) große  Naturparks in  unsere<br>Welten einzubauen, damit zumindest Deine<br>Kinder  wieder  wissen, wie  Wasserfälle<br>aussehen  und  c) sinnlose  und  stupide<br>Messages  wie   diese  hier,   die  bloß<br>geschrieben     werden,     weil     den<br>geistesgestörten      Autoren     nichts<br>Langweiligeres   mehr   einfiel,   unter<br>Todesstrafe zu stellen!",
+"Ein reißender Wasserfall, genau wie der,<br>den Du gesehen hast,  als Du den See zum<br>ersten Mal  betreten hast -  jedoch noch<br>um einiges wilder und frischer.",
+"Du  schauderst, als  Du das  gefährliche<br>Funkeln   in   den   Augen   des   Wolfs<br>erblickst...  Ansonsten ähnelt  das Tier<br>aber weitgehend  den zahmen  Wölfen, die<br>Du  zuhause   im  Zoo  gesehen   hast  -<br>zumindest, wenn man es schafft, über die<br>Tatsache   hinwegzusehen,   daß  es   um<br>einiges kräftiger und damit gefährlicher<br>ist  - und  daß  Euch  hier kein  Gitter<br>trennt!",
+"Oh nein! Bitte  erzähl' mir jetzt nicht,<br>daß  Du einer  von den  Typen bist,  die<br>kein Hotel  verlassen können,  ohne sich<br>zuvor   ein  kleines   \"Souvenir\"  (z.B.<br>Handtücher,       Aschenbecher      oder<br>Zimmerfernseher...)    organisiert    zu<br>haben!  Also ehrlich:  Du  hast es  doch<br>wohl  nicht  nötig,  zu  stehlen,  oder?<br>Außerdem:  Was willst  Du überhaupt  mit<br>der  Speisekarte?  Selbst wenn  wir  mal<br>davon ausgingen, daß  der Verdacht nicht<br>auf  Dich  fiele,  was  unwahrscheinlich<br>ist, da Du zur  Zeit nun mal der einzige<br>Gast des Hotels bist, so hätte die Karte<br>doch  überhaupt  keinen Wert  für  Dich!<br>Mary   hingegen,   die  Besitzerin   des<br>Hotels,   wäre  sicherlich   nicht  sehr<br>glücklich,  wenn  sie Deinetwegen  extra<br>einen neuen  Satz Speisekarten bestellen<br>müßte. Es ist hier auf dem Lande nämlich<br>nicht ganz  so einfach, solche  Dinge zu<br>bekommen,  wie Du  verwöhnter Stadtjunge<br>Dir vielleicht denkst! Also: Finger weg,<br>sonst Finger ab!",
+"Kauf'   ihm   ein  Hörgerät,   und   ich<br>garantiere Dir: Er wird der glücklichste<br>Portier unter Gottes Sonne sein!",
+"Obwohl sein Blick schon etwas glasig und<br>sein  Geist wohl  auch  schon ein  wenig<br>benebelt  ist, schaut  er erwartungsvoll<br>zu  Dir auf,  als Du  Dich seinem  Tisch<br>näherst.  Ich nehme  an,  er wäre  einem<br>kleinen Schwätzchen  mit Dir  nicht ganz<br>abgeneigt.",
+"Als  der  Wolf  Dich  auf  die  Lichtung<br>stürmen  sieht,  erschrickt er  derartig<br>über Deine  hagere Figur, daß  er sofort<br>den  Schwanz einzieht  und die  Beine in<br>die Pfoten nimmt! Nachdem er, noch immer<br>erschüttert  über soviel  Elend, jaulend<br>im Unterholz verschwunden ist, legt sich<br>das angeschlagene  Einhorn erschöpft auf<br>den  Boden, um  sich ein  wenig von  dem<br>ungleichen   Kampf  zu   erholen.  Seine<br>Nüstern  beben  nervös,   und  es  atmet<br>schwer und ungleichmäßig...",
+"\"Ich habe sie umzingelt!\", denkst Du Dir<br>siegessicher:    Mit     einem    wilden<br>Kamikazeschrei  stürmst Du  die Lichtung<br>und  wirfst Dich  mit aller  Kraft gegen<br>das   Einhorn,   um    dem   Wolf   eine<br>Gelegenheit zu geben, seine Zähne in die<br>weiße Kehle des Fabelwesens zu schlagen.<br>Vollgesudelt  mit  dem  bläulichen  Blut<br>machen der  Wolf und Du sich  daran, das<br>erlegte  Einhorn  auszuweiden, das  Dich<br>immer noch  mit einem  ungläubigen Blick<br>aus     seinen    erlöschenden     Augen<br>anzublicken scheint. Dummerweise scheint<br>der  Hunger   des  Wolfes   nach  dieser<br>Delikatesse  jedoch   immer  noch  nicht<br>vollständig  gestillt zu  sein: Bei  der<br>ersten   Gelegenheit,   als  Du   gerade<br>unvorsichtigerweise  die  Augen von  ihm<br>abwendest, springt  Dir der Wolf  an die<br>Kehle und reißt Dir beinahe den Kopf vom<br>Hals! Da er aber auch nach diesen beiden<br>schmackhaften Mählern noch immer hungrig<br>zu  sein   scheint,  kannst  Du   ja  im<br>nächsten   Spiel    noch   einmal   hier<br>vorbeikommen, um \"dem Wolf zu helfen\"...<br>",
+"Du drückst auf die kleine Kupferklingel.<br>In einem Raum weiter oben hörst Du einen<br>Summer - aber nichts passiert...",
+"Du drückst den Knopf der Klingel so tief<br>ins Gehäuse  hinein, daß  Dir ernsthafte<br>Bedenken  kommen,  ob  sie  nicht  unter<br>Deiner Hand  explodieren wird.  Nach ein<br>paar  Sekunden  hörst   Du  endlich  ein<br>langsames   Schlurfen  auf   der  Treppe<br>hinter  dem  Rezeptionstresen,  und  der<br>Portier  betritt,  wild  mit  den  Armen<br>umherfuchtelnd,  die  Rezeption.  \"Warum<br>klingelst Du denn Sturm?\", fragt er Dich<br>ungehalten, \"Ich bin doch nicht taub!\"",
+"So   höflich,  wie   es  Dir   nach  der<br>unfreundlichen  Begrüßung  noch  möglich<br>ist,     fragst    Du     nach    Deinem<br>Zimmerschlüssel. Nach jedem Satz, den Du<br>sagst, hält der  Portier die Hand hinter<br>sein  linkes  Ohr: Anscheinend  hört  er<br>wohl doch nicht mehr  ganz so gut wie er<br>glaubt, doch nach einer Weile scheint er<br>begriffen   zu   haben,   nimmt   Deinen<br>Zimmerschlüssel vom Brett  und wirft ihn<br>unwillig auf den Tresen. Er murmelt noch<br>kurz:  \"Raum   Nummer  Null-Null-Drei.\",<br>dreht sich ohne ein weiteres Wort um und<br>schlurft  die   Treppe  hoch.   \"So  was<br>Unfreundliches!\",  denkst  Du  bei  Dir,<br>\"Kein  Wunder,  daß hier  keiner  wohnen<br>will!\" Auch Dein stiller Wunsch, er möge<br>auf seinem Weg nach oben ausrutschen und<br>die Stufen hinunterpoltern, erfüllt sich<br>leider nicht. Na, na,  na! Wer wird denn<br>gleich   aggressiv  werden!   Eigentlich<br>solltest Du  etwas mehr  Verständnis und<br>Mitgefühl für  das alte  Männchen zeigen<br>und  das nächste  Mal Deine  jugendliche<br>Ungeduld ein wenig zügeln!",
+"Du winkst die Bedienung zu Dir heran und<br>nennst  ihr Deine  dringendsten Wünsche:<br>\"Bringen Sie mir bitte ein großes Steak,<br>ein  kühles  Bier  und  eine  Fra...\"  -<br>Plötzlich  spürst Du,  wie Du  rot wirst<br>und    stammelst:    \"Ach   nein:    Die<br>Frankfurter Allgemeine können Sie wieder<br>streichen. Deutsche Zeitungen werden Sie<br>hier  ja  wohl ohnehin  nicht  bekommen,<br>oder?\"  Als das  Mädchen, ebenfalls  rot<br>bis über  beide Ohren,  hastig verneint,<br>beruhigst Du es  - den Altersunterschied<br>von   gut  zehn   Jahren  geflissentlich<br>ignorierend  -   väterlich:  \"Das  macht<br>nichts, meine Tochter:  Ich kann sowieso<br>kein    Deutsch!\",   und    brichst   in<br>brüllendes Gelächter  aus, woraufhin der<br>bisher       unbeteiligt      dasitzende<br>Dorfbewohner   die  Augen   leidend  zum<br>Himmel verdreht, als  hätte man ihm dort<br>in  die Weichteile  getreten,  wo es  so<br>richtig   wehtut.    Als   Du   bestürzt<br>feststellst,  daß   auch  die  Kellnerin<br>anscheinend       unter      chronischer<br>Humorlosigkeit  leidet,  beschließt  Du,<br>Deine    komische   Darbietung    abrupt<br>abzubrechen  und das  Mädchen mit  einer<br>gnädigen Handbewegung  zu entlassen. Als<br>es  in   der  Küche   verschwunden  ist,<br>sprichst Du den alten Mann an, ob er Dir<br>nicht vielleicht ein wenig über das Dorf<br>und  seine   Umgebung  erzählen  könnte.<br>Langsam   und  schleppend   beginnt  der<br>Dorfbewohner,     in     seinen     Bart<br>hineinzubrabbeln,   daß   er  Dir   eine<br>interessante  Sage erzählen  könne. Gut,<br>Du   bist   zwar  nicht   gerade   davon<br>ausgegangen,  daß  er   Dir  gleich  die<br>Adressen   der  lokalen   In-Treffs  und<br>Yuppie-Diskotheken aufzählen würde, aber<br>muß  es denn  gleich  ein Märchen  sein?<br>Vorsichtshalber stützt  Du den  Kopf auf<br>die Hände, um im Ernstfall nicht mit der<br>Nase auf die  Tischkante zu knallen, und<br>während  Du sehnsüchtig  auf Dein  Essen<br>wartest,  damit Du  wenigstens etwas  zu<br>tun hättest, lauschst  Du der Geschichte<br>des Alten: Vor  langer, langer Zeit soll<br>an  dem   Platz,  den  jetzt   das  Loch<br>Calderwood  einnimmt,  eine  reiche  und<br>stolze Stadt gestanden  haben - doch von<br>einer  Nacht  auf  die  andere  war  sie<br>verschwunden,  und  statt  ihrer  befand<br>sich der See am Fuße der Berge! Es wurde<br>vermutet,   daß   die  Bewohner   dieser<br>legendären  Stadt  für ihren  Stolz  und<br>ihre Eitelkeit von  den Göttern bestraft<br>worden  seien.   Ebenfalls  erzählt  man<br>sich, daß sie sehr reich und kunstfertig<br>gewesen  wären! Da  Du  für Deinen  Teil<br>Dich  seit Beginn  der Erzählung  in der<br>Kunst   übst,  mit   offenen  Augen   zu<br>schlafen,  hält der  Einheimische Deinen<br>starren  Blick  für ungläubiges  Staunen<br>und   setzt   noch  mal   einen   drauf:<br>Angeblich  behaupten die  Leute im  Dorf<br>nämlich sogar heute  noch, daß die Türme<br>und Dächer  der Stadt noch  unter Wasser<br>gesehen  werden  könnten,  wenn  man  es<br>wagte, bei  Vollmond um  Mitternacht auf<br>den Grund des  Sees hinabzutauchen - ein<br>sehr exklusives und einmaliges Vergnügen<br>übrigens, da keiner der tapferen Männer,<br>die  bisher  ihr Glück  versucht  haben,<br>jemals zurückkam...",
+"Der  alte  Mann  verbirgt  sein  Gesicht<br>hinter seinem  Bierglas - nicht  mehr in<br>der  Lage, noch  ein  weiteres Wort  von<br>sich zu geben. Das  einzige, was Du noch<br>von Zeit zu Zeit  von ihm vernimmst, ist<br>ein  leises  und  verschämtes  \"Börks!\".<br>Offensichtlich  hat  er  während  seiner<br>Erzählung  ein Gläschen  über den  Durst<br>getrunken...",
+"Nachdem  es sich  ein wenig  erholt hat,<br>dankt  das Einhorn  Dir für  Deine Hilfe<br>und warnt Dich  eindringlich, Deinen Weg<br>nach  Westen  fortzusetzen. \"Nachdem  Du<br>erst  einmal  diesen   Teil  des  Waldes<br>verlassen  hast,  gibt  es  kein  Zurück<br>mehr...\",  sagt es  mit einem  unendlich<br>traurigen  Blick  in  seinen  tiefblauen<br>Augen,    \"Doch   nimm    diese   kleine<br>Kristallkugel:  Sie  könnte Dir  helfen,<br>Freunde  in dieser  feindlichen Welt  zu<br>finden...\"  Mit diesen  Worten gibt  Dir<br>das  Einhorn   eine  kleine,  leuchtende<br>Kristallkugel,   während   es  Dir   mit<br>ersterbender Stimme zuwispert: \"Denke an<br>mich,  wenn Du  sie benutzt  - ich  habe<br>nicht mehr lange zu leben...\". Mit einem<br>letzten Blick zu Dir zurück, einem Blick<br>so voller  Bedauern und Schmerz,  daß es<br>Dir  fast das  Herz bricht,  wendet sich<br>das  todgeweihte,  schöne Wesen  um  und<br>trottet  langsam davon,  ohne sich  noch<br>einmal  nach  Dir   umzudrehen,  bis  es<br>zwischen den  Bäumen verschwunden ist...<br>",
+"Du steigst wieder in Deine Jeans.",
+"Also,  wenn Du  mich  fragst, dann  täte<br>Deinen Füßen  noch ein  wenig Frischluft<br>gut - aber okay:  Du trägst jetzt wieder<br>Deine Turnschuhe.",
+"Du zwängst Dich  in Dein T-Shirt hinein:<br>Hach!  Da  fühlt  man sich  doch  gleich<br>wieder viel cooler!",
+"Bist   Du  krank?   Deine  Eltern   sind<br>hunderte  von  Kilometern entfernt,  die<br>Nacht ist jung -  und Du willst SCHLAFEN<br>???",
+"Du   setzt   Dich    hin,   um   darüber<br>nachzusinnen,  was Du  als nächstes  tun<br>könntest, aber  mit einem Blick  auf die<br>Tischplatte vor  Dir -  eine Tischplatte<br>ohne Deinen geliebten  Computer darauf -<br>fragst Du  Dich verwirrt, wofür  Du Dich<br>überhaupt  hingesetzt  hast -  denn  was<br>sollte   man  schon   mit  einem   Tisch<br>anfangen  können,  auf   dem  sich  kein<br>Monitor    befindet?     Da    Du    als<br>eingefleischter   Medientrottel   leider<br>außerstande bist, eine Antwort auf diese<br>brennende  und  weltbewegende  Frage  zu<br>finden, stehst Du frustriert wieder auf,<br>um  etwas   Produktiveres  zu   tun  als<br>lediglich herumzusitzen...",
+"Als Du gerade tiefer  in den Wald treten<br>willst,  tritt   ein  Waldelf   aus  dem<br>Unterholz vor Dich und versperrt Dir mit<br>einer   Geste   den  Weg,   die   keinen<br>Widerspruch   zuläßt.   \"Seid   gegrüßt,<br>Fremder!\",  begrüßt er  Dich freundlich,<br>\"Bevor   Ihr  tiefer   in  unsere   Welt<br>vordringen dürft, müßt Ihr einen kleinen<br>Test   bezüglich    der   Spielanleitung<br>bestehen,  um   zu  beweisen,   daß  Ihr<br>wirklich ein EIGENES Spiel besitzt - und<br>nicht     bloß    eine     von    diesen<br>minderwertigen Schwarzkopien...\"",
+"\"Nun  gut,  mein  Freund: Der  Code  ist<br>okay! Ihr dürft passieren...\", entgegnet<br>der Elf, sichtlich  zufrieden über Deine<br>Antwort,  und verschwindet  ebenso rasch<br>wieder  im Wald,  wie er  zuvor aus  ihm<br>aufgetaucht ist...",
+"\"Oh  nein!   Werden  diese   Diebe  denn<br>niemals   verstehen,    wie   hart   ein<br>durchschnittliches   Programmierteam  an<br>der  Entwicklung  eines  Programmes  wie<br>diesem  arbeiten  muß?\",  ruft  der  Elf<br>sichtlich  enttäuscht  aus. \"Nun  ziehet<br>aus und kauft Euch das Originalprogramm,<br>wenn   Euch  daran   gelegen  ist,   den<br>Fortgang der  Geschichte mitverfolgen zu<br>können! Ich  für meinen Teil  werde Euch<br>nicht eher passieren lassen, als bis Ihr<br>den gebührenden Zoll entrichtet habt...\"<br>",
+"Ausgänge führen nach:",
+"Tut mir  leid, aber  im Moment  kann ich<br>hier     bedauerlicherweise    keinerlei<br>Ausgänge erkennen...",
+"Bitte  lege  die  Diskette, auf  der  Du<br>Deine Spielstände abgespeichert hast, in<br>Dein Laufwerk. Denke  daran, daß sie den<br>Namen \"SoulSave\" tragen muß. Andernfalls<br>formatiere    sie,    wie   in    Deinem<br>Benutzerhandbuch     beschrieben,    und<br>benenne  sie  in \"SoulSave\"  um.  Drücke<br><ESC>  oder das  rechte Mousebutton,  um<br>die Aktion abzubrechen!",
+"Willst  Du   wirklich  alle  Spielstände<br>löschen?  Drücke  <J>  oder  das  rechte<br>Mousebutton  zur   Bestätigung  -  alles<br>andere             bricht            den<br>Initialisierungsvorgang ab...",
+"Bitte warte  einen kleinen Moment  - ich<br>lösche die alten Spielstände...",
+"Okay:   Alle   alten  Spielstände   sind<br>gelöscht und  es ist wieder  genug Platz<br>für neue vorhanden.",
+"Puh! Nochmal Schwein gehabt...",
+"Diskette wurde initialisiert.",
+"FEHLER! Konnte  Directory nicht anlegen!<br>Mögliche  Fehlerursachen:  Schreibschutz<br>aktiviert,  Diskette  defekt oder  nicht<br>formatiert, etc.",
+"Die  Diskette ist  nun gelöscht  und für<br>die neuen Spielstände präpariert.",
+"FEHLER!     Konnte    Diskette     nicht<br>initialisieren!       Bitte      andere,<br>fehlerfreie Diskette benutzen.",
+"Bitte wähle  den zu  ladenden Spielstand<br>aus.",
+"Spielstand  wird geladen  - bitte  etwas<br>Geduld...",
+"FEHLER!  Spielstand  kann nicht  geladen<br>werden! Bitte wähle einen anderen aus...<br>",
+"Spielstand  wurde  komplett und  korrekt<br>eingelesen und initialisiert - Du kannst<br>nun  von dort  an weiterspielen,  von wo<br>aus Du abgespeichert hast: Viel Spaß!",
+"Bitte wähle  den Eintrag aus,  unter dem<br>der   Spielstand  abgespeichert   werden<br>soll!",
+"Speichere   den  Spielstand   unter  dem<br>angegebenen    Namen    und    in    den<br>entsprechenden Eintrag ...",
+"Okay,   der  Spielstand   wurde  korrekt<br>abgespeichert.",
+"FEHLER!    Konnte    Spielstand    nicht<br>speichern!",
+"Bitte  aktiviere die  Install-Option aus<br>dem Diskmenü...",
+"Das findest  Du wohl witzig,  häh? Naja,<br>vergessen wir's...",
+"Um  vorzubeugen, daß  sich einige  dumme<br>\"Kopier-Hiwis\" mit Hilfe abgespeicherter<br>Spielstände an den Codeabfragen zwischen<br>den      einzelnen      Spielabschnitten<br>vorbeimogeln und das Spiel unentgeltlich<br>spielen  können,  möchten wir  Dich  nun<br>bitten,  einen  Code  aus  dem  Handbuch<br>einzugeben.  Tut mir  leid -  aber: \"Muß<br>sein...\"",
+"FEHLER!  Die   eingelegte  Diskette  ist<br>schreibgeschützt!",
+"FEHLER! File ist bereits vorhanden!",
+"FEHLER! Kann Verzeichnis nicht finden!",
+"FEHLER! Die  Diskette ist  nicht korrekt<br>validiert!",
+"FEHLER! Diskette  ist bis  zum Erbrechen<br>voll!",
+"FEHLER!  Die  eingelegte Diskette  weist<br>keine korrekte DOS-Struktur auf!",
+"FEHLER! Keine Diskette im Laufwerk!",
+"FATALER  FEHLER!  Unbekannte  Ursache  -<br>schieben      wir's       mal      auf's<br>Betriebssystem...",
+"Fehlerursache  behoben? <J>  oder linkes<br>Mousebutton zur Bestätigung...",
+"Ein  kleiner  Zwerg mit  einer  Schaufel<br>taucht   auf:   \"Junge,   Junge:   Blöde<br>Schinderarbeit!  Könntest  Du Dir  nicht<br>mal mehr  RAM zulegen? Dann  könnten wir<br>den  ganzen   Mist  schon   während  der<br>Installation hinter  uns bringen!\" Trotz<br>seines  Lamentierens  beginnt der  Zwerg<br>fleißig,   wenn  auch   nicht  unbedingt<br>begeistert, die  Daten von  der Diskette<br>ins RAM zu schaufeln...",
+"FEHLER! System konnte leider nicht genug<br>Speicher zur Verfügung stellen!",
+"FEHLER! Das Systemdatenfile konnte nicht<br>geladen  werden!  Entweder hast  Du  das<br>Spiel  nicht  richtig installiert,  oder<br>Dein Speichermedium  ist soeben  den Weg<br>alles Irdischen gegangen...",
+"FEHLER! Konnte Library nicht öffnen!",
+"Okay, kehre zum Spiel zurück...",
+"Tja,  was  sein  muß, muß  sein:  Hastig<br>siehst  Du  Dich   um,  ob  auch  keiner<br>zusieht,  öffnest   Deine  Hose,  und...<br>MOMENT MAL! So nicht, Kumpel! Als ob der<br>Saure Regen nicht schon reichte...!",
+"Möchtest Du  das Spiel  <b>eenden, <n>eu<br>starten   oder   einen   abgespeicherten<br>Spielstand  <l>aden?   Drücke  eine  der<br>genannten  Tasten (<B>,  <N> oder  <L>),<br>oder   alternativ    dazu   das   rechte<br>Mousebutton zum  Beenden bzw.  das linke<br>zum Neustart.",
+"Bitte lege Diskette \"SOULCRYSTAL Disk E\"<br>ins  Laufwerk  ein!   Drücke  das  linke<br>Mousebutton     bzw.     <SPACE>     zur<br>Bestätigung, oder das rechte Button bzw.<br><ESC> zum Abbruch...",
+"Ähem:   War   ja  auch   nur'n   kleiner<br>Scherz...!",
+"Hastig    reißt   Du    die   Tür    des<br>Kleiderschranks auf, hechtest hinein und<br>schließt  die Tür  hinter Dir.  Zitternd<br>horchst  Du  in  die Stille,  doch  Dein<br>pumpender Herzschlag  ist alles,  was Du<br>hören kannst.  Mann! Du bist  im Urlaub!<br>Hier gibt es keine Väter, die besorgt in<br>das Zimmer ihrer  Tochter schleichen! Du<br>bist  hier in  Sicherheit! Muß  wohl die<br>Macht der Gewohnheit  gewesen sein, wie?<br>Schweißgebadet verläßt  Du Dein Versteck<br>wieder..."
+)
+
+
+
+//Finite Elemente 
+//Pax Imperia
+//Soul Crystal
+//Grafikkarte Beschleunigung
+//outcast spielen
+//kennedy approach
+//dvb-S poprogramm
+
