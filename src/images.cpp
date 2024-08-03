@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string>
+
 #include"souldisk.h"
 
 const unsigned int pal[16] = {
@@ -139,40 +140,7 @@ int DrawImage(const char *prefix, int n, int pos, unsigned char *buf) {
 
 
 void ShowRoom(const char *prefix, int n, const char *filename, int room) {
-    unsigned char buf[174848];
-    FILE *file;
-
-    file = fopen(filename, "rb");
-    //file = fopen("d64/Soul Crystal SideB1.d64", "rb");
-    //file = fopen("d64/Soul Crystal SideB2.d64", "rb");
-    //file = fopen("d64/Soul Crystal SideC1.d64", "rb");
-    //file = fopen("d64/Soul Crystal SideC2.d64", "rb");
-    //file = fopen("d64/Soul Crystal SideA2.d64", "rb");
-
-    if (file == NULL) {
-        fprintf(stderr, "Error: Cannot open file\n");
-        exit(1);
-    }
-    fread(buf, 174848, 1, file);
-    fclose(file);
-
-    int i = 0;
-/*
-	switch (room) {
-		case 2:
-			i = 316;
-			break;
-		case 1:
-			i = 315;
-			break;
-	}
- */
-    i = room;
-    //i = 311 + room;
-    //i = 312 + room; // for B1
-    //i = 448 + room; // for B2
-    //i = 291 + room; // for C1
-    //i = 435 + room; // for C2
+    uint8_t *buf = LoadD64(filename)
 /*
     for (int i = 0; i < 600; i++) {
         int bufpos = getd64pos(buf[0x300 + i * 3 + 0], buf[0x300 + i * 3 + 1], buf[0x300 + i * 3 + 2]) + 2;
@@ -180,8 +148,10 @@ void ShowRoom(const char *prefix, int n, const char *filename, int room) {
     }
     exit(1);
 */
-    int bufpos = getd64pos(buf[0x300 + i * 3 + 0], buf[0x300 + i * 3 + 1], buf[0x300 + i * 3 + 2]) + 2;
-    DrawImage(prefix, n, bufpos, buf);
+
+    int bufpos = getd64pos(room);
+    //printf("%i %i\n", buf[bufpos+0], buf[bufpos+1]);
+    DrawImage(prefix, n, bufpos+2, buf);
 }
 
 int main() {

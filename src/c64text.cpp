@@ -6,6 +6,7 @@
 //---------------------------------------------------------------------------
 
 #include "souldisk.h"
+#include "disk.h"
 
 static std::string IntToHex(int i, int length) {
     char x[16];
@@ -17,18 +18,15 @@ static std::string IntToHex(int i, int length) {
     return std::string(x);
 }
 
-std::string remove_extra_whitespaces(const std::string &input)
-{
+std::string remove_extra_whitespaces(const std::string &input) {
     std::string output;
     output.clear();  // unless you want to add at the end of existing sring...
-    unique_copy (input.begin(), input.end(), std::back_insert_iterator<std::string>(output),
-                 [](char a,char b){ return isspace(a) && isspace(b);});
+    unique_copy(input.begin(), input.end(), std::back_insert_iterator<std::string>(output),
+                [](char a, char b) { return isspace(a) && isspace(b); });
     return output;
 }
 
-
-void ShowD64Text(const char* filename, int nmax) {
-    FILE *file;
+void ShowD64Text(const char *filename, int nmax) {
     char s1[512];
     char s2[512];
     char s3[512];
@@ -259,51 +257,23 @@ tree->BuildTree("00000100010000100", '�');
 */
 
     //SearchRecursive(1, tree, std::string(""));
-    unsigned char buf[1000000];
 
     CBinTree *leaf;
     int bufpos = 0;
-    file = fopen(filename, "rb");
-    if (file == NULL) {
-        printf("Error: Cannot open file\n");
-        exit(1);
+
+    uint8_t *buf = LoadD64(filename);
+
+/*
+    for(int idx=0; idx<512; idx++) {
+        int offset = getd64pos(idx);
+        int nextoffset = getd64pos(idx+1);
+
+        printf("%i 0x%06x size: %i\n", idx, offset, nextoffset - offset);
     }
-
-    fread(buf, 174848, 1, file);
-    fclose(file);
-/*
-printf(getd64pos(16, 2, 0) );
-
-return;
-*/
-/*
-buf[0] = 40; //v
-int ap, bp;
-ap = 0;
-bp = 7;
-printf(soul2ascii[(unsigned char)GetChar(&ap, &bp)-0x40]);
-*/
-
-/*
-for(int i=0; i<331; i++)
-{
-int x=0;
-x = getd64pos(buf[0x300+i*3+0], buf[0x300+i*3+1], buf[0x300+i*3+2]);
-printf(x);
-}
+    exit(1);
 */
 
     int a, b;
-
-// bis 208 sind die Texte identisch,
-//danach fangen Raumbeschreibungen an
-
-//    bufpos = (9 * 256) + 4; //sideb1
-
-//sideb1: 312
-//sideb2: 448
-//sidec1: 291
-//sidec2: 435
 
 //for(int i=0; i<291; i++)
 //for(int i=0; i<103; i++)
@@ -317,14 +287,18 @@ for(int i=0; i<103; i++)
 return;
 */
 
-    for (int i = 103; i < nmax; i++) {
-        bufpos = getd64pos(buf[0x300 + i * 3 + 0], buf[0x300 + i * 3 + 1], buf[0x300 + i * 3 + 2]) + 4;
+    for (int i = 0; i < nmax; i++) {
+        //for (int i = 103; i < nmax; i++) {
+        bufpos = getd64pos(i);
 
         printf("\n");
         //printf("%s\n", IntToHex(i - 103 + 1, 2).c_str());
-        printf("%s\n", IntToHex(i , 2).c_str());
+        printf("%s\n", IntToHex(i, 2).c_str());
+        int16_t a = (buf[bufpos + 1] << 8) + buf[bufpos + 0];
+        int16_t b = (buf[bufpos + 3] << 8) + buf[bufpos + 2];
+        printf("%i %i\n", int(-a), int(-b));
 
-        s = GetString(bufpos, buf, buf);
+        s = GetString(bufpos + 4, buf, buf);
         s = remove_extra_whitespaces(s);
 
 
@@ -375,7 +349,6 @@ DrawImage(bufpos);
 Sleep(1000);
 }
 */
-
 
 
 // for(int i=152; i<1000; i++)
@@ -435,15 +408,19 @@ for(int i=0x13B00; i < 0x15000; i++)
       bufpos = getd64pos(17, 0, 0);
       printf(IntToHex(bufpos,6));
 */
-
 }
 
 
 int main() {
     ShowD64Text("data/C64/d64/Soul Crystal SideB1.d64", 312);
-    //ShowD64Text("d64/Soul Crystal SideB2.d64", 448);
-    //ShowD64Text("d64/Soul Crystal SideC1.d64", 291);
-    //ShowD64Text("d64/Soul Crystal SideC2.d64", 435);
+    //ShowD64Text("data/C64/d64/Soul Crystal SideB2.d64", 448);
+    //ShowD64Text("data/C64/d64/Soul Crystal SideC1.d64", 291);
+    //ShowD64Text("data/C64/d64/Soul Crystal SideC2.d64", 435);
+
+    //ShowD64Text("data/c64_en/SoulCrystalB1.d64", 312);
+    //ShowD64Text("data/c64_en/SoulCrystalB2.d64", 448);
+    //ShowD64Text("data/c64_en/SoulCrystalC1.d64", 291);
+    //ShowD64Text("data/c64_en/SoulCrystalC2.d64", 435);
 
     return 0;
 }

@@ -66,7 +66,7 @@ unsigned short temp;
 unsigned short object1, object2;
 unsigned short steps;
 unsigned short addr6963;
-unsigned short addr6994;
+unsigned short imageno;
 unsigned short pointsum;
 unsigned short addr6996;
 unsigned short addr699a;
@@ -75,7 +75,7 @@ unsigned char *tableptr;
 void SPECIAL(unsigned short x);
 void showtext();
 void Restart();
-void Code4087();
+void ShowImage();
 void Code2E5B();
 
 
@@ -85,7 +85,7 @@ x7600:
     textoutput = 0x0000; // r00
     if ( command == HINUNTER || command == OST || command == NORD || command == SUED || command == HINAUF || command == WEST ) {
         if ( roomnumber != IM_DIENERSCHLAFZIMMER ) {
-            SPECIAL(0x0064);
+            SPECIAL(0x0064) // Habe ich keine Kleidung an, vielleicht?;
             if ( temp == 0x0001 ) {
                 textoutput = 0x002e; // Du erwartest doch nicht allen Ernstes von mir, daß ich diesen Ort NACKT verlasse, oder?
                 goto x77bb;
@@ -98,9 +98,9 @@ x7600:
         }
         if ( roomnumber == VOR_EINER_GRUFT && objectstatus[WERWOLF] == 0x0002 ) {
             textoutput = 0x00ef; // Der Orkvater ist ein starker und kerngesunder Ork: Warum sollte gerade er die Hilfe eines schwächlichen Menschen benötigen?
-            addr6994 = 0x0085;
+            imageno = 0x0085;
             objectposition[DAVE] = 0x00ff;
-            Code4087();
+            ShowImage();
             showtext();
             Restart();
             return;
@@ -135,9 +135,9 @@ x7600:
                 goto x7702;
             } else {
                 if ( objectstatus[DAVE] <= 0x0000 ) {
-                    addr6994 = 0x0081;
+                    imageno = 0x0081;
                     objectposition[DAVE] = 0x00ff;
-                    Code4087();
+                    ShowImage();
                     textoutput = 0x0031; // Also, halte mir jetzt bitte nicht vor, daß ich Dich nicht gewarnt hätte - Du hast wirklich genug Zeit gehabt, um nach jemandem zu suchen, der Dir wärmere Kleidung hätte geben können - doch nun ist es endgültig zu spät: Du erfrierst, ohne auch nur die geringste Chance gehabt zu haben, das Spiel zu lösen! Schade eigentlich...
                     showtext();
                     Restart();
@@ -257,9 +257,9 @@ x77bb:
                                 Restart();
                             }
                             objectposition[DAVE] = 0x00ff;
-                            addr6994 = 0x0085;
-                            Code4087();
-                            addr6994 = 0x00ff;
+                            imageno = 0x0085;
+                            ShowImage();
+                            imageno = 0x00ff;
                             textoutput = 0x00ee; // Also, entschuldige mal bitte: Bräuchtest DU etwa noch irgendwelche Hilfe, wenn DU tot wärest?
                             showtext();
                             Restart();
@@ -291,8 +291,8 @@ x77bb:
                             }
                             Restart();
                             objectposition[DAVE] = 0x00ff;
-                            addr6994 = 0x0087;
-                            Code4087();
+                            imageno = 0x0087;
+                            ShowImage();
                             textoutput = 0x00d8; // Die Reagenzien leuchten in allen nur vorstellbaren Farbtönen. Manche rauchen und dampfen, manche blubbern nur still in ihren Gläsern vor sich hin - andere hingegen scheinen bloß eine günstige Gelegenheit abzuwarten, EXPLODIEREN zu können...! "Uiuiui!", denkst Du Dir, "Wer hier drinsteckt, wenn der Laden mal hochgeht, der ist wirklich alle Sorgen los!"
                             showtext();
                             Restart();
@@ -303,9 +303,9 @@ x77bb:
                     if ( textoutput != 0x0000 ) {
                         showtext();
                     }
-                    addr6994 = 0x0087;
+                    imageno = 0x0087;
                     objectposition[DAVE] = 0x00ff;
-                    Code4087();
+                    ShowImage();
                     textoutput = 0x00d8; // Die Reagenzien leuchten in allen nur vorstellbaren Farbtönen. Manche rauchen und dampfen, manche blubbern nur still in ihren Gläsern vor sich hin - andere hingegen scheinen bloß eine günstige Gelegenheit abzuwarten, EXPLODIEREN zu können...! "Uiuiui!", denkst Du Dir, "Wer hier drinsteckt, wenn der Laden mal hochgeht, der ist wirklich alle Sorgen los!"
                     showtext();
                     Restart();
@@ -328,11 +328,11 @@ x77bb:
                         } else {
                             if ( objectstatus[LABORTUER] != 0x0000 && objectstatus[MYLGOR] != 0x0009 ) {
                                 objectposition[DAVE] = 0x00ff;
-                                addr6994 = 0x0089;
-                                Code4087();
+                                imageno = 0x0089;
+                                ShowImage();
                                 textoutput = 0x00d9; // Der Sarkophag des toten Königs ist mit Szenen aus seinem glor- und tatenreichen Leben verziert - eines der eingemeißelten Bilder stellt beispielsweise zwei riesige Heere in Schlachtordnung dar: Eine der Armeen scheint die des Königs zu sein, während die andere aus einer völlig fremden Welt zu kommen scheint, vielleicht sogar aus - DEINER...?
                                 showtext();
-                                addr6994 = 0x00ff;
+                                imageno = 0x00ff;
                                 Restart();
                             }
                         }
@@ -401,26 +401,26 @@ x7a2e:
 
 
 void Func7a2f() { // HINUNTER
-    addr6994 = 0x00ff;
+    imageno = 0x00ff;
     if ( down[roomnumber] != 0x0000 ) {
         roomnumber = down[roomnumber];
         objectposition[DAVE] = roomnumber;
         Code2E5B();
-        addr6994 = roomnumber;
+        imageno = roomnumber;
     } else {
         if ( down[roomnumber] == 0x0000 ) {
             textoutput = 0x0005; // Aber dorthin kannst Du doch gar nicht gehen! Zumindest habe ich nichts dergleichen gesagt, oder...?
         }
     }
-    if ( addr6994 != 0x00ff ) {
-        Code4087();
+    if ( imageno != 0x00ff ) {
+        ShowImage();
     }
     return;
 }
 
 
 void Func7a5e() { // OST
-    addr6994 = 0x00ff;
+    imageno = 0x00ff;
     if ( roomnumber == VOR_FIRONS_EISPALAST ) {
         if ( objectstatus[DACHSSCHLITTEN] == 0x0001 ) {
             objectposition[DACHSSCHLITTEN] = IN_DER_EISWUESTE;
@@ -434,7 +434,7 @@ void Func7a5e() { // OST
         roomnumber = east[roomnumber];
         objectposition[DAVE] = roomnumber;
         Code2E5B();
-        addr6994 = roomnumber;
+        imageno = roomnumber;
     } else {
         if ( east[roomnumber] == 0x0000 ) {
             textoutput = 0x0005; // Aber dorthin kannst Du doch gar nicht gehen! Zumindest habe ich nichts dergleichen gesagt, oder...?
@@ -442,27 +442,27 @@ void Func7a5e() { // OST
     }
 
 x7aa8:
-    if ( addr6994 != 0x00ff ) {
-        Code4087();
+    if ( imageno != 0x00ff ) {
+        ShowImage();
     }
     return;
 }
 
 
 void Func7ab1() { // AUSGAENGE
-    SPECIAL(0x0008);
+    SPECIAL(0x0008) // Ausgaenge listen;
     return;
 }
 
 
 void Func7ab5() { // DISKETTEINSTALLIEREN
-    SPECIAL(0x0009);
+    SPECIAL(0x0009) // Diskette installieren;
     return;
 }
 
 
 void Func7ab9() { // INVENTAR
-    SPECIAL(0x000a);
+    SPECIAL(0x000a) // Inventar anzeigen;
     return;
 }
 
@@ -475,7 +475,7 @@ void Func7abd() { // SCHAU
 
 
 void Func7ac4() { // NORD
-    addr6994 = 0x00ff;
+    imageno = 0x00ff;
     if ( roomnumber == IM_KAMINZIMMER ) {
         if ( north[IM_KAMINZIMMER] != 0x0000 && objectstatus[KOENIG] < 0x0002 ) {
             objectstatus[HAUSTUER] = 0x0000;
@@ -509,7 +509,7 @@ void Func7ac4() { // NORD
             objectposition[DAVE] = IN_FIRONS_THRONSAAL;
             Code2E5B();
             showtext();
-            addr6994 = roomnumber;
+            imageno = roomnumber;
             goto x7cf8;
         }
     }
@@ -520,7 +520,7 @@ void Func7ac4() { // NORD
         textoutput = 0x0161;
         showtext();
         Restart();
-        SPECIAL(0x0001);
+        SPECIAL(0x0001) // Codeabfrage;
         objectposition[DAVE] = roomnumber;
         goto x7cf8;
     }
@@ -528,7 +528,7 @@ void Func7ac4() { // NORD
         roomnumber = north[roomnumber];
         Code2E5B();
         objectposition[DAVE] = roomnumber;
-        addr6994 = roomnumber;
+        imageno = roomnumber;
     } else {
         if ( north[roomnumber] == 0x0000 ) {
             textoutput = 0x0005; // Aber dorthin kannst Du doch gar nicht gehen! Zumindest habe ich nichts dergleichen gesagt, oder...?
@@ -561,27 +561,27 @@ x7bbe:
             showtext();
             Restart();
             Code2E5B();
-            addr6994 = roomnumber;
+            imageno = roomnumber;
             goto x7cf8;
         } else {
             if ( objectstatus[HONIG] != 0x0014 || objectstatus[FELLSTIEFEL] != 0x0001 ) {
-                addr6994 = 0x0084;
+                imageno = 0x0084;
                 objectposition[DAVE] = 0x00ff;
-                Code4087();
+                ShowImage();
                 textoutput = 0x00e2; // Auf dem Tisch liegt die kleine Pfeife des Orkvaters.
                 showtext();
                 Restart();
-                addr6994 = 0x00ff;
+                imageno = 0x00ff;
                 goto x7cf8;
             }
         }
     }
     if ( roomnumber == IN_DER_EISWUESTE && objectposition[HUNDESCHLITTEN] == IN_DER_EISWUESTE ) {
-        addr6994 = roomnumber;
-        Code4087();
+        imageno = roomnumber;
+        ShowImage();
         showtext();
         Restart();
-        addr6994 = 0x00ff;
+        imageno = 0x00ff;
         textoutput = 0x00d3; // Die Grabplatte ist einem gewissen Bruder Jack gewidmet, einem Klosterbruder, der - wenn man der Inschrift Glauben schenken darf - unter sehr mysteriösen Umständen ums Leben gekommen sein soll! Die Inschrift bittet Dich weiterhin, ein Gebet für seine ruhelose Seele zu sprechen...
         objectposition[HUNDESCHLITTEN] = RAUM_NULL;
         objectstatus[HUNDESCHLITTEN] = 0x0000;
@@ -589,55 +589,55 @@ x7bbe:
     }
     if ( roomnumber == IN_EINEM_GLETSCHER ) {
         objectposition[DAVE] = 0x00ff;
-        addr6994 = roomnumber;
-        Code4087();
+        imageno = roomnumber;
+        ShowImage();
         Code2E5B();
         showtext();
         Restart();
-        addr6994 = 0x00ff;
+        imageno = 0x00ff;
         goto x7cf8;
     }
     if ( roomnumber == IN_MYLGORS_GEHEIMLABOR ) {
         if ( objectstatus[REAGENZIEN] > 0x0000 ) {
-            addr6994 = 0x0088;
+            imageno = 0x0088;
             objectposition[DAVE] = 0x00ff;
-            Code4087();
+            ShowImage();
             textoutput = 0x00e5; // Im fahlen Mondlicht kannst Du einen fürchterlich mutierten Wolf erkennen, aus dessen spitzer Schnauze Geifer trifft. Er bleckt seine scharfen, gelben Zähne und hebt mit einem Blick voller Haß auf alles Lebende seine krallenbewehrten Klauen gegen Dich! Paß auf: Er wird Dich angreifen, sobald sich ihm die erstbeste Gelegenheit dazu bietet! Schon duckt er sich, um seinen tödlichen Sprung gegen Deine Kehle vorzubereiten...!
             showtext();
             Restart();
-            addr6994 = 0x00ff;
+            imageno = 0x00ff;
             goto x7cf8;
         } else {
             if ( objectstatus[MYLGOR] == 0x0007 && objectstatus[REAGENZIEN] == 0x0000 ) {
                 textoutput = 0x0000; // r00
-                addr6994 = 0x00ff;
+                imageno = 0x00ff;
                 goto x7cf8;
             }
         }
     }
 
 x7cf8:
-    if ( addr6994 != 0x00ff ) {
-        Code4087();
+    if ( imageno != 0x00ff ) {
+        ShowImage();
     }
     return;
 }
 
 
 void Func7d01() { // SPIELENDE
-    SPECIAL(0x0005);
+    SPECIAL(0x0005) // Spielende;
     return;
 }
 
 
 void Func7d05() { // NEUSTART
-    SPECIAL(0x0004);
+    SPECIAL(0x0004) // Neustart;
     return;
 }
 
 
 void Func7d09() { // LADEN
-    SPECIAL(0x0002);
+    SPECIAL(0x0002) // Laden;
     return;
 }
 
@@ -649,27 +649,27 @@ void Func7d0d() { // PUNKTE
 
 
 void Func7d12() { // LOESUNG
-    SPECIAL(0x0006);
+    SPECIAL(0x0006) // Loesung;
     return;
 }
 
 
 void Func7d16() { // MUSIKEIN
     temp = 0x0000;
-    SPECIAL(0x0007);
+    SPECIAL(0x0007) // Musik ein;
     return;
 }
 
 
 void Func7d1e() { // AUSGAENGE12
     temp = 0x0001;
-    SPECIAL(0x0008);
+    SPECIAL(0x0008) // Ausgaenge listen;
     return;
 }
 
 
 void Func7d26() { // SUED
-    addr6994 = 0x00ff;
+    imageno = 0x00ff;
     if ( roomnumber == IM_KAMINZIMMER && objectposition[MYLGOR] == IM_KAMINZIMMER ) {
         if ( objectstatus[BETT1] == 0x0000 ) {
             textoutput = 0x00ce; // Bruder Jack ist nur noch ein Schatten seiner selbst: Alles, was Du noch von ihm erkennen kannst, ist seine lange, graue Mönchskutte, die seinen Astralleib vollständig einhüllt. Nicht einmal seine Hände oder Füße kannst Du sehen - es wirkt einfach so, als schwebte die Mönchskutte in der Luft und spräche nur in Deiner Phantasie mit Dir...
@@ -714,7 +714,7 @@ void Func7d26() { // SUED
         roomnumber = south[roomnumber];
         Code2E5B();
         objectposition[DAVE] = roomnumber;
-        addr6994 = roomnumber;
+        imageno = roomnumber;
     } else {
         if ( south[roomnumber] == 0x0000 ) {
             textoutput = 0x0005; // Aber dorthin kannst Du doch gar nicht gehen! Zumindest habe ich nichts dergleichen gesagt, oder...?
@@ -726,55 +726,55 @@ void Func7d26() { // SUED
     }
     if ( roomnumber == AUF_EINEM_HUEGEL2 ) {
         if ( objectstatus[FELLSTIEFEL] != 0x0001 || objectstatus[HONIG] != 0x0014 ) {
-            addr6994 = 0x0084;
+            imageno = 0x0084;
             objectposition[DAVE] = 0x00ff;
-            Code4087();
-            addr6994 = 0x00ff;
+            ShowImage();
+            imageno = 0x00ff;
             textoutput = 0x00e2; // Auf dem Tisch liegt die kleine Pfeife des Orkvaters.
             showtext();
             Restart();
-            addr6994 = 0x00ff;
+            imageno = 0x00ff;
             goto x7e4d;
         }
         textoutput = 0x00e1; // Ein stinknormales Schwert: Warum zum Himmel hast Du es bloß in Weihwasser getaucht?
         showtext();
         Code2E5B();
         Restart();
-        addr6994 = roomnumber;
+        imageno = roomnumber;
         showtext();
         goto x7e4d;
     }
 
 x7e4d:
-    if ( addr6994 != 0x00ff ) {
-        Code4087();
+    if ( imageno != 0x00ff ) {
+        ShowImage();
     }
     return;
 }
 
 
 void Func7e56() { // SPEICHERN
-    SPECIAL(0x0003);
+    SPECIAL(0x0003) // Speichern;
     return;
 }
 
 
 void Func7e5a() { // HINAUF
-    addr6994 = 0x00ff;
+    imageno = 0x00ff;
     if ( roomnumber == IN_EINEM_KURZEN_KORRIDOR ) {
         if ( objectstatus[LABORTUER] != 0x0000 && objectstatus[REAGENZIEN] >= 0x0001 && objectstatus[MYLGOR] < 0x0009 ) {
-            addr6994 = 0x0089;
+            imageno = 0x0089;
             objectposition[DAVE] = 0x00ff;
-            Code4087();
+            ShowImage();
             textoutput = 0x00d9; // Der Sarkophag des toten Königs ist mit Szenen aus seinem glor- und tatenreichen Leben verziert - eines der eingemeißelten Bilder stellt beispielsweise zwei riesige Heere in Schlachtordnung dar: Eine der Armeen scheint die des Königs zu sein, während die andere aus einer völlig fremden Welt zu kommen scheint, vielleicht sogar aus - DEINER...?
             showtext();
             Restart();
             return;
         } else {
             if ( objectstatus[LABORTUER] != 0x0000 && objectstatus[MYLGOR] >= 0x0005 && objectstatus[REAGENZIEN] == 0x0000 ) {
-                addr6994 = 0x0086;
+                imageno = 0x0086;
                 objectposition[DAVE] = 0x00ff;
-                Code4087();
+                ShowImage();
                 textoutput = 0x00d7; // Du willst mir doch nicht allen Ernstes erzählen wollen, daß Du Gebete UNTERSUCHST! Du bist doch kein Theologe, oder?
                 showtext();
                 Restart();
@@ -786,14 +786,14 @@ void Func7e5a() { // HINAUF
         roomnumber = up[roomnumber];
         Code2E5B();
         objectposition[DAVE] = roomnumber;
-        addr6994 = roomnumber;
+        imageno = roomnumber;
     } else {
         if ( up[roomnumber] == 0x0000 ) {
             textoutput = 0x0005; // Aber dorthin kannst Du doch gar nicht gehen! Zumindest habe ich nichts dergleichen gesagt, oder...?
         }
     }
-    if ( addr6994 != 0x00ff ) {
-        Code4087();
+    if ( imageno != 0x00ff ) {
+        ShowImage();
     }
 
 x7ee6:
@@ -817,7 +817,7 @@ void Func7efb() { // WARTE
 
 
 void Func7f00() { // WEST
-    addr6994 = 0x00ff;
+    imageno = 0x00ff;
     if ( roomnumber == IN_DER_EISWUESTE ) {
         if ( objectstatus[DACHSSCHLITTEN] == 0x0001 ) {
             objectposition[DACHSSCHLITTEN] = VOR_FIRONS_EISPALAST;
@@ -826,8 +826,8 @@ void Func7f00() { // WEST
     if ( roomnumber == AUF_EINEM_HUEGEL1 && objectposition[ORKKIND] == AUF_EINER_LICHTUNG2 ) {
         roomnumber = AUF_EINER_LICHTUNG2;
         objectposition[DAVE] = AUF_EINER_LICHTUNG2;
-        addr6994 = roomnumber;
-        Code4087();
+        imageno = roomnumber;
+        ShowImage();
         Code2E5B();
         showtext();
         Restart();
@@ -838,7 +838,7 @@ void Func7f00() { // WEST
         roomnumber = west[roomnumber];
         objectposition[DAVE] = roomnumber;
         Code2E5B();
-        addr6994 = roomnumber;
+        imageno = roomnumber;
     } else {
         if ( west[roomnumber] == 0x0000 ) {
             textoutput = 0x0005; // Aber dorthin kannst Du doch gar nicht gehen! Zumindest habe ich nichts dergleichen gesagt, oder...?
@@ -855,8 +855,8 @@ x7f66:
         textoutput = 0x00da; // Ein typischer, natürlich völlig überbeschäftigter Verkäufer - nichtsdestotrotz aber immer bereit, Dir den größten Mist aufzuschwatzen...
         return;
     }
-    if ( addr6994 != 0x00ff ) {
-        Code4087();
+    if ( imageno != 0x00ff ) {
+        ShowImage();
     }
 
 x7f92:
@@ -986,8 +986,8 @@ x80cd:
     }
     if ( object1 == MYLGOR && roomnumber == VOR_MYLGORS_HAUS ) {
         objectposition[DAVE] = 0x00ff;
-        addr6994 = 0x0083;
-        Code4087();
+        imageno = 0x0083;
+        ShowImage();
         textoutput = 0x00ec; // Du erhebst Dich aus Deinem Stuhl und wendest Dich an die Orkmutter, um sie zu fragen, ob Du ihr vielleicht beim Kochen behilflich sein könntest. Freundlich verneint sie, bietet Dir jedoch als Vorgeschmack auf das bevorstehende Mahl schon einmal einen Löffel des Süppchens an, das sie von dem ausgelassenen Blut der Echse gekocht hat. Dieses Mal bist Du es, der ablehnt, indem Du ihr von Deinem empfindlichen Magen erzählst... Angeekelt gehst Du zurück und setzt Dich wieder zu dem Orkvater, der die Kochkünste seiner Gattin wohl nicht minder zu schätzen und Dich verständnisvoll anzugrinsen scheint...
         showtext();
         Restart();
@@ -1078,8 +1078,8 @@ void Func822d() { // BETRITT
                 textoutput = 0x00e3; // Dieser schlüpfrige, abgeknickte Baumstamm scheint die einzige Verbindung zwischen dem Berg, auf dem Du gerade stehst, und dem auf der anderen Seite zu sein. Obwohl er nicht gerade sehr vertrauenserweckend aussieht, wird Dir wohl keine andere Wahl bleiben, als über ihn hinwegzubalancieren, wenn Du die andere Seite der Schlucht erreichen willst...
                 showtext();
                 Restart();
-                addr6994 = roomnumber;
-                Code4087();
+                imageno = roomnumber;
+                ShowImage();
                 Code2E5B();
                 showtext();
                 return;
@@ -1438,8 +1438,8 @@ x8766:
         if ( roomnumber == IN_DER_ORKHOEHLE ) {
             if ( objectstatus[ORKMANN] != 0x0006 && objectposition[ORKMANN] == roomnumber ) {
                 objectposition[DAVE] = 0x00ff;
-                addr6994 = 0x0082;
-                Code4087();
+                imageno = 0x0082;
+                ShowImage();
                 textoutput = 0x0128;
                 showtext();
                 Restart();
@@ -1620,9 +1620,9 @@ x88ab:
                     objectposition[DACHSSCHLITTEN] = IN_DER_EISWUESTE;
                     objectposition[DAVE] = IN_DER_EISWUESTE;
                     roomnumber = IN_DER_EISWUESTE;
-                    addr6994 = roomnumber;
-                    Code4087();
-                    addr6994 = 0x00ff;
+                    imageno = roomnumber;
+                    ShowImage();
+                    imageno = 0x00ff;
                     Code2E5B();
                     showtext();
                     return;
@@ -1967,13 +1967,13 @@ void Func9053() { // GIB
         objectposition[DAVE] = IN_DER_ORKHOEHLE;
         objectstatus[ORKMANN] = 0x0000;
         roomnumber = IN_DER_ORKHOEHLE;
-        addr6994 = roomnumber;
-        Code4087();
+        imageno = roomnumber;
+        ShowImage();
         Code2E5B();
         showtext();
         Restart();
         textoutput = 0x00cc; // Der Honig ist noch sehr frisch - und dementsprechend klebrig!
-        addr6994 = 0x00ff;
+        imageno = 0x00ff;
         return;
     }
     if ( object2 == MYLGOR ) {
@@ -2010,8 +2010,8 @@ void Func9053() { // GIB
             objectposition[MYLGOR] = IM_KAMINZIMMER;
             objectposition[BADEHOSE] = RAUM_NULL;
             roomnumber = IM_KAMINZIMMER;
-            addr6994 = roomnumber;
-            Code4087();
+            imageno = roomnumber;
+            ShowImage();
             textoutput = 0x00cf; // König Richard sieht wirklich genauso aus wie der Mann, dessen Bild in die Silbermünzen eingeprägt war, die Du in der Zwergenmine gefunden hattest: Er trägt einen langen, samtenen Purpurmantel und eine prächtige, goldene Krone, aber all diese Farben sind längst verblichen und sehen auf geheimnisvolle Weise transparent aus - so als ob Du lediglich Halluzinationen hättest...
             showtext();
             Restart();

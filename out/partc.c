@@ -66,7 +66,7 @@ unsigned short temp;
 unsigned short object1, object2;
 unsigned short steps;
 unsigned short addr6963;
-unsigned short addr6994;
+unsigned short imageno;
 unsigned short pointsum;
 unsigned short addr6996;
 unsigned short addr699a;
@@ -75,7 +75,7 @@ unsigned char *tableptr;
 void SPECIAL(unsigned short x);
 void showtext();
 void Restart();
-void Code4087();
+void ShowImage();
 void Code2E5B();
 
 
@@ -85,7 +85,7 @@ x7600:
     textoutput = 0x0000; // r01
     if ( command == HINUNTER || command == OST || command == NORD || command == SUED || command == HINAUF || command == WEST ) {
         if ( roomnumber != IM_DIENERSCHLAFZIMMER ) {
-            SPECIAL(0x0064);
+            SPECIAL(0x0064) // Habe ich keine Kleidung an, vielleicht?;
             if ( temp == 0x0001 ) {
                 textoutput = 0x002e; // Mutig versuchst Du Dein Glück, wirst jedoch von einer unsichtbaren Faust zurückgeschmettert. Es ist, als liefest Du gegen eine Wand: Irgendwie scheint Dich eine unfaßbar böse Macht von dort fernzuhalten! Deprimiert gibst Du nach einigen fehlgeschlagenen Versuchen auf...
                 goto x77a0;
@@ -125,9 +125,9 @@ x7600:
                 goto x76e7;
             } else {
                 if ( objectstatus[DAVE] <= 0x0000 ) {
-                    addr6994 = 0x0081;
+                    imageno = 0x0081;
                     objectposition[DAVE] = 0x00ff;
-                    Code4087();
+                    ShowImage();
                     textoutput = 0x0031; // Gerne käme ich Deiner Aufforderung nach - wenn Du mir netterweise verrietest, wie ich auf den Grund des Sees hinuntertauchen soll! Er scheint nämlich ziemlich tief zu sein...
                     showtext();
                     Restart();
@@ -221,8 +221,8 @@ x77a0:
                         Restart();
                     }
                     objectposition[DAVE] = 0x00ff;
-                    addr6994 = 0x0084;
-                    Code4087();
+                    imageno = 0x0084;
+                    ShowImage();
                     textoutput = 0x0175;
                     showtext();
                     Restart();
@@ -273,41 +273,41 @@ void Func7853() { // GRABE
 
 
 void Func7858() { // HINUNTER
-    addr6994 = 0x00ff;
+    imageno = 0x00ff;
     if ( down[roomnumber] != 0x0000 ) {
         roomnumber = down[roomnumber];
         objectposition[DAVE] = roomnumber;
         Code2E5B();
-        addr6994 = roomnumber;
+        imageno = roomnumber;
     } else {
         if ( down[roomnumber] == 0x0000 ) {
             textoutput = 0x0005; // Gut - geschlossen...
         }
     }
-    if ( addr6994 != 0x00ff ) {
-        Code4087();
+    if ( imageno != 0x00ff ) {
+        ShowImage();
     }
     return;
 }
 
 
 void Func7887() { // OST
-    addr6994 = 0x00ff;
+    imageno = 0x00ff;
     if ( roomnumber == IM_MOOR1 ) {
         objectposition[DAVE] = 0x00ff;
-        addr6994 = 0x0084;
-        Code4087();
+        imageno = 0x0084;
+        ShowImage();
         textoutput = 0x0176;
         showtext();
         Restart();
-        addr6994 = 0x00ff;
+        imageno = 0x00ff;
         goto x78fa;
     }
     if ( east[roomnumber] != 0x0000 ) {
         roomnumber = east[roomnumber];
         objectposition[DAVE] = roomnumber;
         Code2E5B();
-        addr6994 = roomnumber;
+        imageno = roomnumber;
     } else {
         if ( east[roomnumber] == 0x0000 ) {
             textoutput = 0x0005; // Gut - geschlossen...
@@ -315,10 +315,10 @@ void Func7887() { // OST
     }
     if ( roomnumber == IN_EINEM_VERWUNSCHENEN_WALD2 ) {
         if ( objectposition[AMULETT] == 0x00ff && objectstatus[AMULETT] == 0x0001 ) {
-            Code4087();
+            ShowImage();
             showtext();
             Restart();
-            addr6994 = 0x00ff;
+            imageno = 0x00ff;
             textoutput = 0x0178;
             showtext();
             objectposition[AMULETT] = IN_EINEM_VERWUNSCHENEN_WALD2;
@@ -327,27 +327,27 @@ void Func7887() { // OST
     }
 
 x78fa:
-    if ( addr6994 != 0x00ff ) {
-        Code4087();
+    if ( imageno != 0x00ff ) {
+        ShowImage();
     }
     return;
 }
 
 
 void Func7903() { // AUSGAENGE
-    SPECIAL(0x0008);
+    SPECIAL(0x0008) // Ausgaenge listen;
     return;
 }
 
 
 void Func7907() { // DISKETTEINSTALLIEREN
-    SPECIAL(0x0009);
+    SPECIAL(0x0009) // Diskette installieren;
     return;
 }
 
 
 void Func790b() { // INVENTAR
-    SPECIAL(0x000a);
+    SPECIAL(0x000a) // Inventar anzeigen;
     return;
 }
 
@@ -360,15 +360,15 @@ void Func790f() { // SCHAU
 
 
 void Func7916() { // NORD
-    addr6994 = 0x00ff;
+    imageno = 0x00ff;
     if ( roomnumber == AM_UFER_EINES_SUMPFIGEN_SEES && objectstatus[BOOT] == 0x0000 ) {
-        addr6994 = 0x0083;
+        imageno = 0x0083;
         objectposition[DAVE] = 0x00ff;
-        Code4087();
+        ShowImage();
         textoutput = 0x0173;
         showtext();
         Restart();
-        addr6994 = 0x00ff;
+        imageno = 0x00ff;
         goto x7a37;
     } else {
         if ( roomnumber == AM_UFER_EINES_SUMPFIGEN_SEES && objectstatus[BOOT] == 0x0001 ) {
@@ -385,13 +385,13 @@ void Func7916() { // NORD
     }
     if ( roomnumber == VOR_ZARGONS_BURGRUINE ) {
         if ( objectstatus[ZIEGELSTEIN] != 0x0001 ) {
-            addr6994 = 0x0085;
+            imageno = 0x0085;
             objectposition[DAVE] = 0x00ff;
-            Code4087();
+            ShowImage();
             textoutput = 0x0179;
             showtext();
             Restart();
-            addr6994 = 0x00ff;
+            imageno = 0x00ff;
             goto x7a37;
         }
     }
@@ -399,11 +399,11 @@ void Func7916() { // NORD
         textoutput = 0x018b;
         showtext();
         Restart();
-        SPECIAL(0x0001);
+        SPECIAL(0x0001) // Codeabfrage;
         showtext();
         Restart();
         textoutput = 0x01b4;
-        addr6994 = 0x00ff;
+        imageno = 0x00ff;
         objectposition[DAVE] = roomnumber;
         goto x7a37;
     }
@@ -411,7 +411,7 @@ void Func7916() { // NORD
         roomnumber = north[roomnumber];
         Code2E5B();
         objectposition[DAVE] = roomnumber;
-        addr6994 = roomnumber;
+        imageno = roomnumber;
     } else {
         if ( north[roomnumber] == 0x0000 ) {
             textoutput = 0x0005; // Gut - geschlossen...
@@ -426,11 +426,11 @@ x79fa:
     }
     if ( roomnumber == IM_MOOR2 ) {
         if ( objectstatus[0x00a5] == 0x0000 ) {
-            Code4087();
+            ShowImage();
             showtext();
-            addr6994 = roomnumber;
+            imageno = roomnumber;
             Restart();
-            addr6994 = 0x00ff;
+            imageno = 0x00ff;
             objectposition[0x00a5] = IM_MOOR2;
             objectstatus[0x00a5] = 0x0001;
             textoutput = 0x0174;
@@ -439,27 +439,27 @@ x79fa:
     }
 
 x7a37:
-    if ( addr6994 != 0x00ff ) {
-        Code4087();
+    if ( imageno != 0x00ff ) {
+        ShowImage();
     }
     return;
 }
 
 
 void Func7a40() { // SPIELENDE
-    SPECIAL(0x0005);
+    SPECIAL(0x0005) // Spielende;
     return;
 }
 
 
 void Func7a44() { // NEUSTART
-    SPECIAL(0x0004);
+    SPECIAL(0x0004) // Neustart;
     return;
 }
 
 
 void Func7a48() { // LADEN
-    SPECIAL(0x0002);
+    SPECIAL(0x0002) // Laden;
     return;
 }
 
@@ -471,37 +471,37 @@ void Func7a4c() { // PUNKTE
 
 
 void Func7a51() { // LOESUNG
-    SPECIAL(0x0006);
+    SPECIAL(0x0006) // Loesung;
     return;
 }
 
 
 void Func7a55() { // MUSIKEIN
     temp = 0x0000;
-    SPECIAL(0x0007);
+    SPECIAL(0x0007) // Musik ein;
     return;
 }
 
 
 void Func7a5d() { // AUSGAENGE12
     temp = 0x0001;
-    SPECIAL(0x0008);
+    SPECIAL(0x0008) // Ausgaenge listen;
     return;
 }
 
 
 void Func7a65() { // SUED
-    addr6994 = 0x00ff;
+    imageno = 0x00ff;
     if ( roomnumber == IN_EINEM_VERWUNSCHENEN_WALD1 ) {
         if ( objectposition[AMULETT] == 0x00ff && objectstatus[AMULETT] == 0x0001 ) {
-            addr6994 = 0x0082;
+            imageno = 0x0082;
             objectposition[DAVE] = 0x00ff;
-            Code4087();
+            ShowImage();
             textoutput = 0x0177;
             showtext();
-            addr6994 = 0x00ff;
+            imageno = 0x00ff;
             Restart();
-            addr6994 = 0x00ff;
+            imageno = 0x00ff;
             goto x7b2d;
         } else {
             textoutput = 0x002f; // Langsam fange ich an zu frieren! Es wird immer kälter hier, also sieh Dich langsam mal nach einem warmen Plätzchen um, wo wir in Ruhe die Nacht verbringen können!
@@ -509,13 +509,13 @@ void Func7a65() { // SUED
         }
     }
     if ( roomnumber == AM_UFER_DES_SUMPFIGEN_SEES && objectstatus[BOOT] == 0x0000 ) {
-        addr6994 = 0x0083;
+        imageno = 0x0083;
         objectposition[DAVE] = 0x00ff;
-        Code4087();
+        ShowImage();
         textoutput = 0x0173;
         showtext();
         Restart();
-        addr6994 = 0x00ff;
+        imageno = 0x00ff;
         goto x7b2d;
     } else {
         if ( roomnumber == AM_UFER_DES_SUMPFIGEN_SEES && objectstatus[BOOT] == 0x0001 ) {
@@ -534,7 +534,7 @@ void Func7a65() { // SUED
         roomnumber = south[roomnumber];
         Code2E5B();
         objectposition[DAVE] = roomnumber;
-        addr6994 = roomnumber;
+        imageno = roomnumber;
     } else {
         if ( south[roomnumber] == 0x0000 ) {
             textoutput = 0x0005; // Gut - geschlossen...
@@ -542,33 +542,33 @@ void Func7a65() { // SUED
     }
 
 x7b2d:
-    if ( addr6994 != 0x00ff ) {
-        Code4087();
+    if ( imageno != 0x00ff ) {
+        ShowImage();
     }
     return;
 }
 
 
 void Func7b36() { // SPEICHERN
-    SPECIAL(0x0003);
+    SPECIAL(0x0003) // Speichern;
     return;
 }
 
 
 void Func7b3a() { // HINAUF
-    addr6994 = 0x00ff;
+    imageno = 0x00ff;
     if ( up[roomnumber] != 0x0000 ) {
         roomnumber = up[roomnumber];
         Code2E5B();
         objectposition[DAVE] = roomnumber;
-        addr6994 = roomnumber;
+        imageno = roomnumber;
     } else {
         if ( up[roomnumber] == 0x0000 ) {
             textoutput = 0x0005; // Gut - geschlossen...
         }
     }
-    if ( addr6994 != 0x00ff ) {
-        Code4087();
+    if ( imageno != 0x00ff ) {
+        ShowImage();
     }
     return;
 }
@@ -590,7 +590,7 @@ void Func7b7d() { // WARTE
 
 
 void Func7b82() { // WEST
-    addr6994 = 0x00ff;
+    imageno = 0x00ff;
     if ( roomnumber == AM_UFER_DES_SUMPFIGEN_SEES && objectstatus[BOOT] == 0x0001 ) {
         textoutput = 0x001a; // "Soul Crystal" V1.5, written from 1989 to 1992 by Avantgardistic Arts. (C) 1992 by Avantgardistic Arts, Hannover & Starbyte Software, Bochum. Dieses Adventure besitzt 103 Locations, mehr als 130 hochauflösende Farbgrafiken, ungefähr 320 KBytes Text und einen ca. 30-minütigen Soundtrack. Seine Programmentwicklung hat ingesamt 16 sog. "Mann-Jahre" in Anspruch genommen. Sei also bitte so fair und "spread the word - not the disk!" Sollte dies aber doch eine Raubkopie sein (obwohl das Programm geschützt war, und das bestimmt nicht ganz ohne Grund...), dann denke bitte auch mal über die ASDG-Philosophie "A program worth using is a program worth buying" nach - allein schon die Originalverpackung sowie die Handbücher sollten Dir das Geld wert sein. Viel Spaß beim Spielen von "Soul Crystal", und - ach ja: Soweit wir wissen, ist dies das erste Adventure, in das ein CHEATMODE implementiert wurde - also solltest Du Dir Mühe geben, ihn zu finden...
         return;
@@ -599,7 +599,7 @@ void Func7b82() { // WEST
         roomnumber = west[roomnumber];
         objectposition[DAVE] = roomnumber;
         Code2E5B();
-        addr6994 = roomnumber;
+        imageno = roomnumber;
     } else {
         if ( west[roomnumber] == 0x0000 ) {
             textoutput = 0x0005; // Gut - geschlossen...
@@ -612,8 +612,8 @@ x7bc1:
     if ( temp <= 0x00a5 ) {
         goto x7bc1;
     }
-    if ( addr6994 != 0x00ff ) {
-        Code4087();
+    if ( imageno != 0x00ff ) {
+        ShowImage();
     }
 
 x7bd8:
@@ -830,8 +830,8 @@ void Func7e13() { // VERLASSE
         if ( roomnumber == IM_SUMPFSEE ) {
             textoutput = 0x0173;
             objectposition[DAVE] = 0x00ff;
-            addr6994 = 0x0083;
-            Code4087();
+            imageno = 0x0083;
+            ShowImage();
             showtext();
             Restart();
             return;

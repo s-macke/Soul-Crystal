@@ -5019,7 +5019,7 @@ x2E55:
 void Sub_2e5b()
 {
 x2E5B:
-            LDA 0x695D
+            LDA 0x695D    // roomnumber
             CMP #0x10
             BCC 0x2E65
             JMP 0x2E81
@@ -5031,7 +5031,7 @@ x2E65:
             CLC
             LDA 0x70FB    // helper
             ADC #0x6A
-            STA 0x6990    the text to output
+            STA 0x6990    // the text to output
             LDA 0x70FC
             ADC #0x0
             STA 0x6991
@@ -5066,7 +5066,7 @@ x2EAC:
             CLC
             LDA 0x70FB    // helper
             ADC #0x99     Als der Wolf Dich auf die Lichtung stürmen
-            STA 0x6990    the text to output
+            STA 0x6990    // the text to output
             LDA 0x70FC
             ADC #0x0
             STA 0x6991
@@ -5101,7 +5101,7 @@ x2EF3:
             CLC
             LDA 0x70FB    // helper
             ADC #0x31
-            STA 0x6990    the text to output
+            STA 0x6990    // the text to output
             LDA 0x70FC
             ADC #0x1
             STA 0x6991
@@ -5118,7 +5118,7 @@ x2F19:
             CLC
             LDA 0x70FB    // helper
             ADC #0x4C
-            STA 0x6990    the text to output
+            STA 0x6990    // the text to output
             LDA 0x70FC
             ADC #0x1
             STA 0x6991
@@ -5154,12 +5154,12 @@ x2F6D:
             LDA 0x695D
             STA 0x6959
             LDA #0x84
-            STA 0x6990    the text to output
+            STA 0x6990    // the text to output
             LDA #0x3
             STA 0x6991
             JMP 0x2FA1
 x2F85:
-            LDA 0x6990    the text to output
+            LDA 0x6990    // the text to output
             STA 0x69B5
             LDA 0x6991
             STA 0x69B6

@@ -3,91 +3,20 @@
 #include<string.h>
 #include<string>
 #include<vector>
+#include<stdint.h>
 
 #include"tables.h"
+#include"disk.h"
 
 // address at address 0x6976: 0x7600
 
-unsigned char ram[0x10000];
+uint8_t ram[0x10000];
 unsigned char iscode[0x10000];
 unsigned char isjump[0x10000];
 unsigned char istable[0x10000];
 unsigned char isfunc[0x10000];
 unsigned short pc;
 int casen;
-
-unsigned int getd64pos(int track, int sector, int byte) {
-    int pos = -1;
-
-    if ((track >= 1) && (track <= 17)) {
-        pos = (track - 1) * 21 * 256 + sector * 256 + byte;
-        return pos;
-    }
-
-    if ((track >= 18) && (track <= 24)) {
-        pos = 17 * 21 * 256 + (track - 18) * 19 * 256 + sector * 256 + byte;
-        return pos;
-    }
-
-    if ((track >= 25) && (track <= 30)) {
-        pos = 17 * 21 * 256 + 6 * 19 * 256 + (track - 25) * 18 * 256 + sector * 256 + byte;
-        return pos;
-    }
-
-    if ((track >= 31) && (track <= 35)) {
-        pos = 17 * 21 * 256 + 6 * 19 * 256 + 6 * 18 * 256 + (track - 31) * 17 * 256 + sector * 256 + byte;
-        return pos;
-    }
-    printf("unknown track");
-    return pos;
-}
-
-int LoadIntoMemory(const char *filename, int offset) {
-    FILE *file;
-    uint8_t buf[174848];
-    file = fopen(filename, "rb");
-    if (file == NULL) {
-        fprintf(stderr, "Error: Cannot open file\n");
-        exit(1);
-    }
-    fread(buf, 174848, 1, file);
-    fclose(file);
-
-    int address = 0x7600;
-
-    memcpy(&ram[address], &buf[offset + 4], 0x100 - 4);
-    address += 0x100 - 4;
-
-    printf("%i 0x%06x 0x%02x 0x%02x\n", 0, offset, buf[offset + 0], buf[offset + 1]);
-    for (int i = 0; i < 30; i++) {
-        offset = getd64pos(buf[offset + 0], buf[offset + 1], 0);
-        printf("%i 0x%06x 0x%02x 0x%02x\n", i + 1, offset, buf[offset + 0], buf[offset + 1]);
-
-        if (buf[offset + 0] == 0) {
-            memcpy(&ram[address], &buf[offset + 2], buf[offset + 1]);
-            address += buf[offset + 1] - 2;
-            break;
-        } else {
-            memcpy(&ram[address], &buf[offset + 2], 0x100 - 2);
-            address += 0x100 - 2;
-        }
-    }
-
-    printf("size: %i\n", address - 0x7600);
-    return address - 0x7600;
-
-/*
-    FILE *file = fopen("data/nachcodeabfrage.vsf", "rb");
-    if (file == NULL) {
-        fprintf(stderr, "Error: Cannot open file\n");
-        exit(1);
-    }
-    fread(ram, 0x80, 1, file);
-    fread(ram, 0x10000, 1, file);
-    fclose(file);
-    return 3721;
-    */
-}
 
 void LoadVSF(const char *filename) {
     FILE *file;
@@ -97,94 +26,65 @@ void LoadVSF(const char *filename) {
         exit(1);
     }
     fseek(file, 0x99, SEEK_SET);
-    int size = fread(ram, 0x10000, 1, file);
+    fread(ram, 0x10000, 1, file);
     fclose(file);
 }
 
 int lasttoken = 0x0;
 
 std::string InterpretVariable(unsigned char token) {
-
     switch (token) {
         case 0x80:
             return std::string("command");  // addr6986
-            break;
         case 0x81:
             return std::string("object1");  // addr6988
-            break;
         case 0x82:
             return std::string("object2"); // addr698A
-            break;
         case 0x83:
             return std::string("roomnumber"); // addr695D
-            break;
         case 0x84:
             return std::string("addr6963");  // addr6963
-            break;
         case 0x90:
             return std::string("pointsum"); // addr698c
-            break;
         case 0x91:
             return std::string("steps"); // addr698E
-            break;
         case 0x92:
             return std::string("textoutput"); // addr6990
-            break;
         case 0x93:
             return std::string("temp"); // addr6992
-            break;
         case 0x94:
-            return std::string("addr6994");
-            break;
+            return std::string("imageno"); // addr6994
         case 0x95:
             return std::string("addr6996");
-            break;
         case 0x96:
             return std::string("addr6998");
-            break;
         case 0x97:
             return std::string("addr699a");
-            break;
         case 0xA0:
             return std::string("north");
-            break;
         case 0xA1:
             return std::string("east");
-            break;
         case 0xA2:
             return std::string("south");
-            break;
         case 0xA3:
             return std::string("west");
-            break;
         case 0xA4:
             return std::string("up");
-            break;
         case 0xA5:
             return std::string("down");
-            break;
         case 0xA6:
             return std::string("objectposition");
-            break;
         case 0xA7:
             return std::string("objectstatus");
-            break;
         case 0xA8:
             return std::string("visited");  //visited
-            break;
         case 0xB0:
             return std::string("points"); // 16 Bit
-            break;
         case 0xB1:
             return std::string("objectdescription"); // 16 Bit
-            break;
-
             // case 0xB2: ???
-
-        default:
-            return std::string("Not_found");
-            break;
     }
+    return std::string("Not_found");
 }
 
 std::string ConstantToVariable(unsigned int token) {
@@ -279,34 +179,6 @@ std::string VariableReference(unsigned char token) // Code at 0x1D8B
 }
 
 /*
-bytecode offset in d64 images. Not sure if size is correct. Must search for 00 76 92 c0
-B1: 0x13d00 size=0x0d10
-B2: 0x25800 size=0x081f
-C1: 0x15700 size=0x1211
-C2: 0x26900 size=0x0d20
-
----
-vice monitor commands
-m 7600
-m 6976
-break 1c12
-break 1d71
----
-
-7600 92  read at 1c12
-7601 c0  read at 1e8c, 1dbe
-7602 00  read at 228a, 1dbe
-7603 d7  read at 1dc1
-
-7604 d0  read at 1c12
-7605 80  read at 1e8c, 27af, 299b, 2ad7
-7606 dc  read at 27be, 299b, 2ad7
-7607 c0  read at 1e8c, 281f, 299b, 2ad7
-7608     read at 228a, 281f, 299b, 2ad7
-7609     read at 2ad7, 299e
-760a     read at 2ad7, 29f0, 27af, 1e8c
-
-
 -----
 betrachte dave, nimm dave, ziehe dave
 
@@ -398,6 +270,7 @@ struct Token {
 };
 
 std::vector <Token> tokens;
+
 
 void Token() {
     uint16_t x;
@@ -585,6 +458,18 @@ void Token() {
             printf("SPECIAL(%s)", str.c_str());
             t.type = TokenType::FUNC;
             t.str = "SPECIAL(" + str + ")";
+            if (str == "0x0001") t.str += " // Codeabfrage";
+            if (str == "0x0002") t.str += " // Laden";
+            if (str == "0x0003") t.str += " // Speichern";
+            if (str == "0x0004") t.str += " // Neustart";
+            if (str == "0x0005") t.str += " // Spielende";
+            if (str == "0x0006") t.str += " // Loesung";
+            if (str == "0x0007") t.str += " // Musik ein";
+            if (str == "0x0008") t.str += " // Ausgaenge listen";
+            if (str == "0x0009") t.str += " // Diskette installieren";
+            if (str == "0x000a") t.str += " // Inventar anzeigen";
+            if (str == "0x0033") t.str += " // Gewonnen";
+            if (str == "0x0064") t.str += " // Habe ich keine Kleidung an, vielleicht?";
             break;
 
         case 0xE6:
@@ -603,8 +488,8 @@ void Token() {
 
         case 0xEB: // Code4087()
             t.type = TokenType::FUNC;
-            t.str = "Code4087()";
-            printf("Code4087()");
+            t.str = "ShowImage()";
+            printf("ShowImage()");
             break;
 
         case 0xED: // Code2E5B()
@@ -715,8 +600,7 @@ void WalkCode(int pc, int size) {
     }
 }
 
-void TransformByteCode(int size)  // Code at 0x1C12
-{
+void TransformByteCode(int size)  { // Code at 0x1C12{
     pc = 0x7600;
     while ((pc - 0x7600) <= size) {
         Token();
@@ -776,7 +660,7 @@ void ToC(const char* filename, const char *texts[]) {
     fprintf(fp, "unsigned short object1, object2;\n");
     fprintf(fp, "unsigned short steps;\n");
     fprintf(fp, "unsigned short addr6963;\n");
-    fprintf(fp, "unsigned short addr6994;\n");
+    fprintf(fp, "unsigned short imageno;\n"); // addr6994
     fprintf(fp, "unsigned short pointsum;\n");
     fprintf(fp, "unsigned short addr6996;\n");
     fprintf(fp, "unsigned short addr699a;\n");
@@ -786,7 +670,7 @@ void ToC(const char* filename, const char *texts[]) {
     fprintf(fp, "void SPECIAL(unsigned short x);\n");
     fprintf(fp, "void showtext();\n");
     fprintf(fp, "void Restart();\n");
-    fprintf(fp, "void Code4087();\n");
+    fprintf(fp, "void ShowImage();\n"); // Code4087()
     fprintf(fp, "void Code2E5B();\n");
 
     int indent = 1;
@@ -954,37 +838,61 @@ void Init() {
     memset(istable, 0, 0x10000);
 }
 
+/*
+void LoadByteCode(const char* filename) {
+    uint8_t *buf = LoadD64(filename);
+
+    int track = buf[0x260];
+    int sector = buf[0x261];
+    int offset = getd64pos(track, sector, 0);
+    //int track = buf[0x2f0];
+    //int sector = buf[0x2f1];
+    int ramoffset = buf[offset + 2] | (buf[offset + 3] << 8);
+    //sector = buf[offset];
+    //track = buf[offset+1];
+
+    printf("0x%04x\n", ramoffset);
+    printf("%i %i\n", track, sector);
+    LoadIntoMemory(filename, ram, track, sector);
+}
+*/
+
+
 int main() {
     int size;
-
-    //size = LoadIntoMemory("d64/Soul Crystal SideB1.d64", 0x13d00);
-    //size = LoadIntoMemory("d64/Soul Crystal SideB2.d64", 0x25800);
-    //size = LoadIntoMemory("d64/Soul Crystal SideC1.d64", 0x15700);
-    //size = LoadIntoMemory("d64/Soul Crystal SideC2.d64", 0x26900);
+    //LoadByteCode("data/C64/d64/Soul Crystal SideB1.d64");
+    //LoadByteCode("data/C64/d64/Soul Crystal SideC2.d64");
+    //LoadIntoMemory("data/C64/d64/Soul Crystal SideB1.d64", ram, 16, 2);
+    //LoadIntoMemory("data/C64/d64/Soul Crystal SideB2.d64", ram, 32, 4);
+    //LoadIntoMemory("data/C64/d64/Soul Crystal SideC1.d64", ram, 17, 7);
+    //LoadIntoMemory("data/C64/d64/Soul Crystal SideC2.d64", ram, 33, 4);
+    //exit(1);
 
     Init();
-    LoadVSF("snapshots/diskb1.vsf");
+    LoadVSF("data/C64/snapshots/diskb1.vsf");
+    //printf("%02x %02x %02x %02x %02x %02x %02x %02x\n", ram[0x7600], ram[0x7601], ram[0x7602], ram[0x7603], ram[0x7604], ram[0x7605], ram[0x7606], ram[0x7607]);
+    //exit(1);
     size = 3490;
     WalkCode(0x7600, size);
     TransformByteCode(size);
     ToC("out/parta.c", texta);
 
     Init();
-    LoadVSF("snapshots/diskb2.vsf");
+    LoadVSF("data/C64/snapshots/diskb2.vsf");
     size = 7864;
     WalkCode(0x7600, size);
     TransformByteCode(size);
     ToC("out/partb.c", textb);
 
     Init();
-    LoadVSF("snapshots/diskc1.vsf");
+    LoadVSF("data/C64/snapshots/diskc1.vsf");
     size = 3721;
     WalkCode(0x7600, size);
     TransformByteCode(size);
     ToC("out/partc.c", textc);
 
     Init();
-    LoadVSF("snapshots/diskc2.vsf");
+    LoadVSF("data/C64/snapshots/diskc2.vsf");
     size = 6914;
     WalkCode(0x7600, size);
     TransformByteCode(size);

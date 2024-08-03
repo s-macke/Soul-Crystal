@@ -66,7 +66,7 @@ unsigned short temp;
 unsigned short object1, object2;
 unsigned short steps;
 unsigned short addr6963;
-unsigned short addr6994;
+unsigned short imageno;
 unsigned short pointsum;
 unsigned short addr6996;
 unsigned short addr699a;
@@ -75,7 +75,7 @@ unsigned char *tableptr;
 void SPECIAL(unsigned short x);
 void showtext();
 void Restart();
-void Code4087();
+void ShowImage();
 void Code2E5B();
 
 
@@ -85,7 +85,7 @@ x7600:
     textoutput = 0x0000; // r00
     if ( command == HINUNTER || command == OST || command == NORD || command == SUED || command == HINAUF || command == WEST ) {
         if ( roomnumber != IM_DIENERSCHLAFZIMMER ) {
-            SPECIAL(0x0064);
+            SPECIAL(0x0064) // Habe ich keine Kleidung an, vielleicht?;
             if ( temp == 0x0001 ) {
                 textoutput = 0x002e; // Du erwartest doch nicht allen Ernstes von mir, daß ich diesen Ort NACKT verlasse, oder?
                 goto x7799;
@@ -126,9 +126,9 @@ x7600:
                 goto x76e0;
             } else {
                 if ( objectstatus[DAVE] <= 0x0000 ) {
-                    addr6994 = 0x0081;
+                    imageno = 0x0081;
                     objectposition[DAVE] = 0x00ff;
-                    Code4087();
+                    ShowImage();
                     textoutput = 0x0031; // Also, halte mir jetzt bitte nicht vor, daß ich Dich nicht gewarnt hätte - Du hast wirklich genug Zeit gehabt, um nach jemandem zu suchen, der Dir wärmere Kleidung hätte geben können - doch nun ist es endgültig zu spät: Du erfrierst, ohne auch nur die geringste Chance gehabt zu haben, das Spiel zu lösen! Schade eigentlich...
                     showtext();
                     Restart();
@@ -257,57 +257,57 @@ x780d:
 
 
 void Func780e() { // HINUNTER
-    addr6994 = 0x00ff;
+    imageno = 0x00ff;
     if ( down[roomnumber] != 0x0000 ) {
         roomnumber = down[roomnumber];
         objectposition[DAVE] = roomnumber;
         Code2E5B();
-        addr6994 = roomnumber;
+        imageno = roomnumber;
     } else {
         if ( down[roomnumber] == 0x0000 ) {
             textoutput = 0x0005; // Aber dorthin kannst Du doch gar nicht gehen! Zumindest habe ich nichts dergleichen gesagt, oder...?
         }
     }
-    if ( addr6994 != 0x00ff ) {
-        Code4087();
+    if ( imageno != 0x00ff ) {
+        ShowImage();
     }
     return;
 }
 
 
 void Func783d() { // OST
-    addr6994 = 0x00ff;
+    imageno = 0x00ff;
     if ( east[roomnumber] != 0x0000 ) {
         roomnumber = east[roomnumber];
         objectposition[DAVE] = roomnumber;
         Code2E5B();
-        addr6994 = roomnumber;
+        imageno = roomnumber;
     } else {
         if ( east[roomnumber] == 0x0000 ) {
             textoutput = 0x0005; // Aber dorthin kannst Du doch gar nicht gehen! Zumindest habe ich nichts dergleichen gesagt, oder...?
         }
     }
-    if ( addr6994 != 0x00ff ) {
-        Code4087();
+    if ( imageno != 0x00ff ) {
+        ShowImage();
     }
     return;
 }
 
 
 void Func786c() { // AUSGAENGE
-    SPECIAL(0x0008);
+    SPECIAL(0x0008) // Ausgaenge listen;
     return;
 }
 
 
 void Func7870() { // DISKETTEINSTALLIEREN
-    SPECIAL(0x0009);
+    SPECIAL(0x0009) // Diskette installieren;
     return;
 }
 
 
 void Func7874() { // INVENTAR
-    SPECIAL(0x000a);
+    SPECIAL(0x000a) // Inventar anzeigen;
     return;
 }
 
@@ -320,24 +320,24 @@ void Func7878() { // SCHAU
 
 
 void Func787f() { // NORD
-    addr6994 = 0x00ff;
+    imageno = 0x00ff;
     if ( roomnumber == AM_UFER && objectposition[WOLF] != RAUM_NULL ) {
         roomnumber = AUF_EINER_LICHTUNG1;
-        addr6994 = roomnumber;
-        Code4087();
+        imageno = roomnumber;
+        ShowImage();
         Code2E5B();
         showtext();
         Restart();
         textoutput = 0x007a; // Als Du die Lichtung betrittst, hörst Du vor Dir ein fürchterliches Knurren und Fauchen! Erschrocken hältst Du inne und versteckst Dich vorsichtshalber erst einmal hinter dem nächsten Baum! Als sich Deine Augen ein wenig an das etwas schummerige Licht gewöhnt haben, erkennst Du auf der anderen Seite der Lichtung zwei miteinander kämpfende Tiere: Einen großen, grauen Wolf und ein zierliches, weiß schimmerndes Einhorn, dessen Fell schon völlig mit seinem bläulichen Blut besudelt ist, das aus unzähligen, tiefen Wunden sickert. Als der Wolf bemerkt, daß der Widerstand des geschwächten Einhorns erlahmt, attackiert er es noch wütender! Das grazile Fabelwesen hat nicht mehr genug Kraft, um den scharfen und langen Wolfszähnen noch lange Widerstand zu leisten...
         objectposition[DAVE] = AUF_EINER_LICHTUNG1;
-        addr6994 = 0x00ff;
+        imageno = 0x00ff;
         goto x7939;
     }
     if ( north[roomnumber] != 0x0000 ) {
         roomnumber = north[roomnumber];
         Code2E5B();
         objectposition[DAVE] = roomnumber;
-        addr6994 = roomnumber;
+        imageno = roomnumber;
     } else {
         if ( north[roomnumber] == 0x0000 ) {
             textoutput = 0x0005; // Aber dorthin kannst Du doch gar nicht gehen! Zumindest habe ich nichts dergleichen gesagt, oder...?
@@ -358,13 +358,13 @@ x78dd:
         if ( addr6996 == 0x0001 && objectstatus[BADEHOSE] == 0x0001 ) {
             goto x7939;
         }
-        addr6994 = 0x0082;
+        imageno = 0x0082;
         objectposition[DAVE] = 0x00ff;
-        Code4087();
+        ShowImage();
         textoutput = 0x007b; // Du hättest den See wirklich nicht mit mehr Dingen betreten sollen als Du unbedingt zum Überleben benötigtest: Schwer wie ein Mühlstein wirst Du auf den Grund des Sees hinuntergezogen, wo Du elend ersäufst...
         showtext();
         Restart();
-        addr6994 = 0x00ff;
+        imageno = 0x00ff;
         goto x7939;
     }
     if ( roomnumber == HINTER_DEM_WASSERFALL ) {
@@ -374,27 +374,27 @@ x78dd:
     }
 
 x7939:
-    if ( addr6994 != 0x00ff ) {
-        Code4087();
+    if ( imageno != 0x00ff ) {
+        ShowImage();
     }
     return;
 }
 
 
 void Func7942() { // SPIELENDE
-    SPECIAL(0x0005);
+    SPECIAL(0x0005) // Spielende;
     return;
 }
 
 
 void Func7946() { // NEUSTART
-    SPECIAL(0x0004);
+    SPECIAL(0x0004) // Neustart;
     return;
 }
 
 
 void Func794a() { // LADEN
-    SPECIAL(0x0002);
+    SPECIAL(0x0002) // Laden;
     return;
 }
 
@@ -406,32 +406,32 @@ void Func794e() { // PUNKTE
 
 
 void Func7953() { // LOESUNG
-    SPECIAL(0x0006);
+    SPECIAL(0x0006) // Loesung;
     return;
 }
 
 
 void Func7957() { // MUSIKEIN
     temp = 0x0000;
-    SPECIAL(0x0007);
+    SPECIAL(0x0007) // Musik ein;
     return;
 }
 
 
 void Func795f() { // AUSGAENGE12
     temp = 0x0001;
-    SPECIAL(0x0008);
+    SPECIAL(0x0008) // Ausgaenge listen;
     return;
 }
 
 
 void Func7967() { // SUED
-    addr6994 = 0x00ff;
+    imageno = 0x00ff;
     if ( south[roomnumber] != 0x0000 ) {
         roomnumber = south[roomnumber];
         Code2E5B();
         objectposition[DAVE] = roomnumber;
-        addr6994 = roomnumber;
+        imageno = roomnumber;
     } else {
         if ( south[roomnumber] == 0x0000 ) {
             textoutput = 0x0005; // Aber dorthin kannst Du doch gar nicht gehen! Zumindest habe ich nichts dergleichen gesagt, oder...?
@@ -439,11 +439,11 @@ void Func7967() { // SUED
     }
     if ( roomnumber == IM_STRUDEL ) {
         objectposition[DAVE] = 0x00ff;
-        Code4087();
+        ShowImage();
         Code2E5B();
         showtext();
         Restart();
-        addr6994 = 0x00ff;
+        imageno = 0x00ff;
         goto x79b3;
     }
     if ( roomnumber == HINTER_DEM_WASSERFALL ) {
@@ -452,33 +452,33 @@ void Func7967() { // SUED
     }
 
 x79b3:
-    if ( addr6994 != 0x00ff ) {
-        Code4087();
+    if ( imageno != 0x00ff ) {
+        ShowImage();
     }
     return;
 }
 
 
 void Func79bc() { // SPEICHERN
-    SPECIAL(0x0003);
+    SPECIAL(0x0003) // Speichern;
     return;
 }
 
 
 void Func79c0() { // HINAUF
-    addr6994 = 0x00ff;
+    imageno = 0x00ff;
     if ( up[roomnumber] != 0x0000 ) {
         roomnumber = up[roomnumber];
         Code2E5B();
         objectposition[DAVE] = roomnumber;
-        addr6994 = roomnumber;
+        imageno = roomnumber;
     } else {
         if ( up[roomnumber] == 0x0000 ) {
             textoutput = 0x0005; // Aber dorthin kannst Du doch gar nicht gehen! Zumindest habe ich nichts dergleichen gesagt, oder...?
         }
     }
-    if ( addr6994 != 0x00ff ) {
-        Code4087();
+    if ( imageno != 0x00ff ) {
+        ShowImage();
     }
     return;
 }
@@ -500,12 +500,12 @@ void Func7a03() { // WARTE
 
 
 void Func7a08() { // WEST
-    addr6994 = 0x00ff;
+    imageno = 0x00ff;
     if ( west[roomnumber] != 0x0000 ) {
         roomnumber = west[roomnumber];
         objectposition[DAVE] = roomnumber;
         Code2E5B();
-        addr6994 = roomnumber;
+        imageno = roomnumber;
     } else {
         if ( west[roomnumber] == 0x0000 ) {
             textoutput = 0x0005; // Aber dorthin kannst Du doch gar nicht gehen! Zumindest habe ich nichts dergleichen gesagt, oder...?
@@ -526,27 +526,27 @@ x7a3c:
         if ( addr6996 == 0x0001 && objectstatus[BADEHOSE] == 0x0001 ) {
             goto x7aa1;
         }
-        addr6994 = 0x0082;
+        imageno = 0x0082;
         objectposition[DAVE] = 0x00ff;
-        Code4087();
+        ShowImage();
         textoutput = 0x007b; // Du hättest den See wirklich nicht mit mehr Dingen betreten sollen als Du unbedingt zum Überleben benötigtest: Schwer wie ein Mühlstein wirst Du auf den Grund des Sees hinuntergezogen, wo Du elend ersäufst...
         showtext();
         Restart();
-        addr6994 = 0x00ff;
+        imageno = 0x00ff;
         return;
     }
     if ( roomnumber == IM_TIEFEN_WALD && visited[IM_TIEFEN_WALD] == 0x0000 ) {
         textoutput = 0x00a6; // Als Du gerade tiefer in den Wald treten willst, tritt ein Waldelf aus dem Unterholz vor Dich und versperrt Dir mit einer Geste den Weg, die keinen Widerspruch zuläßt. "Seid gegrüßt, Fremder!", begrüßt er Dich freundlich, "Bevor Ihr tiefer in unsere Welt vordringen dürft, müßt Ihr einen kleinen Test bezüglich der Spielanleitung bestehen, um zu beweisen, daß Ihr wirklich ein EIGENES Spiel besitzt - und nicht bloß eine von diesen minderwertigen Schwarzkopien..."
         showtext();
         Restart();
-        SPECIAL(0x0001);
+        SPECIAL(0x0001) // Codeabfrage;
         objectposition[DAVE] = roomnumber;
         return;
     }
 
 x7aa1:
-    if ( addr6994 != 0x00ff ) {
-        Code4087();
+    if ( imageno != 0x00ff ) {
+        ShowImage();
     }
 
 x7aa9:
@@ -681,11 +681,11 @@ void Func7c02() { // BETRITT
     if ( object1 == HOTEL ) {
         roomnumber = IN_DER_LOBBY;
         objectposition[DAVE] = IN_DER_LOBBY;
-        addr6994 = roomnumber;
-        Code4087();
+        imageno = roomnumber;
+        ShowImage();
         Code2E5B();
         showtext();
-        addr6994 = 0x00ff;
+        imageno = 0x00ff;
         return;
     }
     textoutput = 0x000a; // Könntest Du mir mal bitte erklären, wie Du DAS betreten willst?
@@ -781,13 +781,13 @@ x7cfe:
         return;
     }
     if ( object1 == WOLF ) {
-        addr6994 = 0x0083;
+        imageno = 0x0083;
         objectposition[DAVE] = 0x00ff;
-        Code4087();
+        ShowImage();
         textoutput = 0x009a; // "Ich habe sie umzingelt!", denkst Du Dir siegessicher: Mit einem wilden Kamikazeschrei stürmst Du die Lichtung und wirfst Dich mit aller Kraft gegen das Einhorn, um dem Wolf eine Gelegenheit zu geben, seine Zähne in die weiße Kehle des Fabelwesens zu schlagen. Vollgesudelt mit dem bläulichen Blut machen der Wolf und Du sich daran, das erlegte Einhorn auszuweiden, das Dich immer noch mit einem ungläubigen Blick aus seinen erlöschenden Augen anzublicken scheint. Dummerweise scheint der Hunger des Wolfes nach dieser Delikatesse jedoch immer noch nicht vollständig gestillt zu sein: Bei der ersten Gelegenheit, als Du gerade unvorsichtigerweise die Augen von ihm abwendest, springt Dir der Wolf an die Kehle und reißt Dir beinahe den Kopf vom Hals! Da er aber auch nach diesen beiden schmackhaften Mählern noch immer hungrig zu sein scheint, kannst Du ja im nächsten Spiel noch einmal hier vorbeikommen, um "dem Wolf zu helfen"... 
         showtext();
         Restart();
-        addr6994 = 0x00ff;
+        imageno = 0x00ff;
         return;
     }
     textoutput = 0x0053; // Danke für Dein wirklich selbstloses Angebot, aber hier wird nun wirklich keine Hilfe benötigt.

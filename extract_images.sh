@@ -1,5 +1,5 @@
 set -e
-#clang++ -O2 src/images.cpp -o drawimages
+clang++ -O2 src/images.cpp -o drawimages
 ./drawimages
 
 for f in ./images/*.ppm; do
