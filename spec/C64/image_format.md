@@ -9,11 +9,26 @@ Room images are addressed through the pointer table described in [`disk_format.m
 An image record begins at the resolved pointer-table offset:
 
 ```text
-+0..1: image-specific header
++0..1: compressed-size header
 +2..  : compressed image payload
 ```
 
-Current decoding starts at `record_offset + 2`, so the first two bytes are reserved header data. Their exact meaning is not fixed by this spec.
+Current decoding starts at `record_offset + 2`.
+
+The first two bytes are very likely a little-endian compressed-size field encoded as a negative value with an off-by-one convention:
+
+```text
+header_word      = lo + 256 * hi
+compressed_size ~= 65536 - header_word + 1
+```
+
+Equivalent form:
+
+```text
+header_word = -(compressed_size - 1) mod 65536
+```
+
+This interpretation matches the measured compressed sizes of known image records, but should still be treated as inferred rather than fully proven.
 
 ## 2. Decompressed layout
 
@@ -216,6 +231,5 @@ This affects exported images but is not part of the underlying disk format.
 
 The following details remain intentionally unspecified:
 
-- The meaning of the 2-byte image-record header
 - Whether the high nibble of color table B has a meaning in the original format
 - Whether `0xCD` can appear as a literal through an escape form not used by the current decoder
