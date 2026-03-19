@@ -8,27 +8,16 @@
 #include"tables.h"
 #include"disk.h"
 
+#include"vsf.h"
+
 // address at address 0x6976: 0x7600
 
-uint8_t ram[0x10000];
 unsigned char iscode[0x10000];
 unsigned char isjump[0x10000];
 unsigned char istable[0x10000];
 unsigned char isfunc[0x10000];
 unsigned short pc;
 int casen;
-
-void LoadVSF(const char *filename) {
-    FILE *file;
-    file = fopen(filename, "rb");
-    if (file == NULL) {
-        printf("Error: Cannot open file\n");
-        exit(1);
-    }
-    fseek(file, 0x99, SEEK_SET);
-    fread(ram, 0x10000, 1, file);
-    fclose(file);
-}
 
 int lasttoken = 0x0;
 
@@ -77,7 +66,7 @@ std::string InterpretVariable(unsigned char token) {
         case 0xA7:
             return std::string("objectstatus");
         case 0xA8:
-            return std::string("visited");  //visited
+            return std::string("visited");
         case 0xB0:
             return std::string("points"); // 16 Bit
         case 0xB1:
@@ -87,7 +76,7 @@ std::string InterpretVariable(unsigned char token) {
     return std::string("Not_found");
 }
 
-std::string ConstantToVariable(unsigned int token) {
+std::string ConstantToVariable(unsigned int token, bool isbyte) {
 
     int temptoken = lasttoken;
     lasttoken = 0;
@@ -108,7 +97,11 @@ std::string ConstantToVariable(unsigned int token) {
     }
 
     char output[16];
-    sprintf(output, "0x%04x", token);
+    if (isbyte) {
+        sprintf(output, "0x%02x", token);
+    } else {
+        sprintf(output, "0x%04x", token);
+    }
     return std::string(output);
 }
 
@@ -146,7 +139,7 @@ std::string ConstantToVariableInBracket(unsigned int token) {
     }
 
     char output[16];
-    sprintf(output, "0x%04x", token);
+    sprintf(output, "0x%02x", token); // always used only with byte constants
     return std::string(output);
 }
 
@@ -161,9 +154,9 @@ std::string VariableReference(unsigned char token) // Code at 0x1D8B
         unsigned char nexttoken = ram[pc];
 
         if (nexttoken == 0xC0) { // is a constant
+            pc++;
+            printf("Ignore Token 0x%02x\n", token);
             token = ram[pc++];
-            token = ram[pc++];
-
             str += "[" + ConstantToVariableInBracket(token) + "]";
             //str += "[" + std::to_string(token) + "]";
         } else if ((nexttoken >= 0x80) && (nexttoken < 0xC0)) { // is a variable
@@ -178,44 +171,6 @@ std::string VariableReference(unsigned char token) // Code at 0x1D8B
     return str;
 }
 
-/*
------
-betrachte dave, nimm dave, ziehe dave
-
-7600   7600
-7604   7604
-764d   764d
-7650   7650
-7656   7656
-7659   7659
-76df          76df
-76e0          76e0    switch
-
-7713          7713
-7718          7718
-774b
-7750   7750
-7c25   777d
-7c29   7782
-7c53
-7c72
-7c8e
-7ca5
-7ca6
-7cbe
-7cda
-7773
-7779
-7799
-77a1
-77a8
-77af
-77b6
-77b7
-77d1
-*/
-
-
 std::string ReadNextVariable(unsigned char token) {
     unsigned int x;
     if (token >= 0x80)
@@ -224,16 +179,15 @@ std::string ReadNextVariable(unsigned char token) {
         }
 
     if (token == 0xC0) {
-        x = ram[pc];
+        x = ram[pc++];
         //printf("const 0x%02x", x);
-        pc += 1;
-        return ConstantToVariable(x);
+        return ConstantToVariable(x, true);
     }
 
     if (token == 0xC1) {
         x = (int)ram[pc] | ((int)ram[pc + 1] << 8);
         pc += 2;
-        return ConstantToVariable(x);
+        return ConstantToVariable(x, false);
     }
 
     return std::string();
@@ -448,8 +402,11 @@ void Token() {
             break;
 
         case 0xEF:
-            token = ram[pc];
-            pc++;
+            token = ram[pc++]; // Always called via a constant.
+            if (token != 0xC0) {
+                printf("Error: token not constant\n");
+                exit(1);
+            }
             str = ReadNextVariable(token);
             if (str.empty()) {
                 printf("Error: string empty\n");
@@ -458,18 +415,18 @@ void Token() {
             printf("SPECIAL(%s)", str.c_str());
             t.type = TokenType::FUNC;
             t.str = "SPECIAL(" + str + ")";
-            if (str == "0x0001") t.str += " // Codeabfrage";
-            if (str == "0x0002") t.str += " // Laden";
-            if (str == "0x0003") t.str += " // Speichern";
-            if (str == "0x0004") t.str += " // Neustart";
-            if (str == "0x0005") t.str += " // Spielende";
-            if (str == "0x0006") t.str += " // Loesung";
-            if (str == "0x0007") t.str += " // Musik ein";
-            if (str == "0x0008") t.str += " // Ausgaenge listen";
-            if (str == "0x0009") t.str += " // Diskette installieren";
-            if (str == "0x000a") t.str += " // Inventar anzeigen";
-            if (str == "0x0033") t.str += " // Gewonnen";
-            if (str == "0x0064") t.str += " // Habe ich keine Kleidung an, vielleicht?";
+            if (str == "0x01") t.str += " // Codeabfrage";
+            if (str == "0x02") t.str += " // Laden";
+            if (str == "0x03") t.str += " // Speichern";
+            if (str == "0x04") t.str += " // Neustart";
+            if (str == "0x05") t.str += " // Spielende";
+            if (str == "0x06") t.str += " // Loesung";
+            if (str == "0x07") t.str += " // Musik ein";
+            if (str == "0x08") t.str += " // Ausgaenge listen";
+            if (str == "0x09") t.str += " // Diskette installieren";
+            if (str == "0x0a") t.str += " // Inventar anzeigen";
+            if (str == "0x33") t.str += " // Gewonnen";
+            if (str == "0x64") t.str += " // Habe ich keine Kleidung an, vielleicht?";
             break;
 
         case 0xE6:

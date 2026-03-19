@@ -1866,6 +1866,7 @@ void Code2950() {
 
 }
 
+// SPECIAL case 0x66
 void Code324F() {
     addr6992 = 0;
     if (((addr6986 > 3) && (addr6986 != 0x8)) || ((addr6986 > 0xB) && (addr6986 < 0x13)) || (addr6986 != 0x14) ||
@@ -1948,7 +1949,7 @@ void Code36B3() {
 }
 
 
-void Code3317() {
+void Code3317() { // // SPECIAL case 0x67
     addr6992 = 0;
 
     if ((addr6D51 == 0) && (addr6D98 == 0)) {
