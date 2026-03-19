@@ -65,7 +65,7 @@ Disk ID: `DB`
 | `0x16600..0x166ff` |            | Track 18 sector 1, directory area                                           | High       |
 | `0x16700..0x177ff` |            | Track 18 sectors 2..18, meaningful directory-related data and disk metadata | Medium     |
 | `0x17800..0x1f16c` | `458..476` | Image/special indexed region                                                | Medium     |
-| `0x1f16d..0x24956` | `477..492` | Start offsets of unknown or currently unclassified indexed records          | Low        |
+| `0x1f16d..0x24956` | `477..492` | Image/special indexed region                                                | High       |
 | `0x24957..0x26aff` |            | Unknown data                                                                | Low        |
 | `0x26b00..0x26bff` |            | Chained loader entry sector `(32, 4)`                                       | Low        |
 | `0x26c00..0x2aaff` |            | Unknown data                                                                | Low        |
@@ -108,7 +108,7 @@ Disk ID: `DD`
 | `0x16600..0x166ff` |            | Track 18 sector 1, directory area                                           | High       |
 | `0x16700..0x177ff` |            | Track 18 sectors 2..18, meaningful directory-related data and disk metadata | Medium     |
 | `0x17800..0x1ea89` | `447..465` | Image/special indexed region                                                | Medium     |
-| `0x1ea8a..0x25d4a` | `466..486` | Start offsets of unknown or currently unclassified indexed records          | Low        |
+| `0x1ea8a..0x25d4a` | `466..486` | Image/special indexed region                                                | High       |
 | `0x25d4b..0x27bff` |            | Unknown data                                                                | Low        |
 | `0x27c00..0x27cff` |            | Chained loader entry sector `(33, 4)`                                       | Low        |
 | `0x27d00..0x2aaff` |            | Unknown data                                                                | Low        |
