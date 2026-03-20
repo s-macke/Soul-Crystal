@@ -2,7 +2,7 @@
   "version": "1.1",
   "metadata": {
     "created": "2026-03-20T19:36:24Z",
-    "modified": "2026-03-20T20:03:34Z",
+    "modified": "2026-03-20T22:22:26Z",
     "sourceFile": "../data/tests/nachcodeabfrage.vsf",
     "description": "C64 Text Adventure Game Soul Crystal"
   },
@@ -36,7 +36,32 @@
     "0x97A9",
     "0x97AF",
     "0x9BF8",
-    "0x9C1C"
+    "0x9C1C",
+    "0xB029",
+    "0xB2FC",
+    "0xB32B",
+    "0xB32E",
+    "0xB2FC",
+    "0x9615",
+    "0x9618",
+    "0x961B",
+    "0x961E",
+    "0x9621",
+    "0x9628",
+    "0x962B",
+    "0x962E",
+    "0xC900",
+    "0xC903",
+    "0xC906",
+    "0xCB00",
+    "0xCB03",
+    "0xCB06",
+    "0xCB0C",
+    "0xCB0F",
+    "0xCB12",
+    "0xCB15",
+    "0xCB18",
+    "0xCB21"
   ],
   "symbols": {
     "0x0079": {
@@ -170,9 +195,9 @@
       "source": "auto"
     },
     "0x0CDB": {
-      "name": "SUB_0CDB",
+      "name": "call_vector_helper",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x0CF0": {
       "name": "SUB_0CF0",
@@ -180,9 +205,9 @@
       "source": "auto"
     },
     "0x0D37": {
-      "name": "SUB_0D37",
+      "name": "resource_copy_descriptor_dispatch",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x0D43": {
       "name": "L_0D43",
@@ -190,9 +215,9 @@
       "source": "auto"
     },
     "0x0D4F": {
-      "name": "SUB_0D4F",
+      "name": "resource_load_descriptor_dispatch",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x0D7F": {
       "name": "L_0D7F",
@@ -400,9 +425,9 @@
       "source": "auto"
     },
     "0x12AA": {
-      "name": "SUB_12AA",
+      "name": "load_inline_vector_or_literal",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x12C9": {
       "name": "L_12C9",
@@ -410,14 +435,14 @@
       "source": "auto"
     },
     "0x12D4": {
-      "name": "SUB_12D4",
+      "name": "call_loaded_vector_preserving_state",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x12F9": {
-      "name": "SUB_12F9",
+      "name": "jmp_indirect_004e",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x12FC": {
       "name": "L_12FC",
@@ -435,9 +460,9 @@
       "source": "auto"
     },
     "0x13B0": {
-      "name": "SUB_13B0",
+      "name": "resource_decode_inline_descriptor",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x13C4": {
       "name": "L_13C4",
@@ -460,9 +485,9 @@
       "source": "auto"
     },
     "0x1416": {
-      "name": "SUB_1416",
+      "name": "resource_register_window_metadata",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x1428": {
       "name": "L_1428",
@@ -485,9 +510,9 @@
       "source": "auto"
     },
     "0x1474": {
-      "name": "SUB_1474",
+      "name": "resource_find_saved_descriptor_frame",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x1475": {
       "name": "L_1475",
@@ -4480,14 +4505,14 @@
       "source": "auto"
     },
     "0x4B4D": {
-      "name": "SUB_4B4D",
+      "name": "room_resource_load_current",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x4B60": {
-      "name": "SUB_4B60",
+      "name": "room_resource_load_secondary",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x4C10": {
       "name": "L_4C10",
@@ -5169,6 +5194,31 @@
       "type": "label",
       "source": "auto"
     },
+    "0x64B1": {
+      "name": "resource_commit_stream_position",
+      "type": "label",
+      "source": "assistant"
+    },
+    "0x64C0": {
+      "name": "resource_compute_absolute_offset",
+      "type": "label",
+      "source": "assistant"
+    },
+    "0x6501": {
+      "name": "image_pipeline_preamble",
+      "type": "label",
+      "source": "assistant"
+    },
+    "0x651C": {
+      "name": "room_image_unpack_entry",
+      "type": "label",
+      "source": "assistant"
+    },
+    "0x6775": {
+      "name": "room_image_postprocess_entry",
+      "type": "label",
+      "source": "assistant"
+    },
     "0x69C6": {
       "name": "object_description_table_LO",
       "type": "byte",
@@ -5244,9 +5294,49 @@
       "type": "subroutine",
       "source": "auto"
     },
+    "0x9615": {
+      "name": "ENTRY_9615",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x9618": {
+      "name": "ENTRY_9618",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x961B": {
+      "name": "ENTRY_961B",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x961E": {
+      "name": "ENTRY_961E",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x9621": {
+      "name": "ENTRY_9621",
+      "type": "entry",
+      "source": "auto"
+    },
     "0x9625": {
       "name": "SUB_9625",
       "type": "subroutine",
+      "source": "auto"
+    },
+    "0x9628": {
+      "name": "ENTRY_9628",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x962B": {
+      "name": "ENTRY_962B",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x962E": {
+      "name": "ENTRY_962E",
+      "type": "entry",
       "source": "auto"
     },
     "0x9632": {
@@ -5299,9 +5389,19 @@
       "type": "label",
       "source": "auto"
     },
+    "0x9759": {
+      "name": "L_9759",
+      "type": "label",
+      "source": "auto"
+    },
     "0x9760": {
       "name": "ENTRY_9760",
       "type": "entry",
+      "source": "auto"
+    },
+    "0x976B": {
+      "name": "L_976B",
+      "type": "label",
       "source": "auto"
     },
     "0x977D": {
@@ -5315,13 +5415,13 @@
       "source": "auto"
     },
     "0x97A9": {
-      "name": "ENTRY_97A9",
-      "type": "entry",
+      "name": "L_97A9",
+      "type": "label",
       "source": "auto"
     },
     "0x97AF": {
-      "name": "ENTRY_97AF",
-      "type": "entry",
+      "name": "L_97AF",
+      "type": "label",
       "source": "auto"
     },
     "0x97B5": {
@@ -5335,18 +5435,18 @@
       "source": "auto"
     },
     "0x97C5": {
-      "name": "ENTRY_97C5",
-      "type": "entry",
+      "name": "L_97C5",
+      "type": "label",
       "source": "auto"
     },
     "0x97D1": {
-      "name": "ENTRY_97D1",
-      "type": "entry",
+      "name": "L_97D1",
+      "type": "label",
       "source": "auto"
     },
     "0x97DD": {
-      "name": "ENTRY_97DD",
-      "type": "entry",
+      "name": "L_97DD",
+      "type": "label",
       "source": "auto"
     },
     "0x9803": {
@@ -6389,6 +6489,16 @@
       "type": "label",
       "source": "auto"
     },
+    "0xA481": {
+      "name": "SUB_A481",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0xA483": {
+      "name": "L_A483",
+      "type": "label",
+      "source": "auto"
+    },
     "0xA4A4": {
       "name": "SUB_A4A4",
       "type": "subroutine",
@@ -6724,10 +6834,435 @@
       "type": "label",
       "source": "auto"
     },
+    "0xB003": {
+      "name": "SUB_B003",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0xB006": {
+      "name": "SUB_B006",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0xB00B": {
+      "name": "sid_swap_player_zero_page_context",
+      "type": "subroutine",
+      "source": "assistant"
+    },
+    "0xB00D": {
+      "name": "L_B00D",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB029": {
+      "name": "sid_wait_for_fade_completion",
+      "type": "label",
+      "source": "assistant"
+    },
+    "0xB03E": {
+      "name": "L_B03E",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB041": {
+      "name": "sid_player_output_tail",
+      "type": "label",
+      "source": "assistant"
+    },
+    "0xB04A": {
+      "name": "sid_player_write_filter_volume",
+      "type": "label",
+      "source": "assistant"
+    },
+    "0xB070": {
+      "name": "L_B070",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB072": {
+      "name": "L_B072",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB2D1": {
+      "name": "L_B2D1",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB2DA": {
+      "name": "SUB_B2DA",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0xB2ED": {
+      "name": "L_B2ED",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB2FC": {
+      "name": "L_B2FC",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB317": {
+      "name": "L_B317",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB32B": {
+      "name": "L_B32B",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB32E": {
+      "name": "sid_player_tick_entry",
+      "type": "label",
+      "source": "assistant"
+    },
+    "0xB33C": {
+      "name": "L_B33C",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB33D": {
+      "name": "sid_player_run_frame",
+      "type": "subroutine",
+      "source": "assistant"
+    },
+    "0xB352": {
+      "name": "L_B352",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB35A": {
+      "name": "L_B35A",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB369": {
+      "name": "L_B369",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB374": {
+      "name": "L_B374",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB37F": {
+      "name": "L_B37F",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB38B": {
+      "name": "L_B38B",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB3AD": {
+      "name": "L_B3AD",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB3CD": {
+      "name": "L_B3CD",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB3DC": {
+      "name": "L_B3DC",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB3EB": {
+      "name": "L_B3EB",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB407": {
+      "name": "L_B407",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB41F": {
+      "name": "L_B41F",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB46E": {
+      "name": "L_B46E",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB476": {
+      "name": "L_B476",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB48B": {
+      "name": "L_B48B",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB4BF": {
+      "name": "L_B4BF",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB4D3": {
+      "name": "L_B4D3",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB4DD": {
+      "name": "L_B4DD",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB51C": {
+      "name": "L_B51C",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB51E": {
+      "name": "L_B51E",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB52B": {
+      "name": "L_B52B",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB539": {
+      "name": "L_B539",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB551": {
+      "name": "L_B551",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB597": {
+      "name": "L_B597",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB5A3": {
+      "name": "L_B5A3",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB5D7": {
+      "name": "L_B5D7",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB5DF": {
+      "name": "L_B5DF",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB607": {
+      "name": "L_B607",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB674": {
+      "name": "L_B674",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB67A": {
+      "name": "L_B67A",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB688": {
+      "name": "L_B688",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB6CD": {
+      "name": "L_B6CD",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB6DB": {
+      "name": "L_B6DB",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB6FF": {
+      "name": "L_B6FF",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB729": {
+      "name": "L_B729",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB735": {
+      "name": "L_B735",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB752": {
+      "name": "L_B752",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB771": {
+      "name": "L_B771",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB789": {
+      "name": "L_B789",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB78F": {
+      "name": "L_B78F",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB7A8": {
+      "name": "L_B7A8",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB7B0": {
+      "name": "L_B7B0",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB7BB": {
+      "name": "L_B7BB",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB7BE": {
+      "name": "L_B7BE",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB7DA": {
+      "name": "L_B7DA",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB7EB": {
+      "name": "L_B7EB",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB805": {
+      "name": "L_B805",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB817": {
+      "name": "L_B817",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB847": {
+      "name": "L_B847",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB851": {
+      "name": "L_B851",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB865": {
+      "name": "L_B865",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB868": {
+      "name": "L_B868",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB86D": {
+      "name": "L_B86D",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB887": {
+      "name": "L_B887",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB8B1": {
+      "name": "L_B8B1",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB8DB": {
+      "name": "L_B8DB",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB8FA": {
+      "name": "L_B8FA",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB90E": {
+      "name": "L_B90E",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xB910": {
+      "name": "sid_player_flush_registers",
+      "type": "label",
+      "source": "assistant"
+    },
+    "0xB926": {
+      "name": "sid_song_header_ptr_LO",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0xB927": {
+      "name": "sid_song_header_ptr_HI",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0xB928": {
+      "name": "sid_instrument_table_base_lo",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0xB929": {
+      "name": "sid_instrument_table_base_hi",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0xB92A": {
+      "name": "sid_phrase_pointer_table_LO",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0xB92B": {
+      "name": "sid_phrase_pointer_table_HI",
+      "type": "byte",
+      "source": "assistant"
+    },
     "0xB98D": {
       "name": "SUB_B98D",
       "type": "subroutine",
       "source": "auto"
+    },
+    "0xB9FA": {
+      "name": "sid_song_header_00",
+      "type": "label",
+      "source": "assistant"
     },
     "0xBC1B": {
       "name": "SUB_BC1B",
@@ -6744,6 +7279,111 @@
       "type": "subroutine",
       "source": "auto"
     },
+    "0xC900": {
+      "name": "L_C900",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xC903": {
+      "name": "ENTRY_C903",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0xC906": {
+      "name": "ENTRY_C906",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0xC910": {
+      "name": "L_C910",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xC91F": {
+      "name": "L_C91F",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xC926": {
+      "name": "L_C926",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xC942": {
+      "name": "L_C942",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xC97A": {
+      "name": "L_C97A",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xC97E": {
+      "name": "SUB_C97E",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0xC988": {
+      "name": "SUB_C988",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0xCB00": {
+      "name": "ENTRY_CB00",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0xCB03": {
+      "name": "ENTRY_CB03",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0xCB06": {
+      "name": "ENTRY_CB06",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0xCB09": {
+      "name": "SUB_CB09",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0xCB0C": {
+      "name": "ENTRY_CB0C",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0xCB0F": {
+      "name": "ENTRY_CB0F",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0xCB12": {
+      "name": "ENTRY_CB12",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0xCB15": {
+      "name": "ENTRY_CB15",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0xCB18": {
+      "name": "ENTRY_CB18",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0xCB21": {
+      "name": "ENTRY_CB21",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0xCB24": {
+      "name": "SUB_CB24",
+      "type": "subroutine",
+      "source": "auto"
+    },
     "0xCB29": {
       "name": "SUB_CB29",
       "type": "subroutine",
@@ -6754,9 +7394,24 @@
       "type": "label",
       "source": "auto"
     },
-    "0xCB8F": {
-      "name": "SUB_CB8F",
+    "0xCB55": {
+      "name": "SUB_CB55",
       "type": "subroutine",
+      "source": "auto"
+    },
+    "0xCB86": {
+      "name": "L_CB86",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xCB8C": {
+      "name": "SUB_CB8C",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0xCB8F": {
+      "name": "L_CB8F",
+      "type": "label",
       "source": "auto"
     },
     "0xCB93": {
@@ -6772,6 +7427,86 @@
     "0xCB9D": {
       "name": "L_CB9D",
       "type": "label",
+      "source": "auto"
+    },
+    "0xCBA6": {
+      "name": "L_CBA6",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xCBB7": {
+      "name": "SUB_CBB7",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0xCBD3": {
+      "name": "L_CBD3",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xCBD6": {
+      "name": "L_CBD6",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xCBF0": {
+      "name": "L_CBF0",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xCBF9": {
+      "name": "SUB_CBF9",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0xCC03": {
+      "name": "L_CC03",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xCC08": {
+      "name": "L_CC08",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xCC30": {
+      "name": "L_CC30",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xCC3B": {
+      "name": "L_CC3B",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xCC4B": {
+      "name": "L_CC4B",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xCC53": {
+      "name": "SUB_CC53",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0xCC55": {
+      "name": "L_CC55",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xCC5A": {
+      "name": "L_CC5A",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xCC84": {
+      "name": "L_CC84",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xCC90": {
+      "name": "SUB_CC90",
+      "type": "subroutine",
       "source": "auto"
     },
     "0xCCA2": {
@@ -6824,6 +7559,131 @@
       "type": "label",
       "source": "auto"
     },
+    "0xCD11": {
+      "name": "L_CD11",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xCD1A": {
+      "name": "L_CD1A",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xCD27": {
+      "name": "L_CD27",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xCD2B": {
+      "name": "L_CD2B",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xCD30": {
+      "name": "L_CD30",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xCD5C": {
+      "name": "L_CD5C",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xCD7A": {
+      "name": "SUB_CD7A",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0xCDD7": {
+      "name": "L_CDD7",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xCDDD": {
+      "name": "L_CDDD",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xCDF6": {
+      "name": "L_CDF6",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xCE05": {
+      "name": "L_CE05",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xCE0C": {
+      "name": "L_CE0C",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xCE0F": {
+      "name": "L_CE0F",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xCE19": {
+      "name": "L_CE19",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xCE32": {
+      "name": "L_CE32",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xCE3D": {
+      "name": "L_CE3D",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xCE42": {
+      "name": "L_CE42",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xCE62": {
+      "name": "L_CE62",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xCE69": {
+      "name": "L_CE69",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xCE7C": {
+      "name": "SUB_CE7C",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0xCEA7": {
+      "name": "SUB_CEA7",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0xCEAB": {
+      "name": "L_CEAB",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xCEBE": {
+      "name": "L_CEBE",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xCED6": {
+      "name": "L_CED6",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xCEF2": {
+      "name": "L_CEF2",
+      "type": "label",
+      "source": "auto"
+    },
     "0xCF0B": {
       "name": "L_CF0B",
       "type": "label",
@@ -6851,6 +7711,16 @@
     },
     "0xCF46": {
       "name": "L_CF46",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xCF4F": {
+      "name": "SUB_CF4F",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0xCF54": {
+      "name": "L_CF54",
       "type": "label",
       "source": "auto"
     },
@@ -6949,6 +7819,21 @@
       "type": "byte",
       "source": "auto"
     },
+    "0xD400": {
+      "name": "SID_V1_FREQ_LO",
+      "type": "byte",
+      "source": "auto"
+    },
+    "0xD417": {
+      "name": "SID_RES_FILT",
+      "type": "byte",
+      "source": "auto"
+    },
+    "0xD418": {
+      "name": "SID_VOLUME",
+      "type": "byte",
+      "source": "auto"
+    },
     "0xD419": {
       "name": "SID_POTX",
       "type": "byte",
@@ -6956,16 +7841,6 @@
     },
     "0xD41A": {
       "name": "SID_POTY",
-      "type": "byte",
-      "source": "auto"
-    },
-    "0xD680": {
-      "name": "SID_V1_FREQ_LO",
-      "type": "byte",
-      "source": "auto"
-    },
-    "0xD698": {
-      "name": "SID_VOLUME",
       "type": "byte",
       "source": "auto"
     },
@@ -7036,6 +7911,36 @@
     }
   },
   "annotations": {
+    "0x0CDB": {
+      "assistant": {
+        "comment": "Pops the caller return address into $41/$42 so the inline descriptor bytes following the JSR can be parsed directly from the caller stream."
+      }
+    },
+    "0x0CE5": {
+      "assistant": {
+        "comment": "Parse the inline descriptor at ($41),Y and store a 16-bit target pointer into $004E/$004F via X=$4E."
+      }
+    },
+    "0x0CE8": {
+      "assistant": {
+        "comment": "Preserve machine state, then tail into the generic vector trampoline at $12F9 using the target loaded into $004E/$004F."
+      }
+    },
+    "0x12AA": {
+      "assistant": {
+        "comment": "If the first descriptor byte is nonzero, treat the following two bytes as a pointer to a table and copy the first 16-bit entry into the destination at $00,X/$01,X; otherwise copy the next two literal bytes directly."
+      }
+    },
+    "0x12D4": {
+      "assistant": {
+        "comment": "Saves the BASIC/KERNAL machine state around an indirect dispatch through $004E/$004F, then restores state and resumes through $191B."
+      }
+    },
+    "0x12F9": {
+      "assistant": {
+        "comment": "Jump indirectly through $004E/$004F. This is a generic engine trampoline, not by itself proof of the main compiled-BASIC P-code dispatcher, because the same vector is reused by the script VM and other engine code."
+      }
+    },
     "0x1C12": {
       "assistant": {
         "comment": "Fetch the next script token before decoding it."
@@ -7056,6 +7961,16 @@
         "comment": "Read the next operand token, then branch into the variable-class decoders for ranges like $80-$BF."
       }
     },
+    "0x651C": {
+      "assistant": {
+        "comment": "Initializes image unpack state, then enters the main loop at $651C/$6532/$6560-style labels. This is the best current match for the C-side RLE decoder that expands 1760-byte room images from disk records."
+      }
+    },
+    "0x6775": {
+      "assistant": {
+        "comment": "Sets up counters used after the main unpack loop and continues the same room-image processing pipeline."
+      }
+    },
     "0xAEFC": {
       "assistant": {
         "comment": "Select VIC bank via CIA2. Low two bits of $94 choose bank $C000-$FFFF."
@@ -7065,9 +7980,74 @@
       "assistant": {
         "comment": "Set VIC memory pointers. With VIC bank $C000-$FFFF and D018=$F8, screen RAM resolves to $FC00."
       }
+    },
+    "0xB041": {
+      "assistant": {
+        "comment": "Manual decode begins here: LDA $B1D1; LDX $CFF6; optional LSR A; then write filter/resonance to $D417."
+      }
+    },
+    "0xB04A": {
+      "assistant": {
+        "comment": "Write the current filter/resonance state to SID register $D417."
+      }
+    },
+    "0xB04D": {
+      "assistant": {
+        "comment": "Load the next volume/filter control byte from $B1D2 and combine it with fade state at $B076-$B078 before writing $D418."
+      }
+    },
+    "0xB072": {
+      "assistant": {
+        "comment": "Write the current master volume to SID register $D418."
+      }
+    },
+    "0xB310": {
+      "assistant": {
+        "comment": "This entry uses at least one undocumented 6502 opcode (starting with byte $A7), so treat the surrounding raw bytes as real player code rather than plain data."
+      }
+    },
+    "0xB319": {
+      "assistant": {
+        "comment": "Confirmed SID init tail: iterate across SID registers at $D400+ and clear them, then clear $D418 and reset player state flag $B077."
+      }
+    },
+    "0xB910": {
+      "assistant": {
+        "comment": "Write the prepared SID shadow registers from $B1BA+ to the live SID chip at $D400+, then continue with the main player update."
+      }
+    },
+    "0xB917": {
+      "assistant": {
+        "comment": "Loop over the SID register image until all active registers have been written."
+      }
     }
   },
   "headlines": {
+    "0x0CDB": {
+      "assistant": {
+        "comment": "Generic helper that parses an inline call descriptor, loads a target vector into $004E/$004F, then dispatches through the shared vector trampoline."
+      }
+    },
+    "0x0D37": {
+      "assistant": {
+        "comment": "Descriptor-driven resource copy/registration helper.\nParses the same inline descriptor format as $0D4F, then copies a small descriptor record and registers its address window instead of performing the full load path."
+      }
+    },
+    "0x0D4F": {
+      "assistant": {
+        "comment": "Main disk/resource load dispatcher.\nConsumes an inline descriptor from the caller, resolves the source pointer/flags, reconstructs optional saved descriptor state, and tail-calls the lower-level transfer helpers through a synthetic stack frame."
+      }
+    },
+    "0x12AA": {
+      "assistant": {
+        "comment": "Inline descriptor decoder for generic indirect calls."
+      }
+    },
+    "0x12F9": {
+      "assistant": {
+        "comment": "Shared vector trampoline used by multiple subsystems."
+      }
+    },
     "0x1A72": {
       "assistant": {
         "comment": "BASIC FAC/value helper entry.\nThis code manipulates Commodore BASIC floating-point and descriptor workspace around $61-$70, which supports the assessment that part of the binary is tied to a compiled BASIC runtime."
@@ -7166,6 +8146,41 @@
     "0x4087": {
       "assistant": {
         "comment": "Image-display engine entry used by script opcode EB."
+      }
+    },
+    "0x4B4D": {
+      "assistant": {
+        "comment": "Load the current room/resource set through the generic descriptor loader.\nResets the current stream selector ($6992/$6993), primes room-resource state via $5CDB, then invokes the inline descriptor mechanism through $0CDB."
+      }
+    },
+    "0x4B60": {
+      "assistant": {
+        "comment": "Load the secondary room/resource set.\nInitializes secondary room-resource state via $60DC, selects stream 2 in $6990/$6991, and then dispatches through the same inline descriptor mechanism as the primary loader."
+      }
+    },
+    "0x62FC": {
+      "assistant": {
+        "comment": "Image/resource load pipeline for room graphics. This block sets up image pointers, disk-backed resource offsets, and enters the room-image unpack/render path."
+      }
+    },
+    "0x64B1": {
+      "assistant": {
+        "comment": "Commit the current resource stream position.\nCopies the current stream offset from $CFE1 into $69B9/$69BA and invokes $5B21, which advances/consumes the backing room resource stream."
+      }
+    },
+    "0x64C0": {
+      "assistant": {
+        "comment": "Compute absolute resource offsets for the room-image/resource loader.\nConverts the logical block index in $CFE2 into absolute offsets in $69AB-$69AE and $69B9/$69BA, which are then consumed by the image/resource pipeline."
+      }
+    },
+    "0x651C": {
+      "assistant": {
+        "comment": "Main room-image unpack/render pipeline.\nThis is code, not passive data. It initializes decode state in $CFE1-$CFE4 and $70FB-$7101, repeatedly consumes control bytes through helpers in the $0Fxx/$10xx runtime layer, and updates image work buffers around $69BF/$69C2/$70BF/$70C2 before looping back to $651C."
+      }
+    },
+    "0x6775": {
+      "assistant": {
+        "comment": "Secondary room-image post-processing pass.\nContinues the same graphics pipeline after the main unpack loop, using counters at $70F5-$70F9 and repeated shifts/mask generation to derive buffer offsets from tables near $701A and the image workspace in $70E7-$70E8."
       }
     },
     "0x69C6": {
@@ -7298,19 +8313,59 @@
         "comment": "Main VIC/display initialization.\nSets CIA2/VIC bank and screen layout for the game display.\nWith DD00=$94 (VIC bank $C000-$FFFF) and D018=$F8, the active screen matrix is at $FC00; color RAM remains at $D800."
       }
     },
-    "0xB040": {
+    "0xB00B": {
       "assistant": {
-        "comment": "Probable low-level SID playback/update routine.\nThis high-memory music engine writes directly to SID registers such as $D417/$D418 and uses per-voice state around $B1xx."
+        "comment": "Swap the active zero-page pointer context with the SID player's saved copy at $B01B-$B028.\nThis lets the music engine borrow $E0-$ED as work pointers without permanently clobbering the caller's state."
+      }
+    },
+    "0xB029": {
+      "assistant": {
+        "comment": "Wait for SID fade-out completion.\nOn first entry, seeds the fade state ($B076/$B078/$B077), then busy-waits until bit 6 of $B077 is set by the output tail after the volume ramp reaches zero."
+      }
+    },
+    "0xB041": {
+      "assistant": {
+        "comment": "SID filter/master-volume output tail.\nApplies the current filter/resonance byte from $B1D1 to $D417, then combines $B1D2 with the fade state in $B076-$B078 before writing the final master-volume value to $D418."
+      }
+    },
+    "0xB04A": {
+      "assistant": {
+        "comment": "SID filter/volume update tail.\nUpdates SID filter control at $D417 and master volume at $D418 from player state around $B076-$B078 and $B1D1/$B1D2."
       }
     },
     "0xB310": {
       "assistant": {
-        "comment": "SID player initialization/reset routine.\nClears the SID register block at $D400-$D417 and zeroes player state before playback begins."
+        "comment": "Recovered SID player init/reset entry (partially manual).\nThis block appears to use undocumented 6502 opcodes during state setup, which prevents full automatic lifting. The confirmed tail clears SID registers at $D400+ and zeros $D418 / $B077 before returning."
+      }
+    },
+    "0xB32E": {
+      "assistant": {
+        "comment": "Main SID player tick entry.\nSwaps in the player zero-page pointer set, runs one sequencer frame at $B33D, then restores the previous zero-page context before returning."
+      }
+    },
+    "0xB33D": {
+      "assistant": {
+        "comment": "Main 3-voice SID sequencer/update routine.\nAdvances per-voice pattern/instrument state, updates the shadow SID register block at $B1BA+, and finishes by flushing those registers to $D400-$D416 before the filter/volume tail runs."
       }
     },
     "0xB910": {
       "assistant": {
         "comment": "SID register flush/output step.\nCopies a prepared register image from player state tables at $B1BA+ into the live SID register block at $D400+."
+      }
+    },
+    "0xB926": {
+      "assistant": {
+        "comment": "Pointer to the active SID song header.\nInit code at $B2E0 loads this word into $E0/$E1, then reads offset +6 as the song speed/divider byte and uses offsets +0/+2/+4 as the three voice sequence pointers."
+      }
+    },
+    "0xB92A": {
+      "assistant": {
+        "comment": "Pointer table for SID phrase/event streams.\nThe player doubles the sequence byte and indexes this table to reach phrase data blocks such as $BA13, $BA19, $BA72, $BA8D, $BAAB, $BAC7, $BB50, and $BB74."
+      }
+    },
+    "0xB9FA": {
+      "assistant": {
+        "comment": "Embedded SID song header.\nThis header provides three per-voice sequence/order-list pointers ($BA02, $BA07, $BA0A) plus the frame divider/speed byte at $BA00."
       }
     },
     "0xD400": {
@@ -8199,18 +9254,30 @@
     },
     {
       "start": "0x960F",
+      "end": "0x9614",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x9615",
+      "end": "0x9623",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x9624",
       "end": "0x9624",
       "type": "data",
       "source": "auto"
     },
     {
       "start": "0x9625",
-      "end": "0x9627",
+      "end": "0x9630",
       "type": "code",
       "source": "auto"
     },
     {
-      "start": "0x9628",
+      "start": "0x9631",
       "end": "0x9631",
       "type": "data",
       "source": "auto"
@@ -8235,24 +9302,12 @@
     },
     {
       "start": "0x96ED",
-      "end": "0x975F",
+      "end": "0x9758",
       "type": "data",
       "source": "auto"
     },
     {
-      "start": "0x9760",
-      "end": "0x976A",
-      "type": "code",
-      "source": "auto"
-    },
-    {
-      "start": "0x976B",
-      "end": "0x977C",
-      "type": "data",
-      "source": "auto"
-    },
-    {
-      "start": "0x977D",
+      "start": "0x9759",
       "end": "0x97A5",
       "type": "code",
       "source": "auto"
@@ -8511,6 +9566,18 @@
     },
     {
       "start": "0xA445",
+      "end": "0xA480",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0xA481",
+      "end": "0xA493",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0xA494",
       "end": "0xA4A3",
       "type": "data",
       "source": "auto"
@@ -8595,6 +9662,54 @@
     },
     {
       "start": "0xAFAD",
+      "end": "0xB002",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0xB003",
+      "end": "0xB008",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0xB009",
+      "end": "0xB00A",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0xB00B",
+      "end": "0xB01A",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0xB01B",
+      "end": "0xB028",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0xB029",
+      "end": "0xB075",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0xB076",
+      "end": "0xB2D0",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0xB2D1",
+      "end": "0xB91B",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0xB91C",
       "end": "0xB98C",
       "type": "data",
       "source": "auto"
@@ -8631,54 +9746,114 @@
     },
     {
       "start": "0xBCF5",
-      "end": "0xCB28",
+      "end": "0xC8FF",
       "type": "data",
       "source": "auto"
     },
     {
-      "start": "0xCB29",
+      "start": "0xC900",
+      "end": "0xC98D",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0xC98E",
+      "end": "0xCAFF",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0xCB00",
+      "end": "0xCB1A",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0xCB1B",
+      "end": "0xCB20",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0xCB21",
       "end": "0xCB51",
       "type": "code",
       "source": "auto"
     },
     {
       "start": "0xCB52",
-      "end": "0xCB8E",
+      "end": "0xCB54",
       "type": "data",
       "source": "auto"
     },
     {
-      "start": "0xCB8F",
+      "start": "0xCB55",
       "end": "0xCBA2",
       "type": "code",
       "source": "auto"
     },
     {
       "start": "0xCBA3",
-      "end": "0xCCA1",
+      "end": "0xCBA5",
       "type": "data",
       "source": "auto"
     },
     {
-      "start": "0xCCA2",
-      "end": "0xCD10",
+      "start": "0xCBA6",
+      "end": "0xCBC4",
       "type": "code",
       "source": "auto"
     },
     {
-      "start": "0xCD11",
-      "end": "0xCF0A",
+      "start": "0xCBC5",
+      "end": "0xCBD2",
       "type": "data",
       "source": "auto"
     },
     {
-      "start": "0xCF0B",
-      "end": "0xCF4E",
+      "start": "0xCBD3",
+      "end": "0xCC8E",
       "type": "code",
       "source": "auto"
     },
     {
-      "start": "0xCF4F",
+      "start": "0xCC8F",
+      "end": "0xCC8F",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0xCC90",
+      "end": "0xCDD9",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0xCDDA",
+      "end": "0xCDDC",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0xCDDD",
+      "end": "0xCEDB",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0xCEDC",
+      "end": "0xCEF1",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0xCEF2",
+      "end": "0xCF68",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0xCF69",
       "end": "0xE096",
       "type": "data",
       "source": "auto"
