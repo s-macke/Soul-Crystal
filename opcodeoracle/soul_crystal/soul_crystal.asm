@@ -1,0 +1,17282 @@
+; ============================================================
+; AUTO-GENERATED FILE - DO NOT EDIT
+; ============================================================
+; Generated: 2026-03-20T20:04:11Z
+; Source:    ../data/tests/nachcodeabfrage.vsf
+; ============================================================
+
+         .ORG $0000
+
+; === DATA SECTION ===
+
+; xref: write from $12BF
+; xref: write from $12CC
+; xref: read from $AA1C
+; xref: write from $AA1E
+; xref: read from $AA25 (L_AA25)
+; xref: write from $AA25 (L_AA25)
+$0000                   .BYTE $2F                                                              ; "/"
+; xref: write from $0C47
+; xref: write from $10D9
+; xref: write from $12C4
+; xref: write from $12D1
+; xref: write from $191E
+; xref: write from $9846
+; xref: read from $99B2
+; xref: write from $99BB
+; xref: write from $99DB
+; xref: write from $99FD
+; xref: read from $9A04
+; xref: write from $9A0D
+; xref: write from $A053
+; xref: write from $A064
+; xref: write from $A854
+; xref: write from $A884
+; xref: write from $A890
+; xref: write from $A8C2
+; xref: write from $A8EA
+; xref: write from $A915
+; xref: write from $A9BB
+; xref: write from $A9C8
+; xref: read from $AA22
+; xref: write from $AA22
+; xref: read from $AA29
+; xref: write from $AA29
+; xref: write from $ADFC
+; xref: write from $AE0A
+$0001                   .BYTE $98                                                              ; "."
+; xref: read from $98AF
+; xref: write from $98AF
+; xref: read from $9928
+; xref: write from $9928
+; xref: read from $A5EC
+; xref: write from $A5EC
+; xref: read from $A62F
+; xref: write from $A62F
+$0002                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00          ; ".............."
+; xref: write from $126A
+$0010                   .BYTE $F0                                                              ; "."
+; xref: write from $126F
+$0011                   .BYTE $74,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00      ; "t.............."
+; xref: read from $9760 (ENTRY_9760)
+; xref: read from $9763
+$0020                   .BYTE $00,$00                                                          ; ".."
+; xref: write from $1922 (SUB_1922)
+; xref: write from $1A72 (ENTRY_1A72)
+; xref: write from $1AA0
+$0022                   .BYTE $FB                                                              ; "."
+; xref: write from $1924
+; xref: write from $1A74
+; xref: write from $1AA2
+$0023                   .BYTE $70,$00,$00,$40,$01,$68,$00,$00,$00,$00,$00,$00,$00              ; "p..@.h......."
+$0030                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00                              ; "........."
+; xref: write from $0B33
+; xref: write from $1812
+$0039                   .BYTE $FF                                                              ; "."
+; xref: write from $0B35
+; xref: write from $1814
+$003A                   .BYTE $FF                                                              ; "."
+; xref: read from $120D
+; xref: read from $13ED
+; xref: read from $19C5
+; xref: write from $2632
+; xref: write from $2649
+; xref: write from $2660
+; xref: write from $2677
+; xref: write from $268E
+; xref: write from $26A5
+; xref: write from $26BC
+; xref: write from $26D3
+; xref: write from $26EA
+; xref: write from $2708
+; xref: write from $272A
+; xref: write from $2933
+; xref: write from $3C43
+; xref: write from $529D
+$003B                   .BYTE $8F                                                              ; "."
+; xref: read from $120F
+; xref: read from $13EF
+; xref: read from $19C9
+; xref: write from $2639
+; xref: write from $2650
+; xref: write from $2667
+; xref: write from $267E
+; xref: write from $2695
+; xref: write from $26AC
+; xref: write from $26C3
+; xref: write from $26DA
+; xref: write from $26F1
+; xref: write from $270D
+; xref: write from $272F
+; xref: write from $2938
+; xref: write from $3C4A
+; xref: write from $52A4
+$003C                   .BYTE $70,$00,$00,$00                                                  ; "p..."
+$0040                   .BYTE $00                                                              ; "."
+; xref: write from $0B22
+; xref: write from $0C4E
+; xref: write from $0C81
+; xref: write from $0C8E
+; xref: write from $0CDC
+; xref: write from $0D38
+; xref: write from $0D50
+; xref: write from $0E12
+; xref: write from $0F85
+; xref: write from $0F92
+; xref: read from $10A4
+; xref: read from $1387
+$0041                   .BYTE $CD                                                              ; "."
+; xref: write from $0B25
+; xref: write from $0CDF
+; xref: write from $0D58
+; xref: write from $0E15
+; xref: read from $10A9
+; xref: write from $10B3 (SUB_10B3)
+; xref: write from $1184 (SUB_1184)
+; xref: write from $11A9 (SUB_11A9)
+; xref: write from $1362 (SUB_1362)
+; xref: read from $138C
+; xref: write from $13B0 (SUB_13B0)
+; xref: write from $170E (SUB_170E)
+; xref: write from $1AC8 (ENTRY_1AC8)
+$0042                   .BYTE $42                                                              ; "B"
+; xref: write from $0D6C
+; xref: write from $1488
+; xref: read from $1492 (L_1492)
+; xref: write from $2742
+$0043                   .BYTE $92                                                              ; "."
+; xref: write from $0D71
+; xref: write from $148D
+; xref: read from $1499
+; xref: write from $2747
+$0044                   .BYTE $69                                                              ; "i"
+; xref: write from $0D62
+; xref: read from $0DB0
+; xref: write from $10A1 (L_10A1)
+; xref: read from $10A6
+; xref: write from $12B9
+; xref: read from $12C6
+; xref: write from $19BA
+; xref: read from $19ED
+; xref: read from $E0A2
+$0045                   .BYTE $03,$00,$02                                                      ; "..."
+; xref: read from $474A
+; xref: write from $474A
+$0048                   .BYTE $02                                                              ; "."
+; xref: read from $47BE
+; xref: write from $47BE
+$0049                   .BYTE $00,$00,$00,$00,$00                                              ; "....."
+; xref: write from $2D3E
+; xref: write from $2D89
+; xref: write from $3199
+; xref: write from $4FB7
+; xref: write from $4FCD
+$004E                   .BYTE $06                                                              ; "."
+; xref: write from $2D43
+; xref: write from $2D90
+; xref: write from $4FBE
+; xref: write from $4FD4
+$004F                   .BYTE $96                                                              ; "."
+$0050                   .BYTE $00,$00,$00,$00,$00,$00,$00                                      ; "......."
+; xref: write from $0B1F (L_0B1F)
+; xref: read from $0B2A
+; xref: write from $0BC4
+; xref: write from $0CB9
+; xref: write from $0DCC
+; xref: write from $0E27
+; xref: read from $0E42
+; xref: write from $0E46
+; xref: read from $0E6E (L_0E6E)
+; xref: write from $10B9
+; xref: write from $118A
+; xref: write from $122B (SUB_122B)
+; xref: read from $1230 (L_1230)
+; xref: write from $1245 (L_1245)
+; xref: read from $124D
+; xref: write from $1262
+; xref: write from $12B2
+; xref: write from $12FF
+; xref: write from $1714
+; xref: write from $17D3
+; xref: read from $184E
+; xref: write from $1951
+; xref: read from $1974
+; xref: read from $1980
+; xref: write from $1980
+; xref: read from $198A
+; xref: read from $198F
+; xref: write from $198F
+; xref: read from $199D
+; xref: write from $1A4A
+; xref: write from $1A5C
+; xref: write from $1D74
+; xref: write from $2118
+; xref: write from $2137
+; xref: write from $2156
+; xref: write from $2175
+; xref: write from $2194
+; xref: write from $21B3
+; xref: write from $21D2
+; xref: write from $21F1
+; xref: write from $2210
+; xref: write from $2236
+; xref: write from $225B
+; xref: write from $2276
+; xref: write from $2986
+; xref: write from $2CDC
+; xref: write from $2D51
+; xref: write from $2D75
+; xref: write from $2F53
+$0057                   .BYTE $00                                                              ; "."
+; xref: write from $0BBC
+; xref: read from $0BCF
+; xref: write from $0BCF
+; xref: read from $0BD3 (L_0BD3)
+; xref: write from $0CC0
+; xref: write from $0DC7
+; xref: write from $0E2C
+; xref: read from $0E4A
+; xref: write from $0E4A
+; xref: read from $0E73
+; xref: write from $10BE
+; xref: write from $118F
+; xref: write from $1247
+; xref: write from $12B7
+; xref: write from $1304
+; xref: write from $1719
+; xref: write from $17D8
+; xref: write from $1972
+; xref: read from $1991 (L_1991)
+; xref: write from $1A50
+; xref: write from $1A62
+; xref: write from $1D79
+; xref: write from $211F
+; xref: write from $213E
+; xref: write from $215D
+; xref: write from $217C
+; xref: write from $219B
+; xref: write from $21BA
+; xref: write from $21D9
+; xref: write from $21F8
+; xref: write from $2217
+; xref: write from $223B
+; xref: write from $2260
+; xref: write from $227B
+; xref: write from $298B
+; xref: write from $2CE1
+; xref: write from $2D56
+; xref: write from $2D7A
+; xref: write from $2F5A
+$0058                   .BYTE $6D                                                              ; "m"
+; xref: write from $0BB2
+; xref: read from $0BC6 (L_0BC6)
+; xref: write from $0D55
+; xref: read from $0D82
+; xref: read from $0DA5
+; xref: write from $145F
+; xref: write from $17AA
+; xref: read from $17E0
+; xref: write from $17E4
+; xref: read from $1823
+; xref: write from $1827
+; xref: read from $183F
+; xref: read from $1859 (L_1859)
+$0059                   .BYTE $3F                                                              ; "?"
+; xref: write from $0BB7
+; xref: read from $0BD5
+; xref: write from $0D5C
+; xref: read from $0D7F (L_0D7F)
+; xref: read from $0DA2
+; xref: write from $1466
+; xref: write from $17B1
+; xref: read from $17E8
+; xref: write from $17E8
+; xref: read from $182B
+; xref: write from $182B
+; xref: read from $1844
+; xref: read from $185E
+; xref: write from $1AE3
+; xref: read from $1B1E
+$005A                   .BYTE $44                                                              ; "D"
+; xref: write from $0DAA
+; xref: read from $0DE4
+; xref: write from $143A
+; xref: read from $145B
+; xref: read from $146A
+; xref: write from $17AC
+; xref: read from $17B8
+; xref: read from $17C5
+; xref: write from $17C9
+; xref: read from $17FE
+; xref: write from $1802
+; xref: read from $180E
+; xref: read from $184C
+; xref: write from $1850
+; xref: write from $1AE7
+; xref: read from $1B22
+$005B                   .BYTE $92                                                              ; "."
+; xref: write from $0DAD
+; xref: read from $0DE1 (L_0DE1)
+; xref: write from $17B3
+; xref: read from $17BD
+; xref: read from $17CD
+; xref: write from $17CD
+; xref: read from $17FB
+; xref: read from $1806
+; xref: write from $1806
+; xref: read from $181C
+; xref: read from $1854
+; xref: write from $1854
+; xref: write from $1AF3
+$005C                   .BYTE $00                                                              ; "."
+; xref: write from $17F9
+; xref: read from $1800
+; xref: read from $1810
+; xref: read from $1825
+; xref: read from $182D (L_182D)
+; xref: write from $1AF5
+$005D                   .BYTE $07                                                              ; "."
+; xref: write from $17A5 (SUB_17A5)
+; xref: read from $1867
+; xref: read from $188B
+$005E                   .BYTE $00,$00                                                          ; ".."
+$0060                   .BYTE $00                                                              ; "."
+; xref: read from $10F9
+; xref: write from $140E
+; xref: write from $1942
+; xref: write from $19FF
+; xref: read from $1A46
+; xref: read from $1A9A
+; xref: read from $1AC1
+; xref: write from $60DF
+$0061                   .BYTE $F3                                                              ; "."
+; xref: write from $0C5D
+; xref: read from $10F3
+; xref: write from $1413
+; xref: write from $193D
+; xref: write from $1A08
+; xref: read from $1A4C
+; xref: read from $1ABC
+$0062                   .BYTE $5E                                                              ; "^"
+; xref: write from $0C5B
+; xref: read from $10EB
+; xref: write from $1934
+; xref: write from $1A03
+; xref: read from $1A58
+; xref: read from $1AB3
+$0063                   .BYTE $4A                                                              ; "J"
+; xref: read from $10E6
+; xref: write from $192F
+; xref: write from $1A0C
+; xref: read from $1A5E
+; xref: read from $1AAE
+$0064                   .BYTE $69                                                              ; "i"
+; xref: read from $0C95
+; xref: read from $0CA3
+; xref: read from $0CB7
+; xref: read from $10E1
+; xref: write from $1409
+; xref: write from $192A
+; xref: write from $19F6
+; xref: read from $1A48
+; xref: read from $1A52
+; xref: read from $1AA9
+$0065                   .BYTE $00                                                              ; "."
+; xref: read from $0C97
+; xref: read from $0CC2
+; xref: read from $10EF
+; xref: write from $1939
+; xref: write from $19FA
+; xref: read from $1A5A
+; xref: read from $1A64
+; xref: read from $1A8B
+; xref: read from $1AB8
+$0066                   .BYTE $01,$00                                                          ; ".."
+; xref: read from $612F
+$0068                   .BYTE $00                                                              ; "."
+; xref: write from $11BD
+; xref: write from $11D6
+; xref: write from $1201
+; xref: read from $1289
+; xref: write from $1A98
+$0069                   .BYTE $47                                                              ; "G"
+; xref: write from $11C2
+; xref: write from $11DB
+; xref: write from $1203
+; xref: read from $128B
+; xref: write from $1A93
+$006A                   .BYTE $69                                                              ; "i"
+; xref: write from $1A84
+$006B                   .BYTE $27                                                              ; "'"
+; xref: write from $1A7F
+$006C                   .BYTE $00                                                              ; "."
+; xref: write from $11E1
+; xref: read from $11F3 (L_11F3)
+; xref: read from $1207
+; xref: write from $13D3
+; xref: read from $13E7
+; xref: write from $1A7A
+$006D                   .BYTE $00                                                              ; "."
+; xref: read from $10B0
+; xref: write from $1A89
+; xref: read from $1A8F
+$006E                   .BYTE $20                                                              ; " "
+; xref: write from $1A8D
+$006F                   .BYTE $00                                                              ; "."
+; xref: write from $1944
+; xref: write from $1AC5
+$0070                   .BYTE $02,$00,$00,$00,$00,$00,$00,$00,$00                              ; "........."
+
+; === SUBROUTINE: SUB_0079 ===
+
+$0079 SUB_0079:                       ; xref: call from $1B12
+    BRK
+
+; === DATA SECTION ===
+
+; xref: read from $1AE1
+; xref: write from $1AEC
+; xref: read from $1B18
+; xref: write from $1B20
+$007A                   .BYTE $00                                                              ; "."
+; xref: read from $1AE5
+; xref: write from $1AF1
+; xref: write from $1B24
+$007B                   .BYTE $00,$00,$00,$00,$00                                              ; "....."
+$0080                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$7C,$00,$02,$D0,$00  ; "...........|...."
+$0090                   .BYTE $00,$FF,$00,$00,$00,$00,$00,$00,$00,$00,$03,$00,$00              ; "............."
+; xref: write from $0BF3
+$009D                   .BYTE $00,$00,$00                                                      ; "..."
+$00A0                   .BYTE $00,$00,$03,$00,$00,$00                                          ; "......"
+; xref: read from $E0A4
+; xref: write from $E0A4
+$00A6                   .BYTE $00                                                              ; "."
+; xref: read from $0C57
+; xref: write from $10C4
+; xref: write from $1195
+; xref: write from $11B7
+; xref: write from $11CC
+; xref: write from $11EF
+; xref: read from $1280 (SUB_1280)
+; xref: write from $13BE
+; xref: write from $13C8
+; xref: write from $13E3
+; xref: write from $1720 (SUB_1720)
+; xref: read from $1956
+; xref: write from $1967
+; xref: read from $1999
+; xref: write from $1ACE
+$00A7                   .BYTE $F0                                                              ; "."
+; xref: read from $0C59
+; xref: write from $10C9
+; xref: write from $119A
+; xref: write from $11B1
+; xref: write from $11D1
+; xref: write from $11F1
+; xref: read from $1282
+; xref: write from $13B8
+; xref: write from $13CD
+; xref: write from $13E1
+; xref: write from $1724
+; xref: read from $195D
+; xref: write from $1964
+; xref: write from $1AD3
+$00A8                   .BYTE $5E                                                              ; "^"
+; xref: write from $10CF
+; xref: write from $1211
+; xref: write from $121C
+; xref: read from $1273
+; xref: write from $13F1
+; xref: write from $13FC
+; xref: read from $141A
+; xref: write from $19B6
+; xref: write from $19C7
+; xref: write from $1AD8
+$00A9                   .BYTE $5C                                                              ; "\"
+; xref: write from $10D4
+; xref: write from $1213
+; xref: write from $1221
+; xref: read from $1278
+; xref: write from $13F3
+; xref: write from $1401
+; xref: read from $1416 (SUB_1416)
+; xref: write from $19BE
+; xref: write from $19CB
+; xref: write from $1ADD
+; xref: write from $E0A6
+$00AA                   .BYTE $69                                                              ; "i"
+; xref: read from $0D4A
+; xref: write from $0D66
+; xref: read from $0D9C
+; xref: write from $1223 (L_1223)
+; xref: read from $12A5 (L_12A5)
+; xref: write from $1403 (L_1403)
+; xref: read from $147C
+; xref: write from $1483
+$00AB                   .BYTE $04                                                              ; "."
+; xref: read from $CCF6
+; xref: write from $CCF6
+; xref: read from $CD04
+; xref: write from $CD04
+; xref: read from $CD0C
+$00AC                   .BYTE $FF,$74,$BB,$00                                                  ; ".t.."
+$00B0                   .BYTE $00,$00,$00,$00,$00,$00                                          ; "......"
+; xref: write from $127D
+; xref: read from $1294
+; xref: read from $19D9
+$00B6                   .BYTE $01,$00,$00,$00,$00,$00,$00,$00,$00,$00                          ; ".........."
+$00C0                   .BYTE $00,$00,$00,$30,$FD,$40                                          ; "...0.@"
+; xref: write from $53A2
+; xref: write from $9A6A
+; xref: read from $9C04
+; xref: read from $9C14
+; xref: read from $9C18
+; xref: write from $9C18
+$00C6                   .BYTE $01,$00,$00,$00,$00,$40,$0C,$0C,$00,$00                          ; ".....@...."
+$00D0                   .BYTE $00,$00,$04,$00,$00,$27,$00,$00,$00,$84,$84,$84,$84,$84,$84,$84  ; ".....'.........."
+$00E0                   .BYTE $85,$85,$85,$85,$85,$85,$86,$86,$86,$86,$86,$86,$86,$87,$87,$87  ; "................"
+$00F0                   .BYTE $87,$87,$87,$00,$D8,$C2,$EB                                      ; "......."
+; xref: write from $9DFF
+; xref: write from $9F90
+; xref: write from $A09D
+; xref: write from $A0AE
+; xref: write from $A0BD
+; xref: read from $A56A (SUB_A56A)
+; xref: write from $A5FA
+; xref: write from $A782
+; xref: read from $A806
+; xref: write from $A80A
+; xref: write from $A930
+; xref: write from $AD92
+; xref: read from $ADB8
+; xref: write from $ADBA
+; xref: read from $AE0F (L_AE0F)
+; xref: write from $AE14
+$00F7                   .BYTE $D2                                                              ; "."
+; xref: write from $9E06
+; xref: write from $9F95
+; xref: write from $A0A2
+; xref: write from $A0B3
+; xref: write from $A0C2
+; xref: read from $A56F
+; xref: write from $A602
+; xref: write from $A786
+; xref: read from $A80C
+; xref: write from $A810
+; xref: write from $A934
+; xref: write from $AD97
+; xref: read from $ADBE
+; xref: write from $ADBE
+; xref: read from $AE18
+; xref: write from $AE18
+$00F8                   .BYTE $F8                                                              ; "."
+; xref: read from $A574
+; xref: write from $A608
+; xref: write from $A78A
+; xref: read from $A813
+; xref: write from $A817
+; xref: write from $A940
+; xref: write from $AD7F
+; xref: read from $ADA0
+; xref: write from $ADA2
+$00F9                   .BYTE $AB                                                              ; "."
+; xref: read from $A57C
+; xref: write from $A60E
+; xref: write from $A78E
+; xref: read from $A819
+; xref: write from $A81D
+; xref: write from $A944
+; xref: write from $AD89
+; xref: read from $ADA6
+; xref: write from $ADA6
+$00FA                   .BYTE $FE                                                              ; "."
+; xref: write from $A61E
+; xref: write from $A792
+; xref: read from $A820
+; xref: write from $A824
+; xref: write from $A938
+; xref: write from $AD84
+; xref: read from $ADAB
+; xref: write from $ADAD
+$00FB                   .BYTE $AB                                                              ; "."
+; xref: write from $A624
+; xref: write from $A796
+; xref: read from $A826
+; xref: write from $A82A
+; xref: write from $A93C
+; xref: write from $AD8D
+; xref: read from $ADB1
+; xref: write from $ADB1
+$00FC                   .BYTE $DA                                                              ; "."
+; xref: write from $9FA4
+; xref: write from $A613
+; xref: write from $A7D4
+; xref: read from $A7ED
+; xref: write from $A7F2
+; xref: write from $A97C (L_A97C)
+; xref: write from $AD65
+; xref: read from $ADC6
+; xref: write from $ADC8
+$00FD                   .BYTE $12                                                              ; "."
+; xref: write from $9FAB
+; xref: write from $A618
+; xref: write from $A7CA
+; xref: read from $A7CF
+; xref: write from $A7CF
+; xref: read from $A7D6
+; xref: write from $A7DA
+; xref: read from $A7F6
+; xref: write from $A7F6
+; xref: write from $A950
+; xref: read from $A95F
+; xref: write from $A95F
+; xref: read from $A962
+; xref: write from $A962
+; xref: read from $A965
+; xref: write from $A965
+; xref: read from $A967
+; xref: write from $A97E
+; xref: write from $AD6A
+; xref: read from $ADCC
+; xref: write from $ADCE
+$00FE                   .BYTE $FA                                                              ; "."
+; xref: read from $E097 (SUB_E097)
+; xref: read from $E09F
+$00FF                   .BYTE $00                                                              ; "."
+; xref: write from $1947 (L_1947)
+; xref: write from $197D
+; xref: write from $198C
+; xref: write from $199F
+; xref: write from $19A5
+; xref: read from $19D0
+; xref: read from $19DE (L_19DE)
+$0100                   .BYTE $00,$00,$00                                                      ; "..."
+; xref: read from $1475 (L_1475)
+$0103                   .BYTE $00                                                              ; "."
+; xref: read from $1480
+; xref: read from $9854
+$0104                   .BYTE $00                                                              ; "."
+; xref: read from $1485
+; xref: read from $1494
+$0105                   .BYTE $00                                                              ; "."
+; xref: read from $148A
+; xref: read from $149B
+$0106                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00                          ; ".........."
+$0110                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0120                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0130                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0140                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0150                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0160                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0170                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0180                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0190                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$01A0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$01B0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$01C0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$47,$34,$AB,$99  ; "............G4.."
+$01D0                   .BYTE $70,$FB,$47,$36,$27,$34,$47,$34,$AB,$99,$47,$34,$AB,$99,$00,$00  ; "p.G6'4G4..G4...."
+$01E0                   .BYTE $10,$22,$3F,$A4,$36,$A1,$5E,$9B,$D1,$9A,$59,$96,$E7,$12,$EA,$0C  ; "."?.6.^...Y....."
+$01F0                   .BYTE $9E,$38,$36,$A1,$5E,$9B,$D1,$9A,$59,$96,$E7,$12,$EA,$0C,$9E,$38  ; ".86.^...Y......8"
+$0200                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0210                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0220                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0230                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0240                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0250                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0260                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0270                   .BYTE $00,$00,$00,$00,$00,$00,$00                                      ; "......."
+; xref: read from $9C08
+; xref: write from $9C10
+$0277                   .BYTE $9D                                                              ; "."
+; xref: read from $9C0D (L_9C0D)
+$0278                   .BYTE $0D,$00,$00,$00,$00,$00,$00,$00                                  ; "........"
+$0280                   .BYTE $00,$00,$08,$00,$00,$00,$0E,$00,$04,$0A,$FF,$04,$0E,$00,$00,$48  ; "...............H"
+$0290                   .BYTE $EB                                                              ; "."
+; xref: write from $AF17
+$0291                   .BYTE $80,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00      ; "..............."
+$02A0                   .BYTE $00,$00,$00,$00,$00,$00,$01,$00,$00                              ; "........."
+; xref: read from $A9F7
+$02A9                   .BYTE $00,$00,$00,$00,$00,$00,$00                                      ; "......."
+$02B0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$02C0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$02D0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$02E0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$02F0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+; xref: write from $0BDC
+; xref: write from $1085
+$0300                   .BYTE $0A                                                              ; "."
+; xref: write from $0BE2
+; xref: write from $1080
+$0301                   .BYTE $0C,$0C,$20,$A0,$02,$20,$DA                                      ; ".. .. ."
+; xref: read from $0BE5
+; xref: write from $1095
+$0308                   .BYTE $02                                                              ; "."
+; xref: read from $0BEB
+; xref: write from $109B
+$0309                   .BYTE $A9                                                              ; "."
+; xref: write from $108F
+$030A                   .BYTE $20                                                              ; " "
+; xref: write from $108A
+$030B                   .BYTE $8D                                                              ; "."
+; xref: read from $12DB
+; xref: write from $12E8
+; xref: write from $4035
+$030C                   .BYTE $00                                                              ; "."
+; xref: read from $12DE
+; xref: write from $12EB
+; xref: write from $4052
+$030D                   .BYTE $00                                                              ; "."
+; xref: read from $12E1
+; xref: write from $12EE
+; xref: write from $4057
+$030E                   .BYTE $00                                                              ; "."
+; xref: read from $12D7
+; xref: write from $12F3
+$030F                   .BYTE $72                                                              ; "r"
+$0310                   .BYTE $B1,$A1,$85,$A0                                                  ; "...."
+; xref: write from $98B3
+; xref: write from $AEF3
+$0314                   .BYTE $79                                                              ; "y"
+; xref: write from $98B8
+; xref: write from $AEF8
+$0315                   .BYTE $98                                                              ; "."
+; xref: write from $AEE9
+$0316                   .BYTE $61                                                              ; "a"
+; xref: write from $AEEE
+$0317                   .BYTE $98,$47,$FE,$4A,$F3,$91,$F2,$0E,$F2                              ; ".G.J....."
+$0320                   .BYTE $50,$F2,$33,$F3,$57,$F1,$CA,$F1,$ED,$F6,$3E,$F1,$2F,$F3,$66,$FE  ; "P.3.W.....>./.f."
+$0330                   .BYTE $A5,$F4,$ED,$F5,$A0,$00,$B1,$2D,$C9,$31,$D0,$49,$C8,$B1,$2D,$F0  ; ".......-.1.I..-."
+$0340                   .BYTE $24,$AA,$C8,$B1,$2D,$48,$8A,$A8,$68,$88,$91,$AE,$D0,$FB,$A9,$03  ; "$...-H..h......."
+$0350                   .BYTE $18,$65,$2D,$85,$2D,$90,$02,$E6,$2E,$8A,$18,$65,$AE,$85,$AE,$90  ; ".e-.-......e...."
+$0360                   .BYTE $D3,$E6,$AF,$D0,$CF,$C8,$B1,$2D,$AA,$C8,$11,$2D,$F0,$27,$86,$AE  ; ".......-...-.'.."
+$0370                   .BYTE $B1,$2D,$85,$AF,$C8,$B1,$2D,$85,$01,$C8,$B1,$2D,$8D,$39,$03,$A9  ; ".-....-....-.9.."
+$0380                   .BYTE $06,$A2,$00,$F0,$CB,$91,$AE,$E6,$2D,$D0,$02,$E6,$2E,$E6,$AE,$D0  ; "........-......."
+$0390                   .BYTE $A5,$E6,$AF,$D0,$A1,$A9,$37,$85,$01,$A9,$FF,$85,$2D,$A9,$FF,$85  ; "......7.....-..."
+$03A0                   .BYTE $2E,$58,$4C,$80,$20,$20,$33,$A5,$4C,$AE,$A7,$BE,$02,$20,$C2,$03  ; ".XL.  3.L.... .."
+$03B0                   .BYTE $98,$18,$65,$A1,$85,$A1,$90,$02,$E6,$A2,$20,$39,$04,$D0,$E0,$4C  ; "..e....... 9...L"
+$03C0                   .BYTE $11,$04,$A0,$00,$A9,$04,$8D,$7F,$04,$AE,$83,$04,$AD,$00,$DD,$8E  ; "................"
+$03D0                   .BYTE $00,$DD,$0A,$6E,$A0,$00,$EA,$AE,$84,$04,$AD,$00,$DD,$8E,$00,$DD  ; "...n............"
+$03E0                   .BYTE $0A,$6E,$A0,$00,$CE,$7F,$04,$D0,$E0,$A5,$A0,$91,$A1,$C8,$C0,$FE  ; ".n.............."
+$03F0                   .BYTE $D0,$D2,$60,$8D,$FE,$03,$20,$11,$04,$AD,$FE,$03,$38,$60,$00,$A9  ; "..`... .....8`.."
+$0400                   .BYTE $01,$09,$00,$01,$09,$10,$01,$09,$1F,$01,$09,$2E,$01,$09,$3D,$01  ; "..............=."
+$0410                   .BYTE $09,$4D,$01,$09,$5D,$01,$09,$6A,$01,$09,$7D,$01,$09,$8C,$01,$09  ; ".M..]..j..}....."
+$0420                   .BYTE $96,$01,$09,$A0,$01,$09,$B2,$01,$09,$C5,$01,$09,$D1,$01,$09,$E3  ; "................"
+$0430                   .BYTE $01,$09,$F9,$01,$0A,$0D,$01,$0A,$1D,$01,$0A,$2D,$01,$0A,$3F,$01  ; "...........-..?."
+$0440                   .BYTE $0A,$4F,$01,$0A,$61,$01,$0A,$74,$01,$0A,$84,$01,$0A,$93,$01,$0A  ; ".O..a..t........"
+$0450                   .BYTE $AB,$01,$0A,$C3,$01,$0A,$D2,$01,$0A,$E2,$01,$0A,$F8,$01,$0B,$0D  ; "................"
+$0460                   .BYTE $01,$0B,$1D,$01,$0B,$34,$01,$0B,$48,$01,$0B,$58,$01,$0B,$6E,$01  ; ".....4..H..X..n."
+$0470                   .BYTE $0B,$82,$01,$0B,$93,$01,$0B,$A9,$01,$0B,$BC,$01,$0B,$CD,$01,$0B  ; "................"
+$0480                   .BYTE $DD,$01,$0B,$EE,$01,$0C,$01,$01,$0C,$13,$01,$0C,$26,$01,$0C,$3D  ; "............&..="
+$0490                   .BYTE $01,$0C,$51,$01,$0C,$66,$01,$0C,$7F,$01,$0C,$95,$01,$0C,$AB,$01  ; "..Q..f.........."
+$04A0                   .BYTE $0C,$B8,$01,$0C,$CF,$01,$0C,$DD,$01,$0C,$EB,$01,$0D,$02,$01,$0D  ; "................"
+$04B0                   .BYTE $17,$01,$0D,$29,$01,$0D,$3F,$01,$0D,$4B,$01,$0D,$57,$01,$0D,$6B  ; "...)..?..K..W..k"
+$04C0                   .BYTE $01,$0D,$79,$01,$0D,$8B,$01,$0D,$9C,$01,$0D,$AD,$01,$0D,$BC,$01  ; "..y............."
+$04D0                   .BYTE $0D,$CF,$01,$0D,$E3,$01,$0D,$F6,$01,$0E,$06,$01,$0E,$19,$01,$0E  ; "................"
+$04E0                   .BYTE $28,$01,$0E,$38,$01,$0E,$50,$01,$0E,$66,$01,$0E,$7B,$01,$0E,$8D  ; "(..8..P..f..{..."
+$04F0                   .BYTE $01,$0E,$A6,$01,$0E,$BE,$01,$0E,$D2,$01,$0E,$E4,$01,$0E,$F7,$01  ; "................"
+$0500                   .BYTE $0F,$06,$01,$0F,$16,$01,$0F,$2F,$01,$0F,$45,$01,$0F,$5D,$01,$0F  ; "......./..E..].."
+$0510                   .BYTE $72,$01,$0F,$83,$01,$0F,$99,$01,$0F,$AD,$01,$0F,$C5,$01,$0F,$DB  ; "r..............."
+$0520                   .BYTE $01,$0F,$F4,$01,$10,$07,$01,$10,$1A,$01,$10,$31,$01,$10,$4A,$01  ; "...........1..J."
+$0530                   .BYTE $10,$61,$01,$10,$74,$01,$10,$85,$01,$10,$8D,$01,$10,$95,$01,$10  ; ".a..t..........."
+$0540                   .BYTE $FE,$01,$11,$06,$01,$11,$46,$01,$11,$58,$01,$11,$7A,$01,$11,$82  ; "......F..X..z..."
+$0550                   .BYTE $01,$11,$95,$01,$11,$BE,$01,$11,$F4,$01,$11,$FC,$01,$12,$15,$01  ; "................"
+$0560                   .BYTE $12,$3F,$01,$12,$5D,$01,$12,$96,$01,$12,$B6,$01,$12,$F0,$01,$13  ; ".?..]..........."
+$0570                   .BYTE $01,$01,$13,$23,$01,$13,$61,$01,$13,$74,$01,$13,$A0,$01,$13,$B8  ; "...#..a..t......"
+$0580                   .BYTE $01,$14,$30,$01,$14,$9B,$02,$02,$0D,$02,$05,$13,$02,$05,$55,$02  ; "..0...........U."
+$0590                   .BYTE $05,$94,$02,$05,$C9,$02,$06,$01,$02,$07,$DE,$02,$07,$FE,$02,$08  ; "................"
+$05A0                   .BYTE $17,$02,$08,$8B,$02,$08,$DC,$02,$0A,$27,$02,$0B,$5F,$02,$0C,$4E  ; ".........'.._..N"
+$05B0                   .BYTE $02,$0D,$58,$02,$0D,$E9,$02,$0E,$5B,$02,$0E,$8B,$02,$0E,$B3,$02  ; "..X.....[......."
+$05C0                   .BYTE $0E,$EE,$02,$0F,$94,$02,$0F,$F7,$02,$10,$BB,$02,$11,$23,$02,$11  ; ".............#.."
+$05D0                   .BYTE $D0,$02,$11,$F0,$02,$13,$5B,$02,$13,$8C,$02,$13,$9C,$02,$13,$DE  ; "......[........."
+$05E0                   .BYTE $02,$13,$F5,$02,$14,$19,$02,$14,$3C,$02,$14,$D5,$03,$00,$25,$03  ; "........<.....%."
+$05F0                   .BYTE $00,$6A,$03,$00,$E1,$03,$01,$48,$03,$01,$D7,$03,$03,$C1,$03,$03  ; ".j.....H........"
+$0600                   .BYTE $DC,$03,$04,$2C,$03,$04,$BF,$03,$04,$DD,$03,$05,$2F,$03,$07,$48  ; "...,......../..H"
+$0610                   .BYTE $03,$07,$C6,$03,$08,$9A,$03,$09,$09,$03,$09,$44,$03,$0A,$8E,$03  ; "...........D...."
+$0620                   .BYTE $0A,$E5,$03,$0B,$98,$03,$0C,$25,$03,$0C,$82,$03,$10,$98,$03,$10  ; ".......%........"
+$0630                   .BYTE $D4,$03,$11,$04,$03,$11,$39,$03,$11,$49,$03,$11,$79,$03,$12,$13  ; "......9..I..y..."
+$0640                   .BYTE $03,$12,$43,$03,$12,$88,$03,$12,$A5,$03,$12,$B9,$03,$13,$1F,$04  ; "..C............."
+$0650                   .BYTE $00,$6C,$04,$00,$91,$04,$04,$2A,$04,$04,$4D,$04,$04,$D9,$04,$05  ; ".l.....*..M....."
+$0660                   .BYTE $06,$04,$05,$54,$04,$05,$D2,$04,$06,$2F,$04,$06,$95,$04,$06,$B0  ; "...T...../......"
+$0670                   .BYTE $04,$06,$CF,$04,$07,$17,$04,$07,$F0,$04,$08,$C0,$04,$09,$D3,$04  ; "................"
+$0680                   .BYTE $0B,$67,$04,$0D,$72,$04,$11,$A9,$04,$13,$8C,$04,$14,$EA,$05,$02  ; ".g..r..........."
+$0690                   .BYTE $78,$05,$03,$FB,$05,$06,$92,$05,$09,$6C,$05,$0A,$EA,$05,$0C,$76  ; "x........l.....v"
+$06A0                   .BYTE $05,$10,$72,$05,$11,$9F,$06,$00,$16,$06,$01,$B9,$06,$04,$E4,$06  ; "..r............."
+$06B0                   .BYTE $06,$13,$06,$07,$3F,$06,$09,$FC,$06,$0A,$48,$06,$0A,$FC,$06,$0B  ; "....?.....H....."
+$06C0                   .BYTE $90,$06,$0C,$24,$06,$0C,$82,$06,$0C,$ED,$06,$0D,$AF,$06,$0E,$68  ; "...$...........h"
+$06D0                   .BYTE $06,$0E,$DC,$06,$0F,$D1,$06,$10,$42,$06,$10,$F1,$06,$13,$7A,$07  ; "........B.....z."
+$06E0                   .BYTE $01,$F8,$07,$02,$80,$07,$04,$7A,$07,$05,$44,$07,$05,$FB,$07,$07  ; ".......z..D....."
+$06F0                   .BYTE $6B,$07,$08,$44,$07,$08,$56,$07,$08,$8F,$07,$09,$55,$07,$09,$C0  ; "k..D..V.....U..."
+$0700                   .BYTE $07,$09,$ED,$07,$0A,$2A,$07,$0A,$43,$07,$0A,$58,$07,$0A,$B0,$07  ; ".....*..C..X...."
+$0710                   .BYTE $0A,$DD,$07,$0B,$1C,$07,$0B,$39,$07,$0B,$5A,$07,$0B,$8F,$07,$0B  ; ".......9..Z....."
+$0720                   .BYTE $ED,$07,$0C,$20,$07,$0C,$5A,$07,$0C,$7E,$07,$0C,$A1,$07,$0C,$C7  ; "... ..Z..~......"
+$0730                   .BYTE $07,$0C,$F1,$07,$0D,$B1,$07,$0D,$D8,$07,$0D,$F4,$07,$0E,$12,$07  ; "................"
+$0740                   .BYTE $0E,$36,$07,$0E,$58,$07,$0E,$8A,$07,$0E,$A7,$07,$0E,$E9,$07,$0F  ; ".6..X..........."
+$0750                   .BYTE $1A,$07,$0F,$F5,$07,$10,$27,$07,$10,$97,$07,$10,$B6,$07,$10,$D0  ; "......'........."
+$0760                   .BYTE $07,$11,$4A,$07,$11,$E5,$07,$12,$61,$07,$13,$00,$08,$02,$E9,$08  ; "..J.....a......."
+$0770                   .BYTE $06,$E7,$08,$0D,$5A,$08,$13,$AB,$09,$03,$EC,$09,$0A,$7B,$09,$11  ; "....Z........{.."
+$0780                   .BYTE $0C,$0A,$02,$B6,$0A,$09,$42,$0A,$0F,$DC,$0B,$01,$0A,$0B,$07,$B8  ; "......B........."
+$0790                   .BYTE $0B,$0D,$77,$0B,$12,$09,$0C,$03,$8F,$0C,$0A,$13,$0C,$10,$BB,$0D  ; "..w............."
+$07A0                   .BYTE $01,$07,$0D,$07,$4A,$0D,$0D,$D8,$00,$00,$00,$00,$00,$00,$00,$00  ; "....J..........."
+$07B0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$07C0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$07D0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$07E0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$07F0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0800                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0810                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0820                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0830                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0840                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0850                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0860                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0870                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0880                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0890                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$08A0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$08B0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$08C0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$08D0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$08E0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$08F0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0900                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0910                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0920                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0930                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0940                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0950                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0960                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0970                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0980                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0990                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$09A0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$09B0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$09C0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$09D0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$09E0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$09F0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0A00                   .BYTE $4C,$EF,$1B,$A2,$B5,$B5,$01,$9D,$0D,$0A,$CA,$D0,$F8              ; "L............"
+; xref: read from $0C44 (L_0C44)
+$0A0D                   .BYTE $60,$00,$00                                                      ; "`.."
+$0A10                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0A20                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0A30                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0A40                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0A50                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0A60                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0A70                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0A80                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$0A90                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$FF,$00,$00  ; "................"
+$0AA0                   .BYTE $00,$00,$00,$00,$00,$00,$03,$00,$00,$00,$00,$00,$00,$00,$01,$00  ; "................"
+$0AB0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$FF,$3C,$6A,$00,$00,$00,$00,$00  ; ".........<j....."
+$0AC0                   .BYTE $00,$00,$00,$00,$00                                              ; "....."
+
+; === CODE SECTION ===
+
+$0AC5 L_0AC5:                         ; xref: jump from $1D6E
+    CMP #$01
+    BEQ $0AE8                         ; Branch to L_0AE8
+    CMP #$02
+    BEQ $0AF0                         ; Branch to L_0AF0
+    CMP #$03
+    BEQ $0B0E                         ; Branch to L_0B0E
+    CMP #$04
+    BEQ $0AFF                         ; Branch to L_0AFF
+    PLA
+    TAY
+    STA $0B1C
+    PLA
+    STA $0B1D
+    TSX
+    STX $0B1E
+    PHA
+    TYA
+    PHA
+    LDA #$00
+    RTS
+$0AE8 L_0AE8:                         ; xref: branch from $0AC7
+    JSR $107E                         ; Call SUB_107E
+    LDX $0B1E
+    TXS
+    RTS
+$0AF0 L_0AF0:                         ; xref: branch from $0ACB
+    LDX $0B1E
+    TXS
+    LDA $0B1D
+    PHA
+    LDA $0B1C
+    PHA
+    LDA #$00
+    RTS
+$0AFF L_0AFF:                         ; xref: branch from $0AD3
+    LDX $0B1E
+    TXS
+    LDA $0B1D
+    PHA
+    LDA $0B1C
+    PHA
+    LDA #$FF
+    RTS
+$0B0E L_0B0E:                         ; xref: branch from $0ACF
+    PLA
+    TAY
+    PLA
+    LDX $0B1E
+    TXS
+    PHA
+    TYA
+    PHA
+    CLC
+    JMP $0B1F                         ; Jump to L_0B1F
+
+; === DATA SECTION ===
+
+; xref: write from $0AD7
+; xref: read from $0AF8
+; xref: read from $0B07
+$0B1C                   .BYTE $F6                                                              ; "."
+; xref: write from $0ADB
+; xref: read from $0AF4
+; xref: read from $0B03
+$0B1D                   .BYTE $1B                                                              ; "."
+; xref: write from $0ADF
+; xref: read from $0AEB
+; xref: read from $0AF0 (L_0AF0)
+; xref: read from $0AFF (L_0AFF)
+; xref: read from $0B11
+$0B1E                   .BYTE $FF                                                              ; "."
+
+; === CODE SECTION ===
+
+$0B1F L_0B1F:                         ; xref: jump from $0B19
+    STA $57
+    PLA
+    STA $41
+    PLA
+    STA $42
+    PHP
+    BCC $0B8F                         ; Branch to L_0B8F
+    LDA $57
+    BEQ $0B31                         ; Branch to L_0B31
+    JMP $0BD9                         ; Jump to L_0BD9
+$0B31 L_0B31:                         ; xref: branch from $0B2C
+    LDA #$FF
+    STA $39
+    STA $3A
+    LDY #$01
+    LDA ($41),Y
+    STA $0C30
+    INY
+    LDA ($41),Y
+    STA $0C31
+    INY
+    LDA ($41),Y
+    STA $0C32
+    INY
+    LDA ($41),Y
+    STA $0C33
+    LDY #$09
+    LDA ($41),Y
+    STA $0C2E
+    INY
+    LDA ($41),Y
+    STA $0C2F
+    INY
+    INY
+    INY
+    LDA ($41),Y
+    STA $0C34
+    INY
+    LDA ($41),Y
+    STA $0C35
+    INY
+    LDA ($41),Y
+    STA $0C36
+    INY
+    LDA ($41),Y
+    STA $0C37
+    INY
+    LDA ($41),Y
+    STA $0C28
+    INY
+    LDA ($41),Y
+    STA $0C29
+    INY
+    LDA ($41),Y
+    STA $0C2C
+    INY
+    LDA ($41),Y
+    STA $0C2D
+$0B8F L_0B8F:                         ; xref: branch from $0B28
+    LDA $0C23
+    BEQ $0BA3                         ; Branch to L_0BA3
+    LDX $0C24
+    LDY $0C25
+    STX $0C2A
+    STY $0C2B
+    JMP $0BD9                         ; Jump to L_0BD9
+$0BA3 L_0BA3:                         ; xref: branch from $0B92
+    LDX $0C2C
+    LDY $0C2D
+    STX $0C2A
+    STY $0C2B
+    LDA $0C36
+    STA $59
+    LDA $0C37
+    STA $5A
+    LDA $0C35
+    STA $58
+    LDA $0C34
+    TAY
+    LDA #$00
+    STA $57
+$0BC6 L_0BC6:                         ; xref: branch from $0BCD
+                                      ; xref: branch from $0BD1
+    CPY $59
+    BEQ $0BD3                         ; Branch to L_0BD3
+$0BCA L_0BCA:                         ; xref: branch from $0BD7
+    STA ($57),Y
+    INY
+    BNE $0BC6                         ; Branch to L_0BC6
+    INC $58
+    BNE $0BC6                         ; Branch to L_0BC6
+$0BD3 L_0BD3:                         ; xref: branch from $0BC8
+    LDX $58
+    CPX $5A
+    BCC $0BCA                         ; Branch to L_0BCA
+$0BD9 L_0BD9:                         ; xref: jump from $0B2E
+                                      ; xref: jump from $0BA0
+    LDA $0C08
+    STA $0300
+    LDA $0C09
+    STA $0301
+    LDA $0308
+    STA $0C26
+    LDA $0309
+    STA $0C27
+    LDA #$00
+    STA $9D
+    STA $0C23
+    JSR $0CF0                         ; Call SUB_0CF0
+    PLP
+    BCS $0C02                         ; Branch to L_0C02
+    LDY #$00
+    BEQ $0C04                         ; Branch to L_0C04
+$0C02 L_0C02:                         ; xref: branch from $0BFC
+    LDY #$14
+$0C04 L_0C04:                         ; xref: branch from $0C00
+    JMP $10A1                         ; Jump to L_10A1
+
+; === DATA SECTION ===
+
+$0C07                   .BYTE $AD                                                              ; "."
+; xref: read from $0BD9 (L_0BD9)
+$0C08                   .BYTE $0A                                                              ; "."
+; xref: read from $0BDF
+$0C09                   .BYTE $0C,$8A,$48,$20,$7E,$10,$A5                                      ; "..H ~.."
+$0C10                   .BYTE $39,$48,$A5,$3A,$48,$20,$42,$0C,$68,$85,$3A,$68,$85,$39,$68,$AA  ; "9H.:H B.h.:h.9h."
+$0C20                   .BYTE $4C,$8B,$E3                                                      ; "L.."
+; xref: read from $0B8F (L_0B8F)
+; xref: write from $0BF5
+$0C23                   .BYTE $00                                                              ; "."
+; xref: read from $0B94
+$0C24                   .BYTE $00                                                              ; "."
+; xref: read from $0B97
+$0C25                   .BYTE $00                                                              ; "."
+; xref: write from $0BE8
+; xref: read from $1092
+$0C26                   .BYTE $02                                                              ; "."
+; xref: write from $0BEE
+; xref: read from $1098
+$0C27                   .BYTE $A9                                                              ; "."
+; xref: write from $0B7A
+; xref: read from $1259
+; xref: read from $144B
+; xref: read from $187E
+$0C28                   .BYTE $0A                                                              ; "."
+; xref: write from $0B80
+; xref: read from $1252 (L_1252)
+; xref: read from $1444
+; xref: read from $1877
+$0C29                   .BYTE $71                                                              ; "q"
+; xref: write from $0B9A
+; xref: write from $0BA9
+; xref: read from $0CB4
+; xref: read from $123A
+; xref: write from $1267 (L_1267)
+; xref: read from $1299
+; xref: read from $17B5 (L_17B5)
+; xref: write from $185B
+; xref: read from $1864
+$0C2A                   .BYTE $F1                                                              ; "."
+; xref: write from $0B9D
+; xref: write from $0BAC
+; xref: read from $0CBB
+; xref: read from $123F
+; xref: write from $126C
+; xref: read from $129F
+; xref: read from $17BA
+; xref: write from $1860
+; xref: read from $186A
+$0C2B                   .BYTE $75                                                              ; "u"
+; xref: write from $0B86
+; xref: read from $0BA3 (L_0BA3)
+; xref: read from $1450 (L_1450)
+; xref: read from $17A7
+$0C2C                   .BYTE $00                                                              ; "."
+; xref: write from $0B8C
+; xref: read from $0BA6
+; xref: read from $1453
+; xref: read from $17AE
+$0C2D                   .BYTE $76                                                              ; "v"
+; xref: write from $0B54
+; xref: read from $0CF0 (SUB_0CF0)
+; xref: read from $0E24
+$0C2E                   .BYTE $82                                                              ; "."
+; xref: write from $0B5A
+; xref: read from $0CF6
+; xref: read from $0E29
+$0C2F                   .BYTE $1B                                                              ; "."
+; xref: write from $0B3B
+; xref: read from $1A2F
+$0C30                   .BYTE $EF                                                              ; "."
+; xref: write from $0B41
+; xref: read from $1A28 (L_1A28)
+$0C31                   .BYTE $1B                                                              ; "."
+; xref: write from $0B47
+; xref: read from $1A3B
+$0C32                   .BYTE $56                                                              ; "V"
+; xref: write from $0B4D
+; xref: read from $1A34 (L_1A34)
+$0C33                   .BYTE $69                                                              ; "i"
+; xref: write from $0B62
+; xref: read from $0BBE
+; xref: read from $1423
+; xref: read from $1A16
+$0C34                   .BYTE $56                                                              ; "V"
+; xref: write from $0B68
+; xref: read from $0BB9
+; xref: read from $141C
+; xref: read from $1A0F (L_1A0F)
+$0C35                   .BYTE $69                                                              ; "i"
+; xref: write from $0B6E
+; xref: read from $0BAF
+; xref: read from $142F
+; xref: read from $1A22
+$0C36                   .BYTE $FB                                                              ; "."
+; xref: write from $0B74
+; xref: read from $0BB4
+; xref: read from $1428 (L_1428)
+; xref: read from $1A1B (L_1A1B)
+$0C37                   .BYTE $70,$00,$00,$00,$00,$00,$00,$00,$00                              ; "p........"
+$0C40                   .BYTE $00,$00                                                          ; ".."
+
+; === SUBROUTINE: SUB_0C42 ===
+
+$0C42 SUB_0C42:                       ; xref: call from $1D69 (L_1D69)
+    LDX #$B5
+$0C44 L_0C44:                         ; xref: branch from $0C4A
+    LDA $0A0D,X
+    STA $01,X
+    DEX
+    BNE $0C44                         ; Branch to L_0C44
+    RTS
+
+; === SUBROUTINE: SUB_0C4D ===
+
+$0C4D SUB_0C4D:                       ; xref: call from $2378
+    PLA
+    STA $41
+    PLA
+    JSR $10B3                         ; Call SUB_10B3
+    JSR $10D7                         ; Call SUB_10D7
+    LDY $A7
+    LDA $A8
+    STY $63
+    STA $62
+    LDX #$90
+    SEC
+    JSR $BC49                         ; Call SUB_BC49
+    JSR $10DC                         ; Call SUB_10DC
+    LDY #$04
+    JMP $10A1                         ; Jump to L_10A1
+
+; === DATA SECTION ===
+
+$0C6D                   .BYTE $68,$85,$41                                                      ; "h.A"
+$0C70                   .BYTE $68,$20,$FE,$10,$F0,$05,$10,$03,$A2,$FF,$2C,$A2,$00,$4C,$62,$11  ; "h ........,..Lb."
+
+; === SUBROUTINE: SUB_0C80 ===
+
+$0C80 SUB_0C80:                       ; xref: call from $23A1 (L_23A1)
+                                      ; xref: call from $2FDE (L_2FDE)
+                                      ; xref: call from $3E46 (L_3E46)
+                                      ; xref: call from $5DA8 (L_5DA8)
+    PLA
+    STA $41
+    PLA
+    JSR $1184                         ; Call SUB_1184
+    JSR $119D                         ; Call SUB_119D
+    JMP $11A4                         ; Jump to L_11A4
+
+; === SUBROUTINE: SUB_0C8D ===
+
+$0C8D SUB_0C8D:                       ; xref: call from $607F
+                                      ; xref: call from $60B7
+    PLA
+    STA $41
+    PLA
+    JSR $11A9                         ; Call SUB_11A9
+    CLC
+    LDA $65
+    ADC $66
+    BCC $0CA0                         ; Branch to L_0CA0
+    LDX #$17
+    JMP $1228                         ; Jump to L_1228
+$0CA0 L_0CA0:                         ; xref: branch from $0C99
+    JSR $122B                         ; Call SUB_122B
+    LDY $65
+    BEQ $0CB3                         ; Branch to L_0CB3
+    DEY
+$0CA8 L_0CA8:                         ; xref: branch from $0CAD
+                                      ; xref: branch from $0CB1
+    LDA ($61),Y
+    STA ($10),Y
+    DEY
+    BPL $0CA8                         ; Branch to L_0CA8
+    CPY #$FF
+    BNE $0CA8                         ; Branch to L_0CA8
+$0CB3 L_0CB3:                         ; xref: branch from $0CA5
+    CLC
+    LDA $0C2A
+    ADC $65
+    STA $57
+    LDA $0C2B
+    ADC #$00
+    STA $58
+    LDY $66
+    BEQ $0CD2                         ; Branch to L_0CD2
+    DEY
+$0CC7 L_0CC7:                         ; xref: branch from $0CCC
+                                      ; xref: branch from $0CD0
+    LDA ($63),Y
+    STA ($57),Y
+    DEY
+    BPL $0CC7                         ; Branch to L_0CC7
+    CPY #$FF
+    BNE $0CC7                         ; Branch to L_0CC7
+$0CD2 L_0CD2:                         ; xref: branch from $0CC4
+    JSR $1280                         ; Call SUB_1280
+    JSR $1292                         ; Call SUB_1292
+    JMP $12A5                         ; Jump to L_12A5
+
+; === SUBROUTINE: SUB_0CDB ===
+
+$0CDB SUB_0CDB:                       ; xref: call from $2D45
+                                      ; xref: call from $2FA2 (script_vm_op_restart)
+                                      ; xref: call from $381A (L_381A)
+                                      ; xref: call from $401B
+                                      ; xref: call from $405F
+                                      ; xref: call from $4087 (script_vm_show_image)
+                                      ; xref: call from $409F (SUB_409F)
+                                      ; xref: call from $471C
+                                      ; xref: call from $475D (SUB_475D)
+                                      ; xref: call from $4B5A
+                                      ; xref: call from $4C21 (L_4C21)
+                                      ; xref: call from $4C35
+                                      ; xref: call from $4D15
+                                      ; xref: call from $4E17
+                                      ; xref: call from $51C0
+                                      ; xref: call from $5C79
+                                      ; xref: call from $5D5A (SUB_5D5A)
+    PLA
+    STA $41
+    PLA
+    STA $42
+    LDY #$00
+    LDX #$4E
+    JSR $12AA                         ; Call SUB_12AA
+    JSR $12D4                         ; Call SUB_12D4
+    LDY #$03
+    JMP $10A1                         ; Jump to L_10A1
+
+; === SUBROUTINE: SUB_0CF0 ===
+
+$0CF0 SUB_0CF0:                       ; xref: call from $0BF8
+    LDA $0C2E
+    STA $131C
+    LDA $0C2F
+    STA $131D
+    JMP $12FC                         ; Jump to L_12FC
+
+; === DATA SECTION ===
+
+$0CFF                   .BYTE $68                                                              ; "h"
+$0D00                   .BYTE $85,$41,$68,$20,$20,$13,$20,$2B,$BA,$4C,$42,$13,$68,$85,$41,$68  ; ".Ah  . +.LB.h.Ah"
+$0D10                   .BYTE $20,$20,$13,$20,$12,$BB,$4C,$42,$13,$68,$85,$41,$68,$20,$62,$13  ; "  . ..LB.h.Ah b."
+$0D20                   .BYTE $20,$CC,$BC,$4C,$74,$13,$68,$85,$41,$68,$20,$94,$13,$C8,$A5,$64  ; " ..Lt.h.Ah ....d"
+$0D30                   .BYTE $91,$A9,$A0,$04,$4C,$A1,$10                                      ; "....L.."
+
+; === SUBROUTINE: SUB_0D37 ===
+
+$0D37 SUB_0D37:                       ; xref: call from $4440 (SUB_4440)
+                                      ; xref: call from $4675 (L_4675)
+                                      ; xref: call from $4747 (SUB_4747)
+                                      ; xref: call from $4752 (SUB_4752)
+                                      ; xref: call from $47BB
+                                      ; xref: call from $4802 (SUB_4802)
+                                      ; xref: call from $4B42 (SUB_4B42)
+                                      ; xref: call from $4D3A
+                                      ; xref: call from $5016
+                                      ; xref: call from $5571 (L_5571)
+                                      ; xref: call from $62F7 (L_62F7)
+    PLA
+    STA $41
+    PLA
+    JSR $13B0                         ; Call SUB_13B0
+    JSR $1416                         ; Call SUB_1416
+    LDY #$02
+$0D43 L_0D43:                         ; xref: branch from $0D48
+    LDA ($A7),Y
+    STA ($A9),Y
+    DEY
+    BPL $0D43                         ; Branch to L_0D43
+    LDY $AB
+    JMP $10A1                         ; Jump to L_10A1
+
+; === SUBROUTINE: SUB_0D4F ===
+
+$0D4F SUB_0D4F:                       ; xref: call from $41CE
+                                      ; xref: call from $4A1F
+                                      ; xref: call from $4E76
+                                      ; xref: call from $56C8
+                                      ; xref: call from $5707
+    PLA
+    STA $41
+    CLC
+    ADC #$07
+    STA $59
+    PLA
+    STA $42
+    ADC #$00
+    STA $5A
+    LDY #$01
+    LDA ($41),Y
+    STA $45
+    AND #$0F
+    STA $AB
+    LDY #$02
+    LDA ($41),Y
+    STA $43
+    INY
+    LDA ($41),Y
+    STA $44
+    JSR $1474                         ; Call SUB_1474
+    BNE $0D7F                         ; Branch to L_0D7F
+    TSX
+    TXA
+    CLC
+    ADC #$10
+    TAX
+    TXS
+$0D7F L_0D7F:                         ; xref: branch from $0D76
+    LDA $5A
+    PHA
+    LDA $59
+    PHA
+    LDY #$07
+    LDX #$40
+    JSR $0DA9                         ; Call SUB_0DA9
+    LDY #$05
+    LDX #$20
+    JSR $0DA9                         ; Call SUB_0DA9
+    LDY #$03
+    LDA ($41),Y
+    PHA
+    DEY
+    LDA ($41),Y
+    PHA
+    LDA $AB
+    PHA
+    LDA #$81
+    PHA
+    LDA $5A
+    PHA
+    LDA $59
+    PHA
+    RTS
+
+; === SUBROUTINE: SUB_0DA9 ===
+
+$0DA9 SUB_0DA9:                       ; xref: call from $0D89
+                                      ; xref: call from $0D90
+    PLA
+    STA $5B
+    PLA
+    STA $5C
+    TXA
+    AND $45
+    BNE $0DC3                         ; Branch to L_0DC3
+    TSX
+    DEX
+    DEX
+    DEX
+    TXS
+    LDA ($41),Y
+    PHA
+    DEY
+    LDA ($41),Y
+    PHA
+    JMP $0DE1                         ; Jump to L_0DE1
+$0DC3 L_0DC3:                         ; xref: branch from $0DB2
+    LDA ($41),Y
+    BEQ $0DD8                         ; Branch to L_0DD8
+    STA $58
+    DEY
+    LDA ($41),Y
+    STA $57
+    LDY #$04
+$0DD0 L_0DD0:                         ; xref: branch from $0DD4
+    LDA ($57),Y
+    PHA
+    DEY
+    BPL $0DD0                         ; Branch to L_0DD0
+    BMI $0DE1                         ; Branch to L_0DE1
+$0DD8 L_0DD8:                         ; xref: branch from $0DC5
+    LDY #$04
+$0DDA L_0DDA:                         ; xref: branch from $0DDF
+    LDA $0DE8,Y
+    PHA
+    DEY
+    BPL $0DDA                         ; Branch to L_0DDA
+$0DE1 L_0DE1:                         ; xref: jump from $0DC0
+                                      ; xref: branch from $0DD6
+    LDA $5C
+    PHA
+    LDA $5B
+    PHA
+    RTS
+
+; === DATA SECTION ===
+
+; xref: read from $0DDA (L_0DDA)
+$0DE8                   .BYTE $81,$00,$00,$00,$00,$68,$85,$41                                  ; ".....h.A"
+$0DF0                   .BYTE $68,$85,$42,$A0,$01,$B1,$41,$85,$AB,$C8,$B1,$41,$85,$43,$C8,$B1  ; "h.B...A....A.C.."
+$0E00                   .BYTE $41,$85,$44,$18,$A5,$41,$69,$03,$85,$41,$90,$02,$E6,$42,$4C,$A9  ; "A.D..Ai..A...BL."
+$0E10                   .BYTE $14                                                              ; "."
+
+; === SUBROUTINE: SUB_0E11 ===
+
+$0E11 SUB_0E11:                       ; xref: call from $5409 (L_5409)
+                                      ; xref: call from $5C99 (SUB_5C99)
+                                      ; xref: call from $60DC (SUB_60DC)
+                                      ; xref: call from $611D (L_611D)
+    PLA
+    STA $41
+    PLA
+    STA $42
+    LDY #$01
+    LDA ($41),Y
+    STA $131A
+    INY
+    LDA ($41),Y
+    STA $131B
+    LDA $0C2E
+    STA $57
+    LDA $0C2F
+    STA $58
+$0E2E L_0E2E:                         ; xref: jump from $0E4C (L_0E4C)
+    LDY #$03
+    LDA $131A
+    CMP ($57),Y
+    INY
+    LDA ($57),Y
+    BEQ $0E4F                         ; Branch to L_0E4F
+    LDA $131B
+    SBC ($57),Y
+    BCC $0E4F                         ; Branch to L_0E4F
+    CLC
+    LDA $57
+    ADC #$05
+    STA $57
+    BCC $0E4C                         ; Branch to L_0E4C
+    INC $58
+$0E4C L_0E4C:                         ; xref: branch from $0E48
+    JMP $0E2E                         ; Jump to L_0E2E
+$0E4F L_0E4F:                         ; xref: branch from $0E38
+                                      ; xref: branch from $0E3F
+    LDY #$00
+    LDA ($57),Y
+    STA $131E
+    INY
+    LDA ($57),Y
+    TAX
+    CMP $131A
+    INY
+    LDA ($57),Y
+    TAY
+    BEQ $0E68                         ; Branch to L_0E68
+    SBC $131B
+    BCC $0E6E                         ; Branch to L_0E6E
+$0E68 L_0E68:                         ; xref: branch from $0E61
+    STX $131A
+    STY $131B
+$0E6E L_0E6E:                         ; xref: branch from $0E66
+    LDA $57
+    STA $131C
+    LDA $58
+    STA $131D
+    LDY #$02
+    JMP $10A1                         ; Jump to L_10A1
+
+; === DATA SECTION ===
+
+$0E7D                   .BYTE $AD,$1B,$13                                                      ; "..."
+$0E80                   .BYTE $D0,$05,$A2,$0D,$4C,$28,$12,$68,$85,$41,$68,$20,$B1,$15,$AD,$1E  ; "....L(.h.Ah ...."
+$0E90                   .BYTE $13,$F0,$EF,$C9,$06,$F0,$30,$C5,$47,$F0,$05,$A2,$16,$4C,$28,$12  ; "......0.G....L(."
+$0EA0                   .BYTE $20,$D6,$15,$84,$57,$AD,$1A,$13,$85,$59,$AD,$1B,$13,$85,$5A,$B1  ; " ...W....Y....Z."
+$0EB0                   .BYTE $59,$91,$A9,$88,$10,$F9,$38,$AD,$1A,$13,$65,$57,$8D,$1A,$13,$90  ; "Y.....8...eW...."
+$0EC0                   .BYTE $03,$EE,$1B,$13,$4C,$E8,$0E,$AE,$1A,$13,$AC,$1B,$13,$A9,$00,$20  ; "....L.......... "
+$0ED0                   .BYTE $EC,$15,$E0,$2C,$F0,$04,$E0,$00,$D0,$C1,$98,$38,$65,$A7,$8D,$1A  ; "...,.......8e..."
+$0EE0                   .BYTE $13,$A5,$A8,$69,$00,$8D,$1B,$13,$AD,$1C,$13,$85,$57,$AD,$1D,$13  ; "...i........W..."
+$0EF0                   .BYTE $85,$58,$A0,$03,$AD,$1A,$13,$D1,$57,$C8,$AD,$1B,$13,$F1,$57,$90  ; ".X......W.....W."
+$0F00                   .BYTE $11,$18,$AD,$1C,$13,$69,$05,$8D,$1C,$13,$90,$03,$EE,$1D,$13,$20  ; ".....i......... "
+$0F10                   .BYTE $FC,$12,$A4,$45,$4C,$A1,$10,$68,$85,$41,$68,$20,$A6,$16,$D0,$04  ; "...EL..h.Ah ...."
+$0F20                   .BYTE $A9,$FF,$D0,$02,$A9,$00,$4C,$C6,$16,$68,$85,$41,$68,$20,$B0,$13  ; "......L..h.Ah .."
+$0F30                   .BYTE $20,$D4,$16,$A5,$65,$A0,$00,$91,$A9,$85,$6E,$4C,$A5,$12,$68,$85  ; " ...e.....nL..h."
+$0F40                   .BYTE $41,$68,$86,$6B,$20,$B0,$13,$A5,$65,$C5,$6B,$B0,$02,$85,$6B,$A5  ; "Ah.k ...e.k...k."
+$0F50                   .BYTE $6B,$20,$2B,$12,$A9,$00,$A4,$6B,$4C,$DD,$16,$85,$6B,$68,$85,$41  ; "k +....kL...kh.A"
+$0F60                   .BYTE $68,$20,$00,$17,$A9,$01,$20,$2B,$12,$A0,$00,$A5,$6B,$91,$10,$20  ; "h .... +....k.. "
+$0F70                   .BYTE $92,$12,$A0,$02,$4C,$A1,$10,$68,$85,$41,$68,$85,$42,$A9,$00,$85  ; "....L..h.Ah.B..."
+$0F80                   .BYTE $AB,$4C,$A9,$14                                                  ; ".L.."
+
+; === SUBROUTINE: SUB_0F84 ===
+
+$0F84 SUB_0F84:                       ; xref: call from $5DD8 (L_5DD8)
+    PLA
+    STA $41
+    PLA
+    JSR $170E                         ; Call SUB_170E
+    JSR $1720                         ; Call SUB_1720
+    JMP $11A4                         ; Jump to L_11A4
+
+; === SUBROUTINE: SUB_0F91 ===
+
+$0F91 SUB_0F91:                       ; xref: call from $612C (L_612C)
+    PLA
+    STA $41
+    PLA
+    JSR $1362                         ; Call SUB_1362
+    JSR $E097                         ; Call SUB_E097
+    JMP $1374                         ; Jump to L_1374
+
+; === DATA SECTION ===
+
+$0F9E                   .BYTE $68,$85                                                          ; "h."
+$0FA0                   .BYTE $41,$68,$20,$2D,$17,$20,$50,$17,$4C,$81,$17,$68,$85,$41,$68,$20  ; "Ah -. P.L..h.Ah "
+$0FB0                   .BYTE $00,$17,$A9,$00,$20,$A5,$17,$A0,$00,$38,$AD,$2A,$0C,$ED,$28,$0C  ; ".... ....8.*..(."
+$0FC0                   .BYTE $91,$A9,$AD,$2B,$0C,$ED,$29,$0C,$C8,$91,$A9,$A0,$02,$4C,$A1,$10  ; "...+..)......L.."
+$0FD0                   .BYTE $68,$85,$41,$68,$86,$6B,$20,$B0,$13,$A5,$65,$C5,$6B,$B0,$02,$85  ; "h.Ah.k ...e.k..."
+$0FE0                   .BYTE $6B,$A5,$6B,$20,$2B,$12,$A5,$65,$38,$E5,$6B,$A4,$6B,$4C,$DD,$16  ; "k.k +..e8.k.kL.."
+$0FF0                   .BYTE $68,$85,$41,$68,$CA,$86,$6B,$84,$6C,$20,$B0,$13,$A5,$6B,$C9,$FF  ; "h.Ah..k.l ...k.."
+$1000                   .BYTE $D0,$05,$A2,$0E,$4C,$28,$12,$C5,$65,$90,$07,$A9,$00,$85,$6C,$4C  ; "....L(..e.....lL"
+$1010                   .BYTE $1D,$10,$A5,$65,$38,$E5,$6B,$C5,$6C,$B0,$02,$85,$6C,$A5,$6C,$20  ; "...e8.k.l...l.l "
+$1020                   .BYTE $2B,$12,$A5,$6B,$A4,$6C,$4C,$DD,$16,$68,$85,$41,$68,$20,$8E,$18  ; "+..k.lL..h.Ah .."
+$1030                   .BYTE $4C,$BD,$18,$68,$85,$41,$68,$20,$8E,$18,$20,$50,$17,$4C,$81,$17  ; "L..h.Ah .. P.L.."
+$1040                   .BYTE $68,$85,$41,$68,$20,$A6,$16,$F0,$04,$A9,$FF,$D0,$02,$A9,$00,$4C  ; "h.Ah ..........L"
+$1050                   .BYTE $C6,$16,$68,$85,$41,$68,$20,$B0,$13,$A5,$65,$20,$2B,$12,$A9,$00  ; "..h.Ah ...e +..."
+$1060                   .BYTE $A4,$65,$4C,$DD,$16,$68,$85,$41,$68,$20,$B0,$13,$20,$D4,$16,$A0  ; ".eL..h.Ah .. ..."
+$1070                   .BYTE $00,$A5,$65,$F0,$02,$B1,$61,$91,$A9,$85,$6E,$4C,$A5,$12          ; "..e...a...nL.."
+
+; === SUBROUTINE: SUB_107E ===
+
+$107E SUB_107E:                       ; xref: call from $0AE8 (L_0AE8)
+    LDA #$E3
+    STA $0301
+    LDA #$8B
+    STA $0300
+    LDA #$AE
+    STA $030B
+    LDA #$86
+    STA $030A
+    LDA $0C26
+    STA $0308
+    LDA $0C27
+    STA $0309
+    JMP $10D7                         ; Jump to SUB_10D7
+$10A1 L_10A1:                         ; xref: jump from $0C04 (L_0C04)
+                                      ; xref: jump from $0C6A
+                                      ; xref: jump from $0CED
+                                      ; xref: jump from $0D4C
+                                      ; xref: jump from $0E7A
+                                      ; xref: jump from $12A7
+                                      ; xref: jump from $19EF
+    STY $45
+    CLC
+    LDA $41
+    ADC $45
+    TAX
+    LDA $42
+    ADC #$00
+    PHA
+    TXA
+    PHA
+    LDA $6E
+    RTS
+
+; === SUBROUTINE: SUB_10B3 ===
+
+$10B3 SUB_10B3:                       ; xref: call from $0C51
+    STA $42
+    LDY #$01
+    LDA ($41),Y
+    STA $57
+    INY
+    LDA ($41),Y
+    STA $58
+    LDY #$00
+    LDA ($57),Y
+    STA $A7
+    INY
+    LDA ($57),Y
+    STA $A8
+    LDY #$03
+    LDA ($41),Y
+    STA $A9
+    INY
+    LDA ($41),Y
+    STA $AA
+    RTS
+
+; === SUBROUTINE: SUB_10D7 ===
+
+$10D7 SUB_10D7:                       ; xref: call from $0C54
+                                      ; xref: jump from $109E
+                                      ; xref: call from $12D4 (SUB_12D4)
+                                      ; xref: jump from $1371
+                                      ; xref: call from $1380
+                                      ; xref: call from $1B0F (L_1B0F)
+    LDA #$37
+    STA $01
+    RTS
+
+; === SUBROUTINE: SUB_10DC ===
+
+$10DC SUB_10DC:                       ; xref: call from $0C65
+    JSR $191B                         ; Call SUB_191B
+    LDY #$04
+    LDA $65
+    STA ($A9),Y
+    DEY
+    LDA $64
+    STA ($A9),Y
+    DEY
+    LDA $63
+    STA ($A9),Y
+    LDA $66
+    ORA #$7F
+    AND $62
+    DEY
+    STA ($A9),Y
+    DEY
+    LDA $61
+    STA ($A9),Y
+    RTS
+
+; === DATA SECTION ===
+
+$10FE                   .BYTE $85,$42                                                          ; ".B"
+$1100                   .BYTE $A0,$01,$B1,$41,$AA,$C8,$B1,$41,$A8,$8A,$20,$22,$19,$A0,$03,$B1  ; "...A...A.. "...."
+$1110                   .BYTE $41,$85,$24,$C8,$B1,$41,$85,$25,$A0,$00,$B1,$24,$C8,$AA,$F0,$34  ; "A.$..A.%...$...4"
+$1120                   .BYTE $B1,$24,$45,$66,$30,$32,$E4,$61,$D0,$21,$B1,$24,$09,$80,$C5,$62  ; ".$Ef02.a.!.$...b"
+$1130                   .BYTE $D0,$19,$C8,$B1,$24,$C5,$63,$D0,$12,$C8,$B1,$24,$C5,$64,$D0,$0B  ; "....$.c....$.d.."
+$1140                   .BYTE $C8,$A9,$7F,$C5,$70,$B1,$24,$E5,$65,$F0,$16,$A5,$66,$90,$0B,$49  ; "....p.$.e...f..I"
+$1150                   .BYTE $FF,$4C,$5A,$11,$A5,$61,$F0,$09,$A5,$66,$2A,$A9,$FF,$B0,$02,$A9  ; ".LZ..a...f*....."
+$1160                   .BYTE $01,$60,$A0,$05,$B1,$41,$85,$57,$C8,$B1,$41,$85,$58,$A0,$00,$8A  ; ".`...A.W..A.X..."
+$1170                   .BYTE $91,$57,$85,$6E,$18,$A5,$41,$69,$06,$AA,$A5,$42,$69,$00,$48,$8A  ; ".W.n..Ai...Bi.H."
+$1180                   .BYTE $48,$A5,$6E,$60                                                  ; "H.n`"
+
+; === SUBROUTINE: SUB_1184 ===
+
+$1184 SUB_1184:                       ; xref: call from $0C84
+    STA $42
+    LDY #$01
+    LDA ($41),Y
+    STA $57
+    INY
+    LDA ($41),Y
+    STA $58
+    LDY #$00
+    LDA ($57),Y
+    STA $A7
+    INY
+    LDA ($57),Y
+    STA $A8
+    RTS
+
+; === SUBROUTINE: SUB_119D ===
+
+$119D SUB_119D:                       ; xref: call from $0C87
+    LDA #$20
+    LDY #$07
+    JMP $1947                         ; Jump to L_1947
+$11A4 L_11A4:                         ; xref: jump from $0C8A
+                                      ; xref: jump from $0F8E
+    LDY #$03
+    JMP $19B4                         ; Jump to L_19B4
+
+; === SUBROUTINE: SUB_11A9 ===
+
+$11A9 SUB_11A9:                       ; xref: call from $0C91
+    STA $42
+    LDY #$02
+    LDA ($41),Y
+    BEQ $11C8                         ; Branch to L_11C8
+    STA $A8
+    LDY #$01
+    LDA ($41),Y
+    STA $A7
+    LDY #$03
+    LDA ($41),Y
+    STA $69
+    INY
+    LDA ($41),Y
+    STA $6A
+    INY
+    JMP $121A                         ; Jump to L_121A
+$11C8 L_11C8:                         ; xref: branch from $11AF
+    LDY #$03
+    LDA ($41),Y
+    STA $A7
+    INY
+    LDA ($41),Y
+    STA $A8
+    INY
+    LDA ($41),Y
+    STA $69
+    INY
+    LDA ($41),Y
+    STA $6A
+    LDY #$01
+    LDA ($41),Y
+    STA $6D
+    AND #$01
+    BEQ $11F3                         ; Branch to L_11F3
+    LDY #$00
+    LDA ($A7),Y
+    TAX
+    INY
+    LDA ($A7),Y
+    STX $A7
+    STA $A8
+$11F3 L_11F3:                         ; xref: branch from $11E5
+    LDA $6D
+    AND #$02
+    BEQ $1205                         ; Branch to L_1205
+    LDY #$00
+    LDA ($69),Y
+    TAX
+    INY
+    LDA ($69),Y
+    STX $69
+    STA $6A
+$1205 L_1205:                         ; xref: branch from $11F7
+    LDY #$07
+    LDA $6D
+    AND #$04
+    BEQ $121A                         ; Branch to L_121A
+    LDA $3B
+    LDX $3C
+    STA $A9
+    STX $AA
+    LDY #$06
+    JMP $1223                         ; Jump to L_1223
+$121A L_121A:                         ; xref: jump from $11C5
+                                      ; xref: branch from $120B
+    LDA ($41),Y
+    STA $A9
+    INY
+    LDA ($41),Y
+    STA $AA
+$1223 L_1223:                         ; xref: jump from $1217
+    STY $AB
+    JMP $19F2                         ; Jump to SUB_19F2
+$1228 L_1228:                         ; xref: jump from $0C9D
+                                      ; xref: jump from $1818
+                                      ; xref: jump from $1885
+    JMP $A437                         ; Jump to L_A437
+
+; === SUBROUTINE: SUB_122B ===
+
+$122B SUB_122B:                       ; xref: call from $0CA0 (L_0CA0)
+                                      ; xref: call from $19D6
+    STA $57
+    JSR $1416                         ; Call SUB_1416
+$1230 L_1230:                         ; xref: jump from $1264
+    LDA $57
+    PHA
+    TAX
+    BNE $1239                         ; Branch to L_1239
+    JMP $127C                         ; Jump to L_127C
+$1239 L_1239:                         ; xref: branch from $1234
+    SEC
+    LDA $0C2A
+    SBC #$02
+    LDY $0C2B
+    BCS $1245                         ; Branch to L_1245
+    DEY
+$1245 L_1245:                         ; xref: branch from $1242
+    STA $57
+    STY $58
+    TXA
+    EOR #$FF
+    SEC
+    ADC $57
+    BCS $1252                         ; Branch to L_1252
+    DEY
+$1252 L_1252:                         ; xref: branch from $124F
+    CPY $0C29
+    BCC $125E                         ; Branch to L_125E
+    BNE $1267                         ; Branch to L_1267
+    CMP $0C28
+    BCS $1267                         ; Branch to L_1267
+$125E L_125E:                         ; xref: branch from $1255
+    PLA
+    JSR $17A5                         ; Call SUB_17A5
+    STA $57
+    JMP $1230                         ; Jump to L_1230
+$1267 L_1267:                         ; xref: branch from $1257
+                                      ; xref: branch from $125C
+    STA $0C2A
+    STA $10
+    STY $0C2B
+    STY $11
+    LDY #$00
+    LDA $A9
+    STA ($57),Y
+    INY
+    LDA $AA
+    STA ($57),Y
+$127C L_127C:                         ; xref: jump from $1236
+    PLA
+    STA $B6
+    RTS
+
+; === SUBROUTINE: SUB_1280 ===
+
+$1280 SUB_1280:                       ; xref: call from $0CD2 (L_0CD2)
+    LDX $A7
+    LDY $A8
+    LDA #$00
+    JSR $1A0F
+    LDX $69
+    LDY $6A
+    LDA #$FF
+    JMP $1A0F                         ; Jump to L_1A0F
+
+; === SUBROUTINE: SUB_1292 ===
+
+$1292 SUB_1292:                       ; xref: call from $0CD5
+                                      ; xref: call from $19EA (L_19EA)
+    LDY #$00
+    LDA $B6
+    STA ($A9),Y
+    INY
+    LDA $0C2A
+    STA ($A9),Y
+    INY
+    LDA $0C2B
+    STA ($A9),Y
+    RTS
+$12A5 L_12A5:                         ; xref: jump from $0CD8
+    LDY $AB
+    JMP $10A1                         ; Jump to L_10A1
+
+; === SUBROUTINE: SUB_12AA ===
+
+$12AA SUB_12AA:                       ; xref: call from $0CE5
+    INY
+    LDA ($41),Y
+    BEQ $12C9                         ; Branch to L_12C9
+    INY
+    LDA ($41),Y
+    STA $57
+    INY
+    LDA ($41),Y
+    STA $58
+    STY $45
+    LDY #$00
+    LDA ($57),Y
+    STA $00,X
+    INY
+    LDA ($57),Y
+    STA $01,X
+    LDY $45
+    RTS
+$12C9 L_12C9:                         ; xref: branch from $12AD
+    INY
+    LDA ($41),Y
+    STA $00,X
+    INY
+    LDA ($41),Y
+    STA $01,X
+    RTS
+
+; === SUBROUTINE: SUB_12D4 ===
+
+$12D4 SUB_12D4:                       ; xref: call from $0CE8
+    JSR $10D7                         ; Call SUB_10D7
+    LDA $030F
+    PHA
+    LDA $030C
+    LDX $030D
+    LDY $030E
+    PLP
+    JSR $12F9                         ; Call SUB_12F9
+    STA $030C
+    STX $030D
+    STY $030E
+    PHP
+    PLA
+    STA $030F
+    JMP $191B                         ; Jump to SUB_191B
+
+; === SUBROUTINE: SUB_12F9 ===
+
+$12F9 SUB_12F9:                       ; xref: call from $12E5
+    JMP ($004E)
+$12FC L_12FC:                         ; xref: jump from $0CFC
+    LDA $131C
+    STA $57
+    LDA $131D
+    STA $58
+    LDY #$00
+    LDA ($57),Y
+    STA $131E
+    INY
+    LDA ($57),Y
+    STA $131A
+    INY
+    LDA ($57),Y
+    STA $131B
+    RTS
+
+; === DATA SECTION ===
+
+; xref: write from $0E1B
+; xref: read from $0E30
+; xref: read from $0E5A
+; xref: write from $0E68 (L_0E68)
+; xref: write from $1310
+$131A                   .BYTE $CF                                                              ; "."
+; xref: write from $0E21
+; xref: read from $0E3A
+; xref: read from $0E63
+; xref: write from $0E6B
+; xref: write from $1316
+$131B                   .BYTE $55                                                              ; "U"
+; xref: write from $0CF3
+; xref: write from $0E70
+; xref: read from $12FC (L_12FC)
+$131C                   .BYTE $87                                                              ; "."
+; xref: write from $0CF9
+; xref: write from $0E75
+; xref: read from $1301
+$131D                   .BYTE $1B                                                              ; "."
+; xref: write from $0E53
+; xref: write from $130A
+$131E                   .BYTE $06,$00                                                          ; ".."
+$1320                   .BYTE $85,$42,$A0,$03,$B1,$41,$AA,$C8,$B1,$41,$A8,$8A,$20,$22,$19,$A0  ; ".B...A...A.. ".."
+$1330                   .BYTE $01,$B1,$41,$AA,$C8,$B1,$41,$A8,$8A,$20,$72,$1A,$20,$D7,$10,$A5  ; "..A...A.. r. ..."
+$1340                   .BYTE $61,$60,$20,$1B,$19,$A0,$05,$B1,$41,$AA,$C8,$B1,$41,$A8,$20,$D7  ; "a` .....A...A. ."
+$1350                   .BYTE $10,$20,$9D,$1A,$18,$A5,$41,$69,$06,$AA,$A5,$42,$69,$00,$48,$8A  ; ". ....Ai...Bi.H."
+$1360                   .BYTE $48,$60                                                          ; "H`"
+
+; === SUBROUTINE: SUB_1362 ===
+
+$1362 SUB_1362:                       ; xref: call from $0F95
+    STA $42
+    LDY #$01
+    LDA ($41),Y
+    TAX
+    INY
+    LDA ($41),Y
+    TAY
+    TXA
+    JSR $1922                         ; Call SUB_1922
+    JMP $10D7                         ; Jump to SUB_10D7
+$1374 L_1374:                         ; xref: jump from $0F9B
+    JSR $191B                         ; Call SUB_191B
+    LDY #$03
+    LDA ($41),Y
+    TAX
+    INY
+    LDA ($41),Y
+    TAY
+    JSR $10D7                         ; Call SUB_10D7
+    JSR $1A9D                         ; Call SUB_1A9D
+    CLC
+    LDA $41
+    ADC #$04
+    TAX
+    LDA $42
+    ADC #$00
+    PHA
+    TXA
+    PHA
+    RTS
+
+; === DATA SECTION ===
+
+$1394                   .BYTE $20,$C8,$1A,$A5,$A7,$A4,$A8,$20,$22,$19,$20,$D7                  ; " ...... ". ."
+$13A0                   .BYTE $10,$20,$9B,$BC,$20,$1B,$19,$A0,$00,$A5,$65,$91,$A9,$85,$6E,$60  ; ". .. .....e...n`"
+
+; === SUBROUTINE: SUB_13B0 ===
+
+$13B0 SUB_13B0:                       ; xref: call from $0D3B
+    STA $42
+    LDY #$02
+    LDA ($41),Y
+    BEQ $13C4                         ; Branch to L_13C4
+    STA $A8
+    LDY #$01
+    LDA ($41),Y
+    STA $A7
+    LDY #$03
+    BNE $13FA                         ; Branch to L_13FA
+$13C4 L_13C4:                         ; xref: branch from $13B6
+    LDY #$03
+    LDA ($41),Y
+    STA $A7
+    INY
+    LDA ($41),Y
+    STA $A8
+    LDY #$01
+    LDA ($41),Y
+    STA $6D
+    AND #$01
+    BEQ $13E5                         ; Branch to L_13E5
+    LDY #$00
+    LDA ($A7),Y
+    TAX
+    INY
+    LDA ($A7),Y
+    STA $A8
+    STX $A7
+$13E5 L_13E5:                         ; xref: branch from $13D7
+    LDY #$05
+    LDA $6D
+    AND #$02
+    BEQ $13FA                         ; Branch to L_13FA
+    LDA $3B
+    LDX $3C
+    STA $A9
+    STX $AA
+    LDY #$04
+    JMP $1403                         ; Jump to L_1403
+$13FA L_13FA:                         ; xref: branch from $13C2
+                                      ; xref: branch from $13EB
+    LDA ($41),Y
+    STA $A9
+    INY
+    LDA ($41),Y
+    STA $AA
+$1403 L_1403:                         ; xref: jump from $13F7
+    STY $AB
+    LDY #$00
+    LDA ($A7),Y
+    STA $65
+    INY
+    LDA ($A7),Y
+    STA $61
+    INY
+    LDA ($A7),Y
+    STA $62
+    RTS
+
+; === SUBROUTINE: SUB_1416 ===
+
+$1416 SUB_1416:                       ; xref: call from $0D3E
+                                      ; xref: call from $122D
+    LDY $AA
+    BEQ $1473                         ; Branch to L_1473
+    LDX $A9
+    CPY $0C35
+    BCC $1473                         ; Branch to L_1473
+    BNE $1428                         ; Branch to L_1428
+    CPX $0C34
+    BCC $1473                         ; Branch to L_1473
+$1428 L_1428:                         ; xref: branch from $1421
+    CPY $0C37
+    BCC $1434                         ; Branch to L_1434
+    BNE $1473                         ; Branch to L_1473
+    CPX $0C36
+    BCS $1473                         ; Branch to L_1473
+$1434 L_1434:                         ; xref: branch from $142B
+    LDY #$00
+    LDA ($A9),Y
+    BEQ $1473                         ; Branch to L_1473
+    STA $5B
+    LDY #$01
+    LDA ($A9),Y
+    TAX
+    INY
+    LDA ($A9),Y
+    CMP $0C29
+    BCC $1473                         ; Branch to L_1473
+    BNE $1450                         ; Branch to L_1450
+    CPX $0C28
+    BCC $1473                         ; Branch to L_1473
+$1450 L_1450:                         ; xref: branch from $1449
+    CPX $0C2C
+    SBC $0C2D
+    BCS $1473                         ; Branch to L_1473
+    CLC
+    LDY #$01
+    LDA $5B
+    ADC ($A9),Y
+    STA $59
+    INY
+    LDA ($A9),Y
+    ADC #$00
+    STA $5A
+    LDY #$00
+    LDA $5B
+    STA ($59),Y
+    LDA #$00
+    INY
+    STA ($59),Y
+$1473 L_1473:                         ; xref: branch from $1418
+                                      ; xref: branch from $141F
+                                      ; xref: branch from $1426
+                                      ; xref: branch from $142D
+                                      ; xref: branch from $1432
+                                      ; xref: branch from $1438
+                                      ; xref: branch from $1447
+                                      ; xref: branch from $144E
+                                      ; xref: branch from $1456
+    RTS
+
+; === SUBROUTINE: SUB_1474 ===
+
+$1474 SUB_1474:                       ; xref: call from $0D73
+    TSX
+$1475 L_1475:                         ; xref: branch from $14A6
+    LDA $0103,X
+    CMP #$81
+    BNE $14A8                         ; Branch to L_14A8
+    LDA $AB
+    BNE $1492                         ; Branch to L_1492
+    LDA $0104,X
+    STA $AB
+    LDA $0105,X
+    STA $43
+    LDA $0106,X
+    STA $44
+    LDA #$00
+    RTS
+$1492 L_1492:                         ; xref: branch from $147E
+    LDA $43
+    CMP $0105,X
+    BNE $14A1                         ; Branch to L_14A1
+    LDA $44
+    CMP $0106,X
+    BNE $14A1                         ; Branch to L_14A1
+    RTS
+$14A1 L_14A1:                         ; xref: branch from $1497
+                                      ; xref: branch from $149E
+    TXA
+    CLC
+    ADC #$10
+    TAX
+    BNE $1475                         ; Branch to L_1475
+$14A8 L_14A8:                         ; xref: branch from $147A
+    RTS
+
+; === DATA SECTION ===
+
+$14A9                   .BYTE $20,$74,$14,$F0,$05,$A2,$0A                                      ; " t....."
+$14B0                   .BYTE $4C,$28,$12,$E8,$E8,$9A,$A5,$AB,$C9,$03,$90,$39,$C9,$05,$90,$61  ; "L(.........9...a"
+$14C0                   .BYTE $D0,$EC,$A5,$43,$A4,$44,$20,$22,$19,$20,$D7,$10,$BA,$BD,$06,$01  ; "...C.D ". ......"
+$14D0                   .BYTE $85,$5C,$8A,$18,$69,$05,$A0,$01,$20,$67,$B8,$BA,$8A,$18,$69,$0A  ; ".\..i... g....i."
+$14E0                   .BYTE $A0,$01,$20,$5B,$BC,$08,$A6,$43,$A4,$44,$20,$9D,$1A,$28,$18,$30  ; ".. [...C.D ..(.0"
+$14F0                   .BYTE $01,$38,$4C,$87,$15,$BD,$05,$01,$85,$5C,$A0,$00,$B1,$43,$18,$65  ; ".8L......\...C.e"
+$1500                   .BYTE $5C,$91,$43,$20,$0C,$15,$DD,$0A,$01,$4C,$87,$15,$B0,$05,$24,$5C  ; "\.C .....L....$\"
+$1510                   .BYTE $30,$05,$60,$24,$5C,$30,$FB,$68,$68,$A9,$FF,$85,$5C,$18,$4C,$87  ; "0.`$\0.hh...\.L."
+$1520                   .BYTE $15,$A0,$00,$84,$57,$C9,$03,$D0,$02,$85,$57,$BD,$06,$01,$85,$5C  ; "....W.....W....\"
+$1530                   .BYTE $18,$B1,$43,$7D,$05,$01,$91,$43,$C8,$B1,$43,$65,$5C,$91,$43,$A5  ; "..C}...C..Ce\.C."
+$1540                   .BYTE $57,$D0,$15,$20,$0C,$15,$A0,$00,$B1,$43,$C8,$DD,$0A,$01,$D0,$30  ; "W.. .....C.....0"
+$1550                   .BYTE $B1,$43,$FD,$0B,$01,$4C,$87,$15,$70,$BF,$A0,$01,$38,$B1,$43,$FD  ; ".C...L..p...8.C."
+$1560                   .BYTE $0B,$01,$D0,$0C,$88,$B1,$43,$DD,$0A,$01,$F0,$1B,$90,$06,$B0,$0C  ; "......C........."
+$1570                   .BYTE $10,$06,$70,$04,$18,$4C,$85,$15,$30,$02,$70,$F8,$38,$4C,$85,$15  ; "..p..L..0.p.8L.."
+$1580                   .BYTE $B1,$43,$FD,$0B,$01,$A9,$FF,$08,$F0,$0E,$24,$5C,$10,$05,$28,$B0  ; ".C........$\..(."
+$1590                   .BYTE $08,$90,$10,$28,$B0,$0D,$90,$01,$28,$BA,$BD,$10,$01,$48,$BD,$0F  ; "...(....(....H.."
+$15A0                   .BYTE $01,$48,$60,$BA,$8A,$18,$69,$10,$AA,$9A,$A5,$42,$48,$A5,$41,$48  ; ".H`...i....BH.AH"
+$15B0                   .BYTE $60,$85,$42,$A0,$01,$B1,$41,$AA,$29,$0F,$85,$47,$8A,$29,$10,$F0  ; "`.B...A.)..G.).."
+$15C0                   .BYTE $07,$A6,$3B,$A5,$3C,$4C,$CF,$15,$C8,$B1,$41,$AA,$C8,$B1,$41,$84  ; "..;.<L....A...A."
+$15D0                   .BYTE $45,$86,$A9,$85,$AA,$60,$C9,$03,$90,$09,$C9,$05,$90,$08,$D0,$09  ; "E....`.........."
+$15E0                   .BYTE $A0,$04,$60,$A0,$00,$60,$A0,$01,$60,$A0,$02,$60,$86,$A7,$84,$A8  ; "..`..`..`..`...."
+$15F0                   .BYTE $A2,$00,$86,$49,$A6,$47,$E0,$06,$B0,$03,$4C,$5B,$16,$A0,$00,$AA  ; "...I.G....L[...."
+$1600                   .BYTE $F0,$09,$B1,$A7,$F0,$02,$A0,$01,$4C,$3C,$16,$B1,$A7,$C9,$20,$D0  ; "........L<.... ."
+$1610                   .BYTE $05,$20,$9F,$16,$D0,$F5,$B1,$A7,$C9,$22,$D0,$07,$85,$49,$20,$9F  ; ". ......."...I ."
+$1620                   .BYTE $16,$88,$C8,$B1,$A7,$F0,$15,$A6,$49,$D0,$0A,$C9,$2C,$F0,$0D,$C9  ; "........I...,..."
+$1630                   .BYTE $3A,$F0,$09,$D0,$ED,$C9,$22,$D0,$E9,$A9,$FF,$2C,$A9,$00,$85,$49  ; ":....."....,...I"
+$1640                   .BYTE $84,$48,$98,$20,$2B,$12,$20,$92,$12,$A5,$48,$F0,$0B,$A0,$00,$B1  ; ".H. +. ...H....."
+$1650                   .BYTE $A7,$91,$10,$C8,$C4,$48,$90,$F7,$4C,$8D,$16,$A6,$A7,$A4,$A8,$A9  ; ".....H..L......."
+$1660                   .BYTE $27,$20,$E0,$1A,$85,$48,$A5,$47,$C9,$05,$90,$0A,$A6,$A9,$A4,$AA  ; "' ...H.G........"
+$1670                   .BYTE $20,$9D,$1A,$4C,$8D,$16,$20,$9B,$BC,$20,$1B,$19,$A0,$00,$A5,$65  ; " ..L.. .. .....e"
+$1680                   .BYTE $91,$A9,$A5,$47,$C9,$03,$90,$05,$A5,$64,$C8,$91,$A9,$20,$1B,$19  ; "...G.....d... .."
+$1690                   .BYTE $A4,$48,$A5,$49,$F0,$01,$C8,$B1,$A7,$AA,$98,$18,$65,$A7,$60,$E6  ; ".H.I........e.`."
+$16A0                   .BYTE $A7,$D0,$02,$E6,$A8,$60,$20,$A9,$11,$A5,$65,$C5,$66,$90,$02,$A5  ; ".....` ...e.f..."
+$16B0                   .BYTE $66,$85,$57,$A0,$FF,$C8,$C4,$57,$F0,$07,$B1,$61,$D1,$63,$F0,$F5  ; "f.W....W...a.c.."
+$16C0                   .BYTE $60,$A5,$65,$C5,$66,$60,$48,$20,$80,$12,$68,$A0,$00,$91,$A9,$85  ; "`.e.f`H ..h....."
+$16D0                   .BYTE $6E,$4C,$A5,$12,$A6,$A7,$A4,$A8,$A9,$00,$4C,$0F,$1A,$18,$65,$61  ; "nL........L...ea"
+$16E0                   .BYTE $85,$57,$A5,$62,$69,$00,$85,$58,$98,$F0,$0C,$88,$B1,$57,$91,$10  ; ".W.bi..X.....W.."
+$16F0                   .BYTE $88,$10,$F9,$C0,$FF,$D0,$F5,$20,$D4,$16,$20,$92,$12,$4C,$A5,$12  ; "....... .. ..L.."
+$1700                   .BYTE $85,$42,$A0,$01,$B1,$41,$85,$A9,$C8,$B1,$41,$85,$AA,$60          ; ".B...A....A..`"
+
+; === SUBROUTINE: SUB_170E ===
+
+$170E SUB_170E:                       ; xref: call from $0F88
+    STA $42
+    LDY #$01
+    LDA ($41),Y
+    STA $57
+    INY
+    LDA ($41),Y
+    STA $58
+    LDY #$00
+    LDA ($57),Y
+    RTS
+
+; === SUBROUTINE: SUB_1720 ===
+
+$1720 SUB_1720:                       ; xref: call from $0F8B
+    STA $A7
+    LDA #$00
+    STA $A8
+    LDA #$20
+    LDY #$03
+    JMP $1947                         ; Jump to L_1947
+
+; === DATA SECTION ===
+
+$172D                   .BYTE $85,$42,$A0                                                      ; ".B."
+$1730                   .BYTE $01,$B1,$41,$85,$A7,$C8,$B1,$41,$85,$A8,$C8,$B1,$41,$85,$57,$C8  ; "..A....A....A.W."
+$1740                   .BYTE $B1,$41,$85,$58,$A0,$00,$B1,$57,$85,$A9,$C8,$B1,$57,$85,$AA,$60  ; ".A.X...W....W..`"
+$1750                   .BYTE $A0,$00,$8C,$7F,$17,$8C,$80,$17,$A0,$10,$D0,$11,$18,$AD,$7F,$17  ; "................"
+$1760                   .BYTE $65,$A9,$8D,$7F,$17,$AD,$80,$17,$65,$AA,$8D,$80,$17,$4E,$80,$17  ; "e.......e....N.."
+$1770                   .BYTE $6E,$7F,$17,$66,$A8,$66,$A7,$88,$30,$04,$90,$F1,$B0,$DE,$60,$00  ; "n..f.f..0.....`."
+$1780                   .BYTE $00,$A0,$05,$B1,$41,$85,$57,$C8,$B1,$41,$85,$58,$A0,$00,$A5,$A7  ; "....A.W..A.X...."
+$1790                   .BYTE $91,$57,$C8,$A5,$A8,$91,$57,$18,$A5,$41,$69,$06,$AA,$A5,$42,$69  ; ".W....W..Ai...Bi"
+$17A0                   .BYTE $00,$48,$8A,$48,$60                                              ; ".H.H`"
+
+; === SUBROUTINE: SUB_17A5 ===
+
+$17A5 SUB_17A5:                       ; xref: call from $125F
+    STA $5E
+    LDA $0C2C
+    STA $59
+    STA $5B
+    LDA $0C2D
+    STA $5A
+    STA $5C
+$17B5 L_17B5:                         ; xref: jump from $1848
+                                      ; xref: jump from $1856 (L_1856)
+    LDA $0C2A
+    CMP $5B
+    LDA $0C2B
+    SBC $5C
+    BCC $17C4                         ; Branch to L_17C4
+    JMP $1859                         ; Jump to L_1859
+$17C4 L_17C4:                         ; xref: branch from $17BF
+    SEC
+    LDA $5B
+    SBC #$02
+    STA $5B
+    BCS $17CF                         ; Branch to L_17CF
+    DEC $5C
+$17CF L_17CF:                         ; xref: branch from $17CB
+    LDY #$00
+    LDA ($5B),Y
+    STA $57
+    INY
+    LDA ($5B),Y
+    STA $58
+    BNE $17DF                         ; Branch to L_17DF
+    JMP $184B                         ; Jump to L_184B
+$17DF L_17DF:                         ; xref: branch from $17DA
+    SEC
+    LDA $59
+    SBC #$02
+    STA $59
+    BCS $17EA                         ; Branch to L_17EA
+    DEC $5A
+$17EA L_17EA:                         ; xref: branch from $17E6
+    LDY #$01
+    LDA ($5B),Y
+    STA ($59),Y
+    DEY
+    LDA ($5B),Y
+    STA ($59),Y
+    LDY #$00
+    LDA ($57),Y
+    STA $5D
+    LDX $5C
+    SEC
+    LDA $5B
+    SBC $5D
+    STA $5B
+    BCS $1808                         ; Branch to L_1808
+    DEC $5C
+$1808 L_1808:                         ; xref: branch from $1804
+    INY
+    CMP ($57),Y
+    BEQ $181B                         ; Branch to L_181B
+$180D L_180D:                         ; xref: branch from $1820
+                                      ; xref: branch from $182F
+    CLC
+    LDA $5B
+    ADC $5D
+    STA $39
+    STX $3A
+    LDX #$1A
+    JMP $1228                         ; Jump to L_1228
+$181B L_181B:                         ; xref: branch from $180B
+    INY
+    LDA $5C
+    CMP ($57),Y
+    BNE $180D                         ; Branch to L_180D
+    SEC
+    LDA $59
+    SBC $5D
+    STA $59
+    BCS $182D                         ; Branch to L_182D
+    DEC $5A
+$182D L_182D:                         ; xref: branch from $1829
+    LDY $5D
+    BEQ $180D                         ; Branch to L_180D
+    DEY
+$1832 L_1832:                         ; xref: branch from $1837
+                                      ; xref: branch from $183B
+    LDA ($5B),Y
+    STA ($59),Y
+    DEY
+    BPL $1832                         ; Branch to L_1832
+    CPY #$FF
+    BNE $1832                         ; Branch to L_1832
+    LDY #$01
+    LDA $59
+    STA ($57),Y
+    INY
+    LDA $5A
+    STA ($57),Y
+    JMP $17B5                         ; Jump to L_17B5
+$184B L_184B:                         ; xref: jump from $17DC
+    SEC
+    LDA $5B
+    SBC $57
+    STA $5B
+    BCS $1856                         ; Branch to L_1856
+    DEC $5C
+$1856 L_1856:                         ; xref: branch from $1852
+    JMP $17B5                         ; Jump to L_17B5
+$1859 L_1859:                         ; xref: jump from $17C1
+    LDA $59
+    STA $0C2A
+    LDA $5A
+    STA $0C2B
+    SEC
+    LDA $0C2A
+    SBC $5E
+    TAX
+    LDA $0C2B
+    SBC #$00
+    TAY
+    TXA
+    SBC #$02
+    TAX
+    TYA
+    SBC #$00
+    CMP $0C29
+    BCC $1883                         ; Branch to L_1883
+    BNE $1888                         ; Branch to L_1888
+    CPX $0C28
+    BCS $1888                         ; Branch to L_1888
+$1883 L_1883:                         ; xref: branch from $187A
+    LDX #$10
+    JMP $1228                         ; Jump to L_1228
+$1888 L_1888:                         ; xref: branch from $187C
+                                      ; xref: branch from $1881
+    JSR $19F2                         ; Call SUB_19F2
+    LDA $5E
+    RTS
+
+; === DATA SECTION ===
+
+$188E                   .BYTE $85,$42                                                          ; ".B"
+$1890                   .BYTE $A0,$01,$B1,$41,$85,$57,$C8,$B1,$41,$85,$58,$A0,$00,$B1,$57,$85  ; "...A.W..A.X...W."
+$18A0                   .BYTE $A7,$C8,$B1,$57,$85,$A8,$A0,$03,$B1,$41,$85,$57,$C8,$B1,$41,$85  ; "...W.....A.W..A."
+$18B0                   .BYTE $58,$A0,$00,$B1,$57,$85,$A9,$C8,$B1,$57,$85,$AA,$60,$A9,$00,$85  ; "X...W....W..`..."
+$18C0                   .BYTE $57,$A5,$A7,$C9,$00,$A5,$A8,$E9,$80,$B0,$03,$4C,$E1,$18,$38,$A9  ; "W..........L..8."
+$18D0                   .BYTE $00,$E5,$A7,$85,$A7,$A9,$00,$E5,$A8,$85,$A8,$A5,$57,$49,$FF,$85  ; "............WI.."
+$18E0                   .BYTE $57,$A5,$A9,$C9,$00,$A5,$AA,$E9,$80,$B0,$03,$4C,$01,$19,$38,$A9  ; "W..........L..8."
+$18F0                   .BYTE $00,$E5,$A9,$85,$A9,$A9,$00,$E5,$AA,$85,$AA,$A5,$57,$49,$FF,$85  ; "............WI.."
+$1900                   .BYTE $57,$20,$52,$1B,$A5,$57,$D0,$03,$4C,$18,$19,$38,$A9,$00,$E5,$A7  ; "W R..W..L..8...."
+$1910                   .BYTE $85,$A7,$A9,$00,$E5,$A8,$85,$A8,$4C,$81,$17                      ; "........L.."
+
+; === SUBROUTINE: SUB_191B ===
+
+$191B SUB_191B:                       ; xref: call from $10DC (SUB_10DC)
+                                      ; xref: jump from $12F6
+                                      ; xref: call from $1374 (L_1374)
+                                      ; xref: call from $1AA4
+    LDA $1921
+    STA $01
+    RTS
+
+; === DATA SECTION ===
+
+; xref: read from $191B (SUB_191B)
+$1921                   .BYTE $37                                                              ; "7"
+
+; === SUBROUTINE: SUB_1922 ===
+
+$1922 SUB_1922:                       ; xref: call from $136E
+    STA $22
+    STY $23
+    LDY #$04
+    LDA ($22),Y
+    STA $65
+    DEY
+    LDA ($22),Y
+    STA $64
+    DEY
+    LDA ($22),Y
+    STA $63
+    DEY
+    LDA ($22),Y
+    STA $66
+    ORA #$80
+    STA $62
+    DEY
+    LDA ($22),Y
+    STA $61
+    STY $70
+    RTS
+$1947 L_1947:                         ; xref: jump from $11A1
+                                      ; xref: jump from $172A
+    STA $0100
+    LDA #$00
+    STA $19AA
+    LDA #$01
+    STA $57
+$1953 L_1953:                         ; xref: branch from $1997
+    LDX #$30
+$1955 L_1955:                         ; xref: branch from $196B
+    SEC
+    LDA $A7
+    SBC $19AB,Y
+    PHA
+    DEY
+    LDA $A8
+    SBC $19AD,Y
+    BCC $196D                         ; Branch to L_196D
+    STA $A8
+    PLA
+    STA $A7
+    INX
+    INY
+    BNE $1955                         ; Branch to L_1955
+$196D L_196D:                         ; xref: branch from $1962
+    PLA
+    TXA
+    STY $19AB
+    STX $58
+    LDX $57
+    CMP #$30
+    BEQ $1985                         ; Branch to L_1985
+    STA $19AA
+    STA $0100,X
+    INC $57
+    JMP $1991                         ; Jump to L_1991
+$1985 L_1985:                         ; xref: branch from $1978
+    LDY $19AA
+    BEQ $1991                         ; Branch to L_1991
+    LDX $57
+    STA $0100,X
+    INC $57
+$1991 L_1991:                         ; xref: jump from $1982
+                                      ; xref: branch from $1988
+    LDX $58
+    LDY $19AB
+    DEY
+    BPL $1953                         ; Branch to L_1953
+    LDA $A7
+    ORA #$30
+    LDX $57
+    STA $0100,X
+    INX
+    LDA #$00
+    STA $0100,X
+    RTS
+
+; === DATA SECTION ===
+
+$19A9                   .BYTE $EA                                                              ; "."
+; xref: write from $194C
+; xref: write from $197A
+; xref: read from $1985 (L_1985)
+$19AA                   .BYTE $EA                                                              ; "."
+; xref: read from $1958
+; xref: write from $196F
+; xref: read from $1993
+$19AB                   .BYTE $EA,$0A                                                          ; ".."
+; xref: read from $195F
+$19AD                   .BYTE $00,$64,$00                                                      ; ".d."
+$19B0                   .BYTE $E8,$03,$10,$27                                                  ; "...'"
+
+; === CODE SECTION ===
+
+$19B4 L_19B4:                         ; xref: jump from $11A6
+    LDA ($41),Y
+    STA $A9
+    TAX
+    INY
+    STY $45
+    LDA ($41),Y
+    STA $AA
+    BNE $19CD                         ; Branch to L_19CD
+    TXA
+    BNE $19CD                         ; Branch to L_19CD
+    LDA $3B
+    STA $A9
+    LDA $3C
+    STA $AA
+$19CD L_19CD:                         ; xref: branch from $19C0
+                                      ; xref: branch from $19C3
+    LDX #$FF
+$19CF L_19CF:                         ; xref: branch from $19D3
+    INX
+    LDA $0100,X
+    BNE $19CF                         ; Branch to L_19CF
+    TXA
+    JSR $122B                         ; Call SUB_122B
+    LDY $B6
+    BEQ $19EA                         ; Branch to L_19EA
+    DEY
+$19DE L_19DE:                         ; xref: branch from $19E4
+                                      ; xref: branch from $19E8
+    LDA $0100,Y
+    STA ($10),Y
+    DEY
+    BPL $19DE                         ; Branch to L_19DE
+    CPY #$FF
+    BNE $19DE                         ; Branch to L_19DE
+$19EA L_19EA:                         ; xref: branch from $19DB
+    JSR $1292                         ; Call SUB_1292
+    LDY $45
+    JMP $10A1                         ; Jump to L_10A1
+
+; === SUBROUTINE: SUB_19F2 ===
+
+$19F2 SUB_19F2:                       ; xref: jump from $1225
+                                      ; xref: call from $1888 (L_1888)
+    LDY #$00
+    LDA ($A7),Y
+    STA $65
+    LDA ($69),Y
+    STA $66
+    INY
+    LDA ($A7),Y
+    STA $61
+    LDA ($69),Y
+    STA $63
+    INY
+    LDA ($A7),Y
+    STA $62
+    LDA ($69),Y
+    STA $64
+    RTS
+$1A0F L_1A0F:                         ; xref: call from $1286
+                                      ; xref: jump from $128F
+    CPY $0C35
+    BCC $1A28                         ; Branch to L_1A28
+    BNE $1A1B                         ; Branch to L_1A1B
+    CPX $0C34
+    BCC $1A28                         ; Branch to L_1A28
+$1A1B L_1A1B:                         ; xref: branch from $1A14
+    CPY $0C37
+    BCC $1A27                         ; Branch to L_1A27
+    BNE $1A28                         ; Branch to L_1A28
+    CPX $0C36
+    BCS $1A28                         ; Branch to L_1A28
+$1A27 L_1A27:                         ; xref: branch from $1A1E
+    RTS
+$1A28 L_1A28:                         ; xref: branch from $1A12
+                                      ; xref: branch from $1A19
+                                      ; xref: branch from $1A20
+                                      ; xref: branch from $1A25
+    CPY $0C31
+    BCC $1A41                         ; Branch to L_1A41
+    BNE $1A34                         ; Branch to L_1A34
+    CPX $0C30
+    BCC $1A41                         ; Branch to L_1A41
+$1A34 L_1A34:                         ; xref: branch from $1A2D
+    CPY $0C33
+    BCC $1A40                         ; Branch to L_1A40
+    BNE $1A41                         ; Branch to L_1A41
+    CPX $0C32
+    BCS $1A41                         ; Branch to L_1A41
+$1A40 L_1A40:                         ; xref: branch from $1A37
+    RTS
+$1A41 L_1A41:                         ; xref: branch from $1A2B
+                                      ; xref: branch from $1A32
+                                      ; xref: branch from $1A39
+                                      ; xref: branch from $1A3E
+    CMP #$00
+    BNE $1A57                         ; Branch to L_1A57
+    CLC
+    LDA $61
+    ADC $65
+    STA $57
+    LDA $62
+    ADC #$00
+    STA $58
+    LDA $65
+    BNE $1A69                         ; Branch to L_1A69
+    RTS
+$1A57 L_1A57:                         ; xref: branch from $1A43
+    CLC
+    LDA $63
+    ADC $66
+    STA $57
+    LDA $64
+    ADC #$00
+    STA $58
+    LDA $66
+    BNE $1A69                         ; Branch to L_1A69
+    RTS
+$1A69 L_1A69:                         ; xref: branch from $1A54
+                                      ; xref: branch from $1A66
+    LDY #$00
+    STA ($57),Y
+    TYA
+    INY
+    STA ($57),Y
+    RTS
+
+; === SUBROUTINE: ENTRY_1A72 ===
+
+; --------------------------------------------------------
+; BASIC FAC/value helper entry.
+; This code manipulates Commodore BASIC floating-point and descriptor workspace around $61-$70, which supports the assessment that part of the binary is tied to a compiled BASIC runtime.
+; --------------------------------------------------------
+$1A72 ENTRY_1A72:       
+    STA $22
+    STY $23
+    LDY #$04
+    LDA ($22),Y
+    STA $6D
+    DEY
+    LDA ($22),Y
+    STA $6C
+    DEY
+    LDA ($22),Y
+    STA $6B
+    DEY
+    LDA ($22),Y
+    STA $6E
+    EOR $66
+    STA $6F
+    LDA $6E
+    ORA #$80
+    STA $6A
+    DEY
+    LDA ($22),Y
+    STA $69
+    LDA $61
+    RTS
+
+; === SUBROUTINE: SUB_1A9D ===
+
+; --------------------------------------------------------
+; Store a BASIC FAC/value back through an indirect descriptor pointer.
+; Another strong indicator that this region is compiler/runtime glue built around Commodore BASIC internals.
+; --------------------------------------------------------
+$1A9D SUB_1A9D:                       ; xref: call from $1383
+    JSR $BC1B                         ; Call SUB_BC1B
+    STX $22
+    STY $23
+    JSR $191B                         ; Call SUB_191B
+    LDY #$04
+    LDA $65
+    STA ($22),Y
+    DEY
+    LDA $64
+    STA ($22),Y
+    DEY
+    LDA $63
+    STA ($22),Y
+    DEY
+    LDA $66
+    ORA #$7F
+    AND $62
+    STA ($22),Y
+    DEY
+    LDA $61
+    STA ($22),Y
+    STY $70
+    RTS
+
+; === SUBROUTINE: ENTRY_1AC8 ===
+
+$1AC8 ENTRY_1AC8:       
+    STA $42
+    LDY #$01
+    LDA ($41),Y
+    STA $A7
+    INY
+    LDA ($41),Y
+    STA $A8
+    INY
+    LDA ($41),Y
+    STA $A9
+    INY
+    LDA ($41),Y
+    STA $AA
+    RTS
+
+; === SUBROUTINE: ENTRY_1AE0 ===
+
+$1AE0 ENTRY_1AE0:       
+    PHA
+    LDA $7A
+    STA $5A
+    LDA $7B
+    STA $5B
+    LDA $1B28
+    STA $7A
+    LDA $1B29
+    STA $7B
+    STX $5C
+    STY $5D
+    PLA
+    TAY
+    CPY #$28
+    BCC $1AFF                         ; Branch to L_1AFF
+    LDY #$27
+$1AFF L_1AFF:                         ; xref: branch from $1AFB
+    LDA #$00
+    STA $1B2A,Y
+    DEY
+    BMI $1B0F                         ; Branch to L_1B0F
+$1B07 L_1B07:                         ; xref: branch from $1B0D
+    LDA ($5C),Y
+    STA $1B2A,Y
+    DEY
+    BPL $1B07                         ; Branch to L_1B07
+$1B0F L_1B0F:                         ; xref: branch from $1B05
+    JSR $10D7                         ; Call SUB_10D7
+    JSR $0079                         ; Call SUB_0079
+    JSR $BCF3                         ; Call SUB_BCF3
+    LDA $7A
+    SEC
+    SBC $1B28
+    LDY $5A
+    STY $7A
+    LDY $5B
+    STY $7B
+    RTS
+
+; === DATA SECTION ===
+
+$1B27                   .BYTE $AD                                                              ; "."
+; xref: read from $1AE9
+; xref: read from $1B1B
+$1B28                   .BYTE $2A                                                              ; "*"
+; xref: read from $1AEE
+$1B29                   .BYTE $1B                                                              ; "."
+; xref: write from $1B01
+; xref: write from $1B09
+$1B2A                   .BYTE $00,$00,$00,$00,$00,$00                                          ; "......"
+$1B30                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$1B40                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$1B50                   .BYTE $00,$00,$A0,$00,$8C,$80,$1B,$8C,$81,$1B,$A0,$10,$06,$A7,$26,$A8  ; "..............&."
+$1B60                   .BYTE $2E,$80,$1B,$2E,$81,$1B,$38,$AD,$80,$1B,$E5,$A9,$AA,$AD,$81,$1B  ; "......8........."
+$1B70                   .BYTE $E5,$AA,$90,$08,$8E,$80,$1B,$8D,$81,$1B,$E6,$A7,$88,$D0,$DD,$60  ; "...............`"
+$1B80                   .BYTE $00,$00,$02,$37,$44,$40,$44,$06,$CF,$55,$03,$56,$06,$7E,$56,$9D  ; "...7D@D..U.V.~V."
+$1B90                   .BYTE $56,$04,$BF,$5C,$DB,$5C,$02,$99,$61,$B9,$62,$00,$00,$00,$00,$00  ; "V..\.\..a.b....."
+$1BA0                   .BYTE $00,$C6,$69,$02,$01,$A6,$00,$12,$6B,$02,$01,$A6,$00,$5E,$6C,$01  ; "..i.....k....^l."
+$1BB0                   .BYTE $01,$A6,$00,$04,$6D,$01,$01,$A6,$00,$AA,$6D,$01,$01,$68,$00,$12  ; "....m.....m..h.."
+$1BC0                   .BYTE $6E,$01,$01,$68,$00,$7A,$6E,$01,$01,$68,$00,$E2,$6E,$01,$01,$68  ; "n..h.zn..h..n..h"
+$1BD0                   .BYTE $00,$4A,$6F,$01,$01,$68,$00,$B2,$6F,$01,$01,$68,$00,$1A,$70,$01  ; ".Jo..h..o..h..p."
+$1BE0                   .BYTE $01,$08,$00,$27,$70,$01,$01,$68,$00,$8F,$70,$02,$01,$15,$00,$20  ; "...'p..h..p.... "
+$1BF0                   .BYTE $03,$0A,$A9,$00,$20,$C5,$0A,$38,$20,$1F,$0B,$EF,$1B,$56,$69,$00  ; ".... ..8 ....Vi."
+$1C00                   .BYTE $0A,$82,$1B,$82,$1B,$EF,$1B,$56,$69,$FB,$70,$0A,$71,$00,$76,$4C  ; ".......Vi.p.q.vL"
+$1C10                   .BYTE $64,$37                                                          ; "d7"
+
+; === SUBROUTINE: script_vm_dispatch ===
+
+; --------------------------------------------------------
+; Main dispatcher for the custom adventure-script VM.
+; Reads the next token from the script bytecode stream at $6976 and routes it to variable handling, expression decoding, or opcode-specific engine actions.
+; --------------------------------------------------------
+$1C12 script_vm_dispatch:             ; xref: jump from $1E89 (L_1E89)
+                                      ; xref: jump from $2AEB (L_2AEB)
+                                      ; xref: jump from $2B57 (L_2B57)
+                                      ; xref: jump from $2B6E (L_2B6E)
+                                      ; xref: jump from $2BC9 (L_2BC9)
+                                      ; xref: jump from $2BCC (L_2BCC)
+                                      ; xref: jump from $2C25
+                                      ; xref: jump from $2C62
+                                      ; xref: jump from $2D35
+                                      ; xref: jump from $2D6F
+                                      ; xref: jump from $2DD5
+                                      ; xref: jump from $2E12
+                                      ; xref: jump from $2E36
+                                      ; xref: jump from $2E3C
+                                      ; xref: jump from $2E4F
+                                      ; xref: jump from $2E52 (L_2E52)
+                                      ; xref: jump from $2E58
+                                      ; xref: jump from $3059 (L_3059)
+                                      ; xref: jump from $374C (L_374C)
+                                      ; xref: call from $3A0A
+    JSR $1D71                         ; Call script_vm_read_next_token
+                                      ; Fetch the next script token before decoding it.
+$1C15 L_1C15:                         ; xref: jump from $2C8B (L_2C8B)
+    LDA $6964
+    CMP #$FF
+    BEQ $1C1F                         ; Branch to L_1C1F
+    JMP $1C22                         ; Jump to L_1C22
+$1C1F L_1C1F:                         ; xref: branch from $1C1A
+    JMP $1D69                         ; Jump to L_1D69
+$1C22 L_1C22:                         ; xref: jump from $1C1C
+    LDA #$7F
+    CMP $6964
+    BCC $1C2D                         ; Branch to L_1C2D
+    LDA #$00
+    BEQ $1C2F                         ; Branch to L_1C2F
+$1C2D L_1C2D:                         ; xref: branch from $1C27
+    LDA #$FF
+$1C2F L_1C2F:                         ; xref: branch from $1C2B
+    STA $70FB
+    LDA $6964
+    CMP #$C0
+    BCC $1C3D                         ; Branch to L_1C3D
+    LDA #$00
+    BEQ $1C3F                         ; Branch to L_1C3F
+$1C3D L_1C3D:                         ; xref: branch from $1C37
+    LDA #$FF
+$1C3F L_1C3F:                         ; xref: branch from $1C3B
+    STA $7100
+    LDA $70FB
+    AND $7100
+    BEQ $1C4D                         ; Branch to L_1C4D
+    JMP $1D8B                         ; Jump to L_1D8B
+$1C4D L_1C4D:                         ; xref: branch from $1C48
+    LDA $6964                         ; Tokens below $D0 are expression/operand material; tokens $D0-$EF enter the VM opcode dispatcher.
+    CMP #$D0
+    BCC $1C57                         ; Branch to L_1C57
+    JMP $1C64                         ; Jump to L_1C64
+$1C57 L_1C57:                         ; xref: branch from $1C52
+    LDA #$02
+    STA $6974
+    LDA #$00
+    STA $6975
+    JMP $23A1                         ; Jump to L_23A1
+$1C64 L_1C64:                         ; xref: jump from $1C54
+    SEC
+    LDA $6964
+    SBC #$CF
+    CMP #$01
+    BNE $1C71                         ; Branch to L_1C71
+    JMP $2AD7                         ; Jump to L_2AD7
+$1C71 L_1C71:                         ; xref: branch from $1C6C
+    CMP #$02
+    BNE $1C78                         ; Branch to L_1C78
+    JMP $2B71                         ; Jump to L_2B71
+$1C78 L_1C78:                         ; xref: branch from $1C73
+    CMP #$03
+    BNE $1C7F                         ; Branch to L_1C7F
+    JMP $2B7E                         ; Jump to L_2B7E
+$1C7F L_1C7F:                         ; xref: branch from $1C7A
+    CMP #$04
+    BNE $1C86                         ; Branch to L_1C86
+    JMP $2BCC                         ; Jump to L_2BCC
+$1C86 L_1C86:                         ; xref: branch from $1C81
+    CMP #$05
+    BNE $1C8D                         ; Branch to L_1C8D
+    JMP $2BCF                         ; Jump to L_2BCF
+$1C8D L_1C8D:                         ; xref: branch from $1C88
+    CMP #$06
+    BNE $1C94                         ; Branch to L_1C94
+    JMP $2BCF                         ; Jump to L_2BCF
+$1C94 L_1C94:                         ; xref: branch from $1C8F
+    CMP #$07
+    BNE $1C9B                         ; Branch to L_1C9B
+    JMP $2BCF                         ; Jump to L_2BCF
+$1C9B L_1C9B:                         ; xref: branch from $1C96
+    CMP #$08
+    BNE $1CA2                         ; Branch to L_1CA2
+    JMP $2BCF                         ; Jump to L_2BCF
+$1CA2 L_1CA2:                         ; xref: branch from $1C9D
+    CMP #$09
+    BNE $1CA9                         ; Branch to L_1CA9
+    JMP $2BCF                         ; Jump to L_2BCF
+$1CA9 L_1CA9:                         ; xref: branch from $1CA4
+    CMP #$0A
+    BNE $1CB0                         ; Branch to L_1CB0
+    JMP $2BCF                         ; Jump to L_2BCF
+$1CB0 L_1CB0:                         ; xref: branch from $1CAB
+    SEC
+    LDA $6964
+    SBC #$D9
+    CMP #$01
+    BNE $1CBD                         ; Branch to L_1CBD
+    JMP $2BCF                         ; Jump to L_2BCF
+$1CBD L_1CBD:                         ; xref: branch from $1CB8
+    CMP #$02
+    BNE $1CC4                         ; Branch to L_1CC4
+    JMP $2BCF                         ; Jump to L_2BCF
+$1CC4 L_1CC4:                         ; xref: branch from $1CBF
+    CMP #$03
+    BNE $1CCB                         ; Branch to L_1CCB
+    JMP $2BCF                         ; Jump to L_2BCF
+$1CCB L_1CCB:                         ; xref: branch from $1CC6
+    CMP #$04
+    BNE $1CD2                         ; Branch to L_1CD2
+    JMP $2BCF                         ; Jump to L_2BCF
+$1CD2 L_1CD2:                         ; xref: branch from $1CCD
+    CMP #$05
+    BNE $1CD9                         ; Branch to L_1CD9
+    JMP $2BCF                         ; Jump to L_2BCF
+$1CD9 L_1CD9:                         ; xref: branch from $1CD4
+    CMP #$06
+    BNE $1CE0                         ; Branch to L_1CE0
+    JMP $2BCF                         ; Jump to L_2BCF
+$1CE0 L_1CE0:                         ; xref: branch from $1CDB
+    CMP #$07
+    BNE $1CE7                         ; Branch to L_1CE7
+    JMP $2BDC                         ; Jump to L_2BDC
+$1CE7 L_1CE7:                         ; xref: branch from $1CE2
+    CMP #$08
+    BNE $1CEE                         ; Branch to L_1CEE
+    JMP $2C28                         ; Jump to L_2C28
+$1CEE L_1CEE:                         ; xref: branch from $1CE9
+    CMP #$09
+    BNE $1CF5                         ; Branch to L_1CF5
+    JMP $2C65                         ; Jump to L_2C65
+$1CF5 L_1CF5:                         ; xref: branch from $1CF0
+    CMP #$0A
+    BNE $1CFC                         ; Branch to L_1CFC
+    JMP $2D38                         ; Jump to L_2D38
+$1CFC L_1CFC:                         ; xref: branch from $1CF7
+    SEC
+    LDA $6964
+    SBC #$E3
+    CMP #$01
+    BNE $1D09                         ; Branch to L_1D09
+    JMP $2D4E                         ; Jump to script_vm_op_read_table8
+$1D09 L_1D09:                         ; xref: branch from $1D04
+    CMP #$02
+    BNE $1D10                         ; Branch to L_1D10
+    JMP $2D72                         ; Jump to script_vm_op_read_table16
+$1D10 L_1D10:                         ; xref: branch from $1D0B
+    CMP #$03
+    BNE $1D17                         ; Branch to L_1D17
+    JMP $2DD8                         ; Jump to script_vm_op_set_table
+$1D17 L_1D17:                         ; xref: branch from $1D12
+    CMP #$04
+    BNE $1D1E                         ; Branch to L_1D1E
+    JMP $2E15                         ; Jump to script_vm_op_return
+$1D1E L_1D1E:                         ; xref: branch from $1D19
+    CMP #$05
+    BNE $1D25                         ; Branch to L_1D25
+    JMP $2E39                         ; Jump to script_vm_op_show_text
+$1D25 L_1D25:                         ; xref: branch from $1D20
+    CMP #$06
+    BNE $1D2C                         ; Branch to L_1D2C
+    JMP $2E3F                         ; Jump to L_2E3F
+$1D2C L_1D2C:                         ; xref: branch from $1D27
+    CMP #$07
+    BNE $1D33                         ; Branch to L_1D33
+    JMP $2E3F                         ; Jump to L_2E3F
+$1D33 L_1D33:                         ; xref: branch from $1D2E
+    CMP #$08
+    BNE $1D3A                         ; Branch to L_1D3A
+    JMP $2E4C                         ; Jump to script_vm_op_show_image
+$1D3A L_1D3A:                         ; xref: branch from $1D35
+    CMP #$09
+    BNE $1D41                         ; Branch to L_1D41
+    JMP $2E52                         ; Jump to L_2E52
+$1D41 L_1D41:                         ; xref: branch from $1D3C
+    CMP #$0A
+    BNE $1D48                         ; Branch to L_1D48
+    JMP $2E55                         ; Jump to script_vm_op_room_logic
+$1D48 L_1D48:                         ; xref: branch from $1D43
+    SEC
+    LDA $6964
+    SBC #$ED
+    CMP #$01
+    BNE $1D55                         ; Branch to L_1D55
+    JMP $2FA2                         ; Jump to script_vm_op_restart
+$1D55 L_1D55:                         ; xref: branch from $1D50
+    CMP #$02
+    BNE $1D5C                         ; Branch to L_1D5C
+    JMP $2FAB                         ; Jump to script_vm_op_special
+$1D5C L_1D5C:                         ; xref: branch from $1D57
+    LDA #$02
+    STA $6974
+    LDA #$00
+    STA $6975
+    JMP $23A1                         ; Jump to L_23A1
+$1D69 L_1D69:                         ; xref: jump from $1C1F (L_1C1F)
+    JSR $0C42                         ; Call SUB_0C42
+    LDA #$01
+    JMP $0AC5                         ; Jump to L_0AC5
+
+; === SUBROUTINE: script_vm_read_next_token ===
+
+; --------------------------------------------------------
+; Advance the script PC and load the next bytecode token.
+; Uses $6976/$6977 as the VM program counter and stores the fetched token in $6964.
+; --------------------------------------------------------
+$1D71 script_vm_read_next_token:      ; xref: call from $1C12 (script_vm_dispatch)
+                                      ; xref: call from $1DC1
+                                      ; xref: call from $1E8C (script_vm_read_value)
+                                      ; xref: call from $228A (L_228A)
+                                      ; xref: call from $2299 (L_2299)
+                                      ; xref: call from $22A7
+                                      ; xref: call from $2751 (script_vm_apply_table_value)
+                                      ; xref: call from $27BE
+                                      ; xref: call from $299E (L_299E)
+                                      ; xref: call from $2A21
+                                      ; xref: call from $2BDC (L_2BDC)
+                                      ; xref: call from $2BEA
+                                      ; xref: call from $2C28 (L_2C28)
+                                      ; xref: call from $2C36
+                                      ; xref: call from $2C7E (L_2C7E)
+                                      ; xref: call from $2CBD (L_2CBD)
+                                      ; xref: call from $2CCB
+                                      ; xref: call from $2DD8 (script_vm_op_set_table)
+                                      ; xref: call from $2DE6
+    LDA $6976                         ; Copy the current VM PC into an indirect pointer so the next script byte can be fetched.
+    STA $57
+    LDA $6977
+    STA $58
+    LDY #$00
+    LDA ($57),Y
+    STA $6964
+    INC $6976
+    BNE $1D8A                         ; Branch to L_1D8A
+    INC $6977
+$1D8A L_1D8A:                         ; xref: branch from $1D85
+    RTS
+$1D8B L_1D8B:                         ; xref: jump from $1C4A
+    LDA $6964
+    STA $6978
+    LDA #$00
+    STA $6979
+    LDA #$FF
+    STA $697A
+    LDA #$FF
+    STA $697B
+    LDA $6978
+    CMP #$A0
+    LDA $6979
+    SBC #$00
+    BCS $1DAF                         ; Branch to L_1DAF
+    JMP $1DBE                         ; Jump to L_1DBE
+$1DAF L_1DAF:                         ; xref: branch from $1DAA
+    JSR $1E8C                         ; Call script_vm_read_value
+    LDA $697C
+    STA $697A
+    LDA $697D
+    STA $697B
+$1DBE L_1DBE:                         ; xref: jump from $1DAC
+    JSR $1E8C                         ; Call script_vm_read_value
+    JSR $1D71                         ; Call script_vm_read_next_token
+    LDA $6964
+    CMP #$D7
+    BNE $1DCE                         ; Branch to L_1DCE
+    JMP $1DD1                         ; Jump to L_1DD1
+$1DCE L_1DCE:                         ; xref: branch from $1DC9
+    JMP $1DEF                         ; Jump to L_1DEF
+$1DD1 L_1DD1:                         ; xref: jump from $1DCB
+    LDA $6978
+    STA $697E
+    LDA $6979
+    STA $697F
+    LDA $697A
+    STA $6980
+    LDA $697B
+    STA $6981
+    JSR $23DF                         ; Call SUB_23DF
+    JMP $1E89                         ; Jump to L_1E89
+$1DEF L_1DEF:                         ; xref: jump from $1DCE (L_1DCE)
+    LDA $6964
+    CMP #$D5
+    BNE $1DF9                         ; Branch to L_1DF9
+    JMP $1DFC                         ; Jump to L_1DFC
+$1DF9 L_1DF9:                         ; xref: branch from $1DF4
+    JMP $1E3C                         ; Jump to L_1E3C
+$1DFC L_1DFC:                         ; xref: jump from $1DF6
+    LDA $697C
+    STA $6982
+    LDA $697D
+    STA $6983
+    JSR $1E8C                         ; Call script_vm_read_value
+    CLC
+    LDA $6982
+    ADC $697C
+    STA $697C
+    LDA $6983
+    ADC $697D
+    STA $697D
+    LDA $6978
+    STA $697E
+    LDA $6979
+    STA $697F
+    LDA $697A
+    STA $6980
+    LDA $697B
+    STA $6981
+    JSR $23DF                         ; Call SUB_23DF
+    JMP $1E89                         ; Jump to L_1E89
+$1E3C L_1E3C:                         ; xref: jump from $1DF9 (L_1DF9)
+    LDA $6964
+    CMP #$D6
+    BNE $1E46                         ; Branch to L_1E46
+    JMP $1E49                         ; Jump to L_1E49
+$1E46 L_1E46:                         ; xref: branch from $1E41
+    JMP $1E89                         ; Jump to L_1E89
+$1E49 L_1E49:                         ; xref: jump from $1E43
+    LDA $697C
+    STA $6982
+    LDA $697D
+    STA $6983
+    JSR $1E8C                         ; Call script_vm_read_value
+    SEC
+    LDA $6982
+    SBC $697C
+    STA $697C
+    LDA $6983
+    SBC $697D
+    STA $697D
+    LDA $6978
+    STA $697E
+    LDA $6979
+    STA $697F
+    LDA $697A
+    STA $6980
+    LDA $697B
+    STA $6981
+    JSR $23DF                         ; Call SUB_23DF
+    JMP $1E89                         ; Jump to L_1E89
+$1E89 L_1E89:                         ; xref: jump from $1DEC
+                                      ; xref: jump from $1E39
+                                      ; xref: jump from $1E46 (L_1E46)
+                                      ; xref: jump from $1E86
+    JMP $1C12                         ; Jump to script_vm_dispatch
+
+; === SUBROUTINE: script_vm_read_value ===
+
+; --------------------------------------------------------
+; Decode one script operand/value from the bytecode stream.
+; This is the VM-side reader for constants, variables, and indexed variables used by IF expressions, SELECT CASE, SPECIAL(), and table-driven operations.
+; --------------------------------------------------------
+$1E8C script_vm_read_value:           ; xref: call from $1DAF (L_1DAF)
+                                      ; xref: call from $1DBE (L_1DBE)
+                                      ; xref: call from $1E08
+                                      ; xref: call from $1E55
+                                      ; xref: call from $22D4 (SUB_22D4)
+                                      ; xref: call from $231A (SUB_231A)
+                                      ; xref: call from $2360 (SUB_2360)
+                                      ; xref: call from $2778 (L_2778)
+                                      ; xref: call from $27AF (SUB_27AF)
+                                      ; xref: call from $281F
+                                      ; xref: call from $2C65 (L_2C65)
+                                      ; xref: call from $2D38 (L_2D38)
+                                      ; xref: call from $2FAB (script_vm_op_special)
+    JSR $1D71                         ; Call script_vm_read_next_token
+                                      ; Read the next operand token, then branch into the variable-class decoders for ranges like $80-$BF.
+    LDA $6964
+    CMP #$C0
+    BEQ $1E9A                         ; Branch to L_1E9A
+    LDA #$00
+    BEQ $1E9C                         ; Branch to L_1E9C
+$1E9A L_1E9A:                         ; xref: branch from $1E94
+    LDA #$FF
+$1E9C L_1E9C:                         ; xref: branch from $1E98
+    STA $70FB
+    LDA $6964
+    CMP #$C1
+    BEQ $1EAA                         ; Branch to L_1EAA
+    LDA #$00
+    BEQ $1EAC                         ; Branch to L_1EAC
+$1EAA L_1EAA:                         ; xref: branch from $1EA4
+    LDA #$FF
+$1EAC L_1EAC:                         ; xref: branch from $1EA8
+    STA $7100
+    LDA $70FB
+    ORA $7100
+    BNE $1EBA                         ; Branch to L_1EBA
+    JMP $1EBD                         ; Jump to L_1EBD
+$1EBA L_1EBA:                         ; xref: branch from $1EB5
+    JMP $1EBD                         ; Jump to L_1EBD
+$1EBD L_1EBD:                         ; xref: jump from $1EB7
+                                      ; xref: jump from $1EBA (L_1EBA)
+    LDA $6964
+    STA $70FB
+    LDA #$00
+    STA $70FC
+    SEC
+    LDA $70FB
+    SBC #$70
+    STA $6984
+    LDA $70FC
+    SBC #$00
+    STA $6985
+    LDA $6984
+    STA $70FB
+    LDA $6985
+    STA $70FC
+    LSR $70FC
+    ROR $70FB
+    LSR $70FC
+    ROR $70FB
+    LSR $70FC
+    ROR $70FB
+    LSR $70FC
+    ROR $70FB
+    LDA $70FB
+    STA $70FB
+    LDA $70FC
+    STA $70FC
+    LDA $70FB
+    AND #$FF
+    STA $6984
+    LDA $70FC
+    AND #$00
+    STA $6985
+    LDA $6984
+    CMP #$01
+    BNE $1F23                         ; Branch to L_1F23
+    JMP $1F4C                         ; Jump to L_1F4C
+$1F23 L_1F23:                         ; xref: branch from $1F1E
+    CMP #$02
+    BNE $1F2A                         ; Branch to L_1F2A
+    JMP $1F82                         ; Jump to L_1F82
+$1F2A L_1F2A:                         ; xref: branch from $1F25
+    CMP #$03
+    BNE $1F31                         ; Branch to L_1F31
+    JMP $1FCD                         ; Jump to L_1FCD
+$1F31 L_1F31:                         ; xref: branch from $1F2C
+    CMP #$04
+    BNE $1F38                         ; Branch to L_1F38
+    JMP $201F                         ; Jump to L_201F
+$1F38 L_1F38:                         ; xref: branch from $1F33
+    CMP #$05
+    BNE $1F3F                         ; Branch to L_1F3F
+    JMP $2047                         ; Jump to L_2047
+$1F3F L_1F3F:                         ; xref: branch from $1F3A
+    LDA #$01
+    STA $6974
+    LDA #$00
+    STA $6975
+    JMP $23A1                         ; Jump to L_23A1
+$1F4C L_1F4C:                         ; xref: jump from $1F20
+    SEC
+    LDA $6964
+    SBC #$7F
+    CMP #$01
+    BNE $1F59                         ; Branch to L_1F59
+    JMP $2068                         ; Jump to L_2068
+$1F59 L_1F59:                         ; xref: branch from $1F54
+    CMP #$02
+    BNE $1F60                         ; Branch to L_1F60
+    JMP $2075                         ; Jump to L_2075
+$1F60 L_1F60:                         ; xref: branch from $1F5B
+    CMP #$03
+    BNE $1F67                         ; Branch to L_1F67
+    JMP $2082                         ; Jump to L_2082
+$1F67 L_1F67:                         ; xref: branch from $1F62
+    CMP #$04
+    BNE $1F6E                         ; Branch to L_1F6E
+    JMP $208F                         ; Jump to L_208F
+$1F6E L_1F6E:                         ; xref: branch from $1F69
+    CMP #$05
+    BNE $1F75                         ; Branch to L_1F75
+    JMP $209B                         ; Jump to L_209B
+$1F75 L_1F75:                         ; xref: branch from $1F70
+    LDA #$01
+    STA $6974
+    LDA #$00
+    STA $6975
+    JMP $23A1                         ; Jump to L_23A1
+$1F82 L_1F82:                         ; xref: jump from $1F27
+    SEC
+    LDA $6964
+    SBC #$8F
+    CMP #$01
+    BNE $1F8F                         ; Branch to L_1F8F
+    JMP $20A7                         ; Jump to L_20A7
+$1F8F L_1F8F:                         ; xref: branch from $1F8A
+    CMP #$02
+    BNE $1F96                         ; Branch to L_1F96
+    JMP $20B4                         ; Jump to L_20B4
+$1F96 L_1F96:                         ; xref: branch from $1F91
+    CMP #$03
+    BNE $1F9D                         ; Branch to L_1F9D
+    JMP $20C1                         ; Jump to L_20C1
+$1F9D L_1F9D:                         ; xref: branch from $1F98
+    CMP #$04
+    BNE $1FA4                         ; Branch to L_1FA4
+    JMP $20CE                         ; Jump to L_20CE
+$1FA4 L_1FA4:                         ; xref: branch from $1F9F
+    CMP #$05
+    BNE $1FAB                         ; Branch to L_1FAB
+    JMP $20DB                         ; Jump to L_20DB
+$1FAB L_1FAB:                         ; xref: branch from $1FA6
+    CMP #$06
+    BNE $1FB2                         ; Branch to L_1FB2
+    JMP $20E8                         ; Jump to L_20E8
+$1FB2 L_1FB2:                         ; xref: branch from $1FAD
+    CMP #$07
+    BNE $1FB9                         ; Branch to L_1FB9
+    JMP $20F5                         ; Jump to L_20F5
+$1FB9 L_1FB9:                         ; xref: branch from $1FB4
+    CMP #$08
+    BNE $1FC0                         ; Branch to L_1FC0
+    JMP $2102                         ; Jump to L_2102
+$1FC0 L_1FC0:                         ; xref: branch from $1FBB
+    LDA #$01
+    STA $6974
+    LDA #$00
+    STA $6975
+    JMP $23A1                         ; Jump to L_23A1
+$1FCD L_1FCD:                         ; xref: jump from $1F2E
+    SEC
+    LDA $6964
+    SBC #$9F
+    CMP #$01
+    BNE $1FDA                         ; Branch to L_1FDA
+    JMP $210F                         ; Jump to L_210F
+$1FDA L_1FDA:                         ; xref: branch from $1FD5
+    CMP #$02
+    BNE $1FE1                         ; Branch to L_1FE1
+    JMP $212E                         ; Jump to L_212E
+$1FE1 L_1FE1:                         ; xref: branch from $1FDC
+    CMP #$03
+    BNE $1FE8                         ; Branch to L_1FE8
+    JMP $214D                         ; Jump to L_214D
+$1FE8 L_1FE8:                         ; xref: branch from $1FE3
+    CMP #$04
+    BNE $1FEF                         ; Branch to L_1FEF
+    JMP $216C                         ; Jump to L_216C
+$1FEF L_1FEF:                         ; xref: branch from $1FEA
+    CMP #$05
+    BNE $1FF6                         ; Branch to L_1FF6
+    JMP $218B                         ; Jump to L_218B
+$1FF6 L_1FF6:                         ; xref: branch from $1FF1
+    CMP #$06
+    BNE $1FFD                         ; Branch to L_1FFD
+    JMP $21AA                         ; Jump to L_21AA
+$1FFD L_1FFD:                         ; xref: branch from $1FF8
+    CMP #$07
+    BNE $2004                         ; Branch to L_2004
+    JMP $21C9                         ; Jump to L_21C9
+$2004 L_2004:                         ; xref: branch from $1FFF
+    CMP #$08
+    BNE $200B                         ; Branch to L_200B
+    JMP $21E8                         ; Jump to L_21E8
+$200B L_200B:                         ; xref: branch from $2006
+    CMP #$09                          ; xref+1: write from $2FE6  [instruction data modified]
+    BNE $2012                         ; Branch to L_2012
+    JMP $2207                         ; Jump to L_2207
+$2012 L_2012:                         ; xref: branch from $200D
+    LDA #$01
+    STA $6974
+    LDA #$00
+    STA $6975
+    JMP $23A1                         ; Jump to L_23A1
+$201F L_201F:                         ; xref: jump from $1F35
+    SEC
+    LDA $6964
+    SBC #$AF
+    CMP #$01
+    BNE $202C                         ; Branch to L_202C
+    JMP $2226                         ; Jump to L_2226
+$202C L_202C:                         ; xref: branch from $2027
+    CMP #$02
+    BNE $2033                         ; Branch to L_2033
+    JMP $224B                         ; Jump to L_224B
+$2033 L_2033:                         ; xref: branch from $202E
+    CMP #$03
+    BNE $203A                         ; Branch to L_203A
+    JMP $2270                         ; Jump to L_2270
+$203A L_203A:                         ; xref: branch from $2035
+    LDA #$01
+    STA $6974
+    LDA #$00
+    STA $6975
+    JMP $23A1                         ; Jump to L_23A1
+$2047 L_2047:                         ; xref: jump from $1F3C
+    SEC
+    LDA $6964
+    SBC #$BF
+    CMP #$01
+    BNE $2054                         ; Branch to L_2054
+    JMP $228A                         ; Jump to L_228A
+$2054 L_2054:                         ; xref: branch from $204F
+    CMP #$02
+    BNE $205B                         ; Branch to L_205B
+    JMP $2299                         ; Jump to L_2299
+$205B L_205B:                         ; xref: branch from $2056
+    LDA #$01
+    STA $6974
+    LDA #$00
+    STA $6975
+    JMP $23A1                         ; Jump to L_23A1
+$2068 L_2068:                         ; xref: jump from $1F56
+    LDA $6986
+    STA $697C
+    LDA $6987
+    STA $697D
+    RTS
+$2075 L_2075:                         ; xref: jump from $1F5D
+    LDA $6988
+    STA $697C
+    LDA $6989
+    STA $697D
+    RTS
+$2082 L_2082:                         ; xref: jump from $1F64
+    LDA $698A
+    STA $697C
+    LDA $698B
+    STA $697D
+    RTS
+$208F L_208F:                         ; xref: jump from $1F6B
+    LDA $695D
+    STA $697C
+    LDA #$00
+    STA $697D
+    RTS
+$209B L_209B:                         ; xref: jump from $1F72
+    LDA $6963
+    STA $697C
+    LDA #$00
+    STA $697D
+    RTS
+$20A7 L_20A7:                         ; xref: jump from $1F8C
+    LDA $698C
+    STA $697C
+    LDA $698D
+    STA $697D
+    RTS
+$20B4 L_20B4:                         ; xref: jump from $1F93
+    LDA $698E
+    STA $697C
+    LDA $698F
+    STA $697D
+    RTS
+$20C1 L_20C1:                         ; xref: jump from $1F9A
+    LDA $6990
+    STA $697C
+    LDA $6991
+    STA $697D
+    RTS
+$20CE L_20CE:                         ; xref: jump from $1FA1
+    LDA $6992
+    STA $697C
+    LDA $6993
+    STA $697D
+    RTS
+$20DB L_20DB:                         ; xref: jump from $1FA8
+    LDA $6994
+    STA $697C
+    LDA $6995
+    STA $697D
+    RTS
+$20E8 L_20E8:                         ; xref: jump from $1FAF
+    LDA $6996
+    STA $697C
+    LDA $6997
+    STA $697D
+    RTS
+$20F5 L_20F5:                         ; xref: jump from $1FB6
+    LDA $6998
+    STA $697C
+    LDA $6999
+    STA $697D
+    RTS
+$2102 L_2102:                         ; xref: jump from $1FBD
+    LDA $699A
+    STA $697C
+    LDA $699B
+    STA $697D
+    RTS
+$210F L_210F:                         ; xref: jump from $1FD7
+    JSR $22D4                         ; Call SUB_22D4
+    CLC
+    LDA $697C
+    ADC #$AA
+    STA $57
+    LDA $697D
+    ADC #$6D
+    STA $58
+    LDY #$00
+    LDA ($57),Y
+    STA $697C
+    LDA #$00
+    STA $697D
+    RTS
+$212E L_212E:                         ; xref: jump from $1FDE
+    JSR $22D4                         ; Call SUB_22D4
+    CLC
+    LDA $697C
+    ADC #$E2
+    STA $57
+    LDA $697D
+    ADC #$6E
+    STA $58
+    LDY #$00
+    LDA ($57),Y
+    STA $697C
+    LDA #$00
+    STA $697D
+    RTS
+$214D L_214D:                         ; xref: jump from $1FE5
+    JSR $22D4                         ; Call SUB_22D4
+    CLC
+    LDA $697C
+    ADC #$12
+    STA $57
+    LDA $697D
+    ADC #$6E
+    STA $58
+    LDY #$00
+    LDA ($57),Y
+    STA $697C
+    LDA #$00
+    STA $697D
+    RTS
+$216C L_216C:                         ; xref: jump from $1FEC
+    JSR $22D4                         ; Call SUB_22D4
+    CLC
+    LDA $697C
+    ADC #$7A
+    STA $57
+    LDA $697D
+    ADC #$6E
+    STA $58
+    LDY #$00
+    LDA ($57),Y
+    STA $697C
+    LDA #$00
+    STA $697D
+    RTS
+$218B L_218B:                         ; xref: jump from $1FF3
+    JSR $22D4                         ; Call SUB_22D4
+    CLC
+    LDA $697C
+    ADC #$4A
+    STA $57
+    LDA $697D
+    ADC #$6F
+    STA $58
+    LDY #$00
+    LDA ($57),Y
+    STA $697C
+    LDA #$00
+    STA $697D
+    RTS
+$21AA L_21AA:                         ; xref: jump from $1FFA
+    JSR $22D4                         ; Call SUB_22D4
+    CLC
+    LDA $697C
+    ADC #$B2
+    STA $57
+    LDA $697D
+    ADC #$6F
+    STA $58
+    LDY #$00
+    LDA ($57),Y
+    STA $697C
+    LDA #$00
+    STA $697D
+    RTS
+$21C9 L_21C9:                         ; xref: jump from $2001
+    JSR $231A                         ; Call SUB_231A
+    CLC
+    LDA $697C
+    ADC #$5E
+    STA $57
+    LDA $697D
+    ADC #$6C
+    STA $58
+    LDY #$00
+    LDA ($57),Y
+    STA $697C
+    LDA #$00
+    STA $697D
+    RTS
+$21E8 L_21E8:                         ; xref: jump from $2008
+    JSR $231A                         ; Call SUB_231A
+    CLC
+    LDA $697C
+    ADC #$04
+    STA $57
+    LDA $697D
+    ADC #$6D
+    STA $58
+    LDY #$00
+    LDA ($57),Y
+    STA $697C
+    LDA #$00
+    STA $697D
+    RTS
+$2207 L_2207:                         ; xref: jump from $200F
+    JSR $22D4                         ; Call SUB_22D4
+    CLC
+    LDA $697C
+    ADC #$27
+    STA $57
+    LDA $697D
+    ADC #$70
+    STA $58
+    LDY #$00
+    LDA ($57),Y
+    STA $697C
+    LDA #$00
+    STA $697D
+    RTS
+$2226 L_2226:                         ; xref: jump from $2029
+    JSR $231A                         ; Call SUB_231A
+    LDA $697C
+    ASL A
+    TAX
+    LDA $697D
+    ROL A
+    TAY
+    TXA
+    ADC #$12
+    STA $57
+    TYA
+    ADC #$6B
+    STA $58
+    LDY #$00
+    LDA ($57),Y
+    STA $697C
+    INY
+    LDA ($57),Y
+    STA $697D
+    RTS
+$224B L_224B:                         ; xref: jump from $2030
+    JSR $231A                         ; Call SUB_231A
+    LDA $697C
+    ASL A
+    TAX
+    LDA $697D
+    ROL A
+    TAY
+    TXA
+    ADC #$C6
+    STA $57
+    TYA
+    ADC #$69
+    STA $58
+    LDY #$00
+    LDA ($57),Y
+    STA $697C
+    INY
+    LDA ($57),Y
+    STA $697D
+    RTS
+$2270 L_2270:                         ; xref: jump from $2037
+    JSR $2360                         ; Call SUB_2360
+    LDA $697C
+    STA $57
+    LDA $697D
+    STA $58
+    LDY #$00
+    LDA ($57),Y
+    STA $697C
+    LDA #$00
+    STA $697D
+    RTS
+$228A L_228A:                         ; xref: jump from $2051
+    JSR $1D71                         ; Call script_vm_read_next_token
+    LDA $6964
+    STA $697C
+    LDA #$00
+    STA $697D
+    RTS
+$2299 L_2299:                         ; xref: jump from $2058
+    JSR $1D71                         ; Call script_vm_read_next_token
+    LDA $6964
+    STA $697C
+    LDA #$00
+    STA $697D
+    JSR $1D71                         ; Call script_vm_read_next_token
+    LDA $6964
+    STA $70FB
+    LDA #$00
+    STA $70FC
+    LDA $70FB
+    STA $70FC
+    LDA #$00
+    STA $70FB
+    CLC
+    LDA $697C
+    ADC $70FB
+    STA $697C
+    LDA $697D
+    ADC $70FC
+    STA $697D
+    RTS
+
+; === SUBROUTINE: SUB_22D4 ===
+
+$22D4 SUB_22D4:                       ; xref: call from $210F (L_210F)
+                                      ; xref: call from $212E (L_212E)
+                                      ; xref: call from $214D (L_214D)
+                                      ; xref: call from $216C (L_216C)
+                                      ; xref: call from $218B (L_218B)
+                                      ; xref: call from $21AA (L_21AA)
+                                      ; xref: call from $2207 (L_2207)
+    JSR $1E8C                         ; Call script_vm_read_value
+    LDA $697C
+    CMP #$00
+    LDA $697D
+    SBC #$00
+    BCS $22E7                         ; Branch to L_22E7
+    LDA #$00
+    BEQ $22E9                         ; Branch to L_22E9
+$22E7 L_22E7:                         ; xref: branch from $22E1
+    LDA #$FF
+$22E9 L_22E9:                         ; xref: branch from $22E5
+    STA $70FB
+    LDA $697C
+    CMP #$68
+    LDA $697D
+    SBC #$00
+    BCC $22FC                         ; Branch to L_22FC
+    LDA #$00
+    BEQ $22FE                         ; Branch to L_22FE
+$22FC L_22FC:                         ; xref: branch from $22F6
+    LDA #$FF
+$22FE L_22FE:                         ; xref: branch from $22FA
+    STA $7100
+    LDA $70FB
+    AND $7100
+    BNE $230C                         ; Branch to L_230C
+    JMP $230D                         ; Jump to L_230D
+$230C L_230C:                         ; xref: branch from $2307
+    RTS
+$230D L_230D:                         ; xref: jump from $2309
+    LDA #$03
+    STA $6974
+    LDA #$00
+    STA $6975
+    JMP $23A1                         ; Jump to L_23A1
+
+; === SUBROUTINE: SUB_231A ===
+
+$231A SUB_231A:                       ; xref: call from $21C9 (L_21C9)
+                                      ; xref: call from $21E8 (L_21E8)
+                                      ; xref: call from $2226 (L_2226)
+                                      ; xref: call from $224B (L_224B)
+    JSR $1E8C                         ; Call script_vm_read_value
+    LDA $697C
+    CMP #$00
+    LDA $697D
+    SBC #$00
+    BCS $232D                         ; Branch to L_232D
+    LDA #$00
+    BEQ $232F                         ; Branch to L_232F
+$232D L_232D:                         ; xref: branch from $2327
+    LDA #$FF
+$232F L_232F:                         ; xref: branch from $232B
+    STA $70FB
+    LDA $697C
+    CMP #$A6
+    LDA $697D
+    SBC #$00
+    BCC $2342                         ; Branch to L_2342
+    LDA #$00
+    BEQ $2344                         ; Branch to L_2344
+$2342 L_2342:                         ; xref: branch from $233C
+    LDA #$FF
+$2344 L_2344:                         ; xref: branch from $2340
+    STA $7100
+    LDA $70FB
+    AND $7100
+    BNE $2352                         ; Branch to L_2352
+    JMP $2353                         ; Jump to L_2353
+$2352 L_2352:                         ; xref: branch from $234D
+    RTS
+$2353 L_2353:                         ; xref: jump from $234F
+    LDA #$04
+    STA $6974
+    LDA #$00
+    STA $6975
+    JMP $23A1                         ; Jump to L_23A1
+
+; === SUBROUTINE: SUB_2360 ===
+
+$2360 SUB_2360:                       ; xref: call from $2270 (L_2270)
+    JSR $1E8C                         ; Call script_vm_read_value
+    LDA $697C
+    CMP #$00
+    LDA $697D
+    SBC #$00
+    BCS $2373                         ; Branch to L_2373
+    LDA #$00
+    BEQ $2375                         ; Branch to L_2375
+$2373 L_2373:                         ; xref: branch from $236D
+    LDA #$FF
+$2375 L_2375:                         ; xref: branch from $2371
+    STA $70FB
+    JSR $0C4D                         ; Call SUB_0C4D
+
+; === DATA SECTION ===
+
+$237B                   .BYTE $7C,$69,$00,$71,$20                                              ; "|i.q "
+$2380                   .BYTE $6D,$0C,$00,$71,$0C,$48,$00,$71,$AD,$FB,$70,$2D,$00,$71,$D0,$03  ; "m..q.H.q..p-.q.."
+$2390                   .BYTE $4C,$94,$23,$60,$A9,$05,$8D,$74,$69,$A9,$00,$8D,$75,$69,$4C,$A1  ; "L.#`...ti...uiL."
+$23A0                   .BYTE $23                                                              ; "#"
+
+; === CODE SECTION ===
+
+$23A1 L_23A1:                         ; xref: jump from $1C61
+                                      ; xref: jump from $1D66
+                                      ; xref: jump from $1F49
+                                      ; xref: jump from $1F7F
+                                      ; xref: jump from $1FCA
+                                      ; xref: jump from $201C
+                                      ; xref: jump from $2044
+                                      ; xref: jump from $2065
+                                      ; xref: jump from $2317
+                                      ; xref: jump from $235D
+                                      ; xref: jump from $2459
+                                      ; xref: jump from $249D
+                                      ; xref: jump from $24F6
+                                      ; xref: jump from $2556
+                                      ; xref: jump from $258C
+                                      ; xref: jump from $27F6
+                                      ; xref: jump from $2859
+                                      ; xref: jump from $2923
+                                      ; xref: jump from $296B
+                                      ; xref: jump from $2A12
+                                      ; xref: jump from $2B7B
+                                      ; xref: jump from $2BD9
+                                      ; xref: jump from $2E49
+    JSR $0C80                         ; Call SUB_0C80
+
+; === DATA SECTION ===
+
+$23A4                   .BYTE $74,$69,$FB,$70,$20,$8D,$0C,$11,$48,$FB,$70,$FB                  ; "ti.p ...H.p."
+$23B0                   .BYTE $70,$20,$8D,$0C,$FB,$70,$1A,$48,$FB,$70,$38,$AD,$76,$69,$E9,$01  ; "p ...p.H.p8.vi.."
+$23C0                   .BYTE $8D,$00,$71,$AD,$77,$69,$E9,$00,$8D,$01,$71,$20,$80,$0C,$00,$71  ; "..q.wi....q ...q"
+$23D0                   .BYTE $00,$71,$20,$8D,$0C,$FB,$70,$00,$71,$9C,$69,$20,$D1,$45,$60      ; ".q ...p.q.i .E`"
+
+; === SUBROUTINE: SUB_23DF ===
+
+$23DF SUB_23DF:                       ; xref: call from $1DE9
+                                      ; xref: call from $1E36
+                                      ; xref: call from $1E83
+                                      ; xref: call from $27AB
+    SEC
+    LDA $697E
+    SBC #$70
+    STA $6984
+    LDA $697F
+    SBC #$00
+    STA $6985
+    LDA $6984
+    STA $70FB
+    LDA $6985
+    STA $70FC
+    LSR $70FC
+    ROR $70FB
+    LSR $70FC
+    ROR $70FB
+    LSR $70FC
+    ROR $70FB
+    LSR $70FC
+    ROR $70FB
+    LDA $70FB
+    STA $70FB
+    LDA $70FC
+    STA $70FC
+    LDA $70FB
+    AND #$FF
+    STA $6984
+    LDA $70FC
+    AND #$00
+    STA $6985
+    LDA $6984
+    CMP #$01
+    BNE $243A                         ; Branch to L_243A
+    JMP $245C                         ; Jump to L_245C
+$243A L_243A:                         ; xref: branch from $2435
+    CMP #$02
+    BNE $2441                         ; Branch to L_2441
+    JMP $24A0                         ; Jump to L_24A0
+$2441 L_2441:                         ; xref: branch from $243C
+    CMP #$03
+    BNE $2448                         ; Branch to L_2448
+    JMP $24F9                         ; Jump to L_24F9
+$2448 L_2448:                         ; xref: branch from $2443
+    CMP #$04
+    BNE $244F                         ; Branch to L_244F
+    JMP $2559                         ; Jump to L_2559
+$244F L_244F:                         ; xref: branch from $244A
+    LDA #$01
+    STA $6974
+    LDA #$00
+    STA $6975
+    JMP $23A1                         ; Jump to L_23A1
+$245C L_245C:                         ; xref: jump from $2437
+    SEC
+    LDA $697E
+    SBC #$7F
+    STA $70FB
+    LDA $697F
+    SBC #$00
+    STA $70FC
+    LDA $70FB
+    CMP #$01
+    BNE $2477                         ; Branch to L_2477
+    JMP $258F                         ; Jump to L_258F
+$2477 L_2477:                         ; xref: branch from $2472
+    CMP #$02
+    BNE $247E                         ; Branch to L_247E
+    JMP $259C                         ; Jump to L_259C
+$247E L_247E:                         ; xref: branch from $2479
+    CMP #$03
+    BNE $2485                         ; Branch to L_2485
+    JMP $25A9                         ; Jump to L_25A9
+$2485 L_2485:                         ; xref: branch from $2480
+    CMP #$04
+    BNE $248C                         ; Branch to L_248C
+    JMP $25B6                         ; Jump to L_25B6
+$248C L_248C:                         ; xref: branch from $2487
+    CMP #$05
+    BNE $2493                         ; Branch to L_2493
+    JMP $25BD                         ; Jump to L_25BD
+$2493 L_2493:                         ; xref: branch from $248E
+    LDA #$01
+    STA $6974
+    LDA #$00
+    STA $6975
+    JMP $23A1                         ; Jump to L_23A1
+$24A0 L_24A0:                         ; xref: jump from $243E
+    SEC
+    LDA $697E
+    SBC #$8F
+    STA $70FB
+    LDA $697F
+    SBC #$00
+    STA $70FC
+    LDA $70FB
+    CMP #$01
+    BNE $24BB                         ; Branch to L_24BB
+    JMP $25C4                         ; Jump to L_25C4
+$24BB L_24BB:                         ; xref: branch from $24B6
+    CMP #$02
+    BNE $24C2                         ; Branch to L_24C2
+    JMP $25D1                         ; Jump to L_25D1
+$24C2 L_24C2:                         ; xref: branch from $24BD
+    CMP #$03
+    BNE $24C9                         ; Branch to L_24C9
+    JMP $25DE                         ; Jump to L_25DE
+$24C9 L_24C9:                         ; xref: branch from $24C4
+    CMP #$04
+    BNE $24D0                         ; Branch to L_24D0
+    JMP $25EB                         ; Jump to L_25EB
+$24D0 L_24D0:                         ; xref: branch from $24CB
+    CMP #$05
+    BNE $24D7                         ; Branch to L_24D7
+    JMP $25F8                         ; Jump to L_25F8
+$24D7 L_24D7:                         ; xref: branch from $24D2
+    CMP #$06
+    BNE $24DE                         ; Branch to L_24DE
+    JMP $2605                         ; Jump to L_2605
+$24DE L_24DE:                         ; xref: branch from $24D9
+    CMP #$07
+    BNE $24E5                         ; Branch to L_24E5
+    JMP $2612                         ; Jump to L_2612
+$24E5 L_24E5:                         ; xref: branch from $24E0
+    CMP #$08
+    BNE $24EC                         ; Branch to L_24EC
+    JMP $261F                         ; Jump to L_261F
+$24EC L_24EC:                         ; xref: branch from $24E7
+    LDA #$01
+    STA $6974
+    LDA #$00
+    STA $6975
+    JMP $23A1                         ; Jump to L_23A1
+$24F9 L_24F9:                         ; xref: jump from $2445
+    SEC
+    LDA $697E
+    SBC #$9F
+    STA $70FB
+    LDA $697F
+    SBC #$00
+    STA $70FC
+    LDA $70FB
+    CMP #$01
+    BNE $2514                         ; Branch to L_2514
+    JMP $262C                         ; Jump to L_262C
+$2514 L_2514:                         ; xref: branch from $250F
+    CMP #$02
+    BNE $251B                         ; Branch to L_251B
+    JMP $2643                         ; Jump to L_2643
+$251B L_251B:                         ; xref: branch from $2516
+    CMP #$03
+    BNE $2522                         ; Branch to L_2522
+    JMP $265A                         ; Jump to L_265A
+$2522 L_2522:                         ; xref: branch from $251D
+    CMP #$04
+    BNE $2529                         ; Branch to L_2529
+    JMP $2671                         ; Jump to L_2671
+$2529 L_2529:                         ; xref: branch from $2524
+    CMP #$05
+    BNE $2530                         ; Branch to L_2530
+    JMP $2688                         ; Jump to L_2688
+$2530 L_2530:                         ; xref: branch from $252B
+    CMP #$06
+    BNE $2537                         ; Branch to L_2537
+    JMP $269F                         ; Jump to L_269F
+$2537 L_2537:                         ; xref: branch from $2532
+    CMP #$07
+    BNE $253E                         ; Branch to L_253E
+    JMP $26B6                         ; Jump to L_26B6
+$253E L_253E:                         ; xref: branch from $2539
+    CMP #$08
+    BNE $2545                         ; Branch to L_2545
+    JMP $26CD                         ; Jump to L_26CD
+$2545 L_2545:                         ; xref: branch from $2540
+    CMP #$09
+    BNE $254C                         ; Branch to L_254C
+    JMP $26E4                         ; Jump to L_26E4
+$254C L_254C:                         ; xref: branch from $2547
+    LDA #$01
+    STA $6974
+    LDA #$00
+    STA $6975
+    JMP $23A1                         ; Jump to L_23A1
+$2559 L_2559:                         ; xref: jump from $244C
+    SEC
+    LDA $697E
+    SBC #$AF
+    STA $70FB
+    LDA $697F
+    SBC #$00
+    STA $70FC
+    LDA $70FB
+    CMP #$01
+    BNE $2574                         ; Branch to L_2574
+    JMP $26FB                         ; Jump to L_26FB
+$2574 L_2574:                         ; xref: branch from $256F
+    CMP #$02
+    BNE $257B                         ; Branch to L_257B
+    JMP $271D                         ; Jump to L_271D
+$257B L_257B:                         ; xref: branch from $2576
+    CMP #$03
+    BNE $2582                         ; Branch to L_2582
+    JMP $273F                         ; Jump to L_273F
+$2582 L_2582:                         ; xref: branch from $257D
+    LDA #$01
+    STA $6974
+    LDA #$00
+    STA $6975
+    JMP $23A1                         ; Jump to L_23A1
+$258F L_258F:                         ; xref: jump from $2474
+    LDA $697C
+    STA $6986
+    LDA $697D
+    STA $6987
+    RTS
+$259C L_259C:                         ; xref: jump from $247B
+    LDA $697C
+    STA $6988
+    LDA $697D
+    STA $6989
+    RTS
+$25A9 L_25A9:                         ; xref: jump from $2482
+    LDA $697C
+    STA $698A
+    LDA $697D
+    STA $698B
+    RTS
+$25B6 L_25B6:                         ; xref: jump from $2489
+    LDA $697C
+    STA $695D
+    RTS
+$25BD L_25BD:                         ; xref: jump from $2490
+    LDA $697C
+    STA $6963
+    RTS
+$25C4 L_25C4:                         ; xref: jump from $24B8
+    LDA $697C
+    STA $698C
+    LDA $697D
+    STA $698D
+    RTS
+$25D1 L_25D1:                         ; xref: jump from $24BF
+    LDA $697C
+    STA $698E
+    LDA $697D
+    STA $698F
+    RTS
+$25DE L_25DE:                         ; xref: jump from $24C6
+    LDA $697C
+    STA $6990
+    LDA $697D
+    STA $6991
+    RTS
+$25EB L_25EB:                         ; xref: jump from $24CD
+    LDA $697C
+    STA $6992
+    LDA $697D
+    STA $6993
+    RTS
+$25F8 L_25F8:                         ; xref: jump from $24D4
+    LDA $697C
+    STA $6994
+    LDA $697D
+    STA $6995
+    RTS
+$2605 L_2605:                         ; xref: jump from $24DB
+    LDA $697C
+    STA $6996
+    LDA $697D
+    STA $6997
+    RTS
+$2612 L_2612:                         ; xref: jump from $24E2
+    LDA $697C
+    STA $6998
+    LDA $697D
+    STA $6999
+    RTS
+$261F L_261F:                         ; xref: jump from $24E9
+    LDA $697C
+    STA $699A
+    LDA $697D
+    STA $699B
+    RTS
+$262C L_262C:                         ; xref: jump from $2511
+    CLC
+    LDA $6980
+    ADC #$AA
+    STA $3B
+    LDA $6981
+    ADC #$6D
+    STA $3C
+    LDA $697C
+    LDY #$00
+    STA ($3B),Y
+    RTS
+$2643 L_2643:                         ; xref: jump from $2518
+    CLC
+    LDA $6980
+    ADC #$E2
+    STA $3B
+    LDA $6981
+    ADC #$6E
+    STA $3C
+    LDA $697C
+    LDY #$00
+    STA ($3B),Y
+    RTS
+$265A L_265A:                         ; xref: jump from $251F
+    CLC
+    LDA $6980
+    ADC #$12
+    STA $3B
+    LDA $6981
+    ADC #$6E
+    STA $3C
+    LDA $697C
+    LDY #$00
+    STA ($3B),Y
+    RTS
+$2671 L_2671:                         ; xref: jump from $2526
+    CLC
+    LDA $6980
+    ADC #$7A
+    STA $3B
+    LDA $6981
+    ADC #$6E
+    STA $3C
+    LDA $697C
+    LDY #$00
+    STA ($3B),Y
+    RTS
+$2688 L_2688:                         ; xref: jump from $252D
+    CLC
+    LDA $6980
+    ADC #$4A
+    STA $3B
+    LDA $6981
+    ADC #$6F
+    STA $3C
+    LDA $697C
+    LDY #$00
+    STA ($3B),Y
+    RTS
+$269F L_269F:                         ; xref: jump from $2534
+    CLC
+    LDA $6980
+    ADC #$B2
+    STA $3B
+    LDA $6981
+    ADC #$6F
+    STA $3C
+    LDA $697C
+    LDY #$00
+    STA ($3B),Y
+    RTS
+$26B6 L_26B6:                         ; xref: jump from $253B
+    CLC
+    LDA $6980
+    ADC #$5E
+    STA $3B
+    LDA $6981
+    ADC #$6C
+    STA $3C
+    LDA $697C
+    LDY #$00
+    STA ($3B),Y
+    RTS
+$26CD L_26CD:                         ; xref: jump from $2542
+    CLC
+    LDA $6980
+    ADC #$04
+    STA $3B
+    LDA $6981
+    ADC #$6D
+    STA $3C
+    LDA $697C
+    LDY #$00
+    STA ($3B),Y
+    RTS
+$26E4 L_26E4:                         ; xref: jump from $2549
+    CLC
+    LDA $6980
+    ADC #$27
+    STA $3B
+    LDA $6981
+    ADC #$70
+    STA $3C
+    LDA $697C
+    LDY #$00
+    STA ($3B),Y
+    RTS
+$26FB L_26FB:                         ; xref: jump from $2571
+    LDA $6980
+    ASL A
+    TAX
+    LDA $6981
+    ROL A
+    TAY
+    TXA
+    ADC #$12
+    STA $3B
+    TYA
+    ADC #$6B
+    STA $3C
+    LDY #$00
+    LDA $697C
+    STA ($3B),Y
+    INY
+    LDA $697D
+    STA ($3B),Y
+    RTS
+$271D L_271D:                         ; xref: jump from $2578
+    LDA $6980
+    ASL A
+    TAX
+    LDA $6981
+    ROL A
+    TAY
+    TXA
+    ADC #$C6
+    STA $3B
+    TYA
+    ADC #$69
+    STA $3C
+    LDY #$00
+    LDA $697C
+    STA ($3B),Y
+    INY
+    LDA $697D
+    STA ($3B),Y
+    RTS
+$273F L_273F:                         ; xref: jump from $257F
+    LDA $6980
+    STA $43
+    LDA $6981
+    STA $44
+    LDA $697C
+    LDY #$00
+    STA ($43),Y
+    RTS
+
+; === SUBROUTINE: script_vm_apply_table_value ===
+
+; --------------------------------------------------------
+; Apply the current table-read result to a script variable or indexed variable target.
+; Used after E4/E5 table fetch opcodes load a value into $699F/$69A0.
+; --------------------------------------------------------
+$2751 script_vm_apply_table_value:    ; xref: call from $2D6C (L_2D6C)
+                                      ; xref: call from $2DD2
+    JSR $1D71                         ; Call script_vm_read_next_token
+    LDA $6964
+    STA $6978
+    LDA #$00
+    STA $6979
+    LDA #$FF
+    STA $697A
+    LDA #$FF
+    STA $697B
+    LDA $6978
+    CMP #$A0
+    LDA $6979
+    SBC #$00
+    BCS $2778                         ; Branch to L_2778
+    JMP $2787                         ; Jump to L_2787
+$2778 L_2778:                         ; xref: branch from $2773
+    JSR $1E8C                         ; Call script_vm_read_value
+    LDA $697C
+    STA $697A
+    LDA $697D
+    STA $697B
+$2787 L_2787:                         ; xref: jump from $2775
+    LDA $699F
+    STA $697C
+    LDA $69A0
+    STA $697D
+    LDA $6978
+    STA $697E
+    LDA $6979
+    STA $697F
+    LDA $697A
+    STA $6980
+    LDA $697B
+    STA $6981
+    JSR $23DF                         ; Call SUB_23DF
+    RTS
+
+; === SUBROUTINE: SUB_27AF ===
+
+$27AF SUB_27AF:                       ; xref: call from $299B (SUB_299B)
+                                      ; xref: call from $29C2
+                                      ; xref: call from $29F0
+    JSR $1E8C                         ; Call script_vm_read_value
+    LDA $697C
+    STA $6982
+    LDA $697D
+    STA $6983
+    JSR $1D71                         ; Call script_vm_read_next_token
+    LDA $6964
+    CMP #$DA
+    BCC $27CC                         ; Branch to L_27CC
+    LDA #$00
+    BEQ $27CE                         ; Branch to L_27CE
+$27CC L_27CC:                         ; xref: branch from $27C6
+    LDA #$FF
+$27CE L_27CE:                         ; xref: branch from $27CA
+    STA $70FB
+    LDA #$DF
+    CMP $6964
+    BCC $27DC                         ; Branch to L_27DC
+    LDA #$00
+    BEQ $27DE                         ; Branch to L_27DE
+$27DC L_27DC:                         ; xref: branch from $27D6
+    LDA #$FF
+$27DE L_27DE:                         ; xref: branch from $27DA
+    STA $7100
+    LDA $70FB
+    ORA $7100
+    BNE $27EC                         ; Branch to L_27EC
+    JMP $27F9                         ; Jump to L_27F9
+$27EC L_27EC:                         ; xref: branch from $27E7
+    LDA #$06
+    STA $6974
+    LDA #$00
+    STA $6975
+    JMP $23A1                         ; Jump to L_23A1
+$27F9 L_27F9:                         ; xref: jump from $27E9
+    LDA #$00
+    STA $6974
+    LDA #$00
+    STA $6975
+    LDA $6964
+    STA $70FB
+    LDA #$00
+    STA $70FC
+    SEC
+    LDA $70FB
+    SBC #$D9
+    STA $69A1
+    LDA $70FC
+    SBC #$00
+    STA $69A2
+    JSR $1E8C                         ; Call script_vm_read_value
+    LDA $69A1
+    CMP #$01
+    BNE $282C                         ; Branch to L_282C
+    JMP $285C                         ; Jump to L_285C
+$282C L_282C:                         ; xref: branch from $2827
+    CMP #$02
+    BNE $2833                         ; Branch to L_2833
+    JMP $2878                         ; Jump to L_2878
+$2833 L_2833:                         ; xref: branch from $282E
+    CMP #$03
+    BNE $283A                         ; Branch to L_283A
+    JMP $2894                         ; Jump to L_2894
+$283A L_283A:                         ; xref: branch from $2835
+    CMP #$04
+    BNE $2841                         ; Branch to L_2841
+    JMP $28B2                         ; Jump to L_28B2
+$2841 L_2841:                         ; xref: branch from $283C
+    CMP #$05
+    BNE $2848                         ; Branch to L_2848
+    JMP $28D0                         ; Jump to L_28D0
+$2848 L_2848:                         ; xref: branch from $2843
+    CMP #$06
+    BNE $284F                         ; Branch to L_284F
+    JMP $28EC                         ; Jump to L_28EC
+$284F L_284F:                         ; xref: branch from $284A
+    LDA #$50
+    STA $6974
+    LDA #$23
+    STA $6975
+    JMP $23A1                         ; Jump to L_23A1
+$285C L_285C:                         ; xref: jump from $2829
+    LDA $697C
+    CMP $6982
+    LDA $697D
+    SBC $6983
+    BCC $286D                         ; Branch to L_286D
+    JMP $2877                         ; Jump to L_2877
+$286D L_286D:                         ; xref: branch from $2868
+    LDA #$01
+    STA $6974
+    LDA #$00
+    STA $6975
+$2877 L_2877:                         ; xref: jump from $286A
+    RTS
+$2878 L_2878:                         ; xref: jump from $2830
+    LDA $6982
+    CMP $697C
+    LDA $6983
+    SBC $697D
+    BCC $2889                         ; Branch to L_2889
+    JMP $2893                         ; Jump to L_2893
+$2889 L_2889:                         ; xref: branch from $2884
+    LDA #$01
+    STA $6974
+    LDA #$00
+    STA $6975
+$2893 L_2893:                         ; xref: jump from $2886
+    RTS
+$2894 L_2894:                         ; xref: jump from $2837
+    LDA $6982
+    CMP $697C
+    BNE $28A2                         ; Branch to L_28A2
+    LDA $6983
+    CMP $697D
+$28A2 L_28A2:                         ; xref: branch from $289A
+    BEQ $28A7                         ; Branch to L_28A7
+    JMP $28B1                         ; Jump to L_28B1
+$28A7 L_28A7:                         ; xref: branch from $28A2 (L_28A2)
+    LDA #$01
+    STA $6974
+    LDA #$00
+    STA $6975
+$28B1 L_28B1:                         ; xref: jump from $28A4
+    RTS
+$28B2 L_28B2:                         ; xref: jump from $283E
+    LDA $6982
+    CMP $697C
+    BNE $28C0                         ; Branch to L_28C0
+    LDA $6983
+    CMP $697D
+$28C0 L_28C0:                         ; xref: branch from $28B8
+    BNE $28C5                         ; Branch to L_28C5
+    JMP $28CF                         ; Jump to L_28CF
+$28C5 L_28C5:                         ; xref: branch from $28C0 (L_28C0)
+    LDA #$01
+    STA $6974
+    LDA #$00
+    STA $6975
+$28CF L_28CF:                         ; xref: jump from $28C2
+    RTS
+$28D0 L_28D0:                         ; xref: jump from $2845
+    LDA $6982
+    CMP $697C
+    LDA $6983
+    SBC $697D
+    BCS $28E1                         ; Branch to L_28E1
+    JMP $28EB                         ; Jump to L_28EB
+$28E1 L_28E1:                         ; xref: branch from $28DC
+    LDA #$01
+    STA $6974
+    LDA #$00
+    STA $6975
+$28EB L_28EB:                         ; xref: jump from $28DE
+    RTS
+$28EC L_28EC:                         ; xref: jump from $284C
+    LDA $697C
+    CMP $6982
+    LDA $697D
+    SBC $6983
+    BCS $28FD                         ; Branch to L_28FD
+    JMP $2907                         ; Jump to L_2907
+$28FD L_28FD:                         ; xref: branch from $28F8
+    LDA #$01
+    STA $6974
+    LDA #$00
+    STA $6975
+$2907 L_2907:                         ; xref: jump from $28FA
+    RTS
+
+; === SUBROUTINE: script_vm_push_return ===
+
+; --------------------------------------------------------
+; Push a return address onto the script VM call stack.
+; The stack pointer lives at $69A3/$69A4 and stores 16-bit return PCs used by GOSUB/RETURN and SELECT CASE case dispatch.
+; --------------------------------------------------------
+$2908 script_vm_push_return:          ; xref: call from $2C04
+                                      ; xref: call from $2D14
+    LDA $69A3
+    CMP #$14
+    BNE $2914                         ; Branch to L_2914
+    LDA $69A4
+    CMP #$00
+$2914 L_2914:                         ; xref: branch from $290D
+    BEQ $2919                         ; Branch to L_2919
+    JMP $2926                         ; Jump to L_2926
+$2919 L_2919:                         ; xref: branch from $2914 (L_2914)
+    LDA #$09
+    STA $6974
+    LDA #$00
+    STA $6975
+    JMP $23A1                         ; Jump to L_23A1
+$2926 L_2926:                         ; xref: jump from $2916
+    LDA $69A3
+    ASL A
+    TAX
+    LDA $69A4
+    ROL A
+    TAY
+    TXA
+    ADC #$8F
+    STA $3B
+    TYA
+    ADC #$70
+    STA $3C
+    LDY #$00
+    LDA $69A5
+    STA ($3B),Y
+    INY
+    LDA $69A6
+    STA ($3B),Y
+    INC $69A3
+    BNE $294F                         ; Branch to L_294F
+    INC $69A4
+$294F L_294F:                         ; xref: branch from $294A
+    RTS
+
+; === SUBROUTINE: script_vm_pop_return ===
+
+; --------------------------------------------------------
+; Pop a return address from the script VM call stack into $69A5/$69A6.
+; --------------------------------------------------------
+$2950 script_vm_pop_return:           ; xref: call from $2E27 (L_2E27)
+    LDA $69A3
+    CMP #$00
+    BNE $295C                         ; Branch to L_295C
+    LDA $69A4
+    CMP #$00
+$295C L_295C:                         ; xref: branch from $2955
+    BEQ $2961                         ; Branch to L_2961
+    JMP $296E                         ; Jump to L_296E
+$2961 L_2961:                         ; xref: branch from $295C (L_295C)
+    LDA #$09
+    STA $6974
+    LDA #$00
+    STA $6975
+    JMP $23A1                         ; Jump to L_23A1
+$296E L_296E:                         ; xref: jump from $295E
+    LDA $69A3
+    BNE $2976                         ; Branch to L_2976
+    DEC $69A4
+$2976 L_2976:                         ; xref: branch from $2971
+    DEC $69A3
+    LDA $69A3
+    ASL A
+    TAX
+    LDA $69A4
+    ROL A
+    TAY
+    TXA
+    ADC #$8F
+    STA $57
+    TYA
+    ADC #$70
+    STA $58
+    LDY #$00
+    LDA ($57),Y
+    STA $69A5
+    INY
+    LDA ($57),Y
+    STA $69A6
+    RTS
+
+; === SUBROUTINE: SUB_299B ===
+
+$299B SUB_299B:                       ; xref: call from $2AD7 (L_2AD7)
+    JSR $27AF                         ; Call SUB_27AF
+$299E L_299E:                         ; xref: jump from $29D7
+                                      ; xref: jump from $2A05
+    JSR $1D71                         ; Call script_vm_read_next_token
+    LDA $6964
+    CMP #$D1
+    BEQ $29AB                         ; Branch to L_29AB
+    JMP $29AC                         ; Jump to L_29AC
+$29AB L_29AB:                         ; xref: branch from $29A6
+    RTS
+$29AC L_29AC:                         ; xref: jump from $29A8
+    LDA $6964
+    CMP #$D8
+    BEQ $29B6                         ; Branch to L_29B6
+    JMP $29DA                         ; Jump to L_29DA
+$29B6 L_29B6:                         ; xref: branch from $29B1
+    LDA $6974
+    STA $69A7
+    LDA $6975
+    STA $69A8
+    JSR $27AF                         ; Call SUB_27AF
+    LDA $6974
+    AND $69A7
+    STA $6974
+    LDA $6975
+    AND $69A8
+    STA $6975
+    JMP $299E                         ; Jump to L_299E
+$29DA L_29DA:                         ; xref: jump from $29B3
+    LDA $6964
+    CMP #$D9
+    BEQ $29E4                         ; Branch to L_29E4
+    JMP $2A08                         ; Jump to L_2A08
+$29E4 L_29E4:                         ; xref: branch from $29DF
+    LDA $6974
+    STA $69A7
+    LDA $6975
+    STA $69A8
+    JSR $27AF                         ; Call SUB_27AF
+    LDA $6974
+    ORA $69A7
+    STA $6974
+    LDA $6975
+    ORA $69A8
+    STA $6975
+    JMP $299E                         ; Jump to L_299E
+$2A08 L_2A08:                         ; xref: jump from $29E1
+    LDA #$07
+    STA $6974
+    LDA #$00
+    STA $6975
+    JMP $23A1                         ; Jump to L_23A1
+
+; === SUBROUTINE: SUB_2A15 ===
+
+$2A15 SUB_2A15:                       ; xref: call from $2AF8 (L_2AF8)
+                                      ; xref: call from $2B88
+    LDA $6976
+    STA $69A9
+    LDA $6977
+    STA $69AA
+    JSR $1D71                         ; Call script_vm_read_next_token
+    LDA $6964
+    CMP #$E0
+    BEQ $2A2F                         ; Branch to L_2A2F
+    LDA #$00
+    BEQ $2A31                         ; Branch to L_2A31
+$2A2F L_2A2F:                         ; xref: branch from $2A29
+    LDA #$FF
+$2A31 L_2A31:                         ; xref: branch from $2A2D
+    STA $70FB
+    LDA $6964
+    CMP #$E1
+    BEQ $2A3F                         ; Branch to L_2A3F
+    LDA #$00
+    BEQ $2A41                         ; Branch to L_2A41
+$2A3F L_2A3F:                         ; xref: branch from $2A39
+    LDA #$FF
+$2A41 L_2A41:                         ; xref: branch from $2A3D
+    STA $7100
+    LDA $70FB
+    ORA $7100
+    STA $70FB
+    LDA $6964
+    CMP #$E3
+    BEQ $2A58                         ; Branch to L_2A58
+    LDA #$00
+    BEQ $2A5A                         ; Branch to L_2A5A
+$2A58 L_2A58:                         ; xref: branch from $2A52
+    LDA #$FF
+$2A5A L_2A5A:                         ; xref: branch from $2A56
+    STA $7100
+    LDA $70FB
+    ORA $7100
+    STA $70FB
+    LDA $6964
+    CMP #$E6
+    BEQ $2A71                         ; Branch to L_2A71
+    LDA #$00
+    BEQ $2A73                         ; Branch to L_2A73
+$2A71 L_2A71:                         ; xref: branch from $2A6B
+    LDA #$FF
+$2A73 L_2A73:                         ; xref: branch from $2A6F
+    STA $7100
+    LDA $70FB
+    ORA $7100
+    STA $70FB
+    LDA $6964
+    CMP #$EA
+    BEQ $2A8A                         ; Branch to L_2A8A
+    LDA #$00
+    BEQ $2A8C                         ; Branch to L_2A8C
+$2A8A L_2A8A:                         ; xref: branch from $2A84
+    LDA #$FF
+$2A8C L_2A8C:                         ; xref: branch from $2A88
+    STA $7100
+    LDA $70FB
+    ORA $7100
+    STA $70FB
+    LDA $6964
+    CMP #$C1
+    BEQ $2AA3                         ; Branch to L_2AA3
+    LDA #$00
+    BEQ $2AA5                         ; Branch to L_2AA5
+$2AA3 L_2AA3:                         ; xref: branch from $2A9D
+    LDA #$FF
+$2AA5 L_2AA5:                         ; xref: branch from $2AA1
+    STA $7100
+    LDA $70FB
+    ORA $7100
+    BNE $2AB3                         ; Branch to L_2AB3
+    JMP $2AC4                         ; Jump to L_2AC4
+$2AB3 L_2AB3:                         ; xref: branch from $2AAE
+    CLC
+    LDA $6976
+    ADC #$02
+    STA $6976
+    LDA $6977
+    ADC #$00
+    STA $6977
+$2AC4 L_2AC4:                         ; xref: jump from $2AB0
+    LDA $6964
+    CMP #$C0
+    BEQ $2ACE                         ; Branch to L_2ACE
+    JMP $2AD6                         ; Jump to L_2AD6
+$2ACE L_2ACE:                         ; xref: branch from $2AC9
+    INC $6976
+    BNE $2AD6                         ; Branch to L_2AD6
+    INC $6977
+$2AD6 L_2AD6:                         ; xref: jump from $2ACB
+                                      ; xref: branch from $2AD1
+    RTS
+$2AD7 L_2AD7:                         ; xref: jump from $1C6E
+    JSR $299B                         ; Call SUB_299B
+    LDA $6974
+    CMP #$00
+    BNE $2AE6                         ; Branch to L_2AE6
+    LDA $6975
+    CMP #$00
+$2AE6 L_2AE6:                         ; xref: branch from $2ADF
+    BNE $2AEB                         ; Branch to L_2AEB
+    JMP $2AEE                         ; Jump to L_2AEE
+$2AEB L_2AEB:                         ; xref: branch from $2AE6 (L_2AE6)
+    JMP $1C12                         ; Jump to script_vm_dispatch
+$2AEE L_2AEE:                         ; xref: jump from $2AE8
+    LDA #$00
+    STA $69A5
+    LDA #$00
+    STA $69A6
+$2AF8 L_2AF8:                         ; xref: jump from $2B0D (L_2B0D)
+                                      ; xref: jump from $2B6B (L_2B6B)
+                                      ; xref: jump from $2B9D (L_2B9D)
+                                      ; xref: jump from $2BC6 (L_2BC6)
+    JSR $2A15                         ; Call SUB_2A15
+    LDA $6964
+    CMP #$D0
+    BEQ $2B05                         ; Branch to L_2B05
+    JMP $2B10                         ; Jump to L_2B10
+$2B05 L_2B05:                         ; xref: branch from $2B00
+    INC $69A5
+    BNE $2B0D                         ; Branch to L_2B0D
+    INC $69A6
+$2B0D L_2B0D:                         ; xref: branch from $2B08
+    JMP $2AF8                         ; Jump to L_2AF8
+$2B10 L_2B10:                         ; xref: jump from $2B02
+    LDA $6964
+    CMP #$D3
+    BEQ $2B1A                         ; Branch to L_2B1A
+    JMP $2B25                         ; Jump to L_2B25
+$2B1A L_2B1A:                         ; xref: branch from $2B15
+    LDA $69A5
+    BNE $2B22                         ; Branch to L_2B22
+    DEC $69A6
+$2B22 L_2B22:                         ; xref: branch from $2B1D
+    DEC $69A5
+$2B25 L_2B25:                         ; xref: jump from $2B17
+    LDA $6964
+    CMP #$D2
+    BEQ $2B30                         ; Branch to L_2B30
+    LDA #$00
+    BEQ $2B32                         ; Branch to L_2B32
+$2B30 L_2B30:                         ; xref: branch from $2B2A
+    LDA #$FF
+$2B32 L_2B32:                         ; xref: branch from $2B2E
+    STA $70FB
+    LDA $69A5
+    CMP #$00
+    BNE $2B41                         ; Branch to L_2B41
+    LDA $69A6
+    CMP #$00
+$2B41 L_2B41:                         ; xref: branch from $2B3A
+    BEQ $2B47                         ; Branch to L_2B47
+    LDA #$00
+    BEQ $2B49                         ; Branch to L_2B49
+$2B47 L_2B47:                         ; xref: branch from $2B41 (L_2B41)
+    LDA #$FF
+$2B49 L_2B49:                         ; xref: branch from $2B45
+    STA $7100
+    LDA $70FB
+    AND $7100
+    BNE $2B57                         ; Branch to L_2B57
+    JMP $2B5A                         ; Jump to L_2B5A
+$2B57 L_2B57:                         ; xref: branch from $2B52
+    JMP $1C12                         ; Jump to script_vm_dispatch
+$2B5A L_2B5A:                         ; xref: jump from $2B54
+    LDA $69A5
+    CMP #$FF
+    BNE $2B66                         ; Branch to L_2B66
+    LDA $69A6
+    CMP #$FF
+$2B66 L_2B66:                         ; xref: branch from $2B5F
+    BNE $2B6B                         ; Branch to L_2B6B
+    JMP $2B6E                         ; Jump to L_2B6E
+$2B6B L_2B6B:                         ; xref: branch from $2B66 (L_2B66)
+    JMP $2AF8                         ; Jump to L_2AF8
+$2B6E L_2B6E:                         ; xref: jump from $2B68
+    JMP $1C12                         ; Jump to script_vm_dispatch
+$2B71 L_2B71:                         ; xref: jump from $1C75
+    LDA #$02
+    STA $6974
+    LDA #$00
+    STA $6975
+    JMP $23A1                         ; Jump to L_23A1
+$2B7E L_2B7E:                         ; xref: jump from $1C7C
+    LDA #$00
+    STA $69A5
+    LDA #$00
+    STA $69A6
+    JSR $2A15                         ; Call SUB_2A15
+    LDA $6964
+    CMP #$D0
+    BEQ $2B95                         ; Branch to L_2B95
+    JMP $2BA0                         ; Jump to L_2BA0
+$2B95 L_2B95:                         ; xref: branch from $2B90
+    INC $69A5
+    BNE $2B9D                         ; Branch to L_2B9D
+    INC $69A6
+$2B9D L_2B9D:                         ; xref: branch from $2B98
+    JMP $2AF8                         ; Jump to L_2AF8
+$2BA0 L_2BA0:                         ; xref: jump from $2B92
+    LDA $6964
+    CMP #$D3
+    BEQ $2BAA                         ; Branch to L_2BAA
+    JMP $2BB5                         ; Jump to L_2BB5
+$2BAA L_2BAA:                         ; xref: branch from $2BA5
+    LDA $69A5
+    BNE $2BB2                         ; Branch to L_2BB2
+    DEC $69A6
+$2BB2 L_2BB2:                         ; xref: branch from $2BAD
+    DEC $69A5
+$2BB5 L_2BB5:                         ; xref: jump from $2BA7
+    LDA $69A5
+    CMP #$FF
+    BNE $2BC1                         ; Branch to L_2BC1
+    LDA $69A6
+    CMP #$FF
+$2BC1 L_2BC1:                         ; xref: branch from $2BBA
+    BNE $2BC6                         ; Branch to L_2BC6
+    JMP $2BC9                         ; Jump to L_2BC9
+$2BC6 L_2BC6:                         ; xref: branch from $2BC1 (L_2BC1)
+    JMP $2AF8                         ; Jump to L_2AF8
+$2BC9 L_2BC9:                         ; xref: jump from $2BC3
+    JMP $1C12                         ; Jump to script_vm_dispatch
+$2BCC L_2BCC:                         ; xref: jump from $1C83
+    JMP $1C12                         ; Jump to script_vm_dispatch
+$2BCF L_2BCF:                         ; xref: jump from $1C8A
+                                      ; xref: jump from $1C91
+                                      ; xref: jump from $1C98
+                                      ; xref: jump from $1C9F
+                                      ; xref: jump from $1CA6
+                                      ; xref: jump from $1CAD
+                                      ; xref: jump from $1CBA
+                                      ; xref: jump from $1CC1
+                                      ; xref: jump from $1CC8
+                                      ; xref: jump from $1CCF
+                                      ; xref: jump from $1CD6
+                                      ; xref: jump from $1CDD
+    LDA #$02
+    STA $6974
+    LDA #$00
+    STA $6975
+    JMP $23A1                         ; Jump to L_23A1
+$2BDC L_2BDC:                         ; xref: jump from $1CE4
+    JSR $1D71                         ; Call script_vm_read_next_token
+    LDA $6964
+    STA $69AB
+    LDA #$00
+    STA $69AC
+    JSR $1D71                         ; Call script_vm_read_next_token
+    LDA $6964
+    STA $69AD
+    LDA #$00
+    STA $69AE
+    LDA $6976
+    STA $69A5
+    LDA $6977
+    STA $69A6
+    JSR $2908                         ; Call script_vm_push_return
+    LDA $69AD
+    STA $70FC
+    LDA #$00
+    STA $70FB
+    CLC
+    LDA $69AB
+    ADC $70FB
+    STA $6976
+    LDA $69AC
+    ADC $70FC
+    STA $6977
+    JMP $1C12                         ; Jump to script_vm_dispatch
+$2C28 L_2C28:                         ; xref: jump from $1CEB
+    JSR $1D71                         ; Call script_vm_read_next_token
+    LDA $6964
+    STA $69AB
+    LDA #$00
+    STA $69AC
+    JSR $1D71                         ; Call script_vm_read_next_token
+    LDA $6964
+    STA $69AD
+    LDA #$00
+    STA $69AE
+    LDA $69AD
+    STA $70FC
+    LDA #$00
+    STA $70FB
+    CLC
+    LDA $69AB
+    ADC $70FB
+    STA $6976
+    LDA $69AC
+    ADC $70FC
+    STA $6977
+    JMP $1C12                         ; Jump to script_vm_dispatch
+$2C65 L_2C65:                         ; xref: jump from $1CF2
+    JSR $1E8C                         ; Call script_vm_read_value
+    LDA $697C
+    STA $69AF
+    LDA $697D
+    STA $69B0
+    LDA #$01
+    STA $69B1
+    LDA #$00
+    STA $69B2
+$2C7E L_2C7E:                         ; xref: jump from $2CBA (L_2CBA)
+    JSR $1D71                         ; Call script_vm_read_next_token
+    LDA $6964
+    CMP #$EA
+    BNE $2C8B                         ; Branch to L_2C8B
+    JMP $2C8E                         ; Jump to L_2C8E
+$2C8B L_2C8B:                         ; xref: branch from $2C86
+    JMP $1C15                         ; Jump to L_1C15
+$2C8E L_2C8E:                         ; xref: jump from $2C88
+    LDA $69B1
+    CMP $69AF
+    BNE $2C9C                         ; Branch to L_2C9C
+    LDA $69B2
+    CMP $69B0
+$2C9C L_2C9C:                         ; xref: branch from $2C94
+    BNE $2CA1                         ; Branch to L_2CA1
+    JMP $2CBD                         ; Jump to L_2CBD
+$2CA1 L_2CA1:                         ; xref: branch from $2C9C (L_2C9C)
+    CLC
+    LDA $6976
+    ADC #$02
+    STA $6976
+    LDA $6977
+    ADC #$00
+    STA $6977
+    INC $69B1
+    BNE $2CBA                         ; Branch to L_2CBA
+    INC $69B2
+$2CBA L_2CBA:                         ; xref: branch from $2CB5
+    JMP $2C7E                         ; Jump to L_2C7E
+$2CBD L_2CBD:                         ; xref: jump from $2C9E
+    JSR $1D71                         ; Call script_vm_read_next_token
+    LDA $6964
+    STA $69AB
+    LDA #$00
+    STA $69AC
+    JSR $1D71                         ; Call script_vm_read_next_token
+    LDA $6964
+    STA $69AD
+    LDA #$00
+    STA $69AE
+$2CD9 L_2CD9:                         ; xref: jump from $2D05
+    LDA $6976
+    STA $57
+    LDA $6977
+    STA $58
+    LDY #$00
+    LDA ($57),Y
+    STA $70FB
+    LDA $70FB
+    CMP #$EA
+    BEQ $2CF4                         ; Branch to L_2CF4
+    JMP $2D08                         ; Jump to L_2D08
+$2CF4 L_2CF4:                         ; xref: branch from $2CEF
+    CLC
+    LDA $6976
+    ADC #$03
+    STA $6976
+    LDA $6977
+    ADC #$00
+    STA $6977
+    JMP $2CD9                         ; Jump to L_2CD9
+$2D08 L_2D08:                         ; xref: jump from $2CF1
+    LDA $6976
+    STA $69A5
+    LDA $6977
+    STA $69A6
+    JSR $2908                         ; Call script_vm_push_return
+    LDA $69AD
+    STA $70FC
+    LDA #$00
+    STA $70FB
+    CLC
+    LDA $69AB
+    ADC $70FB
+    STA $6976
+    LDA $69AC
+    ADC $70FC
+    STA $6977
+    JMP $1C12                         ; Jump to script_vm_dispatch
+$2D38 L_2D38:                         ; xref: jump from $1CF9
+    JSR $1E8C                         ; Call script_vm_read_value
+    LDA $697C
+    STA $4E
+    LDA $697D
+    STA $4F
+    JSR $0CDB                         ; Call SUB_0CDB
+
+; === DATA SECTION ===
+
+$2D48                   .BYTE $FF,$4E,$00,$4C,$12,$1C                                          ; ".N.L.."
+
+; === CODE SECTION ===
+
+; --------------------------------------------------------
+; Handler for VM opcode E4: read an 8-bit value from the current script table pointer at $69B3, then apply it to the destination operand.
+; --------------------------------------------------------
+$2D4E script_vm_op_read_table8:       ; xref: jump from $1D06
+    LDA $69B3
+    STA $57
+    LDA $69B4
+    STA $58
+    LDY #$00
+    LDA ($57),Y
+    STA $699F
+    LDA #$00
+    STA $69A0
+    INC $69B3
+    BNE $2D6C                         ; Branch to L_2D6C
+    INC $69B4
+$2D6C L_2D6C:                         ; xref: branch from $2D67
+    JSR $2751                         ; Call script_vm_apply_table_value
+    JMP $1C12                         ; Jump to script_vm_dispatch
+; --------------------------------------------------------
+; Handler for VM opcode E5: read a 16-bit value from the current script table pointer at $69B3, then apply it to the destination operand.
+; --------------------------------------------------------
+$2D72 script_vm_op_read_table16:      ; xref: jump from $1D0D
+    LDA $69B3
+    STA $57
+    LDA $69B4
+    STA $58
+    LDY #$00
+    LDA ($57),Y
+    STA $70FB
+    CLC
+    LDA $69B3
+    ADC #$01
+    STA $4E
+    LDA $69B4
+    ADC #$00
+    STA $4F
+    LDY #$00
+    LDA ($4E),Y
+    STA $7100
+    LDA #$00
+    STA $7101
+    LDA $7100
+    STA $7101
+    LDA #$00
+    STA $7100
+    LDA #$00
+    STA $70FC
+    CLC
+    LDA $70FB
+    ADC $7100
+    STA $699F
+    LDA $70FC
+    ADC $7101
+    STA $69A0
+    CLC
+    LDA $69B3
+    ADC #$02
+    STA $69B3
+    LDA $69B4
+    ADC #$00
+    STA $69B4
+    JSR $2751                         ; Call script_vm_apply_table_value
+    JMP $1C12                         ; Jump to script_vm_dispatch
+; --------------------------------------------------------
+; Handler for VM opcode E6: load a new table base address into $69B3/$69B4.
+; --------------------------------------------------------
+$2DD8 script_vm_op_set_table:         ; xref: jump from $1D14
+    JSR $1D71                         ; Call script_vm_read_next_token
+    LDA $6964
+    STA $69AB
+    LDA #$00
+    STA $69AC
+    JSR $1D71                         ; Call script_vm_read_next_token
+    LDA $6964
+    STA $69AD
+    LDA #$00
+    STA $69AE
+    LDA $69AD
+    STA $70FC
+    LDA #$00
+    STA $70FB
+    CLC
+    LDA $69AB
+    ADC $70FB
+    STA $69B3
+    LDA $69AC
+    ADC $70FC
+    STA $69B4
+    JMP $1C12                         ; Jump to script_vm_dispatch
+; --------------------------------------------------------
+; Handler for VM opcode E7: return from a script subroutine by popping the VM return stack.
+; --------------------------------------------------------
+$2E15 script_vm_op_return:            ; xref: jump from $1D1B
+    LDA $69A3
+    CMP #$00
+    BNE $2E21                         ; Branch to L_2E21
+    LDA $69A4
+    CMP #$00
+$2E21 L_2E21:                         ; xref: branch from $2E1A
+    BEQ $2E26                         ; Branch to L_2E26
+    JMP $2E27                         ; Jump to L_2E27
+$2E26 L_2E26:                         ; xref: branch from $2E21 (L_2E21)
+    RTS
+$2E27 L_2E27:                         ; xref: jump from $2E23
+    JSR $2950                         ; Call script_vm_pop_return
+    LDA $69A5
+    STA $6976
+    LDA $69A6
+    STA $6977
+    JMP $1C12                         ; Jump to script_vm_dispatch
+; --------------------------------------------------------
+; Handler for VM opcode E8: display the text currently selected by the script.
+; --------------------------------------------------------
+$2E39 script_vm_op_show_text:         ; xref: jump from $1D22
+    JSR $3C02                         ; Call script_vm_show_text
+    JMP $1C12                         ; Jump to script_vm_dispatch
+$2E3F L_2E3F:                         ; xref: jump from $1D29
+                                      ; xref: jump from $1D30
+    LDA #$DE
+    STA $6974
+    LDA #$00
+    STA $6975
+    JMP $23A1                         ; Jump to L_23A1
+; --------------------------------------------------------
+; Handler for VM opcode EB: display the image currently selected by the script.
+; --------------------------------------------------------
+$2E4C script_vm_op_show_image:        ; xref: jump from $1D37
+    JSR $4087                         ; Call script_vm_show_image
+    JMP $1C12                         ; Jump to script_vm_dispatch
+$2E52 L_2E52:                         ; xref: jump from $1D3E
+    JMP $1C12                         ; Jump to script_vm_dispatch
+; --------------------------------------------------------
+; Handler for VM opcode ED: invoke game-specific room/resource selection logic.
+; --------------------------------------------------------
+$2E55 script_vm_op_room_logic:        ; xref: jump from $1D45
+    JSR $2E5B                         ; Call script_vm_special_room_logic
+    JMP $1C12                         ; Jump to script_vm_dispatch
+
+; === SUBROUTINE: script_vm_special_room_logic ===
+
+; --------------------------------------------------------
+; Game-specific helper reached from VM opcode ED.
+; Selects text/resources based on the current room number at $695D and updates the active text pointer in $6990/$6991.
+; --------------------------------------------------------
+$2E5B script_vm_special_room_logic:   ; xref: call from $2E55 (script_vm_op_room_logic)
+                                      ; xref: call from $4B3B
+                                      ; xref: call from $5C92
+    LDA $695D
+    CMP #$10
+    BCC $2E65                         ; Branch to L_2E65
+    JMP $2E81                         ; Jump to L_2E81
+$2E65 L_2E65:                         ; xref: branch from $2E60
+    LDA $695D
+    STA $70FB
+    LDA #$00
+    STA $70FC
+    CLC
+    LDA $70FB
+    ADC #$6A
+    STA $6990
+    LDA $70FC
+    ADC #$00
+    STA $6991
+$2E81 L_2E81:                         ; xref: jump from $2E62
+    LDA #$0F
+    CMP $695D
+    BCC $2E8C                         ; Branch to L_2E8C
+    LDA #$00
+    BEQ $2E8E                         ; Branch to L_2E8E
+$2E8C L_2E8C:                         ; xref: branch from $2E86
+    LDA #$FF
+$2E8E L_2E8E:                         ; xref: branch from $2E8A
+    STA $70FB
+    LDA $695D
+    CMP #$33
+    BCC $2E9C                         ; Branch to L_2E9C
+    LDA #$00
+    BEQ $2E9E                         ; Branch to L_2E9E
+$2E9C L_2E9C:                         ; xref: branch from $2E96
+    LDA #$FF
+$2E9E L_2E9E:                         ; xref: branch from $2E9A
+    STA $7100
+    LDA $70FB
+    AND $7100
+    BNE $2EAC                         ; Branch to L_2EAC
+    JMP $2EC8                         ; Jump to L_2EC8
+$2EAC L_2EAC:                         ; xref: branch from $2EA7
+    LDA $695D
+    STA $70FB
+    LDA #$00
+    STA $70FC
+    CLC
+    LDA $70FB
+    ADC #$99
+    STA $6990
+    LDA $70FC
+    ADC #$00
+    STA $6991
+$2EC8 L_2EC8:                         ; xref: jump from $2EA9
+    LDA #$32
+    CMP $695D
+    BCC $2ED3                         ; Branch to L_2ED3
+    LDA #$00
+    BEQ $2ED5                         ; Branch to L_2ED5
+$2ED3 L_2ED3:                         ; xref: branch from $2ECD
+    LDA #$FF
+$2ED5 L_2ED5:                         ; xref: branch from $2ED1
+    STA $70FB
+    LDA $695D
+    CMP #$42
+    BCC $2EE3                         ; Branch to L_2EE3
+    LDA #$00
+    BEQ $2EE5                         ; Branch to L_2EE5
+$2EE3 L_2EE3:                         ; xref: branch from $2EDD
+    LDA #$FF
+$2EE5 L_2EE5:                         ; xref: branch from $2EE1
+    STA $7100
+    LDA $70FB
+    AND $7100
+    BNE $2EF3                         ; Branch to L_2EF3
+    JMP $2F0F                         ; Jump to L_2F0F
+$2EF3 L_2EF3:                         ; xref: branch from $2EEE
+    LDA $695D
+    STA $70FB
+    LDA #$00
+    STA $70FC
+    CLC
+    LDA $70FB
+    ADC #$31
+    STA $6990
+    LDA $70FC
+    ADC #$01
+    STA $6991
+$2F0F L_2F0F:                         ; xref: jump from $2EF0
+    LDA #$41
+    CMP $695D
+    BCC $2F19                         ; Branch to L_2F19
+    JMP $2F35                         ; Jump to L_2F35
+$2F19 L_2F19:                         ; xref: branch from $2F14
+    LDA $695D
+    STA $70FB
+    LDA #$00
+    STA $70FC
+    CLC
+    LDA $70FB
+    ADC #$4C
+    STA $6990
+    LDA $70FC
+    ADC #$01
+    STA $6991
+$2F35 L_2F35:                         ; xref: jump from $2F16
+    LDA $7027                         ; room_visited_table
+    CMP #$00
+    BNE $2F3F                         ; Branch to L_2F3F
+    JMP $2F42                         ; Jump to L_2F42
+$2F3F L_2F3F:                         ; xref: branch from $2F3A
+    JMP $2F85                         ; Jump to L_2F85
+$2F42 L_2F42:                         ; xref: jump from $2F3C
+    LDA $695D
+    STA $70FB
+    LDA #$00
+    STA $70FC
+    CLC
+    LDA $70FB
+    ADC #$27
+    STA $57
+    LDA $70FC
+    ADC #$70
+    STA $58
+    LDY #$00
+    LDA ($57),Y
+    STA $70FB
+    LDA $70FB
+    CMP #$00
+    BNE $2F6D                         ; Branch to L_2F6D
+    JMP $2F85                         ; Jump to L_2F85
+$2F6D L_2F6D:                         ; xref: branch from $2F68
+    LDA #$01
+    STA $6958
+    LDA $695D
+    STA $6959
+    LDA #$84
+    STA $6990
+    LDA #$03
+    STA $6991
+    JMP $2FA1                         ; Jump to L_2FA1
+$2F85 L_2F85:                         ; xref: jump from $2F3F (L_2F3F)
+                                      ; xref: jump from $2F6A
+    LDA $6990
+    STA $69B5
+    LDA $6991
+    STA $69B6
+    LDA $695D
+    STA $69B7
+    LDA #$00
+    STA $69B8
+    LDA #$00
+    STA $6958
+$2FA1 L_2FA1:                         ; xref: jump from $2F82
+    RTS
+; --------------------------------------------------------
+; Handler for VM opcode EE: restart/reset via the shared engine entry at $0CDB.
+; --------------------------------------------------------
+$2FA2 script_vm_op_restart:           ; xref: jump from $1D52
+    JSR $0CDB                         ; Call SUB_0CDB
+    BRK
+
+; === DATA SECTION ===
+
+$2FA6                   .BYTE $1B,$96,$4C,$12,$1C                                              ; "..L.."
+
+; === CODE SECTION ===
+
+; --------------------------------------------------------
+; Handler for VM opcode EF: dispatch SPECIAL(selector).
+; Low selector ranges branch into bespoke engine behaviors such as load/save, inventory, endgame, and other adventure-specific services.
+; --------------------------------------------------------
+$2FAB script_vm_op_special:           ; xref: jump from $1D59
+    JSR $1E8C                         ; Call script_vm_read_value
+    LDA $697C
+    STA $69B9
+    LDA $697D
+    STA $69BA
+    LDA $69B9
+    CMP #$64
+    LDA $69BA
+    SBC #$00
+    BCC $2FC9                         ; Branch to L_2FC9
+    JMP $2FCC                         ; Jump to L_2FCC
+$2FC9 L_2FC9:                         ; xref: branch from $2FC4
+    JMP $36B3                         ; Jump to L_36B3
+$2FCC L_2FCC:                         ; xref: jump from $2FC6
+    LDA $69B9
+    CMP #$C8
+    LDA $69BA
+    SBC #$00
+    BCC $2FDB                         ; Branch to L_2FDB
+    JMP $2FDE                         ; Jump to L_2FDE
+$2FDB L_2FDB:                         ; xref: branch from $2FD6
+    JMP $2FF4                         ; Jump to L_2FF4
+$2FDE L_2FDE:                         ; xref: jump from $2FD8
+    JSR $0C80                         ; Call SUB_0C80
+    LDA $FB69,Y
+    BVS $3006                         ; Branch to L_3006
+    STA $200C
+    PHA
+
+; === DATA SECTION ===
+
+$2FEA                   .BYTE $FB,$70,$9C,$69,$20,$D1                                          ; ".p.i ."
+$2FF0                   .BYTE $45,$4C,$12,$1C                                                  ; "EL.."
+
+; === CODE SECTION ===
+
+$2FF4 L_2FF4:                         ; xref: jump from $2FDB (L_2FDB)
+    SEC
+    LDA $69B9
+    SBC #$63
+    STA $70FB
+    LDA $69BA
+    SBC #$00
+    STA $70FC
+    LDA $70FB                         ; xref+1: branch from $2FE4  [instruction data modified]
+    CMP #$01
+    BNE $3011                         ; Branch to L_3011
+    JSR $305C                         ; Call SUB_305C
+    LDA #$01
+$3011 L_3011:                         ; xref: branch from $300A
+    CMP #$02
+    BNE $301A                         ; Branch to L_301A
+    JSR $31AB                         ; Call SUB_31AB
+    LDA #$02
+$301A L_301A:                         ; xref: branch from $3013
+    CMP #$03
+    BNE $3023                         ; Branch to L_3023
+    JSR $324F                         ; Call SUB_324F
+    LDA #$03
+$3023 L_3023:                         ; xref: branch from $301C
+    CMP #$04
+    BNE $302C                         ; Branch to L_302C
+    JSR $3317                         ; Call SUB_3317
+    LDA #$04
+$302C L_302C:                         ; xref: branch from $3025
+    CMP #$05
+    BNE $3035                         ; Branch to L_3035
+    JSR $33DA                         ; Call SUB_33DA
+    LDA #$05
+$3035 L_3035:                         ; xref: branch from $302E
+    CMP #$06
+    BNE $303E                         ; Branch to L_303E
+    JSR $347E                         ; Call SUB_347E
+    LDA #$06
+$303E L_303E:                         ; xref: branch from $3037
+    CMP #$07
+    BNE $3047                         ; Branch to L_3047
+    JSR $35BB                         ; Call SUB_35BB
+    LDA #$07
+$3047 L_3047:                         ; xref: branch from $3040
+    CMP #$08
+    BNE $3050                         ; Branch to L_3050
+    JSR $362D                         ; Call SUB_362D
+    LDA #$08
+$3050 L_3050:                         ; xref: branch from $3049
+    CMP #$09
+    BNE $3059                         ; Branch to L_3059
+    JSR $364C                         ; Call SUB_364C
+    LDA #$09
+$3059 L_3059:                         ; xref: branch from $3052
+    JMP $1C12                         ; Jump to script_vm_dispatch
+
+; === SUBROUTINE: SUB_305C ===
+
+$305C SUB_305C:                       ; xref: call from $300C
+    LDA #$00
+    STA $6992
+    LDA #$00
+    STA $6993
+    LDA $6D51
+    STA $70FB
+    LDA #$00
+    STA $70FC
+    LDA $70FB
+    CMP #$00
+    BNE $307D                         ; Branch to L_307D
+    LDA $70FC
+    CMP #$00
+$307D L_307D:                         ; xref: branch from $3076
+    BEQ $3083                         ; Branch to L_3083
+    LDA #$00
+    BEQ $3085                         ; Branch to L_3085
+$3083 L_3083:                         ; xref: branch from $307D (L_307D)
+    LDA #$FF
+$3085 L_3085:                         ; xref: branch from $3081
+    STA $70FB
+    LDA $6D93
+    STA $7100
+    LDA #$00
+    STA $7101
+    LDA $7100
+    CMP #$00
+    BNE $309F                         ; Branch to L_309F
+    LDA $7101
+    CMP #$00
+$309F L_309F:                         ; xref: branch from $3098
+    BEQ $30A5                         ; Branch to L_30A5
+    LDA #$00
+    BEQ $30A7                         ; Branch to L_30A7
+$30A5 L_30A5:                         ; xref: branch from $309F (L_309F)
+    LDA #$FF
+$30A7 L_30A7:                         ; xref: branch from $30A3
+    STA $7100
+    LDA $70FB
+    STA $70FB
+    STA $70FC
+    LDA $7100
+    STA $7100
+    STA $7101
+    LDA $70FB
+    ORA $7100
+    STA $70FB
+    LDA $70FC
+    ORA $7101
+    STA $70FC
+    LDA $6D82
+    STA $7100
+    LDA #$00
+    STA $7101
+    LDA $7100
+    CMP #$00
+    BNE $30E5                         ; Branch to L_30E5
+    LDA $7101
+    CMP #$00
+$30E5 L_30E5:                         ; xref: branch from $30DE
+    BEQ $30EB                         ; Branch to L_30EB
+    LDA #$00
+    BEQ $30ED                         ; Branch to L_30ED
+$30EB L_30EB:                         ; xref: branch from $30E5 (L_30E5)
+    LDA #$FF
+$30ED L_30ED:                         ; xref: branch from $30E9
+    STA $7100
+    LDA $7100
+    STA $7100
+    STA $7101
+    LDA $70FB
+    ORA $7100
+    STA $69B9
+    LDA $70FC
+    ORA $7101
+    STA $69BA
+    LDA $6D98
+    CMP #$00
+    BEQ $3116                         ; Branch to L_3116
+    LDA #$00
+    BEQ $3118                         ; Branch to L_3118
+$3116 L_3116:                         ; xref: branch from $3110
+    LDA #$FF
+$3118 L_3118:                         ; xref: branch from $3114
+    STA $70FB
+    LDA $6D81
+    CMP #$00
+    BEQ $3126                         ; Branch to L_3126
+    LDA #$00
+    BEQ $3128                         ; Branch to L_3128
+$3126 L_3126:                         ; xref: branch from $3120
+    LDA #$FF
+$3128 L_3128:                         ; xref: branch from $3124
+    STA $7100
+    LDA $70FB
+    ORA $7100
+    STA $70FB
+    LDA $6D18
+    CMP #$00
+    BEQ $313F                         ; Branch to L_313F
+    LDA #$00
+    BEQ $3141                         ; Branch to L_3141
+$313F L_313F:                         ; xref: branch from $3139
+    LDA #$FF
+$3141 L_3141:                         ; xref: branch from $313D
+    STA $7100
+    LDA $70FB
+    ORA $7100
+    STA $70FB
+    LDA $70FB
+    STA $70FB
+    STA $70FC
+    LDA $69B9
+    AND $70FB
+    STA $70FB
+    LDA $69BA
+    AND $70FC
+    STA $70FC
+    LDA $6D9B
+    CMP #$00
+    BEQ $3173                         ; Branch to L_3173
+    LDA #$00
+    BEQ $3175                         ; Branch to L_3175
+$3173 L_3173:                         ; xref: branch from $316D
+    LDA #$FF
+$3175 L_3175:                         ; xref: branch from $3171
+    STA $7100
+    LDA $7100
+    STA $7100
+    STA $7101
+    LDA $70FB
+    AND $7100
+    STA $70FB
+    LDA $70FC
+    AND $7101
+    STA $70FC
+    LDA $70FB
+    ORA $70FC
+    STA $4E
+    BNE $31A0                         ; Branch to L_31A0
+    JMP $31AA                         ; Jump to L_31AA
+$31A0 L_31A0:                         ; xref: branch from $319B
+    LDA #$01
+    STA $6992
+    LDA #$00
+    STA $6993
+$31AA L_31AA:                         ; xref: jump from $319D
+    RTS
+
+; === SUBROUTINE: SUB_31AB ===
+
+$31AB SUB_31AB:                       ; xref: call from $3015
+    LDA #$00
+    STA $6992
+    LDA #$00
+    STA $6993
+    LDA $6D51
+    CMP #$01
+    BEQ $31C0                         ; Branch to L_31C0
+    LDA #$00
+    BEQ $31C2                         ; Branch to L_31C2
+$31C0 L_31C0:                         ; xref: branch from $31BA
+    LDA #$FF
+$31C2 L_31C2:                         ; xref: branch from $31BE
+    STA $70FB
+    LDA $6D93
+    CMP #$01
+    BEQ $31D0                         ; Branch to L_31D0
+    LDA #$00
+    BEQ $31D2                         ; Branch to L_31D2
+$31D0 L_31D0:                         ; xref: branch from $31CA
+    LDA #$FF
+$31D2 L_31D2:                         ; xref: branch from $31CE
+    STA $7100
+    LDA $70FB
+    AND $7100
+    STA $70FB
+    LDA $6D82
+    CMP #$01
+    BEQ $31E9                         ; Branch to L_31E9
+    LDA #$00
+    BEQ $31EB                         ; Branch to L_31EB
+$31E9 L_31E9:                         ; xref: branch from $31E3
+    LDA #$FF
+$31EB L_31EB:                         ; xref: branch from $31E7
+    STA $7100
+    LDA $70FB
+    AND $7100
+    STA $70FB
+    LDA $6D98
+    CMP #$01
+    BEQ $3202                         ; Branch to L_3202
+    LDA #$00
+    BEQ $3204                         ; Branch to L_3204
+$3202 L_3202:                         ; xref: branch from $31FC
+    LDA #$FF
+$3204 L_3204:                         ; xref: branch from $3200
+    STA $7100
+    LDA $6D81
+    CMP #$01
+    BEQ $3212                         ; Branch to L_3212
+    LDA #$00
+    BEQ $3214                         ; Branch to L_3214
+$3212 L_3212:                         ; xref: branch from $320C
+    LDA #$FF
+$3214 L_3214:                         ; xref: branch from $3210
+    STA $7105
+    LDA $7100
+    AND $7105
+    STA $7100
+    LDA $6D18
+    CMP #$01
+    BEQ $322B                         ; Branch to L_322B
+    LDA #$00
+    BEQ $322D                         ; Branch to L_322D
+$322B L_322B:                         ; xref: branch from $3225
+    LDA #$FF
+$322D L_322D:                         ; xref: branch from $3229
+    STA $7105
+    LDA $7100
+    AND $7105
+    STA $7100
+    LDA $70FB
+    ORA $7100
+    BNE $3244                         ; Branch to L_3244
+    JMP $324E                         ; Jump to L_324E
+$3244 L_3244:                         ; xref: branch from $323F
+    LDA #$01
+    STA $6992
+    LDA #$00
+    STA $6993
+$324E L_324E:                         ; xref: jump from $3241
+    RTS
+
+; === SUBROUTINE: SUB_324F ===
+
+$324F SUB_324F:                       ; xref: call from $301E
+    LDA #$00
+    STA $6992
+    LDA #$00
+    STA $6993
+    LDA #$03
+    CMP $6986
+    LDA #$00
+    SBC $6987
+    BCC $3269                         ; Branch to L_3269
+    LDA #$00
+    BEQ $326B                         ; Branch to L_326B
+$3269 L_3269:                         ; xref: branch from $3263
+    LDA #$FF
+$326B L_326B:                         ; xref: branch from $3267
+    STA $70FB
+    LDA $6986
+    CMP #$08
+    BNE $327A                         ; Branch to L_327A
+    LDA $6987
+    CMP #$00
+$327A L_327A:                         ; xref: branch from $3273
+    BNE $3280                         ; Branch to L_3280
+    LDA #$00
+    BEQ $3282                         ; Branch to L_3282
+$3280 L_3280:                         ; xref: branch from $327A (L_327A)
+    LDA #$FF
+$3282 L_3282:                         ; xref: branch from $327E
+    STA $7100
+    LDA $70FB
+    AND $7100
+    STA $70FB
+    LDA #$0B
+    CMP $6986
+    LDA #$00
+    SBC $6987
+    BCC $329E                         ; Branch to L_329E
+    LDA #$00
+    BEQ $32A0                         ; Branch to L_32A0
+$329E L_329E:                         ; xref: branch from $3298
+    LDA #$FF
+$32A0 L_32A0:                         ; xref: branch from $329C
+    STA $7100
+    LDA $6986
+    CMP #$13
+    LDA $6987
+    SBC #$00
+    BCC $32B3                         ; Branch to L_32B3
+    LDA #$00
+    BEQ $32B5                         ; Branch to L_32B5
+$32B3 L_32B3:                         ; xref: branch from $32AD
+    LDA #$FF
+$32B5 L_32B5:                         ; xref: branch from $32B1
+    STA $7105
+    LDA $7100
+    AND $7105
+    STA $7100
+    LDA $70FB
+    ORA $7100
+    STA $70FB
+    LDA $6986
+    CMP #$14
+    BNE $32D6                         ; Branch to L_32D6
+    LDA $6987
+    CMP #$00
+$32D6 L_32D6:                         ; xref: branch from $32CF
+    BNE $32DC                         ; Branch to L_32DC
+    LDA #$00
+    BEQ $32DE                         ; Branch to L_32DE
+$32DC L_32DC:                         ; xref: branch from $32D6 (L_32D6)
+    LDA #$FF
+$32DE L_32DE:                         ; xref: branch from $32DA
+    STA $7100
+    LDA $70FB
+    ORA $7100
+    STA $70FB
+    LDA $6986
+    CMP #$16
+    BNE $32F6                         ; Branch to L_32F6
+    LDA $6987
+    CMP #$00
+$32F6 L_32F6:                         ; xref: branch from $32EF
+    BNE $32FC                         ; Branch to L_32FC
+    LDA #$00
+    BEQ $32FE                         ; Branch to L_32FE
+$32FC L_32FC:                         ; xref: branch from $32F6 (L_32F6)
+    LDA #$FF
+$32FE L_32FE:                         ; xref: branch from $32FA
+    STA $7100
+    LDA $70FB
+    ORA $7100
+    BNE $330C                         ; Branch to L_330C
+    JMP $3316                         ; Jump to L_3316
+$330C L_330C:                         ; xref: branch from $3307
+    LDA #$01
+    STA $6992
+    LDA #$00
+    STA $6993
+$3316 L_3316:                         ; xref: jump from $3309
+    RTS
+
+; === SUBROUTINE: SUB_3317 ===
+
+$3317 SUB_3317:                       ; xref: call from $3027
+    LDA #$00
+    STA $6992
+    LDA #$00
+    STA $6993
+    LDA $6D51
+    CMP #$00
+    BEQ $332C                         ; Branch to L_332C
+    LDA #$00
+    BEQ $332E                         ; Branch to L_332E
+$332C L_332C:                         ; xref: branch from $3326
+    LDA #$FF
+$332E L_332E:                         ; xref: branch from $332A
+    STA $70FB
+    LDA $6D98
+    CMP #$00
+    BEQ $333C                         ; Branch to L_333C
+    LDA #$00
+    BEQ $333E                         ; Branch to L_333E
+$333C L_333C:                         ; xref: branch from $3336
+    LDA #$FF
+$333E L_333E:                         ; xref: branch from $333A
+    STA $7100
+    LDA $70FB
+    AND $7100
+    BNE $334C                         ; Branch to L_334C
+    JMP $3356                         ; Jump to L_3356
+$334C L_334C:                         ; xref: branch from $3347
+    LDA #$01
+    STA $6992
+    LDA #$00
+    STA $6993
+$3356 L_3356:                         ; xref: jump from $3349
+    LDA $6D81
+    CMP #$00
+    BEQ $3361                         ; Branch to L_3361
+    LDA #$00
+    BEQ $3363                         ; Branch to L_3363
+$3361 L_3361:                         ; xref: branch from $335B
+    LDA #$FF
+$3363 L_3363:                         ; xref: branch from $335F
+    STA $70FB
+    LDA $6D93
+    CMP #$00
+    BEQ $3371                         ; Branch to L_3371
+    LDA #$00
+    BEQ $3373                         ; Branch to L_3373
+$3371 L_3371:                         ; xref: branch from $336B
+    LDA #$FF
+$3373 L_3373:                         ; xref: branch from $336F
+    STA $7100
+    LDA $70FB
+    AND $7100
+    STA $70FB
+    LDA $6D97
+    CMP #$00
+    BEQ $338A                         ; Branch to L_338A
+    LDA #$00
+    BEQ $338C                         ; Branch to L_338C
+$338A L_338A:                         ; xref: branch from $3384
+    LDA #$FF
+$338C L_338C:                         ; xref: branch from $3388
+    STA $7100
+    LDA $70FB
+    AND $7100
+    BNE $339A                         ; Branch to L_339A
+    JMP $33A4                         ; Jump to L_33A4
+$339A L_339A:                         ; xref: branch from $3395
+    LDA #$01
+    STA $6992
+    LDA #$00
+    STA $6993
+$33A4 L_33A4:                         ; xref: jump from $3397
+    LDA $6D18
+    CMP #$00
+    BEQ $33AF                         ; Branch to L_33AF
+    LDA #$00
+    BEQ $33B1                         ; Branch to L_33B1
+$33AF L_33AF:                         ; xref: branch from $33A9
+    LDA #$FF
+$33B1 L_33B1:                         ; xref: branch from $33AD
+    STA $70FB
+    LDA $6D82
+    CMP #$00
+    BEQ $33BF                         ; Branch to L_33BF
+    LDA #$00
+    BEQ $33C1                         ; Branch to L_33C1
+$33BF L_33BF:                         ; xref: branch from $33B9
+    LDA #$FF
+$33C1 L_33C1:                         ; xref: branch from $33BD
+    STA $7100
+    LDA $70FB
+    AND $7100
+    BNE $33CF                         ; Branch to L_33CF
+    JMP $33D9                         ; Jump to L_33D9
+$33CF L_33CF:                         ; xref: branch from $33CA
+    LDA #$01
+    STA $6992
+    LDA #$00
+    STA $6993
+$33D9 L_33D9:                         ; xref: jump from $33CC
+    RTS
+
+; === SUBROUTINE: SUB_33DA ===
+
+$33DA SUB_33DA:                       ; xref: call from $3030
+    LDA #$00
+    STA $6992
+    LDA #$00
+    STA $6993
+    LDA $695D
+    CMP #$03
+    BEQ $33EF                         ; Branch to L_33EF
+    LDA #$00
+    BEQ $33F1                         ; Branch to L_33F1
+$33EF L_33EF:                         ; xref: branch from $33E9
+    LDA #$FF
+$33F1 L_33F1:                         ; xref: branch from $33ED
+    STA $70FB
+    LDA $695D
+    CMP #$04
+    BEQ $33FF                         ; Branch to L_33FF
+    LDA #$00
+    BEQ $3401                         ; Branch to L_3401
+$33FF L_33FF:                         ; xref: branch from $33F9
+    LDA #$FF
+$3401 L_3401:                         ; xref: branch from $33FD
+    STA $7100
+    LDA $70FB
+    ORA $7100
+    STA $70FB
+    LDA $695D
+    CMP #$07
+    BEQ $3418                         ; Branch to L_3418
+    LDA #$00
+    BEQ $341A                         ; Branch to L_341A
+$3418 L_3418:                         ; xref: branch from $3412
+    LDA #$FF
+$341A L_341A:                         ; xref: branch from $3416
+    STA $7100
+    LDA $70FB
+    ORA $7100
+    STA $70FB
+    LDA $695D
+    CMP #$08
+    BEQ $3431                         ; Branch to L_3431
+    LDA #$00
+    BEQ $3433                         ; Branch to L_3433
+$3431 L_3431:                         ; xref: branch from $342B
+    LDA #$FF
+$3433 L_3433:                         ; xref: branch from $342F
+    STA $7100
+    LDA $70FB
+    ORA $7100
+    STA $70FB
+    LDA $695D
+    CMP #$0A
+    BCS $344A                         ; Branch to L_344A
+    LDA #$00
+    BEQ $344C                         ; Branch to L_344C
+$344A L_344A:                         ; xref: branch from $3444
+    LDA #$FF
+$344C L_344C:                         ; xref: branch from $3448
+    STA $7100
+    LDA #$0F
+    CMP $695D
+    BCS $345A                         ; Branch to L_345A
+    LDA #$00
+    BEQ $345C                         ; Branch to L_345C
+$345A L_345A:                         ; xref: branch from $3454
+    LDA #$FF
+$345C L_345C:                         ; xref: branch from $3458
+    STA $7105
+    LDA $7100
+    AND $7105
+    STA $7100
+    LDA $70FB
+    ORA $7100
+    BNE $3473                         ; Branch to L_3473
+    JMP $347D                         ; Jump to L_347D
+$3473 L_3473:                         ; xref: branch from $346E
+    LDA #$01
+    STA $6992
+    LDA #$00
+    STA $6993
+$347D L_347D:                         ; xref: jump from $3470
+    RTS
+
+; === SUBROUTINE: SUB_347E ===
+
+$347E SUB_347E:                       ; xref: call from $3039
+    LDA #$00
+    STA $6992
+    LDA #$00
+    STA $6993
+    LDA $695D
+    CMP #$14
+    BEQ $3493                         ; Branch to L_3493
+    LDA #$00
+    BEQ $3495                         ; Branch to L_3495
+$3493 L_3493:                         ; xref: branch from $348D
+    LDA #$FF
+$3495 L_3495:                         ; xref: branch from $3491
+    STA $70FB
+    LDA $695D
+    CMP #$15
+    BEQ $34A3                         ; Branch to L_34A3
+    LDA #$00
+    BEQ $34A5                         ; Branch to L_34A5
+$34A3 L_34A3:                         ; xref: branch from $349D
+    LDA #$FF
+$34A5 L_34A5:                         ; xref: branch from $34A1
+    STA $7100
+    LDA $70FB
+    ORA $7100
+    STA $70FB
+    LDA $695D
+    CMP #$17
+    BCS $34BC                         ; Branch to L_34BC
+    LDA #$00
+    BEQ $34BE                         ; Branch to L_34BE
+$34BC L_34BC:                         ; xref: branch from $34B6
+    LDA #$FF
+$34BE L_34BE:                         ; xref: branch from $34BA
+    STA $7100
+    LDA #$1A
+    CMP $695D
+    BCS $34CC                         ; Branch to L_34CC
+    LDA #$00
+    BEQ $34CE                         ; Branch to L_34CE
+$34CC L_34CC:                         ; xref: branch from $34C6
+    LDA #$FF
+$34CE L_34CE:                         ; xref: branch from $34CA
+    STA $7105
+    LDA $7100
+    AND $7105
+    STA $7100
+    LDA $70FB
+    ORA $7100
+    STA $70FB
+    LDA $695D
+    CMP #$1C
+    BCS $34EE                         ; Branch to L_34EE
+    LDA #$00
+    BEQ $34F0                         ; Branch to L_34F0
+$34EE L_34EE:                         ; xref: branch from $34E8
+    LDA #$FF
+$34F0 L_34F0:                         ; xref: branch from $34EC
+    STA $7100
+    LDA #$1E
+    CMP $695D
+    BCS $34FE                         ; Branch to L_34FE
+    LDA #$00
+    BEQ $3500                         ; Branch to L_3500
+$34FE L_34FE:                         ; xref: branch from $34F8
+    LDA #$FF
+$3500 L_3500:                         ; xref: branch from $34FC
+    STA $7105
+    LDA $7100
+    AND $7105
+    STA $7100
+    LDA $70FB
+    ORA $7100
+    BNE $3517                         ; Branch to L_3517
+    JMP $3521                         ; Jump to L_3521
+$3517 L_3517:                         ; xref: branch from $3512
+    LDA #$01
+    STA $6992
+    LDA #$00
+    STA $6993
+$3521 L_3521:                         ; xref: jump from $3514
+    LDA $695D
+    CMP #$20
+    BEQ $352C                         ; Branch to L_352C
+    LDA #$00
+    BEQ $352E                         ; Branch to L_352E
+$352C L_352C:                         ; xref: branch from $3526
+    LDA #$FF
+$352E L_352E:                         ; xref: branch from $352A
+    STA $70FB
+    LDA $695D
+    CMP #$22
+    BEQ $353C                         ; Branch to L_353C
+    LDA #$00
+    BEQ $353E                         ; Branch to L_353E
+$353C L_353C:                         ; xref: branch from $3536
+    LDA #$FF
+$353E L_353E:                         ; xref: branch from $353A
+    STA $7100
+    LDA $70FB
+    ORA $7100
+    STA $70FB
+    LDA $695D
+    CMP #$23
+    BEQ $3555                         ; Branch to L_3555
+    LDA #$00
+    BEQ $3557                         ; Branch to L_3557
+$3555 L_3555:                         ; xref: branch from $354F
+    LDA #$FF
+$3557 L_3557:                         ; xref: branch from $3553
+    STA $7100
+    LDA $70FB
+    ORA $7100
+    STA $70FB
+    LDA $695D
+    CMP #$26
+    BEQ $356E                         ; Branch to L_356E
+    LDA #$00
+    BEQ $3570                         ; Branch to L_3570
+$356E L_356E:                         ; xref: branch from $3568
+    LDA #$FF
+$3570 L_3570:                         ; xref: branch from $356C
+    STA $7100
+    LDA $70FB
+    ORA $7100
+    STA $70FB
+    LDA $695D
+    CMP #$28
+    BCS $3587                         ; Branch to L_3587
+    LDA #$00
+    BEQ $3589                         ; Branch to L_3589
+$3587 L_3587:                         ; xref: branch from $3581
+    LDA #$FF
+$3589 L_3589:                         ; xref: branch from $3585
+    STA $7100
+    LDA #$2B
+    CMP $695D
+    BCS $3597                         ; Branch to L_3597
+    LDA #$00
+    BEQ $3599                         ; Branch to L_3599
+$3597 L_3597:                         ; xref: branch from $3591
+    LDA #$FF
+$3599 L_3599:                         ; xref: branch from $3595
+    STA $7105
+    LDA $7100
+    AND $7105
+    STA $7100
+    LDA $70FB
+    ORA $7100
+    BNE $35B0                         ; Branch to L_35B0
+    JMP $35BA                         ; Jump to L_35BA
+$35B0 L_35B0:                         ; xref: branch from $35AB
+    LDA #$01
+    STA $6992
+    LDA #$00
+    STA $6993
+$35BA L_35BA:                         ; xref: jump from $35AD
+    RTS
+
+; === SUBROUTINE: SUB_35BB ===
+
+$35BB SUB_35BB:                       ; xref: call from $3042
+    LDA #$00
+    STA $6992
+    LDA #$00
+    STA $6993
+    LDA $695D
+    CMP #$42
+    BCS $35D0                         ; Branch to L_35D0
+    LDA #$00
+    BEQ $35D2                         ; Branch to L_35D2
+$35D0 L_35D0:                         ; xref: branch from $35CA
+    LDA #$FF
+$35D2 L_35D2:                         ; xref: branch from $35CE
+    STA $70FB
+    LDA #$44
+    CMP $695D
+    BCS $35E0                         ; Branch to L_35E0
+    LDA #$00
+    BEQ $35E2                         ; Branch to L_35E2
+$35E0 L_35E0:                         ; xref: branch from $35DA
+    LDA #$FF
+$35E2 L_35E2:                         ; xref: branch from $35DE
+    STA $7100
+    LDA $70FB
+    AND $7100
+    STA $70FB
+    LDA $695D
+    CMP #$4B
+    BCS $35F9                         ; Branch to L_35F9
+    LDA #$00
+    BEQ $35FB                         ; Branch to L_35FB
+$35F9 L_35F9:                         ; xref: branch from $35F3
+    LDA #$FF
+$35FB L_35FB:                         ; xref: branch from $35F7
+    STA $7100
+    LDA #$4D
+    CMP $695D
+    BCS $3609                         ; Branch to L_3609
+    LDA #$00
+    BEQ $360B                         ; Branch to L_360B
+$3609 L_3609:                         ; xref: branch from $3603
+    LDA #$FF
+$360B L_360B:                         ; xref: branch from $3607
+    STA $7105
+    LDA $7100
+    AND $7105
+    STA $7100
+    LDA $70FB
+    ORA $7100
+    BNE $3622                         ; Branch to L_3622
+    JMP $362C                         ; Jump to L_362C
+$3622 L_3622:                         ; xref: branch from $361D
+    LDA #$01
+    STA $6992
+    LDA #$00
+    STA $6993
+$362C L_362C:                         ; xref: jump from $361F
+    RTS
+
+; === SUBROUTINE: SUB_362D ===
+
+$362D SUB_362D:                       ; xref: call from $304B
+    LDA #$00
+    STA $6992
+    LDA #$00
+    STA $6993
+    LDA $695D
+    CMP #$19
+    BEQ $3641                         ; Branch to L_3641
+    JMP $364B                         ; Jump to L_364B
+$3641 L_3641:                         ; xref: branch from $363C
+    LDA #$01
+    STA $6992
+    LDA #$00
+    STA $6993
+$364B L_364B:                         ; xref: jump from $363E
+    RTS
+
+; === SUBROUTINE: SUB_364C ===
+
+$364C SUB_364C:                       ; xref: call from $3054
+    LDA #$00
+    STA $6992
+    LDA #$00
+    STA $6993
+    LDA $698A
+    CMP #$A3
+    BNE $3662                         ; Branch to L_3662
+    LDA $698B
+    CMP #$00
+$3662 L_3662:                         ; xref: branch from $365B
+    BEQ $3668                         ; Branch to L_3668
+    LDA #$00
+    BEQ $366A                         ; Branch to L_366A
+$3668 L_3668:                         ; xref: branch from $3662 (L_3662)
+    LDA #$FF
+$366A L_366A:                         ; xref: branch from $3666
+    STA $70FB
+    LDA $698A
+    CMP #$0B
+    BNE $3679                         ; Branch to L_3679
+    LDA $698B
+    CMP #$00
+$3679 L_3679:                         ; xref: branch from $3672
+    BEQ $367F                         ; Branch to L_367F
+    LDA #$00
+    BEQ $3681                         ; Branch to L_3681
+$367F L_367F:                         ; xref: branch from $3679 (L_3679)
+    LDA #$FF
+$3681 L_3681:                         ; xref: branch from $367D
+    STA $7100
+    LDA $6D0F
+    CMP #$01
+    BEQ $368F                         ; Branch to L_368F
+    LDA #$00
+    BEQ $3691                         ; Branch to L_3691
+$368F L_368F:                         ; xref: branch from $3689
+    LDA #$FF
+$3691 L_3691:                         ; xref: branch from $368D
+    STA $7105
+    LDA $7100
+    AND $7105
+    STA $7100
+    LDA $70FB
+    ORA $7100
+    BNE $36A8                         ; Branch to L_36A8
+    JMP $36B2                         ; Jump to L_36B2
+$36A8 L_36A8:                         ; xref: branch from $36A3
+    LDA #$01
+    STA $6992
+    LDA #$00
+    STA $6993
+$36B2 L_36B2:                         ; xref: jump from $36A5
+    RTS
+$36B3 L_36B3:                         ; xref: jump from $2FC9 (L_2FC9)
+    LDA $69B9
+    CMP #$32
+    BNE $36BF                         ; Branch to L_36BF
+    LDA $69BA
+    CMP #$00
+$36BF L_36BF:                         ; xref: branch from $36B8
+    BEQ $36C4                         ; Branch to L_36C4
+    JMP $36CA                         ; Jump to L_36CA
+$36C4 L_36C4:                         ; xref: branch from $36BF (L_36BF)
+    JSR $62B9                         ; Call SUB_62B9
+    JMP $373B                         ; Jump to L_373B
+$36CA L_36CA:                         ; xref: jump from $36C1
+    LDA $69B9
+    CMP #$33
+    BNE $36D6                         ; Branch to L_36D6
+    LDA $69BA
+    CMP #$00
+$36D6 L_36D6:                         ; xref: branch from $36CF
+    BEQ $36DB                         ; Branch to L_36DB
+    JMP $36DE                         ; Jump to L_36DE
+$36DB L_36DB:                         ; xref: branch from $36D6 (L_36D6)
+    JMP $62C9                         ; Jump to L_62C9
+$36DE L_36DE:                         ; xref: jump from $36D8
+    LDA $69B9
+    CMP #$01
+    BNE $36EA                         ; Branch to L_36EA
+    JSR $4B42                         ; Call SUB_4B42
+    LDA #$01
+$36EA L_36EA:                         ; xref: branch from $36E3
+    CMP #$02
+    BNE $36F3                         ; Branch to L_36F3
+    JSR $4616                         ; Call SUB_4616
+    LDA #$02
+$36F3 L_36F3:                         ; xref: branch from $36EC
+    CMP #$03
+    BNE $36FC                         ; Branch to L_36FC
+    JSR $477B                         ; Call SUB_477B
+    LDA #$03
+$36FC L_36FC:                         ; xref: branch from $36F5
+    CMP #$04
+    BNE $3705                         ; Branch to L_3705
+    JSR $5174                         ; Call SUB_5174
+    LDA #$04
+$3705 L_3705:                         ; xref: branch from $36FE
+    CMP #$05
+    BNE $370E                         ; Branch to L_370E
+    JSR $5130                         ; Call SUB_5130
+    LDA #$05
+$370E L_370E:                         ; xref: branch from $3707
+    CMP #$06
+    BNE $3717                         ; Branch to L_3717
+    JSR $4C66
+    LDA #$06
+$3717 L_3717:                         ; xref: branch from $3710
+    CMP #$07
+    BNE $3720                         ; Branch to L_3720
+    JSR $4CDA                         ; Call SUB_4CDA
+    LDA #$07
+$3720 L_3720:                         ; xref: branch from $3719
+    CMP #$08
+    BNE $3729                         ; Branch to L_3729
+    JSR $4440                         ; Call SUB_4440
+    LDA #$08
+$3729 L_3729:                         ; xref: branch from $3722
+    CMP #$09
+    BNE $3732                         ; Branch to L_3732
+    JSR $52D2                         ; Call SUB_52D2
+    LDA #$09
+$3732 L_3732:                         ; xref: branch from $372B
+    CMP #$0A
+    BNE $373B                         ; Branch to L_373B
+    JSR $4E62                         ; Call SUB_4E62
+    LDA #$0A
+$373B L_373B:                         ; xref: jump from $36C7
+                                      ; xref: branch from $3734
+    LDA $69BB
+    CMP #$00
+    BNE $3747                         ; Branch to L_3747
+    LDA $69BC
+    CMP #$00
+$3747 L_3747:                         ; xref: branch from $3740
+    BEQ $374C                         ; Branch to L_374C
+    JMP $374F                         ; Jump to L_374F
+$374C L_374C:                         ; xref: branch from $3747 (L_3747)
+    JMP $1C12                         ; Jump to script_vm_dispatch
+$374F L_374F:                         ; xref: jump from $3749
+    LDA #$00
+    STA $69BB
+    LDA #$00
+    STA $69BC
+    LDA #$00
+    STA $69A3
+    LDA #$00
+    STA $69A4
+    RTS
+
+; === DATA SECTION ===
+
+$3764                   .BYTE $A9,$FF,$8D,$2E,$D0,$A9,$01,$8D,$63,$69,$20,$49                  ; "........ci I"
+$3770                   .BYTE $3B,$20,$6A,$53,$A9,$01,$8D,$63,$69,$A9,$01,$8D,$5E,$69,$20,$96  ; "; jS...ci...^i ."
+$3780                   .BYTE $53,$20,$9D,$56,$A9,$03,$8D,$5D,$69,$A9,$FF,$8D,$BD,$69,$A9,$00  ; "S .V...]i....i.."
+$3790                   .BYTE $8D,$BE,$69,$A9,$03,$8D,$5E,$69,$A9,$01,$8D,$57,$69,$20,$F0,$0C  ; "..i...^i...Wi .."
+$37A0                   .BYTE $A9,$19,$8D,$90,$69,$A9,$00,$8D,$91,$69,$20,$02,$3C,$A9,$01,$8D  ; "....i....i .<..."
+$37B0                   .BYTE $63,$69,$A9,$03,$8D,$5D,$69,$A9,$6D,$8D,$90,$69,$A9,$00,$8D,$91  ; "ci...]i.m..i...."
+$37C0                   .BYTE $69,$AD,$5D,$69,$8D,$FB,$70,$A9,$00,$8D,$FC,$70,$18,$AD,$FB,$70  ; "i.]i..p....p...p"
+$37D0                   .BYTE $69,$27,$85,$3B,$AD,$FC,$70,$69,$70,$85,$3C,$A9,$01,$A0,$00,$91  ; "i'.;..pip.<....."
+$37E0                   .BYTE $3B,$AD,$5D,$69,$8D,$94,$69,$A9,$00,$8D,$95,$69,$20,$8D,$40,$20  ; ";.]i..i....i .@ "
+$37F0                   .BYTE $DB,$0C,$00,$1B,$96,$A9,$00,$8D,$BF,$69,$A9,$00,$8D,$C0,$69,$20  ; ".........i....i "
+$3800                   .BYTE $02,$3C                                                          ; ".<"
+
+; === CODE SECTION ===
+
+$3802 L_3802:                         ; xref: jump from $3812
+                                      ; xref: jump from $38E8
+                                      ; xref: jump from $3B46
+    LDA $6D01
+    CMP #$FF
+    BNE $380C                         ; Branch to L_380C
+    JMP $380F                         ; Jump to L_380F
+$380C L_380C:                         ; xref: branch from $3807
+    JMP $389C                         ; Jump to L_389C
+$380F L_380F:                         ; xref: jump from $3809
+    JSR $51B3                         ; Call SUB_51B3
+    JMP $3802                         ; Jump to L_3802
+
+; === DATA SECTION ===
+
+$3815                   .BYTE $A9,$00,$8D,$F4,$CF                                              ; "....."
+
+; === CODE SECTION ===
+
+$381A L_381A:                         ; xref: jump from $4CD4
+                                      ; xref: jump from $5170
+                                      ; xref: jump from $62CE
+    JSR $0CDB                         ; Call SUB_0CDB
+    BRK
+
+; === DATA SECTION ===
+
+$381E                   .BYTE $1B,$96                                                          ; ".."
+$3820                   .BYTE $A9,$05,$8D,$63,$69,$20,$96,$53,$20,$DB,$0C,$00,$06,$C9,$20,$4D  ; "...ci .S ..... M"
+$3830                   .BYTE $0C,$8C,$69,$FB,$70,$20,$FF,$0C,$FB,$70,$2C,$48,$FB,$70,$20,$4D  ; "..i.p ...p,H.p M"
+$3840                   .BYTE $0C,$8E,$69,$00,$71,$20,$0C,$0D,$FB,$70,$00,$71,$FB,$70,$20,$19  ; "..i.q ...p.q.p ."
+$3850                   .BYTE $0D,$FB,$70,$FB,$70,$20,$26,$0D,$FB,$70,$8C,$69,$AD,$8D,$69,$8D  ; "..p.p &..p.i..i."
+$3860                   .BYTE $AD,$69,$A9,$00,$8D,$AE,$69,$AD,$AD,$69,$8D,$FC,$70,$A9,$00,$8D  ; ".i....i..i..p..."
+$3870                   .BYTE $FB,$70,$38,$AD,$8C,$69,$ED,$FB,$70,$8D,$AB,$69,$AD,$8D,$69,$ED  ; ".p8..i..p..i..i."
+$3880                   .BYTE $FC,$70,$8D,$AC,$69,$AD,$AB,$69,$8D,$FD,$CF,$AD,$AD,$69,$8D,$FE  ; ".p..i..i.....i.."
+$3890                   .BYTE $CF,$A9,$03,$8D,$0C,$03,$20,$DB,$0C,$00,$21,$CB                  ; "...... ...!."
+
+; === CODE SECTION ===
+
+$389C L_389C:                         ; xref: jump from $380C (L_380C)
+    JSR $41C4                         ; Call SUB_41C4
+    LDA $69BF
+    CMP #$FF
+    BNE $38AB                         ; Branch to L_38AB
+    LDA $69C0
+    CMP #$00
+$38AB L_38AB:                         ; xref: branch from $38A4
+    BNE $38B1                         ; Branch to L_38B1
+    LDA #$00
+    BEQ $38B3                         ; Branch to L_38B3
+$38B1 L_38B1:                         ; xref: branch from $38AB (L_38AB)
+    LDA #$FF
+$38B3 L_38B3:                         ; xref: branch from $38AF
+    STA $70FB
+    LDA $6986
+    CMP #$0C
+    BNE $38C2                         ; Branch to L_38C2
+    LDA $6987
+    CMP #$00
+$38C2 L_38C2:                         ; xref: branch from $38BB
+    BEQ $38C8                         ; Branch to L_38C8
+    LDA #$00
+    BEQ $38CA                         ; Branch to L_38CA
+$38C8 L_38C8:                         ; xref: branch from $38C2 (L_38C2)
+    LDA #$FF
+$38CA L_38CA:                         ; xref: branch from $38C6
+    STA $7100
+    LDA $70FB
+    ORA $7100
+    BNE $38D8                         ; Branch to L_38D8
+    JMP $38DB                         ; Jump to L_38DB
+$38D8 L_38D8:                         ; xref: branch from $38D3
+    JMP $38EB                         ; Jump to L_38EB
+$38DB L_38DB:                         ; xref: jump from $38D5
+    LDA #$02
+    STA $6992
+    LDA #$00
+    STA $6993
+    JSR $5CDB                         ; Call SUB_5CDB
+    JMP $3802                         ; Jump to L_3802
+$38EB L_38EB:                         ; xref: jump from $38D8 (L_38D8)
+    LDA $6986
+    CMP #$18
+    BNE $38F7                         ; Branch to L_38F7
+    LDA $6987
+    CMP #$00
+$38F7 L_38F7:                         ; xref: branch from $38F0
+    BEQ $38FD                         ; Branch to L_38FD
+    LDA #$00
+    BEQ $38FF                         ; Branch to L_38FF
+$38FD L_38FD:                         ; xref: branch from $38F7 (L_38F7)
+    LDA #$FF
+$38FF L_38FF:                         ; xref: branch from $38FB
+    STA $70FB
+    LDA $695D
+    CMP #$0F
+    BEQ $390D                         ; Branch to L_390D
+    LDA #$00
+    BEQ $390F                         ; Branch to L_390F
+$390D L_390D:                         ; xref: branch from $3907
+    LDA #$FF
+$390F L_390F:                         ; xref: branch from $390B
+    STA $7100
+    LDA $70FB
+    AND $7100
+    BNE $391D                         ; Branch to L_391D
+    JMP $3920                         ; Jump to L_3920
+$391D L_391D:                         ; xref: branch from $3918
+    JMP $5BE2                         ; Jump to L_5BE2
+$3920 L_3920:                         ; xref: jump from $391A
+    LDA $6986
+    CMP #$0B
+    BNE $392C                         ; Branch to L_392C
+    LDA $6987
+    CMP #$00
+$392C L_392C:                         ; xref: branch from $3925
+    BEQ $3932                         ; Branch to L_3932
+    LDA #$00
+    BEQ $3934                         ; Branch to L_3934
+$3932 L_3932:                         ; xref: branch from $392C (L_392C)
+    LDA #$FF
+$3934 L_3934:                         ; xref: branch from $3930
+    STA $70FB
+    LDA $695D
+    CMP #$19
+    BEQ $3942                         ; Branch to L_3942
+    LDA #$00
+    BEQ $3944                         ; Branch to L_3944
+$3942 L_3942:                         ; xref: branch from $393C
+    LDA #$FF
+$3944 L_3944:                         ; xref: branch from $3940
+    STA $7100
+    LDA $70FB
+    AND $7100
+    STA $70FB
+    LDA $6C61
+    CMP #$FF
+    BEQ $395B                         ; Branch to L_395B
+    LDA #$00
+    BEQ $395D                         ; Branch to L_395D
+$395B L_395B:                         ; xref: branch from $3955
+    LDA #$FF
+$395D L_395D:                         ; xref: branch from $3959
+    STA $7100
+    LDA $70FB
+    AND $7100
+    STA $70FB
+    LDA $6D07
+    CMP #$01
+    BEQ $3974                         ; Branch to L_3974
+    LDA #$00
+    BEQ $3976                         ; Branch to L_3976
+$3974 L_3974:                         ; xref: branch from $396E
+    LDA #$FF
+$3976 L_3976:                         ; xref: branch from $3972
+    STA $7100
+    LDA $70FB
+    AND $7100
+    BNE $3984                         ; Branch to L_3984
+    JMP $3987                         ; Jump to L_3987
+$3984 L_3984:                         ; xref: branch from $397F
+    JMP $5C11                         ; Jump to L_5C11
+$3987 L_3987:                         ; xref: jump from $3981
+    LDA $6986
+    CMP #$0B
+    BNE $3993                         ; Branch to L_3993
+    LDA $6987
+    CMP #$00
+$3993 L_3993:                         ; xref: branch from $398C
+    BEQ $3999                         ; Branch to L_3999
+    LDA #$00
+    BEQ $399B                         ; Branch to L_399B
+$3999 L_3999:                         ; xref: branch from $3993 (L_3993)
+    LDA #$FF
+$399B L_399B:                         ; xref: branch from $3997
+    STA $70FB
+    LDA $695D
+    CMP #$41
+    BEQ $39A9                         ; Branch to L_39A9
+    LDA #$00
+    BEQ $39AB                         ; Branch to L_39AB
+$39A9 L_39A9:                         ; xref: branch from $39A3
+    LDA #$FF
+$39AB L_39AB:                         ; xref: branch from $39A7
+    STA $7100
+    LDA $70FB
+    AND $7100
+    STA $70FB
+    LDA $6DEB
+    CMP #$00
+    BNE $39C2                         ; Branch to L_39C2
+    LDA #$00
+    BEQ $39C4                         ; Branch to L_39C4
+$39C2 L_39C2:                         ; xref: branch from $39BC
+    LDA #$FF
+$39C4 L_39C4:                         ; xref: branch from $39C0
+    STA $7100
+    LDA $70FB
+    AND $7100
+    BNE $39D2                         ; Branch to L_39D2
+    JMP $39D5                         ; Jump to L_39D5
+$39D2 L_39D2:                         ; xref: branch from $39CD
+    JMP $5C4D                         ; Jump to L_5C4D
+$39D5 L_39D5:                         ; xref: jump from $39CF
+    LDA $6986
+    CMP #$12
+    BNE $39E1                         ; Branch to L_39E1
+    LDA $6987
+    CMP #$00
+$39E1 L_39E1:                         ; xref: branch from $39DA
+    BEQ $39E6                         ; Branch to L_39E6
+    JMP $39E9                         ; Jump to L_39E9
+$39E6 L_39E6:                         ; xref: branch from $39E1 (L_39E1)
+    JMP $4CDA                         ; Jump to SUB_4CDA
+$39E9 L_39E9:                         ; xref: jump from $39E3
+    LDA $6986
+    CMP #$11
+    BNE $39F5                         ; Branch to L_39F5
+    LDA $6987
+    CMP #$00
+$39F5 L_39F5:                         ; xref: branch from $39EE
+    BEQ $39FA                         ; Branch to L_39FA
+    JMP $39FD                         ; Jump to L_39FD
+$39FA L_39FA:                         ; xref: branch from $39F5 (L_39F5)
+    JMP $4D1E                         ; Jump to L_4D1E
+$39FD L_39FD:                         ; xref: jump from $39F7
+    JMP $4D6A                         ; Jump to L_4D6A
+$3A00 L_3A00:                         ; xref: jump from $4E5F (L_4E5F)
+    LDA #$00
+    STA $6976
+    LDA #$76
+    STA $6977
+    JSR $1C12                         ; Call script_vm_dispatch
+$3A0D L_3A0D:                         ; xref: jump from $4DCE
+                                      ; xref: jump from $4E5C
+    LDA $6986
+    CMP #$2B
+    BNE $3A19                         ; Branch to L_3A19
+    LDA $6987
+    CMP #$00
+$3A19 L_3A19:                         ; xref: branch from $3A12
+    BNE $3A1E                         ; Branch to L_3A1E
+    JMP $3A21                         ; Jump to L_3A21
+$3A1E L_3A1E:                         ; xref: branch from $3A19 (L_3A19)
+    JMP $3A64                         ; Jump to L_3A64
+$3A21 L_3A21:                         ; xref: jump from $3A1B
+    LDA $6990
+    CMP #$00
+    BNE $3A2D                         ; Branch to L_3A2D
+    LDA $6991
+    CMP #$00
+$3A2D L_3A2D:                         ; xref: branch from $3A26
+    BEQ $3A33                         ; Branch to L_3A33
+    LDA #$00
+    BEQ $3A35                         ; Branch to L_3A35
+$3A33 L_3A33:                         ; xref: branch from $3A2D (L_3A2D)
+    LDA #$FF
+$3A35 L_3A35:                         ; xref: branch from $3A31
+    STA $70FB
+    LDA $6990
+    CMP #$06
+    BNE $3A44                         ; Branch to L_3A44
+    LDA $6991
+    CMP #$00
+$3A44 L_3A44:                         ; xref: branch from $3A3D
+    BEQ $3A4A                         ; Branch to L_3A4A
+    LDA #$00
+    BEQ $3A4C                         ; Branch to L_3A4C
+$3A4A L_3A4A:                         ; xref: branch from $3A44 (L_3A44)
+    LDA #$FF
+$3A4C L_3A4C:                         ; xref: branch from $3A48
+    STA $7100
+    LDA $70FB
+    ORA $7100
+    BNE $3A5A                         ; Branch to L_3A5A
+    JMP $3A64                         ; Jump to L_3A64
+$3A5A L_3A5A:                         ; xref: branch from $3A55
+    LDA #$13
+    STA $6990
+    LDA #$00
+    STA $6991
+$3A64 L_3A64:                         ; xref: jump from $3A1E (L_3A1E)
+                                      ; xref: jump from $3A57
+                                      ; xref: jump from $5C0E
+                                      ; xref: jump from $5C4A
+    LDA $6986
+    CMP #$28
+    BNE $3A70                         ; Branch to L_3A70
+    LDA $6987
+    CMP #$00
+$3A70 L_3A70:                         ; xref: branch from $3A69
+    BEQ $3A76                         ; Branch to L_3A76
+    LDA #$00
+    BEQ $3A78                         ; Branch to L_3A78
+$3A76 L_3A76:                         ; xref: branch from $3A70 (L_3A70)
+    LDA #$FF
+$3A78 L_3A78:                         ; xref: branch from $3A74
+    STA $70FB
+    LDA $698A
+    CMP #$A3
+    BNE $3A87                         ; Branch to L_3A87
+    LDA $698B
+    CMP #$00
+$3A87 L_3A87:                         ; xref: branch from $3A80
+    BEQ $3A8D                         ; Branch to L_3A8D
+    LDA #$00
+    BEQ $3A8F                         ; Branch to L_3A8F
+$3A8D L_3A8D:                         ; xref: branch from $3A87 (L_3A87)
+    LDA #$FF
+$3A8F L_3A8F:                         ; xref: branch from $3A8B
+    STA $7100
+    LDA $70FB
+    AND $7100
+    STA $70FB
+    LDA $6990
+    CMP #$5E
+    BNE $3AA7                         ; Branch to L_3AA7
+    LDA $6991
+    CMP #$00
+$3AA7 L_3AA7:                         ; xref: branch from $3AA0
+    BEQ $3AAD                         ; Branch to L_3AAD
+    LDA #$00
+    BEQ $3AAF                         ; Branch to L_3AAF
+$3AAD L_3AAD:                         ; xref: branch from $3AA7 (L_3AA7)
+    LDA #$FF
+$3AAF L_3AAF:                         ; xref: branch from $3AAB
+    STA $7100
+    LDA $70FB
+    AND $7100
+    STA $70FB
+    LDA $6988
+    CMP #$6C
+    BNE $3AC7                         ; Branch to L_3AC7
+    LDA $6989
+    CMP #$00
+$3AC7 L_3AC7:                         ; xref: branch from $3AC0
+    BNE $3ACD                         ; Branch to L_3ACD
+    LDA #$00
+    BEQ $3ACF                         ; Branch to L_3ACF
+$3ACD L_3ACD:                         ; xref: branch from $3AC7 (L_3AC7)
+    LDA #$FF
+$3ACF L_3ACF:                         ; xref: branch from $3ACB
+    STA $7100
+    LDA $70FB
+    AND $7100
+    BNE $3ADD                         ; Branch to L_3ADD
+    JMP $3AE7                         ; Jump to L_3AE7
+$3ADD L_3ADD:                         ; xref: branch from $3AD8
+    LDA #$67
+    STA $6990
+    LDA #$00
+    STA $6991
+$3AE7 L_3AE7:                         ; xref: jump from $3ADA
+    LDA $6963
+    CMP #$01
+    BNE $3AF1                         ; Branch to L_3AF1
+    JMP $3AF4                         ; Jump to L_3AF4
+$3AF1 L_3AF1:                         ; xref: branch from $3AEC
+    JMP $3B2F                         ; Jump to L_3B2F
+$3AF4 L_3AF4:                         ; xref: jump from $3AEE
+    LDA $695D
+    CMP #$06
+    BEQ $3AFE                         ; Branch to L_3AFE
+    JMP $3B01                         ; Jump to L_3B01
+$3AFE L_3AFE:                         ; xref: branch from $3AF9
+    JMP $3B0B                         ; Jump to L_3B0B
+$3B01 L_3B01:                         ; xref: jump from $3AFB
+    LDA #$00
+    STA $6CA8
+    LDA #$00
+    STA $6D10
+$3B0B L_3B0B:                         ; xref: jump from $3AFE (L_3AFE)
+    LDA $695D
+    CMP #$02
+    BNE $3B15                         ; Branch to L_3B15
+    JMP $3B18                         ; Jump to L_3B18
+$3B15 L_3B15:                         ; xref: branch from $3B10
+    JMP $3B1D                         ; Jump to L_3B1D
+$3B18 L_3B18:                         ; xref: jump from $3B12
+    LDA #$64
+    STA $6DA7
+$3B1D L_3B1D:                         ; xref: jump from $3B15 (L_3B15)
+    LDA $695D
+    CMP #$07
+    BNE $3B27                         ; Branch to L_3B27
+    JMP $3B2A                         ; Jump to L_3B2A
+$3B27 L_3B27:                         ; xref: branch from $3B22
+    JMP $3B2F                         ; Jump to L_3B2F
+$3B2A L_3B2A:                         ; xref: jump from $3B24
+    LDA #$00
+    STA $702E
+$3B2F L_3B2F:                         ; xref: jump from $3AF1 (L_3AF1)
+                                      ; xref: jump from $3B27 (L_3B27)
+    JSR $3C02                         ; Call script_vm_show_text
+$3B32 L_3B32:                         ; xref: jump from $5BF6 (L_5BF6)
+                                      ; xref: jump from $5C32 (L_5C32)
+                                      ; xref: jump from $5C61 (L_5C61)
+    LDA #$00
+    STA $6986
+    LDA #$00
+    STA $6987
+    LDA #$00
+    STA $698A
+    LDA #$00
+    STA $698B
+    JMP $3802                         ; Jump to L_3802
+
+; === DATA SECTION ===
+
+$3B49                   .BYTE $20,$37,$0D,$31,$48,$C1,$69                                      ; " 7.1H.i"
+$3B50                   .BYTE $A9,$00,$8D,$C4,$69,$A9,$00,$8D,$C5,$69,$A9,$00,$8D,$90,$69,$A9  ; "....i....i....i."
+$3B60                   .BYTE $00,$8D,$91,$69,$A9,$00,$8D,$92,$69,$A9,$00,$8D,$93,$69,$A9,$FF  ; "...i....i....i.."
+$3B70                   .BYTE $8D,$94,$69,$A9,$00,$8D,$95,$69,$A9,$00,$8D,$96,$69,$A9,$00,$8D  ; "..i....i....i..."
+$3B80                   .BYTE $97,$69,$A9,$00,$8D,$98,$69,$A9,$00,$8D,$99,$69,$A9,$20,$8D,$1B  ; ".i....i....i. .."
+$3B90                   .BYTE $70,$A9,$40,$8D                                                  ; "p.@."
+
+; === SUBROUTINE: ENTRY_3B94 ===
+
+$3B94 ENTRY_3B94:       
+    JSR $A970                         ; Call SUB_A970
+    RTI
+
+; === DATA SECTION ===
+
+$3B98                   .BYTE $8D,$1D,$70,$20,$37,$0D,$34,$48                                  ; "..p 7.4H"
+$3BA0                   .BYTE $22,$70,$A9,$00,$8D,$8C,$69,$A9,$00,$8D,$8D,$69,$A9,$00,$8D,$25  ; ""p....i....i...%"
+$3BB0                   .BYTE $70,$A9,$00,$8D,$26,$70,$A9,$00,$8D,$63,$69,$A9,$00,$8D,$5D,$69  ; "p...&p...ci...]i"
+$3BC0                   .BYTE $A9,$00,$8D,$5E,$69,$A9,$00,$8D,$A3,$69,$A9,$00,$8D,$A4,$69,$A9  ; "...^i....i....i."
+$3BD0                   .BYTE $00,$8D,$88,$69,$A9,$00,$8D,$89,$69,$A9,$00,$8D,$8A,$69,$A9,$00  ; "...i....i....i.."
+$3BE0                   .BYTE $8D,$8B,$69,$A9,$00,$8D,$86,$69,$A9,$00,$8D,$87,$69,$A9,$00,$8D  ; "..i....i....i..."
+$3BF0                   .BYTE $90,$69,$A9,$00,$8D,$91,$69,$A9,$00,$8D,$56,$69,$A9,$00,$8D,$57  ; ".i....i...Vi...W"
+$3C00                   .BYTE $69,$60                                                          ; "i`"
+
+; === SUBROUTINE: script_vm_show_text ===
+
+; --------------------------------------------------------
+; Text-display engine entry used by script opcode E8.
+; Consumes the script-selected text pointer in $6990/$6991 and coordinates message display state.
+; --------------------------------------------------------
+$3C02 script_vm_show_text:            ; xref: call from $2E39 (script_vm_op_show_text)
+                                      ; xref: call from $3B2F (L_3B2F)
+                                      ; xref: call from $4719
+                                      ; xref: call from $4B3E
+                                      ; xref: call from $4C70
+                                      ; xref: call from $4D12
+                                      ; xref: call from $4E14
+                                      ; xref: call from $513A
+                                      ; xref: call from $517E
+                                      ; xref: call from $51BD
+                                      ; xref: call from $52CE
+                                      ; xref: call from $52DC
+                                      ; xref: call from $5325
+                                      ; xref: call from $5C1B
+                                      ; xref: call from $5C95
+                                      ; xref: call from $5D0D
+    LDA $6990
+    CMP #$00
+    BNE $3C0E                         ; Branch to L_3C0E
+    LDA $6991
+    CMP #$00
+$3C0E L_3C0E:                         ; xref: branch from $3C07
+    BNE $3C14                         ; Branch to L_3C14
+    LDA #$00
+    BEQ $3C16                         ; Branch to L_3C16
+$3C14 L_3C14:                         ; xref: branch from $3C0E (L_3C0E)
+    LDA #$FF
+$3C16 L_3C16:                         ; xref: branch from $3C12
+    STA $70FB
+    LDA $69B5
+    CMP $6990
+    BNE $3C27                         ; Branch to L_3C27
+    LDA $69B6
+    CMP $6991
+$3C27 L_3C27:                         ; xref: branch from $3C1F
+    BEQ $3C2D                         ; Branch to L_3C2D
+    LDA #$00
+    BEQ $3C2F                         ; Branch to L_3C2F
+$3C2D L_3C2D:                         ; xref: branch from $3C27 (L_3C27)
+    LDA #$FF
+$3C2F L_3C2F:                         ; xref: branch from $3C2B
+    STA $7100
+    LDA $70FB
+    AND $7100
+    BNE $3C3D                         ; Branch to L_3C3D
+    JMP $3C57                         ; Jump to L_3C57
+$3C3D L_3C3D:                         ; xref: branch from $3C38
+    CLC
+    LDA $69B7
+    ADC #$27
+    STA $3B
+    LDA $69B8
+    ADC #$70
+    STA $3C
+    LDA #$01
+    LDY #$00
+    STA ($3B),Y
+    LDA #$01
+    STA $695A
+$3C57 L_3C57:                         ; xref: jump from $3C3A
+    LDA $6990
+    CMP #$00
+    BNE $3C63                         ; Branch to L_3C63
+    LDA $6991
+    CMP #$00
+$3C63 L_3C63:                         ; xref: branch from $3C5C
+    BEQ $3C69                         ; Branch to L_3C69
+    LDA #$00
+    BEQ $3C6B                         ; Branch to L_3C6B
+$3C69 L_3C69:                         ; xref: branch from $3C63 (L_3C63)
+    LDA #$FF
+$3C6B L_3C6B:                         ; xref: branch from $3C67
+    STA $70FB
+    LDA $6958
+    CMP #$00
+    BEQ $3C79                         ; Branch to L_3C79
+    LDA #$00
+    BEQ $3C7B                         ; Branch to L_3C7B
+$3C79 L_3C79:                         ; xref: branch from $3C73
+    LDA #$FF
+$3C7B L_3C7B:                         ; xref: branch from $3C77
+    STA $7100
+    LDA $70FB
+    AND $7100
+    BNE $3C89                         ; Branch to L_3C89
+    JMP $3C8A                         ; Jump to L_3C8A
+$3C89 L_3C89:                         ; xref: branch from $3C84
+    RTS
+$3C8A L_3C8A:                         ; xref: jump from $3C86
+    LDA $6958
+    CMP #$00
+    BNE $3C95                         ; Branch to L_3C95
+    LDA #$00
+    BEQ $3C97                         ; Branch to L_3C97
+$3C95 L_3C95:                         ; xref: branch from $3C8F
+    LDA #$FF
+$3C97 L_3C97:                         ; xref: branch from $3C93
+    STA $70FB
+    LDA $6990
+    CMP #$84
+    BNE $3CA6                         ; Branch to L_3CA6
+    LDA $6991
+    CMP #$03
+$3CA6 L_3CA6:                         ; xref: branch from $3C9F
+    BNE $3CAC                         ; Branch to L_3CAC
+    LDA #$00
+    BEQ $3CAE                         ; Branch to L_3CAE
+$3CAC L_3CAC:                         ; xref: branch from $3CA6 (L_3CA6)
+    LDA #$FF
+$3CAE L_3CAE:                         ; xref: branch from $3CAA
+    STA $7100
+    LDA $70FB
+    AND $7100
+    BNE $3CBC                         ; Branch to L_3CBC
+    JMP $3CC1                         ; Jump to L_3CC1
+$3CBC L_3CBC:                         ; xref: branch from $3CB7
+    LDA #$00
+    STA $6958
+$3CC1 L_3CC1:                         ; xref: jump from $3CB9
+    LDA $6958
+    CMP #$00
+    BNE $3CCB                         ; Branch to L_3CCB
+    JMP $3CF2                         ; Jump to L_3CF2
+$3CCB L_3CCB:                         ; xref: branch from $3CC6
+    LDA #$00
+    STA $6958
+    LDA $6959
+    STA $70FB
+    LDA #$00
+    STA $70FC
+    SEC
+    LDA $70FB
+    SBC #$01
+    STA $6990
+    LDA $70FC
+    SBC #$00
+    STA $6991
+    JSR $4022                         ; Call SUB_4022
+    JMP $4002                         ; Jump to L_4002
+$3CF2 L_3CF2:                         ; xref: jump from $3CC8
+    LDA #$01
+    STA $70B9
+    LDA #$00
+    STA $70BA
+    LDA #$18
+    CMP $6990
+    LDA #$00
+    SBC $6991
+    BCC $3D0B                         ; Branch to L_3D0B
+    JMP $3D15                         ; Jump to L_3D15
+$3D0B L_3D0B:                         ; xref: branch from $3D06
+    LDA #$02
+    STA $70B9
+    LDA #$00
+    STA $70BA
+$3D15 L_3D15:                         ; xref: jump from $3D08
+    LDA #$6A
+    CMP $6990
+    LDA #$00
+    SBC $6991
+    BCC $3D24                         ; Branch to L_3D24
+    JMP $3D2E                         ; Jump to L_3D2E
+$3D24 L_3D24:                         ; xref: branch from $3D1F
+    LDA #$03
+    STA $70B9
+    LDA #$00
+    STA $70BA
+$3D2E L_3D2E:                         ; xref: jump from $3D21
+    LDA #$A8
+    CMP $6990
+    LDA #$00
+    SBC $6991
+    BCC $3D3D                         ; Branch to L_3D3D
+    JMP $3D47                         ; Jump to L_3D47
+$3D3D L_3D3D:                         ; xref: branch from $3D38
+    LDA #$04
+    STA $70B9
+    LDA #$00
+    STA $70BA
+$3D47 L_3D47:                         ; xref: jump from $3D3A
+    LDA #$63
+    CMP $6990
+    LDA #$01
+    SBC $6991
+    BCC $3D56                         ; Branch to L_3D56
+    JMP $3D60                         ; Jump to L_3D60
+$3D56 L_3D56:                         ; xref: branch from $3D51
+    LDA #$05
+    STA $70B9
+    LDA #$00
+    STA $70BA
+$3D60 L_3D60:                         ; xref: jump from $3D53
+    LDA #$8D
+    CMP $6990
+    LDA #$01
+    SBC $6991
+    BCC $3D6F                         ; Branch to L_3D6F
+    JMP $3D79                         ; Jump to L_3D79
+$3D6F L_3D6F:                         ; xref: branch from $3D6A
+    LDA #$06
+    STA $70B9
+    LDA #$00
+    STA $70BA
+$3D79 L_3D79:                         ; xref: jump from $3D6C
+    LDA #$43
+    CMP $6990
+    LDA #$02
+    SBC $6991
+    BCC $3D88                         ; Branch to L_3D88
+    JMP $3D92                         ; Jump to L_3D92
+$3D88 L_3D88:                         ; xref: branch from $3D83
+    LDA #$07
+    STA $70B9
+    LDA #$00
+    STA $70BA
+$3D92 L_3D92:                         ; xref: jump from $3D85
+    LDA #$6B
+    CMP $6990
+    LDA #$02
+    SBC $6991
+    BCC $3DA1                         ; Branch to L_3DA1
+    JMP $3DAB                         ; Jump to L_3DAB
+$3DA1 L_3DA1:                         ; xref: branch from $3D9C
+    LDA #$08
+    STA $70B9
+    LDA #$00
+    STA $70BA
+$3DAB L_3DAB:                         ; xref: jump from $3D9E
+    LDA #$6C
+    CMP $6990
+    LDA #$02
+    SBC $6991
+    BCC $3DBA                         ; Branch to L_3DBA
+    JMP $3DC4                         ; Jump to L_3DC4
+$3DBA L_3DBA:                         ; xref: branch from $3DB5
+    LDA #$09
+    STA $70B9
+    LDA #$00
+    STA $70BA
+$3DC4 L_3DC4:                         ; xref: jump from $3DB7
+    LDA #$78
+    CMP $6990
+    LDA #$02
+    SBC $6991
+    BCC $3DD3                         ; Branch to L_3DD3
+    JMP $3DDD                         ; Jump to L_3DDD
+$3DD3 L_3DD3:                         ; xref: branch from $3DCE
+    LDA #$0B
+    STA $70B9
+    LDA #$00
+    STA $70BA
+$3DDD L_3DDD:                         ; xref: jump from $3DD0
+    LDA #$7C
+    CMP $6990
+    LDA #$02
+    SBC $6991
+    BCC $3DEC                         ; Branch to L_3DEC
+    JMP $3DF6                         ; Jump to L_3DF6
+$3DEC L_3DEC:                         ; xref: branch from $3DE7
+    LDA #$0C
+    STA $70B9
+    LDA #$00
+    STA $70BA
+$3DF6 L_3DF6:                         ; xref: jump from $3DE9
+    LDA $70B9
+    CMP #$01
+    BNE $3E00                         ; Branch to L_3E00
+    JMP $3E5C                         ; Jump to L_3E5C
+$3E00 L_3E00:                         ; xref: branch from $3DFB
+    CMP #$02
+    BNE $3E07                         ; Branch to L_3E07
+    JMP $3E62                         ; Jump to L_3E62
+$3E07 L_3E07:                         ; xref: branch from $3E02
+    CMP #$03
+    BNE $3E0E                         ; Branch to L_3E0E
+    JMP $3E76                         ; Jump to L_3E76
+$3E0E L_3E0E:                         ; xref: branch from $3E09
+    CMP #$04
+    BNE $3E15                         ; Branch to L_3E15
+    JMP $3E8A                         ; Jump to L_3E8A
+$3E15 L_3E15:                         ; xref: branch from $3E10
+    CMP #$05
+    BNE $3E1C                         ; Branch to L_3E1C
+    JMP $3E9E                         ; Jump to L_3E9E
+$3E1C L_3E1C:                         ; xref: branch from $3E17
+    CMP #$06
+    BNE $3E23                         ; Branch to L_3E23
+    JMP $3EB2                         ; Jump to L_3EB2
+$3E23 L_3E23:                         ; xref: branch from $3E1E
+    CMP #$07
+    BNE $3E2A                         ; Branch to L_3E2A
+    JMP $3EC6                         ; Jump to L_3EC6
+$3E2A L_3E2A:                         ; xref: branch from $3E25
+    CMP #$08
+    BNE $3E31                         ; Branch to L_3E31
+    JMP $3EED                         ; Jump to L_3EED
+$3E31 L_3E31:                         ; xref: branch from $3E2C
+    CMP #$09
+    BNE $3E38                         ; Branch to L_3E38
+    JMP $3F14                         ; Jump to L_3F14
+$3E38 L_3E38:                         ; xref: branch from $3E33
+    CMP #$0A
+    BNE $3E3F                         ; Branch to L_3E3F
+    JMP $3F3B                         ; Jump to L_3F3B
+$3E3F L_3E3F:                         ; xref: branch from $3E3A
+    CMP #$0B
+    BNE $3E46                         ; Branch to L_3E46
+    JMP $3F3B                         ; Jump to L_3F3B
+$3E46 L_3E46:                         ; xref: branch from $3E41
+    JSR $0C80                         ; Call SUB_0C80
+    BCC $3EB4                         ; Branch to L_3EB4
+
+; === DATA SECTION ===
+
+$3E4B                   .BYTE $FB,$70,$20,$8D,$0C                                              ; ".p .."
+$3E50                   .BYTE $37,$48,$FB,$70,$9C,$69,$20,$D1,$45,$4C,$02,$40                  ; "7H.p.i .EL.@"
+
+; === CODE SECTION ===
+
+$3E5C L_3E5C:                         ; xref: jump from $3DFD
+    JSR $5D94                         ; Call SUB_5D94
+    JMP $4002                         ; Jump to L_4002
+$3E62 L_3E62:                         ; xref: jump from $3E04
+    SEC
+    LDA $6990
+    SBC #$18
+    STA $6990
+    LDA $6991
+    SBC #$00
+    STA $6991
+    JMP $3FEE                         ; Jump to L_3FEE
+$3E76 L_3E76:                         ; xref: jump from $3E0B
+    SEC
+    LDA $6990
+    SBC #$18
+    STA $6990
+    LDA $6991
+    SBC #$00
+    STA $6991
+    JMP $3F62                         ; Jump to L_3F62
+$3E8A L_3E8A:                         ; xref: jump from $3E12
+    SEC
+    LDA $6990
+    SBC #$56
+    STA $6990
+    LDA $6991
+    SBC #$00
+    STA $6991
+    JMP $3F62                         ; Jump to L_3F62
+$3E9E L_3E9E:                         ; xref: jump from $3E19
+    SEC
+    LDA $6990
+    SBC #$11
+    STA $6990
+    LDA $6991
+    SBC #$01
+    STA $6991
+    JMP $3F62                         ; Jump to L_3F62
+$3EB2 L_3EB2:                         ; xref: jump from $3E20
+    SEC
+    LDA $6990                         ; xref+1: branch from $3E49  [instruction data modified]
+    SBC #$3B
+    STA $6990
+    LDA $6991
+    SBC #$01
+    STA $6991
+    JMP $3F62                         ; Jump to L_3F62
+$3EC6 L_3EC6:                         ; xref: jump from $3E27
+    SEC
+    LDA $6990
+    SBC #$44
+    STA $70FB
+    LDA $6991
+    SBC #$02
+    STA $70FC
+    CLC
+    LDA $70FB
+    ADC $70BB
+    STA $6990
+    LDA $70FC
+    ADC $70BC
+    STA $6991
+    JMP $3F62                         ; Jump to L_3F62
+$3EED L_3EED:                         ; xref: jump from $3E2E
+    SEC
+    LDA $6990
+    SBC #$44
+    STA $70FB
+    LDA $6991
+    SBC #$02
+    STA $70FC
+    CLC
+    LDA $70FB
+    ADC $70BB
+    STA $6990
+    LDA $70FC
+    ADC $70BC
+    STA $6991
+    JMP $3F62                         ; Jump to L_3F62
+$3F14 L_3F14:                         ; xref: jump from $3E35
+    SEC
+    LDA $6990
+    SBC #$45
+    STA $70FB
+    LDA $6991                         ; xref+2: branch from $3EB4 (L_3EB4)  [instruction data modified]
+
+; WARNING: mid-instruction byte at $3F20
+$3F20                   .BYTE $E9
+
+; WARNING: mid-instruction byte at $3F21
+$3F21                   .BYTE $02
+    STA $70FC
+    CLC
+    LDA $70FB
+    ADC $70BB
+    STA $6990
+    LDA $70FC
+    ADC $70BC
+    STA $6991
+    JMP $3F62                         ; Jump to L_3F62
+$3F3B L_3F3B:                         ; xref: jump from $3E3C
+                                      ; xref: jump from $3E43
+    SEC
+    LDA $6990
+    SBC #$51
+    STA $70FB
+    LDA $6991
+    SBC #$02
+    STA $70FC
+    CLC
+    LDA $70FB
+    ADC $70BB
+    STA $6990
+    LDA $70FC
+    ADC $70BC
+    STA $6991
+    JMP $3F62                         ; Jump to L_3F62
+$3F62 L_3F62:                         ; xref: jump from $3E87
+                                      ; xref: jump from $3E9B
+                                      ; xref: jump from $3EAF
+                                      ; xref: jump from $3EC3
+                                      ; xref: jump from $3EEA
+                                      ; xref: jump from $3F11
+                                      ; xref: jump from $3F38
+                                      ; xref: jump from $3F5F
+    SEC
+    LDA $70B9
+    SBC #$02
+    STA $70FB
+    LDA $70BA
+    SBC #$00
+    STA $70FC
+    LDA $6963
+    STA $7100
+    LDA #$00
+    STA $7101
+    LDA $70FB
+    CMP $7100
+    BNE $3F8C                         ; Branch to L_3F8C
+    LDA $70FC
+    CMP $7101
+$3F8C L_3F8C:                         ; xref: branch from $3F84
+    BEQ $3F91                         ; Branch to L_3F91
+    JMP $3F94                         ; Jump to L_3F94
+$3F91 L_3F91:                         ; xref: branch from $3F8C (L_3F8C)
+    JMP $3FEE                         ; Jump to L_3FEE
+$3F94 L_3F94:                         ; xref: jump from $3F8E
+    SEC
+    LDA $70B9
+    SBC #$07
+    STA $70FB
+    LDA $70BA
+    SBC #$00
+    STA $70FC
+    LDA $6963
+    STA $7100
+    LDA #$00
+    STA $7101
+    LDA $70FB
+    CMP $7100
+    BNE $3FBE                         ; Branch to L_3FBE
+    LDA $70FC
+    CMP $7101
+$3FBE L_3FBE:                         ; xref: branch from $3FB6
+    BEQ $3FC4                         ; Branch to L_3FC4
+    LDA #$00
+    BEQ $3FC6                         ; Branch to L_3FC6
+$3FC4 L_3FC4:                         ; xref: branch from $3FBE (L_3FBE)
+    LDA #$FF
+$3FC6 L_3FC6:                         ; xref: branch from $3FC2
+    STA $70FB
+    LDA $70B9
+    CMP #$07
+    BNE $3FD5                         ; Branch to L_3FD5
+    LDA $70BA
+    CMP #$00
+$3FD5 L_3FD5:                         ; xref: branch from $3FCE
+    BEQ $3FDB                         ; Branch to L_3FDB
+    LDA #$00
+    BEQ $3FDD                         ; Branch to L_3FDD
+$3FDB L_3FDB:                         ; xref: branch from $3FD5 (L_3FD5)
+    LDA #$FF
+$3FDD L_3FDD:                         ; xref: branch from $3FD9
+    STA $7100
+    LDA $70FB
+    ORA $7100
+    BEQ $3FEB                         ; Branch to L_3FEB
+    JMP $3FEE                         ; Jump to L_3FEE
+$3FEB L_3FEB:                         ; xref: branch from $3FE6
+    JMP $4002                         ; Jump to L_4002
+$3FEE L_3FEE:                         ; xref: jump from $3E73
+                                      ; xref: jump from $3F91 (L_3F91)
+                                      ; xref: jump from $3FE8
+    CLC
+    LDA $6990
+    ADC #$7E
+    STA $6990
+    LDA $6991
+    ADC #$00
+    STA $6991
+    JSR $4022                         ; Call SUB_4022
+$4002 L_4002:                         ; xref: jump from $3CEF
+                                      ; xref: jump from $3E5F
+                                      ; xref: jump from $3FEB (L_3FEB)
+    LDA #$00
+    STA $6990
+    LDA #$00
+    STA $6991
+    LDA $695A
+    CMP #$00
+    BNE $4016                         ; Branch to L_4016
+    JMP $4021                         ; Jump to L_4021
+$4016 L_4016:                         ; xref: branch from $4011
+    LDA #$00
+    STA $695A
+    JSR $0CDB                         ; Call SUB_0CDB
+    BRK
+
+; === DATA SECTION ===
+
+$401F                   .BYTE $1B                                                              ; "."
+$4020                   .BYTE $96                                                              ; "."
+
+; === CODE SECTION ===
+
+$4021 L_4021:                         ; xref: jump from $4013
+    RTS
+
+; === SUBROUTINE: SUB_4022 ===
+
+$4022 SUB_4022:                       ; xref: call from $3CEC
+                                      ; xref: call from $3FFF
+                                      ; xref: call from $60D4
+    LDA $6990
+    AND #$FF
+    STA $70FB
+    LDA $6991
+    AND #$00
+    STA $70FC
+    LDA $70FB
+    STA $030C
+    LDA $6991
+    STA $70FB
+    LDA #$00
+    STA $70FC
+    LDA $70FB
+    STA $70FB
+    LDA $70FC
+    STA $70FC
+    LDA $70FB
+    STA $030D
+    LDA #$00
+    STA $030E
+    LDA #$82
+    STA $9624
+    JSR $0CDB                         ; Call SUB_0CDB
+    BRK
+
+; === DATA SECTION ===
+
+$4063                   .BYTE $00,$CB,$A9,$80,$8D,$24,$96,$60,$20,$37,$0D,$47,$48              ; ".....$.` 7.GH"
+$4070                   .BYTE $9C,$69,$20,$D1,$45,$60,$20,$37,$0D,$54,$48,$9C,$69,$20,$D1,$45  ; ".i .E` 7.TH.i .E"
+$4080                   .BYTE $20,$DB,$0C,$00,$1B,$96,$60                                      ; " .....`"
+
+; === SUBROUTINE: script_vm_show_image ===
+
+; --------------------------------------------------------
+; Image-display engine entry used by script opcode EB.
+; --------------------------------------------------------
+$4087 script_vm_show_image:           ; xref: call from $2E4C (script_vm_op_show_image)
+                                      ; xref: call from $52B7
+    JSR $0CDB                         ; Call SUB_0CDB
+    BRK
+
+; === DATA SECTION ===
+
+$408B                   .BYTE $1B,$96,$AD,$94,$69                                              ; "....i"
+$4090                   .BYTE $C9,$FF,$D0,$05,$AD,$95,$69,$C9,$00,$F0,$03,$4C,$9F,$40,$60      ; "......i....L.@`"
+
+; === SUBROUTINE: SUB_409F ===
+
+$409F SUB_409F:                       ; xref: call from $4B38 (L_4B38)
+                                      ; xref: call from $5C8F (SUB_5C8F)
+    JSR $0CDB                         ; Call SUB_0CDB
+    BRK
+
+; === DATA SECTION ===
+
+$40A3                   .BYTE $15,$96,$AD,$5D,$69,$8D,$5E,$69,$AD,$94,$69,$C9,$FE              ; "...]i.^i..i.."
+$40B0                   .BYTE $D0,$05,$AD,$95,$69,$C9,$00,$F0,$03,$4C,$C4,$40,$A9,$00,$8D,$5E  ; "....i....L.@...^"
+$40C0                   .BYTE $69,$4C,$93,$41,$A9,$81,$CD,$94,$69,$A9,$00,$ED,$95,$69,$90,$04  ; "iL.A....i....i.."
+$40D0                   .BYTE $A9,$00,$F0,$02,$A9,$FF,$8D,$FB,$70,$AD,$94,$69,$C9,$FE,$AD,$95  ; "........p..i...."
+$40E0                   .BYTE $69,$E9,$00,$90,$04,$A9,$00,$F0,$02,$A9,$FF,$8D,$00,$71,$AD,$FB  ; "i............q.."
+$40F0                   .BYTE $70,$2D,$00,$71,$D0,$03,$4C,$34,$41,$AD,$63,$69,$8D,$B9,$69,$A9  ; "p-.q..L4A.ci..i."
+$4100                   .BYTE $00,$8D,$BA,$69,$20,$99,$5C,$38,$AD,$94,$69,$E9,$81,$8D,$FB,$70  ; "...i .\8..i....p"
+$4110                   .BYTE $AD,$95,$69,$E9,$00,$8D,$FC,$70,$18,$AD,$FB,$70,$6D,$BD,$70,$8D  ; "..i....p...pm.p."
+$4120                   .BYTE $FB,$70,$AD,$FC,$70,$6D,$BE,$70,$8D,$FC,$70,$AD,$FB,$70,$8D,$5E  ; ".p..pm.p..p..p.^"
+$4130                   .BYTE $69,$4C,$90,$41,$AD,$94,$69,$C9,$81,$D0,$05,$AD,$95,$69,$C9,$00  ; "iL.A..i......i.."
+$4140                   .BYTE $F0,$03,$4C,$4D,$41,$A9,$00,$8D,$5E,$69,$4C,$90,$41,$AD,$63,$69  ; "..LMA...^iL.A.ci"
+$4150                   .BYTE $8D,$FB,$70,$A9,$00,$8D,$FC,$70,$18,$AD,$FB,$70,$69,$05,$8D,$B9  ; "..p....p...pi..."
+$4160                   .BYTE $69,$AD,$FC,$70,$69,$00,$8D,$BA,$69,$20,$99,$5C,$AD,$5E,$69,$8D  ; "i..pi...i .\.^i."
+$4170                   .BYTE $FB,$70,$A9,$00,$8D,$FC,$70,$38,$AD,$FB,$70,$ED,$BD,$70,$8D,$FB  ; ".p....p8..p..p.."
+$4180                   .BYTE $70,$AD,$FC,$70,$ED,$BE,$70,$8D,$FC,$70,$AD,$FB,$70,$8D,$5E,$69  ; "p..p..p..p..p.^i"
+$4190                   .BYTE $EE,$5E,$69,$A9,$82,$8D,$24,$96,$AD,$5E,$69,$8D,$0C,$03,$A9,$00  ; ".^i...$..^i....."
+$41A0                   .BYTE $8D,$0D,$03,$A9,$02,$8D,$0E,$03,$20,$DB,$0C,$00,$00,$CB,$A9,$80  ; "........ ......."
+$41B0                   .BYTE $8D,$24,$96,$20,$DB,$0C,$00,$18,$96,$A9,$FF,$8D,$94,$69,$A9,$00  ; ".$. .........i.."
+$41C0                   .BYTE $8D,$95,$69,$60                                                  ; "..i`"
+
+; === SUBROUTINE: SUB_41C4 ===
+
+$41C4 SUB_41C4:                       ; xref: call from $389C (L_389C)
+    LDA #$00
+    STA $6992
+    LDA #$00
+    STA $6993
+    JSR $0D4F                         ; Call SUB_0D4F
+
+; === DATA SECTION ===
+
+$41D1                   .BYTE $04,$92,$69,$01,$00,$A4,$00,$18,$A9,$00,$6D,$92,$69,$85,$43      ; "..i.......m.i.C"
+$41E0                   .BYTE $A9,$C0,$6D,$93,$69,$85,$44,$18,$AD,$92,$69,$69,$01,$8D,$FB,$70  ; "..m.i.D...ii...p"
+$41F0                   .BYTE $AD,$93,$69,$69,$00,$8D,$FC,$70,$18,$AD,$FB,$70,$69,$5E,$85,$57  ; "..ii...p...pi^.W"
+$4200                   .BYTE $AD,$FC,$70,$69,$6C,$85,$58,$A0,$00,$B1,$57,$85                  ; "..pil.X...W."
+; xref: write from $5DB0
+$420C                   .BYTE $4E,$A0,$00,$91                                                  ; "N..."
+$4210                   .BYTE $43,$20,$ED,$0D,$04,$92,$69,$20,$11,$0E,$34,$44,$A9,$01,$8D,$92  ; "C ....i ..4D...."
+$4220                   .BYTE $69,$A9,$00,$8D,$93,$69,$20,$4F,$0D,$04,$92,$69,$01,$00,$09,$00  ; "i....i O...i...."
+$4230                   .BYTE $20,$7D,$0E,$02,$5C,$69,$AD,$5C,$69,$85,$4E,$A9,$00,$85,$4F,$18  ; " }..\i.\i.N...O."
+$4240                   .BYTE $A9,$FF,$65,$4E,$85,$4E,$A9,$BF,$65,$4F,$85,$4F,$A0,$00,$B1,$4E  ; "..eN.N..eO.O...N"
+$4250                   .BYTE $8D,$FB,$70,$AD,$FB,$70,$C9,$FF,$F0,$04,$A9,$00,$F0,$02,$A9,$FF  ; "..p..p.........."
+$4260                   .BYTE $8D,$FB,$70,$AD,$5C,$69,$8D,$00,$71,$A9,$00,$8D,$01,$71,$18,$AD  ; "..p.\i..q....q.."
+$4270                   .BYTE $00,$71,$69,$04,$85,$57,$AD,$01,$71,$69,$6D,$85,$58,$A0,$00,$B1  ; ".qi..W..qim.X..."
+$4280                   .BYTE $57,$8D,$00,$71,$AD,$00,$71,$C9,$01,$F0,$04,$A9,$00,$F0,$02,$A9  ; "W..q..q........."
+$4290                   .BYTE $FF,$8D,$00,$71,$AD,$FB,$70,$2D,$00,$71,$D0,$03,$4C,$BF,$42,$AD  ; "...q..p-.q..L.B."
+$42A0                   .BYTE $5C,$69,$8D,$FB,$70,$A9,$00,$8D,$FC,$70,$18,$A9,$FF,$6D,$FB,$70  ; "\i..p....p...m.p"
+$42B0                   .BYTE $85,$43,$A9,$BF,$6D,$FC,$70,$85,$44,$A9,$FE,$A0,$00,$91,$43,$20  ; ".C..m.p.D.....C "
+$42C0                   .BYTE $ED,$0D,$04,$92,$69,$AD,$5D,$69,$8D,$14,$96,$20,$DB,$0C,$00,$06  ; "....i.]i... ...."
+$42D0                   .BYTE $96,$AD,$00,$96,$8D,$86,$69,$A9,$00,$8D,$87,$69,$AD,$01,$96,$8D  ; "......i....i...."
+$42E0                   .BYTE $88,$69,$A9,$00,$8D,$89,$69,$AD,$02,$96,$8D,$8A,$69,$A9,$00,$8D  ; ".i....i.....i..."
+$42F0                   .BYTE $8B,$69,$AD,$86,$69,$C9,$21,$D0,$05,$AD,$87,$69,$C9,$00,$F0,$03  ; ".i..i.!....i...."
+$4300                   .BYTE $4C,$10,$43,$A9,$35,$8D,$86,$69,$A9,$00,$8D,$87,$69,$4C,$2B,$43  ; "L.C.5..i....iL+C"
+$4310                   .BYTE $AD,$86,$69,$C9,$35,$D0,$05,$AD,$87,$69,$C9,$00,$F0,$03,$4C,$2B  ; "..i.5....i....L+"
+$4320                   .BYTE $43,$A9,$21,$8D,$86,$69,$A9,$00,$8D,$87,$69,$AD,$86,$69,$29,$E0  ; "C.!..i....i..i)."
+$4330                   .BYTE $8D,$FB,$70,$AD,$87,$69,$29,$00,$8D,$FC,$70,$AD,$FB,$70,$C9,$20  ; "..p..i)...p..p. "
+$4340                   .BYTE $D0,$05,$AD,$FC,$70,$C9,$00,$F0,$03,$4C,$71,$43,$38,$AD,$86,$69  ; "....p....LqC8..i"
+$4350                   .BYTE $E9,$20,$8D,$FB,$70,$AD,$87,$69,$E9,$00,$8D,$FC,$70,$18,$AD,$FB  ; ". ..p..i....p..."
+$4360                   .BYTE $70,$69,$01,$8D,$86,$69,$AD,$FC,$70,$69,$00,$8D,$87,$69,$4C,$33  ; "pi...i..pi...iL3"
+$4370                   .BYTE $44,$AD,$88,$69,$C9,$00,$D0,$05,$AD,$89,$69,$C9,$00,$F0,$03,$4C  ; "D..i......i....L"
+$4380                   .BYTE $8C,$43,$A9,$01,$8D,$88,$69,$A9,$00,$8D,$89,$69,$AD,$86,$69,$29  ; ".C....i....i..i)"
+$4390                   .BYTE $E0,$8D,$FB,$70,$AD,$87,$69,$29,$00,$8D,$FC,$70,$AD,$FB,$70,$C9  ; "...p..i)...p..p."
+$43A0                   .BYTE $40,$D0,$05,$AD,$FC,$70,$C9,$00,$F0,$03,$4C,$D2,$43,$38,$AD,$86  ; "@....p....L.C8.."
+$43B0                   .BYTE $69,$E9,$40,$8D,$FB,$70,$AD,$87,$69,$E9,$00,$8D,$FC,$70,$18,$AD  ; "i.@..p..i....p.."
+$43C0                   .BYTE $FB,$70,$69,$1B,$8D,$86,$69,$AD,$FC,$70,$69,$00,$8D,$87,$69,$4C  ; ".pi...i..pi...iL"
+$43D0                   .BYTE $33,$44,$AD,$8A,$69,$C9,$00,$D0,$05,$AD,$8B,$69,$C9,$00,$F0,$03  ; "3D..i......i...."
+$43E0                   .BYTE $4C,$ED,$43,$A9,$01,$8D,$8A,$69,$A9,$00,$8D,$8B,$69,$AD,$86,$69  ; "L.C....i....i..i"
+$43F0                   .BYTE $29,$E0,$8D,$FB,$70,$AD,$87,$69,$29,$00,$8D,$FC,$70,$AD,$FB,$70  ; ")...p..i)...p..p"
+$4400                   .BYTE $C9,$60,$D0,$05,$AD,$FC,$70,$C9,$00,$F0,$03,$4C,$33,$44,$38,$AD  ; ".`....p....L3D8."
+$4410                   .BYTE $86,$69,$E9,$60,$8D,$FB,$70,$AD,$87,$69,$E9,$00,$8D,$FC,$70,$18  ; ".i.`..p..i....p."
+$4420                   .BYTE $AD,$FB,$70,$69,$28,$8D,$86,$69,$AD,$FC,$70,$69,$00,$8D,$87,$69  ; "..pi(..i..pi...i"
+$4430                   .BYTE $4C,$33,$44,$60,$4C,$40,$44,$03,$14,$4D,$7D,$7E,$8F,$93,$94,$97  ; "L3D`L@D..M}~...."
+
+; === SUBROUTINE: SUB_4440 ===
+
+$4440 SUB_4440:                       ; xref: call from $3724
+    JSR $0D37                         ; Call SUB_0D37
+
+; === DATA SECTION ===
+
+$4443                   .BYTE $5C,$48,$9C,$69,$AD,$5D,$69,$8D,$FB,$70,$A9,$00,$8D              ; "\H.i.]i..p..."
+$4450                   .BYTE $FC,$70,$18,$AD,$FB,$70,$69,$AA,$85,$57,$AD,$FC,$70,$69,$6D,$85  ; ".p...pi..W..pim."
+$4460                   .BYTE $58,$A0,$00,$B1,$57,$8D,$FB,$70,$AD,$FB,$70,$C9,$00,$D0,$03,$4C  ; "X...W..p..p....L"
+$4470                   .BYTE $7B,$44,$20,$8D,$0C,$9C,$69,$5F,$48,$9C,$69,$AD,$5D,$69,$8D,$FB  ; "{D ...i_H.i.]i.."
+$4480                   .BYTE $70,$A9,$00,$8D,$FC,$70,$18,$AD,$FB,$70,$69,$E2,$85,$57,$AD,$FC  ; "p....p...pi..W.."
+$4490                   .BYTE $70,$69,$6E,$85,$58,$A0,$00,$B1,$57,$8D,$FB,$70,$AD,$FB,$70,$C9  ; "pin.X...W..p..p."
+$44A0                   .BYTE $00,$D0,$03,$4C,$AF,$44,$20,$8D,$0C,$9C,$69,$6A,$48,$9C,$69,$AD  ; "...L.D ...ijH.i."
+$44B0                   .BYTE $5D,$69,$8D,$FB,$70,$A9,$00,$8D,$FC,$70,$18,$AD,$FB,$70,$69,$12  ; "]i..p....p...pi."
+$44C0                   .BYTE $85,$57,$AD,$FC,$70,$69,$6E,$85,$58,$A0,$00,$B1,$57,$8D,$FB,$70  ; ".W..pin.X...W..p"
+$44D0                   .BYTE $AD,$FB,$70,$C9,$00,$D0,$03,$4C,$E3,$44,$20,$8D,$0C,$9C,$69,$74  ; "..p....L.D ...it"
+$44E0                   .BYTE $48,$9C,$69,$AD,$5D,$69,$8D,$FB,$70,$A9,$00,$8D,$FC,$70,$18,$AD  ; "H.i.]i..p....p.."
+$44F0                   .BYTE $FB,$70,$69,$7A,$85,$57,$AD,$FC,$70,$69,$6E,$85,$58,$A0,$00,$B1  ; ".piz.W..pin.X..."
+$4500                   .BYTE $57,$8D,$FB,$70,$AD,$FB,$70,$C9,$00,$D0,$03,$4C,$17,$45,$20,$8D  ; "W..p..p....L.E ."
+$4510                   .BYTE $0C,$9C,$69,$7E,$48,$9C,$69,$AD,$5D,$69,$8D,$FB,$70,$A9,$00,$8D  ; "..i~H.i.]i..p..."
+$4520                   .BYTE $FC,$70,$18,$AD,$FB,$70,$69,$4A,$85,$57,$AD,$FC,$70,$69,$6F,$85  ; ".p...piJ.W..pio."
+$4530                   .BYTE $58,$A0,$00,$B1,$57,$8D,$FB,$70,$AD,$FB,$70,$C9,$00,$D0,$03,$4C  ; "X...W..p..p....L"
+$4540                   .BYTE $4B,$45,$20,$8D,$0C,$9C,$69,$89,$48,$9C,$69,$AD,$5D,$69,$8D,$FB  ; "KE ...i.H.i.]i.."
+$4550                   .BYTE $70,$A9,$00,$8D,$FC,$70,$18,$AD,$FB,$70,$69,$B2,$85,$57,$AD,$FC  ; "p....p...pi..W.."
+$4560                   .BYTE $70,$69,$6F,$85,$58,$A0,$00,$B1,$57,$8D,$FB,$70,$AD,$FB,$70,$C9  ; "pio.X...W..p..p."
+$4570                   .BYTE $00,$D0,$03,$4C,$7F,$45,$20,$8D,$0C,$9C,$69,$94,$48,$9C,$69,$20  ; "...L.E ...i.H.i "
+$4580                   .BYTE $17,$0F,$9C,$69,$A1,$48,$4E,$00,$D0,$03,$4C,$9D,$45,$A9,$45,$8D  ; "...i.HN...L.E.E."
+$4590                   .BYTE $90,$69,$A9,$02,$8D,$91,$69,$20,$02,$3C,$4C,$D0,$45,$A9,$44,$8D  ; ".i....i .<L.E.D."
+$45A0                   .BYTE $90,$69,$A9,$02,$8D,$91,$69,$20,$02,$3C,$20,$29,$0F,$9C,$69,$FB  ; ".i....i .< )..i."
+$45B0                   .BYTE $70,$38,$AD,$FB,$70,$E9,$02,$8D,$FB,$70,$AE,$FB,$70,$20,$3E,$0F  ; "p8..p....p..p >."
+$45C0                   .BYTE $9C,$69,$FB,$70,$20,$8D,$0C,$FB,$70,$A4,$48,$9C,$69,$20,$D1,$45  ; ".i.p ...p.H.i .E"
+$45D0                   .BYTE $60,$20,$37,$0D,$A8,$48,$BF,$70,$20,$37,$0D,$AB,$48,$C2,$70,$20  ; "` 7..H.p 7..H.p "
+$45E0                   .BYTE $37,$0D,$AE,$48,$C5,$70,$A9,$00,$8D,$E1,$CF,$A9,$00,$8D,$E2,$CF  ; "7..H.p.........."
+$45F0                   .BYTE $A9,$00,$8D,$E3,$CF,$A9,$00,$8D,$E4,$CF,$AD,$94,$69,$8D,$C8,$70  ; "............i..p"
+$4600                   .BYTE $AD,$95,$69,$8D,$C9,$70,$20,$1C,$65,$AD,$C8,$70,$8D,$94,$69,$AD  ; "..i..p .e..p..i."
+$4610                   .BYTE $C9,$70,$8D,$95,$69,$60                                          ; ".p..i`"
+
+; === SUBROUTINE: SUB_4616 ===
+
+$4616 SUB_4616:                       ; xref: call from $36EE
+    LDA #$01
+    STA $69BB
+    LDA #$00
+    STA $69BC
+    LDA $6963
+    STA $70CA
+    LDA #$00
+    STA $70CB
+    LDA $6963
+    STA $70CC
+    LDA #$00
+    STA $70CD
+    LDA #$00
+    STA $6963
+    JSR $5396                         ; Call SUB_5396
+    LDA $6962
+    CMP #$01
+    BEQ $4648                         ; Branch to L_4648
+    JMP $464B                         ; Jump to L_464B
+$4648 L_4648:                         ; xref: branch from $4643
+    JMP $46B0                         ; Jump to L_46B0
+$464B L_464B:                         ; xref: jump from $4645
+    JSR $4747                         ; Call SUB_4747
+    JSR $475D                         ; Call SUB_475D
+    LDA #$03
+    STA $70CE
+    LDA #$00
+    STA $70CF
+    LDA #$22
+    STA $70D0
+    LDA #$00
+    STA $70D1
+    JSR $4A15                         ; Call SUB_4A15
+    LDA $695F
+    CMP #$00
+    BEQ $4672                         ; Branch to L_4672
+    JMP $4675                         ; Jump to L_4675
+$4672 L_4672:                         ; xref: branch from $466D
+    JMP $46B0                         ; Jump to L_46B0
+$4675 L_4675:                         ; xref: jump from $466F
+    JSR $0D37                         ; Call SUB_0D37
+    LDA ($48),Y
+
+; === DATA SECTION ===
+
+$467A                   .BYTE $9C,$69,$20,$D1,$45,$20                                          ; ".i .E "
+$4680                   .BYTE $DB,$0C,$00,$28,$96,$20,$FD,$56,$20,$DB,$0C,$00,$2B,$96,$AD,$63  ; "...(. .V ...+..c"
+$4690                   .BYTE $69,$8D,$CA,$70,$A9,$00,$8D,$CB,$70,$AD,$63,$69,$C9,$00,$F0,$03  ; "i..p....p.ci...."
+$46A0                   .BYTE $4C,$A6,$46,$4C,$77,$52,$20,$37,$0D,$BF,$48,$9C,$69,$20,$71,$47  ; "L.FLwR 7..H.i qG"
+
+; === CODE SECTION ===
+
+$46B0 L_46B0:                         ; xref: jump from $4648 (L_4648)
+                                      ; xref: jump from $4672 (L_4672)
+    LDA $70CA
+    STA $6963
+    JSR $5396                         ; Call SUB_5396
+    LDA #$01
+    CMP $6963
+    BCC $46C4                         ; Branch to L_46C4
+    LDA #$00
+    BEQ $46C6                         ; Branch to L_46C6
+$46C4 L_46C4:                         ; xref: branch from $46BE
+    LDA #$FF
+$46C6 L_46C6:                         ; xref: branch from $46C2
+    STA $70FB
+    LDA $6963
+    CMP #$05
+    BCC $46D4                         ; Branch to L_46D4
+    LDA #$00
+    BEQ $46D6                         ; Branch to L_46D6
+$46D4 L_46D4:                         ; xref: branch from $46CE
+    LDA #$FF
+$46D6 L_46D6:                         ; xref: branch from $46D2
+    STA $7100
+    LDA $70FB
+    AND $7100
+    STA $70FB
+    LDA $6963
+    STA $7100
+    LDA #$00
+    STA $7101
+    LDA $70CC
+    CMP $7100
+    LDA $70CD
+    SBC $7101
+    BCC $46FF                         ; Branch to L_46FF
+    LDA #$00
+    BEQ $4701                         ; Branch to L_4701
+$46FF L_46FF:                         ; xref: branch from $46F9
+    LDA #$FF
+$4701 L_4701:                         ; xref: branch from $46FD
+    STA $7100
+    LDA $70FB
+    AND $7100
+    BNE $470F                         ; Branch to L_470F
+    JMP $4739                         ; Jump to L_4739
+$470F L_470F:                         ; xref: branch from $470A
+    LDA #$59
+    STA $6990
+    LDA #$02
+    STA $6991
+    JSR $3C02                         ; Call script_vm_show_text
+    JSR $0CDB                         ; Call SUB_0CDB
+    BRK
+
+; === DATA SECTION ===
+
+$4720                   .BYTE $1B,$96                                                          ; ".."
+
+; === SUBROUTINE: ENTRY_4722 ===
+
+$4722 ENTRY_4722:       
+    LDA #$01
+    STA $70D2
+    LDA #$00
+    STA $70D3
+    JSR $4B60                         ; Call SUB_4B60
+    LDA #$00
+    STA $70D2
+    LDA #$00
+    STA $70D3
+$4739 L_4739:                         ; xref: jump from $470C
+    LDA $6D01
+    CMP #$FF
+    BNE $4743                         ; Branch to L_4743
+    JMP $4746                         ; Jump to L_4746
+$4743 L_4743:                         ; xref: branch from $473E
+    JSR $4B38
+$4746 L_4746:                         ; xref: jump from $4740
+    RTS
+
+; === SUBROUTINE: SUB_4747 ===
+
+$4747 SUB_4747:                       ; xref: call from $464B (L_464B)
+    JSR $0D37                         ; Call SUB_0D37
+    INC $48
+
+; === DATA SECTION ===
+
+$474C                   .BYTE $9C,$69,$20,$D1                                                  ; ".i ."
+$4750                   .BYTE $45,$60                                                          ; "E`"
+
+; === SUBROUTINE: SUB_4752 ===
+
+$4752 SUB_4752:                       ; xref: call from $47A5 (L_47A5)
+    JSR $0D37                         ; Call SUB_0D37
+
+; === DATA SECTION ===
+
+$4755                   .BYTE $14,$49,$9C,$69,$20,$D1,$45,$60                                  ; ".I.i .E`"
+
+; === SUBROUTINE: SUB_475D ===
+
+$475D SUB_475D:                       ; xref: call from $464E
+                                      ; xref: call from $47A8
+    JSR $0CDB                         ; Call SUB_0CDB
+    BRK
+
+; === DATA SECTION ===
+
+$4761                   .BYTE $28,$96,$A9,$00,$85,$C6,$20,$73,$4A,$20,$DB,$0C,$00,$2B,$96      ; "(..... sJ ...+."
+$4770                   .BYTE $60,$20,$D1,$45,$20,$DB,$0C,$00,$1B,$96,$60                      ; "` .E .....`"
+
+; === SUBROUTINE: SUB_477B ===
+
+$477B SUB_477B:                       ; xref: call from $36F7
+    LDA #$01
+    STA $69BB
+    LDA #$00
+    STA $69BC
+    LDA $6963
+    STA $70CA
+    LDA #$00
+    STA $70CB
+    LDA #$00
+    STA $6963
+    JSR $5396                         ; Call SUB_5396
+    LDA $6962
+    CMP #$01
+    BEQ $47A2                         ; Branch to L_47A2
+    JMP $47A5                         ; Jump to L_47A5
+$47A2 L_47A2:                         ; xref: branch from $479D
+    JMP $47F5                         ; Jump to L_47F5
+$47A5 L_47A5:                         ; xref: jump from $479F
+    JSR $4752                         ; Call SUB_4752
+    JSR $475D                         ; Call SUB_475D
+    LDA $695F
+    CMP #$00
+    BEQ $47B5                         ; Branch to L_47B5
+    JMP $47B8                         ; Jump to L_47B8
+$47B5 L_47B5:                         ; xref: branch from $47B0
+    JMP $47DE                         ; Jump to L_47DE
+$47B8 L_47B8:                         ; xref: jump from $47B2
+    JSR $4802                         ; Call SUB_4802
+    JSR $0D37                         ; Call SUB_0D37
+    LSR $49,X
+
+; === DATA SECTION ===
+
+$47C0                   .BYTE $9C,$69,$20,$D1,$45,$20,$DB,$0C,$00,$28,$96,$20,$34,$59,$20,$DB  ; ".i .E ...(. 4Y ."
+$47D0                   .BYTE $0C,$00,$2B,$96,$20,$37,$0D,$69,$49,$9C,$69,$20,$71,$47          ; "..+. 7.iI.i qG"
+
+; === CODE SECTION ===
+
+$47DE L_47DE:                         ; xref: jump from $47B5 (L_47B5)
+    LDA #$03
+    STA $70CE
+    LDA #$00
+    STA $70CF
+    LDA #$22
+    STA $70D0
+    LDA #$00
+    STA $70D1
+    JSR $4A15                         ; Call SUB_4A15
+$47F5 L_47F5:                         ; xref: jump from $47A2 (L_47A2)
+    LDA $70CA
+    STA $6963
+    JSR $5396                         ; Call SUB_5396
+    JSR $4B38
+    RTS
+
+; === SUBROUTINE: SUB_4802 ===
+
+$4802 SUB_4802:                       ; xref: call from $47B8 (L_47B8)
+    JSR $0D37                         ; Call SUB_0D37
+    STA ($49),Y
+
+; === DATA SECTION ===
+
+$4807                   .BYTE $9C,$69,$4C,$D5,$49,$91,$00,$00,$00                              ; ".iL.I...."
+$4810                   .BYTE $00,$06,$14,$48,$3F,$45,$52,$52,$4F,$52,$03,$1D,$48,$20,$41,$54  ; "...H?ERROR..H AT"
+$4820                   .BYTE $09,$23,$48,$45,$58,$47,$4F,$53,$55,$42,$20,$2D,$8A,$7A,$00,$00  ; ".#HEXGOSUB -.z.."
+$4830                   .BYTE $00,$00,$34,$48,$00,$37,$48,$0D,$3A,$48,$49,$4C,$4C,$45,$47,$41  ; "..4H.7H.:HILLEGA"
+$4840                   .BYTE $4C,$20,$4D,$45,$53,$4E,$52,$0A,$4A,$48,$50,$52,$49,$4E,$54,$20  ; "L MESNR.JHPRINT "
+$4850                   .BYTE $54,$45,$58,$54,$05,$57,$48,$4E,$45,$57,$4D,$55,$00,$5F,$48,$08  ; "TEXT.WHNEWMU._H."
+$4860                   .BYTE $62,$48,$CE,$4F,$52,$44,$45,$4E,$2C,$20,$07,$6D,$48,$CF,$53,$54  ; "bH.ORDEN, .mH.ST"
+$4870                   .BYTE $45,$4E,$2C,$20,$07,$77,$48,$D3,$5D,$44,$45,$4E,$2C,$20,$08,$81  ; "EN, .wH.]DEN, .."
+$4880                   .BYTE $48,$D7,$45,$53,$54,$45,$4E,$2C,$20,$08,$8C,$48,$48,$49,$4E,$41  ; "H.ESTEN, ..HHINA"
+$4890                   .BYTE $55,$46,$2C,$20,$0A,$97,$48,$48,$49,$4E,$55,$4E,$54,$45,$52,$2C  ; "UF, ..HHINUNTER,"
+$48A0                   .BYTE $20,$00,$A4,$48,$01,$A7,$48,$2E,$00,$AB,$48,$00,$AE,$48,$00,$B1  ; " ..H..H...H..H.."
+$48B0                   .BYTE $48,$0B,$B4,$48,$C9,$43,$48,$20,$4C,$41,$44,$45,$2E,$2E,$2E,$24  ; "H..H.CH LADE...$"
+$48C0                   .BYTE $C2,$48,$D3,$50,$49,$45,$4C,$53,$54,$41,$4E,$44,$20,$57,$55,$52  ; ".H.PIELSTAND WUR"
+$48D0                   .BYTE $44,$45,$20,$4B,$4F,$52,$52,$45,$4B,$54,$20,$45,$49,$4E,$47,$45  ; "DE KORREKT EINGE"
+$48E0                   .BYTE $4C,$45,$53,$45,$4E,$2E,$2B,$E9,$48,$C2,$49,$54,$54,$45,$20,$57  ; "LESEN.+.H.ITTE W"
+$48F0                   .BYTE $5B,$48,$4C,$45,$20,$44,$45,$4E,$20,$5A,$55,$20,$4C,$41,$44,$45  ; "[HLE DEN ZU LADE"
+$4900                   .BYTE $4E,$44,$45,$4E,$20,$D3,$50,$49,$45,$4C,$53,$54,$41,$4E,$44,$20  ; "NDEN .PIELSTAND "
+$4910                   .BYTE $41,$55,$53,$2E,$3F,$17,$49,$C2,$49,$54,$54,$45,$20,$57,$5B,$48  ; "AUS.?.I.ITTE W[H"
+$4920                   .BYTE $4C,$45,$20,$44,$45,$4E,$20,$C5,$49,$4E,$54,$52,$41,$47,$20,$41  ; "LE DEN .INTRAG A"
+$4930                   .BYTE $55,$53,$2C,$20,$55,$4E,$54,$45,$52,$20,$44,$45,$4D,$20,$47,$45  ; "US, UNTER DEM GE"
+$4940                   .BYTE $53,$50,$45,$49,$43,$48,$45,$52,$54,$20,$57,$45,$52,$44,$45,$4E  ; "SPEICHERT WERDEN"
+$4950                   .BYTE $20,$53,$4F,$4C,$4C,$2E,$10,$59,$49,$C9,$43,$48,$20,$53,$50,$45  ; " SOLL..YI.CH SPE"
+$4960                   .BYTE $49,$43,$48,$45,$52,$45,$2E,$2E,$2E,$25,$6C,$49,$D3,$50,$49,$45  ; "ICHERE...%lI.PIE"
+$4970                   .BYTE $4C,$53,$54,$41,$4E,$44,$20,$57,$55,$52,$44,$45,$20,$4B,$4F,$52  ; "LSTAND WURDE KOR"
+$4980                   .BYTE $52,$45,$4B,$54,$20,$47,$45,$53,$50,$45,$49,$43,$48,$45,$52,$54  ; "REKT GESPEICHERT"
+$4990                   .BYTE $2E,$41,$94,$49,$C2,$49,$54,$54,$45,$20,$44,$45,$4E,$20,$4E,$45  ; ".A.I.ITTE DEN NE"
+$49A0                   .BYTE $55,$45,$4E,$20,$CE,$41,$4D,$45,$4E,$20,$45,$49,$4E,$47,$45,$42  ; "UEN .AMEN EINGEB"
+$49B0                   .BYTE $45,$4E,$20,$4F,$44,$45,$52,$20,$3C,$D2,$C5,$D4,$D5,$D2,$CE,$3E  ; "EN ODER <......>"
+$49C0                   .BYTE $20,$44,$52,$5D,$43,$4B,$45,$4E,$20,$55,$4D,$20,$44,$45,$4E,$20  ; " DR]CKEN UM DEN "
+$49D0                   .BYTE $41,$4C,$54,$45,$4E,$20,$8D,$0C,$9C,$69,$6A,$5E,$9C,$69,$20,$D1  ; "ALTEN ...ij^.i ."
+$49E0                   .BYTE $45,$A9,$00,$85,$C6,$20,$DB,$0C,$00,$28,$96,$AD,$D4,$70,$8D,$FF  ; "E.... ...(...p.."
+$49F0                   .BYTE $C8,$20,$DB,$0C,$00,$00,$C8,$20,$DB,$0C,$00,$2B,$96,$A9,$06,$8D  ; ". ..... ...+...."
+$4A00                   .BYTE $CE,$70,$A9,$00,$8D,$CF,$70,$A9,$23,$8D,$D0,$70,$A9,$00,$8D,$D1  ; ".p....p.#..p...."
+$4A10                   .BYTE $70,$20,$15,$4A,$60                                              ; "p .J`"
+
+; === SUBROUTINE: SUB_4A15 ===
+
+$4A15 SUB_4A15:                       ; xref: call from $4665
+                                      ; xref: call from $47F2
+    LDA #$00
+    STA $70D6
+    LDA #$00
+    STA $70D7
+    JSR $0D4F                         ; Call SUB_0D4F
+
+; === DATA SECTION ===
+
+$4A22                   .BYTE $04,$D6,$70,$01,$00,$08,$00,$A9,$00,$8D,$0D,$03,$18,$A9          ; "..p..........."
+$4A30                   .BYTE $C0,$6D,$D6,$70,$8D,$FB,$70,$A9,$00,$6D,$D7,$70,$8D,$FC,$70,$AD  ; ".m.p..p..m.p..p."
+$4A40                   .BYTE $FB,$70,$8D,$0E,$03,$20,$DB,$0C,$00,$15,$CB,$AD,$D0,$70,$8D,$0D  ; ".p... .......p.."
+$4A50                   .BYTE $03,$AD,$D6,$70,$8D,$0E,$03,$18,$A9,$00,$6D,$CE,$70,$85,$4E,$A9  ; "...p......m.p.N."
+$4A60                   .BYTE $CB,$6D,$CF,$70,$85,$4F,$20,$DB,$0C,$FF,$4E,$00,$20,$ED,$0D,$04  ; ".m.p.O ...N. ..."
+$4A70                   .BYTE $D6,$70,$60,$A9,$03,$8D,$CE,$70,$A9,$00,$8D,$CF,$70,$A9,$23,$8D  ; ".p`....p....p.#."
+$4A80                   .BYTE $D0,$70,$A9,$00,$8D,$D1,$70,$20,$15,$4A,$A9,$FA,$8D,$14,$96,$20  ; ".p....p .J..... "
+$4A90                   .BYTE $DB,$0C,$00,$2E,$96,$AD,$5D,$69,$8D,$14,$96,$AD,$31,$96,$8D,$D4  ; "......]i....1..."
+$4AA0                   .BYTE $70,$A9,$00,$8D,$D5,$70,$AD,$D4,$70,$C9,$FF,$D0,$05,$AD,$D5,$70  ; "p....p..p......p"
+$4AB0                   .BYTE $C9,$00,$F0,$03,$4C,$BF,$4A,$A9,$00,$8D,$5F,$69,$4C,$C2,$4A,$20  ; "....L.J..._iL.J "
+$4AC0                   .BYTE $C3,$4A,$60,$AD,$D4,$70,$8D,$FB,$70,$AD,$D5,$70,$8D,$FC,$70,$4E  ; ".J`..p..p..p..pN"
+$4AD0                   .BYTE $FC,$70,$6E,$FB,$70,$AD,$FB,$70,$8D,$FB,$70,$AD,$FC,$70,$8D,$FC  ; ".pn.p..p..p..p.."
+$4AE0                   .BYTE $70,$18,$A9,$02,$6D,$FB,$70,$8D,$FB,$70,$A9,$00,$6D,$FC,$70,$8D  ; "p...m.p..p..m.p."
+$4AF0                   .BYTE $FC,$70,$AD,$FB,$70,$8D,$5F,$69,$A9,$11,$CD,$5F,$69,$90,$03,$4C  ; ".p..p._i..._i..L"
+$4B00                   .BYTE $05,$4B,$EE,$5F,$69,$AD,$D4,$70,$29,$01,$8D,$FB,$70,$AD,$D5,$70  ; ".K._i..p)...p..p"
+$4B10                   .BYTE $29,$00,$8D,$FC,$70,$0E,$FB,$70,$2E,$FC,$70,$0E,$FB,$70,$2E,$FC  ; ")...p..p..p..p.."
+$4B20                   .BYTE $70,$0E,$FB,$70,$2E,$FC,$70,$AD,$FB,$70,$8D,$60,$69,$A9,$00,$8D  ; "p..p..p..p.`i..."
+$4B30                   .BYTE $D8,$70,$A9,$00,$8D,$D9,$70,$60                                  ; ".p....p`"
+
+; === CODE SECTION ===
+
+$4B38 L_4B38:                         ; xref: call from $4743 (L_4743)
+                                      ; xref: call from $47FE
+                                      ; xref: jump from $62F4
+    JSR $409F                         ; Call SUB_409F
+    JSR $2E5B                         ; Call script_vm_special_room_logic
+    JSR $3C02                         ; Call script_vm_show_text
+    RTS
+
+; === SUBROUTINE: SUB_4B42 ===
+
+$4B42 SUB_4B42:                       ; xref: call from $36E5
+    JSR $0D37                         ; Call SUB_0D37
+
+; === DATA SECTION ===
+
+$4B45                   .BYTE $82,$5E,$9C,$69,$20,$D1,$45,$60                                  ; ".^.i .E`"
+
+; === SUBROUTINE: SUB_4B4D ===
+
+$4B4D SUB_4B4D:                       ; xref: call from $5BE2 (L_5BE2)
+                                      ; xref: call from $5C1E
+                                      ; xref: call from $5C4D (L_5C4D)
+    LDA #$00
+    STA $6992
+    LDA #$00
+    STA $6993
+    JSR $5CDB                         ; Call SUB_5CDB
+    JSR $0CDB                         ; Call SUB_0CDB
+    BRK
+
+; === DATA SECTION ===
+
+$4B5E                   .BYTE $1B,$96                                                          ; ".."
+
+; === SUBROUTINE: SUB_4B60 ===
+
+$4B60 SUB_4B60:                       ; xref: call from $472C
+                                      ; xref: call from $62B9 (SUB_62B9)
+    JSR $60DC                         ; Call SUB_60DC
+    LDA #$02
+    STA $6990
+    LDA #$00
+    STA $6991
+    JMP $4C10                         ; Jump to L_4C10
+
+; === DATA SECTION ===
+
+$4B70                   .BYTE $20,$3C,$4C,$AD,$BF,$69,$C9,$00,$D0,$05,$AD,$C0,$69,$C9,$00,$D0  ; " <L..i......i..."
+$4B80                   .BYTE $03,$4C,$10,$4C,$A9,$03,$8D,$90,$69,$A9,$00,$8D,$91,$69,$20,$02  ; ".L.L....i....i ."
+$4B90                   .BYTE $3C,$20,$DB,$0C,$00,$1B,$96,$20,$DC,$60,$A9,$02,$8D,$90,$69,$A9  ; "< ..... .`....i."
+$4BA0                   .BYTE $00,$8D,$91,$69,$20,$02,$3C,$20,$3C,$4C,$AD,$BF,$69,$C9,$00,$D0  ; "...i .< <L..i..."
+$4BB0                   .BYTE $05,$AD,$C0,$69,$C9,$00,$D0,$03,$4C,$10,$4C,$A9,$03,$8D,$90,$69  ; "...i....L.L....i"
+$4BC0                   .BYTE $A9,$00,$8D,$91,$69,$20,$02,$3C,$20,$DB,$0C,$00,$1B,$96,$20,$DC  ; "....i .< ..... ."
+$4BD0                   .BYTE $60,$A9,$02,$8D,$90,$69,$A9,$00,$8D,$91,$69,$20,$02,$3C,$20,$3C  ; "`....i....i .< <"
+$4BE0                   .BYTE $4C,$AD,$BF,$69,$C9,$00,$D0,$05,$AD,$C0,$69,$C9,$00,$D0,$03,$4C  ; "L..i......i....L"
+$4BF0                   .BYTE $10,$4C,$A9,$02,$8D,$92,$69,$A9,$00,$8D,$93,$69,$20,$DB,$5C,$20  ; ".L....i....i .\ "
+$4C00                   .BYTE $DB,$0C,$00,$1B,$96,$A9,$00,$8D,$8C,$69,$A9,$00,$8D,$8D,$69,$60  ; ".........i....i`"
+
+; === CODE SECTION ===
+
+$4C10 L_4C10:                         ; xref: jump from $4B6D
+    LDA $70D2
+    CMP #$01
+    BNE $4C1C                         ; Branch to L_4C1C
+    LDA $70D3
+    CMP #$00
+$4C1C L_4C1C:                         ; xref: branch from $4C15
+    BEQ $4C21                         ; Branch to L_4C21
+    JMP $4C28                         ; Jump to L_4C28
+$4C21 L_4C21:                         ; xref: branch from $4C1C (L_4C1C)
+    JSR $0CDB                         ; Call SUB_0CDB
+    BRK
+
+; === DATA SECTION ===
+
+$4C25                   .BYTE $1B,$96,$60                                                      ; "..`"
+
+; === CODE SECTION ===
+
+$4C28 L_4C28:                         ; xref: jump from $4C1E
+    LDA #$01
+    STA $6992
+    LDA #$00
+    STA $6993
+    JSR $5CDB                         ; Call SUB_5CDB
+    JSR $0CDB                         ; Call SUB_0CDB
+    BRK
+
+; === DATA SECTION ===
+
+$4C39                   .BYTE $1B,$96,$60,$A9,$00,$85,$C6                                      ; "..`...."
+$4C40                   .BYTE $20,$5A,$5D,$A9,$FF,$8D,$BF,$69,$A9,$00,$8D,$C0,$69,$20,$17,$0F  ; " Z]....i....i .."
+$4C50                   .BYTE $DA,$70,$DD,$70,$4E,$00,$D0,$03,$4C,$65,$4C,$A9,$00,$8D,$BF,$69  ; ".p.pN...LeL....i"
+$4C60                   .BYTE $A9,$00,$8D,$C0,$69,$60                                          ; "....i`"
+
+; === CODE SECTION ===
+
+$4C66 L_4C66:                         ; xref: call from $3712
+                                      ; xref: jump from $4CD7 (L_4CD7)
+    LDA #$26
+    STA $6990
+    LDA #$00
+    STA $6991
+    JSR $3C02                         ; Call script_vm_show_text
+    JSR $5D5A                         ; Call SUB_5D5A
+    LDA $6961
+    CMP #$4E
+    BEQ $4C81                         ; Branch to L_4C81
+    LDA #$00
+    BEQ $4C83                         ; Branch to L_4C83
+$4C81 L_4C81:                         ; xref: branch from $4C7B
+    LDA #$FF
+$4C83 L_4C83:                         ; xref: branch from $4C7F
+    STA $70FB
+    LDA $6961
+    CMP #$0C
+    BEQ $4C91                         ; Branch to L_4C91
+    LDA #$00
+    BEQ $4C93                         ; Branch to L_4C93
+$4C91 L_4C91:                         ; xref: branch from $4C8B
+    LDA #$FF
+$4C93 L_4C93:                         ; xref: branch from $4C8F
+    STA $7100
+    LDA $70FB
+    ORA $7100
+    BNE $4CA1                         ; Branch to L_4CA1
+    JMP $4CA4                         ; Jump to L_4CA4
+$4CA1 L_4CA1:                         ; xref: branch from $4C9C
+    JMP $5269                         ; Jump to L_5269
+$4CA4 L_4CA4:                         ; xref: jump from $4C9E
+    LDA $6961
+    CMP #$45
+    BEQ $4CAF                         ; Branch to L_4CAF
+    LDA #$00
+    BEQ $4CB1                         ; Branch to L_4CB1
+$4CAF L_4CAF:                         ; xref: branch from $4CA9
+    LDA #$FF
+$4CB1 L_4CB1:                         ; xref: branch from $4CAD
+    STA $70FB
+    LDA $6961
+    CMP #$12
+    BEQ $4CBF                         ; Branch to L_4CBF
+    LDA #$00
+    BEQ $4CC1                         ; Branch to L_4CC1
+$4CBF L_4CBF:                         ; xref: branch from $4CB9
+    LDA #$FF
+$4CC1 L_4CC1:                         ; xref: branch from $4CBD
+    STA $7100
+    LDA $70FB
+    ORA $7100
+    BNE $4CCF                         ; Branch to L_4CCF
+    JMP $4CD7                         ; Jump to L_4CD7
+$4CCF L_4CCF:                         ; xref: branch from $4CCA
+    LDA #$02
+    STA $CFF4
+    JMP $381A                         ; Jump to L_381A
+$4CD7 L_4CD7:                         ; xref: jump from $4CCC
+    JMP $4C66                         ; Jump to L_4C66
+
+; === SUBROUTINE: SUB_4CDA ===
+
+$4CDA SUB_4CDA:                       ; xref: call from $371B
+                                      ; xref: jump from $39E6 (L_39E6)
+    LDA $CFF5
+    STA $70FB
+    LDA #$FF
+    EOR $70FB
+    STA $70FB
+    LDA $70FB
+    AND #$01
+    STA $6965
+    LDA $6965
+    STA $CFF5
+    LDA $6965
+    STA $70FB
+    LDA #$00
+    STA $70FC
+    SEC
+    LDA #$23
+    SBC $70FB
+    STA $6990
+    LDA #$00
+    SBC $70FC
+    STA $6991
+    JSR $3C02                         ; Call script_vm_show_text
+    JSR $0CDB                         ; Call SUB_0CDB
+    BRK
+
+; === DATA SECTION ===
+
+$4D19                   .BYTE $03,$C9,$4C,$02,$38                                              ; "..L.8"
+
+; === CODE SECTION ===
+
+$4D1E L_4D1E:                         ; xref: jump from $39FA (L_39FA)
+    LDA $CFF6
+    STA $70FB
+    LDA #$FF
+    EOR $70FB
+    STA $70FB
+    LDA $70FB
+    AND #$01
+    STA $6965
+    LDA $6965
+    STA $CFF6
+    JSR $0D37                         ; Call SUB_0D37
+    STA ($5E),Y
+
+; === DATA SECTION ===
+
+$4D3F                   .BYTE $9C                                                              ; "."
+$4D40                   .BYTE $69,$AD,$65,$69,$C9,$01,$F0,$03,$4C,$52,$4D,$20,$37,$0D,$97,$5E  ; "i.ei....LRM 7..^"
+$4D50                   .BYTE $9C,$69,$20,$8D,$0C,$9D,$5E,$9C,$69,$FB,$70,$20,$8D,$0C,$FB,$70  ; ".i ...^.i.p ...p"
+$4D60                   .BYTE $BD,$5E,$9C,$69,$20,$D1,$45,$4C,$02,$38                          ; ".^.i .EL.8"
+
+; === CODE SECTION ===
+
+$4D6A L_4D6A:                         ; xref: jump from $39FD (L_39FD)
+    LDA $6986
+    CMP #$28
+    BNE $4D76                         ; Branch to L_4D76
+    LDA $6987
+    CMP #$00
+$4D76 L_4D76:                         ; xref: branch from $4D6F
+    BNE $4D7B                         ; Branch to L_4D7B
+    JMP $4D7E                         ; Jump to L_4D7E
+$4D7B L_4D7B:                         ; xref: branch from $4D76 (L_4D76)
+    JMP $4E20                         ; Jump to L_4E20
+$4D7E L_4D7E:                         ; xref: jump from $4D78
+    LDA $6963
+    CMP #$02
+    BEQ $4D88                         ; Branch to L_4D88
+    JMP $4D8B                         ; Jump to L_4D8B
+$4D88 L_4D88:                         ; xref: branch from $4D83
+    JMP $4E20                         ; Jump to L_4E20
+$4D8B L_4D8B:                         ; xref: jump from $4D85
+    LDA $698A
+    CMP #$A3
+    BNE $4D97                         ; Branch to L_4D97
+    LDA $698B
+    CMP #$00
+$4D97 L_4D97:                         ; xref: branch from $4D90
+    BEQ $4D9D                         ; Branch to L_4D9D
+    LDA #$00
+    BEQ $4D9F                         ; Branch to L_4D9F
+$4D9D L_4D9D:                         ; xref: branch from $4D97 (L_4D97)
+    LDA #$FF
+$4D9F L_4D9F:                         ; xref: branch from $4D9B
+    STA $70FB
+    LDA $6988
+    CMP #$6C
+    BNE $4DAE                         ; Branch to L_4DAE
+    LDA $6989
+    CMP #$00
+$4DAE L_4DAE:                         ; xref: branch from $4DA7
+    BEQ $4DB4                         ; Branch to L_4DB4
+    LDA #$00
+    BEQ $4DB6                         ; Branch to L_4DB6
+$4DB4 L_4DB4:                         ; xref: branch from $4DAE (L_4DAE)
+    LDA #$FF
+$4DB6 L_4DB6:                         ; xref: branch from $4DB2
+    STA $7100
+    LDA $70FB
+    AND $7100
+    BNE $4DC4                         ; Branch to L_4DC4
+    JMP $4DD1                         ; Jump to L_4DD1
+$4DC4 L_4DC4:                         ; xref: branch from $4DBF
+    LDA #$5E
+    STA $6990
+    LDA #$00
+    STA $6991
+    JMP $3A0D                         ; Jump to L_3A0D
+$4DD1 L_4DD1:                         ; xref: jump from $4DC1
+    LDA $698A
+    CMP #$A3
+    BNE $4DDD                         ; Branch to L_4DDD
+    LDA $698B
+    CMP #$00
+$4DDD L_4DDD:                         ; xref: branch from $4DD6
+    BEQ $4DE3                         ; Branch to L_4DE3
+    LDA #$00
+    BEQ $4DE5                         ; Branch to L_4DE5
+$4DE3 L_4DE3:                         ; xref: branch from $4DDD (L_4DDD)
+    LDA #$FF
+$4DE5 L_4DE5:                         ; xref: branch from $4DE1
+    STA $70FB
+    LDA $6988
+    CMP #$8E
+    BNE $4DF4                         ; Branch to L_4DF4
+    LDA $6989
+    CMP #$00
+$4DF4 L_4DF4:                         ; xref: branch from $4DED
+    BEQ $4DFA                         ; Branch to L_4DFA
+    LDA #$00
+    BEQ $4DFC                         ; Branch to L_4DFC
+$4DFA L_4DFA:                         ; xref: branch from $4DF4 (L_4DF4)
+    LDA #$FF
+$4DFC L_4DFC:                         ; xref: branch from $4DF8
+    STA $7100
+    LDA $70FB
+    AND $7100
+    BNE $4E0A                         ; Branch to L_4E0A
+    JMP $4E20                         ; Jump to L_4E20
+$4E0A L_4E0A:                         ; xref: branch from $4E05
+    LDA #$60
+    STA $6990
+    LDA #$00
+    STA $6991
+    JSR $3C02                         ; Call script_vm_show_text
+    JSR $0CDB                         ; Call SUB_0CDB
+    BRK
+
+; === DATA SECTION ===
+
+$4E1B                   .BYTE $1B,$96,$4C,$0D,$3A                                              ; "..L.:"
+
+; === CODE SECTION ===
+
+$4E20 L_4E20:                         ; xref: jump from $4D7B (L_4D7B)
+                                      ; xref: jump from $4D88 (L_4D88)
+                                      ; xref: jump from $4E07
+    LDA $6986
+    CMP #$0B
+    BNE $4E2C                         ; Branch to L_4E2C
+    LDA $6987
+    CMP #$00
+$4E2C L_4E2C:                         ; xref: branch from $4E25
+    BEQ $4E32                         ; Branch to L_4E32
+    LDA #$00
+    BEQ $4E34                         ; Branch to L_4E34
+$4E32 L_4E32:                         ; xref: branch from $4E2C (L_4E2C)
+    LDA #$FF
+$4E34 L_4E34:                         ; xref: branch from $4E30
+    STA $70FB
+    LDA $695D
+    CMP #$20
+    BEQ $4E42                         ; Branch to L_4E42
+    LDA #$00
+    BEQ $4E44                         ; Branch to L_4E44
+$4E42 L_4E42:                         ; xref: branch from $4E3C
+    LDA #$FF
+$4E44 L_4E44:                         ; xref: branch from $4E40
+    STA $7100
+    LDA $70FB
+    AND $7100
+    BNE $4E52                         ; Branch to L_4E52
+    JMP $4E5F                         ; Jump to L_4E5F
+$4E52 L_4E52:                         ; xref: branch from $4E4D
+    LDA #$05
+    STA $6990
+    LDA #$00
+    STA $6991
+    JMP $3A0D                         ; Jump to L_3A0D
+$4E5F L_4E5F:                         ; xref: jump from $4E4F
+    JMP $3A00                         ; Jump to L_3A00
+
+; === SUBROUTINE: SUB_4E62 ===
+
+$4E62 SUB_4E62:                       ; xref: call from $3736
+    LDA #$00
+    STA $69B9
+    LDA #$00
+    STA $69BA
+    LDA #$01
+    STA $6992
+    LDA #$00
+    STA $6993
+    JSR $0D4F                         ; Call SUB_0D4F
+
+; === DATA SECTION ===
+
+$4E79                   .BYTE $04,$92,$69,$01,$00,$A5,$00                                      ; "..i...."
+$4E80                   .BYTE $18,$AD,$92,$69,$69,$5E,$85,$57,$AD,$93,$69,$69,$6C,$85,$58,$A0  ; "...ii^.W..iil.X."
+$4E90                   .BYTE $00,$B1,$57,$8D,$FB,$70,$AD,$FB,$70,$C9,$FF,$F0,$03,$4C,$AA,$4E  ; "..W..p..p....L.N"
+$4EA0                   .BYTE $A9,$01,$8D,$B9,$69,$A9,$00,$8D,$BA,$69,$20,$ED,$0D,$04,$92,$69  ; "....i....i ....i"
+$4EB0                   .BYTE $AD,$B9,$69,$C9,$00,$D0,$05,$AD,$BA,$69,$C9,$00,$F0,$03,$4C,$CE  ; "..i......i....L."
+$4EC0                   .BYTE $4E,$A9,$35,$8D,$90,$69,$A9,$00,$8D,$91,$69,$4C,$B0,$4F,$A9,$34  ; "N.5..i....iL.O.4"
+$4ED0                   .BYTE $8D,$90,$69,$A9,$00,$8D,$91,$69,$20,$02,$3C,$A9,$00,$8D,$B9,$69  ; "..i....i .<....i"
+$4EE0                   .BYTE $A9,$00,$8D,$BA,$69,$20,$37,$0D,$D4,$5E,$9C,$69,$A9,$01,$8D,$92  ; "....i 7..^.i...."
+$4EF0                   .BYTE $69,$A9,$00,$8D,$93,$69,$20,$4F,$0D,$04,$92,$69,$01,$00,$A5,$00  ; "i....i O...i...."
+$4F00                   .BYTE $20,$29,$0F,$9C,$69,$FB,$70,$A9,$E6,$CD,$FB,$70,$90,$03,$4C,$1E  ; " )..i.p....p..L."
+$4F10                   .BYTE $4F,$A9,$01,$8D,$B9,$69,$A9,$00,$8D,$BA,$69,$4C,$62,$4F,$18,$AD  ; "O....i....iLbO.."
+$4F20                   .BYTE $92,$69,$69,$5E,$85,$57,$AD,$93,$69,$69,$6C,$85,$58,$A0,$00,$B1  ; ".ii^.W..iil.X..."
+$4F30                   .BYTE $57,$8D,$FB,$70,$AD,$FB,$70,$C9,$FF,$D0,$03,$4C,$41,$4F,$4C,$62  ; "W..p..p....LAOLb"
+$4F40                   .BYTE $4F,$AD,$92,$69,$8D,$E0,$70,$AD,$93,$69,$8D,$E1,$70,$20,$B1,$4F  ; "O..i..p..i..p .O"
+$4F50                   .BYTE $20,$8D,$0C,$9C,$69,$E2,$70,$FB,$70,$20,$8D,$0C,$FB,$70,$D7,$5E  ; " ...i.p.p ...p.^"
+$4F60                   .BYTE $9C,$69,$20,$ED,$0D,$04,$92,$69,$AD,$B9,$69,$C9,$01,$D0,$05,$AD  ; ".i ....i..i....."
+$4F70                   .BYTE $BA,$69,$C9,$00,$F0,$03,$4C,$83,$4F,$20,$37,$0D,$DC,$5E,$9C,$69  ; ".i....L.O 7..^.i"
+$4F80                   .BYTE $4C,$A6,$4F,$20,$29,$0F,$9C,$69,$FB,$70,$38,$AD,$FB,$70,$E9,$02  ; "L.O )..i.p8..p.."
+$4F90                   .BYTE $8D,$FB,$70,$AE,$FB,$70,$20,$3E,$0F,$9C,$69,$FB,$70,$20,$8D,$0C  ; "..p..p >..i.p .."
+$4FA0                   .BYTE $FB,$70,$EC,$5E,$9C,$69,$20,$D1,$45,$20,$37,$0D,$F0,$5E,$E2,$70  ; ".p.^.i .E 7..^.p"
+$4FB0                   .BYTE $60                                                              ; "`"
+
+; === SUBROUTINE: SUB_4FB1 ===
+
+$4FB1 SUB_4FB1:                       ; xref: call from $607C
+                                      ; xref: call from $60B4
+    CLC
+    LDA #$49
+    ADC $70E0
+    STA $4E
+    LDA #$C1
+    ADC $70E1
+    STA $4F
+    LDY #$00
+    LDA ($4E),Y
+    STA $70FB
+    CLC
+    LDA #$A4
+    ADC $70E0
+    STA $4E
+    LDA #$C0
+    ADC $70E1
+    STA $4F
+    LDY #$00
+    LDA ($4E),Y
+    STA $7100
+    LDA #$00
+    STA $7101
+    LDA $7100
+    STA $7101
+    LDA #$00
+    STA $7100
+    LDA #$00
+    STA $70FC
+    CLC
+    LDA $70FB
+    ADC $7100
+    STA $70E0
+    LDA $70FC
+    ADC $7101
+    STA $70E1
+    CLC
+    LDA $70E0
+    ADC #$94
+    STA $70E0
+    LDA $70E1
+    ADC #$C2
+    STA $70E1
+    JSR $0D37                         ; Call SUB_0D37
+
+; === DATA SECTION ===
+
+$5019                   .BYTE $F3,$5E,$E2,$70,$AD,$E0,$70                                      ; ".^.p..p"
+$5020                   .BYTE $85,$57,$AD,$E1,$70,$85,$58,$A0,$00,$B1,$57,$8D,$FB,$70,$A9,$00  ; ".W..p.X...W..p.."
+$5030                   .BYTE $8D,$FC,$70,$AD,$FB,$70,$29,$7F,$8D,$BD,$70,$AD,$FC,$70,$29,$00  ; "..p..p)...p..p)."
+$5040                   .BYTE $8D,$BE,$70,$AD,$BD,$70,$8D,$FB,$70,$AD,$BE,$70,$8D,$FC,$70,$4E  ; "..p..p..p..p..pN"
+$5050                   .BYTE $FC,$70,$6E,$FB,$70,$4E,$FC,$70,$6E,$FB,$70,$4E,$FC,$70,$6E,$FB  ; ".pn.pN.pn.pN.pn."
+$5060                   .BYTE $70,$4E,$FC,$70,$6E,$FB,$70,$4E,$FC,$70,$6E,$FB,$70,$AD,$FB,$70  ; "pN.pn.pN.pn.p..p"
+$5070                   .BYTE $8D,$E5,$70,$AD,$FC,$70,$8D,$E6,$70,$AD,$BD,$70,$29,$1F,$8D,$BD  ; "..p..p..p..p)..."
+$5080                   .BYTE $70,$AD,$BE,$70,$29,$00,$8D,$BE,$70,$AD,$E5,$70,$C9,$02,$D0,$05  ; "p..p)...p..p...."
+$5090                   .BYTE $AD,$E6,$70,$C9,$00,$F0,$03,$4C,$AE,$50,$18,$AD,$BD,$70,$69,$C0  ; "..p....L.P...pi."
+$50A0                   .BYTE $8D,$BD,$70,$AD,$BE,$70,$69,$00,$8D,$BE,$70,$4C,$F8,$50,$AD,$E5  ; "..p..pi...pL.P.."
+$50B0                   .BYTE $70,$C9,$01,$D0,$05,$AD,$E6,$70,$C9,$00,$F0,$03,$4C,$D3,$50,$18  ; "p......p....L.P."
+$50C0                   .BYTE $AD,$BD,$70,$69,$20,$8D,$BD,$70,$AD,$BE,$70,$69,$00,$8D,$BE,$70  ; "..pi ..p..pi...p"
+$50D0                   .BYTE $4C,$F8,$50,$AD,$E5,$70,$C9,$00,$D0,$05,$AD,$E6,$70,$C9,$00,$F0  ; "L.P..p......p..."
+$50E0                   .BYTE $03,$4C,$F8,$50,$18,$AD,$BD,$70,$69,$40,$8D,$BD,$70,$AD,$BE,$70  ; ".L.P...pi@..p..p"
+$50F0                   .BYTE $69,$00,$8D,$BE,$70,$4C,$F8,$50,$AD,$BD,$70,$20,$5B,$0F,$FB,$70  ; "i...pL.P..p [..p"
+$5100                   .BYTE $20,$8D,$0C,$E2,$70,$FB,$70,$E2,$70,$AD,$E0,$70,$85,$57,$AD,$E1  ; " ...p.p.p..p.W.."
+$5110                   .BYTE $70,$85,$58,$A0,$00,$B1,$57,$8D,$FB,$70,$AD,$FB,$70,$C9,$80,$90  ; "p.X...W..p..p..."
+$5120                   .BYTE $03,$4C,$2F,$51,$EE,$E0,$70,$D0,$03,$EE,$E1,$70,$4C,$1D,$50,$60  ; ".L/Q..p....pL.P`"
+
+; === SUBROUTINE: SUB_5130 ===
+
+$5130 SUB_5130:                       ; xref: call from $3709
+    LDA #$1E
+    STA $6990
+    LDA #$00
+    STA $6991
+    JSR $3C02                         ; Call script_vm_show_text
+    JSR $5D5A                         ; Call SUB_5D5A
+    LDA $6961
+    CMP #$4A
+    BEQ $514B                         ; Branch to L_514B
+    LDA #$00
+    BEQ $514D                         ; Branch to L_514D
+$514B L_514B:                         ; xref: branch from $5145
+    LDA #$FF
+$514D L_514D:                         ; xref: branch from $5149
+    STA $70FB
+    LDA $6961
+    CMP #$12
+    BEQ $515B                         ; Branch to L_515B
+    LDA #$00
+    BEQ $515D                         ; Branch to L_515D
+$515B L_515B:                         ; xref: branch from $5155
+    LDA #$FF
+$515D L_515D:                         ; xref: branch from $5159
+    STA $7100
+    LDA $70FB
+    ORA $7100
+    BNE $516B                         ; Branch to L_516B
+    JMP $5173                         ; Jump to L_5173
+$516B L_516B:                         ; xref: branch from $5166
+    LDA #$02
+    STA $CFF4
+    JMP $381A                         ; Jump to L_381A
+$5173 L_5173:                         ; xref: jump from $5168
+    RTS
+
+; === SUBROUTINE: SUB_5174 ===
+
+$5174 SUB_5174:                       ; xref: call from $3700
+    LDA #$1D
+    STA $6990
+    LDA #$00
+    STA $6991
+    JSR $3C02                         ; Call script_vm_show_text
+    JSR $5D5A                         ; Call SUB_5D5A
+    LDA $6961
+    CMP #$4A
+    BEQ $518F                         ; Branch to L_518F
+    LDA #$00
+    BEQ $5191                         ; Branch to L_5191
+$518F L_518F:                         ; xref: branch from $5189
+    LDA #$FF
+$5191 L_5191:                         ; xref: branch from $518D
+    STA $70FB
+    LDA $6961
+    CMP #$12
+    BEQ $519F                         ; Branch to L_519F
+    LDA #$00
+    BEQ $51A1                         ; Branch to L_51A1
+$519F L_519F:                         ; xref: branch from $5199
+    LDA #$FF
+$51A1 L_51A1:                         ; xref: branch from $519D
+    STA $7100
+    LDA $70FB
+    ORA $7100
+    BNE $51AF                         ; Branch to L_51AF
+    JMP $51B2                         ; Jump to L_51B2
+$51AF L_51AF:                         ; xref: branch from $51AA
+    JMP $5269                         ; Jump to L_5269
+$51B2 L_51B2:                         ; xref: jump from $51AC
+    RTS
+
+; === SUBROUTINE: SUB_51B3 ===
+
+$51B3 SUB_51B3:                       ; xref: call from $380F (L_380F)
+    LDA #$69
+    STA $6990
+    LDA #$02
+    STA $6991
+    JSR $3C02                         ; Call script_vm_show_text
+    JSR $0CDB                         ; Call SUB_0CDB
+    BRK
+
+; === DATA SECTION ===
+
+$51C4                   .BYTE $28,$96,$A9,$FF,$8D,$01,$6D,$20,$11,$5D,$AD,$61                  ; "(.....m .].a"
+$51D0                   .BYTE $69,$C9,$42,$F0,$04,$A9,$00,$F0,$02,$A9,$FF,$8D,$FB,$70,$AD,$61  ; "i.B..........p.a"
+$51E0                   .BYTE $69,$C9,$12,$F0,$04,$A9,$00,$F0,$02,$A9,$FF,$8D,$00,$71,$AD,$FB  ; "i............q.."
+$51F0                   .BYTE $70,$0D,$00,$71,$D0,$03,$4C,$07,$52,$20,$DB,$0C,$00,$2B,$96,$A9  ; "p..q..L.R ...+.."
+$5200                   .BYTE $00,$8D,$F4,$CF,$4C,$1A,$38,$AD,$61,$69,$C9,$4E,$F0,$04,$A9,$00  ; "....L.8.ai.N...."
+$5210                   .BYTE $F0,$02,$A9,$FF,$8D,$FB,$70,$AD,$61,$69,$C9,$0C,$F0,$04,$A9,$00  ; "......p.ai......"
+$5220                   .BYTE $F0,$02,$A9,$FF,$8D,$00,$71,$AD,$FB,$70,$0D,$00,$71,$D0,$03,$4C  ; "......q..p..q..L"
+$5230                   .BYTE $3B,$52,$20,$DB,$0C,$00,$2B,$96,$4C,$69,$52,$AD,$61,$69,$C9,$4C  ; ";R ...+.LiR.ai.L"
+$5240                   .BYTE $F0,$03,$4C,$5B,$52,$20,$DB,$0C,$00,$2B,$96,$20,$16,$46,$AD,$01  ; "..L[R ...+. .F.."
+$5250                   .BYTE $6D,$C9,$FF,$F0,$03,$4C,$5B,$52,$4C,$B3,$51,$AD,$01,$6D,$C9,$FF  ; "m....L[RL.Q..m.."
+$5260                   .BYTE $F0,$03,$4C,$68,$52,$4C,$CB,$51,$60                              ; "..LhRL.Q`"
+
+; === CODE SECTION ===
+
+$5269 L_5269:                         ; xref: jump from $4CA1 (L_4CA1)
+                                      ; xref: jump from $51AF (L_51AF)
+    LDA #$01
+    STA $69BB
+    LDA #$00
+    STA $69BC
+    JSR $5277                         ; Call SUB_5277
+    RTS
+
+; === SUBROUTINE: SUB_5277 ===
+
+$5277 SUB_5277:                       ; xref: call from $5273
+    LDA #$01
+    STA $6963
+    JSR $5396                         ; Call SUB_5396
+    LDA #$01
+    STA $6963
+    JSR $569D                         ; Call SUB_569D
+    LDA #$03
+    STA $695D
+    LDA $695D
+    STA $70FB
+    LDA #$00
+    STA $70FC
+    CLC
+    LDA $70FB
+    ADC #$27
+    STA $3B
+    LDA $70FC
+    ADC #$70
+    STA $3C
+    LDA #$01
+    LDY #$00
+    STA ($3B),Y
+    LDA $695D
+    STA $6994
+    LDA #$00
+    STA $6995
+    JSR $4087                         ; Call script_vm_show_image
+    LDA #$00
+    STA $69BF
+    LDA #$00
+    STA $69C0
+    LDA #$6D
+    STA $6990
+    LDA #$00
+    STA $6991
+    JSR $3C02                         ; Call script_vm_show_text
+    RTS
+
+; === SUBROUTINE: SUB_52D2 ===
+
+$52D2 SUB_52D2:                       ; xref: call from $372D
+    LDA #$47
+    STA $6990
+    LDA #$02
+    STA $6991
+    JSR $3C02                         ; Call script_vm_show_text
+    JSR $5D5A                         ; Call SUB_5D5A
+    LDA $6961
+    CMP #$4A
+    BEQ $52ED                         ; Branch to L_52ED
+    LDA #$00
+    BEQ $52EF                         ; Branch to L_52EF
+$52ED L_52ED:                         ; xref: branch from $52E7
+    LDA #$FF
+$52EF L_52EF:                         ; xref: branch from $52EB
+    STA $70FB
+    LDA $6961
+    CMP #$12
+    BEQ $52FD                         ; Branch to L_52FD
+    LDA #$00
+    BEQ $52FF                         ; Branch to L_52FF
+$52FD L_52FD:                         ; xref: branch from $52F7
+    LDA #$FF
+$52FF L_52FF:                         ; xref: branch from $52FB
+    STA $7100
+    LDA $70FB
+    ORA $7100
+    BNE $530D                         ; Branch to L_530D
+    JMP $531B                         ; Jump to L_531B
+$530D L_530D:                         ; xref: branch from $5308
+    JSR $62D1                         ; Call SUB_62D1
+    LDA $6962
+    CMP #$00
+    BEQ $531A                         ; Branch to L_531A
+    JMP $531B                         ; Jump to L_531B
+$531A L_531A:                         ; xref: branch from $5315
+    RTS
+$531B L_531B:                         ; xref: jump from $530A
+                                      ; xref: jump from $5317
+    LDA #$4A
+    STA $6990
+    LDA #$02
+    STA $6991
+    JSR $3C02                         ; Call script_vm_show_text
+    RTS
+
+; === DATA SECTION ===
+
+$5329                   .BYTE $60,$20,$4F,$53,$A9,$82,$8D                                      ; "` OS..."
+$5330                   .BYTE $24,$96,$A9,$00,$8D,$0C,$03,$AD,$60,$CA,$8D,$0D,$03,$AD,$61,$CA  ; "$.......`.....a."
+$5340                   .BYTE $8D,$0E,$03,$20,$DB,$0C,$00,$09,$CB,$A9,$80,$8D,$24,$96,$60,$A9  ; "... ........$.`."
+$5350                   .BYTE $00,$8D,$E7,$70,$A9,$00,$8D,$E8,$70,$20,$4F,$0D,$04,$E7,$70,$01  ; "...p....p O...p."
+$5360                   .BYTE $00,$2C,$01,$20,$ED,$0D,$04,$E7,$70,$60,$20,$DB,$0C,$00,$03,$96  ; ".,. ....p` ....."
+$5370                   .BYTE $20,$4F,$53,$A9,$FF,$8D,$8A,$02,$A9,$00,$8D,$E9,$70,$A9,$00,$8D  ; " OS.........p..."
+$5380                   .BYTE $EA,$70,$20,$4F,$0D,$04,$E9,$70,$01,$00,$E8,$03,$20,$77,$0F,$20  ; ".p O...p.... w. "
+$5390                   .BYTE $DB,$0C,$00,$1E,$96,$60                                          ; ".....`"
+
+; === SUBROUTINE: SUB_5396 ===
+
+$5396 SUB_5396:                       ; xref: call from $463B
+                                      ; xref: call from $46B6
+                                      ; xref: call from $4795
+                                      ; xref: call from $47FB
+                                      ; xref: call from $527C
+                                      ; xref: call from $5C08
+                                      ; xref: call from $5C44
+                                      ; xref: call from $5C73
+                                      ; xref: call from $62E1
+    LDA #$00
+    STA $6961
+    LDA #$00
+    STA $6962
+    LDA #$00
+    STA $C6
+    LDA $6963
+    CMP #$00
+    BEQ $53AF                         ; Branch to L_53AF
+    LDA #$00
+    BEQ $53B1                         ; Branch to L_53B1
+$53AF L_53AF:                         ; xref: branch from $53A9
+    LDA #$FF
+$53B1 L_53B1:                         ; xref: branch from $53AD
+    STA $70FB
+    LDA $6961
+    CMP #$03
+    BEQ $53BF                         ; Branch to L_53BF
+    LDA #$00
+    BEQ $53C1                         ; Branch to L_53C1
+$53BF L_53BF:                         ; xref: branch from $53B9
+    LDA #$FF
+$53C1 L_53C1:                         ; xref: branch from $53BD
+    STA $7100
+    LDA $6961
+    CMP #$12
+    BEQ $53CF                         ; Branch to L_53CF
+    LDA #$00
+    BEQ $53D1                         ; Branch to L_53D1
+$53CF L_53CF:                         ; xref: branch from $53C9
+    LDA #$FF
+$53D1 L_53D1:                         ; xref: branch from $53CD
+    STA $7105
+    LDA $7100
+    ORA $7105
+    STA $7100
+    LDA $6961
+    CMP #$5F
+    BEQ $53E8                         ; Branch to L_53E8
+    LDA #$00
+    BEQ $53EA                         ; Branch to L_53EA
+$53E8 L_53E8:                         ; xref: branch from $53E2
+    LDA #$FF
+$53EA L_53EA:                         ; xref: branch from $53E6
+    STA $7105
+    LDA $7100
+    ORA $7105
+    STA $7100
+    LDA $70FB
+    AND $7100
+    BNE $5401                         ; Branch to L_5401
+    JMP $5409                         ; Jump to L_5409
+$5401 L_5401:                         ; xref: branch from $53FC
+    LDA #$01
+    STA $6962
+    JMP $5571                         ; Jump to L_5571
+$5409 L_5409:                         ; xref: jump from $53FE
+    JSR $0E11                         ; Call SUB_0E11
+    CPY $A955
+    BRK
+
+; === DATA SECTION ===
+
+$5410                   .BYTE $8D,$92,$69,$A9,$00,$8D,$93,$69,$AD,$63,$69,$8D,$00,$71,$A9,$00  ; "..i....i.ci..q.."
+$5420                   .BYTE $8D,$01,$71,$20,$4F,$0D,$44,$92,$69,$01,$00,$00,$71,$20,$7D,$0E  ; "..q O.D.i...q }."
+$5430                   .BYTE $06,$C2,$70,$20,$7D,$0E,$06,$C5,$70,$20,$7D,$0E,$06,$EB,$70,$20  ; "..p }...p }...p "
+$5440                   .BYTE $ED,$0D,$04,$92,$69,$20,$4F,$53,$20,$DB,$0C,$00,$0C,$CB,$20,$4F  ; "....i OS ..... O"
+$5450                   .BYTE $53,$20,$8F,$55,$20,$4F,$53,$20,$17,$0F,$EE,$70,$EB,$70,$4E,$00  ; "S .U OS ...p.pN."
+$5460                   .BYTE $D0,$03,$4C,$68,$54,$4C,$EB,$54,$AD,$5E,$69,$C9,$00,$D0,$03,$4C  ; "..LhTL.T.^i....L"
+$5470                   .BYTE $75,$54,$20,$03,$56,$20,$37,$0D,$F6,$5E,$9C,$69,$AD,$63,$69,$C9  ; "uT .V 7..^.i.ci."
+$5480                   .BYTE $00,$F0,$03,$4C,$92,$54,$20,$8D,$0C,$9C,$69,$FF,$5E,$9C,$69,$4C  ; "...L.T ...i.^.iL"
+$5490                   .BYTE $B6,$54,$20,$8D,$0C,$9C,$69,$15,$5F,$FB,$70,$20,$8D,$0C,$FB,$70  ; ".T ...i._.p ...p"
+$54A0                   .BYTE $C2,$70,$FB,$70,$20,$8D,$0C,$FB,$70,$21,$5F,$FB,$70,$20,$8D,$0C  ; ".p.p ...p!_.p .."
+$54B0                   .BYTE $FB,$70,$C5,$70,$9C,$69,$20,$8D,$0C,$9C,$69,$2C,$5F,$9C,$69,$20  ; ".p.p.i ...i,_.i "
+$54C0                   .BYTE $D1,$45,$20,$DB,$0C,$00,$28,$96,$A9,$00,$8D,$92,$69,$A9,$00,$8D  ; ".E ...(.....i..."
+$54D0                   .BYTE $93,$69,$20,$4F,$0D,$04,$92,$69,$01,$00,$D0,$07,$20,$77,$0F,$20  ; ".i O...i.... w. "
+$54E0                   .BYTE $DB,$0C,$00,$2B,$96,$20,$34,$5D,$4C,$A4,$53,$A9,$82,$8D,$24,$96  ; "...+. 4]L.S...$."
+$54F0                   .BYTE $20,$DB,$0C,$00,$18,$CB,$A9,$80,$8D,$24,$96,$AD,$FA,$CA,$8D,$FB  ; " ........$......"
+$5500                   .BYTE $70,$AD,$FB,$CA,$8D,$00,$71,$A9,$00,$8D,$01,$71,$AD,$00,$71,$8D  ; "p.....q....q..q."
+$5510                   .BYTE $01,$71,$A9,$00,$8D,$00,$71,$A9,$00,$8D,$FC,$70,$18,$AD,$FB,$70  ; ".q....q....p...p"
+$5520                   .BYTE $6D,$00,$71,$8D,$FB,$70,$AD,$FC,$70,$6D,$01,$71,$8D,$FC,$70,$38  ; "m.q..p..pm.q..p8"
+$5530                   .BYTE $AD,$FB,$70,$E9,$7E,$8D,$BB,$70,$AD,$FC,$70,$E9,$00,$8D,$BC,$70  ; "..p.~..p..p....p"
+$5540                   .BYTE $AD,$63,$69,$C9,$01,$90,$04,$A9,$00,$F0,$02,$A9,$FF,$8D,$FB,$70  ; ".ci............p"
+$5550                   .BYTE $A9,$04,$CD,$63,$69,$90,$04,$A9,$00,$F0,$02,$A9,$FF,$8D,$00,$71  ; "...ci..........q"
+$5560                   .BYTE $AD,$FB,$70,$0D,$00,$71,$D0,$03,$4C,$6E,$55,$4C,$71,$55,$20,$2A  ; "..p..q..LnULqU *"
+$5570                   .BYTE $53                                                              ; "S"
+
+; === CODE SECTION ===
+
+$5571 L_5571:                         ; xref: jump from $5406
+    JSR $0D37                         ; Call SUB_0D37
+    AND $EB5F,Y
+    BVS $5599                         ; Branch to L_5599
+
+; === DATA SECTION ===
+
+$5579                   .BYTE $37,$0D,$3C,$5F,$EE,$70,$20                                      ; "7.<_.p "
+$5580                   .BYTE $DB,$0C,$00,$15,$96,$A9,$01,$8D,$5E,$69,$A9,$00,$85,$C6,$60,$AD  ; "........^i....`."
+$5590                   .BYTE $1B,$CB,$8D,$FB,$70,$AD,$FB,$70,$20                              ; "....p..p "
+; xref: branch from $5577
+$5599                   .BYTE $5B,$0F,$FB,$70,$AD,$1C,$CB                                      ; "[..p..."
+$55A0                   .BYTE $8D,$00,$71,$AD,$00,$71,$20,$5B,$0F,$00,$71,$20,$8D,$0C,$FB,$70  ; "..q..q [..q ...p"
+$55B0                   .BYTE $00,$71,$EE,$70,$AD,$0C,$03,$8D,$FB,$70,$AD,$FB,$70,$C9,$00,$D0  ; ".q.p.....p..p..."
+$55C0                   .BYTE $03,$4C,$CB,$55,$20,$37,$0D,$3F,$5F,$EE,$70,$60,$4C,$03,$56,$53  ; ".L.U 7.?_.p`L.VS"
+$55D0                   .BYTE $2C,$53,$2C,$44,$53,$00,$22,$C2,$22,$2C,$31,$2C,$44,$41,$00,$22  ; ",S,DS.".",1,DA.""
+$55E0                   .BYTE $C2,$22,$2C,$32,$2C,$44,$42,$00,$22,$C3,$22,$2C,$31,$2C,$44,$43  ; ".",2,DB.".",1,DC"
+$55F0                   .BYTE $00,$22,$C3,$22,$2C,$32,$2C,$44,$44,$00,$22,$C1,$22,$2C,$32,$2C  ; ".".",2,DD.".",2,"
+$5600                   .BYTE $50,$42,$00,$20,$DB,$0C,$00,$0C,$CB,$20,$4F,$53,$20,$8F,$55,$20  ; "PB. ..... OS .U "
+$5610                   .BYTE $11,$0E,$7B,$56,$A9,$00,$8D,$92,$69,$A9,$00,$8D,$93,$69,$A9,$01  ; "..{V....i....i.."
+$5620                   .BYTE $8D,$B9,$69,$A9,$00,$8D,$BA,$69,$20,$4F,$0D,$04,$B9,$69,$01,$00  ; "..i....i O...i.."
+$5630                   .BYTE $06,$00,$20,$7D,$0E,$06,$EB,$70,$20,$17,$0F,$EB,$70,$EE,$70,$4E  ; ".. }...p ...p.pN"
+$5640                   .BYTE $00,$D0,$03,$4C,$50,$56,$A9,$01,$8D,$92,$69,$A9,$00,$8D,$93,$69  ; "...LPV....i....i"
+$5650                   .BYTE $20,$ED,$0D,$04,$B9,$69,$AD,$92,$69,$C9,$01,$D0,$05,$AD,$93,$69  ; " ....i..i......i"
+$5660                   .BYTE $C9,$00,$F0,$03,$4C,$7A,$56,$20,$DB,$0C,$00,$18,$CB,$A9,$FE,$8D  ; "....LzV ........"
+$5670                   .BYTE $94,$69,$A9,$00,$8D,$95,$69,$20,$87,$40,$60,$4C,$9D,$56,$20,$22  ; ".i....i .@`L.V ""
+$5680                   .BYTE $44,$41,$22,$2C,$22,$44,$42,$22,$2C,$22,$44,$43,$22,$2C,$22,$44  ; "DA","DB","DC","D"
+$5690                   .BYTE $44,$22,$2C,$22,$50,$42,$22,$2C,$22,$44,$53,$22,$00              ; "D","PB","DS"."
+
+; === SUBROUTINE: SUB_569D ===
+
+$569D SUB_569D:                       ; xref: call from $5284
+    LDA #$23
+    STA $695F
+    LDA #$00
+    STA $6960
+    LDA #$00
+    STA $70D8
+    LDA #$00
+    STA $70D9
+    JSR $56FD                         ; Call SUB_56FD
+    LDA #$00
+    STA $698C
+    LDA #$00
+    STA $698D
+    LDA #$01
+    STA $6992
+    LDA #$00
+    STA $6993
+    JSR $0D4F                         ; Call SUB_0D4F
+
+; === DATA SECTION ===
+
+$56CB                   .BYTE $04,$92,$69,$01,$00                                              ; "..i.."
+$56D0                   .BYTE $67,$00,$18,$AD,$92,$69,$69,$27,$85,$3B,$AD,$93,$69,$69,$70,$85  ; "g....ii'.;..iip."
+$56E0                   .BYTE $3C,$A9,$00,$A0,$00,$91,$3B,$20,$ED,$0D,$04,$92,$69,$A9,$00,$8D  ; "<.....; ....i..."
+$56F0                   .BYTE $27,$70,$A9,$01,$8D,$8E,$69,$A9,$00,$8D,$8F,$69,$60              ; "'p....i....i`"
+
+; === SUBROUTINE: SUB_56FD ===
+
+$56FD SUB_56FD:                       ; xref: call from $56B1
+    LDA #$01
+    STA $6992
+    LDA #$00
+    STA $6993
+    JSR $0D4F                         ; Call SUB_0D4F
+
+; === DATA SECTION ===
+
+$570A                   .BYTE $04,$92,$69,$01,$00,$67                                          ; "..i..g"
+$5710                   .BYTE $00,$20,$AA,$58,$18,$AD,$92,$69,$69,$AA,$85,$3B,$AD,$93,$69,$69  ; ". .X...ii..;..ii"
+$5720                   .BYTE $6D,$85,$3C,$AD,$B9,$69,$A0,$00,$91,$3B,$20,$AA,$58,$18,$AD,$92  ; "m.<..i...; .X..."
+$5730                   .BYTE $69,$69,$E2,$85,$3B,$AD,$93,$69,$69,$6E,$85,$3C,$AD,$B9,$69,$A0  ; "ii..;..iin.<..i."
+$5740                   .BYTE $00,$91,$3B,$20,$AA,$58,$18,$AD,$92,$69,$69,$12,$85,$3B,$AD,$93  ; "..; .X...ii..;.."
+$5750                   .BYTE $69,$69,$6E,$85,$3C,$AD,$B9,$69,$A0,$00,$91,$3B,$20,$AA,$58,$18  ; "iin.<..i...; .X."
+$5760                   .BYTE $AD,$92,$69,$69,$7A,$85,$3B,$AD,$93,$69,$69,$6E,$85,$3C,$AD,$B9  ; "..iiz.;..iin.<.."
+$5770                   .BYTE $69,$A0,$00,$91,$3B,$20,$AA,$58,$18,$AD,$92,$69,$69,$4A,$85,$3B  ; "i...; .X...iiJ.;"
+$5780                   .BYTE $AD,$93,$69,$69,$6F,$85,$3C,$AD,$B9,$69,$A0,$00,$91,$3B,$20,$AA  ; "..iio.<..i...; ."
+$5790                   .BYTE $58,$18,$AD,$92,$69,$69,$B2,$85,$3B,$AD,$93,$69,$69,$6F,$85,$3C  ; "X...ii..;..iio.<"
+$57A0                   .BYTE $AD,$B9,$69,$A0,$00,$91,$3B,$20,$AA,$58,$18,$AD,$92,$69,$69,$27  ; "..i...; .X...ii'"
+$57B0                   .BYTE $85,$3B,$AD,$93,$69,$69,$70,$85,$3C,$AD,$B9,$69,$A0,$00,$91,$3B  ; ".;..iip.<..i...;"
+$57C0                   .BYTE $20,$2F,$58,$20,$ED,$0D,$04,$92,$69,$A9,$68,$8D,$92,$69,$A9,$00  ; " /X ....i.h..i.."
+$57D0                   .BYTE $8D,$93,$69,$20,$4F,$0D,$04,$92,$69,$01,$00,$A5,$00,$20,$2F,$58  ; "..i O...i.... /X"
+$57E0                   .BYTE $20,$ED,$0D,$04,$92,$69,$20,$AA,$58,$AD,$B9,$69,$8D,$27,$70,$20  ; " ....i .X..i.'p "
+$57F0                   .BYTE $AA,$58,$AD,$B9,$69,$8D,$5D,$69,$20,$03,$59,$AD,$B9,$69,$8D,$8E  ; ".X..i.]i .Y..i.."
+$5800                   .BYTE $69,$AD,$BA,$69,$8D,$8F,$69,$20,$03,$59,$AD,$B9,$69,$8D,$8C,$69  ; "i..i..i .Y..i..i"
+$5810                   .BYTE $AD,$BA,$69,$8D,$8D,$69,$20,$AA,$58,$AD,$B9,$69,$8D,$BF,$69,$AD  ; "..i..i .X..i..i."
+$5820                   .BYTE $BA,$69,$8D,$C0,$69,$20,$AA,$58,$AD,$B9,$69,$8D,$63,$69,$60,$20  ; ".i..i .X..i.ci` "
+$5830                   .BYTE $03,$59,$AD,$92,$69,$0A,$AA,$AD,$93,$69,$2A,$A8,$8A,$69,$C6,$85  ; ".Y..i....i*..i.."
+$5840                   .BYTE $3B,$98,$69,$69,$85,$3C,$A0,$00,$AD,$B9,$69,$91,$3B,$C8,$AD,$BA  ; ";.ii.<....i.;..."
+$5850                   .BYTE $69,$91,$3B,$20,$03,$59,$AD,$92,$69,$0A,$AA,$AD,$93,$69,$2A,$A8  ; "i.; .Y..i....i*."
+$5860                   .BYTE $8A,$69,$12,$85,$3B,$98,$69,$6B,$85,$3C,$A0,$00,$AD,$B9,$69,$91  ; ".i..;.ik.<....i."
+$5870                   .BYTE $3B,$C8,$AD,$BA,$69,$91,$3B,$20,$AA,$58,$18,$AD,$92,$69,$69,$5E  ; ";...i.; .X...ii^"
+$5880                   .BYTE $85,$3B,$AD,$93,$69,$69,$6C,$85,$3C,$AD,$B9,$69,$A0,$00,$91,$3B  ; ".;..iil.<..i...;"
+$5890                   .BYTE $20,$AA,$58,$18,$AD,$92,$69,$69,$04,$85,$3B,$AD,$93,$69,$69,$6D  ; " .X...ii..;..iim"
+$58A0                   .BYTE $85,$3C,$AD,$B9,$69,$A0,$00,$91,$3B,$60,$AD,$D8,$70,$C9,$00,$D0  ; ".<..i...;`..p..."
+$58B0                   .BYTE $05,$AD,$D9,$70,$C9,$00,$D0,$03,$4C,$BE,$58,$4C,$C4,$58,$20,$CE  ; "...p....L.XL.X ."
+$58C0                   .BYTE $5B,$EE,$60,$69,$18,$A9,$00,$6D,$D8,$70,$85,$4E,$A9,$95,$6D,$D9  ; "[.`i...m.p.N..m."
+$58D0                   .BYTE $70,$85,$4F,$A0,$00,$B1,$4E,$8D,$B9,$69,$A9,$00,$8D,$BA,$69,$EE  ; "p.O...N..i....i."
+$58E0                   .BYTE $D8,$70,$D0,$03,$EE,$D9,$70,$AD,$D8,$70,$C9,$00,$D0,$05,$AD,$D9  ; ".p....p..p......"
+$58F0                   .BYTE $70,$C9,$01,$F0,$03,$4C,$02,$59,$A9,$00,$8D,$D8,$70,$A9,$00,$8D  ; "p....L.Y....p..."
+$5900                   .BYTE $D9,$70,$60,$20,$AA,$58,$AD,$B9,$69,$8D,$BD,$70,$AD,$BA,$69,$8D  ; ".p` .X..i..p..i."
+$5910                   .BYTE $BE,$70,$20,$AA,$58,$AD,$B9,$69,$8D,$FC,$70,$A9,$00,$8D,$FB,$70  ; ".p .X..i..p....p"
+$5920                   .BYTE $18,$AD,$FB,$70,$6D,$BD,$70,$8D,$B9,$69,$AD,$FC,$70,$6D,$BE,$70  ; "...pm.p..i..pm.p"
+$5930                   .BYTE $8D,$BA,$69,$60,$A9,$01,$8D,$92,$69,$A9,$00,$8D,$93,$69,$20,$4F  ; "..i`....i....i O"
+$5940                   .BYTE $0D,$04,$92,$69,$01,$00,$67,$00,$18,$AD,$92,$69,$69,$AA,$85,$57  ; "...i..g....ii..W"
+$5950                   .BYTE $AD,$93,$69,$69,$6D,$85,$58,$A0,$00,$B1,$57,$8D,$B9,$69,$A9,$00  ; "..iim.X...W..i.."
+$5960                   .BYTE $8D,$BA,$69,$20,$21,$5B,$18,$AD,$92,$69,$69,$E2,$85,$57,$AD,$93  ; "..i ![...ii..W.."
+$5970                   .BYTE $69,$69,$6E,$85,$58,$A0,$00,$B1,$57,$8D,$B9,$69,$A9,$00,$8D,$BA  ; "iin.X...W..i...."
+$5980                   .BYTE $69,$20,$21,$5B,$18,$AD,$92,$69,$69,$12,$85,$57,$AD,$93,$69,$69  ; "i ![...ii..W..ii"
+$5990                   .BYTE $6E,$85,$58,$A0,$00,$B1,$57,$8D,$B9,$69,$A9,$00,$8D,$BA,$69,$20  ; "n.X...W..i....i "
+$59A0                   .BYTE $21,$5B,$18,$AD,$92,$69,$69,$7A,$85,$57,$AD,$93,$69,$69,$6E,$85  ; "![...iiz.W..iin."
+$59B0                   .BYTE $58,$A0,$00,$B1,$57,$8D,$B9,$69,$A9,$00,$8D,$BA,$69,$20,$21,$5B  ; "X...W..i....i !["
+$59C0                   .BYTE $18,$AD,$92,$69,$69,$4A,$85,$57,$AD,$93,$69,$69,$6F,$85,$58,$A0  ; "...iiJ.W..iio.X."
+$59D0                   .BYTE $00,$B1,$57,$8D,$B9,$69,$A9,$00,$8D,$BA,$69,$20,$21,$5B,$18,$AD  ; "..W..i....i ![.."
+$59E0                   .BYTE $92,$69,$69,$B2,$85,$57,$AD,$93,$69,$69,$6F,$85,$58,$A0,$00,$B1  ; ".ii..W..iio.X..."
+$59F0                   .BYTE $57,$8D,$B9,$69,$A9,$00,$8D,$BA,$69,$20,$21,$5B,$18,$AD,$92,$69  ; "W..i....i ![...i"
+$5A00                   .BYTE $69,$27,$85,$57,$AD,$93,$69,$69,$70,$85,$58,$A0,$00,$B1,$57,$8D  ; "i'.W..iip.X...W."
+$5A10                   .BYTE $B9,$69,$A9,$00,$8D,$BA,$69,$20,$21,$5B,$20,$9C,$5A,$20,$ED,$0D  ; ".i....i ![ .Z .."
+$5A20                   .BYTE $04,$92,$69,$A9,$68,$8D,$92,$69,$A9,$00,$8D,$93,$69,$20,$4F,$0D  ; "..i.h..i....i O."
+$5A30                   .BYTE $04,$92,$69,$01,$00,$A5,$00,$20,$9C,$5A,$20,$ED,$0D,$04,$92,$69  ; "..i.... .Z ....i"
+$5A40                   .BYTE $AD,$27,$70,$8D,$B9,$69,$A9,$00,$8D,$BA,$69,$20,$21,$5B,$AD,$5D  ; ".'p..i....i ![.]"
+$5A50                   .BYTE $69,$8D,$B9,$69,$A9,$00,$8D,$BA,$69,$20,$21,$5B,$AD,$8E,$69,$8D  ; "i..i....i ![..i."
+$5A60                   .BYTE $B9,$69,$AD,$8F,$69,$8D,$BA,$69,$20,$64,$5B,$AD,$8C,$69,$8D,$B9  ; ".i..i..i d[..i.."
+$5A70                   .BYTE $69,$AD,$8D,$69,$8D,$BA,$69,$20,$64,$5B,$AD,$BF,$69,$8D,$B9,$69  ; "i..i..i d[..i..i"
+$5A80                   .BYTE $AD,$C0,$69,$8D,$BA,$69,$20,$21,$5B,$AD,$CA,$70,$8D,$B9,$69,$AD  ; "..i..i ![..p..i."
+$5A90                   .BYTE $CB,$70,$8D,$BA,$69,$20,$21,$5B,$20,$D8,$5B,$60,$AD,$92,$69,$0A  ; ".p..i ![ .[`..i."
+$5AA0                   .BYTE $AA,$AD,$93,$69,$2A,$A8,$8A,$69,$C6,$85,$57,$98,$69,$69,$85,$58  ; "...i*..i..W.ii.X"
+$5AB0                   .BYTE $A0,$00,$B1,$57,$8D,$B9,$69,$C8,$B1,$57,$8D,$BA,$69,$20,$64,$5B  ; "...W..i..W..i d["
+$5AC0                   .BYTE $AD,$92,$69,$0A,$AA,$AD,$93,$69,$2A,$A8,$8A,$69,$12,$85,$57,$98  ; "..i....i*..i..W."
+$5AD0                   .BYTE $69,$6B,$85,$58,$A0,$00,$B1,$57,$8D,$B9,$69,$C8,$B1,$57,$8D,$BA  ; "ik.X...W..i..W.."
+$5AE0                   .BYTE $69,$20,$64,$5B,$18,$AD,$92,$69,$69,$5E,$85,$57,$AD,$93,$69,$69  ; "i d[...ii^.W..ii"
+$5AF0                   .BYTE $6C,$85,$58,$A0,$00,$B1,$57,$8D,$B9,$69,$A9,$00,$8D,$BA,$69,$20  ; "l.X...W..i....i "
+$5B00                   .BYTE $21,$5B,$18,$AD,$92,$69,$69,$04,$85,$57,$AD,$93,$69,$69,$6D,$85  ; "![...ii..W..iim."
+$5B10                   .BYTE $58,$A0,$00,$B1,$57,$8D,$B9,$69,$A9,$00,$8D,$BA,$69,$20,$21,$5B  ; "X...W..i....i !["
+$5B20                   .BYTE $60,$18,$A9,$00,$6D,$D8,$70,$85,$43,$A9,$95,$6D,$D9,$70,$85,$44  ; "`...m.p.C..m.p.D"
+$5B30                   .BYTE $AD,$B9,$69,$A0,$00,$91,$43,$EE,$D8,$70,$D0,$03,$EE,$D9,$70,$AD  ; "..i...C..p....p."
+$5B40                   .BYTE $D8,$70,$C9,$00,$D0,$05,$AD,$D9,$70,$C9,$01,$D0,$03,$4C,$53,$5B  ; ".p......p....LS["
+$5B50                   .BYTE $4C,$63,$5B,$20,$D8,$5B,$EE,$60,$69,$A9,$00,$8D,$D8,$70,$A9,$00  ; "Lc[ .[.`i....p.."
+$5B60                   .BYTE $8D,$D9,$70,$60,$AD,$BA,$69,$8D,$FB,$70,$A9,$00,$8D,$FC,$70,$AD  ; "..p`..i..p....p."
+$5B70                   .BYTE $FB,$70,$8D,$BD,$70,$AD,$FC,$70,$8D,$BE,$70,$AD,$BD,$70,$8D,$FC  ; ".p..p..p..p..p.."
+$5B80                   .BYTE $70,$A9,$00,$8D,$FB,$70,$38,$AD,$B9,$69,$ED,$FB,$70,$8D,$B9,$69  ; "p....p8..i..p..i"
+$5B90                   .BYTE $AD,$BA,$69,$ED,$FC,$70,$8D,$BA,$69,$20,$21,$5B,$AD,$BD,$70,$8D  ; "..i..p..i ![..p."
+$5BA0                   .BYTE $B9,$69,$AD,$BE,$70,$8D,$BA,$69,$20,$21,$5B,$60,$A9,$00,$8D,$0D  ; ".i..p..i ![`...."
+$5BB0                   .BYTE $03,$A9,$95,$8D,$0E,$03,$20,$DB,$0C,$00,$15,$CB,$AD,$5F,$69,$8D  ; "...... ......_i."
+$5BC0                   .BYTE $0D,$03,$AD,$60,$69,$8D,$0E,$03,$A9,$00,$8D,$0C,$03,$60,$20,$AC  ; "...`i........` ."
+$5BD0                   .BYTE $5B,$20,$DB,$0C,$00,$03,$CB,$60,$20,$AC,$5B,$20,$DB,$0C,$00,$06  ; "[ .....` .[ ...."
+$5BE0                   .BYTE $CB,$60                                                          ; ".`"
+
+; === CODE SECTION ===
+
+$5BE2 L_5BE2:                         ; xref: jump from $391D (L_391D)
+    JSR $4B4D                         ; Call SUB_4B4D
+    LDA $69BF
+    CMP #$FF
+    BNE $5BF1                         ; Branch to L_5BF1
+    LDA $69C0
+    CMP #$00
+$5BF1 L_5BF1:                         ; xref: branch from $5BEA
+    BEQ $5BF6                         ; Branch to L_5BF6
+    JMP $5BF9                         ; Jump to L_5BF9
+$5BF6 L_5BF6:                         ; xref: branch from $5BF1 (L_5BF1)
+    JMP $3B32                         ; Jump to L_3B32
+$5BF9 L_5BF9:                         ; xref: jump from $5BF3
+    LDA #$02
+    STA $6963
+    LDA #$19
+    STA $695D
+    LDA #$19
+    STA $6D01
+    JSR $5396                         ; Call SUB_5396
+    JSR $5C8F                         ; Call SUB_5C8F
+    JMP $3A64                         ; Jump to L_3A64
+$5C11 L_5C11:                         ; xref: jump from $3984 (L_3984)
+    LDA #$DE
+    STA $6990
+    LDA #$00
+    STA $6991
+    JSR $3C02                         ; Call script_vm_show_text
+    JSR $4B4D                         ; Call SUB_4B4D
+    LDA $69BF
+    CMP #$FF
+    BNE $5C2D                         ; Branch to L_5C2D
+    LDA $69C0
+    CMP #$00
+$5C2D L_5C2D:                         ; xref: branch from $5C26
+    BEQ $5C32                         ; Branch to L_5C32
+    JMP $5C35                         ; Jump to L_5C35
+$5C32 L_5C32:                         ; xref: branch from $5C2D (L_5C2D)
+    JMP $3B32                         ; Jump to L_3B32
+$5C35 L_5C35:                         ; xref: jump from $5C2F
+    LDA #$03
+    STA $6963
+    LDA #$33
+    STA $695D
+    LDA #$33
+    STA $6D01
+    JSR $5396                         ; Call SUB_5396
+    JSR $5C8F                         ; Call SUB_5C8F
+    JMP $3A64                         ; Jump to L_3A64
+$5C4D L_5C4D:                         ; xref: jump from $39D2 (L_39D2)
+    JSR $4B4D                         ; Call SUB_4B4D
+    LDA $69BF
+    CMP #$FF
+    BNE $5C5C                         ; Branch to L_5C5C
+    LDA $69C0
+    CMP #$00
+$5C5C L_5C5C:                         ; xref: branch from $5C55
+    BEQ $5C61                         ; Branch to L_5C61
+    JMP $5C64                         ; Jump to L_5C64
+$5C61 L_5C61:                         ; xref: branch from $5C5C (L_5C5C)
+    JMP $3B32                         ; Jump to L_3B32
+$5C64 L_5C64:                         ; xref: jump from $5C5E
+    LDA #$04
+    STA $6963
+    LDA #$43
+    STA $695D
+    LDA #$43
+    STA $6D01
+    JSR $5396                         ; Call SUB_5396
+    JSR $5C8F                         ; Call SUB_5C8F
+    JSR $0CDB                         ; Call SUB_0CDB
+    BRK
+
+; === DATA SECTION ===
+
+$5C7D                   .BYTE $1B,$96,$A9                                                      ; "..."
+$5C80                   .BYTE $B4,$8D,$90,$69,$A9,$01,$8D,$91,$69,$20,$02,$3C,$4C,$64,$3A      ; "...i....i .<Ld:"
+
+; === SUBROUTINE: SUB_5C8F ===
+
+$5C8F SUB_5C8F:                       ; xref: call from $5C0B
+                                      ; xref: call from $5C47
+                                      ; xref: call from $5C76
+    JSR $409F                         ; Call SUB_409F
+    JSR $2E5B                         ; Call script_vm_special_room_logic
+    JSR $3C02                         ; Call script_vm_show_text
+    RTS
+
+; === SUBROUTINE: SUB_5C99 ===
+
+$5C99 SUB_5C99:                       ; xref: call from $5CF7
+    JSR $0E11                         ; Call SUB_0E11
+    LDY $A95C,X
+    BRK
+
+; === DATA SECTION ===
+
+$5CA0                   .BYTE $8D,$E5,$70,$A9,$00,$8D,$E6,$70,$20,$4F,$0D,$44,$E5,$70,$01,$00  ; "..p....p O.D.p.."
+$5CB0                   .BYTE $B9,$69,$20,$7D,$0E,$04,$BD,$70,$20,$77,$0F,$60,$4C,$DB,$5C,$00  ; ".i }...p w.`L.\."
+$5CC0                   .BYTE $00,$0F,$00,$23,$00,$0F,$00,$26,$00,$00,$00,$00,$00,$0F,$00,$32  ; "...#...&.......2"
+$5CD0                   .BYTE $00,$41,$00,$A6,$00,$61,$01,$8B,$01,$41,$02                      ; ".A...a...A."
+
+; === SUBROUTINE: SUB_5CDB ===
+
+$5CDB SUB_5CDB:                       ; xref: call from $38E5
+                                      ; xref: call from $4B57
+                                      ; xref: call from $4C32
+    LDA $6963
+    STA $70FB
+    LDA #$00
+    STA $70FC
+    CLC
+    LDA #$09
+    ADC $70FB
+    STA $69B9
+    LDA #$00
+    ADC $70FC
+    STA $69BA
+    JSR $5C99                         ; Call SUB_5C99
+    CLC
+    LDA $70BD
+    ADC $6992
+    STA $6990
+    LDA $70BE
+    ADC $6993
+    STA $6991
+    JSR $3C02                         ; Call script_vm_show_text
+    RTS
+
+; === DATA SECTION ===
+
+$5D11                   .BYTE $A9,$00,$85,$C6,$A9,$83,$8D,$24,$96,$20,$DB,$0C,$00,$32,$96      ; ".......$. ...2."
+$5D20                   .BYTE $A9,$80,$8D,$24,$96,$AD,$31,$96,$8D,$61,$69,$AD,$61,$69,$20,$5B  ; "...$..1..ai.ai ["
+$5D30                   .BYTE $0F,$DA,$70,$60,$A5,$C6,$8D,$FB,$70,$AD,$FB,$70,$C9,$00,$D0,$03  ; "..p`....p..p...."
+$5D40                   .BYTE $4C,$52,$5D,$20,$DB,$0C,$00,$32,$96,$AD,$31,$96,$8D,$61,$69,$4C  ; "LR] ...2..1..aiL"
+$5D50                   .BYTE $2B,$5D,$A9,$00,$8D,$61,$69,$4C,$2B,$5D                          ; "+]...aiL+]"
+
+; === SUBROUTINE: SUB_5D5A ===
+
+$5D5A SUB_5D5A:                       ; xref: call from $4C73
+                                      ; xref: call from $513D
+                                      ; xref: call from $5181
+                                      ; xref: call from $52DF
+    JSR $0CDB                         ; Call SUB_0CDB
+    BRK
+
+; === DATA SECTION ===
+
+$5D5E                   .BYTE $28,$96                                                          ; "(."
+$5D60                   .BYTE $20,$11,$5D,$20,$DB,$0C,$00,$2B,$96,$60,$A9,$09,$8D,$20,$D0,$20  ; " .] ...+.`... . "
+$5D70                   .BYTE $11,$5D,$AD,$61,$69,$C9,$5F,$F0,$03,$4C,$82,$5D,$A9,$00,$8D,$20  ; ".].ai._..L.]... "
+$5D80                   .BYTE $D0,$60,$AD,$61,$69,$C9,$46,$F0,$03,$4C,$91,$5D,$A9,$05,$8D,$A7  ; ".`.ai.F..L.]...."
+$5D90                   .BYTE $6D,$4C,$6F,$5D                                                  ; "mLo]"
+
+; === SUBROUTINE: SUB_5D94 ===
+
+$5D94 SUB_5D94:                       ; xref: call from $3E5C (L_3E5C)
+    LDA $6990
+    CMP #$01
+    BNE $5DA0                         ; Branch to L_5DA0
+    LDA $6991
+    CMP #$00
+$5DA0 L_5DA0:                         ; xref: branch from $5D99
+    BNE $5DA5                         ; Branch to L_5DA5
+    JMP $5DA8                         ; Jump to L_5DA8
+$5DA5 L_5DA5:                         ; xref: branch from $5DA0 (L_5DA0)
+    JMP $5DC4                         ; Jump to L_5DC4
+$5DA8 L_5DA8:                         ; xref: jump from $5DA2
+    JSR $0C80                         ; Call SUB_0C80
+    STY $FB69
+    BVS $5DD0                         ; Branch to L_5DD0
+    STA $420C
+
+; === DATA SECTION ===
+
+$5DB3                   .BYTE $5F,$FB,$70,$FB,$70,$20,$8D,$0C,$FB,$70,$56,$5F,$9C              ; "_.p.p ...pV_."
+$5DC0                   .BYTE $69,$4C,$D8,$60                                                  ; "iL.`"
+
+; === CODE SECTION ===
+
+$5DC4 L_5DC4:                         ; xref: jump from $5DA5 (L_5DA5)
+    LDA $6990
+    CMP #$02
+    BNE $5DD0                         ; Branch to L_5DD0
+    LDA $6991
+    CMP #$00
+$5DD0 L_5DD0:                         ; xref: branch from $5DAE
+                                      ; xref: branch from $5DC9
+    BNE $5DD5                         ; Branch to L_5DD5
+    JMP $5DD8                         ; Jump to L_5DD8
+$5DD5 L_5DD5:                         ; xref: branch from $5DD0 (L_5DD0)
+    JMP $605C                         ; Jump to L_605C
+$5DD8 L_5DD8:                         ; xref: jump from $5DD2
+    JSR $0F84                         ; Call SUB_0F84
+
+; === DATA SECTION ===
+
+$5DDB                   .BYTE $6B,$69,$FB,$70,$20                                              ; "ki.p "
+$5DE0                   .BYTE $8D,$0C,$7D,$5F,$FB,$70,$FB,$70,$20,$8D,$0C,$FB,$70,$8D,$5F,$FB  ; "..}_.p.p ...p._."
+$5DF0                   .BYTE $70,$20,$84,$0F,$6A,$69,$00,$71,$20,$8D,$0C,$FB,$70,$00,$71,$FB  ; "p ..ji.q ...p.q."
+$5E00                   .BYTE $70,$20,$8D,$0C,$FB,$70,$A0,$5F,$9C,$69,$20,$8D,$0C,$9C,$69,$AB  ; "p ...p._.i ...i."
+$5E10                   .BYTE $5F,$FB,$70,$20,$84,$0F,$67,$69,$00,$71,$20,$8D,$0C,$FB,$70,$00  ; "_.p ..gi.q ...p."
+$5E20                   .BYTE $71,$FB,$70,$20,$8D,$0C,$FB,$70,$B8,$5F,$FB,$70,$20,$84,$0F,$68  ; "q.p ...p._.p ..h"
+$5E30                   .BYTE $69,$00,$71,$20,$8D,$0C,$FB,$70,$00,$71,$FB,$70,$20,$8D,$0C,$FB  ; "i.q ...p.q.p ..."
+$5E40                   .BYTE $70,$C3,$5F,$FB,$70,$20,$84,$0F,$69,$69,$00,$71,$20,$8D,$0C,$FB  ; "p._.p ..ii.q ..."
+$5E50                   .BYTE $70,$00,$71,$9C,$69,$20,$8D,$0C,$9C,$69,$CD,$5F,$9C,$69,$20,$8D  ; "p.q.i ...i._.i ."
+$5E60                   .BYTE $0C,$9C,$69,$0F,$60,$9C,$69,$4C,$50,$60,$15,$6D,$5E,$20,$CE,$41  ; "..i.`.iLP`.m^ .A"
+$5E70                   .BYTE $4D,$45,$4E,$20,$5A,$55,$20,$5D,$42,$45,$52,$4E,$45,$48,$4D,$45  ; "MEN ZU ]BERNEHME"
+$5E80                   .BYTE $4E,$2E,$0C,$85,$5E,$3F,$43,$4F,$44,$45,$52,$45,$51,$55,$45,$53  ; "N...^?CODEREQUES"
+$5E90                   .BYTE $54,$03,$94,$5E,$41,$4C,$54,$03,$9A,$5E,$4E,$45,$55,$1D,$A0,$5E  ; "T..^ALT..^NEU..^"
+$5EA0                   .BYTE $CD,$55,$53,$49,$4B,$2D,$C1,$42,$53,$50,$49,$45,$4C,$52,$4F,$55  ; ".USIK-.BSPIELROU"
+$5EB0                   .BYTE $54,$49,$4E,$45,$20,$46,$5D,$52,$20,$44,$45,$4E,$20,$14,$C0,$5E  ; "TINE F]R DEN ..^"
+$5EC0                   .BYTE $45,$4E,$20,$D3,$C9,$C4,$20,$4B,$4F,$4E,$46,$49,$47,$55,$52,$49  ; "EN ... KONFIGURI"
+$5ED0                   .BYTE $45,$52,$54,$2E,$00,$D7,$5E,$02,$DA,$5E,$2C,$20,$0D,$DF,$5E,$D3  ; "ERT...^..^, ..^."
+$5EE0                   .BYTE $45,$48,$52,$20,$56,$49,$45,$4C,$45,$2E,$2E,$2E,$01,$EF,$5E,$2E  ; "EHR VIELE.....^."
+$5EF0                   .BYTE $00,$F3,$5E,$00,$F6,$5E,$06,$F9,$5E,$C2,$49,$54,$54,$45,$20,$13  ; "..^..^..^.ITTE ."
+$5F00                   .BYTE $02,$5F,$D3,$50,$49,$45,$4C,$53,$54,$41,$4E,$44,$2D,$C4,$49,$53  ; "._.PIELSTAND-.IS"
+$5F10                   .BYTE $4B,$45,$54,$54,$45,$09,$18,$5F,$C4,$49,$53,$4B,$45,$54,$54,$45  ; "KETTE.._.ISKETTE"
+$5F20                   .BYTE $20,$08,$24,$5F,$2C,$20,$D3,$45,$49,$54,$45,$20,$0A,$2F,$5F,$20  ; " .$_, .EITE ./_ "
+$5F30                   .BYTE $45,$49,$4E,$4C,$45,$47,$45,$4E,$21,$00,$3C,$5F,$00,$3F,$5F,$00  ; "EINLEGEN!.<_.?_."
+$5F40                   .BYTE $42,$5F,$11,$45,$5F,$C2,$49,$53,$20,$4A,$45,$54,$5A,$54,$20,$48  ; "B_.E_.IS JETZT H"
+$5F50                   .BYTE $41,$53,$54,$20,$C4,$55,$24,$59,$5F,$20,$56,$4F,$4E,$20,$35,$30  ; "AST .U$Y_ VON 50"
+$5F60                   .BYTE $36,$30,$20,$4D,$5C,$47,$4C,$49,$43,$48,$45,$4E,$20,$D0,$55,$4E  ; "60 M\GLICHEN .UN"
+$5F70                   .BYTE $4B,$54,$45,$4E,$20,$45,$52,$5A,$49,$45,$4C,$54,$2E,$0D,$80,$5F  ; "KTEN ERZIELT..._"
+$5F80                   .BYTE $C2,$49,$54,$54,$45,$20,$47,$49,$42,$20,$44,$45,$4E,$10,$90,$5F  ; ".ITTE GIB DEN.._"
+$5F90                   .BYTE $2E,$20,$C2,$55,$43,$48,$53,$54,$41,$42,$45,$4E,$20,$44,$45,$53  ; ". .UCHSTABEN DES"
+$5FA0                   .BYTE $08,$A3,$5F,$2E,$20,$D7,$4F,$52,$54,$45,$53,$0A,$AE,$5F,$20,$41  ; ".._. .ORTES.._ A"
+$5FB0                   .BYTE $55,$46,$20,$D3,$45,$49,$54,$45,$08,$BB,$5F,$2C,$20,$C1,$42,$53  ; "UF .EITE.._, .BS"
+$5FC0                   .BYTE $41,$54,$5A,$07,$C6,$5F,$2C,$20,$DA,$45,$49,$4C,$45,$3F,$D0,$5F  ; "ATZ.._, .EILE?._"
+$5FD0                   .BYTE $20,$45,$49,$4E,$2C,$20,$C4,$45,$4E,$4B,$45,$20,$41,$55,$43,$48  ; " EIN, .ENKE AUCH"
+$5FE0                   .BYTE $20,$44,$41,$52,$41,$4E,$2C,$20,$44,$41,$53,$20,$45,$49,$4E,$5A  ; " DARAN, DAS EINZ"
+$5FF0                   .BYTE $45,$4C,$4E,$20,$53,$54,$45,$48,$45,$4E,$44,$45,$20,$DA,$45,$49  ; "ELN STEHENDE .EI"
+$6000                   .BYTE $4C,$45,$4E,$20,$28,$57,$49,$45,$20,$5A,$2E,$C2,$2E,$20,$DD,$3E  ; "LEN (WIE Z... .>"
+$6010                   .BYTE $12,$60,$42,$45,$52,$53,$43,$48,$52,$49,$46,$54,$45,$4E,$29,$20  ; ".`BERSCHRIFTEN) "
+$6020                   .BYTE $4E,$49,$43,$48,$54,$20,$4D,$49,$54,$5A,$55,$5A,$5B,$48,$4C,$45  ; "NICHT MITZUZ[HLE"
+$6030                   .BYTE $4E,$20,$53,$49,$4E,$44,$21,$20,$2D,$20,$C2,$49,$54,$54,$45,$20  ; "N SIND! - .ITTE "
+$6040                   .BYTE $44,$52,$5D,$43,$4B,$45,$20,$4A,$45,$54,$5A,$54,$20,$44,$49,$45  ; "DR]CKE JETZT DIE"
+$6050                   .BYTE $20,$8D,$0C,$9C,$69,$77,$68,$9C,$69,$4C,$D8,$60                  ; " ...iwh.iL.`"
+
+; === CODE SECTION ===
+
+$605C L_605C:                         ; xref: jump from $5DD5 (L_5DD5)
+    LDA $6990
+    CMP #$08
+    BNE $6068                         ; Branch to L_6068
+    LDA $6991
+    CMP #$00
+$6068 L_6068:                         ; xref: branch from $6061
+    BNE $606D                         ; Branch to L_606D
+    JMP $6070                         ; Jump to L_6070
+$606D L_606D:                         ; xref: branch from $6068 (L_6068)
+    JMP $6094                         ; Jump to L_6094
+$6070 L_6070:                         ; xref: jump from $606A
+    LDA $6988
+    STA $70E0
+    LDA $6989
+    STA $70E1
+    JSR $4FB1                         ; Call SUB_4FB1
+    JSR $0C8D                         ; Call SUB_0C8D
+
+; === DATA SECTION ===
+
+$6082                   .BYTE $8F,$68,$E2,$70,$FB,$70,$20,$8D,$0C,$FB,$70,$99,$68,$9C          ; ".h.p.p ...p.h."
+$6090                   .BYTE $69,$4C,$D8,$60                                                  ; "iL.`"
+
+; === CODE SECTION ===
+
+$6094 L_6094:                         ; xref: jump from $606D (L_606D)
+    LDA $6990
+    CMP #$0C
+    BNE $60A0                         ; Branch to L_60A0
+    LDA $6991
+    CMP #$00
+$60A0 L_60A0:                         ; xref: branch from $6099
+    BNE $60A5                         ; Branch to L_60A5
+    JMP $60A8                         ; Jump to L_60A8
+$60A5 L_60A5:                         ; xref: branch from $60A0 (L_60A0)
+    JMP $60C3                         ; Jump to L_60C3
+$60A8 L_60A8:                         ; xref: jump from $60A2
+    LDA $6988
+    STA $70E0
+    LDA $6989
+    STA $70E1
+    JSR $4FB1                         ; Call SUB_4FB1
+    JSR $0C8D                         ; Call SUB_0C8D
+
+; === DATA SECTION ===
+
+$60BA                   .BYTE $E2,$70,$A6,$68,$9C,$69                                          ; ".p.h.i"
+$60C0                   .BYTE $4C,$D8,$60                                                      ; "L.`"
+
+; === CODE SECTION ===
+
+$60C3 L_60C3:                         ; xref: jump from $60A5 (L_60A5)
+    CLC
+    LDA $6990
+    ADC #$66
+    STA $6990
+    LDA $6991
+    ADC #$00
+    STA $6991
+    JSR $4022                         ; Call SUB_4022
+    RTS
+
+; === DATA SECTION ===
+
+$60D8                   .BYTE $20,$D1,$45,$60                                                  ; " .E`"
+
+; === SUBROUTINE: SUB_60DC ===
+
+$60DC SUB_60DC:                       ; xref: call from $4B60 (SUB_4B60)
+    JSR $0E11                         ; Call SUB_0E11
+    STX $61,Y
+    LDA #$10
+    STA $69B9
+    LDA #$00
+    STA $69BA
+    LDA $6963
+    CMP #$04
+    BNE $60F6                         ; Branch to L_60F6
+    LDA #$00
+    BEQ $60F8                         ; Branch to L_60F8
+$60F6 L_60F6:                         ; xref: branch from $60F0
+    LDA #$FF
+$60F8 L_60F8:                         ; xref: branch from $60F4
+    STA $70FB
+    LDA $70D2
+    CMP #$00
+    BNE $6107                         ; Branch to L_6107
+    LDA $70D3
+    CMP #$00
+$6107 L_6107:                         ; xref: branch from $6100
+    BNE $610D                         ; Branch to L_610D
+    LDA #$00
+    BEQ $610F                         ; Branch to L_610F
+$610D L_610D:                         ; xref: branch from $6107 (L_6107)
+    LDA #$FF
+$610F L_610F:                         ; xref: branch from $610B
+    STA $7100
+    LDA $70FB
+    ORA $7100
+    BNE $611D                         ; Branch to L_611D
+    JMP $612C                         ; Jump to L_612C
+$611D L_611D:                         ; xref: branch from $6118
+    JSR $0E11                         ; Call SUB_0E11
+    SBC $A961,Y
+    JSR $B98D                         ; Call SUB_B98D
+    ADC #$A9
+    BRK
+
+; === DATA SECTION ===
+
+$6129                   .BYTE $8D,$BA,$69                                                      ; "..i"
+
+; === CODE SECTION ===
+
+$612C L_612C:                         ; xref: jump from $611A
+    JSR $0F91                         ; Call SUB_0F91
+    LDA $68,X
+
+; === DATA SECTION ===
+
+$6131                   .BYTE $FB,$70,$20,$4D,$0C,$B9,$69,$00,$71,$20,$FF,$0C,$FB,$70,$00      ; ".p M..i.q ...p."
+$6140                   .BYTE $71,$FB,$70,$20,$26,$0D,$FB,$70,$B9,$69,$20,$7D,$0E,$02,$67,$69  ; "q.p &..p.i }..gi"
+$6150                   .BYTE $20,$7D,$0E,$02,$68,$69,$20,$7D,$0E,$02,$69,$69,$20,$7D,$0E,$02  ; " }..hi }..ii }.."
+$6160                   .BYTE $6A,$69,$20,$7D,$0E,$02,$6B,$69,$20,$7D,$0E,$02,$6C,$69,$AD,$B9  ; "ji }..ki }..li.."
+$6170                   .BYTE $69,$C9,$00,$D0,$05,$AD,$BA,$69,$C9,$00,$D0,$03,$4C,$8D,$61,$AD  ; "i......i....L.a."
+$6180                   .BYTE $B9,$69,$D0,$03,$CE,$BA,$69,$CE,$B9,$69,$4C,$4A,$61,$AD,$6C,$69  ; ".i....i..iLJa.li"
+$6190                   .BYTE $20,$5B,$0F,$DD,$70,$60,$4C,$B9,$62,$03,$01,$03,$04,$03,$45,$03  ; " [..p`L.b.....E."
+$61A0                   .BYTE $02,$02,$04,$05,$59,$03,$02,$0A,$06,$05,$49,$03,$03,$05,$05,$05  ; "....Y.....I....."
+$61B0                   .BYTE $54,$04,$01,$05,$07,$01,$49,$04,$01,$0D,$02,$05,$52,$04,$02,$01  ; "T.....I.....R..."
+$61C0                   .BYTE $02,$02,$41,$04,$02,$0A,$02,$04,$45,$05,$01,$02,$04,$02,$55,$05  ; "..A.....E.....U."
+$61D0                   .BYTE $02,$02,$07,$03,$52,$05,$02,$04,$02,$02,$42,$05,$03,$08,$03,$03  ; "....R.....B....."
+$61E0                   .BYTE $47,$06,$01,$01,$02,$04,$43,$06,$01,$02,$05,$02,$4C,$06,$02,$01  ; "G.....C.....L..."
+$61F0                   .BYTE $02,$03,$42,$06,$03,$04,$03,$05,$44,$04,$01,$02,$02,$02,$41,$04  ; "..B.....D.....A."
+$6200                   .BYTE $03,$01,$03,$02,$53,$05,$01,$03,$04,$03,$48,$05,$03,$02,$07,$04  ; "....S.....H....."
+$6210                   .BYTE $4F,$06,$01,$03,$01,$02,$52,$06,$03,$03,$02,$03,$4E,$07,$02,$03  ; "O.....R.....N..."
+$6220                   .BYTE $02,$01,$4F,$07,$03,$04,$02,$02,$42,$09,$01,$04,$02,$02,$44,$0A  ; "..O.....B.....D."
+$6230                   .BYTE $01,$04,$02,$03,$46,$0D,$01,$04,$05,$03,$4E,$0D,$02,$03,$01,$04  ; "....F.....N....."
+$6240                   .BYTE $4B,$0D,$03,$05,$05,$05,$47,$0D,$04,$03,$06,$03,$43,$0E,$01,$05  ; "K.....G.....C..."
+$6250                   .BYTE $01,$02,$55,$0E,$02,$04,$06,$02,$4F,$0F,$01,$03,$03,$02,$41,$0F  ; "..U.....O.....A."
+$6260                   .BYTE $03,$05,$02,$0A,$53,$10,$03,$02,$01,$0C,$56,$10,$05,$03,$03,$03  ; "....S.....V....."
+$6270                   .BYTE $5A,$11,$01,$02,$02,$05,$4D,$11,$03,$05,$05,$01,$56,$17,$01,$05  ; "Z.....M.....V..."
+$6280                   .BYTE $04,$01,$42,$18,$01,$02,$03,$04,$50,$18,$02,$02,$05,$06,$46,$19  ; "..B.....P.....F."
+$6290                   .BYTE $03,$03,$03,$04,$50,$1A,$01,$02,$01,$06,$44,$1A,$03,$04,$02,$02  ; "....P.....D....."
+$62A0                   .BYTE $41,$1C,$01,$06,$02,$01,$57,$1C,$02,$02,$01,$07,$44,$1C,$03,$03  ; "A.....W.....D..."
+$62B0                   .BYTE $02,$02,$4C,$1C,$03,$05,$04,$07,$54                              ; "..L.....T"
+
+; === SUBROUTINE: SUB_62B9 ===
+
+$62B9 SUB_62B9:                       ; xref: call from $36C4 (L_36C4)
+    JSR $4B60                         ; Call SUB_4B60
+    LDA $69BF
+    STA $6992
+    LDA $69C0
+    STA $6993
+    RTS
+$62C9 L_62C9:                         ; xref: jump from $36DB (L_36DB)
+    LDA #$01
+    STA $CFF4
+    JMP $381A                         ; Jump to L_381A
+
+; === SUBROUTINE: SUB_62D1 ===
+
+$62D1 SUB_62D1:                       ; xref: call from $530D (L_530D)
+    LDA $6963
+    STA $70F1
+    LDA #$00
+    STA $70F2
+    LDA #$00
+    STA $6963
+    JSR $5396                         ; Call SUB_5396
+    LDA $6962
+    CMP #$00
+    BNE $62EE                         ; Branch to L_62EE
+    JMP $62F7                         ; Jump to L_62F7
+$62EE L_62EE:                         ; xref: branch from $62E9
+    LDA $70F1
+    STA $6963
+    JMP $4B38                         ; Jump to L_4B38
+$62F7 L_62F7:                         ; xref: jump from $62EB
+    JSR $0D37                         ; Call SUB_0D37
+    TSX
+    PLA
+
+; === DATA SECTION ===
+
+$62FC                   .BYTE $9C,$69,$20,$D1                                                  ; ".i ."
+$6300                   .BYTE $45,$20,$DB,$0C,$00,$28,$96,$A9,$23,$8D,$5F,$69,$A9,$00,$8D,$60  ; "E ...(..#._i...`"
+$6310                   .BYTE $69,$A9,$00,$8D,$D8,$70,$A9,$00,$8D,$D9,$70,$A9,$FA,$8D,$E1,$CF  ; "i....p....p....."
+$6320                   .BYTE $A9,$01,$8D,$E2,$CF,$20,$4F,$0D,$02,$E2,$CF,$01,$00,$3C,$00,$20  ; "..... O......<. "
+$6330                   .BYTE $B1,$64,$20,$ED,$0D,$02,$E2,$CF,$A9,$F9,$8D,$E1,$CF,$20,$06,$65  ; ".d .......... .e"
+$6340                   .BYTE $A9,$00,$8D,$E2,$CF,$20,$4F,$0D,$02,$E2,$CF,$01,$00,$3B,$00,$20  ; "..... O......;. "
+$6350                   .BYTE $C0,$64,$AD,$AD,$69,$8D,$E1,$CF,$20,$B1,$64,$20,$ED,$0D,$02,$E2  ; ".d..i... .d ...."
+$6360                   .BYTE $CF,$20,$01,$65,$A9,$00,$8D,$E2,$CF,$20,$4F,$0D,$02,$E2,$CF,$01  ; ". .e..... O....."
+$6370                   .BYTE $00,$3B,$00,$20,$C0,$64,$AD,$AB,$69,$8D,$E1,$CF,$20,$B1,$64,$20  ; ".;. .d..i... .d "
+$6380                   .BYTE $ED,$0D,$02,$E2,$CF,$A9,$6C,$8D,$E1,$CF,$20,$06,$65,$A9,$00,$8D  ; "......l... .e..."
+$6390                   .BYTE $E1,$CF,$20,$4F,$0D,$02,$E1,$CF,$01,$00,$A4,$00,$20,$B1,$64,$20  ; ".. O........ .d "
+$63A0                   .BYTE $ED,$0D,$02,$E1,$CF,$A9,$00,$8D,$E1,$CF,$A9,$01,$8D,$E2,$CF,$20  ; "............... "
+$63B0                   .BYTE $4F,$0D,$02,$E2,$CF,$01,$00,$6C,$00,$20,$B1,$64,$20,$ED,$0D,$02  ; "O......l. .d ..."
+$63C0                   .BYTE $E2,$CF,$A9,$01,$8D,$E3,$CF,$20,$4F,$0D,$02,$E3,$CF,$01,$00,$3C  ; "....... O......<"
+$63D0                   .BYTE $00,$20,$6B,$64,$20,$ED,$0D,$02,$E3,$CF,$A9,$00,$8D,$E1,$CF,$A9  ; ". kd ..........."
+$63E0                   .BYTE $01,$8D,$E2,$CF,$20,$4F,$0D,$02,$E2,$CF,$01,$00,$50,$00,$20,$B1  ; ".... O......P. ."
+$63F0                   .BYTE $64,$20,$77,$0F,$A9,$00,$8D,$E9,$70,$A9,$00,$8D,$EA,$70,$20,$4F  ; "d w.....p....p O"
+$6400                   .BYTE $0D,$04,$E9,$70,$01,$00,$FF,$00,$18,$A9,$00,$6D,$E9,$70,$85,$43  ; "...p.......m.p.C"
+$6410                   .BYTE $A9,$95,$6D,$EA,$70,$85,$44,$A9,$00,$A0,$00,$91,$43,$20,$77,$0F  ; "..m.p.D.....C w."
+$6420                   .BYTE $A9,$00,$8D,$D4,$70,$A9,$00,$8D,$D5,$70,$20,$4F,$0D,$04,$D4,$70  ; "....p....p O...p"
+$6430                   .BYTE $01,$00,$3B,$00,$20,$C3,$4A,$18,$AD,$60,$69,$69,$06,$8D,$60,$69  ; "..;. .J..`ii..`i"
+$6440                   .BYTE $20,$D8,$5B,$20,$ED,$0D,$04,$D4,$70,$20,$DB,$0C,$00,$2B,$96,$20  ; " .[ ....p ...+. "
+$6450                   .BYTE $37,$0D,$DB,$68,$9C,$69,$20,$D1,$45,$20,$DB,$0C,$00,$1B,$96,$AD  ; "7..h.i .E ......"
+$6460                   .BYTE $F1,$70,$8D,$63,$69,$20,$96,$53,$4C,$38,$4B,$A9,$05,$8D,$E1,$CF  ; ".p.ci .SL8K....."
+$6470                   .BYTE $20,$B1,$64,$A9,$0D,$8D,$E1,$CF,$20,$B1,$64,$A9,$10,$8D,$E1,$CF  ; " .d..... .d....."
+$6480                   .BYTE $20,$B1,$64,$A9,$14,$8D,$E1,$CF,$20,$B1,$64,$A9,$99,$8D,$E1,$CF  ; " .d..... .d....."
+$6490                   .BYTE $20,$B1,$64,$A9,$20,$8D,$E1,$CF,$A9,$01,$8D,$E2,$CF,$20,$4F,$0D  ; " .d. ........ O."
+$64A0                   .BYTE $02,$E2,$CF,$01,$00,$0F,$00,$20,$B1,$64,$20,$ED,$0D,$02,$E2,$CF  ; "....... .d ....."
+$64B0                   .BYTE $60,$AD,$E1,$CF,$8D,$B9,$69,$A9,$00,$8D,$BA,$69,$20,$21,$5B,$60  ; "`.....i....i ![`"
+$64C0                   .BYTE $AD,$E2,$CF,$8D,$FB,$70,$A9,$00,$8D,$FC,$70,$20,$9E,$0F,$14,$00  ; ".....p....p ...."
+$64D0                   .BYTE $FB,$70,$FB,$70,$18,$A9,$6C,$6D,$FB,$70,$8D,$B9,$69,$A9,$00,$6D  ; ".p.p..lm.p..i..m"
+$64E0                   .BYTE $FC,$70,$8D,$BA,$69,$AD,$B9,$69,$29,$FF,$8D,$AB,$69,$AD,$BA,$69  ; ".p..i..i)...i..i"
+$64F0                   .BYTE $29,$00,$8D,$AC,$69,$AD,$BA,$69,$8D,$AD,$69,$A9,$00,$8D,$AE,$69  ; ")...i..i..i....i"
+$6500                   .BYTE $60,$A9,$00,$8D,$E1,$CF,$A9,$3D,$8D,$E2,$CF,$20,$4F,$0D,$02,$E2  ; "`......=... O..."
+$6510                   .BYTE $CF,$01,$00,$A5,$00,$20,$B1,$64,$20,$77,$0F,$60,$20,$AB,$0F,$F3  ; "..... .d w.` ..."
+$6520                   .BYTE $70,$20,$17,$0F,$9C,$69,$08,$69,$4E,$00,$D0,$03,$4C,$32,$65,$4C  ; "p ...i.iN...L2eL"
+$6530                   .BYTE $6F,$67,$A2,$01,$20,$D0,$0F,$9C,$69,$FB,$70,$20,$17,$0F,$FB,$70  ; "og.. ...i.p ...p"
+$6540                   .BYTE $0B,$69,$4E,$00,$D0,$03,$4C,$60,$65,$20,$29,$0F,$9C,$69,$FB,$70  ; ".iN...L`e )..i.p"
+$6550                   .BYTE $CE,$FB,$70,$AE,$FB,$70,$20,$3E,$0F,$9C,$69,$9C,$69,$4C,$1C,$65  ; "..p..p >..i.iL.e"
+$6560                   .BYTE $A2,$01,$20,$3E,$0F,$9C,$69,$FB,$70,$20,$17,$0F,$FB,$70,$0F,$69  ; ".. >..i.p ...p.i"
+$6570                   .BYTE $4E,$00,$D0,$03,$4C,$8E,$65,$20,$29,$0F,$9C,$69,$FB,$70,$CE,$FB  ; "N...L.e )..i.p.."
+$6580                   .BYTE $70,$AE,$FB,$70,$20,$D0,$0F,$9C,$69,$9C,$69,$4C,$1C,$65,$20,$29  ; "p..p ...i.iL.e )"
+$6590                   .BYTE $0F,$9C,$69,$FB,$70,$AD,$FB,$70,$C9,$29,$90,$03,$4C,$A2,$65,$4C  ; "..i.p..p.)..L.eL"
+$65A0                   .BYTE $5E,$67,$A9,$29,$8D,$E1,$CF,$20,$AB,$0F,$F3,$70,$A0,$01,$AE,$E1  ; "^g.)... ...p...."
+$65B0                   .BYTE $CF,$20,$F0,$0F,$9C,$69,$FB,$70,$20,$17,$0F,$FB,$70,$18,$69,$4E  ; ". ...i.p ...p.iN"
+$65C0                   .BYTE $00,$F0,$03,$4C,$CC,$65,$CE,$E1,$CF,$4C,$AC,$65,$38,$AD,$E1,$CF  ; "...L.e...L.e8..."
+$65D0                   .BYTE $E9,$01,$8D,$FB,$70,$AE,$FB,$70,$20,$3E,$0F,$9C,$69,$C5,$70,$20  ; "....p..p >..i.p "
+$65E0                   .BYTE $29,$0F,$9C,$69,$FB,$70,$38,$AD,$FB,$70,$ED,$E1,$CF,$8D,$FB,$70  ; ")..i.p8..p.....p"
+$65F0                   .BYTE $AE,$FB,$70,$20,$D0,$0F,$9C,$69,$9C,$69,$38,$AD,$E1,$CF,$E9,$01  ; "..p ...i.i8....."
+$6600                   .BYTE $8D,$E2,$CF,$38,$A9,$29,$ED,$E1,$CF,$8D,$E1,$CF,$A9,$00,$8D,$E3  ; "...8.).........."
+$6610                   .BYTE $CF,$A0,$01,$AE,$E2,$CF,$20,$F0,$0F,$C5,$70,$FB,$70,$20,$17,$0F  ; "...... ...p.p .."
+$6620                   .BYTE $FB,$70,$1C,$69,$4E,$00,$D0,$03,$4C,$2E,$66,$EE,$E3,$CF,$CE,$E2  ; ".p.iN...L.f....."
+$6630                   .BYTE $CF,$AD,$E2,$CF,$C9,$00,$D0,$03,$4C,$3E,$66,$4C,$11,$66,$AD,$E1  ; "........L>fL.f.."
+$6640                   .BYTE $CF,$8D,$FB,$70,$A9,$00,$8D,$FC,$70,$AD,$E3,$CF,$8D,$00,$71,$A9  ; "...p....p.....q."
+$6650                   .BYTE $00,$8D,$01,$71,$20,$29,$10,$FB,$70,$00,$71,$FB,$70,$AD,$FB,$70  ; "...q )..p.q.p..p"
+$6660                   .BYTE $8D,$FB,$70,$AD,$FC,$70,$8D,$FC,$70,$AD,$FB,$70,$8D,$E2,$CF,$AD  ; "..p..p..p..p...."
+$6670                   .BYTE $E2,$CF,$8D,$FB,$70,$A9,$00,$8D,$FC,$70,$AD,$E3,$CF,$8D,$00,$71  ; "....p....p.....q"
+$6680                   .BYTE $A9,$00,$8D,$01,$71,$20,$33,$10,$FB,$70,$00,$71,$FB,$70,$AD,$E1  ; "....q 3..p.q.p.."
+$6690                   .BYTE $CF,$8D,$00,$71,$A9,$00,$8D,$01,$71,$38,$AD,$00,$71,$ED,$FB,$70  ; "...q....q8..q..p"
+$66A0                   .BYTE $8D,$FB,$70,$AD,$01,$71,$ED,$FC,$70,$8D,$FC,$70,$AD,$FB,$70,$8D  ; "..p..q..p..p..p."
+$66B0                   .BYTE $E3,$CF,$20,$37,$0D,$20,$69,$BF,$70,$A9,$00,$8D,$E4,$CF,$A9,$01  ; ".. 7. i.p......."
+$66C0                   .BYTE $8D,$E1,$CF,$20,$29,$0F,$C5,$70,$FB,$70,$20,$4F,$0D,$42,$E1,$CF  ; "... )..p.p O.B.."
+$66D0                   .BYTE $01,$00,$FB,$70,$20,$AB,$0F,$F3,$70,$A0,$01,$AE,$E1,$CF,$20,$F0  ; "...p ...p..... ."
+$66E0                   .BYTE $0F,$C5,$70,$C2,$70,$20,$40,$10,$C2,$70,$28,$69,$4E,$00,$D0,$03  ; "..p.p @..p(iN..."
+$66F0                   .BYTE $4C,$F6,$66,$4C,$42,$67,$20,$37,$0D,$2C,$69,$C2,$70,$A9,$00,$8D  ; "L.fLBg 7.,i.p..."
+$6700                   .BYTE $E7,$70,$A9,$00,$8D,$E8,$70,$AD,$E2,$CF,$8D,$00,$71,$A9,$00,$8D  ; ".p....p.....q..."
+$6710                   .BYTE $01,$71,$20,$4F,$0D,$44,$E7,$70,$01,$00,$00,$71,$20,$8D,$0C,$C2  ; ".q O.D.p...q ..."
+$6720                   .BYTE $70,$2F,$69,$C2,$70,$20,$ED,$0D,$04,$E7,$70,$AD,$E4,$CF,$CD,$E3  ; "p/i.p ....p....."
+$6730                   .BYTE $CF,$90,$03,$4C,$3F,$67,$20,$8D,$0C,$C2,$70,$33,$69,$C2,$70,$EE  ; "...L?g ...p3i.p."
+$6740                   .BYTE $E4,$CF,$20,$8D,$0C,$BF,$70,$C2,$70,$BF,$70,$20,$ED,$0D,$02,$E1  ; ".. ...p.p.p ...."
+$6750                   .BYTE $CF,$20,$37,$0D,$37,$69,$C5,$70,$20,$75,$67,$4C,$1C,$65,$20,$52  ; ". 7.7i.p ugL.e R"
+$6760                   .BYTE $10,$9C,$69,$BF,$70,$20,$37,$0D,$3A,$69,$9C,$69,$20,$75,$67,$20  ; "..i.p 7.:i.i ug "
+$6770                   .BYTE $AB,$0F,$F3,$70,$60,$20,$AB,$0F,$F3,$70,$A9,$00,$8D,$F5,$70,$A9  ; "...p` ...p....p."
+$6780                   .BYTE $00,$8D,$F6,$70,$20,$4F,$0D,$04,$F5,$70,$01,$00,$27,$00,$18,$AD  ; "...p O...p..'..."
+$6790                   .BYTE $F5,$70,$69,$01,$8D,$FB,$70,$AD,$F6,$70,$69,$00,$8D,$FC,$70,$A0  ; ".pi...p..pi...p."
+$67A0                   .BYTE $01,$AE,$FB,$70,$20,$F0,$0F,$BF,$70,$FB,$70,$20,$8D,$0C,$FB,$70  ; "...p ...p.p ...p"
+$67B0                   .BYTE $47,$69,$FB,$70,$20,$65,$10,$FB,$70,$E7,$70,$A9,$00,$8D,$E8,$70  ; "Gi.p e..p.p....p"
+$67C0                   .BYTE $AD,$E7,$70,$8D,$FB,$70,$AD,$E8,$70,$8D,$FC,$70,$4E,$FC,$70,$6E  ; "..p..p..p..pN.pn"
+$67D0                   .BYTE $FB,$70,$4E,$FC,$70,$6E,$FB,$70,$4E,$FC,$70,$6E,$FB,$70,$4E,$FC  ; ".pN.pn.pN.pn.pN."
+$67E0                   .BYTE $70,$6E,$FB,$70,$4E,$FC,$70,$6E,$FB,$70,$AD,$FB,$70,$8D,$F7,$70  ; "pn.pN.pn.p..p..p"
+$67F0                   .BYTE $AD,$FC,$70,$8D,$F8,$70,$AE,$F7,$70,$BD,$1A,$70,$8D,$F9,$70,$A9  ; "..p..p..p..p..p."
+$6800                   .BYTE $00,$8D,$FA,$70,$AD,$F7,$70,$8D,$FB,$70,$AD,$F8,$70,$8D,$FC,$70  ; "...p..p..p..p..p"
+$6810                   .BYTE $0E,$FB,$70,$2E,$FC,$70,$0E,$FB,$70,$2E,$FC,$70,$0E,$FB,$70,$2E  ; "..p..p..p..p..p."
+$6820                   .BYTE $FC,$70,$0E,$FB,$70,$2E,$FC,$70,$0E,$FB,$70,$2E,$FC,$70,$38,$AD  ; ".p..p..p..p..p8."
+$6830                   .BYTE $E7,$70,$ED,$FB,$70,$8D,$FB,$70,$AD,$E8,$70,$ED,$FC,$70,$8D,$FC  ; ".p..p..p..p..p.."
+$6840                   .BYTE $70,$18,$AD,$FB,$70,$6D,$F9,$70,$8D,$E7,$70,$AD,$FC,$70,$6D,$FA  ; "p...pm.p..p..pm."
+$6850                   .BYTE $70,$8D,$E8,$70,$AD,$E7,$70,$8D,$0C,$03,$20,$DB,$0C,$00,$0C,$96  ; "p..p..p... ....."
+$6860                   .BYTE $20,$ED,$0D,$04,$F5,$70,$20,$37,$0D,$4B,$69,$BF,$70,$20,$DB,$0C  ; " ....p 7.Ki.p .."
+$6870                   .BYTE $00,$09,$96,$60,$4C,$4E,$69,$15,$7A,$68,$20,$42,$45,$54,$52,$45  ; "...`LNi.zh BETRE"
+$6880                   .BYTE $46,$46,$45,$4E,$44,$45,$20,$D4,$41,$53,$54,$45,$2E,$2E,$2E,$07  ; "FFENDE .ASTE...."
+$6890                   .BYTE $92,$68,$CF,$4B,$41,$59,$20,$2D,$20,$0A,$9C,$68,$20,$41,$42,$47  ; ".h.KAY - ..h ABG"
+$68A0                   .BYTE $45,$4C,$45,$47,$54,$2E,$0C,$A9,$68,$20,$2D,$20,$47,$45,$4E,$4F  ; "ELEGT...h - GENO"
+$68B0                   .BYTE $4D,$4D,$45,$4E,$2E,$00,$00,$00,$00,$00,$1E,$BD,$68,$D3,$50,$49  ; "MMEN........h.PI"
+$68C0                   .BYTE $45,$4C,$53,$54,$5B,$4E,$44,$45,$20,$57,$45,$52,$44,$45,$4E,$20  ; "ELST[NDE WERDEN "
+$68D0                   .BYTE $47,$45,$4C,$5C,$53,$43,$48,$54,$2E,$2E,$2E,$25,$DE,$68,$CF,$4B  ; "GEL\SCHT...%.h.K"
+$68E0                   .BYTE $41,$59,$3A,$20,$C1,$4C,$4C,$45,$20,$D3,$50,$49,$45,$4C,$53,$54  ; "AY: .LLE .PIELST"
+$68F0                   .BYTE $5B,$4E,$44,$45,$20,$53,$49,$4E,$44,$20,$47,$45,$4C,$5C,$53,$43  ; "[NDE SIND GEL\SC"
+$6900                   .BYTE $48,$54,$2E,$00,$00,$00,$00,$00,$00,$0B,$69,$01,$0E,$69,$20,$01  ; "HT........i..i ."
+$6910                   .BYTE $12,$69,$20,$00,$00,$00,$00,$00,$01,$1B,$69,$20,$01,$1F,$69,$20  ; ".i .......i ..i "
+$6920                   .BYTE $00,$23,$69,$00,$00,$00,$00,$00,$01,$2B,$69,$20,$00,$2F,$69,$01  ; ".#i......+i ./i."
+$6930                   .BYTE $32,$69,$20,$01,$36,$69,$20,$00,$3A,$69,$00,$3D,$69,$00,$00,$00  ; "2i .6i .:i.=i..."
+$6940                   .BYTE $00,$00,$00,$00,$00,$00,$00,$01,$4A,$69,$20,$00,$4E,$69,$20,$42  ; "........Ji .Ni B"
+$6950                   .BYTE $0C,$A9,$01,$4C,$C5,$0A,$00,$01                                  ; "...L...."
+; xref: write from $2F6F
+; xref: write from $2F9E
+; xref: read from $3C6E
+; xref: read from $3C8A (L_3C8A)
+; xref: write from $3CBE
+; xref: read from $3CC1 (L_3CC1)
+; xref: write from $3CCD
+$6958                   .BYTE $00                                                              ; "."
+; xref: write from $2F75
+; xref: read from $3CD0
+$6959                   .BYTE $03                                                              ; "."
+; xref: write from $3C54
+; xref: read from $400C
+; xref: write from $4018
+$695A                   .BYTE $00,$00,$97                                                      ; "..."
+; xref: read from $208F (L_208F)
+; xref: write from $25B9
+; xref: read from $2E5B (script_vm_special_room_logic)
+; xref: read from $2E65 (L_2E65)
+; xref: read from $2E83
+; xref: read from $2E91
+; xref: read from $2EAC (L_2EAC)
+; xref: read from $2ECA
+; xref: read from $2ED8
+; xref: read from $2EF3 (L_2EF3)
+; xref: read from $2F11
+; xref: read from $2F19 (L_2F19)
+; xref: read from $2F42 (L_2F42)
+; xref: read from $2F72
+; xref: read from $2F91
+; xref: read from $33E4
+; xref: read from $33F4
+; xref: read from $340D
+; xref: read from $3426
+; xref: read from $343F
+; xref: read from $3451
+; xref: read from $3488
+; xref: read from $3498
+; xref: read from $34B1
+; xref: read from $34C3
+; xref: read from $34E3
+; xref: read from $34F5
+; xref: read from $3521 (L_3521)
+; xref: read from $3531
+; xref: read from $354A
+; xref: read from $3563
+; xref: read from $357C
+; xref: read from $358E
+; xref: read from $35C5
+; xref: read from $35D7
+; xref: read from $35EE
+; xref: read from $3600
+; xref: read from $3637
+; xref: read from $3902
+; xref: read from $3937
+; xref: read from $399E
+; xref: read from $3AF4 (L_3AF4)
+; xref: read from $3B0B (L_3B0B)
+; xref: read from $3B1D (L_3B1D)
+; xref: read from $4E37
+; xref: write from $5289
+; xref: read from $528C
+; xref: read from $52AC
+; xref: write from $5C00
+; xref: write from $5C3C
+; xref: write from $5C6B
+$695D                   .BYTE $34,$03                                                          ; "4."
+; xref: read from $4668
+; xref: read from $47AB
+; xref: write from $569F
+$695F                   .BYTE $23                                                              ; "#"
+; xref: write from $56A4
+$6960                   .BYTE $07                                                              ; "."
+; xref: read from $4C76
+; xref: read from $4C86
+; xref: read from $4CA4 (L_4CA4)
+; xref: read from $4CB4
+; xref: read from $5140
+; xref: read from $5150
+; xref: read from $5184
+; xref: read from $5194
+; xref: read from $52E2
+; xref: read from $52F2
+; xref: write from $5398
+; xref: read from $53B4
+; xref: read from $53C4
+; xref: read from $53DD
+$6961                   .BYTE $00                                                              ; "."
+; xref: read from $463E
+; xref: read from $4798
+; xref: read from $5310
+; xref: write from $539D
+; xref: write from $5403
+; xref: read from $62E4
+$6962                   .BYTE $00                                                              ; "."
+; xref: read from $209B (L_209B)
+; xref: write from $25C0
+; xref: read from $3AE7 (L_3AE7)
+; xref: read from $3F73
+; xref: read from $3FA5
+; xref: read from $4620
+; xref: read from $462B
+; xref: write from $4638
+; xref: write from $46B3
+; xref: read from $46BB
+; xref: read from $46C9
+; xref: read from $46E2
+; xref: read from $4785
+; xref: write from $4792
+; xref: write from $47F8
+; xref: read from $4D7E (L_4D7E)
+; xref: write from $5279
+; xref: write from $5281
+; xref: read from $53A4
+; xref: write from $5BFB
+; xref: write from $5C37
+; xref: write from $5C66
+; xref: read from $5CDB (SUB_5CDB)
+; xref: read from $60EB
+; xref: read from $62D1 (SUB_62D1)
+; xref: write from $62DE
+; xref: write from $62F1
+$6963                   .BYTE $03                                                              ; "."
+; xref: read from $1C15 (L_1C15)
+; xref: read from $1C24
+; xref: read from $1C32
+; xref: read from $1C4D (L_1C4D)
+; xref: read from $1C65
+; xref: read from $1CB1
+; xref: read from $1CFD
+; xref: read from $1D49
+; xref: write from $1D7F
+; xref: read from $1D8B (L_1D8B)
+; xref: read from $1DC4
+; xref: read from $1DEF (L_1DEF)
+; xref: read from $1E3C (L_1E3C)
+; xref: read from $1E8F
+; xref: read from $1E9F
+; xref: read from $1EBD (L_1EBD)
+; xref: read from $1F4D
+; xref: read from $1F83
+; xref: read from $1FCE
+; xref: read from $2020
+; xref: read from $2048
+; xref: read from $228D
+; xref: read from $229C
+; xref: read from $22AA
+; xref: read from $2754
+; xref: read from $27C1
+; xref: read from $27D3
+; xref: read from $2803
+; xref: read from $29A1
+; xref: read from $29AC (L_29AC)
+; xref: read from $29DA (L_29DA)
+; xref: read from $2A24
+; xref: read from $2A34
+; xref: read from $2A4D
+; xref: read from $2A66
+; xref: read from $2A7F
+; xref: read from $2A98
+; xref: read from $2AC4 (L_2AC4)
+; xref: read from $2AFB
+; xref: read from $2B10 (L_2B10)
+; xref: read from $2B25 (L_2B25)
+; xref: read from $2B8B
+; xref: read from $2BA0 (L_2BA0)
+; xref: read from $2BDF
+; xref: read from $2BED
+; xref: read from $2C2B
+; xref: read from $2C39
+; xref: read from $2C81
+; xref: read from $2CC0
+; xref: read from $2CCE
+; xref: read from $2DDB
+; xref: read from $2DE9
+$6964                   .BYTE $E7                                                              ; "."
+; xref: write from $4CED
+; xref: read from $4CF0
+; xref: read from $4CF6
+; xref: write from $4D31
+; xref: read from $4D34
+$6965                   .BYTE $00,$00,$04,$03,$01,$03,$02,$53,$00,$00,$00                      ; ".......S..."
+$6970                   .BYTE $00,$00,$00,$00                                                  ; "...."
+; xref: write from $1C59
+; xref: write from $1D5E
+; xref: write from $1F41
+; xref: write from $1F77
+; xref: write from $1FC2
+; xref: write from $2014
+; xref: write from $203C
+; xref: write from $205D
+; xref: write from $230F
+; xref: write from $2355
+; xref: write from $2451
+; xref: write from $2495
+; xref: write from $24EE
+; xref: write from $254E
+; xref: write from $2584
+; xref: write from $27EE
+; xref: write from $27FB
+; xref: write from $2851
+; xref: write from $286F
+; xref: write from $288B
+; xref: write from $28A9
+; xref: write from $28C7
+; xref: write from $28E3
+; xref: write from $28FF
+; xref: write from $291B
+; xref: write from $2963
+; xref: read from $29B6 (L_29B6)
+; xref: read from $29C5
+; xref: write from $29CB
+; xref: read from $29E4 (L_29E4)
+; xref: read from $29F3
+; xref: write from $29F9
+; xref: write from $2A0A
+; xref: read from $2ADA
+; xref: write from $2B73
+; xref: write from $2BD1
+; xref: write from $2E41
+$6974                   .BYTE $00                                                              ; "."
+; xref: write from $1C5E
+; xref: write from $1D63
+; xref: write from $1F46
+; xref: write from $1F7C
+; xref: write from $1FC7
+; xref: write from $2019
+; xref: write from $2041
+; xref: write from $2062
+; xref: write from $2314
+; xref: write from $235A
+; xref: write from $2456
+; xref: write from $249A
+; xref: write from $24F3
+; xref: write from $2553
+; xref: write from $2589
+; xref: write from $27F3
+; xref: write from $2800
+; xref: write from $2856
+; xref: write from $2874
+; xref: write from $2890
+; xref: write from $28AE
+; xref: write from $28CC
+; xref: write from $28E8
+; xref: write from $2904
+; xref: write from $2920
+; xref: write from $2968
+; xref: read from $29BC
+; xref: read from $29CE
+; xref: write from $29D4
+; xref: read from $29EA
+; xref: read from $29FC
+; xref: write from $2A02
+; xref: write from $2A0F
+; xref: read from $2AE1
+; xref: write from $2B78
+; xref: write from $2BD6
+; xref: write from $2E46
+$6975                   .BYTE $00                                                              ; "."
+; xref: read from $1D71 (script_vm_read_next_token)
+; xref: read from $1D82
+; xref: write from $1D82
+; xref: read from $2A15 (SUB_2A15)
+; xref: read from $2AB4
+; xref: write from $2AB9
+; xref: read from $2ACE (L_2ACE)
+; xref: write from $2ACE (L_2ACE)
+; xref: read from $2BF8
+; xref: write from $2C19
+; xref: write from $2C56
+; xref: read from $2CA2
+; xref: write from $2CA7
+; xref: read from $2CD9 (L_2CD9)
+; xref: read from $2CF5
+; xref: write from $2CFA
+; xref: read from $2D08 (L_2D08)
+; xref: write from $2D29
+; xref: write from $2E2D
+; xref: write from $3A02
+$6976                   .BYTE $35                                                              ; "5"
+; xref: read from $1D76
+; xref: read from $1D87
+; xref: write from $1D87
+; xref: read from $2A1B
+; xref: read from $2ABC
+; xref: write from $2AC1
+; xref: read from $2AD3
+; xref: write from $2AD3
+; xref: read from $2BFE
+; xref: write from $2C22
+; xref: write from $2C5F
+; xref: read from $2CAA
+; xref: write from $2CAF
+; xref: read from $2CDE
+; xref: read from $2CFD
+; xref: write from $2D02
+; xref: read from $2D0E
+; xref: write from $2D32
+; xref: write from $2E33
+; xref: write from $3A07
+$6977                   .BYTE $78                                                              ; "x"
+; xref: write from $1D8E
+; xref: read from $1DA0
+; xref: read from $1DD1 (L_1DD1)
+; xref: read from $1E1E
+; xref: read from $1E6B
+; xref: write from $2757
+; xref: read from $2769
+; xref: read from $2793
+$6978                   .BYTE $93                                                              ; "."
+; xref: write from $1D93
+; xref: read from $1DA5
+; xref: read from $1DD7
+; xref: read from $1E24
+; xref: read from $1E71
+; xref: write from $275C
+; xref: read from $276E
+; xref: read from $2799
+$6979                   .BYTE $00                                                              ; "."
+; xref: write from $1D98
+; xref: write from $1DB5
+; xref: read from $1DDD
+; xref: read from $1E2A
+; xref: read from $1E77
+; xref: write from $2761
+; xref: write from $277E
+; xref: read from $279F
+$697A                   .BYTE $FF                                                              ; "."
+; xref: write from $1D9D
+; xref: write from $1DBB
+; xref: read from $1DE3
+; xref: read from $1E30
+; xref: read from $1E7D
+; xref: write from $2766
+; xref: write from $2784
+; xref: read from $27A5
+$697B                   .BYTE $FF                                                              ; "."
+; xref: read from $1DB2
+; xref: read from $1DFC (L_1DFC)
+; xref: read from $1E0F
+; xref: write from $1E12
+; xref: read from $1E49 (L_1E49)
+; xref: read from $1E5C
+; xref: write from $1E5F
+; xref: write from $206B
+; xref: write from $2078
+; xref: write from $2085
+; xref: write from $2092
+; xref: write from $209E
+; xref: write from $20AA
+; xref: write from $20B7
+; xref: write from $20C4
+; xref: write from $20D1
+; xref: write from $20DE
+; xref: write from $20EB
+; xref: write from $20F8
+; xref: write from $2105
+; xref: read from $2113
+; xref: write from $2125
+; xref: read from $2132
+; xref: write from $2144
+; xref: read from $2151
+; xref: write from $2163
+; xref: read from $2170
+; xref: write from $2182
+; xref: read from $218F
+; xref: write from $21A1
+; xref: read from $21AE
+; xref: write from $21C0
+; xref: read from $21CD
+; xref: write from $21DF
+; xref: read from $21EC
+; xref: write from $21FE
+; xref: read from $220B
+; xref: write from $221D
+; xref: read from $2229
+; xref: write from $2241
+; xref: read from $224E
+; xref: write from $2266
+; xref: read from $2273
+; xref: write from $2281
+; xref: write from $2290
+; xref: write from $229F
+; xref: read from $22C1
+; xref: write from $22C7
+; xref: read from $22D7
+; xref: read from $22EC
+; xref: read from $231D
+; xref: read from $2332
+; xref: read from $2363
+; xref: read from $258F (L_258F)
+; xref: read from $259C (L_259C)
+; xref: read from $25A9 (L_25A9)
+; xref: read from $25B6 (L_25B6)
+; xref: read from $25BD (L_25BD)
+; xref: read from $25C4 (L_25C4)
+; xref: read from $25D1 (L_25D1)
+; xref: read from $25DE (L_25DE)
+; xref: read from $25EB (L_25EB)
+; xref: read from $25F8 (L_25F8)
+; xref: read from $2605 (L_2605)
+; xref: read from $2612 (L_2612)
+; xref: read from $261F (L_261F)
+; xref: read from $263B
+; xref: read from $2652
+; xref: read from $2669
+; xref: read from $2680
+; xref: read from $2697
+; xref: read from $26AE
+; xref: read from $26C5
+; xref: read from $26DC
+; xref: read from $26F3
+; xref: read from $2711
+; xref: read from $2733
+; xref: read from $2749
+; xref: read from $277B
+; xref: write from $278A
+; xref: read from $27B2
+; xref: read from $285C (L_285C)
+; xref: read from $287B
+; xref: read from $2897
+; xref: read from $28B5
+; xref: read from $28D3
+; xref: read from $28EC (L_28EC)
+; xref: read from $2C68
+; xref: read from $2D3B
+; xref: read from $2FAE
+$697C                   .BYTE $08                                                              ; "."
+; xref: read from $1DB8
+; xref: read from $1E02
+; xref: read from $1E18
+; xref: write from $1E1B
+; xref: read from $1E4F
+; xref: read from $1E65
+; xref: write from $1E68
+; xref: write from $2071
+; xref: write from $207E
+; xref: write from $208B
+; xref: write from $2097
+; xref: write from $20A3
+; xref: write from $20B0
+; xref: write from $20BD
+; xref: write from $20CA
+; xref: write from $20D7
+; xref: write from $20E4
+; xref: write from $20F1
+; xref: write from $20FE
+; xref: write from $210B
+; xref: read from $211A
+; xref: write from $212A
+; xref: read from $2139
+; xref: write from $2149
+; xref: read from $2158
+; xref: write from $2168
+; xref: read from $2177
+; xref: write from $2187
+; xref: read from $2196
+; xref: write from $21A6
+; xref: read from $21B5
+; xref: write from $21C5
+; xref: read from $21D4
+; xref: write from $21E4
+; xref: read from $21F3
+; xref: write from $2203
+; xref: read from $2212
+; xref: write from $2222
+; xref: read from $222E
+; xref: write from $2247
+; xref: read from $2253
+; xref: write from $226C
+; xref: read from $2278
+; xref: write from $2286
+; xref: write from $2295
+; xref: write from $22A4
+; xref: read from $22CA
+; xref: write from $22D0
+; xref: read from $22DC
+; xref: read from $22F1
+; xref: read from $2322
+; xref: read from $2337
+; xref: read from $2368
+; xref: read from $2595
+; xref: read from $25A2
+; xref: read from $25AF
+; xref: read from $25CA
+; xref: read from $25D7
+; xref: read from $25E4
+; xref: read from $25F1
+; xref: read from $25FE
+; xref: read from $260B
+; xref: read from $2618
+; xref: read from $2625
+; xref: read from $2717
+; xref: read from $2739
+; xref: read from $2781
+; xref: write from $2790
+; xref: read from $27B8
+; xref: read from $2862
+; xref: read from $2881
+; xref: read from $289F
+; xref: read from $28BD
+; xref: read from $28D9
+; xref: read from $28F2
+; xref: read from $2C6E
+; xref: read from $2D40
+; xref: read from $2FB4
+$697D                   .BYTE $00                                                              ; "."
+; xref: write from $1DD4
+; xref: write from $1E21
+; xref: write from $1E6E
+; xref: read from $23E0
+; xref: read from $245D
+; xref: read from $24A1
+; xref: read from $24FA
+; xref: read from $255A
+; xref: write from $2796
+$697E                   .BYTE $93                                                              ; "."
+; xref: write from $1DDA
+; xref: write from $1E27
+; xref: write from $1E74
+; xref: read from $23E8
+; xref: read from $2465
+; xref: read from $24A9
+; xref: read from $2502
+; xref: read from $2562
+; xref: write from $279C
+$697F                   .BYTE $00                                                              ; "."
+; xref: write from $1DE0
+; xref: write from $1E2D
+; xref: write from $1E7A
+; xref: read from $262D
+; xref: read from $2644
+; xref: read from $265B
+; xref: read from $2672
+; xref: read from $2689
+; xref: read from $26A0
+; xref: read from $26B7
+; xref: read from $26CE
+; xref: read from $26E5
+; xref: read from $26FB (L_26FB)
+; xref: read from $271D (L_271D)
+; xref: read from $273F (L_273F)
+; xref: write from $27A2
+$6980                   .BYTE $FF                                                              ; "."
+; xref: write from $1DE6
+; xref: write from $1E33
+; xref: write from $1E80
+; xref: read from $2634
+; xref: read from $264B
+; xref: read from $2662
+; xref: read from $2679
+; xref: read from $2690
+; xref: read from $26A7
+; xref: read from $26BE
+; xref: read from $26D5
+; xref: read from $26EC
+; xref: read from $2700
+; xref: read from $2722
+; xref: read from $2744
+; xref: write from $27A8
+$6981                   .BYTE $FF                                                              ; "."
+; xref: write from $1DFF
+; xref: read from $1E0C
+; xref: write from $1E4C
+; xref: read from $1E59
+; xref: write from $27B5
+; xref: read from $285F
+; xref: read from $2878 (L_2878)
+; xref: read from $2894 (L_2894)
+; xref: read from $28B2 (L_28B2)
+; xref: read from $28D0 (L_28D0)
+; xref: read from $28EF
+$6982                   .BYTE $09                                                              ; "."
+; xref: write from $1E05
+; xref: read from $1E15
+; xref: write from $1E52
+; xref: read from $1E62
+; xref: write from $27BB
+; xref: read from $2865
+; xref: read from $287E
+; xref: read from $289C
+; xref: read from $28BA
+; xref: read from $28D6
+; xref: read from $28F5
+$6983                   .BYTE $00                                                              ; "."
+; xref: write from $1ECE
+; xref: read from $1ED9
+; xref: write from $1F0E
+; xref: read from $1F19
+; xref: write from $23E5
+; xref: read from $23F0
+; xref: write from $2425
+; xref: read from $2430
+$6984                   .BYTE $05                                                              ; "."
+; xref: write from $1ED6
+; xref: read from $1EDF
+; xref: write from $1F16
+; xref: write from $23ED
+; xref: read from $23F6
+; xref: write from $242D
+$6985                   .BYTE $00                                                              ; "."
+; xref: read from $2068 (L_2068)
+; xref: write from $2592
+; xref: read from $325B
+; xref: read from $326E
+; xref: read from $3290
+; xref: read from $32A3
+; xref: read from $32CA
+; xref: read from $32EA
+; xref: read from $38B6
+; xref: read from $38EB (L_38EB)
+; xref: read from $3920 (L_3920)
+; xref: read from $3987 (L_3987)
+; xref: read from $39D5 (L_39D5)
+; xref: read from $39E9 (L_39E9)
+; xref: read from $3A0D (L_3A0D)
+; xref: read from $3A64 (L_3A64)
+; xref: write from $3B34
+; xref: read from $4D6A (L_4D6A)
+; xref: read from $4E20 (L_4E20)
+$6986                   .BYTE $00                                                              ; "."
+; xref: read from $206E
+; xref: write from $2598
+; xref: read from $3260
+; xref: read from $3275
+; xref: read from $3295
+; xref: read from $32A8
+; xref: read from $32D1
+; xref: read from $32F1
+; xref: read from $38BD
+; xref: read from $38F2
+; xref: read from $3927
+; xref: read from $398E
+; xref: read from $39DC
+; xref: read from $39F0
+; xref: read from $3A14
+; xref: read from $3A6B
+; xref: write from $3B39
+; xref: read from $4D71
+; xref: read from $4E27
+$6987                   .BYTE $00                                                              ; "."
+; xref: read from $2075 (L_2075)
+; xref: write from $259F
+; xref: read from $3ABB
+; xref: read from $4DA2
+; xref: read from $4DE8
+; xref: read from $6070 (L_6070)
+; xref: read from $60A8 (L_60A8)
+$6988                   .BYTE $00                                                              ; "."
+; xref: read from $207B
+; xref: write from $25A5
+; xref: read from $3AC2
+; xref: read from $4DA9
+; xref: read from $4DEF
+; xref: read from $6076
+; xref: read from $60AE
+$6989                   .BYTE $00                                                              ; "."
+; xref: read from $2082 (L_2082)
+; xref: write from $25AC
+; xref: read from $3656
+; xref: read from $366D
+; xref: read from $3A7B
+; xref: write from $3B3E
+; xref: read from $4D8B (L_4D8B)
+; xref: read from $4DD1 (L_4DD1)
+$698A                   .BYTE $00                                                              ; "."
+; xref: read from $2088
+; xref: write from $25B2
+; xref: read from $365D
+; xref: read from $3674
+; xref: read from $3A82
+; xref: write from $3B43
+; xref: read from $4D92
+; xref: read from $4DD8
+$698B                   .BYTE $00                                                              ; "."
+; xref: read from $20A7 (L_20A7)
+; xref: write from $25C7
+; xref: write from $56B6
+$698C                   .BYTE $00                                                              ; "."
+; xref: read from $20AD
+; xref: write from $25CD
+; xref: write from $56BB
+$698D                   .BYTE $00                                                              ; "."
+; xref: read from $20B4 (L_20B4)
+; xref: write from $25D4
+$698E                   .BYTE $06                                                              ; "."
+; xref: read from $20BA
+; xref: write from $25DA
+$698F                   .BYTE $00                                                              ; "."
+; xref: read from $20C1 (L_20C1)
+; xref: write from $25E1
+; xref: write from $2E76
+; xref: write from $2EBD
+; xref: write from $2F04
+; xref: write from $2F2A
+; xref: write from $2F7A
+; xref: read from $2F85 (L_2F85)
+; xref: read from $3A21 (L_3A21)
+; xref: read from $3A38
+; xref: write from $3A5C
+; xref: read from $3A9B
+; xref: write from $3ADF
+; xref: read from $3C02 (script_vm_show_text)
+; xref: read from $3C1C
+; xref: read from $3C57 (L_3C57)
+; xref: read from $3C9A
+; xref: write from $3CE1
+; xref: read from $3CFE
+; xref: read from $3D17
+; xref: read from $3D30
+; xref: read from $3D49
+; xref: read from $3D62
+; xref: read from $3D7B
+; xref: read from $3D94
+; xref: read from $3DAD
+; xref: read from $3DC6
+; xref: read from $3DDF
+; xref: read from $3E63
+; xref: write from $3E68
+; xref: read from $3E77
+; xref: write from $3E7C
+; xref: read from $3E8B
+; xref: write from $3E90
+; xref: read from $3E9F
+; xref: write from $3EA4
+; xref: read from $3EB3
+; xref: write from $3EB8
+; xref: read from $3EC7
+; xref: write from $3EDE
+; xref: read from $3EEE
+; xref: write from $3F05
+; xref: read from $3F15
+; xref: write from $3F2C
+; xref: read from $3F3C
+; xref: write from $3F53
+; xref: read from $3FEF
+; xref: write from $3FF4
+; xref: write from $4004
+; xref: read from $4022 (SUB_4022)
+; xref: write from $4711
+; xref: write from $4B65
+; xref: write from $4C68
+; xref: write from $4D07
+; xref: write from $4DC6
+; xref: write from $4E0C
+; xref: write from $4E54
+; xref: write from $5132
+; xref: write from $5176
+; xref: write from $51B5
+; xref: write from $52C6
+; xref: write from $52D4
+; xref: write from $531D
+; xref: write from $5C13
+; xref: write from $5D01
+; xref: read from $5D94 (SUB_5D94)
+; xref: read from $5DC4 (L_5DC4)
+; xref: read from $605C (L_605C)
+; xref: read from $6094 (L_6094)
+; xref: read from $60C4
+; xref: write from $60C9
+$6990                   .BYTE $00                                                              ; "."
+; xref: read from $20C7
+; xref: write from $25E7
+; xref: write from $2E7E
+; xref: write from $2EC5
+; xref: write from $2F0C
+; xref: write from $2F32
+; xref: write from $2F7F
+; xref: read from $2F8B
+; xref: read from $3A28
+; xref: read from $3A3F
+; xref: write from $3A61
+; xref: read from $3AA2
+; xref: write from $3AE4
+; xref: read from $3C09
+; xref: read from $3C24
+; xref: read from $3C5E
+; xref: read from $3CA1
+; xref: write from $3CE9
+; xref: read from $3D03
+; xref: read from $3D1C
+; xref: read from $3D35
+; xref: read from $3D4E
+; xref: read from $3D67
+; xref: read from $3D80
+; xref: read from $3D99
+; xref: read from $3DB2
+; xref: read from $3DCB
+; xref: read from $3DE4
+; xref: read from $3E6B
+; xref: write from $3E70
+; xref: read from $3E7F
+; xref: write from $3E84
+; xref: read from $3E93
+; xref: write from $3E98
+; xref: read from $3EA7
+; xref: write from $3EAC
+; xref: read from $3EBB
+; xref: write from $3EC0
+; xref: read from $3ECF
+; xref: write from $3EE7
+; xref: read from $3EF6
+; xref: write from $3F0E
+; xref: read from $3F1D
+; xref: write from $3F35
+; xref: read from $3F44
+; xref: write from $3F5C
+; xref: read from $3FF7
+; xref: write from $3FFC
+; xref: write from $4009
+; xref: read from $402A
+; xref: read from $4038
+; xref: write from $4716
+; xref: write from $4B6A
+; xref: write from $4C6D
+; xref: write from $4D0F
+; xref: write from $4DCB
+; xref: write from $4E11
+; xref: write from $4E59
+; xref: write from $5137
+; xref: write from $517B
+; xref: write from $51BA
+; xref: write from $52CB
+; xref: write from $52D9
+; xref: write from $5322
+; xref: write from $5C18
+; xref: write from $5D0A
+; xref: read from $5D9B
+; xref: read from $5DCB
+; xref: read from $6063
+; xref: read from $609B
+; xref: read from $60CC
+; xref: write from $60D1
+$6991                   .BYTE $00                                                              ; "."
+; xref: read from $20CE (L_20CE)
+; xref: write from $25EE
+; xref: write from $305E
+; xref: write from $31A2
+; xref: write from $31AD
+; xref: write from $3246
+; xref: write from $3251
+; xref: write from $330E
+; xref: write from $3319
+; xref: write from $334E
+; xref: write from $339C
+; xref: write from $33D1
+; xref: write from $33DC
+; xref: write from $3475
+; xref: write from $3480
+; xref: write from $3519
+; xref: write from $35B2
+; xref: write from $35BD
+; xref: write from $3624
+; xref: write from $362F
+; xref: write from $3643
+; xref: write from $364E
+; xref: write from $36AA
+; xref: write from $38DD
+; xref: write from $41C6
+; xref: write from $4B4F
+; xref: write from $4C2A
+; xref: write from $4E6E
+; xref: write from $56C0
+; xref: write from $56FF
+; xref: read from $5CFE
+; xref: write from $62BF
+$6992                   .BYTE $0A                                                              ; "."
+; xref: read from $20D4
+; xref: write from $25F4
+; xref: write from $3063
+; xref: write from $31A7
+; xref: write from $31B2
+; xref: write from $324B
+; xref: write from $3256
+; xref: write from $3313
+; xref: write from $331E
+; xref: write from $3353
+; xref: write from $33A1
+; xref: write from $33D6
+; xref: write from $33E1
+; xref: write from $347A
+; xref: write from $3485
+; xref: write from $351E
+; xref: write from $35B7
+; xref: write from $35C2
+; xref: write from $3629
+; xref: write from $3634
+; xref: write from $3648
+; xref: write from $3653
+; xref: write from $36AF
+; xref: write from $38E2
+; xref: write from $41CB
+; xref: write from $4B54
+; xref: write from $4C2F
+; xref: write from $4E73
+; xref: write from $56C5
+; xref: write from $5704
+; xref: read from $5D07
+; xref: write from $62C5
+$6993                   .BYTE $00                                                              ; "."
+; xref: read from $20DB (L_20DB)
+; xref: write from $25FB
+; xref: write from $52AF
+$6994                   .BYTE $FF                                                              ; "."
+; xref: read from $20E1
+; xref: write from $2601
+; xref: write from $52B4
+$6995                   .BYTE $00                                                              ; "."
+; xref: read from $20E8 (L_20E8)
+; xref: write from $2608
+$6996                   .BYTE $00                                                              ; "."
+; xref: read from $20EE
+; xref: write from $260E
+$6997                   .BYTE $00                                                              ; "."
+; xref: read from $20F5 (L_20F5)
+; xref: write from $2615
+$6998                   .BYTE $00                                                              ; "."
+; xref: read from $20FB
+; xref: write from $261B
+$6999                   .BYTE $00                                                              ; "."
+; xref: read from $2102 (L_2102)
+; xref: write from $2622
+$699A                   .BYTE $00                                                              ; "."
+; xref: read from $2108
+; xref: write from $2628
+$699B                   .BYTE $00,$00,$3D,$69                                                  ; "..=i"
+; xref: read from $2787 (L_2787)
+; xref: write from $2D5C
+; xref: write from $2DB5
+$699F                   .BYTE $00                                                              ; "."
+; xref: read from $278D
+; xref: write from $2D61
+; xref: write from $2DBE
+$69A0                   .BYTE $00                                                              ; "."
+; xref: write from $2814
+; xref: read from $2822
+$69A1                   .BYTE $04                                                              ; "."
+; xref: write from $281C
+$69A2                   .BYTE $00                                                              ; "."
+; xref: read from $2908 (script_vm_push_return)
+; xref: read from $2926 (L_2926)
+; xref: read from $2947
+; xref: write from $2947
+; xref: read from $2950 (script_vm_pop_return)
+; xref: read from $296E (L_296E)
+; xref: read from $2976 (L_2976)
+; xref: write from $2976 (L_2976)
+; xref: read from $2979
+; xref: read from $2E15 (script_vm_op_return)
+; xref: write from $375B
+$69A3                   .BYTE $00                                                              ; "."
+; xref: read from $290F
+; xref: read from $292B
+; xref: read from $294C
+; xref: write from $294C
+; xref: read from $2957
+; xref: read from $2973
+; xref: write from $2973
+; xref: read from $297E
+; xref: read from $2E1C
+; xref: write from $3760
+$69A4                   .BYTE $00                                                              ; "."
+; xref: read from $293C
+; xref: write from $2991
+; xref: write from $2AF0
+; xref: read from $2B05 (L_2B05)
+; xref: write from $2B05 (L_2B05)
+; xref: read from $2B1A (L_2B1A)
+; xref: read from $2B22 (L_2B22)
+; xref: write from $2B22 (L_2B22)
+; xref: read from $2B35
+; xref: read from $2B5A (L_2B5A)
+; xref: write from $2B80
+; xref: read from $2B95 (L_2B95)
+; xref: write from $2B95 (L_2B95)
+; xref: read from $2BAA (L_2BAA)
+; xref: read from $2BB2 (L_2BB2)
+; xref: write from $2BB2 (L_2BB2)
+; xref: read from $2BB5 (L_2BB5)
+; xref: write from $2BFB
+; xref: write from $2D0B
+; xref: read from $2E2A
+$69A5                   .BYTE $FF                                                              ; "."
+; xref: read from $2942
+; xref: write from $2997
+; xref: write from $2AF5
+; xref: read from $2B0A
+; xref: write from $2B0A
+; xref: read from $2B1F
+; xref: write from $2B1F
+; xref: read from $2B3C
+; xref: read from $2B61
+; xref: write from $2B85
+; xref: read from $2B9A
+; xref: write from $2B9A
+; xref: read from $2BAF
+; xref: write from $2BAF
+; xref: read from $2BBC
+; xref: write from $2C01
+; xref: write from $2D11
+; xref: read from $2E30
+$69A6                   .BYTE $FF                                                              ; "."
+; xref: write from $29B9
+; xref: read from $29C8
+; xref: write from $29E7
+; xref: read from $29F6
+$69A7                   .BYTE $00                                                              ; "."
+; xref: write from $29BF
+; xref: read from $29D1
+; xref: write from $29ED
+; xref: read from $29FF
+$69A8                   .BYTE $00                                                              ; "."
+; xref: write from $2A18
+$69A9                   .BYTE $33                                                              ; "3"
+; xref: write from $2A1E
+$69AA                   .BYTE $78                                                              ; "x"
+; xref: write from $2BE2
+; xref: read from $2C13
+; xref: write from $2C2E
+; xref: read from $2C50
+; xref: write from $2CC3
+; xref: read from $2D23
+; xref: write from $2DDE
+; xref: read from $2E00
+$69AB                   .BYTE $0B                                                              ; "."
+; xref: write from $2BE7
+; xref: read from $2C1C
+; xref: write from $2C33
+; xref: read from $2C59
+; xref: write from $2CC8
+; xref: read from $2D2C
+; xref: write from $2DE3
+; xref: read from $2E09
+$69AC                   .BYTE $00                                                              ; "."
+; xref: write from $2BF0
+; xref: read from $2C07
+; xref: write from $2C3C
+; xref: read from $2C44
+; xref: write from $2CD1
+; xref: read from $2D17
+; xref: write from $2DEC
+; xref: read from $2DF4
+$69AD                   .BYTE $79                                                              ; "y"
+; xref: write from $2BF5
+; xref: write from $2C41
+; xref: write from $2CD6
+; xref: write from $2DF1
+$69AE                   .BYTE $00                                                              ; "."
+; xref: write from $2C6B
+; xref: read from $2C91
+$69AF                   .BYTE $E4                                                              ; "."
+; xref: write from $2C71
+; xref: read from $2C99
+$69B0                   .BYTE $FF                                                              ; "."
+; xref: write from $2C76
+; xref: read from $2C8E (L_2C8E)
+; xref: read from $2CB2
+; xref: write from $2CB2
+$69B1                   .BYTE $08                                                              ; "."
+; xref: write from $2C7B
+; xref: read from $2C96
+; xref: read from $2CB7
+; xref: write from $2CB7
+$69B2                   .BYTE $00                                                              ; "."
+; xref: read from $2D4E (script_vm_op_read_table8)
+; xref: read from $2D64
+; xref: write from $2D64
+; xref: read from $2D72 (script_vm_op_read_table16)
+; xref: read from $2D84
+; xref: read from $2DC2
+; xref: write from $2DC7
+; xref: write from $2E06
+$69B3                   .BYTE $00                                                              ; "."
+; xref: read from $2D53
+; xref: read from $2D69
+; xref: write from $2D69
+; xref: read from $2D77
+; xref: read from $2D8B
+; xref: read from $2DCA
+; xref: write from $2DCF
+; xref: write from $2E0F
+$69B4                   .BYTE $00                                                              ; "."
+; xref: write from $2F88
+; xref: read from $3C19
+$69B5                   .BYTE $65                                                              ; "e"
+; xref: write from $2F8E
+; xref: read from $3C21
+$69B6                   .BYTE $01                                                              ; "."
+; xref: write from $2F94
+; xref: read from $3C3E
+$69B7                   .BYTE $34                                                              ; "4"
+; xref: write from $2F99
+; xref: read from $3C45
+$69B8                   .BYTE $00                                                              ; "."
+; xref: write from $2FB1
+; xref: read from $2FBA
+; xref: read from $2FCC (L_2FCC)
+; xref: read from $2FF5
+; xref: write from $30FF
+; xref: read from $3156
+; xref: read from $36B3 (L_36B3)
+; xref: read from $36CA (L_36CA)
+; xref: read from $36DE (L_36DE)
+; xref: write from $4E64
+; xref: write from $5CEC
+; xref: write from $60E3
+$69B9                   .BYTE $00                                                              ; "."
+; xref: write from $2FB7
+; xref: read from $2FBF
+; xref: read from $2FD1
+; xref: read from $2FFD
+; xref: write from $3108
+; xref: read from $315F
+; xref: read from $36BA
+; xref: read from $36D1
+; xref: write from $4E69
+; xref: write from $5CF4
+; xref: write from $60E8
+$69BA                   .BYTE $00                                                              ; "."
+; xref: read from $373B (L_373B)
+; xref: write from $3751
+; xref: write from $4618
+; xref: write from $477D
+; xref: write from $526B
+$69BB                   .BYTE $00                                                              ; "."
+; xref: read from $3742
+; xref: write from $3756
+; xref: write from $461D
+; xref: write from $4782
+; xref: write from $5270
+$69BC                   .BYTE $00,$FF,$00                                                      ; "..."
+; xref: read from $389F
+; xref: write from $52BC
+; xref: read from $5BE5
+; xref: read from $5C21
+; xref: read from $5C50
+; xref: read from $62BC
+$69BF                   .BYTE $00                                                              ; "."
+; xref: read from $38A6
+; xref: write from $52C1
+; xref: read from $5BEC
+; xref: read from $5C28
+; xref: read from $5C57
+; xref: read from $62C2
+$69C0                   .BYTE $00,$00,$34,$48,$00,$00                                          ; "..4H.."
+; --------------------------------------------------------
+; Object-description lookup table.
+; Each 16-bit entry maps an object ID to the text/description resource used when the script reads objectdescription[] (VM token B1).
+; --------------------------------------------------------
+$69C6 object_description_table_LO:.BYTE $00
+$69C7 object_description_table_HI:.BYTE $00
+$69C8                   .BYTE $D1,$01,$F1,$00,$42,$00,$F2,$00                                  ; "....B..."
+$69D0                   .BYTE $D3,$01,$D4,$01,$7D,$00,$F3,$00,$F4,$00,$D5,$01,$F5,$00,$7E,$00  ; "....}.........~."
+$69E0                   .BYTE $F7,$00,$D6,$01,$7B,$01,$D7,$01,$D8,$01,$07,$02,$D9,$01,$43,$00  ; "....{.........C."
+$69F0                   .BYTE $DA,$01,$7C,$01,$7F,$00,$81,$00,$DC,$01,$F8,$00,$F9,$00,$FA,$00  ; "..|............."
+$6A00                   .BYTE $DD,$01,$DE,$01,$FB,$00,$FC,$00,$E0,$01,$E1,$01,$E2,$01,$44,$00  ; "..............D."
+$6A10                   .BYTE $E3,$01,$E4,$01,$E5,$01,$82,$00,$83,$00,$FD,$00,$E6,$01,$E7,$01  ; "................"
+$6A20                   .BYTE $E8,$01,$EA,$01,$FE,$00,$85,$00,$84,$00,$FF,$00,$EB,$01,$EC,$01  ; "................"
+$6A30                   .BYTE $03,$01,$7D,$01,$04,$01,$ED,$01,$EE,$01,$05,$01,$45,$00,$46,$00  ; "..}.........E.F."
+$6A40                   .BYTE $46,$00,$EF,$01,$F0,$01,$00,$01,$06,$01,$06,$01,$07,$01,$08,$01  ; "F..............."
+$6A50                   .BYTE $F1,$01,$09,$01,$0A,$01,$86,$00,$0B,$01,$87,$00,$F2,$01,$0C,$01  ; "................"
+$6A60                   .BYTE $88,$00,$F3,$01,$0D,$01,$0E,$01,$0F,$01,$47,$00,$F4,$01,$7E,$01  ; "..........G...~."
+$6A70                   .BYTE $7F,$01,$7F,$01,$F5,$01,$F5,$01,$F6,$01,$01,$01,$10,$01,$F7,$01  ; "................"
+$6A80                   .BYTE $11,$01,$89,$00,$F9,$01,$FA,$01,$12,$01,$8A,$00,$13,$01,$48,$00  ; "..............H."
+$6A90                   .BYTE $FB,$01,$FC,$01,$FC,$01,$FD,$01,$FE,$01,$FE,$01,$FF,$01,$4A,$00  ; "..............J."
+$6AA0                   .BYTE $80,$01,$4B,$00,$49,$00,$00,$02,$14,$01,$15,$01,$01,$02,$16,$01  ; "..K.I..........."
+$6AB0                   .BYTE $8B,$00,$02,$02,$17,$01,$04,$02,$05,$02,$18,$01,$06,$02,$07,$02  ; "................"
+$6AC0                   .BYTE $4C,$00,$8C,$00,$50,$00,$8D,$00,$08,$02,$19,$01,$1A,$01,$09,$02  ; "L...P..........."
+$6AD0                   .BYTE $1B,$01,$0A,$02,$0B,$02,$1C,$01,$0C,$02,$0D,$02,$0F,$01,$0E,$02  ; "................"
+$6AE0                   .BYTE $0E,$02,$1D,$01,$8F,$00,$20,$01,$0F,$02,$8E,$00,$10,$02,$4E,$00  ; "...... .......N."
+$6AF0                   .BYTE $21,$01,$21,$01,$4F,$00,$91,$00,$11,$02,$92,$00,$12,$02,$93,$00  ; "!.!.O..........."
+$6B00                   .BYTE $94,$00,$13,$02,$EE,$00,$01,$01,$95,$00,$24,$01,$51,$00,$14,$02  ; "..........$.Q..."
+$6B10                   .BYTE $75,$01                                                          ; "u."
+; --------------------------------------------------------
+; Per-object points table.
+; The script VM reads 16-bit entries from here for VM token B0 (points[]).
+; --------------------------------------------------------
+$6B12 points_table_LO:  .BYTE $00
+$6B13 points_table_HI:  .BYTE $00
+$6B14                   .BYTE $00,$00,$05,$00,$0F,$00,$00,$00,$00,$00,$0F,$00                  ; "............"
+$6B20                   .BYTE $00,$00,$0F,$00,$00,$00,$00,$00,$19,$00,$00,$00,$14,$00,$00,$00  ; "................"
+$6B30                   .BYTE $05,$00,$14,$00,$00,$00,$00,$00,$00,$00,$14,$00,$00,$00,$32,$00  ; "..............2."
+$6B40                   .BYTE $05,$00,$00,$00,$05,$00,$14,$00,$00,$00,$32,$00,$00,$00,$14,$00  ; "..........2....."
+$6B50                   .BYTE $05,$00,$64,$00,$00,$00,$00,$00,$20,$03,$05,$00,$00,$00,$00,$00  ; "..d..... ......."
+$6B60                   .BYTE $00,$00,$00,$00,$00,$00,$05,$00,$00,$00,$00,$00,$05,$00,$00,$00  ; "................"
+$6B70                   .BYTE $0F,$00,$00,$00,$05,$00,$00,$00,$00,$00,$32,$00,$00,$00,$00,$00  ; "..........2....."
+$6B80                   .BYTE $00,$00,$00,$00,$64,$00,$00,$00,$00,$00,$14,$00,$00,$00,$00,$00  ; "....d..........."
+$6B90                   .BYTE $00,$00,$0A,$00,$0F,$00,$00,$00,$00,$00,$00,$00,$05,$00,$00,$00  ; "................"
+$6BA0                   .BYTE $05,$00,$00,$00,$00,$00,$00,$00,$00,$00,$0F,$00,$00,$00,$32,$00  ; "..............2."
+$6BB0                   .BYTE $0F,$00,$14,$00,$32,$00,$05,$00,$2D,$00,$00,$00,$00,$00,$00,$00  ; "....2...-......."
+$6BC0                   .BYTE $05,$00,$00,$00,$05,$00,$14,$00,$00,$00,$00,$00,$05,$00,$05,$00  ; "................"
+$6BD0                   .BYTE $32,$00,$00,$00,$00,$00,$05,$00,$00,$00,$05,$00,$05,$00,$00,$00  ; "2..............."
+$6BE0                   .BYTE $00,$00,$14,$00,$00,$00,$00,$00,$0F,$00,$64,$00,$00,$00,$19,$00  ; "..........d....."
+$6BF0                   .BYTE $05,$00,$00,$00,$0A,$00,$64,$00,$19,$00,$32,$00,$05,$00,$14,$00  ; "......d...2....."
+$6C00                   .BYTE $05,$00,$05,$00,$05,$00,$00,$00,$00,$00,$32,$00,$00,$00,$00,$00  ; "..........2....."
+$6C10                   .BYTE $00,$00,$00,$00,$00,$00,$14,$00,$2D,$00,$00,$00,$0F,$00,$00,$00  ; "........-......."
+$6C20                   .BYTE $20,$03,$14,$00,$00,$00,$32,$00,$00,$00,$0F,$00,$00,$00,$05,$00  ; " .....2........."
+$6C30                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$0F,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$6C40                   .BYTE $05,$00,$0F,$00,$00,$00,$00,$00,$2D,$00,$05,$00,$00,$00,$00,$00  ; "........-......."
+$6C50                   .BYTE $64,$00,$00,$00,$00,$00,$19,$00,$00,$00,$00,$00,$00,$00          ; "d............."
+; --------------------------------------------------------
+; Object-position table.
+; Maps each object ID to a room/location ID or special placement code for VM token A6 (objectposition[]).
+; --------------------------------------------------------
+$6C5E object_position_table:.BYTE $00
+$6C5F                   .BYTE $44                                                              ; "D"
+$6C60                   .BYTE $2E                                                              ; "."
+; xref: read from $3950
+$6C61                   .BYTE $00,$00,$00,$55,$01,$11,$2F,$00,$19,$00,$00,$00,$36,$60,$00      ; "...U../.....6`."
+$6C70                   .BYTE $5C,$00,$00,$49,$3B,$00,$01,$44,$14,$12,$13,$00,$57,$25,$00,$00  ; "\..I;..D....W%.."
+$6C80                   .BYTE $00,$5D,$00,$65,$54,$43,$01,$06,$10,$4D,$5C,$00,$00,$00,$01,$05  ; ".].eTC...M\....."
+$6C90                   .BYTE $16,$56,$00,$00,$3A,$12,$5F,$5B,$28,$00,$2E,$5B,$00,$58,$13,$26  ; ".V..:._[(..[.X.&"
+$6CA0                   .BYTE $2B,$2B,$2B,$4B,$18,$00,$03,$22                                  ; "+++K...""
+; xref: write from $3B03
+$6CA8                   .BYTE $00,$5E,$00,$FF,$5D,$00,$00,$30                                  ; ".^..]..0"
+$6CB0                   .BYTE $00,$61,$40,$3F,$41,$4F,$51,$00,$10,$12,$67,$32,$00,$00,$00,$00  ; ".a@?AOQ...g2...."
+$6CC0                   .BYTE $09,$11,$00,$00,$47,$58,$00,$57,$5D,$67,$00,$00,$27,$41,$43,$00  ; "....GX.W]g..'AC."
+$6CD0                   .BYTE $00,$49,$31,$00,$5A,$2D,$00,$4F,$1B,$48,$59,$00,$FF,$24,$03,$63  ; ".I1.Z-.O.HY..$.c"
+$6CE0                   .BYTE $25,$00,$4F,$00,$4C,$51,$00,$63,$53,$31,$4F,$50,$2C,$FF,$12,$4A  ; "%.O.LQ.cS1OP,..J"
+$6CF0                   .BYTE $09,$64,$00,$1D,$20,$00,$0F,$51,$01,$00,$0C,$0D,$53,$00,$11,$0F  ; ".d.. ..Q....S..."
+$6D00                   .BYTE $22                                                              ; """
+; xref: read from $3802 (L_3802)
+; xref: read from $4739 (L_4739)
+; xref: write from $5C05
+; xref: write from $5C41
+; xref: write from $5C70
+$6D01                   .BYTE $34,$5D,$3E                                                      ; "4]>"
+; --------------------------------------------------------
+; Object-status table.
+; Per-object state flags used by VM token A7 (objectstatus[]).
+; --------------------------------------------------------
+$6D04 object_status_table:.BYTE $00
+$6D05                   .BYTE $00,$00                                                          ; ".."
+; xref: read from $3969
+$6D07                   .BYTE $00,$00,$02,$02,$00,$00,$00,$00                                  ; "........"
+; xref: read from $3684
+$6D0F                   .BYTE $00                                                              ; "."
+; xref: write from $3B08
+$6D10                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00                                  ; "........"
+; xref: read from $3134
+; xref: read from $3220
+; xref: read from $33A4 (L_33A4)
+$6D18                   .BYTE $00,$00,$00,$02,$00,$00,$00,$00                                  ; "........"
+$6D20                   .BYTE $00,$00,$01,$00,$00,$00,$00,$00,$00,$00,$01,$00,$00,$00,$00,$00  ; "................"
+$6D30                   .BYTE $00,$02,$00,$00,$01,$00,$00,$00,$00,$02,$00,$00,$00,$00,$00,$00  ; "................"
+$6D40                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$6D50                   .BYTE $00                                                              ; "."
+; xref: read from $3066
+; xref: read from $31B5
+; xref: read from $3321
+$6D51                   .BYTE $01,$00,$00,$00,$02,$00,$00,$00,$02,$00,$00,$00,$00,$01,$00      ; "..............."
+$6D60                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$6D70                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$02,$00,$00,$00,$00  ; "................"
+$6D80                   .BYTE $00                                                              ; "."
+; xref: read from $311B
+; xref: read from $3207
+; xref: read from $3356 (L_3356)
+$6D81                   .BYTE $00                                                              ; "."
+; xref: read from $30CE
+; xref: read from $31DE
+; xref: read from $33B4
+$6D82                   .BYTE $01,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00          ; ".............."
+$6D90                   .BYTE $00,$00,$00                                                      ; "..."
+; xref: read from $3088
+; xref: read from $31C5
+; xref: read from $3366
+$6D93                   .BYTE $01,$00,$00,$00                                                  ; "...."
+; xref: read from $337F
+$6D97                   .BYTE $00                                                              ; "."
+; xref: read from $310B
+; xref: read from $31F7
+; xref: read from $3331
+$6D98                   .BYTE $00,$00,$00                                                      ; "..."
+; xref: read from $3168
+$6D9B                   .BYTE $00,$00,$00,$02,$00                                              ; "....."
+$6DA0                   .BYTE $00,$00,$00,$00,$00,$00,$00                                      ; "......."
+; xref: write from $3B1A
+$6DA7                   .BYTE $64,$00,$00                                                      ; "d.."
+; --------------------------------------------------------
+; North-exit table for the room graph.
+; Index by room ID to obtain the destination room for command/variable north[].
+; --------------------------------------------------------
+$6DAA room_exit_north_table:.BYTE $00
+$6DAB                   .BYTE $05,$06,$00,$08,$00                                              ; "....."
+$6DB0                   .BYTE $09,$00,$0B,$00,$0C,$00,$0D,$00,$0F,$00,$00,$00,$14,$00,$00,$18  ; "................"
+$6DC0                   .BYTE $00,$1C,$1D,$00,$1E,$00,$00,$20,$23,$25,$00,$27,$00,$29,$00,$00  ; "....... #%.'.).."
+$6DD0                   .BYTE $00,$2C,$00,$00,$2D,$2E,$00,$00,$00,$00,$00,$00,$00,$00,$35,$36  ; ".,..-.........56"
+$6DE0                   .BYTE $37,$39,$00,$3C,$00,$3E,$3F,$00,$00,$41,$00                      ; "79.<.>?..A."
+; xref: read from $39B7
+$6DEB                   .BYTE $00,$44,$45,$00,$47                                              ; ".DE.G"
+$6DF0                   .BYTE $00,$4A,$00,$4B,$00,$00,$4D,$00,$00,$00,$52,$00,$56,$00,$57,$00  ; ".J.K..M...R.V.W."
+$6E00                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$61,$00,$62,$00,$65,$66,$00,$00  ; "........a.b.ef.."
+$6E10                   .BYTE $67,$00                                                          ; "g."
+; --------------------------------------------------------
+; South-exit table for the room graph.
+; Index by room ID to obtain the destination room for south[].
+; --------------------------------------------------------
+$6E12 room_exit_south_table:.BYTE $00
+$6E13                   .BYTE $00,$00,$00,$00,$00,$02,$00,$04,$06,$07,$08,$0A,$00              ; "............."
+$6E20                   .BYTE $00,$0E,$00,$00,$00,$11,$00,$00,$00,$00,$15,$00,$00,$00,$17,$18  ; "................"
+$6E30                   .BYTE $1A,$00,$1D,$00,$00,$1E,$00,$1F,$00,$21,$22,$00,$00,$26,$27,$2A  ; ".........!"..&'*"
+$6E40                   .BYTE $2B,$00,$00,$30,$00,$19,$00,$34,$35,$36,$00,$37,$00,$38,$39,$00  ; "+..0...456.7.89."
+$6E50                   .BYTE $3B,$3C,$00,$3F,$00,$00,$42,$43,$00,$45,$00,$00,$47,$49,$00,$4C  ; ";<.?..BC.E..GI.L"
+$6E60                   .BYTE $00,$00,$00,$00,$50,$00,$00,$00,$52,$54,$00,$56,$00,$00,$00,$00  ; "....P...RT.V...."
+$6E70                   .BYTE $00,$00,$00,$5E,$60,$00,$00,$62,$63,$66                          ; "...^`..bcf"
+; --------------------------------------------------------
+; West-exit table for the room graph.
+; Index by room ID to obtain the destination room for west[].
+; --------------------------------------------------------
+$6E7A room_exit_west_table:.BYTE $00
+$6E7B                   .BYTE $00,$00,$02,$03,$00                                              ; "....."
+$6E80                   .BYTE $05,$00,$00,$00,$00,$0A,$00,$00,$0D,$00,$00,$00,$00,$00,$00,$14  ; "................"
+$6E90                   .BYTE $00,$16,$17,$18,$00,$1A,$1B,$00,$00,$00,$1F,$20,$00,$22,$00,$24  ; "........... .".$"
+$6EA0                   .BYTE $00,$26,$00,$00,$00,$2A,$00,$00,$00,$00,$2F,$00,$00,$00,$33,$00  ; ".&...*..../...3."
+$6EB0                   .BYTE $00,$00,$00,$38,$00,$3A,$3B,$00,$3D,$00,$00,$40,$00,$42,$00,$00  ; "...8.:;.=..@.B.."
+$6EC0                   .BYTE $00,$46,$00,$48,$49,$00,$00,$00,$00,$00,$00,$00,$00,$52,$00,$00  ; ".F.HI........R.."
+$6ED0                   .BYTE $00,$00,$00,$58,$59,$00,$5B,$5C,$00,$00,$5F,$60,$00,$62,$00,$64  ; "...XY.[\.._`.b.d"
+$6EE0                   .BYTE $65,$00                                                          ; "e."
+; --------------------------------------------------------
+; East-exit table for the room graph.
+; Index by room ID to obtain the destination room for east[].
+; --------------------------------------------------------
+$6EE2 room_exit_east_table:.BYTE $00
+$6EE3                   .BYTE $00,$03,$04,$00,$06,$00,$00,$00,$00,$0B,$00,$00,$0E              ; "............."
+$6EF0                   .BYTE $00,$00,$11,$00,$00,$00,$15,$00,$17,$18,$19,$00,$1B,$1C,$00,$00  ; "................"
+$6F00                   .BYTE $00,$20,$21,$00,$23,$00,$25,$00,$27,$00,$00,$00,$2B,$00,$00,$00  ; ". !.#.%.'...+..."
+$6F10                   .BYTE $00,$30,$00,$00,$00,$34,$00,$00,$00,$00,$00,$00,$3B,$3C,$00,$3E  ; ".0...4......;<.>"
+$6F20                   .BYTE $00,$00,$41,$00,$43,$00,$00,$00,$47,$00,$49,$4A,$00,$00,$00,$00  ; "..A.C...G.IJ...."
+$6F30                   .BYTE $00,$00,$00,$00,$53,$00,$55,$00,$00,$00,$59,$5A,$00,$5C,$5D,$00  ; "....S.U...YZ.\]."
+$6F40                   .BYTE $00,$60,$61,$00,$63,$00,$65,$66,$00,$00                          ; ".`a.c.ef.."
+; --------------------------------------------------------
+; Up-exit table for the room graph.
+; Index by room ID to obtain the destination room for up[].
+; --------------------------------------------------------
+$6F4A room_exit_up_table:.BYTE $00
+$6F4B                   .BYTE $00,$00,$00,$00,$00                                              ; "....."
+$6F50                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$6F60                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$6F70                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$13,$00,$2E,$00,$00,$00  ; "................"
+$6F80                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$6F90                   .BYTE $4C,$00,$00,$00,$00,$00,$00,$00,$43,$00,$00,$00,$46,$00,$00,$48  ; "L.......C...F..H"
+$6FA0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$6FB0                   .BYTE $4E,$00                                                          ; "N."
+; --------------------------------------------------------
+; Down-exit table for the room graph.
+; Index by room ID to obtain the destination room for down[].
+; --------------------------------------------------------
+$6FB2 room_exit_down_table:.BYTE $00
+$6FB3                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00              ; "............."
+$6FC0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$6FD0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$6FE0                   .BYTE $32,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "2..............."
+$6FF0                   .BYTE $00,$00,$00,$00,$00,$4E,$00,$00,$52,$00,$55,$00,$00,$00,$46,$00  ; ".....N..R.U...F."
+$7000                   .BYTE $66,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "f..............."
+$7010                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$20,$00,$40,$00,$00  ; "........... .@.."
+$7020                   .BYTE $40,$00,$00,$37,$48,$00,$00                                      ; "@..7H.."
+; --------------------------------------------------------
+; Visited-room flags.
+; Per-room exploration state used by VM token A8 (visited[]), for example to choose between short and full room descriptions.
+; --------------------------------------------------------
+; xref: read from $2F35 (L_2F35)
+$7027 room_visited_table:.BYTE $00
+$7028                   .BYTE $00,$01,$01,$00,$00,$00                                          ; "......"
+; xref: write from $3B2C
+$702E                   .BYTE $00,$00                                                          ; ".."
+$7030                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7040                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7050                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$01,$01,$00,$00,$00,$00  ; "................"
+$7060                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7070                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7080                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$10  ; "................"
+$7090                   .BYTE $77,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "w..............."
+$70A0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$70B0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00                              ; "........."
+; xref: write from $3CF4
+; xref: write from $3D0D
+; xref: write from $3D26
+; xref: write from $3D3F
+; xref: write from $3D58
+; xref: write from $3D71
+; xref: write from $3D8A
+; xref: write from $3DA3
+; xref: write from $3DBC
+; xref: write from $3DD5
+; xref: write from $3DEE
+; xref: read from $3DF6 (L_3DF6)
+; xref: read from $3F63
+; xref: read from $3F95
+; xref: read from $3FC9
+$70B9                   .BYTE $02                                                              ; "."
+; xref: write from $3CF9
+; xref: write from $3D12
+; xref: write from $3D2B
+; xref: write from $3D44
+; xref: write from $3D5D
+; xref: write from $3D76
+; xref: write from $3D8F
+; xref: write from $3DA8
+; xref: write from $3DC1
+; xref: write from $3DDA
+; xref: write from $3DF3
+; xref: read from $3F6B
+; xref: read from $3F9D
+; xref: read from $3FD0
+$70BA                   .BYTE $00                                                              ; "."
+; xref: read from $3EDB
+; xref: read from $3F02
+; xref: read from $3F29
+; xref: read from $3F50
+$70BB                   .BYTE $7D                                                              ; "}"
+; xref: read from $3EE4
+; xref: read from $3F0B
+; xref: read from $3F32
+; xref: read from $3F59
+$70BC                   .BYTE $00                                                              ; "."
+; xref: read from $5CFB
+$70BD                   .BYTE $54                                                              ; "T"
+; xref: read from $5D04
+$70BE                   .BYTE $00,$00                                                          ; ".."
+$70C0                   .BYTE $4E,$69,$00,$AE,$48,$00,$B1,$48,$FF,$00                          ; "Ni..H..H.."
+; xref: write from $4623
+; xref: read from $46B0 (L_46B0)
+; xref: write from $4788
+; xref: read from $47F5 (L_47F5)
+$70CA                   .BYTE $00                                                              ; "."
+; xref: write from $4628
+; xref: write from $478D
+$70CB                   .BYTE $00                                                              ; "."
+; xref: write from $462E
+; xref: read from $46ED
+$70CC                   .BYTE $00                                                              ; "."
+; xref: write from $4633
+; xref: read from $46F3
+$70CD                   .BYTE $00                                                              ; "."
+; xref: write from $4653
+; xref: write from $47E0
+$70CE                   .BYTE $00                                                              ; "."
+; xref: write from $4658
+; xref: write from $47E5
+$70CF                   .BYTE $00                                                              ; "."
+; xref: write from $465D
+; xref: write from $47EA
+$70D0                   .BYTE $00                                                              ; "."
+; xref: write from $4662
+; xref: write from $47EF
+$70D1                   .BYTE $00                                                              ; "."
+; xref: write from $4724
+; xref: write from $4731
+; xref: read from $4C10 (L_4C10)
+; xref: read from $60FB
+$70D2                   .BYTE $00                                                              ; "."
+; xref: write from $4729
+; xref: write from $4736
+; xref: read from $4C17
+; xref: read from $6102
+$70D3                   .BYTE $00,$00,$00                                                      ; "..."
+; xref: write from $4A17
+$70D6                   .BYTE $00                                                              ; "."
+; xref: write from $4A1C
+$70D7                   .BYTE $00                                                              ; "."
+; xref: write from $56A9
+$70D8                   .BYTE $B7                                                              ; "."
+; xref: write from $56AE
+$70D9                   .BYTE $00,$01,$FA,$75,$01,$FD,$75                                      ; "...u..u"
+; xref: read from $4FB4
+; xref: read from $4FCA
+; xref: write from $4FF9
+; xref: read from $5006
+; xref: write from $500B
+; xref: write from $6073
+; xref: write from $60AB
+$70E0                   .BYTE $5C                                                              ; "\"
+; xref: read from $4FBB
+; xref: read from $4FD1
+; xref: write from $5002
+; xref: read from $500E
+; xref: write from $5013
+; xref: write from $6079
+; xref: write from $60B1
+$70E1                   .BYTE $C7,$00,$F3,$5E,$00,$00,$20,$00,$E9,$03,$00,$3C,$5F,$00,$3F      ; "...^.. ....<_.?"
+$70F0                   .BYTE $5F                                                              ; "_"
+; xref: write from $62D4
+; xref: read from $62EE (L_62EE)
+$70F1                   .BYTE $00                                                              ; "."
+; xref: write from $62D9
+$70F2                   .BYTE $00,$E7,$04,$28,$00,$01,$00,$20,$00                              ; "...(... ."
+; xref: write from $1C2F (L_1C2F)
+; xref: read from $1C42
+; xref: write from $1E9C (L_1E9C)
+; xref: read from $1EAF
+; xref: write from $1EC0
+; xref: read from $1EC9
+; xref: write from $1EDC
+; xref: read from $1EE8
+; xref: write from $1EE8
+; xref: read from $1EEE
+; xref: write from $1EEE
+; xref: read from $1EF4
+; xref: write from $1EF4
+; xref: read from $1EFA
+; xref: write from $1EFA
+; xref: read from $1EFD
+; xref: write from $1F00
+; xref: read from $1F09
+; xref: write from $22AD
+; xref: read from $22B5
+; xref: write from $22BD
+; xref: read from $22C4
+; xref: write from $22E9 (L_22E9)
+; xref: read from $2301
+; xref: write from $232F (L_232F)
+; xref: read from $2347
+; xref: write from $2375 (L_2375)
+; xref: write from $23F3
+; xref: read from $23FF
+; xref: write from $23FF
+; xref: read from $2405
+; xref: write from $2405
+; xref: read from $240B
+; xref: write from $240B
+; xref: read from $2411
+; xref: write from $2411
+; xref: read from $2414
+; xref: write from $2417
+; xref: read from $2420
+; xref: write from $2462
+; xref: read from $246D
+; xref: write from $24A6
+; xref: read from $24B1
+; xref: write from $24FF
+; xref: read from $250A
+; xref: write from $255F
+; xref: read from $256A
+; xref: write from $27CE (L_27CE)
+; xref: read from $27E1
+; xref: write from $2806
+; xref: read from $280F
+; xref: write from $2A31 (L_2A31)
+; xref: read from $2A44
+; xref: write from $2A4A
+; xref: read from $2A5D
+; xref: write from $2A63
+; xref: read from $2A76
+; xref: write from $2A7C
+; xref: read from $2A8F
+; xref: write from $2A95
+; xref: read from $2AA8
+; xref: write from $2B32 (L_2B32)
+; xref: read from $2B4C
+; xref: write from $2C0F
+; xref: read from $2C16
+; xref: write from $2C4C
+; xref: read from $2C53
+; xref: write from $2CE7
+; xref: read from $2CEA
+; xref: write from $2D1F
+; xref: read from $2D26
+; xref: write from $2D80
+; xref: read from $2DAF
+; xref: write from $2DFC
+; xref: read from $2E03
+; xref: write from $2E68
+; xref: read from $2E71
+; xref: write from $2E8E (L_2E8E)
+; xref: read from $2EA1
+; xref: write from $2EAF
+; xref: read from $2EB8
+; xref: write from $2ED5 (L_2ED5)
+; xref: read from $2EE8
+; xref: write from $2EF6
+; xref: read from $2EFF
+; xref: write from $2F1C
+; xref: read from $2F25
+; xref: write from $2F45
+; xref: read from $2F4E
+; xref: write from $2F60
+; xref: read from $2F63
+; xref: write from $2FFA
+; xref: read from $3005
+; xref: write from $3069
+; xref: read from $3071
+; xref: write from $3085 (L_3085)
+; xref: read from $30AA
+; xref: write from $30AD
+; xref: read from $30BC
+; xref: write from $30C2
+; xref: read from $30F9
+; xref: write from $3118 (L_3118)
+; xref: read from $312B
+; xref: write from $3131
+; xref: read from $3144
+; xref: write from $314A
+; xref: read from $314D
+; xref: write from $3150
+; xref: read from $3159
+; xref: write from $315C
+; xref: read from $3181
+; xref: write from $3187
+; xref: read from $3193
+; xref: write from $31C2 (L_31C2)
+; xref: read from $31D5
+; xref: write from $31DB
+; xref: read from $31EE
+; xref: write from $31F4
+; xref: read from $3239
+; xref: write from $326B (L_326B)
+; xref: read from $3285
+; xref: write from $328B
+; xref: read from $32C1
+; xref: write from $32C7
+; xref: read from $32E1
+; xref: write from $32E7
+; xref: read from $3301
+; xref: write from $332E (L_332E)
+; xref: read from $3341
+; xref: write from $3363 (L_3363)
+; xref: read from $3376
+; xref: write from $337C
+; xref: read from $338F
+; xref: write from $33B1 (L_33B1)
+; xref: read from $33C4
+; xref: write from $33F1 (L_33F1)
+; xref: read from $3404
+; xref: write from $340A
+; xref: read from $341D
+; xref: write from $3423
+; xref: read from $3436
+; xref: write from $343C
+; xref: read from $3468
+; xref: write from $3495 (L_3495)
+; xref: read from $34A8
+; xref: write from $34AE
+; xref: read from $34DA
+; xref: write from $34E0
+; xref: read from $350C
+; xref: write from $352E (L_352E)
+; xref: read from $3541
+; xref: write from $3547
+; xref: read from $355A
+; xref: write from $3560
+; xref: read from $3573
+; xref: write from $3579
+; xref: read from $35A5
+; xref: write from $35D2 (L_35D2)
+; xref: read from $35E5
+; xref: write from $35EB
+; xref: read from $3617
+; xref: write from $366A (L_366A)
+; xref: read from $369D
+; xref: write from $38B3 (L_38B3)
+; xref: read from $38CD
+; xref: write from $38FF (L_38FF)
+; xref: read from $3912
+; xref: write from $3934 (L_3934)
+; xref: read from $3947
+; xref: write from $394D
+; xref: read from $3960
+; xref: write from $3966
+; xref: read from $3979
+; xref: write from $399B (L_399B)
+; xref: read from $39AE
+; xref: write from $39B4
+; xref: read from $39C7
+; xref: write from $3A35 (L_3A35)
+; xref: read from $3A4F
+; xref: write from $3A78 (L_3A78)
+; xref: read from $3A92
+; xref: write from $3A98
+; xref: read from $3AB2
+; xref: write from $3AB8
+; xref: read from $3AD2
+; xref: write from $3C16 (L_3C16)
+; xref: read from $3C32
+; xref: write from $3C6B (L_3C6B)
+; xref: read from $3C7E
+; xref: write from $3C97 (L_3C97)
+; xref: read from $3CB1
+; xref: write from $3CD3
+; xref: read from $3CDC
+; xref: write from $3ECC
+; xref: read from $3ED8
+; xref: write from $3EF3
+; xref: read from $3EFF
+; xref: write from $3F1A
+; xref: read from $3F26
+; xref: write from $3F41
+; xref: read from $3F4D
+; xref: write from $3F68
+; xref: read from $3F7E
+; xref: write from $3F9A
+; xref: read from $3FB0
+; xref: write from $3FC6 (L_3FC6)
+; xref: read from $3FE0
+; xref: write from $4027
+; xref: read from $4032
+; xref: write from $403B
+; xref: read from $4043
+; xref: write from $4046
+; xref: read from $404F
+; xref: write from $46C6 (L_46C6)
+; xref: read from $46D9
+; xref: write from $46DF
+; xref: read from $4704
+; xref: write from $4C83 (L_4C83)
+; xref: read from $4C96
+; xref: write from $4CB1 (L_4CB1)
+; xref: read from $4CC4
+; xref: write from $4CDD
+; xref: read from $4CE2
+; xref: write from $4CE5
+; xref: read from $4CE8
+; xref: write from $4CF9
+; xref: read from $4D04
+; xref: write from $4D21
+; xref: read from $4D26
+; xref: write from $4D29
+; xref: read from $4D2C
+; xref: write from $4D9F (L_4D9F)
+; xref: read from $4DB9
+; xref: write from $4DE5 (L_4DE5)
+; xref: read from $4DFF
+; xref: write from $4E34 (L_4E34)
+; xref: read from $4E47
+; xref: write from $4FC4
+; xref: read from $4FF3
+; xref: write from $514D (L_514D)
+; xref: read from $5160
+; xref: write from $5191 (L_5191)
+; xref: read from $51A4
+; xref: write from $528F
+; xref: read from $5298
+; xref: write from $52EF (L_52EF)
+; xref: read from $5302
+; xref: write from $53B1 (L_53B1)
+; xref: read from $53F6
+; xref: write from $5CDE
+; xref: read from $5CE9
+; xref: write from $60F8 (L_60F8)
+; xref: read from $6112
+$70FB                   .BYTE $00                                                              ; "."
+; xref: write from $1EC5
+; xref: read from $1ED1
+; xref: write from $1EE2
+; xref: read from $1EE5
+; xref: write from $1EE5
+; xref: read from $1EEB
+; xref: write from $1EEB
+; xref: read from $1EF1
+; xref: write from $1EF1
+; xref: read from $1EF7
+; xref: write from $1EF7
+; xref: read from $1F03
+; xref: write from $1F06
+; xref: read from $1F11
+; xref: write from $22B2
+; xref: write from $22B8
+; xref: read from $22CD
+; xref: write from $23F9
+; xref: read from $23FC
+; xref: write from $23FC
+; xref: read from $2402
+; xref: write from $2402
+; xref: read from $2408
+; xref: write from $2408
+; xref: read from $240E
+; xref: write from $240E
+; xref: read from $241A
+; xref: write from $241D
+; xref: read from $2428
+; xref: write from $246A
+; xref: write from $24AE
+; xref: write from $2507
+; xref: write from $2567
+; xref: write from $280B
+; xref: read from $2817
+; xref: write from $2C0A
+; xref: read from $2C1F
+; xref: write from $2C47
+; xref: read from $2C5C
+; xref: write from $2D1A
+; xref: read from $2D2F
+; xref: write from $2DAB
+; xref: read from $2DB8
+; xref: write from $2DF7
+; xref: read from $2E0C
+; xref: write from $2E6D
+; xref: read from $2E79
+; xref: write from $2EB4
+; xref: read from $2EC0
+; xref: write from $2EFB
+; xref: read from $2F07
+; xref: write from $2F21
+; xref: read from $2F2D
+; xref: write from $2F4A
+; xref: read from $2F55
+; xref: write from $3002
+; xref: write from $306E
+; xref: read from $3078
+; xref: write from $30B0
+; xref: read from $30C5
+; xref: write from $30CB
+; xref: read from $3102
+; xref: write from $3153
+; xref: read from $3162
+; xref: write from $3165
+; xref: read from $318A
+; xref: write from $3190
+; xref: read from $3196
+; xref: write from $3CD8
+; xref: read from $3CE4
+; xref: write from $3ED4
+; xref: read from $3EE1
+; xref: write from $3EFB
+; xref: read from $3F08
+; xref: write from $3F22
+; xref: read from $3F2F
+; xref: write from $3F49
+; xref: read from $3F56
+; xref: write from $3F70
+; xref: read from $3F86
+; xref: write from $3FA2
+; xref: read from $3FB8
+; xref: write from $402F
+; xref: write from $4040
+; xref: read from $4049
+; xref: write from $404C
+; xref: write from $4CFE
+; xref: read from $4D0C
+; xref: write from $4FEF
+; xref: read from $4FFC
+; xref: write from $5294
+; xref: read from $529F
+; xref: write from $5CE3
+; xref: read from $5CF1
+$70FC                   .BYTE $00,$74,$D0,$00                                                  ; ".t.."
+; xref: write from $1C3F (L_1C3F)
+; xref: read from $1C45
+; xref: write from $1EAC (L_1EAC)
+; xref: read from $1EB2
+; xref: write from $22FE (L_22FE)
+; xref: read from $2304
+; xref: write from $2344 (L_2344)
+; xref: read from $234A
+; xref: write from $27DE (L_27DE)
+; xref: read from $27E4
+; xref: write from $2A41 (L_2A41)
+; xref: read from $2A47
+; xref: write from $2A5A (L_2A5A)
+; xref: read from $2A60
+; xref: write from $2A73 (L_2A73)
+; xref: read from $2A79
+; xref: write from $2A8C (L_2A8C)
+; xref: read from $2A92
+; xref: write from $2AA5 (L_2AA5)
+; xref: read from $2AAB
+; xref: write from $2B49 (L_2B49)
+; xref: read from $2B4F
+; xref: write from $2D96
+; xref: read from $2D9E
+; xref: write from $2DA6
+; xref: read from $2DB2
+; xref: write from $2E9E (L_2E9E)
+; xref: read from $2EA4
+; xref: write from $2EE5 (L_2EE5)
+; xref: read from $2EEB
+; xref: write from $308B
+; xref: read from $3093
+; xref: write from $30A7 (L_30A7)
+; xref: read from $30B3
+; xref: write from $30B6
+; xref: read from $30BF
+; xref: write from $30D1
+; xref: read from $30D9
+; xref: write from $30ED (L_30ED)
+; xref: read from $30F0
+; xref: write from $30F3
+; xref: read from $30FC
+; xref: write from $3128 (L_3128)
+; xref: read from $312E
+; xref: write from $3141 (L_3141)
+; xref: read from $3147
+; xref: write from $3175 (L_3175)
+; xref: read from $3178
+; xref: write from $317B
+; xref: read from $3184
+; xref: write from $31D2 (L_31D2)
+; xref: read from $31D8
+; xref: write from $31EB (L_31EB)
+; xref: read from $31F1
+; xref: write from $3204 (L_3204)
+; xref: read from $3217
+; xref: write from $321D
+; xref: read from $3230
+; xref: write from $3236
+; xref: read from $323C
+; xref: write from $3282 (L_3282)
+; xref: read from $3288
+; xref: write from $32A0 (L_32A0)
+; xref: read from $32B8
+; xref: write from $32BE
+; xref: read from $32C4
+; xref: write from $32DE (L_32DE)
+; xref: read from $32E4
+; xref: write from $32FE (L_32FE)
+; xref: read from $3304
+; xref: write from $333E (L_333E)
+; xref: read from $3344
+; xref: write from $3373 (L_3373)
+; xref: read from $3379
+; xref: write from $338C (L_338C)
+; xref: read from $3392
+; xref: write from $33C1 (L_33C1)
+; xref: read from $33C7
+; xref: write from $3401 (L_3401)
+; xref: read from $3407
+; xref: write from $341A (L_341A)
+; xref: read from $3420
+; xref: write from $3433 (L_3433)
+; xref: read from $3439
+; xref: write from $344C (L_344C)
+; xref: read from $345F
+; xref: write from $3465
+; xref: read from $346B
+; xref: write from $34A5 (L_34A5)
+; xref: read from $34AB
+; xref: write from $34BE (L_34BE)
+; xref: read from $34D1
+; xref: write from $34D7
+; xref: read from $34DD
+; xref: write from $34F0 (L_34F0)
+; xref: read from $3503
+; xref: write from $3509
+; xref: read from $350F
+; xref: write from $353E (L_353E)
+; xref: read from $3544
+; xref: write from $3557 (L_3557)
+; xref: read from $355D
+; xref: write from $3570 (L_3570)
+; xref: read from $3576
+; xref: write from $3589 (L_3589)
+; xref: read from $359C
+; xref: write from $35A2
+; xref: read from $35A8
+; xref: write from $35E2 (L_35E2)
+; xref: read from $35E8
+; xref: write from $35FB (L_35FB)
+; xref: read from $360E
+; xref: write from $3614
+; xref: read from $361A
+; xref: write from $3681 (L_3681)
+; xref: read from $3694
+; xref: write from $369A
+; xref: read from $36A0
+; xref: write from $38CA (L_38CA)
+; xref: read from $38D0
+; xref: write from $390F (L_390F)
+; xref: read from $3915
+; xref: write from $3944 (L_3944)
+; xref: read from $394A
+; xref: write from $395D (L_395D)
+; xref: read from $3963
+; xref: write from $3976 (L_3976)
+; xref: read from $397C
+; xref: write from $39AB (L_39AB)
+; xref: read from $39B1
+; xref: write from $39C4 (L_39C4)
+; xref: read from $39CA
+; xref: write from $3A4C (L_3A4C)
+; xref: read from $3A52
+; xref: write from $3A8F (L_3A8F)
+; xref: read from $3A95
+; xref: write from $3AAF (L_3AAF)
+; xref: read from $3AB5
+; xref: write from $3ACF (L_3ACF)
+; xref: read from $3AD5
+; xref: write from $3C2F (L_3C2F)
+; xref: read from $3C35
+; xref: write from $3C7B (L_3C7B)
+; xref: read from $3C81
+; xref: write from $3CAE (L_3CAE)
+; xref: read from $3CB4
+; xref: write from $3F76
+; xref: read from $3F81
+; xref: write from $3FA8
+; xref: read from $3FB3
+; xref: write from $3FDD (L_3FDD)
+; xref: read from $3FE3
+; xref: write from $46D6 (L_46D6)
+; xref: read from $46DC
+; xref: write from $46E5
+; xref: read from $46F0
+; xref: write from $4701 (L_4701)
+; xref: read from $4707
+; xref: write from $4C93 (L_4C93)
+; xref: read from $4C99
+; xref: write from $4CC1 (L_4CC1)
+; xref: read from $4CC7
+; xref: write from $4DB6 (L_4DB6)
+; xref: read from $4DBC
+; xref: write from $4DFC (L_4DFC)
+; xref: read from $4E02
+; xref: write from $4E44 (L_4E44)
+; xref: read from $4E4A
+; xref: write from $4FDA
+; xref: read from $4FE2
+; xref: write from $4FEA
+; xref: read from $4FF6
+; xref: write from $515D (L_515D)
+; xref: read from $5163
+; xref: write from $51A1 (L_51A1)
+; xref: read from $51A7
+; xref: write from $52FF (L_52FF)
+; xref: read from $5305
+; xref: write from $53C1 (L_53C1)
+; xref: read from $53D4
+; xref: write from $53DA
+; xref: read from $53ED
+; xref: write from $53F3
+; xref: read from $53F9
+; xref: write from $610F (L_610F)
+; xref: read from $6115
+$7100                   .BYTE $00                                                              ; "."
+; xref: write from $2D9B
+; xref: write from $2DA1
+; xref: read from $2DBB
+; xref: write from $3090
+; xref: read from $309A
+; xref: write from $30B9
+; xref: read from $30C8
+; xref: write from $30D6
+; xref: read from $30E0
+; xref: write from $30F6
+; xref: read from $3105
+; xref: write from $317E
+; xref: read from $318D
+; xref: write from $3F7B
+; xref: read from $3F89
+; xref: write from $3FAD
+; xref: read from $3FBB
+; xref: write from $46EA
+; xref: read from $46F6
+; xref: write from $4FDF
+; xref: write from $4FE5
+; xref: read from $4FFF
+$7101                   .BYTE $00,$75,$00,$00                                                  ; ".u.."
+; xref: write from $3214 (L_3214)
+; xref: read from $321A
+; xref: write from $322D (L_322D)
+; xref: read from $3233
+; xref: write from $32B5 (L_32B5)
+; xref: read from $32BB
+; xref: write from $345C (L_345C)
+; xref: read from $3462
+; xref: write from $34CE (L_34CE)
+; xref: read from $34D4
+; xref: write from $3500 (L_3500)
+; xref: read from $3506
+; xref: write from $3599 (L_3599)
+; xref: read from $359F
+; xref: write from $360B (L_360B)
+; xref: read from $3611
+; xref: write from $3691 (L_3691)
+; xref: read from $3697
+; xref: write from $53D1 (L_53D1)
+; xref: read from $53D7
+; xref: write from $53EA (L_53EA)
+; xref: read from $53F0
+$7105                   .BYTE $FF,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00                      ; "..........."
+$7110                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7120                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7130                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7140                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7150                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7160                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7170                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7180                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7190                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$71A0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$71B0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$71C0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$71D0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$71E0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$71F0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7200                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7210                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7220                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7230                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7240                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7250                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7260                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7270                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7280                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7290                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$72A0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$72B0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$72C0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$72D0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$72E0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$72F0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7300                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7310                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7320                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7330                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7340                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7350                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7360                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7370                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7380                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7390                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$73A0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$73B0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$73C0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$73D0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$73E0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$73F0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7400                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7410                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7420                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7430                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7440                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7450                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7460                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$7470                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$CA  ; "................"
+$7480                   .BYTE $45,$41,$4E,$53,$2C,$20,$D4,$55,$52,$4E,$53,$43,$48,$55,$48,$45  ; "EANS, .URNSCHUHE"
+$7490                   .BYTE $2C,$20,$D4,$2D,$D3,$48,$49,$52,$54,$2E,$9C,$69,$CA,$45,$41,$4E  ; ", .-.HIRT..i.EAN"
+$74A0                   .BYTE $53,$2C,$20,$D4,$55,$52,$4E,$53,$43,$48,$55,$48,$45,$2C,$20,$D4  ; "S, .URNSCHUHE, ."
+$74B0                   .BYTE $2D,$D3,$48,$49,$52,$54,$1A,$00,$CA,$45,$41,$4E,$53,$2C,$20,$D4  ; "-.HIRT...EANS, ."
+$74C0                   .BYTE $55,$52,$4E,$53,$43,$48,$55,$48,$45,$2C,$20,$D4,$2D,$D3,$48,$49  ; "URNSCHUHE, .-.HI"
+$74D0                   .BYTE $52,$54,$2C,$20,$1C,$00,$CA,$45,$41,$4E,$53,$2C,$20,$D4,$55,$52  ; "RT, ...EANS, .UR"
+$74E0                   .BYTE $4E,$53,$43,$48,$55,$48,$45,$2C,$20,$D4,$2D,$D3,$48,$49,$52,$54  ; "NSCHUHE, .-.HIRT"
+$74F0                   .BYTE $20,$01,$00,$20,$01,$00,$20,$01,$00,$20,$01,$00,$20,$01,$00,$20  ; " .. .. .. .. .. "
+$7500                   .BYTE $01,$00,$20,$01,$00,$20,$01,$00,$20,$01,$00,$20,$01,$00,$20,$01  ; ".. .. .. .. .. ."
+$7510                   .BYTE $00,$20,$01,$00,$20,$01,$00,$2E,$20,$02,$00,$2E,$01,$00,$54,$20  ; ". .. ... .....T "
+$7520                   .BYTE $02,$00,$54,$01,$00,$52,$20,$02,$00,$52,$01,$00,$49,$20,$02,$00  ; "..T..R ..R..I .."
+$7530                   .BYTE $49,$01,$00,$48,$20,$02,$00,$48,$01,$00,$D3,$20,$02,$00,$D3,$01  ; "I..H ..H... ...."
+$7540                   .BYTE $00,$2D,$20,$02,$00,$2D,$01,$00,$D4,$20,$02,$00,$D4,$01,$00,$20  ; ".- ..-... ..... "
+$7550                   .BYTE $20,$02,$00,$20,$01,$00,$2C,$20,$02,$00,$2C,$01,$00,$45,$20,$02  ; " .. .., ..,..E ."
+$7560                   .BYTE $00,$45,$01,$00,$48,$20,$02,$00,$48,$01,$00,$55,$20,$02,$00,$55  ; ".E..H ..H..U ..U"
+$7570                   .BYTE $01,$00,$48,$20,$02,$00,$48,$01,$00,$43,$20,$02,$00,$43,$01,$00  ; "..H ..H..C ..C.."
+$7580                   .BYTE $53,$20,$02,$00,$53,$01,$00,$4E,$20,$02,$00,$4E,$01,$00,$52,$20  ; "S ..S..N ..N..R "
+$7590                   .BYTE $02,$00,$52,$01,$00,$55,$20,$02,$00,$55,$01,$00,$D4,$20,$02,$00  ; "..R..U ..U... .."
+$75A0                   .BYTE $D4,$01,$00,$20,$20,$02,$00,$20,$01,$00,$2C,$20,$02,$00,$2C,$01  ; "...  .. .., ..,."
+$75B0                   .BYTE $00,$53,$20,$02,$00,$53,$01,$00,$4E,$20,$02,$00,$4E,$01,$00,$41  ; ".S ..S..N ..N..A"
+$75C0                   .BYTE $20,$02,$00,$41,$01,$00,$45,$20,$02,$00,$45,$01,$00,$CA,$20,$02  ; " ..A..E ..E... ."
+$75D0                   .BYTE $00,$CA,$01,$00,$CA,$45,$41,$4E,$53,$2C,$20,$D4,$55,$52,$4E,$53  ; ".....EANS, .URNS"
+$75E0                   .BYTE $43,$48,$55,$48,$45,$2C,$20,$D4,$2D,$D3,$48,$49,$52,$54,$2E,$1B  ; "CHUHE, .-.HIRT.."
+$75F0                   .BYTE $00,$D4,$2D,$D3,$48,$49,$52,$54,$07,$00,$00,$DA,$70,$53,$DD,$70  ; "..-.HIRT....pS.p"
+; --------------------------------------------------------
+; Start of the custom adventure-script bytecode stream.
+; The VM uses $6976/$6977 as its script PC; decompiler sources identify $7600 as the default entry into this tokenized script region.
+; --------------------------------------------------------
+$7600                   .BYTE $92,$C0,$00,$D7,$D0,$80,$DC,$C0,$05,$D9,$80,$DC,$C0,$06,$D9,$80  ; "................"
+$7610                   .BYTE $DC,$C0,$0B,$D9,$80,$DC,$C0,$13,$D9,$80,$DC,$C0,$15,$D9,$80,$DC  ; "................"
+$7620                   .BYTE $C0,$18,$D1,$D0,$83,$DD,$C0,$11,$D1,$EF,$C0,$64,$D0,$93,$DC,$C0  ; "...........d...."
+$7630                   .BYTE $01,$D1,$92,$C0,$2E,$D7,$E1,$A0,$77,$D2,$EF,$C0,$65,$D0,$93,$DC  ; "........w...e..."
+$7640                   .BYTE $C0,$01,$D1,$A7,$C0,$A3,$C0,$64,$D7,$D3,$D3,$D3,$D3,$EF,$C0,$66  ; ".......d.......f"
+$7650                   .BYTE $D0,$93,$DC,$C0,$01,$D1,$EF,$C0,$67,$D0,$93,$DC,$C0,$01,$D1,$D0  ; "........g......."
+$7660                   .BYTE $84,$DC,$C0,$01,$D1,$D2,$D0,$84,$DC,$C0,$02,$D1,$D2,$D0,$84,$DC  ; "................"
+$7670                   .BYTE $C0,$03,$D1,$D0,$83,$DE,$C0,$33,$D8,$83,$DF,$C0,$3F,$D9,$83,$DC  ; ".......3....?..."
+$7680                   .BYTE $C0,$41,$D1,$A7,$C0,$A3,$A7,$C0,$A3,$D6,$C0,$01,$D2,$A7,$C0,$A3  ; ".A.............."
+$7690                   .BYTE $C0,$64,$D7,$D3,$D2,$D0,$84,$DC,$C0,$04,$D1,$D3,$D3,$D3,$D3,$D0  ; ".d.............."
+$76A0                   .BYTE $A7,$C0,$A3,$DC,$C0,$4B,$D9,$A7,$C0,$A3,$DC,$C0,$32,$D9,$A7,$C0  ; ".....K......2..."
+$76B0                   .BYTE $A3,$DC,$C0,$19,$D1,$92,$C0,$30,$D7,$E8,$EE,$92,$C0,$00,$D7,$E1  ; ".......0........"
+$76C0                   .BYTE $E7,$76,$D2,$D0,$A7,$C0,$A3,$DF,$C0,$00,$D1,$94,$C0,$81,$D7,$A6  ; ".v.............."
+$76D0                   .BYTE $C0,$A3,$C0,$FF,$D7,$EB,$92,$C0,$31,$D7,$E8,$EE,$92,$C0,$00,$D7  ; "........1......."
+$76E0                   .BYTE $E1,$34,$78,$D3,$D3,$D3,$D3,$E2,$80,$EA,$35,$78,$EA,$3A,$78,$EA  ; ".4x.......5x.:x."
+$76F0                   .BYTE $4E,$78,$EA,$53,$78,$EA,$58,$78,$EA,$87,$78,$EA,$03,$79,$EA,$07  ; "Nx.Sx.Xx..x..y.."
+$7700                   .BYTE $79,$EA,$0B,$79,$EA,$0F,$79,$EA,$16,$79,$EA,$40,$7A,$EA,$44,$7A  ; "y..y..y..y.@z.Dz"
+$7710                   .BYTE $D0,$92,$DD,$C0,$00,$D1,$E1,$A0,$77,$D3,$93,$80,$D6,$C0,$0D,$E2  ; "........w......."
+$7720                   .BYTE $93,$EA,$48,$7A,$EA,$4C,$7A,$EA,$51,$7A,$EA,$55,$7A,$EA,$5D,$7A  ; "..Hz.Lz.Qz.Uz.]z"
+$7730                   .BYTE $EA,$65,$7A,$EA,$36,$7B,$EA,$3A,$7B,$EA,$69,$7B,$EA,$7D,$7B,$EA  ; ".ez.6{.:{.i{.}{."
+$7740                   .BYTE $82,$7B,$EA,$D9,$7B,$EA,$DA,$7B,$D0,$92,$DD,$C0,$00,$D1,$E1,$A0  ; ".{..{..{........"
+$7750                   .BYTE $77,$D3,$93,$80,$D6,$C0,$1A,$E2,$93,$EA,$DB,$7B,$EA,$68,$7C,$EA  ; "w..........{.h|."
+$7760                   .BYTE $B0,$7C,$EA,$31,$7D,$EA,$6D,$7D,$EA,$E1,$7D,$EA,$13,$7E,$EA,$49  ; ".|.1}.m}..}..~.I"
+$7770                   .BYTE $7E,$EA,$4E,$7E,$EA,$2C,$7F,$EA,$54,$7F,$D0,$92,$DD,$C0,$00,$D1  ; "~.N~.,..T......."
+$7780                   .BYTE $E1,$A0,$77,$D3,$93,$80,$D6,$C0,$25,$E2,$93,$EA,$59,$7F,$EA,$C2  ; "..w.....%...Y..."
+$7790                   .BYTE $7F,$EA,$3D,$80,$EA,$C6,$81,$EA,$CB,$81,$EA,$D0,$81,$EA,$73,$82  ; "..=...........s."
+$77A0                   .BYTE $D0,$A6,$C0,$A3,$DD,$C0,$FF,$D1,$D0,$84,$DC,$C0,$02,$D1,$D3,$D0  ; "................"
+$77B0                   .BYTE $84,$DC,$C0,$03,$D1,$D0,$83,$DC,$C0,$38,$D1,$E8,$EE,$A6,$C0,$A3  ; ".........8......"
+$77C0                   .BYTE $C0,$FF,$D7,$D3,$D0,$83,$DC,$C0,$3E,$D1,$D0,$A7,$C0,$A5,$DE,$C0  ; "........>......."
+$77D0                   .BYTE $03,$D1,$D0,$92,$DD,$C0,$00,$D1,$E8,$EE,$D3,$A6,$C0,$A3,$C0,$FF  ; "................"
+$77E0                   .BYTE $D7,$94,$C0,$84,$D7,$EB,$92,$C1,$75,$01,$D7,$E8,$EE,$E1,$34,$78  ; "........u.....4x"
+$77F0                   .BYTE $D3,$D3,$D0,$A7,$C0,$A5,$DA,$C0,$00,$D8,$A7,$C0,$A5,$DB,$C0,$05  ; "................"
+$7800                   .BYTE $D1,$A7,$C0,$A5,$A7,$C0,$A5,$D5,$C0,$01,$D3,$D3,$D0,$84,$DC,$C0  ; "................"
+$7810                   .BYTE $04,$D1,$D3,$D3,$D0,$80,$DD,$C0,$09,$D8,$80,$DD,$C0,$07,$D8,$80  ; "................"
+$7820                   .BYTE $DD,$C0,$0E,$D8,$80,$DD,$C0,$14,$D8,$80,$DD,$C0,$08,$D1,$91,$91  ; "................"
+$7830                   .BYTE $D5,$C0,$01,$D3,$E7,$92,$C0,$1B,$D7,$E7,$D0,$A8,$C0,$00,$DC,$C0  ; "................"
+$7840                   .BYTE $01,$D1,$A8,$C0,$00,$C0,$00,$D7,$D3,$92,$C0,$25,$D7,$E7,$92,$C0  ; "...........%...."
+$7850                   .BYTE $1C,$D7,$E7,$92,$C0,$33,$D7,$E7,$94,$C0,$FF,$D7,$D0,$A5,$83,$DD  ; ".....3.........."
+$7860                   .BYTE $C0,$00,$D1,$83,$A5,$83,$D7,$A6,$C0,$A3,$83,$D7,$ED,$94,$83,$D7  ; "................"
+$7870                   .BYTE $D2,$D0,$A5,$83,$DC,$C0,$00,$D1,$92,$C0,$05,$D7,$D3,$D3,$D0,$94  ; "................"
+$7880                   .BYTE $DD,$C0,$FF,$D1,$EB,$D3,$E7,$94,$C0,$FF,$D7,$D0,$83,$DC,$C0,$3D  ; "...............="
+$7890                   .BYTE $D1,$A6,$C0,$A3,$C0,$FF,$D7,$94,$C0,$84,$D7,$EB,$92,$C1,$76,$01  ; "..............v."
+$78A0                   .BYTE $D7,$E8,$EE,$94,$C0,$FF,$D7,$E1,$FA,$78,$D3,$D0,$A1,$83,$DD,$C0  ; ".........x......"
+$78B0                   .BYTE $00,$D1,$83,$A1,$83,$D7,$A6,$C0,$A3,$83,$D7,$ED,$94,$83,$D7,$D2  ; "................"
+$78C0                   .BYTE $D0,$A1,$83,$DC,$C0,$00,$D1,$92,$C0,$05,$D7,$D3,$D3,$D0,$83,$DC  ; "................"
+$78D0                   .BYTE $C0,$34,$D1,$D0,$A6,$C0,$03,$DC,$C0,$FF,$D8,$A7,$C0,$03,$DC,$C0  ; ".4.............."
+$78E0                   .BYTE $01,$D1,$EB,$E8,$EE,$94,$C0,$FF,$D7,$92,$C1,$78,$01,$D7,$E8,$A6  ; "...........x...."
+$78F0                   .BYTE $C0,$03,$C0,$34,$D7,$E1,$FA,$78,$D3,$D3,$D0,$94,$DD,$C0,$FF,$D1  ; "...4...x........"
+$7900                   .BYTE $EB,$D3,$E7,$EF,$C0,$08,$E7,$EF,$C0,$09,$E7,$EF,$C0,$0A,$E7,$A8  ; "................"
+$7910                   .BYTE $83,$C0,$00,$D7,$ED,$E7,$94,$C0,$FF,$D7,$D0,$83,$DC,$C0,$36,$D8  ; "..............6."
+$7920                   .BYTE $A7,$C0,$0F,$DC,$C0,$00,$D1,$94,$C0,$83,$D7,$A6,$C0,$A3,$C0,$FF  ; "................"
+$7930                   .BYTE $D7,$EB,$92,$C1,$73,$01,$D7,$E8,$EE,$94,$C0,$FF,$D7,$E1,$37,$7A  ; "....s.........7z"
+$7940                   .BYTE $D2,$D0,$83,$DC,$C0,$36,$D8,$A7,$C0,$0F,$DC,$C0,$01,$D1,$A6,$C0  ; ".....6.........."
+$7950                   .BYTE $0F,$C0,$37,$D7,$D3,$D3,$D0,$83,$DC,$C0,$37,$D8,$A7,$C0,$0F,$DC  ; "..7.......7....."
+$7960                   .BYTE $C0,$01,$D1,$A6,$C0,$0F,$C0,$39,$D7,$D2,$D0,$83,$DC,$C0,$39,$D8  ; ".......9......9."
+$7970                   .BYTE $A7,$C0,$0F,$DC,$C0,$01,$D1,$92,$C0,$1A,$D7,$E1,$37,$7A,$D3,$D3  ; "............7z.."
+$7980                   .BYTE $D0,$83,$DC,$C0,$3F,$D1,$D0,$A7,$C0,$16,$DD,$C0,$01,$D1,$94,$C0  ; "....?..........."
+$7990                   .BYTE $85,$D7,$A6,$C0,$A3,$C0,$FF,$D7,$EB,$92,$C1,$79,$01,$D7,$E8,$EE  ; "...........y...."
+$79A0                   .BYTE $94,$C0,$FF,$D7,$E1,$37,$7A,$D3,$D3,$D0,$83,$DC,$C0,$41,$D8,$A0  ; ".....7z......A.."
+$79B0                   .BYTE $C0,$41,$DD,$C0,$00,$D1,$92,$C1,$8B,$01,$D7,$E8,$EE,$EF,$C0,$01  ; ".A.............."
+$79C0                   .BYTE $E8,$EE,$92,$C1,$B4,$01,$D7,$94,$C0,$FF,$D7,$A6,$C0,$A3,$83,$D7  ; "................"
+$79D0                   .BYTE $E1,$37,$7A,$D3,$D0,$A0,$83,$DD,$C0,$00,$D1,$83,$A0,$83,$D7,$ED  ; ".7z............."
+$79E0                   .BYTE $A6,$C0,$A3,$83,$D7,$94,$83,$D7,$D2,$D0,$A0,$83,$DC,$C0,$00,$D1  ; "................"
+$79F0                   .BYTE $92,$C0,$05,$D7,$D3,$D3,$93,$C0,$01,$D7,$93,$93,$D5,$C0,$01,$D0  ; "................"
+$7A00                   .BYTE $93,$DF,$C0,$A5,$D1,$E1,$FA,$79,$D3,$D0,$83,$DC,$C0,$3E,$D1,$D0  ; ".......y.....>.."
+$7A10                   .BYTE $A7,$C0,$A5,$DC,$C0,$00,$D1,$EB,$E8,$94,$83,$D7,$EE,$94,$C0,$FF  ; "................"
+$7A20                   .BYTE $D7,$A6,$C0,$A5,$C0,$3E,$D7,$A7,$C0,$A5,$C0,$01,$D7,$92,$C1,$74  ; ".....>.........t"
+$7A30                   .BYTE $01,$D7,$E1,$37,$7A,$D3,$D3,$D0,$94,$DD,$C0,$FF,$D1,$EB,$D3,$E7  ; "...7z..........."
+$7A40                   .BYTE $EF,$C0,$05,$E7,$EF,$C0,$04,$E7,$EF,$C0,$02,$E7,$92,$C0,$01,$D7  ; "................"
+$7A50                   .BYTE $E7,$EF,$C0,$06,$E7,$93,$C0,$00,$D7,$EF,$C0,$07,$E7,$93,$C0,$01  ; "................"
+$7A60                   .BYTE $D7,$EF,$C0,$08,$E7,$94,$C0,$FF,$D7,$D0,$83,$DC,$C0,$33,$D1,$D0  ; ".............3.."
+$7A70                   .BYTE $A6,$C0,$03,$DC,$C0,$FF,$D8,$A7,$C0,$03,$DC,$C0,$01,$D1,$94,$C0  ; "................"
+$7A80                   .BYTE $82,$D7,$A6,$C0,$A3,$C0,$FF,$D7,$EB,$92,$C1,$77,$01,$D7,$E8,$94  ; "...........w...."
+$7A90                   .BYTE $C0,$FF,$D7,$EE,$94,$C0,$FF,$D7,$E1,$2D,$7B,$D2,$92,$C0,$2F,$D7  ; ".........-{.../."
+$7AA0                   .BYTE $E1,$2D,$7B,$D3,$D3,$D0,$83,$DC,$C0,$39,$D8,$A7,$C0,$0F,$DC,$C0  ; ".-{......9......"
+$7AB0                   .BYTE $00,$D1,$94,$C0,$83,$D7,$A6,$C0,$A3,$C0,$FF,$D7,$EB,$92,$C1,$73  ; "...............s"
+$7AC0                   .BYTE $01,$D7,$E8,$EE,$94,$C0,$FF,$D7,$E1,$2D,$7B,$D2,$D0,$83,$DC,$C0  ; ".........-{....."
+$7AD0                   .BYTE $39,$D8,$A7,$C0,$0F,$DC,$C0,$01,$D1,$A6,$C0,$0F,$C0,$37,$D7,$D3  ; "9............7.."
+$7AE0                   .BYTE $D3,$D0,$83,$DC,$C0,$37,$D8,$A7,$C0,$0F,$DC,$C0,$01,$D1,$A6,$C0  ; ".....7.........."
+$7AF0                   .BYTE $0F,$C0,$36,$D7,$D2,$D0,$83,$DC,$C0,$36,$D8,$A7,$C0,$0F,$DC,$C0  ; "..6......6......"
+$7B00                   .BYTE $01,$D1,$92,$C0,$1A,$D7,$E1,$2D,$7B,$D3,$D3,$D0,$A2,$83,$DD,$C0  ; ".......-{......."
+$7B10                   .BYTE $00,$D1,$83,$A2,$83,$D7,$ED,$A6,$C0,$A3,$83,$D7,$94,$83,$D7,$D2  ; "................"
+$7B20                   .BYTE $D0,$A2,$83,$DC,$C0,$00,$D1,$92,$C0,$05,$D7,$D3,$D3,$D0,$94,$DD  ; "................"
+$7B30                   .BYTE $C0,$FF,$D1,$EB,$D3,$E7,$EF,$C0,$03,$E7,$94,$C0,$FF,$D7,$D0,$A4  ; "................"
+$7B40                   .BYTE $83,$DD,$C0,$00,$D1,$83,$A4,$83,$D7,$ED,$A6,$C0,$A3,$83,$D7,$94  ; "................"
+$7B50                   .BYTE $83,$D7,$D2,$D0,$A4,$83,$DC,$C0,$00,$D1,$92,$C0,$05,$D7,$D3,$D3  ; "................"
+$7B60                   .BYTE $D0,$94,$DD,$C0,$FF,$D1,$EB,$D3,$E7,$D0,$A8,$C0,$00,$DC,$C0,$00  ; "................"
+$7B70                   .BYTE $D1,$A8,$C0,$00,$C0,$01,$D7,$D3,$92,$C0,$24,$D7,$E7,$92,$C0,$36  ; "..........$....6"
+$7B80                   .BYTE $D7,$E7,$94,$C0,$FF,$D7,$D0,$83,$DC,$C0,$39,$D8,$A7,$C0,$0F,$DC  ; "..........9....."
+$7B90                   .BYTE $C0,$01,$D1,$92,$C0,$1A,$D7,$E1,$D8,$7B,$D3,$D0,$A3,$83,$DD,$C0  ; ".........{......"
+$7BA0                   .BYTE $00,$D1,$83,$A3,$83,$D7,$A6,$C0,$A3,$83,$D7,$ED,$94,$83,$D7,$D2  ; "................"
+$7BB0                   .BYTE $D0,$A3,$83,$DC,$C0,$00,$D1,$92,$C0,$05,$D7,$D3,$D3,$93,$C0,$01  ; "................"
+$7BC0                   .BYTE $D7,$93,$93,$D5,$C0,$01,$D0,$93,$DF,$C0,$A5,$D1,$E1,$C1,$7B,$D3  ; "..............{."
+$7BD0                   .BYTE $D0,$94,$DD,$C0,$FF,$D1,$EB,$D3,$E7,$E7,$E7,$E6,$6D,$83,$93,$C0  ; "............m..."
+$7BE0                   .BYTE $01,$D7,$E4,$95,$E4,$97,$E4,$96,$D0,$95,$DC,$81,$D1,$E1,$00,$7C  ; "...............|"
+$7BF0                   .BYTE $D3,$93,$93,$D5,$C0,$01,$D0,$93,$DF,$C0,$1C,$D1,$E1,$E2,$7B,$D3  ; "..............{."
+$7C00                   .BYTE $D0,$93,$DA,$C0,$1C,$D1,$92,$C0,$07,$D7,$E1,$67,$7C,$D3,$D0,$A7  ; "...........g|..."
+$7C10                   .BYTE $81,$DC,$C0,$02,$D9,$A7,$81,$DC,$C0,$00,$D1,$92,$C0,$3A,$D7,$E1  ; ".............:.."
+$7C20                   .BYTE $67,$7C,$D3,$D0,$A7,$81,$DC,$C0,$01,$D1,$A7,$81,$C0,$02,$D7,$92  ; "g|.............."
+$7C30                   .BYTE $C0,$06,$D7,$D0,$97,$DC,$C0,$01,$D1,$A0,$83,$C0,$00,$D7,$D2,$D0  ; "................"
+$7C40                   .BYTE $97,$DC,$C0,$02,$D1,$A2,$83,$C0,$00,$D7,$D2,$D0,$97,$DC,$C0,$03  ; "................"
+$7C50                   .BYTE $D1,$A3,$83,$C0,$00,$D7,$D2,$D0,$97,$DC,$C0,$04,$D1,$A1,$83,$C0  ; "................"
+$7C60                   .BYTE $00,$D7,$D3,$D3,$D3,$D3,$D3,$E7,$E6,$31,$84,$93,$C0,$01,$D7,$E5  ; ".........1......"
+$7C70                   .BYTE $95,$E5,$92,$D0,$95,$DC,$81,$D1,$E1,$8B,$7C,$D3,$93,$93,$D5,$C0  ; "..........|....."
+$7C80                   .BYTE $01,$D0,$93,$DF,$C0,$07,$D1,$E1,$6F,$7C,$D3,$D0,$93,$DF,$C0,$07  ; "........o|......"
+$7C90                   .BYTE $D1,$E1,$AF,$7C,$D3,$D0,$81,$DC,$C0,$A3,$D1,$92,$C0,$3C,$D7,$E8  ; "...|.........<.."
+$7CA0                   .BYTE $EE,$A6,$C0,$A3,$C0,$FF,$D7,$E1,$AF,$7C,$D3,$92,$C0,$3D,$D7,$E7  ; ".........|...=.."
+$7CB0                   .BYTE $D0,$A6,$81,$DD,$C0,$FF,$D1,$92,$C0,$41,$D7,$E1,$30,$7D,$D3,$D0  ; ".........A..0}.."
+$7CC0                   .BYTE $81,$DC,$C0,$03,$D9,$81,$DC,$C0,$14,$D9,$81,$DC,$C0,$4D,$D9,$81  ; ".............M.."
+$7CD0                   .BYTE $DC,$C0,$7D,$D9,$81,$DC,$C0,$7E,$D9,$81,$DC,$C0,$8F,$D9,$81,$DC  ; "..}....~........"
+$7CE0                   .BYTE $C0,$93,$D9,$81,$DC,$C0,$94,$D9,$81,$DC,$C0,$97,$D1,$D0,$A7,$81  ; "................"
+$7CF0                   .BYTE $DC,$C0,$01,$D1,$A7,$81,$C0,$00,$D7,$D3,$D3,$D0,$81,$DC,$C0,$0D  ; "................"
+$7D00                   .BYTE $D1,$92,$C1,$6E,$02,$D7,$E1,$30,$7D,$D3,$D0,$81,$DC,$C0,$72,$D1  ; "...n...0}.....r."
+$7D10                   .BYTE $92,$C1,$6F,$02,$D7,$E1,$30,$7D,$D3,$D0,$81,$DC,$C0,$88,$D1,$92  ; "..o...0}........"
+$7D20                   .BYTE $C1,$70,$02,$D7,$E1,$30,$7D,$D3,$92,$C0,$08,$D7,$A6,$81,$83,$D7  ; ".p...0}........."
+$7D30                   .BYTE $E7,$D0,$81,$DC,$C0,$0F,$D1,$D0,$A7,$C0,$0F,$DC,$C0,$00,$D1,$92  ; "................"
+$7D40                   .BYTE $C0,$09,$D7,$90,$90,$D5,$B0,$C0,$0F,$B0,$C0,$0F,$C0,$00,$D7,$A7  ; "................"
+$7D50                   .BYTE $C0,$0F,$C0,$01,$D7,$D2,$D0,$A7,$C0,$0F,$DC,$C0,$01,$D1,$92,$C0  ; "................"
+$7D60                   .BYTE $18,$D7,$D3,$D3,$E1,$6C,$7D,$D3,$92,$C0,$0A,$D7,$E7,$92,$B1,$81  ; ".....l}........."
+$7D70                   .BYTE $D7,$D0,$81,$DC,$C0,$8E,$D1,$D0,$A7,$C0,$8E,$DC,$C0,$01,$D1,$92  ; "................"
+$7D80                   .BYTE $C1,$1F,$01,$D7,$D2,$D0,$A7,$C0,$8E,$DC,$C0,$02,$D1,$92,$C1,$1E  ; "................"
+$7D90                   .BYTE $01,$D7,$D2,$D0,$A7,$C0,$8E,$DC,$C0,$03,$D1,$92,$C0,$4D,$D7,$D3  ; ".............M.."
+$7DA0                   .BYTE $D3,$D3,$E1,$E0,$7D,$D3,$D0,$81,$DC,$C0,$55,$D8,$A6,$C0,$6D,$DC  ; "....}.....U...m."
+$7DB0                   .BYTE $C0,$00,$D1,$B1,$C0,$55,$C0,$0B,$D7,$92,$C1,$7F,$01,$D7,$D0,$A6  ; ".....U.........."
+$7DC0                   .BYTE $C0,$6D,$DC,$C0,$00,$D1,$A6,$C0,$6D,$C0,$3F,$D7,$D3,$E1,$E0,$7D  ; ".m......m.?....}"
+$7DD0                   .BYTE $D3,$D0,$81,$DC,$C0,$A5,$D1,$92,$C1,$81,$01,$D7,$E1,$E0,$7D,$D3  ; "..............}."
+$7DE0                   .BYTE $E7,$E6,$DD,$83,$93,$C0,$01,$D7,$E5,$95,$E5,$92,$D0,$95,$DC,$81  ; "................"
+$7DF0                   .BYTE $D1,$E1,$04,$7E,$D3,$93,$93,$D5,$C0,$01,$D0,$93,$DF,$C0,$15,$D1  ; "...~............"
+$7E00                   .BYTE $E1,$E8,$7D,$D3,$D0,$93,$DF,$C0,$15,$D1,$E1,$12,$7E,$D3,$92,$C0  ; "..}.........~..."
+$7E10                   .BYTE $53,$D7,$E7,$D0,$81,$DC,$C0,$0F,$D1,$D0,$83,$DC,$C0,$37,$D1,$92  ; "S............7.."
+$7E20                   .BYTE $C1,$73,$01,$D7,$A6,$C0,$A3,$C0,$FF,$D7,$94,$C0,$83,$D7,$EB,$E8  ; ".s.............."
+$7E30                   .BYTE $EE,$E1,$30,$7D,$D2,$A7,$C0,$0F,$C0,$00,$D7,$92,$C0,$0F,$D7,$E1  ; "..0}............"
+$7E40                   .BYTE $30,$7D,$D3,$D3,$92,$C0,$55,$D7,$E7,$92,$C0,$10,$D7,$E7,$D0,$81  ; "0}....U........."
+$7E50                   .BYTE $DC,$C0,$4D,$D9,$81,$DC,$C0,$94,$D1,$92,$C1,$68,$02,$D7,$E1,$23  ; "..M........h...#"
+$7E60                   .BYTE $7F,$D3,$E6,$6D,$83,$93,$C0,$01,$D7,$E4,$95,$E4,$97,$E4,$96,$D0  ; "...m............"
+$7E70                   .BYTE $95,$DC,$81,$D1,$E1,$87,$7E,$D3,$93,$93,$D5,$C0,$01,$D0,$93,$DF  ; "......~........."
+$7E80                   .BYTE $C0,$1C,$D1,$E1,$69,$7E,$D3,$D0,$93,$DA,$C0,$1C,$D1,$92,$C0,$58  ; "....i~.........X"
+$7E90                   .BYTE $D7,$D0,$81,$DC,$C0,$55,$D8,$A7,$C0,$55,$DC,$C0,$02,$D1,$92,$C1  ; ".....U...U......"
+$7EA0                   .BYTE $85,$01,$D7,$A7,$C0,$55,$C0,$00,$D7,$A0,$C0,$3F,$C0,$41,$D7,$E1  ; ".....U.....?.A.."
+$7EB0                   .BYTE $23,$7F,$D2,$D0,$81,$DC,$C0,$55,$D1,$92,$C0,$57,$D7,$D3,$D3,$E1  ; "#......U...W...."
+$7EC0                   .BYTE $23,$7F,$D3,$D0,$A7,$81,$DC,$C0,$00,$D1,$92,$C0,$11,$D7,$E1,$23  ; "#..............#"
+$7ED0                   .BYTE $7F,$D2,$D0,$A7,$81,$DC,$C0,$01,$D1,$92,$C0,$57,$D7,$E1,$23,$7F  ; "...........W..#."
+$7EE0                   .BYTE $D2,$D0,$A7,$81,$DC,$C0,$02,$D1,$A7,$81,$C0,$01,$D7,$D0,$97,$DC  ; "................"
+$7EF0                   .BYTE $C0,$01,$D1,$A0,$83,$96,$D7,$D2,$D0,$97,$DC,$C0,$02,$D1,$A2,$83  ; "................"
+$7F00                   .BYTE $96,$D7,$D2,$D0,$97,$DC,$C0,$03,$D1,$A3,$83,$96,$D7,$D2,$D0,$97  ; "................"
+$7F10                   .BYTE $DC,$C0,$04,$D1,$A1,$83,$96,$D7,$D3,$D3,$D3,$D3,$92,$C0,$56,$D7  ; "..............V."
+$7F20                   .BYTE $D3,$D3,$D3,$96,$C0,$00,$D7,$97,$C0,$00,$D7,$E7,$D0,$81,$DC,$C0  ; "................"
+$7F30                   .BYTE $55,$D8,$A7,$C0,$55,$DC,$C0,$02,$D1,$92,$C1,$85,$01,$D7,$A7,$C0  ; "U...U..........."
+$7F40                   .BYTE $55,$C0,$00,$D7,$A0,$C0,$3F,$C0,$41,$D7,$E1,$53,$7F,$D3,$92,$C1  ; "U.....?.A..S...."
+$7F50                   .BYTE $58,$02,$D7,$E7,$92,$C0,$59,$D7,$E7,$E6,$45,$83,$93,$C0,$01,$D7  ; "X.....Y...E....."
+$7F60                   .BYTE $E4,$95,$D0,$95,$DC,$81,$D1,$E1,$7A,$7F,$D3,$93,$93,$D5,$C0,$01  ; "........z......."
+$7F70                   .BYTE $D0,$93,$DF,$C0,$28,$D1,$E1,$60,$7F,$D3,$D0,$93,$DA,$C0,$28,$D1  ; "....(..`......(."
+$7F80                   .BYTE $92,$C0,$0E,$D7,$E1,$A0,$7F,$D3,$D0,$A6,$81,$DC,$C0,$FF,$D1,$92  ; "................"
+$7F90                   .BYTE $C0,$0D,$D7,$E1,$A0,$7F,$D3,$A6,$81,$C0,$FF,$D7,$92,$C0,$0C,$D7  ; "................"
+$7FA0                   .BYTE $D0,$81,$DC,$C0,$03,$D8,$83,$DC,$C0,$34,$D1,$92,$C1,$82,$01,$D7  ; ".........4......"
+$7FB0                   .BYTE $E8,$A6,$C0,$03,$C0,$69,$D7,$A7,$C0,$03,$C0,$00,$D7,$E1,$C1,$7F  ; ".....i.........."
+$7FC0                   .BYTE $D3,$E7,$92,$C0,$5B,$D7,$E6,$4D,$84,$93,$C0,$01,$D7,$E5,$95,$E5  ; "....[..M........"
+$7FD0                   .BYTE $92,$D0,$95,$DC,$81,$D1,$E1,$E9,$7F,$D3,$93,$93,$D5,$C0,$01,$D0  ; "................"
+$7FE0                   .BYTE $93,$DF,$C0,$0F,$D1,$E1,$CD,$7F,$D3,$D0,$93,$DA,$C0,$0F,$D1,$92  ; "................"
+$7FF0                   .BYTE $C0,$5B,$D7,$D3,$D0,$81,$DC,$C0,$36,$D1,$D0,$A7,$C0,$36,$DC,$C0  ; ".[......6....6.."
+; xref: write from $9864
+; xref: write from $99C4 (L_99C4)
+; xref: write from $9A16 (L_9A16)
+$8000                   .BYTE $00,$D1,$A7,$C0,$36,$C0,$01,$D7,$92,$C1,$86,$01,$D7,$E1,$3C,$80  ; "....6.........<."
+$8010                   .BYTE $D2,$D0,$A7,$C0,$36,$DC,$C0,$01,$D1,$A7,$C0,$36,$C0,$02,$D7,$92  ; "....6......6...."
+$8020                   .BYTE $C1,$87,$01,$D7,$E1,$3C,$80,$D2,$D0,$A7,$C0,$36,$DC,$C0,$02,$D1  ; ".....<.....6...."
+$8030                   .BYTE $92,$C1,$88,$01,$D7,$E1,$3C,$80,$D3,$D3,$D3,$D3,$E7,$D0,$82,$DC  ; "......<........."
+$8040                   .BYTE $C0,$A3,$D1,$D0,$81,$DC,$C0,$14,$D8,$A7,$C0,$14,$DC,$C0,$00,$D1  ; "................"
+$8050                   .BYTE $A7,$C0,$14,$C0,$01,$D7,$A6,$C0,$14,$C0,$FF,$D7,$92,$C0,$5D,$D7  ; "..............]."
+$8060                   .BYTE $E1,$C5,$81,$D2,$D0,$81,$DC,$C0,$7D,$D8,$A7,$C0,$7D,$DC,$C0,$00  ; "........}...}..."
+$8070                   .BYTE $D1,$A7,$C0,$7D,$C0,$01,$D7,$A6,$C0,$7D,$C0,$FF,$D7,$92,$C0,$5F  ; "...}.....}....._"
+$8080                   .BYTE $D7,$E1,$C5,$81,$D2,$D0,$81,$DC,$C0,$94,$D8,$A7,$C0,$94,$DC,$C0  ; "................"
+$8090                   .BYTE $00,$D1,$A7,$C0,$94,$C0,$01,$D7,$A6,$C0,$94,$C0,$FF,$D7,$92,$C0  ; "................"
+$80A0                   .BYTE $61,$D7,$E1,$C5,$81,$D3,$D3,$D3,$D0,$81,$DC,$C0,$03,$D1,$D0,$83  ; "a..............."
+$80B0                   .BYTE $DD,$C0,$34,$D1,$A6,$C0,$03,$C0,$FF,$D7,$A7,$C0,$03,$C0,$01,$D7  ; "..4............."
+$80C0                   .BYTE $90,$90,$D5,$B0,$C0,$03,$B0,$C0,$03,$C0,$00,$D7,$92,$C0,$5C,$D7  ; "..............\."
+$80D0                   .BYTE $E1,$C5,$81,$D2,$D0,$83,$DC,$C0,$34,$D1,$92,$C1,$82,$01,$D7,$E8  ; "........4......."
+$80E0                   .BYTE $A6,$C0,$03,$C0,$69,$D7,$A7,$C0,$03,$C0,$00,$D7,$E1,$C5,$81,$D3  ; "....i..........."
+$80F0                   .BYTE $D3,$D3,$D3,$D0,$81,$DC,$C0,$A3,$D1,$D0,$82,$DC,$C0,$01,$D9,$82  ; "................"
+$8100                   .BYTE $DC,$C0,$1A,$D9,$82,$DC,$C0,$21,$D9,$82,$DC,$C0,$25,$D9,$82,$DC  ; ".......!....%..."
+$8110                   .BYTE $C0,$36,$D9,$82,$DC,$C0,$38,$D9,$82,$DC,$C0,$3A,$D9,$82,$DC,$C0  ; ".6....8....:...."
+$8120                   .BYTE $4A,$D9,$82,$DC,$C0,$4F,$D9,$82,$DC,$C0,$61,$D9,$82,$DC,$C0,$62  ; "J....O....a....b"
+$8130                   .BYTE $D9,$82,$DC,$C0,$7A,$D9,$82,$DC,$C0,$A2,$D9,$82,$DC,$C0,$A4,$D1  ; "....z..........."
+$8140                   .BYTE $92,$C0,$65,$D7,$E1,$C5,$81,$D3,$D3,$D0,$81,$DC,$C0,$6C,$D1,$D2  ; "..e..........l.."
+$8150                   .BYTE $D0,$82,$DC,$C0,$0B,$D8,$A7,$C0,$0B,$DC,$C0,$01,$D9,$82,$DC,$C0  ; "................"
+$8160                   .BYTE $A3,$D1,$92,$C0,$5E,$D7,$E1,$C5,$81,$D3,$D3,$D3,$D0,$81,$DC,$C0  ; "....^..........."
+$8170                   .BYTE $8E,$D1,$D0,$82,$DC,$C0,$A3,$D1,$92,$C0,$60,$D7,$E8,$EE,$E1,$C5  ; "..........`....."
+$8180                   .BYTE $81,$D3,$D3,$D0,$81,$DC,$C0,$16,$D8,$82,$DC,$C0,$6D,$D1,$90,$90  ; "............m..."
+$8190                   .BYTE $D5,$B0,$C0,$16,$B0,$C0,$16,$C0,$00,$D7,$A6,$C0,$16,$C0,$69,$D7  ; "..............i."
+$81A0                   .BYTE $A7,$C0,$16,$C0,$01,$D7,$A0,$C0,$3F,$C0,$00,$D7,$A7,$C0,$55,$C0  ; "........?.....U."
+$81B0                   .BYTE $02,$D7,$A0,$C0,$3F,$C0,$00,$D7,$92,$C1,$89,$01,$D7,$E1,$C5,$81  ; "....?..........."
+$81C0                   .BYTE $D3,$92,$C0,$67,$D7,$E7,$92,$C0,$18,$D7,$E7,$92,$C0,$12,$D7,$E7  ; "...g............"
+$81D0                   .BYTE $E6,$BE,$83,$93,$C0,$01,$D7,$E4,$95,$E4,$97,$D0,$95,$DC,$81,$D1  ; "................"
+$81E0                   .BYTE $E1,$F3,$81,$D3,$93,$93,$D5,$C0,$01,$D0,$93,$DF,$C0,$0C,$D1,$E1  ; "................"
+$81F0                   .BYTE $D7,$81,$D3,$D0,$93,$DA,$C0,$0C,$D1,$92,$C0,$15,$D7,$E1,$72,$82  ; "..............r."
+$8200                   .BYTE $D3,$D0,$97,$DD,$82,$D1,$E6,$D6,$83,$93,$C0,$01,$D7,$E4,$95,$D0  ; "................"
+$8210                   .BYTE $95,$DC,$81,$D1,$E1,$27,$82,$D3,$93,$93,$D5,$C0,$01,$D0,$93,$DF  ; ".....'.........."
+$8220                   .BYTE $C0,$07,$D1,$E1,$0D,$82,$D3,$D0,$93,$DA,$C0,$07,$D1,$92,$C0,$14  ; "................"
+$8230                   .BYTE $D7,$E1,$72,$82,$D3,$92,$C0,$6A,$D7,$E1,$72,$82,$D2,$D0,$97,$DC  ; "..r....j..r....."
+$8240                   .BYTE $82,$D1,$D0,$A7,$81,$DC,$C0,$00,$D1,$92,$C0,$68,$D7,$E1,$72,$82  ; "...........h..r."
+$8250                   .BYTE $D2,$D0,$A7,$81,$DC,$C0,$02,$D9,$A7,$81,$DC,$C0,$01,$D1          ; ".............."
+; --------------------------------------------------------
+; Parser support table for command NIMM (take).
+; Reconstruction sources identify this as an object-property/action list used by the adventure parser.
+; --------------------------------------------------------
+$825E                   .BYTE $D0,$A7                                                          ; ".."
+$8260                   .BYTE $81,$DC,$C0,$01,$D1,$E0,$DB,$7B,$D3,$A7,$81,$C0,$00,$D7,$D3,$D3  ; ".......{........"
+$8270                   .BYTE $D3,$D3,$E7,$E6,$BE,$83,$93,$C0,$01,$D7,$E4,$95,$E4,$97,$D0,$95  ; "................"
+$8280                   .BYTE $DC,$81,$D1,$E1,$96,$82                                          ; "......"
+; --------------------------------------------------------
+; Parser support table for commands SCHLIESSE / OEFFNE (close/open).
+; Likely triples of object ID plus property/action metadata.
+; --------------------------------------------------------
+$8286                   .BYTE $D3,$93,$93,$D5,$C0,$01,$D0,$93,$DF,$C0                          ; ".........."
+$8290                   .BYTE $0C,$D1,$E1,$7A,$82,$D3,$D0,$93,$DA,$C0,$0C,$D1,$92,$C0,$18,$D7  ; "...z............"
+$82A0                   .BYTE $E1,$44,$83,$D3,$D0,$97,$DD,$82,$D1,$E6,$D6,$83,$93,$C0,$01,$D7  ; ".D.............."
+$82B0                   .BYTE $E4,$95,$D0,$95,$DC,$82,$D1,$E1,$CA,$82,$D3,$93,$93,$D5,$C0,$01  ; "................"
+$82C0                   .BYTE $D0,$93,$DF,$C0,$07,$D1,$E1,$B0,$82,$D3,$D0,$93,$DA,$C0,$07,$D1  ; "................"
+$82D0                   .BYTE $92,$C0,$17,$D7,$E1,$44,$83                                      ; ".....D."
+; --------------------------------------------------------
+; Parser support table for commands VERRIEGELE / ENTRIEGELE (lock/unlock).
+; --------------------------------------------------------
+$82D7                   .BYTE $D3,$92,$C0,$6A,$D7,$E1,$44,$83,$D2                              ; "...j..D.."
+$82E0                   .BYTE $D0,$97,$DC,$82,$D1,$D0,$A7,$81,$DA,$C0,$00,$D1,$92,$C0,$69      ; "..............i"
+; --------------------------------------------------------
+; Parser support table for command VERRIEGELE (lock).
+; --------------------------------------------------------
+$82EF                   .BYTE $D7                                                              ; "."
+$82F0                   .BYTE $E1,$44,$83,$D2,$D0,$A7                                          ; ".D...."
+; --------------------------------------------------------
+; Parser help/lookup table for command HILF (help).
+; Entries appear to map object or topic IDs to text/resource IDs.
+; --------------------------------------------------------
+$82F6                   .BYTE $81,$DC,$C0,$00,$D1,$A7,$81,$C0,$02,$D7                          ; ".........."
+$8300                   .BYTE $92,$C0,$16,$D7,$D0,$81,$DC,$C0,$6F,$D1,$90,$90,$D5,$B0,$C0,$6F  ; "........o......o"
+$8310                   .BYTE $B0,$C0,$6F,$C0,$00,$D7,$92,$C1,$8A,$01,$D7,$A6,$C0,$54,$C0,$00  ; "..o..........T.."
+$8320                   .BYTE $D7,$A7,$C0,$6F,$C0,$02,$D7,$D3,$D0,$81,$DC,$C0,$10,$D1,$90,$90  ; "...o............"
+$8330                   .BYTE $D5,$B0,$C0,$10,$B0,$C0,$10,$C0,$00,$D7,$92,$C1,$40,$02,$D7,$D3  ; "............@..."
+$8340                   .BYTE $D3,$D3,$D3,$D3,$E7,$03,$05,$11,$14,$15                          ; ".........."
+; --------------------------------------------------------
+; Parser support table for command ZERSTOERE (destroy).
+; --------------------------------------------------------
+$834A                   .BYTE $16,$17,$1F,$20,$22,$24                                          ; "... "$"
+$8350                   .BYTE $2D,$3B,$3E,$47,$4B,$4D,$50,$52,$54,$5C,$64,$65,$68,$6B,$6C,$6E  ; "-;>GKMPRT\dehkln"
+$8360                   .BYTE $71,$75,$78,$7D,$7E,$7F                                          ; "qux}~."
+; --------------------------------------------------------
+; Parser support table for command SPRICH (talk/speak).
+; --------------------------------------------------------
+$8366                   .BYTE $85,$8E,$8F,$93,$94,$97,$99,$05,$07,$00                          ; ".........."
+$8370                   .BYTE $06,$03,$54,$17,$07,$00,$1E,$00,$00,$2D,$07,$00,$30,$01,$05,$31  ; "..T......-..0..1"
+$8380                   .BYTE $02,$01,$32,$02,$13,$33,$07,$00,$35,$07,$00,$40,$01,$16,$41,$01  ; "..2..3..5..@..A."
+$8390                   .BYTE $2B,$42,$02,$26,$51,$01,$31,$57,$01,$51,$58,$02,$4F,$5A,$04,$11  ; "+B.&Q.1W.QX.OZ.."
+$83A0                   .BYTE $63,$01,$13,$6F,$01,$43,$70,$00,$00,$76,$00,$00,$77,$07,$00,$8B  ; "c..o.Cp..v..w..."
+$83B0                   .BYTE $02,$21,$8C,$04,$50,$8D,$03,$4F,$9A,$07,$00,$A0,$03,$10,$10,$11  ; ".!..P..O........"
+$83C0                   .BYTE $30,$75,$31,$75,$41,$3B,$42,$3B,$51,$52,$57,$99,$58,$99,$6F,$54  ; "0u1uA;B;QRW.X.oT"
+$83D0                   .BYTE $8B,$52,$8C,$4B,$8D,$4B,$11,$3B,$4B,$52,$54,$75,$99,$A3,$00,$52  ; ".R.K.K.;KRTu...R"
+$83E0                   .BYTE $00,$4A,$00,$97,$00,$62,$00,$98,$00,$37,$00,$2A,$01,$5B,$00,$2D  ; ".J...b...7.*.[.-"
+$83F0                   .BYTE $01,$1A,$00,$29,$01,$61,$00,$2E,$01,$7A,$00,$2F,$01,$3A,$00,$2B  ; "...).a...z./.:.+"
+$8400                   .BYTE $01,$4F,$00,$2C,$01,$4C,$00,$2C,$01,$83,$00,$2C,$01,$36,$00,$83  ; ".O.,.L.,...,.6.."
+$8410                   .BYTE $01,$A2,$00,$31,$01,$A5,$00,$84,$01,$01,$00,$19,$02,$25,$00,$1A  ; "...1.........%.."
+$8420                   .BYTE $02,$38,$00,$1B,$02,$60,$00,$1C,$02,$84,$00,$1D,$02,$A4,$00,$1E  ; ".8...`.........."
+$8430                   .BYTE $02,$4A,$00,$7C,$00,$02,$00,$E8,$00,$4F,$00,$EB,$00,$4C,$00,$EB  ; ".J.|.....O...L.."
+$8440                   .BYTE $00,$A5,$00,$7A,$01,$01,$00,$C7,$01,$60,$00,$CE,$01,$36,$00,$5B  ; "...z.....`...6.["
+$8450                   .BYTE $00,$37,$00,$38,$01,$5B,$00,$41,$01,$02,$00,$34,$01,$4C,$00,$5A  ; ".7.8.[.A...4.L.Z"
+$8460                   .BYTE $00,$4F,$00,$5A,$00,$60,$00,$5A,$00,$83,$00,$5A,$00,$84,$00,$5A  ; ".O.Z.`.Z...Z...Z"
+$8470                   .BYTE $00,$85,$00,$5A,$00,$9F,$00,$5A,$00,$A5,$00,$5A,$00,$01,$00,$2A  ; "...Z...Z...Z...*"
+$8480                   .BYTE $02,$25,$00,$2B,$02,$A4,$00,$2D,$02,$FF,$00,$00,$00,$00,$00,$00  ; ".%.+...-........"
+$8490                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$84A0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$84B0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$84C0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$84D0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$84E0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$84F0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8500                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8510                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8520                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8530                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8540                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8550                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8560                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8570                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8580                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8590                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$85A0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$85B0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$85C0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$85D0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$85E0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$85F0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8600                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8610                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8620                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8630                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8640                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8650                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8660                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8670                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8680                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8690                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$86A0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$86B0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$86C0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$86D0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$86E0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$86F0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8700                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8710                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8720                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8730                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8740                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8750                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8760                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8770                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8780                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8790                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$87A0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$87B0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$87C0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$87D0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$87E0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$87F0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8800                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8810                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8820                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8830                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8840                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8850                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8860                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8870                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8880                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8890                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$88A0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$88B0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$88C0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$88D0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$88E0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$88F0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8900                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8910                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8920                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8930                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8940                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8950                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8960                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8970                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8980                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8990                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$89A0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$89B0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$89C0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$89D0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$89E0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$89F0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8A00                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8A10                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8A20                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8A30                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8A40                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8A50                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8A60                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8A70                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8A80                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8A90                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8AA0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8AB0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8AC0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8AD0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8AE0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8AF0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8B00                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8B10                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8B20                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8B30                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8B40                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8B50                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8B60                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8B70                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8B80                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8B90                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8BA0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8BB0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8BC0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8BD0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8BE0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8BF0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8C00                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8C10                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8C20                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8C30                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8C40                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8C50                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8C60                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8C70                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8C80                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8C90                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8CA0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8CB0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8CC0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8CD0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8CE0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8CF0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8D00                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8D10                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8D20                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8D30                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8D40                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8D50                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8D60                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8D70                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8D80                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8D90                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8DA0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8DB0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8DC0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8DD0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8DE0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8DF0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8E00                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8E10                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8E20                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8E30                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8E40                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8E50                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8E60                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8E70                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8E80                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8E90                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8EA0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8EB0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8EC0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8ED0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8EE0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8EF0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8F00                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8F10                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8F20                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8F30                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8F40                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8F50                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8F60                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8F70                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8F80                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8F90                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8FA0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8FB0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8FC0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8FD0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8FE0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$8FF0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9000                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9010                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9020                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9030                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9040                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9050                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9060                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9070                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9080                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9090                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$90A0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$90B0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$90C0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$90D0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$90E0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$90F0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9100                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9110                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9120                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9130                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9140                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9150                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9160                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9170                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9180                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9190                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$91A0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$91B0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$91C0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$91D0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$91E0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$91F0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9200                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9210                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9220                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9230                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9240                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9250                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9260                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9270                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9280                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9290                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$92A0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$92B0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$92C0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$92D0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$92E0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$92F0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9300                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9310                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9320                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9330                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9340                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9350                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9360                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9370                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9380                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9390                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$93A0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$93B0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$93C0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$93D0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$93E0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$93F0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9400                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9410                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9420                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9430                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9440                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9450                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9460                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9470                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9480                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9490                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$94A0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$94B0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$94C0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$94D0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$94E0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$94F0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$9500                   .BYTE $00,$0C,$02,$00,$00,$63,$00,$0D,$02,$32,$00,$53,$00,$0F,$01,$00  ; ".....c...2.S...."
+$9510                   .BYTE $00,$31,$00,$0E,$02,$0F,$00,$4F,$00,$0E,$02,$00,$00,$50,$00,$1D  ; ".1.....O.....P.."
+$9520                   .BYTE $01,$05,$00,$2C,$00,$8F,$00,$00,$00,$FF,$01,$20,$01,$00,$00,$12  ; "...,....... ...."
+$9530                   .BYTE $00,$0F,$02,$00,$00,$4A,$00,$8E,$00,$00,$00,$09,$00,$10,$02,$0F  ; ".....J.........."
+$9540                   .BYTE $00,$64,$00,$4E,$00,$00,$00,$00,$00,$21,$01,$00,$00,$1D,$00,$21  ; ".d.N.....!.....!"
+$9550                   .BYTE $01,$00,$00,$20,$00,$4F,$00,$05,$00,$00,$00,$91,$00,$0F,$00,$0F  ; "... .O.........."
+$9560                   .BYTE $00,$11,$02,$00,$00,$51,$00,$92,$00,$00,$00,$01,$02,$12,$02,$2D  ; ".....Q.........-"
+$9570                   .BYTE $00,$00,$00,$93,$00,$05,$00,$0C,$00,$94,$00,$00,$00,$0D,$00,$13  ; "................"
+$9580                   .BYTE $02,$00,$00,$53,$00,$EE,$00,$64,$00,$00,$00,$01,$01,$00,$00,$11  ; "...S...d........"
+$9590                   .BYTE $00,$95,$00,$00,$00,$0F,$00,$24,$01,$19,$00,$22,$00,$51,$00,$00  ; ".......$...".Q.."
+$95A0                   .BYTE $00,$03,$64,$14,$02,$00,$00,$5D,$00,$75,$01,$00,$00,$3E,$00,$00  ; "..d....].u...>.."
+$95B0                   .BYTE $03,$00,$00,$00,$00,$00,$01,$1A,$1A,$1A,$1A,$1A,$1A,$1A,$1A,$1A  ; "................"
+$95C0                   .BYTE $1A,$1A,$1A,$1A,$1A,$1A,$1A,$1A,$1A,$1A,$1A,$1A,$1A,$1A,$1A,$1A  ; "................"
+$95D0                   .BYTE $1A,$1A,$1A,$1A,$1A,$1A,$1A,$1A,$1A,$1A,$1A,$1A,$1A,$1A,$1A,$1A  ; "................"
+$95E0                   .BYTE $1A,$1A,$1A,$1A,$1A,$1A,$1A,$1A,$1A,$1A,$1A,$1A,$1A,$1A,$1A,$1A  ; "................"
+$95F0                   .BYTE $1A,$1A,$1A,$1A,$1A,$1A,$1A,$1A,$1A,$1A,$1A,$1A,$1A,$1A,$C9,$07  ; "................"
+; xref: read from $9AD5
+; xref: read from $9B05
+; xref: read from $9B31
+; xref: write from $9BC8 (L_9BC8)
+; xref: read from $9CC5 (SUB_9CC5)
+; xref: read from $9CDB
+; xref: read from $9DA7 (SUB_9DA7)
+$9600                   .BYTE $28                                                              ; "("
+; xref: read from $9666
+; xref: write from $9670
+; xref: write from $9AC6
+; xref: write from $9AFF (L_9AFF)
+$9601                   .BYTE $00                                                              ; "."
+; xref: read from $9673
+; xref: write from $967D
+; xref: write from $9AC9
+; xref: write from $9B2B (L_9B2B)
+$9602                   .BYTE $00,$4C,$35,$96,$4C,$42,$96                                      ; ".L5.LB."
+
+; === SUBROUTINE: SUB_9609 ===
+
+$9609 SUB_9609:                       ; xref: call from $CB39
+                                      ; xref: call from $CF43
+    JMP $9684                         ; Jump to L_9684
+
+; === SUBROUTINE: SUB_960C ===
+
+$960C SUB_960C:                       ; xref: call from $CB45
+    JMP $96D8                         ; Jump to L_96D8
+
+; === DATA SECTION ===
+
+$960F                   .BYTE $4C                                                              ; "L"
+$9610                   .BYTE $17,$97,$00,$00                                                  ; "...."
+; xref: read from $9F54
+; xref: read from $9F79
+$9614                   .BYTE $34,$4C,$59,$97,$4C,$6B,$97,$4C,$7D,$97,$4C,$A9                  ; "4LY.Lk.L}.L."
+$9620                   .BYTE $97,$4C,$AF,$97                                                  ; ".L.."
+; xref: write from $405C
+; xref: read from $98CD
+; xref: write from $98D4
+; xref: read from $98D9
+; xref: read from $9A5C (SUB_9A5C)
+; xref: write from $9A62
+; xref: write from $9A8A
+$9624                   .BYTE $00                                                              ; "."
+
+; === SUBROUTINE: SUB_9625 ===
+
+$9625 SUB_9625:                       ; xref: call from $CF46 (L_CF46)
+    JMP $97B5                         ; Jump to L_97B5
+
+; === DATA SECTION ===
+
+$9628                   .BYTE $4C,$C5,$97,$4C,$D1,$97,$4C,$DD                                  ; "L..L..L."
+$9630                   .BYTE $97                                                              ; "."
+; xref: write from $97F3
+; xref: write from $9819
+; xref: read from $9837 (L_9837)
+; xref: write from $983C (L_983C)
+$9631                   .BYTE $00                                                              ; "."
+
+; === SUBROUTINE: ENTRY_9632 ===
+
+$9632 ENTRY_9632:       
+    JMP $9803                         ; Jump to L_9803
+
+; === SUBROUTINE: ENTRY_9635 ===
+
+$9635 ENTRY_9635:       
+    SEI
+    LDA #$35
+    JSR $99B1                         ; Call runtime_push_mem_config
+    JSR $AED2                         ; Call SUB_AED2
+    JSR $99D0                         ; Call runtime_pop_mem_config
+    RTS
+
+; === SUBROUTINE: ENTRY_9642 ===
+
+$9642 ENTRY_9642:       
+    LDA #$35
+    JSR $99B1                         ; Call runtime_push_mem_config
+    JSR $9C5C                         ; Call SUB_9C5C
+    LDA $96D7
+    CMP #$06
+    BNE $9657                         ; Branch to L_9657
+    JSR $977D                         ; Call SUB_977D
+    JSR $9C5C                         ; Call SUB_9C5C
+$9657 L_9657:                         ; xref: branch from $964F
+    JSR $9AB8                         ; Call SUB_9AB8
+    LDA $AAB2
+    STA $AAB3
+    JSR $9BCC                         ; Call SUB_9BCC
+    JSR $9C67                         ; Call SUB_9C67
+    LDX $9601
+    BEQ $9680                         ; Branch to L_9680
+    LDA $C1EF,X
+    TAX
+    INX
+    STX $9601
+    LDX $9602
+    BEQ $9680                         ; Branch to L_9680
+    LDA $C1EF,X
+    TAX
+    INX
+    STX $9602
+$9680 L_9680:                         ; xref: branch from $9669
+                                      ; xref: branch from $9676
+    JSR $99D0                         ; Call runtime_pop_mem_config
+    RTS
+$9684 L_9684:                         ; xref: jump from $9609 (SUB_9609)
+    LDA $96C9
+    STY $96CA
+    LDA $96D7
+    CMP #$06
+    BNE $9699                         ; Branch to L_9699
+    JSR $977D                         ; Call SUB_977D
+    LDA #$00
+    STA $96D7
+$9699 L_9699:                         ; xref: branch from $968F
+    INC $96D7
+    ASL A
+    TAY
+    LDA $96CB,Y
+    STA $96B3
+    LDA $96CC,Y
+    STA $96B4
+    LDY #$27
+$96AC L_96AC:                         ; xref: branch from $96BB
+    LDA $96EF,Y
+    CLC
+    ADC #$40
+    STA $FF48,Y                       ; xref+1: write from $96A1  [instruction data modified]
+                                      ; xref+2: write from $96A7  [instruction data modified]
+    LDA #$20
+    STA $96EF,Y
+    DEY
+    BPL $96AC                         ; Branch to L_96AC
+    LDY #$00
+    STY $96EE
+    LDY $96CA
+    LDA $96C9
+    RTS
+
+; === DATA SECTION ===
+
+; xref: read from $9684 (L_9684)
+; xref: read from $96C5
+$96C9                   .BYTE $00                                                              ; "."
+; xref: write from $9687
+; xref: read from $96C2
+$96CA                   .BYTE $00                                                              ; "."
+; xref: read from $969E
+$96CB                   .BYTE $F8                                                              ; "."
+; xref: read from $96A4
+$96CC                   .BYTE $FE,$20,$FF,$48                                                  ; ". .H"
+$96D0                   .BYTE $FF,$70,$FF,$98,$FF,$C0,$FF                                      ; ".p....."
+; xref: read from $964A
+; xref: read from $968A
+; xref: write from $9696
+; xref: read from $9699 (L_9699)
+; xref: write from $9699 (L_9699)
+; xref: read from $978B
+; xref: write from $9C71
+$96D7                   .BYTE $03                                                              ; "."
+
+; === CODE SECTION ===
+
+$96D8 L_96D8:                         ; xref: jump from $960C (SUB_960C)
+    STY $96ED
+    LDY $96EE
+    CPY #$28
+    BEQ $96E9                         ; Branch to L_96E9
+    STA $96EF,Y
+    INY
+    STY $96EE
+$96E9 L_96E9:                         ; xref: branch from $96E0
+    LDY $96ED
+    RTS
+
+; === DATA SECTION ===
+
+; xref: write from $96D8 (L_96D8)
+; xref: read from $96E9 (L_96E9)
+$96ED                   .BYTE $00                                                              ; "."
+; xref: write from $96BF
+; xref: read from $96DB
+; xref: write from $96E6
+; xref: write from $97C1
+$96EE                   .BYTE $00                                                              ; "."
+; xref: read from $96AC (L_96AC)
+; xref: write from $96B7
+; xref: write from $96E2
+; xref: write from $97B9 (L_97B9)
+$96EF                   .BYTE $20                                                              ; " "
+$96F0                   .BYTE $20,$20,$20,$20,$20,$20,$20,$20,$20,$20,$20,$20,$20,$20,$20,$20  ; "                "
+$9700                   .BYTE $20,$20,$20,$20,$20,$20,$20,$20,$20,$20,$20,$20,$20,$20,$20,$20  ; "                "
+$9710                   .BYTE $20,$20,$20,$20,$20,$20,$20,$AC,$12,$96,$AD,$13,$96,$20,$24,$97  ; "       ...... $."
+$9720                   .BYTE $8C,$12,$96,$60,$48,$4A,$4A,$4A,$4A,$AA,$BD,$49,$97,$18,$69,$40  ; "...`HJJJJ..I..i@"
+$9730                   .BYTE $99,$98,$FF,$C8,$68,$29,$0F,$AA,$BD,$49,$97,$18,$69,$40,$99,$98  ; "....h)...I..i@.."
+$9740                   .BYTE $FF,$C8,$A9,$60,$99,$98,$FF,$C8,$60,$30,$31,$32,$33,$34,$35,$36  ; "...`....`0123456"
+$9750                   .BYTE $37,$38,$39,$41,$42,$43,$44,$45,$46,$A9,$35,$20,$B1,$99,$20,$81  ; "789ABCDEF.5 .. ."
+
+; === SUBROUTINE: ENTRY_9760 ===
+
+$9760 ENTRY_9760:       
+    LDY $20
+    TAY
+    LDY $20
+    STA ($A4,X)
+    JSR $99D0                         ; Call runtime_pop_mem_config
+    RTS
+
+; === DATA SECTION ===
+
+$976B                   .BYTE $A9,$35,$20,$B1,$99                                              ; ".5 .."
+$9770                   .BYTE $20,$81,$A4,$20,$A4,$A4,$20,$81,$A4,$20,$D0,$99,$60              ; " .. .. .. ..`"
+
+; === SUBROUTINE: SUB_977D ===
+
+$977D SUB_977D:                       ; xref: call from $9651
+                                      ; xref: call from $9691
+    STA $97A6
+    STX $97A7
+    STY $97A8
+    LDA #$35
+    JSR $99B1                         ; Call runtime_push_mem_config
+    LDA $96D7
+    BEQ $9799                         ; Branch to L_9799
+    JSR $9C5C                         ; Call SUB_9C5C
+    JSR $9A5C                         ; Call SUB_9A5C
+    JSR $9C67                         ; Call SUB_9C67
+$9799 L_9799:                         ; xref: branch from $978E
+    JSR $99D0                         ; Call runtime_pop_mem_config
+    LDA $97A6
+    LDX $97A7
+    LDY $97A8
+    RTS
+
+; === DATA SECTION ===
+
+; xref: write from $977D (SUB_977D)
+; xref: read from $979C
+$97A6                   .BYTE $00                                                              ; "."
+; xref: write from $9780
+; xref: read from $979F
+$97A7                   .BYTE $00                                                              ; "."
+; xref: write from $9783
+; xref: read from $97A2
+$97A8                   .BYTE $00                                                              ; "."
+
+; === SUBROUTINE: ENTRY_97A9 ===
+
+$97A9 ENTRY_97A9:       
+    LDA #$01
+    STA $9966
+    RTS
+
+; === SUBROUTINE: ENTRY_97AF ===
+
+$97AF ENTRY_97AF:       
+    LDA #$00
+    STA $9966
+    RTS
+$97B5 L_97B5:                         ; xref: jump from $9625 (SUB_9625)
+    LDY #$27
+    LDA #$20
+$97B9 L_97B9:                         ; xref: branch from $97BD
+    STA $96EF,Y
+    DEY
+    BPL $97B9                         ; Branch to L_97B9
+    LDY #$00
+    STY $96EE
+    RTS
+
+; === SUBROUTINE: ENTRY_97C5 ===
+
+$97C5 ENTRY_97C5:       
+    LDA #$35
+    JSR $99B1                         ; Call runtime_push_mem_config
+    JSR $9C5C                         ; Call SUB_9C5C
+    JSR $99D0                         ; Call runtime_pop_mem_config
+    RTS
+
+; === SUBROUTINE: ENTRY_97D1 ===
+
+$97D1 ENTRY_97D1:       
+    LDA #$35
+    JSR $99B1                         ; Call runtime_push_mem_config
+    JSR $9C67                         ; Call SUB_9C67
+    JSR $99D0                         ; Call runtime_pop_mem_config
+    RTS
+
+; === SUBROUTINE: ENTRY_97DD ===
+
+$97DD ENTRY_97DD:       
+    LDA #$35
+    JSR $99B1                         ; Call runtime_push_mem_config
+    LDA $AAB3
+    STA $AAB2
+    LDA #$09
+    STA $AAB3
+    JSR $9BCC                         ; Call SUB_9BCC
+    JSR $9E1C                         ; Call SUB_9E1C
+    STY $9631
+    LDA $AAB2
+    STA $AAB3
+    JSR $9BCC                         ; Call SUB_9BCC
+    JSR $99D0                         ; Call runtime_pop_mem_config
+    RTS
+$9803 L_9803:                         ; xref: jump from $9632 (ENTRY_9632)
+    LDA #$35
+    JSR $99B1                         ; Call runtime_push_mem_config
+$9808 L_9808:                         ; xref: branch from $9814
+    LDA $DC00                         ; CIA1_PRA
+    ORA #$01
+    AND $DC01                         ; CIA1_PRB
+    AND #$11
+    CMP #$11
+    BNE $9808                         ; Branch to L_9808
+$9816 L_9816:                         ; xref: branch from $983A
+    JSR $9C01                         ; Call SUB_9C01
+    STA $9631
+    LDA $DC00                         ; CIA1_PRA
+    AND $DC01                         ; CIA1_PRB
+    AND #$10
+    BNE $982B                         ; Branch to L_982B
+    LDA #$0C
+    JMP $983C                         ; Jump to L_983C
+$982B L_982B:                         ; xref: branch from $9824
+    LDA $DC01                         ; CIA1_PRB
+    AND #$01
+    BNE $9837                         ; Branch to L_9837
+    LDA #$12
+    JMP $983C                         ; Jump to L_983C
+$9837 L_9837:                         ; xref: branch from $9830
+    LDA $9631
+    BEQ $9816                         ; Branch to L_9816
+$983C L_983C:                         ; xref: jump from $9828
+                                      ; xref: jump from $9834
+    STA $9631
+    JSR $99D0                         ; Call runtime_pop_mem_config
+    RTS
+
+; === SUBROUTINE: ENTRY_9843 ===
+
+$9843 ENTRY_9843:       
+    SEI
+    LDA #$37
+    STA $01
+    LDX #$FA
+    TXS
+    JMP $FE66                         ; Jump to L_FE66
+
+; === SUBROUTINE: ENTRY_984E ===
+
+$984E ENTRY_984E:       
+    PHA
+    TXA
+    PHA
+    TYA
+    PHA
+    TSX
+    LDA $0104,X
+    AND #$10
+    BNE $985E                         ; Branch to L_985E
+    JMP ($0314)
+$985E L_985E:                         ; xref: branch from $9859
+    JMP ($0316)
+
+; === SUBROUTINE: ENTRY_9861 ===
+
+$9861 ENTRY_9861:       
+    LDX #$07
+$9863 L_9863:                         ; xref: branch from $9868
+    PLA
+    STA $8000,X
+    DEX
+    BPL $9863                         ; Branch to L_9863
+    LDA #$07
+    LDX #$08
+    LDY #$09
+    JMP $9A95                         ; Jump to L_9A95
+$9873 L_9873:                         ; xref: jump from $992A
+    PLA
+    TAY
+    PLA
+    TAX
+    PLA
+    RTI
+
+; === SUBROUTINE: ENTRY_9879 ===
+
+$9879 ENTRY_9879:       
+    CLD
+    LDA #$35
+    JSR $9A03                         ; Call SUB_9A03
+    INC $D019                         ; VIC_IRQ
+    LDA #$C7
+$9884 L_9884:                         ; xref: branch from $9887
+    CMP $D012                         ; VIC_RASTER
+    BNE $9884                         ; Branch to L_9884
+    LDY $A11D
+$988C L_988C:                         ; xref: branch from $988D
+    DEY
+    BNE $988C                         ; Branch to L_988C
+    LDX #$FB
+    STX $D011                         ; VIC_CTRL1
+    LDX #$C8
+    LDY #$F7
+    STX $D016                         ; VIC_CTRL2
+    STY $D018                         ; VIC_MEMPTR
+    LDX $A11E
+$98A1 L_98A1:                         ; xref: branch from $98A2
+    DEX
+    BNE $98A1                         ; Branch to L_98A1
+    CLC
+    BCC $98AA                         ; Branch to L_98AA
+                                      ; xref+1: write from $A281  [instruction data modified]
+    NOP
+    NOP
+    NOP
+$98AA L_98AA:                         ; xref: branch from $98A5
+    LDX #$1B
+    STX $D011                         ; VIC_CTRL1
+    INC $02
+    LDA #$2D
+    STA $0314
+    LDA #$99
+    STA $0315
+    LDA $D011                         ; VIC_CTRL1
+    ORA #$80
+    STA $D011                         ; VIC_CTRL1
+    LDA #$00
+    STA $D012                         ; VIC_RASTER
+    LDA #$01
+    STA $A445
+    LDA $9624
+    BPL $98EE                         ; Branch to L_98EE
+    AND #$7F
+    STA $9624
+    ASL A
+    CLC
+    ADC $9624
+    TAY
+    LDX #$00
+    JSR $A426                         ; Call SUB_A426
+    INX
+    INY
+    JSR $A426                         ; Call SUB_A426
+    INX
+    INX
+    INX
+    INY
+    JSR $A426                         ; Call SUB_A426
+$98EE L_98EE:                         ; xref: branch from $98D0
+    JSR $A29D                         ; Call SUB_A29D
+    JSR $A25D                         ; Call SUB_A25D
+    LDA $A41C
+    STA $D000                         ; VIC_SPR0_X
+    STA $D002                         ; VIC_SPR1_X
+    STA $D008                         ; VIC_SPR4_X
+    LDA $A41E
+    STA $D001                         ; VIC_SPR0_Y
+    STA $D003                         ; VIC_SPR1_Y
+    STA $D009                         ; VIC_SPR4_Y
+    LDX $A41D
+    LDA $A408,X
+    STA $D010                         ; VIC_SPR_XMSB
+    LDA #$36
+    JSR $9A03                         ; Call SUB_9A03
+    JSR $EA87                         ; Call SUB_EA87
+    LDA #$FF
+    STA $DC00                         ; CIA1_PRA
+    JSR $99F2                         ; Call SUB_99F2
+    JSR $99F2                         ; Call SUB_99F2
+    DEC $02
+    JMP $9873                         ; Jump to L_9873
+
+; === DATA SECTION ===
+
+$992D                   .BYTE $D8,$A9,$35                                                      ; "..5"
+$9930                   .BYTE $20,$03,$9A,$EE,$19,$D0,$E6,$02,$A5,$F7,$8D,$47,$A4,$A5,$F8,$8D  ; " ..........G...."
+$9940                   .BYTE $48,$A4,$A9,$3B,$8D,$11,$D0,$A9,$18,$8D,$16,$D0,$A9,$F8,$8D,$18  ; "H..;............"
+$9950                   .BYTE $D0,$A9,$79,$8D,$14,$03,$A9,$98,$8D,$15,$03,$A9,$3B,$8D,$11,$D0  ; "..y.........;..."
+$9960                   .BYTE $A9,$C6,$8D,$12,$D0,$A9                                          ; "......"
+; xref: write from $97AB
+; xref: write from $97B1
+$9966                   .BYTE $01,$F0,$03,$20,$00,$B0,$AD,$47,$A4,$85                          ; "... ...G.."
+$9970                   .BYTE $F7,$AD,$48,$A4,$85,$F8,$A9,$34,$20,$03,$9A,$EE,$7F,$99,$A9,$09  ; "..H....4 ......."
+$9980                   .BYTE $C9,$0F,$D0,$22,$A9,$00,$8D,$7F,$99,$AD,$07,$DA,$49,$FF,$8D,$07  ; "..."........I..."
+$9990                   .BYTE $DA,$8D,$06,$DA,$8D,$05,$DA,$8D,$04,$DA,$8D,$03,$DA,$8D,$02,$DA  ; "................"
+$99A0                   .BYTE $8D,$01,$DA,$8D,$00,$DA,$20,$F2,$99,$20,$F2,$99,$C6,$02,$4C,$73  ; "...... .. ....Ls"
+$99B0                   .BYTE $98                                                              ; "."
+
+; === SUBROUTINE: runtime_push_mem_config ===
+
+; --------------------------------------------------------
+; Save the current C64 memory configuration byte ($01) on a small software stack.
+; This is used by the runtime and engine when banking BASIC ROM and I/O in and out around ROM-dependent calls.
+; --------------------------------------------------------
+$99B1 runtime_push_mem_config:        ; xref: call from $9638
+                                      ; xref: call from $9644
+                                      ; xref: call from $9788
+                                      ; xref: call from $97C7
+                                      ; xref: call from $97D3
+                                      ; xref: call from $97DF
+                                      ; xref: call from $9805
+                                      ; xref: call from $AF4C
+                                      ; xref: call from $AF83
+    PHA
+    LDA $01
+    LDX $99F1
+    STA $99E1,X
+    PLA
+    STA $01
+    DEX
+    BMI $99C4                         ; Branch to L_99C4
+    STX $99F1
+    RTS
+$99C4 L_99C4:                         ; xref: branch from $99BE
+                                      ; xref: branch from $99D6
+    STX $8000
+    LDA #$05
+    LDX #$06
+    LDY #$07
+    JMP $9A95                         ; Jump to L_9A95
+
+; === SUBROUTINE: runtime_pop_mem_config ===
+
+; --------------------------------------------------------
+; Restore a previously saved C64 memory configuration byte ($01) from the runtime stack.
+; --------------------------------------------------------
+$99D0 runtime_pop_mem_config:         ; xref: call from $963E
+                                      ; xref: call from $9680 (L_9680)
+                                      ; xref: call from $9767
+                                      ; xref: call from $9799 (L_9799)
+                                      ; xref: call from $97CD
+                                      ; xref: call from $97D9
+                                      ; xref: call from $97FF
+                                      ; xref: call from $983F
+                                      ; xref: call from $AF6C
+                                      ; xref: call from $AFA9
+    LDX $99F1
+    INX
+    CPX #$10
+    BEQ $99C4                         ; Branch to L_99C4
+    LDA $99E1,X
+    STA $01
+    STX $99F1
+    RTS
+
+; === DATA SECTION ===
+
+; xref: write from $99B7
+; xref: read from $99D8
+$99E1                   .BYTE $07,$07,$07,$07,$07,$07,$07,$07,$07,$07,$07,$07,$07,$07,$37      ; "..............7"
+$99F0                   .BYTE $37                                                              ; "7"
+; xref: read from $99B4
+; xref: write from $99C0
+; xref: read from $99D0 (runtime_pop_mem_config)
+; xref: write from $99DD
+$99F1                   .BYTE $0D                                                              ; "."
+
+; === SUBROUTINE: SUB_99F2 ===
+
+$99F2 SUB_99F2:                       ; xref: call from $9922
+                                      ; xref: call from $9925
+    LDX $9A32
+    INX
+    CPX #$10
+    BEQ $9A16                         ; Branch to L_9A16
+    LDA $9A22,X
+    STA $01
+    STX $9A32
+    RTS
+
+; === SUBROUTINE: SUB_9A03 ===
+
+$9A03 SUB_9A03:                       ; xref: call from $987C
+                                      ; xref: call from $9917
+    PHA
+    LDA $01
+    LDX $9A32
+    STA $9A22,X
+    PLA
+    STA $01
+    DEX
+    BMI $9A16                         ; Branch to L_9A16
+    STX $9A32
+    RTS
+$9A16 L_9A16:                         ; xref: branch from $99F8
+                                      ; xref: branch from $9A10
+    STX $8000
+    LDA #$05
+    LDX #$06
+    LDY #$07
+    JMP $9A95                         ; Jump to L_9A95
+
+; === DATA SECTION ===
+
+; xref: read from $99FA
+; xref: write from $9A09
+$9A22                   .BYTE $07,$07,$07,$07,$07,$07,$07,$07,$07,$07,$07,$07,$07,$07          ; ".............."
+$9A30                   .BYTE $35,$35                                                          ; "55"
+; --------------------------------------------------------
+; Runtime marker/data area associated with the higher-level compiled logic layer.
+; Contains the literal string "FREE-END", which is a useful signature when separating the compiler/runtime layer from the game-specific script VM.
+; --------------------------------------------------------
+; xref: read from $99F2 (SUB_99F2)
+; xref: write from $99FF
+; xref: read from $9A06
+; xref: write from $9A12
+$9A32                   .BYTE $0F,$46,$52,$45,$45,$2D,$45,$4E,$44,$00,$48,$8A,$48,$98          ; ".FREE-END.H.H."
+$9A40                   .BYTE $48,$A2,$03,$B5,$2B,$A8,$BD,$58,$9A,$95,$2B,$98,$9D,$58,$9A,$CA  ; "H...+..X..+..X.."
+$9A50                   .BYTE $10,$F1,$68,$A8,$68,$AA,$68,$60,$00,$00,$00,$00                  ; "..h.h.h`...."
+
+; === SUBROUTINE: SUB_9A5C ===
+
+$9A5C SUB_9A5C:                       ; xref: call from $9793
+    LDA $9624
+    PHA
+    LDA #$81
+    STA $9624
+    LDA #$00
+    STA $9A8E
+    STA $C6
+$9A6C L_9A6C:                         ; xref: branch from $9A85
+    JSR $9C01                         ; Call SUB_9C01
+    CMP #$00
+    BNE $9A87                         ; Branch to L_9A87
+    JSR $A152                         ; Call SUB_A152
+    LDX $9A8E
+    STA $9A8E
+    TXA
+    ASL A
+    AND #$20
+    ORA $9A8E
+    CMP #$20
+    BNE $9A6C                         ; Branch to L_9A6C
+$9A87 L_9A87:                         ; xref: branch from $9A71
+    PLA
+    ORA #$80
+    STA $9624
+    RTS
+
+; === DATA SECTION ===
+
+; xref: write from $9A67
+; xref: read from $9A76
+; xref: write from $9A79
+; xref: read from $9A80
+$9A8E                   .BYTE $10,$A9                                                          ; ".."
+$9A90                   .BYTE $01,$A2,$02,$A0,$03                                              ; "....."
+
+; === CODE SECTION ===
+
+$9A95 L_9A95:                         ; xref: jump from $9870
+                                      ; xref: jump from $99CD
+                                      ; xref: jump from $9A1F
+                                      ; xref: jump from $9BFE
+    SEI
+    STX $9AB7
+$9A99 L_9A99:                         ; xref: jump from $9AB4
+    STA $D020                         ; VIC_BORDER
+    LDX #$66
+$9A9E L_9A9E:                         ; xref: branch from $9A9F
+    DEX
+    BPL $9A9E                         ; Branch to L_9A9E
+    LDX $9AB7
+    STX $D020                         ; VIC_BORDER
+    LDX #$40
+$9AA9 L_9AA9:                         ; xref: branch from $9AAA
+    DEX
+    BPL $9AA9                         ; Branch to L_9AA9
+    STY $D020                         ; VIC_BORDER
+    LDX #$20
+$9AB1 L_9AB1:                         ; xref: branch from $9AB2
+    DEX
+    BPL $9AB1                         ; Branch to L_9AB1
+    JMP $9A99                         ; Jump to L_9A99
+
+; === DATA SECTION ===
+
+; xref: write from $9A96
+; xref: read from $9AA1
+$9AB7                   .BYTE $00                                                              ; "."
+
+; === SUBROUTINE: SUB_9AB8 ===
+
+$9AB8 SUB_9AB8:                       ; xref: call from $9657 (L_9657)
+    LDA $AAB2
+    STA $AAB3
+    JSR $9BCC                         ; Call SUB_9BCC
+    JSR $9C3A                         ; Call SUB_9C3A
+$9AC4 L_9AC4:                         ; xref: jump from $9AFC
+    LDA #$00
+    STA $9601
+    STA $9602
+    JSR $9C42                         ; Call SUB_9C42
+    JSR $9B42                         ; Call SUB_9B42
+    JSR $9CC5                         ; Call SUB_9CC5
+    LDA $9600
+    AND #$E0
+    CMP #$20
+    BNE $9AE6                         ; Branch to L_9AE6
+    LDA #$6E
+    JSR $9C99                         ; Call SUB_9C99
+    JMP $9B40                         ; Jump to L_9B40
+$9AE6 L_9AE6:                         ; xref: branch from $9ADC
+    CMP #$40
+    BNE $9AED                         ; Branch to L_9AED
+    JSR $9DA7                         ; Call SUB_9DA7
+$9AED L_9AED:                         ; xref: branch from $9AE8
+    LDA #$08
+    STA $AAB3
+    JSR $9BCC                         ; Call SUB_9BCC
+    JSR $9E1C                         ; Call SUB_9E1C
+$9AF8 L_9AF8:                         ; xref: jump from $9B28
+    CPY #$FF
+    BNE $9AFF                         ; Branch to L_9AFF
+    JMP $9AC4                         ; Jump to L_9AC4
+$9AFF L_9AFF:                         ; xref: branch from $9AFA
+    STY $9601
+    JSR $9DF5                         ; Call SUB_9DF5
+    LDA $9600
+    AND #$E0
+    CMP #$60
+    BEQ $9B16                         ; Branch to L_9B16
+$9B0E L_9B0E:                         ; xref: jump from $9B3D (L_9B3D)
+    LDA #$6E
+    JSR $9C99                         ; Call SUB_9C99
+    JMP $9B40                         ; Jump to L_9B40
+$9B16 L_9B16:                         ; xref: branch from $9B0C
+    JSR $9DA7                         ; Call SUB_9DA7
+    JSR $9E51
+    CPY #$FF
+    BNE $9B2B                         ; Branch to L_9B2B
+    LDA #$09                          ; xref+1: write from $9D63  [instruction data modified]
+    JSR $9C44                         ; Call SUB_9C44
+    JSR $9E51
+    JMP $9AF8                         ; Jump to L_9AF8
+$9B2B L_9B2B:                         ; xref: branch from $9B1E
+    STY $9602
+    JSR $9DF5                         ; Call SUB_9DF5
+    LDA $9600
+    CMP #$60
+    BNE $9B3D                         ; Branch to L_9B3D
+    LDX #$00
+    JSR $9DB8                         ; Call SUB_9DB8
+$9B3D L_9B3D:                         ; xref: branch from $9B36
+    JMP $9B0E                         ; Jump to L_9B0E
+$9B40 L_9B40:                         ; xref: jump from $9AE3
+                                      ; xref: jump from $9B13
+    RTS
+
+; === DATA SECTION ===
+
+; xref: write from $9EE8 (L_9EE8)
+$9B41                   .BYTE $FF                                                              ; "."
+
+; === SUBROUTINE: SUB_9B42 ===
+
+$9B42 SUB_9B42:                       ; xref: call from $9ACF
+    LDA $AAB2
+    STA $AAB3
+    JSR $9BCC                         ; Call SUB_9BCC
+$9B4B L_9B4B:                         ; xref: branch from $9B72
+                                      ; xref: jump from $9BA9
+                                      ; xref: jump from $9BC5
+    LDA $AAB3
+    ASL A
+    TAX
+    LDA $AEBB,X
+    STA $9B6A
+    LDA $AEBC,X
+    STA $9B6B
+$9B5C L_9B5C:                         ; xref: branch from $9B61
+    JSR $A125                         ; Call SUB_A125
+    CMP #$00
+    BEQ $9B5C                         ; Branch to L_9B5C
+    STA $AED1
+$9B66 L_9B66:                         ; xref: jump from $9B8B
+    LDX #$00
+$9B68 L_9B68:                         ; xref: jump from $9B94
+    CLC
+$9B69 L_9B69:                         ; xref: jump from $9B98
+    LDA $AE1E,X                       ; xref+1: write from $9B53, write from $9B82  [instruction data modified]
+                                      ; xref+2: write from $9B59, write from $9B88  [instruction data modified]
+    INX
+    TAY
+    BCS $9B9B                         ; Branch to L_9B9B
+    CMP #$FF
+    BEQ $9B4B                         ; Branch to L_9B4B
+    AND #$F0
+    CMP #$E0
+    BNE $9B8E                         ; Branch to L_9B8E
+    TYA
+    AND #$0F
+    ASL A
+    TAY
+    LDA $AEA1,Y
+    STA $9B6A
+    LDA $AEA2,Y
+    STA $9B6B
+    JMP $9B66                         ; Jump to L_9B66
+$9B8E L_9B8E:                         ; xref: branch from $9B78
+    CPY $AED1
+    BEQ $9B97                         ; Branch to L_9B97
+    INX
+    JMP $9B68                         ; Jump to L_9B68
+$9B97 L_9B97:                         ; xref: branch from $9B91
+    SEC
+    JMP $9B69                         ; Jump to L_9B69
+$9B9B L_9B9B:                         ; xref: branch from $9B6E
+    AND #$F0
+    CMP #$F0
+    BNE $9BB5                         ; Branch to L_9BB5
+    TYA
+    AND #$0F
+    ASL A
+    TAY
+    JSR $9BAC                         ; Call SUB_9BAC
+    JMP $9B4B                         ; Jump to L_9B4B
+
+; === SUBROUTINE: SUB_9BAC ===
+
+$9BAC SUB_9BAC:                       ; xref: call from $9BA6
+    LDA $AEA6,Y
+    PHA
+    LDA $AEA5,Y
+    PHA
+    RTS
+$9BB5 L_9BB5:                         ; xref: branch from $9B9F
+    CMP #$80
+    BNE $9BC8                         ; Branch to L_9BC8
+    TYA
+    AND #$0F
+    STA $AAB3
+    STA $AAB2
+    JSR $9BCC                         ; Call SUB_9BCC
+    JMP $9B4B                         ; Jump to L_9B4B
+$9BC8 L_9BC8:                         ; xref: branch from $9BB7
+    STY $9600
+    RTS
+
+; === SUBROUTINE: SUB_9BCC ===
+
+$9BCC SUB_9BCC:                       ; xref: call from $9660
+                                      ; xref: call from $97ED
+                                      ; xref: call from $97FC
+                                      ; xref: call from $9ABE
+                                      ; xref: call from $9AF2
+                                      ; xref: call from $9B48
+                                      ; xref: call from $9BC2
+    LDA $AAB3
+    CMP $AAB4
+    BEQ $9BE0                         ; Branch to L_9BE0
+    STA $AAB4
+    JSR $A4A8                         ; Call SUB_A4A8
+    JSR $9BE1                         ; Call SUB_9BE1
+    JSR $A4A4                         ; Call SUB_A4A4
+$9BE0 L_9BE0:                         ; xref: branch from $9BD2
+    RTS
+
+; === SUBROUTINE: SUB_9BE1 ===
+
+$9BE1 SUB_9BE1:                       ; xref: call from $9BDA
+                                      ; xref: call from $AFA3
+    LDA $AAB3
+    JSR $A77A                         ; Call music_build_display_resources
+    LDA $AAB3
+    JSR $AD60                         ; Call SUB_AD60
+    LDA $A778
+    BNE $9BF7                         ; Branch to L_9BF7
+    LDA #$0A
+    JSR $AD60                         ; Call SUB_AD60
+$9BF7 L_9BF7:                         ; xref: branch from $9BF0
+    RTS
+
+; === SUBROUTINE: ENTRY_9BF8 ===
+
+$9BF8 ENTRY_9BF8:       
+    LDA #$01
+    LDX #$00
+    LDY #$0B
+    JMP $9A95                         ; Jump to L_9A95
+
+; === SUBROUTINE: SUB_9C01 ===
+
+$9C01 SUB_9C01:                       ; xref: call from $9816 (L_9816)
+                                      ; xref: call from $9A6C (L_9A6C)
+    JSR $A434                         ; Call SUB_A434
+    LDA $C6
+    BEQ $9C1B                         ; Branch to L_9C1B
+    LDY $0277
+    LDX #$00
+$9C0D L_9C0D:                         ; xref: branch from $9C16
+    LDA $0278,X
+    STA $0277,X
+    INX
+    CPX $C6
+    BNE $9C0D                         ; Branch to L_9C0D
+    DEC $C6
+    TYA
+$9C1B L_9C1B:                         ; xref: branch from $9C06
+    RTS
+
+; === SUBROUTINE: ENTRY_9C1C ===
+
+$9C1C ENTRY_9C1C:       
+    LDX #$00
+$9C1E L_9C1E:                         ; xref: branch from $9C27
+    LDA $FF20,X
+    STA $FEF8,X
+    INX
+    CPX #$C8
+    BNE $9C1E                         ; Branch to L_9C1E
+    LDA #$00
+    STA $9CC4
+    RTS
+
+; === SUBROUTINE: SUB_9C2F ===
+
+$9C2F SUB_9C2F:                       ; xref: call from $9C3A (SUB_9C3A)
+    LDX #$27
+    LDA #$60
+$9C33 L_9C33:                         ; xref: branch from $9C37
+    STA $FFC0,X
+    DEX
+    BPL $9C33                         ; Branch to L_9C33
+    RTS
+
+; === SUBROUTINE: SUB_9C3A ===
+
+$9C3A SUB_9C3A:                       ; xref: call from $9AC1
+    JSR $9C2F                         ; Call SUB_9C2F
+    LDA #$7E
+    STA $FFC0
+
+; === SUBROUTINE: SUB_9C42 ===
+
+$9C42 SUB_9C42:                       ; xref: call from $9ACC
+    LDA #$01
+
+; === SUBROUTINE: SUB_9C44 ===
+
+$9C44 SUB_9C44:                       ; xref: call from $9B22
+    STA $9CC4
+    JSR $9C90                         ; Call SUB_9C90
+    LDX #$27
+    LDA #$60
+$9C4E L_9C4E:                         ; xref: branch from $9C55
+    STA $FFC0,X
+    DEX
+    CPX $9CC4
+    BNE $9C4E                         ; Branch to L_9C4E
+    RTS
+
+; === DATA SECTION ===
+
+; xref: read from $9C82
+$9C58                   .BYTE $00,$0B,$0C,$0F                                                  ; "...."
+
+; === SUBROUTINE: SUB_9C5C ===
+
+$9C5C SUB_9C5C:                       ; xref: call from $9647
+                                      ; xref: call from $9654
+                                      ; xref: call from $9790
+                                      ; xref: call from $97CA
+    LDY #$01
+$9C5E L_9C5E:                         ; xref: branch from $9C64
+    JSR $9C7F                         ; Call SUB_9C7F
+    INY
+    CPY #$04
+    BNE $9C5E                         ; Branch to L_9C5E
+    RTS
+
+; === SUBROUTINE: SUB_9C67 ===
+
+$9C67 SUB_9C67:                       ; xref: call from $9663
+                                      ; xref: call from $9796
+                                      ; xref: call from $97D6
+    LDY #$03
+$9C69 L_9C69:                         ; xref: branch from $9C6D
+    JSR $9C7F                         ; Call SUB_9C7F
+    DEY
+    BPL $9C69                         ; Branch to L_9C69
+    LDX #$00
+    STX $96D7
+    LDA #$60
+$9C76 L_9C76:                         ; xref: branch from $9C7C
+    STA $FEF8,X
+    INX
+    CPX #$F0
+    BNE $9C76                         ; Branch to L_9C76
+    RTS
+
+; === SUBROUTINE: SUB_9C7F ===
+
+$9C7F SUB_9C7F:                       ; xref: call from $9C5E (L_9C5E)
+                                      ; xref: call from $9C69 (L_9C69)
+    JSR $A434                         ; Call SUB_A434
+    LDA $9C58,Y
+    LDX #$00
+$9C87 L_9C87:                         ; xref: branch from $9C8D
+    STA $DAF8,X
+    INX
+    CPX #$F0
+    BNE $9C87                         ; Branch to L_9C87
+    RTS
+
+; === SUBROUTINE: SUB_9C90 ===
+
+$9C90 SUB_9C90:                       ; xref: call from $9C47
+                                      ; xref: call from $9CA6
+    LDY $9CC4
+    LDA #$40
+    STA $FFC0,Y
+    RTS
+
+; === SUBROUTINE: SUB_9C99 ===
+
+$9C99 SUB_9C99:                       ; xref: call from $9AE0
+                                      ; xref: call from $9B10
+    LDY $9CC4
+    STA $FFC0,Y
+    RTS
+
+; === SUBROUTINE: SUB_9CA0 ===
+
+$9CA0 SUB_9CA0:                       ; xref: call from $9D59 (L_9D59)
+                                      ; xref: call from $9DBA
+                                      ; xref: call from $9DD3
+                                      ; xref: call from $9DDB
+                                      ; xref: call from $9E0A
+                                      ; xref: call from $9E14
+    STY $9CAD
+    JSR $9CAE                         ; Call SUB_9CAE
+    JSR $9C90                         ; Call SUB_9C90
+    LDY $9CAD
+    RTS
+
+; === DATA SECTION ===
+
+; xref: write from $9CA0 (SUB_9CA0)
+; xref: read from $9CA9
+$9CAD                   .BYTE $08                                                              ; "."
+
+; === SUBROUTINE: SUB_9CAE ===
+
+$9CAE SUB_9CAE:                       ; xref: call from $9CA3
+    LDY $9CC4
+    CPY #$28
+    BEQ $9CBB                         ; Branch to L_9CBB
+    CLC
+    ADC #$40
+    STA $FFC0,Y
+$9CBB L_9CBB:                         ; xref: branch from $9CB3
+    INY
+    CPY #$29
+    BEQ $9CC3                         ; Branch to L_9CC3
+    STY $9CC4
+$9CC3 L_9CC3:                         ; xref: branch from $9CBE
+    RTS
+
+; === DATA SECTION ===
+
+; xref: write from $9C2B
+; xref: write from $9C44 (SUB_9C44)
+; xref: read from $9C52
+; xref: read from $9C90 (SUB_9C90)
+; xref: read from $9C99 (SUB_9C99)
+; xref: read from $9CAE (SUB_9CAE)
+; xref: write from $9CC0
+; xref: read from $9D60 (L_9D60)
+$9CC4                   .BYTE $01                                                              ; "."
+
+; === SUBROUTINE: SUB_9CC5 ===
+
+$9CC5 SUB_9CC5:                       ; xref: call from $9AD2
+    LDA $9600
+    LSR A
+    LSR A
+    LSR A
+    LSR A
+    AND #$FE
+    TAX
+    LDA $9D69,X
+    STA $9CE2
+    LDA $9D6A,X
+    STA $9CE3
+    LDA $9600
+    AND #$1F
+    TAX
+    LDA $9D71,X                       ; xref+1: write from $9CD2  [instruction data modified]
+                                      ; xref+2: write from $9CD8  [instruction data modified]
+    TAY
+    AND #$40
+    BNE $9CF0                         ; Branch to L_9CF0
+    LDA #$1B
+    LDX #$AB
+    JMP $9CF4                         ; Jump to L_9CF4
+$9CF0 L_9CF0:                         ; xref: branch from $9CE7
+    LDA #$16
+    LDX #$AC
+$9CF4 L_9CF4:                         ; xref: jump from $9CED
+    STA $9D08
+    STX $9D09
+    STA $9D1F
+    STX $9D20
+    TYA
+    AND #$3F
+    TAY
+    LDX #$FF
+$9D06 L_9D06:                         ; xref: branch from $9D13
+                                      ; xref: branch from $9D19
+    INX
+    LDA $AB1B,X                       ; xref+1: write from $9CF4 (L_9CF4)  [instruction data modified]
+                                      ; xref+2: write from $9CF7  [instruction data modified]
+    BEQ $9D18                         ; Branch to L_9D18
+    STA $9D67
+    AND #$F0
+    CMP #$C0
+    BNE $9D06                         ; Branch to L_9D06
+    LDA $9D67
+$9D18 L_9D18:                         ; xref: branch from $9D0A
+    DEY
+    BPL $9D06                         ; Branch to L_9D06
+    INX
+    LDY #$01
+$9D1E L_9D1E:                         ; xref: branch from $9D5E
+    LDA $AB1B,X                       ; xref+1: write from $9CFA  [instruction data modified]
+                                      ; xref+2: write from $9CFD  [instruction data modified]
+    BMI $9D60                         ; Branch to L_9D60
+    STX $9D68
+    LDX #$0B
+$9D28 L_9D28:                         ; xref: branch from $9D39
+    CMP $9D9B,X
+    BNE $9D37                         ; Branch to L_9D37
+    DEX
+    LDA $9D9B,X
+    LDX $9D68
+    JMP $9D44                         ; Jump to L_9D44
+$9D37 L_9D37:                         ; xref: branch from $9D2B
+    DEX
+    DEX
+    BPL $9D28                         ; Branch to L_9D28
+    LDX $9D68
+    CPY #$01
+    BEQ $9D44                         ; Branch to L_9D44
+    EOR #$40
+$9D44 L_9D44:                         ; xref: jump from $9D34
+                                      ; xref: branch from $9D40
+    CPY #$01
+    BEQ $9D59                         ; Branch to L_9D59
+    CMP #$5B
+    BEQ $9D57                         ; Branch to L_9D57
+    CMP #$5C
+    BEQ $9D57                         ; Branch to L_9D57
+    CMP #$5D
+    BEQ $9D57                         ; Branch to L_9D57
+    JMP $9D59                         ; Jump to L_9D59
+$9D57 L_9D57:                         ; xref: branch from $9D4A
+                                      ; xref: branch from $9D4E
+                                      ; xref: branch from $9D52
+    EOR #$40
+$9D59 L_9D59:                         ; xref: branch from $9D46
+                                      ; xref: jump from $9D54
+    JSR $9CA0                         ; Call SUB_9CA0
+    INX
+    INY
+    BNE $9D1E                         ; Branch to L_9D1E
+$9D60 L_9D60:                         ; xref: branch from $9D21
+    LDY $9CC4
+    STY $9B21
+    RTS
+
+; === DATA SECTION ===
+
+; xref: write from $9D0C
+; xref: read from $9D15
+$9D67                   .BYTE $C2                                                              ; "."
+; xref: write from $9D23
+; xref: read from $9D31
+; xref: read from $9D3B
+$9D68                   .BYTE $24                                                              ; "$"
+; xref: read from $9CCF
+$9D69                   .BYTE $FF                                                              ; "."
+; xref: read from $9CD5
+$9D6A                   .BYTE $FF,$71,$9D,$89,$9D,$96                                          ; ".q...."
+$9D70                   .BYTE $9D                                                              ; "."
+; xref: read from $9CE1
+$9D71                   .BYTE $58,$5A,$1B,$1C,$55,$51,$16,$59,$03,$15,$50,$45,$44,$48,$40      ; "XZ..UQ.Y..PEDH@"
+$9D80                   .BYTE $41,$4E,$4D,$52,$47,$54,$4B,$13,$53,$1D,$04,$01,$17,$02,$12,$18  ; "ANMRGTK.S......."
+$9D90                   .BYTE $0C,$57,$0F,$0E,$00,$10,$56,$0B,$11,$09,$0A                      ; ".W....V...."
+; xref: read from $9D28 (L_9D28)
+; xref: read from $9D2E
+$9D9B                   .BYTE $53,$2B,$43,$2D,$5B                                              ; "S+C-["
+$9DA0                   .BYTE $5F,$5C,$60,$5D,$61,$2E,$2E                                      ; "_\`]a.."
+
+; === SUBROUTINE: SUB_9DA7 ===
+
+$9DA7 SUB_9DA7:                       ; xref: call from $9AEA
+                                      ; xref: call from $9B16 (L_9B16)
+    LDA $9600
+    LDX #$00
+$9DAC L_9DAC:                         ; xref: branch from $9DB5
+    CMP $9DDF,X
+    BEQ $9DB8                         ; Branch to SUB_9DB8
+    INX
+    INX
+    CPX #$0E
+    BNE $9DAC                         ; Branch to L_9DAC
+    RTS
+
+; === SUBROUTINE: SUB_9DB8 ===
+
+$9DB8 SUB_9DB8:                       ; xref: call from $9B3A
+                                      ; xref: branch from $9DAF
+    LDA #$20
+    JSR $9CA0                         ; Call SUB_9CA0
+    LDA $9DE0,X
+    LDY #$00
+    TAX
+    BEQ $9DCE                         ; Branch to L_9DCE
+$9DC5 L_9DC5:                         ; xref: branch from $9DC9
+                                      ; xref: branch from $9DCC
+    INY
+    LDA $9DEC,Y
+    BPL $9DC5                         ; Branch to L_9DC5
+    DEX
+    BNE $9DC5                         ; Branch to L_9DC5
+$9DCE L_9DCE:                         ; xref: branch from $9DC3
+                                      ; xref: branch from $9DD7
+    LDA $9DED,Y
+    BMI $9DD9                         ; Branch to L_9DD9
+    JSR $9CA0                         ; Call SUB_9CA0
+    INY
+    BNE $9DCE                         ; Branch to L_9DCE
+$9DD9 L_9DD9:                         ; xref: branch from $9DD1
+    AND #$7F
+    JSR $9CA0                         ; Call SUB_9CA0
+    RTS
+
+; === DATA SECTION ===
+
+; xref: read from $9DAC (L_9DAC)
+$9DDF                   .BYTE $49                                                              ; "I"
+; xref: read from $9DBD
+$9DE0                   .BYTE $00,$4C,$01,$60,$02,$61,$00,$62,$00,$63,$01,$64                  ; ".L.`.a.b.c.d"
+; xref: read from $9DC6
+$9DEC                   .BYTE $01                                                              ; "."
+; xref: read from $9DCE (L_9DCE)
+$9DED                   .BYTE $01,$8E,$0D                                                      ; "..."
+$9DF0                   .BYTE $09,$94,$01,$15,$86                                              ; "....."
+
+; === SUBROUTINE: SUB_9DF5 ===
+
+$9DF5 SUB_9DF5:                       ; xref: call from $9B02
+                                      ; xref: call from $9B2E
+    LDA $C1EF,Y
+    TAY
+    LDA $C14A,Y
+    CLC
+    ADC #$94
+    STA $F7
+    LDA $C0A5,Y
+    ADC #$C2
+    STA $F8
+    LDA #$20
+    JSR $9CA0                         ; Call SUB_9CA0
+    LDY #$FF
+$9E0F L_9E0F:                         ; xref: branch from $9E19
+    INY
+    LDA ($F7),Y
+    AND #$7F
+    JSR $9CA0                         ; Call SUB_9CA0
+    LDA ($F7),Y
+    BPL $9E0F                         ; Branch to L_9E0F
+    RTS
+
+; === SUBROUTINE: SUB_9E1C ===
+
+$9E1C SUB_9E1C:                       ; xref: call from $97F0
+                                      ; xref: call from $9AF5
+    JSR $A08E                         ; Call SUB_A08E
+    LDY #$00
+    STY $9F3D
+    JSR $9F3E                         ; Call SUB_9F3E
+    STY $9F3B
+    LDY #$FF
+    STY $9F3C
+$9E2F L_9E2F:                         ; xref: branch from $9E4C
+    LDY $9F3C
+    INY
+    JSR $9F3E                         ; Call SUB_9F3E
+    CPY #$FF
+    BEQ $9E4E                         ; Branch to L_9E4E
+    STY $9F3C
+    TYA
+    LDX $9F3D
+    JSR $9F89                         ; Call SUB_9F89
+    INC $9F3D
+    LDX $9F3D
+    CPX #$05
+    BNE $9E2F                         ; Branch to L_9E2F
+$9E4E L_9E4E:                         ; xref: branch from $9E38
+    DEC $9F3D
+$9E51 L_9E51:                         ; xref: call from $9B19
+                                      ; xref: call from $9B25
+                                      ; xref: jump from $9E5B
+                                      ; xref: jump from $9E65
+                                      ; xref: jump from $9E81 (L_9E81)
+                                      ; xref: jump from $9E88
+                                      ; xref: jump from $9EAA
+                                      ; xref: jump from $9EC3
+                                      ; xref: jump from $9ED1
+                                      ; xref: jump from $9EE3
+    JSR $A15B                         ; Call SUB_A15B
+    CMP #$47
+    BNE $9E5E                         ; Branch to L_9E5E
+    JSR $9EF7                         ; Call SUB_9EF7
+    JMP $9E51                         ; Jump to L_9E51
+$9E5E L_9E5E:                         ; xref: branch from $9E56
+    CMP #$46
+    BNE $9E68                         ; Branch to L_9E68
+    JSR $9F19                         ; Call SUB_9F19
+    JMP $9E51                         ; Jump to L_9E51
+$9E68 L_9E68:                         ; xref: branch from $9E60
+    CMP #$46
+    BCS $9E84                         ; Branch to L_9E84
+    SEC
+    SBC #$41
+    LDY $9F3B
+    TAX
+$9E73 L_9E73:                         ; xref: jump from $9E7E
+    BEQ $9EE8                         ; Branch to L_9EE8
+    INY
+    JSR $9F3E                         ; Call SUB_9F3E
+    CPY #$FF
+    BEQ $9E81                         ; Branch to L_9E81
+    DEX
+    JMP $9E73                         ; Jump to L_9E73
+$9E81 L_9E81:                         ; xref: branch from $9E7B
+    JMP $9E51                         ; Jump to L_9E51
+$9E84 L_9E84:                         ; xref: branch from $9E6A
+    CMP #$48
+    BEQ $9E8B                         ; Branch to L_9E8B
+    JMP $9E51                         ; Jump to L_9E51
+$9E8B L_9E8B:                         ; xref: branch from $9E86
+    LDY #$61
+    JSR $A16B                         ; Call SUB_A16B
+    CLC
+    TXA
+    ADC #$41
+    CMP #$47
+    BNE $9EAD                         ; Branch to L_9EAD
+    JSR $9EF7                         ; Call SUB_9EF7
+    JSR $9EF7                         ; Call SUB_9EF7
+    JSR $9EF7                         ; Call SUB_9EF7
+    JSR $9EF7                         ; Call SUB_9EF7
+    JSR $9EF7                         ; Call SUB_9EF7
+    JSR $9EF6                         ; Call SUB_9EF6
+    JMP $9E51                         ; Jump to L_9E51
+$9EAD L_9EAD:                         ; xref: branch from $9E96
+    CMP #$46
+    BNE $9EC6                         ; Branch to L_9EC6
+    JSR $9F19                         ; Call SUB_9F19
+    JSR $9F19                         ; Call SUB_9F19
+    JSR $9F19                         ; Call SUB_9F19
+    JSR $9F19                         ; Call SUB_9F19
+    JSR $9F19                         ; Call SUB_9F19
+    JSR $9EF6                         ; Call SUB_9EF6
+    JMP $9E51                         ; Jump to L_9E51
+$9EC6 L_9EC6:                         ; xref: branch from $9EAF
+    CMP #$41
+    BEQ $9ECE                         ; Branch to L_9ECE
+    CMP #$42
+    BNE $9ED4                         ; Branch to L_9ED4
+$9ECE L_9ECE:                         ; xref: branch from $9EC8
+    JSR $9F19                         ; Call SUB_9F19
+    JMP $9E51                         ; Jump to L_9E51
+$9ED4 L_9ED4:                         ; xref: branch from $9ECC
+    CMP #$43
+    BEQ $9EE0                         ; Branch to L_9EE0
+    CMP #$44
+    BEQ $9EE0                         ; Branch to L_9EE0
+    CMP #$45
+    BNE $9EE6                         ; Branch to L_9EE6
+$9EE0 L_9EE0:                         ; xref: branch from $9ED6
+                                      ; xref: branch from $9EDA
+    JSR $9EF7                         ; Call SUB_9EF7
+    JMP $9E51                         ; Jump to L_9E51
+$9EE6 L_9EE6:                         ; xref: branch from $9EDE
+    LDY #$FF
+$9EE8 L_9EE8:                         ; xref: branch from $9E73 (L_9E73)
+    STY $9B41
+$9EEB L_9EEB:                         ; xref: branch from $9EF3
+    JSR $A434                         ; Call SUB_A434
+    LDA $DC01                         ; CIA1_PRB
+    AND #$01
+    BEQ $9EEB                         ; Branch to L_9EEB
+    RTS
+
+; === SUBROUTINE: SUB_9EF6 ===
+
+$9EF6 SUB_9EF6:                       ; xref: call from $9EA7
+                                      ; xref: call from $9EC0
+    RTS
+
+; === SUBROUTINE: SUB_9EF7 ===
+
+$9EF7 SUB_9EF7:                       ; xref: call from $9E58
+                                      ; xref: call from $9E98
+                                      ; xref: call from $9E9B
+                                      ; xref: call from $9E9E
+                                      ; xref: call from $9EA1
+                                      ; xref: call from $9EA4
+                                      ; xref: call from $9EE0 (L_9EE0)
+    LDY $9F3C
+    INY
+    JSR $9F3E                         ; Call SUB_9F3E
+    CPY #$FF
+    BEQ $9F18                         ; Branch to L_9F18
+    STY $9F3C
+    JSR $A0D0                         ; Call SUB_A0D0
+    TYA
+    LDX #$04
+    JSR $9F89                         ; Call SUB_9F89
+    LDY $9F3B
+    INY
+    JSR $9F3E                         ; Call SUB_9F3E
+    STY $9F3B
+$9F18 L_9F18:                         ; xref: branch from $9F00
+    RTS
+
+; === SUBROUTINE: SUB_9F19 ===
+
+$9F19 SUB_9F19:                       ; xref: call from $9E62
+                                      ; xref: call from $9EB1
+                                      ; xref: call from $9EB4
+                                      ; xref: call from $9EB7
+                                      ; xref: call from $9EBA
+                                      ; xref: call from $9EBD
+                                      ; xref: call from $9ECE (L_9ECE)
+    LDY $9F3B
+    DEY
+    JSR $9F63                         ; Call SUB_9F63
+    CPY #$FF
+    BEQ $9F3A                         ; Branch to L_9F3A
+    STY $9F3B
+    JSR $A0F5                         ; Call SUB_A0F5
+    TYA
+    LDX #$00
+    JSR $9F89                         ; Call SUB_9F89
+    LDY $9F3C
+    DEY
+    JSR $9F63                         ; Call SUB_9F63
+    STY $9F3C
+$9F3A L_9F3A:                         ; xref: branch from $9F22
+    RTS
+
+; === DATA SECTION ===
+
+; xref: write from $9E27
+; xref: read from $9E6F
+; xref: read from $9F0E
+; xref: write from $9F15
+; xref: read from $9F19 (SUB_9F19)
+; xref: write from $9F24
+$9F3B                   .BYTE $15                                                              ; "."
+; xref: write from $9E2C
+; xref: read from $9E2F (L_9E2F)
+; xref: write from $9E3A
+; xref: read from $9EF7 (SUB_9EF7)
+; xref: write from $9F02
+; xref: read from $9F30
+; xref: write from $9F37
+$9F3C                   .BYTE $81                                                              ; "."
+; xref: write from $9E21
+; xref: read from $9E3E
+; xref: read from $9E44
+; xref: write from $9E44
+; xref: read from $9E47
+; xref: read from $9E4E (L_9E4E)
+; xref: write from $9E4E (L_9E4E)
+$9F3D                   .BYTE $04                                                              ; "."
+
+; === SUBROUTINE: SUB_9F3E ===
+
+$9F3E SUB_9F3E:                       ; xref: call from $9E24
+                                      ; xref: call from $9E33
+                                      ; xref: call from $9E76
+                                      ; xref: call from $9EFB
+                                      ; xref: call from $9F12
+    STX $9F88
+$9F41 L_9F41:                         ; xref: jump from $9F5A
+    CPY #$A5
+    BEQ $9F5D                         ; Branch to L_9F5D
+    LDA $C1EF,Y
+    TAX
+    LDA $C000,X
+    CMP #$FE
+    BEQ $9F5F                         ; Branch to L_9F5F
+    CMP #$FF
+    BEQ $9F5F                         ; Branch to L_9F5F
+    CMP $9614
+    BEQ $9F5F                         ; Branch to L_9F5F
+    INY
+    JMP $9F41                         ; Jump to L_9F41
+$9F5D L_9F5D:                         ; xref: branch from $9F43
+    LDY #$FF
+$9F5F L_9F5F:                         ; xref: branch from $9F4E
+                                      ; xref: branch from $9F52
+                                      ; xref: branch from $9F57
+    LDX $9F88
+    RTS
+
+; === SUBROUTINE: SUB_9F63 ===
+
+$9F63 SUB_9F63:                       ; xref: call from $9F1D
+                                      ; xref: call from $9F34
+    STX $9F88
+$9F66 L_9F66:                         ; xref: jump from $9F7F
+    CPY #$FF
+    BEQ $9F82                         ; Branch to L_9F82
+    LDA $C1EF,Y
+    TAX
+    LDA $C000,X
+    CMP #$FE
+    BEQ $9F84                         ; Branch to L_9F84
+    CMP #$FF
+    BEQ $9F84                         ; Branch to L_9F84
+    CMP $9614
+    BEQ $9F84                         ; Branch to L_9F84
+    DEY
+    JMP $9F66                         ; Jump to L_9F66
+$9F82 L_9F82:                         ; xref: branch from $9F68
+    LDY #$FF
+$9F84 L_9F84:                         ; xref: branch from $9F73
+                                      ; xref: branch from $9F77
+                                      ; xref: branch from $9F7C
+    LDX $9F88
+    RTS
+
+; === DATA SECTION ===
+
+; xref: write from $9F3E (SUB_9F3E)
+; xref: read from $9F5F (L_9F5F)
+; xref: write from $9F63 (SUB_9F63)
+; xref: read from $9F84 (L_9F84)
+$9F88                   .BYTE $04                                                              ; "."
+
+; === SUBROUTINE: SUB_9F89 ===
+
+$9F89 SUB_9F89:                       ; xref: call from $9E41
+                                      ; xref: call from $9F0B
+                                      ; xref: call from $9F2D
+    PHA
+    TXA
+    ASL A
+    TAX
+    LDA $A06A,X
+    STA $F7
+    LDA $A06B,X
+    STA $F8
+    PLA
+    TAX
+    LDA $C1EF,X
+    PHA
+    TAX
+    CLC
+    LDA $C14A,X
+    ADC #$94
+    STA $FD
+    LDA $C0A5,X
+    ADC #$C2
+    STA $FE
+    LDY #$00
+    STY $A11C
+    DEY
+$9FB3 L_9FB3:                         ; xref: branch from $A007
+    INY
+    LDA ($FD),Y
+    STY $A11A
+    STX $A11B
+    LDY #$00
+$9FBE L_9FBE:                         ; xref: jump from $9FCC
+    LDX $AD4A,Y
+    CPX #$80
+    BEQ $9FD3                         ; Branch to L_9FD3
+    CMP $AD4A,Y
+    BEQ $9FCF                         ; Branch to L_9FCF
+    INY
+    INY
+    JMP $9FBE                         ; Jump to L_9FBE
+$9FCF L_9FCF:                         ; xref: branch from $9FC8
+    INY
+    LDA $AD4A,Y
+$9FD3 L_9FD3:                         ; xref: branch from $9FC3
+    AND #$3F
+    SEC
+    SBC #$01
+    LDX #$04
+$9FDA L_9FDA:                         ; xref: branch from $9FE1
+    CMP $A034,X
+    BEQ $9FE6                         ; Branch to L_9FE6
+    DEX
+    DEX
+    BPL $9FDA                         ; Branch to L_9FDA
+    JMP $9FEC                         ; Jump to L_9FEC
+$9FE6 L_9FE6:                         ; xref: branch from $9FDD
+    LDA $A035,X
+    JMP $9FFC                         ; Jump to L_9FFC
+$9FEC L_9FEC:                         ; xref: jump from $9FE3
+    CMP #$1F
+    BNE $9FFC                         ; Branch to L_9FFC
+    LDA #$08
+    CLC
+    ADC $A11C
+    STA $A11C
+    JMP $A002                         ; Jump to L_A002
+$9FFC L_9FFC:                         ; xref: jump from $9FE9
+                                      ; xref: branch from $9FEE
+    LDX $A11B
+    JSR $A03A                         ; Call SUB_A03A
+$A002 L_A002:                         ; xref: jump from $9FF9
+    LDY $A11A
+    LDA ($FD),Y
+    BPL $9FB3                         ; Branch to L_9FB3
+    PLA
+    TAX
+    LDA $C000,X
+    CMP #$FE
+    BNE $A016                         ; Branch to L_A016
+    LDA #$04
+    BNE $A01F                         ; Branch to L_A01F
+$A016 L_A016:                         ; xref: branch from $A010
+    CMP #$FF
+    BNE $A01E                         ; Branch to L_A01E
+    LDA #$08
+    BNE $A01F                         ; Branch to L_A01F
+$A01E L_A01E:                         ; xref: branch from $A018
+    RTS
+$A01F L_A01F:                         ; xref: branch from $A014
+                                      ; xref: branch from $A01C
+    PHA
+    LDY #$88
+    STY $A11C
+    LDA #$1C
+    JSR $A03A                         ; Call SUB_A03A
+    PLA
+    JSR $A03A                         ; Call SUB_A03A
+    LDA #$1D
+    JSR $A03A                         ; Call SUB_A03A
+    RTS
+
+; === DATA SECTION ===
+
+; xref: read from $9FDA (L_9FDA)
+$A034                   .BYTE $1A                                                              ; "."
+; xref: read from $9FE6 (L_9FE6)
+$A035                   .BYTE $1E,$1B,$1F,$1C,$20                                              ; ".... "
+
+; === SUBROUTINE: SUB_A03A ===
+
+$A03A SUB_A03A:                       ; xref: call from $9FFF
+                                      ; xref: call from $A027
+                                      ; xref: call from $A02B
+                                      ; xref: call from $A030
+    ASL A
+    ASL A
+    ASL A
+    PHP
+    CLC
+    ADC #$A0
+    STA $A058
+    LDA #$00
+    ADC #$00
+    PLP
+    ADC #$D4
+    STA $A059
+    LDY $A11C
+    LDA #$34
+    STA $01
+    LDX #$00
+$A057 L_A057:                         ; xref: branch from $A060
+    LDA $D588,X                       ; xref+1: write from $A041  [instruction data modified]
+                                      ; xref+2: write from $A04B  [instruction data modified]
+    STA ($F7),Y
+    INY
+    INX
+    CPX #$08
+    BNE $A057                         ; Branch to L_A057
+    LDA #$35
+    STA $01
+    STY $A11C
+    RTS
+
+; === DATA SECTION ===
+
+; xref: read from $9F8D
+; xref: read from $A09A (SUB_A09A)
+$A06A                   .BYTE $90                                                              ; "."
+; xref: read from $9F92
+; xref: read from $A09F
+$A06B                   .BYTE $F0,$D0,$F1,$10,$F3                                              ; "....."
+$A070                   .BYTE $50,$F4,$90,$F5                                                  ; "P..."
+; xref: read from $A0AB
+$A074                   .BYTE $12                                                              ; "."
+; xref: read from $A0B0
+$A075                   .BYTE $FE,$3A,$FE,$62,$FE,$8A,$FE,$B2,$FE                              ; ".:.b....."
+; xref: read from $A0BA
+$A07E                   .BYTE $12                                                              ; "."
+; xref: read from $A0BF
+$A07F                   .BYTE $DA                                                              ; "."
+$A080                   .BYTE $3A,$DA,$62,$DA,$8A,$DA,$B2,$DA,$8A,$0A,$AA,$4C,$AB,$A0          ; ":.b........L.."
+
+; === SUBROUTINE: SUB_A08E ===
+
+$A08E SUB_A08E:                       ; xref: call from $9E1C (SUB_9E1C)
+    LDX #$00
+$A090 L_A090:                         ; xref: branch from $A097
+    JSR $A09A                         ; Call SUB_A09A
+    INX
+    INX
+    CPX #$0A
+    BNE $A090                         ; Branch to L_A090
+    RTS
+
+; === SUBROUTINE: SUB_A09A ===
+
+$A09A SUB_A09A:                       ; xref: call from $A090 (L_A090)
+    LDA $A06A,X
+    STA $F7
+    LDA $A06B,X
+    STA $F8
+    LDY #$9F
+    LDA #$00
+    JSR $A0C8
+    LDA $A074,X
+    STA $F7
+    LDA $A075,X
+    STA $F8
+    LDA #$3E
+    JSR $A0C6                         ; Call SUB_A0C6
+    LDA $A07E,X
+    STA $F7
+    LDA $A07F,X
+    STA $F8
+    LDA #$06
+
+; === SUBROUTINE: SUB_A0C6 ===
+
+$A0C6 SUB_A0C6:                       ; xref: call from $A0B7
+    LDY #$13
+$A0C8 L_A0C8:                         ; xref: call from $A0A8
+                                      ; xref: branch from $A0CD
+    STA ($F7),Y
+    DEY
+    CPY #$FF
+    BNE $A0C8                         ; Branch to L_A0C8
+    RTS
+
+; === SUBROUTINE: SUB_A0D0 ===
+
+$A0D0 SUB_A0D0:                       ; xref: call from $9F05
+    LDX #$9F
+$A0D2 L_A0D2:                         ; xref: branch from $A0F2
+    LDA $F1D0,X
+    STA $F090,X
+    LDA $F310,X
+    STA $F1D0,X
+    LDA $F450,X
+    STA $F310,X
+    LDA $F590,X
+    STA $F450,X
+    LDA #$00
+    STA $F590,X
+    DEX
+    CPX #$FF
+    BNE $A0D2                         ; Branch to L_A0D2
+    RTS
+
+; === SUBROUTINE: SUB_A0F5 ===
+
+$A0F5 SUB_A0F5:                       ; xref: call from $9F27
+    LDX #$9F
+$A0F7 L_A0F7:                         ; xref: branch from $A117
+    LDA $F450,X
+    STA $F590,X
+    LDA $F310,X
+    STA $F450,X
+    LDA $F1D0,X
+    STA $F310,X
+    LDA $F090,X
+    STA $F1D0,X
+    LDA #$00
+    STA $F090,X
+    DEX
+    CPX #$FF
+    BNE $A0F7                         ; Branch to L_A0F7
+    RTS
+
+; === DATA SECTION ===
+
+; xref: write from $9FB6
+; xref: read from $A002 (L_A002)
+$A11A                   .BYTE $06                                                              ; "."
+; xref: write from $9FB9
+; xref: read from $9FFC (L_9FFC)
+$A11B                   .BYTE $08                                                              ; "."
+; xref: write from $9FAF
+; xref: read from $9FF3
+; xref: write from $9FF6
+; xref: write from $A022
+; xref: read from $A04E
+; xref: write from $A066
+$A11C                   .BYTE $A0                                                              ; "."
+; xref: read from $9889
+; xref: write from $A275
+$A11D                   .BYTE $1F                                                              ; "."
+; xref: read from $989E
+; xref: write from $A27B
+$A11E                   .BYTE $06                                                              ; "."
+
+; === CODE SECTION ===
+
+$A11F L_A11F:                         ; xref: branch from $A14C
+    LDY $A1B0
+    JMP $A12C                         ; Jump to L_A12C
+
+; === SUBROUTINE: SUB_A125 ===
+
+$A125 SUB_A125:                       ; xref: call from $9B5C (L_9B5C)
+    LDA #$4A
+    STA $A16A
+    LDY #$00
+$A12C L_A12C:                         ; xref: jump from $A122
+                                      ; xref: branch from $A132
+                                      ; xref: jump from $A167
+    JSR $A434                         ; Call SUB_A434
+    JSR $A152                         ; Call SUB_A152
+    BEQ $A12C                         ; Branch to L_A12C
+$A134 L_A134:                         ; xref: branch from $A145
+    JSR $A434                         ; Call SUB_A434
+    LDA $DC01                         ; CIA1_PRB
+    AND #$01
+    BNE $A142                         ; Branch to L_A142
+    LDA $A16A
+    RTS
+$A142 L_A142:                         ; xref: branch from $A13C
+    JSR $A152                         ; Call SUB_A152
+    BNE $A134                         ; Branch to L_A134
+    JSR $A16B                         ; Call SUB_A16B
+    CPX #$FF
+    BEQ $A11F                         ; Branch to L_A11F
+    TXA
+    ADC #$41
+    RTS
+
+; === SUBROUTINE: SUB_A152 ===
+
+$A152 SUB_A152:                       ; xref: call from $9A73
+                                      ; xref: call from $A12F
+                                      ; xref: call from $A142 (L_A142)
+                                      ; xref: call from $A162 (L_A162)
+    LDA $DC00                         ; CIA1_PRA
+    AND $DC01                         ; CIA1_PRB
+    AND #$10
+    RTS
+
+; === SUBROUTINE: SUB_A15B ===
+
+$A15B SUB_A15B:                       ; xref: call from $9E51 (L_9E51)
+    LDA #$48
+    STA $A16A
+    LDY #$61
+$A162 L_A162:                         ; xref: branch from $A165
+    JSR $A152                         ; Call SUB_A152
+    BEQ $A162                         ; Branch to L_A162
+    JMP $A12C                         ; Jump to L_A12C
+
+; === DATA SECTION ===
+
+; xref: write from $A127
+; xref: read from $A13E
+; xref: write from $A15D
+$A16A                   .BYTE $4A                                                              ; "J"
+
+; === SUBROUTINE: SUB_A16B ===
+
+$A16B SUB_A16B:                       ; xref: call from $9E8D
+                                      ; xref: call from $A147
+    STY $A1B0
+$A16E L_A16E:                         ; xref: jump from $A1C7
+    LDA $A1CB,Y
+    BNE $A176                         ; Branch to L_A176
+    LDX #$FF
+    RTS
+$A176 L_A176:                         ; xref: branch from $A171
+    LDA $A421
+    CMP $A1CB,Y
+    BCC $A1C1                         ; Branch to L_A1C1
+    CMP $A1CC,Y
+    BCS $A1C1                         ; Branch to L_A1C1
+    LDA $A420
+    CMP $A1CE,Y
+    BEQ $A18F                         ; Branch to L_A18F
+    BCS $A197                         ; Branch to L_A197
+    BCC $A1C1                         ; Branch to L_A1C1
+$A18F L_A18F:                         ; xref: branch from $A189
+    LDA $A41F
+    CMP $A1CD,Y
+    BCC $A1C1                         ; Branch to L_A1C1
+$A197 L_A197:                         ; xref: branch from $A18B
+    LDA $A420
+    CMP $A1D0,Y
+    BEQ $A1A3                         ; Branch to L_A1A3
+    BCC $A1AB                         ; Branch to L_A1AB
+    BCS $A1C1                         ; Branch to L_A1C1
+$A1A3 L_A1A3:                         ; xref: branch from $A19D
+    LDA $A41F
+    CMP $A1CF,Y
+    BCS $A1C1                         ; Branch to L_A1C1
+$A1AB L_A1AB:                         ; xref: branch from $A19F
+    LDX #$00
+    TYA
+    SEC
+    SBC #$00                          ; xref+1: read from $A11F (L_A11F), write from $A16B (SUB_A16B)  [instruction data modified]
+    TAY
+$A1B2 L_A1B2:                         ; xref: jump from $A1BD
+    CPY #$00
+    BEQ $A1C0                         ; Branch to L_A1C0
+    DEY
+    DEY
+    DEY
+    DEY
+    DEY
+    DEY
+    INX
+    JMP $A1B2                         ; Jump to L_A1B2
+$A1C0 L_A1C0:                         ; xref: branch from $A1B4
+    RTS
+$A1C1 L_A1C1:                         ; xref: branch from $A17C
+                                      ; xref: branch from $A181
+                                      ; xref: branch from $A18D
+                                      ; xref: branch from $A195
+                                      ; xref: branch from $A1A1
+                                      ; xref: branch from $A1A9
+    INY
+    INY
+    INY
+    INY
+    INY
+    INY
+    JMP $A16E                         ; Jump to L_A16E
+
+; === DATA SECTION ===
+
+$A1CA                   .BYTE $00                                                              ; "."
+; xref: read from $A16E (L_A16E)
+; xref: read from $A179
+$A1CB                   .BYTE $04                                                              ; "."
+; xref: read from $A17E
+$A1CC                   .BYTE $12                                                              ; "."
+; xref: read from $A192
+$A1CD                   .BYTE $4C                                                              ; "L"
+; xref: read from $A186
+$A1CE                   .BYTE $00                                                              ; "."
+; xref: read from $A1A6
+$A1CF                   .BYTE $A0                                                              ; "."
+; xref: read from $A19A
+$A1D0                   .BYTE $00,$04,$12,$A0,$00,$F4,$00,$12,$22,$4C,$00,$A0,$00,$12,$22,$A0  ; "........"L...."."
+$A1E0                   .BYTE $00,$F4,$00,$22,$34,$4C,$00,$A0,$00,$22,$34,$A0,$00,$F4,$00,$34  ; "..."4L..."4....4"
+$A1F0                   .BYTE $44,$20,$00,$70,$00,$34,$44,$70,$00,$D0,$00,$34,$44,$D0,$00,$20  ; "D .p.4Dp...4D.. "
+$A200                   .BYTE $01,$1D,$29,$1C,$00,$42,$00,$08,$18,$0C,$01,$1C,$01,$10,$20,$1C  ; "..)..B........ ."
+$A210                   .BYTE $01,$2C,$01,$18,$28,$0C,$01,$1C,$01,$10,$20,$FC,$00,$0C,$01,$21  ; ".,..(..... ....!"
+$A220                   .BYTE $29,$1F,$01,$2F,$01,$29,$31,$1F,$01,$2F,$01,$00,$18,$20,$4C,$00  ; ")../.)1../... L."
+$A230                   .BYTE $F4,$00,$20,$28,$4C,$00,$F4,$00,$28,$30,$4C,$00,$F4,$00,$30,$38  ; ".. (L...(0L...08"
+$A240                   .BYTE $4C,$00,$F4,$00,$38,$40,$4C,$00,$F4,$00,$1B,$26,$FE,$00,$0D,$01  ; "L...8@L....&...."
+$A250                   .BYTE $28,$32,$FE,$00,$0D,$01,$1D,$29,$1C,$00,$42,$00,$00              ; "(2.....)..B.."
+
+; === SUBROUTINE: SUB_A25D ===
+
+$A25D SUB_A25D:                       ; xref: call from $98F1
+    LDA $A41E
+    CMP #$B0
+    BCS $A269                         ; Branch to L_A269
+    LDX #$00
+    JMP $A272                         ; Jump to L_A272
+$A269 L_A269:                         ; xref: branch from $A262
+    CMP #$B8
+    BCC $A26F                         ; Branch to L_A26F
+    LDA #$07
+$A26F L_A26F:                         ; xref: branch from $A26B
+    AND #$07
+    TAX
+$A272 L_A272:                         ; xref: jump from $A266
+    LDA $A285,X
+    STA $A11D
+    LDA $A28D,X
+    STA $A11E
+    LDA $A295,X
+    STA $98A6
+    RTS
+
+; === DATA SECTION ===
+
+; xref: read from $A272 (L_A272)
+$A285                   .BYTE $1F,$1E,$1C,$19,$17,$15,$15,$15                                  ; "........"
+; xref: read from $A278
+$A28D                   .BYTE $06,$06,$06                                                      ; "..."
+$A290                   .BYTE $07,$06,$06,$04,$04                                              ; "....."
+; xref: read from $A27E
+$A295                   .BYTE $03,$03,$03,$03,$03,$03,$02,$02                                  ; "........"
+
+; === SUBROUTINE: SUB_A29D ===
+
+$A29D SUB_A29D:                       ; xref: call from $98EE (L_98EE)
+    LDA $DC00                         ; CIA1_PRA
+    LSR A
+    BCS $A2BE                         ; Branch to L_A2BE
+    PHA
+    LDX $A422
+    INX
+    CPX #$09
+    BNE $A2AD                         ; Branch to L_A2AD
+    DEX
+$A2AD L_A2AD:                         ; xref: branch from $A2AA
+    STX $A422
+    LDA $A417
+    SEC
+    SBC $A422
+    STA $A417
+    PLA
+    JMP $A2C3                         ; Jump to L_A2C3
+$A2BE L_A2BE:                         ; xref: branch from $A2A1
+    LDX #$00
+    STX $A422
+$A2C3 L_A2C3:                         ; xref: jump from $A2BB
+    LSR A
+    BCS $A2E1                         ; Branch to L_A2E1
+    PHA
+    LDX $A423
+    INX
+    CPX #$09
+    BNE $A2D0                         ; Branch to L_A2D0
+    DEX
+$A2D0 L_A2D0:                         ; xref: branch from $A2CD
+    STX $A423
+    LDA $A417
+    CLC
+    ADC $A423
+    STA $A417
+    PLA
+    JMP $A2E6                         ; Jump to L_A2E6
+$A2E1 L_A2E1:                         ; xref: branch from $A2C4
+    LDX #$00
+    STX $A423
+$A2E6 L_A2E6:                         ; xref: jump from $A2DE
+    LSR A
+    BCS $A304                         ; Branch to L_A304
+    PHA
+    LDX $A424
+    INX
+    CPX #$09
+    BNE $A2F3                         ; Branch to L_A2F3
+    DEX
+$A2F3 L_A2F3:                         ; xref: branch from $A2F0
+    STX $A424
+    LDA $A416
+    SEC
+    SBC $A424
+    STA $A416
+    PLA
+    JMP $A309                         ; Jump to L_A309
+$A304 L_A304:                         ; xref: branch from $A2E7
+    LDX #$00
+    STX $A424
+$A309 L_A309:                         ; xref: jump from $A301
+    LSR A
+    BCS $A327                         ; Branch to L_A327
+    PHA
+    LDX $A425
+    INX
+    CPX #$09
+    BNE $A316                         ; Branch to L_A316
+    DEX
+$A316 L_A316:                         ; xref: branch from $A313
+    STX $A425
+    LDA $A416
+    CLC
+    ADC $A425
+    STA $A416
+    PLA
+    JMP $A32C                         ; Jump to L_A32C
+$A327 L_A327:                         ; xref: branch from $A30A
+    LDX #$00
+    STX $A425
+$A32C L_A32C:                         ; xref: jump from $A324
+    LDY $D419                         ; SID_POTX
+    TYA
+    EOR #$FF
+    TAY
+    LDA $A416
+    JSR $A3DD                         ; Call SUB_A3DD
+    STA $A416
+    STY $A418
+    LDA $A417
+    LDY $D41A                         ; SID_POTY
+    JSR $A3DD                         ; Call SUB_A3DD
+    STA $A417
+    STY $A419
+    LDA $A418
+    CLC
+    BPL $A36F                         ; Branch to L_A36F
+    ADC $A41F
+    STA $A41F
+    LDA $A420
+    SBC #$00
+    STA $A420
+    BCS $A36C                         ; Branch to L_A36C
+    LDA #$00
+    STA $A41F
+    STA $A420
+$A36C L_A36C:                         ; xref: branch from $A362
+    JMP $A390                         ; Jump to L_A390
+$A36F L_A36F:                         ; xref: branch from $A352
+    ADC $A41F
+    STA $A41F
+    LDA $A420
+    ADC #$00
+    STA $A420
+    BEQ $A390                         ; Branch to L_A390
+    LDA $A41F
+    CMP #$40
+    BCC $A390                         ; Branch to L_A390
+    LDA #$3F
+    STA $A41F
+    LDA #$01
+    STA $A420
+$A390 L_A390:                         ; xref: jump from $A36C (L_A36C)
+                                      ; xref: branch from $A37D
+                                      ; xref: branch from $A384
+    LDA $A41F
+    CLC
+    ADC #$18
+    STA $A41C
+    LDA $A420
+    ADC #$00
+    STA $A41D
+    LDA $A419
+    BMI $A3C0                         ; Branch to L_A3C0
+    LDA $A421
+    ADC $A419
+    STA $A421
+    BCS $A3B8                         ; Branch to L_A3B8
+    CMP #$40
+    BCS $A3B8                         ; Branch to L_A3B8
+    JMP $A3D3                         ; Jump to L_A3D3
+$A3B8 L_A3B8:                         ; xref: branch from $A3AF
+                                      ; xref: branch from $A3B3
+    LDA #$3F
+    STA $A421
+    JMP $A3D3                         ; Jump to L_A3D3
+$A3C0 L_A3C0:                         ; xref: branch from $A3A4
+    LDA $A421
+    ADC $A419
+    STA $A421
+    BCC $A3CE                         ; Branch to L_A3CE
+    JMP $A3D3                         ; Jump to L_A3D3
+$A3CE L_A3CE:                         ; xref: branch from $A3C9
+    LDA #$00
+    STA $A421
+$A3D3 L_A3D3:                         ; xref: jump from $A3B5
+                                      ; xref: jump from $A3BD
+                                      ; xref: jump from $A3CB
+    LDA $A421
+    CLC
+    ADC #$83
+    STA $A41E
+    RTS
+
+; === SUBROUTINE: SUB_A3DD ===
+
+$A3DD SUB_A3DD:                       ; xref: call from $A336
+                                      ; xref: call from $A345
+    STA $A41A
+    STY $A41B
+    SEC
+    SBC $A41B
+    AND #$7F
+    CMP #$40
+    BCC $A3FA                         ; Branch to L_A3FA
+    ORA #$C0
+    CMP #$FF
+    BEQ $A402                         ; Branch to L_A402
+    SEC
+    ROR A
+    TAY
+    LDA $A41B
+    RTS
+$A3FA L_A3FA:                         ; xref: branch from $A3EB
+    LSR A
+    BEQ $A402                         ; Branch to L_A402
+    TAY
+    LDA $A41B
+    RTS
+$A402 L_A402:                         ; xref: branch from $A3F1
+                                      ; xref: branch from $A3FB
+    LDY #$00
+    LDA $A41A
+    RTS
+
+; === DATA SECTION ===
+
+; xref: read from $990F
+$A408                   .BYTE $00,$13                                                          ; ".."
+; xref: read from $A426 (SUB_A426)
+$A40A                   .BYTE $0C,$0B,$0F,$0C,$0B,$0F                                          ; "......"
+$A410                   .BYTE $0F,$06,$03,$0E,$06,$03                                          ; "......"
+; xref: read from $A2F6
+; xref: write from $A2FD
+; xref: read from $A319
+; xref: write from $A320
+; xref: read from $A333
+; xref: write from $A339
+$A416                   .BYTE $00                                                              ; "."
+; xref: read from $A2B0
+; xref: write from $A2B7
+; xref: read from $A2D3
+; xref: write from $A2DA
+; xref: read from $A33F
+; xref: write from $A348
+$A417                   .BYTE $FF                                                              ; "."
+; xref: write from $A33C
+; xref: read from $A34E
+$A418                   .BYTE $00                                                              ; "."
+; xref: write from $A34B
+; xref: read from $A3A1
+; xref: read from $A3A9
+; xref: read from $A3C3
+$A419                   .BYTE $00                                                              ; "."
+; xref: write from $A3DD (SUB_A3DD)
+; xref: read from $A404
+$A41A                   .BYTE $FF                                                              ; "."
+; xref: write from $A3E0
+; xref: read from $A3E4
+; xref: read from $A3F6
+; xref: read from $A3FE
+$A41B                   .BYTE $FF                                                              ; "."
+; xref: read from $98F4
+; xref: write from $A396
+$A41C                   .BYTE $9C                                                              ; "."
+; xref: read from $990C
+; xref: write from $A39E
+$A41D                   .BYTE $00                                                              ; "."
+; xref: read from $9900
+; xref: read from $A25D (SUB_A25D)
+; xref: write from $A3D9
+$A41E                   .BYTE $A1                                                              ; "."
+; xref: read from $A18F (L_A18F)
+; xref: read from $A1A3 (L_A1A3)
+; xref: read from $A354
+; xref: write from $A357
+; xref: write from $A366
+; xref: read from $A36F (L_A36F)
+; xref: write from $A372
+; xref: read from $A37F
+; xref: write from $A388
+; xref: read from $A390 (L_A390)
+$A41F                   .BYTE $84                                                              ; "."
+; xref: read from $A183
+; xref: read from $A197 (L_A197)
+; xref: read from $A35A
+; xref: write from $A35F
+; xref: write from $A369
+; xref: read from $A375
+; xref: write from $A37A
+; xref: write from $A38D
+; xref: read from $A399
+$A420                   .BYTE $00                                                              ; "."
+; xref: read from $A176 (L_A176)
+; xref: read from $A3A6
+; xref: write from $A3AC
+; xref: write from $A3BA
+; xref: read from $A3C0 (L_A3C0)
+; xref: write from $A3C6
+; xref: write from $A3D0
+; xref: read from $A3D3 (L_A3D3)
+$A421                   .BYTE $1E                                                              ; "."
+; xref: read from $A2A4
+; xref: write from $A2AD (L_A2AD)
+; xref: read from $A2B4
+; xref: write from $A2C0
+$A422                   .BYTE $00                                                              ; "."
+; xref: read from $A2C7
+; xref: write from $A2D0 (L_A2D0)
+; xref: read from $A2D7
+; xref: write from $A2E3
+$A423                   .BYTE $00                                                              ; "."
+; xref: read from $A2EA
+; xref: write from $A2F3 (L_A2F3)
+; xref: read from $A2FA
+; xref: write from $A306
+$A424                   .BYTE $00                                                              ; "."
+; xref: read from $A30D
+; xref: write from $A316 (L_A316)
+; xref: read from $A31D
+; xref: write from $A329
+$A425                   .BYTE $00                                                              ; "."
+
+; === SUBROUTINE: SUB_A426 ===
+
+$A426 SUB_A426:                       ; xref: call from $98DF
+                                      ; xref: call from $98E4
+                                      ; xref: call from $98EB
+    LDA $A40A,Y
+    STA $D027,X                       ; VIC_SPR0_COL
+    TYA
+    CLC
+    ADC #$74
+    STA $FFF8,X
+    RTS
+
+; === SUBROUTINE: SUB_A434 ===
+
+$A434 SUB_A434:                       ; xref: call from $9C01 (SUB_9C01)
+                                      ; xref: call from $9C7F (SUB_9C7F)
+                                      ; xref: call from $9EEB (L_9EEB)
+                                      ; xref: call from $A12C (L_A12C)
+                                      ; xref: call from $A134 (L_A134)
+                                      ; xref: call from $A5E9
+    STY $A446
+$A437 L_A437:                         ; xref: jump from $1228 (L_1228)
+    LDY #$00
+    STY $A445
+$A43C L_A43C:                         ; xref: branch from $A43F
+    LDY $A445
+    BEQ $A43C                         ; Branch to L_A43C
+    LDY $A446
+    RTS
+
+; === DATA SECTION ===
+
+; xref: write from $98CA
+; xref: write from $A439
+; xref: read from $A43C (L_A43C)
+$A445                   .BYTE $00                                                              ; "."
+; xref: write from $A434 (SUB_A434)
+; xref: read from $A441
+$A446                   .BYTE $00,$D2,$F8                                                      ; "..."
+; xref: read from $A5F4
+$A449                   .BYTE $12,$EA,$C2,$9A,$72,$4A,$28                                      ; "....rJ("
+$A450                   .BYTE $00                                                              ; "."
+; xref: read from $A5FC
+$A451                   .BYTE $01,$00,$00,$00,$00,$00,$00,$00                                  ; "........"
+; xref: read from $A587
+$A459                   .BYTE $22,$23,$23,$23,$23,$23,$1A                                      ; ""#####."
+$A460                   .BYTE $16                                                              ; "."
+; xref: read from $A605
+$A461                   .BYTE $99                                                              ; "."
+; xref: read from $A60B
+$A462                   .BYTE $FD                                                              ; "."
+; xref: read from $A61B
+$A463                   .BYTE $99                                                              ; "."
+; xref: read from $A621
+$A464                   .BYTE $D9,$00,$28,$50,$78,$A0,$C8,$F0,$18,$00,$00,$00                  ; "..(Px......."
+$A470                   .BYTE $00,$00,$00,$00,$01,$16,$16,$16,$16,$16,$16,$16,$16,$31,$FC,$31  ; ".............1.1"
+$A480                   .BYTE $D8,$A2,$1B,$BC,$49,$A4,$BD,$65,$A4,$9D,$49,$A4,$98,$9D,$65,$A4  ; "....I..e..I...e."
+$A490                   .BYTE $CA,$10,$F0,$60                                                  ; "...`"
+; xref: read from $A584
+; xref: write from $A5F0 (L_A5F0)
+; xref: read from $A629
+$A494                   .BYTE $00                                                              ; "."
+; xref: read from $A5DD
+$A495                   .BYTE $F8                                                              ; "."
+; xref: read from $A5E3
+$A496                   .BYTE $A4,$31,$A5,$6A,$A5,$32,$A6,$A3,$A5,$46                          ; ".1.j.2...F"
+$A4A0                   .BYTE $A6                                                              ; "."
+; xref: write from $A4BB (L_A4BB)
+; xref: read from $A4DB
+; xref: write from $A4DB
+; xref: read from $A4DE
+; xref: write from $A4DE
+; xref: read from $A4E1 (L_A4E1)
+; xref: write from $A4E1 (L_A4E1)
+; xref: read from $A4E4
+; xref: read from $A5B8
+; xref: read from $A5CD
+$A4A1                   .BYTE $FF                                                              ; "."
+; xref: write from $A4C0
+; xref: read from $A4C6 (L_A4C6)
+; xref: read from $A4CC
+; xref: write from $A4CC
+; xref: read from $A4CF
+$A4A2                   .BYTE $03                                                              ; "."
+; xref: write from $A4AA (L_A4AA)
+; xref: read from $A4D6
+$A4A3                   .BYTE $01                                                              ; "."
+
+; === SUBROUTINE: SUB_A4A4 ===
+
+$A4A4 SUB_A4A4:                       ; xref: call from $9BDD
+                                      ; xref: call from $AFA6
+    LDA #$01
+    BNE $A4AA                         ; Branch to L_A4AA
+
+; === SUBROUTINE: SUB_A4A8 ===
+
+$A4A8 SUB_A4A8:                       ; xref: call from $9BD7
+    LDA #$00
+$A4AA L_A4AA:                         ; xref: branch from $A4A6
+    STA $A4A3
+    BNE $A4B9                         ; Branch to L_A4B9
+    LDA #$03
+    JSR $A5DB                         ; Call SUB_A5DB
+    LDX #$00
+    JMP $A4BB                         ; Jump to L_A4BB
+$A4B9 L_A4B9:                         ; xref: branch from $A4AD
+    LDX #$03
+$A4BB L_A4BB:                         ; xref: jump from $A4B6
+    STX $A4A1
+$A4BE L_A4BE:                         ; xref: jump from $A4EF
+    LDX #$00
+    STX $A4A2
+    JSR $A5B5                         ; Call SUB_A5B5
+$A4C6 L_A4C6:                         ; xref: branch from $A4D4
+    LDA $A4A2
+    JSR $A5DB                         ; Call SUB_A5DB
+    INC $A4A2
+    LDX $A4A2
+    CPX #$03
+    BNE $A4C6                         ; Branch to L_A4C6
+    LDA $A4A3
+    BEQ $A4E1                         ; Branch to L_A4E1
+    DEC $A4A1
+    DEC $A4A1
+$A4E1 L_A4E1:                         ; xref: branch from $A4D9
+    INC $A4A1
+    LDX $A4A1
+    CPX #$FF
+    BEQ $A4F7                         ; Branch to L_A4F7
+    CPX #$04
+    BEQ $A4F2                         ; Branch to L_A4F2
+    JMP $A4BE                         ; Jump to L_A4BE
+$A4F2 L_A4F2:                         ; xref: branch from $A4ED
+    LDA #$04
+    JSR $A5DB                         ; Call SUB_A5DB
+$A4F7 L_A4F7:                         ; xref: branch from $A4E9
+    RTS
+
+; === DATA SECTION ===
+
+$A4F8                   .BYTE $A5,$FD,$8D,$1B,$A5,$A5,$FE,$8D                                  ; "........"
+$A500                   .BYTE $1C,$A5,$A5,$FB,$8D,$23,$A5,$8D,$2B,$A5,$A5,$FC,$8D,$24,$A5,$8D  ; ".....#..+....$.."
+$A510                   .BYTE $2C,$A5,$AC,$94,$A4,$B9,$59,$A4,$A8,$88,$B9,$12,$FA,$0A,$0A,$29  ; ",.....Y........)"
+$A520                   .BYTE $3C,$AA,$B9,$AB,$DA,$29,$F0,$1D                                  ; "<....).."
+; xref: write from $A5BB
+$A528                   .BYTE $80                                                              ; "."
+; xref: write from $A5C5
+$A529                   .BYTE $FB,$99,$AB,$DA,$88,$10,$EA                                      ; "......."
+$A530                   .BYTE $60,$A5,$F7,$8D,$54,$A5,$A5,$F8,$8D,$55,$A5,$A5,$F9,$8D,$5C,$A5  ; "`...T....U....\."
+$A540                   .BYTE $8D,$64,$A5,$A5,$FA,$8D,$5D,$A5,$8D,$65,$A5,$AC,$94,$A4,$B9,$59  ; ".d....]..e.....Y"
+$A550                   .BYTE $A4,$A8,$88,$B9,$D2,$F8,$4A,$4A,$29,$3C,$AA,$B9,$AB,$FE,$29,$0F  ; "......JJ)<....)."
+$A560                   .BYTE $1D                                                              ; "."
+; xref: write from $A5D0
+$A561                   .BYTE $C0                                                              ; "."
+; xref: write from $A5D7
+$A562                   .BYTE $FB,$99,$AB,$FE,$88,$10,$EA,$60                                  ; ".......`"
+
+; === SUBROUTINE: SUB_A56A ===
+
+$A56A SUB_A56A:                       ; xref: call from $A626
+    LDA $F7
+    STA $A58D
+    LDA $F8
+    STA $A58E
+    LDA $F9
+    STA $A595
+    STA $A59D
+    LDA $FA
+    STA $A596
+    STA $A59E
+    LDY $A494
+    LDA $A459,Y
+    TAY
+    DEY
+$A58C L_A58C:                         ; xref: branch from $A5A0
+    LDA $F8D2,Y                       ; xref+1: write from $A56C  [instruction data modified]
+                                      ; xref+2: write from $A571  [instruction data modified]
+    ASL A
+    ASL A
+    AND #$3C
+    TAX
+    LDA $FEAB,Y                       ; xref+1: write from $A576  [instruction data modified]
+                                      ; xref+2: write from $A57E  [instruction data modified]
+    AND #$F0
+    ORA $FB80,X                       ; xref+1: write from $A5BE  [instruction data modified]
+                                      ; xref+2: write from $A5C8  [instruction data modified]
+    STA $FEAB,Y                       ; xref+1: write from $A579  [instruction data modified]
+                                      ; xref+2: write from $A581  [instruction data modified]
+    DEY
+    BPL $A58C                         ; Branch to L_A58C
+    RTS
+
+; === DATA SECTION ===
+
+$A5A3                   .BYTE $AC,$94,$A4,$B9,$59,$A4,$A8,$88,$A9,$00,$91,$F9,$91              ; "....Y........"
+$A5B0                   .BYTE $FB,$88,$10,$F9,$60                                              ; "....`"
+
+; === SUBROUTINE: SUB_A5B5 ===
+
+$A5B5 SUB_A5B5:                       ; xref: call from $A4C3
+    CLC
+    LDA #$80
+    ADC $A4A1
+    STA $A528
+    STA $A59A
+    LDA #$FB
+    ADC #$00
+    STA $A529
+    STA $A59B
+    LDA #$C0
+    ADC $A4A1
+    STA $A561
+    LDA #$FB
+    ADC #$00
+    STA $A562
+    RTS
+
+; === SUBROUTINE: SUB_A5DB ===
+
+$A5DB SUB_A5DB:                       ; xref: call from $A4B1
+                                      ; xref: call from $A4C9
+                                      ; xref: call from $A4F4
+                                      ; xref: call from $AF9B
+                                      ; xref: call from $AFA0
+    ASL A
+    TAX
+    LDA $A495,X
+    STA $A627
+    LDA $A496,X
+    STA $A628
+    JSR $A434                         ; Call SUB_A434
+    INC $02
+    LDY #$07
+$A5F0 L_A5F0:                         ; xref: branch from $A62D
+    STY $A494
+    CLC
+    LDA $A449,Y
+    TAX
+    ADC #$C0
+    STA $F7
+    LDA $A451,Y
+    TAY
+    ADC #$F7
+    STA $F8
+    TXA
+    ADC $A461
+    STA $F9
+    TYA
+    ADC $A462
+    STA $FA
+    TXA
+    ADC #$00
+    STA $FD
+    TYA
+    ADC #$F9
+    STA $FE
+    TXA
+    ADC $A463
+    STA $FB
+    TYA
+    ADC $A464
+    STA $FC
+    JSR $A56A                         ; Call SUB_A56A
+                                      ; xref+1: write from $A5E0  [instruction data modified]
+                                      ; xref+2: write from $A5E6  [instruction data modified]
+    LDY $A494
+    DEY
+    BPL $A5F0                         ; Branch to L_A5F0
+    DEC $02
+    RTS
+
+; === DATA SECTION ===
+
+$A632                   .BYTE $AC,$94,$A4,$B9,$59,$A4,$A8,$88,$B1,$F9,$91,$F7,$B1,$FB          ; "....Y........."
+$A640                   .BYTE $91,$FD,$88,$10,$F5,$60,$AC,$94,$A4,$B9,$59,$A4,$A8,$88,$B1,$F7  ; ".....`....Y....."
+$A650                   .BYTE $91,$F9,$B1,$FD,$91,$FB,$88,$10,$F5,$60                          ; ".........`"
+; xref: read from $A79F
+; xref: read from $A83E
+$A65A                   .BYTE $00                                                              ; "."
+; xref: read from $A8CC
+$A65B                   .BYTE $01,$00,$02,$0B,$03                                              ; "....."
+$A660                   .BYTE $00,$00,$00,$01,$00,$01,$00,$05,$00,$01,$00,$01,$00,$01,$00,$05  ; "................"
+$A670                   .BYTE $00,$01,$00,$01,$00,$01,$00,$05,$00,$01,$00,$01,$00,$06,$07,$04  ; "................"
+$A680                   .BYTE $00,$01,$00,$01,$00,$01,$00,$05,$00,$01,$00,$06,$07,$08,$0B,$03  ; "................"
+$A690                   .BYTE $00,$01,$00,$01,$00,$02,$0B,$03,$00,$01,$09,$0A,$09,$09,$09,$09  ; "................"
+$A6A0                   .BYTE $01,$01,$09,$0A,$09,$09,$09,$09,$01,$01                          ; ".........."
+; xref: read from $A7A2
+$A6AA                   .BYTE $00,$07,$1E,$35,$4C,$63                                          ; "...5Lc"
+$A6B0                   .BYTE $7A,$91,$97,$A5,$A9,$C0                                          ; "z....."
+; xref: read from $A7AC
+$A6B6                   .BYTE $00,$89,$01,$02,$89,$03,$FF,$04,$09,$0A                          ; ".........."
+$A6C0                   .BYTE $09,$0A,$0B,$0C,$09,$0C,$09,$05,$06,$09,$0A,$09,$0A,$0B,$0C,$09  ; "................"
+$A6D0                   .BYTE $0C,$09,$07,$FF,$08,$09,$0A,$09,$0A,$0B,$0C,$09,$0C,$09,$05,$06  ; "................"
+$A6E0                   .BYTE $09,$0A,$09,$0A,$0B,$0C,$09,$0C,$09,$08,$FF,$0F,$0F,$0F,$0F,$0F  ; "................"
+$A6F0                   .BYTE $0F,$0F,$0F,$10,$11,$12,$13,$14,$15,$0F,$0F,$0F,$0F,$0F,$0F,$0F  ; "................"
+$A700                   .BYTE $0F,$FF,$0D,$0F,$0F,$0F,$0F,$0F,$0F,$0F,$10,$11,$12,$13,$14,$15  ; "................"
+$A710                   .BYTE $0F,$0F,$0F,$0F,$0F,$0F,$0F,$0F,$FF,$0D,$0F,$0F,$0F,$0F,$0F,$0F  ; "................"
+$A720                   .BYTE $0F,$10,$11,$12,$13,$14,$15,$0F,$0F,$0F,$0F,$0F,$0F,$0F,$0E,$FF  ; "................"
+$A730                   .BYTE $04,$09,$0A,$09,$0A,$0B,$0C,$09,$0C,$09,$05,$06,$09,$0A,$09,$0A  ; "................"
+$A740                   .BYTE $0B,$0C,$09,$0C,$09,$08,$FF,$00,$89,$01,$02,$8A,$FF,$08,$09,$0A  ; "................"
+$A750                   .BYTE $09,$0A,$0B,$0C,$09,$0C,$09,$05,$06,$8A,$FF,$00,$94,$03,$FF,$04  ; "................"
+$A760                   .BYTE $09,$0A,$09,$0A,$0B,$0C,$09,$0C,$09,$0A,$0C,$09,$0A,$09,$0A,$0B  ; "................"
+$A770                   .BYTE $0C,$09,$0C,$09,$07,$FF,$96,$FF                                  ; "........"
+; xref: read from $9BED
+; xref: read from $A841
+; xref: write from $A849 (L_A849)
+; xref: write from $AF88
+$A778                   .BYTE $00                                                              ; "."
+; xref: read from $A8CF
+; xref: write from $A8D5 (L_A8D5)
+; xref: write from $AF8B
+$A779                   .BYTE $00                                                              ; "."
+
+; === SUBROUTINE: music_build_display_resources ===
+
+; --------------------------------------------------------
+; Music/AV resource setup for the current area or soundtrack selection.
+; Builds or copies display/music support data into high-memory buffers and triggers follow-up music resource loading via $A92B.
+; --------------------------------------------------------
+$A77A music_build_display_resources:  ; xref: call from $9BE4
+    ASL A
+    ASL A
+    ASL A
+    STA $A799
+    LDA #$08
+    STA $F7
+    LDA #$EE
+    STA $F8
+    LDA #$E8
+    STA $F9
+    LDA #$F7
+    STA $FA
+    LDA #$28
+    STA $FB
+    LDA #$F9
+    STA $FC
+$A798 L_A798:                         ; xref: jump from $A838
+    LDX #$06                          ; xref+1: write from $A77D, read from $A82C, write from $A82C, read from $A82F, read from $A83B (L_A83B), read from $A8C9 (L_A8C9)  [instruction data modified]
+    LDA #$00
+    STA $AAB0
+    LDY $A65A,X
+    LDA $A6AA,Y
+    TAX
+$A7A6 L_A7A6:                         ; xref: jump from $A802
+    STX $AAB1
+    LDY $AAB0
+    LDA $A6B6,X
+    BPL $A7C8                         ; Branch to L_A7C8
+    CMP #$FF
+    BEQ $A805                         ; Branch to L_A805
+    AND #$7F
+    TAX
+$A7B8 L_A7B8:                         ; xref: branch from $A7C0
+    LDA #$00
+    STA ($F9),Y
+    STA ($FB),Y
+    INY
+    DEX
+    BNE $A7B8                         ; Branch to L_A7B8
+    STY $AAB0
+    JMP $A7FE                         ; Jump to L_A7FE
+$A7C8 L_A7C8:                         ; xref: branch from $A7AF
+    LDX #$00
+    STX $FE
+    ASL A
+    ASL A
+    ASL A
+    ROL $FE
+    CLC
+    ADC #$D0
+    STA $FD
+    LDA $FE
+    ADC #$D5
+    STA $FE
+    LDA #$0F
+    STA ($FB),Y
+    LDA #$BC
+    STA ($F9),Y
+    TYA
+    ASL A
+    ASL A
+    ASL A
+    STA $AAAF
+    TAY
+    SEC
+    LDA $FD
+    SBC $AAAF
+    STA $FD
+    BCS $A7F8                         ; Branch to L_A7F8
+    DEC $FE
+$A7F8 L_A7F8:                         ; xref: branch from $A7F4
+    JSR $A8E8                         ; Call SUB_A8E8
+    INC $AAB0
+$A7FE L_A7FE:                         ; xref: jump from $A7C5
+    LDX $AAB1
+    INX
+    JMP $A7A6                         ; Jump to L_A7A6
+$A805 L_A805:                         ; xref: branch from $A7B3
+    CLC
+    LDA $F7
+    ADC #$40
+    STA $F7
+    LDA $F8
+    ADC #$01
+    STA $F8
+    CLC
+    LDA $F9
+    ADC #$28
+    STA $F9
+    LDA $FA
+    ADC #$00
+    STA $FA
+    CLC
+    LDA $FB
+    ADC #$28
+    STA $FB
+    LDA $FC
+    ADC #$00
+    STA $FC
+    INC $A799
+    LDA $A799
+    AND #$07
+    CMP #$06
+    BCS $A83B                         ; Branch to L_A83B
+    JMP $A798                         ; Jump to L_A798
+$A83B L_A83B:                         ; xref: branch from $A836
+    LDX $A799
+    LDA $A65A,X
+    CMP $A778
+    BNE $A849                         ; Branch to L_A849
+    JMP $A8C9                         ; Jump to L_A8C9
+$A849 L_A849:                         ; xref: branch from $A844
+    STA $A778
+    CMP #$00
+    BEQ $A88E                         ; Branch to L_A88E
+    LDX #$0F
+    LDA #$34
+    STA $01
+$A856 L_A856:                         ; xref: branch from $A86F
+    LDA $D680,X                       ; SID_V1_FREQ_LO
+    STA $F698,X
+    LDA $D698,X                       ; SID_VOLUME
+    STA $F6E8,X
+    LDA $D6A8,X
+    STA $F748,X
+    LDA $D6C0,X
+    STA $F798,X
+    DEX
+    BPL $A856                         ; Branch to L_A856
+    LDX #$07
+$A873 L_A873:                         ; xref: branch from $A880
+    LDA $D690,X
+    STA $F6C8,X
+    LDA $D6B8,X
+    STA $F770,X
+    DEX
+    BPL $A873                         ; Branch to L_A873
+    LDA #$35
+    STA $01
+    LDA #$4C
+    JSR $A92B                         ; Call music_load_resource_sequence
+    JMP $A8C9                         ; Jump to L_A8C9
+$A88E L_A88E:                         ; xref: branch from $A84E
+    LDA #$34
+    STA $01
+    LDX #$0F
+$A894 L_A894:                         ; xref: branch from $A8AD
+    LDA $D6D0,X                       ; SID_V3_PW_LO
+    STA $F698,X
+    LDA $D6E8,X                       ; SID_V2_FREQ_HI
+    STA $F6E8,X
+    LDA $D6F8,X
+    STA $F748,X
+    LDA $D710,X
+    STA $F798,X
+    DEX
+    BPL $A894                         ; Branch to L_A894
+    LDX #$07
+$A8B1 L_A8B1:                         ; xref: branch from $A8BE
+    LDA $D6E0,X
+    STA $F6C8,X
+    LDA $D708,X
+    STA $F770,X
+    DEX
+    BPL $A8B1                         ; Branch to L_A8B1
+    LDA #$35
+    STA $01
+    LDA #$10
+    JSR $A92B                         ; Call music_load_resource_sequence
+$A8C9 L_A8C9:                         ; xref: jump from $A846
+                                      ; xref: jump from $A88B
+    LDX $A799
+    LDA $A65B,X
+    CMP $A779
+    BNE $A8D5                         ; Branch to L_A8D5
+    RTS
+$A8D5 L_A8D5:                         ; xref: branch from $A8D2
+    STA $A779
+    CMP #$00
+    BEQ $A8E2                         ; Branch to L_A8E2
+    LDA #$72
+    JSR $A92B                         ; Call music_load_resource_sequence
+    RTS
+$A8E2 L_A8E2:                         ; xref: branch from $A8DA
+    LDA #$00
+    JSR $A92B                         ; Call music_load_resource_sequence
+    RTS
+
+; === SUBROUTINE: SUB_A8E8 ===
+
+$A8E8 SUB_A8E8:                       ; xref: call from $A7F8 (L_A7F8)
+                                      ; xref: call from $A9DA
+    LDA #$34
+    STA $01
+    LDA ($FD),Y
+    STA ($F7),Y
+    INY
+    LDA ($FD),Y
+    STA ($F7),Y
+    INY
+    LDA ($FD),Y
+    STA ($F7),Y
+    INY
+    LDA ($FD),Y
+    STA ($F7),Y
+    INY
+    LDA ($FD),Y
+    STA ($F7),Y
+    INY
+    LDA ($FD),Y
+    STA ($F7),Y
+    INY
+    LDA ($FD),Y
+    STA ($F7),Y
+    INY
+    LDA ($FD),Y
+    STA ($F7),Y
+    LDA #$35
+    STA $01
+    RTS
+
+; === DATA SECTION ===
+
+$A918                   .BYTE $8A,$48,$98,$48,$A2,$00,$A0,$00                                  ; ".H.H...."
+$A920                   .BYTE $88,$D0,$FD,$CA,$D0,$FA,$68,$A8,$68,$AA,$60                      ; "......h.h.`"
+
+; === SUBROUTINE: music_load_resource_sequence ===
+
+; --------------------------------------------------------
+; Load a music/display resource sequence from tables near $AA2C.
+; Walks descriptor tables, copies pattern/control data into display-side buffers, and chains to additional entries when required.
+; --------------------------------------------------------
+$A92B music_load_resource_sequence:   ; xref: call from $A888
+                                      ; xref: call from $A8C6
+                                      ; xref: call from $A8DE
+                                      ; xref: call from $A8E4
+                                      ; xref: jump from $AA06
+    STA $AAB1
+    LDA #$C8
+    STA $F7
+    LDA #$EE
+    STA $F8
+    LDA #$40
+    STA $FB
+    LDA #$F9
+    STA $FC
+    LDA #$00
+    STA $F9
+    LDA #$F8
+    STA $FA
+    LDX $AAB1
+    LDA $AA2C,X
+    BMI $A980                         ; Branch to L_A980
+    LDA #$00
+    STA $FE
+    LDA $AA2E,X
+    PHP                               ; xref: read from $540C
+    STA $A9AC
+    AND #$7F
+    STA $A99B                         ; xref+1: read from $5C9C  [instruction data modified]
+    ASL A
+    ROL $FE
+    ASL A                             ; xref: read from $6120
+    ROL $FE
+    ASL A
+    ROL $FE
+    LDX $FE
+    PLP
+    CLC
+    BMI $A976                         ; Branch to L_A976
+    ADC #$D0
+    TAY
+
+; === SUBROUTINE: SUB_A970 ===
+
+$A970 SUB_A970:                       ; xref: call from $3B94 (ENTRY_3B94)
+    TXA
+    ADC #$D5
+    JMP $A97C                         ; Jump to L_A97C
+$A976 L_A976:                         ; xref: branch from $A96B
+    ADC #$70
+    TAY
+    TXA
+    ADC #$D5
+$A97C L_A97C:                         ; xref: jump from $A973
+    STY $FD
+    STA $FE
+$A980 L_A980:                         ; xref: branch from $A94C
+    LDX $AAB1
+    LDY $AA2D,X
+    STY $A99D
+    BEQ $A991                         ; Branch to L_A991
+$A98B L_A98B:                         ; xref: branch from $A98F
+    JSR $AA0A                         ; Call SUB_AA0A
+    DEY
+    BNE $A98B                         ; Branch to L_A98B
+$A991 L_A991:                         ; xref: branch from $A989
+    LDY $AAB1
+    LDA $AA2C,Y
+    STA $AAB0
+$A99A L_A99A:                         ; xref: branch from $A9F3
+    LDY #$50                          ; xref+1: write from $A95B, read from $A9CD, write from $A9CD  [instruction data modified]
+    LDX #$88                          ; xref+1: write from $A986, read from $A9D0, write from $A9D0  [instruction data modified]
+    BIT $AAB0
+    BPL $A9AB                         ; Branch to L_A9AB
+    LDA #$00
+    STA $F800,X
+    JMP $A9CA                         ; Jump to L_A9CA
+$A9AB L_A9AB:                         ; xref: branch from $A9A1
+    LDA #$C8                          ; xref+1: write from $A956  [instruction data modified]
+    BMI $A9B9                         ; Branch to L_A9B9
+    LDA #$BC
+    STA $F800,X
+    LDA #$0F
+    JMP $A9CA                         ; Jump to L_A9CA
+$A9B9 L_A9B9:                         ; xref: branch from $A9AD
+    LDA #$34
+    STA $01
+    LDA $D928,Y
+    STA $F800,X
+    LDA $D967,Y
+    LDY #$35
+    STY $01
+$A9CA L_A9CA:                         ; xref: jump from $A9A8
+                                      ; xref: jump from $A9B6
+    STA $F940,X
+    INC $A99B
+    INC $A99D
+    LDY #$00
+    BIT $AAB0
+    BMI $A9DD                         ; Branch to L_A9DD
+    JSR $A8E8                         ; Call SUB_A8E8
+$A9DD L_A9DD:                         ; xref: branch from $A9D8
+    JSR $AA0A                         ; Call SUB_AA0A
+    LDA #$08
+    LDX #$FD
+    JSR $AA1B                         ; Call SUB_AA1B
+    DEC $AAB0
+    LDA $AAB0
+    CMP #$7F
+    BEQ $A9F8                         ; Branch to L_A9F8
+    CMP #$00
+    BNE $A99A                         ; Branch to L_A99A
+    LDA #$03
+    BIT $02A9                         ; xref+1: branch from $A9EF  [instruction data modified]
+    CLC
+    ADC $AAB1
+    TAX
+    LDY $AA2C,X
+    CPY #$FF
+    BEQ $AA09                         ; Branch to L_AA09
+    JMP $A92B                         ; Jump to music_load_resource_sequence
+$AA09 L_AA09:                         ; xref: branch from $AA04
+    RTS
+
+; === SUBROUTINE: SUB_AA0A ===
+
+$AA0A SUB_AA0A:                       ; xref: call from $A98B (L_A98B)
+                                      ; xref: call from $A9DD (L_A9DD)
+    LDA #$08
+    LDX #$F7
+    JSR $AA1B                         ; Call SUB_AA1B
+    LDX #$F9
+    JSR $AA25
+    LDX #$FB
+    JMP $AA25                         ; Jump to L_AA25
+
+; === SUBROUTINE: SUB_AA1B ===
+
+$AA1B SUB_AA1B:                       ; xref: call from $A9E4
+                                      ; xref: call from $AA0E
+    CLC
+    ADC $00,X
+    STA $00,X
+    BCC $AA24                         ; Branch to L_AA24
+    INC $01,X
+$AA24 L_AA24:                         ; xref: branch from $AA20
+                                      ; xref: branch from $AA27
+    RTS
+$AA25 L_AA25:                         ; xref: call from $AA13
+                                      ; xref: jump from $AA18
+    INC $00,X
+    BNE $AA24                         ; Branch to L_AA24
+    INC $01,X
+    RTS
+
+; === DATA SECTION ===
+
+; --------------------------------------------------------
+; Music/display resource descriptor table used by $A92B.
+; Entries appear to select source blocks and sequencing information for the soundtrack/display resource loader.
+; --------------------------------------------------------
+; xref: read from $A949
+; xref: read from $A994
+; xref: read from $A9FF
+$AA2C                   .BYTE $04                                                              ; "."
+; xref: read from $A983
+$AA2D                   .BYTE $0B                                                              ; "."
+; xref: read from $A952
+$AA2E                   .BYTE $C0,$85                                                          ; ".."
+$AA30                   .BYTE $32,$85,$5A,$04,$33,$C4,$02,$5C,$C8,$85,$82,$FF,$02,$AE,$14,$02  ; "2.Z.3..\........"
+$AA40                   .BYTE $C6,$10,$83,$9E,$01,$AD,$2E,$01,$C8,$2E,$82,$76,$02,$AB,$10,$02  ; "...........v...."
+$AA50                   .BYTE $C9,$14,$82,$4E,$01,$AA,$2F,$01,$CB,$30,$A1,$D2,$02,$D2,$2A,$02  ; "...N../..0....*."
+$AA60                   .BYTE $DC,$01,$02,$E8,$01,$02,$F2,$2C,$03,$00,$CA,$07,$26,$CD,$07,$4E  ; ".......,....&..N"
+$AA70                   .BYTE $D4,$05,$78,$DB,$03,$A2,$E0,$FF,$81,$00,$86,$26,$01,$02,$FE,$03  ; "..x........&...."
+$AA80                   .BYTE $4E,$F2,$83,$51,$03,$76,$F5,$83,$79,$03,$9E,$F8,$83,$A1,$03,$C6  ; "N..Q.v..y......."
+$AA90                   .BYTE $FB,$85,$AA,$83,$C9,$A1,$D2,$01,$D8,$00,$01,$ED,$03,$FF,$85,$0A  ; "................"
+$AAA0                   .BYTE $83,$5B,$06,$32,$E6,$01,$5A,$E5,$01,$5F,$E5,$06,$82,$EC,$FF      ; ".[.2..Z.._....."
+; xref: write from $A7E8
+; xref: read from $A7EF
+$AAAF                   .BYTE $A8                                                              ; "."
+; xref: write from $A79C
+; xref: read from $A7A9
+; xref: write from $A7C2
+; xref: read from $A7FB
+; xref: write from $A7FB
+; xref: write from $A997
+; xref: read from $A99E
+; xref: read from $A9D5
+; xref: read from $A9E7
+; xref: write from $A9E7
+; xref: read from $A9EA
+$AAB0                   .BYTE $7F                                                              ; "."
+; xref: write from $A7A6 (L_A7A6)
+; xref: read from $A7FE (L_A7FE)
+; xref: write from $A92B (music_load_resource_sequence)
+; xref: read from $A946
+; xref: read from $A980 (L_A980)
+; xref: read from $A991 (L_A991)
+; xref: read from $A9FB
+$AAB1                   .BYTE $0D                                                              ; "."
+; xref: read from $965A
+; xref: write from $97E5
+; xref: read from $97F6
+; xref: read from $9AB8 (SUB_9AB8)
+; xref: read from $9B42 (SUB_9B42)
+; xref: write from $9BBF
+; xref: write from $AF90
+$AAB2                   .BYTE $00                                                              ; "."
+; xref: write from $965D
+; xref: read from $97E2
+; xref: write from $97EA
+; xref: write from $97F9
+; xref: write from $9ABB
+; xref: write from $9AEF
+; xref: write from $9B45
+; xref: read from $9B4B (L_9B4B)
+; xref: write from $9BBC
+; xref: read from $9BCC (SUB_9BCC)
+; xref: read from $9BE1 (SUB_9BE1)
+; xref: read from $9BE7
+; xref: write from $AF93
+$AAB3                   .BYTE $00                                                              ; "."
+; xref: read from $9BCF
+; xref: write from $9BD4
+; xref: write from $AF96
+$AAB4                   .BYTE $00                                                              ; "."
+; xref: read from $AD7C
+$AAB5                   .BYTE $E4                                                              ; "."
+; xref: read from $AD86
+$AAB6                   .BYTE $F7,$EF,$F7,$34,$F8,$3F,$F8,$84,$F8,$8F                          ; "...4.?...."
+$AAC0                   .BYTE $F8,$D1,$F8,$DC,$F8,$E6,$F8,$56,$F8                              ; ".......V."
+; xref: read from $AD8F
+$AAC9                   .BYTE $00                                                              ; "."
+; xref: read from $AD94
+$AACA                   .BYTE $EE,$58,$EE,$80,$F0,$D8                                          ; ".X...."
+$AAD0                   .BYTE $F0,$00,$F3,$58,$F3,$68,$F5,$C0,$F5,$10,$F6,$90,$F1              ; "...X.h......."
+; xref: read from $AD62
+$AADD                   .BYTE $F3                                                              ; "."
+; xref: read from $AD67
+$AADE                   .BYTE $AA,$1B                                                          ; ".."
+$AAE0                   .BYTE $AB,$58,$AB,$9A,$AB,$CA,$AB,$16,$AC,$56,$AC,$7A,$AC,$0A,$AD,$1D  ; ".X.......V.z...."
+$AAF0                   .BYTE $AD,$32,$AD,$80,$C3,$47,$45,$47,$45,$4E,$53,$54,$5B,$81,$C2,$4D  ; ".2...GEGENST[..M"
+$AB00                   .BYTE $41,$4E,$49,$50,$55,$4C,$5B,$4E,$82,$C3,$41,$4B,$54,$49,$4F,$4E  ; "ANIPUL[N..AKTION"
+$AB10                   .BYTE $83,$C2,$55,$4D,$47,$45,$42,$55,$4E,$47,$FF                      ; "..UMGEBUNG."
+; xref: read from $9D07
+; xref: read from $9D1E (L_9D1E)
+$AB1B                   .BYTE $80,$C4,$4E,$49,$4D                                              ; "..NIM"
+$AB20                   .BYTE $4D,$81,$C2,$56,$45,$52,$4C,$49,$45,$52,$45,$82,$C2,$42,$45,$54  ; "M..VERLIERE..BET"
+$AB30                   .BYTE $52,$41,$43,$48,$54,$45,$83,$C2,$49,$4E,$56,$45,$4E,$54,$41,$52  ; "RACHTE..INVENTAR"
+$AB40                   .BYTE $84,$C2,$5A,$45,$52,$53,$54,$60,$52,$45,$85,$C4,$57,$45,$4E,$44  ; "..ZERST`RE..WEND"
+$AB50                   .BYTE $45,$89,$C2,$4D,$45,$4E,$61,$FF,$80,$C4,$60,$46,$46,$4E,$45,$81  ; "E..MENa...`FFNE."
+$AB60                   .BYTE $C2,$53,$43,$48,$4C,$49,$45,$53,$53,$45,$82,$C2,$56,$45,$52,$52  ; ".SCHLIESSE..VERR"
+$AB70                   .BYTE $49,$45,$47,$4C,$45,$83,$C2,$45,$4E,$54,$52,$49,$45,$47,$4C,$45  ; "IEGLE..ENTRIEGLE"
+$AB80                   .BYTE $84,$C2,$42,$45,$46,$45,$53,$54,$49,$47,$45,$85,$C3,$42,$45,$57  ; "..BEFESTIGE..BEW"
+$AB90                   .BYTE $45,$47,$45,$89,$C2,$4D,$45,$4E,$61,$FF,$80,$C4,$44,$52,$61,$43  ; "EGE..MENa...DRaC"
+$ABA0                   .BYTE $4B,$45,$81,$C4,$5A,$49,$45,$48,$45,$82,$C4,$53,$50,$52,$49,$43  ; "KE..ZIEHE..SPRIC"
+$ABB0                   .BYTE $48,$83,$C5,$47,$49,$42,$84,$C5,$48,$49,$4C,$46,$85,$C4,$57,$41  ; "H..GIB..HILF..WA"
+$ABC0                   .BYTE $52,$54,$45,$89,$C2,$4D,$45,$4E,$61,$FF,$80,$C4,$53,$43,$48,$41  ; "RTE..MENa...SCHA"
+$ABD0                   .BYTE $55,$81,$C2,$41,$55,$53,$47,$5F,$4E,$47,$45,$82,$C3,$42,$45,$54  ; "U..AUSG_NGE..BET"
+$ABE0                   .BYTE $52,$49,$54,$54,$83,$C2,$56,$45,$52,$4C,$41,$53,$53,$45,$84,$C4  ; "RITT..VERLASSE.."
+$ABF0                   .BYTE $47,$52,$41,$42,$45,$89,$C2,$4D,$45,$4E,$61,$FF,$00,$43,$52,$45  ; "GRABE..MENa..CRE"
+$AC00                   .BYTE $44,$49,$54,$53,$A0,$00,$47,$52,$41,$42,$45,$A0,$00,$53,$43,$48  ; "DITS..GRABE..SCH"
+$AC10                   .BYTE $4C,$49,$45,$1E,$45,$FF,$80,$C4,$50,$55,$4E,$4B,$54,$45,$81,$C3  ; "LIE.E...PUNKTE.."
+$AC20                   .BYTE $4C,$60,$53,$55,$4E,$47,$82,$C2,$61,$42,$45,$52,$20,$53,$5B,$43  ; "L`SUNG..aBER S[C"
+$AC30                   .BYTE $5B,$83,$C3,$43,$52,$45,$44,$49,$54,$53,$84,$C2,$4E,$45,$55,$53  ; "[..CREDITS..NEUS"
+$AC40                   .BYTE $54,$41,$52,$54,$85,$C2,$53,$50,$49,$45,$4C,$45,$4E,$44,$45,$89  ; "TART..SPIELENDE."
+$AC50                   .BYTE $C2,$4D,$45,$4E,$61,$FF,$80,$C2,$53,$50,$45,$49,$43,$48,$45,$52  ; ".MENa...SPEICHER"
+$AC60                   .BYTE $4E,$81,$C4,$4C,$41,$44,$45,$4E,$82,$C2,$49,$4E,$53,$54,$41,$4C  ; "N..LADEN..INSTAL"
+$AC70                   .BYTE $4C,$5B,$4E,$89,$C2,$4D,$45,$4E,$61,$FF,$80,$C2,$4B,$55,$52,$5A  ; "L[N..MENa...KURZ"
+$AC80                   .BYTE $54,$45,$58,$54,$81,$C2,$41,$55,$53,$46,$61,$48,$52,$4C,$5B,$82  ; "TEXT..AUSFaHRL[."
+$AC90                   .BYTE $C2,$4D,$55,$53,$49,$4B,$83,$C2,$53,$49,$44,$4D,$4F,$44,$55,$53  ; ".MUSIK..SIDMODUS"
+$ACA0                   .BYTE $89,$C2,$4D,$45,$4E,$61,$FF,$00,$4E,$4F,$52,$44,$45,$4E,$A0,$00  ; "..MENa..NORDEN.."
+$ACB0                   .BYTE $4F,$53,$54,$45,$4E,$A0,$00,$53,$61,$44,$45,$4E,$A0,$00,$57,$45  ; "OSTEN..SaDEN..WE"
+$ACC0                   .BYTE $53,$54,$45,$4E,$A0,$00,$48,$49,$4E,$41,$55,$46,$A0,$00,$48,$49  ; "STEN..HINAUF..HI"
+$ACD0                   .BYTE $4E,$55,$4E,$54,$45,$52,$A0,$00,$57,$45,$4E,$44,$45,$A0,$00,$5C  ; "NUNTER..WENDE..\"
+$ACE0                   .BYTE $46,$46,$4E,$45,$A0,$00,$5D,$42,$45,$52,$25,$2B,$2E,$2D,$A0,$00  ; "FFNE..]BER%+.-.."
+$ACF0                   .BYTE $49,$4E,$53,$54,$41,$4C,$4C,$49,$45,$52,$45,$4E,$A0,$00,$41,$55  ; "INSTALLIEREN..AU"
+$AD00                   .BYTE $53,$46,$5D,$48,$52,$4C,$49,$43,$48,$A0,$80,$C7,$44,$55,$20,$53  ; "SF]HRLICH...DU S"
+$AD10                   .BYTE $49,$45,$48,$53,$54,$5C,$89,$C2,$44,$45,$4C,$5B,$FF,$80,$C6,$53  ; "IEHST\..DEL[...S"
+$AD20                   .BYTE $50,$49,$45,$4C,$53,$54,$5F,$4E,$44,$45,$5C,$89,$C2,$42,$52,$4B  ; "PIELST_NDE\..BRK"
+$AD30                   .BYTE $5B,$FF,$86,$C2,$53,$50,$49,$45,$4C,$87,$C2,$44,$49,$53,$4B,$88  ; "[...SPIEL..DISK."
+$AD40                   .BYTE $C2,$53,$50,$45,$5A,$49,$41,$4C,$FF                              ; ".SPEZIAL."
+; xref: write from $ADF7
+; xref: read from $AE0C
+$AD49                   .BYTE $09                                                              ; "."
+; xref: read from $9FBE (L_9FBE)
+; xref: read from $9FC5
+; xref: read from $9FD0
+$AD4A                   .BYTE $5B,$5F,$5C,$60,$5D,$61                                          ; "[_\`]a"
+$AD50                   .BYTE $5E,$62,$DE,$62,$9E,$62,$1E,$62,$2D,$63,$2E,$5B,$3A,$5C,$80,$80  ; "^b.b.b.b-c.[:\.."
+
+; === SUBROUTINE: SUB_AD60 ===
+
+$AD60 SUB_AD60:                       ; xref: call from $9BEA
+                                      ; xref: call from $9BF4
+    ASL A
+    TAX
+    LDA $AADD,X
+    STA $FD
+    LDA $AADE,X
+    STA $FE
+$AD6C L_AD6C:                         ; xref: jump from $ADD0
+    LDY #$00
+    LDA ($FD),Y
+    INY
+    CMP #$FF
+    BNE $AD78                         ; Branch to L_AD78
+    JMP $AE1D                         ; Jump to L_AE1D
+$AD78 L_AD78:                         ; xref: branch from $AD73
+    AND #$7F
+    ASL A
+    TAX
+    LDA $AAB5,X
+    STA $F9
+    CLC
+    ADC #$40
+    STA $FB
+    LDA $AAB6,X
+    STA $FA
+    ADC #$01
+    STA $FC
+    LDA $AAC9,X
+    STA $F7
+    LDA $AACA,X
+    STA $F8
+    LDA ($FD),Y
+    INY
+    AND #$0F
+    PHA
+    CLC
+    ADC $F9
+    STA $F9
+    BCC $ADA8                         ; Branch to L_ADA8
+    INC $FA
+$ADA8 L_ADA8:                         ; xref: branch from $ADA4
+    PLA
+    PHA
+    CLC
+    ADC $FB
+    STA $FB
+    BCC $ADB3                         ; Branch to L_ADB3
+    INC $FC
+$ADB3 L_ADB3:                         ; xref: branch from $ADAF
+    PLA
+    ASL A
+    ASL A
+    ASL A
+    CLC
+    ADC $F7
+    STA $F7
+    BCC $ADC0                         ; Branch to L_ADC0
+    INC $F8
+$ADC0 L_ADC0:                         ; xref: branch from $ADBC
+                                      ; xref: jump from $AE1A (L_AE1A)
+    LDA ($FD),Y
+    BPL $ADD3                         ; Branch to L_ADD3
+    TYA
+    CLC
+    ADC $FD
+    STA $FD
+    LDA #$00
+    ADC $FE
+    STA $FE
+    JMP $AD6C                         ; Jump to L_AD6C
+$ADD3 L_ADD3:                         ; xref: branch from $ADC2
+    INY
+    CMP #$20
+    BEQ $AE0F                         ; Branch to L_AE0F
+    SEC
+    SBC #$41
+    ASL A
+    ASL A
+    ASL A
+    PHP
+    CLC
+    ADC #$A0
+    STA $AE01
+    LDA #$00
+    ADC #$00
+    PLP
+    ADC #$D4
+    STA $AE02
+    LDA #$3E
+    STA ($F9),Y
+    LDA #$06
+    STA ($FB),Y
+    STY $AD49
+    LDA #$34
+    STA $01
+    LDY #$07
+$AE00 L_AE00:                         ; xref: branch from $AE06
+    LDA $D4F8,Y                       ; xref+1: write from $ADE2  [instruction data modified]
+                                      ; xref+2: write from $ADEC  [instruction data modified]
+    STA ($F7),Y
+    DEY
+    BPL $AE00                         ; Branch to L_AE00
+    LDA #$35
+    STA $01
+    LDY $AD49
+$AE0F L_AE0F:                         ; xref: branch from $ADD6
+    LDA $F7
+    CLC
+    ADC #$08
+    STA $F7
+    BCC $AE1A                         ; Branch to L_AE1A
+    INC $F8
+$AE1A L_AE1A:                         ; xref: branch from $AE16
+    JMP $ADC0                         ; Jump to L_ADC0
+$AE1D L_AE1D:                         ; xref: jump from $AD75
+    RTS
+
+; === DATA SECTION ===
+
+; xref: read from $9B69 (L_9B69)
+$AE1E                   .BYTE $41,$81                                                          ; "A."
+$AE20                   .BYTE $42,$82,$43,$83,$44,$84,$E1,$41,$4B,$42,$42,$43,$44,$44,$28,$45  ; "B.C.D..AKBBCDD(E"
+$AE30                   .BYTE $41,$46,$60,$E0,$41,$48,$42,$40,$43,$63,$44,$64,$45,$61,$46,$47  ; "AF`.AHB@CcDdEaFG"
+$AE40                   .BYTE $E0,$41,$4A,$42,$49,$43,$4C,$44,$62,$45,$45,$46,$36,$E0,$41,$29  ; ".AJBICLDbEEF6.A)"
+$AE50                   .BYTE $42,$26,$43,$43,$44,$46,$45,$23,$E0,$41,$2E,$42,$2F,$43,$20,$44  ; "B&CCDFE#.A.B/C D"
+$AE60                   .BYTE $22,$45,$2C,$46,$2B,$E0,$41,$33,$42,$2D,$43,$27,$E0,$41,$35,$42  ; ""E,F+.A3B-C'.A5B"
+$AE70                   .BYTE $21,$43,$31,$44,$30,$E0,$14,$F1,$5F,$F2,$91,$F3,$11,$F4,$0D,$F5  ; "!C1D0..._......."
+$AE80                   .BYTE $FF,$03,$F6,$5F,$F7,$91,$F8,$11,$F9,$0D,$FA,$FF,$4A,$80,$47,$85  ; "..._........J.G."
+$AE90                   .BYTE $48,$86,$49,$87,$4B,$2A,$4C,$25,$4D,$32,$4E,$37,$4F,$34,$50,$24  ; "H.I.K*L%M2N7O4P$"
+$AEA0                   .BYTE $FF                                                              ; "."
+; xref: read from $9B7F
+$AEA1                   .BYTE $8C                                                              ; "."
+; xref: read from $9B85
+$AEA2                   .BYTE $AE,$8E,$AE                                                      ; "..."
+; xref: read from $9BB0
+$AEA5                   .BYTE $F7                                                              ; "."
+; xref: read from $9BAC (SUB_9BAC)
+$AEA6                   .BYTE $9B,$F7,$9B,$F7,$9B,$F7,$9B,$F7,$9B,$F7                          ; ".........."
+$AEB0                   .BYTE $9B,$F7,$9B,$F7,$9B,$F7,$9B,$F7,$9B,$F7,$9B                      ; "..........."
+; xref: read from $9B50
+$AEBB                   .BYTE $1E                                                              ; "."
+; xref: read from $9B56
+$AEBC                   .BYTE $AE,$27,$AE,$34                                                  ; ".'.4"
+$AEC0                   .BYTE $AE,$41,$AE,$4E,$AE,$59,$AE,$66,$AE,$6D,$AE,$76,$AE,$81,$AE,$00  ; ".A.N.Y.f.m.v...."
+$AED0                   .BYTE $00                                                              ; "."
+; xref: write from $9B63
+; xref: read from $9B8E (L_9B8E)
+$AED1                   .BYTE $4A                                                              ; "J"
+
+; === SUBROUTINE: SUB_AED2 ===
+
+; --------------------------------------------------------
+; Main VIC/display initialization.
+; Sets CIA2/VIC bank and screen layout for the game display.
+; With DD00=$94 (VIC bank $C000-$FFFF) and D018=$F8, the active screen matrix is at $FC00; color RAM remains at $D800.
+; --------------------------------------------------------
+$AED2 SUB_AED2:                       ; xref: call from $963B
+    SEI
+    LDA #$43
+    STA $FFFA                         ; VECTOR_NMI_LO
+    LDA #$98
+    STA $FFFB                         ; VECTOR_NMI_HI
+    LDA #$4E
+    STA $FFFE                         ; VECTOR_IRQ_LO
+    LDA #$98
+    STA $FFFF                         ; VECTOR_IRQ_HI
+    LDA #$61
+    STA $0316
+    LDA #$98
+    STA $0317
+    LDA #$79
+    STA $0314
+    LDA #$98
+    STA $0315
+    LDA #$3B                          ; Select VIC bank via CIA2. Low two bits of $94 choose bank $C000-$FFFF.
+    STA $D011                         ; VIC_CTRL1
+    LDA #$C6                          ; Set VIC memory pointers. With VIC bank $C000-$FFFF and D018=$F8, screen RAM resolves to $FC00.
+    STA $D012                         ; VIC_RASTER
+    LDA #$01
+    STA $D01A                         ; VIC_IRQEN
+    STA $D019                         ; VIC_IRQ
+    LDA #$7F
+    STA $DC0D                         ; CIA1_ICR
+    LDA $DC0D                         ; CIA1_ICR
+    LDA #$80
+    STA $0291
+    LDA #$94
+    STA $DD00                         ; CIA2_PRA
+    LDA #$18
+    STA $D016                         ; VIC_CTRL2
+    LDA #$F8
+    STA $D018                         ; VIC_MEMPTR
+    LDA #$00
+    STA $D020                         ; VIC_BORDER
+    STA $D021                         ; VIC_BG0
+    LDA #$0B
+    STA $D022                         ; VIC_BG1
+    LDA #$0C
+    STA $D023                         ; VIC_BG2
+    LDA #$13
+    STA $D015                         ; VIC_SPR_ENA
+    LDX #$07
+    LDA #$00
+$AF44 L_AF44:                         ; xref: branch from $AF48
+    STA $D027,X                       ; VIC_SPR0_COL
+    DEX
+    BPL $AF44                         ; Branch to L_AF44
+    LDA #$35
+    JSR $99B1                         ; Call runtime_push_mem_config
+    LDX #$00
+$AF51 L_AF51:                         ; xref: branch from $AF6A
+    LDA $F7C0,X
+    STA $D800,X
+    LDA $F8C0,X
+    STA $D900,X
+    LDA $F9C0,X
+    STA $DA00,X
+    LDA $FAA8,X
+    STA $DAE8,X
+    INX
+    BNE $AF51                         ; Branch to L_AF51
+    JSR $99D0                         ; Call runtime_pop_mem_config
+    LDX #$00
+$AF71 L_AF71:                         ; xref: branch from $AF7E
+    LDA #$60
+    STA $FEF8,X
+    LDA #$0F
+    STA $DAF8,X
+    INX
+    CPX #$F0
+    BNE $AF71                         ; Branch to L_AF71
+    CLI
+    LDA #$35
+    JSR $99B1                         ; Call runtime_push_mem_config
+    LDA #$FF
+    STA $A778
+    STA $A779
+    LDA #$00
+    STA $AAB2
+    STA $AAB3
+    STA $AAB4
+    LDA #$03
+    JSR $A5DB                         ; Call SUB_A5DB
+    LDA #$04
+    JSR $A5DB                         ; Call SUB_A5DB
+    JSR $9BE1                         ; Call SUB_9BE1
+    JSR $A4A4                         ; Call SUB_A4A4
+    JSR $99D0                         ; Call runtime_pop_mem_config
+    RTS
+
+; === DATA SECTION ===
+
+$AFAD                   .BYTE $E6,$FC,$68                                                      ; "..h"
+$AFB0                   .BYTE $0A,$0A,$0A,$18,$65,$F7,$85,$F7,$90,$02,$E6,$F8,$B1,$FD,$10,$0F  ; "....e..........."
+$AFC0                   .BYTE $98,$18,$65,$FD,$85,$FD,$A9,$00,$65,$FE,$00,$00,$00,$00,$00,$00  ; "..e.....e......."
+$AFD0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$AFE0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$AFF0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$B000                   .BYTE $4C,$2E,$B3,$4C,$D1,$B2,$4C,$29,$B0,$26,$B9,$A2,$0D,$B5,$E0,$BC  ; "L..L..L).&......"
+$B010                   .BYTE $1B,$B0,$9D,$1B,$B0,$94,$E0,$CA,$10,$F3,$60,$00,$00,$00,$00,$00  ; "..........`....."
+$B020                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$2C,$77,$B0,$30,$10,$A9,$00  ; ".........,w.0..."
+$B030                   .BYTE $8D,$76,$B0,$A9,$0F,$8D,$78,$B0,$A9,$80,$8D,$77,$B0,$B8,$50,$E9  ; ".v....x....w..P."
+; --------------------------------------------------------
+; Probable low-level SID playback/update routine.
+; This high-memory music engine writes directly to SID registers such as $D417/$D418 and uses per-voice state around $B1xx.
+; --------------------------------------------------------
+$B040                   .BYTE $60,$AD,$D1,$B1,$AE,$F6,$CF,$F0,$01,$4A,$8D,$17,$D4,$AD,$D2,$B1  ; "`........J......"
+$B050                   .BYTE $2C,$77,$B0,$10,$1D,$70,$19,$29,$F0,$0D,$78,$B0,$CE,$76,$B0,$10  ; ",w...p.)..x..v.."
+$B060                   .BYTE $11,$A2,$05,$8E,$76,$B0,$CE,$78,$B0,$10,$07,$A2,$C0,$8E,$77,$B0  ; "....v..x......w."
+$B070                   .BYTE $A9,$00,$8D,$18,$D4,$60,$00,$C0,$00,$E0,$F0,$F1,$F9,$F2,$E0,$0F  ; ".....`.........."
+$B080                   .BYTE $8C,$89,$96,$85,$92,$E0,$0B,$8C,$81,$85,$97,$85,$92,$E0,$EB,$F4  ; "................"
+$B090                   .BYTE $F9,$ED,$F5,$F1,$F1,$ED,$F8,$F2,$F2,$F4,$F2,$F3,$E0,$00,$00,$FF  ; "................"
+$B0A0                   .BYTE $10,$90,$FF,$20,$A0,$FF,$30,$B0,$FF,$40,$C0,$FF,$50,$D0,$FF,$60  ; "... ..0..@..P..`"
+$B0B0                   .BYTE $E0,$FF,$70,$F0,$FF,$10,$90,$90,$10,$FF,$20,$A0,$A0,$20,$FF,$30  ; "..p....... .. .0"
+$B0C0                   .BYTE $B0,$B0,$30,$FF,$40,$C0,$C0,$40,$FF,$50,$D0,$D0,$50,$FF,$60,$E0  ; "..0.@..@.P..P.`."
+$B0D0                   .BYTE $E0,$60,$FF,$70,$F0,$F0,$70,$FF,$10,$90,$90,$90,$10,$10,$FF,$20  ; ".`.p..p........ "
+$B0E0                   .BYTE $A0,$A0,$A0,$20,$20,$FF,$30,$B0,$B0,$B0,$30,$30,$FF,$40,$C0,$C0  ; "...  .0...00.@.."
+$B0F0                   .BYTE $C0,$40,$40,$FF,$50,$D0,$D0,$D0,$50,$50,$FF,$60,$E0,$E0,$E0,$60  ; ".@@.P...PP.`...`"
+$B100                   .BYTE $60,$FF,$70,$F0,$F0,$F0,$70,$70,$FF,$10,$10,$90,$90,$90,$90,$10  ; "`.p...pp........"
+$B110                   .BYTE $10,$FF,$20,$20,$A0,$A0,$A0,$A0,$20,$20,$FF,$30,$30,$B0,$B0,$B0  ; "..  ....  .00..."
+$B120                   .BYTE $B0,$30,$30,$FF,$40,$40,$C0,$C0,$C0,$C0,$40,$40,$FF,$50,$50,$D0  ; ".00.@@....@@.PP."
+$B130                   .BYTE $D0,$D0,$D0,$50,$50,$FF,$60,$60,$E0,$E0,$E0,$E0,$60,$60,$FF,$70  ; "...PP.``....``.p"
+$B140                   .BYTE $70,$F0,$F0,$F0,$F0,$70,$70,$FF,$00,$02,$05,$08,$0B,$0E,$11,$14  ; "p....pp........."
+$B150                   .BYTE $00,$17,$1C,$21,$26,$2B,$30,$35,$00,$3A,$41,$48,$4F,$56,$5D,$64  ; "...!&+05.:AHOV]d"
+$B160                   .BYTE $00,$6B,$74,$7D,$86,$8F,$98,$A1,$00,$00,$00,$00,$00,$00,$00,$00  ; ".kt}............"
+$B170                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$B180                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$B190                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$B1A0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$B1B0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$B1C0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$B1D0                   .BYTE $00,$00,$1F,$00,$00,$18,$00,$30,$00,$48,$00,$60,$00,$78,$00,$90  ; ".......0.H.`.x.."
+$B1E0                   .BYTE $00,$A8,$00,$C0,$00,$D8,$00,$F0,$00,$08,$01,$20,$01,$38,$01,$50  ; "........... .8.P"
+$B1F0                   .BYTE $01,$68,$01,$80,$01,$98,$01,$B0,$01,$C8,$01,$E0,$01,$F8,$01,$10  ; ".h.............."
+$B200                   .BYTE $02,$28,$02,$40,$02,$58,$02,$70,$02,$88,$02,$A0,$02,$B8,$02,$D0  ; ".(.@.X.p........"
+$B210                   .BYTE $02,$E8,$02,$00,$27,$39,$4B,$5F,$74,$8A,$A1,$BA,$D4,$F0,$0E,$2D  ; "....'9K_t......-"
+$B220                   .BYTE $4E,$71,$96,$BE,$E7,$14,$42,$74,$A9,$E0,$1B,$5A,$9C,$E2,$2D,$7B  ; "Nq....Bt...Z..-{"
+$B230                   .BYTE $CF,$27,$85,$E8,$51,$C1,$37,$B4,$38,$C4,$59,$F7,$9E,$4E,$0A,$D0  ; ".'..Q.7.8.Y..N.."
+$B240                   .BYTE $A2,$81,$6D,$67,$70,$89,$B2,$ED,$3B,$9D,$14,$A0,$45,$03,$DB,$CF  ; "..mgp...;...E..."
+$B250                   .BYTE $E1,$12,$65,$DB,$76,$3A,$27,$41,$8A,$05,$B5,$9D,$C1,$24,$C9,$B6  ; "..e.v:'A.....$.."
+$B260                   .BYTE $ED,$73,$4E,$82,$14,$0A,$6A,$3B,$82,$48,$93,$6B,$DA,$E7,$9C,$04  ; ".sN...j;.H.k...."
+$B270                   .BYTE $28,$14,$01,$01,$01,$01,$01,$01,$01,$01,$01,$01,$01,$02,$02,$02  ; "(..............."
+$B280                   .BYTE $02,$02,$02,$02,$03,$03,$03,$03,$03,$04,$04,$04,$04,$05,$05,$05  ; "................"
+$B290                   .BYTE $06,$06,$06,$07,$07,$08,$08,$09,$09,$0A,$0A,$0B,$0C,$0D,$0D,$0E  ; "................"
+$B2A0                   .BYTE $0F,$10,$11,$12,$13,$14,$15,$17,$18,$1A,$1B,$1D,$1F,$20,$22,$24  ; "............. "$"
+$B2B0                   .BYTE $27,$29,$2B,$2E,$31,$34,$37,$3A,$3E,$41,$45,$49,$4E,$52,$57,$5C  ; "')+.147:>AEINRW\"
+$B2C0                   .BYTE $62,$68,$6E,$75,$7C,$83,$8B,$93,$9C,$A5,$AF,$B9,$C4,$D0,$DD,$EA  ; "bhnu|..........."
+$B2D0                   .BYTE $F8,$20,$0B,$B0,$20,$DA,$B2,$4C,$0B,$B0,$A9,$00,$8D,$B6,$B1,$AD  ; ". .. ..L........"
+$B2E0                   .BYTE $26,$B9,$85,$E0,$AD,$27,$B9,$85,$E1,$A2,$52,$A9,$00,$9D,$67,$B1  ; "&....'....R...g."
+$B2F0                   .BYTE $CA,$D0,$FA,$A0,$06,$B1,$E0,$8D,$B8,$B1,$A2,$02,$A9,$01,$8D,$B9  ; "................"
+$B300                   .BYTE $B1,$9D,$B0,$B1,$A9,$00,$9D,$93,$B1,$9D,$A4,$B1,$9D,$AA,$B1,$9D  ; "................"
+; --------------------------------------------------------
+; SID player initialization/reset routine.
+; Clears the SID register block at $D400-$D417 and zeroes player state before playback begins.
+; --------------------------------------------------------
+$B310                   .BYTE $A7,$B1,$CA,$10,$E7,$A2,$17,$A9,$08,$9D,$00,$D4,$A9,$00,$9D,$00  ; "................"
+$B320                   .BYTE $D4,$CA,$10,$F3,$8D,$18,$D4,$8D,$77,$B0,$60,$4C,$D3,$B4,$2C,$77  ; "........w.`L..,w"
+$B330                   .BYTE $B0,$70,$09,$20,$0B,$B0,$20,$3D,$B3,$20,$0B,$B0,$60,$CE,$B9,$B1  ; ".p. .. =. ..`..."
+$B340                   .BYTE $D0,$E9,$AD,$B8,$B1,$8D,$B9,$B1,$A2,$02,$A0,$0E,$8E,$9C,$B1,$8C  ; "................"
+$B350                   .BYTE $9D,$B1,$DE,$B0,$B1,$F0,$28,$4C,$BF,$B4,$AE,$9C,$B1,$DE,$AA,$B1  ; "......(L........"
+$B360                   .BYTE $BD,$AA,$B1,$A8,$B1,$E2,$4C,$AD,$B3,$A9,$05,$8D,$B8,$B1,$FE,$AA  ; "......L........."
+$B370                   .BYTE $B1,$4C,$8B,$B3,$A9,$06,$8D,$B8,$B1,$FE,$AA,$B1,$4C,$8B,$B3,$8A  ; ".L..........L..."
+$B380                   .BYTE $0A,$A8,$B1,$E0,$85,$E2,$C8,$B1,$E0,$85,$E3,$BD,$AA,$B1,$A8,$B1  ; "................"
+$B390                   .BYTE $E2,$C9,$FE,$F0,$C5,$C9,$F5,$F0,$D0,$C9,$F6,$F0,$D7,$C9,$FF,$D0  ; "................"
+$B3A0                   .BYTE $0C,$A9,$00,$9D,$AA,$B1,$A8,$B1,$E2,$C9,$F5,$F0,$BC,$0A,$A8,$B9  ; "................"
+$B3B0                   .BYTE $2A,$B9,$85,$E4,$B9,$2B,$B9,$85,$E5,$BC,$A7,$B1,$B1,$E4,$C9,$FF  ; "*....+.........."
+$B3C0                   .BYTE $D0,$0B,$A9,$00,$9D,$A7,$B1,$FE,$AA,$B1,$4C,$7F,$B3,$C9,$E1,$D0  ; "..........L....."
+$B3D0                   .BYTE $0B,$9D,$99,$B1,$FE,$A7,$B1,$BC,$A7,$B1,$B1,$E4,$C9,$E2,$D0,$0B  ; "................"
+$B3E0                   .BYTE $9D,$99,$B1,$FE,$A7,$B1,$BC,$A7,$B1,$B1,$E4,$C9,$E4,$D0,$18,$C8  ; "................"
+$B3F0                   .BYTE $B1,$E4,$9D,$A1,$B1,$C8,$B1,$E4,$9D,$B0,$B1,$FE,$A7,$B1,$FE,$A7  ; "................"
+$B400                   .BYTE $B1,$FE,$A7,$B1,$4C,$BF,$B4,$C9,$E3,$D0,$14,$C8,$B1,$E4,$9D,$B0  ; "....L..........."
+$B410                   .BYTE $B1,$FE,$A7,$B1,$FE,$A7,$B1,$A9,$00,$9D,$93,$B1,$4C,$BF,$B4,$C9  ; "............L..."
+$B420                   .BYTE $C0,$90,$53,$E9,$C0,$0A,$A8,$8A,$0A,$AA,$18,$AD,$28,$B9,$79,$D3  ; "..S.........(.y."
+$B430                   .BYTE $B1,$95,$E6,$85,$EC,$AD,$29,$B9,$79,$D4,$B1,$95,$E7,$85,$ED,$A0  ; "......).y......."
+$B440                   .BYTE $08,$AE,$9D,$B1,$B1,$EC,$9D,$BD,$B1,$A9,$00,$9D,$BC,$B1,$AE,$9C  ; "................"
+$B450                   .BYTE $B1,$A9,$01,$9D,$81,$B1,$8A,$D0,$15,$A0,$0C,$B1,$EC,$8D,$6A,$B1  ; "..............j."
+$B460                   .BYTE $C8,$B1,$EC,$8D,$68,$B1,$8D,$69,$B1,$A9,$01,$8D,$6B,$B1,$FE,$A7  ; "....h..i....k..."
+$B470                   .BYTE $B1,$BC,$A7,$B1,$B1,$E4,$C9,$60,$90,$11,$48,$C8,$B1,$E4,$9D,$B0  ; ".......`..H....."
+$B480                   .BYTE $B1,$9D,$B3,$B1,$FE,$A7,$B1,$68,$38,$E9,$60,$9D,$AD,$B1,$BD,$B3  ; ".......h8.`....."
+$B490                   .BYTE $B1,$9D,$B0,$B1,$A9,$01,$9D,$93,$B1,$9D,$8D,$B1,$9D,$90,$B1,$9D  ; "................"
+$B4A0                   .BYTE $A4,$B1,$9D,$6C,$B1,$A9,$05,$9D,$96,$B1,$A9,$10,$9D,$9E,$B1,$A9  ; "...l............"
+$B4B0                   .BYTE $00,$9D,$8A,$B1,$9D,$A1,$B1,$A9,$14,$9D,$87,$B1,$FE,$A7,$B1,$AD  ; "................"
+$B4C0                   .BYTE $9D,$B1,$38,$E9,$07,$8D,$9D,$B1,$CE,$9C,$B1,$30,$06,$AE,$9C,$B1  ; "..8........0...."
+$B4D0                   .BYTE $4C,$52,$B3,$A2,$02,$A0,$0E,$8E,$9C,$B1,$8C,$9D,$B1,$8A,$0A,$A8  ; "LR.............."
+$B4E0                   .BYTE $B9,$E6,$00,$85,$EC,$B9,$E7,$00,$85,$ED,$BD,$8A,$B1,$49,$01,$9D  ; ".............I.."
+$B4F0                   .BYTE $8A,$B1,$AE,$9C,$B1,$BD,$6C,$B1,$F0,$57,$A0,$02,$B1,$EC,$49,$40  ; "......l..W....I@"
+$B500                   .BYTE $29,$40,$1D,$8A,$B1,$F0,$4A,$BD,$8D,$B1,$F0,$2D,$BD,$9E,$B1,$C9  ; ")@....J....-...."
+$B510                   .BYTE $14,$F0,$09,$C9,$13,$D0,$22,$A0,$12,$4C,$1E,$B5,$A0,$13,$B1,$EC  ; "......"..L......"
+$B520                   .BYTE $29,$01,$F0,$07,$A9,$10,$9D,$9E,$B1,$D0,$0E,$C0,$12,$F0,$0A,$A9  ; ")..............."
+$B530                   .BYTE $00,$9D,$8D,$B1,$A9,$13,$9D,$9E,$B1,$BC,$9E,$B1,$B1,$EC,$29,$FE  ; "..............)."
+$B540                   .BYTE $1D,$93,$B1,$AC,$9D,$B1,$99,$BE,$B1,$BD,$8D,$B1,$F0,$03,$FE,$9E  ; "................"
+$B550                   .BYTE $B1,$AE,$9C,$B1,$BD,$90,$B1,$F0,$4A,$A0,$02,$B1,$EC,$49,$80,$29  ; "........J....I.)"
+$B560                   .BYTE $80,$1D,$8A,$B1,$F0,$3D,$BC,$87,$B1,$18,$B1,$EC,$29,$7F,$7D,$AD  ; ".....=......).}."
+$B570                   .BYTE $B1,$A8,$AE,$9D,$B1,$B9,$13,$B2,$9D,$BA,$B1,$B9,$72,$B2,$9D,$BB  ; "............r..."
+$B580                   .BYTE $B1,$AE,$9C,$B1,$BC,$87,$B1,$FE,$87,$B1,$B1,$EC,$29,$80,$F0,$07  ; "............)..."
+$B590                   .BYTE $A9,$14,$9D,$87,$B1,$D0,$0C,$BD,$87,$B1,$C9,$18,$D0,$05,$A9,$00  ; "................"
+$B5A0                   .BYTE $9D,$90,$B1,$A0,$03,$B1,$EC,$29,$04,$F0,$2C,$AE,$9C,$B1,$BD,$6C  ; ".......)..,....l"
+$B5B0                   .BYTE $B1,$F0,$24,$BD,$93,$B1,$D0,$1F,$A9,$00,$9D,$6C,$B1,$AC,$9D,$B1  ; "..$........l...."
+$B5C0                   .BYTE $A9,$0C,$99,$BB,$B1,$A9,$00,$99,$BA,$B1,$99,$BC,$B1,$A9,$40,$99  ; "..............@."
+$B5D0                   .BYTE $BE,$B1,$A9,$08,$99,$BD,$B1,$BD,$A4,$B1,$D0,$03,$4C,$88,$B6,$A9  ; "............L..."
+$B5E0                   .BYTE $00,$9D,$A4,$B1,$9D,$6F,$B1,$8A,$D0,$1D,$A0,$03,$B1,$EC,$29,$01  ; ".....o........)."
+$B5F0                   .BYTE $D0,$15,$A0,$0C,$B1,$EC,$8D,$6A,$B1,$C8,$B1,$EC,$8D,$68,$B1,$8D  ; ".......j.....h.."
+$B600                   .BYTE $69,$B1,$A9,$01,$8D,$6B,$B1,$A0,$05,$B1,$EC,$9D,$72,$B1,$9D,$75  ; "i....k......r..u"
+$B610                   .BYTE $B1,$88,$B1,$EC,$9D,$7E,$B1,$29,$30,$4A,$8D,$B6,$B1,$BD,$7E,$B1  ; ".....~.)0J....~."
+$B620                   .BYTE $29,$07,$0D,$B6,$B1,$A8,$B9,$48,$B1,$9D,$7B,$B1,$9D,$78,$B1,$AE  ; ")......H..{..x.."
+$B630                   .BYTE $9D,$B1,$A0,$00,$B1,$EC,$9D,$BF,$B1,$C8,$B1,$EC,$9D,$C0,$B1,$AE  ; "................"
+$B640                   .BYTE $9C,$B1,$A0,$09,$B1,$EC,$9D,$84,$B1,$A0,$02,$AE,$9D,$B1,$B1,$EC  ; "................"
+$B650                   .BYTE $29,$02,$D0,$34,$AE,$9C,$B1,$A9,$01,$9D,$81,$B1,$AE,$9D,$B1,$B1  ; ")..4............"
+$B660                   .BYTE $EC,$29,$08,$F0,$15,$BD,$BA,$B1,$9D,$BC,$B1,$BD,$BB,$B1,$29,$07  ; ".)............)."
+$B670                   .BYTE $D0,$02,$09,$01,$9D,$BD,$B1,$4C,$FF,$B6,$A0,$08,$B1,$EC,$9D,$BD  ; ".......L........"
+$B680                   .BYTE $B1,$A9,$80,$9D,$BC,$B1,$D0,$77,$AE,$9C,$B1,$DE,$84,$B1,$D0,$6F  ; ".......w.......o"
+$B690                   .BYTE $A0,$09,$B1,$EC,$9D,$84,$B1,$BD,$81,$B1,$C9,$01,$D0,$3D,$AE,$9D  ; ".............=.."
+$B6A0                   .BYTE $B1,$A0,$0A,$18,$B1,$EC,$7D,$BC,$B1,$9D,$BC,$B1,$A9,$00,$7D,$BD  ; "......}.......}."
+$B6B0                   .BYTE $B1,$9D,$BD,$B1,$A0,$0B,$D1,$EC,$D0,$45,$A0,$02,$B1,$EC,$29,$04  ; ".........E....)."
+$B6C0                   .BYTE $D0,$0B,$AE,$9C,$B1,$A9,$00,$9D,$81,$B1,$4C,$FF,$B6,$A0,$08,$B1  ; "..........L....."
+$B6D0                   .BYTE $EC,$9D,$BD,$B1,$A9,$80,$9D,$BC,$B1,$D0,$24,$AE,$9D,$B1,$A0,$0A  ; "..........$....."
+$B6E0                   .BYTE $38,$BD,$BC,$B1,$F1,$EC,$9D,$BC,$B1,$BD,$BD,$B1,$E9,$00,$9D,$BD  ; "8..............."
+$B6F0                   .BYTE $B1,$A0,$08,$D1,$EC,$D0,$08,$AE,$9C,$B1,$A9,$01,$9D,$81,$B1,$AE  ; "................"
+$B700                   .BYTE $9C,$B1,$BC,$78,$B1,$FE,$78,$B1,$B9,$9E,$B0,$08,$29,$7F,$8D,$B6  ; "...x..x.....)..."
+$B710                   .BYTE $B1,$AE,$9D,$B1,$BD,$BA,$B1,$28,$30,$0F,$18,$6D,$B6,$B1,$9D,$BA  ; ".......(0..m...."
+$B720                   .BYTE $B1,$BD,$BB,$B1,$69,$00,$4C,$35,$B7,$38,$ED,$B6,$B1,$9D,$BA,$B1  ; "....i.L5.8......"
+$B730                   .BYTE $BD,$BB,$B1,$E9,$00,$9D,$BB,$B1,$AE,$9C,$B1,$B9,$9F,$B0,$C9,$FF  ; "................"
+$B740                   .BYTE $D0,$4D,$BD,$6F,$B1,$F0,$0B,$BD,$7E,$B1,$09,$03,$9D,$7E,$B1,$4C  ; ".M.o....~....~.L"
+$B750                   .BYTE $71,$B7,$DE,$75,$B1,$D0,$32,$BD,$72,$B1,$9D,$75,$B1,$A0,$07,$B1  ; "q..u..2.r..u...."
+$B760                   .BYTE $EC,$DD,$7E,$B1,$F0,$23,$A0,$06,$B1,$EC,$18,$7D,$7E,$B1,$9D,$7E  ; "..~..#.....}~..~"
+$B770                   .BYTE $B1,$BD,$7E,$B1,$29,$30,$4A,$8D,$B6,$B1,$BD,$7E,$B1,$29,$07,$0D  ; "..~.)0J....~.).."
+$B780                   .BYTE $B6,$B1,$A8,$B9,$48,$B1,$9D,$7B,$B1,$BD,$7B,$B1,$9D,$78,$B1,$AE  ; "....H..{..{..x.."
+$B790                   .BYTE $9C,$B1,$BD,$99,$B1,$C9,$E1,$D0,$0F,$BD,$96,$B1,$F0,$0A,$DE,$96  ; "................"
+$B7A0                   .BYTE $B1,$D0,$05,$A9,$00,$9D,$93,$B1,$AE,$9C,$B1,$F0,$03,$4C,$65,$B8  ; ".............Le."
+$B7B0                   .BYTE $A0,$03,$B1,$EC,$29,$80,$D0,$06,$4C,$68,$B8,$4C,$65,$B8,$A9,$F1  ; "....)...Lh.Le..."
+$B7C0                   .BYTE $8D,$D1,$B1,$AD,$6A,$B1,$8D,$D0,$B1,$A0,$02,$B1,$EC,$29,$10,$F0  ; "....j........).."
+$B7D0                   .BYTE $09,$A0,$0F,$B1,$EC,$CD,$6A,$B1,$F0,$E1,$A0,$03,$B1,$EC,$29,$20  ; "......j.......) "
+$B7E0                   .BYTE $D0,$23,$B1,$EC,$29,$10,$D0,$03,$4C,$17,$B8,$AD,$BE,$B1,$29,$01  ; ".#..)...L.....)."
+$B7F0                   .BYTE $D0,$25,$AD,$6A,$B1,$C9,$F0,$F0,$6C,$AD,$6A,$B1,$18,$69,$0A,$8D  ; ".%.j....l.j..i.."
+$B800                   .BYTE $6A,$B1,$4C,$65,$B8,$AD,$BE,$B1,$29,$01,$D0,$0B,$AD,$6A,$B1,$F0  ; "j.Le....)....j.."
+$B810                   .BYTE $54,$CE,$6A,$B1,$4C,$65,$B8,$CE,$69,$B1,$D0,$49,$AD,$68,$B1,$8D  ; "T.j.Le..i..I.h.."
+$B820                   .BYTE $69,$B1,$A0,$0E,$AD,$6B,$B1,$F0,$28,$B1,$EC,$18,$6D,$6A,$B1,$8D  ; "i....k..(...mj.."
+$B830                   .BYTE $6A,$B1,$C8,$D1,$EC,$D0,$2E,$A0,$03,$B1,$EC,$29,$40,$D0,$08,$A9  ; "j..........)@..."
+$B840                   .BYTE $00,$8D,$6B,$B1,$4C,$65,$B8,$A0,$0C,$B1,$EC,$8D,$6A,$B1,$4C,$65  ; "..k.Le......j.Le"
+$B850                   .BYTE $B8,$AD,$6A,$B1,$38,$F1,$EC,$8D,$6A,$B1,$A0,$0C,$D1,$EC,$D0,$05  ; "..j.8...j......."
+$B860                   .BYTE $A9,$01,$8D,$6B,$B1,$4C,$6D,$B8,$A9,$F0,$8D,$D1,$B1,$A0,$03,$B1  ; "...k.Lm........."
+$B870                   .BYTE $EC,$29,$02,$F0,$12,$AC,$9D,$B1,$AE,$9C,$B1,$B9,$BE,$B1,$29,$01  ; ".)............)."
+$B880                   .BYTE $D0,$05,$A9,$01,$9D,$6F,$B1,$A0,$03,$B1,$EC,$29,$08,$F0,$22,$AC  ; ".....o.....).."."
+$B890                   .BYTE $9D,$B1,$A9,$00,$99,$BC,$B1,$BD,$93,$B1,$D0,$15,$AE,$9D,$B1,$BD  ; "................"
+$B8A0                   .BYTE $BB,$B1,$F0,$0D,$DE,$BB,$B1,$10,$08,$A9,$00,$9D,$BB,$B1,$9D,$BE  ; "................"
+$B8B0                   .BYTE $B1,$AE,$9C,$B1,$AC,$9D,$B1,$BD,$A1,$B1,$F0,$3E,$30,$1D,$18,$B9  ; "...........>0..."
+$B8C0                   .BYTE $BA,$B1,$7D,$A1,$B1,$99,$BA,$B1,$B9,$BB,$B1,$69,$00,$99,$BB,$B1  ; "..}........i...."
+$B8D0                   .BYTE $A9,$00,$9D,$90,$B1,$9D,$7B,$B1,$4C,$FA,$B8,$29,$7F,$8D,$B6,$B1  ; "......{.L..)...."
+$B8E0                   .BYTE $38,$B9,$BA,$B1,$ED,$B6,$B1,$99,$BA,$B1,$B9,$BB,$B1,$E9,$00,$99  ; "8..............."
+$B8F0                   .BYTE $BB,$B1,$A9,$00,$9D,$90,$B1,$9D,$7B,$B1,$AD,$9D,$B1,$38,$E9,$07  ; "........{....8.."
+$B900                   .BYTE $8D,$9D,$B1,$CE,$9C,$B1,$30,$06,$AE,$9C,$B1,$4C,$DD,$B4,$A2,$16  ; "......0....L...."
+; --------------------------------------------------------
+; SID register flush/output step.
+; Copies a prepared register image from player state tables at $B1BA+ into the live SID register block at $D400+.
+; --------------------------------------------------------
+$B910                   .BYTE $BD,$BA,$B1,$9D,$00,$D4,$CA,$10,$F7,$4C,$41,$B0,$B1,$BD,$BB,$B1  ; ".........LA....."
+$B920                   .BYTE $69,$00,$4C,$35,$B7,$38,$FA,$B9,$6A,$B9,$13,$BA,$19,$BA,$72,$BA  ; "i.L5.8..j.....r."
+$B930                   .BYTE $8D,$BA,$AB,$BA,$C7,$BA,$50,$BB,$74,$BB,$74,$BB,$74,$BB,$74,$BB  ; "......P.t.t.t.t."
+$B940                   .BYTE $74,$BB,$74,$BB,$74,$BB,$74,$BB,$74,$BB,$74,$BB,$74,$BB,$74,$BB  ; "t.t.t.t.t.t.t.t."
+$B950                   .BYTE $74,$BB,$74,$BB,$74,$BB,$74,$BB,$74,$BB,$74,$BB,$74,$BB,$74,$BB  ; "t.t.t.t.t.t.t.t."
+$B960                   .BYTE $74,$BB,$74,$BB,$74,$BB,$74,$BB,$74,$BB,$00,$00,$00,$00,$00,$00  ; "t.t.t.t.t......."
+$B970                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$B980                   .BYTE $00,$00,$00,$E9,$00,$08,$00,$00,$00,$00,$08,$00,$00              ; "............."
+
+; === SUBROUTINE: SUB_B98D ===
+
+$B98D SUB_B98D:                       ; xref: call from $6123
+    BRK
+
+; === DATA SECTION ===
+
+$B98E                   .BYTE $00,$00                                                          ; ".."
+$B990                   .BYTE $00,$00,$14,$80,$14,$10,$00,$30,$00,$00,$00,$C9,$00,$08,$00,$00  ; ".......0........"
+$B9A0                   .BYTE $00,$00,$08,$00,$00,$00,$00,$00,$00,$00,$14,$80,$14,$40,$00,$30  ; ".............@.0"
+$B9B0                   .BYTE $00,$00,$30,$F9,$00,$02,$31,$01,$01,$37,$01,$00,$00,$00,$00,$00  ; "..0...1..7......"
+$B9C0                   .BYTE $00,$00,$10,$10,$10,$10,$00,$00,$00,$00,$00,$DF,$10,$82,$21,$00  ; "..............!."
+$B9D0                   .BYTE $00,$00,$01,$01,$20,$0F,$A0,$01,$FE,$40,$10,$40,$40,$40,$00,$00  ; ".... ....@.@@@.."
+$B9E0                   .BYTE $00,$00,$00,$CA,$00,$00,$00,$00,$00,$00,$08,$00,$00,$00,$00,$00  ; "................"
+$B9F0                   .BYTE $00,$00,$14,$80,$14,$14,$0C,$0C,$00,$80,$02,$BA,$07,$BA,$0A,$BA  ; "................"
+$BA00                   .BYTE $03,$00,$02,$02,$04,$04,$FF,$01,$05,$FF,$03,$03,$03,$03,$06,$06  ; "................"
+$BA10                   .BYTE $06,$06,$FF,$C0,$60,$60,$E3,$30,$FF,$E2,$C3,$9C,$01,$43,$9E,$16  ; "....``.0.....C.."
+$BA20                   .BYTE $A0,$06,$41,$A3,$0C,$45,$A1,$06,$40,$9E,$24,$E3,$12,$9C,$06,$39  ; "..A..E..@.$....9"
+$BA30                   .BYTE $3C,$9C,$01,$43,$9E,$16,$A0,$06,$41,$A3,$0C,$45,$A1,$06,$40,$9E  ; "<..C....A..E..@."
+$BA40                   .BYTE $24,$E3,$12,$9C,$06,$39,$37,$95,$18,$97,$06,$39,$95,$01,$3C,$97  ; "$....97....9..<."
+$BA50                   .BYTE $0A,$95,$0C,$94,$06,$30,$92,$0C,$99,$1E,$E3,$0C,$99,$06,$3C,$37  ; ".....0........<7"
+$BA60                   .BYTE $95,$18,$97,$06,$39,$97,$0C,$35,$90,$06,$E4,$0C,$06,$92,$3C,$E3  ; "....9..5......<."
+$BA70                   .BYTE $0C,$FF,$E2,$C4,$7A,$1E,$E4,$90,$06,$76,$1E,$E4,$10,$06,$7A,$1E  ; "....z....v....z."
+$BA80                   .BYTE $E4,$10,$06,$7D,$0C,$E4,$90,$06,$78,$06,$E3,$0C,$FF,$E1,$C1,$81  ; "...}....x......."
+$BA90                   .BYTE $12,$8D,$06,$8D,$0C,$81,$12,$8D,$06,$8D,$0C,$81,$12,$8D,$06,$8D  ; "................"
+$BAA0                   .BYTE $0C,$C5,$4A,$C1,$8D,$06,$8D,$0C,$81,$06,$FF,$E2,$C4,$76,$1E,$E4  ; "..J..........v.."
+$BAB0                   .BYTE $08,$06,$78,$1E,$E4,$08,$06,$7A,$1E,$E4,$90,$06,$7A,$0C,$E4,$90  ; "..x....z....z..."
+$BAC0                   .BYTE $06,$7A,$06,$E3,$06,$18,$FF,$E2,$C3,$9E,$03,$E3,$03,$3E,$41,$A3  ; ".z...........>A."
+$BAD0                   .BYTE $06,$A3,$01,$4A,$A5,$04,$E3,$06,$A5,$06,$43,$41,$40,$A0,$02,$41  ; "...J......CA@..A"
+$BAE0                   .BYTE $40,$3E,$40,$3E,$9C,$06,$A3,$01,$9E,$0B,$99,$18,$E3,$12,$A3,$02  ; "@>@>............"
+$BAF0                   .BYTE $45,$43,$A1,$06,$40,$9E,$03,$E3,$03,$9E,$03,$41,$A5,$06,$A8,$01  ; "EC..@......A...."
+$BB00                   .BYTE $4F,$AA,$04,$E3,$06,$AA,$06,$AD,$01,$A8,$05,$A3,$06,$A5,$12,$A5  ; "O..............."
+$BB10                   .BYTE $03,$46,$A3,$01,$48,$A5,$34,$AA,$01,$A5,$02,$E3,$0F,$9E,$06,$A0  ; ".F..H.4........."
+$BB20                   .BYTE $03,$41,$9E,$06,$46,$45,$43,$A0,$03,$41,$A0,$12,$9E,$06,$3C,$9E  ; ".A..FEC..A....<."
+$BB30                   .BYTE $0C,$A1,$12,$E3,$18,$A5,$06,$41,$40,$A1,$06,$9E,$03,$41,$A6,$06  ; ".......A@....A.."
+$BB40                   .BYTE $AA,$0C,$AA,$06,$48,$43,$A1,$0C,$A1,$06,$40,$9E,$30,$E3,$18,$FF  ; "....HC....@.0..."
+$BB50                   .BYTE $E1,$C5,$99,$12,$C1,$8D,$06,$8D,$0C,$C2,$81,$12,$C1,$8D,$06,$8D  ; "................"
+$BB60                   .BYTE $0C,$C2,$81,$12,$C1,$8D,$06,$8D,$0C,$C5,$4A,$C1,$8D,$06,$8D,$0C  ; "..........J....."
+$BB70                   .BYTE $C5,$BD,$06,$FF,$02,$81,$02,$E2,$71,$04,$E1,$71,$02,$7D,$02,$E2  ; "........q..q.}.."
+$BB80                   .BYTE $73,$04,$E1,$73,$02,$7F,$02,$73,$02,$70,$02,$7C,$02,$73,$02,$7F  ; "s..s...s.p.|.s.."
+$BB90                   .BYTE $02,$FF,$E1,$C0,$8D,$36,$C8,$8D,$01,$8D,$01,$8B,$01,$8B,$01,$8B  ; ".....6.........."
+$BBA0                   .BYTE $01,$8B,$01,$88,$01,$88,$01,$88,$01,$88,$01,$FF,$E1,$C1,$75,$0E  ; "..............u."
+$BBB0                   .BYTE $75,$02,$75,$0A,$7A,$01,$78,$02,$75,$01,$73,$02,$75,$06,$75,$02  ; "u.u.z.x.u.s.u.u."
+$BBC0                   .BYTE $75,$06,$71,$04,$71,$04,$73,$02,$73,$02,$71,$01,$73,$02,$70,$01  ; "u.q.q.s.s.q.s.p."
+$BBD0                   .BYTE $71,$01,$73,$01,$75,$0E,$75,$02,$75,$0A,$7A,$01,$78,$02,$75,$01  ; "q.s.u.u.u.z.x.u."
+$BBE0                   .BYTE $73,$02,$75,$06,$75,$02,$75,$08,$81,$02,$7F,$02,$7C,$01,$7A,$03  ; "s.u.u.u.....|.z."
+$BBF0                   .BYTE $75,$01,$7A,$01,$7C,$01,$7F,$01,$81,$01,$84,$01,$81,$01,$7F,$01  ; "u.z.|..........."
+$BC00                   .BYTE $FF,$E1,$C0,$81,$04,$C9,$8F,$03,$C8,$81,$01,$81,$02,$81,$02,$C9  ; "................"
+$BC10                   .BYTE $8F,$04,$C0,$81,$04,$C9,$8F,$04,$C8,$88,$01                      ; "..........."
+
+; === SUBROUTINE: SUB_BC1B ===
+
+$BC1B SUB_BC1B:                       ; xref: call from $1A9D (SUB_1A9D)
+    DEY
+    ORA ($88,X)
+    ORA ($88,X)
+    ORA ($88,X)
+    ORA ($88,X)
+    ORA ($84,X)
+    ORA ($84,X)
+    ORA ($C0,X)
+    STA ($04,X)
+    CMP #$8F
+
+; === DATA SECTION ===
+
+$BC2E                   .BYTE $03,$C8                                                          ; ".."
+$BC30                   .BYTE $81,$01,$81,$02,$81,$02,$C9,$8F,$04,$C0,$81,$04,$C9,$8F,$04,$C8  ; "................"
+$BC40                   .BYTE $81,$02,$81,$02,$C9,$8F,$02,$C8,$81                              ; "........."
+; xref: call from $0C62
+$BC49                   .BYTE $02,$FF,$E1,$C1,$75,$40,$E3                                      ; "....u@."
+$BC50                   .BYTE $30,$81,$02,$7F,$02,$7C,$01,$7A,$01,$E4,$20,$01,$7B,$03,$7A,$01  ; "0....|.z.. .{.z."
+$BC60                   .BYTE $78,$01,$7A,$01,$78,$01,$75,$01,$73,$01,$FF,$E1,$C1,$75,$03,$75  ; "x.z.x.u.s....u.u"
+$BC70                   .BYTE $01,$75,$01,$75,$02,$73,$01,$71,$02,$71,$02,$7D,$02,$71,$01,$7D  ; ".u.u.s.q.q.}.q.}"
+$BC80                   .BYTE $01,$73,$02,$E4,$20,$02,$7F,$03,$70,$02,$7C,$01,$7C,$01,$70,$01  ; ".s.. ...p.|.|.p."
+$BC90                   .BYTE $73,$01,$7F,$01,$7F,$01,$73,$01,$75,$03,$75,$01,$81,$01,$75,$02  ; "s.....s.u.u...u."
+$BCA0                   .BYTE $81,$01,$71,$02,$71,$02,$7D,$02,$71,$01,$7D,$01,$73,$02,$E4,$20  ; "..q.q.}.q.}.s.. "
+$BCB0                   .BYTE $02,$7F,$03,$70,$02,$7C,$01,$7C,$01,$70,$01,$73,$01,$7F,$01,$7F  ; "...p.|.|.p.s...."
+$BCC0                   .BYTE $01,$73,$01,$FF,$E1,$C9,$8F,$02,$C2,$99,$02,$99,$02,$99,$01,$C6  ; ".s.............."
+$BCD0                   .BYTE $99,$02,$99,$02,$99,$01,$C5,$97,$02,$95,$01,$97,$05,$97,$02,$97  ; "................"
+$BCE0                   .BYTE $02,$97,$02,$C6,$99,$01,$C7,$97,$02,$C5,$97,$03,$FF,$E1,$C0,$A6  ; "................"
+$BCF0                   .BYTE $01,$FF,$E1                                                      ; "..."
+
+; === SUBROUTINE: SUB_BCF3 ===
+
+$BCF3 SUB_BCF3:                       ; xref: call from $1B15
+    CMP ($77,X)
+
+; === DATA SECTION ===
+
+$BCF5                   .BYTE $03,$77,$01,$77,$01,$77,$02,$75,$01,$73,$02                      ; ".w.w.w.u.s."
+$BD00                   .BYTE $73,$02,$7F,$02,$73,$01,$7F,$01,$75,$02,$E4,$20,$02,$81,$03,$72  ; "s...s...u.. ...r"
+$BD10                   .BYTE $02,$7E,$01,$7E,$01,$72,$01,$75,$01,$81,$01,$81,$01,$75,$01,$77  ; ".~.~.r.u.....u.w"
+$BD20                   .BYTE $03,$77,$01,$83,$01,$77,$02,$83,$01,$73,$02,$73,$02,$7F,$02,$73  ; ".w...w...s.s...s"
+$BD30                   .BYTE $01,$7F,$01,$75,$02,$E4,$20,$02,$81,$03,$72,$02,$7E,$01,$7E,$01  ; "...u.. ...r.~.~."
+$BD40                   .BYTE $72,$01,$75,$01,$81,$01,$81,$01,$75,$01,$FF,$E1,$C9,$8F,$02,$C2  ; "r.u.....u......."
+$BD50                   .BYTE $9B,$02,$9B,$02,$9B,$01,$C6,$9B,$02,$9B,$02,$9B,$01,$C5,$99,$02  ; "................"
+$BD60                   .BYTE $97,$01,$99,$05,$99,$02,$99,$02,$99,$02,$C6,$9B,$01,$C7,$99,$02  ; "................"
+$BD70                   .BYTE $C5,$99,$03,$FF,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BD80                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BD90                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BDA0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BDB0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BDC0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BDD0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BDE0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BDF0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BE00                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BE10                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BE20                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BE30                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BE40                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BE50                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BE60                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BE70                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BE80                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BE90                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BEA0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BEB0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BEC0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BED0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BEE0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BEF0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BF00                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BF10                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BF20                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BF30                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BF40                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BF50                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BF60                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BF70                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BF80                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BF90                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BFA0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BFB0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BFC0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BFD0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BFE0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$BFF0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+; xref: read from $9F49
+; xref: read from $9F6E
+; xref: read from $A00B
+$C000                   .BYTE $44,$2E,$00,$00,$00,$55,$01,$11,$2F,$00,$19,$00,$00,$00,$36,$60  ; "D....U../.....6`"
+$C010                   .BYTE $00,$5C,$00,$00,$49,$3B,$00,$01,$44,$14,$12,$13,$00,$57,$25,$00  ; ".\..I;..D....W%."
+$C020                   .BYTE $00,$00,$5D,$00,$65,$54,$43,$01,$06,$10,$4D,$5C,$00,$00,$00,$01  ; "..].eTC...M\...."
+$C030                   .BYTE $05,$16,$56,$00,$00,$3A,$12,$5F,$5B,$28,$00,$2E,$5B,$00,$58,$13  ; "..V..:._[(..[.X."
+$C040                   .BYTE $26,$2B,$2B,$2B,$4B,$18,$00,$03,$22,$00,$5E,$00,$FE,$5D,$00,$00  ; "&+++K...".^..].."
+$C050                   .BYTE $30,$00,$61,$40,$3F,$41,$4F,$51,$00,$10,$12,$67,$32,$00,$00,$00  ; "0.a@?AOQ...g2..."
+$C060                   .BYTE $00,$09,$11,$00,$00,$47,$58,$00,$57,$5D,$67,$00,$00,$27,$41,$43  ; ".....GX.W]g..'AC"
+$C070                   .BYTE $00,$00,$49,$31,$00,$5A,$2D,$00,$4F,$1B,$48,$59,$00,$FE,$24,$03  ; "..I1.Z-.O.HY..$."
+$C080                   .BYTE $63,$25,$00,$4F,$00,$4C,$51,$00,$63,$53,$31,$4F,$50,$2C,$FE,$12  ; "c%.O.LQ.cS1OP,.."
+$C090                   .BYTE $4A,$09,$64,$00,$1D,$20,$00,$0F,$51,$01,$00,$0C,$0D,$53,$00,$11  ; "J.d.. ..Q....S.."
+$C0A0                   .BYTE $0F,$22,$34,$5D,$3E                                              ; "."4]>"
+; xref: read from $9E01
+; xref: read from $9FA6
+$C0A5                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00                      ; "..........."
+$C0B0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$C0C0                   .BYTE $00,$00,$00,$00,$00,$01,$01,$01,$01,$01,$01,$01,$01,$01,$01,$01  ; "................"
+$C0D0                   .BYTE $01,$01,$01,$01,$01,$01,$01,$01,$01,$01,$01,$01,$01,$01,$01,$01  ; "................"
+$C0E0                   .BYTE $01,$01,$02,$02,$02,$02,$02,$02,$02,$02,$02,$02,$02,$02,$02,$02  ; "................"
+$C0F0                   .BYTE $02,$02,$02,$02,$02,$02,$02,$02,$02,$02,$02,$02,$02,$02,$02,$03  ; "................"
+$C100                   .BYTE $03,$03,$03,$03,$03,$03,$03,$03,$03,$03,$03,$03,$03,$03,$03,$03  ; "................"
+$C110                   .BYTE $03,$03,$03,$03,$03,$03,$03,$03,$03,$03,$03,$03,$03,$03,$04,$04  ; "................"
+$C120                   .BYTE $04,$04,$04,$04,$04,$04,$04,$04,$04,$04,$04,$04,$04,$04,$04,$04  ; "................"
+$C130                   .BYTE $04,$04,$04,$04,$04,$04,$04,$04,$04,$04,$04,$04,$05,$05,$05,$05  ; "................"
+$C140                   .BYTE $05,$05,$05,$05,$05,$05,$05,$05,$05,$05                          ; ".........."
+; xref: read from $9DF9
+; xref: read from $9F9F
+$C14A                   .BYTE $00,$0A,$14,$1B,$29,$36                                          ; "....)6"
+$C150                   .BYTE $39,$42,$46,$4A,$52,$5D,$64,$68,$6E,$72,$76,$84,$90,$96,$A1,$B0  ; "9BFJR]dhnrv....."
+$C160                   .BYTE $BB,$C3,$C8,$CD,$D4,$DF,$E4,$EE,$F3,$FF,$06,$0D,$12,$1A,$27,$2E  ; "..............'."
+$C170                   .BYTE $39,$40,$4C,$52,$5E,$6A,$75,$7D,$85,$93,$9C,$A5,$AC,$B5,$BE,$C8  ; "9@LR^ju}........"
+$C180                   .BYTE $CE,$D5,$DD,$E8,$ED,$F9,$F9,$13,$1A,$24,$2B,$37,$43,$47,$50,$57  ; ".........$+7CGPW"
+$C190                   .BYTE $5E,$63,$68,$71,$78,$86,$91,$96,$9C,$A1,$A7,$AF,$BD,$C6,$D2,$DC  ; "^chqx..........."
+$C1A0                   .BYTE $E6,$EF,$F8,$FD,$06,$0D,$15,$1F,$2A,$32,$38,$3E,$4A,$51,$56,$5C  ; "........*28>JQV\"
+$C1B0                   .BYTE $63,$6A,$70,$79,$82,$88,$8E,$97,$A1,$AA,$B3,$BA,$BF,$C5,$CF,$DE  ; "cjpy............"
+$C1C0                   .BYTE $E4,$ED,$F4,$01,$0A,$17,$21,$2D,$37,$3F,$4C,$56,$5C,$63,$6A,$76  ; "......!-7?LV\cjv"
+$C1D0                   .BYTE $7C,$80,$8C,$92,$9F,$A7,$AF,$B7,$C2,$C9,$CE,$D5,$DD,$E9,$ED,$F6  ; "|..............."
+$C1E0                   .BYTE $FF,$07,$0E,$1C,$2A,$34,$3E,$48,$4E,$55,$5C,$60,$64,$68,$6E      ; "....*4>HNU\`dhn"
+; xref: read from $966B
+; xref: read from $9678
+; xref: read from $9DF5 (SUB_9DF5)
+; xref: read from $9F45
+; xref: read from $9F6A
+; xref: read from $9F99
+$C1EF                   .BYTE $00                                                              ; "."
+$C1F0                   .BYTE $02,$96,$94,$95,$7C,$07,$08,$09,$0A,$0C,$0E,$10,$52,$58,$12,$11  ; "....|.......RX.."
+$C200                   .BYTE $7B,$1C,$24,$03,$A2,$61,$68,$69,$32,$97,$4A,$48,$3A,$70,$45,$35  ; "{.$..ahi2.JH:pE5"
+$C210                   .BYTE $90,$91,$54,$55,$05,$37,$13,$1A,$39,$40,$41,$06,$71,$65,$66,$2D  ; "..TU.7..9@A.qef-"
+$C220                   .BYTE $56,$57,$42,$5C,$43,$3F,$85,$3E,$7F,$31,$46,$93,$47,$2E,$4B,$4C  ; "VWB\C?.>.1F.G.KL"
+$C230                   .BYTE $20,$0F,$1B,$98,$4D,$99,$0B,$4E,$44,$89,$22,$23,$21,$8D,$51,$50  ; " ...M..ND."#!.QP"
+$C240                   .BYTE $5B,$04,$2B,$4F,$5F,$60,$62,$63,$36,$19,$5A,$67,$6A,$6B,$6C,$6E  ; "[.+O_`bc6.Zgjkln"
+$C250                   .BYTE $6F,$49,$16,$38,$92,$88,$72,$6D,$73,$25,$76,$1D,$26,$7E,$78,$27  ; "oI.8..rms%v.&~x'"
+$C260                   .BYTE $2A,$34,$81,$1E,$82,$83,$86,$5D,$3D,$8A,$8B,$8C,$01,$29,$17,$77  ; "*4.....]=....).w"
+$C270                   .BYTE $8E,$2C,$8F,$53,$84,$28,$75,$18,$7D,$33,$79,$1F,$5E,$7A,$9D,$80  ; ".,.S.(u.}3y.^z.."
+$C280                   .BYTE $0D,$9B,$9C,$3B,$3C,$9A,$14,$9E,$9F,$A0,$A1,$A3,$87,$59,$64,$15  ; "...;<........Yd."
+$C290                   .BYTE $74,$2F,$30,$A4,$41,$02,$05,$0E,$14,$05,$15,$12,$05,$92,$53,$14  ; "t/0.A.........S."
+$C2A0                   .BYTE $05,$09,$0E,$01,$0C,$14,$01,$92,$41,$0D,$15,$0C,$05,$14,$94,$44  ; "........A......D"
+$C2B0                   .BYTE $01,$03,$08,$13,$13,$03,$08,$0C,$09,$14,$14,$05,$8E,$4C,$05,$04  ; ".............L.."
+$C2C0                   .BYTE $05,$12,$13,$1B,$03,$0B,$03,$08,$05,$8E,$46,$01,$DE,$47,$1B,$13  ; "..........F..G.."
+$C2D0                   .BYTE $14,$05,$02,$05,$14,$94,$42,$05,$14,$94,$42,$05,$14,$94,$42,$05  ; "......B...B...B."
+$C2E0                   .BYTE $14,$14,$1A,$05,$15,$87,$42,$09,$05,$0E,$05,$0E,$13,$14,$0F,$03  ; "......B........."
+$C2F0                   .BYTE $8B,$4B,$0C,$09,$0E,$07,$05,$8C,$42,$0C,$15,$94,$57,$01,$13,$13  ; ".K......B...W..."
+$C300                   .BYTE $05,$92,$42,$0F,$0F,$94,$4B,$01,$08,$8E,$42,$0F,$0F,$14,$13,$13  ; "..B...K...B....."
+$C310                   .BYTE $03,$08,$0C,$1D,$13,$13,$05,$8C,$42,$1D,$03,$08,$05,$12,$12,$05  ; "........B......."
+$C320                   .BYTE $07,$01,$0C,$85,$42,$1D,$03,$08,$05,$92,$46,$05,$0C,$0C,$13,$14  ; "....B.....F....."
+$C330                   .BYTE $09,$05,$06,$05,$8C,$57,$05,$09,$5E,$02,$12,$0F,$14,$13,$03,$08  ; ".....W..^......."
+$C340                   .BYTE $05,$09,$02,$85,$5A,$09,$05,$07,$05,$0C,$13,$14,$05,$09,$8E,$50  ; "....Z..........P"
+$C350                   .BYTE $12,$0F,$13,$10,$05,$0B,$94,$53,$14,$15,$08,$8C,$54,$12,$15,$08  ; ".......S....T..."
+$C360                   .BYTE $85,$4F,$12,$0B,$0B,$09,$0E,$84,$46,$05,$15,$05,$12,$13,$14,$05  ; ".O......F......."
+$C370                   .BYTE $0C,$0C,$85,$4B,$01,$0D,$09,$8E,$43,$0F,$04,$05,$0E,$15,$0D,$0D  ; "...K....C......."
+$C380                   .BYTE $05,$92,$53,$1B,$12,$07,$85,$53,$09,$0C,$02,$05,$12,$0D,$1D,$0E  ; "..S....S........"
+$C390                   .BYTE $1A,$05,$8E,$56,$05,$12,$14,$12,$01,$87,$4B,$01,$04,$01,$16,$05  ; "...V......K....."
+$C3A0                   .BYTE $92,$4B,$12,$0F,$0E,$85,$4B,$12,$09,$13,$14,$01,$0C,$8C,$4B,$12  ; ".K....K.......K."
+$C3B0                   .BYTE $09,$13,$14,$01,$0C,$0C,$0B,$15,$07,$05,$8C,$43,$15,$2D,$53,$01  ; "...........C.-S."
+$C3C0                   .BYTE $14,$88,$53,$01,$0D,$14,$16,$0F,$12,$08,$01,$0E,$87,$53,$03,$08  ; "..S..........S.."
+$C3D0                   .BYTE $01,$03,$08,$94,$53,$03,$08,$12,$05,$09,$02,$14,$09,$13,$03,$88  ; "....S..........."
+$C3E0                   .BYTE $54,$12,$05,$13,$05,$8E,$53,$14,$15,$04,$09,$05,$12,$14,$09,$13  ; "T.....S........."
+$C3F0                   .BYTE $03,$88,$53,$03,$08,$12,$05,$09,$02,$14,$09,$13,$03,$88,$4D,$01  ; "..S...........M."
+$C400                   .BYTE $12,$0D,$0F,$12,$14,$09,$13,$03,$88,$54,$01,$07,$05,$02,$15,$03  ; ".........T......"
+$C410                   .BYTE $88,$47,$05,$13,$03,$08,$09,$12,$92,$48,$15,$0E,$04,$05,$13,$03  ; ".G.......H......"
+$C420                   .BYTE $08,$0C,$09,$14,$14,$05,$8E,$5A,$09,$0D,$0D,$05,$12,$14,$1D,$92  ; ".......Z........"
+$C430                   .BYTE $5A,$09,$0D,$0D,$05,$12,$14,$1D,$92,$48,$0F,$0C,$1A,$14,$1D,$92  ; "Z........H......"
+$C440                   .BYTE $45,$09,$03,$08,$05,$0E,$14,$1D,$92,$54,$1D,$12,$0B,$0C,$09,$0E  ; "E........T......"
+$C450                   .BYTE $0B,$85,$53,$03,$08,$15,$02,$0C,$01,$04,$05,$8E,$45,$12,$05,$0D  ; "..S.........E..."
+$C460                   .BYTE $09,$94,$4F,$12,$0B,$06,$12,$01,$95,$46,$1B,$08,$12,$0D,$01,$0E  ; "..O......F......"
+$C470                   .BYTE $8E,$50,$15,$12,$10,$15,$12,$06,$05,$15,$05,$92,$46,$09,$12,$0F  ; ".P..........F..."
+$C480                   .BYTE $8E,$45,$09,$13,$13,$03,$08,$0C,$1D,$13,$13,$05,$8C,$57,$05,$09  ; ".E...........W.."
+$C490                   .BYTE $08,$17,$01,$13,$13,$05,$12,$02,$05,$03,$0B,$05,$8E,$05,$05,$05  ; "................"
+$C4A0                   .BYTE $05,$05,$05,$05,$05,$05,$85,$53,$10,$05,$09,$13,$05,$8E,$48,$09  ; ".......S......H."
+$C4B0                   .BYTE $0D,$0D,$05,$0C,$02,$05,$14,$94,$48,$01,$15,$13,$14,$1D,$92,$46  ; "........H......F"
+$C4C0                   .BYTE $12,$09,$05,$04,$08,$0F,$06,$13,$14,$0F,$92,$46,$12,$09,$05,$04  ; "...........F...."
+$C4D0                   .BYTE $08,$0F,$06,$13,$14,$0F,$92,$47,$12,$01,$82,$47,$12,$01,$02,$13  ; ".......G...G...."
+$C4E0                   .BYTE $14,$05,$09,$8E,$4B,$12,$1B,$15,$14,$05,$92,$45,$12,$04,$0C,$0F  ; "....K......E...."
+$C4F0                   .BYTE $03,$88,$48,$0F,$0E,$09,$87,$48,$0F,$14,$05,$8C,$45,$09,$13,$10  ; "..H....H....E..."
+$C500                   .BYTE $01,$0C,$01,$13,$94,$50,$0F,$12,$14,$09,$05,$92,$45,$09,$13,$05  ; ".....P......E..."
+$C510                   .BYTE $0E,$13,$03,$08,$0C,$1D,$13,$13,$05,$8C,$4A,$01,$03,$0B,$13,$20  ; "..........J.... "
+$C520                   .BYTE $47,$05,$09,$13,$94,$4A,$05,$01,$0E,$93,$4B,$05,$13,$13,$05,$8C  ; "G....J....K....."
+$C530                   .BYTE $4B,$1C,$0E,$09,$87,$4D,$05,$13,$13,$05,$92,$4C,$01,$02,$0F,$12  ; "K....M.....L...."
+$C540                   .BYTE $14,$1D,$92,$4C,$01,$02,$0F,$12,$13,$03,$08,$0C,$1D,$13,$13,$05  ; "...L............"
+$C550                   .BYTE $8C,$42,$0F,$0F,$14,$13,$13,$14,$05,$87,$54,$0F,$12,$13,$03,$08  ; ".B........T....."
+$C560                   .BYTE $0C,$1D,$13,$13,$05,$8C,$46,$01,$0C,$0C,$07,$09,$14,$14,$05,$92  ; "......F........."
+$C570                   .BYTE $46,$01,$0C,$0C,$07,$09,$14,$14,$05,$92,$47,$09,$14,$14,$05,$12  ; "F.........G....."
+$C580                   .BYTE $14,$1D,$92,$47,$09,$14,$14,$05,$12,$14,$1D,$92,$42,$12,$09,$05  ; "...G........B..."
+$C590                   .BYTE $86,$5A,$01,$15,$02,$05,$12,$14,$1D,$92,$4F,$12,$0B,$0D,$01,$0E  ; ".Z........O....."
+$C5A0                   .BYTE $8E,$4C,$01,$07,$05,$10,$0C,$01,$8E,$47,$12,$01,$02,$10,$0C,$01  ; ".L.......G......"
+$C5B0                   .BYTE $14,$14,$85,$53,$10,$05,$09,$13,$05,$0B,$01,$12,$14,$85,$56,$0F  ; "...S..........V."
+$C5C0                   .BYTE $0C,$0C,$0D,$0F,$0E,$84,$4D,$15,$0D,$09,$05,$8E,$4D,$19,$0C,$07  ; "......M.....M..."
+$C5D0                   .BYTE $0F,$92,$44,$0F,$12,$06,$02,$05,$17,$0F,$08,$0E,$05,$92,$4E,$0F  ; "..D...........N."
+$C5E0                   .BYTE $12,$04,$14,$1D,$92,$4E,$0F,$14,$09,$9A,$5A,$05,$14,$14,$05,$8C  ; ".....N....Z....."
+$C5F0                   .BYTE $47,$05,$0D,$1B,$0C,$04,$85,$47,$05,$0D,$1B,$0C,$04,$85,$50,$01  ; "G......G......P."
+$C600                   .BYTE $10,$09,$05,$92,$44,$12,$15,$04,$05,$0E,$06,$15,$DE,$44,$12,$15  ; "....D........D.."
+$C610                   .BYTE $04,$05,$0E,$06,$15,$DE,$50,$01,$12,$06,$1D,$8D,$50,$06,$05,$09  ; "......P.....P..."
+$C620                   .BYTE $06,$85,$50,$0C,$01,$14,$14,$06,$0F,$12,$8D,$52,$01,$14,$14,$05  ; "..P........R...."
+$C630                   .BYTE $0E,$07,$09,$06,$94,$50,$0F,$12,$14,$01,$0C,$14,$0F,$92,$50,$0F  ; ".....P........P."
+$C640                   .BYTE $12,$14,$01,$0C,$14,$0F,$92,$45,$0C,$09,$18,$09,$05,$92,$47,$05  ; ".......E......G."
+$C650                   .BYTE $02,$05,$94,$52,$01,$14,$14,$05,$8E,$52,$05,$01,$07,$05,$0E,$1A  ; "...R.....R......"
+$C660                   .BYTE $09,$05,$8E,$5A,$09,$0D,$0D,$05,$12,$13,$03,$08,$0C,$1D,$13,$13  ; "...Z............"
+$C670                   .BYTE $05,$8C,$54,$12,$05,$13,$0F,$92,$53,$01,$12,$0B,$0F,$10,$08,$01  ; "..T.....S......."
+$C680                   .BYTE $87,$5A,$05,$10,$14,$05,$92,$92,$53,$03,$08,$0D,$09,$05,$12,$05  ; ".Z......S......."
+$C690                   .BYTE $12,$05,$09,$05,$8E,$56,$05,$12,$0B,$1B,$15,$06,$05,$92,$56,$0F  ; ".....V........V."
+$C6A0                   .BYTE $12,$12,$01,$14,$13,$12,$05,$07,$01,$0C,$85,$42,$1D,$03,$08,$05  ; "...........B...."
+$C6B0                   .BYTE $12,$17,$01,$0E,$84,$42,$01,$15,$0D,$17,$0F,$0C,$0C,$08,$05,$0D  ; ".....B.........."
+$C6C0                   .BYTE $84,$54,$15,$12,$0E,$13,$03,$08,$15,$08,$85,$53,$03,$08,$01,$15  ; ".T.........S...."
+$C6D0                   .BYTE $06,$05,$8C,$48,$09,$0E,$17,$05,$09,$13,$13,$03,$08,$09,$0C,$84  ; "...H............"
+$C6E0                   .BYTE $57,$01,$12,$0E,$13,$03,$08,$09,$0C,$84,$53,$09,$0C,$02,$05,$92  ; "W.........S....."
+$C6F0                   .BYTE $53,$0B,$05,$0C,$05,$14,$94,$53,$0B,$05,$0C,$05,$14,$94,$54,$0F  ; "S......S......T."
+$C700                   .BYTE $14,$05,$0E,$13,$03,$08,$1B,$04,$05,$8C,$48,$09,$0D,$0D,$05,$8C  ; "..........H....."
+$C710                   .BYTE $53,$0C,$0F,$94,$5A,$01,$15,$02,$05,$12,$13,$10,$12,$15,$03,$88  ; "S...Z..........."
+$C720                   .BYTE $51,$15,$05,$0C,$0C,$85,$4B,$12,$09,$05,$07,$05,$12,$13,$14,$01  ; "Q.....K........."
+$C730                   .BYTE $14,$15,$85,$53,$14,$01,$08,$0C,$14,$1D,$92,$53,$14,$01,$08,$0C  ; "...S.......S...."
+$C740                   .BYTE $14,$1D,$92,$53,$14,$01,$08,$0C,$14,$1D,$92,$4B,$15,$12,$1A,$13  ; "...S.......K...."
+$C750                   .BYTE $03,$08,$17,$05,$12,$94,$54,$2D,$53,$08,$09,$12,$94,$54,$09,$13  ; "......T-S....T.."
+$C760                   .BYTE $03,$88,$45,$5E,$14,$09,$13,$03,$88,$45,$5E,$14,$09,$13,$03,$88  ; "..E^.....E^....."
+$C770                   .BYTE $85,$50,$15,$12,$10,$15,$12,$0D,$01,$0E,$14,$05,$8C,$48,$0F,$13  ; ".P...........H.."
+$C780                   .BYTE $85,$42,$01,$15,$0D,$13,$14,$01,$0D,$8D,$42,$01,$15,$0D,$13,$14  ; ".B........B....."
+$C790                   .BYTE $01,$0D,$8D,$42,$01,$04,$05,$08,$0F,$13,$85,$45,$09,$0E,$08,$0F  ; "...B.......E...."
+$C7A0                   .BYTE $12,$8E,$4B,$01,$19,$13,$20,$53,$03,$08,$0C,$1D,$13,$13,$05,$8C  ; "..K... S........"
+$C7B0                   .BYTE $4B,$0C,$05,$09,$04,$05,$12,$13,$03,$08,$12,$01,$0E,$8B,$57,$05  ; "K.............W."
+$C7C0                   .BYTE $09,$08,$17,$01,$13,$13,$05,$92,$57,$01,$13,$13,$05,$12,$06,$01  ; "........W......."
+$C7D0                   .BYTE $0C,$8C,$57,$01,$13,$13,$05,$12,$06,$01,$0C,$8C,$57,$01,$06,$06  ; "..W.........W..."
+$C7E0                   .BYTE $05,$8E,$57,$05,$12,$17,$0F,$0C,$86,$57,$05,$13,$14,$14,$1D,$92  ; "..W......W......"
+$C7F0                   .BYTE $57,$0F,$0C,$86,$59,$05,$14,$89,$44,$01,$16,$85,$5A,$01,$12,$07  ; "W...Y...D...Z..."
+$C800                   .BYTE $0F,$8E,$5A,$0F,$0D,$02,$09,$85,$00,$00,$00,$00,$00,$00,$00,$00  ; "..Z............."
+$C810                   .BYTE $00,$00,$00,$00,$00,$10,$00,$11,$04,$10,$00,$00,$40,$00,$00,$00  ; "............@..."
+$C820                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$C830                   .BYTE $45,$01,$04,$00,$00,$00,$00,$00,$55,$19,$46,$16,$05,$01,$04,$01  ; "E.......U.F....."
+$C840                   .BYTE $03,$02,$42,$42,$92,$92,$62,$62,$FF,$57,$97,$27,$A9,$0B,$21,$55  ; "..BB..bb.W.'..!U"
+$C850                   .BYTE $35,$15,$18,$10,$11,$16,$1A,$15,$DD,$55,$0A,$22,$89,$06,$AA,$55  ; "5........U."...U"
+$C860                   .BYTE $FF,$55,$AA,$66,$81,$06,$A8,$55,$FF,$55,$AA,$26,$99,$A2,$88,$55  ; ".U.f...U.U.&...U"
+$C870                   .BYTE $FF,$55,$AA,$89,$9A,$68,$8A,$55,$FF,$55,$AA,$69,$99,$2A,$8A,$77  ; ".U...h.U.U.i.*.w"
+$C880                   .BYTE $FF,$57,$95,$29,$4A,$A9,$95,$7F,$C7,$C5,$C6,$C4,$C4,$C4,$C6,$C5  ; ".W.)J..........."
+$C890                   .BYTE $7F,$55,$80,$22,$18,$82,$AA,$55,$FF,$55,$22,$6A,$86,$29,$A2,$55  ; ".U."...U.U"j.).U"
+$C8A0                   .BYTE $FF,$58,$A2,$80,$A1,$90,$A8,$55,$FF,$6A,$B5,$45,$66,$A6,$94,$AA  ; ".X.....U.j.Ef..."
+$C8B0                   .BYTE $FF,$55,$AA,$66,$A9,$22,$A8,$55,$FF,$55,$A9,$6A,$9A,$19,$AA,$55  ; ".U.f.".U.U.j...U"
+$C8C0                   .BYTE $F3,$F1,$71,$71,$71,$B1,$91,$51,$FF,$55,$80,$09,$16,$A8,$82,$55  ; "..qqq..Q.U.....U"
+$C8D0                   .BYTE $FF,$55,$AA,$26,$98,$24,$AA,$55,$FF,$55,$AA,$62,$19,$5A,$A0,$55  ; ".U.&.$.U.U.b.Z.U"
+$C8E0                   .BYTE $FF,$55,$AA,$68,$89,$06,$A8,$55,$FF,$55,$A9,$A6,$00,$00,$00,$00  ; ".U.h...U.U......"
+$C8F0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$C900                   .BYTE $4C,$26,$C9,$4C,$10,$C9,$20,$7E,$C9,$20,$06,$B0,$20,$88,$C9,$60  ; "L&.L.. ~. .. ..`"
+$C910                   .BYTE $20,$7E,$C9,$AD,$F5,$CF,$D0,$07,$20,$06,$B0,$20,$88,$C9,$60,$20  ; " ~...... .. ..` "
+$C920                   .BYTE $03,$B0,$20,$88,$C9,$60,$20,$7E,$C9,$29,$3F,$AA,$BD,$C0,$C9,$8D  ; ".. ..` ~.)?....."
+$C930                   .BYTE $9E,$C9,$CD,$F3,$CF,$D0,$0B,$AD,$9F,$C9,$CD,$F2,$CF,$D0,$03,$4C  ; "...............L"
+$C940                   .BYTE $7A,$C9,$AD,$9E,$C9,$F0,$33,$20,$06,$B0,$AD,$9E,$C9,$0A,$AA,$BD  ; "z.....3 ........"
+$C950                   .BYTE $A0,$C9,$8D,$9C,$C9,$BD,$A1,$C9,$8D,$9D,$C9,$A9,$00,$AE,$9C,$C9  ; "................"
+$C960                   .BYTE $AC,$9D,$C9,$20,$09,$CB,$AD,$9F,$C9,$8D,$F2,$CF,$AD,$9E,$C9,$8D  ; "... ............"
+$C970                   .BYTE $F3,$CF,$AD,$F5,$CF,$F0,$03,$20,$03,$B0,$20,$88,$C9,$60,$A6,$01  ; "....... .. ..`.."
+$C980                   .BYTE $8E,$8E,$C9,$A2,$36,$86,$01,$60,$AE,$8E,$C9,$86,$01,$60,$37,$00  ; "....6..`.....`7."
+$C990                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$11,$01,$01,$03  ; "................"
+$C9A0                   .BYTE $A0,$A1,$11,$01,$11,$0D,$11,$10,$11,$11,$10,$04,$AC,$AD,$AE,$AF  ; "................"
+$C9B0                   .BYTE $B0,$B1,$B2,$B3,$B4,$B5,$B6,$B7,$B8,$B9,$BA,$BB,$BC,$BD,$BE,$BF  ; "................"
+$C9C0                   .BYTE $00,$05,$01,$01,$01,$01,$01,$05,$02,$02,$02,$02,$03,$03,$02,$04  ; "................"
+$C9D0                   .BYTE $04,$05,$05,$05,$05,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$C9E0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$C9F0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+; xref: read from $CF23
+$CA00                   .BYTE $02,$04,$A0,$07,$09,$0A,$0C,$0E,$0F,$10,$92,$94,$13,$81,$88,$95  ; "................"
+$CA10                   .BYTE $8C,$18,$19,$1B,$8F,$8D,$1E,$20,$C4,$AC,$97,$86,$AE,$8B,$9A,$28  ; "....... .......("
+$CA20                   .BYTE $2A,$2C,$D3,$2E,$30,$9D,$32,$C1,$9B,$35,$C9,$37,$DE,$AD,$3A,$C2  ; "*,..0.2..5.7..:."
+$CA30                   .BYTE $9C,$3C,$D7,$3D,$9F,$D4,$C6,$CC,$D2,$D0,$40,$BF,$D6,$CF,$43,$44  ; ".<.=......@...CD"
+$CA40                   .BYTE $46,$A7,$A9,$48,$BC,$49,$4A,$4C,$4D,$4F,$B2,$51,$DD,$B3,$B8,$A6  ; "F..H.IJLMO.Q...."
+$CA50                   .BYTE $B4,$53,$54,$BB,$DC,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; ".ST............."
+$CA60                   .BYTE $11,$07,$00,$00,$12,$05,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$CA70                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+; xref: read from $CF28 (L_CF28)
+$CA80                   .BYTE $01,$03,$05,$06,$08,$85,$0B,$0D,$8E,$89,$11,$12,$93,$14,$15,$16  ; "................"
+$CA90                   .BYTE $84,$17,$83,$1A,$1C,$1D,$87,$1F,$82,$21,$22,$23,$24,$25,$26,$27  ; ".........!"#$%&'"
+$CAA0                   .BYTE $29,$2B,$2D,$96,$2F,$90,$31,$33,$A1,$34,$36,$C5,$A2,$38,$39,$CD  ; ")+-./.13.46..89."
+$CAB0                   .BYTE $3B,$C8,$C7,$BA,$9E,$CB,$3E,$3F,$CE,$DA,$8A,$99,$C3,$41,$42,$D5  ; ";.....>?.....AB."
+$CAC0                   .BYTE $45,$47,$A8,$CA,$B1,$BE,$B9,$4B,$B0,$4E,$91,$50,$98,$52,$B5,$DB  ; "EG.....K.N.P.R.."
+$CAD0                   .BYTE $AF,$B6,$D9,$D1,$D8,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$CAE0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$CAF0                   .BYTE $0E,$01,$00,$00,$00,$00,$7F,$00,$D1,$00,$FB,$00,$23,$01,$00,$00  ; "............#..."
+$CB00                   .BYTE $4C,$DD,$CD,$4C,$90,$CC,$4C,$A6,$CB,$4C,$08,$CC,$4C,$D3,$CB,$4C  ; "L..L..L..L..L..L"
+$CB10                   .BYTE $D6,$CB,$4C,$2B,$CD,$4C,$24,$CB,$4C,$30,$CD,$44,$43,$00,$00,$23  ; "..L+.L$.L0.DC..#"
+$CB20                   .BYTE $01,$4C,$54,$CF,$86,$AD,$84,$AE,$60                              ; ".LT.....`"
+
+; === SUBROUTINE: SUB_CB29 ===
+
+$CB29 SUB_CB29:                       ; xref: call from $CF2F
+    STA $CB52
+    STX $CB53
+    STY $CB54
+    LDX $CF94
+    CPX #$28
+    BNE $CB3E                         ; Branch to L_CB3E
+    JSR $9609                         ; Call SUB_9609
+    LDX #$00
+$CB3E L_CB3E:                         ; xref: branch from $CB37
+    INX
+    STX $CF94
+    LDA $CB52
+    JSR $960C                         ; Call SUB_960C
+    LDA $CB52
+    LDX $CB53
+    LDY $CB54
+    RTS
+
+; === DATA SECTION ===
+
+; xref: write from $CB29 (SUB_CB29)
+; xref: read from $CB42
+; xref: read from $CB48
+$CB52                   .BYTE $3A                                                              ; ":"
+; xref: write from $CB2C
+; xref: read from $CB4B
+$CB53                   .BYTE $C4                                                              ; "."
+; xref: write from $CB2F
+; xref: read from $CB4E
+$CB54                   .BYTE $33,$48,$AD,$00,$DD,$29,$07,$8D,$9B,$CF,$49,$10                  ; "3H...)....I."
+$CB60                   .BYTE $8D,$9C,$CF,$49,$30,$8D,$9D,$CF,$49,$B0,$8D,$9E,$CF,$49,$50,$8D  ; "...I0...I....IP."
+$CB70                   .BYTE $9F,$CF,$AD,$9D,$CF,$20,$8C,$CB,$68,$20,$B7,$CB,$8A,$20,$B7,$CB  ; "..... ..h ... .."
+$CB80                   .BYTE $98,$20,$B7,$CB,$A0,$64,$88,$D0,$FD,$AD,$9B,$CF,$8D,$00,$DD      ; ". ...d........."
+
+; === SUBROUTINE: SUB_CB8F ===
+
+$CB8F SUB_CB8F:                       ; xref: call from $CCCA (L_CCCA)
+                                      ; xref: call from $CCD4
+                                      ; xref: call from $CF49
+    TXA
+    PHA
+    LDX #$20
+$CB93 L_CB93:                         ; xref: branch from $CB94
+    DEX
+    BNE $CB93                         ; Branch to L_CB93
+$CB96 L_CB96:                         ; xref: branch from $CB99
+    BIT $DD00                         ; CIA2_PRA
+    BVC $CB96                         ; Branch to L_CB96
+    LDX #$20
+$CB9D L_CB9D:                         ; xref: branch from $CB9E
+    DEX
+    BNE $CB9D                         ; Branch to L_CB9D
+    PLA
+    TAX
+    RTS
+
+; === DATA SECTION ===
+
+$CBA3                   .BYTE $A9,$0E,$2C,$A9,$08,$20,$55,$CB,$20,$8F,$CB,$A9,$20              ; "..,.. U. ... "
+$CBB0                   .BYTE $8D,$C2,$CB,$A0,$00,$B1,$AD,$85,$AC,$20,$11,$CD,$20,$11,$CD,$20  ; "......... .. .. "
+$CBC0                   .BYTE $11,$CD,$4C,$11,$CD,$C8,$D0,$ED,$A9,$4C,$8D,$C2,$CB,$20,$8F,$CB  ; "..L......L... .."
+$CBD0                   .BYTE $4C,$A2,$CC,$A9,$06,$2C,$A9,$04,$48,$20,$55,$CB,$20,$8F,$CB,$68  ; "L....,..H U. ..h"
+$CBE0                   .BYTE $C9,$04,$F0,$0C,$20,$E7,$CC,$8D,$1B,$CB,$20,$E7,$CC,$8D,$1C,$CB  ; ".... ..... ....."
+$CBF0                   .BYTE $20,$E7,$CC,$48,$20,$A2,$CC,$68,$60,$20,$8F,$CB,$20,$E7,$CC,$F0  ; " ..H ..h` .. ..."
+$CC00                   .BYTE $02,$38,$60,$20,$8F,$CB,$18,$60,$48,$A9,$02,$20,$55,$CB,$20,$F9  ; ".8` ...`H.. U. ."
+$CC10                   .BYTE $CB,$B0,$71,$20,$E7,$CC,$38,$E9,$02,$8D,$80,$CC,$20,$E7,$CC,$48  ; "..q ..8..... ..H"
+$CC20                   .BYTE $20,$E7,$CC,$AA,$68,$A8,$68,$D0,$12,$84,$AD,$86,$AE,$4C,$3B,$CC  ; " ...h.h......L;."
+$CC30                   .BYTE $20,$F9,$CB,$B0,$4F,$20,$E7,$CC,$8D,$80,$CC,$20,$8F,$CB,$20,$53  ; " ...O ..... .. S"
+$CC40                   .BYTE $CC,$98,$18,$65,$AD,$85,$AD,$90,$02,$E6,$AE,$20,$E7,$CC,$D0,$E0  ; "...e....... ...."
+$CC50                   .BYTE $4C,$A2,$CC,$A0,$00,$A9,$04,$8D,$9A,$CF,$AE,$9E,$CF,$AD,$00,$DD  ; "L..............."
+$CC60                   .BYTE $8E,$00,$DD,$0A,$6E,$AC,$00,$EA,$AE,$9F,$CF,$AD,$00,$DD,$8E,$00  ; "....n..........."
+$CC70                   .BYTE $DD,$0A,$6E,$AC,$00,$CE,$9A,$CF,$D0,$E0,$A5,$AC,$91,$AD,$C8,$C0  ; "..n............."
+$CC80                   .BYTE $54,$D0,$D2,$60,$8D,$8F,$CC,$20,$A2,$CC,$AD,$8F,$CC,$38,$60,$00  ; "T..`... .....8`."
+$CC90                   .BYTE $A9,$00,$20,$55,$CB,$20,$F9,$CB,$B0,$EA,$A9,$00,$8D,$80,$CC,$20  ; ".. U. ......... "
+$CCA0                   .BYTE $53,$CC                                                          ; "S."
+
+; === CODE SECTION ===
+
+$CCA2 L_CCA2:                         ; xref: jump from $CF4C
+    LDX #$20
+$CCA4 L_CCA4:                         ; xref: branch from $CCA5
+    DEX
+    BNE $CCA4                         ; Branch to L_CCA4
+    JSR $CCE7                         ; Call SUB_CCE7
+    CMP #$FE
+    BCC $CCB6                         ; Branch to L_CCB6
+    LDX #$20
+$CCB0 L_CCB0:                         ; xref: branch from $CCB1
+    DEX
+    BNE $CCB0                         ; Branch to L_CCB0
+    TXA
+    CLC
+    RTS
+$CCB6 L_CCB6:                         ; xref: branch from $CCAC
+                                      ; xref: branch from $CCD2
+    SEI
+    LDA #$0B
+    STA $D011                         ; VIC_CTRL1
+    STA $D020                         ; VIC_BORDER
+$CCBF L_CCBF:                         ; xref: jump from $CCC7
+    LDA $D020                         ; VIC_BORDER
+    EOR #$07
+    STA $D020                         ; VIC_BORDER
+    JMP $CCBF                         ; Jump to L_CCBF
+$CCCA L_CCCA:                         ; xref: branch from $CCE3
+    JSR $CB8F                         ; Call SUB_CB8F
+    JSR $CCE7                         ; Call SUB_CCE7
+    CMP #$00
+    BNE $CCB6                         ; Branch to L_CCB6
+    JSR $CB8F                         ; Call SUB_CB8F
+
+; === SUBROUTINE: SUB_CCD7 ===
+
+$CCD7 SUB_CCD7:                       ; xref: call from $CF18
+    JSR $CCE7                         ; Call SUB_CCE7
+    CMP #$36
+    BNE $CCE5                         ; Branch to L_CCE5
+    JSR $CCE7                         ; Call SUB_CCE7
+    CMP #$00
+    BEQ $CCCA                         ; Branch to L_CCCA
+$CCE5 L_CCE5:                         ; xref: branch from $CCDC
+    CLC
+    RTS
+
+; === SUBROUTINE: SUB_CCE7 ===
+
+$CCE7 SUB_CCE7:                       ; xref: call from $CCA7
+                                      ; xref: call from $CCCD
+                                      ; xref: call from $CCD7 (SUB_CCD7)
+                                      ; xref: call from $CCDE
+    LDA #$04
+    STA $CF9A
+$CCEC L_CCEC:                         ; xref: branch from $CD0A
+    LDX $CF9E
+    LDA $DD00                         ; CIA2_PRA
+    STX $DD00                         ; CIA2_PRA
+    ASL A
+    ROR $00AC
+    NOP
+    LDX $CF9F
+    LDA $DD00                         ; CIA2_PRA
+    STX $DD00                         ; CIA2_PRA
+    ASL A
+    ROR $00AC
+    DEC $CF9A
+    BNE $CCEC                         ; Branch to L_CCEC
+    LDA $00AC
+    NOP
+    RTS
+
+; === DATA SECTION ===
+
+$CD11                   .BYTE $AD,$9C,$CF,$46,$AC,$90,$02,$09,$20,$8D,$00,$DD,$EA,$AD,$9B      ; "...F.... ......"
+$CD20                   .BYTE $CF,$46,$AC,$90,$02,$09,$20,$8D,$00,$DD,$60,$A9,$0A,$4C,$55,$CB  ; ".F.... ...`..LU."
+$CD30                   .BYTE $A2,$00,$A0,$CA,$20,$24,$CB,$A2,$01,$A0,$02,$20,$90,$CC,$AD,$FC  ; ".... $..... ...."
+$CD40                   .BYTE $CA,$8D,$1F,$CB,$AD,$FD,$CA,$8D,$20,$CB,$A2,$00,$A0,$C9,$20,$24  ; "........ ..... $"
+$CD50                   .BYTE $CB,$AE,$64,$CA,$AC,$65,$CA,$20,$90,$CC,$A9,$00,$48,$18,$69,$04  ; "..d..e. ....H.i."
+$CD60                   .BYTE $A8,$A2,$00,$20,$24,$CB,$68,$48,$18,$69,$03,$A8,$A2,$01,$20,$90  ; "... $.hH.i.... ."
+$CD70                   .BYTE $CC,$68,$18,$69,$01,$C9,$06,$D0,$E3,$60,$18,$79,$1D,$CB,$8D,$92  ; ".h.i.....`.y...."
+$CD80                   .BYTE $CF,$48,$8A,$79,$1E,$CB,$8D,$93,$CF,$AA,$68,$0E,$92,$CF,$2E,$93  ; ".H.y......h....."
+$CD90                   .BYTE $CF,$18,$6D,$92,$CF,$8D,$92,$CF,$8A,$6D,$93,$CF,$8D,$93,$CF,$18  ; "..m......m......"
+$CDA0                   .BYTE $AD,$92,$CF,$69,$00,$8D,$50,$CF,$AD,$93,$CF,$69,$04,$8D,$51,$CF  ; "...i..P....i..Q."
+$CDB0                   .BYTE $A0,$00,$20,$4F,$CF,$AA,$20,$4F,$CF,$A8,$A9,$0C,$20,$55,$CB,$20  ; ".. O.. O.... U. "
+$CDC0                   .BYTE $8F,$CB,$A0,$02,$20,$4F,$CF,$20,$B7,$CB,$20,$8F,$CB,$20,$E7,$CC  ; ".... O. .. .. .."
+$CDD0                   .BYTE $F0,$05,$68,$68,$4C,$84,$CC,$4C,$8F,$CB,$03,$00,$02,$C0,$02,$D0  ; "..hhL..L........"
+$CDE0                   .BYTE $15,$8D,$DA,$CD,$8E,$DB,$CD,$8C,$DC,$CD,$20,$00,$C9,$AD,$DA,$CD  ; ".......... ....."
+$CDF0                   .BYTE $AE,$DB,$CD,$AC,$DC,$CD,$8C,$FD,$CD,$20,$7A,$CD,$A9,$00,$C9,$00  ; "......... z....."
+$CE00                   .BYTE $D0,$03,$4C,$F2,$CE,$C9,$02,$D0,$03,$4C,$0F,$CE,$4C,$B6,$CC,$A9  ; "..L......L..L..."
+$CE10                   .BYTE $01,$8D,$96,$CF,$8D,$94,$CF,$D0,$29,$EE,$96,$CF,$20,$D7,$CC,$C9  ; "........)... ..."
+$CE20                   .BYTE $CD,$D0,$0F,$20,$8F,$CB,$20,$D7,$CC,$8D,$96,$CF,$20,$8F,$CB,$20  ; "... .. ..... .. "
+$CE30                   .BYTE $D7,$CC,$8D,$00,$00,$EE,$33,$CE,$D0,$03,$EE,$34,$CE,$CE,$91,$CF  ; "......3....4...."
+$CE40                   .BYTE $D0,$20,$A8,$AE,$94,$CF,$BD,$DB,$CE,$8D,$33,$CE,$BD,$DC,$CE,$8D  ; ". ........3....."
+$CE50                   .BYTE $34,$CE,$0D,$33,$CE,$F0,$12,$E8,$E8,$8E,$94,$CF,$A9,$B0,$8D,$91  ; "4..3............"
+$CE60                   .BYTE $CF,$98,$CE,$96,$CF,$D0,$CB,$F0,$B0,$A5,$01,$48,$A9,$35,$85,$01  ; "...........H.5.."
+$CE70                   .BYTE $20,$7C,$CE,$68,$85,$01,$20,$8F,$CB,$4C,$A2,$CC,$A9,$C0,$8D,$AC  ; " |.h.. ..L......"
+$CE80                   .BYTE $CE,$A9,$F7,$8D,$AD,$CE,$A9,$ED,$8D,$AF,$CE,$A9,$F8,$8D,$B0,$CE  ; "................"
+$CE90                   .BYTE $20,$A7,$CE,$A9,$00,$8D,$AC,$CE,$A9,$F9,$8D,$AD,$CE,$A9,$2D,$8D  ; " .............-."
+$CEA0                   .BYTE $AF,$CE,$A9,$FA,$8D,$B0,$CE,$A0,$00,$A2,$AF,$BD,$00,$F9,$8D,$ED  ; "................"
+$CEB0                   .BYTE $F8,$CE,$AF,$CE,$AD,$AF,$CE,$C9,$FF,$D0,$03,$CE,$B0,$CE,$C8,$C0  ; "................"
+$CEC0                   .BYTE $16,$D0,$13,$A0,$00,$38,$AD,$AF,$CE,$E9,$12,$8D,$AF,$CE,$AD,$B0  ; ".....8.........."
+$CED0                   .BYTE $CE,$E9,$00,$8D,$B0,$CE,$CA,$E0,$FF,$D0,$D0,$60,$88,$E1,$C8,$E2  ; "...........`...."
+$CEE0                   .BYTE $08,$E4,$48,$E5,$88,$E6,$C8,$E7,$08,$E9,$48,$EA,$C0,$F7,$00,$F9  ; "..H.......H....."
+$CEF0                   .BYTE $00,$00,$20,$D7,$CC,$8D,$92,$CF,$20,$D7,$CC,$8D,$93,$CF,$A9,$00  ; ".. ..... ......."
+$CF00                   .BYTE $8D,$94,$CF,$8D,$95,$CF,$A9,$00,$8D,$96,$CF                      ; "..........."
+
+; === CODE SECTION ===
+
+$CF0B L_CF0B:                         ; xref: branch from $CF35
+                                      ; xref: branch from $CF3A
+    AND #$00
+$CF0D L_CF0D:                         ; xref: branch from $CF2B (L_CF2B)
+    TAY
+    DEC $CF96
+    BPL $CF1E                         ; Branch to L_CF1E
+    LDA #$07
+    STA $CF96
+    JSR $CCD7                         ; Call SUB_CCD7
+    STA $CF91
+$CF1E L_CF1E:                         ; xref: branch from $CF11
+    ROL $CF91
+    BCC $CF28                         ; Branch to L_CF28
+    LDA $CA00,Y
+    BCS $CF2B                         ; Branch to L_CF2B
+$CF28 L_CF28:                         ; xref: branch from $CF21
+    LDA $CA80,Y
+$CF2B L_CF2B:                         ; xref: branch from $CF26
+    BPL $CF0D                         ; Branch to L_CF0D
+    AND #$7F
+    JSR $CB29                         ; Call SUB_CB29
+    INC $CF92
+    BNE $CF0B                         ; Branch to L_CF0B
+    INC $CF93
+    BNE $CF0B                         ; Branch to L_CF0B
+    LDA $CF94
+    CMP #$01
+    BEQ $CF46                         ; Branch to L_CF46
+    JSR $9609                         ; Call SUB_9609
+$CF46 L_CF46:                         ; xref: branch from $CF41
+    JSR $9625                         ; Call SUB_9625
+    JSR $CB8F                         ; Call SUB_CB8F
+    JMP $CCA2                         ; Jump to L_CCA2
+
+; === DATA SECTION ===
+
+$CF4F                   .BYTE $B9                                                              ; "."
+$CF50                   .BYTE $CE,$05,$C8,$60,$48,$A2,$00,$A0,$C9,$20,$24,$CB,$68,$18,$69,$09  ; "...`H.... $.h.i."
+$CF60                   .BYTE $A8,$A2,$01,$20,$90,$CC,$4C,$00,$C9,$00,$00,$00,$00,$00,$00,$00  ; "... ..L........."
+$CF70                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$CF80                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$CF90                   .BYTE $00                                                              ; "."
+; xref: write from $CF1B
+; xref: read from $CF1E (L_CF1E)
+; xref: write from $CF1E (L_CF1E)
+$CF91                   .BYTE $00                                                              ; "."
+; xref: read from $CF32
+; xref: write from $CF32
+$CF92                   .BYTE $00                                                              ; "."
+; xref: read from $CF37
+; xref: write from $CF37
+$CF93                   .BYTE $00                                                              ; "."
+; xref: read from $CB32
+; xref: write from $CB3F
+; xref: read from $CF3C
+$CF94                   .BYTE $08,$00                                                          ; ".."
+; xref: read from $CF0E
+; xref: write from $CF0E
+; xref: write from $CF15
+$CF96                   .BYTE $03,$00,$00,$00                                                  ; "...."
+; xref: write from $CCE9
+; xref: read from $CD07
+; xref: write from $CD07
+$CF9A                   .BYTE $00,$04,$14,$24                                                  ; "...$"
+; xref: read from $CCEC (L_CCEC)
+$CF9E                   .BYTE $94                                                              ; "."
+; xref: read from $CCFA
+$CF9F                   .BYTE $C4                                                              ; "."
+$CFA0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$CFB0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$CFC0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$CFD0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$CFE0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$CFF0                   .BYTE $00,$00,$03,$01                                                  ; "...."
+; xref: write from $4CD1
+; xref: write from $516D
+; xref: write from $62CB
+$CFF4                   .BYTE $01                                                              ; "."
+; xref: read from $4CDA (SUB_4CDA)
+; xref: write from $4CF3
+$CFF5                   .BYTE $00                                                              ; "."
+; xref: read from $4D1E (L_4D1E)
+; xref: write from $4D37
+$CFF6                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$01,$02                          ; ".........."
+; xref: write from $98F7
+$D000 VIC_SPR0_X:       .BYTE $00
+; xref: write from $9903
+$D001 VIC_SPR0_Y:       .BYTE $00
+; xref: write from $98FA
+$D002 VIC_SPR1_X:       .BYTE $00
+; xref: write from $9906
+$D003 VIC_SPR1_Y:       .BYTE $00
+$D004                   .BYTE $00,$00,$00,$00                                                  ; "...."
+; xref: write from $98FD
+$D008 VIC_SPR4_X:       .BYTE $00
+; xref: write from $9909
+$D009 VIC_SPR4_Y:       .BYTE $00
+$D00A                   .BYTE $00,$00,$00,$00,$00,$00                                          ; "......"
+; xref: write from $9912
+$D010 VIC_SPR_XMSB:     .BYTE $00
+; xref: write from $9891
+; xref: write from $98AC
+; xref: read from $98BB
+; xref: write from $98C0
+; xref: write from $AEFD
+; xref: write from $CCB9
+$D011 VIC_CTRL1:        .BYTE $00
+; xref: read from $9884 (L_9884)
+; xref: write from $98C5
+; xref: write from $AF02
+$D012 VIC_RASTER:       .BYTE $00
+$D013                   .BYTE $00,$00                                                          ; ".."
+; xref: write from $AF3D
+$D015 VIC_SPR_ENA:      .BYTE $00
+; xref: write from $9898
+; xref: write from $AF21
+$D016 VIC_CTRL2:        .BYTE $00
+$D017                   .BYTE $00                                                              ; "."
+; xref: write from $989B
+; xref: write from $AF26
+$D018 VIC_MEMPTR:       .BYTE $00
+; xref: read from $987F
+; xref: write from $987F
+; xref: write from $AF0A
+$D019 VIC_IRQ:          .BYTE $00
+; xref: write from $AF07
+$D01A VIC_IRQEN:        .BYTE $00
+$D01B                   .BYTE $00,$00,$00,$00,$00                                              ; "....."
+; xref: write from $9A99 (L_9A99)
+; xref: write from $9AA4
+; xref: write from $9AAC
+; xref: write from $AF2B
+; xref: write from $CCBC
+; xref: read from $CCBF (L_CCBF)
+; xref: write from $CCC4
+$D020 VIC_BORDER:       .BYTE $00
+; xref: write from $AF2E
+$D021 VIC_BG0:          .BYTE $00
+; xref: write from $AF33
+$D022 VIC_BG1:          .BYTE $00
+; xref: write from $AF38
+$D023 VIC_BG2:          .BYTE $00
+$D024                   .BYTE $00,$00,$00                                                      ; "..."
+; xref: write from $A429
+; xref: write from $AF44 (L_AF44)
+$D027 VIC_SPR0_COL:     .BYTE $00
+$D028                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00                                  ; "........"
+$D030                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D040                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D050                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D060                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D070                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D080                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D090                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D0A0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D0B0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D0C0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D0D0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D0E0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D0F0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D100                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D110                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D120                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D130                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D140                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D150                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D160                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D170                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D180                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D190                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D1A0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D1B0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D1C0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D1D0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D1E0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D1F0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D200                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D210                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D220                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D230                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D240                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D250                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D260                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D270                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D280                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D290                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D2A0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D2B0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D2C0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D2D0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D2E0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D2F0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D300                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D310                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D320                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D330                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D340                   .BYTE $1E,$3F,$00,$18,$2D,$00,$18,$0C,$3C,$18,$0C,$06,$18,$0C,$3E,$18  ; ".?..-...<.....>."
+$D350                   .BYTE $0C,$66,$1E,$1E,$3F,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; ".f..?..........."
+$D360                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D370                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D380                   .BYTE $00,$08,$00,$00,$18,$00,$3E,$3E,$1E,$60,$18,$33,$3C,$18,$3F,$06  ; "......>>.`.3<.?."
+$D390                   .BYTE $1A,$30,$7C,$0E,$1F,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; ".0|............."
+$D3A0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D3B0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D3C0                   .BYTE $78,$00,$00,$18,$00,$00,$18,$00,$00,$18,$00,$00,$18,$00,$00,$18  ; "x..............."
+$D3D0                   .BYTE $00,$00,$78,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "..x............."
+$D3E0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D3F0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+; --------------------------------------------------------
+; SID base address.
+; The actual music player updates the live sound chip registers here; higher-level soundtrack selection happens in the engine code around $A77A-$AA2C.
+; --------------------------------------------------------
+$D400                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D410                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00                              ; "........."
+; xref: read from $A32C (L_A32C)
+$D419 SID_POTX:         .BYTE $00
+; xref: read from $A342
+$D41A SID_POTY:         .BYTE $00
+$D41B                   .BYTE $00,$00,$00,$00,$00                                              ; "....."
+$D420                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D430                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D440                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D450                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D460                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D470                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D480                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D490                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+; --------------------------------------------------------
+; Probable music/pitch or instrument data table in the banked SID data area.
+; --------------------------------------------------------
+$D4A0                   .BYTE $00,$58,$48,$8C,$48,$AC,$8C,$CC,$00,$58,$48,$88,$6C,$88,$8C,$FC  ; ".XH.H....XH.l..."
+$D4B0                   .BYTE $00,$58,$48,$8C,$40,$8C,$88,$FC,$00,$6C,$48,$88,$4C,$88,$8C,$F0  ; ".XH.@....lH.L..."
+$D4C0                   .BYTE $00,$58,$40,$80,$6C,$80,$80,$FC,$00,$58,$40,$80,$6C,$80,$80,$C0  ; ".X@.l....X@.l..."
+$D4D0                   .BYTE $00,$58,$4C,$80,$78,$88,$8C,$FC,$00,$44,$48,$88,$68,$88,$8C,$CC  ; ".XL.x....DH.h..."
+$D4E0                   .BYTE $00,$58,$10,$20,$10,$20,$20,$BC,$00,$68,$04,$08,$0C,$88,$4C,$BC  ; ".X. .  ..h....L."
+$D4F0                   .BYTE $00,$44,$48,$8C,$70,$88,$8C,$CC                                  ; ".DH.p..."
+; --------------------------------------------------------
+; Probable compact music control/instrument table referenced by the music loader at $A92B/$AE00.
+; --------------------------------------------------------
+; xref: read from $AE00 (L_AE00)
+$D4F8                   .BYTE $00,$40,$40,$80,$40,$80,$80,$AC                                  ; ".@@.@..."
+$D500                   .BYTE $00,$44,$58,$68,$AC,$4C,$8C,$CC,$00,$6C,$48,$48,$8C,$48,$8C,$CC  ; ".DXh.L...lHH.H.."
+$D510                   .BYTE $00,$58,$48,$48,$8C,$48,$8C,$FC,$00,$58,$48,$8C,$4C,$BC,$80,$C0  ; ".XHH.H...XH.L..."
+$D520                   .BYTE $00,$58,$48,$48,$8C,$4C,$88,$F8,$00,$58,$48,$4C,$B0,$48,$8C,$CC  ; ".XHH.L...XHL.H.."
+$D530                   .BYTE $00,$58,$4C,$80,$E8,$08,$8C,$6C,$00,$58,$10,$20,$10,$20,$30,$30  ; ".XL....l.X. . 00"
+$D540                   .BYTE $00,$48,$48,$48,$8C,$48,$8C,$FC,$00,$48,$48,$8C,$48,$EC,$30,$30  ; ".HHH.H...HH.H.00"
+$D550                   .BYTE $00,$48,$48,$8C,$68,$AC,$BC,$CC,$00,$44,$48,$88,$EC,$78,$8C,$CC  ; ".HH.h....DH..x.."
+$D560                   .BYTE $00,$44,$48,$48,$AC,$08,$0C,$BC,$00,$58,$0C,$08,$2C,$70,$80,$BC  ; ".DHH.....X..,p.."
+$D570                   .BYTE $00,$00,$00,$00,$00,$00,$40,$80,$00,$00,$40,$80,$00,$40,$80,$00  ; "......@...@..@.."
+$D580                   .BYTE $00,$14,$10,$10,$20,$10,$20,$3C                                  ; ".... . <"
+; xref: read from $A057 (L_A057)
+$D588                   .BYTE $00,$1C,$0C,$0C,$08,$0C,$08,$28                                  ; ".......("
+$D590                   .BYTE $48,$00,$58,$8C,$48,$AC,$8C,$CC,$48,$00,$58,$48,$8C,$48,$8C,$FC  ; "H.X.H...H.XH.H.."
+$D5A0                   .BYTE $48,$00,$48,$48,$8C,$48,$8C,$FC,$00,$10,$48,$48,$50,$48,$8C,$B0  ; "H.HH.H....HHPH.."
+$D5B0                   .BYTE $00,$00,$00,$00,$68,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "....h..........."
+$D5C0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D5D0                   .BYTE $64,$64,$64,$B8,$B8,$64,$64,$64,$01,$01,$01,$06,$06,$01,$01,$01  ; "ddd..ddd........"
+$D5E0                   .BYTE $40,$40,$40,$90,$90,$40,$40,$40,$19,$19,$19,$2E,$2E,$19,$19,$19  ; "@@@..@@@........"
+$D5F0                   .BYTE $64,$64,$65,$7A,$65,$64,$64,$64,$01,$01,$55,$9B,$55,$00,$01,$01  ; "ddezeddd..U.U..."
+$D600                   .BYTE $40,$40,$55,$E6,$55,$00,$40,$40,$19,$19,$69,$BE,$69,$15,$19,$19  ; "@@U.U.@@..i.i..."
+$D610                   .BYTE $28,$14,$69,$BE,$69,$14,$28,$14,$00,$00,$55,$55,$55,$00,$00,$00  ; "(.i.i.(...UUU..."
+$D620                   .BYTE $00,$00,$95,$D9,$95,$00,$00,$00,$00,$00,$55,$AA,$55,$00,$00,$00  ; "..........U.U..."
+$D630                   .BYTE $00,$00,$56,$67,$56,$00,$00,$00,$64,$64,$64,$65,$96,$EB,$96,$41  ; "..VgV...ddde...A"
+$D640                   .BYTE $19,$19,$19,$59,$96,$EB,$96,$41,$00,$00,$00,$41,$96,$EB,$96,$41  ; "...Y...A...A...A"
+$D650                   .BYTE $01,$02,$07,$46,$9B,$EF,$9B,$46,$01,$05,$19,$69,$BE,$6A,$55,$40  ; "...F...F...i.jU@"
+$D660                   .BYTE $01,$16,$5B,$66,$A9,$54,$00,$00,$40,$94,$E5,$99,$6A,$15,$00,$00  ; "..[f.T..@...j..."
+$D670                   .BYTE $40,$50,$64,$69,$BE,$A9,$55,$01,$40,$80,$D0,$91,$E6,$FB,$E6,$91  ; "@Pdi..U.@......."
+; xref: read from $A856 (L_A856)
+$D680 SID_V1_FREQ_LO:   .BYTE $00
+$D681                   .BYTE $06,$55,$96,$9B,$96,$55,$50,$00,$55,$B9,$FE,$B9,$AA,$59,$15      ; ".U...UP.U....Y."
+; xref: read from $A873 (L_A873)
+$D690                   .BYTE $64,$55,$FB,$FE,$BA,$A6,$99,$55                                  ; "dU.....U"
+; xref: read from $A85C
+$D698 SID_VOLUME:       .BYTE $00
+$D699                   .BYTE $55,$BF,$FE,$BA,$AA,$65,$55                                      ; "U....eU"
+$D6A0                   .BYTE $00,$54,$F9,$EA,$A9,$66,$55,$05                                  ; ".T...fU."
+; xref: read from $A862
+$D6A8                   .BYTE $00,$54,$F9,$B9,$AA,$99,$55,$44                                  ; ".T....UD"
+$D6B0                   .BYTE $00,$05,$16,$5B,$6E,$5A,$15,$01                                  ; "...[nZ.."
+; xref: read from $A879
+$D6B8                   .BYTE $19,$59,$99,$A5,$96,$66,$55,$51                                  ; ".Y...fUQ"
+; xref: read from $A868
+$D6C0                   .BYTE $00,$05,$16,$5B,$6E,$6F,$5A,$55,$00,$95,$FF,$FB,$EE,$A9,$65,$55  ; "...[noZU......eU"
+; xref: read from $A894 (L_A894)
+$D6D0 SID_V3_PW_LO:     .BYTE $06
+$D6D1                   .BYTE $06,$55,$96,$9B,$96,$55,$50,$40,$55,$B9,$FE,$B9,$AA,$59,$15      ; ".U...UP@U....Y."
+; xref: read from $A8B1 (L_A8B1)
+$D6E0                   .BYTE $00,$55,$FB,$FE,$BA,$A6,$99,$55                                  ; ".U.....U"
+; xref: read from $A89A
+$D6E8 SID_V2_FREQ_HI:   .BYTE $01
+$D6E9                   .BYTE $55,$BF,$FE,$BA,$AA,$65,$55                                      ; "U....eU"
+$D6F0                   .BYTE $40,$54,$F9,$EA,$A9,$66,$55,$05                                  ; "@T...fU."
+; xref: read from $A8A0
+$D6F8                   .BYTE $01,$55,$F9,$B9,$AA,$99,$55,$44                                  ; ".U....UD"
+$D700                   .BYTE $40,$45,$56,$5B,$6E,$5A,$15,$01                                  ; "@EV[nZ.."
+; xref: read from $A8B7
+$D708                   .BYTE $00,$50,$91,$A5,$96,$66,$55,$51                                  ; ".P...fUQ"
+; xref: read from $A8A6
+$D710                   .BYTE $01,$05,$16,$5B,$6E,$6F,$5A,$55,$90,$55,$FF,$FB,$EE,$A9,$65,$55  ; "...[noZU.U....eU"
+$D720                   .BYTE $06,$06,$06,$0B,$0B,$06,$06,$06,$40,$40,$40,$80,$80,$40,$40,$40  ; "........@@@..@@@"
+$D730                   .BYTE $01,$01,$01,$02,$02,$01,$01,$01,$90,$90,$90,$E0,$E0,$90,$90,$90  ; "................"
+$D740                   .BYTE $00,$14,$55,$69,$AA,$55,$00,$00,$00,$00,$00,$00,$01,$05,$06,$06  ; "..Ui.U.........."
+$D750                   .BYTE $04,$00,$00,$00,$40,$50,$90,$90,$00,$00,$00,$00,$00,$00,$00,$00  ; "....@P.........."
+$D760                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D770                   .BYTE $00,$00,$00,$01,$06,$1B,$6E,$B8,$06,$1B,$6E,$BA,$9B,$46,$21,$B8  ; "......n...n..F!."
+$D780                   .BYTE $90,$54,$91,$44,$90,$40,$08,$6E,$00,$00,$00,$40,$10,$04,$01,$16  ; ".T.D.@.n...@...."
+$D790                   .BYTE $61,$56,$19,$14,$05,$05,$01,$01,$E2,$4B,$12,$44,$18,$6E,$08,$40  ; "aV.......K.D.n.@"
+$D7A0                   .BYTE $08,$C0,$02,$0B,$02,$44,$14,$10,$05,$01,$04,$C4,$10,$10,$40,$40  ; ".....D........@@"
+$D7B0                   .BYTE $88,$A2,$20,$28,$08,$0A,$02,$02,$02,$22,$08,$08,$20,$A0,$80,$80  ; ".. (.....".. ..."
+$D7C0                   .BYTE $00,$00,$00,$00,$00,$00,$03,$0D,$00,$00,$00,$00,$00,$DC,$67,$95  ; "..............g."
+$D7D0                   .BYTE $3A,$2B,$26,$37,$0B,$0C,$00,$C0,$00,$00,$00,$00,$00,$00,$03,$0D  ; ":+&7............"
+$D7E0                   .BYTE $00,$00,$03,$0D,$36,$D9,$65,$95,$06,$C9,$49,$8B,$45,$C7,$C1,$50  ; "....6.e...I.E..P"
+$D7F0                   .BYTE $56,$66,$9B,$6A,$AB,$6E,$BB,$FF,$B0,$B0,$B3,$F2,$B1,$F1,$C1,$09  ; "Vf.j.n.........."
+; --------------------------------------------------------
+; Color RAM for the visible character screen.
+; Used together with the screen matrix at $FC00; color RAM is fixed at $D800 on the C64.
+; --------------------------------------------------------
+; xref: write from $AF54
+$D800                   .BYTE $00,$00,$00,$C0,$B0,$6C,$5B,$96,$00,$00,$00,$00,$00,$00,$00,$40  ; ".....l[........@"
+$D810                   .BYTE $07,$05,$02,$00,$00,$00,$00,$00,$66,$9A,$AA,$EA,$3B,$0E,$03,$00  ; "........f...;..."
+$D820                   .BYTE $E0,$70,$D0,$41,$47,$46,$4E,$4A,$00,$00,$D7,$69,$AA,$99,$66,$99  ; ".p.AGFNJ...i..f."
+$D830                   .BYTE $0A,$06,$0D,$C2,$71,$B1,$53,$50,$6A,$AE,$6B,$AF,$BC,$F0,$C0,$00  ; "....q.SPj.k....."
+$D840                   .BYTE $B0,$F0,$C0,$00,$00,$00,$00,$00,$09,$0E,$03,$00,$00,$00,$00,$00  ; "................"
+$D850                   .BYTE $AA,$AE,$BB,$EF,$3C,$00,$00,$00,$B0,$F0,$C0,$00,$03,$02,$01,$02  ; "....<..........."
+$D860                   .BYTE $00,$08,$2E,$B7,$D5,$77,$DF,$FE,$00,$00,$00,$80,$E0,$E0,$A8,$E0  ; ".....w.........."
+$D870                   .BYTE $02,$00,$02,$02,$02,$01,$00,$00,$55,$00,$AA,$AE,$BB,$EF,$7F,$1D  ; "........U......."
+$D880                   .BYTE $54,$00,$B4,$D0,$D4,$D0,$44,$10,$04,$00,$00,$00,$00,$00,$00,$00  ; "T.....D........."
+$D890                   .BYTE $40,$00,$00,$00,$00,$00,$00,$00,$64,$64,$64,$B8,$B8,$64,$64,$64  ; "@.......ddd..ddd"
+$D8A0                   .BYTE $00,$00,$00,$00,$15,$5A,$69,$64,$00,$00,$00,$00,$54,$A5,$6A,$15  ; ".....Zid....T.j."
+$D8B0                   .BYTE $00,$00,$00,$00,$00,$5A,$AF,$5A,$00,$00,$00,$00,$00,$95,$EA,$95  ; ".....Z.Z........"
+$D8C0                   .BYTE $00,$00,$00,$00,$55,$5A,$A5,$50,$00,$00,$00,$00,$50,$94,$A4,$64  ; "....UZ.P....P..d"
+$D8D0                   .BYTE $64,$64,$69,$5A,$15,$00,$00,$00,$00,$15,$6A,$A5,$54,$00,$00,$00  ; "ddiZ......j.T..."
+$D8E0                   .BYTE $00,$5A,$AF,$5A,$00,$00,$00,$00,$00,$95,$EA,$95,$00,$00,$00,$00  ; ".Z.Z............"
+$D8F0                   .BYTE $00,$F0,$AF,$EA,$FF,$00,$00,$00,$64,$64,$A4,$94,$50,$00,$00,$00  ; "........dd..P..."
+; xref: write from $AF5A
+$D900                   .BYTE $00,$00,$00,$00,$00,$00,$01,$03,$00,$00,$00,$00,$19,$6E,$BA,$EA  ; ".............n.."
+$D910                   .BYTE $00,$00,$00,$00,$00,$40,$90,$F4,$03,$03,$03,$01,$01,$00,$00,$00  ; ".....@.........."
+$D920                   .BYTE $59,$66,$9A,$6A,$9B,$6E,$3F,$00                                  ; "Yf.j.n?."
+; xref: read from $A9BD
+$D928                   .BYTE $AC,$EC,$BC,$EC,$BC,$F0,$C0,$00                                  ; "........"
+$D930                   .BYTE $00,$00,$00,$02,$02,$01,$03,$01,$00,$1A,$6F,$BF,$FB,$EE,$FB,$EA  ; "..........o....."
+$D940                   .BYTE $00,$40,$90,$E4,$B4,$E8,$A8,$A4,$01,$00,$00,$00,$00,$00,$00,$00  ; ".@.............."
+$D950                   .BYTE $A9,$66,$19,$05,$00,$00,$00,$00,$68,$A0,$80,$00,$00,$00,$00,$00  ; ".f......h......."
+$D960                   .BYTE $25,$16,$1D,$2E,$06,$08,$00                                      ; "%......"
+; xref: read from $A9C3
+$D967                   .BYTE $00,$BC,$BF,$BC,$BC,$BC,$BF,$BC,$BF                              ; "........."
+$D970                   .BYTE $FB,$FB,$F0,$F1,$FC,$FC,$F1,$F1,$FC,$FC,$FC,$BF,$FB,$FC,$BF,$CF  ; "................"
+$D980                   .BYTE $CF,$FC,$FC,$FC,$FC,$FC,$FB,$FB,$BC,$BF,$BF,$BC,$BC,$BC,$BC,$BC  ; "................"
+$D990                   .BYTE $BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$FC,$BC,$B0,$BF,$BF,$F0,$FC,$FC  ; "................"
+$D9A0                   .BYTE $CB,$BC,$BC,$BC,$BC,$CB,$CB,$01,$01,$0F,$01,$01,$01,$0F,$0C,$01  ; "................"
+$D9B0                   .BYTE $01,$0B,$0B,$0B,$0B,$0B,$0C,$0B,$0B,$0B,$0C,$01,$0B,$0C,$0B,$0B  ; "................"
+$D9C0                   .BYTE $0B,$0B,$0B,$0B,$0B,$0C,$0C,$01,$0C,$0C,$01,$01,$0F,$0F,$0F,$0F  ; "................"
+$D9D0                   .BYTE $0F,$0F,$0F,$0F,$01,$0F,$0F,$0B,$01,$0F,$01,$0C,$01,$0B,$0B,$0F  ; "................"
+$D9E0                   .BYTE $0F,$0F,$0F,$01,$01,$0F,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$D9F0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+; xref: write from $AF60
+$DA00                   .BYTE $FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$00,$00,$78,$0C,$7C,$CC,$7E,$00  ; "..........x.|.~."
+$DA10                   .BYTE $E0,$60,$60,$7C,$66,$66,$FC,$00,$00,$00,$3C,$66,$60,$66,$3C,$00  ; ".``|ff....<f`f<."
+$DA20                   .BYTE $0E,$0C,$0C,$7C,$CC,$CC,$7E,$00,$00,$00,$3C,$66,$7E,$60,$3E,$00  ; "...|..~...<f~`>."
+$DA30                   .BYTE $1C,$36,$30,$78,$30,$30,$78,$00,$00,$00,$3C,$66,$66,$3C,$06,$7C  ; ".60x00x...<ff<.|"
+$DA40                   .BYTE $E0,$60,$7C,$66,$66,$66,$E6,$00,$18,$00,$38,$18,$18,$18,$3C,$00  ; ".`|fff....8...<."
+$DA50                   .BYTE $0C,$00,$0C,$0C,$0C,$0C,$6C,$38,$E0,$60,$66,$6C,$78,$6C,$E6,$00  ; "......l8.`flxl.."
+$DA60                   .BYTE $38,$18,$18,$18,$18,$18,$3C,$00,$00,$00,$EC,$FE,$D6,$C6,$C6,$00  ; "8.....<........."
+$DA70                   .BYTE $00,$00,$7C,$66,$66,$66,$66,$00,$00,$00,$3C,$66,$66,$66,$3C,$00  ; "..|ffff...<fff<."
+$DA80                   .BYTE $00,$00,$FC,$66,$66,$7C,$60,$F0,$00,$00,$7E,$CC,$CC,$7C,$0C,$1E  ; "...ff|`...~..|.."
+$DA90                   .BYTE $00,$00,$FC,$66,$60,$60,$F0,$00,$00,$00,$3E,$60,$3C,$06,$7C,$00  ; "...f``....>`<.|."
+$DAA0                   .BYTE $10,$30,$7C,$30,$30,$34,$1C,$00,$00,$00,$CC,$CC,$CC,$CC,$7E,$00  ; ".0|004........~."
+$DAB0                   .BYTE $00,$00,$66,$66,$66,$3C,$18,$00,$00,$00,$C6,$C6,$D6,$7C,$6C,$00  ; "..fff<.......|l."
+$DAC0                   .BYTE $00,$00,$66,$3C,$18,$3C,$66,$00,$00,$00,$66,$66,$66,$3C,$18,$70  ; "..f<.<f...fff<.p"
+$DAD0                   .BYTE $00,$00,$7E,$4C,$18,$32,$7E,$00,$6C,$00,$78,$0C,$7C,$CC,$7E,$00  ; "..~L.2~.l.x.|.~."
+$DAE0                   .BYTE $66,$00,$3C,$66,$66,$66,$3C,$00                                  ; "f.<fff<."
+; xref: write from $AF66
+$DAE8                   .BYTE $CC,$00,$CC,$CC,$CC,$CC,$7E,$00                                  ; "......~."
+$DAF0                   .BYTE $1E,$18,$18,$18,$18,$18,$1E,$00                                  ; "........"
+; xref: write from $9C87 (L_9C87)
+; xref: write from $AF78
+$DAF8                   .BYTE $78,$18,$18,$18,$18,$18,$78,$00                                  ; "x.....x."
+$DB00                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$1C,$1C,$18,$18,$18,$00,$18,$00  ; "................"
+$DB10                   .BYTE $66,$66,$66,$00,$00,$00,$00,$00,$00,$6C,$FE,$6C,$6C,$FE,$6C,$00  ; "fff......l.ll.l."
+$DB20                   .BYTE $18,$3E,$60,$3C,$06,$7C,$18,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; ".>`<.|.........."
+$DB30                   .BYTE $70,$D8,$70,$DA,$CE,$CC,$7E,$00,$18,$18,$30,$00,$00,$00,$00,$00  ; "p.p...~...0....."
+$DB40                   .BYTE $1C,$30,$60,$60,$60,$30,$1C,$00,$38,$0C,$06,$06,$06,$0C,$38,$00  ; ".0```0..8.....8."
+$DB50                   .BYTE $00,$66,$3C,$FF,$3C,$66,$00,$00,$00,$18,$18,$7E,$18,$18,$00,$00  ; ".f<.<f.....~...."
+$DB60                   .BYTE $00,$00,$00,$00,$00,$18,$18,$30,$00,$00,$00,$7E,$00,$00,$00,$00  ; ".......0...~...."
+$DB70                   .BYTE $00,$00,$00,$00,$00,$18,$18,$00,$00,$06,$0C,$18,$30,$60,$C0,$00  ; "............0`.."
+$DB80                   .BYTE $3C,$66,$66,$66,$66,$66,$3C,$00,$18,$38,$18,$18,$18,$18,$7E,$00  ; "<fffff<..8....~."
+$DB90                   .BYTE $3C,$66,$06,$1C,$30,$60,$7E,$00,$3C,$66,$06,$1C,$06,$66,$3C,$00  ; "<f..0`~.<f...f<."
+$DBA0                   .BYTE $1C,$3C,$6C,$CC,$FE,$0C,$1E,$00,$7E,$60,$7C,$06,$06,$66,$3C,$00  ; ".<l.....~`|..f<."
+$DBB0                   .BYTE $1C,$30,$60,$7C,$66,$66,$3C,$00,$7E,$06,$06,$0C,$18,$18,$18,$00  ; ".0`|ff<.~......."
+$DBC0                   .BYTE $3C,$66,$66,$3C,$66,$66,$3C,$00,$3C,$66,$66,$3E,$06,$0C,$38,$00  ; "<ff<ff<.<ff>..8."
+$DBD0                   .BYTE $00,$18,$18,$00,$00,$18,$18,$00,$00,$18,$18,$00,$00,$18,$18,$30  ; "...............0"
+$DBE0                   .BYTE $06,$0C,$18,$30,$18,$0C,$06,$00,$00,$00,$7E,$00,$7E,$00,$00,$00  ; "...0......~.~..."
+$DBF0                   .BYTE $60,$30,$18,$0C,$18,$30,$60,$00,$3C,$66,$66,$0C,$18,$00,$18,$00  ; "`0...0`.<ff....."
+; xref: read from $9808 (L_9808)
+; xref: read from $981C
+; xref: write from $991F
+; xref: read from $A152 (SUB_A152)
+; xref: read from $A29D (SUB_A29D)
+$DC00 CIA1_PRA:         .BYTE $00
+; xref: read from $980D
+; xref: read from $981F
+; xref: read from $982B (L_982B)
+; xref: read from $9EEE
+; xref: read from $A137
+; xref: read from $A155
+$DC01 CIA1_PRB:         .BYTE $00
+$DC02                   .BYTE $00,$00,$00,$00,$00,$00,$18,$3C,$66,$66,$7E                      ; ".......<ff~"
+; xref: write from $AF0F
+; xref: read from $AF12
+$DC0D CIA1_ICR:         .BYTE $66
+$DC0E                   .BYTE $66,$00                                                          ; "f."
+$DC10                   .BYTE $FC,$66,$66,$7C,$66,$66,$FC,$00,$3C,$66,$C0,$C0,$C0,$66,$3C,$00  ; ".ff|ff..<f...f<."
+$DC20                   .BYTE $F8,$6C,$66,$66,$66,$6C,$F8,$00,$FE,$62,$68,$78,$68,$62,$FE,$00  ; ".lfffl...bhxhb.."
+$DC30                   .BYTE $FE,$62,$68,$78,$68,$60,$F0,$00,$3C,$66,$C0,$C0,$CE,$66,$3E,$00  ; ".bhxh`..<f...f>."
+$DC40                   .BYTE $E6,$66,$66,$7E,$66,$66,$66,$00,$7E,$18,$18,$18,$18,$18,$7E,$00  ; ".ff~fff.~.....~."
+$DC50                   .BYTE $1E,$0C,$0C,$0C,$CC,$CC,$78,$00,$E6,$66,$6C,$78,$6C,$66,$E6,$00  ; "......x..flxlf.."
+$DC60                   .BYTE $F0,$60,$60,$60,$62,$66,$FE,$00,$C6,$EE,$FE,$FE,$D6,$C6,$C6,$00  ; ".```bf.........."
+$DC70                   .BYTE $C6,$E6,$F6,$DE,$CE,$C6,$C6,$00,$38,$6C,$C6,$C6,$C6,$6C,$38,$00  ; "........8l...l8."
+$DC80                   .BYTE $FC,$66,$66,$7C,$60,$60,$F0,$00,$38,$6C,$C6,$C6,$DA,$CC,$76,$00  ; ".ff|``..8l....v."
+$DC90                   .BYTE $FC,$66,$66,$7C,$6C,$66,$E6,$00,$3C,$66,$60,$3C,$06,$66,$3C,$00  ; ".ff|lf..<f`<.f<."
+$DCA0                   .BYTE $7E,$5A,$18,$18,$18,$18,$3C,$00,$E6,$66,$66,$66,$66,$66,$3C,$00  ; "~Z....<..fffff<."
+$DCB0                   .BYTE $E6,$66,$66,$66,$66,$3C,$18,$00,$C6,$C6,$C6,$D6,$FE,$EE,$C6,$00  ; ".ffff<.........."
+$DCC0                   .BYTE $66,$66,$3C,$18,$3C,$66,$66,$00,$66,$66,$66,$3C,$18,$18,$3C,$00  ; "ff<.<ff.fff<..<."
+$DCD0                   .BYTE $FE,$C6,$8C,$18,$32,$66,$FE,$00,$66,$18,$3C,$66,$7E,$66,$66,$00  ; "....2f..f.<f~ff."
+$DCE0                   .BYTE $C6,$38,$6C,$C6,$C6,$6C,$38,$00,$E6,$00,$66,$66,$66,$66,$3C,$00  ; ".8l..l8...ffff<."
+$DCF0                   .BYTE $78,$CC,$CC,$D8,$CC,$CC,$D8,$C0,$1E,$18,$18,$18,$18,$18,$1E,$00  ; "x..............."
+; xref: write from $AF1C
+; xref: read from $CB96 (L_CB96)
+; xref: read from $CCEF
+; xref: write from $CCF2
+; xref: read from $CCFD
+; xref: write from $CD00
+$DD00 CIA2_PRA:         .BYTE $00
+$DD01                   .BYTE $00,$00,$40,$00,$00,$20,$00,$00,$30,$00,$00,$18,$00,$00,$1C      ; "..@.. ..0......"
+$DD10                   .BYTE $00,$00,$0E,$00,$00,$0F,$00,$00,$07,$80,$00,$06,$C0,$00,$02,$60  ; "...............`"
+$DD20                   .BYTE $00,$02,$20,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; ".. ............."
+$DD30                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$DD40                   .BYTE $C0,$00,$00,$B0,$00,$00,$4C,$00,$00,$43,$00,$00,$20,$C0,$00,$20  ; "......L..C.. .. "
+$DD50                   .BYTE $30,$00,$10,$08,$00,$10,$70,$00,$08,$20,$00,$09,$10,$00,$05,$88  ; "0.....p.. ......"
+$DD60                   .BYTE $00,$05,$50,$00,$02,$20,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "..P.. .........."
+$DD70                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$DD80                   .BYTE $00,$00,$00,$00,$00,$00,$10,$00,$00,$0C,$00,$00,$07,$00,$00,$03  ; "................"
+$DD90                   .BYTE $C0,$00,$01,$F0,$00,$00,$80,$00,$00,$40,$00,$00,$20,$00,$00,$10  ; ".........@.. ..."
+$DDA0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$DDB0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$DDC0                   .BYTE $A9,$F8,$00,$02,$04,$00,$00,$02,$00,$00,$02,$00,$20,$02,$00,$50  ; "............ ..P"
+$DDD0                   .BYTE $02,$00,$80,$02,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$DDE0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$DDF0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$DE00                   .BYTE $00,$00,$00,$00,$00,$00,$A9,$F8,$00,$00,$08,$00,$00,$08,$00,$00  ; "................"
+$DE10                   .BYTE $08,$00,$3F,$F8,$00,$00,$04,$00,$BF,$F8,$00,$50,$00,$00,$20,$00  ; "..?........P.. ."
+$DE20                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$DE30                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$DE40                   .BYTE $00,$00,$00,$A9,$F8,$00,$00,$04,$00,$00,$04,$00,$00,$04,$00,$20  ; "............... "
+$DE50                   .BYTE $04,$00,$40,$04,$00,$FF,$F8,$00,$40,$00,$00,$20,$00,$00,$00,$00  ; "..@.....@.. ...."
+$DE60                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$DE70                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$DE80                   .BYTE $00,$00,$00,$00,$00,$00,$00,$80,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$DE90                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$1F,$F0  ; "................"
+$DEA0                   .BYTE $00,$19,$F0,$00,$19,$F0,$00,$19,$F0,$00,$19,$F0,$00,$1F,$F0,$00  ; "................"
+$DEB0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$DEC0                   .BYTE $FF,$FE,$00,$C0,$06,$00,$CB,$76,$00,$C0,$06,$00,$CE,$D6,$00,$C0  ; ".......v........"
+$DED0                   .BYTE $06,$00,$C0,$06,$00,$C0,$06,$00,$FF,$FE,$00,$FF,$FE,$00,$E0,$0E  ; "................"
+$DEE0                   .BYTE $00,$E6,$0E,$00,$E6,$0E,$00,$E6,$0E,$00,$66,$0E,$00,$20,$0E,$00  ; "..........f.. .."
+$DEF0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$DF00                   .BYTE $00,$00,$00,$3F,$F8,$00,$34,$08,$00,$3F,$F8,$00,$31,$28,$00,$3F  ; "...?..4..?..1(.?"
+$DF10                   .BYTE $F8,$00,$3F,$F8,$00,$3F,$F8,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "..?..?.........."
+$DF20                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$DF30                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$DF40                   .BYTE $7F,$80,$00,$C0,$40,$00,$80,$00,$00,$80,$00,$00,$00,$00,$00,$08  ; "....@..........."
+$DF50                   .BYTE $00,$00,$10,$00,$00,$10,$00,$00,$10,$00,$00,$10,$00,$00,$00,$00  ; "................"
+$DF60                   .BYTE $00,$00,$00,$00,$00,$00,$00,$10,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$DF70                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$DF80                   .BYTE $00,$40,$00,$00,$20,$00,$3F,$A0,$00,$20,$A0,$00,$47,$A0,$00,$00  ; ".@.. .?.. ..G..."
+$DF90                   .BYTE $60,$00,$07,$80,$00,$04,$00,$00,$04,$00,$00,$04,$00,$00,$08,$00  ; "`..............."
+$DFA0                   .BYTE $00,$00,$00,$00,$08,$00,$00,$04,$00,$00,$08,$00,$00,$00,$00,$00  ; "................"
+$DFB0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$DFC0                   .BYTE $00,$00,$00,$3F,$80,$00,$40,$40,$00,$40,$40,$00,$00,$40,$00,$07  ; "...?..@@.@@..@.."
+$DFD0                   .BYTE $80,$00,$08,$00,$00,$08,$00,$00,$08,$00,$00,$08,$00,$00,$00,$00  ; "................"
+$DFE0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$08,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$DFF0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$E000                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$10,$00,$11  ; "................"
+$E010                   .BYTE $04,$10,$00,$00,$40,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "....@..........."
+$E020                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$45,$01,$04,$00,$00,$00,$00,$00  ; "........E......."
+$E030                   .BYTE $55,$19,$46,$16,$05,$01,$04,$01,$03,$02,$42,$42,$92,$92,$62,$62  ; "U.F.......BB..bb"
+$E040                   .BYTE $FF,$57,$97,$27,$A9,$0B,$21,$55,$35,$15,$18,$10,$11,$16,$1A,$15  ; ".W.'..!U5......."
+$E050                   .BYTE $DD,$55,$0A,$22,$89,$06,$AA,$55,$FF,$55,$AA,$66,$81,$06,$A8,$55  ; ".U."...U.U.f...U"
+$E060                   .BYTE $FF,$55,$AA,$26,$99,$A2,$88,$55,$FF,$55,$AA,$89,$9A,$68,$8A,$55  ; ".U.&...U.U...h.U"
+$E070                   .BYTE $FF,$55,$AA,$69,$99,$2A,$8A,$77,$FF,$57,$95,$29,$4A,$A9,$95,$7F  ; ".U.i.*.w.W.)J..."
+$E080                   .BYTE $C7,$C5,$C6,$C4,$C4,$C4,$C6,$C5,$7F,$55,$80,$22,$18,$82,$AA,$55  ; ".........U."...U"
+$E090                   .BYTE $FF,$55,$22,$6A,$86,$29,$A2                                      ; ".U"j.)."
+
+; === SUBROUTINE: SUB_E097 ===
+
+$E097 SUB_E097:                       ; xref: call from $0F98
+    EOR $FF,X
+    CLI
+    LDX #$80
+    LDA ($90,X)
+    TAY
+    EOR $FF,X
+    ROR A
+    LDA $45,X
+    ROR $A6
+    STY $AA,X
+
+; === DATA SECTION ===
+
+$E0A8                   .BYTE $FF,$55,$AA,$66,$A9,$22,$A8,$55                                  ; ".U.f.".U"
+$E0B0                   .BYTE $FF,$55,$A9,$6A,$9A,$19,$AA,$55,$F3,$F1,$71,$71,$71,$B1,$91,$51  ; ".U.j...U..qqq..Q"
+$E0C0                   .BYTE $FF,$55,$80,$09,$16,$A8,$82,$55,$FF,$55,$AA,$26,$98,$24,$AA,$55  ; ".U.....U.U.&.$.U"
+$E0D0                   .BYTE $FF,$55,$AA,$62,$19,$5A,$A0,$55,$FF,$55,$AA,$68,$89,$06,$A8,$55  ; ".U.b.Z.U.U.h...U"
+$E0E0                   .BYTE $FF,$55,$A9,$A6,$99,$22,$88,$55,$FF,$5F,$55,$95,$A9,$AA,$8A,$57  ; ".U...".U._U....W"
+$E0F0                   .BYTE $F4,$7C,$DC,$FC,$7C,$5C,$9C,$7C,$FF,$55,$65,$49,$6A,$42,$48,$55  ; ".|..|\.|.UeIjBHU"
+$E100                   .BYTE $C0,$C0,$C0,$C0,$42,$C9,$45,$46,$15,$59,$24,$65,$94,$90,$44,$10  ; "....B.EF.Y$e..D."
+$E110                   .BYTE $44,$11,$40,$00,$00,$00,$00,$00,$40,$00,$00,$00,$00,$00,$00,$00  ; "D.@.....@......."
+$E120                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$10,$04,$00,$01,$00  ; "................"
+$E130                   .BYTE $00,$40,$10,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; ".@.............."
+$E140                   .BYTE $00,$00,$01,$00,$01,$05,$01,$06,$10,$41,$10,$40,$10,$50,$90,$90  ; ".........A.@.P.."
+$E150                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$01,$01,$02  ; "................"
+$E160                   .BYTE $04,$20,$30,$60,$90,$C0,$C0,$80,$00,$00,$00,$00,$00,$00,$00,$00  ; ". 0`............"
+$E170                   .BYTE $00,$01,$10,$00,$04,$04,$04,$01,$50,$23,$53,$13,$13,$03,$13,$03  ; "........P#S....."
+$E180                   .BYTE $00,$FF,$5F,$97,$A7,$67,$6B,$AB,$10,$00,$11,$00,$10,$10,$10,$40  ; ".._..gk........@"
+$E190                   .BYTE $19,$06,$03,$52,$51,$09,$46,$41,$05,$10,$41,$42,$02,$01,$02,$41  ; "...RQ.FA..AB...A"
+$E1A0                   .BYTE $01,$06,$1B,$1E,$1D,$09,$04,$15,$11,$44,$95,$50,$40,$00,$40,$00  ; ".........D.P@.@."
+$E1B0                   .BYTE $19,$46,$40,$04,$04,$00,$10,$00,$00,$60,$98,$B2,$30,$30,$98,$A4  ; ".F@......`..00.."
+$E1C0                   .BYTE $00,$00,$00,$00,$40,$40,$00,$00,$00,$00,$00,$00,$00,$00,$00,$04  ; "....@@.........."
+$E1D0                   .BYTE $00,$00,$00,$01,$02,$42,$82,$91,$00,$00,$00,$01,$00,$00,$00,$00  ; ".....B.........."
+$E1E0                   .BYTE $00,$00,$50,$80,$80,$40,$00,$04,$00,$00,$03,$43,$80,$40,$00,$00  ; "..P..@.....C.@.."
+$E1F0                   .BYTE $01,$40,$00,$10,$04,$00,$00,$01,$04,$47,$82,$06,$15,$05,$00,$40  ; ".@.......G.....@"
+$E200                   .BYTE $00,$40,$90,$65,$5E,$07,$01,$14,$07,$3B,$6D,$BC,$D1,$44,$10,$50  ; ".@.e^....;m..D.P"
+$E210                   .BYTE $70,$80,$F0,$CC,$00,$C0,$30,$20,$50,$06,$02,$00,$01,$01,$50,$05  ; "p.....0 P.....P."
+$E220                   .BYTE $00,$00,$40,$80,$D0,$61,$7A,$1F,$70,$10,$3C,$00,$0C,$9C,$70,$40  ; "..@..az.p.<...p@"
+$E230                   .BYTE $04,$00,$00,$10,$10,$00,$10,$00,$00,$7F,$57,$65,$69,$59,$5A,$6A  ; "..........WeiYZj"
+$E240                   .BYTE $04,$CA,$C8,$C0,$C8,$C0,$C0,$C0,$40,$00,$04,$00,$10,$10,$10,$40  ; "........@......@"
+$E250                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$10,$08,$0C,$09,$06,$03,$03,$02  ; "................"
+$E260                   .BYTE $00,$00,$00,$00,$00,$40,$40,$80,$00,$00,$00,$00,$00,$00,$00,$00  ; ".....@@........."
+$E270                   .BYTE $40,$00,$41,$00,$01,$05,$01,$06,$00,$40,$10,$40,$10,$50,$90,$90  ; "@.A......@.@.P.."
+$E280                   .BYTE $07,$07,$07,$09,$0F,$07,$07,$07,$60,$60,$60,$80,$D0,$60,$60,$40  ; "........```..``@"
+$E290                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$07,$07,$17,$1B,$1B,$5B,$5E,$4D  ; ".............[^M"
+$E2A0                   .BYTE $40,$00,$40,$90,$90,$69,$6A,$BA,$00,$00,$00,$00,$00,$14,$41,$62  ; "@.@..ij.......Ab"
+$E2B0                   .BYTE $01,$05,$05,$18,$18,$68,$AC,$B9,$03,$03,$43,$43,$43,$43,$53,$23  ; ".....h....CCCCS#"
+$E2C0                   .BYTE $6B,$63,$87,$27,$1B,$9B,$6B,$8B,$00,$00,$00,$00,$00,$00,$00,$00  ; "kc.'..k........."
+$E2D0                   .BYTE $11,$09,$06,$13,$01,$00,$45,$01,$03,$00,$00,$40,$80,$43,$C3,$01  ; "......E....@.C.."
+$E2E0                   .BYTE $18,$25,$64,$91,$C5,$84,$51,$04,$40,$00,$40,$40,$4B,$4B,$43,$40  ; ".%d...Q.@.@@KKC@"
+$E2F0                   .BYTE $01,$03,$0C,$00,$40,$80,$80,$80,$08,$04,$10,$20,$10,$40,$0C,$0C  ; "....@...... .@.."
+$E300                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$04,$01,$01,$02,$06,$0A,$1A,$09  ; "................"
+$E310                   .BYTE $60,$20,$10,$10,$40,$40,$00,$01,$00,$00,$04,$28,$19,$4A,$8A,$A4  ; "` ..@@.....(.J.."
+$E320                   .BYTE $69,$A4,$00,$01,$A8,$46,$01,$20,$00,$00,$54,$85,$18,$24,$21,$91  ; "i....F. ..T..$!."
+$E330                   .BYTE $00,$00,$00,$00,$00,$40,$A0,$A4,$10,$01,$00,$00,$01,$01,$14,$10  ; ".....@.........."
+$E340                   .BYTE $04,$01,$00,$00,$51,$04,$00,$00,$00,$00,$00,$00,$40,$00,$01,$01  ; "....Q.......@..."
+$E350                   .BYTE $38,$20,$25,$5B,$BE,$E9,$95,$50,$01,$00,$60,$95,$67,$56,$41,$50  ; "8 %[...P..`.gVAP"
+$E360                   .BYTE $05,$40,$80,$90,$40,$40,$00,$00,$00,$00,$00,$01,$01,$04,$14,$10  ; ".@..@@.........."
+$E370                   .BYTE $40,$00,$40,$40,$00,$00,$01,$40,$6F,$6C,$72,$4E,$4B,$7B,$6F,$73  ; "@.@@...@olrNK{os"
+$E380                   .BYTE $C0,$C0,$C1,$C1,$C1,$C1,$C5,$C8,$40,$50,$50,$24,$24,$29,$3A,$6E  ; "........@PP$$):n"
+$E390                   .BYTE $00,$00,$00,$00,$00,$14,$41,$89,$01,$00,$01,$06,$06,$69,$A9,$AE  ; "......A......i.."
+$E3A0                   .BYTE $70,$70,$7C,$6C,$6C,$6F,$9F,$D3,$00,$00,$00,$00,$00,$00,$00,$00  ; "pp|llo.........."
+$E3B0                   .BYTE $07,$07,$07,$09,$0F,$07,$07,$07,$60,$60,$60,$80,$D0,$60,$60,$60  ; "........```..```"
+$E3C0                   .BYTE $07,$05,$07,$07,$09,$0F,$07,$07,$40,$50,$90,$90,$40,$E0,$90,$90  ; "........@P..@..."
+$E3D0                   .BYTE $01,$01,$00,$00,$00,$01,$01,$01,$4D,$1D,$1D,$58,$64,$70,$70,$70  ; "........M..Xdppp"
+$E3E0                   .BYTE $6B,$AC,$93,$71,$C1,$31,$31,$0D,$0C,$51,$B1,$F1,$E5,$E1,$D5,$D4  ; "k..q.11..Q......"
+$E3F0                   .BYTE $5E,$7D,$BD,$9D,$25,$89,$82,$02,$13,$13,$13,$13,$13,$53,$63,$73  ; "^}..%........Scs"
+$E400                   .BYTE $4B,$6B,$9B,$93,$63,$47,$8B,$83,$00,$01,$00,$00,$00,$00,$00,$00  ; "Kk..cG.........."
+$E410                   .BYTE $01,$01,$64,$1D,$4A,$07,$12,$01,$03,$07,$0E,$19,$64,$94,$41,$11  ; "..d.J.......d.A."
+$E420                   .BYTE $41,$11,$15,$45,$41,$15,$04,$10,$00,$00,$00,$00,$00,$00,$00,$00  ; "A..EA..........."
+$E430                   .BYTE $40,$00,$00,$00,$00,$00,$00,$00,$19,$1A,$0A,$00,$00,$00,$00,$00  ; "@..............."
+$E440                   .BYTE $00,$00,$40,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$01,$01,$02  ; "..@............."
+$E450                   .BYTE $02,$06,$1A,$6A,$AA,$AA,$AA,$AA,$54,$54,$64,$51,$52,$65,$55,$55  ; "...j....TTdQReUU"
+$E460                   .BYTE $14,$58,$65,$55,$61,$42,$44,$84,$52,$02,$06,$46,$82,$91,$A0,$A0  ; ".XeUaBD.R..F...."
+$E470                   .BYTE $56,$56,$60,$89,$56,$54,$58,$62,$00,$00,$40,$00,$00,$40,$80,$B3  ; "VV`.VTXb..@..@.."
+$E480                   .BYTE $10,$40,$00,$40,$40,$80,$41,$01,$01,$06,$19,$29,$75,$A1,$D4,$90  ; ".@.@@.A....)u..."
+$E490                   .BYTE $40,$80,$91,$42,$49,$1C,$28,$25,$00,$10,$04,$04,$00,$08,$08,$48  ; "@..BI.(%.......H"
+$E4A0                   .BYTE $01,$00,$04,$41,$01,$00,$00,$00,$11,$50,$21,$21,$10,$60,$21,$11  ; "...A.....P!!.`!."
+$E4B0                   .BYTE $01,$41,$04,$08,$48,$08,$18,$14,$63,$6F,$7B,$78,$6C,$62,$73,$70  ; ".A..H...co{xlbsp"
+$E4C0                   .BYTE $48,$48,$48,$48,$48,$4A,$4E,$46,$7A,$BE,$BD,$B9,$A4,$91,$41,$40  ; "HHHHHJNFz.....A@"
+$E4D0                   .BYTE $20,$45,$4B,$4A,$5E,$4E,$56,$16,$7E,$1F,$4B,$86,$81,$84,$84,$90  ; " EKJ^NV.~.K....."
+$E4E0                   .BYTE $61,$64,$64,$35,$1D,$09,$09,$09,$00,$40,$80,$80,$80,$80,$40,$00  ; "add5.....@....@."
+$E4F0                   .BYTE $07,$07,$07,$07,$09,$0F,$07,$07,$60,$60,$60,$60,$80,$D0,$60,$60  ; "........````..``"
+$E500                   .BYTE $0B,$0B,$0B,$0B,$0B,$06,$1B,$06,$60,$60,$60,$60,$60,$80,$58,$A0  ; "........`````.X."
+$E510                   .BYTE $01,$00,$00,$00,$00,$00,$00,$00,$20,$20,$70,$70,$34,$1C,$04,$00  ; "........  pp4..."
+$E520                   .BYTE $05,$04,$04,$10,$11,$15,$46,$47,$73,$4F,$BC,$AC,$EC,$E3,$38,$CF  ; "......FGsO....8."
+$E530                   .BYTE $40,$90,$60,$20,$10,$41,$02,$41,$73,$A3,$D0,$C3,$83,$83,$43,$03  ; "@.` .A.As.....C."
+$E540                   .BYTE $7E,$AA,$00,$A9,$76,$CE,$F2,$AA,$00,$00,$00,$00,$01,$00,$00,$00  ; "~...v..........."
+$E550                   .BYTE $00,$10,$01,$44,$15,$00,$00,$01,$10,$05,$14,$50,$01,$40,$80,$C0  ; "...D.......P.@.."
+$E560                   .BYTE $50,$40,$04,$14,$04,$44,$60,$24,$00,$00,$00,$00,$00,$00,$00,$00  ; "P@...D`$........"
+$E570                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$01,$02,$06,$07  ; "................"
+$E580                   .BYTE $00,$00,$00,$40,$90,$80,$40,$40,$02,$02,$02,$02,$03,$00,$00,$05  ; "...@..@@........"
+$E590                   .BYTE $59,$5A,$6A,$AA,$82,$00,$2A,$00,$55,$55,$55,$95,$A6,$00,$95,$AA  ; "YZj...*.UUU....."
+$E5A0                   .BYTE $46,$45,$95,$55,$99,$00,$56,$88,$20,$10,$40,$90,$50,$00,$60,$90  ; "FE.U..V. .@.P.`."
+$E5B0                   .BYTE $02,$06,$09,$18,$01,$05,$00,$01,$53,$00,$13,$50,$53,$50,$80,$A0  ; "........S..PSP.."
+$E5C0                   .BYTE $03,$01,$01,$03,$01,$07,$1B,$6D,$44,$50,$40,$10,$14,$50,$54,$10  ; ".......mDP@..PT."
+$E5D0                   .BYTE $19,$0C,$05,$03,$03,$03,$06,$0E,$04,$48,$44,$11,$01,$40,$40,$01  ; ".........HD..@@."
+$E5E0                   .BYTE $00,$00,$00,$00,$10,$40,$41,$52,$21,$10,$50,$10,$04,$09,$06,$01  ; ".....@AR!.P....."
+$E5F0                   .BYTE $10,$20,$74,$B1,$E0,$91,$40,$01,$6F,$55,$00,$55,$6E,$73,$7C,$55  ; ". t...@.oU.Uns|U"
+$E600                   .BYTE $47,$4A,$0D,$81,$42,$42,$43,$40,$01,$06,$09,$08,$04,$41,$80,$41  ; "GJ..BBC@.....A.A"
+$E610                   .BYTE $47,$53,$16,$1A,$19,$49,$24,$51,$50,$10,$10,$04,$44,$54,$91,$D1  ; "GS...I$QP...DT.."
+$E620                   .BYTE $0C,$0C,$09,$09,$18,$24,$10,$00,$00,$00,$00,$00,$00,$30,$6C,$8D  ; ".....$.......0l."
+$E630                   .BYTE $07,$02,$07,$0B,$0B,$06,$1B,$06,$60,$60,$A0,$60,$60,$80,$58,$A0  ; "........``.``.X."
+$E640                   .BYTE $7A,$10,$55,$AA,$AE,$BF,$F7,$55,$7A,$08,$AA,$77,$FF,$EE,$BB,$AA  ; "z.U....Uz..w...."
+$E650                   .BYTE $00,$00,$40,$90,$50,$90,$50,$45,$61,$B4,$DB,$86,$41,$10,$04,$00  ; "..@.P.PEa...A..."
+$E660                   .BYTE $16,$76,$B2,$D3,$43,$02,$07,$07,$4E,$43,$83,$C3,$C3,$03,$03,$02  ; ".v..C...NC......"
+$E670                   .BYTE $40,$80,$80,$40,$80,$40,$C0,$00,$00,$01,$01,$01,$01,$01,$01,$01  ; "@..@.@.........."
+$E680                   .BYTE $00,$FF,$77,$5F,$9F,$97,$9B,$A7,$00,$00,$00,$00,$00,$00,$00,$00  ; "..w_............"
+$E690                   .BYTE $01,$02,$03,$02,$05,$00,$04,$14,$48,$80,$88,$08,$20,$00,$00,$C3  ; "........H... ..."
+$E6A0                   .BYTE $1D,$07,$43,$11,$34,$00,$00,$9A,$00,$40,$40,$00,$40,$00,$BE,$EA  ; "..C.4....@@.@..."
+$E6B0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$64,$06,$0A,$06,$09,$06,$01,$00,$00  ; ".......d........"
+$E6C0                   .BYTE $40,$40,$00,$00,$40,$00,$00,$00,$05,$07,$06,$0A,$05,$07,$0D,$07  ; "@@..@..........."
+$E6D0                   .BYTE $73,$97,$67,$DD,$55,$69,$55,$99,$66,$99,$AA,$F9,$A9,$E6,$BD,$AA  ; "s.g.UiU.f......."
+$E6E0                   .BYTE $55,$99,$A6,$99,$AA,$AB,$79,$7D,$50,$40,$40,$01,$42,$43,$87,$DA  ; "U.....y}P@@.BC.."
+$E6F0                   .BYTE $28,$2D,$19,$0D,$0E,$0D,$09,$46,$0B,$5D,$80,$90,$61,$56,$86,$C6  ; "(-.....F.]..aV.."
+$E700                   .BYTE $6F,$B0,$B0,$C0,$F0,$F0,$30,$03,$50,$20,$10,$10,$10,$40,$40,$04  ; "o.....0.P ...@@."
+$E710                   .BYTE $09,$04,$18,$05,$02,$01,$01,$01,$41,$10,$40,$80,$80,$84,$40,$10  ; "........A.@...@."
+$E720                   .BYTE $6A,$94,$B8,$50,$E0,$E2,$D4,$D8,$00,$00,$00,$00,$40,$00,$01,$04  ; "j..P........@..."
+$E730                   .BYTE $04,$00,$04,$04,$04,$14,$44,$00,$00,$7F,$5D,$57,$67,$65,$66,$69  ; "......D...]Wgefi"
+$E740                   .BYTE $00,$C0,$C0,$C0,$C0,$C0,$C0,$C0,$01,$02,$02,$01,$02,$01,$03,$00  ; "................"
+$E750                   .BYTE $63,$83,$81,$82,$82,$80,$80,$40,$7C,$7B,$49,$8E,$83,$40,$B0,$B0  ; "c......@|{I..@.."
+$E760                   .BYTE $4D,$1B,$B5,$D0,$40,$00,$00,$00,$40,$82,$01,$02,$00,$00,$20,$88  ; "M...@...@..... ."
+$E770                   .BYTE $6F,$10,$55,$BF,$EE,$BA,$A9,$55,$7A,$08,$AA,$78,$5E,$FA,$EA,$A8  ; "o.U....Uz..x^..."
+$E780                   .BYTE $00,$70,$9C,$94,$5C,$7C,$F0,$00,$00,$1B,$6F,$BB,$BE,$6A,$15,$00  ; ".p..\|....o..j.."
+$E790                   .BYTE $03,$6F,$5B,$9B,$AB,$EF,$FC,$00,$50,$44,$11,$40,$01,$04,$04,$10  ; ".o[.....PD.@...."
+$E7A0                   .BYTE $4B,$5A,$00,$6A,$BF,$EA,$E5,$DA,$47,$B6,$00,$7D,$EB,$7D,$55,$FF  ; "KZ.j....G..}.}U."
+$E7B0                   .BYTE $40,$90,$00,$A9,$FE,$A9,$55,$AA,$02,$02,$02,$52,$A2,$62,$E2,$E2  ; "@.....U....R.b.."
+$E7C0                   .BYTE $67,$63,$57,$6B,$47,$5B,$63,$47,$01,$05,$01,$00,$01,$00,$04,$04  ; "gcWkG[cG........"
+$E7D0                   .BYTE $10,$10,$00,$50,$40,$90,$50,$20,$66,$55,$51,$00,$44,$11,$40,$00  ; "...P@.P fUQ.D.@."
+$E7E0                   .BYTE $5A,$A8,$20,$00,$88,$00,$20,$02,$51,$40,$00,$00,$10,$00,$10,$14  ; "Z. ... .Q@......"
+$E7F0                   .BYTE $01,$00,$00,$00,$00,$40,$08,$40,$10,$44,$01,$04,$00,$00,$00,$10  ; ".....@.@.D......"
+$E800                   .BYTE $00,$40,$00,$41,$14,$00,$40,$40,$0A,$02,$50,$04,$00,$10,$10,$40  ; ".@.A..@@..P....@"
+$E810                   .BYTE $55,$99,$2A,$0B,$02,$03,$03,$3F,$5B,$9B,$6E,$AF,$DB,$EE,$EF,$BC  ; "U.*....?[.n....."
+$E820                   .BYTE $56,$6B,$97,$60,$C0,$80,$00,$03,$1D,$18,$04,$44,$4E,$23,$41,$90  ; "Vk.`.......DN#A."
+$E830                   .BYTE $40,$40,$10,$40,$40,$50,$B9,$65,$01,$02,$00,$02,$00,$00,$00,$00  ; "@@.@@P.e........"
+$E840                   .BYTE $10,$00,$00,$00,$01,$02,$04,$09,$00,$04,$20,$50,$40,$00,$80,$31  ; ".......... P@..1"
+$E850                   .BYTE $01,$08,$1C,$33,$49,$24,$90,$90,$00,$01,$40,$01,$02,$07,$0B,$0B  ; "...3I$....@....."
+$E860                   .BYTE $60,$82,$0A,$24,$9C,$78,$E2,$48,$00,$10,$00,$04,$00,$04,$10,$00  ; "`..$.x.H........"
+$E870                   .BYTE $10,$10,$00,$42,$68,$6A,$48,$40,$6E,$6C,$6A,$6F,$62,$6B,$6C,$62  ; "...BhjH@nljobklb"
+$E880                   .BYTE $C0,$C0,$C0,$C5,$C6,$C9,$C9,$CA,$03,$0D,$00,$75,$9A,$75,$FF,$55  ; "...........u.u.U"
+$E890                   .BYTE $73,$B6,$00,$D5,$6A,$D5,$FF,$55,$63,$AF,$00,$EB,$96,$E6,$F7,$B6  ; "s...j..Uc......."
+$E8A0                   .BYTE $45,$11,$44,$01,$00,$10,$14,$10,$10,$55,$6F,$BE,$BA,$66,$15,$00  ; "E.D......Uo..f.."
+$E8B0                   .BYTE $00,$6C,$5B,$6B,$AF,$FF,$FC,$00,$00,$06,$1B,$2E,$2E,$19,$05,$00  ; ".l[k............"
+$E8C0                   .BYTE $56,$99,$66,$AA,$BB,$FF,$00,$B0,$40,$91,$A2,$52,$51,$40,$00,$1B  ; "V.f.....@..RQ@.."
+$E8D0                   .BYTE $69,$BE,$FA,$EA,$99,$55,$00,$FB,$01,$40,$81,$44,$41,$05,$01,$91  ; "i....U...@.DA..."
+$E8E0                   .BYTE $65,$66,$76,$66,$76,$66,$76,$76,$55,$AA,$AA,$AA,$AA,$AA,$AA,$AA  ; "efvfvfvvU......."
+$E8F0                   .BYTE $66,$AA,$AA,$AA,$AA,$AA,$AA,$AA,$62,$62,$62,$62,$62,$62,$62,$72  ; "f.......bbbbbbbr"
+$E900                   .BYTE $53,$67,$6B,$4B,$57,$8B,$6F,$8B,$01,$01,$00,$04,$04,$01,$01,$00  ; "SgkKW.o........."
+$E910                   .BYTE $18,$0D,$47,$43,$11,$00,$00,$42,$00,$00,$01,$40,$81,$C2,$C6,$31  ; "..GC...B...@...1"
+$E920                   .BYTE $12,$12,$04,$09,$0A,$47,$53,$96,$08,$04,$51,$12,$56,$99,$A9,$EA  ; ".....GS...Q.V..."
+$E930                   .BYTE $03,$40,$43,$50,$64,$AA,$96,$59,$00,$08,$08,$42,$4B,$1A,$AA,$A8  ; ".@CPd..Y...BK..."
+$E940                   .BYTE $00,$10,$11,$04,$55,$41,$10,$00,$41,$00,$14,$00,$00,$51,$01,$06  ; "....UA..A....Q.."
+$E950                   .BYTE $50,$05,$1F,$3D,$00,$1A,$69,$94,$54,$10,$40,$00,$80,$40,$02,$53  ; "P..=..i.T.@..@.S"
+$E960                   .BYTE $02,$07,$09,$06,$6F,$B9,$E4,$50,$60,$88,$E8,$C0,$80,$20,$80,$00  ; "....o..P`.... .."
+$E970                   .BYTE $44,$00,$01,$05,$08,$05,$12,$01,$40,$41,$04,$02,$28,$00,$00,$40  ; "D.......@A..(..@"
+$E980                   .BYTE $10,$42,$0A,$A8,$80,$01,$04,$40,$4D,$47,$20,$B0,$00,$C2,$09,$29  ; ".B.....@MG ....)"
+$E990                   .BYTE $40,$40,$00,$00,$00,$94,$E8,$A0,$0F,$1E,$2D,$39,$78,$74,$39,$24  ; "@@........-9xt9$"
+$E9A0                   .BYTE $41,$11,$44,$14,$54,$20,$60,$90,$00,$10,$10,$00,$01,$01,$00,$01  ; "A.D.T `........."
+$E9B0                   .BYTE $40,$00,$40,$00,$00,$00,$00,$00,$68,$6E,$6F,$63,$6A,$73,$6D,$73  ; "@.@.....hnocjsms"
+$E9C0                   .BYTE $46,$46,$47,$46,$47,$46,$4B,$47,$55,$6A,$6A,$6A,$6A,$6A,$6A,$6A  ; "FFGFGFKGUjjjjjjj"
+$E9D0                   .BYTE $59,$AA,$AA,$AA,$AA,$AA,$AA,$AA,$6D,$6E,$6D,$6E,$6E,$6E,$6E,$66  ; "Y.......mnmnnnnf"
+$E9E0                   .BYTE $41,$06,$4B,$0A,$45,$41,$40,$46,$67,$A9,$65,$57,$7F,$F0,$00,$A9  ; "A.K.EA@Fg.eW...."
+$E9F0                   .BYTE $07,$4E,$4E,$4F,$05,$01,$00,$B4,$55,$66,$9A,$AE,$BF,$FF,$00,$0E  ; ".NNO....Uf......"
+$EA00                   .BYTE $6C,$AC,$EC,$BC,$F0,$00,$56,$55,$6F,$BF,$BA,$69,$5A,$15,$40,$90  ; "l.....VUo..iZ.@."
+$EA10                   .BYTE $66,$9A,$AA,$BB,$EF,$FF,$00,$E6,$6F,$AF,$EF,$BE,$CE,$3E,$0F,$CE  ; "f.......o....>.."
+$EA20                   .BYTE $79,$B9,$75,$79,$B5,$79,$75,$75,$55,$55,$55,$55,$55,$55,$55,$55  ; "y.uy.yuuUUUUUUUU"
+$EA30                   .BYTE $55,$55,$55,$55,$55,$55,$55,$55,$62,$72,$72,$62,$72,$72,$72,$70  ; "UUUUUUUUbrrbrrrp"
+$EA40                   .BYTE $53,$53,$63,$53,$43,$97,$FF,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "SScSC..........."
+$EA50                   .BYTE $41,$10,$00,$04,$04,$01,$01,$00,$74,$9D,$77,$27,$1D,$09,$07,$41  ; "A.......t.w'...A"
+$EA60                   .BYTE $55,$99,$A6,$EA,$CB,$22,$88,$F0,$55,$99,$EA,$BA,$FF,$FA,$CF,$03  ; "U...."..U......."
+$EA70                   .BYTE $6A,$5A,$AB,$9F,$7F,$FA,$A8,$20,$15,$6A,$AA,$FB,$7D,$55,$40,$10  ; "jZ..... .j..}U@."
+$EA80                   .BYTE $00,$69,$55,$66,$AA,$22,$00                                      ; ".iUf."."
+; xref: call from $991A
+$EA87                   .BYTE $8B,$59,$A4,$D5,$54,$40,$16,$05,$41                              ; ".Y..T@..A"
+$EA90                   .BYTE $50,$44,$10,$06,$69,$A5,$50,$15,$05,$14,$40,$BC,$F3,$00,$00,$30  ; "PD..i.P...@....0"
+$EAA0                   .BYTE $00,$00,$04,$40,$00,$00,$00,$00,$00,$00,$00,$00,$00,$01,$44,$00  ; "...@..........D."
+$EAB0                   .BYTE $08,$00,$00,$00,$04,$11,$00,$00,$40,$A0,$E8,$0E,$C0,$30,$03,$00  ; "........@....0.."
+$EAC0                   .BYTE $00,$01,$01,$04,$10,$00,$10,$00,$69,$94,$40,$01,$44,$15,$44,$00  ; "........i.@.D.D."
+$EAD0                   .BYTE $44,$00,$51,$10,$44,$00,$10,$00,$15,$12,$06,$12,$25,$78,$B9,$E4  ; "D.Q.D.......%x.."
+$EAE0                   .BYTE $60,$40,$80,$00,$00,$80,$00,$82,$00,$01,$00,$01,$10,$50,$44,$00  ; "`@...........PD."
+$EAF0                   .BYTE $00,$00,$00,$00,$00,$40,$90,$14,$68,$68,$6C,$68,$60,$7A,$55,$00  ; ".....@..hhlh`zU."
+$EB00                   .BYTE $4B,$47,$4B,$4B,$47,$4B,$4B,$0B,$6A,$AA,$6A,$AA,$AA,$6A,$AA,$AA  ; "KGKKGKK.j.j..j.."
+$EB10                   .BYTE $55,$55,$55,$55,$55,$55,$55,$55,$6E,$66,$66,$6E,$66,$66,$66,$66  ; "UUUUUUUUnffnffff"
+$EB20                   .BYTE $5B,$AF,$6E,$9A,$56,$45,$40,$91,$59,$66,$AA,$EE,$BB,$FF,$00,$9B  ; "[.n.VE@.Yf......"
+$EB30                   .BYTE $76,$56,$66,$9A,$A8,$80,$09,$07,$2D,$37,$35,$2F,$0A,$00,$55,$57  ; "vVf.....-75/..UW"
+$EB40                   .BYTE $75,$56,$99,$AA,$00,$D8,$F6,$D6,$52,$61,$A2,$80,$00,$09,$27,$1F  ; "uV......Ra....'."
+$EB50                   .BYTE $6A,$99,$55,$FF,$00,$A7,$AA,$69,$6A,$69,$A2,$88,$22,$08,$F6      ; "j.U....iji..".."
+; xref: read from $5574
+$EB5F                   .BYTE $56                                                              ; "V"
+$EB60                   .BYTE $6A,$60,$00,$82,$09,$26,$1A,$20,$55,$00,$04,$50,$44,$41,$04,$11  ; "j`...&. U..PDA.."
+$EB70                   .BYTE $55,$00,$00,$00,$00,$10,$44,$95,$63,$23,$03,$13,$43,$13,$53,$93  ; "U.....D.c#..C.S."
+$EB80                   .BYTE $FF,$6B,$5B,$47,$26,$63,$52,$AA,$3F,$15,$18,$10,$11,$1A,$18,$15  ; ".k[G&cR.?......."
+$EB90                   .BYTE $FF,$55,$0A,$92,$69,$82,$2A,$55,$FF,$55,$AA,$66,$81,$45,$AA,$55  ; ".U..i.*U.U.f.E.U"
+$EBA0                   .BYTE $FF,$55,$AA,$26,$98,$A0,$0A,$55,$FF,$55,$AA,$8A,$99,$62,$88,$55  ; ".U.&...U.U...b.U"
+$EBB0                   .BYTE $FF,$55,$A5,$A9,$9A,$A6,$88,$55,$FF,$5F,$A7,$97,$65,$49,$A9,$55  ; ".U.....U._..eI.U"
+$EBC0                   .BYTE $CF,$C5,$C4,$C6,$C4,$46,$C6,$45,$FF,$55,$0A,$08,$A6,$2A,$A2,$55  ; ".....F.E.U...*.U"
+$EBD0                   .BYTE $FF,$55,$AA,$9A,$66,$89,$22,$55,$FF,$55,$AA,$24,$69,$A0,$28,$55  ; ".U..f."U.U.$i.(U"
+$EBE0                   .BYTE $FF,$55,$82,$AA,$99,$26,$88,$55,$FF,$55,$29,$A6,$9A,$A2,$8A,$55  ; ".U...&.U.U)....U"
+$EBF0                   .BYTE $FF,$57,$55,$29,$A9,$AA,$AA,$55,$D1,$F1,$F1,$F1,$71,$71,$71,$51  ; ".WU)...U....qqqQ"
+$EC00                   .BYTE $5D,$55,$80,$02,$18,$60,$AA,$55,$DF,$55,$AA,$26,$98,$60,$AA,$55  ; "]U...`.U.U.&.`.U"
+$EC10                   .BYTE $FF,$55,$AA,$62,$19,$6A,$88,$55,$FF,$55,$AA,$68,$99,$26,$88,$55  ; ".U.b.j.U.U.h.&.U"
+$EC20                   .BYTE $FF,$55,$A9,$9A,$A6,$8A,$A2,$55,$FF,$57,$95,$69,$9A,$AA,$0A,$57  ; ".U.....U.W.i...W"
+$EC30                   .BYTE $F4,$FC,$DC,$7C,$7C,$5C,$9C,$7C,$7F,$65,$69,$62,$46,$64,$68,$55  ; "...||\.|.eibFdhU"
+$EC40                   .BYTE $C6,$C6,$C0,$E2,$48,$EA,$49,$65,$55,$00,$00,$01,$44,$55,$A9,$46  ; "....H.IeU...DU.F"
+$EC50                   .BYTE $55,$00,$00,$19,$6A,$56,$91,$50,$59,$09,$01,$04,$91,$64,$94,$54  ; "U...jV.PY....d.T"
+$EC60                   .BYTE $46,$9B,$5A,$45,$11,$40,$1B,$6E,$56,$9A,$AB,$BF,$F0,$E5,$56,$59  ; "F.ZE.@.nV.....VY"
+$EC70                   .BYTE $4B,$4A,$46,$01,$00,$90,$A4,$94,$75,$55,$66,$AA,$00,$27,$9F,$75  ; "KJF.....uUf..'.u"
+$EC80                   .BYTE $56,$9A,$A8,$00,$27,$9F,$75,$75,$2E,$19,$05,$00,$6F,$BE,$BB,$6A  ; "V...'.uu....o..j"
+$EC90                   .BYTE $55,$66,$AA,$00,$60,$58,$68,$98,$65,$95,$54,$00,$01,$6A,$15,$06  ; "Uf..`Xh.e.T..j.."
+$ECA0                   .BYTE $04,$11,$46,$56,$69,$A4,$40,$00,$66,$9A,$A6,$4B,$0B,$06,$01,$00  ; "..FVi.@.f..K...."
+$ECB0                   .BYTE $6A,$90,$80,$40,$40,$00,$00,$00,$50,$26,$09,$00,$00,$00,$00,$00  ; "j..@@...P&......"
+$ECC0                   .BYTE $05,$64,$90,$00,$00,$00,$00,$00,$10,$20,$71,$66,$BB,$F6,$B5,$64  ; ".d....... qf...d"
+$ECD0                   .BYTE $05,$45,$55,$95,$AA,$5A,$05,$00,$41,$52,$67,$66,$BB,$AF,$5B,$06  ; ".EU..Z..ARgf..[."
+$ECE0                   .BYTE $01,$05,$19,$69,$BE,$6A,$55,$40,$00,$12,$51,$66,$AB,$5A,$05,$00  ; "...i.jU@..Qf.Z.."
+$ECF0                   .BYTE $00,$48,$8A,$66,$D5,$5A,$A0,$00,$40,$50,$64,$69,$BE,$A9,$55,$00  ; ".H.f.Z..@Pdi..U."
+$ED00                   .BYTE $41,$86,$DB,$96,$E9,$F4,$E0,$00,$41,$95,$E9,$99,$6E,$1A,$05,$00  ; "A.......A...n..."
+$ED10                   .BYTE $00,$14,$55,$69,$AA,$55,$00,$00,$40,$52,$61,$66,$BB,$AA,$55,$02  ; "..Ui.U..@Raf..U."
+$ED20                   .BYTE $02,$4A,$86,$66,$DD,$55,$AA,$40,$10,$51,$95,$96,$EA,$A5,$50,$00  ; ".J.f.U.@.Q....P."
+$ED30                   .BYTE $04,$45,$56,$96,$AB,$5A,$05,$00,$14,$69,$BE,$69,$96,$41,$00,$00  ; ".EV..Z...i.i.A.."
+$ED40                   .BYTE $10,$20,$71,$66,$BB,$F6,$B5,$64,$10,$51,$95,$96,$EA,$A5,$50,$00  ; ". qf...d.Q....P."
+$ED50                   .BYTE $00,$28,$14,$69,$BE,$AA,$55,$28,$04,$45,$56,$96,$AB,$5A,$05,$00  ; ".(.i..U(.EV..Z.."
+$ED60                   .BYTE $04,$08,$4D,$99,$EE,$9F,$5E,$19,$04,$45,$56,$96,$AB,$5A,$05,$00  ; "..M...^..EV..Z.."
+$ED70                   .BYTE $04,$08,$4D,$99,$EE,$9F,$5E,$19,$55,$1A,$29,$2D,$1E,$08,$04,$00  ; "..M...^.U.)-...."
+$ED80                   .BYTE $58,$60,$00,$00,$00,$00,$00,$00,$01,$00,$00,$00,$00,$00,$00,$00  ; "X`.............."
+$ED90                   .BYTE $58,$68,$5A,$A6,$1A,$25,$02,$00,$00,$14,$19,$06,$41,$50,$95,$69  ; "XhZ..%......AP.i"
+$EDA0                   .BYTE $77,$95,$2A,$80,$58,$2A,$00,$80,$55,$66,$AA,$00,$09,$27,$1F,$1D  ; "w.*.X*..Uf...'.."
+$EDB0                   .BYTE $74,$54,$50,$00,$AB,$AE,$FF,$DD,$75,$96,$2A,$00,$D8,$76,$56,$66  ; "tTP.....u.*..vVf"
+$EDC0                   .BYTE $69,$15,$00,$1A,$6F,$19,$14,$04,$5D,$15,$00,$75,$AD,$00,$00,$01  ; "i...o...]..u...."
+$EDD0                   .BYTE $68,$A0,$00,$89,$A0,$80,$80,$00,$09,$18,$64,$90,$00,$00,$00,$00  ; "h.........d....."
+$EDE0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$EDF0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$EE00                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$64,$64,$64,$B8,$B8,$64,$64,$64  ; "........ddd..ddd"
+$EE10                   .BYTE $00,$58,$4C,$80,$E8,$08,$8C,$6C,$00,$58,$4C,$80,$78,$88,$8C,$FC  ; ".XL....l.XL.x..."
+$EE20                   .BYTE $00,$58,$40,$80,$6C,$80,$80,$FC,$00,$58,$4C,$80,$78,$88,$8C,$FC  ; ".X@.l....XL.x..."
+$EE30                   .BYTE $00,$58,$40,$80,$6C,$80,$80,$FC,$00,$6C,$48,$48,$8C,$48,$8C,$CC  ; ".X@.l....lHH.H.."
+$EE40                   .BYTE $00,$58,$4C,$80,$E8,$08,$8C,$6C,$00,$58,$10,$20,$10,$20,$30,$30  ; ".XL....l.X. . 00"
+$EE50                   .BYTE $00,$00,$00,$00,$00,$00,$40,$80,$01,$01,$01,$06,$06,$01,$01,$01  ; "......@........."
+$EE60                   .BYTE $40,$40,$40,$90,$90,$40,$40,$40,$00,$44,$58,$68,$AC,$4C,$8C,$CC  ; "@@@..@@@.DXh.L.."
+$EE70                   .BYTE $00,$58,$48,$8C,$48,$AC,$8C,$CC,$00,$6C,$48,$48,$8C,$48,$8C,$CC  ; ".XH.H....lHH.H.."
+$EE80                   .BYTE $00,$58,$10,$20,$10,$20,$20,$BC,$00,$58,$48,$8C,$4C,$BC,$80,$C0  ; ".X. .  ..XH.L..."
+$EE90                   .BYTE $00,$48,$48,$48,$8C,$48,$8C,$FC,$00,$40,$40,$80,$40,$80,$80,$AC  ; ".HHH.H...@@.@..."
+$EEA0                   .BYTE $00,$00,$00,$00,$00,$00,$40,$80,$00,$6C,$48,$48,$8C,$48,$8C,$CC  ; "......@..lHH.H.."
+$EEB0                   .BYTE $19,$19,$19,$2E,$2E,$19,$19,$19,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$EEC0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$03,$0D  ; "................"
+$EED0                   .BYTE $00,$00,$00,$00,$00,$DC,$67,$95,$3A,$2B,$26,$37,$0B,$0C,$00,$C0  ; "......g.:+&7...."
+$EEE0                   .BYTE $56,$68,$24,$06,$08,$00,$00,$00,$1A,$05,$00,$01,$06,$01,$01,$00  ; "Vh$............."
+$EEF0                   .BYTE $65,$54,$00,$A6,$FF,$90,$40,$40,$65,$54,$00,$54,$95,$04,$04,$10  ; "eT....@@eT.T...."
+$EF00                   .BYTE $01,$02,$02,$02,$01,$03,$02,$02,$7C,$9C,$9C,$9C,$70,$A4,$9C,$9C  ; "........|...p..."
+$EF10                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$EF20                   .BYTE $00,$00,$00,$01,$06,$1B,$6E,$B8,$06,$1B,$6E,$BA,$9B,$46,$21,$B8  ; "......n...n..F!."
+$EF30                   .BYTE $90,$54,$91,$44,$90,$40,$08,$6E,$00,$00,$00,$40,$10,$04,$01,$16  ; ".T.D.@.n...@...."
+$EF40                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$64,$64,$65,$7A,$65,$64,$64,$64  ; "........ddezeddd"
+$EF50                   .BYTE $00,$00,$55,$55,$55,$00,$00,$00,$00,$00,$95,$D9,$95,$00,$00,$00  ; "..UUU..........."
+$EF60                   .BYTE $00,$00,$55,$55,$55,$00,$00,$00,$00,$00,$95,$D9,$95,$00,$00,$00  ; "..UUU..........."
+$EF70                   .BYTE $00,$00,$55,$AA,$55,$00,$00,$00,$00,$00,$56,$67,$56,$00,$00,$00  ; "..U.U.....VgV..."
+$EF80                   .BYTE $00,$00,$55,$55,$55,$00,$00,$00,$00,$00,$56,$67,$56,$00,$00,$00  ; "..UUU.....VgV..."
+$EF90                   .BYTE $00,$00,$55,$55,$55,$00,$00,$00,$01,$01,$55,$9B,$55,$00,$01,$01  ; "..UUU.....U.U..."
+$EFA0                   .BYTE $40,$40,$55,$E6,$55,$00,$40,$40,$00,$00,$55,$55,$55,$00,$00,$00  ; "@@U.U.@@..UUU..."
+$EFB0                   .BYTE $00,$00,$95,$D9,$95,$00,$00,$00,$00,$00,$55,$55,$55,$00,$00,$00  ; "..........UUU..."
+$EFC0                   .BYTE $00,$00,$95,$D9,$95,$00,$00,$00,$00,$00,$55,$AA,$55,$00,$00,$00  ; "..........U.U..."
+$EFD0                   .BYTE $00,$00,$56,$67,$56,$00,$00,$00,$00,$00,$55,$55,$55,$00,$00,$00  ; "..VgV.....UUU..."
+$EFE0                   .BYTE $00,$00,$56,$67,$56,$00,$00,$00,$00,$00,$55,$55,$55,$00,$00,$00  ; "..VgV.....UUU..."
+$EFF0                   .BYTE $19,$19,$69,$BE,$69,$15,$19,$19,$00,$00,$00,$00,$00,$00,$03,$0D  ; "..i.i..........."
+$F000                   .BYTE $00,$00,$03,$0D,$36,$D9,$65,$95,$06,$C9,$49,$8B,$45,$C7,$C1,$50  ; "....6.e...I.E..P"
+$F010                   .BYTE $56,$66,$9B,$6A,$AB,$6E,$BB,$FF,$B0,$B0,$B3,$F2,$B1,$F1,$C1,$09  ; "Vf.j.n.........."
+$F020                   .BYTE $00,$00,$00,$C0,$B0,$6C,$5B,$96,$00,$00,$00,$00,$00,$00,$00,$40  ; ".....l[........@"
+$F030                   .BYTE $19,$2E,$2E,$2E,$19,$3F,$2E,$2E,$40,$40,$40,$40,$00,$80,$40,$40  ; ".....?..@@@@..@@"
+$F040                   .BYTE $00,$01,$02,$02,$02,$01,$03,$02,$7C,$9C,$9C,$9C,$9C,$70,$A4,$9C  ; "........|....p.."
+$F050                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$15,$5A,$69,$64  ; ".............Zid"
+$F060                   .BYTE $61,$56,$19,$14,$05,$05,$01,$01,$E2,$4B,$12,$44,$18,$6E,$08,$40  ; "aV.......K.D.n.@"
+$F070                   .BYTE $08,$C0,$02,$0B,$02,$44,$14,$10,$05,$01,$04,$C4,$10,$10,$40,$40  ; ".....D........@@"
+$F080                   .BYTE $00,$00,$00,$00,$50,$94,$A4,$64,$64,$64,$64,$B8,$B8,$64,$64,$64  ; "....P..dddd..ddd"
+; xref: write from $A0D5
+; xref: read from $A109
+; xref: write from $A111
+$F090                   .BYTE $00,$58,$48,$88,$6C,$88,$8C,$FC,$00,$58,$48,$8C,$48,$AC,$8C,$CC  ; ".XH.l....XH.H..."
+$F0A0                   .BYTE $00,$44,$48,$8C,$70,$88,$8C,$CC,$00,$58,$10,$20,$10,$20,$30,$30  ; ".DH.p....X. . 00"
+$F0B0                   .BYTE $00,$58,$10,$20,$10,$20,$20,$BC,$00,$58,$48,$48,$8C,$48,$8C,$FC  ; ".X. .  ..XHH.H.."
+$F0C0                   .BYTE $00,$6C,$48,$48,$8C,$48,$8C,$CC,$00,$58,$10,$20,$10,$20,$30,$30  ; ".lHH.H...X. . 00"
+$F0D0                   .BYTE $00,$58,$40,$80,$6C,$80,$80,$FC,$01,$01,$01,$06,$06,$01,$01,$01  ; ".X@.l..........."
+$F0E0                   .BYTE $40,$40,$40,$90,$90,$40,$40,$40,$00,$48,$48,$48,$8C,$48,$8C,$FC  ; "@@@..@@@.HHH.H.."
+$F0F0                   .BYTE $00,$44,$58,$68,$AC,$4C,$8C,$CC,$00,$58,$4C,$80,$78,$88,$8C,$FC  ; ".DXh.L...XL.x..."
+$F100                   .BYTE $00,$58,$40,$80,$6C,$80,$80,$FC,$00,$58,$48,$88,$6C,$88,$8C,$FC  ; ".X@.l....XH.l..."
+$F110                   .BYTE $00,$48,$48,$48,$8C,$48,$8C,$FC,$00,$6C,$48,$48,$8C,$48,$8C,$CC  ; ".HHH.H...lHH.H.."
+$F120                   .BYTE $00,$58,$4C,$80,$78,$88,$8C,$FC,$00,$00,$00,$00,$00,$00,$00,$00  ; ".XL.x..........."
+$F130                   .BYTE $19,$19,$19,$2E,$2E,$19,$19,$19,$07,$05,$02,$00,$00,$00,$00,$00  ; "................"
+$F140                   .BYTE $66,$9A,$AA,$EA,$3B,$0E,$03,$00,$E0,$70,$D0,$41,$47,$46,$4E,$4A  ; "f...;....p.AGFNJ"
+$F150                   .BYTE $00,$00,$D7,$69,$AA,$99,$66,$99,$0A,$06,$0D,$C2,$71,$B1,$53,$50  ; "...i..f.....q.SP"
+$F160                   .BYTE $6A,$AE,$6B,$AF,$BC,$F0,$C0,$00,$B0,$F0,$C0,$00,$00,$00,$00,$00  ; "j.k............."
+$F170                   .BYTE $1D,$1E,$15,$1D,$1D,$26,$3F,$1D,$00,$00,$40,$40,$40,$00,$80,$40  ; ".....&?...@@@..@"
+$F180                   .BYTE $01,$01,$01,$01,$01,$01,$02,$03,$6C,$6C,$6C,$6C,$6C,$6C,$B0,$58  ; "........llllll.X"
+$F190                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$64,$64,$64,$B8,$B8,$64,$64,$64  ; "........ddd..ddd"
+$F1A0                   .BYTE $00,$44,$58,$68,$AC,$4C,$8C,$CC,$88,$A2,$20,$28,$08,$0A,$02,$02  ; ".DXh.L.... (...."
+$F1B0                   .BYTE $02,$22,$08,$08,$20,$A0,$80,$80,$48,$00,$48,$48,$8C,$48,$8C,$FC  ; ".".. ...H.HH.H.."
+$F1C0                   .BYTE $64,$64,$64,$B8,$B8,$64,$64,$64,$28,$14,$69,$BE,$69,$14,$28,$14  ; "ddd..ddd(.i.i.(."
+; xref: read from $A0D2 (L_A0D2)
+; xref: write from $A0DB
+; xref: read from $A103
+; xref: write from $A10C
+$F1D0                   .BYTE $00,$00,$55,$55,$55,$00,$00,$00,$00,$00,$95,$D9,$95,$00,$00,$00  ; "..UUU..........."
+$F1E0                   .BYTE $00,$00,$55,$55,$55,$00,$00,$00,$00,$00,$95,$D9,$95,$00,$00,$00  ; "..UUU..........."
+$F1F0                   .BYTE $00,$00,$55,$AA,$55,$00,$00,$00,$00,$00,$56,$67,$56,$00,$00,$00  ; "..U.U.....VgV..."
+$F200                   .BYTE $00,$00,$55,$55,$55,$00,$00,$00,$00,$00,$56,$67,$56,$00,$00,$00  ; "..UUU.....VgV..."
+$F210                   .BYTE $00,$00,$55,$55,$55,$00,$00,$00,$01,$01,$55,$9B,$55,$00,$01,$01  ; "..UUU.....U.U..."
+$F220                   .BYTE $40,$40,$55,$E6,$55,$00,$40,$40,$00,$00,$55,$55,$55,$00,$00,$00  ; "@@U.U.@@..UUU..."
+$F230                   .BYTE $00,$00,$95,$D9,$95,$00,$00,$00,$00,$00,$55,$55,$55,$00,$00,$00  ; "..........UUU..."
+$F240                   .BYTE $00,$00,$95,$D9,$95,$00,$00,$00,$00,$00,$55,$AA,$55,$00,$00,$00  ; "..........U.U..."
+$F250                   .BYTE $00,$00,$56,$67,$56,$00,$00,$00,$00,$00,$55,$55,$55,$00,$00,$00  ; "..VgV.....UUU..."
+$F260                   .BYTE $00,$00,$56,$67,$56,$00,$00,$00,$00,$00,$55,$55,$55,$00,$00,$00  ; "..VgV.....UUU..."
+$F270                   .BYTE $28,$14,$69,$BE,$69,$14,$28,$14,$03,$03,$03,$01,$01,$00,$00,$00  ; "(.i.i.(........."
+$F280                   .BYTE $59,$66,$9A,$6A,$9B,$6E,$3F,$00,$09,$0E,$03,$00,$00,$00,$00,$00  ; "Yf.j.n?........."
+$F290                   .BYTE $AA,$AE,$BB,$EF,$3C,$00,$00,$00,$B0,$F0,$C0,$00,$03,$02,$01,$02  ; "....<..........."
+$F2A0                   .BYTE $00,$08,$2E,$B7,$D5,$77,$DF,$FE,$00,$00,$00,$80,$E0,$E0,$A8,$E0  ; ".....w.........."
+$F2B0                   .BYTE $1E,$0A,$19,$2E,$2E,$2E,$19,$3F,$40,$40,$40,$40,$40,$40,$00,$80  ; ".......?@@@@@@.."
+$F2C0                   .BYTE $01,$01,$01,$01,$01,$01,$01,$02,$6C,$AC,$70,$60,$6C,$6C,$6C,$B0  ; "........l.p`lll."
+$F2D0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$64,$64,$69,$5A,$15,$00,$00,$00  ; "........ddiZ...."
+$F2E0                   .BYTE $00,$15,$6A,$A5,$54,$00,$00,$00,$00,$5A,$AF,$5A,$00,$00,$00,$00  ; "..j.T....Z.Z...."
+$F2F0                   .BYTE $00,$95,$EA,$95,$00,$00,$00,$00,$00,$F0,$AF,$EA,$FF,$00,$00,$00  ; "................"
+$F300                   .BYTE $64,$64,$A4,$94,$50,$00,$00,$00,$64,$64,$64,$B8,$B8,$64,$64,$64  ; "dd..P...ddd..ddd"
+; xref: read from $A0D8
+; xref: write from $A0E1
+; xref: read from $A0FD
+; xref: write from $A106
+$F310                   .BYTE $00,$58,$0C,$08,$2C,$70,$80,$BC,$00,$58,$40,$80,$6C,$80,$80,$FC  ; ".X..,p...X@.l..."
+$F320                   .BYTE $00,$58,$48,$4C,$B0,$48,$8C,$CC,$00,$58,$4C,$80,$E8,$08,$8C,$6C  ; ".XHL.H...XL....l"
+$F330                   .BYTE $00,$58,$10,$20,$10,$20,$30,$30,$48,$00,$58,$48,$8C,$48,$8C,$FC  ; ".X. . 00H.XH.H.."
+$F340                   .BYTE $00,$58,$48,$4C,$B0,$48,$8C,$CC,$00,$58,$40,$80,$6C,$80,$80,$FC  ; ".XHL.H...X@.l..."
+$F350                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$01,$01,$01,$06,$06,$01,$01,$01  ; "................"
+$F360                   .BYTE $40,$40,$40,$90,$90,$40,$40,$40,$00,$58,$4C,$80,$E8,$08,$8C,$6C  ; "@@@..@@@.XL....l"
+$F370                   .BYTE $00,$58,$48,$8C,$4C,$BC,$80,$C0,$00,$48,$48,$8C,$68,$AC,$BC,$CC  ; ".XH.L....HH.h..."
+$F380                   .BYTE $00,$58,$40,$80,$6C,$80,$80,$FC,$00,$6C,$48,$48,$8C,$48,$8C,$CC  ; ".X@.l....lHH.H.."
+$F390                   .BYTE $00,$6C,$48,$88,$4C,$88,$8C,$F0,$00,$58,$40,$80,$6C,$80,$80,$FC  ; ".lH.L....X@.l..."
+$F3A0                   .BYTE $00,$6C,$48,$88,$4C,$88,$8C,$F0,$00,$58,$40,$80,$6C,$80,$80,$FC  ; ".lH.L....X@.l..."
+$F3B0                   .BYTE $19,$19,$19,$2E,$2E,$19,$19,$19,$00,$00,$00,$02,$02,$01,$03,$01  ; "................"
+$F3C0                   .BYTE $00,$1A,$6F,$BF,$FB,$EE,$FB,$EA,$00,$40,$90,$E4,$B4,$E8,$A8,$A4  ; "..o......@......"
+$F3D0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$02,$00,$02,$02,$02,$01,$00,$00  ; "................"
+$F3E0                   .BYTE $55,$00,$AA,$AE,$BB,$EF,$7F,$1D,$54,$00,$B4,$D0,$D4,$D0,$44,$10  ; "U.......T.....D."
+$F3F0                   .BYTE $1D,$1D,$1D,$1D,$1D,$1D,$1D,$26,$40,$40,$40,$40,$40,$40,$40,$00  ; ".......&@@@@@@@."
+$F400                   .BYTE $01,$02,$02,$02,$02,$02,$02,$02,$58,$6C,$6C,$6C,$BC,$70,$6C,$6C  ; "........Xlll.pll"
+$F410                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$01,$05,$06,$06  ; "................"
+$F420                   .BYTE $01,$02,$07,$46,$9B,$EF,$9B,$46,$01,$05,$19,$69,$BE,$6A,$55,$40  ; "...F...F...i.jU@"
+$F430                   .BYTE $00,$14,$55,$69,$AA,$55,$00,$00,$40,$50,$64,$69,$BE,$A9,$55,$01  ; "..Ui.U..@Pdi..U."
+$F440                   .BYTE $40,$80,$D0,$91,$E6,$FB,$E6,$91,$00,$00,$00,$41,$96,$EB,$96,$41  ; "@..........A...A"
+; xref: read from $A0DE
+; xref: write from $A0E7
+; xref: read from $A0F7 (L_A0F7)
+; xref: write from $A100
+$F450                   .BYTE $00,$00,$00,$41,$96,$EB,$96,$41,$00,$00,$00,$41,$96,$EB,$96,$41  ; "...A...A...A...A"
+$F460                   .BYTE $00,$00,$00,$41,$96,$EB,$96,$41,$00,$00,$00,$41,$96,$EB,$96,$41  ; "...A...A...A...A"
+$F470                   .BYTE $00,$00,$00,$41,$96,$EB,$96,$41,$00,$00,$00,$41,$96,$EB,$96,$41  ; "...A...A...A...A"
+$F480                   .BYTE $00,$00,$00,$41,$96,$EB,$96,$41,$01,$02,$07,$46,$9B,$EF,$9B,$46  ; "...A...A...F...F"
+$F490                   .BYTE $01,$05,$19,$69,$BE,$6A,$55,$40,$01,$16,$5B,$66,$A9,$54,$00,$00  ; "...i.jU@..[f.T.."
+$F4A0                   .BYTE $40,$94,$E5,$99,$6A,$15,$00,$00,$40,$50,$64,$69,$BE,$A9,$55,$01  ; "@...j...@Pdi..U."
+$F4B0                   .BYTE $40,$80,$D0,$91,$E6,$FB,$E6,$91,$00,$00,$00,$41,$96,$EB,$96,$41  ; "@..........A...A"
+$F4C0                   .BYTE $00,$00,$00,$41,$96,$EB,$96,$41,$00,$00,$00,$41,$96,$EB,$96,$41  ; "...A...A...A...A"
+$F4D0                   .BYTE $00,$00,$00,$41,$96,$EB,$96,$41,$00,$00,$00,$41,$96,$EB,$96,$41  ; "...A...A...A...A"
+$F4E0                   .BYTE $00,$00,$00,$41,$96,$EB,$96,$41,$00,$00,$00,$41,$96,$EB,$96,$41  ; "...A...A...A...A"
+$F4F0                   .BYTE $00,$00,$00,$41,$96,$EB,$96,$41,$01,$02,$07,$46,$9B,$EF,$9B,$46  ; "...A...A...F...F"
+$F500                   .BYTE $01,$05,$19,$69,$BE,$6A,$55,$40,$00,$14,$55,$69,$AA,$55,$00,$00  ; "...i.jU@..Ui.U.."
+$F510                   .BYTE $40,$50,$64,$69,$BE,$A9,$55,$01,$40,$80,$D0,$91,$E6,$FB,$E6,$91  ; "@Pdi..U.@......."
+$F520                   .BYTE $04,$00,$00,$00,$40,$50,$90,$90,$40,$00,$00,$00,$00,$00,$00,$00  ; "....@P..@......."
+$F530                   .BYTE $15,$26,$26,$27,$2B,$26,$26,$26,$40,$80,$80,$00,$80,$80,$80,$80  ; ".&&'+&&&@......."
+$F540                   .BYTE $01,$06,$01,$1B,$04,$15,$6F,$7E,$70,$97,$7C,$A7,$03,$FF,$5C,$70  ; "......o~p.|...\p"
+$F550                   .BYTE $00,$00,$00,$40,$00,$40,$10,$10,$06,$06,$06,$0B,$0B,$06,$06,$06  ; "...@.@.........."
+$F560                   .BYTE $40,$40,$40,$80,$80,$40,$40,$40,$00,$00,$00,$00,$00,$00,$00,$00  ; "@@@..@@@........"
+$F570                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$58,$4C,$80,$E8,$08,$8C,$6C  ; ".........XL....l"
+$F580                   .BYTE $00,$58,$48,$8C,$4C,$BC,$80,$C0,$00,$58,$10,$20,$10,$20,$20,$BC  ; ".XH.L....X. .  ."
+; xref: read from $A0E4
+; xref: write from $A0EC
+; xref: write from $A0FA
+$F590                   .BYTE $00,$58,$40,$80,$6C,$80,$80,$FC,$00,$40,$40,$80,$40,$80,$80,$AC  ; ".X@.l....@@.@..."
+$F5A0                   .BYTE $00,$58,$4C,$80,$E8,$08,$8C,$6C,$01,$01,$01,$06,$06,$01,$01,$01  ; ".XL....l........"
+$F5B0                   .BYTE $40,$40,$40,$90,$90,$40,$40,$40,$00,$58,$48,$4C,$B0,$48,$8C,$CC  ; "@@@..@@@.XHL.H.."
+$F5C0                   .BYTE $00,$58,$10,$20,$10,$20,$30,$30,$00,$00,$00,$00,$00,$00,$00,$00  ; ".X. . 00........"
+$F5D0                   .BYTE $00,$6C,$48,$88,$4C,$88,$8C,$F0,$00,$58,$10,$20,$10,$20,$20,$BC  ; ".lH.L....X. .  ."
+$F5E0                   .BYTE $00,$58,$4C,$80,$E8,$08,$8C,$6C,$00,$44,$48,$8C,$70,$88,$8C,$CC  ; ".XL....l.DH.p..."
+$F5F0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$F600                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$01,$01,$01,$06,$06,$01,$01,$01  ; "................"
+$F610                   .BYTE $40,$40,$40,$90,$90,$40,$40,$40,$00,$14,$10,$10,$20,$10,$20,$3C  ; "@@@..@@@.... . <"
+$F620                   .BYTE $00,$58,$4C,$80,$E8,$08,$8C,$6C,$00,$58,$48,$8C,$4C,$BC,$80,$C0  ; ".XL....l.XH.L..."
+$F630                   .BYTE $00,$58,$40,$80,$6C,$80,$80,$FC,$00,$58,$0C,$08,$2C,$70,$80,$BC  ; ".X@.l....X..,p.."
+$F640                   .BYTE $00,$58,$10,$20,$10,$20,$20,$BC,$00,$58,$48,$8C,$48,$AC,$8C,$CC  ; ".X. .  ..XH.H..."
+$F650                   .BYTE $00,$40,$40,$80,$40,$80,$80,$AC,$01,$01,$01,$02,$02,$01,$01,$01  ; ".@@.@..........."
+$F660                   .BYTE $90,$90,$90,$E0,$E0,$90,$90,$90,$00,$00,$00,$01,$00,$01,$06,$07  ; "................"
+$F670                   .BYTE $19,$6E,$19,$BF,$40,$55,$FA,$E9,$00,$60,$80,$68,$20,$A8,$82,$02  ; ".n..@U...`.h ..."
+$F680                   .BYTE $2A,$3A,$55,$66,$9A,$AE,$BF,$FF,$5A,$AF,$BC,$AF,$BE,$EE,$BF,$FC  ; "*:Uf....Z......."
+$F690                   .BYTE $50,$40,$6E,$BF,$FE,$EA,$A6,$55                                  ; "P@n....U"
+; xref: write from $A859
+; xref: write from $A897
+$F698                   .BYTE $06,$06,$55,$96,$9B,$96,$55,$50                                  ; "..U...UP"
+$F6A0                   .BYTE $40,$55,$B9,$FE,$B9,$AA,$59,$15,$00,$01,$46,$5B,$6F,$6E,$5A,$45  ; "@U....Y...F[onZE"
+$F6B0                   .BYTE $00,$55,$AB,$AA,$BB,$FD,$77,$55,$00,$50,$B5,$ED,$F5,$DD,$55,$54  ; ".U....wU.P....UT"
+$F6C0                   .BYTE $00,$05,$1B,$6F,$BF,$BA,$69,$15                                  ; "...o..i."
+; xref: write from $A876
+; xref: write from $A8B4
+$F6C8                   .BYTE $00,$55,$FB,$FE,$BA,$A6,$99,$55                                  ; ".U.....U"
+$F6D0                   .BYTE $00,$40,$94,$E5,$96,$66,$55,$50,$00,$15,$6E,$BF,$FE,$EA,$A6,$55  ; ".@...fUP..n....U"
+$F6E0                   .BYTE $00,$40,$51,$96,$9B,$9B,$56,$45                                  ; ".@Q...VE"
+; xref: write from $A85F
+; xref: write from $A89D
+$F6E8                   .BYTE $01,$55,$BF,$FE,$BA,$AA,$65,$55                                  ; ".U....eU"
+$F6F0                   .BYTE $40,$54,$F9,$EA,$A9,$66,$55,$05,$00,$05,$1B,$6F,$6E,$6A,$5A,$45  ; "@T...fU....onjZE"
+$F700                   .BYTE $00,$55,$AB,$AE,$BF,$FD,$77,$55,$00,$54,$B5,$FD,$F5,$DD,$75,$55  ; ".U....wU.T....uU"
+$F710                   .BYTE $00,$05,$1B,$6F,$BE,$BA,$69,$15,$00,$55,$AE,$BB,$FF,$77,$D5,$55  ; "...o..i..U...w.U"
+$F720                   .BYTE $00,$40,$90,$E5,$96,$56,$45,$10,$00,$15,$6D,$BE,$EA,$E9,$A5,$54  ; ".@...VE...m....T"
+$F730                   .BYTE $00,$55,$BE,$FA,$EE,$A9,$66,$55,$00,$00,$41,$96,$5B,$9B,$56,$51  ; ".U....fU..A.[.VQ"
+$F740                   .BYTE $00,$55,$BF,$FF,$EE,$A9,$66,$55                                  ; ".U....fU"
+; xref: write from $A865
+; xref: write from $A8A3
+$F748                   .BYTE $01,$55,$F9,$B9,$AA,$99,$55,$44                                  ; ".U....UD"
+$F750                   .BYTE $40,$45,$56,$5B,$6E,$5A,$15,$01,$00,$50,$B4,$AD,$B5,$FD,$75,$55  ; "@EV[nZ...P....uU"
+$F760                   .BYTE $00,$15,$6F,$BE,$BB,$BE,$69,$15,$00,$55,$AA,$BB,$FF,$F7,$DD,$55  ; "..o...i..U.....U"
+; xref: write from $A87C
+; xref: write from $A8BA
+$F770                   .BYTE $00,$50,$91,$A5,$96,$66,$55,$51,$00,$15,$6E,$BF,$FE,$EA,$A6,$55  ; ".P...fUQ..n....U"
+$F780                   .BYTE $00,$40,$51,$96,$9B,$9B,$56,$51,$00,$55,$BF,$FE,$BA,$AA,$65,$55  ; ".@Q...VQ.U....eU"
+$F790                   .BYTE $00,$54,$AD,$BF,$FD,$77,$55,$14                                  ; ".T...wU."
+; xref: write from $A86B
+; xref: write from $A8A9
+$F798                   .BYTE $01,$05,$16,$5B,$6E,$6F,$5A,$55                                  ; "...[noZU"
+$F7A0                   .BYTE $90,$55,$FF,$FB,$EE,$A9,$65,$55,$05,$51,$B4,$FD,$F5,$DD,$75,$54  ; ".U....eU.Q....uT"
+$F7B0                   .BYTE $5F,$95,$27,$9F,$7D,$75,$99,$AA,$56,$A8,$D8,$F6,$D6,$5A,$AA,$A8  ; "_.'.}u..V....Z.."
+; xref: read from $AF51 (L_AF51)
+$F7C0                   .BYTE $BC,$BC,$BC,$BC,$BC,$CB,$BC,$BC,$BC,$BC,$BC,$CB,$BC,$BC,$BC,$BC  ; "................"
+$F7D0                   .BYTE $BC,$BC,$BC,$BC,$BC,$BC,$00,$BC,$CF,$BC,$B6,$6E,$BC,$00,$6E,$6E  ; "...........n..nn"
+$F7E0                   .BYTE $6E,$6E,$6E,$6E,$B0,$B0,$B0,$BC,$BC,$00,$3E,$3E,$3E,$3E,$3E,$3E  ; "nnnn......>>>>>>"
+$F7F0                   .BYTE $3E,$3E,$BC,$BC,$3E,$3E,$3E,$3E,$3E,$3E,$3E,$3E,$3E,$BC,$00,$00  ; ">>..>>>>>>>>>..."
+; --------------------------------------------------------
+; Display buffer area inside the active VIC bank.
+; Runtime code writes screen-related data here while the display bank is $C000-$FFFF; this sits near the active screen matrix at $FC00.
+; --------------------------------------------------------
+; xref: write from $A9A5
+; xref: write from $A9B1
+; xref: write from $A9C0
+$F800                   .BYTE $F0,$F1,$B0,$B0,$BC,$BC,$00,$00,$BE,$BE,$00,$BC,$BF,$BC,$BC,$00  ; "................"
+$F810                   .BYTE $BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC  ; "................"
+$F820                   .BYTE $BC,$BC,$BC,$BC,$BC,$BC,$FC,$F1,$F1,$FC,$FC,$FC,$BF,$B0,$B0,$BC  ; "................"
+$F830                   .BYTE $95,$59,$00,$BC,$BF,$BC,$BF,$00,$BC,$00,$3E,$3E,$3E,$3E,$3E,$3E  ; ".Y........>>>>>>"
+$F840                   .BYTE $00,$00,$BC,$BC,$3E,$3E,$3E,$3E,$3E,$3E,$3E,$3E,$00,$BC,$FB,$FC  ; "....>>>>>>>>...."
+$F850                   .BYTE $BF,$CF,$CF,$FC,$FC,$B9,$BC,$BC,$B0,$B0,$00,$00,$FB,$FB,$00,$00  ; "................"
+$F860                   .BYTE $BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC  ; "................"
+$F870                   .BYTE $BC,$BC,$BC,$BC,$BC,$BC,$00,$00,$FC,$FC,$FC,$FB,$FB,$00,$00,$0B  ; "................"
+$F880                   .BYTE $3B,$51,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; ";Q.............."
+$F890                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$F8A0                   .BYTE $00,$00,$BC,$BF,$BF,$00,$00,$01,$F1,$1B,$BC,$BC,$BC,$BC,$BC,$BC  ; "................"
+$F8B0                   .BYTE $BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC  ; "................"
+; xref: read from $AF57
+$F8C0                   .BYTE $BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$00,$00,$00,$3B  ; "...............;"
+$F8D0                   .BYTE $F1,$CB                                                          ; ".."
+; xref: read from $A58C (L_A58C)
+$F8D2                   .BYTE $BC,$BC,$00,$00,$3E,$3E,$3E,$3E,$3E,$00,$BC,$BC,$00,$00          ; "....>>>>>....."
+$F8E0                   .BYTE $00,$3E,$3E,$3E,$3E,$00,$00,$00,$BC,$BC,$00,$3E,$3E,$3E,$3E,$3E  ; ".>>>>......>>>>>"
+$F8F0                   .BYTE $3E,$3E,$BC,$BC,$00,$00,$00,$7B,$0B,$31,$51,$0F,$2F,$0B,$CC,$0B  ; ">>.....{.1Q./..."
+$F900                   .BYTE $6F,$01,$7F,$7F,$1F,$9F,$0F,$6F,$0F,$C1,$7F,$0F,$9F,$0F,$6F,$9F  ; "o......o......o."
+$F910                   .BYTE $0F,$0F,$0F,$0F,$4F,$0F,$01,$0F,$0B,$0F,$0E,$0B,$06,$01,$01,$01  ; "....O..........."
+$F920                   .BYTE $01,$01,$01,$01,$01,$01,$01,$0F,$0F,$00,$06,$06,$06,$06,$06,$06  ; "................"
+$F930                   .BYTE $06,$06,$0F,$0F,$06,$06,$06,$06,$06,$06,$06,$06,$06,$0F,$01,$91  ; "................"
+; xref: write from $A9CA (L_A9CA)
+$F940                   .BYTE $0B,$4B,$01,$01,$0F,$01,$01,$01,$05,$01,$90,$01,$01,$0F,$01,$90  ; ".K.............."
+$F950                   .BYTE $0F,$0F,$0F,$0F,$0F,$0F,$0F,$0F,$0F,$0F,$0F,$0F,$0F,$0F,$0F,$0F  ; "................"
+$F960                   .BYTE $0F,$0F,$0F,$0F,$0F,$0F,$9B,$0B,$1C,$0B,$0B,$0B,$0C,$01,$01,$01  ; "................"
+$F970                   .BYTE $01,$01,$00,$01,$01,$0F,$0C,$00,$0F,$00,$06,$06,$06,$06,$06,$06  ; "................"
+$F980                   .BYTE $00,$00,$0F,$0F,$06,$06,$06,$06,$06,$06,$06,$06,$00,$0F,$91,$9B  ; "................"
+$F990                   .BYTE $9C,$9B,$9B,$6B,$9B,$05,$0F,$01,$01,$01,$00,$00,$01,$01,$00,$00  ; "...k............"
+$F9A0                   .BYTE $0F,$0F,$0F,$0F,$0F,$0F,$0F,$0F,$0F,$0F,$0F,$0F,$0F,$0F,$0F,$0F  ; "................"
+$F9B0                   .BYTE $0F,$0F,$0F,$0F,$0F,$0F,$00,$90,$6B,$9B,$9B,$9C,$9C,$FF,$FF,$F1  ; "........k......."
+; xref: read from $AF5D
+$F9C0                   .BYTE $01,$F1,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$F9D0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$90,$90  ; "................"
+$F9E0                   .BYTE $40,$90,$91,$9C,$9C,$31,$FF,$F1,$2B,$FF,$9F,$6F,$9F,$9F,$9F,$9F  ; "@....1..+..o...."
+$F9F0                   .BYTE $0F,$0F,$0F,$0F,$0F,$0F,$0F,$0F,$0F,$0F,$0F,$0F,$0F,$0F,$0F,$0F  ; "................"
+$FA00                   .BYTE $0F,$0F,$0F,$0F,$0F,$0F,$9F,$6F,$9F,$9F,$9F,$9F,$90,$3F,$FF,$F1  ; ".......o.....?.."
+$FA10                   .BYTE $31,$FF,$9F,$9F,$00,$90,$06,$06,$06,$06,$06,$00,$9F,$6F,$90,$90  ; "1............o.."
+$FA20                   .BYTE $90,$06,$06,$06,$06,$90,$90,$90,$9F,$0F,$90,$06,$06,$06,$06,$06  ; "................"
+$FA30                   .BYTE $06,$06,$6F,$9F,$01,$F1,$FF,$F1,$F1,$F1,$F1,$F1,$2C,$FC,$FF,$F1  ; "..o.........,..."
+$FA40                   .BYTE $F1,$FB,$F1,$F1,$FF,$FF,$31,$FF,$FF,$FF,$FF,$0F,$FF,$FF,$FF,$FF  ; "......1........."
+$FA50                   .BYTE $0F,$FF,$FF,$FF,$FF,$0F,$FB,$FF,$FF,$FF,$0F,$FF,$FF,$FF,$FF,$0F  ; "................"
+$FA60                   .BYTE $FF,$F1,$FF,$FF,$01,$01,$FB,$01,$0F,$0B,$31,$0F,$01,$31,$01,$01  ; "..........1..1.."
+$FA70                   .BYTE $21,$01,$01,$01,$F1,$01,$01,$F1,$01,$01,$F1,$21,$01,$01,$01,$F1  ; "!..........!...."
+$FA80                   .BYTE $01,$01,$F1,$01,$01,$F1,$01,$01,$01,$F1,$01,$01,$31,$0F,$0F,$31  ; "............1..1"
+$FA90                   .BYTE $0B,$0B,$0F,$0F,$FF,$0F,$0C,$3C,$0F,$0C,$3F,$0F,$0F,$0F,$0C,$0F  ; ".......<..?....."
+$FAA0                   .BYTE $0C,$FC,$0F,$0C,$FF,$0F,$0F,$FF                                  ; "........"
+; xref: read from $AF63
+$FAA8                   .BYTE $0F,$3C,$3F,$0C,$0F,$0C,$F1,$0F                                  ; ".<?....."
+$FAB0                   .BYTE $0F,$3F,$0C,$0F,$0B,$FC,$0F,$0F,$00,$00,$00,$00,$01,$0F,$0C,$0B  ; ".?.............."
+$FAC0                   .BYTE $02,$0B,$00,$00,$03,$0E,$06,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$FAD0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$FAE0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$FAF0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$FB00                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$FB10                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$FB20                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$FB30                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$FB40                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$FB50                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+$FB60                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00                              ; "........."
+; xref: read from $2FE1
+; xref: write from $5DAB
+$FB69                   .BYTE $00,$00,$00,$00,$00,$00,$00                                      ; "......."
+$FB70                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+; xref: read from $A599
+$FB80                   .BYTE $00,$00,$00,$00,$01,$0F,$0C,$0B,$02,$0B,$00,$00,$03,$0E,$06,$00  ; "................"
+$FB90                   .BYTE $04,$0B,$00,$00,$05,$00,$00,$00,$06,$00,$00,$00,$07,$08,$09,$00  ; "................"
+$FBA0                   .BYTE $08,$09,$00,$00,$09,$0B,$00,$00,$0A,$02,$0B,$00,$0B,$00,$00,$00  ; "................"
+$FBB0                   .BYTE $0C,$0B,$00,$00,$0D,$05,$00,$00,$0E,$06,$00,$00,$0F,$0C,$0B,$00  ; "................"
+$FBC0                   .BYTE $00,$00,$00,$00,$10,$F0,$C0,$B0,$20,$B0,$00,$00,$30,$E0,$60,$00  ; "........ ...0.`."
+$FBD0                   .BYTE $40,$B0,$00,$00,$50,$00,$00,$00,$60,$00,$00,$00,$70,$80,$90,$00  ; "@...P...`...p..."
+$FBE0                   .BYTE $80,$90,$00,$00,$90,$B0,$00,$00,$A0,$20,$B0,$00,$B0,$00,$00,$00  ; "......... ......"
+$FBF0                   .BYTE $C0,$B0,$00,$00,$D0,$50,$00,$00,$E0,$60,$00,$00,$F0,$C0,$B0,$00  ; ".....P...`......"
+; --------------------------------------------------------
+; Active screen matrix (screen RAM) for the main game display.
+; Derived from the display setup DD00=$94 and D018=$F8 in the VIC initialization at $AED2.
+; --------------------------------------------------------
+$FC00                   .BYTE $00,$B0,$B0,$00,$00,$B0,$BC,$BF,$FB,$FB,$FB,$FB,$FB,$FB,$FB,$FB  ; "................"
+$FC10                   .BYTE $FB,$FB,$FB,$FB,$BF,$FB,$FB,$FB,$FB,$FB,$FB,$FB,$FB,$FB,$FB,$FB  ; "................"
+$FC20                   .BYTE $FB,$BC,$B0,$B0,$00,$B0,$B0,$00,$BC,$BC,$00,$BC,$BC,$00,$B0,$BC  ; "................"
+$FC30                   .BYTE $FC,$B0,$BC,$BC,$BC,$BC,$BC,$CB,$B0,$60,$6E,$60,$6E,$6E,$B0,$BC  ; ".........`n`nn.."
+$FC40                   .BYTE $BF,$BF,$FC,$BC,$BF,$CF,$B0,$FC,$CB,$B0,$00,$BC,$BC,$00,$BC,$BC  ; "................"
+$FC50                   .BYTE $CB,$CB,$00,$BC,$BC,$BF,$BC,$BC,$CB,$00,$BC,$CF,$BC,$B6,$6E,$BC  ; "..............n."
+$FC60                   .BYTE $00,$6E,$6E,$6E,$6E,$6E,$6E,$B0,$B0,$B0,$BC,$BC,$BC,$B0,$B0,$FC  ; ".nnnnnn........."
+$FC70                   .BYTE $BC,$BC,$BF,$BC,$FC,$00,$CB,$CB,$CB,$BC,$B0,$BC,$CF,$BC,$CB,$BC  ; "................"
+$FC80                   .BYTE $CB,$B0,$BC,$BC,$B0,$00,$60,$6E,$60,$6E,$6E,$E6,$E6,$6E,$E6,$6E  ; "......`n`nn..n.n"
+$FC90                   .BYTE $BC,$BC,$BC,$BC,$B0,$BC,$BC,$FC,$FB,$BC,$BF,$BC,$BF,$BC,$CB,$CB  ; "................"
+$FCA0                   .BYTE $BC,$CB,$B0,$BF,$BC,$FC,$BC,$BC,$CF,$B0,$B0,$BC,$BC,$00,$00,$BE  ; "................"
+$FCB0                   .BYTE $BE,$BE,$E6,$E6,$E6,$6E,$6E,$65,$BF,$B0,$BC,$BC,$BC,$BC,$BC,$FC  ; ".....nne........"
+$FCC0                   .BYTE $FC,$BC,$BC,$BC,$BC,$BF,$BC,$CB,$BF,$FB,$BC,$BC,$BF,$FC,$CF,$F0  ; "................"
+$FCD0                   .BYTE $FC,$00,$BC,$CB,$B5,$B9,$95,$B5,$B0,$5B,$53,$B5,$B5,$BC,$B5,$BC  ; ".........[S....."
+$FCE0                   .BYTE $FC,$BC,$BC,$BC,$CB,$B0,$B0,$FC,$00,$CF,$CB,$FC,$BF,$CB,$BC,$FB  ; "................"
+$FCF0                   .BYTE $CF,$BC,$FC,$B0,$BC,$BF,$BC,$CF,$CB,$B0,$BC,$95,$59,$90,$9B,$90  ; "............Y..."
+$FD00                   .BYTE $90,$9B,$3B,$35,$59,$BC,$BF,$CB,$BC,$CB,$BF,$BC,$CB,$B0,$B9,$FC  ; "..;5Y..........."
+$FD10                   .BYTE $CF,$CF,$CF,$FC,$B0,$BC,$FC,$BC,$FC,$BC,$BC,$BC,$FC,$FC,$FC,$BF  ; "................"
+$FD20                   .BYTE $CB,$B0,$BC,$98,$98,$98,$98,$B9,$90,$95,$95,$9B,$BC,$FB,$BC,$B9  ; "................"
+$FD30                   .BYTE $B9,$59,$B9,$BC,$BC,$B0,$B0,$FC,$FC,$FC,$FC,$CB,$BC,$CF,$BF,$FC  ; ".Y.............."
+$FD40                   .BYTE $FC,$BC,$FC,$FC,$CF,$C0,$C0,$BF,$BC,$00,$B0,$BF,$89,$A8,$89,$93  ; "................"
+$FD50                   .BYTE $59,$95,$95,$B5,$90,$90,$9B,$CB,$90,$95,$90,$BC,$CB,$B0,$BC,$FB  ; "Y..............."
+$FD60                   .BYTE $FC,$FC,$C0,$CB,$BC,$FC,$CB,$FB,$CB,$CB,$CF,$CB,$CB,$B0,$BC,$BC  ; "................"
+$FD70                   .BYTE $BF,$FB,$FB,$FB,$FB,$FB,$FB,$FB,$FB,$FB,$FB,$FB,$FB,$FB,$FB,$F0  ; "................"
+$FD80                   .BYTE $FB,$FB,$FB,$FB,$FB,$FB,$FB,$FB,$FB,$BC,$BC,$BC,$BC,$FC,$BC,$CB  ; "................"
+$FD90                   .BYTE $CB,$BC,$CB,$BC,$BC,$BC,$BC,$CB,$BC,$BC,$BC,$BC,$BC,$BC,$CB,$BC  ; "................"
+$FDA0                   .BYTE $BC,$BC,$BC,$BC,$CB,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC  ; "................"
+$FDB0                   .BYTE $CB,$B0,$CB,$BC,$CB,$CB,$BF,$CB,$BC,$BF,$CB,$BC,$00,$00,$00,$00  ; "................"
+$FDC0                   .BYTE $00,$BC,$00,$3E,$3E,$3E,$3E,$3E,$3E,$3E,$3E,$BC,$BC,$3E,$3E,$3E  ; "...>>>>>>>>..>>>"
+$FDD0                   .BYTE $3E,$3E,$3E,$3E,$3E,$3E,$BC,$00,$00,$F0,$F1,$BC,$CB,$BC,$BC,$BC  ; ">>>>>>.........."
+$FDE0                   .BYTE $BC,$CF,$00,$00,$BC,$BF,$BC,$BC,$00,$BC,$BC,$BC,$BC,$BC,$BC,$BC  ; "................"
+$FDF0                   .BYTE $BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$FC  ; "................"
+$FE00                   .BYTE $F1,$F1,$FC,$FC,$FC,$BF,$BC,$BC,$BC,$CF,$00,$00,$BC,$BF,$BC,$BF  ; "................"
+$FE10                   .BYTE $00,$BC,$00,$3E,$3E,$3E,$3E,$3E,$3E,$00,$00,$BC,$BC,$3E,$3E,$3E  ; "...>>>>>>....>>>"
+$FE20                   .BYTE $3E,$3E,$3E,$3E,$3E,$00,$BC,$FB,$FC,$BF,$CF,$CF,$FC,$FC,$CB,$BC  ; ">>>>>..........."
+$FE30                   .BYTE $CB,$FC,$00,$00,$00,$FB,$FB,$00,$00,$BC,$BC,$BC,$BC,$BC,$BC,$BC  ; "................"
+$FE40                   .BYTE $BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$00  ; "................"
+$FE50                   .BYTE $00,$FC,$FC,$FC,$FB,$FB,$BC,$BC,$CB,$FC,$00,$00,$00,$00,$00,$00  ; "................"
+$FE60                   .BYTE $00,$00,$00,$00,$00,$00                                          ; "......"
+
+; === CODE SECTION ===
+
+$FE66 L_FE66:                         ; xref: jump from $984B
+    BRK
+
+; === DATA SECTION ===
+
+$FE67                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00                              ; "........."
+$FE70                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$BC,$BF,$BF,$CB,$B0  ; "................"
+$FE80                   .BYTE $FC,$FC,$00,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC  ; "................"
+$FE90                   .BYTE $BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC,$BC  ; "................"
+$FEA0                   .BYTE $BC,$BC,$BC,$BC,$BC,$00,$FC,$CB,$BC,$CF,$B0                      ; "..........."
+; xref: read from $A594
+; xref: write from $A59C
+$FEAB                   .BYTE $BC,$BC,$00,$00,$3E                                              ; "....>"
+$FEB0                   .BYTE $3E,$3E,$3E,$3E,$00,$BC,$BC,$00,$00,$00,$3E,$3E,$3E,$3E,$00,$00  ; ">>>>......>>>>.."
+$FEC0                   .BYTE $00,$BC,$BC,$00,$3E,$3E,$3E,$3E,$3E,$3E,$3E,$BC,$BC,$BC,$BC,$CB  ; "....>>>>>>>....."
+$FED0                   .BYTE $FC,$FC,$BC,$BC,$BC,$BC,$BF,$BF,$BC,$BF,$BC,$BC,$BC,$BC,$BF,$BC  ; "................"
+$FEE0                   .BYTE $BF,$BF,$BC,$BF,$BC,$BC,$BC,$BC,$BC,$BF,$BC,$BF,$BC,$BF,$BC,$BC  ; "................"
+$FEF0                   .BYTE $BC,$BC,$BF,$BC,$CF,$BF,$CB,$CB                                  ; "........"
+; xref: write from $9C21
+; xref: write from $9C76 (L_9C76)
+; xref: write from $AF73
+$FEF8                   .BYTE $89,$4D,$60,$8D,$4F,$4D,$45,$4E                                  ; ".M`.OMEN"
+$FF00                   .BYTE $54,$60,$46,$5D,$48,$52,$45,$60,$60,$49,$43,$48,$60,$44,$49,$45  ; "T`F]HRE``ICH`DIE"
+$FF10                   .BYTE $60,$46,$4F,$4C,$47,$45,$4E,$44,$45,$4E,$60,$84,$49,$4E,$47,$45  ; "`FOLGENDEN`.INGE"
+; xref: read from $9C1E (L_9C1E)
+$FF20                   .BYTE $4D,$49,$54,$60,$4D,$49,$52,$7A,$60,$60,$60,$60,$60,$60,$60,$60  ; "MIT`MIRz````````"
+$FF30                   .BYTE $60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60  ; "````````````````"
+$FF40                   .BYTE $60,$60,$60,$60,$60,$60,$60,$60                                  ; "````````"
+; xref: write from $96B2
+$FF48                   .BYTE $8A,$45,$41,$4E,$53,$6C,$60,$94                                  ; ".EANSl`."
+$FF50                   .BYTE $55,$52,$4E,$53,$43,$48,$55,$48,$45,$6C,$60,$94,$6D,$93,$48,$49  ; "URNSCHUHEl`.m.HI"
+$FF60                   .BYTE $52,$54,$6E,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60  ; "RTn`````````````"
+$FF70                   .BYTE $60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60  ; "````````````````"
+$FF80                   .BYTE $60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60  ; "````````````````"
+$FF90                   .BYTE $60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60  ; "````````````````"
+$FFA0                   .BYTE $60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60  ; "````````````````"
+$FFB0                   .BYTE $60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60  ; "````````````````"
+; xref: write from $9C33 (L_9C33)
+; xref: write from $9C3F
+; xref: write from $9C4E (L_9C4E)
+; xref: write from $9C95
+; xref: write from $9C9C
+; xref: write from $9CB8
+$FFC0                   .BYTE $7E,$40,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60  ; "~@``````````````"
+$FFD0                   .BYTE $60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60,$60  ; "````````````````"
+$FFE0                   .BYTE $60,$60,$60,$60,$60,$60,$60,$60,$00,$00,$00,$00,$00,$00,$00,$00  ; "````````........"
+$FFF0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00                                  ; "........"
+; xref: write from $A430
+$FFF8                   .BYTE $74,$75                                                          ; "tu"
+; xref: write from $AED5
+$FFFA VECTOR_NMI_LO:    .BYTE $43
+; xref: write from $AEDA
+$FFFB VECTOR_NMI_HI:    .BYTE $98
+$FFFC                   .BYTE $76,$00                                                          ; "v."
+; xref: write from $AEDF
+$FFFE VECTOR_IRQ_LO:    .BYTE $4E
+
+; End of disassembly
