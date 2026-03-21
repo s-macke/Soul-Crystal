@@ -2,7 +2,7 @@
   "version": "1.1",
   "metadata": {
     "created": "2026-03-20T19:36:24Z",
-    "modified": "2026-03-21T10:53:38Z",
+    "modified": "2026-03-21T11:39:15Z",
     "sourceFile": "../data/tests/nachcodeabfrage.vsf",
     "description": "C64 Text Adventure Game Soul Crystal"
   },
@@ -24,7 +24,6 @@
     "0x9803",
     "0x9843",
     "0x984E",
-    "0x9760",
     "0x9642",
     "0x9632",
     "0x9635",
@@ -130,7 +129,24 @@
     "0x45DF",
     "0x45E6",
     "0x4588",
-    "0x4C56"
+    "0x4C56",
+    "0x45B1",
+    "0x45C4",
+    "0x45CD",
+    "0x467C",
+    "0x4685",
+    "0x4759",
+    "0x468E",
+    "0x46AD",
+    "0x474E",
+    "0x47C2",
+    "0x47CB",
+    "0x47D4",
+    "0x47DB",
+    "0x4809",
+    "0x49DE",
+    "0x3E4D",
+    "0x3E56"
   ],
   "symbols": {
     "0x0079": {
@@ -489,8 +505,8 @@
       "source": "auto"
     },
     "0x0F3E": {
-      "name": "ENTRY_0F3E",
-      "type": "entry",
+      "name": "SUB_0F3E",
+      "type": "subroutine",
       "source": "auto"
     },
     "0x0F4F": {
@@ -4988,6 +5004,16 @@
       "type": "label",
       "source": "auto"
     },
+    "0x3E4D": {
+      "name": "ENTRY_3E4D",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x3E56": {
+      "name": "ENTRY_3E56",
+      "type": "entry",
+      "source": "auto"
+    },
     "0x3E5C": {
       "name": "L_3E5C",
       "type": "label",
@@ -5018,11 +5044,6 @@
       "type": "label",
       "source": "auto"
     },
-    "0x3EB4": {
-      "name": "L_3EB4",
-      "type": "label",
-      "source": "auto"
-    },
     "0x3EC6": {
       "name": "L_3EC6",
       "type": "label",
@@ -5035,11 +5056,6 @@
     },
     "0x3F14": {
       "name": "L_3F14",
-      "type": "label",
-      "source": "auto"
-    },
-    "0x3F1F": {
-      "name": "L_3F1F",
       "type": "label",
       "source": "auto"
     },
@@ -5343,6 +5359,21 @@
       "type": "label",
       "source": "auto"
     },
+    "0x45B1": {
+      "name": "ENTRY_45B1",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x45C4": {
+      "name": "ENTRY_45C4",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x45CD": {
+      "name": "ENTRY_45CD",
+      "type": "entry",
+      "source": "auto"
+    },
     "0x45D0": {
       "name": "L_45D0",
       "type": "label",
@@ -5391,6 +5422,36 @@
     "0x4675": {
       "name": "L_4675",
       "type": "label",
+      "source": "auto"
+    },
+    "0x467C": {
+      "name": "ENTRY_467C",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x4685": {
+      "name": "ENTRY_4685",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x468E": {
+      "name": "ENTRY_468E",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x46A3": {
+      "name": "L_46A3",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x46A6": {
+      "name": "L_46A6",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x46AD": {
+      "name": "ENTRY_46AD",
+      "type": "entry",
       "source": "auto"
     },
     "0x46B0": {
@@ -5458,9 +5519,19 @@
       "type": "subroutine",
       "source": "auto"
     },
+    "0x474E": {
+      "name": "ENTRY_474E",
+      "type": "entry",
+      "source": "auto"
+    },
     "0x4752": {
       "name": "SUB_4752",
       "type": "subroutine",
+      "source": "auto"
+    },
+    "0x4759": {
+      "name": "ENTRY_4759",
+      "type": "entry",
       "source": "auto"
     },
     "0x475D": {
@@ -5479,8 +5550,8 @@
       "source": "auto"
     },
     "0x4771": {
-      "name": "ENTRY_4771",
-      "type": "entry",
+      "name": "SUB_4771",
+      "type": "subroutine",
       "source": "auto"
     },
     "0x477A": {
@@ -5513,6 +5584,26 @@
       "type": "label",
       "source": "auto"
     },
+    "0x47C2": {
+      "name": "ENTRY_47C2",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x47CB": {
+      "name": "ENTRY_47CB",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x47D4": {
+      "name": "ENTRY_47D4",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x47DB": {
+      "name": "ENTRY_47DB",
+      "type": "entry",
+      "source": "auto"
+    },
     "0x47DE": {
       "name": "L_47DE",
       "type": "label",
@@ -5526,6 +5617,21 @@
     "0x4802": {
       "name": "SUB_4802",
       "type": "subroutine",
+      "source": "auto"
+    },
+    "0x4809": {
+      "name": "ENTRY_4809",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x49D5": {
+      "name": "L_49D5",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x49DE": {
+      "name": "ENTRY_49DE",
+      "type": "entry",
       "source": "auto"
     },
     "0x4A15": {
@@ -6124,8 +6230,8 @@
       "source": "auto"
     },
     "0x5277": {
-      "name": "SUB_5277",
-      "type": "subroutine",
+      "name": "L_5277",
+      "type": "label",
       "source": "auto"
     },
     "0x52D2": {
@@ -6283,11 +6389,6 @@
       "type": "label",
       "source": "auto"
     },
-    "0x5599": {
-      "name": "L_5599",
-      "type": "label",
-      "source": "auto"
-    },
     "0x5603": {
       "name": "SUB_5603",
       "type": "subroutine",
@@ -6300,6 +6401,11 @@
     },
     "0x56FD": {
       "name": "SUB_56FD",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x5934": {
+      "name": "SUB_5934",
       "type": "subroutine",
       "source": "auto"
     },
@@ -6971,11 +7077,6 @@
     "0x9759": {
       "name": "L_9759",
       "type": "label",
-      "source": "auto"
-    },
-    "0x9760": {
-      "name": "ENTRY_9760",
-      "type": "entry",
       "source": "auto"
     },
     "0x976B": {
@@ -10691,18 +10792,30 @@
     },
     {
       "start": "0x3C02",
-      "end": "0x3E4A",
+      "end": "0x3E48",
       "type": "code",
       "source": "auto"
     },
     {
-      "start": "0x3E4B",
-      "end": "0x3E5B",
+      "start": "0x3E49",
+      "end": "0x3E4C",
+      "type": "data",
+      "source": "user"
+    },
+    {
+      "start": "0x3E4D",
+      "end": "0x3E4F",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x3E50",
+      "end": "0x3E55",
       "type": "data",
       "source": "auto"
     },
     {
-      "start": "0x3E5C",
+      "start": "0x3E56",
       "end": "0x401E",
       "type": "code",
       "source": "auto"
@@ -10913,21 +11026,45 @@
     },
     {
       "start": "0x45AD",
-      "end": "0x45CF",
+      "end": "0x45B0",
       "type": "data",
       "source": "auto"
     },
     {
-      "start": "0x45D0",
-      "end": "0x45D5",
+      "start": "0x45B1",
+      "end": "0x45BF",
       "type": "code",
       "source": "auto"
     },
     {
-      "start": "0x45D6",
-      "end": "0x45D7",
+      "start": "0x45C0",
+      "end": "0x45C3",
       "type": "data",
       "source": "auto"
+    },
+    {
+      "start": "0x45C4",
+      "end": "0x45C6",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x45C7",
+      "end": "0x45CC",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x45CD",
+      "end": "0x45D3",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x45D4",
+      "end": "0x45D7",
+      "type": "data",
+      "source": "user"
     },
     {
       "start": "0x45D8",
@@ -10955,18 +11092,54 @@
     },
     {
       "start": "0x45E6",
-      "end": "0x4679",
+      "end": "0x4677",
       "type": "code",
       "source": "auto"
     },
     {
-      "start": "0x467A",
-      "end": "0x46AF",
+      "start": "0x4678",
+      "end": "0x467B",
+      "type": "data",
+      "source": "user"
+    },
+    {
+      "start": "0x467C",
+      "end": "0x4682",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x4683",
+      "end": "0x4684",
       "type": "data",
       "source": "auto"
     },
     {
-      "start": "0x46B0",
+      "start": "0x4685",
+      "end": "0x468B",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x468C",
+      "end": "0x468D",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x468E",
+      "end": "0x46A8",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x46A9",
+      "end": "0x46AC",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x46AD",
       "end": "0x471F",
       "type": "code",
       "source": "auto"
@@ -10979,30 +11152,30 @@
     },
     {
       "start": "0x4722",
-      "end": "0x474B",
+      "end": "0x4749",
       "type": "code",
       "source": "auto"
     },
     {
-      "start": "0x474C",
-      "end": "0x4751",
+      "start": "0x474A",
+      "end": "0x474D",
       "type": "data",
-      "source": "auto"
+      "source": "user"
     },
     {
-      "start": "0x4752",
+      "start": "0x474E",
       "end": "0x4754",
       "type": "code",
       "source": "auto"
     },
     {
       "start": "0x4755",
-      "end": "0x475C",
+      "end": "0x4758",
       "type": "data",
       "source": "auto"
     },
     {
-      "start": "0x475D",
+      "start": "0x4759",
       "end": "0x4760",
       "type": "code",
       "source": "auto"
@@ -11039,24 +11212,96 @@
     },
     {
       "start": "0x477A",
-      "end": "0x47BF",
+      "end": "0x47BD",
       "type": "code",
       "source": "auto"
     },
     {
-      "start": "0x47C0",
-      "end": "0x47DD",
+      "start": "0x47BE",
+      "end": "0x47C1",
+      "type": "data",
+      "source": "user"
+    },
+    {
+      "start": "0x47C2",
+      "end": "0x47C8",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x47C9",
+      "end": "0x47CA",
       "type": "data",
       "source": "auto"
     },
     {
-      "start": "0x47DE",
-      "end": "0x4806",
+      "start": "0x47CB",
+      "end": "0x47D1",
       "type": "code",
       "source": "auto"
     },
     {
-      "start": "0x4807",
+      "start": "0x47D2",
+      "end": "0x47D3",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x47D4",
+      "end": "0x47D6",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x47D7",
+      "end": "0x47DA",
+      "type": "data",
+      "source": "user"
+    },
+    {
+      "start": "0x47DB",
+      "end": "0x4804",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x4805",
+      "end": "0x4808",
+      "type": "data",
+      "source": "user"
+    },
+    {
+      "start": "0x4809",
+      "end": "0x480B",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x480C",
+      "end": "0x49D4",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x49D5",
+      "end": "0x49D7",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x49D8",
+      "end": "0x49DD",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x49DE",
+      "end": "0x49E8",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x49E9",
       "end": "0x4A14",
       "type": "data",
       "source": "auto"
@@ -11381,30 +11626,18 @@
     },
     {
       "start": "0x547A",
-      "end": "0x54EA",
+      "end": "0x54D3",
       "type": "data",
       "source": "auto"
     },
     {
-      "start": "0x54EB",
-      "end": "0x54F3",
-      "type": "code",
-      "source": "auto"
-    },
-    {
-      "start": "0x54F4",
-      "end": "0x5570",
+      "start": "0x54D4",
+      "end": "0x55D8",
       "type": "data",
-      "source": "auto"
+      "source": "user"
     },
     {
-      "start": "0x5571",
-      "end": "0x5578",
-      "type": "code",
-      "source": "auto"
-    },
-    {
-      "start": "0x5579",
+      "start": "0x55D9",
       "end": "0x5602",
       "type": "data",
       "source": "auto"
@@ -11441,6 +11674,18 @@
     },
     {
       "start": "0x570A",
+      "end": "0x5933",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x5934",
+      "end": "0x5940",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x5941",
       "end": "0x5BE1",
       "type": "data",
       "source": "auto"
