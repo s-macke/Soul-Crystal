@@ -13,10 +13,10 @@ ${EXEC} info soul_crystal.opcodeoracle.json
 
 #${EXEC} mcp -transport http --listen 127.0.0.1:8080 soul_crystal.opcodeoracle.json
 
-
-#  - 2 bytes: $0E11, $0F5B, $0F84
+#  - 0 bytes: $0F77
+#  - 2 bytes: $0E11, $0F5B, $0FAB
 #  - 3 bytes: $0CDB, $0DF0, $0DED
-#  - 4 bytes: $0C4D, $0D1E, $0D28, $0F91, $0D19, $0C80, $0D26,
+#  - 4 bytes: $0C4D, $0D1E, $0D28, $0F91, $0D19, $0C80, $0D26, $0F84
 #  - 6 bytes: $0C6D, $0CFF, $0D0C
 #  - 7 bytes: $0D4F
 
@@ -24,6 +24,7 @@ ${EXEC} info soul_crystal.opcodeoracle.json
 #0x0f17 6 or 8 bytes
 #0x0f29 4 or 6 bytes
 #0x0f3e 4 or 6 bytes
+#0x0fd0 4 or 6 bytes
 #0xc8d 6 or 8 parameters
 #0xe7d 2 or 3 parameters
 
