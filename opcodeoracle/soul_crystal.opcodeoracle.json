@@ -2,7 +2,7 @@
   "version": "1.1",
   "metadata": {
     "created": "2026-03-20T19:36:24Z",
-    "modified": "2026-03-21T09:27:49Z",
+    "modified": "2026-03-21T10:53:38Z",
     "sourceFile": "../data/tests/nachcodeabfrage.vsf",
     "description": "C64 Text Adventure Game Soul Crystal"
   },
@@ -13,7 +13,6 @@
   "entryPoints": [
     "0x389C",
     "0x9684",
-    "0x3B94",
     "0xCB29",
     "0xCF0B",
     "0x9879",
@@ -108,7 +107,30 @@
     "0x1033",
     "0x1040",
     "0x1052",
-    "0x1065"
+    "0x1065",
+    "0x540E",
+    "0x5C9E",
+    "0x60E1",
+    "0x6122",
+    "0x542D",
+    "0x41D8",
+    "0x4447",
+    "0x3835",
+    "0x3764",
+    "0x37F5",
+    "0x3815",
+    "0x383E",
+    "0x3845",
+    "0x0D19",
+    "0x0D26",
+    "0x384E",
+    "0x3855",
+    "0x385C",
+    "0x45D8",
+    "0x45DF",
+    "0x45E6",
+    "0x4588",
+    "0x4C56"
   ],
   "symbols": {
     "0x0079": {
@@ -276,6 +298,26 @@
       "type": "subroutine",
       "source": "auto"
     },
+    "0x0CFF": {
+      "name": "SUB_0CFF",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x0D0C": {
+      "name": "SUB_0D0C",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x0D19": {
+      "name": "SUB_0D19",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x0D26": {
+      "name": "SUB_0D26",
+      "type": "subroutine",
+      "source": "auto"
+    },
     "0x0D37": {
       "name": "resource_copy_descriptor_dispatch",
       "type": "subroutine",
@@ -326,6 +368,16 @@
       "type": "label",
       "source": "auto"
     },
+    "0x0DED": {
+      "name": "SUB_0DED",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x0E0E": {
+      "name": "L_0E0E",
+      "type": "label",
+      "source": "auto"
+    },
     "0x0E11": {
       "name": "SUB_0E11",
       "type": "subroutine",
@@ -357,8 +409,8 @@
       "source": "auto"
     },
     "0x0E7D": {
-      "name": "ENTRY_0E7D",
-      "type": "entry",
+      "name": "SUB_0E7D",
+      "type": "subroutine",
       "source": "auto"
     },
     "0x0E82": {
@@ -432,8 +484,8 @@
       "source": "auto"
     },
     "0x0F29": {
-      "name": "ENTRY_0F29",
-      "type": "entry",
+      "name": "SUB_0F29",
+      "type": "subroutine",
       "source": "auto"
     },
     "0x0F3E": {
@@ -472,8 +524,8 @@
       "source": "auto"
     },
     "0x0FAB": {
-      "name": "ENTRY_0FAB",
-      "type": "entry",
+      "name": "SUB_0FAB",
+      "type": "subroutine",
       "source": "auto"
     },
     "0x0FD0": {
@@ -562,8 +614,8 @@
       "source": "auto"
     },
     "0x10D7": {
-      "name": "SUB_10D7",
-      "type": "subroutine",
+      "name": "L_10D7",
+      "type": "label",
       "source": "auto"
     },
     "0x10DC": {
@@ -732,7 +784,17 @@
       "source": "assistant"
     },
     "0x12FC": {
-      "name": "L_12FC",
+      "name": "SUB_12FC",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x1320": {
+      "name": "SUB_1320",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x1342": {
+      "name": "L_1342",
       "type": "label",
       "source": "auto"
     },
@@ -744,6 +806,11 @@
     "0x1374": {
       "name": "L_1374",
       "type": "label",
+      "source": "auto"
+    },
+    "0x1394": {
+      "name": "SUB_1394",
+      "type": "subroutine",
       "source": "auto"
     },
     "0x13B0": {
@@ -1387,8 +1454,8 @@
       "source": "auto"
     },
     "0x1A72": {
-      "name": "ENTRY_1A72",
-      "type": "entry",
+      "name": "SUB_1A72",
+      "type": "subroutine",
       "source": "auto"
     },
     "0x1A9D": {
@@ -1397,8 +1464,8 @@
       "source": "auto"
     },
     "0x1AC8": {
-      "name": "ENTRY_1AC8",
-      "type": "entry",
+      "name": "SUB_1AC8",
+      "type": "subroutine",
       "source": "auto"
     },
     "0x1AE0": {
@@ -4151,6 +4218,16 @@
       "type": "label",
       "source": "auto"
     },
+    "0x3764": {
+      "name": "ENTRY_3764",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x37F5": {
+      "name": "ENTRY_37F5",
+      "type": "entry",
+      "source": "auto"
+    },
     "0x3802": {
       "name": "L_3802",
       "type": "label",
@@ -4164,6 +4241,11 @@
     "0x380F": {
       "name": "L_380F",
       "type": "label",
+      "source": "auto"
+    },
+    "0x3815": {
+      "name": "ENTRY_3815",
+      "type": "entry",
       "source": "auto"
     },
     "0x381A": {
@@ -4181,9 +4263,34 @@
       "type": "entry",
       "source": "auto"
     },
-    "0x3856": {
-      "name": "L_3856",
-      "type": "label",
+    "0x3835": {
+      "name": "ENTRY_3835",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x383E": {
+      "name": "ENTRY_383E",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x3845": {
+      "name": "ENTRY_3845",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x384E": {
+      "name": "ENTRY_384E",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x3855": {
+      "name": "ENTRY_3855",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x385C": {
+      "name": "ENTRY_385C",
+      "type": "entry",
       "source": "auto"
     },
     "0x389C": {
@@ -4596,9 +4703,9 @@
       "type": "label",
       "source": "auto"
     },
-    "0x3B94": {
-      "name": "ENTRY_3B94",
-      "type": "entry",
+    "0x3B49": {
+      "name": "SUB_3B49",
+      "type": "subroutine",
       "source": "auto"
     },
     "0x3C02": {
@@ -5037,8 +5144,8 @@
       "source": "assistant"
     },
     "0x408D": {
-      "name": "ENTRY_408D",
-      "type": "entry",
+      "name": "SUB_408D",
+      "type": "subroutine",
       "source": "auto"
     },
     "0x4099": {
@@ -5146,14 +5253,119 @@
       "type": "subroutine",
       "source": "auto"
     },
+    "0x41D8": {
+      "name": "ENTRY_41D8",
+      "type": "entry",
+      "source": "auto"
+    },
     "0x4440": {
       "name": "special_08_list_exits_flow",
       "type": "subroutine",
       "source": "assistant"
     },
+    "0x4447": {
+      "name": "ENTRY_4447",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x4472": {
+      "name": "L_4472",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x447B": {
+      "name": "L_447B",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x44A6": {
+      "name": "L_44A6",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x44AF": {
+      "name": "L_44AF",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x44DA": {
+      "name": "L_44DA",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x44E3": {
+      "name": "L_44E3",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x450E": {
+      "name": "L_450E",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x4517": {
+      "name": "L_4517",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x4542": {
+      "name": "L_4542",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x454B": {
+      "name": "L_454B",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x4576": {
+      "name": "L_4576",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x457F": {
+      "name": "L_457F",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x4588": {
+      "name": "ENTRY_4588",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x458D": {
+      "name": "L_458D",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x459D": {
+      "name": "L_459D",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x45D0": {
+      "name": "L_45D0",
+      "type": "label",
+      "source": "auto"
+    },
     "0x45D1": {
       "name": "SUB_45D1",
       "type": "subroutine",
+      "source": "auto"
+    },
+    "0x45D8": {
+      "name": "ENTRY_45D8",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x45DF": {
+      "name": "ENTRY_45DF",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x45E6": {
+      "name": "ENTRY_45E6",
+      "type": "entry",
       "source": "auto"
     },
     "0x4616": {
@@ -5469,6 +5681,21 @@
     "0x4C3C": {
       "name": "SUB_4C3C",
       "type": "subroutine",
+      "source": "auto"
+    },
+    "0x4C56": {
+      "name": "ENTRY_4C56",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x4C5B": {
+      "name": "L_4C5B",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x4C65": {
+      "name": "L_4C65",
+      "type": "label",
       "source": "auto"
     },
     "0x4C66": {
@@ -5941,6 +6168,16 @@
       "type": "label",
       "source": "auto"
     },
+    "0x534F": {
+      "name": "SUB_534F",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x536A": {
+      "name": "SUB_536A",
+      "type": "subroutine",
+      "source": "auto"
+    },
     "0x5396": {
       "name": "refresh_current_room_state",
       "type": "subroutine",
@@ -5996,6 +6233,51 @@
       "type": "label",
       "source": "auto"
     },
+    "0x540E": {
+      "name": "ENTRY_540E",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x542D": {
+      "name": "ENTRY_542D",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x5454": {
+      "name": "L_5454",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x5460": {
+      "name": "L_5460",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x5465": {
+      "name": "L_5465",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x5468": {
+      "name": "L_5468",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x5472": {
+      "name": "L_5472",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x5475": {
+      "name": "L_5475",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x54EB": {
+      "name": "L_54EB",
+      "type": "label",
+      "source": "auto"
+    },
     "0x5571": {
       "name": "L_5571",
       "type": "label",
@@ -6004,6 +6286,11 @@
     "0x5599": {
       "name": "L_5599",
       "type": "label",
+      "source": "auto"
+    },
+    "0x5603": {
+      "name": "SUB_5603",
+      "type": "subroutine",
       "source": "auto"
     },
     "0x569D": {
@@ -6089,6 +6376,11 @@
     "0x5C99": {
       "name": "SUB_5C99",
       "type": "subroutine",
+      "source": "auto"
+    },
+    "0x5C9E": {
+      "name": "ENTRY_5C9E",
+      "type": "entry",
       "source": "auto"
     },
     "0x5CDB": {
@@ -6241,6 +6533,11 @@
       "type": "subroutine",
       "source": "auto"
     },
+    "0x60E1": {
+      "name": "ENTRY_60E1",
+      "type": "entry",
+      "source": "auto"
+    },
     "0x60F6": {
       "name": "L_60F6",
       "type": "label",
@@ -6269,6 +6566,11 @@
     "0x611D": {
       "name": "L_611D",
       "type": "label",
+      "source": "auto"
+    },
+    "0x6122": {
+      "name": "ENTRY_6122",
+      "type": "entry",
       "source": "auto"
     },
     "0x612C": {
@@ -7956,11 +8258,6 @@
       "type": "subroutine",
       "source": "assistant"
     },
-    "0xA970": {
-      "name": "SUB_A970",
-      "type": "subroutine",
-      "source": "auto"
-    },
     "0xA976": {
       "name": "L_A976",
       "type": "label",
@@ -8541,15 +8838,20 @@
       "type": "byte",
       "source": "assistant"
     },
-    "0xB98D": {
-      "name": "SUB_B98D",
-      "type": "subroutine",
-      "source": "auto"
-    },
     "0xB9FA": {
       "name": "sid_song_header_00",
       "type": "label",
       "source": "assistant"
+    },
+    "0xBA2B": {
+      "name": "SUB_BA2B",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0xBB12": {
+      "name": "SUB_BB12",
+      "type": "subroutine",
+      "source": "auto"
     },
     "0xBC1B": {
       "name": "SUB_BC1B",
@@ -8568,6 +8870,11 @@
     },
     "0xBC9B": {
       "name": "SUB_BC9B",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0xBCCC": {
+      "name": "SUB_BCCC",
       "type": "subroutine",
       "source": "auto"
     },
@@ -9188,6 +9495,11 @@
     },
     "0xD027": {
       "name": "VIC_SPR0_COL",
+      "type": "byte",
+      "source": "auto"
+    },
+    "0xD02E": {
+      "name": "VIC_SPR7_COL",
       "type": "byte",
       "source": "auto"
     },
@@ -10091,54 +10403,30 @@
     },
     {
       "start": "0x0C42",
-      "end": "0x0CFE",
-      "type": "code",
-      "source": "auto"
-    },
-    {
-      "start": "0x0CFF",
-      "end": "0x0D36",
-      "type": "data",
-      "source": "auto"
-    },
-    {
-      "start": "0x0D37",
       "end": "0x0DE7",
       "type": "code",
       "source": "auto"
     },
     {
       "start": "0x0DE8",
-      "end": "0x0E10",
+      "end": "0x0DEC",
       "type": "data",
       "source": "auto"
     },
     {
-      "start": "0x0E11",
+      "start": "0x0DED",
       "end": "0x1319",
       "type": "code",
       "source": "auto"
     },
     {
       "start": "0x131A",
-      "end": "0x1361",
+      "end": "0x131F",
       "type": "data",
       "source": "auto"
     },
     {
-      "start": "0x1362",
-      "end": "0x1393",
-      "type": "code",
-      "source": "auto"
-    },
-    {
-      "start": "0x1394",
-      "end": "0x13AF",
-      "type": "data",
-      "source": "auto"
-    },
-    {
-      "start": "0x13B0",
+      "start": "0x1320",
       "end": "0x177E",
       "type": "code",
       "source": "auto"
@@ -10271,30 +10559,18 @@
     },
     {
       "start": "0x2FF4",
-      "end": "0x3763",
+      "end": "0x37F2",
       "type": "code",
       "source": "auto"
     },
     {
-      "start": "0x3764",
-      "end": "0x3801",
+      "start": "0x37F3",
+      "end": "0x37F4",
       "type": "data",
       "source": "auto"
     },
     {
-      "start": "0x3802",
-      "end": "0x3814",
-      "type": "code",
-      "source": "auto"
-    },
-    {
-      "start": "0x3815",
-      "end": "0x3819",
-      "type": "data",
-      "source": "auto"
-    },
-    {
-      "start": "0x381A",
+      "start": "0x37F5",
       "end": "0x381D",
       "type": "code",
       "source": "auto"
@@ -10319,48 +10595,96 @@
     },
     {
       "start": "0x382E",
-      "end": "0x3835",
+      "end": "0x3830",
       "type": "code",
       "source": "auto"
     },
     {
-      "start": "0x3836",
-      "end": "0x3855",
+      "start": "0x3831",
+      "end": "0x3834",
+      "type": "data",
+      "source": "user"
+    },
+    {
+      "start": "0x3835",
+      "end": "0x3837",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x3838",
+      "end": "0x383D",
       "type": "data",
       "source": "auto"
     },
     {
-      "start": "0x3856",
+      "start": "0x383E",
+      "end": "0x3840",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x3841",
+      "end": "0x3844",
+      "type": "data",
+      "source": "user"
+    },
+    {
+      "start": "0x3845",
+      "end": "0x3847",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x3848",
+      "end": "0x384D",
+      "type": "data",
+      "source": "user"
+    },
+    {
+      "start": "0x384E",
+      "end": "0x3850",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x3851",
+      "end": "0x3854",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x3855",
       "end": "0x3857",
       "type": "code",
       "source": "auto"
     },
     {
       "start": "0x3858",
+      "end": "0x385B",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x385C",
+      "end": "0x3899",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x389A",
       "end": "0x389B",
       "type": "data",
       "source": "auto"
     },
     {
       "start": "0x389C",
-      "end": "0x3B48",
+      "end": "0x3B9D",
       "type": "code",
       "source": "auto"
     },
     {
-      "start": "0x3B49",
-      "end": "0x3B93",
-      "type": "data",
-      "source": "auto"
-    },
-    {
-      "start": "0x3B94",
-      "end": "0x3B97",
-      "type": "code",
-      "source": "auto"
-    },
-    {
-      "start": "0x3B98",
+      "start": "0x3B9E",
       "end": "0x3C01",
       "type": "data",
       "source": "auto"
@@ -10469,6 +10793,18 @@
     },
     {
       "start": "0x41D1",
+      "end": "0x41D7",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x41D8",
+      "end": "0x4213",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x4214",
       "end": "0x443F",
       "type": "data",
       "source": "auto"
@@ -10481,24 +10817,144 @@
     },
     {
       "start": "0x4443",
-      "end": "0x45D0",
+      "end": "0x4446",
       "type": "data",
       "source": "auto"
     },
     {
-      "start": "0x45D1",
+      "start": "0x4447",
+      "end": "0x4474",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x4475",
+      "end": "0x447A",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x447B",
+      "end": "0x44A8",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x44A9",
+      "end": "0x44AE",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x44AF",
+      "end": "0x44DC",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x44DD",
+      "end": "0x44E2",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x44E3",
+      "end": "0x4510",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x4511",
+      "end": "0x4516",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x4517",
+      "end": "0x4544",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x4545",
+      "end": "0x454A",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x454B",
+      "end": "0x4578",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x4579",
+      "end": "0x457E",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x457F",
+      "end": "0x4581",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x4582",
+      "end": "0x4587",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x4588",
+      "end": "0x45AC",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x45AD",
+      "end": "0x45CF",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x45D0",
       "end": "0x45D5",
       "type": "code",
       "source": "auto"
     },
     {
       "start": "0x45D6",
-      "end": "0x4615",
+      "end": "0x45D7",
       "type": "data",
       "source": "auto"
     },
     {
-      "start": "0x4616",
+      "start": "0x45D8",
+      "end": "0x45DA",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x45DB",
+      "end": "0x45DE",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x45DF",
+      "end": "0x45E1",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x45E2",
+      "end": "0x45E5",
+      "type": "data",
+      "source": "user"
+    },
+    {
+      "start": "0x45E6",
       "end": "0x4679",
       "type": "code",
       "source": "auto"
@@ -10721,12 +11177,12 @@
     },
     {
       "start": "0x4C50",
-      "end": "0x4C65",
+      "end": "0x4C55",
       "type": "data",
       "source": "auto"
     },
     {
-      "start": "0x4C66",
+      "start": "0x4C56",
       "end": "0x4D18",
       "type": "code",
       "source": "auto"
@@ -10841,18 +11297,102 @@
     },
     {
       "start": "0x5329",
+      "end": "0x534E",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x534F",
+      "end": "0x535B",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x535C",
+      "end": "0x5369",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x536A",
+      "end": "0x536D",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x536E",
       "end": "0x5395",
       "type": "data",
       "source": "auto"
     },
     {
       "start": "0x5396",
-      "end": "0x540F",
+      "end": "0x540B",
       "type": "code",
       "source": "auto"
     },
     {
-      "start": "0x5410",
+      "start": "0x540C",
+      "end": "0x540D",
+      "type": "data",
+      "source": "user"
+    },
+    {
+      "start": "0x540E",
+      "end": "0x5425",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x5426",
+      "end": "0x542C",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x542D",
+      "end": "0x5442",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x5443",
+      "end": "0x5453",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x5454",
+      "end": "0x5459",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x545A",
+      "end": "0x545F",
+      "type": "data",
+      "source": "user"
+    },
+    {
+      "start": "0x5460",
+      "end": "0x5479",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x547A",
+      "end": "0x54EA",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x54EB",
+      "end": "0x54F3",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x54F4",
       "end": "0x5570",
       "type": "data",
       "source": "auto"
@@ -10865,6 +11405,18 @@
     },
     {
       "start": "0x5579",
+      "end": "0x5602",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x5603",
+      "end": "0x5606",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x5607",
       "end": "0x569C",
       "type": "data",
       "source": "auto"
@@ -10907,12 +11459,24 @@
     },
     {
       "start": "0x5C7F",
-      "end": "0x5C9F",
+      "end": "0x5C9B",
       "type": "code",
       "source": "auto"
     },
     {
-      "start": "0x5CA0",
+      "start": "0x5C9C",
+      "end": "0x5C9D",
+      "type": "data",
+      "source": "user"
+    },
+    {
+      "start": "0x5C9E",
+      "end": "0x5CAA",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x5CAB",
       "end": "0x5CDA",
       "type": "data",
       "source": "auto"
@@ -11027,18 +11591,30 @@
     },
     {
       "start": "0x60DC",
-      "end": "0x6128",
+      "end": "0x60DE",
       "type": "code",
       "source": "auto"
     },
     {
-      "start": "0x6129",
-      "end": "0x612B",
+      "start": "0x60DF",
+      "end": "0x60E0",
       "type": "data",
+      "source": "user"
+    },
+    {
+      "start": "0x60E1",
+      "end": "0x611F",
+      "type": "code",
       "source": "auto"
     },
     {
-      "start": "0x612C",
+      "start": "0x6120",
+      "end": "0x6121",
+      "type": "data",
+      "source": "user"
+    },
+    {
+      "start": "0x6122",
       "end": "0x6130",
       "type": "code",
       "source": "auto"
@@ -11057,6 +11633,18 @@
     },
     {
       "start": "0x62FC",
+      "end": "0x651B",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x651C",
+      "end": "0x651E",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x651F",
       "end": "0x9608",
       "type": "data",
       "source": "auto"
@@ -11525,18 +12113,6 @@
     },
     {
       "start": "0xB91C",
-      "end": "0xB98C",
-      "type": "data",
-      "source": "auto"
-    },
-    {
-      "start": "0xB98D",
-      "end": "0xB98D",
-      "type": "code",
-      "source": "auto"
-    },
-    {
-      "start": "0xB98E",
       "end": "0xBC1A",
       "type": "data",
       "source": "auto"
