@@ -2,7 +2,7 @@
   "version": "1.1",
   "metadata": {
     "created": "2026-03-20T19:36:24Z",
-    "modified": "2026-03-20T22:22:26Z",
+    "modified": "2026-03-21T09:27:49Z",
     "sourceFile": "../data/tests/nachcodeabfrage.vsf",
     "description": "C64 Text Adventure Game Soul Crystal"
   },
@@ -61,13 +61,75 @@
     "0xCB12",
     "0xCB15",
     "0xCB18",
-    "0xCB21"
+    "0xCB21",
+    "0x2D4B",
+    "0x2FA8",
+    "0x3820",
+    "0x382E",
+    "0x4065",
+    "0x406B",
+    "0x408D",
+    "0x40A5",
+    "0x41AE",
+    "0x41B9",
+    "0x4763",
+    "0x4770",
+    "0x4771",
+    "0x477A",
+    "0x4A95",
+    "0x4C27",
+    "0x4C3B",
+    "0x4C3C",
+    "0x4D1B",
+    "0x4B70",
+    "0x4B97",
+    "0x4BCE",
+    "0x4C05",
+    "0x51C6",
+    "0x51FF",
+    "0x5238",
+    "0x524B",
+    "0x5C7F",
+    "0x5D20",
+    "0x5D60",
+    "0x5D69",
+    "0x5D6A",
+    "0x0F84",
+    "0x237F",
+    "0x0E7D",
+    "0x0F29",
+    "0x0F3E",
+    "0x0F77",
+    "0x0F9E",
+    "0x0FAB",
+    "0x0FD0",
+    "0x0FF0",
+    "0x1029",
+    "0x1033",
+    "0x1040",
+    "0x1052",
+    "0x1065"
   ],
   "symbols": {
     "0x0079": {
       "name": "SUB_0079",
       "type": "subroutine",
       "source": "auto"
+    },
+    "0x030C": {
+      "name": "dispatcher_arg_a",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0x030D": {
+      "name": "dispatcher_arg_x",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0x030E": {
+      "name": "dispatcher_arg_y",
+      "type": "byte",
+      "source": "assistant"
     },
     "0x0AC5": {
       "name": "L_0AC5",
@@ -157,6 +219,16 @@
     "0x0C4D": {
       "name": "SUB_0C4D",
       "type": "subroutine",
+      "source": "auto"
+    },
+    "0x0C6D": {
+      "name": "SUB_0C6D",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x0C7B": {
+      "name": "L_0C7B",
+      "type": "label",
       "source": "auto"
     },
     "0x0C80": {
@@ -284,6 +356,106 @@
       "type": "label",
       "source": "auto"
     },
+    "0x0E7D": {
+      "name": "ENTRY_0E7D",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x0E82": {
+      "name": "L_0E82",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0E87": {
+      "name": "L_0E87",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0E9B": {
+      "name": "L_0E9B",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0EA0": {
+      "name": "L_0EA0",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0EAF": {
+      "name": "L_0EAF",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0EC4": {
+      "name": "L_0EC4",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0EC7": {
+      "name": "L_0EC7",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0EDA": {
+      "name": "L_0EDA",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0EE8": {
+      "name": "L_0EE8",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0F0F": {
+      "name": "L_0F0F",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0F12": {
+      "name": "L_0F12",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0F17": {
+      "name": "SUB_0F17",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x0F24": {
+      "name": "L_0F24",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0F26": {
+      "name": "L_0F26",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0F29": {
+      "name": "ENTRY_0F29",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x0F3E": {
+      "name": "ENTRY_0F3E",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x0F4F": {
+      "name": "L_0F4F",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0F5B": {
+      "name": "SUB_0F5B",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x0F77": {
+      "name": "ENTRY_0F77",
+      "type": "entry",
+      "source": "auto"
+    },
     "0x0F84": {
       "name": "SUB_0F84",
       "type": "subroutine",
@@ -292,6 +464,86 @@
     "0x0F91": {
       "name": "SUB_0F91",
       "type": "subroutine",
+      "source": "auto"
+    },
+    "0x0F9E": {
+      "name": "ENTRY_0F9E",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x0FAB": {
+      "name": "ENTRY_0FAB",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x0FD0": {
+      "name": "ENTRY_0FD0",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x0FE1": {
+      "name": "L_0FE1",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0FF0": {
+      "name": "ENTRY_0FF0",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x1007": {
+      "name": "L_1007",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x1012": {
+      "name": "L_1012",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x101D": {
+      "name": "L_101D",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x1029": {
+      "name": "ENTRY_1029",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x1033": {
+      "name": "ENTRY_1033",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x1040": {
+      "name": "ENTRY_1040",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x104D": {
+      "name": "L_104D",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x104F": {
+      "name": "L_104F",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x1052": {
+      "name": "ENTRY_1052",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x1065": {
+      "name": "ENTRY_1065",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x1077": {
+      "name": "L_1077",
+      "type": "label",
       "source": "auto"
     },
     "0x107E": {
@@ -317,6 +569,41 @@
     "0x10DC": {
       "name": "SUB_10DC",
       "type": "subroutine",
+      "source": "auto"
+    },
+    "0x10FE": {
+      "name": "SUB_10FE",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x114B": {
+      "name": "L_114B",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x1154": {
+      "name": "L_1154",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x1158": {
+      "name": "L_1158",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x115A": {
+      "name": "L_115A",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x1161": {
+      "name": "L_1161",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x1162": {
+      "name": "L_1162",
+      "type": "label",
       "source": "auto"
     },
     "0x1184": {
@@ -534,6 +821,296 @@
       "type": "label",
       "source": "auto"
     },
+    "0x14A9": {
+      "name": "L_14A9",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x14AE": {
+      "name": "L_14AE",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x14B3": {
+      "name": "L_14B3",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x14F2": {
+      "name": "L_14F2",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x14F5": {
+      "name": "L_14F5",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x150C": {
+      "name": "SUB_150C",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x1512": {
+      "name": "L_1512",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x1513": {
+      "name": "L_1513",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x1517": {
+      "name": "L_1517",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x1519": {
+      "name": "L_1519",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x1521": {
+      "name": "L_1521",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x152B": {
+      "name": "L_152B",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x1558": {
+      "name": "L_1558",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x1570": {
+      "name": "L_1570",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x1574": {
+      "name": "L_1574",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x1578": {
+      "name": "L_1578",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x157C": {
+      "name": "L_157C",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x1580": {
+      "name": "L_1580",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x1585": {
+      "name": "L_1585",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x1587": {
+      "name": "L_1587",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x1593": {
+      "name": "L_1593",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x1598": {
+      "name": "L_1598",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x1599": {
+      "name": "L_1599",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x15A3": {
+      "name": "L_15A3",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x15B1": {
+      "name": "SUB_15B1",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x15C8": {
+      "name": "L_15C8",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x15CF": {
+      "name": "L_15CF",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x15D6": {
+      "name": "SUB_15D6",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x15E3": {
+      "name": "L_15E3",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x15E6": {
+      "name": "L_15E6",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x15E9": {
+      "name": "L_15E9",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x15EC": {
+      "name": "SUB_15EC",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x15FD": {
+      "name": "L_15FD",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x1608": {
+      "name": "L_1608",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x160B": {
+      "name": "L_160B",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x1616": {
+      "name": "L_1616",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x1622": {
+      "name": "L_1622",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x1623": {
+      "name": "L_1623",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x1635": {
+      "name": "L_1635",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x163C": {
+      "name": "L_163C",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x164F": {
+      "name": "L_164F",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x1658": {
+      "name": "L_1658",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x165B": {
+      "name": "L_165B",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x1676": {
+      "name": "L_1676",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x168D": {
+      "name": "L_168D",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x1697": {
+      "name": "L_1697",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x169F": {
+      "name": "SUB_169F",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x16A5": {
+      "name": "L_16A5",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x16A6": {
+      "name": "SUB_16A6",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x16B1": {
+      "name": "L_16B1",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x16B5": {
+      "name": "L_16B5",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x16C1": {
+      "name": "L_16C1",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x16C6": {
+      "name": "L_16C6",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x16D4": {
+      "name": "SUB_16D4",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x16DD": {
+      "name": "L_16DD",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x16EC": {
+      "name": "L_16EC",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x16F7": {
+      "name": "L_16F7",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x1700": {
+      "name": "SUB_1700",
+      "type": "subroutine",
+      "source": "auto"
+    },
     "0x170E": {
       "name": "SUB_170E",
       "type": "subroutine",
@@ -542,6 +1119,36 @@
     "0x1720": {
       "name": "SUB_1720",
       "type": "subroutine",
+      "source": "auto"
+    },
+    "0x172D": {
+      "name": "SUB_172D",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x1750": {
+      "name": "SUB_1750",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x175C": {
+      "name": "L_175C",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x176D": {
+      "name": "L_176D",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x177E": {
+      "name": "L_177E",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x1781": {
+      "name": "L_1781",
+      "type": "label",
       "source": "auto"
     },
     "0x17A5": {
@@ -621,6 +1228,46 @@
     },
     "0x1888": {
       "name": "L_1888",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x188E": {
+      "name": "SUB_188E",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x18BD": {
+      "name": "L_18BD",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x18CE": {
+      "name": "L_18CE",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x18E1": {
+      "name": "L_18E1",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x18EE": {
+      "name": "L_18EE",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x1901": {
+      "name": "L_1901",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x190B": {
+      "name": "L_190B",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x1918": {
+      "name": "L_1918",
       "type": "label",
       "source": "auto"
     },
@@ -755,8 +1402,8 @@
       "source": "auto"
     },
     "0x1AE0": {
-      "name": "ENTRY_1AE0",
-      "type": "entry",
+      "name": "SUB_1AE0",
+      "type": "subroutine",
       "source": "auto"
     },
     "0x1AFF": {
@@ -771,6 +1418,21 @@
     },
     "0x1B0F": {
       "name": "L_1B0F",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x1B52": {
+      "name": "SUB_1B52",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x1B5C": {
+      "name": "L_1B5C",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x1B7C": {
+      "name": "L_1B7C",
       "type": "label",
       "source": "auto"
     },
@@ -1502,6 +2164,11 @@
     "0x2375": {
       "name": "L_2375",
       "type": "label",
+      "source": "auto"
+    },
+    "0x237F": {
+      "name": "ENTRY_237F",
+      "type": "entry",
       "source": "auto"
     },
     "0x23A1": {
@@ -2395,8 +3062,13 @@
       "source": "auto"
     },
     "0x2D38": {
-      "name": "L_2D38",
-      "type": "label",
+      "name": "script_vm_op_call_indirect",
+      "type": "subroutine",
+      "source": "assistant"
+    },
+    "0x2D4B": {
+      "name": "ENTRY_2D4B",
+      "type": "entry",
       "source": "auto"
     },
     "0x2D4E": {
@@ -2579,6 +3251,11 @@
       "type": "label",
       "source": "assistant"
     },
+    "0x2FA8": {
+      "name": "ENTRY_2FA8",
+      "type": "entry",
+      "source": "auto"
+    },
     "0x2FAB": {
       "name": "script_vm_op_special",
       "type": "label",
@@ -2660,9 +3337,9 @@
       "source": "auto"
     },
     "0x305C": {
-      "name": "SUB_305C",
+      "name": "special_64_exposure_predicate",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x307D": {
       "name": "L_307D",
@@ -2760,9 +3437,9 @@
       "source": "auto"
     },
     "0x31AB": {
-      "name": "SUB_31AB",
+      "name": "special_65_exposure_predicate_alt",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x31C0": {
       "name": "L_31C0",
@@ -2835,9 +3512,9 @@
       "source": "auto"
     },
     "0x324F": {
-      "name": "SUB_324F",
+      "name": "special_66_is_movement_command",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x3269": {
       "name": "L_3269",
@@ -2925,9 +3602,9 @@
       "source": "auto"
     },
     "0x3317": {
-      "name": "SUB_3317",
+      "name": "special_67_is_exposed_zone",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x332C": {
       "name": "L_332C",
@@ -3030,9 +3707,9 @@
       "source": "auto"
     },
     "0x33DA": {
-      "name": "SUB_33DA",
+      "name": "special_68_room_band_predicate",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x33EF": {
       "name": "L_33EF",
@@ -3105,9 +3782,9 @@
       "source": "auto"
     },
     "0x347E": {
-      "name": "SUB_347E",
+      "name": "special_69_room_band_predicate",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x3493": {
       "name": "L_3493",
@@ -3250,9 +3927,9 @@
       "source": "auto"
     },
     "0x35BB": {
-      "name": "SUB_35BB",
+      "name": "special_6a_room_band_predicate",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x35D0": {
       "name": "L_35D0",
@@ -3305,9 +3982,9 @@
       "source": "auto"
     },
     "0x362D": {
-      "name": "SUB_362D",
+      "name": "special_6b_room_predicate",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x3641": {
       "name": "L_3641",
@@ -3320,9 +3997,9 @@
       "source": "auto"
     },
     "0x364C": {
-      "name": "SUB_364C",
+      "name": "special_6c_object_or_state_predicate",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x3662": {
       "name": "L_3662",
@@ -3491,6 +4168,21 @@
     },
     "0x381A": {
       "name": "L_381A",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x3820": {
+      "name": "ENTRY_3820",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x382E": {
+      "name": "ENTRY_382E",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x3856": {
+      "name": "L_3856",
       "type": "label",
       "source": "auto"
     },
@@ -4329,14 +5021,124 @@
       "type": "subroutine",
       "source": "auto"
     },
+    "0x4065": {
+      "name": "ENTRY_4065",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x406B": {
+      "name": "ENTRY_406B",
+      "type": "entry",
+      "source": "auto"
+    },
     "0x4087": {
       "name": "script_vm_show_image",
       "type": "subroutine",
       "source": "assistant"
     },
+    "0x408D": {
+      "name": "ENTRY_408D",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x4099": {
+      "name": "L_4099",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x409E": {
+      "name": "L_409E",
+      "type": "label",
+      "source": "auto"
+    },
     "0x409F": {
       "name": "SUB_409F",
       "type": "subroutine",
+      "source": "auto"
+    },
+    "0x40A5": {
+      "name": "ENTRY_40A5",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x40B7": {
+      "name": "L_40B7",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x40BC": {
+      "name": "L_40BC",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x40C4": {
+      "name": "L_40C4",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x40D4": {
+      "name": "L_40D4",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x40D6": {
+      "name": "L_40D6",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x40E9": {
+      "name": "L_40E9",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x40EB": {
+      "name": "L_40EB",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x40F9": {
+      "name": "L_40F9",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x4134": {
+      "name": "L_4134",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x4140": {
+      "name": "L_4140",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x4145": {
+      "name": "L_4145",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x414D": {
+      "name": "L_414D",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x4190": {
+      "name": "L_4190",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x4193": {
+      "name": "L_4193",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x41AE": {
+      "name": "ENTRY_41AE",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x41B9": {
+      "name": "ENTRY_41B9",
+      "type": "entry",
       "source": "auto"
     },
     "0x41C4": {
@@ -4345,14 +5147,19 @@
       "source": "auto"
     },
     "0x4440": {
-      "name": "SUB_4440",
+      "name": "special_08_list_exits_flow",
+      "type": "subroutine",
+      "source": "assistant"
+    },
+    "0x45D1": {
+      "name": "SUB_45D1",
       "type": "subroutine",
       "source": "auto"
     },
     "0x4616": {
-      "name": "SUB_4616",
+      "name": "special_02_load_game_flow",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x4648": {
       "name": "L_4648",
@@ -4449,10 +5256,30 @@
       "type": "subroutine",
       "source": "auto"
     },
-    "0x477B": {
-      "name": "SUB_477B",
-      "type": "subroutine",
+    "0x4763": {
+      "name": "ENTRY_4763",
+      "type": "entry",
       "source": "auto"
+    },
+    "0x4770": {
+      "name": "ENTRY_4770",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x4771": {
+      "name": "ENTRY_4771",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x477A": {
+      "name": "ENTRY_477A",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x477B": {
+      "name": "special_03_save_game_flow",
+      "type": "subroutine",
+      "source": "assistant"
     },
     "0x47A2": {
       "name": "L_47A2",
@@ -4494,15 +5321,60 @@
       "type": "subroutine",
       "source": "auto"
     },
+    "0x4A73": {
+      "name": "SUB_4A73",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x4A95": {
+      "name": "ENTRY_4A95",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x4AB2": {
+      "name": "L_4AB2",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x4AB7": {
+      "name": "L_4AB7",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x4ABF": {
+      "name": "L_4ABF",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x4AC2": {
+      "name": "L_4AC2",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x4AC3": {
+      "name": "SUB_4AC3",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x4B02": {
+      "name": "L_4B02",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x4B05": {
+      "name": "L_4B05",
+      "type": "label",
+      "source": "auto"
+    },
     "0x4B38": {
       "name": "L_4B38",
       "type": "label",
       "source": "auto"
     },
     "0x4B42": {
-      "name": "SUB_4B42",
+      "name": "special_01_run_code_query",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x4B4D": {
       "name": "room_resource_load_current",
@@ -4513,6 +5385,56 @@
       "name": "room_resource_load_secondary",
       "type": "subroutine",
       "source": "assistant"
+    },
+    "0x4B70": {
+      "name": "ENTRY_4B70",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x4B7F": {
+      "name": "L_4B7F",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x4B84": {
+      "name": "L_4B84",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x4B97": {
+      "name": "ENTRY_4B97",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x4BB6": {
+      "name": "L_4BB6",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x4BBB": {
+      "name": "L_4BBB",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x4BCE": {
+      "name": "ENTRY_4BCE",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x4BED": {
+      "name": "L_4BED",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x4BF2": {
+      "name": "L_4BF2",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x4C05": {
+      "name": "ENTRY_4C05",
+      "type": "entry",
+      "source": "auto"
     },
     "0x4C10": {
       "name": "L_4C10",
@@ -4529,15 +5451,30 @@
       "type": "label",
       "source": "auto"
     },
+    "0x4C27": {
+      "name": "ENTRY_4C27",
+      "type": "entry",
+      "source": "auto"
+    },
     "0x4C28": {
       "name": "L_4C28",
       "type": "label",
       "source": "auto"
     },
-    "0x4C66": {
-      "name": "L_4C66",
-      "type": "label",
+    "0x4C3B": {
+      "name": "ENTRY_4C3B",
+      "type": "entry",
       "source": "auto"
+    },
+    "0x4C3C": {
+      "name": "SUB_4C3C",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x4C66": {
+      "name": "special_06_solution_flow",
+      "type": "subroutine",
+      "source": "assistant"
     },
     "0x4C81": {
       "name": "L_4C81",
@@ -4600,8 +5537,13 @@
       "source": "auto"
     },
     "0x4CDA": {
-      "name": "SUB_4CDA",
+      "name": "special_07_music_toggle_flow",
       "type": "subroutine",
+      "source": "assistant"
+    },
+    "0x4D1B": {
+      "name": "ENTRY_4D1B",
+      "type": "entry",
       "source": "auto"
     },
     "0x4D1E": {
@@ -4755,9 +5697,9 @@
       "source": "auto"
     },
     "0x4E62": {
-      "name": "SUB_4E62",
+      "name": "special_0a_inventory_flow",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x4FB1": {
       "name": "SUB_4FB1",
@@ -4765,9 +5707,9 @@
       "source": "auto"
     },
     "0x5130": {
-      "name": "SUB_5130",
+      "name": "special_05_endgame_flow",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x514B": {
       "name": "L_514B",
@@ -4800,9 +5742,9 @@
       "source": "auto"
     },
     "0x5174": {
-      "name": "SUB_5174",
+      "name": "special_04_restart_flow",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x518F": {
       "name": "L_518F",
@@ -4839,6 +5781,116 @@
       "type": "subroutine",
       "source": "auto"
     },
+    "0x51C6": {
+      "name": "ENTRY_51C6",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x51CB": {
+      "name": "L_51CB",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x51D9": {
+      "name": "L_51D9",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x51DB": {
+      "name": "L_51DB",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x51E9": {
+      "name": "L_51E9",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x51EB": {
+      "name": "L_51EB",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x51F9": {
+      "name": "L_51F9",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x51FF": {
+      "name": "ENTRY_51FF",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x5207": {
+      "name": "L_5207",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x5212": {
+      "name": "L_5212",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x5214": {
+      "name": "L_5214",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x5222": {
+      "name": "L_5222",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x5224": {
+      "name": "L_5224",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x5232": {
+      "name": "L_5232",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x5238": {
+      "name": "ENTRY_5238",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x523B": {
+      "name": "L_523B",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x5245": {
+      "name": "L_5245",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x524B": {
+      "name": "ENTRY_524B",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x5258": {
+      "name": "L_5258",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x525B": {
+      "name": "L_525B",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x5265": {
+      "name": "L_5265",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x5268": {
+      "name": "L_5268",
+      "type": "label",
+      "source": "auto"
+    },
     "0x5269": {
       "name": "L_5269",
       "type": "label",
@@ -4850,9 +5902,9 @@
       "source": "auto"
     },
     "0x52D2": {
-      "name": "SUB_52D2",
+      "name": "special_09_disk_install_flow",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x52ED": {
       "name": "L_52ED",
@@ -4890,9 +5942,9 @@
       "source": "auto"
     },
     "0x5396": {
-      "name": "SUB_5396",
+      "name": "refresh_current_room_state",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x53AF": {
       "name": "L_53AF",
@@ -5024,6 +6076,11 @@
       "type": "label",
       "source": "auto"
     },
+    "0x5C7F": {
+      "name": "ENTRY_5C7F",
+      "type": "entry",
+      "source": "auto"
+    },
     "0x5C8F": {
       "name": "SUB_5C8F",
       "type": "subroutine",
@@ -5039,9 +6096,59 @@
       "type": "subroutine",
       "source": "auto"
     },
+    "0x5D11": {
+      "name": "SUB_5D11",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x5D20": {
+      "name": "ENTRY_5D20",
+      "type": "entry",
+      "source": "auto"
+    },
     "0x5D5A": {
       "name": "SUB_5D5A",
       "type": "subroutine",
+      "source": "auto"
+    },
+    "0x5D60": {
+      "name": "ENTRY_5D60",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x5D69": {
+      "name": "ENTRY_5D69",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x5D6A": {
+      "name": "ENTRY_5D6A",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x5D6F": {
+      "name": "L_5D6F",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x5D7C": {
+      "name": "L_5D7C",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x5D82": {
+      "name": "L_5D82",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x5D8C": {
+      "name": "L_5D8C",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x5D91": {
+      "name": "L_5D91",
+      "type": "label",
       "source": "auto"
     },
     "0x5D94": {
@@ -5170,14 +6277,14 @@
       "source": "auto"
     },
     "0x62B9": {
-      "name": "SUB_62B9",
+      "name": "special_32_gate_check_flow",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x62C9": {
-      "name": "L_62C9",
-      "type": "label",
-      "source": "auto"
+      "name": "special_33_win_flow",
+      "type": "subroutine",
+      "source": "assistant"
     },
     "0x62D1": {
       "name": "SUB_62D1",
@@ -5219,6 +6326,116 @@
       "type": "label",
       "source": "assistant"
     },
+    "0x6986": {
+      "name": "command_LO",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0x6987": {
+      "name": "command_HI",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0x6988": {
+      "name": "object1_LO",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0x6989": {
+      "name": "object1_HI",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0x698A": {
+      "name": "object2_LO",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0x698B": {
+      "name": "object2_HI",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0x698C": {
+      "name": "pointsum_LO",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0x698D": {
+      "name": "pointsum_HI",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0x698E": {
+      "name": "steps_LO",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0x698F": {
+      "name": "steps_HI",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0x6990": {
+      "name": "textoutput_LO",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0x6991": {
+      "name": "textoutput_HI",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0x6992": {
+      "name": "temp_LO",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0x6993": {
+      "name": "temp_HI",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0x6994": {
+      "name": "imageno_LO",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0x6995": {
+      "name": "imageno_HI",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0x6996": {
+      "name": "var_6996_LO",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0x6997": {
+      "name": "var_6996_HI",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0x6998": {
+      "name": "var_6998_LO",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0x6999": {
+      "name": "var_6998_HI",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0x699A": {
+      "name": "var_699A_LO",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0x699B": {
+      "name": "var_699A_HI",
+      "type": "byte",
+      "source": "assistant"
+    },
     "0x69C6": {
       "name": "object_description_table_LO",
       "type": "byte",
@@ -5249,90 +6466,135 @@
       "type": "byte",
       "source": "assistant"
     },
+    "0x6D18": {
+      "name": "room_env_flag_group_a",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0x6D51": {
+      "name": "room_env_flag_group_b",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0x6D81": {
+      "name": "room_env_flag_group_c",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0x6D82": {
+      "name": "room_env_flag_group_d",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0x6D93": {
+      "name": "room_env_flag_group_e",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0x6D97": {
+      "name": "room_env_flag_group_f",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0x6D98": {
+      "name": "room_env_flag_group_g",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0x6D9B": {
+      "name": "room_env_flag_group_h",
+      "type": "byte",
+      "source": "assistant"
+    },
     "0x6DAA": {
-      "name": "room_exit_north_table",
+      "name": "north_exit_table",
       "type": "byte",
       "source": "assistant"
     },
     "0x6E12": {
-      "name": "room_exit_south_table",
+      "name": "south_exit_table",
       "type": "byte",
       "source": "assistant"
     },
     "0x6E7A": {
-      "name": "room_exit_west_table",
+      "name": "west_exit_table",
       "type": "byte",
       "source": "assistant"
     },
     "0x6EE2": {
-      "name": "room_exit_east_table",
+      "name": "east_exit_table",
       "type": "byte",
       "source": "assistant"
     },
     "0x6F4A": {
-      "name": "room_exit_up_table",
+      "name": "up_exit_table",
       "type": "byte",
       "source": "assistant"
     },
     "0x6FB2": {
-      "name": "room_exit_down_table",
+      "name": "down_exit_table",
       "type": "byte",
       "source": "assistant"
     },
     "0x7027": {
-      "name": "room_visited_table",
+      "name": "visited_room_table",
       "type": "byte",
       "source": "assistant"
     },
     "0x9609": {
-      "name": "SUB_9609",
+      "name": "output_cycle_begin",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x960C": {
-      "name": "SUB_960C",
+      "name": "output_buffer_append_char",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x9615": {
-      "name": "ENTRY_9615",
-      "type": "entry",
-      "source": "auto"
+      "name": "svc_runtime_swap_tables",
+      "type": "label",
+      "source": "assistant"
     },
     "0x9618": {
-      "name": "ENTRY_9618",
-      "type": "entry",
-      "source": "auto"
+      "name": "svc_runtime_swap_tables_and_apply",
+      "type": "label",
+      "source": "assistant"
     },
     "0x961B": {
-      "name": "ENTRY_961B",
-      "type": "entry",
-      "source": "auto"
+      "name": "svc_frontend_refresh_cycle",
+      "type": "label",
+      "source": "assistant"
     },
     "0x961E": {
-      "name": "ENTRY_961E",
-      "type": "entry",
-      "source": "auto"
+      "name": "svc_enable_input_mode",
+      "type": "label",
+      "source": "assistant"
     },
     "0x9621": {
-      "name": "ENTRY_9621",
-      "type": "entry",
-      "source": "auto"
+      "name": "svc_disable_input_mode",
+      "type": "label",
+      "source": "assistant"
+    },
+    "0x9624": {
+      "name": "frontend_io_mode",
+      "type": "byte",
+      "source": "assistant"
     },
     "0x9625": {
-      "name": "SUB_9625",
-      "type": "subroutine",
-      "source": "auto"
+      "name": "svc_clear_output_buffer",
+      "type": "label",
+      "source": "assistant"
     },
     "0x9628": {
-      "name": "ENTRY_9628",
-      "type": "entry",
-      "source": "auto"
+      "name": "svc_frontend_stage_open",
+      "type": "label",
+      "source": "assistant"
     },
     "0x962B": {
-      "name": "ENTRY_962B",
-      "type": "entry",
-      "source": "auto"
+      "name": "svc_frontend_stage_close",
+      "type": "label",
+      "source": "assistant"
     },
     "0x962E": {
       "name": "ENTRY_962E",
@@ -5365,9 +6627,9 @@
       "source": "auto"
     },
     "0x9684": {
-      "name": "L_9684",
+      "name": "output_cycle_flush_to_screen",
       "type": "label",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x9699": {
       "name": "L_9699",
@@ -5379,6 +6641,11 @@
       "type": "label",
       "source": "auto"
     },
+    "0x96D7": {
+      "name": "frontend_refresh_phase",
+      "type": "byte",
+      "source": "assistant"
+    },
     "0x96D8": {
       "name": "L_96D8",
       "type": "label",
@@ -5388,6 +6655,16 @@
       "name": "L_96E9",
       "type": "label",
       "source": "auto"
+    },
+    "0x96EE": {
+      "name": "output_buffer_length",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0x96EF": {
+      "name": "output_buffer_40cols",
+      "type": "byte",
+      "source": "assistant"
     },
     "0x9759": {
       "name": "L_9759",
@@ -5405,9 +6682,9 @@
       "source": "auto"
     },
     "0x977D": {
-      "name": "SUB_977D",
+      "name": "frontend_refresh_cycle_body",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x9799": {
       "name": "L_9799",
@@ -5425,9 +6702,9 @@
       "source": "auto"
     },
     "0x97B5": {
-      "name": "L_97B5",
+      "name": "output_buffer_clear_body",
       "type": "label",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x97B9": {
       "name": "L_97B9",
@@ -5435,14 +6712,14 @@
       "source": "auto"
     },
     "0x97C5": {
-      "name": "L_97C5",
+      "name": "frontend_stage_open_body",
       "type": "label",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x97D1": {
-      "name": "L_97D1",
+      "name": "frontend_stage_close_body",
       "type": "label",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x97DD": {
       "name": "L_97DD",
@@ -5538,6 +6815,11 @@
       "name": "L_98EE",
       "type": "label",
       "source": "auto"
+    },
+    "0x9966": {
+      "name": "frontend_input_enabled",
+      "type": "byte",
+      "source": "assistant"
     },
     "0x99B1": {
       "name": "runtime_push_mem_config",
@@ -7184,6 +8466,11 @@
       "type": "label",
       "source": "auto"
     },
+    "0xB867": {
+      "name": "SUB_B867",
+      "type": "subroutine",
+      "source": "auto"
+    },
     "0xB868": {
       "name": "L_B868",
       "type": "label",
@@ -7274,6 +8561,16 @@
       "type": "subroutine",
       "source": "auto"
     },
+    "0xBC5B": {
+      "name": "SUB_BC5B",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0xBC9B": {
+      "name": "SUB_BC9B",
+      "type": "subroutine",
+      "source": "auto"
+    },
     "0xBCF3": {
       "name": "SUB_BCF3",
       "type": "subroutine",
@@ -7285,9 +8582,9 @@
       "source": "auto"
     },
     "0xC903": {
-      "name": "ENTRY_C903",
-      "type": "entry",
-      "source": "auto"
+      "name": "svc_prepare_stream_tables",
+      "type": "label",
+      "source": "assistant"
     },
     "0xC906": {
       "name": "ENTRY_C906",
@@ -7295,9 +8592,9 @@
       "source": "auto"
     },
     "0xC910": {
-      "name": "L_C910",
+      "name": "prepare_stream_tables_body",
       "type": "label",
-      "source": "auto"
+      "source": "assistant"
     },
     "0xC91F": {
       "name": "L_C91F",
@@ -7330,39 +8627,39 @@
       "source": "auto"
     },
     "0xCB00": {
-      "name": "ENTRY_CB00",
-      "type": "entry",
-      "source": "auto"
+      "name": "svc_decode_stream",
+      "type": "label",
+      "source": "assistant"
     },
     "0xCB03": {
-      "name": "ENTRY_CB03",
-      "type": "entry",
-      "source": "auto"
+      "name": "svc_read_block",
+      "type": "label",
+      "source": "assistant"
     },
     "0xCB06": {
-      "name": "ENTRY_CB06",
-      "type": "entry",
-      "source": "auto"
+      "name": "svc_send_cstring",
+      "type": "label",
+      "source": "assistant"
     },
     "0xCB09": {
-      "name": "SUB_CB09",
+      "name": "svc_write_block",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0xCB0C": {
-      "name": "ENTRY_CB0C",
-      "type": "entry",
-      "source": "auto"
+      "name": "svc_read_record_header",
+      "type": "label",
+      "source": "assistant"
     },
     "0xCB0F": {
-      "name": "ENTRY_CB0F",
-      "type": "entry",
-      "source": "auto"
+      "name": "svc_read_record_header_alt",
+      "type": "label",
+      "source": "assistant"
     },
     "0xCB12": {
-      "name": "ENTRY_CB12",
-      "type": "entry",
-      "source": "auto"
+      "name": "svc_send_command_0a",
+      "type": "label",
+      "source": "assistant"
     },
     "0xCB15": {
       "name": "ENTRY_CB15",
@@ -7370,24 +8667,24 @@
       "source": "auto"
     },
     "0xCB18": {
-      "name": "ENTRY_CB18",
-      "type": "entry",
-      "source": "auto"
+      "name": "svc_bulk_load_tables",
+      "type": "label",
+      "source": "assistant"
     },
     "0xCB21": {
-      "name": "ENTRY_CB21",
-      "type": "entry",
-      "source": "auto"
+      "name": "svc_load_table_by_index",
+      "type": "label",
+      "source": "assistant"
     },
     "0xCB24": {
-      "name": "SUB_CB24",
+      "name": "serial_set_buffer_ptr",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0xCB29": {
-      "name": "SUB_CB29",
+      "name": "stream_emit_char_with_wrap",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0xCB3E": {
       "name": "L_CB3E",
@@ -7395,9 +8692,9 @@
       "source": "auto"
     },
     "0xCB55": {
-      "name": "SUB_CB55",
+      "name": "serial_send_command_header",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0xCB86": {
       "name": "L_CB86",
@@ -7405,14 +8702,14 @@
       "source": "auto"
     },
     "0xCB8C": {
-      "name": "SUB_CB8C",
+      "name": "serial_restore_dd00",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0xCB8F": {
-      "name": "L_CB8F",
+      "name": "serial_wait_ready_edge",
       "type": "label",
-      "source": "auto"
+      "source": "assistant"
     },
     "0xCB93": {
       "name": "L_CB93",
@@ -7430,19 +8727,19 @@
       "source": "auto"
     },
     "0xCBA6": {
-      "name": "L_CBA6",
+      "name": "serial_send_cstring_body",
       "type": "label",
-      "source": "auto"
+      "source": "assistant"
     },
     "0xCBB7": {
-      "name": "SUB_CBB7",
+      "name": "serial_send_encoded_byte",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0xCBD3": {
-      "name": "L_CBD3",
+      "name": "serial_read_record_header_body",
       "type": "label",
-      "source": "auto"
+      "source": "assistant"
     },
     "0xCBD6": {
       "name": "L_CBD6",
@@ -7455,9 +8752,9 @@
       "source": "auto"
     },
     "0xCBF9": {
-      "name": "SUB_CBF9",
+      "name": "serial_expect_zero_byte",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0xCC03": {
       "name": "L_CC03",
@@ -7465,9 +8762,9 @@
       "source": "auto"
     },
     "0xCC08": {
-      "name": "L_CC08",
+      "name": "serial_write_block_body",
       "type": "label",
-      "source": "auto"
+      "source": "assistant"
     },
     "0xCC30": {
       "name": "L_CC30",
@@ -7485,9 +8782,9 @@
       "source": "auto"
     },
     "0xCC53": {
-      "name": "SUB_CC53",
+      "name": "serial_read_block_84_bytes",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0xCC55": {
       "name": "L_CC55",
@@ -7505,9 +8802,9 @@
       "source": "auto"
     },
     "0xCC90": {
-      "name": "SUB_CC90",
+      "name": "serial_read_block_body",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0xCCA2": {
       "name": "L_CCA2",
@@ -7540,9 +8837,9 @@
       "source": "auto"
     },
     "0xCCD7": {
-      "name": "SUB_CCD7",
+      "name": "serial_read_sync_word",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0xCCE5": {
       "name": "L_CCE5",
@@ -7550,9 +8847,9 @@
       "source": "auto"
     },
     "0xCCE7": {
-      "name": "SUB_CCE7",
+      "name": "serial_read_encoded_byte",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0xCCEC": {
       "name": "L_CCEC",
@@ -7560,9 +8857,9 @@
       "source": "auto"
     },
     "0xCD11": {
-      "name": "L_CD11",
+      "name": "serial_write_encoded_byte",
       "type": "label",
-      "source": "auto"
+      "source": "assistant"
     },
     "0xCD1A": {
       "name": "L_CD1A",
@@ -7580,9 +8877,9 @@
       "source": "auto"
     },
     "0xCD30": {
-      "name": "L_CD30",
+      "name": "bulk_load_protocol_tables",
       "type": "label",
-      "source": "auto"
+      "source": "assistant"
     },
     "0xCD5C": {
       "name": "L_CD5C",
@@ -7590,9 +8887,9 @@
       "source": "auto"
     },
     "0xCD7A": {
-      "name": "SUB_CD7A",
+      "name": "decode_stream_table_record",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0xCDD7": {
       "name": "L_CDD7",
@@ -7600,9 +8897,9 @@
       "source": "auto"
     },
     "0xCDDD": {
-      "name": "L_CDDD",
+      "name": "decode_stream_entry",
       "type": "label",
-      "source": "auto"
+      "source": "assistant"
     },
     "0xCDF6": {
       "name": "L_CDF6",
@@ -7655,14 +8952,14 @@
       "source": "auto"
     },
     "0xCE7C": {
-      "name": "SUB_CE7C",
+      "name": "copy_font_tiles_to_screen_banks",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0xCEA7": {
-      "name": "SUB_CEA7",
+      "name": "copy_176_bytes_descending",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0xCEAB": {
       "name": "L_CEAB",
@@ -7680,9 +8977,9 @@
       "source": "auto"
     },
     "0xCEF2": {
-      "name": "L_CEF2",
+      "name": "decode_huffman_text_stream",
       "type": "label",
-      "source": "auto"
+      "source": "assistant"
     },
     "0xCF0B": {
       "name": "L_CF0B",
@@ -7715,14 +9012,89 @@
       "source": "auto"
     },
     "0xCF4F": {
-      "name": "SUB_CF4F",
+      "name": "read_decode_table_byte",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0xCF54": {
       "name": "L_CF54",
       "type": "label",
       "source": "auto"
+    },
+    "0xCF91": {
+      "name": "decode_bit_window",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0xCF92": {
+      "name": "decode_output_remaining_lo",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0xCF93": {
+      "name": "decode_output_remaining_hi",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0xCF94": {
+      "name": "stream_emit_column_or_tree_index",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0xCF95": {
+      "name": "decode_unused_or_padding",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0xCF96": {
+      "name": "decode_bit_countdown",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0xCF9A": {
+      "name": "serial_nibble_countdown",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0xCF9B": {
+      "name": "serial_dd00_restore_mask",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0xCF9C": {
+      "name": "serial_dd00_write_mask_a",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0xCF9D": {
+      "name": "serial_dd00_write_mask_b",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0xCF9E": {
+      "name": "serial_dd00_read_mask_a",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0xCF9F": {
+      "name": "serial_dd00_read_mask_b",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0xCFF2": {
+      "name": "stream_table_cache_key_lo",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0xCFF3": {
+      "name": "stream_table_cache_key_hi",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0xCFF5": {
+      "name": "stream_table_mode_flag",
+      "type": "byte",
+      "source": "assistant"
     },
     "0xD000": {
       "name": "VIC_SPR0_X",
@@ -7958,7 +9330,152 @@
     },
     "0x1E8C": {
       "assistant": {
-        "comment": "Read the next operand token, then branch into the variable-class decoders for ranges like $80-$BF."
+        "comment": "Read the next operand token, then branch into the variable-class decoders for ranges like $80-$BF.\nThis value decoder can return 16-bit values from script-visible state slots ($6986-$699B), immediate bytes/words, indexed table lookups, and pointer-indirect fetches. VM opcode E3 relies on that behavior to obtain an indirect callback target in $697C/$697D."
+      }
+    },
+    "0x20C1": {
+      "assistant": {
+        "comment": "Return the script-visible 16-bit slot at $6990/$6991 as the current decoded value. One possible source for VM opcode E3 indirect callback targets."
+      }
+    },
+    "0x210F": {
+      "assistant": {
+        "comment": "Read north_exit_table[index] into the current decoded VM value."
+      }
+    },
+    "0x212E": {
+      "assistant": {
+        "comment": "Read east_exit_table[index] into the current decoded VM value."
+      }
+    },
+    "0x214D": {
+      "assistant": {
+        "comment": "Read south_exit_table[index] into the current decoded VM value."
+      }
+    },
+    "0x216C": {
+      "assistant": {
+        "comment": "Read west_exit_table[index] into the current decoded VM value."
+      }
+    },
+    "0x218B": {
+      "assistant": {
+        "comment": "Read up_exit_table[index] into the current decoded VM value."
+      }
+    },
+    "0x21AA": {
+      "assistant": {
+        "comment": "Read down_exit_table[index] into the current decoded VM value."
+      }
+    },
+    "0x2226": {
+      "assistant": {
+        "comment": "Indexed 16-bit lookup from a word table at $6B12 + 2*index. This is another value source that can feed VM opcode E3 with an indirect callback address."
+      }
+    },
+    "0x224B": {
+      "assistant": {
+        "comment": "Indexed 16-bit lookup from a word table at $69C6 + 2*index. This can also supply the target address for VM opcode E3 indirect calls."
+      }
+    },
+    "0x258F": {
+      "assistant": {
+        "comment": "Store the current decoded 16-bit value into script-visible slot $6986/$6987. Slots like this are valid sources for VM opcode E3 indirect callback targets."
+      }
+    },
+    "0x25C4": {
+      "assistant": {
+        "comment": "Store the current decoded 16-bit value into script-visible slot $698C/$698D. These script-visible 16-bit slots can later be used as VM opcode E3 callback targets."
+      }
+    },
+    "0x25DE": {
+      "assistant": {
+        "comment": "Store the current decoded 16-bit value into script-visible slot $6990/$6991. This slot is also used by the text subsystem, but it can equally serve as a VM opcode E3 callback target."
+      }
+    },
+    "0x26B6": {
+      "assistant": {
+        "comment": "Write object_position_table[index] from the current decoded VM value."
+      }
+    },
+    "0x26CD": {
+      "assistant": {
+        "comment": "Write object_status_table[index] from the current decoded VM value."
+      }
+    },
+    "0x26E4": {
+      "assistant": {
+        "comment": "Write visited_room_table[index] from the current decoded VM value."
+      }
+    },
+    "0x2D38": {
+      "assistant": {
+        "comment": "I scanned the four shipped VM snapshots (disk B1/B2/C1/C2) for real script uses of opcode E3. The only raw 0xE3 bytes in the script region were false positives in disk B2: both occur as the immediate constant form C0 E3 (textoutput = $00E3), not as opcode E3. So this indirect-call opcode appears to be implemented by the engine but unused in the shipped script snapshots."
+      }
+    },
+    "0x305C": {
+      "assistant": {
+        "comment": "Uses room_env_flag_group_b/e/d/g plus room_env_flag_group_c/a/h as a composite boolean test; this is likely one of the broader environmental exposure predicates."
+      }
+    },
+    "0x31AB": {
+      "assistant": {
+        "comment": "Checks the same room_env flag groups for the exact value 1 instead of zero/nonzero, suggesting a narrower room-class predicate over the same current-room metadata."
+      }
+    },
+    "0x3317": {
+      "assistant": {
+        "comment": "Another composite test over the room_env flag groups, but with inverted zero logic; this matches its role as the positive 'is exposed zone' predicate seen in the script prologue."
+      }
+    },
+    "0x4016": {
+      "assistant": {
+        "comment": "Post-text-display front-end sync: when $695A was set during script_vm_show_text, dispatch svc_frontend_refresh_cycle ($961B) to make the staged output visible."
+      }
+    },
+    "0x405F": {
+      "assistant": {
+        "comment": "Dispatch svc_decode_stream ($CB00) with A/X = text/resource id and Y = 0. frontend_io_mode was just forced to $82 for this text output path."
+      }
+    },
+    "0x4087": {
+      "assistant": {
+        "comment": "Show-image path finishes by calling svc_frontend_refresh_cycle ($961B), which syncs the staged front-end/screen state after the image/text work."
+      }
+    },
+    "0x409F": {
+      "assistant": {
+        "comment": "Lightweight runtime/front-end table maintenance via svc_runtime_swap_tables ($9615). Used as a follow-up helper after image/text-related state changes."
+      }
+    },
+    "0x475D": {
+      "assistant": {
+        "comment": "Open the staged front-end work area via svc_frontend_stage_open ($9628) before running the follow-up display/update sequence."
+      }
+    },
+    "0x4B5A": {
+      "assistant": {
+        "comment": "After loading the current room/resource set, dispatch svc_frontend_refresh_cycle ($961B) to synchronize the staged front-end state."
+      }
+    },
+    "0x4C21": {
+      "assistant": {
+        "comment": "If the current room/resource selector matches the already-loaded state, skip the reload and just dispatch svc_frontend_refresh_cycle ($961B)."
+      }
+    },
+    "0x4E17": {
+      "assistant": {
+        "comment": "After showing the fixed text at $0060, dispatch svc_frontend_refresh_cycle ($961B) so the staged output becomes visible."
+      }
+    },
+    "0x51C0": {
+      "assistant": {
+        "comment": "Open the staged front-end work area via svc_frontend_stage_open ($9628) before the scripted status/message sequence continues."
+      }
+    },
+    "0x5D5A": {
+      "assistant": {
+        "comment": "Open the staged front-end work area via svc_frontend_stage_open ($9628) for this text/status workflow before continuing with local rendering logic."
       }
     },
     "0x651C": {
@@ -7969,6 +9486,21 @@
     "0x6775": {
       "assistant": {
         "comment": "Sets up counters used after the main unpack loop and continues the same room-image processing pipeline."
+      }
+    },
+    "0x6990": {
+      "assistant": {
+        "comment": "Script-visible 16-bit text output / text resource id variable ('textoutput' in the host-side decompiler). Used by showtext() and several SPECIAL flows."
+      }
+    },
+    "0x6992": {
+      "assistant": {
+        "comment": "Script-visible 16-bit temporary/result variable ('temp' in the host-side decompiler). SPECIAL($64-$6C) returns boolean results here."
+      }
+    },
+    "0x6994": {
+      "assistant": {
+        "comment": "Script-visible 16-bit image id variable ('imageno' in the host-side decompiler). Consumed by the image-display path."
       }
     },
     "0xAEFC": {
@@ -8043,6 +9575,11 @@
         "comment": "Inline descriptor decoder for generic indirect calls."
       }
     },
+    "0x12D4": {
+      "assistant": {
+        "comment": "Generic service-call wrapper for the JMP ($004E) dispatcher.\nBefore the indirect call, it loads A/X/Y from $030C/$030D/$030E and invokes the selected service entry. This means dispatcher targets should be treated as service routines with a register-based call contract, not as ordinary same-context subroutines."
+      }
+    },
     "0x12F9": {
       "assistant": {
         "comment": "Shared vector trampoline used by multiple subsystems."
@@ -8086,6 +9623,11 @@
     "0x2950": {
       "assistant": {
         "comment": "Pop a return address from the script VM call stack into $69A5/$69A6."
+      }
+    },
+    "0x2D38": {
+      "assistant": {
+        "comment": "VM opcode E3: call an indirect engine callback.\n\nDecodes one script value into $697C/$697D, copies that 16-bit value into the generic dispatcher vector at $004E/$004F, then invokes call_vector_helper. This is the only dispatcher path that treats the operand itself as a code pointer rather than selecting one of the fixed service entries."
       }
     },
     "0x2D4E": {
@@ -8135,12 +9677,32 @@
     },
     "0x2FAB": {
       "assistant": {
-        "comment": "Handler for VM opcode EF: dispatch SPECIAL(selector).\nLow selector ranges branch into bespoke engine behaviors such as load/save, inventory, endgame, and other adventure-specific services."
+        "comment": "VM opcode EF: SPECIAL(selector) dispatcher.\n\nSelectors below $64 branch to general engine services (load/save/restart, exits, inventory, solution, etc.). Selectors $64-$6C branch to small boolean predicate helpers that return their result in $6992/$6993 (the script-side temp flag)."
+      }
+    },
+    "0x324F": {
+      "assistant": {
+        "comment": "SPECIAL($66): true when the current command in $6986/$6987 is one of the movement/time-passing commands that should trigger the global exposure/cold checks.\n\nThis matches the script prologue, where SPECIAL($66) gates the periodic status-loss logic before room-specific predicates $67-$6A are consulted."
+      }
+    },
+    "0x3317": {
+      "assistant": {
+        "comment": "SPECIAL($67): exposed-zone predicate.\n\nReturns true in $6992/$6993 when the current region flag groups indicate one of the 'open/exposed' map areas. Used by all script parts immediately after SPECIAL($66) to decide whether environmental damage logic applies this turn."
+      }
+    },
+    "0x36B3": {
+      "assistant": {
+        "comment": "General SPECIAL(selector) service dispatcher for selectors below $64.\n\nHigh-confidence selector map from the shipped scripts:\n$01 code-protection/query challenge\n$02 load game\n$03 save game\n$04 restart prompt/flow\n$05 endgame/game-over prompt\n$06 solution/help flow\n$07 music toggle flow\n$08 list exits\n$09 disk-install / side-swap flow\n$0A inventory display\n$32 late-game gate/check helper\n$33 winning/game-complete flow"
       }
     },
     "0x3C02": {
       "assistant": {
         "comment": "Text-display engine entry used by script opcode E8.\nConsumes the script-selected text pointer in $6990/$6991 and coordinates message display state."
+      }
+    },
+    "0x4022": {
+      "assistant": {
+        "comment": "Dispatch the selected text/resource id through the generic service trampoline.\n\nCopies the current text id from $6990/$6991 into dispatcher_arg_a/x, forces frontend_io_mode=$82, and calls svc_decode_stream ($CB00) through call_vector_helper."
       }
     },
     "0x4087": {
@@ -8156,6 +9718,16 @@
     "0x4B60": {
       "assistant": {
         "comment": "Load the secondary room/resource set.\nInitializes secondary room-resource state via $60DC, selects stream 2 in $6990/$6991, and then dispatches through the same inline descriptor mechanism as the primary loader."
+      }
+    },
+    "0x4D15": {
+      "assistant": {
+        "comment": "Refresh or switch the compressed-text decode tables before continuing the text-driven front-end flow.\n\nThis call site dispatches to svc_prepare_stream_tables ($C903), not to the normal text decode entry."
+      }
+    },
+    "0x5396": {
+      "assistant": {
+        "comment": "Refresh current-room state and transient room metadata.\n\nCalled after the engine changes $695D/$6D01 or switches movement mode in $6963. It clears transient input/result bytes ($6961/$6962), then populates the per-room working state used by movement helpers and the SPECIAL($64-$6C) environmental predicates. The exact copy path is partly obscured by code Oracle cannot lift cleanly, but the downstream reads show that it feeds the room-environment flag block around $6D18-$6D9F."
       }
     },
     "0x62FC": {
@@ -8203,9 +9775,14 @@
         "comment": "Object-status table.\nPer-object state flags used by VM token A7 (objectstatus[])."
       }
     },
+    "0x6D18": {
+      "assistant": {
+        "comment": "Room-environment flag workspace consumed by SPECIAL($64-$6C).\n\nThese bytes behave like the current room's precomputed classification flags. The predicates at $305C, $31AB, and $3317 combine equality/zero tests over this block to decide whether cold/exposure logic should apply. The data appears to be refreshed by refresh_current_room_state ($5396), but Oracle does not yet lift the write path cleanly enough to assign exact meanings to each flag byte."
+      }
+    },
     "0x6DAA": {
       "assistant": {
-        "comment": "North-exit table for the room graph.\nIndex by room ID to obtain the destination room for command/variable north[]."
+        "comment": "Direction and room-state tables used by the script VM indexed-variable tokens.\n\nResolved from the VM read/write helpers:\n$6DAA north_exit_table\n$6EE2 east_exit_table\n$6E12 south_exit_table\n$6E7A west_exit_table\n$6F4A up_exit_table\n$6FB2 down_exit_table\n$6C5E object_position_table\n$6D04 object_status_table\n$7027 visited_room_table\n$6B12 points_table (16-bit)\n$69C6 object_description_table (16-bit)"
       }
     },
     "0x6E12": {
@@ -8276,6 +9853,46 @@
     "0x8366": {
       "assistant": {
         "comment": "Parser support table for command SPRICH (talk/speak)."
+      }
+    },
+    "0x9609": {
+      "assistant": {
+        "comment": "Begin an output/refresh cycle.\nIf the staged front-end refresh phase has reached 6, the routine forces a full refresh via svc_frontend_refresh_cycle, then advances the phase counter, selects a destination row/vector from $96CB+, flushes the buffered 40-column text to screen RAM, and clears the local buffer."
+      }
+    },
+    "0x960C": {
+      "assistant": {
+        "comment": "Append one character to the local 40-column output buffer.\nUsed by the text/serial decoder path at $CB29 to accumulate output before output_cycle_begin flushes it to screen RAM."
+      }
+    },
+    "0x9615": {
+      "assistant": {
+        "comment": "Service contract: lightweight runtime-table maintenance service.\nThis entry does not consume a meaningful caller payload; it swaps paired runtime tables under banked RAM, performs a small follow-up helper step, and returns."
+      }
+    },
+    "0x9618": {
+      "assistant": {
+        "comment": "Dispatcher entry: swap runtime tables, apply one stateful update, then swap back.\nThis is the heavier sibling of $9615 and appears to perform a one-shot runtime/front-end table update under banked RAM."
+      }
+    },
+    "0x961B": {
+      "assistant": {
+        "comment": "Service contract: front-end refresh service.\nThis entry ignores the incoming register payload for control purposes, preserves A/X/Y across the call, and performs one staged front-end/screen refresh cycle under banked RAM."
+      }
+    },
+    "0x9625": {
+      "assistant": {
+        "comment": "Dispatcher entry: clear the local front-end output buffer.\nFills the 40-character buffer at $96EF with spaces and resets the buffered length byte at $96EE."
+      }
+    },
+    "0x9628": {
+      "assistant": {
+        "comment": "Service contract: front-end stage-open service.\nThis entry does not require a meaningful register payload; it runs the first half of the staged front-end helper sequence and returns."
+      }
+    },
+    "0x962B": {
+      "assistant": {
+        "comment": "Dispatcher entry: perform the front-end 'stage close' update.\nBanks RAM in, runs the second half of the staged refresh helper sequence ($9C67), resets the refresh phase, and clears the visible staging area at $FEF8+."
       }
     },
     "0x99B1": {
@@ -8368,6 +9985,36 @@
         "comment": "Embedded SID song header.\nThis header provides three per-voice sequence/order-list pointers ($BA02, $BA07, $BA0A) plus the frame divider/speed byte at $BA00."
       }
     },
+    "0xC903": {
+      "assistant": {
+        "comment": "Prepare or switch decode tables for the compressed stream layer.\nThis wrapper selects which table set to use based on the current stream selector and cached values in $CFF2/$CFF3, then loads the corresponding record through svc_write_block / bulk table helpers before restoring memory configuration."
+      }
+    },
+    "0xCB00": {
+      "assistant": {
+        "comment": "Service contract: compressed-stream/text service.\nInputs arrive in A/X/Y via dispatcher_arg_a/x/y. In the common text path from $4022, A/X/Y carry the selected text/resource id as a 24-bit tuple with Y usually zero; when Y==2, the service first refreshes stream tables before decoding."
+      }
+    },
+    "0xCB55": {
+      "assistant": {
+        "comment": "Send a 3-byte command header over the custom DD00 serial protocol.\nA carries the command id; X/Y are forwarded as parameters. The routine computes several DD00 line masks in $CF9B-$CF9F, temporarily switches the bus to transmit mode, sends A/X/Y with serial_write_encoded_byte, then restores the previous DD00 state."
+      }
+    },
+    "0xCC90": {
+      "assistant": {
+        "comment": "Read one 84-byte block from the custom DD00 serial protocol into the buffer pointer at $AD/$AE.\nUses serial_expect_zero_byte as a framing check and serial_read_block_84_bytes as the inner transfer loop."
+      }
+    },
+    "0xCDDD": {
+      "assistant": {
+        "comment": "Top-level compressed stream decode entry.\nOptionally refreshes/loads decode tables through $C900 when Y==2, then decodes one table-selected stream record and either expands Huffman-like text through $CEF2 or follows an alternate rendering path. Output characters are emitted through stream_emit_char_with_wrap at $CB29."
+      }
+    },
+    "0xCEF2": {
+      "assistant": {
+        "comment": "Main Huffman-like text decode loop.\nInitializes the decoded-length counter from two bytes read over the serial transport, then walks a binary code tree using $CA00/$CA80 as the two branch tables. Terminal symbols have bit 7 set; after masking with $7F the decoded character is emitted via stream_emit_char_with_wrap."
+      }
+    },
     "0xD400": {
       "assistant": {
         "comment": "SID base address.\nThe actual music player updates the live sound chip registers here; higher-level soundtrack selection happens in the engine code around $A77A-$AA2C."
@@ -8444,18 +10091,6 @@
     },
     {
       "start": "0x0C42",
-      "end": "0x0C6C",
-      "type": "code",
-      "source": "auto"
-    },
-    {
-      "start": "0x0C6D",
-      "end": "0x0C7F",
-      "type": "data",
-      "source": "auto"
-    },
-    {
-      "start": "0x0C80",
       "end": "0x0CFE",
       "type": "code",
       "source": "auto"
@@ -8480,42 +10115,6 @@
     },
     {
       "start": "0x0E11",
-      "end": "0x0E7C",
-      "type": "code",
-      "source": "auto"
-    },
-    {
-      "start": "0x0E7D",
-      "end": "0x0F83",
-      "type": "data",
-      "source": "auto"
-    },
-    {
-      "start": "0x0F84",
-      "end": "0x0F9D",
-      "type": "code",
-      "source": "auto"
-    },
-    {
-      "start": "0x0F9E",
-      "end": "0x107D",
-      "type": "data",
-      "source": "auto"
-    },
-    {
-      "start": "0x107E",
-      "end": "0x10FD",
-      "type": "code",
-      "source": "auto"
-    },
-    {
-      "start": "0x10FE",
-      "end": "0x1183",
-      "type": "data",
-      "source": "auto"
-    },
-    {
-      "start": "0x1184",
       "end": "0x1319",
       "type": "code",
       "source": "auto"
@@ -8540,42 +10139,18 @@
     },
     {
       "start": "0x13B0",
-      "end": "0x14A8",
+      "end": "0x177E",
       "type": "code",
       "source": "auto"
     },
     {
-      "start": "0x14A9",
-      "end": "0x170D",
+      "start": "0x177F",
+      "end": "0x1780",
       "type": "data",
       "source": "auto"
     },
     {
-      "start": "0x170E",
-      "end": "0x172C",
-      "type": "code",
-      "source": "auto"
-    },
-    {
-      "start": "0x172D",
-      "end": "0x17A4",
-      "type": "data",
-      "source": "auto"
-    },
-    {
-      "start": "0x17A5",
-      "end": "0x188D",
-      "type": "code",
-      "source": "auto"
-    },
-    {
-      "start": "0x188E",
-      "end": "0x191A",
-      "type": "data",
-      "source": "auto"
-    },
-    {
-      "start": "0x191B",
+      "start": "0x1781",
       "end": "0x1920",
       "type": "code",
       "source": "auto"
@@ -8606,6 +10181,18 @@
     },
     {
       "start": "0x1B27",
+      "end": "0x1B51",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x1B52",
+      "end": "0x1B7F",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x1B80",
       "end": "0x1C11",
       "type": "data",
       "source": "auto"
@@ -8618,6 +10205,18 @@
     },
     {
       "start": "0x237B",
+      "end": "0x237E",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x237F",
+      "end": "0x2382",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x2383",
       "end": "0x23A0",
       "type": "data",
       "source": "auto"
@@ -8642,24 +10241,24 @@
     },
     {
       "start": "0x2D48",
-      "end": "0x2D4D",
+      "end": "0x2D4A",
       "type": "data",
       "source": "auto"
     },
     {
-      "start": "0x2D4E",
+      "start": "0x2D4B",
       "end": "0x2FA5",
       "type": "code",
       "source": "auto"
     },
     {
       "start": "0x2FA6",
-      "end": "0x2FAA",
+      "end": "0x2FA7",
       "type": "data",
       "source": "auto"
     },
     {
-      "start": "0x2FAB",
+      "start": "0x2FA8",
       "end": "0x2FE9",
       "type": "code",
       "source": "auto"
@@ -8702,6 +10301,42 @@
     },
     {
       "start": "0x381E",
+      "end": "0x381F",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x3820",
+      "end": "0x382B",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x382C",
+      "end": "0x382D",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x382E",
+      "end": "0x3835",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x3836",
+      "end": "0x3855",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x3856",
+      "end": "0x3857",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x3858",
       "end": "0x389B",
       "type": "data",
       "source": "auto"
@@ -8762,6 +10397,18 @@
     },
     {
       "start": "0x4063",
+      "end": "0x4064",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x4065",
+      "end": "0x406D",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x406E",
       "end": "0x4086",
       "type": "data",
       "source": "auto"
@@ -8774,24 +10421,48 @@
     },
     {
       "start": "0x408B",
-      "end": "0x409E",
+      "end": "0x408C",
       "type": "data",
       "source": "auto"
     },
     {
-      "start": "0x409F",
+      "start": "0x408D",
       "end": "0x40A2",
       "type": "code",
       "source": "auto"
     },
     {
       "start": "0x40A3",
-      "end": "0x41C3",
+      "end": "0x40A4",
       "type": "data",
       "source": "auto"
     },
     {
-      "start": "0x41C4",
+      "start": "0x40A5",
+      "end": "0x41AB",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x41AC",
+      "end": "0x41AD",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x41AE",
+      "end": "0x41B6",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x41B7",
+      "end": "0x41B8",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x41B9",
       "end": "0x41D0",
       "type": "code",
       "source": "auto"
@@ -8810,6 +10481,18 @@
     },
     {
       "start": "0x4443",
+      "end": "0x45D0",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x45D1",
+      "end": "0x45D5",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x45D6",
       "end": "0x4615",
       "type": "data",
       "source": "auto"
@@ -8870,12 +10553,36 @@
     },
     {
       "start": "0x4761",
-      "end": "0x477A",
+      "end": "0x4762",
       "type": "data",
       "source": "auto"
     },
     {
-      "start": "0x477B",
+      "start": "0x4763",
+      "end": "0x476D",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x476E",
+      "end": "0x476F",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x4770",
+      "end": "0x4777",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x4778",
+      "end": "0x4779",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x477A",
       "end": "0x47BF",
       "type": "code",
       "source": "auto"
@@ -8906,12 +10613,24 @@
     },
     {
       "start": "0x4A22",
-      "end": "0x4B37",
+      "end": "0x4A72",
       "type": "data",
       "source": "auto"
     },
     {
-      "start": "0x4B38",
+      "start": "0x4A73",
+      "end": "0x4A92",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x4A93",
+      "end": "0x4A94",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x4A95",
       "end": "0x4B44",
       "type": "code",
       "source": "auto"
@@ -8936,36 +10655,72 @@
     },
     {
       "start": "0x4B60",
-      "end": "0x4B6F",
+      "end": "0x4B94",
       "type": "code",
       "source": "auto"
     },
     {
-      "start": "0x4B70",
-      "end": "0x4C0F",
+      "start": "0x4B95",
+      "end": "0x4B96",
       "type": "data",
       "source": "auto"
     },
     {
-      "start": "0x4C10",
+      "start": "0x4B97",
+      "end": "0x4BCB",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x4BCC",
+      "end": "0x4BCD",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x4BCE",
+      "end": "0x4C02",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x4C03",
+      "end": "0x4C04",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x4C05",
       "end": "0x4C24",
       "type": "code",
       "source": "auto"
     },
     {
       "start": "0x4C25",
-      "end": "0x4C27",
+      "end": "0x4C26",
       "type": "data",
       "source": "auto"
     },
     {
-      "start": "0x4C28",
+      "start": "0x4C27",
       "end": "0x4C38",
       "type": "code",
       "source": "auto"
     },
     {
       "start": "0x4C39",
+      "end": "0x4C3A",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x4C3B",
+      "end": "0x4C4F",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x4C50",
       "end": "0x4C65",
       "type": "data",
       "source": "auto"
@@ -8978,12 +10733,12 @@
     },
     {
       "start": "0x4D19",
-      "end": "0x4D1D",
+      "end": "0x4D1A",
       "type": "data",
       "source": "auto"
     },
     {
-      "start": "0x4D1E",
+      "start": "0x4D1B",
       "end": "0x4D3E",
       "type": "code",
       "source": "auto"
@@ -9038,12 +10793,48 @@
     },
     {
       "start": "0x51C4",
-      "end": "0x5268",
+      "end": "0x51C5",
       "type": "data",
       "source": "auto"
     },
     {
-      "start": "0x5269",
+      "start": "0x51C6",
+      "end": "0x51FC",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x51FD",
+      "end": "0x51FE",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x51FF",
+      "end": "0x5235",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x5236",
+      "end": "0x5237",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x5238",
+      "end": "0x5248",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x5249",
+      "end": "0x524A",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x524B",
       "end": "0x5328",
       "type": "code",
       "source": "auto"
@@ -9110,12 +10901,12 @@
     },
     {
       "start": "0x5C7D",
-      "end": "0x5C8E",
+      "end": "0x5C7E",
       "type": "data",
       "source": "auto"
     },
     {
-      "start": "0x5C8F",
+      "start": "0x5C7F",
       "end": "0x5C9F",
       "type": "code",
       "source": "auto"
@@ -9128,12 +10919,24 @@
     },
     {
       "start": "0x5CDB",
-      "end": "0x5D10",
+      "end": "0x5D1D",
       "type": "code",
       "source": "auto"
     },
     {
-      "start": "0x5D11",
+      "start": "0x5D1E",
+      "end": "0x5D1F",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x5D20",
+      "end": "0x5D30",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x5D31",
       "end": "0x5D59",
       "type": "data",
       "source": "auto"
@@ -9146,12 +10949,24 @@
     },
     {
       "start": "0x5D5E",
-      "end": "0x5D93",
+      "end": "0x5D5F",
       "type": "data",
       "source": "auto"
     },
     {
-      "start": "0x5D94",
+      "start": "0x5D60",
+      "end": "0x5D66",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x5D67",
+      "end": "0x5D68",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x5D69",
       "end": "0x5DB2",
       "type": "code",
       "source": "auto"
@@ -9734,6 +11549,30 @@
     },
     {
       "start": "0xBC2E",
+      "end": "0xBC5A",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0xBC5B",
+      "end": "0xBC5C",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0xBC5D",
+      "end": "0xBC9A",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0xBC9B",
+      "end": "0xBC9E",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0xBC9F",
       "end": "0xBCF2",
       "type": "data",
       "source": "auto"
