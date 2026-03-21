@@ -1,7 +1,7 @@
 ; ============================================================
 ; AUTO-GENERATED FILE - DO NOT EDIT
 ; ============================================================
-; Generated: 2026-03-21T13:58:33Z
+; Generated: 2026-03-21T14:19:23Z
 ; Source:    ../data/tests/nachcodeabfrage.vsf
 ; ============================================================
 
@@ -619,15 +619,14 @@ $0065                   .BYTE $00                                               
 ; xref: read from $1A64
 ; xref: read from $1A8B
 ; xref: read from $1AB8
-$0066                   .BYTE $01,$00                                                          ; ".."
-; xref: read from $612F
-$0068                   .BYTE $00                                                              ; "."
+$0066                   .BYTE $01,$00,$00                                                      ; "..."
 ; xref: write from $11BD
 ; xref: write from $11D6
 ; xref: write from $1201
 ; xref: read from $1289
 ; xref: write from $1A98
 ; xref: read from $2F89 (L_2F89)
+; xref: read from $6136
 $0069                   .BYTE $47                                                              ; "G"
 ; xref: write from $11C2
 ; xref: write from $11DB
@@ -1616,6 +1615,7 @@ $0C44 L_0C44:                         ; xref: branch from $0C4A
 $0C4D SUB_0C4D:                       ; xref: call from $2378
                                       ; xref: call from $382E (ENTRY_382E)
                                       ; xref: call from $383E (ENTRY_383E)
+                                      ; xref: call from $6133 (ENTRY_6133)
     PLA
     STA $41
     PLA
@@ -1692,6 +1692,14 @@ $0C8D SUB_0C8D:                       ; xref: call from $23A8 (ENTRY_23A8)
                                       ; xref: call from $5DF8 (ENTRY_5DF8)
                                       ; xref: call from $5E01 (ENTRY_5E01)
                                       ; xref: call from $5E0A (ENTRY_5E0A)
+                                      ; xref: call from $5E1A (ENTRY_5E1A)
+                                      ; xref: call from $5E23 (ENTRY_5E23)
+                                      ; xref: call from $5E33 (ENTRY_5E33)
+                                      ; xref: call from $5E3C (ENTRY_5E3C)
+                                      ; xref: call from $5E4C (ENTRY_5E4C)
+                                      ; xref: call from $5E55 (ENTRY_5E55)
+                                      ; xref: call from $5E5E (ENTRY_5E5E)
+                                      ; xref: call from $6050 (L_6050)
                                       ; xref: call from $607F
                                       ; xref: call from $6088 (ENTRY_6088)
                                       ; xref: call from $60B7
@@ -1803,6 +1811,7 @@ $0CDB call_vector_helper:             ; xref: call from $2D45
                                       ; xref: call from $5D43 (L_5D43)
                                       ; xref: call from $5D5A (SUB_5D5A)
                                       ; xref: call from $5D63
+                                      ; xref: call from $6301
     PLA                               ; Pops the caller return address into $41/$42 so the inline descriptor bytes following the JSR can be parsed directly from the caller stream.
     STA $41
     PLA
@@ -1936,6 +1945,7 @@ $0D4F resource_load_descriptor_dispatch:  ; xref: call from $41CE
                                       ; xref: call from $593E
                                       ; xref: call from $5A2D
                                       ; xref: call from $5CA8
+                                      ; xref: call from $6325
                                       ; xref: call from $650B
     PLA
     STA $41
@@ -2332,6 +2342,9 @@ $0F77 SUB_0F77:                       ; xref: call from $538C (ENTRY_538C)
 
 $0F84 SUB_0F84:                       ; xref: call from $5DD8 (L_5DD8)
                                       ; xref: call from $5DF1 (ENTRY_5DF1)
+                                      ; xref: call from $5E13 (ENTRY_5E13)
+                                      ; xref: call from $5E2C (ENTRY_5E2C)
+                                      ; xref: call from $5E45 (ENTRY_5E45)
     PLA
     STA $41
     PLA
@@ -10339,6 +10352,7 @@ $45D1 SUB_45D1:                       ; xref: call from $23DB (ENTRY_23DB)
                                       ; xref: call from $4FA6 (L_4FA6)
                                       ; xref: call from $54BF (ENTRY_54BF)
                                       ; xref: call from $60D8 (L_60D8)
+                                      ; xref: call from $62FE (ENTRY_62FE)
     JSR $0D37                         ; Call resource_copy_descriptor_dispatch
 
 ; === DATA SECTION ===
@@ -14005,12 +14019,110 @@ $5E0A ENTRY_5E0A:
 ; === DATA SECTION ===
 
 $5E0D                   .BYTE $9C,$69,$AB                                                      ; ".i."
-$5E10                   .BYTE $5F,$FB,$70,$20,$84,$0F,$67,$69,$00,$71,$20,$8D,$0C,$FB,$70,$00  ; "_.p ..gi.q ...p."
-$5E20                   .BYTE $71,$FB,$70,$20,$8D,$0C,$FB,$70,$B8,$5F,$FB,$70,$20,$84,$0F,$68  ; "q.p ...p._.p ..h"
-$5E30                   .BYTE $69,$00,$71,$20,$8D,$0C,$FB,$70,$00,$71,$FB,$70,$20,$8D,$0C,$FB  ; "i.q ...p.q.p ..."
-$5E40                   .BYTE $70,$C3,$5F,$FB,$70,$20,$84,$0F,$69,$69,$00,$71,$20,$8D,$0C,$FB  ; "p._.p ..ii.q ..."
-$5E50                   .BYTE $70,$00,$71,$9C,$69,$20,$8D,$0C,$9C,$69,$CD,$5F,$9C,$69,$20,$8D  ; "p.q.i ...i._.i ."
-$5E60                   .BYTE $0C,$9C,$69,$0F,$60,$9C,$69,$4C,$50,$60,$15,$6D,$5E,$20,$CE,$41  ; "..i.`.iLP`.m^ .A"
+$5E10                   .BYTE $5F,$FB,$70                                                      ; "_.p"
+
+; === SUBROUTINE: ENTRY_5E13 ===
+
+$5E13 ENTRY_5E13:       
+    JSR $0F84                         ; Call SUB_0F84
+
+; === DATA SECTION ===
+
+$5E16                   .BYTE $67,$69,$00,$71                                                  ; "gi.q"
+
+; === SUBROUTINE: ENTRY_5E1A ===
+
+$5E1A ENTRY_5E1A:       
+    JSR $0C8D                         ; Call SUB_0C8D
+
+; === DATA SECTION ===
+
+$5E1D                   .BYTE $FB,$70,$00                                                      ; ".p."
+$5E20                   .BYTE $71,$FB,$70                                                      ; "q.p"
+
+; === SUBROUTINE: ENTRY_5E23 ===
+
+$5E23 ENTRY_5E23:       
+    JSR $0C8D                         ; Call SUB_0C8D
+
+; === DATA SECTION ===
+
+$5E26                   .BYTE $FB,$70,$B8,$5F,$FB,$70                                          ; ".p._.p"
+
+; === SUBROUTINE: ENTRY_5E2C ===
+
+$5E2C ENTRY_5E2C:       
+    JSR $0F84                         ; Call SUB_0F84
+
+; === DATA SECTION ===
+
+$5E2F                   .BYTE $68                                                              ; "h"
+$5E30                   .BYTE $69,$00,$71                                                      ; "i.q"
+
+; === SUBROUTINE: ENTRY_5E33 ===
+
+$5E33 ENTRY_5E33:       
+    JSR $0C8D                         ; Call SUB_0C8D
+
+; === DATA SECTION ===
+
+$5E36                   .BYTE $FB,$70,$00,$71,$FB,$70                                          ; ".p.q.p"
+
+; === SUBROUTINE: ENTRY_5E3C ===
+
+$5E3C ENTRY_5E3C:       
+    JSR $0C8D                         ; Call SUB_0C8D
+
+; === DATA SECTION ===
+
+$5E3F                   .BYTE $FB                                                              ; "."
+$5E40                   .BYTE $70,$C3,$5F,$FB,$70                                              ; "p._.p"
+
+; === SUBROUTINE: ENTRY_5E45 ===
+
+$5E45 ENTRY_5E45:       
+    JSR $0F84                         ; Call SUB_0F84
+
+; === DATA SECTION ===
+
+$5E48                   .BYTE $69,$69,$00,$71                                                  ; "ii.q"
+
+; === SUBROUTINE: ENTRY_5E4C ===
+
+$5E4C ENTRY_5E4C:       
+    JSR $0C8D                         ; Call SUB_0C8D
+
+; === DATA SECTION ===
+
+$5E4F                   .BYTE $FB                                                              ; "."
+$5E50                   .BYTE $70,$00,$71,$9C,$69                                              ; "p.q.i"
+
+; === SUBROUTINE: ENTRY_5E55 ===
+
+$5E55 ENTRY_5E55:       
+    JSR $0C8D                         ; Call SUB_0C8D
+
+; === DATA SECTION ===
+
+$5E58                   .BYTE $9C,$69,$CD,$5F,$9C,$69                                          ; ".i._.i"
+
+; === SUBROUTINE: ENTRY_5E5E ===
+
+$5E5E ENTRY_5E5E:       
+    JSR $0C8D                         ; Call SUB_0C8D
+
+; === DATA SECTION ===
+
+$5E61                   .BYTE $9C,$69,$0F,$60,$9C,$69                                          ; ".i.`.i"
+
+; === SUBROUTINE: ENTRY_5E67 ===
+
+$5E67 ENTRY_5E67:       
+    JMP $6050                         ; Jump to L_6050
+
+; === DATA SECTION ===
+
+$5E6A                   .BYTE $15,$6D,$5E,$20,$CE,$41                                          ; ".m^ .A"
 $5E70                   .BYTE $4D,$45,$4E,$20,$5A,$55,$20,$5D,$42,$45,$52,$4E,$45,$48,$4D,$45  ; "MEN ZU ]BERNEHME"
 $5E80                   .BYTE $4E,$2E,$0C,$85,$5E,$3F,$43,$4F,$44,$45,$52,$45,$51,$55,$45,$53  ; "N...^?CODEREQUES"
 $5E90                   .BYTE $54,$03,$94,$5E,$41,$4C,$54,$03,$9A,$5E,$4E,$45,$55,$1D,$A0,$5E  ; "T..^ALT..^NEU..^"
@@ -14041,10 +14153,20 @@ $6010                   .BYTE $12,$60,$42,$45,$52,$53,$43,$48,$52,$49,$46,$54,$4
 $6020                   .BYTE $4E,$49,$43,$48,$54,$20,$4D,$49,$54,$5A,$55,$5A,$5B,$48,$4C,$45  ; "NICHT MITZUZ[HLE"
 $6030                   .BYTE $4E,$20,$53,$49,$4E,$44,$21,$20,$2D,$20,$C2,$49,$54,$54,$45,$20  ; "N SIND! - .ITTE "
 $6040                   .BYTE $44,$52,$5D,$43,$4B,$45,$20,$4A,$45,$54,$5A,$54,$20,$44,$49,$45  ; "DR]CKE JETZT DIE"
-$6050                   .BYTE $20,$8D,$0C,$9C,$69,$77,$68,$9C,$69,$4C,$D8,$60                  ; " ...iwh.iL.`"
 
 ; === CODE SECTION ===
 
+$6050 L_6050:                         ; xref: jump from $5E67 (ENTRY_5E67)
+    JSR $0C8D                         ; Call SUB_0C8D
+
+; === DATA SECTION ===
+
+$6053                   .BYTE $9C,$69,$77,$68,$9C,$69                                          ; ".iwh.i"
+
+; === SUBROUTINE: ENTRY_6059 ===
+
+$6059 ENTRY_6059:       
+    JMP $60D8                         ; Jump to L_60D8
 $605C L_605C:                         ; xref: jump from $5DD5 (L_5DD5)
     LDA $6990                         ; textoutput_LO
     CMP #$08
@@ -14119,6 +14241,7 @@ $60C3 L_60C3:                         ; xref: jump from $60A5 (L_60A5)
     JSR $4022                         ; Call SUB_4022
     RTS
 $60D8 L_60D8:                         ; xref: jump from $5DC1 (ENTRY_5DC1)
+                                      ; xref: jump from $6059 (ENTRY_6059)
                                       ; xref: jump from $6091 (ENTRY_6091)
     JSR $45D1                         ; Call SUB_45D1
     RTS
@@ -14184,11 +14307,22 @@ $6122 ENTRY_6122:
     STA $69BA
 $612C L_612C:                         ; xref: jump from $611A
     JSR $0F91                         ; Call SUB_0F91
-    LDA $68,X
 
 ; === DATA SECTION ===
 
-$6131                   .BYTE $FB,$70,$20,$4D,$0C,$B9,$69,$00,$71,$20,$FF,$0C,$FB,$70,$00      ; ".p M..i.q ...p."
+$612F                   .BYTE $B5                                                              ; "."
+$6130                   .BYTE $68,$FB,$70                                                      ; "h.p"
+
+; === SUBROUTINE: ENTRY_6133 ===
+
+$6133 ENTRY_6133:       
+    JSR $0C4D                         ; Call SUB_0C4D
+    LDA $0069,Y
+    ADC ($20),Y
+
+; === DATA SECTION ===
+
+$613B                   .BYTE $FF,$0C,$FB,$70,$00                                              ; "...p."
 $6140                   .BYTE $71,$FB,$70,$20,$26,$0D,$FB,$70,$B9,$69,$20,$7D,$0E,$02,$67,$69  ; "q.p &..p.i }..gi"
 $6150                   .BYTE $20,$7D,$0E,$02,$68,$69,$20,$7D,$0E,$02,$69,$69,$20,$7D,$0E,$02  ; " }..hi }..ii }.."
 $6160                   .BYTE $6A,$69,$20,$7D,$0E,$02,$6B,$69,$20,$7D,$0E,$02,$6C,$69,$AD,$B9  ; "ji }..ki }..li.."
@@ -14251,18 +14385,42 @@ $62EE L_62EE:                         ; xref: branch from $62E9
     JMP $4B38                         ; Jump to L_4B38
 $62F7 L_62F7:                         ; xref: jump from $62EB
     JSR $0D37                         ; Call resource_copy_descriptor_dispatch
-    TSX
-    PLA
 
 ; === DATA SECTION ===
 
-; --------------------------------------------------------
-; Image/resource load pipeline for room graphics. This block sets up image pointers, disk-backed resource offsets, and enters the room-image unpack/render path.
-; --------------------------------------------------------
-$62FC                   .BYTE $9C,$69,$20,$D1                                                  ; ".i ."
-$6300                   .BYTE $45,$20,$DB,$0C,$00,$28,$96,$A9,$23,$8D,$5F,$69,$A9,$00,$8D,$60  ; "E ...(..#._i...`"
-$6310                   .BYTE $69,$A9,$00,$8D,$D8,$70,$A9,$00,$8D,$D9,$70,$A9,$FA,$8D,$E1,$CF  ; "i....p....p....."
-$6320                   .BYTE $A9,$01,$8D,$E2,$CF,$20,$4F,$0D,$02,$E2,$CF,$01,$00,$3C,$00,$20  ; "..... O......<. "
+$62FA                   .BYTE $BA,$68,$9C,$69                                                  ; ".h.i"
+
+; === SUBROUTINE: ENTRY_62FE ===
+
+$62FE ENTRY_62FE:       
+    JSR $45D1                         ; Call SUB_45D1
+    JSR $0CDB                         ; Call call_vector_helper
+    BRK
+
+; === DATA SECTION ===
+
+$6305                   .BYTE $28,$96                                                          ; "(."
+
+; === SUBROUTINE: ENTRY_6307 ===
+
+$6307 ENTRY_6307:       
+    LDA #$23
+    STA $695F
+    LDA #$00
+    STA $6960
+    LDA #$00
+    STA $70D8
+    LDA #$00
+    STA $70D9
+    LDA #$FA
+    STA $CFE1
+    LDA #$01
+    STA $CFE2
+    JSR $0D4F                         ; Call resource_load_descriptor_dispatch
+
+; === DATA SECTION ===
+
+$6328                   .BYTE $02,$E2,$CF,$01,$00,$3C,$00,$20                                  ; ".....<. "
 $6330                   .BYTE $B1,$64,$20,$ED,$0D,$02,$E2,$CF,$A9,$F9,$8D,$E1,$CF,$20,$06,$65  ; ".d .......... .e"
 $6340                   .BYTE $A9,$00,$8D,$E2,$CF,$20,$4F,$0D,$02,$E2,$CF,$01,$00,$3B,$00,$20  ; "..... O......;. "
 $6350                   .BYTE $C0,$64,$AD,$AD,$69,$8D,$E1,$CF,$20,$B1,$64,$20,$ED,$0D,$02,$E2  ; ".d..i... .d ...."
@@ -14288,15 +14446,7 @@ $6480                   .BYTE $20,$B1,$64,$A9,$14,$8D,$E1,$CF,$20,$B1,$64,$A9,$9
 $6490                   .BYTE $20,$B1,$64,$A9,$20,$8D,$E1,$CF,$A9,$01,$8D,$E2,$CF,$20,$4F,$0D  ; " .d. ........ O."
 $64A0                   .BYTE $02,$E2,$CF,$01,$00,$0F,$00,$20,$B1,$64,$20,$ED,$0D,$02,$E2,$CF  ; "....... .d ....."
 $64B0                   .BYTE $60                                                              ; "`"
-; --------------------------------------------------------
-; Commit the current resource stream position.
-; Copies the current stream offset from $CFE1 into $69B9/$69BA and invokes $5B21, which advances/consumes the backing room resource stream.
-; --------------------------------------------------------
 $64B1                   .BYTE $AD,$E1,$CF,$8D,$B9,$69,$A9,$00,$8D,$BA,$69,$20,$21,$5B,$60      ; ".....i....i ![`"
-; --------------------------------------------------------
-; Compute absolute resource offsets for the room-image/resource loader.
-; Converts the logical block index in $CFE2 into absolute offsets in $69AB-$69AE and $69B9/$69BA, which are then consumed by the image/resource pipeline.
-; --------------------------------------------------------
 $64C0                   .BYTE $AD,$E2,$CF,$8D,$FB,$70,$A9,$00,$8D,$FC,$70,$20,$9E,$0F,$14,$00  ; ".....p....p ...."
 $64D0                   .BYTE $FB,$70,$FB,$70,$18,$A9,$6C,$6D,$FB,$70,$8D,$B9,$69,$A9,$00,$6D  ; ".p.p..lm.p..i..m"
 $64E0                   .BYTE $FC,$70,$8D,$BA,$69,$AD,$B9,$69,$29,$FF,$8D,$AB,$69,$AD,$BA,$69  ; ".p..i..i)...i..i"
@@ -14307,10 +14457,6 @@ $6510                   .BYTE $CF,$01,$00,$A5,$00,$20,$B1,$64,$20,$77,$0F,$60   
 
 ; === CODE SECTION ===
 
-; --------------------------------------------------------
-; Main room-image unpack/render pipeline.
-; This is code, not passive data. It initializes decode state in $CFE1-$CFE4 and $70FB-$7101, repeatedly consumes control bytes through helpers in the $0Fxx/$10xx runtime layer, and updates image work buffers around $69BF/$69C2/$70BF/$70C2 before looping back to $651C.
-; --------------------------------------------------------
 $651C room_image_unpack_entry:        ; xref: call from $4606
     JSR $0FAB                         ; Call SUB_0FAB
                                       ; Initializes image unpack state, then enters the main loop at $651C/$6532/$6560-style labels. This is the best current match for the C-side RLE decoder that expands 1760-byte room images from disk records.
@@ -14417,10 +14563,6 @@ $676F L_676F:                         ; xref: jump from $652F (L_652F)
 ; === DATA SECTION ===
 
 $6772                   .BYTE $F3,$70,$60                                                      ; ".p`"
-; --------------------------------------------------------
-; Secondary room-image post-processing pass.
-; Continues the same graphics pipeline after the main unpack loop, using counters at $70F5-$70F9 and repeated shifts/mask generation to derive buffer offsets from tables near $701A and the image workspace in $70E7-$70E8.
-; --------------------------------------------------------
 
 ; --------------------------------------------------------
 ; Sets up counters used after the main unpack loop and continues the same room-image processing pipeline.
@@ -14572,6 +14714,7 @@ $695E                   .BYTE $03                                               
 ; xref: write from $4B02 (L_4B02)
 ; xref: write from $569F
 ; xref: read from $5BBC (ENTRY_5BBC)
+; xref: write from $6309
 $695F                   .BYTE $23                                                              ; "#"
 ; xref: write from $4B2A
 ; xref: write from $56A4
@@ -14580,6 +14723,7 @@ $695F                   .BYTE $23                                               
 ; xref: read from $5B56
 ; xref: write from $5B56
 ; xref: read from $5BC2
+; xref: write from $630E
 $6960                   .BYTE $07                                                              ; "."
 ; xref: read from $4C76
 ; xref: read from $4C86
@@ -16442,6 +16586,7 @@ $70D7                   .BYTE $00                                               
 ; xref: write from $5B37
 ; xref: read from $5B3F (L_5B3F)
 ; xref: write from $5B5B
+; xref: write from $6313
 $70D8                   .BYTE $B7                                                              ; "."
 ; xref: write from $4B34
 ; xref: write from $56AE
@@ -16456,6 +16601,7 @@ $70D8                   .BYTE $B7                                               
 ; xref: write from $5B3C
 ; xref: read from $5B46
 ; xref: write from $5B60
+; xref: write from $6318
 $70D9                   .BYTE $00,$01,$FA,$75,$01,$FD,$75                                      ; "...u..u"
 ; xref: write from $4F44
 ; xref: read from $4FB4
@@ -24169,10 +24315,12 @@ $CFC0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$0
 $CFD0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
 $CFE0                   .BYTE $00                                                              ; "."
 ; xref: write from $45E8
+; xref: write from $631D
 ; xref: read from $64B1 (resource_commit_stream_position)
 ; xref: write from $6503
 $CFE1                   .BYTE $00                                                              ; "."
 ; xref: write from $45ED
+; xref: write from $6322
 ; xref: read from $64C0 (resource_compute_absolute_offset)
 ; xref: write from $6508
 $CFE2                   .BYTE $00                                                              ; "."

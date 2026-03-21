@@ -2,7 +2,7 @@
   "version": "1.1",
   "metadata": {
     "created": "2026-03-20T19:36:24Z",
-    "modified": "2026-03-21T13:58:33Z",
+    "modified": "2026-03-21T14:19:22Z",
     "sourceFile": "../data/tests/nachcodeabfrage.vsf",
     "description": "C64 Text Adventure Game Soul Crystal"
   },
@@ -242,7 +242,22 @@
     "0x5E01",
     "0x5E0A",
     "0x6088",
-    "0x6091"
+    "0x6091",
+    "0x5E13",
+    "0x5E1A",
+    "0x5E23",
+    "0x5E2C",
+    "0x5E33",
+    "0x5E3C",
+    "0x5E45",
+    "0x5E4C",
+    "0x5E55",
+    "0x5E5E",
+    "0x5E67",
+    "0x6059",
+    "0x6133",
+    "0x62FE",
+    "0x6307"
   ],
   "symbols": {
     "0x0079": {
@@ -7635,6 +7650,71 @@
       "type": "entry",
       "source": "auto"
     },
+    "0x5E13": {
+      "name": "ENTRY_5E13",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x5E1A": {
+      "name": "ENTRY_5E1A",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x5E23": {
+      "name": "ENTRY_5E23",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x5E2C": {
+      "name": "ENTRY_5E2C",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x5E33": {
+      "name": "ENTRY_5E33",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x5E3C": {
+      "name": "ENTRY_5E3C",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x5E45": {
+      "name": "ENTRY_5E45",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x5E4C": {
+      "name": "ENTRY_5E4C",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x5E55": {
+      "name": "ENTRY_5E55",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x5E5E": {
+      "name": "ENTRY_5E5E",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x5E67": {
+      "name": "ENTRY_5E67",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x6050": {
+      "name": "L_6050",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x6059": {
+      "name": "ENTRY_6059",
+      "type": "entry",
+      "source": "auto"
+    },
     "0x605C": {
       "name": "L_605C",
       "type": "label",
@@ -7745,6 +7825,11 @@
       "type": "label",
       "source": "auto"
     },
+    "0x6133": {
+      "name": "ENTRY_6133",
+      "type": "entry",
+      "source": "auto"
+    },
     "0x62B9": {
       "name": "special_32_gate_check_flow",
       "type": "subroutine",
@@ -7768,6 +7853,16 @@
     "0x62F7": {
       "name": "L_62F7",
       "type": "label",
+      "source": "auto"
+    },
+    "0x62FE": {
+      "name": "ENTRY_62FE",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x6307": {
+      "name": "ENTRY_6307",
+      "type": "entry",
       "source": "auto"
     },
     "0x64B1": {
@@ -11254,31 +11349,6 @@
         "comment": "Refresh current-room state and transient room metadata.\n\nCalled after the engine changes $695D/$6D01 or switches movement mode in $6963. It clears transient input/result bytes ($6961/$6962), then populates the per-room working state used by movement helpers and the SPECIAL($64-$6C) environmental predicates. The exact copy path is partly obscured by code Oracle cannot lift cleanly, but the downstream reads show that it feeds the room-environment flag block around $6D18-$6D9F."
       }
     },
-    "0x62FC": {
-      "assistant": {
-        "comment": "Image/resource load pipeline for room graphics. This block sets up image pointers, disk-backed resource offsets, and enters the room-image unpack/render path."
-      }
-    },
-    "0x64B1": {
-      "assistant": {
-        "comment": "Commit the current resource stream position.\nCopies the current stream offset from $CFE1 into $69B9/$69BA and invokes $5B21, which advances/consumes the backing room resource stream."
-      }
-    },
-    "0x64C0": {
-      "assistant": {
-        "comment": "Compute absolute resource offsets for the room-image/resource loader.\nConverts the logical block index in $CFE2 into absolute offsets in $69AB-$69AE and $69B9/$69BA, which are then consumed by the image/resource pipeline."
-      }
-    },
-    "0x651C": {
-      "assistant": {
-        "comment": "Main room-image unpack/render pipeline.\nThis is code, not passive data. It initializes decode state in $CFE1-$CFE4 and $70FB-$7101, repeatedly consumes control bytes through helpers in the $0Fxx/$10xx runtime layer, and updates image work buffers around $69BF/$69C2/$70BF/$70C2 before looping back to $651C."
-      }
-    },
-    "0x6775": {
-      "assistant": {
-        "comment": "Secondary room-image post-processing pass.\nContinues the same graphics pipeline after the main unpack loop, using counters at $70F5-$70F9 and repeated shifts/mask generation to derive buffer offsets from tables near $701A and the image workspace in $70E7-$70E8."
-      }
-    },
     "0x69C6": {
       "assistant": {
         "comment": "Object-description lookup table.\nEach 16-bit entry maps an object ID to the text/description resource used when the script reads objectdescription[] (VM token B1)."
@@ -13835,12 +13905,156 @@
     },
     {
       "start": "0x5E0D",
-      "end": "0x605B",
+      "end": "0x5E12",
       "type": "data",
       "source": "auto"
     },
     {
-      "start": "0x605C",
+      "start": "0x5E13",
+      "end": "0x5E15",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x5E16",
+      "end": "0x5E19",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x5E1A",
+      "end": "0x5E1C",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x5E1D",
+      "end": "0x5E22",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x5E23",
+      "end": "0x5E25",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x5E26",
+      "end": "0x5E2B",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x5E2C",
+      "end": "0x5E2E",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x5E2F",
+      "end": "0x5E32",
+      "type": "data",
+      "source": "user"
+    },
+    {
+      "start": "0x5E33",
+      "end": "0x5E35",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x5E36",
+      "end": "0x5E3B",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x5E3C",
+      "end": "0x5E3E",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x5E3F",
+      "end": "0x5E44",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x5E45",
+      "end": "0x5E47",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x5E48",
+      "end": "0x5E4B",
+      "type": "data",
+      "source": "user"
+    },
+    {
+      "start": "0x5E4C",
+      "end": "0x5E4E",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x5E4F",
+      "end": "0x5E54",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x5E55",
+      "end": "0x5E57",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x5E58",
+      "end": "0x5E5D",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x5E5E",
+      "end": "0x5E60",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x5E61",
+      "end": "0x5E66",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x5E67",
+      "end": "0x5E69",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x5E6A",
+      "end": "0x604F",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x6050",
+      "end": "0x6052",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x6053",
+      "end": "0x6058",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x6059",
       "end": "0x6081",
       "type": "code",
       "source": "auto"
@@ -13901,24 +14115,60 @@
     },
     {
       "start": "0x6122",
-      "end": "0x6130",
+      "end": "0x612E",
       "type": "code",
       "source": "auto"
     },
     {
-      "start": "0x6131",
+      "start": "0x612F",
+      "end": "0x6132",
+      "type": "data",
+      "source": "user"
+    },
+    {
+      "start": "0x6133",
+      "end": "0x613A",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x613B",
       "end": "0x62B8",
       "type": "data",
       "source": "auto"
     },
     {
       "start": "0x62B9",
-      "end": "0x62FB",
+      "end": "0x62F9",
       "type": "code",
       "source": "auto"
     },
     {
-      "start": "0x62FC",
+      "start": "0x62FA",
+      "end": "0x62FD",
+      "type": "data",
+      "source": "user"
+    },
+    {
+      "start": "0x62FE",
+      "end": "0x6304",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x6305",
+      "end": "0x6306",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x6307",
+      "end": "0x6327",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x6328",
       "end": "0x651B",
       "type": "data",
       "source": "auto"
