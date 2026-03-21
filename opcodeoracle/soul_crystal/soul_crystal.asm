@@ -1,7 +1,7 @@
 ; ============================================================
 ; AUTO-GENERATED FILE - DO NOT EDIT
 ; ============================================================
-; Generated: 2026-03-21T16:42:21Z
+; Generated: 2026-03-21T16:56:10Z
 ; Source:    ../data/tests/nachcodeabfrage.vsf
 ; ============================================================
 
@@ -12628,11 +12628,10 @@ $559B                   .BYTE $FB,$70                                           
     STA $7100
     LDA $7100
     JSR $0F5B                         ; Call SUB_0F5B
-    BRK
 
 ; === DATA SECTION ===
 
-$55AA                   .BYTE $71                                                              ; "q"
+$55A9                   .BYTE $00,$71                                                          ; ".q"
 
 ; === CODE SECTION ===
 
@@ -14041,7 +14040,6 @@ $6068 L_6068:                         ; xref: branch from $6061
 $606D L_606D:                         ; xref: branch from $6068 (L_6068)
     JMP $6094                         ; Jump to L_6094
 $6070 L_6070:                         ; xref: jump from $606A
-                                      ; xref: read from $6193
     LDA $6988                         ; object1_LO
     STA $70E0
     LDA $6989                         ; object1_HI
@@ -14267,12 +14265,18 @@ $6187 L_6187:                         ; xref: branch from $6182
 $618D L_618D:                         ; xref: jump from $617C
     LDA $696C
     JSR $0F5B                         ; Call SUB_0F5B
-    CMP $6070,X                       ; L_6070
-    JMP $62B9                         ; Jump to special_32_gate_check_flow
 
 ; === DATA SECTION ===
 
-$6199                   .BYTE $03,$01,$03,$04,$03,$45,$03                                      ; ".....E."
+$6193                   .BYTE $DD,$70                                                          ; ".p"
+
+; === CODE SECTION ===
+
+    RTS
+
+; === DATA SECTION ===
+
+$6196                   .BYTE $4C,$B9,$62,$03,$01,$03,$04,$03,$45,$03                          ; "L.b.....E."
 $61A0                   .BYTE $02,$02,$04,$05,$59,$03,$02,$0A,$06,$05,$49,$03,$03,$05,$05,$05  ; "....Y.....I....."
 $61B0                   .BYTE $54,$04,$01,$05,$07,$01,$49,$04,$01,$0D,$02,$05,$52,$04,$02,$01  ; "T.....I.....R..."
 $61C0                   .BYTE $02,$02,$41,$04,$02,$0A,$02,$04,$45,$05,$01,$02,$04,$02,$55,$05  ; "..A.....E.....U."
@@ -14295,7 +14299,6 @@ $62B0                   .BYTE $02,$02,$4C,$1C,$03,$05,$04,$07,$54               
 ; === SUBROUTINE: special_32_gate_check_flow ===
 
 $62B9 special_32_gate_check_flow:     ; xref: call from $36C4 (L_36C4)
-                                      ; xref: jump from $6196
     JSR $4B60                         ; Call room_resource_load_secondary
     LDA $69BF
     STA $6992                         ; temp_LO

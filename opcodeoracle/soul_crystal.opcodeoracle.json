@@ -2,7 +2,7 @@
   "version": "1.1",
   "metadata": {
     "created": "2026-03-20T19:36:24Z",
-    "modified": "2026-03-21T16:42:21Z",
+    "modified": "2026-03-21T17:04:26Z",
     "sourceFile": "../data/tests/nachcodeabfrage.vsf",
     "description": "C64 Text Adventure Game Soul Crystal"
   },
@@ -339,7 +339,8 @@
     "0x6860",
     "0x6866",
     "0x686D",
-    "0x6873"
+    "0x6873",
+    "0x6195"
   ],
   "symbols": {
     "0x0079": {
@@ -11018,15 +11019,15 @@
     },
     {
       "start": "0x237F",
-      "end": "0x2382",
+      "end": "0x2381",
       "type": "code",
       "source": "auto"
     },
     {
-      "start": "0x2383",
+      "start": "0x2382",
       "end": "0x2387",
       "type": "data",
-      "source": "auto"
+      "source": "assistant"
     },
     {
       "start": "0x2388",
@@ -12668,15 +12669,15 @@
     },
     {
       "start": "0x559D",
-      "end": "0x55A9",
+      "end": "0x55A8",
       "type": "code",
       "source": "auto"
     },
     {
-      "start": "0x55AA",
+      "start": "0x55A9",
       "end": "0x55AA",
       "type": "data",
-      "source": "auto"
+      "source": "user"
     },
     {
       "start": "0x55AB",
@@ -13538,12 +13539,24 @@
     },
     {
       "start": "0x616E",
-      "end": "0x6198",
+      "end": "0x6192",
       "type": "code",
       "source": "auto"
     },
     {
-      "start": "0x6199",
+      "start": "0x6193",
+      "end": "0x6194",
+      "type": "data",
+      "source": "user"
+    },
+    {
+      "start": "0x6195",
+      "end": "0x6195",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x6196",
       "end": "0x62B8",
       "type": "data",
       "source": "auto"

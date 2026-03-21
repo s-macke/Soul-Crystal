@@ -11,7 +11,7 @@ ${EXEC} edit reanalyze soul_crystal.opcodeoracle.json
 ${EXEC} export soul_crystal.opcodeoracle.json
 ${EXEC} info soul_crystal.opcodeoracle.json
 
-#${EXEC} mcp -transport http --listen 127.0.0.1:8080 soul_crystal.opcodeoracle.json
+${EXEC} mcp -transport http --listen 127.0.0.1:8080 soul_crystal.opcodeoracle.json
 
 #  - 0 bytes: $0F77
 #  - 2 bytes: $0E11, $0F5B, $0FAB
