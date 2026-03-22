@@ -1,0 +1,104 @@
+{
+  "version": "1.1",
+  "metadata": {
+    "created": "2026-03-22T22:07:02Z",
+    "modified": "2026-03-22T22:07:02Z",
+    "sourceFile": "C2.bin"
+  },
+  "binary": {
+    "data": "TCbJTBDJIH7JIAawIIjJYCB+ya31z9AHIAawIIjJYCADsCCIyWAgfskpP6q9wMmNnsnN88/QC62fyc3yz9ADTHrJrZ7J8DMgBrCtnskKqr2gyY2cyb2hyY2dyakArpzJrJ3JIAnLrZ/JjfLPrZ7JjfPPrfXP8AMgA7AgiMlgpgGOjsmiNoYBYK6OyYYBYAAAAAAAAAAAAAAAAAAAAAAABKChHw8fDyABIgIgCyIBIgWwsbKztLW2t7i5uru8vb6/AAUBAQECAgICAgICBwcBBAQEBAQDAwQDBAQEBAQEBQUFBQUFBQUFBQYGBgYGBgYGBgYGBgYGBgAAAAAAAAAAAA==",
+    "origin": "0xC900"
+  },
+  "entryPoints": [
+    "0xC900",
+    "0xC903",
+    "0xC906"
+  ],
+  "symbols": {
+    "0xB003": {
+      "name": "SUB_B003",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0xB006": {
+      "name": "SUB_B006",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0xC900": {
+      "name": "ENTRY_C900",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0xC903": {
+      "name": "ENTRY_C903",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0xC906": {
+      "name": "ENTRY_C906",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0xC910": {
+      "name": "L_C910",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xC91F": {
+      "name": "L_C91F",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xC926": {
+      "name": "L_C926",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xC942": {
+      "name": "L_C942",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xC97A": {
+      "name": "L_C97A",
+      "type": "label",
+      "source": "auto"
+    },
+    "0xC97E": {
+      "name": "SUB_C97E",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0xC988": {
+      "name": "SUB_C988",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0xCB09": {
+      "name": "SUB_CB09",
+      "type": "subroutine",
+      "source": "auto"
+    }
+  },
+  "regions": [
+    {
+      "start": "0x0000",
+      "end": "0xC8FF",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0xC900",
+      "end": "0xC98D",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0xC98E",
+      "end": "0xFFFF",
+      "type": "data",
+      "source": "auto"
+    }
+  ]
+}
