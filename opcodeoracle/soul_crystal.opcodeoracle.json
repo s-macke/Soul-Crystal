@@ -2,7 +2,7 @@
   "version": "1.1",
   "metadata": {
     "created": "2026-03-20T19:36:24Z",
-    "modified": "2026-03-21T17:04:26Z",
+    "modified": "2026-03-22T10:50:10Z",
     "sourceFile": "../data/tests/nachcodeabfrage.vsf",
     "description": "C64 Text Adventure Game Soul Crystal"
   },
@@ -340,13 +340,21 @@
     "0x6866",
     "0x686D",
     "0x6873",
-    "0x6195"
+    "0x6195",
+    "0x4D41",
+    "0x4D5B",
+    "0x4D64"
   ],
   "symbols": {
     "0x0079": {
       "name": "SUB_0079",
       "type": "subroutine",
       "source": "auto"
+    },
+    "0x00AC": {
+      "name": "serial_shift_byte",
+      "type": "byte",
+      "source": "assistant"
     },
     "0x030C": {
       "name": "dispatcher_arg_a",
@@ -437,6 +445,16 @@
       "name": "L_0C04",
       "type": "label",
       "source": "auto"
+    },
+    "0x0C2E": {
+      "name": "current_range_descriptor_table_lo",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0x0C2F": {
+      "name": "current_range_descriptor_table_hi",
+      "type": "byte",
+      "source": "assistant"
     },
     "0x0C42": {
       "name": "SUB_0C42",
@@ -589,9 +607,9 @@
       "source": "auto"
     },
     "0x0E11": {
-      "name": "SUB_0E11",
+      "name": "init_range_descriptor_for_offset",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x0E2E": {
       "name": "L_0E2E",
@@ -619,9 +637,9 @@
       "source": "auto"
     },
     "0x0E7D": {
-      "name": "SUB_0E7D",
+      "name": "extract_from_range_segment",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x0E82": {
       "name": "L_0E82",
@@ -998,6 +1016,31 @@
       "type": "subroutine",
       "source": "auto"
     },
+    "0x131A": {
+      "name": "range_cursor_offset_lo",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0x131B": {
+      "name": "range_cursor_offset_hi",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0x131C": {
+      "name": "range_descriptor_ptr_lo",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0x131D": {
+      "name": "range_descriptor_ptr_hi",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0x131E": {
+      "name": "range_descriptor_type",
+      "type": "byte",
+      "source": "assistant"
+    },
     "0x1320": {
       "name": "SUB_1320",
       "type": "subroutine",
@@ -1219,9 +1262,9 @@
       "source": "auto"
     },
     "0x15B1": {
-      "name": "SUB_15B1",
+      "name": "decode_range_extract_param",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x15C8": {
       "name": "L_15C8",
@@ -1254,9 +1297,9 @@
       "source": "auto"
     },
     "0x15EC": {
-      "name": "SUB_15EC",
+      "name": "parse_type6_segment_field",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x15FD": {
       "name": "L_15FD",
@@ -1329,9 +1372,9 @@
       "source": "auto"
     },
     "0x169F": {
-      "name": "SUB_169F",
+      "name": "advance_parse_source_ptr",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x16A5": {
       "name": "L_16A5",
@@ -1712,6 +1755,11 @@
       "name": "L_1B7C",
       "type": "label",
       "source": "auto"
+    },
+    "0x1B82": {
+      "name": "default_range_descriptor_table",
+      "type": "byte",
+      "source": "assistant"
     },
     "0x1C12": {
       "name": "script_vm_dispatch",
@@ -5503,6 +5551,11 @@
       "type": "label",
       "source": "auto"
     },
+    "0x4437": {
+      "name": "range_segment_type02_4437",
+      "type": "byte",
+      "source": "assistant"
+    },
     "0x4440": {
       "name": "special_08_list_exits_flow",
       "type": "subroutine",
@@ -5945,6 +5998,16 @@
     },
     "0x4D1E": {
       "name": "L_4D1E",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x4D4B": {
+      "name": "L_4D4B",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x4D52": {
+      "name": "L_4D52",
       "type": "label",
       "source": "auto"
     },
@@ -6479,9 +6542,9 @@
       "source": "assistant"
     },
     "0x53A4": {
-      "name": "L_53A4",
+      "name": "disk_side_selection_loop",
       "type": "label",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x53AF": {
       "name": "L_53AF",
@@ -6569,9 +6632,9 @@
       "source": "auto"
     },
     "0x54EB": {
-      "name": "L_54EB",
+      "name": "reload_disk_side_tables",
       "type": "label",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x554B": {
       "name": "L_554B",
@@ -6623,6 +6686,11 @@
       "type": "label",
       "source": "auto"
     },
+    "0x55CF": {
+      "name": "disk_side_id_mapping_list",
+      "type": "byte",
+      "source": "assistant"
+    },
     "0x5603": {
       "name": "SUB_5603",
       "type": "subroutine",
@@ -6653,15 +6721,20 @@
       "type": "label",
       "source": "auto"
     },
+    "0x567E": {
+      "name": "disk_id_string_list",
+      "type": "byte",
+      "source": "assistant"
+    },
     "0x569D": {
-      "name": "SUB_569D",
+      "name": "enter_disk_side_selection_flow",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x56FD": {
-      "name": "SUB_56FD",
+      "name": "load_disk_side_metadata_block",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x582F": {
       "name": "SUB_582F",
@@ -6848,15 +6921,20 @@
       "type": "subroutine",
       "source": "auto"
     },
+    "0x5CBF": {
+      "name": "range_segment_type04_5CBF",
+      "type": "byte",
+      "source": "assistant"
+    },
     "0x5CDB": {
       "name": "SUB_5CDB",
       "type": "subroutine",
       "source": "auto"
     },
     "0x5D11": {
-      "name": "SUB_5D11",
+      "name": "frontend_read_translated_input",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x5D2B": {
       "name": "L_5D2B",
@@ -6879,9 +6957,9 @@
       "source": "auto"
     },
     "0x5D5A": {
-      "name": "SUB_5D5A",
+      "name": "frontend_prompt_wait_input",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x5D6F": {
       "name": "L_5D6F",
@@ -7004,9 +7082,9 @@
       "source": "auto"
     },
     "0x60DC": {
-      "name": "SUB_60DC",
+      "name": "manual_check_build_prompt",
       "type": "subroutine",
-      "source": "auto"
+      "source": "assistant"
     },
     "0x60F6": {
       "name": "L_60F6",
@@ -7067,6 +7145,11 @@
       "name": "L_618D",
       "type": "label",
       "source": "auto"
+    },
+    "0x6199": {
+      "name": "manual_check_question_table",
+      "type": "byte",
+      "source": "assistant"
     },
     "0x62B9": {
       "name": "special_32_gate_check_flow",
@@ -7241,6 +7324,11 @@
     "0x6775": {
       "name": "room_image_postprocess_entry",
       "type": "label",
+      "source": "assistant"
+    },
+    "0x6961": {
+      "name": "frontend_input_code",
+      "type": "byte",
       "source": "assistant"
     },
     "0x6986": {
@@ -7513,6 +7601,11 @@
       "type": "label",
       "source": "assistant"
     },
+    "0x9631": {
+      "name": "frontend_raw_input_code",
+      "type": "byte",
+      "source": "assistant"
+    },
     "0x9657": {
       "name": "L_9657",
       "type": "label",
@@ -7619,9 +7712,9 @@
       "source": "auto"
     },
     "0x9803": {
-      "name": "L_9803",
-      "type": "label",
-      "source": "auto"
+      "name": "frontend_poll_input_loop",
+      "type": "subroutine",
+      "source": "assistant"
     },
     "0x9808": {
       "name": "L_9808",
@@ -9488,14 +9581,24 @@
       "type": "subroutine",
       "source": "auto"
     },
+    "0xCA00": {
+      "name": "huffman_tree_bit1_table",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0xCA80": {
+      "name": "huffman_tree_bit0_table",
+      "type": "byte",
+      "source": "assistant"
+    },
     "0xCB00": {
-      "name": "svc_decode_stream",
-      "type": "label",
+      "name": "svc_decode_indexed_record",
+      "type": "subroutine",
       "source": "assistant"
     },
     "0xCB03": {
-      "name": "svc_read_block",
-      "type": "label",
+      "name": "svc_read_protocol_block",
+      "type": "subroutine",
       "source": "assistant"
     },
     "0xCB06": {
@@ -9526,6 +9629,16 @@
     "0xCB18": {
       "name": "svc_bulk_load_tables",
       "type": "label",
+      "source": "assistant"
+    },
+    "0xCB1D": {
+      "name": "indexed_record_triplet_table_lo",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0xCB1E": {
+      "name": "indexed_record_triplet_table_hi",
+      "type": "byte",
       "source": "assistant"
     },
     "0xCB21": {
@@ -9774,9 +9887,9 @@
       "source": "auto"
     },
     "0xCE0F": {
-      "name": "L_CE0F",
-      "type": "label",
-      "source": "auto"
+      "name": "decode_rle_image_stream",
+      "type": "subroutine",
+      "source": "assistant"
     },
     "0xCE19": {
       "name": "L_CE19",
@@ -9832,6 +9945,16 @@
       "name": "L_CED6",
       "type": "label",
       "source": "auto"
+    },
+    "0xCEDB": {
+      "name": "image_rle_output_ptr_table_lo",
+      "type": "byte",
+      "source": "assistant"
+    },
+    "0xCEDC": {
+      "name": "image_rle_output_ptr_table_hi",
+      "type": "byte",
+      "source": "assistant"
     },
     "0xCEF2": {
       "name": "decode_huffman_text_stream",
@@ -9949,7 +10072,7 @@
       "source": "assistant"
     },
     "0xCFF5": {
-      "name": "stream_table_mode_flag",
+      "name": "music_enabled_flag",
       "type": "byte",
       "source": "assistant"
     },
@@ -10150,6 +10273,16 @@
     }
   },
   "annotations": {
+    "0x0C2E": {
+      "assistant": {
+        "comment": "Low byte of the currently active range-descriptor table base. Defaults to $1B82 until another setup path overwrites it."
+      }
+    },
+    "0x0C2F": {
+      "assistant": {
+        "comment": "High byte of the currently active range-descriptor table base. Together with $0C2E this selects the 5-byte descriptor table scanned by $0E11 and consumed by $0E7D."
+      }
+    },
     "0x0CDB": {
       "assistant": {
         "comment": "Pops the caller return address into $41/$42 so the inline descriptor bytes following the JSR can be parsed directly from the caller stream."
@@ -10165,6 +10298,66 @@
         "comment": "Preserve machine state, then tail into the generic vector trampoline at $12F9 using the target loaded into $004E/$004F."
       }
     },
+    "0x0E11": {
+      "assistant": {
+        "comment": "Pop the caller return address and treat the next 2 inline bytes as the requested 16-bit target offset."
+      }
+    },
+    "0x0E24": {
+      "assistant": {
+        "comment": "Start scanning the current 5-byte range-descriptor table from the base pointer at $0C2E/$0C2F."
+      }
+    },
+    "0x0E2E": {
+      "assistant": {
+        "comment": "Compare the requested target address in $131A/$131B against this entry's end address at bytes 3..4. Advance by 5 bytes until the current segment end is \u003e= the requested target."
+      }
+    },
+    "0x0E4F": {
+      "assistant": {
+        "comment": "Load the selected descriptor: byte 0 is the descriptor type, bytes 1..2 are the segment start address."
+      }
+    },
+    "0x0E68": {
+      "assistant": {
+        "comment": "If the selected segment starts at or after the requested target, clamp the working cursor to that segment start address."
+      }
+    },
+    "0x0E6E": {
+      "assistant": {
+        "comment": "Remember the matched 5-byte descriptor entry pointer for the follow-up decoder at $0E7D and later helper paths."
+      }
+    },
+    "0x0E8B": {
+      "assistant": {
+        "comment": "Decode the inline extract parameter. Byte 1 carries subtype/flags; bytes 2..3 are only present when bit 4 is clear."
+      }
+    },
+    "0x0E95": {
+      "assistant": {
+        "comment": "Descriptor type $06 means the current segment is a delimited text/field block, so dispatch to the dedicated type-6 parser instead of fixed-width copying."
+      }
+    },
+    "0x0E99": {
+      "assistant": {
+        "comment": "For descriptor types 0..5, the low nibble of the parameter byte must match the current segment type exactly. Otherwise raise error $16."
+      }
+    },
+    "0x0EA0": {
+      "assistant": {
+        "comment": "Fixed-width segment extraction path. Type 0..2 copies 1 byte, types 3..4 copy 2 bytes, and type 5 copies 5 bytes to the destination pointer selected by the inline parameter."
+      }
+    },
+    "0x0EC7": {
+      "assistant": {
+        "comment": "Type-6 extraction path. Parse a comma/NUL-delimited field (quotes allowed) from the current segment cursor and leave the delimiter in X for validation."
+      }
+    },
+    "0x0EE8": {
+      "assistant": {
+        "comment": "If the updated segment cursor has reached or passed the current segment end, advance to the next 5-byte segment descriptor via $12FC."
+      }
+    },
     "0x12AA": {
       "assistant": {
         "comment": "If the first descriptor byte is nonzero, treat the following two bytes as a pointer to a table and copy the first 16-bit entry into the destination at $00,X/$01,X; otherwise copy the next two literal bytes directly."
@@ -10178,6 +10371,71 @@
     "0x12F9": {
       "assistant": {
         "comment": "Jump indirectly through $004E/$004F. This is a generic engine trampoline, not by itself proof of the main compiled-BASIC P-code dispatcher, because the same vector is reused by the script VM and other engine code."
+      }
+    },
+    "0x15B1": {
+      "assistant": {
+        "comment": "Read parameter byte 1. Low nibble becomes the requested subtype in $47."
+      }
+    },
+    "0x15BF": {
+      "assistant": {
+        "comment": "Bit 4 set: use the implicit destination pointer from $3B/$3C. No explicit pointer bytes follow, so the inline parameter length is only 1 byte."
+      }
+    },
+    "0x15C8": {
+      "assistant": {
+        "comment": "Bit 4 clear: read bytes 2..3 as the explicit destination pointer for the extracted value/field. This form consumes 3 inline bytes total."
+      }
+    },
+    "0x15CF": {
+      "assistant": {
+        "comment": "Store the effective inline-byte count in $45 and the destination pointer in $A9/$AA for the caller."
+      }
+    },
+    "0x15EC": {
+      "assistant": {
+        "comment": "Start from source pointer X/Y in $A7/$A8, clear the quoted-string flag in $49, and branch by the caller-supplied parse submode in $47."
+      }
+    },
+    "0x15FD": {
+      "assistant": {
+        "comment": "For submodes \u003e= $06, scan a delimited text field. A=0 means start at the current byte after trimming leading spaces; nonzero A re-enters with an already-consumed leading byte and starts from offset 1."
+      }
+    },
+    "0x160B": {
+      "assistant": {
+        "comment": "Skip leading spaces before the field proper.\nSkip leading spaces before the field proper. Here $20 is the ASCII/PETSCII space character."
+      }
+    },
+    "0x1616": {
+      "assistant": {
+        "comment": "If the field begins with $22 ('\"'), remember that we are inside a quoted field and skip the opening quote."
+      }
+    },
+    "0x1623": {
+      "assistant": {
+        "comment": "Outside quotes, stop on NUL ($00), comma ($2C, ','), or colon ($3A, ':'). Inside quotes, keep scanning until the closing quote is reached."
+      }
+    },
+    "0x1635": {
+      "assistant": {
+        "comment": "Closing quote found: $22 ('\"'). Clear the quoted-field flag, remember the unquoted payload length in $48, and materialize a temporary copy buffer/window for the extracted field."
+      }
+    },
+    "0x165B": {
+      "assistant": {
+        "comment": "For submodes \u003c $06, parse a compact token/value from the current source pointer instead of scanning a delimited text field. The subtype in $47 controls whether one or two result bytes are stored."
+      }
+    },
+    "0x168D": {
+      "assistant": {
+        "comment": "Return the consumed field length in Y and the terminating delimiter byte in X. If the field was quoted, skip the closing quote before reporting the delimiter position."
+      }
+    },
+    "0x169F": {
+      "assistant": {
+        "comment": "Advance the source pointer in $A7/$A8 by one byte while scanning or trimming the type-$06 segment text."
       }
     },
     "0x1C12": {
@@ -10295,9 +10553,24 @@
         "comment": "Another composite test over the room_env flag groups, but with inverted zero logic; this matches its role as the positive 'is exposed zone' predicate seen in the script prologue."
       }
     },
+    "0x3D60": {
+      "assistant": {
+        "comment": "Compare textoutput against $018D. Values at or above this threshold are classified as mode $06."
+      }
+    },
+    "0x3D6F": {
+      "assistant": {
+        "comment": "Mode $06 selected for text ids \u003e= $018D."
+      }
+    },
     "0x4016": {
       "assistant": {
         "comment": "Post-text-display front-end sync: when $695A was set during script_vm_show_text, dispatch svc_frontend_refresh_cycle ($961B) to make the staged output visible."
+      }
+    },
+    "0x4022": {
+      "assistant": {
+        "comment": "This is the fixed text-record path into $CB00/$CDDD: it sets dispatcher_arg_y = 0 before dispatch."
       }
     },
     "0x405F": {
@@ -10315,6 +10588,11 @@
         "comment": "Lightweight runtime/front-end table maintenance via svc_runtime_swap_tables ($9615). Used as a follow-up helper after image/text-related state changes."
       }
     },
+    "0x4193": {
+      "assistant": {
+        "comment": "This is the fixed image-record path into $CB00/$CDDD: it sets dispatcher_arg_y = 2 before dispatch."
+      }
+    },
     "0x475D": {
       "assistant": {
         "comment": "Open the staged front-end work area via svc_frontend_stage_open ($9628) before running the follow-up display/update sequence."
@@ -10330,9 +10608,59 @@
         "comment": "If the current room/resource selector matches the already-loaded state, skip the reload and just dispatch svc_frontend_refresh_cycle ($961B)."
       }
     },
+    "0x4C76": {
+      "assistant": {
+        "comment": "Accept translated input code $4E ('N') as one of the continue/return choices for this solution prompt."
+      }
+    },
+    "0x4C86": {
+      "assistant": {
+        "comment": "Accept translated input code $0C as left mouse button for the same prompt."
+      }
+    },
+    "0x4CA4": {
+      "assistant": {
+        "comment": "Accept translated input code $45 ('E') as the explicit exit choice for this prompt."
+      }
+    },
+    "0x4CB4": {
+      "assistant": {
+        "comment": "Accept translated input code $12 as right mouse button for the same prompt."
+      }
+    },
+    "0x4CDA": {
+      "assistant": {
+        "comment": "Read the current music/text-table mode flag from $CFF5, invert it, and keep only bit 0. The new value is the toggled music state.\nmusic_enabled_flag at $CFF5 is the confirmed one-bit music ON/OFF state: 1 = ON, 0 = OFF."
+      }
+    },
+    "0x4CF1": {
+      "assistant": {
+        "comment": "Store the toggled one-bit state back to $CFF5. If the old value was 0, the new state becomes 1; if the old value was 1, the new state becomes 0."
+      }
+    },
+    "0x4CF8": {
+      "assistant": {
+        "comment": "Compute status text id $0023 - new_state. Therefore:\n- new_state = 1 -\u003e text id $0022\n- new_state = 0 -\u003e text id $0023"
+      }
+    },
+    "0x4D12": {
+      "assistant": {
+        "comment": "Show the music-toggle status text, then call svc_prepare_stream_tables ($C903). The later indexed-record fetches observed during testing identify the ON and OFF follow-up resource requests."
+      }
+    },
     "0x4E17": {
       "assistant": {
         "comment": "After showing the fixed text at $0060, dispatch svc_frontend_refresh_cycle ($961B) so the staged output becomes visible."
+      }
+    },
+    "0x513D": {
+      "assistant": {
+        "comment": "This confirmation prompt accepts translated input code $4A ('J') as keyboard confirm."
+      }
+    },
+    "0x514D": {
+      "assistant": {
+        "comment": "This confirmation prompt also accepts translated input code $12 as right mouse button confirm."
       }
     },
     "0x51C0": {
@@ -10340,9 +10668,54 @@
         "comment": "Open the staged front-end work area via svc_frontend_stage_open ($9628) before the scripted status/message sequence continues."
       }
     },
+    "0x51CB": {
+      "assistant": {
+        "comment": "This modal prompt loop accepts translated input code $42 ('B') or $12 (right mouse) as the affirmative path, then checks $4E/$0C and $4C for alternate actions."
+      }
+    },
+    "0x532A": {
+      "assistant": {
+        "comment": "Send one protocol block through svc_write_block ($CB09) using the buffer pointer at $CA60/$CA61. This is part of the disk-side selection flow."
+      }
+    },
+    "0x5448": {
+      "assistant": {
+        "comment": "Query the currently inserted disk/resource header via svc_read_record_header ($CB0C), then format the returned header bytes from $CB1B/$CB1C for comparison/display."
+      }
+    },
+    "0x54F3": {
+      "assistant": {
+        "comment": "Dispatch svc_bulk_load_tables ($CB18) through call_vector_helper. This is the actual side-change table reload, not just the prompt/UI path.\nThe surrounding disk-change flow is now known to trigger protocol-directed writes not only for table reloads but also to destinations observed as $7600 and $B926. The $B926 case is a strong match for SID music resource refresh."
+      }
+    },
+    "0x5C7E": {
+      "assistant": {
+        "comment": "Load text id $01B4, the fixed manual-check question prompt shown before the dynamic question fields are built."
+      }
+    },
     "0x5D5A": {
       "assistant": {
         "comment": "Open the staged front-end work area via svc_frontend_stage_open ($9628) for this text/status workflow before continuing with local rendering logic."
+      }
+    },
+    "0x5D6F": {
+      "assistant": {
+        "comment": "This wait loop exits on translated input code $5F, which is currently best interpreted as SPACE."
+      }
+    },
+    "0x60DC": {
+      "assistant": {
+        "comment": "Enter the manual-check question builder. The first $0E11 selects the primary question-table segment, and the fallback at $611D switches to the continuation table when needed."
+      }
+    },
+    "0x614A": {
+      "assistant": {
+        "comment": "Extract the six type-$02 fields for the current manual-check record into the formatter buffers: character index, word, page, row, paragraph, and expected character."
+      }
+    },
+    "0x618D": {
+      "assistant": {
+        "comment": "Emit the final formatted manual-check prompt from the assembled work buffer."
       }
     },
     "0x6990": {
@@ -10358,6 +10731,16 @@
     "0x6994": {
       "assistant": {
         "comment": "Script-visible 16-bit image id variable ('imageno' in the host-side decompiler). Consumed by the image-display path."
+      }
+    },
+    "0x9824": {
+      "assistant": {
+        "comment": "If CIA1 bit 4 is active low here, synthesize raw input code $0C for left mouse button."
+      }
+    },
+    "0x9830": {
+      "assistant": {
+        "comment": "If CIA1 bit 0 is active low here, synthesize raw input code $12 for right mouse button."
       }
     },
     "0xAEFC": {
@@ -10409,6 +10792,121 @@
       "assistant": {
         "comment": "Loop over the SID register image until all active registers have been written."
       }
+    },
+    "0xC903": {
+      "assistant": {
+        "comment": "This table-prep path keys off music_enabled_flag as well as the cached stream-table values. special_07_music_toggle_flow at $4CDA toggles this flag between 0=OFF and 1=ON."
+      }
+    },
+    "0xCC08": {
+      "assistant": {
+        "comment": "Special case: when entered with A = 0, this routine accepts a destination pointer from the protocol stream and installs it into $AD/$AE. During disk change, observed returned destinations include $7600 and $B926."
+      }
+    },
+    "0xCD7A": {
+      "assistant": {
+        "comment": "Compute byte offset 3*index into the loaded indexed-record pointer table by forming index + 2*index."
+      }
+    },
+    "0xCD90": {
+      "assistant": {
+        "comment": "Base pointer to the in-memory copy of the 3-byte indexed-record triplet table. Adding 0x0400 reaches the actual table payload region loaded from disk."
+      }
+    },
+    "0xCDA5": {
+      "assistant": {
+        "comment": "Self-modify read_decode_table_byte so Y indexes the selected triplet within the loaded indexed pointer table."
+      }
+    },
+    "0xCDB2": {
+      "assistant": {
+        "comment": "Read triplet byte 0 (track / high-level record selector) from the indexed resource pointer table."
+      }
+    },
+    "0xCDB6": {
+      "assistant": {
+        "comment": "Read triplet byte 1 (sector / mid selector) from the indexed resource pointer table."
+      }
+    },
+    "0xCDC4": {
+      "assistant": {
+        "comment": "Read triplet byte 2 (byte offset / low selector) from the indexed resource pointer table and transmit it with the record request."
+      }
+    },
+    "0xCDDD": {
+      "assistant": {
+        "comment": "On the fixed callers currently identified, Y=0 selects text records (for example via $4022) and Y=2 selects image records (for example via the $4193 path)."
+      }
+    },
+    "0xCE19": {
+      "assistant": {
+        "comment": "Read the next compressed image payload byte. 0xCD introduces a run; any other byte is copied literally."
+      }
+    },
+    "0xCE1F": {
+      "assistant": {
+        "comment": "If the byte is 0xCD, fetch the repeat count into $CF96, then fetch the repeated byte value."
+      }
+    },
+    "0xCE32": {
+      "assistant": {
+        "comment": "Store one decompressed output byte through the current self-modified destination pointer and advance that pointer."
+      }
+    },
+    "0xCE42": {
+      "assistant": {
+        "comment": "Select the next destination segment from the image output pointer table at $CEDB/$CEDC and seed its remaining length to $B0 (176) bytes."
+      }
+    },
+    "0xCE62": {
+      "assistant": {
+        "comment": "Consume one byte from the current literal/run span. When the span ends, fetch the next compressed token; when the 176-byte segment ends, advance to the next output segment."
+      }
+    },
+    "0xCEF2": {
+      "assistant": {
+        "comment": "Read record header word B low byte. Together with $CEF8 this seeds the inverted decoded-length counter used by the text format."
+      }
+    },
+    "0xCEF8": {
+      "assistant": {
+        "comment": "Read record header word B high byte. The decode loop stops when incrementing $CF92/$CF93 wraps back to zero after 65536-B emitted characters."
+      }
+    },
+    "0xCF18": {
+      "assistant": {
+        "comment": "Fetch the next packed payload byte once all 8 bits of the current byte have been consumed."
+      }
+    },
+    "0xCF1E": {
+      "assistant": {
+        "comment": "Shift the current payload byte left so carry receives the next bit, starting with bit 7. This makes the decoder consume bits MSB-first."
+      }
+    },
+    "0xCF23": {
+      "assistant": {
+        "comment": "Carry=1 selects the bit-1 branch table at $CA00+node."
+      }
+    },
+    "0xCF28": {
+      "assistant": {
+        "comment": "Carry=0 selects the bit-0 branch table at $CA80+node."
+      }
+    },
+    "0xCF2B": {
+      "assistant": {
+        "comment": "If bit 7 is clear, this is an interior node index and decoding continues from that node. If bit 7 is set, the low 7 bits are the encoded character value."
+      }
+    },
+    "0xCF2D": {
+      "assistant": {
+        "comment": "Clear the leaf marker bit before emitting the game character code. The later renderer interprets this value through the game's $40-based text charset."
+      }
+    },
+    "0xCF32": {
+      "assistant": {
+        "comment": "Increment the inverted remaining-length counter. When both bytes wrap to zero, the requested number of decoded characters has been emitted."
+      }
     }
   },
   "headlines": {
@@ -10427,6 +10925,16 @@
         "comment": "Main disk/resource load dispatcher.\nConsumes an inline descriptor from the caller, resolves the source pointer/flags, reconstructs optional saved descriptor state, and tail-calls the lower-level transfer helpers through a synthetic stack frame."
       }
     },
+    "0x0E11": {
+      "assistant": {
+        "comment": "Initialize a range-descriptor cursor for a requested 16-bit offset.\nThe 2 inline bytes name the target offset; the routine scans the 5-byte descriptor table rooted at $0C2E/$0C2F, selects the first entry whose end offset covers that target, stores the descriptor pointer/type, and clamps the working offset up to the entry start when necessary."
+      }
+    },
+    "0x0E7D": {
+      "assistant": {
+        "comment": "Extract a value or field from the currently selected range/segment descriptor.\nRequires init_range_descriptor_for_offset ($0E11) to have selected the current segment in $131A-$131E first.\nThe inline parameter format is: byte 1 = subtype/flags, bytes 2..3 = optional destination pointer.\nLow nibble of byte 1 is the requested subtype. Bit 4 of byte 1 selects the destination pointer source: clear = explicit pointer in bytes 2..3, set = implicit destination pointer from $3B/$3C.\nFor descriptor types 0..5, the subtype must exactly match the segment type and the routine copies a fixed-width value from the current segment cursor. For descriptor type 6, the subtype selects a parser mode inside parse_type6_segment_field ($15EC)."
+      }
+    },
     "0x12AA": {
       "assistant": {
         "comment": "Inline descriptor decoder for generic indirect calls."
@@ -10442,6 +10950,16 @@
         "comment": "Shared vector trampoline used by multiple subsystems."
       }
     },
+    "0x15B1": {
+      "assistant": {
+        "comment": "Inline parameter decoder for extract_from_range_segment ($0E7D).\nByte 1 = subtype/flags. Low nibble is the requested subtype; bit 4 selects whether the destination pointer comes from the inline bytes (clear) or the implicit pointer in $3B/$3C (set).\nWhen bit 4 is clear, bytes 2..3 are the explicit destination pointer and the helper resumes past 3 inline bytes. When bit 4 is set, there are no extra inline bytes and the helper resumes past 1 inline byte."
+      }
+    },
+    "0x15EC": {
+      "assistant": {
+        "comment": "Parser for descriptor type $06 segments selected by init_range_descriptor_for_offset/$0E7D.\nThe low nibble from the caller descriptor in $47 selects the submode: values below $06 decode a compact numeric/token field, while values $06 and above scan a text field that may be quoted and is otherwise terminated by comma, colon, or NUL.\nReturns the terminating delimiter in X and the consumed field length in Y; the caller advances the segment cursor from that result."
+      }
+    },
     "0x1A72": {
       "assistant": {
         "comment": "BASIC FAC/value helper entry.\nThis code manipulates Commodore BASIC floating-point and descriptor workspace around $61-$70, which supports the assessment that part of the binary is tied to a compiled BASIC runtime."
@@ -10450,6 +10968,11 @@
     "0x1A9D": {
       "assistant": {
         "comment": "Store a BASIC FAC/value back through an indirect descriptor pointer.\nAnother strong indicator that this region is compiler/runtime glue built around Commodore BASIC internals."
+      }
+    },
+    "0x1B82": {
+      "assistant": {
+        "comment": "Default 5-byte range/segment descriptor table used by init_range_descriptor_for_offset ($0E11).\nEntry layout: byte 0 = descriptor type, bytes 1..2 = segment start address, bytes 3..4 = segment end address.\n$0E11 scans by the end address and selects the first entry whose end is \u003e= the requested target; it then clamps the working cursor up to the segment start when needed."
       }
     },
     "0x1C12": {
@@ -10557,6 +11080,11 @@
         "comment": "Text-display engine entry used by script opcode E8.\nConsumes the script-selected text pointer in $6990/$6991 and coordinates message display state."
       }
     },
+    "0x3D60": {
+      "assistant": {
+        "comment": "Text-id classifier threshold: ids \u003e= $018D switch into mode $06, the special high-text handling path dispatched via $3EB2 -\u003e $3F62."
+      }
+    },
     "0x4022": {
       "assistant": {
         "comment": "Dispatch the selected text/resource id through the generic service trampoline.\n\nCopies the current text id from $6990/$6991 into dispatcher_arg_a/x, forces frontend_io_mode=$82, and calls svc_decode_stream ($CB00) through call_vector_helper."
@@ -10565,6 +11093,11 @@
     "0x4087": {
       "assistant": {
         "comment": "Image-display engine entry used by script opcode EB."
+      }
+    },
+    "0x4606": {
+      "assistant": {
+        "comment": "High-level room image display/update path.\nSaves imageno, runs the room image unpack pipeline at $651C, then restores imageno for the caller."
       }
     },
     "0x4B4D": {
@@ -10577,6 +11110,11 @@
         "comment": "Load the secondary room/resource set.\nInitializes secondary room-resource state via $60DC, selects stream 2 in $6990/$6991, and then dispatches through the same inline descriptor mechanism as the primary loader."
       }
     },
+    "0x4CDA": {
+      "assistant": {
+        "comment": "Toggle the music state flag in $CFF5, choose the corresponding status text id, show that text, then refresh/switch the compressed-text tables via $C903.\nObserved follow-up indexed-record fetches during testing:\n- music ON:  A=$0C X=$02 Y=$07\n- music OFF: A=$0C X=$02 Y=$08"
+      }
+    },
     "0x4D15": {
       "assistant": {
         "comment": "Refresh or switch the compressed-text decode tables before continuing the text-driven front-end flow.\n\nThis call site dispatches to svc_prepare_stream_tables ($C903), not to the normal text decode entry."
@@ -10585,6 +11123,71 @@
     "0x5396": {
       "assistant": {
         "comment": "Refresh current-room state and transient room metadata.\n\nCalled after the engine changes $695D/$6D01 or switches movement mode in $6963. It clears transient input/result bytes ($6961/$6962), then populates the per-room working state used by movement helpers and the SPECIAL($64-$6C) environmental predicates. The exact copy path is partly obscured by code Oracle cannot lift cleanly, but the downstream reads show that it feeds the room-environment flag block around $6D18-$6D9F."
+      }
+    },
+    "0x53A4": {
+      "assistant": {
+        "comment": "Modal disk-side selection loop.\nAccepts translated prompt input, loads the side-selection resources, reads the currently inserted disk header, compares it against the selected disk ID, and either refreshes locally or branches to the bulk table reload path at $54EB."
+      }
+    },
+    "0x54EB": {
+      "assistant": {
+        "comment": "Reload the side-specific indexed resource metadata.\nCalls svc_bulk_load_tables ($CB18), which repopulates the Huffman tree and indexed-record pointer tables for the newly selected disk side."
+      }
+    },
+    "0x55CF": {
+      "assistant": {
+        "comment": "Disk-side / disk-ID mapping string block.\nThis segment appears to pair side labels with disk IDs, including entries for DA, DB, DC, DD, PB, and DS. The exact separator/quoting convention still needs a clean charset-aware decode, but the overall structure is clearly related to disk side selection.\nDescriptor type: $06 in the default range-descriptor table at $1B82."
+      }
+    },
+    "0x567E": {
+      "assistant": {
+        "comment": "Null-terminated disk ID string list.\nContains the quoted IDs \"DA\", \"DB\", \"DC\", \"DD\", \"PB\", and \"DS\" used by the surrounding disk/resource selection logic.\nDescriptor type: $06 in the default range-descriptor table at $1B82."
+      }
+    },
+    "0x569D": {
+      "assistant": {
+        "comment": "Enter the disk-side selection flow.\nInitializes selector state, calls load_disk_side_metadata_block ($56FD), then continues with the side/resource setup path."
+      }
+    },
+    "0x56FD": {
+      "assistant": {
+        "comment": "Load the disk-side metadata block through resource_load_descriptor_dispatch ($0D4F), then scatter the decoded bytes into the side-selection/state tables used by the surrounding disk-change flow."
+      }
+    },
+    "0x5C64": {
+      "assistant": {
+        "comment": "Enter manual-check mode (addr6963 = $04), refresh room/state for the copy-protection flow, then show the manual-check prompt text $01B4."
+      }
+    },
+    "0x5D11": {
+      "assistant": {
+        "comment": "Read one translated frontend input event for prompt/menu handling.\n\nForces frontend_io_mode=$83, dispatches the frontend input service, copies the raw result from frontend_raw_input_code ($9631) into frontend_input_code ($6961), then translates it through the lookup path at $0F5B using the table rooted at $70DA.\n\nThe translated code in $6961 is what prompt handlers compare against."
+      }
+    },
+    "0x5D5A": {
+      "assistant": {
+        "comment": "Open the staged frontend prompt area, read one translated input event via frontend_read_translated_input ($5D11), then close the prompt stage.\n\nUsed by yes/no and modal prompt flows such as restart, quit, solution, and disk-install confirmation."
+      }
+    },
+    "0x60DC": {
+      "assistant": {
+        "comment": "Build the copy-protection/manual-check prompt from the type-$02 question records.\nInitializes the range-descriptor table at $6199/$61F9, formats the six extracted fields into work buffers, then emits the assembled prompt text."
+      }
+    },
+    "0x6199": {
+      "assistant": {
+        "comment": "Manual-check / copy-protection question table.\nThis range segment encodes the prompts used to ask the player for a specific character from the printed manual: character index, word, page, row, paragraph, and the expected character at that position.\nThe surrounding type-$02 extraction path uses these records to build the security question flow."
+      }
+    },
+    "0x651C": {
+      "assistant": {
+        "comment": "Second-stage room image unpack/reorganization pass.\nConsumes the already RLE-expanded image work buffers, reshuffles them into the game's final bitmap/color layout, and hands off to $6775 for post-processing."
+      }
+    },
+    "0x6775": {
+      "assistant": {
+        "comment": "Room image post-processing stage.\nRuns after the main image unpack pass to finalize the reorganized image buffers for display."
       }
     },
     "0x69C6": {
@@ -10727,6 +11330,11 @@
         "comment": "Dispatcher entry: perform the front-end 'stage close' update.\nBanks RAM in, runs the second half of the staged refresh helper sequence ($9C67), resets the refresh phase, and clears the visible staging area at $FEF8+."
       }
     },
+    "0x9803": {
+      "assistant": {
+        "comment": "Poll one frontend input event from the C64 keyboard/mouse layer.\n\nWaits until no mouse button is currently held, then samples keyboard state via $9C01. If a mouse button is pressed, it returns synthetic raw codes instead of a keyboard code:\n- $0C = left mouse button\n- $12 = right mouse button\nOtherwise it returns the keyboard code from $9C01 in frontend_raw_input_code ($9631)."
+      }
+    },
     "0x99B1": {
       "assistant": {
         "comment": "Save the current C64 memory configuration byte ($01) on a small software stack.\nThis is used by the runtime and engine when banking BASIC ROM and I/O in and out around ROM-dependent calls."
@@ -10804,7 +11412,7 @@
     },
     "0xB926": {
       "assistant": {
-        "comment": "Pointer to the active SID song header.\nInit code at $B2E0 loads this word into $E0/$E1, then reads offset +6 as the song speed/divider byte and uses offsets +0/+2/+4 as the three voice sequence pointers."
+        "comment": "Pointer to the active SID song header.\nInit code at $B2E0 loads this word into $E0/$E1, then reads offset +6 as the song speed/divider byte and uses offsets +0/+2/+4 as the three voice sequence pointers.\nSID song/resource header block.\nObserved as a protocol-returned write destination during disk change, which strongly suggests that this area is refreshed as part of side-specific music resource loading."
       }
     },
     "0xB92A": {
@@ -10822,9 +11430,24 @@
         "comment": "Prepare or switch decode tables for the compressed stream layer.\nThis wrapper selects which table set to use based on the current stream selector and cached values in $CFF2/$CFF3, then loads the corresponding record through svc_write_block / bulk table helpers before restoring memory configuration."
       }
     },
+    "0xCA00": {
+      "assistant": {
+        "comment": "Huffman decode tree tables loaded from the text-compression resource header.\n$CA00-$CA7F is the bit=1 branch table and $CA80-$CAFF is the bit=0 branch table.\nLeaf values have bit 7 set; interior nodes are the next node index."
+      }
+    },
     "0xCB00": {
       "assistant": {
-        "comment": "Service contract: compressed-stream/text service.\nInputs arrive in A/X/Y via dispatcher_arg_a/x/y. In the common text path from $4022, A/X/Y carry the selected text/resource id as a 24-bit tuple with Y usually zero; when Y==2, the service first refreshes stream tables before decoding."
+        "comment": "Service entry for indexed disk/resource records.\nDispatches one selected indexed record through the stream layer, then routes to the appropriate decoder: Huffman text, image RLE, or the alternate record-mode path depending on the loaded record type byte."
+      }
+    },
+    "0xCB03": {
+      "assistant": {
+        "comment": "Service entry: read one protocol block over the external DD00 serial/resource transport.\nThis is the public trampoline into serial_read_block_body at $CC90."
+      }
+    },
+    "0xCB21": {
+      "assistant": {
+        "comment": "Indexed-record table loader for the game-specific disk format.\nLoads the side-specific table bundle that contains the Huffman tree at disk offset 0x200 and the 3-byte indexed resource pointer table rooted at disk offset 0x300."
       }
     },
     "0xCB55": {
@@ -10834,17 +11457,37 @@
     },
     "0xCC90": {
       "assistant": {
-        "comment": "Read one 84-byte block from the custom DD00 serial protocol into the buffer pointer at $AD/$AE.\nUses serial_expect_zero_byte as a framing check and serial_read_block_84_bytes as the inner transfer loop."
+        "comment": "Low-level block reader for the external disk/resource loader protocol.\nThis binary uses the custom DD00 serial service for actual transfers; the raw 1541 track/sector-to-absolute-offset math and chained-sector traversal from the disk spec are not visible here and likely live on the remote loader side."
+      }
+    },
+    "0xCD30": {
+      "assistant": {
+        "comment": "Bulk-load the indexed resource metadata tables.\nFetches the Huffman tree into $CA00+ and then reads the side-specific indexed-record pointer data used by $CD7A.\nThis is the game-specific layer of spec/C64/disk_format.md and disk_layout.md, not the raw 1541 sector-geometry math."
+      }
+    },
+    "0xCD7A": {
+      "assistant": {
+        "comment": "Resolve one indexed record entry from the loaded 3-byte pointer table.\nMain index source: A/X on entry hold the 16-bit record index (usually forwarded from dispatcher_arg_a/x at $030C/$030D).\nConcrete selector meaning: Y=0 is the text record table path; Y=2 is the image record table path.\nThe routine uses Y to choose the loaded 16-bit table-base pair before computing byte offset 3*index into the triplet table."
       }
     },
     "0xCDDD": {
       "assistant": {
-        "comment": "Top-level compressed stream decode entry.\nOptionally refreshes/loads decode tables through $C900 when Y==2, then decodes one table-selected stream record and either expands Huffman-like text through $CEF2 or follows an alternate rendering path. Output characters are emitted through stream_emit_char_with_wrap at $CB29."
+        "comment": "Top-level compressed text/stream entry.\nIf Y==2 it refreshes the decode tables first, then selects the stream record and dispatches to the Huffman text decoder when the table-selected mode byte is zero."
+      }
+    },
+    "0xCE0F": {
+      "assistant": {
+        "comment": "RLE-compressed image stream decoder matching spec/C64/image_format.md.\nMode 2 records use 0xCD as a run marker: literal bytes are copied once, while 0xCD,count,value expands value count times into successive 176-byte image work buffers selected through $CEDB/$CEDC."
       }
     },
     "0xCEF2": {
       "assistant": {
-        "comment": "Main Huffman-like text decode loop.\nInitializes the decoded-length counter from two bytes read over the serial transport, then walks a binary code tree using $CA00/$CA80 as the two branch tables. Terminal symbols have bit 7 set; after masking with $7F the decoded character is emitted via stream_emit_char_with_wrap."
+        "comment": "Huffman text decoder matching spec/C64/text_compression.md.\nReads the 16-bit B header word from the record, then emits exactly 65536-B characters by walking the two 128-byte branch tables at $CA00/$CA80 MSB-first."
+      }
+    },
+    "0xCF4F": {
+      "assistant": {
+        "comment": "Byte reader for the loaded indexed-record metadata tables.\nThe caller patches the absolute base address first, then this routine returns successive bytes from the in-memory copy of the table bundle."
       }
     },
     "0xD400": {
@@ -12051,18 +12694,54 @@
     },
     {
       "start": "0x4D1B",
-      "end": "0x4D3E",
+      "end": "0x4D3C",
       "type": "code",
       "source": "auto"
     },
     {
-      "start": "0x4D3F",
-      "end": "0x4D69",
+      "start": "0x4D3D",
+      "end": "0x4D40",
+      "type": "data",
+      "source": "user"
+    },
+    {
+      "start": "0x4D41",
+      "end": "0x4D4D",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x4D4E",
+      "end": "0x4D51",
       "type": "data",
       "source": "auto"
     },
     {
-      "start": "0x4D6A",
+      "start": "0x4D52",
+      "end": "0x4D54",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x4D55",
+      "end": "0x4D5A",
+      "type": "data",
+      "source": "user"
+    },
+    {
+      "start": "0x4D5B",
+      "end": "0x4D5D",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x4D5E",
+      "end": "0x4D63",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x4D64",
       "end": "0x4E19",
       "type": "code",
       "source": "auto"

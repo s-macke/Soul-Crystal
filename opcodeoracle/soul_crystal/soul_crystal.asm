@@ -1,7 +1,7 @@
 ; ============================================================
 ; AUTO-GENERATED FILE - DO NOT EDIT
 ; ============================================================
-; Generated: 2026-03-21T16:56:10Z
+; Generated: 2026-03-22T10:54:14Z
 ; Source:    ../data/tests/nachcodeabfrage.vsf
 ; ============================================================
 
@@ -210,7 +210,7 @@ $0041                   .BYTE $CD                                               
 ; xref: read from $138C
 ; xref: write from $13B0 (resource_decode_inline_descriptor)
 ; xref: read from $15AA
-; xref: write from $15B1 (SUB_15B1)
+; xref: write from $15B1 (decode_range_extract_param)
 ; xref: write from $1700 (SUB_1700)
 ; xref: write from $170E (SUB_170E)
 ; xref: write from $172D (SUB_172D)
@@ -724,11 +724,11 @@ $00A6                   .BYTE $00                                               
 ; xref: write from $13BE
 ; xref: write from $13C8
 ; xref: write from $13E3
-; xref: write from $15EC (SUB_15EC)
+; xref: write from $15EC (parse_type6_segment_field)
 ; xref: read from $165B (L_165B)
 ; xref: read from $169C
-; xref: read from $169F (SUB_169F)
-; xref: write from $169F (SUB_169F)
+; xref: read from $169F (advance_parse_source_ptr)
+; xref: write from $169F (advance_parse_source_ptr)
 ; xref: read from $16D4 (SUB_16D4)
 ; xref: write from $1720 (SUB_1720)
 ; xref: write from $1733
@@ -855,7 +855,7 @@ $00AB                   .BYTE $04                                               
 ; xref: write from $CD14
 ; xref: read from $CD21
 ; xref: write from $CD21
-$00AC                   .BYTE $FF                                                              ; "."
+$00AC serial_shift_byte:.BYTE $FF
 ; xref: write from $CB24 (serial_set_buffer_ptr)
 ; xref: write from $CC29
 ; xref: read from $CC43
@@ -1392,10 +1392,10 @@ $0B31 L_0B31:                         ; xref: branch from $0B2C
     STA $0C33
     LDY #$09
     LDA ($41),Y
-    STA $0C2E
+    STA $0C2E                         ; current_range_descriptor_table_lo
     INY
     LDA ($41),Y
-    STA $0C2F
+    STA $0C2F                         ; current_range_descriptor_table_hi
     INY
     INY
     INY
@@ -1551,11 +1551,11 @@ $0C2D                   .BYTE $76                                               
 ; xref: write from $0B54
 ; xref: read from $0CF0 (SUB_0CF0)
 ; xref: read from $0E24
-$0C2E                   .BYTE $82                                                              ; "."
+$0C2E current_range_descriptor_table_lo:.BYTE $82  ; Low byte of the currently active range-descriptor table base. Defaults to $1B82 until another setup path overwrites it.
 ; xref: write from $0B5A
 ; xref: read from $0CF6
 ; xref: read from $0E29
-$0C2F                   .BYTE $1B                                                              ; "."
+$0C2F current_range_descriptor_table_hi:.BYTE $1B  ; High byte of the currently active range-descriptor table base. Together with $0C2E this selects the 5-byte descriptor table scanned by $0E11 and consumed by $0E7D.
 ; xref: write from $0B3B
 ; xref: read from $1A2F
 $0C30                   .BYTE $EF                                                              ; "."
@@ -1665,6 +1665,8 @@ $0C8D SUB_0C8D:                       ; xref: call from $23A8
                                       ; xref: call from $4576 (L_4576)
                                       ; xref: call from $45C4
                                       ; xref: call from $49D5 (L_49D5)
+                                      ; xref: call from $4D52 (L_4D52)
+                                      ; xref: call from $4D5B
                                       ; xref: call from $4F50
                                       ; xref: call from $4F59
                                       ; xref: call from $4F9D
@@ -1805,7 +1807,7 @@ $0CDB call_vector_helper:             ; xref: call from $2D45
                                       ; xref: call from $5C79
                                       ; xref: call from $5D1A
                                       ; xref: call from $5D43 (L_5D43)
-                                      ; xref: call from $5D5A (SUB_5D5A)
+                                      ; xref: call from $5D5A (frontend_prompt_wait_input)
                                       ; xref: call from $5D63
                                       ; xref: call from $6301
                                       ; xref: call from $6449
@@ -1829,10 +1831,10 @@ $0CDB call_vector_helper:             ; xref: call from $2D45
 
 $0CF0 SUB_0CF0:                       ; xref: call from $0BF8
                                       ; xref: call from $379D
-    LDA $0C2E
-    STA $131C
-    LDA $0C2F
-    STA $131D
+    LDA $0C2E                         ; current_range_descriptor_table_lo
+    STA $131C                         ; range_descriptor_ptr_lo
+    LDA $0C2F                         ; current_range_descriptor_table_hi
+    STA $131D                         ; range_descriptor_ptr_hi
     JMP $12FC                         ; Jump to SUB_12FC
 
 ; === SUBROUTINE: SUB_0CFF ===
@@ -1902,6 +1904,7 @@ $0D37 resource_copy_descriptor_dispatch:  ; xref: call from $3B49 (SUB_3B49)
                                       ; xref: call from $4802 (SUB_4802)
                                       ; xref: call from $4B42 (special_01_run_code_query)
                                       ; xref: call from $4D3A
+                                      ; xref: call from $4D4B (L_4D4B)
                                       ; xref: call from $4EE5
                                       ; xref: call from $4F79 (L_4F79)
                                       ; xref: call from $4FA9
@@ -2126,36 +2129,41 @@ $0DED SUB_0DED:                       ; xref: call from $4211
 $0E0E L_0E0E:                         ; xref: branch from $0E0A
     JMP $14A9                         ; Jump to L_14A9
 
-; === SUBROUTINE: SUB_0E11 ===
+; === SUBROUTINE: init_range_descriptor_for_offset ===
 
-$0E11 SUB_0E11:                       ; xref: call from $4217
+; --------------------------------------------------------
+; Initialize a range-descriptor cursor for a requested 16-bit offset.
+; The 2 inline bytes name the target offset; the routine scans the 5-byte descriptor table rooted at $0C2E/$0C2F, selects the first entry whose end offset covers that target, stores the descriptor pointer/type, and clamps the working offset up to the entry start when necessary.
+; --------------------------------------------------------
+$0E11 init_range_descriptor_for_offset:  ; xref: call from $4217
                                       ; xref: call from $5409 (L_5409)
                                       ; xref: call from $560F
                                       ; xref: call from $5C99 (SUB_5C99)
-                                      ; xref: call from $60DC (SUB_60DC)
+                                      ; xref: call from $60DC (manual_check_build_prompt)
                                       ; xref: call from $611D (L_611D)
-    PLA
+    PLA                               ; Pop the caller return address and treat the next 2 inline bytes as the requested 16-bit target offset.
     STA $41
     PLA
     STA $42
     LDY #$01
     LDA ($41),Y
-    STA $131A
+    STA $131A                         ; range_cursor_offset_lo
     INY
     LDA ($41),Y
-    STA $131B
-    LDA $0C2E
+    STA $131B                         ; range_cursor_offset_hi
+    LDA $0C2E                         ; current_range_descriptor_table_lo
+                                      ; Start scanning the current 5-byte range-descriptor table from the base pointer at $0C2E/$0C2F.
     STA $57
-    LDA $0C2F
+    LDA $0C2F                         ; current_range_descriptor_table_hi
     STA $58
 $0E2E L_0E2E:                         ; xref: jump from $0E4C (L_0E4C)
-    LDY #$03
-    LDA $131A
+    LDY #$03                          ; Compare the requested target address in $131A/$131B against this entry's end address at bytes 3..4. Advance by 5 bytes until the current segment end is >= the requested target.
+    LDA $131A                         ; range_cursor_offset_lo
     CMP ($57),Y
     INY
     LDA ($57),Y
     BEQ $0E4F                         ; Branch to L_0E4F
-    LDA $131B
+    LDA $131B                         ; range_cursor_offset_hi
     SBC ($57),Y
     BCC $0E4F                         ; Branch to L_0E4F
     CLC
@@ -2168,33 +2176,41 @@ $0E4C L_0E4C:                         ; xref: branch from $0E48
     JMP $0E2E                         ; Jump to L_0E2E
 $0E4F L_0E4F:                         ; xref: branch from $0E38
                                       ; xref: branch from $0E3F
-    LDY #$00
+    LDY #$00                          ; Load the selected descriptor: byte 0 is the descriptor type, bytes 1..2 are the segment start address.
     LDA ($57),Y
-    STA $131E
+    STA $131E                         ; range_descriptor_type
     INY
     LDA ($57),Y
     TAX
-    CMP $131A
+    CMP $131A                         ; range_cursor_offset_lo
     INY
     LDA ($57),Y
     TAY
     BEQ $0E68                         ; Branch to L_0E68
-    SBC $131B
+    SBC $131B                         ; range_cursor_offset_hi
     BCC $0E6E                         ; Branch to L_0E6E
 $0E68 L_0E68:                         ; xref: branch from $0E61
-    STX $131A
-    STY $131B
+    STX $131A                         ; range_cursor_offset_lo
+                                      ; If the selected segment starts at or after the requested target, clamp the working cursor to that segment start address.
+    STY $131B                         ; range_cursor_offset_hi
 $0E6E L_0E6E:                         ; xref: branch from $0E66
-    LDA $57
-    STA $131C
+    LDA $57                           ; Remember the matched 5-byte descriptor entry pointer for the follow-up decoder at $0E7D and later helper paths.
+    STA $131C                         ; range_descriptor_ptr_lo
     LDA $58
-    STA $131D
+    STA $131D                         ; range_descriptor_ptr_hi
     LDY #$02
     JMP $10A1                         ; Jump to L_10A1
 
-; === SUBROUTINE: SUB_0E7D ===
+; === SUBROUTINE: extract_from_range_segment ===
 
-$0E7D SUB_0E7D:                       ; xref: call from $4230
+; --------------------------------------------------------
+; Extract a value or field from the currently selected range/segment descriptor.
+; Requires init_range_descriptor_for_offset ($0E11) to have selected the current segment in $131A-$131E first.
+; The inline parameter format is: byte 1 = subtype/flags, bytes 2..3 = optional destination pointer.
+; Low nibble of byte 1 is the requested subtype. Bit 4 of byte 1 selects the destination pointer source: clear = explicit pointer in bytes 2..3, set = implicit destination pointer from $3B/$3C.
+; For descriptor types 0..5, the subtype must exactly match the segment type and the routine copies a fixed-width value from the current segment cursor. For descriptor type 6, the subtype selects a parser mode inside parse_type6_segment_field ($15EC).
+; --------------------------------------------------------
+$0E7D extract_from_range_segment:     ; xref: call from $4230
                                       ; xref: call from $542D
                                       ; xref: call from $5433
                                       ; xref: call from $5439
@@ -2206,7 +2222,7 @@ $0E7D SUB_0E7D:                       ; xref: call from $4230
                                       ; xref: call from $615C
                                       ; xref: call from $6162
                                       ; xref: call from $6168
-    LDA $131B
+    LDA $131B                         ; range_cursor_offset_hi
     BNE $0E87                         ; Branch to L_0E87
 $0E82 L_0E82:                         ; xref: branch from $0E91
     LDX #$0D
@@ -2215,22 +2231,26 @@ $0E87 L_0E87:                         ; xref: branch from $0E80
     PLA
     STA $41
     PLA
-    JSR $15B1                         ; Call SUB_15B1
-    LDA $131E
+    JSR $15B1                         ; Call decode_range_extract_param
+                                      ; Decode the inline extract parameter. Byte 1 carries subtype/flags; bytes 2..3 are only present when bit 4 is clear.
+    LDA $131E                         ; range_descriptor_type
     BEQ $0E82                         ; Branch to L_0E82
     CMP #$06
     BEQ $0EC7                         ; Branch to L_0EC7
+                                      ; Descriptor type $06 means the current segment is a delimited text/field block, so dispatch to the dedicated type-6 parser instead of fixed-width copying.
     CMP $47
     BEQ $0EA0                         ; Branch to L_0EA0
+                                      ; For descriptor types 0..5, the low nibble of the parameter byte must match the current segment type exactly. Otherwise raise error $16.
 $0E9B L_0E9B:                         ; xref: branch from $0ED8
     LDX #$16
     JMP $1228                         ; Jump to L_1228
 $0EA0 L_0EA0:                         ; xref: branch from $0E99
     JSR $15D6                         ; Call SUB_15D6
+                                      ; Fixed-width segment extraction path. Type 0..2 copies 1 byte, types 3..4 copy 2 bytes, and type 5 copies 5 bytes to the destination pointer selected by the inline parameter.
     STY $57
-    LDA $131A
+    LDA $131A                         ; range_cursor_offset_lo
     STA $59
-    LDA $131B
+    LDA $131B                         ; range_cursor_offset_hi
     STA $5A
 $0EAF L_0EAF:                         ; xref: branch from $0EB4
     LDA ($59),Y
@@ -2238,18 +2258,19 @@ $0EAF L_0EAF:                         ; xref: branch from $0EB4
     DEY
     BPL $0EAF                         ; Branch to L_0EAF
     SEC
-    LDA $131A
+    LDA $131A                         ; range_cursor_offset_lo
     ADC $57
-    STA $131A
+    STA $131A                         ; range_cursor_offset_lo
     BCC $0EC4                         ; Branch to L_0EC4
-    INC $131B
+    INC $131B                         ; range_cursor_offset_hi
 $0EC4 L_0EC4:                         ; xref: branch from $0EBF
     JMP $0EE8                         ; Jump to L_0EE8
 $0EC7 L_0EC7:                         ; xref: branch from $0E95
-    LDX $131A
-    LDY $131B
+    LDX $131A                         ; range_cursor_offset_lo
+                                      ; Type-6 extraction path. Parse a comma/NUL-delimited field (quotes allowed) from the current segment cursor and leave the delimiter in X for validation.
+    LDY $131B                         ; range_cursor_offset_hi
     LDA #$00
-    JSR $15EC                         ; Call SUB_15EC
+    JSR $15EC                         ; Call parse_type6_segment_field
     CPX #$2C
     BEQ $0EDA                         ; Branch to L_0EDA
     CPX #$00
@@ -2258,28 +2279,29 @@ $0EDA L_0EDA:                         ; xref: branch from $0ED4
     TYA
     SEC
     ADC $A7
-    STA $131A
+    STA $131A                         ; range_cursor_offset_lo
     LDA $A8
     ADC #$00
-    STA $131B
+    STA $131B                         ; range_cursor_offset_hi
 $0EE8 L_0EE8:                         ; xref: jump from $0EC4 (L_0EC4)
-    LDA $131C
+    LDA $131C                         ; range_descriptor_ptr_lo
+                                      ; If the updated segment cursor has reached or passed the current segment end, advance to the next 5-byte segment descriptor via $12FC.
     STA $57
-    LDA $131D
+    LDA $131D                         ; range_descriptor_ptr_hi
     STA $58
     LDY #$03
-    LDA $131A
+    LDA $131A                         ; range_cursor_offset_lo
     CMP ($57),Y
     INY
-    LDA $131B
+    LDA $131B                         ; range_cursor_offset_hi
     SBC ($57),Y
     BCC $0F12                         ; Branch to L_0F12
     CLC
-    LDA $131C
+    LDA $131C                         ; range_descriptor_ptr_lo
     ADC #$05
-    STA $131C
+    STA $131C                         ; range_descriptor_ptr_lo
     BCC $0F0F                         ; Branch to L_0F0F
-    INC $131D
+    INC $131D                         ; range_descriptor_ptr_hi
 $0F0F L_0F0F:                         ; xref: branch from $0F0A
     JSR $12FC                         ; Call SUB_12FC
 $0F12 L_0F12:                         ; xref: branch from $0EFF
@@ -3050,19 +3072,19 @@ $12F9 jmp_indirect_004e:              ; xref: call from $12E5
 
 $12FC SUB_12FC:                       ; xref: jump from $0CFC
                                       ; xref: call from $0F0F (L_0F0F)
-    LDA $131C
+    LDA $131C                         ; range_descriptor_ptr_lo
     STA $57
-    LDA $131D
+    LDA $131D                         ; range_descriptor_ptr_hi
     STA $58
     LDY #$00
     LDA ($57),Y
-    STA $131E
+    STA $131E                         ; range_descriptor_type
     INY
     LDA ($57),Y
-    STA $131A
+    STA $131A                         ; range_cursor_offset_lo
     INY
     LDA ($57),Y
-    STA $131B
+    STA $131B                         ; range_cursor_offset_hi
     RTS
 
 ; === DATA SECTION ===
@@ -3078,12 +3100,12 @@ $12FC SUB_12FC:                       ; xref: jump from $0CFC
 ; xref: write from $0EDE
 ; xref: read from $0EF4
 ; xref: write from $1310
-$131A                   .BYTE $CF                                                              ; "."
+$131A range_cursor_offset_lo:.BYTE $CF
 ; xref: write from $0E21
 ; xref: read from $0E3A
 ; xref: read from $0E63
 ; xref: write from $0E6B
-; xref: read from $0E7D (SUB_0E7D)
+; xref: read from $0E7D (extract_from_range_segment)
 ; xref: read from $0EAA
 ; xref: read from $0EC1
 ; xref: write from $0EC1
@@ -3091,25 +3113,26 @@ $131A                   .BYTE $CF                                               
 ; xref: write from $0EE5
 ; xref: read from $0EFA
 ; xref: write from $1316
-$131B                   .BYTE $55                                                              ; "U"
+$131B range_cursor_offset_hi:.BYTE $55
 ; xref: write from $0CF3
 ; xref: write from $0E70
 ; xref: read from $0EE8 (L_0EE8)
 ; xref: read from $0F02
 ; xref: write from $0F07
 ; xref: read from $12FC (SUB_12FC)
-$131C                   .BYTE $87                                                              ; "."
+$131C range_descriptor_ptr_lo:.BYTE $87
 ; xref: write from $0CF9
 ; xref: write from $0E75
 ; xref: read from $0EED
 ; xref: read from $0F0C
 ; xref: write from $0F0C
 ; xref: read from $1301
-$131D                   .BYTE $1B                                                              ; "."
+$131D range_descriptor_ptr_hi:.BYTE $1B
 ; xref: write from $0E53
 ; xref: read from $0E8E
 ; xref: write from $130A
-$131E                   .BYTE $06,$00                                                          ; ".."
+$131E range_descriptor_type:.BYTE $06
+$131F                   .BYTE $00                                                              ; "."
 
 ; === SUBROUTINE: SUB_1320 ===
 
@@ -3556,10 +3579,15 @@ $15A3 L_15A3:                         ; xref: branch from $1591
     PHA
     RTS
 
-; === SUBROUTINE: SUB_15B1 ===
+; === SUBROUTINE: decode_range_extract_param ===
 
-$15B1 SUB_15B1:                       ; xref: call from $0E8B
-    STA $42
+; --------------------------------------------------------
+; Inline parameter decoder for extract_from_range_segment ($0E7D).
+; Byte 1 = subtype/flags. Low nibble is the requested subtype; bit 4 selects whether the destination pointer comes from the inline bytes (clear) or the implicit pointer in $3B/$3C (set).
+; When bit 4 is clear, bytes 2..3 are the explicit destination pointer and the helper resumes past 3 inline bytes. When bit 4 is set, there are no extra inline bytes and the helper resumes past 1 inline byte.
+; --------------------------------------------------------
+$15B1 decode_range_extract_param:     ; xref: call from $0E8B
+    STA $42                           ; Read parameter byte 1. Low nibble becomes the requested subtype in $47.
     LDY #$01
     LDA ($41),Y
     TAX
@@ -3568,17 +3596,18 @@ $15B1 SUB_15B1:                       ; xref: call from $0E8B
     TXA
     AND #$10
     BEQ $15C8                         ; Branch to L_15C8
+                                      ; Bit 4 set: use the implicit destination pointer from $3B/$3C. No explicit pointer bytes follow, so the inline parameter length is only 1 byte.
     LDX $3B
     LDA $3C
     JMP $15CF                         ; Jump to L_15CF
 $15C8 L_15C8:                         ; xref: branch from $15BF
-    INY
+    INY                               ; Bit 4 clear: read bytes 2..3 as the explicit destination pointer for the extracted value/field. This form consumes 3 inline bytes total.
     LDA ($41),Y
     TAX
     INY
     LDA ($41),Y
 $15CF L_15CF:                         ; xref: jump from $15C5
-    STY $45
+    STY $45                           ; Store the effective inline-byte count in $45 and the destination pointer in $A9/$AA for the caller.
     STX $A9
     STA $AA
     RTS
@@ -3603,10 +3632,15 @@ $15E9 L_15E9:                         ; xref: branch from $15DE
     LDY #$02
     RTS
 
-; === SUBROUTINE: SUB_15EC ===
+; === SUBROUTINE: parse_type6_segment_field ===
 
-$15EC SUB_15EC:                       ; xref: call from $0ECF
-    STX $A7
+; --------------------------------------------------------
+; Parser for descriptor type $06 segments selected by init_range_descriptor_for_offset/$0E7D.
+; The low nibble from the caller descriptor in $47 selects the submode: values below $06 decode a compact numeric/token field, while values $06 and above scan a text field that may be quoted and is otherwise terminated by comma, colon, or NUL.
+; Returns the terminating delimiter in X and the consumed field length in Y; the caller advances the segment cursor from that result.
+; --------------------------------------------------------
+$15EC parse_type6_segment_field:      ; xref: call from $0ECF
+    STX $A7                           ; Start from source pointer X/Y in $A7/$A8, clear the quoted-string flag in $49, and branch by the caller-supplied parse submode in $47.
     STY $A8
     LDX #$00
     STX $49
@@ -3615,7 +3649,7 @@ $15EC SUB_15EC:                       ; xref: call from $0ECF
     BCS $15FD                         ; Branch to L_15FD
     JMP $165B                         ; Jump to L_165B
 $15FD L_15FD:                         ; xref: branch from $15F8
-    LDY #$00
+    LDY #$00                          ; For submodes >= $06, scan a delimited text field. A=0 means start at the current byte after trimming leading spaces; nonzero A re-enters with an already-consumed leading byte and starts from offset 1.
     TAX
     BEQ $160B                         ; Branch to L_160B
     LDA ($A7),Y
@@ -3625,23 +3659,24 @@ $1608 L_1608:                         ; xref: branch from $1604
     JMP $163C                         ; Jump to L_163C
 $160B L_160B:                         ; xref: branch from $1600
                                       ; xref: branch from $1614
-    LDA ($A7),Y
+    LDA ($A7),Y                       ; Skip leading spaces before the field proper.
+                                      ; Skip leading spaces before the field proper. Here $20 is the ASCII/PETSCII space character.
     CMP #$20
     BNE $1616                         ; Branch to L_1616
-    JSR $169F                         ; Call SUB_169F
+    JSR $169F                         ; Call advance_parse_source_ptr
     BNE $160B                         ; Branch to L_160B
 $1616 L_1616:                         ; xref: branch from $160F
-    LDA ($A7),Y
+    LDA ($A7),Y                       ; If the field begins with $22 ('"'), remember that we are inside a quoted field and skip the opening quote.
     CMP #$22
     BNE $1623                         ; Branch to L_1623
     STA $49
-    JSR $169F                         ; Call SUB_169F
+    JSR $169F                         ; Call advance_parse_source_ptr
     DEY
 $1622 L_1622:                         ; xref: branch from $1633
                                       ; xref: branch from $1637
     INY
 $1623 L_1623:                         ; xref: branch from $161A
-    LDA ($A7),Y
+    LDA ($A7),Y                       ; Outside quotes, stop on NUL ($00), comma ($2C, ','), or colon ($3A, ':'). Inside quotes, keep scanning until the closing quote is reached.
     BEQ $163C                         ; Branch to L_163C
     LDX $49
     BNE $1635                         ; Branch to L_1635
@@ -3651,7 +3686,7 @@ $1623 L_1623:                         ; xref: branch from $161A
     BEQ $163C                         ; Branch to L_163C
     BNE $1622                         ; Branch to L_1622
 $1635 L_1635:                         ; xref: branch from $1629
-    CMP #$22
+    CMP #$22                          ; Closing quote found: $22 ('"'). Clear the quoted-field flag, remember the unquoted payload length in $48, and materialize a temporary copy buffer/window for the extracted field.
     BNE $1622                         ; Branch to L_1622
     LDA #$FF
     BIT $00A9                         ; xref+1: jump from $1608 (L_1608), branch from $1625, branch from $162D, branch from $1631  [instruction data modified]
@@ -3672,7 +3707,7 @@ $164F L_164F:                         ; xref: branch from $1656
 $1658 L_1658:                         ; xref: branch from $164B
     JMP $168D                         ; Jump to L_168D
 $165B L_165B:                         ; xref: jump from $15FA
-    LDX $A7
+    LDX $A7                           ; For submodes < $06, parse a compact token/value from the current source pointer instead of scanning a delimited text field. The subtype in $47 controls whether one or two result bytes are stored.
     LDY $A8
     LDA #$27
     JSR $1AE0                         ; Call SUB_1AE0
@@ -3700,6 +3735,7 @@ $168D L_168D:                         ; xref: jump from $1658 (L_1658)
                                       ; xref: jump from $1673
                                       ; xref: branch from $1686
     JSR $191B                         ; Call SUB_191B
+                                      ; Return the consumed field length in Y and the terminating delimiter byte in X. If the field was quoted, skip the closing quote before reporting the delimiter position.
     LDY $48
     LDA $49
     BEQ $1697                         ; Branch to L_1697
@@ -3712,11 +3748,11 @@ $1697 L_1697:                         ; xref: branch from $1694
     ADC $A7
     RTS
 
-; === SUBROUTINE: SUB_169F ===
+; === SUBROUTINE: advance_parse_source_ptr ===
 
-$169F SUB_169F:                       ; xref: call from $1611
+$169F advance_parse_source_ptr:       ; xref: call from $1611
                                       ; xref: call from $161E
-    INC $A7
+    INC $A7                           ; Advance the source pointer in $A7/$A8 by one byte while scanning or trimming the type-$06 segment text.
     BNE $16A5                         ; Branch to L_16A5
     INC $A8
 $16A5 L_16A5:                         ; xref: branch from $16A1
@@ -4582,7 +4618,14 @@ $1B80                   .BYTE $00                                               
 ; xref: write from $1B63
 ; xref: read from $1B6D
 ; xref: write from $1B77
-$1B81                   .BYTE $00,$02,$37,$44,$40,$44,$06,$CF,$55,$03,$56,$06,$7E,$56,$9D      ; "..7D@D..U.V.~V."
+$1B81                   .BYTE $00                                                              ; "."
+; --------------------------------------------------------
+; Default 5-byte range/segment descriptor table used by init_range_descriptor_for_offset ($0E11).
+; Entry layout: byte 0 = descriptor type, bytes 1..2 = segment start address, bytes 3..4 = segment end address.
+; $0E11 scans by the end address and selects the first entry whose end is >= the requested target; it then clamps the working cursor up to the segment start when needed.
+; --------------------------------------------------------
+$1B82 default_range_descriptor_table:.BYTE $02
+$1B83                   .BYTE $37,$44,$40,$44,$06,$CF,$55,$03,$56,$06,$7E,$56,$9D              ; "7D@D..U.V.~V."
 $1B90                   .BYTE $56,$04,$BF,$5C,$DB,$5C,$02,$99,$61,$B9,$62,$00,$00,$00,$00,$00  ; "V..\.\..a.b....."
 $1BA0                   .BYTE $00,$C6,$69,$02,$01,$A6,$00,$12,$6B,$02,$01,$A6,$00,$5E,$6C,$01  ; "..i.....k....^l."
 $1BB0                   .BYTE $01,$A6,$00,$04,$6D,$01,$01,$A6,$00,$AA,$6D,$01,$01,$68,$00,$12  ; "....m.....m..h.."
@@ -5638,11 +5681,10 @@ $237B                   .BYTE $7C,$69,$00,$71                                   
 ; === CODE SECTION ===
 
     JSR $0C6D                         ; Call SUB_0C6D
-    BRK
 
 ; === DATA SECTION ===
 
-$2383                   .BYTE $71,$0C,$48,$00,$71                                              ; "q.H.q"
+$2382                   .BYTE $00,$71,$0C,$48,$00,$71                                          ; ".q.H.q"
 
 ; === CODE SECTION ===
 
@@ -8337,7 +8379,7 @@ $374F L_374F:                         ; xref: jump from $3749
     LDA #$01
     STA $695E
     JSR $5396                         ; Call refresh_current_room_state
-    JSR $569D                         ; Call SUB_569D
+    JSR $569D                         ; Call enter_disk_side_selection_flow
     LDA #$03
     STA $695D
     LDA #$FF
@@ -8398,6 +8440,7 @@ $3802 L_3802:                         ; xref: jump from $3812
                                       ; xref: jump from $38E8
                                       ; xref: jump from $3B46
                                       ; xref: jump from $4D1B
+                                      ; xref: jump from $4D67
     LDA $6D01
     CMP #$FF
     BNE $380C                         ; Branch to L_380C
@@ -9175,15 +9218,18 @@ $3D56 L_3D56:                         ; xref: branch from $3D51
     STA $70B9
     LDA #$00
     STA $70BA
+; --------------------------------------------------------
+; Text-id classifier threshold: ids >= $018D switch into mode $06, the special high-text handling path dispatched via $3EB2 -> $3F62.
+; --------------------------------------------------------
 $3D60 L_3D60:                         ; xref: jump from $3D53
-    LDA #$8D
+    LDA #$8D                          ; Compare textoutput against $018D. Values at or above this threshold are classified as mode $06.
     CMP $6990                         ; textoutput_LO
     LDA #$01
     SBC $6991                         ; textoutput_HI
     BCC $3D6F                         ; Branch to L_3D6F
     JMP $3D79                         ; Jump to L_3D79
 $3D6F L_3D6F:                         ; xref: branch from $3D6A
-    LDA #$06
+    LDA #$06                          ; Mode $06 selected for text ids >= $018D.
     STA $70B9
     LDA #$00
     STA $70BA
@@ -9546,6 +9592,7 @@ $4022 SUB_4022:                       ; xref: call from $3CEC
                                       ; xref: call from $3FFF
                                       ; xref: call from $60D4
     LDA $6990                         ; textoutput_LO
+                                      ; This is the fixed text-record path into $CB00/$CDDD: it sets dispatcher_arg_y = 0 before dispatch.
     AND #$FF
     STA $70FB
     LDA $6991                         ; textoutput_HI
@@ -9737,7 +9784,7 @@ $4190 L_4190:                         ; xref: jump from $4131
                                       ; xref: jump from $414A
     INC $695E
 $4193 L_4193:                         ; xref: jump from $40C1
-    LDA #$82
+    LDA #$82                          ; This is the fixed image-record path into $CB00/$CDDD: it sets dispatcher_arg_y = 2 before dispatch.
     STA $9624                         ; frontend_io_mode
     LDA $695E
     STA $030C                         ; dispatcher_arg_a
@@ -9818,7 +9865,7 @@ $4214                   .BYTE $04,$92,$69                                       
 
 ; === CODE SECTION ===
 
-    JSR $0E11                         ; Call SUB_0E11
+    JSR $0E11                         ; Call init_range_descriptor_for_offset
 
 ; === DATA SECTION ===
 
@@ -9838,7 +9885,7 @@ $4229                   .BYTE $04,$92,$69,$01,$00,$09,$00                       
 
 ; === CODE SECTION ===
 
-    JSR $0E7D                         ; Call SUB_0E7D
+    JSR $0E7D                         ; Call extract_from_range_segment
 
 ; === DATA SECTION ===
 
@@ -10101,7 +10148,9 @@ $4433 L_4433:                         ; xref: jump from $436E
 
 ; === DATA SECTION ===
 
-$4434                   .BYTE $4C,$40,$44,$03,$14,$4D,$7D,$7E,$8F,$93,$94,$97                  ; "L@D..M}~...."
+$4434                   .BYTE $4C,$40,$44                                                      ; "L@D"
+$4437 range_segment_type02_4437:.BYTE $03
+$4438                   .BYTE $14,$4D,$7D,$7E,$8F,$93,$94,$97                                  ; ".M}~...."
 
 ; === SUBROUTINE: special_08_list_exits_flow ===
 
@@ -10351,6 +10400,7 @@ $45D1 SUB_45D1:                       ; xref: call from $23DB
                                       ; xref: call from $4771 (SUB_4771)
                                       ; xref: call from $47C2
                                       ; xref: call from $49DE
+                                      ; xref: call from $4D64
                                       ; xref: call from $4FA6 (L_4FA6)
                                       ; xref: call from $54BF
                                       ; xref: call from $60D8 (L_60D8)
@@ -10392,6 +10442,10 @@ $45E2                   .BYTE $AE,$48,$C5,$70                                   
     STA $70C8
     LDA $6995                         ; imageno_HI
     STA $70C9
+; --------------------------------------------------------
+; High-level room image display/update path.
+; Saves imageno, runs the room image unpack pipeline at $651C, then restores imageno for the caller.
+; --------------------------------------------------------
     JSR $651C
     LDA $70C8
     STA $6994                         ; imageno_LO
@@ -10460,7 +10514,7 @@ $4682                   .BYTE $00,$28,$96                                       
 
 ; === CODE SECTION ===
 
-    JSR $56FD                         ; Call SUB_56FD
+    JSR $56FD                         ; Call load_disk_side_metadata_block
     JSR $0CDB                         ; Call call_vector_helper
 
 ; === DATA SECTION ===
@@ -10909,7 +10963,7 @@ $4A92                   .BYTE $00,$2E,$96                                       
 
     LDA $695D
     STA $9614
-    LDA $9631
+    LDA $9631                         ; frontend_raw_input_code
     STA $70D4
     LDA #$00
     STA $70D5
@@ -11026,7 +11080,7 @@ $4B5D                   .BYTE $00,$1B,$96                                       
 ; --------------------------------------------------------
 $4B60 room_resource_load_secondary:   ; xref: call from $472C
                                       ; xref: call from $62B9 (special_32_gate_check_flow)
-    JSR $60DC                         ; Call SUB_60DC
+    JSR $60DC                         ; Call manual_check_build_prompt
     LDA #$02
     STA $6990                         ; textoutput_LO
     LDA #$00
@@ -11055,7 +11109,7 @@ $4B94                   .BYTE $00,$1B,$96                                       
 
 ; === CODE SECTION ===
 
-    JSR $60DC                         ; Call SUB_60DC
+    JSR $60DC                         ; Call manual_check_build_prompt
     LDA #$02
     STA $6990                         ; textoutput_LO
     LDA #$00
@@ -11084,7 +11138,7 @@ $4BCB                   .BYTE $00,$1B,$96                                       
 
 ; === CODE SECTION ===
 
-    JSR $60DC                         ; Call SUB_60DC
+    JSR $60DC                         ; Call manual_check_build_prompt
     LDA #$02
     STA $6990                         ; textoutput_LO
     LDA #$00
@@ -11164,7 +11218,7 @@ $4C3C SUB_4C3C:                       ; xref: call from $4B70
                                       ; xref: call from $4BDE
     LDA #$00
     STA $C6
-    JSR $5D5A                         ; Call SUB_5D5A
+    JSR $5D5A                         ; Call frontend_prompt_wait_input
     LDA #$FF
     STA $69BF
     LDA #$00
@@ -11196,8 +11250,9 @@ $4C66 special_06_solution_flow:       ; xref: call from $3712
     LDA #$00
     STA $6991                         ; textoutput_HI
     JSR $3C02                         ; Call script_vm_show_text
-    JSR $5D5A                         ; Call SUB_5D5A
-    LDA $6961
+    JSR $5D5A                         ; Call frontend_prompt_wait_input
+    LDA $6961                         ; frontend_input_code
+                                      ; Accept translated input code $4E ('N') as one of the continue/return choices for this solution prompt.
     CMP #$4E
     BEQ $4C81                         ; Branch to L_4C81
     LDA #$00
@@ -11206,7 +11261,8 @@ $4C81 L_4C81:                         ; xref: branch from $4C7B
     LDA #$FF
 $4C83 L_4C83:                         ; xref: branch from $4C7F
     STA $70FB
-    LDA $6961
+    LDA $6961                         ; frontend_input_code
+                                      ; Accept translated input code $0C as left mouse button for the same prompt.
     CMP #$0C
     BEQ $4C91                         ; Branch to L_4C91
     LDA #$00
@@ -11222,7 +11278,8 @@ $4C93 L_4C93:                         ; xref: branch from $4C8F
 $4CA1 L_4CA1:                         ; xref: branch from $4C9C
     JMP $5269                         ; Jump to L_5269
 $4CA4 L_4CA4:                         ; xref: jump from $4C9E
-    LDA $6961
+    LDA $6961                         ; frontend_input_code
+                                      ; Accept translated input code $45 ('E') as the explicit exit choice for this prompt.
     CMP #$45
     BEQ $4CAF                         ; Branch to L_4CAF
     LDA #$00
@@ -11231,7 +11288,8 @@ $4CAF L_4CAF:                         ; xref: branch from $4CA9
     LDA #$FF
 $4CB1 L_4CB1:                         ; xref: branch from $4CAD
     STA $70FB
-    LDA $6961
+    LDA $6961                         ; frontend_input_code
+                                      ; Accept translated input code $12 as right mouse button for the same prompt.
     CMP #$12
     BEQ $4CBF                         ; Branch to L_4CBF
     LDA #$00
@@ -11253,9 +11311,17 @@ $4CD7 L_4CD7:                         ; xref: jump from $4CCC
 
 ; === SUBROUTINE: special_07_music_toggle_flow ===
 
+; --------------------------------------------------------
+; Toggle the music state flag in $CFF5, choose the corresponding status text id, show that text, then refresh/switch the compressed-text tables via $C903.
+; Observed follow-up indexed-record fetches during testing:
+; - music ON:  A=$0C X=$02 Y=$07
+; - music OFF: A=$0C X=$02 Y=$08
+; --------------------------------------------------------
 $4CDA special_07_music_toggle_flow:   ; xref: call from $371B
                                       ; xref: jump from $39E6 (L_39E6)
-    LDA $CFF5                         ; stream_table_mode_flag
+    LDA $CFF5                         ; music_enabled_flag
+                                      ; Read the current music/text-table mode flag from $CFF5, invert it, and keep only bit 0. The new value is the toggled music state.
+                                      ; music_enabled_flag at $CFF5 is the confirmed one-bit music ON/OFF state: 1 = ON, 0 = OFF.
     STA $70FB
     LDA #$FF
     EOR $70FB
@@ -11263,9 +11329,11 @@ $4CDA special_07_music_toggle_flow:   ; xref: call from $371B
     LDA $70FB
     AND #$01
     STA $6965
-    LDA $6965
-    STA $CFF5                         ; stream_table_mode_flag
-    LDA $6965
+    LDA $6965                         ; Store the toggled one-bit state back to $CFF5. If the old value was 0, the new state becomes 1; if the old value was 1, the new state becomes 0.
+    STA $CFF5                         ; music_enabled_flag
+    LDA $6965                         ; Compute status text id $0023 - new_state. Therefore:
+                                      ; - new_state = 1 -> text id $0022
+                                      ; - new_state = 0 -> text id $0023
     STA $70FB
     LDA #$00
     STA $70FC
@@ -11277,6 +11345,7 @@ $4CDA special_07_music_toggle_flow:   ; xref: call from $371B
     SBC $70FC
     STA $6991                         ; textoutput_HI
     JSR $3C02                         ; Call script_vm_show_text
+                                      ; Show the music-toggle status text, then call svc_prepare_stream_tables ($C903). The later indexed-record fetches observed during testing identify the ON and OFF follow-up resource requests.
 ; --------------------------------------------------------
 ; Refresh or switch the compressed-text decode tables before continuing the text-driven front-end flow.
 ; 
@@ -11303,17 +11372,48 @@ $4D1E L_4D1E:                         ; xref: jump from $39FA (L_39FA)
     LDA $6965
     STA $CFF6
     JSR $0D37                         ; Call resource_copy_descriptor_dispatch
-    STA ($5E),Y
 
 ; === DATA SECTION ===
 
-$4D3F                   .BYTE $9C                                                              ; "."
-$4D40                   .BYTE $69,$AD,$65,$69,$C9,$01,$F0,$03,$4C,$52,$4D,$20,$37,$0D,$97,$5E  ; "i.ei....LRM 7..^"
-$4D50                   .BYTE $9C,$69,$20,$8D,$0C,$9D,$5E,$9C,$69,$FB,$70,$20,$8D,$0C,$FB,$70  ; ".i ...^.i.p ...p"
-$4D60                   .BYTE $BD,$5E,$9C,$69,$20,$D1,$45,$4C,$02,$38                          ; ".^.i .EL.8"
+$4D3D                   .BYTE $91,$5E,$9C                                                      ; ".^."
+$4D40                   .BYTE $69                                                              ; "i"
 
 ; === CODE SECTION ===
 
+    LDA $6965
+    CMP #$01
+    BEQ $4D4B                         ; Branch to L_4D4B
+    JMP $4D52                         ; Jump to L_4D52
+$4D4B L_4D4B:                         ; xref: branch from $4D46
+    JSR $0D37                         ; Call resource_copy_descriptor_dispatch
+
+; === DATA SECTION ===
+
+$4D4E                   .BYTE $97,$5E                                                          ; ".^"
+$4D50                   .BYTE $9C,$69                                                          ; ".i"
+
+; === CODE SECTION ===
+
+$4D52 L_4D52:                         ; xref: jump from $4D48
+    JSR $0C8D                         ; Call SUB_0C8D
+
+; === DATA SECTION ===
+
+$4D55                   .BYTE $9D,$5E,$9C,$69,$FB,$70                                          ; ".^.i.p"
+
+; === CODE SECTION ===
+
+    JSR $0C8D                         ; Call SUB_0C8D
+
+; === DATA SECTION ===
+
+$4D5E                   .BYTE $FB,$70                                                          ; ".p"
+$4D60                   .BYTE $BD,$5E,$9C,$69                                                  ; ".^.i"
+
+; === CODE SECTION ===
+
+    JSR $45D1                         ; Call SUB_45D1
+    JMP $3802                         ; Jump to L_3802
 $4D6A L_4D6A:                         ; xref: jump from $39FD (L_39FD)
     LDA $6986                         ; command_LO
     CMP #$28
@@ -11874,8 +11974,9 @@ $5130 special_05_endgame_flow:        ; xref: call from $3709
     LDA #$00
     STA $6991                         ; textoutput_HI
     JSR $3C02                         ; Call script_vm_show_text
-    JSR $5D5A                         ; Call SUB_5D5A
-    LDA $6961
+    JSR $5D5A                         ; Call frontend_prompt_wait_input
+                                      ; This confirmation prompt accepts translated input code $4A ('J') as keyboard confirm.
+    LDA $6961                         ; frontend_input_code
     CMP #$4A
     BEQ $514B                         ; Branch to L_514B
     LDA #$00
@@ -11883,8 +11984,8 @@ $5130 special_05_endgame_flow:        ; xref: call from $3709
 $514B L_514B:                         ; xref: branch from $5145
     LDA #$FF
 $514D L_514D:                         ; xref: branch from $5149
-    STA $70FB
-    LDA $6961
+    STA $70FB                         ; This confirmation prompt also accepts translated input code $12 as right mouse button confirm.
+    LDA $6961                         ; frontend_input_code
     CMP #$12
     BEQ $515B                         ; Branch to L_515B
     LDA #$00
@@ -11912,8 +12013,8 @@ $5174 special_04_restart_flow:        ; xref: call from $3700
     LDA #$00
     STA $6991                         ; textoutput_HI
     JSR $3C02                         ; Call script_vm_show_text
-    JSR $5D5A                         ; Call SUB_5D5A
-    LDA $6961
+    JSR $5D5A                         ; Call frontend_prompt_wait_input
+    LDA $6961                         ; frontend_input_code
     CMP #$4A
     BEQ $518F                         ; Branch to L_518F
     LDA #$00
@@ -11922,7 +12023,7 @@ $518F L_518F:                         ; xref: branch from $5189
     LDA #$FF
 $5191 L_5191:                         ; xref: branch from $518D
     STA $70FB
-    LDA $6961
+    LDA $6961                         ; frontend_input_code
     CMP #$12
     BEQ $519F                         ; Branch to L_519F
     LDA #$00
@@ -11961,8 +12062,9 @@ $51C3                   .BYTE $00,$28,$96                                       
     LDA #$FF
     STA $6D01
 $51CB L_51CB:                         ; xref: jump from $5265 (L_5265)
-    JSR $5D11                         ; Call SUB_5D11
-    LDA $6961
+    JSR $5D11                         ; Call frontend_read_translated_input
+                                      ; This modal prompt loop accepts translated input code $42 ('B') or $12 (right mouse) as the affirmative path, then checks $4E/$0C and $4C for alternate actions.
+    LDA $6961                         ; frontend_input_code
     CMP #$42
     BEQ $51D9                         ; Branch to L_51D9
     LDA #$00
@@ -11971,7 +12073,7 @@ $51D9 L_51D9:                         ; xref: branch from $51D3
     LDA #$FF
 $51DB L_51DB:                         ; xref: branch from $51D7
     STA $70FB
-    LDA $6961
+    LDA $6961                         ; frontend_input_code
     CMP #$12
     BEQ $51E9                         ; Branch to L_51E9
     LDA #$00
@@ -11997,7 +12099,7 @@ $51FC                   .BYTE $00,$2B,$96                                       
     STA $CFF4
     JMP $381A                         ; Jump to L_381A
 $5207 L_5207:                         ; xref: jump from $51F6
-    LDA $6961
+    LDA $6961                         ; frontend_input_code
     CMP #$4E
     BEQ $5212                         ; Branch to L_5212
     LDA #$00
@@ -12006,7 +12108,7 @@ $5212 L_5212:                         ; xref: branch from $520C
     LDA #$FF
 $5214 L_5214:                         ; xref: branch from $5210
     STA $70FB
-    LDA $6961
+    LDA $6961                         ; frontend_input_code
     CMP #$0C
     BEQ $5222                         ; Branch to L_5222
     LDA #$00
@@ -12030,7 +12132,7 @@ $5235                   .BYTE $00,$2B,$96                                       
 
     JMP $5269                         ; Jump to L_5269
 $523B L_523B:                         ; xref: jump from $522F
-    LDA $6961
+    LDA $6961                         ; frontend_input_code
     CMP #$4C
     BEQ $5245                         ; Branch to L_5245
     JMP $525B                         ; Jump to L_525B
@@ -12076,7 +12178,7 @@ $5277 L_5277:                         ; xref: jump from $46A3 (L_46A3)
     JSR $5396                         ; Call refresh_current_room_state
     LDA #$01
     STA $6963
-    JSR $569D                         ; Call SUB_569D
+    JSR $569D                         ; Call enter_disk_side_selection_flow
     LDA #$03
     STA $695D
     LDA $695D
@@ -12117,8 +12219,8 @@ $52D2 special_09_disk_install_flow:   ; xref: call from $372D
     LDA #$02
     STA $6991                         ; textoutput_HI
     JSR $3C02                         ; Call script_vm_show_text
-    JSR $5D5A                         ; Call SUB_5D5A
-    LDA $6961
+    JSR $5D5A                         ; Call frontend_prompt_wait_input
+    LDA $6961                         ; frontend_input_code
     CMP #$4A
     BEQ $52ED                         ; Branch to L_52ED
     LDA #$00
@@ -12127,7 +12229,7 @@ $52ED L_52ED:                         ; xref: branch from $52E7
     LDA #$FF
 $52EF L_52EF:                         ; xref: branch from $52EB
     STA $70FB
-    LDA $6961
+    LDA $6961                         ; frontend_input_code
     CMP #$12
     BEQ $52FD                         ; Branch to L_52FD
     LDA #$00
@@ -12162,6 +12264,7 @@ $531B L_531B:                         ; xref: jump from $530A
 
 $532A SUB_532A:                       ; xref: call from $556E (L_556E)
     JSR $534F                         ; Call SUB_534F
+                                      ; Send one protocol block through svc_write_block ($CB09) using the buffer pointer at $CA60/$CA61. This is part of the disk-side selection flow.
     LDA #$82
     STA $9624                         ; frontend_io_mode
     LDA #$00
@@ -12270,12 +12373,16 @@ $5396 refresh_current_room_state:     ; xref: call from $377E
                                       ; xref: call from $62E1
                                       ; xref: call from $6465
     LDA #$00
-    STA $6961
+    STA $6961                         ; frontend_input_code
     LDA #$00
     STA $6962
     LDA #$00
     STA $C6
-$53A4 L_53A4:                         ; xref: jump from $54E8
+; --------------------------------------------------------
+; Modal disk-side selection loop.
+; Accepts translated prompt input, loads the side-selection resources, reads the currently inserted disk header, compares it against the selected disk ID, and either refreshes locally or branches to the bulk table reload path at $54EB.
+; --------------------------------------------------------
+$53A4 disk_side_selection_loop:       ; xref: jump from $54E8
     LDA $6963
     CMP #$00
     BEQ $53AF                         ; Branch to L_53AF
@@ -12285,7 +12392,7 @@ $53AF L_53AF:                         ; xref: branch from $53A9
     LDA #$FF
 $53B1 L_53B1:                         ; xref: branch from $53AD
     STA $70FB
-    LDA $6961
+    LDA $6961                         ; frontend_input_code
     CMP #$03
     BEQ $53BF                         ; Branch to L_53BF
     LDA #$00
@@ -12294,7 +12401,7 @@ $53BF L_53BF:                         ; xref: branch from $53B9
     LDA #$FF
 $53C1 L_53C1:                         ; xref: branch from $53BD
     STA $7100
-    LDA $6961
+    LDA $6961                         ; frontend_input_code
     CMP #$12
     BEQ $53CF                         ; Branch to L_53CF
     LDA #$00
@@ -12306,7 +12413,7 @@ $53D1 L_53D1:                         ; xref: branch from $53CD
     LDA $7100
     ORA $7105
     STA $7100
-    LDA $6961
+    LDA $6961                         ; frontend_input_code
     CMP #$5F
     BEQ $53E8                         ; Branch to L_53E8
     LDA #$00
@@ -12327,7 +12434,7 @@ $5401 L_5401:                         ; xref: branch from $53FC
     STA $6962
     JMP $5571                         ; Jump to L_5571
 $5409 L_5409:                         ; xref: jump from $53FE
-    JSR $0E11                         ; Call SUB_0E11
+    JSR $0E11                         ; Call init_range_descriptor_for_offset
 
 ; === DATA SECTION ===
 
@@ -12351,7 +12458,7 @@ $5426                   .BYTE $44,$92,$69,$01,$00,$00,$71                       
 
 ; === CODE SECTION ===
 
-    JSR $0E7D                         ; Call SUB_0E7D
+    JSR $0E7D                         ; Call extract_from_range_segment
 
 ; === DATA SECTION ===
 
@@ -12359,7 +12466,7 @@ $5430                   .BYTE $06,$C2,$70                                       
 
 ; === CODE SECTION ===
 
-    JSR $0E7D                         ; Call SUB_0E7D
+    JSR $0E7D                         ; Call extract_from_range_segment
 
 ; === DATA SECTION ===
 
@@ -12367,7 +12474,7 @@ $5436                   .BYTE $06,$C5,$70                                       
 
 ; === CODE SECTION ===
 
-    JSR $0E7D                         ; Call SUB_0E7D
+    JSR $0E7D                         ; Call extract_from_range_segment
 
 ; === DATA SECTION ===
 
@@ -12385,6 +12492,7 @@ $5442                   .BYTE $04,$92,$69                                       
 
     JSR $534F                         ; Call SUB_534F
     JSR $0CDB                         ; Call call_vector_helper
+                                      ; Query the currently inserted disk/resource header via svc_read_record_header ($CB0C), then format the returned header bytes from $CB1B/$CB1C for comparison/display.
 
 ; === DATA SECTION ===
 
@@ -12406,7 +12514,7 @@ $545A                   .BYTE $EE,$70,$EB,$70,$4E,$00                           
     BNE $5465                         ; Branch to L_5465
     JMP $5468                         ; Jump to L_5468
 $5465 L_5465:                         ; xref: branch from $5460
-    JMP $54EB                         ; Jump to L_54EB
+    JMP $54EB                         ; Jump to reload_disk_side_tables
 $5468 L_5468:                         ; xref: jump from $5462
     LDA $695E
     CMP #$00
@@ -12511,14 +12619,23 @@ $54E2                   .BYTE $00,$2B,$96                                       
 ; === CODE SECTION ===
 
     JSR $5D34                         ; Call SUB_5D34
-    JMP $53A4                         ; Jump to L_53A4
-$54EB L_54EB:                         ; xref: jump from $5465 (L_5465)
+    JMP $53A4                         ; Jump to disk_side_selection_loop
+; --------------------------------------------------------
+; Reload the side-specific indexed resource metadata.
+; Calls svc_bulk_load_tables ($CB18), which repopulates the Huffman tree and indexed-record pointer tables for the newly selected disk side.
+; --------------------------------------------------------
+$54EB reload_disk_side_tables:        ; xref: jump from $5465 (L_5465)
     LDA #$82
     STA $9624                         ; frontend_io_mode
     JSR $0CDB                         ; Call call_vector_helper
 
 ; === DATA SECTION ===
 
+
+; --------------------------------------------------------
+; Dispatch svc_bulk_load_tables ($CB18) through call_vector_helper. This is the actual side-change table reload, not just the prompt/UI path.
+; The surrounding disk-change flow is now known to trigger protocol-directed writes not only for table reloads but also to destinations observed as $7600 and $B926. The $B926 case is a strong match for SID music resource refresh.
+; --------------------------------------------------------
 $54F3                   .BYTE $00,$18,$CB                                                      ; "..."
 
 ; === CODE SECTION ===
@@ -12664,7 +12781,13 @@ $55CB L_55CB:                         ; xref: jump from $55C1
 
 ; === DATA SECTION ===
 
-$55CC                   .BYTE $4C,$03,$56,$53                                                  ; "L.VS"
+$55CC                   .BYTE $4C,$03,$56                                                      ; "L.V"
+; --------------------------------------------------------
+; Disk-side / disk-ID mapping string block.
+; This segment appears to pair side labels with disk IDs, including entries for DA, DB, DC, DD, PB, and DS. The exact separator/quoting convention still needs a clean charset-aware decode, but the overall structure is clearly related to disk side selection.
+; Descriptor type: $06 in the default range-descriptor table at $1B82.
+; --------------------------------------------------------
+$55CF disk_side_id_mapping_list:.BYTE $53
 $55D0                   .BYTE $2C,$53,$2C,$44,$53,$00,$22,$C2,$22,$2C,$31,$2C,$44,$41,$00,$22  ; ",S,DS.".",1,DA.""
 $55E0                   .BYTE $C2,$22,$2C,$32,$2C,$44,$42,$00,$22,$C3,$22,$2C,$31,$2C,$44,$43  ; ".",2,DB.".",1,DC"
 $55F0                   .BYTE $00,$22,$C3,$22,$2C,$32,$2C,$44,$44,$00,$22,$C1,$22,$2C,$32,$2C  ; ".".",2,DD.".",2,"
@@ -12683,7 +12806,7 @@ $5606                   .BYTE $00,$0C,$CB                                       
 
     JSR $534F                         ; Call SUB_534F
     JSR $558F                         ; Call SUB_558F
-    JSR $0E11                         ; Call SUB_0E11
+    JSR $0E11                         ; Call init_range_descriptor_for_offset
 
 ; === DATA SECTION ===
 
@@ -12708,7 +12831,7 @@ $5630                   .BYTE $06,$00                                           
 
 ; === CODE SECTION ===
 
-    JSR $0E7D                         ; Call SUB_0E7D
+    JSR $0E7D                         ; Call extract_from_range_segment
 
 ; === DATA SECTION ===
 
@@ -12772,13 +12895,24 @@ $567A L_567A:                         ; xref: jump from $5664
 
 ; === DATA SECTION ===
 
-$567B                   .BYTE $4C,$9D,$56,$20,$22                                              ; "L.V ""
+$567B                   .BYTE $4C,$9D,$56                                                      ; "L.V"
+; --------------------------------------------------------
+; Null-terminated disk ID string list.
+; Contains the quoted IDs "DA", "DB", "DC", "DD", "PB", and "DS" used by the surrounding disk/resource selection logic.
+; Descriptor type: $06 in the default range-descriptor table at $1B82.
+; --------------------------------------------------------
+$567E disk_id_string_list:.BYTE $20
+$567F                   .BYTE $22                                                              ; """
 $5680                   .BYTE $44,$41,$22,$2C,$22,$44,$42,$22,$2C,$22,$44,$43,$22,$2C,$22,$44  ; "DA","DB","DC","D"
 $5690                   .BYTE $44,$22,$2C,$22,$50,$42,$22,$2C,$22,$44,$53,$22,$00              ; "D","PB","DS"."
 
-; === SUBROUTINE: SUB_569D ===
+; === SUBROUTINE: enter_disk_side_selection_flow ===
 
-$569D SUB_569D:                       ; xref: call from $3781
+; --------------------------------------------------------
+; Enter the disk-side selection flow.
+; Initializes selector state, calls load_disk_side_metadata_block ($56FD), then continues with the side/resource setup path.
+; --------------------------------------------------------
+$569D enter_disk_side_selection_flow: ; xref: call from $3781
                                       ; xref: call from $5284
     LDA #$23
     STA $695F
@@ -12788,7 +12922,7 @@ $569D SUB_569D:                       ; xref: call from $3781
     STA $70D8
     LDA #$00
     STA $70D9
-    JSR $56FD                         ; Call SUB_56FD
+    JSR $56FD                         ; Call load_disk_side_metadata_block
     LDA #$00
     STA $698C                         ; pointsum_LO
     LDA #$00
@@ -12832,9 +12966,12 @@ $56EA                   .BYTE $04,$92,$69                                       
     STA $698F                         ; steps_HI
     RTS
 
-; === SUBROUTINE: SUB_56FD ===
+; === SUBROUTINE: load_disk_side_metadata_block ===
 
-$56FD SUB_56FD:                       ; xref: call from $4685
+; --------------------------------------------------------
+; Load the disk-side metadata block through resource_load_descriptor_dispatch ($0D4F), then scatter the decoded bytes into the side-selection/state tables used by the surrounding disk-change flow.
+; --------------------------------------------------------
+$56FD load_disk_side_metadata_block:  ; xref: call from $4685
                                       ; xref: call from $56B1
     LDA #$01
     STA $6992                         ; temp_LO
@@ -13575,6 +13712,9 @@ $5C5C L_5C5C:                         ; xref: branch from $5C55
     JMP $5C64                         ; Jump to L_5C64
 $5C61 L_5C61:                         ; xref: branch from $5C5C (L_5C5C)
     JMP $3B32                         ; Jump to L_3B32
+; --------------------------------------------------------
+; Enter manual-check mode (addr6963 = $04), refresh room/state for the copy-protection flow, then show the manual-check prompt text $01B4.
+; --------------------------------------------------------
 $5C64 L_5C64:                         ; xref: jump from $5C5E
     LDA #$04
     STA $6963
@@ -13588,7 +13728,12 @@ $5C64 L_5C64:                         ; xref: jump from $5C5E
 
 ; === DATA SECTION ===
 
-$5C7C                   .BYTE $00,$1B,$96                                                      ; "..."
+$5C7C                   .BYTE $00,$1B                                                          ; ".."
+
+; --------------------------------------------------------
+; Load text id $01B4, the fixed manual-check question prompt shown before the dynamic question fields are built.
+; --------------------------------------------------------
+$5C7E                   .BYTE $96                                                              ; "."
 
 ; === CODE SECTION ===
 
@@ -13614,7 +13759,7 @@ $5C8F SUB_5C8F:                       ; xref: call from $5C0B
 $5C99 SUB_5C99:                       ; xref: call from $4104
                                       ; xref: call from $4169
                                       ; xref: call from $5CF7
-    JSR $0E11                         ; Call SUB_0E11
+    JSR $0E11                         ; Call init_range_descriptor_for_offset
 
 ; === DATA SECTION ===
 
@@ -13635,7 +13780,7 @@ $5CB0                   .BYTE $B9,$69                                           
 
 ; === CODE SECTION ===
 
-    JSR $0E7D                         ; Call SUB_0E7D
+    JSR $0E7D                         ; Call extract_from_range_segment
 
 ; === DATA SECTION ===
 
@@ -13648,7 +13793,8 @@ $5CB5                   .BYTE $04,$BD,$70                                       
 
 ; === DATA SECTION ===
 
-$5CBC                   .BYTE $4C,$DB,$5C,$00                                                  ; "L.\."
+$5CBC                   .BYTE $4C,$DB,$5C                                                      ; "L.\"
+$5CBF range_segment_type04_5CBF:.BYTE $00
 $5CC0                   .BYTE $00,$0F,$00,$23,$00,$0F,$00,$26,$00,$00,$00,$00,$00,$0F,$00,$32  ; "...#...&.......2"
 $5CD0                   .BYTE $00,$41,$00,$A6,$00,$61,$01,$8B,$01,$41,$02                      ; ".A...a...A."
 
@@ -13680,9 +13826,16 @@ $5CDB SUB_5CDB:                       ; xref: call from $38E5
     JSR $3C02                         ; Call script_vm_show_text
     RTS
 
-; === SUBROUTINE: SUB_5D11 ===
+; === SUBROUTINE: frontend_read_translated_input ===
 
-$5D11 SUB_5D11:                       ; xref: call from $51CB (L_51CB)
+; --------------------------------------------------------
+; Read one translated frontend input event for prompt/menu handling.
+; 
+; Forces frontend_io_mode=$83, dispatches the frontend input service, copies the raw result from frontend_raw_input_code ($9631) into frontend_input_code ($6961), then translates it through the lookup path at $0F5B using the table rooted at $70DA.
+; 
+; The translated code in $6961 is what prompt handlers compare against.
+; --------------------------------------------------------
+$5D11 frontend_read_translated_input: ; xref: call from $51CB (L_51CB)
                                       ; xref: call from $5D60
                                       ; xref: call from $5D6F (L_5D6F)
     LDA #$00
@@ -13699,11 +13852,11 @@ $5D1D                   .BYTE $00,$32,$96                                       
 
     LDA #$80
     STA $9624                         ; frontend_io_mode
-    LDA $9631
-    STA $6961
+    LDA $9631                         ; frontend_raw_input_code
+    STA $6961                         ; frontend_input_code
 $5D2B L_5D2B:                         ; xref: jump from $5D4F
                                       ; xref: jump from $5D57
-    LDA $6961
+    LDA $6961                         ; frontend_input_code
     JSR $0F5B                         ; Call SUB_0F5B
 
 ; === DATA SECTION ===
@@ -13728,17 +13881,22 @@ $5D46                   .BYTE $00,$32,$96                                       
 
 ; === CODE SECTION ===
 
-    LDA $9631
-    STA $6961
+    LDA $9631                         ; frontend_raw_input_code
+    STA $6961                         ; frontend_input_code
     JMP $5D2B                         ; Jump to L_5D2B
 $5D52 L_5D52:                         ; xref: jump from $5D40
     LDA #$00
-    STA $6961
+    STA $6961                         ; frontend_input_code
     JMP $5D2B                         ; Jump to L_5D2B
 
-; === SUBROUTINE: SUB_5D5A ===
+; === SUBROUTINE: frontend_prompt_wait_input ===
 
-$5D5A SUB_5D5A:                       ; xref: call from $4C40
+; --------------------------------------------------------
+; Open the staged frontend prompt area, read one translated input event via frontend_read_translated_input ($5D11), then close the prompt stage.
+; 
+; Used by yes/no and modal prompt flows such as restart, quit, solution, and disk-install confirmation.
+; --------------------------------------------------------
+$5D5A frontend_prompt_wait_input:     ; xref: call from $4C40
                                       ; xref: call from $4C73
                                       ; xref: call from $513D
                                       ; xref: call from $5181
@@ -13752,7 +13910,7 @@ $5D5D                   .BYTE $00,$28,$96                                       
 
 ; === CODE SECTION ===
 
-    JSR $5D11                         ; Call SUB_5D11
+    JSR $5D11                         ; Call frontend_read_translated_input
     JSR $0CDB                         ; Call call_vector_helper
 
 ; === DATA SECTION ===
@@ -13765,8 +13923,9 @@ $5D66                   .BYTE $00,$2B,$96                                       
     LDA #$09
     STA $D020                         ; VIC_BORDER
 $5D6F L_5D6F:                         ; xref: jump from $5D91 (L_5D91)
-    JSR $5D11                         ; Call SUB_5D11
-    LDA $6961
+    JSR $5D11                         ; Call frontend_read_translated_input
+                                      ; This wait loop exits on translated input code $5F, which is currently best interpreted as SPACE.
+    LDA $6961                         ; frontend_input_code
     CMP #$5F
     BEQ $5D7C                         ; Branch to L_5D7C
     JMP $5D82                         ; Jump to L_5D82
@@ -13775,7 +13934,7 @@ $5D7C L_5D7C:                         ; xref: branch from $5D77
     STA $D020                         ; VIC_BORDER
     RTS
 $5D82 L_5D82:                         ; xref: jump from $5D79
-    LDA $6961
+    LDA $6961                         ; frontend_input_code
     CMP #$46
     BEQ $5D8C                         ; Branch to L_5D8C
     JMP $5D91                         ; Jump to L_5D91
@@ -14105,12 +14264,17 @@ $60D8 L_60D8:                         ; xref: jump from $5DC1
     JSR $45D1                         ; Call SUB_45D1
     RTS
 
-; === SUBROUTINE: SUB_60DC ===
+; === SUBROUTINE: manual_check_build_prompt ===
 
-$60DC SUB_60DC:                       ; xref: call from $4B60 (room_resource_load_secondary)
+; --------------------------------------------------------
+; Build the copy-protection/manual-check prompt from the type-$02 question records.
+; Initializes the range-descriptor table at $6199/$61F9, formats the six extracted fields into work buffers, then emits the assembled prompt text.
+; --------------------------------------------------------
+$60DC manual_check_build_prompt:      ; xref: call from $4B60 (room_resource_load_secondary)
                                       ; xref: call from $4B97
                                       ; xref: call from $4BCE
-    JSR $0E11                         ; Call SUB_0E11
+    JSR $0E11                         ; Call init_range_descriptor_for_offset
+                                      ; Enter the manual-check question builder. The first $0E11 selects the primary question-table segment, and the fallback at $611D switches to the continuation table when needed.
 
 ; === DATA SECTION ===
 
@@ -14150,7 +14314,7 @@ $610F L_610F:                         ; xref: branch from $610B
     BNE $611D                         ; Branch to L_611D
     JMP $612C                         ; Jump to L_612C
 $611D L_611D:                         ; xref: branch from $6118
-    JSR $0E11                         ; Call SUB_0E11
+    JSR $0E11                         ; Call init_range_descriptor_for_offset
 
 ; === DATA SECTION ===
 
@@ -14198,7 +14362,8 @@ $6146                   .BYTE $FB,$70,$B9,$69                                   
 ; === CODE SECTION ===
 
 $614A L_614A:                         ; xref: jump from $618A
-    JSR $0E7D                         ; Call SUB_0E7D
+    JSR $0E7D                         ; Call extract_from_range_segment
+                                      ; Extract the six type-$02 fields for the current manual-check record into the formatter buffers: character index, word, page, row, paragraph, and expected character.
 
 ; === DATA SECTION ===
 
@@ -14206,7 +14371,7 @@ $614D                   .BYTE $02,$67,$69                                       
 
 ; === CODE SECTION ===
 
-    JSR $0E7D                         ; Call SUB_0E7D
+    JSR $0E7D                         ; Call extract_from_range_segment
 
 ; === DATA SECTION ===
 
@@ -14214,7 +14379,7 @@ $6153                   .BYTE $02,$68,$69                                       
 
 ; === CODE SECTION ===
 
-    JSR $0E7D                         ; Call SUB_0E7D
+    JSR $0E7D                         ; Call extract_from_range_segment
 
 ; === DATA SECTION ===
 
@@ -14222,7 +14387,7 @@ $6159                   .BYTE $02,$69,$69                                       
 
 ; === CODE SECTION ===
 
-    JSR $0E7D                         ; Call SUB_0E7D
+    JSR $0E7D                         ; Call extract_from_range_segment
 
 ; === DATA SECTION ===
 
@@ -14231,7 +14396,7 @@ $6160                   .BYTE $6A,$69                                           
 
 ; === CODE SECTION ===
 
-    JSR $0E7D                         ; Call SUB_0E7D
+    JSR $0E7D                         ; Call extract_from_range_segment
 
 ; === DATA SECTION ===
 
@@ -14239,7 +14404,7 @@ $6165                   .BYTE $02,$6B,$69                                       
 
 ; === CODE SECTION ===
 
-    JSR $0E7D                         ; Call SUB_0E7D
+    JSR $0E7D                         ; Call extract_from_range_segment
 
 ; === DATA SECTION ===
 
@@ -14263,7 +14428,7 @@ $6187 L_6187:                         ; xref: branch from $6182
     DEC $69B9
     JMP $614A                         ; Jump to L_614A
 $618D L_618D:                         ; xref: jump from $617C
-    LDA $696C
+    LDA $696C                         ; Emit the final formatted manual-check prompt from the assembled work buffer.
     JSR $0F5B                         ; Call SUB_0F5B
 
 ; === DATA SECTION ===
@@ -14276,7 +14441,14 @@ $6193                   .BYTE $DD,$70                                           
 
 ; === DATA SECTION ===
 
-$6196                   .BYTE $4C,$B9,$62,$03,$01,$03,$04,$03,$45,$03                          ; "L.b.....E."
+$6196                   .BYTE $4C,$B9,$62                                                      ; "L.b"
+; --------------------------------------------------------
+; Manual-check / copy-protection question table.
+; This range segment encodes the prompts used to ask the player for a specific character from the printed manual: character index, word, page, row, paragraph, and the expected character at that position.
+; The surrounding type-$02 extraction path uses these records to build the security question flow.
+; --------------------------------------------------------
+$6199 manual_check_question_table:.BYTE $03
+$619A                   .BYTE $01,$03,$04,$03,$45,$03                                          ; "....E."
 $61A0                   .BYTE $02,$02,$04,$05,$59,$03,$02,$0A,$06,$05,$49,$03,$03,$05,$05,$05  ; "....Y.....I....."
 $61B0                   .BYTE $54,$04,$01,$05,$07,$01,$49,$04,$01,$0D,$02,$05,$52,$04,$02,$01  ; "T.....I.....R..."
 $61C0                   .BYTE $02,$02,$41,$04,$02,$0A,$02,$04,$45,$05,$01,$02,$04,$02,$55,$05  ; "..A.....E.....U."
@@ -14700,6 +14872,10 @@ $6510                   .BYTE $CF,$01,$00,$A5,$00                               
     JSR $64B1
     JSR $0F77                         ; Call SUB_0F77
     RTS
+; --------------------------------------------------------
+; Second-stage room image unpack/reorganization pass.
+; Consumes the already RLE-expanded image work buffers, reshuffles them into the game's final bitmap/color layout, and hands off to $6775 for post-processing.
+; --------------------------------------------------------
 $651C room_image_unpack_entry:        ; xref: call from $4606
                                       ; xref: jump from $655D
                                       ; xref: jump from $658B
@@ -15158,6 +15334,10 @@ $6772                   .BYTE $F3,$70                                           
 ; === CODE SECTION ===
 
     RTS
+; --------------------------------------------------------
+; Room image post-processing stage.
+; Runs after the main image unpack pass to finalize the reorganized image buffers for display.
+; --------------------------------------------------------
 $6775 room_image_postprocess_entry:   ; xref: call from $6758
                                       ; xref: call from $676C
     JSR $0FAB                         ; Call SUB_0FAB
@@ -15476,7 +15656,7 @@ $6960                   .BYTE $07                                               
 ; xref: write from $5D54
 ; xref: read from $5D72
 ; xref: read from $5D82 (L_5D82)
-$6961                   .BYTE $00                                                              ; "."
+$6961 frontend_input_code:.BYTE $00
 ; xref: read from $463E
 ; xref: read from $4798
 ; xref: read from $5310
@@ -15511,7 +15691,7 @@ $6962                   .BYTE $00                                               
 ; xref: read from $4D7E (L_4D7E)
 ; xref: write from $5279
 ; xref: write from $5281
-; xref: read from $53A4 (L_53A4)
+; xref: read from $53A4 (disk_side_selection_loop)
 ; xref: read from $5418
 ; xref: read from $547C
 ; xref: read from $5540
@@ -15585,6 +15765,7 @@ $6964                   .BYTE $E7                                               
 ; xref: read from $4CF6
 ; xref: write from $4D31
 ; xref: read from $4D34
+; xref: read from $4D41
 $6965                   .BYTE $00,$00,$04,$03,$01,$03,$02                                      ; "......."
 ; xref: read from $618D (L_618D)
 $696C                   .BYTE $53,$00,$00,$00                                                  ; "S..."
@@ -19111,11 +19292,11 @@ $962B svc_frontend_stage_close:
 ; xref: write from $9819
 ; xref: read from $9837 (L_9837)
 ; xref: write from $983C (L_983C)
-$9631                   .BYTE $00                                                              ; "."
+$9631 frontend_raw_input_code:.BYTE $00
 
 ; === CODE SECTION ===
 
-    JMP $9803                         ; Jump to L_9803
+    JMP $9803                         ; Jump to frontend_poll_input_loop
     SEI
     LDA #$35
     JSR $99B1                         ; Call runtime_push_mem_config
@@ -19339,13 +19520,24 @@ $97DD L_97DD:                         ; xref: jump from $962E
     STA $AAB3
     JSR $9BCC                         ; Call SUB_9BCC
     JSR $9E1C                         ; Call SUB_9E1C
-    STY $9631
+    STY $9631                         ; frontend_raw_input_code
     LDA $AAB2
     STA $AAB3
     JSR $9BCC                         ; Call SUB_9BCC
     JSR $99D0                         ; Call runtime_pop_mem_config
     RTS
-$9803 L_9803:                         ; xref: jump from $9632
+
+; === SUBROUTINE: frontend_poll_input_loop ===
+
+; --------------------------------------------------------
+; Poll one frontend input event from the C64 keyboard/mouse layer.
+; 
+; Waits until no mouse button is currently held, then samples keyboard state via $9C01. If a mouse button is pressed, it returns synthetic raw codes instead of a keyboard code:
+; - $0C = left mouse button
+; - $12 = right mouse button
+; Otherwise it returns the keyboard code from $9C01 in frontend_raw_input_code ($9631).
+; --------------------------------------------------------
+$9803 frontend_poll_input_loop:       ; xref: jump from $9632
     LDA #$35
     JSR $99B1                         ; Call runtime_push_mem_config
 $9808 L_9808:                         ; xref: branch from $9814
@@ -19357,25 +19549,27 @@ $9808 L_9808:                         ; xref: branch from $9814
     BNE $9808                         ; Branch to L_9808
 $9816 L_9816:                         ; xref: branch from $983A
     JSR $9C01                         ; Call SUB_9C01
-    STA $9631
+    STA $9631                         ; frontend_raw_input_code
     LDA $DC00                         ; CIA1_PRA
     AND $DC01                         ; CIA1_PRB
     AND #$10
     BNE $982B                         ; Branch to L_982B
+                                      ; If CIA1 bit 4 is active low here, synthesize raw input code $0C for left mouse button.
     LDA #$0C
     JMP $983C                         ; Jump to L_983C
 $982B L_982B:                         ; xref: branch from $9824
     LDA $DC01                         ; CIA1_PRB
     AND #$01
     BNE $9837                         ; Branch to L_9837
+                                      ; If CIA1 bit 0 is active low here, synthesize raw input code $12 for right mouse button.
     LDA #$12
     JMP $983C                         ; Jump to L_983C
 $9837 L_9837:                         ; xref: branch from $9830
-    LDA $9631
+    LDA $9631                         ; frontend_raw_input_code
     BEQ $9816                         ; Branch to L_9816
 $983C L_983C:                         ; xref: jump from $9828
                                       ; xref: jump from $9834
-    STA $9631
+    STA $9631                         ; frontend_raw_input_code
     JSR $99D0                         ; Call runtime_pop_mem_config
     RTS
     SEI
@@ -23794,6 +23988,8 @@ $B920                   .BYTE $69,$00,$4C,$35,$B7,$38                           
 ; --------------------------------------------------------
 ; Pointer to the active SID song header.
 ; Init code at $B2E0 loads this word into $E0/$E1, then reads offset +6 as the song speed/divider byte and uses offsets +0/+2/+4 as the three voice sequence pointers.
+; SID song/resource header block.
+; Observed as a protocol-returned write destination during disk change, which strongly suggests that this area is refreshed as part of side-specific music resource loading.
 ; --------------------------------------------------------
 ; xref: read from $B2DF
 $B926 sid_song_header_ptr_LO:.BYTE $FA
@@ -24154,13 +24350,14 @@ $C900 L_C900:                         ; xref: call from $CDEA
 ; --------------------------------------------------------
 $C903 svc_prepare_stream_tables:
     JMP $C910                         ; Jump to prepare_stream_tables_body
+                                      ; This table-prep path keys off music_enabled_flag as well as the cached stream-table values. special_07_music_toggle_flow at $4CDA toggles this flag between 0=OFF and 1=ON.
     JSR $C97E                         ; Call SUB_C97E
     JSR $B006                         ; Call SUB_B006
     JSR $C988                         ; Call SUB_C988
     RTS
 $C910 prepare_stream_tables_body:     ; xref: jump from $C903 (svc_prepare_stream_tables)
     JSR $C97E                         ; Call SUB_C97E
-    LDA $CFF5                         ; stream_table_mode_flag
+    LDA $CFF5                         ; music_enabled_flag
     BNE $C91F                         ; Branch to L_C91F
     JSR $B006                         ; Call SUB_B006
     JSR $C988                         ; Call SUB_C988
@@ -24201,7 +24398,7 @@ $C942 L_C942:                         ; xref: branch from $C935
     STA $CFF2                         ; stream_table_cache_key_lo
     LDA $C99E
     STA $CFF3                         ; stream_table_cache_key_hi
-    LDA $CFF5                         ; stream_table_mode_flag
+    LDA $CFF5                         ; music_enabled_flag
     BEQ $C97A                         ; Branch to L_C97A
     JSR $B003                         ; Call SUB_B003
 $C97A L_C97A:                         ; xref: jump from $C93F
@@ -24261,8 +24458,14 @@ $C9C0                   .BYTE $00,$05,$01,$01,$01,$01,$01,$05,$02,$02,$02,$02,$0
 $C9D0                   .BYTE $04,$05,$05,$05,$05,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
 $C9E0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
 $C9F0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+; --------------------------------------------------------
+; Huffman decode tree tables loaded from the text-compression resource header.
+; $CA00-$CA7F is the bit=1 branch table and $CA80-$CAFF is the bit=0 branch table.
+; Leaf values have bit 7 set; interior nodes are the next node index.
+; --------------------------------------------------------
 ; xref: read from $CF23
-$CA00                   .BYTE $02,$04,$A0,$07,$09,$0A,$0C,$0E,$0F,$10,$92,$94,$13,$81,$88,$95  ; "................"
+$CA00 huffman_tree_bit1_table:.BYTE $02
+$CA01                   .BYTE $04,$A0,$07,$09,$0A,$0C,$0E,$0F,$10,$92,$94,$13,$81,$88,$95      ; "..............."
 $CA10                   .BYTE $8C,$18,$19,$1B,$8F,$8D,$1E,$20,$C4,$AC,$97,$86,$AE,$8B,$9A,$28  ; "....... .......("
 $CA20                   .BYTE $2A,$2C,$D3,$2E,$30,$9D,$32,$C1,$9B,$35,$C9,$37,$DE,$AD,$3A,$C2  ; "*,..0.2..5.7..:."
 $CA30                   .BYTE $9C,$3C,$D7,$3D,$9F,$D4,$C6,$CC,$D2,$D0,$40,$BF,$D6,$CF,$43,$44  ; ".<.=......@...CD"
@@ -24278,7 +24481,8 @@ $CA64                   .BYTE $12                                               
 $CA65                   .BYTE $05,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00                      ; "..........."
 $CA70                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
 ; xref: read from $CF28 (L_CF28)
-$CA80                   .BYTE $01,$03,$05,$06,$08,$85,$0B,$0D,$8E,$89,$11,$12,$93,$14,$15,$16  ; "................"
+$CA80 huffman_tree_bit0_table:.BYTE $01
+$CA81                   .BYTE $03,$05,$06,$08,$85,$0B,$0D,$8E,$89,$11,$12,$93,$14,$15,$16      ; "..............."
 $CA90                   .BYTE $84,$17,$83,$1A,$1C,$1D,$87,$1F,$82,$21,$22,$23,$24,$25,$26,$27  ; ".........!"#$%&'"
 $CAA0                   .BYTE $29,$2B,$2D,$96,$2F,$90,$31,$33,$A1,$34,$36,$C5,$A2,$38,$39,$CD  ; ")+-./.13.46..89."
 $CAB0                   .BYTE $3B,$C8,$C7,$BA,$9E,$CB,$3E,$3F,$CE,$DA,$8A,$99,$C3,$41,$42,$D5  ; ";.....>?.....AB."
@@ -24295,15 +24499,22 @@ $CAFC                   .BYTE $23                                               
 ; xref: read from $CD44
 $CAFD                   .BYTE $01,$00,$00                                                      ; "..."
 
-; === CODE SECTION ===
+; === SUBROUTINE: svc_decode_indexed_record ===
 
 ; --------------------------------------------------------
-; Service contract: compressed-stream/text service.
-; Inputs arrive in A/X/Y via dispatcher_arg_a/x/y. In the common text path from $4022, A/X/Y carry the selected text/resource id as a 24-bit tuple with Y usually zero; when Y==2, the service first refreshes stream tables before decoding.
+; Service entry for indexed disk/resource records.
+; Dispatches one selected indexed record through the stream layer, then routes to the appropriate decoder: Huffman text, image RLE, or the alternate record-mode path depending on the loaded record type byte.
 ; --------------------------------------------------------
-$CB00 svc_decode_stream:
+$CB00 svc_decode_indexed_record:
     JMP $CDDD                         ; Jump to decode_stream_entry
-$CB03 svc_read_block:   
+
+; === SUBROUTINE: svc_read_protocol_block ===
+
+; --------------------------------------------------------
+; Service entry: read one protocol block over the external DD00 serial/resource transport.
+; This is the public trampoline into serial_read_block_body at $CC90.
+; --------------------------------------------------------
+$CB03 svc_read_protocol_block:
     JMP $CC90                         ; Jump to serial_read_block_body
 $CB06 svc_send_cstring: 
     JMP $CBA6                         ; Jump to serial_send_cstring_body
@@ -24331,9 +24542,9 @@ $CB1B                   .BYTE $44                                               
 ; xref: write from $CBED
 $CB1C                   .BYTE $43                                                              ; "C"
 ; xref: read from $CD7B
-$CB1D                   .BYTE $00                                                              ; "."
+$CB1D indexed_record_triplet_table_lo:.BYTE $00
 ; xref: read from $CD83
-$CB1E                   .BYTE $00                                                              ; "."
+$CB1E indexed_record_triplet_table_hi:.BYTE $00
 ; xref: write from $CD41
 $CB1F                   .BYTE $23                                                              ; "#"
 ; xref: write from $CD47
@@ -24341,6 +24552,10 @@ $CB20                   .BYTE $01                                               
 
 ; === CODE SECTION ===
 
+; --------------------------------------------------------
+; Indexed-record table loader for the game-specific disk format.
+; Loads the side-specific table bundle that contains the Huffman tree at disk offset 0x200 and the 3-byte indexed resource pointer table rooted at disk offset 0x300.
+; --------------------------------------------------------
 $CB21 svc_load_table_by_index:
     JMP $CF54                         ; Jump to L_CF54
 
@@ -24483,7 +24698,7 @@ $CBB7 serial_send_encoded_byte:       ; xref: call from $CB79
                                       ; xref: call from $CB7D
                                       ; xref: call from $CB81
                                       ; xref: call from $CDC7
-    STA $AC
+    STA $AC                           ; serial_shift_byte
     JSR $CD11
     JSR $CD11
     JSR $CD11
@@ -24532,7 +24747,7 @@ $CC03 L_CC03:                         ; xref: branch from $CBFF
     CLC
     RTS
 $CC08 serial_write_block_body:        ; xref: jump from $CB09 (svc_write_block)
-    PHA
+    PHA                               ; Special case: when entered with A = 0, this routine accepts a destination pointer from the protocol stream and installs it into $AD/$AE. During disk change, observed returned destinations include $7600 and $B926.
     LDA #$02
     JSR $CB55                         ; Call serial_send_command_header
     JSR $CBF9                         ; Call serial_expect_zero_byte
@@ -24585,16 +24800,16 @@ $CC5A L_CC5A:                         ; xref: branch from $CC78
     LDA $DD00                         ; CIA2_PRA
     STX $DD00                         ; CIA2_PRA
     ASL A
-    ROR $00AC
+    ROR $00AC                         ; serial_shift_byte
     NOP
     LDX $CF9F                         ; serial_dd00_read_mask_b
     LDA $DD00                         ; CIA2_PRA
     STX $DD00                         ; CIA2_PRA
     ASL A
-    ROR $00AC
+    ROR $00AC                         ; serial_shift_byte
     DEC $CF9A                         ; serial_nibble_countdown
     BNE $CC5A                         ; Branch to L_CC5A
-    LDA $AC
+    LDA $AC                           ; serial_shift_byte
     STA ($AD),Y
     INY
     CPY #$54                          ; xref+1: write from $CC19, write from $CC38, write from $CC9C  [instruction data modified]
@@ -24619,10 +24834,10 @@ $CC8F                   .BYTE $00                                               
 ; === SUBROUTINE: serial_read_block_body ===
 
 ; --------------------------------------------------------
-; Read one 84-byte block from the custom DD00 serial protocol into the buffer pointer at $AD/$AE.
-; Uses serial_expect_zero_byte as a framing check and serial_read_block_84_bytes as the inner transfer loop.
+; Low-level block reader for the external disk/resource loader protocol.
+; This binary uses the custom DD00 serial service for actual transfers; the raw 1541 track/sector-to-absolute-offset math and chained-sector traversal from the disk spec are not visible here and likely live on the remote loader side.
 ; --------------------------------------------------------
-$CC90 serial_read_block_body:         ; xref: jump from $CB03 (svc_read_block)
+$CC90 serial_read_block_body:         ; xref: jump from $CB03 (svc_read_protocol_block)
                                       ; xref: call from $CD3B
                                       ; xref: call from $CD57
                                       ; xref: call from $CD6E
@@ -24713,16 +24928,16 @@ $CCEC L_CCEC:                         ; xref: branch from $CD0A
     LDA $DD00                         ; CIA2_PRA
     STX $DD00                         ; CIA2_PRA
     ASL A
-    ROR $00AC
+    ROR $00AC                         ; serial_shift_byte
     NOP
     LDX $CF9F                         ; serial_dd00_read_mask_b
     LDA $DD00                         ; CIA2_PRA
     STX $DD00                         ; CIA2_PRA
     ASL A
-    ROR $00AC
+    ROR $00AC                         ; serial_shift_byte
     DEC $CF9A                         ; serial_nibble_countdown
     BNE $CCEC                         ; Branch to L_CCEC
-    LDA $00AC
+    LDA $00AC                         ; serial_shift_byte
     NOP
     RTS
 $CD11 serial_write_encoded_byte:      ; xref: call from $CBB9
@@ -24730,14 +24945,14 @@ $CD11 serial_write_encoded_byte:      ; xref: call from $CBB9
                                       ; xref: call from $CBBF
                                       ; xref: jump from $CBC2
     LDA $CF9C                         ; serial_dd00_write_mask_a
-    LSR $AC
+    LSR $AC                           ; serial_shift_byte
     BCC $CD1A                         ; Branch to L_CD1A
     ORA #$20
 $CD1A L_CD1A:                         ; xref: branch from $CD16
     STA $DD00                         ; CIA2_PRA
     NOP
     LDA $CF9B                         ; serial_dd00_restore_mask
-    LSR $AC
+    LSR $AC                           ; serial_shift_byte
     BCC $CD27                         ; Branch to L_CD27
     ORA #$20
 $CD27 L_CD27:                         ; xref: branch from $CD23
@@ -24746,6 +24961,11 @@ $CD27 L_CD27:                         ; xref: branch from $CD23
 $CD2B L_CD2B:                         ; xref: jump from $CB12 (svc_send_command_0a)
     LDA #$0A
     JMP $CB55                         ; Jump to serial_send_command_header
+; --------------------------------------------------------
+; Bulk-load the indexed resource metadata tables.
+; Fetches the Huffman tree into $CA00+ and then reads the side-specific indexed-record pointer data used by $CD7A.
+; This is the game-specific layer of spec/C64/disk_format.md and disk_layout.md, not the raw 1541 sector-geometry math.
+; --------------------------------------------------------
 $CD30 bulk_load_protocol_tables:      ; xref: jump from $CB18 (svc_bulk_load_tables)
     LDX #$00
     LDY #$CA
@@ -24787,18 +25007,25 @@ $CD5C L_CD5C:                         ; xref: branch from $CD77
 
 ; === SUBROUTINE: decode_stream_table_record ===
 
+; --------------------------------------------------------
+; Resolve one indexed record entry from the loaded 3-byte pointer table.
+; Main index source: A/X on entry hold the 16-bit record index (usually forwarded from dispatcher_arg_a/x at $030C/$030D).
+; Concrete selector meaning: Y=0 is the text record table path; Y=2 is the image record table path.
+; The routine uses Y to choose the loaded 16-bit table-base pair before computing byte offset 3*index into the triplet table.
+; --------------------------------------------------------
 $CD7A decode_stream_table_record:     ; xref: call from $CDF9
-    CLC
-    ADC $CB1D,Y
+    CLC                               ; Compute byte offset 3*index into the loaded indexed-record pointer table by forming index + 2*index.
+    ADC $CB1D,Y                       ; indexed_record_triplet_table_lo
     STA $CF92                         ; decode_output_remaining_lo
     PHA
     TXA
-    ADC $CB1E,Y
+    ADC $CB1E,Y                       ; indexed_record_triplet_table_hi
     STA $CF93                         ; decode_output_remaining_hi
     TAX
     PLA
     ASL $CF92                         ; decode_output_remaining_lo
     ROL $CF93                         ; decode_output_remaining_hi
+                                      ; Base pointer to the in-memory copy of the 3-byte indexed-record triplet table. Adding 0x0400 reaches the actual table payload region loaded from disk.
     CLC
     ADC $CF92                         ; decode_output_remaining_lo
     STA $CF92                         ; decode_output_remaining_lo
@@ -24808,20 +25035,23 @@ $CD7A decode_stream_table_record:     ; xref: call from $CDF9
     CLC
     LDA $CF92                         ; decode_output_remaining_lo
     ADC #$00
-    STA $CF50
+    STA $CF50                         ; Self-modify read_decode_table_byte so Y indexes the selected triplet within the loaded indexed pointer table.
     LDA $CF93                         ; decode_output_remaining_hi
     ADC #$04
     STA $CF51
     LDY #$00
     JSR $CF4F                         ; Call read_decode_table_byte
+                                      ; Read triplet byte 0 (track / high-level record selector) from the indexed resource pointer table.
     TAX
     JSR $CF4F                         ; Call read_decode_table_byte
+                                      ; Read triplet byte 1 (sector / mid selector) from the indexed resource pointer table.
     TAY
     LDA #$0C
     JSR $CB55                         ; Call serial_send_command_header
     JSR $CB8F
     LDY #$02
     JSR $CF4F                         ; Call read_decode_table_byte
+                                      ; Read triplet byte 2 (byte offset / low selector) from the indexed resource pointer table and transmit it with the record request.
     JSR $CBB7                         ; Call serial_send_encoded_byte
     JSR $CB8F
     JSR $CCE7                         ; Call serial_read_encoded_byte
@@ -24847,11 +25077,11 @@ $CDDC                   .BYTE $02                                               
 ; === CODE SECTION ===
 
 ; --------------------------------------------------------
-; Top-level compressed stream decode entry.
-; Optionally refreshes/loads decode tables through $C900 when Y==2, then decodes one table-selected stream record and either expands Huffman-like text through $CEF2 or follows an alternate rendering path. Output characters are emitted through stream_emit_char_with_wrap at $CB29.
+; Top-level compressed text/stream entry.
+; If Y==2 it refreshes the decode tables first, then selects the stream record and dispatches to the Huffman text decoder when the table-selected mode byte is zero.
 ; --------------------------------------------------------
-$CDDD decode_stream_entry:            ; xref: jump from $CB00 (svc_decode_stream)
-    CPY #$02
+$CDDD decode_stream_entry:            ; xref: jump from $CB00 (svc_decode_indexed_record)
+    CPY #$02                          ; On the fixed callers currently identified, Y=0 selects text records (for example via $4022) and Y=2 selects image records (for example via the $4193 path).
     BNE $CDF6                         ; Branch to L_CDF6
     STA $CDDA
     STX $CDDB
@@ -24870,18 +25100,26 @@ $CDF6 L_CDF6:                         ; xref: branch from $CDDF
 $CE05 L_CE05:                         ; xref: branch from $CE00
     CMP #$02
     BNE $CE0C                         ; Branch to L_CE0C
-    JMP $CE0F                         ; Jump to L_CE0F
+    JMP $CE0F                         ; Jump to decode_rle_image_stream
 $CE0C L_CE0C:                         ; xref: branch from $CE07
     JMP $CCB6                         ; Jump to L_CCB6
-$CE0F L_CE0F:                         ; xref: jump from $CE09
+
+; === SUBROUTINE: decode_rle_image_stream ===
+
+; --------------------------------------------------------
+; RLE-compressed image stream decoder matching spec/C64/image_format.md.
+; Mode 2 records use 0xCD as a run marker: literal bytes are copied once, while 0xCD,count,value expands value count times into successive 176-byte image work buffers selected through $CEDB/$CEDC.
+; --------------------------------------------------------
+$CE0F decode_rle_image_stream:        ; xref: jump from $CE09
     LDA #$01
     STA $CF96                         ; decode_bit_countdown
     STA $CF94                         ; stream_emit_column_or_tree_index
     BNE $CE42                         ; Branch to L_CE42
 $CE19 L_CE19:                         ; xref: branch from $CE67
     INC $CF96                         ; decode_bit_countdown
+                                      ; Read the next compressed image payload byte. 0xCD introduces a run; any other byte is copied literally.
     JSR $CCD7                         ; Call serial_read_sync_word
-    CMP #$CD
+    CMP #$CD                          ; If the byte is 0xCD, fetch the repeat count into $CF96, then fetch the repeated byte value.
     BNE $CE32                         ; Branch to L_CE32
     JSR $CB8F
     JSR $CCD7                         ; Call serial_read_sync_word
@@ -24890,7 +25128,8 @@ $CE19 L_CE19:                         ; xref: branch from $CE67
     JSR $CCD7                         ; Call serial_read_sync_word
 $CE32 L_CE32:                         ; xref: branch from $CE21
                                       ; xref: branch from $CE65
-    STA $0000                         ; xref+1: read from $CE35, write from $CE35, write from $CE49, read from $CE52  [instruction data modified]
+    STA $0000                         ; Store one decompressed output byte through the current self-modified destination pointer and advance that pointer.
+                                      ; xref+1: read from $CE35, write from $CE35, write from $CE49, read from $CE52  [instruction data modified]
                                       ; xref+2: read from $CE3A, write from $CE3A, write from $CE4F  [instruction data modified]
     INC $CE33
     BNE $CE3D                         ; Branch to L_CE3D
@@ -24899,11 +25138,11 @@ $CE3D L_CE3D:                         ; xref: branch from $CE38
     DEC $CF91                         ; decode_bit_window
     BNE $CE62                         ; Branch to L_CE62
 $CE42 L_CE42:                         ; xref: branch from $CE17
-    TAY
+    TAY                               ; Select the next destination segment from the image output pointer table at $CEDB/$CEDC and seed its remaining length to $B0 (176) bytes.
     LDX $CF94                         ; stream_emit_column_or_tree_index
-    LDA $CEDB,X
+    LDA $CEDB,X                       ; image_rle_output_ptr_table_lo
     STA $CE33
-    LDA $CEDC,X
+    LDA $CEDC,X                       ; image_rle_output_ptr_table_hi
     STA $CE34
     ORA $CE33
     BEQ $CE69                         ; Branch to L_CE69
@@ -24915,6 +25154,7 @@ $CE42 L_CE42:                         ; xref: branch from $CE17
     TYA
 $CE62 L_CE62:                         ; xref: branch from $CE40
     DEC $CF96                         ; decode_bit_countdown
+                                      ; Consume one byte from the current literal/run span. When the span ends, fetch the next compressed token; when the 176-byte segment ends, advance to the next output segment.
     BNE $CE32                         ; Branch to L_CE32
     BEQ $CE19                         ; Branch to L_CE19
 $CE69 L_CE69:                         ; xref: branch from $CE55
@@ -24980,25 +25220,29 @@ $CED6 L_CED6:                         ; xref: branch from $CEC1
     DEX
     CPX #$FF
     BNE $CEAB                         ; Branch to L_CEAB
-    RTS                               ; xref: read from $CE46
+$CEDB image_rle_output_ptr_table_lo:  ; xref: read from $CE46
+    RTS
 
 ; === DATA SECTION ===
 
 ; xref: read from $CE4C
-$CEDC                   .BYTE $88,$E1,$C8,$E2                                                  ; "...."
+$CEDC image_rle_output_ptr_table_hi:.BYTE $88
+$CEDD                   .BYTE $E1,$C8,$E2                                                      ; "..."
 $CEE0                   .BYTE $08,$E4,$48,$E5,$88,$E6,$C8,$E7,$08,$E9,$48,$EA,$C0,$F7,$00,$F9  ; "..H.......H....."
 $CEF0                   .BYTE $00,$00                                                          ; ".."
 
 ; === CODE SECTION ===
 
 ; --------------------------------------------------------
-; Main Huffman-like text decode loop.
-; Initializes the decoded-length counter from two bytes read over the serial transport, then walks a binary code tree using $CA00/$CA80 as the two branch tables. Terminal symbols have bit 7 set; after masking with $7F the decoded character is emitted via stream_emit_char_with_wrap.
+; Huffman text decoder matching spec/C64/text_compression.md.
+; Reads the 16-bit B header word from the record, then emits exactly 65536-B characters by walking the two 128-byte branch tables at $CA00/$CA80 MSB-first.
 ; --------------------------------------------------------
 $CEF2 decode_huffman_text_stream:     ; xref: jump from $CE02
     JSR $CCD7                         ; Call serial_read_sync_word
+                                      ; Read record header word B low byte. Together with $CEF8 this seeds the inverted decoded-length counter used by the text format.
     STA $CF92                         ; decode_output_remaining_lo
     JSR $CCD7                         ; Call serial_read_sync_word
+                                      ; Read record header word B high byte. The decode loop stops when incrementing $CF92/$CF93 wraps back to zero after 65536-B emitted characters.
     STA $CF93                         ; decode_output_remaining_hi
     LDA #$00
     STA $CF94                         ; stream_emit_column_or_tree_index
@@ -25015,19 +25259,25 @@ $CF0D L_CF0D:                         ; xref: branch from $CF2B (L_CF2B)
     LDA #$07
     STA $CF96                         ; decode_bit_countdown
     JSR $CCD7                         ; Call serial_read_sync_word
+                                      ; Fetch the next packed payload byte once all 8 bits of the current byte have been consumed.
     STA $CF91                         ; decode_bit_window
 $CF1E L_CF1E:                         ; xref: branch from $CF11
     ROL $CF91                         ; decode_bit_window
+                                      ; Shift the current payload byte left so carry receives the next bit, starting with bit 7. This makes the decoder consume bits MSB-first.
     BCC $CF28                         ; Branch to L_CF28
-    LDA $CA00,Y
+    LDA $CA00,Y                       ; huffman_tree_bit1_table
+                                      ; Carry=1 selects the bit-1 branch table at $CA00+node.
     BCS $CF2B                         ; Branch to L_CF2B
 $CF28 L_CF28:                         ; xref: branch from $CF21
-    LDA $CA80,Y
+    LDA $CA80,Y                       ; huffman_tree_bit0_table
+                                      ; Carry=0 selects the bit-0 branch table at $CA80+node.
 $CF2B L_CF2B:                         ; xref: branch from $CF26
     BPL $CF0D                         ; Branch to L_CF0D
-    AND #$7F
+                                      ; If bit 7 is clear, this is an interior node index and decoding continues from that node. If bit 7 is set, the low 7 bits are the encoded character value.
+    AND #$7F                          ; Clear the leaf marker bit before emitting the game character code. The later renderer interprets this value through the game's $40-based text charset.
     JSR $CB29                         ; Call stream_emit_char_with_wrap
     INC $CF92                         ; decode_output_remaining_lo
+                                      ; Increment the inverted remaining-length counter. When both bytes wrap to zero, the requested number of decoded characters has been emitted.
     BNE $CF0B                         ; Branch to L_CF0B
     INC $CF93                         ; decode_output_remaining_hi
     BNE $CF0B                         ; Branch to L_CF0B
@@ -25042,6 +25292,10 @@ $CF46 L_CF46:                         ; xref: branch from $CF41
 
 ; === SUBROUTINE: read_decode_table_byte ===
 
+; --------------------------------------------------------
+; Byte reader for the loaded indexed-record metadata tables.
+; The caller patches the absolute base address first, then this routine returns successive bytes from the in-memory copy of the table bundle.
+; --------------------------------------------------------
 $CF4F read_decode_table_byte:         ; xref: call from $CDB2
                                       ; xref: call from $CDB6
                                       ; xref: call from $CDC4
@@ -25229,7 +25483,7 @@ $CFF4                   .BYTE $01                                               
 ; xref: write from $4CF3
 ; xref: read from $C913
 ; xref: read from $C972
-$CFF5 stream_table_mode_flag:.BYTE $00
+$CFF5 music_enabled_flag:.BYTE $00
 ; xref: read from $4D1E (L_4D1E)
 ; xref: write from $4D37
 ; xref: read from $B044
