@@ -1,0 +1,688 @@
+{
+  "version": "1.1",
+  "metadata": {
+    "created": "2026-03-22T12:15:31Z",
+    "modified": "2026-03-22T12:15:31Z",
+    "sourceFile": "drive_ram.bin",
+    "description": "1541 disk drive RAM dump from the game Soul Crystal"
+  },
+  "binary": {
+    "data": "D/8AAPwxAwQBAAA6Qv0ABAAAUEIAAFBCAQwfAAAAEAAwAAEAUldVNUt0nqUpSgAHAAcOAAoA/wAHCPwAAAAABAEB7xWAAAAH/jsAWgQAAboA/0JQAAAOEg8KCgoKCgQEAQQDAMgi6wCpAaIFIHMAqQGiDoUAhgEg2QOgALkAB5kAAMjQ986BAGCiAIqdsACdAAGdAAKdAAOdAASdAAWdAAadAAfo0OVs/P8ABQaD////////hAEBAAAAVXVlSlbU1WVVU1TW9VZSlZVtW1Pb1TldVlvVrUpWVdUtT1Zb1WVKm2973ve973ve973ve973ve973ve973ve973q1SlKVQAAAAAAAAAAAAAAALr0BwAHBgD1AQQaASCTA6IXmqkELAAY8PutABwp940AHKn8hQ3mC9AQ5gzQDOYN0AitABwp840AHKkBLAAY8OWiAI4AGK0AHAkIjQAcIIoBqCCKAYUAIIoBhQGpAUipdUi53wZIud4GSGCp/yD4AkwYAakgjboBqeqNqwGgAKIEqQQsABjw+60AGEpmA6kELAAY0PutABhKZgPK0OOlA2CZAAfI0NggkwOpYI2rASwAByAjA0ybAyCTAyCmA6IUqYAtABwQBsjQ+MrQ9UiqMA2pACDMBZAGqQCFEoUTIJsDpRYg+AKlFyD4AmhM+AKtABwpEEz4AiA1BKD/rQAH0AOsAQeImEgg+AJoGGkCjW0CoAIgPgKtAAcg+AKtAQeFAa0AB4UA0M9gIDUEqQCNbQKgALkAB4UDqQSFDkYDogKQAqIALAAY0PuOABhGA6ICkAKiACwAGPD7jgAYxg7Q3MjAANDOYCCKAYUCIDUEINkChQkg2QKFCiCSArAJIMECIDUETIMCYKQCuQAHyTbQBSD4Aqk2IPgC5gnQBOYK8BTI0OaEAqk2IPgCqQAg+AIgkwMYYDhg5gGlACBL8sUB0AypAIUB5gClAMkS8PhgpAK5AAfmAtAVSKk2IPgCqQAg+AIgwQIgNQQgmwNoYIUDqQSFDkYDogKQAqIALAAY0PuOABhGA6ICkAKiACwAGPD7jgAYxg7Q3GAgZwWFOqkAhTCFMYUuhTapu4U0hVCpB4UvqQeFUiCp9yApBLBKoghQ/rjKEPqOAxytDBwpHwnAjQwciqIFjQEcuFD+uMrQ+qC7uQAAUP64jQEcyND0uQAHUP64jQEcyND0UP6tDBwJ4I0MHIwDHBhgSK0AGAkI0AZIrQAYKfeNABhoYKkAjQMcrQwcCe6NDBytABwpBNANrQAcCQSNABypACAeBGClCPAaxQDwILAH5giiAUzdA8YIov8gCQQgCQRMyAOpgCDMBbAbTMgDogTd1v7KEALoGLD2rQAcKZ8d8gaNABwYYK0AHCn8hQSKGG0AHCkDBQSNABypBKAAyND9OOkB0PZgIKYDIMgDsAMgewVgIJMDqQSFByApBJADTE4FIJEGUP64rQEcmQAHyND0oLpQ/ritARyZAADI0PSENIQ2qQCFMKkHhTGpYI0aBSCMBKnqjRoFpVLJB/AFqQJMTgWgAEwlBYQ2pDSxMKpKSkqFVoopBwoKhVfI0ASEMaC6sTAqKiopAwVXqr3A+KZWHaD4hVKxMEopH4VYyLEwSCoqKioqKR+qvcD4plgdoPiFU8ixMIVbCmgpDyqFWqVbSkopH6q9wPimWh2g+IVUpVspAwoKCoVcyLEwKioqKikHBVyFXLEwKR+qvcD4plwdoPiFVciENOqkNqVSmQAHyPAVpVOZAAfIpVSZAAfIpVWZAAfITIoEpVOFOqUvhTEgZwXFOvADqQQsqQDJAPAIxgcgfwZMPARIIJsDIPgCaPACaGhgoD+pAFkAB1lAB1mAB1nAB4gQ8WCpAIVjpRKFFqUThRelAIUYpQGFGUUYRRdFFoUaqQiFOSA0+aJQIJEGUP64rQEc2SQA0AnIwAjQ8KkAGGDK0OYgfwbQwKmAIMwFsAUgyAOQtGCFEKVjSKkEhWGpAIVjqQOFBqlShSSmBiD8A6kyhQUgkQZQ/ritARzFJNBHUP64rQEcmSUAyMAH0PIgl/SgBCkAWRYAiBD6qNAmpRAwE6UWhRKlF4UTpRiFCGiFY6kAGGCpBaYW5BLQBqYX5BPw5yypAyypAYVgxgXQpMYGEJcgfwbQiqVh8AggYgbGYUzVBWiFY6VgOGCpUIUPov+tABxJCI0AHCAJBMYP0PGiASAJBEwJBKVj5mMpA6q97gYgCQSlYykDYIpIqQGNsQapII3HBqkDhWKiHqAALAAcECiI0PjK0PUkARDtogEgCQTGYtDkrbEGSf6NsQYQ1iBiBqksjccGTJ0GrQEcuGiqoABgTIkAMwIBAvkBwgGCAdoGcAJ9AQH//wEAIEBgAAAAAAAAAAAAAM0D/LwAzQRub8+RzQOVl5UAALz7/M0DvLAAk+ZpaWy2vM+8m5WVAAC8y7zPv7ywAM0DkABpbGtlb80DlQAA/L+8sLm/vM0DAJAAsJyVnJWVV5XNEwCVlZzNCwADzQQODw4OAAAPCw8LDAsLDw/NAwAGDw8OzQUBDwsMDAsPDwsMCwsAzQMBD80GAQkPCwsPDAzNAwsPAAMBDwsBAQ8PDQcNDQAADwwLzQMPCQAOCQ4OzQMPCw8MDQ0AAM0DDwsMDwnNBAAGDAsPDwwLDQcJAAsMCQ8MDM0GAAkLCwXNBA0JzREACQ0BBQnNCQA8d3d3d3d3d3d3d3d3d3d3d3d3d3c=",
+    "origin": "0x0000"
+  },
+  "entryPoints": [
+    "0x0300",
+    "0x0323",
+    "0x0435",
+    "0x06DB",
+    "0x0159",
+    "0x0068",
+    "0x01C3",
+    "0x01FA",
+    "0x0202",
+    "0x0234",
+    "0x0271",
+    "0x0176",
+    "0x017E",
+    "0x01AC"
+  ],
+  "symbols": {
+    "0x0068": {
+      "name": "ENTRY_0068",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x0073": {
+      "name": "SUB_0073",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x007C": {
+      "name": "L_007C",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0089": {
+      "name": "L_0089",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x008C": {
+      "name": "L_008C",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0118": {
+      "name": "L_0118",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0120": {
+      "name": "L_0120",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0131": {
+      "name": "L_0131",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0145": {
+      "name": "L_0145",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0159": {
+      "name": "ENTRY_0159",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x0176": {
+      "name": "ENTRY_0176",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x017E": {
+      "name": "ENTRY_017E",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x018A": {
+      "name": "SUB_018A",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x018C": {
+      "name": "L_018C",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x018E": {
+      "name": "L_018E",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x019B": {
+      "name": "L_019B",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x01AC": {
+      "name": "ENTRY_01AC",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x01C3": {
+      "name": "ENTRY_01C3",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x01CD": {
+      "name": "L_01CD",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x01D8": {
+      "name": "L_01D8",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x01E9": {
+      "name": "L_01E9",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x01FA": {
+      "name": "ENTRY_01FA",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x0202": {
+      "name": "L_0202",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x020F": {
+      "name": "L_020F",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0234": {
+      "name": "ENTRY_0234",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x023E": {
+      "name": "L_023E",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0247": {
+      "name": "L_0247",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x024F": {
+      "name": "L_024F",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x025F": {
+      "name": "L_025F",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0271": {
+      "name": "ENTRY_0271",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x0283": {
+      "name": "L_0283",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0291": {
+      "name": "L_0291",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0292": {
+      "name": "SUB_0292",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x0294": {
+      "name": "L_0294",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x02A0": {
+      "name": "L_02A0",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x02AB": {
+      "name": "L_02AB",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x02BF": {
+      "name": "L_02BF",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x02C1": {
+      "name": "SUB_02C1",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x02D0": {
+      "name": "L_02D0",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x02D8": {
+      "name": "L_02D8",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x02D9": {
+      "name": "SUB_02D9",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x02F7": {
+      "name": "L_02F7",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x02F8": {
+      "name": "SUB_02F8",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x02FE": {
+      "name": "L_02FE",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0300": {
+      "name": "ENTRY_0300",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0x0306": {
+      "name": "L_0306",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0316": {
+      "name": "L_0316",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0323": {
+      "name": "SUB_0323",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x034A": {
+      "name": "L_034A",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0364": {
+      "name": "L_0364",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x036C": {
+      "name": "L_036C",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x036F": {
+      "name": "L_036F",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0378": {
+      "name": "L_0378",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x037B": {
+      "name": "L_037B",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0384": {
+      "name": "L_0384",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0392": {
+      "name": "L_0392",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0393": {
+      "name": "SUB_0393",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x039B": {
+      "name": "SUB_039B",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x03A1": {
+      "name": "L_03A1",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x03A6": {
+      "name": "SUB_03A6",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x03C7": {
+      "name": "L_03C7",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x03C8": {
+      "name": "SUB_03C8",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x03D9": {
+      "name": "L_03D9",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x03DD": {
+      "name": "L_03DD",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x03E6": {
+      "name": "L_03E6",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x03F0": {
+      "name": "L_03F0",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x03F2": {
+      "name": "L_03F2",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x03FA": {
+      "name": "L_03FA",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x03FC": {
+      "name": "SUB_03FC",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x0408": {
+      "name": "L_0408",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0409": {
+      "name": "L_0409",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x041E": {
+      "name": "L_041E",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0420": {
+      "name": "L_0420",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0429": {
+      "name": "SUB_0429",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x0434": {
+      "name": "L_0434",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0435": {
+      "name": "SUB_0435",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x043C": {
+      "name": "L_043C",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0444": {
+      "name": "L_0444",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0447": {
+      "name": "L_0447",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0455": {
+      "name": "L_0455",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0485": {
+      "name": "L_0485",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x048A": {
+      "name": "L_048A",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x048C": {
+      "name": "SUB_048C",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x04A4": {
+      "name": "L_04A4",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0525": {
+      "name": "L_0525",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x053A": {
+      "name": "L_053A",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x054C": {
+      "name": "L_054C",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x054E": {
+      "name": "L_054E",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x055A": {
+      "name": "L_055A",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0566": {
+      "name": "L_0566",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0567": {
+      "name": "SUB_0567",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x056B": {
+      "name": "L_056B",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x057B": {
+      "name": "SUB_057B",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x057F": {
+      "name": "L_057F",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x05A0": {
+      "name": "L_05A0",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x05A3": {
+      "name": "L_05A3",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x05B7": {
+      "name": "L_05B7",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x05CB": {
+      "name": "L_05CB",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x05CC": {
+      "name": "SUB_05CC",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x05D5": {
+      "name": "L_05D5",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x05D9": {
+      "name": "L_05D9",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x05E1": {
+      "name": "L_05E1",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x05EA": {
+      "name": "L_05EA",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x05ED": {
+      "name": "L_05ED",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x05F7": {
+      "name": "L_05F7",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x060C": {
+      "name": "L_060C",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0621": {
+      "name": "L_0621",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x062C": {
+      "name": "L_062C",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x063A": {
+      "name": "L_063A",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x063B": {
+      "name": "L_063B",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x063E": {
+      "name": "L_063E",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x065B": {
+      "name": "L_065B",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x0662": {
+      "name": "SUB_0662",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x0668": {
+      "name": "L_0668",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x067F": {
+      "name": "SUB_067F",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x0691": {
+      "name": "SUB_0691",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0x069D": {
+      "name": "L_069D",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x06A1": {
+      "name": "L_06A1",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x06A5": {
+      "name": "L_06A5",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x06D2": {
+      "name": "L_06D2",
+      "type": "label",
+      "source": "auto"
+    },
+    "0x06DB": {
+      "name": "ENTRY_06DB",
+      "type": "entry",
+      "source": "auto"
+    },
+    "0xF24B": {
+      "name": "SUB_F24B",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0xF497": {
+      "name": "SUB_F497",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0xF7A9": {
+      "name": "SUB_F7A9",
+      "type": "subroutine",
+      "source": "auto"
+    },
+    "0xF934": {
+      "name": "SUB_F934",
+      "type": "subroutine",
+      "source": "auto"
+    }
+  },
+  "regions": [
+    {
+      "start": "0x0000",
+      "end": "0x0067",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x0068",
+      "end": "0x00A9",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x00AA",
+      "end": "0x0117",
+      "type": "data",
+      "source": "auto"
+    },
+    {
+      "start": "0x0118",
+      "end": "0x06DD",
+      "type": "code",
+      "source": "auto"
+    },
+    {
+      "start": "0x06DE",
+      "end": "0xFFFF",
+      "type": "data",
+      "source": "auto"
+    }
+  ]
+}
