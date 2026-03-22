@@ -74,20 +74,25 @@ Decoded byte values are converted through a game-specific character table using:
 character_index = value - 0x40
 ```
 
-The character set includes:
+Confirmed mappings in the active range include:
 
-- ASCII-style letters and digits
-- punctuation
-- German umlauts
-- localized special symbols
+- `0x41..0x5a` -> `a..z`
+- `0x5b..0x5d` -> `ä ö ü`
+- `0x5e..0x5f` -> `[ ]`
+- `0x61..0x6f` -> `! " # $ <space> & ' ( ) * + , - . /`
+- `0x70..0x79` -> `0..9`
+- `0x7a..0x7f` -> `: ; < = > ?`
+- `0x81..0x9a` -> `A..Z`
+- `0x9b..0x9e` -> `Ä Ö Ü ß`
 
 ### 1.7 Wrapping behavior
 
-After every 40 decoded characters, a space is inserted to mimic C64 line wrapping behavior.
+After every 40 decoded characters, the text wraps to a new line.
+
+Some tools may flatten these line breaks for display, but the underlying decoded text uses 40-column line wrapping.
 
 ## 2. Open points
 
 The following details remain intentionally unspecified:
 
 - The exact meaning of the first 16-bit word in indexed text records
-- The full localized character table in canonical table form
