@@ -13,6 +13,7 @@ const (
 	overlaySector      = 5
 	outputDir          = "sequential"
 	sectorSize         = 256
+	vmRootOffset       = 0x260
 	rootTableOffset    = 0xA0
 	rootIndexMapOffset = 0xC0
 	rootIndexMapSize   = 0x40
@@ -121,6 +122,21 @@ func extractRoots(overlay []byte) ([]sectorRef, error) {
 	return roots, nil
 }
 
+func rootAtOffset(buf []byte, offset int) (sectorRef, error) {
+	if offset+1 >= len(buf) {
+		return sectorRef{}, fmt.Errorf("root offset 0x%X out of range", offset)
+	}
+
+	root := sectorRef{
+		track:  buf[offset],
+		sector: buf[offset+1],
+	}
+	if _, err := d64Pos(int(root.track), int(root.sector), 0); err != nil {
+		return sectorRef{}, fmt.Errorf("invalid track/sector at 0x%X: %02X/%02X: %w", offset, root.track, root.sector, err)
+	}
+	return root, nil
+}
+
 func extractChain(buf []byte, root sectorRef) ([]byte, error) {
 	track := int(root.track)
 	sector := int(root.sector)
@@ -158,7 +174,7 @@ func extractChain(buf []byte, root sectorRef) ([]byte, error) {
 	}
 }
 
-func loadChains(spec diskSpec) ([]extractedChain, error) {
+func loadDisk(spec diskSpec) ([]byte, error) {
 	buf, err := os.ReadFile(spec.path)
 	if err != nil {
 		return nil, err
@@ -166,7 +182,10 @@ func loadChains(spec diskSpec) ([]extractedChain, error) {
 	if len(buf) != d64Size {
 		return nil, fmt.Errorf("%s has unexpected size %d", spec.path, len(buf))
 	}
+	return buf, nil
+}
 
+func loadChains(buf []byte) ([]extractedChain, error) {
 	overlay, err := readSector(buf, overlayTrack, overlaySector)
 	if err != nil {
 		return nil, err
@@ -189,6 +208,23 @@ func loadChains(spec diskSpec) ([]extractedChain, error) {
 	}
 
 	return chains, nil
+}
+
+func loadVMChain(buf []byte) (extractedChain, error) {
+	root, err := rootAtOffset(buf, vmRootOffset)
+	if err != nil {
+		return extractedChain{}, err
+	}
+
+	payload, err := extractChain(buf, root)
+	if err != nil {
+		return extractedChain{}, fmt.Errorf("vm root $%02X/$%02X: %w", root.track, root.sector, err)
+	}
+
+	return extractedChain{
+		root:    root,
+		payload: payload,
+	}, nil
 }
 
 func formatRoots(roots []sectorRef) string {
@@ -231,7 +267,17 @@ func main() {
 	}
 
 	for _, spec := range disks {
-		chains, err := loadChains(spec)
+		buf, err := loadDisk(spec)
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "%s: %v\n", spec.name, err)
+			os.Exit(1)
+		}
+		chains, err := loadChains(buf)
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "%s: %v\n", spec.name, err)
+			os.Exit(1)
+		}
+		vmChain, err := loadVMChain(buf)
 		if err != nil {
 			fmt.Fprintf(os.Stderr, "%s: %v\n", spec.name, err)
 			os.Exit(1)
@@ -251,5 +297,12 @@ func main() {
 			}
 			fmt.Printf("  %s $%02X/$%02X -> %s (%d bytes)\n", spec.name, chain.root.track, chain.root.sector, outPath, len(chain.payload))
 		}
+
+		vmPath := filepath.Join(outputDir, fmt.Sprintf("%s_vm.bin", spec.name))
+		if err := os.WriteFile(vmPath, vmChain.payload, 0o644); err != nil {
+			fmt.Fprintf(os.Stderr, "%s: write %s: %v\n", spec.name, vmPath, err)
+			os.Exit(1)
+		}
+		fmt.Printf("  %s vm $%02X/$%02X -> %s (%d bytes)\n", spec.name, vmChain.root.track, vmChain.root.sector, vmPath, len(vmChain.payload))
 	}
 }
