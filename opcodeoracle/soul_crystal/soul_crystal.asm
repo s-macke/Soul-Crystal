@@ -1,7 +1,7 @@
 ; ============================================================
 ; AUTO-GENERATED FILE - DO NOT EDIT
 ; ============================================================
-; Generated: 2026-03-22T10:54:14Z
+; Generated: 2026-03-28T10:57:57Z
 ; Source:    ../data/tests/nachcodeabfrage.vsf
 ; ============================================================
 
@@ -12264,7 +12264,7 @@ $531B L_531B:                         ; xref: jump from $530A
 
 $532A SUB_532A:                       ; xref: call from $556E (L_556E)
     JSR $534F                         ; Call SUB_534F
-                                      ; Send one protocol block through svc_write_block ($CB09) using the buffer pointer at $CA60/$CA61. This is part of the disk-side selection flow.
+                                      ; Part of the disk-side switch flow. Dispatches $CB09 with A=0 and X/Y sourced from $CA60/$CA61, so this enters the command-$02 chained sector-read path rather than a write path.
     LDA #$82
     STA $9624                         ; frontend_io_mode
     LDA #$00
@@ -12491,6 +12491,10 @@ $5442                   .BYTE $04,$92,$69                                       
 ; === CODE SECTION ===
 
     JSR $534F                         ; Call SUB_534F
+; --------------------------------------------------------
+; Probe the inserted disk via drive command $06 (find sector header).
+; The returned header bytes are copied into $CB1B/$CB1C and formatted for comparison against the selected disk-side identity.
+; --------------------------------------------------------
     JSR $0CDB                         ; Call call_vector_helper
                                       ; Query the currently inserted disk/resource header via svc_read_record_header ($CB0C), then format the returned header bytes from $CB1B/$CB1C for comparison/display.
 
@@ -12621,13 +12625,18 @@ $54E2                   .BYTE $00,$2B,$96                                       
     JSR $5D34                         ; Call SUB_5D34
     JMP $53A4                         ; Jump to disk_side_selection_loop
 ; --------------------------------------------------------
-; Reload the side-specific indexed resource metadata.
-; Calls svc_bulk_load_tables ($CB18), which repopulates the Huffman tree and indexed-record pointer tables for the newly selected disk side.
+; Reload the newly selected disk side.
+; First calls $CB18/$CD30 for the early fixed single-sector table reload. The wider switch sequence then performs later command-$02 chained loads, with observed destinations $7600 and $B926.
 ; --------------------------------------------------------
 $54EB reload_disk_side_tables:        ; xref: jump from $5465 (L_5465)
     LDA #$82
     STA $9624                         ; frontend_io_mode
+; --------------------------------------------------------
+; Dispatch $CB18 through call_vector_helper.
+; This starts the early fixed-table reload for the new side via drive command $00 single-sector reads into $CA00, $C900, and $0400-$0900. Later in the wider switch flow, separate command-$02 chained reads target $7600 and $B926.
+; --------------------------------------------------------
     JSR $0CDB                         ; Call call_vector_helper
+                                      ; Calls $CB18, which reaches $CD30 and performs the early fixed single-sector table reload for the selected side.
 
 ; === DATA SECTION ===
 
@@ -24393,7 +24402,7 @@ $C942 L_C942:                         ; xref: branch from $C935
     LDA #$00
     LDX $C99C
     LDY $C99D
-    JSR $CB09                         ; Call svc_write_block
+    JSR $CB09                         ; Call svc_read_sector_chain
     LDA $C99F
     STA $CFF2                         ; stream_table_cache_key_lo
     LDA $C99E
@@ -24508,23 +24517,34 @@ $CAFD                   .BYTE $01,$00,$00                                       
 $CB00 svc_decode_indexed_record:
     JMP $CDDD                         ; Jump to decode_stream_entry
 
-; === SUBROUTINE: svc_read_protocol_block ===
+; === SUBROUTINE: svc_read_sector ===
 
 ; --------------------------------------------------------
-; Service entry: read one protocol block over the external DD00 serial/resource transport.
-; This is the public trampoline into serial_read_block_body at $CC90.
+; Service entry for drive command $00: single-sector read.
+; On the wire this sends command byte $00 with X=track and Y=sector, then receives one sector into the buffer pointer set by $CB24.
 ; --------------------------------------------------------
-$CB03 svc_read_protocol_block:
-    JMP $CC90                         ; Jump to serial_read_block_body
+$CB03 svc_read_sector:  
+    JMP $CC90                         ; Jump to serial_read_sector_body
 $CB06 svc_send_cstring: 
     JMP $CBA6                         ; Jump to serial_send_cstring_body
 
-; === SUBROUTINE: svc_write_block ===
+; === SUBROUTINE: svc_read_sector_chain ===
 
-$CB09 svc_write_block:                ; xref: call from $C963
-    JMP $CC08                         ; Jump to serial_write_block_body
-$CB0C svc_read_record_header:
-    JMP $CBD3                         ; Jump to serial_read_record_header_body
+; --------------------------------------------------------
+; Service entry for drive command $02: chained sector read.
+; Despite the old write-oriented name, this path requests a linked sector chain from the drive and streams the returned payload into C64 memory via $CC08.
+; --------------------------------------------------------
+$CB09 svc_read_sector_chain:          ; xref: call from $C963
+    JMP $CC08                         ; Jump to serial_read_sector_chain_body
+
+; === SUBROUTINE: svc_find_sector_header ===
+
+; --------------------------------------------------------
+; Service entry for drive command $06: find sector header.
+; Used during disk switch to probe the inserted disk; the returned bytes are formatted from $CB1B/$CB1C for comparison against the selected side.
+; --------------------------------------------------------
+$CB0C svc_find_sector_header:
+    JMP $CBD3                         ; Jump to serial_find_sector_header_body
 $CB0F svc_read_record_header_alt:
     JMP $CBD6                         ; Jump to L_CBD6
 $CB12 svc_send_command_0a:
@@ -24710,9 +24730,9 @@ $CBB7 serial_send_encoded_byte:       ; xref: call from $CB79
 $CBC5                   .BYTE $C8,$D0,$ED,$A9,$4C,$8D,$C2,$CB,$20,$8F,$CB                      ; "....L... .."
 $CBD0                   .BYTE $4C,$A2,$CC                                                      ; "L.."
 
-; === CODE SECTION ===
+; === SUBROUTINE: serial_find_sector_header_body ===
 
-$CBD3 serial_read_record_header_body: ; xref: jump from $CB0C (svc_read_record_header)
+$CBD3 serial_find_sector_header_body: ; xref: jump from $CB0C (svc_find_sector_header)
     LDA #$06
     BIT $04A9                         ; xref+1: jump from $CB0F (svc_read_record_header_alt)  [instruction data modified]
     PHA
@@ -24746,7 +24766,14 @@ $CC03 L_CC03:                         ; xref: branch from $CBFF
     JSR $CB8F
     CLC
     RTS
-$CC08 serial_write_block_body:        ; xref: jump from $CB09 (svc_write_block)
+
+; === SUBROUTINE: serial_read_sector_chain_body ===
+
+; --------------------------------------------------------
+; Receive a chained sector payload from the drive (command $02).
+; This is a read path, not a write path: it sends command header $02, then streams returned bytes into C64 memory. When entered with A=0, the protocol may first supply a destination pointer, observed during disk switch as $7600 and $B926.
+; --------------------------------------------------------
+$CC08 serial_read_sector_chain_body:  ; xref: jump from $CB09 (svc_read_sector_chain)
     PHA                               ; Special case: when entered with A = 0, this routine accepts a destination pointer from the protocol stream and installs it into $AD/$AE. During disk change, observed returned destinations include $7600 and $B926.
     LDA #$02
     JSR $CB55                         ; Call serial_send_command_header
@@ -24831,13 +24858,13 @@ $CC84 L_CC84:                         ; xref: branch from $CC11
 ; xref: read from $CC8A
 $CC8F                   .BYTE $00                                                              ; "."
 
-; === SUBROUTINE: serial_read_block_body ===
+; === SUBROUTINE: serial_read_sector_body ===
 
 ; --------------------------------------------------------
-; Low-level block reader for the external disk/resource loader protocol.
-; This binary uses the custom DD00 serial service for actual transfers; the raw 1541 track/sector-to-absolute-offset math and chained-sector traversal from the disk spec are not visible here and likely live on the remote loader side.
+; Receive one sector from the drive (command $00) into the current C64 buffer pointer.
+; Used by the bulk side-table reload at $CD30 for fixed single-sector transfers into $CA00, $C900, and $0400-$0900.
 ; --------------------------------------------------------
-$CC90 serial_read_block_body:         ; xref: jump from $CB03 (svc_read_protocol_block)
+$CC90 serial_read_sector_body:        ; xref: jump from $CB03 (svc_read_sector)
                                       ; xref: call from $CD3B
                                       ; xref: call from $CD57
                                       ; xref: call from $CD6E
@@ -24962,9 +24989,8 @@ $CD2B L_CD2B:                         ; xref: jump from $CB12 (svc_send_command_
     LDA #$0A
     JMP $CB55                         ; Jump to serial_send_command_header
 ; --------------------------------------------------------
-; Bulk-load the indexed resource metadata tables.
-; Fetches the Huffman tree into $CA00+ and then reads the side-specific indexed-record pointer data used by $CD7A.
-; This is the game-specific layer of spec/C64/disk_format.md and disk_layout.md, not the raw 1541 sector-geometry math.
+; Bulk-load the side-specific lookup blocks using drive command $00 single-sector reads.
+; The first reads fill $CA00 (Huffman tree) and $C900 (indexed metadata); the loop then loads $0400-$0900 from successive sectors. This is the early fixed-table phase of disk switch, not the later chained payload loads.
 ; --------------------------------------------------------
 $CD30 bulk_load_protocol_tables:      ; xref: jump from $CB18 (svc_bulk_load_tables)
     LDX #$00
@@ -24972,7 +24998,7 @@ $CD30 bulk_load_protocol_tables:      ; xref: jump from $CB18 (svc_bulk_load_tab
     JSR $CB24                         ; Call serial_set_buffer_ptr
     LDX #$01
     LDY #$02
-    JSR $CC90                         ; Call serial_read_block_body
+    JSR $CC90                         ; Call serial_read_sector_body
     LDA $CAFC
     STA $CB1F
     LDA $CAFD
@@ -24982,7 +25008,7 @@ $CD30 bulk_load_protocol_tables:      ; xref: jump from $CB18 (svc_bulk_load_tab
     JSR $CB24                         ; Call serial_set_buffer_ptr
     LDX $CA64
     LDY $CA65
-    JSR $CC90                         ; Call serial_read_block_body
+    JSR $CC90                         ; Call serial_read_sector_body
     LDA #$00
 $CD5C L_CD5C:                         ; xref: branch from $CD77
     PHA
@@ -24997,7 +25023,7 @@ $CD5C L_CD5C:                         ; xref: branch from $CD77
     ADC #$03
     TAY
     LDX #$01
-    JSR $CC90                         ; Call serial_read_block_body
+    JSR $CC90                         ; Call serial_read_sector_body
     PLA
     CLC
     ADC #$01
@@ -25313,7 +25339,7 @@ $CF54 L_CF54:                         ; xref: jump from $CB21 (svc_load_table_by
     ADC #$09
     TAY
     LDX #$01
-    JSR $CC90                         ; Call serial_read_block_body
+    JSR $CC90                         ; Call serial_read_sector_body
     JMP $C900                         ; Jump to L_C900
 
 ; === DATA SECTION ===
@@ -25909,6 +25935,14 @@ $DFC0                   .BYTE $00,$00,$00,$3F,$80,$00,$40,$40,$00,$40,$40,$00,$0
 $DFD0                   .BYTE $80,$00,$08,$00,$00,$08,$00,$00,$08,$00,$00,$08,$00,$00,$00,$00  ; "................"
 $DFE0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$08,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
 $DFF0                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
+; --------------------------------------------------------
+; Start of the screen graphics data block.
+; This region is screen/bitmap-style asset data, not executable code. The visible bit patterns and surrounding asset layout fit a display resource loaded as data.
+; --------------------------------------------------------
+
+; --------------------------------------------------------
+; Screen data starts here.
+; --------------------------------------------------------
 $E000                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$10,$00,$11  ; "................"
 $E010                   .BYTE $04,$10,$00,$00,$40,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "....@..........."
 $E020                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$45,$01,$04,$00,$00,$00,$00,$00  ; "........E......."

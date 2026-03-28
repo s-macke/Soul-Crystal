@@ -20,8 +20,10 @@ const (
 )
 
 type diskSpec struct {
-	name string
-	path string
+	name            string
+	path            string
+	fixedRootOffset int
+	vmRootOffset    int
 }
 
 type sectorRef struct {
@@ -35,10 +37,11 @@ type extractedChain struct {
 }
 
 var knownDisks = []diskSpec{
-	{name: "B1", path: "data/C64/d64/Soul Crystal SideB1.d64"},
-	{name: "B2", path: "data/C64/d64/Soul Crystal SideB2.d64"},
-	{name: "C1", path: "data/C64/d64/Soul Crystal SideC1.d64"},
-	{name: "C2", path: "data/C64/d64/Soul Crystal SideC2.d64"},
+	{name: "A2", path: "data/C64/d64/Soul Crystal SideA2.d64", fixedRootOffset: 0x0E00, vmRootOffset: -1},
+	{name: "B1", path: "data/C64/d64/Soul Crystal SideB1.d64", fixedRootOffset: -1, vmRootOffset: vmRootOffset},
+	{name: "B2", path: "data/C64/d64/Soul Crystal SideB2.d64", fixedRootOffset: -1, vmRootOffset: vmRootOffset},
+	{name: "C1", path: "data/C64/d64/Soul Crystal SideC1.d64", fixedRootOffset: -1, vmRootOffset: vmRootOffset},
+	{name: "C2", path: "data/C64/d64/Soul Crystal SideC2.d64", fixedRootOffset: -1, vmRootOffset: vmRootOffset},
 }
 
 func sectorCount(track int) int {
@@ -137,6 +140,29 @@ func rootAtOffset(buf []byte, offset int) (sectorRef, error) {
 	return root, nil
 }
 
+func rootsAtOffset(buf []byte, offset int) ([]sectorRef, error) {
+	if offset < 0 || offset >= len(buf) {
+		return nil, fmt.Errorf("root table offset 0x%X out of range", offset)
+	}
+
+	roots := make([]sectorRef, 0, 8)
+	for pos := offset; pos+1 < len(buf); pos += 2 {
+		root := sectorRef{
+			track:  buf[pos],
+			sector: buf[pos+1],
+		}
+		if _, err := d64Pos(int(root.track), int(root.sector), 0); err != nil {
+			if len(roots) == 0 {
+				return nil, fmt.Errorf("no valid roots at 0x%X", offset)
+			}
+			break
+		}
+		roots = append(roots, root)
+	}
+
+	return roots, nil
+}
+
 func extractChain(buf []byte, root sectorRef) ([]byte, error) {
 	track := int(root.track)
 	sector := int(root.sector)
@@ -185,12 +211,21 @@ func loadDisk(spec diskSpec) ([]byte, error) {
 	return buf, nil
 }
 
-func loadChains(buf []byte) ([]extractedChain, error) {
-	overlay, err := readSector(buf, overlayTrack, overlaySector)
-	if err != nil {
-		return nil, err
+func loadChains(spec diskSpec, buf []byte) ([]extractedChain, error) {
+	var (
+		roots []sectorRef
+		err   error
+	)
+
+	if spec.fixedRootOffset >= 0 {
+		roots, err = rootsAtOffset(buf, spec.fixedRootOffset)
+	} else {
+		var overlay []byte
+		overlay, err = readSector(buf, overlayTrack, overlaySector)
+		if err == nil {
+			roots, err = extractRoots(overlay)
+		}
 	}
-	roots, err := extractRoots(overlay)
 	if err != nil {
 		return nil, err
 	}
@@ -210,8 +245,8 @@ func loadChains(buf []byte) ([]extractedChain, error) {
 	return chains, nil
 }
 
-func loadVMChain(buf []byte) (extractedChain, error) {
-	root, err := rootAtOffset(buf, vmRootOffset)
+func loadVMChain(spec diskSpec, buf []byte) (extractedChain, error) {
+	root, err := rootAtOffset(buf, spec.vmRootOffset)
 	if err != nil {
 		return extractedChain{}, err
 	}
@@ -272,12 +307,7 @@ func main() {
 			fmt.Fprintf(os.Stderr, "%s: %v\n", spec.name, err)
 			os.Exit(1)
 		}
-		chains, err := loadChains(buf)
-		if err != nil {
-			fmt.Fprintf(os.Stderr, "%s: %v\n", spec.name, err)
-			os.Exit(1)
-		}
-		vmChain, err := loadVMChain(buf)
+		chains, err := loadChains(spec, buf)
 		if err != nil {
 			fmt.Fprintf(os.Stderr, "%s: %v\n", spec.name, err)
 			os.Exit(1)
@@ -298,11 +328,19 @@ func main() {
 			fmt.Printf("  %s $%02X/$%02X -> %s (%d bytes)\n", spec.name, chain.root.track, chain.root.sector, outPath, len(chain.payload))
 		}
 
-		vmPath := filepath.Join(outputDir, fmt.Sprintf("%s_vm.bin", spec.name))
-		if err := os.WriteFile(vmPath, vmChain.payload, 0o644); err != nil {
-			fmt.Fprintf(os.Stderr, "%s: write %s: %v\n", spec.name, vmPath, err)
-			os.Exit(1)
+		if spec.vmRootOffset >= 0 {
+			vmChain, err := loadVMChain(spec, buf)
+			if err != nil {
+				fmt.Fprintf(os.Stderr, "%s: %v\n", spec.name, err)
+				os.Exit(1)
+			}
+
+			vmPath := filepath.Join(outputDir, fmt.Sprintf("%s_vm.bin", spec.name))
+			if err := os.WriteFile(vmPath, vmChain.payload, 0o644); err != nil {
+				fmt.Fprintf(os.Stderr, "%s: write %s: %v\n", spec.name, vmPath, err)
+				os.Exit(1)
+			}
+			fmt.Printf("  %s vm $%02X/$%02X -> %s (%d bytes)\n", spec.name, vmChain.root.track, vmChain.root.sector, vmPath, len(vmChain.payload))
 		}
-		fmt.Printf("  %s vm $%02X/$%02X -> %s (%d bytes)\n", spec.name, vmChain.root.track, vmChain.root.sector, vmPath, len(vmChain.payload))
 	}
 }

@@ -18,6 +18,7 @@ The current best interpretation is:
 
 - `$7600` receives VM/script data.
 - `$B926` receives SID music data.
+- `$C900` receives a side-specific executable overlay for the stream/resource layer.
 
 ## 1. Prompt Layer
 
@@ -183,19 +184,83 @@ These destinations are set through `$CB24`.
 ### Confirmed contents
 
 - `$CA00-$CAFF`
-  - Huffman tree
-  - `$CA00-$CA7F` = `huffman_tree_bit1_table`
-  - `$CA80-$CAFF` = `huffman_tree_bit0_table`
+  - mixed header/control block for the stream layer
+  - most of it is used as the Huffman tree:
+    - `$CA00-$CA7F` = `huffman_tree_bit1_table`
+    - `$CA80-$CAFF` = `huffman_tree_bit0_table`
+  - but several bytes inside the same sector are read directly as control values outside the Huffman decoder
 
 - `$C900+`
-  - side-specific indexed-record metadata
+  - side-specific executable overlay for the stream/resource layer
+  - code at `$C900-$C98D` is the same across the known disk variants
+  - the data tables at `$C99F-$C9FF` differ by disk/side
 
 - `$0400-$0900`
   - additional side-specific lookup blocks used by the resource layer
 
-## 6. Chained Loads After Tablm $CB4E
-$CB54                   .BYTE $33                                                              ; "3"
-e Reload
+### What the `$C900` overlay does
+
+The block loaded into `$C900` is not just passive metadata.
+
+Confirmed structure:
+
+- `$C900`
+  - main loader/selector entry
+  - jumps to `$C926`
+  - chooses a table-set ID from `$C9C0` based on the current stream selector
+  - compares that against the cached key in `$CFF2/$CFF3`
+  - if needed, starts a chained load through `$CB09`
+
+- `$C903`
+  - mode-dependent apply entry
+  - branches between `$B006` and `$B003` depending on `music_enabled_flag`
+
+- `$C906`
+  - forced-default apply entry
+  - always executes the `$B006` branch and ignores `music_enabled_flag`
+
+The side-specific differences are in:
+
+- `$C99F`
+  - one-byte overlay/cache key
+  - `B1=$01`, `B2=$02`, `C1=$03`, `C2=$04`
+
+- `$C9A0-$C9BF`
+  - track/sector table for later command-`$02` chained loads
+
+- `$C9C0-$C9FF`
+  - selector map from `stream_selector & $3F` to a table-set ID
+
+So the second fixed sector read in `$CD30` installs executable overlay logic and
+its side-specific tables, not just a data block.
+
+### Important side-band fields inside `$CA00-$CAFF`
+
+The first fixed sector loaded into `$CA00` is not a pure text-tree block.
+Known bytes inside it are consumed directly by other code:
+
+- `$CA60/$CA61`
+  - used by `$532A`
+  - become `X/Y` for a command-`$02` chained sector read during disk switch
+
+- `$CA64/$CA65`
+  - used by `$CD30`
+  - become `X/Y` for the second fixed single-sector read, which loads the `$C900` overlay
+
+- `$CAFA/$CAFB`
+  - used by `$54EB`
+  - copied into `$70FB/$7100` during the reload path
+
+- `$CAFC/$CAFD`
+  - used by `$CD30`
+  - copied into `$CB1F/$CB20`, which become the image-side indexed-record table base
+
+So the best current interpretation is:
+
+- the `$CA00` sector is a mixed resource header/control block
+- it embeds the Huffman tree, but also contains disk-side stream configuration bytes
+
+## 6. Chained Loads After Table Reload
 
 After the bulk single-sector reload, the switch flow performs additional larger loads.
 
@@ -229,6 +294,18 @@ That makes the current best interpretation:
 
 The second one is especially plausible because `$B926` is the base of the current
 SID song-header/pointer block.
+
+One important connection to the `$C900` overlay:
+
+- the overlay’s table at `$C9A0+` supplies track/sector pairs for later command-`$02` chained loads
+- the overlay code at `$C926` selects one of those pairs and calls `$CB09`
+
+So the disk switch has two distinct command-`$02` contexts:
+
+1. explicit switch-time chained loads, where destinations observed so far are `$7600` and `$B926`
+2. later overlay-driven chained loads selected by the `$C900` table data
+
+The known `$C900` variants differ exactly in those chained-load tables.
 
 ## 7. Indexed Resource Fetches After Reload
 

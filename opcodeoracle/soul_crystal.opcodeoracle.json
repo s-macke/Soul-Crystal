@@ -2,7 +2,7 @@
   "version": "1.1",
   "metadata": {
     "created": "2026-03-20T19:36:24Z",
-    "modified": "2026-03-22T10:50:10Z",
+    "modified": "2026-03-28T10:57:57Z",
     "sourceFile": "../data/tests/nachcodeabfrage.vsf",
     "description": "C64 Text Adventure Game Soul Crystal"
   },
@@ -9597,7 +9597,7 @@
       "source": "assistant"
     },
     "0xCB03": {
-      "name": "svc_read_protocol_block",
+      "name": "svc_read_sector",
       "type": "subroutine",
       "source": "assistant"
     },
@@ -9607,13 +9607,13 @@
       "source": "assistant"
     },
     "0xCB09": {
-      "name": "svc_write_block",
+      "name": "svc_read_sector_chain",
       "type": "subroutine",
       "source": "assistant"
     },
     "0xCB0C": {
-      "name": "svc_read_record_header",
-      "type": "label",
+      "name": "svc_find_sector_header",
+      "type": "subroutine",
       "source": "assistant"
     },
     "0xCB0F": {
@@ -9707,8 +9707,8 @@
       "source": "assistant"
     },
     "0xCBD3": {
-      "name": "serial_read_record_header_body",
-      "type": "label",
+      "name": "serial_find_sector_header_body",
+      "type": "subroutine",
       "source": "assistant"
     },
     "0xCBD6": {
@@ -9732,8 +9732,8 @@
       "source": "auto"
     },
     "0xCC08": {
-      "name": "serial_write_block_body",
-      "type": "label",
+      "name": "serial_read_sector_chain_body",
+      "type": "subroutine",
       "source": "assistant"
     },
     "0xCC30": {
@@ -9772,7 +9772,7 @@
       "source": "auto"
     },
     "0xCC90": {
-      "name": "serial_read_block_body",
+      "name": "serial_read_sector_body",
       "type": "subroutine",
       "source": "assistant"
     },
@@ -10675,12 +10675,17 @@
     },
     "0x532A": {
       "assistant": {
-        "comment": "Send one protocol block through svc_write_block ($CB09) using the buffer pointer at $CA60/$CA61. This is part of the disk-side selection flow."
+        "comment": "Part of the disk-side switch flow. Dispatches $CB09 with A=0 and X/Y sourced from $CA60/$CA61, so this enters the command-$02 chained sector-read path rather than a write path."
       }
     },
     "0x5448": {
       "assistant": {
         "comment": "Query the currently inserted disk/resource header via svc_read_record_header ($CB0C), then format the returned header bytes from $CB1B/$CB1C for comparison/display."
+      }
+    },
+    "0x54F0": {
+      "assistant": {
+        "comment": "Calls $CB18, which reaches $CD30 and performs the early fixed single-sector table reload for the selected side."
       }
     },
     "0x54F3": {
@@ -10907,6 +10912,11 @@
       "assistant": {
         "comment": "Increment the inverted remaining-length counter. When both bytes wrap to zero, the requested number of decoded characters has been emitted."
       }
+    },
+    "0xE000": {
+      "assistant": {
+        "comment": "Screen data starts here."
+      }
     }
   },
   "headlines": {
@@ -11130,9 +11140,19 @@
         "comment": "Modal disk-side selection loop.\nAccepts translated prompt input, loads the side-selection resources, reads the currently inserted disk header, compares it against the selected disk ID, and either refreshes locally or branches to the bulk table reload path at $54EB."
       }
     },
+    "0x5448": {
+      "assistant": {
+        "comment": "Probe the inserted disk via drive command $06 (find sector header).\nThe returned header bytes are copied into $CB1B/$CB1C and formatted for comparison against the selected disk-side identity."
+      }
+    },
     "0x54EB": {
       "assistant": {
-        "comment": "Reload the side-specific indexed resource metadata.\nCalls svc_bulk_load_tables ($CB18), which repopulates the Huffman tree and indexed-record pointer tables for the newly selected disk side."
+        "comment": "Reload the newly selected disk side.\nFirst calls $CB18/$CD30 for the early fixed single-sector table reload. The wider switch sequence then performs later command-$02 chained loads, with observed destinations $7600 and $B926."
+      }
+    },
+    "0x54F0": {
+      "assistant": {
+        "comment": "Dispatch $CB18 through call_vector_helper.\nThis starts the early fixed-table reload for the new side via drive command $00 single-sector reads into $CA00, $C900, and $0400-$0900. Later in the wider switch flow, separate command-$02 chained reads target $7600 and $B926."
       }
     },
     "0x55CF": {
@@ -11442,7 +11462,17 @@
     },
     "0xCB03": {
       "assistant": {
-        "comment": "Service entry: read one protocol block over the external DD00 serial/resource transport.\nThis is the public trampoline into serial_read_block_body at $CC90."
+        "comment": "Service entry for drive command $00: single-sector read.\nOn the wire this sends command byte $00 with X=track and Y=sector, then receives one sector into the buffer pointer set by $CB24."
+      }
+    },
+    "0xCB09": {
+      "assistant": {
+        "comment": "Service entry for drive command $02: chained sector read.\nDespite the old write-oriented name, this path requests a linked sector chain from the drive and streams the returned payload into C64 memory via $CC08."
+      }
+    },
+    "0xCB0C": {
+      "assistant": {
+        "comment": "Service entry for drive command $06: find sector header.\nUsed during disk switch to probe the inserted disk; the returned bytes are formatted from $CB1B/$CB1C for comparison against the selected side."
       }
     },
     "0xCB21": {
@@ -11455,14 +11485,19 @@
         "comment": "Send a 3-byte command header over the custom DD00 serial protocol.\nA carries the command id; X/Y are forwarded as parameters. The routine computes several DD00 line masks in $CF9B-$CF9F, temporarily switches the bus to transmit mode, sends A/X/Y with serial_write_encoded_byte, then restores the previous DD00 state."
       }
     },
+    "0xCC08": {
+      "assistant": {
+        "comment": "Receive a chained sector payload from the drive (command $02).\nThis is a read path, not a write path: it sends command header $02, then streams returned bytes into C64 memory. When entered with A=0, the protocol may first supply a destination pointer, observed during disk switch as $7600 and $B926."
+      }
+    },
     "0xCC90": {
       "assistant": {
-        "comment": "Low-level block reader for the external disk/resource loader protocol.\nThis binary uses the custom DD00 serial service for actual transfers; the raw 1541 track/sector-to-absolute-offset math and chained-sector traversal from the disk spec are not visible here and likely live on the remote loader side."
+        "comment": "Receive one sector from the drive (command $00) into the current C64 buffer pointer.\nUsed by the bulk side-table reload at $CD30 for fixed single-sector transfers into $CA00, $C900, and $0400-$0900."
       }
     },
     "0xCD30": {
       "assistant": {
-        "comment": "Bulk-load the indexed resource metadata tables.\nFetches the Huffman tree into $CA00+ and then reads the side-specific indexed-record pointer data used by $CD7A.\nThis is the game-specific layer of spec/C64/disk_format.md and disk_layout.md, not the raw 1541 sector-geometry math."
+        "comment": "Bulk-load the side-specific lookup blocks using drive command $00 single-sector reads.\nThe first reads fill $CA00 (Huffman tree) and $C900 (indexed metadata); the loop then loads $0400-$0900 from successive sectors. This is the early fixed-table phase of disk switch, not the later chained payload loads."
       }
     },
     "0xCD7A": {
@@ -11508,6 +11543,11 @@
     "0xD800": {
       "assistant": {
         "comment": "Color RAM for the visible character screen.\nUsed together with the screen matrix at $FC00; color RAM is fixed at $D800 on the C64."
+      }
+    },
+    "0xE000": {
+      "assistant": {
+        "comment": "Start of the screen graphics data block.\nThis region is screen/bitmap-style asset data, not executable code. The visible bit patterns and surrounding asset layout fit a display resource loaded as data."
       }
     },
     "0xF800": {
