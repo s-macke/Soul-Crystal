@@ -1,0 +1,63 @@
+# VERBS
+
+Container: FORM / TEXT
+
+## Verbs
+
+  0: 
+  1: Über Soul Crys
+  2: Kurztext
+  3: Credits
+  4: Grabe
+  5: Hinunter
+  6: Osten
+  7: Ausgänge
+  8: Install.n
+  9: Inventar
+ 10: Schau
+ 11: Norden
+ 12: Spielende
+ 13: Neustart
+ 14: Laden
+ 15: Punkte
+ 16: Lösung
+ 17: 
+ 18: Musik
+ 19: Süden
+ 20: Speichern
+ 21: Hinauf
+ 22: Ausführlich
+ 23: Warte
+ 24: Westen
+ 25: Schließe
+ 26: Zerstöre
+ 27: Verliere
+ 28: Betritt
+ 29: Betrachte
+ 30: Hilf
+ 31: Verlasse
+ 32: Bewege
+ 33: Öffne
+ 34: Ziehe
+ 35: Drücke
+ 36: Nimm
+ 37: Sprich
+ 38: Wende
+ 39: Befestige
+ 40: Gib
+ 41: Verriegle
+ 42: Entriegle
+ 43: an
+ 44: mit
+ 45: auf
+ 46: Mehr..
+ 47: und
+ 48: nach
+ 49: Oben
+ 50: Unten
+ 51: nirgendwohin
+ 52: Unbelegt
+ 53: Raumnummer:
+ 54: Du bist tot!
+ 55: Neues Spiel?
+

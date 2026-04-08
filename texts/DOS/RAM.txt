@@ -1,0 +1,146 @@
+# RAM
+
+Container: FORM / HUFF
+
+## Texts
+
+### 000
+
+Bis jetzt hast Du @u1 von 5060 möglichen Punkten erziehlt. 
+
+### 001
+
+Bitte gib den @u1. Buchstaben des @u2. Wortes auf Seite @u3, Absatz @u4, Zeile @u5 ein. Denke auch daran, daß einzeln stehende Zeilen (wie z.B. Überschriften) nicht mitzuzählen sind! -Bitte drücke jetzt die betreffende Taste... 
+
+### 002
+
+Deine Eingabe war leider falsch - bitte versuche es noch einmal! -Noch einmal zur Erinnerung: Einzeln stehende Zeilen wie Überschriften etc. dürfen NICHT mitgezählt werden! 
+
+### 003
+
+Bitte schiebe die Diskette "SoulCrystalDisk@u1" ins Laufwerk... 
+
+### 004
+
+Aber dorthin kannst Du doch gar nicht gehen! Zumindest habe ich nichts dergleichen gesagt, oder...? 
+
+### 005
+
+Gut - geschlossen... 
+
+### 006
+
+Aber das kannst Du doch überhaupt nicht schließen! 
+
+### 007
+
+Okay - @s1 abgelegt. 
+
+### 008
+
+Gut: Wie Du willst... 
+
+### 009
+
+Könntest Du mir mal bitte erklären, wie Du DAS betreten willst? 
+
+### 010
+
+Tut mir leid - aber darüber gibt es jetzt wirklich nicht mehr allzu viel zu berichten... 
+
+### 011
+
+@s1 - genommen. 
+
+### 012
+
+Aber das hast Du doch schon längst! 
+
+### 013
+
+Tut mir leid, aber DAS kannst Du nun beim besten Willen nicht mitnehmen! 
+
+### 014
+
+Okay: Du stehst wieder auf eigenen Beinen. 
+
+### 015
+
+Versprichst Du Dir irgend etwas Bestimmtes davon, DAS durch die Gegend zu schleppen? 
+
+### 016
+
+Hmmm... -Scheint aber verschlossen zu sein! 
+
+### 017
+
+Ist ja wirklich lieb gemeint, aber was sollte man denn DAMIT schon anfangen können...? 
+
+### 018
+
+Gut, abgeschlossen! 
+
+### 019
+
+Wie willst Du denn DAMIT etwas abschließen? 
+
+### 020
+
+Tut mir ja wirklich ganz fürchterlich leid, aber DAS kannst Du nun wirklich nicht abschließen! 
+
+### 021
+
+Okay, aufgeschlossen! 
+
+### 022
+
+Also, DAMIT kann man ja nun wirklich nichts aufschließen, oder? 
+
+### 023
+
+Wie soll denn DAS funktionieren? 
+
+### 024
+
+Ausgänge führen 
+
+### 025
+
+ACHTUNG: Spielstand ist defekt und konnte nicht geladen werden. 
+
+### 026
+
+ACHTUNG: Beim Speichern des Spielstandes trat ein Fehler auf. Der momentane Spielstand konnte nicht gespeichert werden. 
+
+### 027
+
+ACHTUNG: Die Diskette/Festplatte scheint keine Spielstände zu enthalten. Diskette für Soul Crystal vorbereiten (J/N/Esc) ? (Vorhandene Spielstände werden dabei nicht gelöscht.) 
+
+### 028
+
+ACHTUNG: Dateifehler in den Spielständen. Operation abgebrochen. 
+
+### 029
+
+ACHTUNG: Dateifehler in den Spielständen. Der aktuelle Spielstand wurde zwar gespeichert, kann aber nicht mehr angezeigt werden. Datei SAVEGAME.CON löschen, um den Fehler zu beheben. 
+
+### 030
+
+Wähle bitte einen zu ladenden Spielstand aus. 
+
+### 031
+
+Wähle bitte einen zu speichernden Spielstand aus. 
+
+### 032
+
+Gib bitte den Namen des zu speichernden Spielstandes ein (Esc zum abbrechen). 
+
+### 033
+
+OK. Spielstand geladen. 
+
+### 034
+
+OK. Spielstand gespeichert. 
+

@@ -1,0 +1,84 @@
+# PARTA
+
+Container: FORM / HUFF
+
+## Rooms
+
+  0: 83
+  1: 84
+  2: 85
+  3: 86
+  4: 87
+  5: 88
+  6: 89
+  7: 90
+  8: 91
+  9: 92
+ 10: 93
+ 11: 94
+ 12: 95
+ 13: 96
+ 14: 97
+
+## Texts
+
+### 000
+
+Im Gästezimmer
+
+### 001
+
+In der Lobby
+
+### 002
+
+Auf der Straße
+
+### 003
+
+Auf der Straße
+
+### 004
+
+Auf dem Korridor
+
+### 005
+
+An der Rezeption
+
+### 006
+
+Im Strudel
+
+### 007
+
+Am Ufer des Bergsees
+
+### 008
+
+Im Eßzimmer
+
+### 009
+
+Im See
+
+### 010
+
+Im See
+
+### 011
+
+Vor dem Wasserfall
+
+### 012
+
+Hinter dem Wasserfall
+
+### 013
+
+Am Ufer
+
+### 014
+
+Auf einer Lichtung
+

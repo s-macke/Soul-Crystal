@@ -830,6 +830,7 @@ int main() {
     //printf("%02x %02x %02x %02x %02x %02x %02x %02x\n", ram[0x7600], ram[0x7601], ram[0x7602], ram[0x7603], ram[0x7604], ram[0x7605], ram[0x7606], ram[0x7607]);
     //exit(1);
     size = 3490;
+    //size = 0x2000;
     WalkCode(0x7600, size);
     TransformByteCode(size);
     ToC("out/parta.c", texta);

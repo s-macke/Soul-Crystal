@@ -68,7 +68,7 @@ std::string NameToString(const TCHUNK &chunk) {
     return s;
 }
 
-void ParseTXTL(unsigned char *buffer, unsigned int size) {
+void Ok, ParseTXTL(unsigned char *buffer, unsigned int size) {
     int x;
     int p = 0;
     for (int i = 0; i < size; i += 2) {
@@ -219,7 +219,7 @@ void GetDosText() {
 
     unsigned char buffer[0x10000];
 
-    FILE *file = fopen("Soul/PARTA.TXT", "rb");
+    FILE *file = fopen("data/DOS/Soul/PARTA.TXT", "rb");
     //FILE *file = fopen("Soul/PARTB.TXT", "rb");
     //FILE *file = fopen("Soul/PARTC.TXT", "rb");
     //FILE *file = fopen("Soul/PARTD.TXT", "rb");
@@ -282,7 +282,7 @@ void GetDosText() {
 
 void GetDosObjects() {
 
-    FILE *file = fopen("Soul/OBJECTS.TXT", "rb");
+    FILE *file = fopen("data/DOS/Soul/OBJECTS.TXT", "rb");
 
     char x;
 

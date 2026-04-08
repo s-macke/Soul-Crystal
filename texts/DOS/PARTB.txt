@@ -1,0 +1,184 @@
+# PARTB
+
+Container: FORM / HUFF
+
+## Rooms
+
+  0: 83
+  1: 84
+  2: 85
+  3: 86
+  4: 87
+  5: 88
+  6: 89
+  7: 90
+  8: 91
+  9: 92
+ 10: 93
+ 11: 94
+ 12: 95
+ 13: 96
+ 14: 97
+ 15: 98
+ 16: 99
+ 17: 100
+ 18: 101
+ 19: 102
+ 20: 103
+ 21: 104
+ 22: 105
+ 23: 106
+ 24: 107
+ 25: 108
+ 26: 109
+ 27: 110
+ 28: 111
+ 29: 112
+ 30: 113
+ 31: 114
+ 32: 115
+ 33: 116
+ 34: 117
+
+## Texts
+
+### 000
+
+In Mylgors Studierzimmer
+
+### 001
+
+Im Dienerschlafzimmer
+
+### 002
+
+In der Orkhöhle
+
+### 003
+
+Im Kaminzimmer
+
+### 004
+
+Auf einer Lichtung
+
+### 005
+
+Auf einem Hügel
+
+### 006
+
+Vor Mylgors Haus
+
+### 007
+
+Auf dem Marktplatz
+
+### 008
+
+Auf einem Pfad
+
+### 009
+
+Im tiefen Wald
+
+### 010
+
+Auf einem schneebedeckten Berg
+
+### 011
+
+Im "Equipment Shoppe"
+
+### 012
+
+Auf dem Pfad
+
+### 013
+
+Auf einem Hügel
+
+### 014
+
+In einem schneebedeckten Tal
+
+### 015
+
+Vor einer alten Zwergenmine
+
+### 016
+
+Auf einem Hügel
+
+### 017
+
+Vor einem verfallenen Kloster
+
+### 018
+
+Vor Firons Eispalast
+
+### 019
+
+In der Eiswüste
+
+### 020
+
+In einem verschütteten Gang
+
+### 021
+
+In der ehemaligen Münze
+
+### 022
+
+Im Klostergarten
+
+### 023
+
+Im Speisesaal des Klosters
+
+### 024
+
+In Firons Thronsaal
+
+### 025
+
+In einem Gletscher
+
+### 026
+
+Vor einer Gruft
+
+### 027
+
+Auf dem Friedhof
+
+### 028
+
+In der Klosterschmiede
+
+### 029
+
+In der Königsgruft
+
+### 030
+
+In der kleinen Kapelle
+
+### 031
+
+In Mylgors Schlafzimmer
+
+### 032
+
+In einem kurzen Korridor
+
+### 033
+
+In Mylgors Geheimlabor
+
+### 034
+
+In einer kleinen, dunklen Krypta
+

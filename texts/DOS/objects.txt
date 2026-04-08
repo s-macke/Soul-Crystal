@@ -1,0 +1,168 @@
+# Objects
+
+  0: 
+  1: Abenteurer
+  2: Steinaltar
+  3: Amulett
+  4: Dachsschlitten
+  5: Ledersäckchen
+  6: Faß
+  7: Gästebett
+  8: Bett
+  9: Bett
+ 10: Bettzeug
+ 11: Bienenstock
+ 12: Klingel
+ 13: Blut
+ 14: Wasser
+ 15: Boot
+ 16: Kahn
+ 17: Bootsschlüssel
+ 18: Bücherregal
+ 19: Bücher
+ 20: Fellstiefel
+ 21: Brotscheibe
+ 22: Ziegelstein
+ 23: Prospekt
+ 24: Stuhl
+ 25: Truhe
+ 26: Orkkind
+ 27: Feuerstelle
+ 28: Kamin
+ 29: Codenummer
+ 30: Särge
+ 31: Silbermünzen
+ 32: Vertrag
+ 33: Kadaver
+ 34: Krone
+ 35: Kristall
+ 36: Kristallkugel
+ 37: Cu-Sath
+ 38: Samtvorhang
+ 39: Schacht
+ 40: Schreibtisch
+ 41: Tresen
+ 42: Studiertisch
+ 43: Schreibtisch
+ 44: Marmortisch
+ 45: Tagebuch
+ 46: Geschirr
+ 47: Hundeschlitten
+ 48: Zimmertür
+ 49: Zimmertür
+ 50: Holztür
+ 51: Eichentür
+ 52: Türklinke
+ 53: Schublade
+ 54: Eremit
+ 55: Orkfrau
+ 56: Fährmann
+ 57: Purpurfeuer
+ 58: Firon
+ 59: Eisschlüssel
+ 60: Weihw.-Becken
+ 61: Weihw.-Becken
+ 62: Speisen
+ 63: Himmelbett
+ 64: Haustür
+ 65: Friedhofstor
+ 66: Friedhofstor
+ 67: Grab
+ 68: Grabstein
+ 69: Kräuter
+ 70: Erdloch
+ 71: Honig
+ 72: Hotel
+ 73: Eispalast
+ 74: Portier
+ 75: Eisenschlüssel
+ 76: Jacks Geist
+ 77: Jeans
+ 78: Kessel
+ 79: König
+ 80: Messer
+ 81: Labortür
+ 82: Laborschlüssel
+ 83: Bootssteg
+ 84: Torschlüssel
+ 85: Fallgitter
+ 86: Fallgitter
+ 87: Gittertür
+ 88: Gittertür
+ 89: Brief
+ 90: Zaubertür
+ 91: Orkmann
+ 92: Lageplan
+ 93: Grabplatte
+ 94: Speisekarte
+ 95: Vollmond
+ 96: Mumien
+ 97: Mylgor
+ 98: Dorfbewohner
+ 99: Nordtür
+100: Notiz
+101: Zettel
+102: Gemälde
+103: Gemälde
+104: Papier
+105: Drudenfuß
+106: Drudenfuß
+107: Parfüm
+108: Pfeife
+109: Plattform
+110: Rattengift
+111: Portaltor
+112: Portaltor
+113: Elexier
+114: Gebet
+115: Ratten
+116: Reagenzien
+117: Zimmerschlüssel
+118: Tresor
+119: Sarkophag
+120: Szepter
+121: Schmierereien
+122: Verkäufer
+123: Vorratsregale
+124: Bücherwand
+125: Baumwollhemd
+126: Turnschuhe
+127: Schaufel
+128: Hinweisschild
+129: Warnschild
+130: Silber
+131: Skelett
+132: Skelett
+133: Totenschädel
+134: Himmel
+135: Slot
+136: Zauberspruch
+137: Quelle
+138: Kriegerstatue
+139: Stahltür
+140: Stahltür
+141: Stahltür
+142: Kurzschwert
+143: T-Shirt
+144: Tisch
+145: Eßtisch
+146: Eßtisch
+147: Purpurmantel
+148: Hose
+149: Baumstamm
+150: Baumstamm
+151: Badehose
+152: Einhorn
+153: Kays Schlüssel
+154: Kleiderschrank
+155: Weihwasser
+156: Wasserfall
+157: Wasserfall
+158: Waffen
+159: Werwolf
+160: Westtür
+161: Wolf
+162: Yeti
+163: Dave
+164: Zargon
+165: Zombie

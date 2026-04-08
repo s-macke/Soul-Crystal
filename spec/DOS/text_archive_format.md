@@ -82,25 +82,29 @@ The table is split into two equal halves and interpreted as an implicit binary t
 
 ### 7.2 Bit order
 
-Bits are consumed most significant bit first.
+Bits are consumed most significant bit first (bit 7, then bit 6, …, bit 0).
 
 ### 7.3 Traversal rules
 
-The table is interpreted as two parallel branch arrays:
+Let `poshalf = length(HUTB) / 2`. The table is interpreted as two parallel branch arrays:
 
-- lower half: one branch set
-- upper half: the other branch set
+- lower half (indices `0` … `poshalf-1`): selected when the stream bit is `0`
+- upper half (indices `poshalf` … `length-1`): selected when the stream bit is `1`
 
-Traversal behavior:
+Traversal starts at the root node, index `poshalf - 1` (the last entry of the lower half).
 
-- A branch with `bit == 0` is terminal and returns `value`
-- Otherwise `value` is interpreted as the next node index
+At each node at index `pos`:
+
+1. Read one bit from the stream.
+2. Pick the branch: if the bit is `0`, use entry `pos`; if `1`, use entry `poshalf + pos`.
+3. If the selected entry has `bit == 0`, it is a terminal — return its `value`.
+4. Otherwise, set `pos` to the entry's `value` and repeat from step 1.
 
 ### 7.4 `BODY` stream
 
 `BODY` is a bit-packed text stream decoded through the Huffman table from `HUTB`.
 
-Decoded strings are terminated by byte value `0`.
+Decoded strings are terminated by byte value `0`. After each `0` terminator, the bit stream advances to the next byte boundary before decoding the next string.
 
 ## 8. Object name table
 

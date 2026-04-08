@@ -1,0 +1,199 @@
+# PARTD
+
+Container: FORM / HUFF
+
+## Rooms
+
+  0: 83
+  1: 84
+  2: 85
+  3: 86
+  4: 87
+  5: 88
+  6: 89
+  7: 90
+  8: 91
+  9: 92
+ 10: 93
+ 11: 94
+ 12: 95
+ 13: 96
+ 14: 97
+ 15: 98
+ 16: 99
+ 17: 100
+ 18: 101
+ 19: 102
+ 20: 103
+ 21: 104
+ 22: 105
+ 23: 106
+ 24: 107
+ 25: 108
+ 26: 109
+ 27: 110
+ 28: 111
+ 29: 112
+ 30: 113
+ 31: 114
+ 32: 115
+ 33: 116
+ 34: 117
+ 35: 118
+ 36: 119
+ 37: 120
+
+## Texts
+
+### 000
+
+Im Schloßgarten
+
+### 001
+
+Auf dem Burghof
+
+### 002
+
+In den Ställen
+
+### 003
+
+In der Empfgangshalle
+
+### 004
+
+Im oberen Treppenhaus
+
+### 005
+
+In der Schloßgalerie
+
+### 006
+
+Im Vorratsraum
+
+### 007
+
+In der Schloßküche
+
+### 008
+
+Im Speisesaal
+
+### 009
+
+Im Küchengarten
+
+### 010
+
+Auf dem Dach des Hauptturmes
+
+### 011
+
+Im Haus des Turmwächters
+
+### 012
+
+In einem dunklen Schacht
+
+### 013
+
+In einer Verlieszelle
+
+### 014
+
+Im Amtszimmer des Torwächters
+
+### 015
+
+Im Zimmer des Dungeon Masters
+
+### 016
+
+Im unteren Treppenhaus
+
+### 017
+
+In der Waffenkammer
+
+### 018
+
+In einer dunklen Halle
+
+### 019
+
+Im Weinkeller
+
+### 020
+
+In einem Korridor
+
+### 021
+
+In einem finsteren Gruftgewölbe
+
+### 022
+
+In Zargons Schlafgemach
+
+### 023
+
+In einer Schwarzen Bibliothek
+
+### 024
+
+In Zargons Wohngemach
+
+### 025
+
+In einem Altarraum
+
+### 026
+
+In Zargons Studierzimmer
+
+### 027
+
+In Zargons Mysterium
+
+### 028
+
+In der Hütte des Torwächters
+
+### 029
+
+In der Hütte des Fährmanns
+
+### 030
+
+Am Ufer eines unterirdischen Sees
+
+### 031
+
+Auf einer kleinen Insel
+
+### 032
+
+In einem Höhlentunnel
+
+### 033
+
+An einer unterirdischen Quelle
+
+### 034
+
+Im Thronsaal des Butahkönigs
+
+### 035
+
+In der Höhle des Cu-Saths
+
+### 036
+
+In einem Höhlentunnel
+
+### 037
+
+In einer Wohnhöhle
+
