@@ -1,6 +1,7 @@
 package main
 
 import (
+	"../gallery"
 	"fmt"
 	"image"
 	"image/color"
@@ -154,6 +155,10 @@ func main() {
 	}
 
 	for _, disk := range knownRanges {
+		dir := filepath.Join("images/C64", "Disk "+disk.name)
+		if err := os.MkdirAll(dir, 0o755); err != nil {
+			panic(err)
+		}
 		buf, err := os.ReadFile(disk.path)
 		if err != nil {
 			panic(err)
@@ -167,11 +172,15 @@ func main() {
 			if err != nil {
 				panic(err)
 			}
-			out := filepath.Join("images", fmt.Sprintf("%s-%d.png", disk.name, idx-disk.firstIdx))
+			out := filepath.Join(dir, fmt.Sprintf("%s-%d.png", disk.name, idx-disk.firstIdx))
 			if err := writePNG(out, renderPaletted(data)); err != nil {
 				panic(err)
 			}
 			fmt.Println(out)
 		}
 	}
+	if err := gallery.Write("images/C64", "Soul Crystal — C64", "Four extracted gameplay sides: B1, B2, C1 and C2. Each folder corresponds to one D64 side, not one physical floppy. The source set also contains A1 and A2; their graphics are not covered by this extractor. C64 multicolor pixel doubling is already present in the PNGs."); err != nil {
+		panic(err)
+	}
+
 }

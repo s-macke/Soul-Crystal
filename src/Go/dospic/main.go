@@ -1,6 +1,7 @@
 package main
 
 import (
+	"../gallery"
 	"encoding/binary"
 	"fmt"
 	"image"
@@ -168,6 +169,21 @@ func renderEGA(raw []byte, w, h int, pal color.Palette) *image.Paletted {
 }
 
 func writePNG(path string, img image.Image) error {
+	name := filepath.Base(path)
+	group := "Shared"
+	for _, part := range []string{"a", "b", "c", "d"} {
+		if strings.HasPrefix(name, "part"+part) {
+			group = "Part " + strings.ToUpper(part)
+		}
+	}
+	if strings.HasPrefix(name, "intro_") {
+		group = "Intro"
+	}
+	path = filepath.Join(outDir, group, name)
+	if err := os.MkdirAll(filepath.Dir(path), 0o755); err != nil {
+		return err
+	}
+
 	f, err := os.Create(path)
 	if err != nil {
 		return err
@@ -457,4 +473,8 @@ func main() {
 			}
 		}
 	}
+	if err := gallery.Write(outDir, "Soul Crystal — DOS", "Grouped by game part and shared resources. The installed DOS copy does not preserve the original floppy assignments, so these groups are not disk numbers. ANIMS.PIC frames are not yet decoded; assets without embedded palettes retain the extractor's EGA fallback palette."); err != nil {
+		panic(err)
+	}
+
 }
