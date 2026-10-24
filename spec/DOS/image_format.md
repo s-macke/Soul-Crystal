@@ -149,4 +149,34 @@ The pixel encoding for animation frames is **not yet decoded**. Decompressed fra
 ## 13. Other open points
 
 - The game's active palette for files without embedded palettes (MENUMAIN, MENUSUBS, CASTTEXT, INITIAL) is set by the executable at runtime and not stored in the image files.
-- `MENUMAIN.PIC` has height 288, which exceeds standard EGA mode heights (200 or 350). It likely stores the UI frame as a single contiguous buffer that the engine blits in parts.
+## 14. DOS display resolution and gallery presentation
+
+The installed `SOUL.CFG` has graphics selector 4 at byte 0. The mode setter
+`1bd7:cbee` selects BIOS video mode 0x12 for selector 4 (`ccaa`), and mode
+0x10 for selector 3 (`cca0`), through interrupt 0x10 at `ccb2`.
+These are VGA 640×480 and EGA 640×350, respectively, both with 16 colors.
+The DOS gallery targets the configured VGA presentation on a 4:3 screen.
+640×480 already has square pixels; a blanket pixel-aspect stretch is incorrect.
+
+Stored artwork is not necessarily the size drawn on screen:
+
+- Room artwork is 352×64; the doubled-row blitter (`cccc`, branch `ce7a`)
+  copies each plane row to the destination and destination + 0x50 (80 bytes,
+  one scanline). This displays the room at 352×128. The room transition
+  caller `9314` passes drawing mode 2.
+- Intro artwork is 640×200. The stream renderer `b39e` with its expansion
+  argument enabled duplicates rows in VGA (`b678`); caller `f2fa` enables
+  it. The VGA destination starts 0x0c80 bytes (40 lines) down the screen,
+  so the 640×400 artwork is vertically centered in 640×480, not stretched
+  to fill it. The gallery shows the artwork without these screen margins.
+- Credits use `d33e`, VGA branch `d528`, which similarly writes each row twice;
+  CASTTEXT's 352×88 artwork is displayed at 352×176.
+- MENUMAIN is read by `ddc2` with stream expansion disabled. Its 640×288
+  dimensions are therefore retained. The gallery also leaves command panels,
+  initials and the font contact sheet at their stored dimensions rather than
+  applying an unsupported global stretch.
+
+`images/DOS/index.html` defaults to this presentation and offers a stored-pixel
+view. PNG bytes are untouched. These conclusions come from static disassembly;
+no new runtime capture was used. Other graphics configurations need their own
+presentation rules.

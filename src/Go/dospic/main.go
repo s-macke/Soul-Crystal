@@ -473,7 +473,7 @@ func main() {
 			}
 		}
 	}
-	if err := gallery.Write(outDir, "Soul Crystal — DOS", "Grouped by game part and shared resources. The installed DOS copy does not preserve the original floppy assignments, so these groups are not disk numbers. ANIMS.PIC frames are not yet decoded; assets without embedded palettes retain the extractor's EGA fallback palette."); err != nil {
+	if err := gallery.WriteDOS(outDir, "Soul Crystal — DOS", "The configured VGA mode is 640 × 480 on a 4:3 screen. The game doubles stored rows for room, intro and credits artwork; this is software drawing, not a screen aspect correction. Grouped by game part and shared resources. The installed DOS copy does not preserve the original floppy assignments, so these groups are not disk numbers. ANIMS.PIC frames are not yet decoded; assets without embedded palettes retain the extractor's EGA fallback palette."); err != nil {
 		panic(err)
 	}
 

@@ -15,6 +15,7 @@ import (
 type Picture struct {
 	Name, Path    string
 	Width, Height int
+	DisplayHeight int
 }
 type Group struct {
 	Name     string
@@ -24,12 +25,22 @@ type Page struct {
 	Title, Note string
 	Groups      []Group
 	Count       int
+	DOS         bool
 }
 
 // Write scans immediate group folders. PNG files retain their native pixels;
 // optional doubled height is a viewing aid, not a measured monitor correction.
 func Write(root, title, note string) error {
-	page := Page{Title: title, Note: note}
+	return write(root, title, note, false)
+}
+
+// WriteDOS displays the original VGA row expansion for rooms, intro and credits.
+func WriteDOS(root, title, note string) error {
+	return write(root, title, note, true)
+}
+
+func write(root, title, note string, dos bool) error {
+	page := Page{Title: title, Note: note, DOS: dos}
 	dirs, err := os.ReadDir(root)
 	if err != nil {
 		return err
@@ -54,7 +65,12 @@ func Write(root, title, note string) error {
 			if err != nil {
 				return err
 			}
-			group.Pictures = append(group.Pictures, Picture{filepath.Base(path), filepath.ToSlash(filepath.Join(dir.Name(), filepath.Base(path))), cfg.Width, cfg.Height})
+			height := cfg.Height
+			name := filepath.Base(path)
+			if dos && (strings.HasPrefix(name, "part") || strings.HasPrefix(name, "intro_") || strings.HasPrefix(name, "casttext_")) {
+				height *= 2
+			}
+			group.Pictures = append(group.Pictures, Picture{name, filepath.ToSlash(filepath.Join(dir.Name(), name)), cfg.Width, cfg.Height, height})
 		}
 		if len(group.Pictures) > 0 {
 			page.Groups = append(page.Groups, group)
@@ -99,10 +115,12 @@ const pageHTML = `<!doctype html>
 <title>{{.Title}}</title>
 <style>
 :root{color-scheme:dark}body{font:16px system-ui;margin:2rem;background:#151820;color:#eee}a{color:#9cd4ff}nav{display:flex;gap:1rem;flex-wrap:wrap;margin:1.5rem 0}p{max-width:85ch;line-height:1.6}.grid{display:flex;flex-wrap:wrap;gap:1rem;align-items:flex-start}figure{margin:0;padding:12px;background:#242936;border-radius:8px;max-width:100%;overflow:auto}img{image-rendering:pixelated;display:block;width:calc(var(--w)*1px);height:calc(var(--h)*1px)}body.tall img{height:calc(var(--h)*2px)}figcaption{font:13px monospace;margin-top:10px;color:#c1cad8}h2{margin-top:2rem}button{padding:.6rem 1rem;cursor:pointer}
+{{if .DOS}}img{height:calc(var(--display-h)*1px)}body.raw img{height:calc(var(--h)*1px)}{{end}}
 </style>
-<h1>{{.Title}}</h1><p>{{.Note}}</p><p>{{.Count}} images. Original PNG dimensions are preserved. The height toggle is an optional viewing aid.</p>
-<button type="button" onclick="document.body.classList.toggle('tall');this.setAttribute('aria-pressed',document.body.classList.contains('tall'))" aria-pressed="false">Double display height</button>
+<h1>{{.Title}}</h1><p>{{.Note}}</p><p>{{.Count}} images. Original PNG dimensions are preserved. {{if .DOS}}VGA presentation is shown by default: room, intro and credits rows are doubled; other assets retain their stored dimensions.{{else}}The height toggle is an optional viewing aid.{{end}}</p>
+{{if .DOS}}<button type="button" onclick="const raw=document.body.classList.toggle('raw');this.setAttribute('aria-pressed',raw);this.textContent=raw?'Show VGA presentation':'Show stored pixels'" aria-pressed="false">Show stored pixels</button>
+{{else}}<button type="button" onclick="document.body.classList.toggle('tall');this.setAttribute('aria-pressed',document.body.classList.contains('tall'))" aria-pressed="false">Double display height</button>{{end}}
 <nav>{{range .Groups}}<a href="#{{.Name}}">{{.Name}} ({{len .Pictures}})</a>{{end}}</nav>
-{{range .Groups}}<section id="{{.Name}}"><h2>{{.Name}}</h2><div class="grid">{{range .Pictures}}<figure><a href="{{.Path}}"><img loading="lazy" src="{{.Path}}" alt="{{.Name}}" width="{{.Width}}" height="{{.Height}}" style="--w:{{.Width}};--h:{{.Height}}"></a><figcaption>{{.Name}} · {{.Width}} × {{.Height}}</figcaption></figure>{{end}}</div></section>{{end}}
+{{range .Groups}}<section id="{{.Name}}"><h2>{{.Name}}</h2><div class="grid">{{range .Pictures}}<figure><a href="{{.Path}}"><img loading="lazy" src="{{.Path}}" alt="{{.Name}}" width="{{.Width}}" height="{{.Height}}" style="--w:{{.Width}};--h:{{.Height}}{{if $.DOS}};--display-h:{{.DisplayHeight}}{{end}}"></a><figcaption>{{.Name}} · {{.Width}} × {{.Height}}</figcaption></figure>{{end}}</div></section>{{end}}
 </html>
 `

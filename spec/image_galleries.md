@@ -1,8 +1,10 @@
 # C64 and DOS image galleries
 
 Open `images/C64/index.html` or `images/DOS/index.html` directly in a browser.
-No server is required. The optional height toggle only changes HTML display;
-PNG pixels and dimensions are preserved.
+No server is required. DOS defaults to the configured VGA presentation, with
+a stored-pixel toggle; C64 retains its optional height toggle. These only change
+HTML display; PNG pixels and dimensions are preserved. See
+[DOS display evidence](DOS/image_format.md#14-dos-display-resolution-and-gallery-presentation).
 
 From the repository root:
 
