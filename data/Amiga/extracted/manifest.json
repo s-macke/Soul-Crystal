@@ -1,0 +1,804 @@
+[
+  {
+    "source": "data/Amiga/Soul Crystal (1992)(Starbyte)(Disk 1 of 4).adf",
+    "directory": "Disk 1",
+    "sha256": "075861a583a0dcc52b60dcb731b6da518d028717f9ce22c27b9140aa90cf180f",
+    "volume": "SoulCrystalA",
+    "files": [
+      {
+        "path": ".info",
+        "size": 39,
+        "sha256": "9165272792caca68de698ec42012662b3a5d895362c84389b7f9b5252bd9abe2"
+      },
+      {
+        "path": "C/Run",
+        "size": 2324,
+        "sha256": "e7273610c2bb5848a8701c8d73f0bab4b4d7842cb04a5735345c07283fe8fe50"
+      },
+      {
+        "path": "C/Delete",
+        "size": 6124,
+        "sha256": "9af5fc4c1e8bcece26ac308fbcaf685f94b3d3ecf6df3e8edd1559363b2c2bf4"
+      },
+      {
+        "path": "C/Assign",
+        "size": 3008,
+        "sha256": "70da7bed8c4de31ce234c524647f25c4efcbe6a403162f6ed0637f126b15868a"
+      },
+      {
+        "path": "C/Add21KB",
+        "size": 228,
+        "sha256": "e49360bba9c0f038ab159dcd3d79f13c840743968fccb3b83242bd78d757f5dd"
+      },
+      {
+        "path": "C/EndCLI",
+        "size": 732,
+        "sha256": "11a34e903b0377f05597b4b967506cc059fc2ce8b4adea1b9b354c322643d9d3"
+      },
+      {
+        "path": "C/Set",
+        "size": 4364,
+        "sha256": "0c9f9e635ee3711dc1612892c2c0038fff635dfd8b9f33bab2f2085317173b13"
+      },
+      {
+        "path": "C/Copy",
+        "size": 9848,
+        "sha256": "b00b5a5e7866603703b6dabfe324a8f6d8fd67751e1fc9e2255135e5a981afcb"
+      },
+      {
+        "path": "C/LoadWB",
+        "size": 2396,
+        "sha256": "9c79ed8d275cd4d1c1edfda0a94fdb7eb53b0d9c69b89c546b271b46ce109f3e"
+      },
+      {
+        "path": "L/Disk-Validator",
+        "size": 1848,
+        "sha256": "d5e7f814a99b0e01c5a51ed5c991f82cb239927e5672d5a207717f55e8dd94c5"
+      },
+      {
+        "path": "L/RAM-Handler",
+        "size": 6464,
+        "sha256": "f3ee3526520c770d9631b7cdd26406656218a48a1f05e00aaf067f3d321538fd"
+      },
+      {
+        "path": "Code/FadeSystem",
+        "size": 288,
+        "sha256": "1898cd1b5aef60b1ffab1d6212812a97e2698476e9d4722cd889a4124c1c6c7c"
+      },
+      {
+        "path": "Code/Intro",
+        "size": 6764,
+        "sha256": "e31b51bf427d06e10dca2a78c82ac3a5e48733386c1752f69ac14f56bdf7449b"
+      },
+      {
+        "path": "Code/RAMInstall",
+        "size": 34284,
+        "sha256": "ca352a9cb5ec30a882f09b165df7c9654355af759210018c5ec2830efe1b8561"
+      },
+      {
+        "path": "Code/Kernal",
+        "size": 1100,
+        "sha256": "471a9250ae11fee4a606db01d52913b4b7091167795111e1f418eb5a4dece2d7"
+      },
+      {
+        "path": "Code/BlitterCopy",
+        "size": 172,
+        "sha256": "d4d3fb892004154b02dd40de5288e0828de323c64e2360740358c42fabb55c37"
+      },
+      {
+        "path": "Devs/D",
+        "size": 1516,
+        "sha256": "e7ca57e4f3599b6bf03cbb36af814c18a995f413b98d596a45362dfe079e86cc"
+      },
+      {
+        "path": "Devs/SoulCrystal.info",
+        "size": 814,
+        "sha256": "62acec2ec18480f83f8b2272861001d56d6a9f5b5b0533272ae1810ea86e1fc2"
+      },
+      {
+        "path": "Devs/System-Configuration",
+        "size": 232,
+        "sha256": "f8672e31a34cdee3620fbff12c1ad03092f3c1c98e16e38624eea9cbd17f0d37"
+      },
+      {
+        "path": "S/Startup-Sequence",
+        "size": 36,
+        "sha256": "2a276c110329e6add91f0fdde59f1196c4953a4ed9b6be91be3e1f13fe8c5046"
+      },
+      {
+        "path": "Startup-HD",
+        "size": 212,
+        "sha256": "57827a92cb31d76b601a74d6f67f1920224a243e7c61d4db86b9238530e89bc6"
+      },
+      {
+        "path": "HD-Install.info",
+        "size": 1755,
+        "sha256": "af4f21da375f166176a40456176eef1bb2acb608017c481ff7c84edcbf69e280"
+      },
+      {
+        "path": "Fonts/S.C._GameChar/8",
+        "size": 2616,
+        "sha256": "661c9c68ceb0a18d405823950fa28130ba88de9f3cd7815df821f584f51651c3"
+      },
+      {
+        "path": "Fonts/S.C._GameChar.font",
+        "size": 264,
+        "sha256": "13e33c6dba2164d9fce37d23613fbb7c34e1c9749a6faa64de45c5ad70a6630c"
+      },
+      {
+        "path": "Libs/Icon.library",
+        "size": 5868,
+        "sha256": "259eb5354a224620da54f33b94adeaccf904269ce16c19045d7005b467ca1583"
+      },
+      {
+        "path": "Libs/DiskFont.library",
+        "size": 4700,
+        "sha256": "d83dd08e395af1cebb76c29d8f930c1d4755938e2937135ead7b92398828715d"
+      },
+      {
+        "path": "Libs/MEDPlayer.library",
+        "size": 7576,
+        "sha256": "60b50aff1df4c40ba1ee05695804200f8955c6779596a47f0df75d45bc2c26c2"
+      },
+      {
+        "path": "!READ_me.txt.info",
+        "size": 2575,
+        "sha256": "a532e784c407f300e1dcfece07ec05a73b1eec635d0caf9ae26d7df81a9009b8"
+      },
+      {
+        "path": "Disk.info",
+        "size": 370,
+        "sha256": "1b51910f10ad1e7bf1056394ca36b45a3914231508fcdd30f008e23fefe29ea0"
+      },
+      {
+        "path": "Data/Texts/SC.Config",
+        "size": 3,
+        "sha256": "709e80c88487a2411e1ee4dfb9f22a861492d20c4765150c0c794abd70f8147c"
+      },
+      {
+        "path": "Data/Graphic/Title.PIC",
+        "size": 31496,
+        "sha256": "50ad2b38d787ade35370a8d634720883150744dfe908da1aa96494f9fb7434c2"
+      },
+      {
+        "path": "Data/Graphic/OrcFamily.ANIM",
+        "size": 13490,
+        "sha256": "fd5c7dd4c3ae8409316c15a410997a1dcc332d6791fb4688ff83b569c73e99bb"
+      },
+      {
+        "path": "Data/Graphic/Yeti.ANIM",
+        "size": 20182,
+        "sha256": "faad0cb22174bee90b0138d0d05912aef6fdb0aabf1cd8f75fdce2953fdde900"
+      },
+      {
+        "path": "Data/Graphic/Credits.GFX",
+        "size": 80380,
+        "sha256": "71bfc9060eebf85f0ebd7c6e3fe965af26bfff505c4d2cb248b398595281b91f"
+      },
+      {
+        "path": "Data/Graphic/Dave.ANIM",
+        "size": 5818,
+        "sha256": "02f81e123e4a1b91b14018a1bf9e1f8c8c8bb7be2c72208d510c54a825dded07"
+      },
+      {
+        "path": "Data/Graphic/Story4.PIC",
+        "size": 16752,
+        "sha256": "d7a64b18e3609ba781f1bfbaa8578d43398bb5ffbfafa039dfa57f2e7768b3b5"
+      },
+      {
+        "path": "Data/Graphic/Firon.ANIM",
+        "size": 12074,
+        "sha256": "a134bb9a3df9080d87966b219f492370dd4cddc5958ba28154bebf3cf3280783"
+      },
+      {
+        "path": "Data/Graphic/Story2.PIC",
+        "size": 18568,
+        "sha256": "85ef7aff2c9c2a2e3fbae7622d70d35a9ed004c097eb40d81b0f2c18eddc7157"
+      },
+      {
+        "path": "Data/Graphic/Native.ANIM",
+        "size": 30950,
+        "sha256": "af8e51fc2d23071e0f2ed5cc4d06c98ea9bb76e059e6415c185135db368608f3"
+      },
+      {
+        "path": "Data/Graphic/Mylgor.ANIM",
+        "size": 37730,
+        "sha256": "74a5393c2f54148287510758ace2f250070d907aeeade3557c61dc5b2931369e"
+      },
+      {
+        "path": "Data/Graphic/KingRichard.ANIM",
+        "size": 20294,
+        "sha256": "8457ff66b5ccf347a99fe6afd1aae86f6af535adc6a4fa2bb25d4e57b492dc03"
+      },
+      {
+        "path": "Data/Graphic/Cast.PIC",
+        "size": 12924,
+        "sha256": "51e0327e38401e3664a9eebdc3c402f1a1c65c7d6f1576cbf3299e7862ddea04"
+      },
+      {
+        "path": "Data/Graphic/Install.GFX",
+        "size": 53960,
+        "sha256": "9233ab7bdcc000b5d971e2179829b041c04770cf502cf6958ea046c390d28452"
+      },
+      {
+        "path": "Data/Graphic/Zargon.ANIM",
+        "size": 41634,
+        "sha256": "e43f3b2422e285ec8358cbb27fe4706e57aa4a46f818030e334e1a55a8bfaa62"
+      },
+      {
+        "path": "Data/Graphic/Inn-keeper.ANIM",
+        "size": 21602,
+        "sha256": "5feb092d6420364acd49ebbe32f16177f45580ba0001aeb726cadfe105058166"
+      },
+      {
+        "path": "Data/Graphic/BrotherJack.ANIM",
+        "size": 16526,
+        "sha256": "01a0606b25fa0c62cf1f31db5ce08c63cff70c33d6c48bcc450c9945df078332"
+      },
+      {
+        "path": "Data/Graphic/Story3.PIC",
+        "size": 19516,
+        "sha256": "d08e3a71b2d704e51f5364278cf4264a16678da8a865738fe0a62e4fcf6b8cf7"
+      },
+      {
+        "path": "Data/Graphic/Story1.PIC",
+        "size": 17688,
+        "sha256": "f041ba885fe86862c95285dd41b48bb4a511bbb7ad16c939275016f50fb45824"
+      },
+      {
+        "path": "Data/Graphic/Starbyte.PIC",
+        "size": 12644,
+        "sha256": "db786eb03bf870472c38d4316b6cd1dd36e2ef2990350787384ce98f183142cf"
+      },
+      {
+        "path": "Data/Graphic/ACA.PIC",
+        "size": 22116,
+        "sha256": "d1e3fa9f3d96d1302a4e1fd62297d484b0698cc143bbf49d77c860d6a35a7a3a"
+      },
+      {
+        "path": "Data/Graphic/Seller.ANIM",
+        "size": 19738,
+        "sha256": "4fcdcd47cf15158d66d0b3baadbb73f2d107a3933192c1ee9e45a551f51a9b13"
+      },
+      {
+        "path": "Data/Graphic/OldEremit.ANIM",
+        "size": 17630,
+        "sha256": "8dec970a7eeca8c3dfd465503ceead576ea4f7daed85379e3526179846f13ca6"
+      },
+      {
+        "path": "Data/Music/Cast.mus",
+        "size": 48820,
+        "sha256": "512811d49767447e66d20330caa2a0c55239154336e96e0242bf37ddb8f67e6b"
+      },
+      {
+        "path": "Data/Music/Install.SMP",
+        "size": 53524,
+        "sha256": "d95f67f19bc0dd458606c1de0dbf613da65ac1cfcd6d9ed5b45544f7e9e7d9b6"
+      },
+      {
+        "path": "Data/Music/Credits.MUS",
+        "size": 23912,
+        "sha256": "a6ccb08e8c11b1b10ea7c07843040360b1f9f795f5e0c457bfbe697a7e01dc6a"
+      },
+      {
+        "path": "SoulCrystal.Boot",
+        "size": 1736,
+        "sha256": "3416bea2eb0aa5afe5473b74756da9ac5ecf3f00849cfb6d8de824f53d6d395b"
+      },
+      {
+        "path": "SoulCrystal.info",
+        "size": 4219,
+        "sha256": "7dcdd4f38a406730191eea6e738dd863b4c911e4d6a2f3873c40f79016d3e804"
+      },
+      {
+        "path": "!read_me.txt",
+        "size": 716,
+        "sha256": "bfc0e212967292650fc2dda95e7e13b6f88a46e9f4dcb3c1f4168ab62a3d7a71"
+      }
+    ]
+  },
+  {
+    "source": "data/Amiga/Soul Crystal (1992)(Starbyte)(Disk 2 of 4).adf",
+    "directory": "Disk 2",
+    "sha256": "4966209ea01adfb0b65e9953d148a7d050082d073f461905e40333bd7c7d92d3",
+    "volume": "SoulCrystalB",
+    "files": [
+      {
+        "path": "SoulCrystal.Install",
+        "size": 20160,
+        "sha256": "fa67e5c0b1808a337e93e1df0fb701a64aa57be07dd27975940bd592e2d64b41"
+      },
+      {
+        "path": ".info",
+        "size": 27,
+        "sha256": "75a17e65aeab8b4df1f48b8097c069f4b08dac8ef9b6784e33fd98bbeb2079a5"
+      },
+      {
+        "path": "C/Delete",
+        "size": 6124,
+        "sha256": "9af5fc4c1e8bcece26ac308fbcaf685f94b3d3ecf6df3e8edd1559363b2c2bf4"
+      },
+      {
+        "path": "C/Assign",
+        "size": 3008,
+        "sha256": "70da7bed8c4de31ce234c524647f25c4efcbe6a403162f6ed0637f126b15868a"
+      },
+      {
+        "path": "C/Copy",
+        "size": 9848,
+        "sha256": "b00b5a5e7866603703b6dabfe324a8f6d8fd67751e1fc9e2255135e5a981afcb"
+      },
+      {
+        "path": "HD-Install.info",
+        "size": 1755,
+        "sha256": "330c307d06b2822cff7b02dbc7479fdf3af2d49a3f2f00defa0a8dc7916e653b"
+      },
+      {
+        "path": "Disk.info",
+        "size": 370,
+        "sha256": "9bc13239accaa999e6362012b2d4ba26a2ed7b4e589ac93f834721cb7b7f93df"
+      },
+      {
+        "path": "Data/Texts/SoulCrystal.DATA",
+        "size": 7692,
+        "sha256": "44b3b770210e0636ddbbc2156ae41eca9745386b64689dd9727677e7b100c528"
+      },
+      {
+        "path": "Data/Texts/DiskC.TXT",
+        "size": 16493,
+        "sha256": "b9d6ddcf327cde0feb1fdc6203eafe3ed22f582f449f8f22ce794824d0bd3cb8"
+      },
+      {
+        "path": "Data/Texts/DiskA.TXT",
+        "size": 18770,
+        "sha256": "f8fd7d92c80dcfa317fa89015883f5053dbbc8bd0cc59a2156894ff2d2ff2d4f"
+      },
+      {
+        "path": "Data/Texts/DiskC.TAB",
+        "size": 788,
+        "sha256": "52301fc571e0822abd6b045dc25e0a995fa3ec4059ae7e8b3e77b05fe9cd766f"
+      },
+      {
+        "path": "Data/Texts/DiskA.TAB",
+        "size": 860,
+        "sha256": "87f882b2820669a33c0f2da4a9dae6afcb7b468ccae59af5ef0e8e66efd63c6b"
+      },
+      {
+        "path": "Data/Graphic/DiskA.GFX",
+        "size": 109724,
+        "sha256": "e2d0c7d38c4b2ef1d81242b69590ec85c30430740d626119aa833bdcaef7439d"
+      },
+      {
+        "path": "Data/Graphic/Initials",
+        "size": 16380,
+        "sha256": "72e981c895038eb715dbfe125c1c29737e31cbcb45e5ac85aa24c99bc56c82e4"
+      },
+      {
+        "path": "Data/Graphic/RI",
+        "size": 7240,
+        "sha256": "4efc089c57d5a1fcec2d6cff3e75c351ace3e10a10cc0ef3c927104934b6ad0b"
+      },
+      {
+        "path": "Data/Graphic/CD",
+        "size": 4640,
+        "sha256": "8f1115c536e28d53ef8469ebd1abbd38fab8b5dd0eb49f6450fc42f9219d1b83"
+      },
+      {
+        "path": "Data/Graphic/BlockAnim1",
+        "size": 176,
+        "sha256": "8d791d84a2f5d2cdc81b092a48fb811eb5bcbb97a3fd2dcd51c183df1bd26ed0"
+      },
+      {
+        "path": "Data/Graphic/BlockAnim2",
+        "size": 176,
+        "sha256": "95e6bbfbf52b4c33dd01ea91ef363a51981531815718db1e6aa46706cb1cc5ef"
+      },
+      {
+        "path": "Data/Graphic/BlockAnim3",
+        "size": 176,
+        "sha256": "f380fd935d3ebbbab6724756acf84c6dcbff7d9a74c91afb7c464effaabbc252"
+      },
+      {
+        "path": "Data/Graphic/BlockAnim4",
+        "size": 176,
+        "sha256": "cf37e2758cef5d2e8088744a26030ecaf9064866e6a2063f62ed9a4a152bc273"
+      },
+      {
+        "path": "Data/Graphic/DiskC.GFX",
+        "size": 116644,
+        "sha256": "927ea4cfcc1bfea779cff75c94fa39cdc09900018f900bca6601a60471a26092"
+      },
+      {
+        "path": "Data/Music/11",
+        "size": 21704,
+        "sha256": "9f111c8bf482fdf90808a434bcf6a705db2fdb44bdebc814f6e8f74c9be023d9"
+      },
+      {
+        "path": "Data/Music/12",
+        "size": 29084,
+        "sha256": "99b2dd81fdabe5261898e5b393dcc9dd220bd4a9563c81dd0c8337e03f69a8ff"
+      },
+      {
+        "path": "Data/Music/13",
+        "size": 51212,
+        "sha256": "6f1f333f239720446efa12e36c303c5f78202551361680209924e7e59d312240"
+      },
+      {
+        "path": "Data/Music/14",
+        "size": 14476,
+        "sha256": "f5d551937bc51545e67fb5a6d7c40962bb7e702068132d7a9a603b6242a96a3d"
+      },
+      {
+        "path": "Data/Music/20",
+        "size": 17708,
+        "sha256": "a9b4ea5ffcd152edd50fe9ed1cc9a84610641e94e3797a68414075387ca73420"
+      },
+      {
+        "path": "Data/Music/Crystal.SMP",
+        "size": 850,
+        "sha256": "6523170266bdfeb197c66abc41cac6da1e408695ec87904c539a48e8b67733c0"
+      },
+      {
+        "path": "Data/Music/1",
+        "size": 51672,
+        "sha256": "8a0fe85a455db267b726e07bea3e5f6ae31aec1d5c666cd20212b090ee9b51c2"
+      },
+      {
+        "path": "Data/Music/2",
+        "size": 39248,
+        "sha256": "7daa5faeb9061254405effbf5d32cd9ac71cbf20e1d062ddff1c40dae725fe9a"
+      },
+      {
+        "path": "Data/Music/3",
+        "size": 22776,
+        "sha256": "a0251e4215a0340a36a0eb0a56ceb492ae60c2d37cf93545fcd20e5a9643659a"
+      },
+      {
+        "path": "Data/Music/4",
+        "size": 36872,
+        "sha256": "4210b4c101d0f52cb4df5787c343e866adbc01aec56e9d16786dce1f43461878"
+      }
+    ]
+  },
+  {
+    "source": "data/Amiga/Soul Crystal (1992)(Starbyte)(Disk 3 of 4).adf",
+    "directory": "Disk 3",
+    "sha256": "8fda7fa534ccd8126a3b470a8a930181ec78042dfc538d6c52b54567b0408a7b",
+    "volume": "SoulCrystalC",
+    "files": [
+      {
+        "path": ".info",
+        "size": 16,
+        "sha256": "ef70ee890a4b16041c3e24bb3996ba6b49c85aed236c05d8827135d8a7efbc39"
+      },
+      {
+        "path": "C/Delete",
+        "size": 6124,
+        "sha256": "9af5fc4c1e8bcece26ac308fbcaf685f94b3d3ecf6df3e8edd1559363b2c2bf4"
+      },
+      {
+        "path": "C/Assign",
+        "size": 3008,
+        "sha256": "70da7bed8c4de31ce234c524647f25c4efcbe6a403162f6ed0637f126b15868a"
+      },
+      {
+        "path": "C/Copy",
+        "size": 9848,
+        "sha256": "b00b5a5e7866603703b6dabfe324a8f6d8fd67751e1fc9e2255135e5a981afcb"
+      },
+      {
+        "path": "Code/Main",
+        "size": 116732,
+        "sha256": "cc74c2f3ce20ac1445d5c53382c6ac4baae6e40160d88173df54cd469b82449c"
+      },
+      {
+        "path": "Code/Kernal",
+        "size": 1100,
+        "sha256": "471a9250ae11fee4a606db01d52913b4b7091167795111e1f418eb5a4dece2d7"
+      },
+      {
+        "path": "Fonts/S.C._GameChar/8",
+        "size": 2616,
+        "sha256": "661c9c68ceb0a18d405823950fa28130ba88de9f3cd7815df821f584f51651c3"
+      },
+      {
+        "path": "Fonts/S.C._GameChar.font",
+        "size": 264,
+        "sha256": "13e33c6dba2164d9fce37d23613fbb7c34e1c9749a6faa64de45c5ad70a6630c"
+      },
+      {
+        "path": "Libs/DiskFont.library",
+        "size": 4964,
+        "sha256": "fcc73ffe9ad54d8625bf6dc53314b06771a90f0d3bb9e310438efdcb2d1bf1d0"
+      },
+      {
+        "path": "Libs/MEDPlayer.library",
+        "size": 7576,
+        "sha256": "60b50aff1df4c40ba1ee05695804200f8955c6779596a47f0df75d45bc2c26c2"
+      },
+      {
+        "path": "Disk.info",
+        "size": 370,
+        "sha256": "64f174e20e8648bb7b6b8a51822aa16cc24633ce32e33ea74daaa196d6cb2b72"
+      },
+      {
+        "path": "Data/Texts/SoulCrystal.DATA",
+        "size": 7692,
+        "sha256": "44b3b770210e0636ddbbc2156ae41eca9745386b64689dd9727677e7b100c528"
+      },
+      {
+        "path": "Data/Texts/DiskB.TAB",
+        "size": 872,
+        "sha256": "d158ab3308445002f04096804f4cf3e24fe665270752042b9c4c40ac74ba9952"
+      },
+      {
+        "path": "Data/Texts/RAMCommon.TAB",
+        "size": 1004,
+        "sha256": "bd524d179caf4ba56f2067cf094e0650707438005dff0328dbd6264f30eb79d5"
+      },
+      {
+        "path": "Data/Texts/DiskB.TXT",
+        "size": 55807,
+        "sha256": "81fc2ab8b01a2f23aff0bda4a7189022f642fe937746595b55ac6dad6ce4a45a"
+      },
+      {
+        "path": "Data/Texts/RAMCommon.TXT",
+        "size": 15972,
+        "sha256": "87861c23485a9f865532ed13e28489da282998d1fe85239bb7d282593e28e100"
+      },
+      {
+        "path": "Data/Graphic/Initials",
+        "size": 16380,
+        "sha256": "72e981c895038eb715dbfe125c1c29737e31cbcb45e5ac85aa24c99bc56c82e4"
+      },
+      {
+        "path": "Data/Graphic/RI",
+        "size": 7240,
+        "sha256": "4efc089c57d5a1fcec2d6cff3e75c351ace3e10a10cc0ef3c927104934b6ad0b"
+      },
+      {
+        "path": "Data/Graphic/DiskB.GFX",
+        "size": 265016,
+        "sha256": "90c10626210cf00707031fe67e6a7f0b264b88ae672a3403b0737ec878083af5"
+      },
+      {
+        "path": "Data/Graphic/Menu.GFX",
+        "size": 29952,
+        "sha256": "d199f25000bca418d33e98377d2a2dd956699cab81668e8f4d9b7c914ab13b72"
+      },
+      {
+        "path": "Data/Graphic/CD",
+        "size": 4640,
+        "sha256": "8f1115c536e28d53ef8469ebd1abbd38fab8b5dd0eb49f6450fc42f9219d1b83"
+      },
+      {
+        "path": "Data/Graphic/BlockAnim1",
+        "size": 176,
+        "sha256": "8d791d84a2f5d2cdc81b092a48fb811eb5bcbb97a3fd2dcd51c183df1bd26ed0"
+      },
+      {
+        "path": "Data/Graphic/BlockAnim2",
+        "size": 176,
+        "sha256": "95e6bbfbf52b4c33dd01ea91ef363a51981531815718db1e6aa46706cb1cc5ef"
+      },
+      {
+        "path": "Data/Graphic/BlockAnim3",
+        "size": 176,
+        "sha256": "f380fd935d3ebbbab6724756acf84c6dcbff7d9a74c91afb7c464effaabbc252"
+      },
+      {
+        "path": "Data/Graphic/BlockAnim4",
+        "size": 176,
+        "sha256": "cf37e2758cef5d2e8088744a26030ecaf9064866e6a2063f62ed9a4a152bc273"
+      },
+      {
+        "path": "Data/Music/10",
+        "size": 20228,
+        "sha256": "f08190149244f3835a291a840b08f7fc9216501a472a36574e79fceb176cc729"
+      },
+      {
+        "path": "Data/Music/20",
+        "size": 17708,
+        "sha256": "a9b4ea5ffcd152edd50fe9ed1cc9a84610641e94e3797a68414075387ca73420"
+      },
+      {
+        "path": "Data/Music/Crystal.SMP",
+        "size": 850,
+        "sha256": "6523170266bdfeb197c66abc41cac6da1e408695ec87904c539a48e8b67733c0"
+      },
+      {
+        "path": "Data/Music/5",
+        "size": 31152,
+        "sha256": "7d8777c58cd70d8242993fc7e278c81bc35278ea64e73e32adc65cffc5dcd52f"
+      },
+      {
+        "path": "Data/Music/6",
+        "size": 14476,
+        "sha256": "f5d551937bc51545e67fb5a6d7c40962bb7e702068132d7a9a603b6242a96a3d"
+      },
+      {
+        "path": "Data/Music/7",
+        "size": 21840,
+        "sha256": "fe6fefc01e941e1a8b5f5cd84692e4625612a72fb93584a5d7eb05f7ee301718"
+      },
+      {
+        "path": "Data/Music/8",
+        "size": 56680,
+        "sha256": "38fca8b0d076e35eeb8eb9cfad5f2d1c3756712189e9b55340a85ee2901a7480"
+      },
+      {
+        "path": "Data/Music/9",
+        "size": 37024,
+        "sha256": "ec27a9c974b3cfa5c78a43f708ad3b3781d4e647b41fe342564fc84405a9edc2"
+      }
+    ]
+  },
+  {
+    "source": "data/Amiga/Soul Crystal (1992)(Starbyte)(Disk 4 of 4).adf",
+    "directory": "Disk 4",
+    "sha256": "b5f7d1e5e5e579f95d61c5781c3df810409f6cea836c242d08f4bc8e322ee8de",
+    "volume": "SoulCrystalD",
+    "files": [
+      {
+        "path": ".info",
+        "size": 16,
+        "sha256": "ef70ee890a4b16041c3e24bb3996ba6b49c85aed236c05d8827135d8a7efbc39"
+      },
+      {
+        "path": "C/Run",
+        "size": 2324,
+        "sha256": "e7273610c2bb5848a8701c8d73f0bab4b4d7842cb04a5735345c07283fe8fe50"
+      },
+      {
+        "path": "C/Delete",
+        "size": 6124,
+        "sha256": "9af5fc4c1e8bcece26ac308fbcaf685f94b3d3ecf6df3e8edd1559363b2c2bf4"
+      },
+      {
+        "path": "C/Assign",
+        "size": 3008,
+        "sha256": "70da7bed8c4de31ce234c524647f25c4efcbe6a403162f6ed0637f126b15868a"
+      },
+      {
+        "path": "C/Copy",
+        "size": 9848,
+        "sha256": "b00b5a5e7866603703b6dabfe324a8f6d8fd67751e1fc9e2255135e5a981afcb"
+      },
+      {
+        "path": "Code/Endpart",
+        "size": 7404,
+        "sha256": "ece55b13198c456bab66cd454be32645c638ceb8b375831ccbc0817284bf2440"
+      },
+      {
+        "path": "Libs/MEDPlayer.library",
+        "size": 7576,
+        "sha256": "60b50aff1df4c40ba1ee05695804200f8955c6779596a47f0df75d45bc2c26c2"
+      },
+      {
+        "path": "Disk.info",
+        "size": 370,
+        "sha256": "64f174e20e8648bb7b6b8a51822aa16cc24633ce32e33ea74daaa196d6cb2b72"
+      },
+      {
+        "path": "Data/Texts/DiskD.TAB",
+        "size": 956,
+        "sha256": "2b7b76d4175eb8d68dddcde8c792854306fcbf455f60a6daa0b71b5d0caae00d"
+      },
+      {
+        "path": "Data/Texts/DiskD.TXT",
+        "size": 52389,
+        "sha256": "415f24516da69ad2681dfc4c556da9f19421649dba416c567753f6b404a451bb"
+      },
+      {
+        "path": "Data/Graphic/HellScroll.PIC",
+        "size": 11088,
+        "sha256": "fa135c9c3f13b7fa5ce49e48dde9b64e0023c69f0fbc63731b0e9bec74d4698a"
+      },
+      {
+        "path": "Data/Graphic/EndScroll.PIC",
+        "size": 18068,
+        "sha256": "e083856101f15e3b69182512082c1e33362132e8d984e19262901b00d20ae1f7"
+      },
+      {
+        "path": "Data/Graphic/Initials",
+        "size": 16380,
+        "sha256": "72e981c895038eb715dbfe125c1c29737e31cbcb45e5ac85aa24c99bc56c82e4"
+      },
+      {
+        "path": "Data/Graphic/HallOfFame.PIC",
+        "size": 18924,
+        "sha256": "917c4d4750d37e00ff99a03d70e5983cd9efa1ad211ea07d536da1aebea9c24b"
+      },
+      {
+        "path": "Data/Graphic/DiskD.GFX",
+        "size": 287808,
+        "sha256": "671b0c0040e9dc7a5a966ff8330bb504206d9a72a51873a78108b1195e7561e7"
+      },
+      {
+        "path": "Data/Graphic/Hell.PIC",
+        "size": 29196,
+        "sha256": "fca534e93acabf57f6cdc048a36ffdbc46264e4ed961f77846a0bdfef8876b9c"
+      },
+      {
+        "path": "Data/Graphic/RI",
+        "size": 7240,
+        "sha256": "4efc089c57d5a1fcec2d6cff3e75c351ace3e10a10cc0ef3c927104934b6ad0b"
+      },
+      {
+        "path": "Data/Graphic/Victory.ANIM",
+        "size": 75746,
+        "sha256": "20327296680e96386fffd878e133ca10b97a0ddb0491e266b95d132602c82de1"
+      },
+      {
+        "path": "Data/Graphic/FameChar.PIC",
+        "size": 632,
+        "sha256": "8c0e99dc32a5381deb6fe15c561a6179d334b99d5352c3d7cf385fb4a40e70a0"
+      },
+      {
+        "path": "Data/Graphic/CD",
+        "size": 4640,
+        "sha256": "8f1115c536e28d53ef8469ebd1abbd38fab8b5dd0eb49f6450fc42f9219d1b83"
+      },
+      {
+        "path": "Data/Graphic/BlockAnim1",
+        "size": 176,
+        "sha256": "8d791d84a2f5d2cdc81b092a48fb811eb5bcbb97a3fd2dcd51c183df1bd26ed0"
+      },
+      {
+        "path": "Data/Graphic/BlockAnim2",
+        "size": 176,
+        "sha256": "95e6bbfbf52b4c33dd01ea91ef363a51981531815718db1e6aa46706cb1cc5ef"
+      },
+      {
+        "path": "Data/Graphic/BlockAnim3",
+        "size": 176,
+        "sha256": "f380fd935d3ebbbab6724756acf84c6dcbff7d9a74c91afb7c464effaabbc252"
+      },
+      {
+        "path": "Data/Graphic/BlockAnim4",
+        "size": 176,
+        "sha256": "cf37e2758cef5d2e8088744a26030ecaf9064866e6a2063f62ed9a4a152bc273"
+      },
+      {
+        "path": "Data/Music/15",
+        "size": 48820,
+        "sha256": "512811d49767447e66d20330caa2a0c55239154336e96e0242bf37ddb8f67e6b"
+      },
+      {
+        "path": "Data/Music/16",
+        "size": 22678,
+        "sha256": "b970e5140d54478874e66f71543f86229075b5d19b3088758a2e3690cb1e97fa"
+      },
+      {
+        "path": "Data/Music/17",
+        "size": 14476,
+        "sha256": "f5d551937bc51545e67fb5a6d7c40962bb7e702068132d7a9a603b6242a96a3d"
+      },
+      {
+        "path": "Data/Music/18",
+        "size": 56680,
+        "sha256": "38fca8b0d076e35eeb8eb9cfad5f2d1c3756712189e9b55340a85ee2901a7480"
+      },
+      {
+        "path": "Data/Music/19",
+        "size": 51212,
+        "sha256": "6f1f333f239720446efa12e36c303c5f78202551361680209924e7e59d312240"
+      },
+      {
+        "path": "Data/Music/20",
+        "size": 17708,
+        "sha256": "a9b4ea5ffcd152edd50fe9ed1cc9a84610641e94e3797a68414075387ca73420"
+      },
+      {
+        "path": "Data/Music/Crystal.SMP",
+        "size": 850,
+        "sha256": "6523170266bdfeb197c66abc41cac6da1e408695ec87904c539a48e8b67733c0"
+      },
+      {
+        "path": "Data/Music/Hell.MUS",
+        "size": 35780,
+        "sha256": "4d949fbf56e85a3f705d3bf6e112ff1882198b86ba67de96bdd207b788ad6374"
+      }
+    ]
+  }
+]

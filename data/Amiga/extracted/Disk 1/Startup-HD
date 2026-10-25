@@ -1,0 +1,7 @@
+assign SoulCrystalA: Dh0:Games/SoulCrystal
+assign SoulCrystalB: Dh0:Games/SoulCrystal
+assign SoulCrystalC: Dh0:Games/SoulCrystal
+assign SoulCrystalD: Dh0:Games/SoulCrystal
+c/Set Devs/D
+c/Add21KB
+SoulCrystal.Boot
