@@ -5,5 +5,10 @@ c64text
 drawimages
 souldos
 disasm/disasm
+tables
 
 .idea
+
+
+# Accidental terminal hex dump, not a disk image.
+/data/C64/d64/--help

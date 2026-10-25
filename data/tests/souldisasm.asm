@@ -2715,148 +2715,149 @@ x1C64:
             SBC #0xCF
             CMP #0x1
             BNE 0x1C71
-            JMP 0x2AD7   jump outside
+            JMP 0x2AD7   jump outside   // case d0 if
 x1C71:
             CMP #0x2
             BNE 0x1C78
-            JMP 0x2B71   jump outside
+            JMP 0x2B71   jump outside    // case d1 else
 x1C78:
             CMP #0x3
             BNE 0x1C7F
-            JMP 0x2B7E   jump outside
+            JMP 0x2B7E   jump outside    // case d2 endif
 x1C7F:
             CMP #0x4
             BNE 0x1C86
-            JMP 0x2BCC   jump outside
+            JMP 0x2BCC   jump outside    // case d3
 x1C86:
             CMP #0x5
             BNE 0x1C8D
-            JMP 0x2BCF   jump outside
+            JMP 0x2BCF   jump outside   // case d4
 x1C8D:
             CMP #0x6
             BNE 0x1C94
-            JMP 0x2BCF   jump outside
+            JMP 0x2BCF   jump outside   // case d5
 x1C94:
             CMP #0x7
             BNE 0x1C9B
-            JMP 0x2BCF   jump outside
+            JMP 0x2BCF   jump outside  // case d6
 x1C9B:
             CMP #0x8
             BNE 0x1CA2
-            JMP 0x2BCF   jump outside
+            JMP 0x2BCF   jump outside  // case d7
 x1CA2:
             CMP #0x9
             BNE 0x1CA9
-            JMP 0x2BCF   jump outside
+            JMP 0x2BCF   jump outside  // case d8
 x1CA9:
             CMP #0xA
             BNE 0x1CB0
-            JMP 0x2BCF   jump outside
+            JMP 0x2BCF   jump outside  // case d9
 x1CB0:
             SEC
             LDA 0x6964    // last read token
             SBC #0xD9
             CMP #0x1
             BNE 0x1CBD
-            JMP 0x2BCF   jump outside
+            JMP 0x2BCF   jump outside  // case da
 x1CBD:
             CMP #0x2
             BNE 0x1CC4
-            JMP 0x2BCF   jump outside
+            JMP 0x2BCF   jump outside // case db
 x1CC4:
             CMP #0x3
             BNE 0x1CCB
-            JMP 0x2BCF   jump outside
+            JMP 0x2BCF   jump outside // case dc
 x1CCB:
             CMP #0x4
             BNE 0x1CD2
-            JMP 0x2BCF   jump outside
+            JMP 0x2BCF   jump outside  // case dd
 x1CD2:
             CMP #0x5
             BNE 0x1CD9
-            JMP 0x2BCF   jump outside
+            JMP 0x2BCF   jump outside  // case de
 x1CD9:
             CMP #0x6
             BNE 0x1CE0
-            JMP 0x2BCF   jump outside
+            JMP 0x2BCF   jump outside  // case df
 x1CE0:
             CMP #0x7
             BNE 0x1CE7
-            JMP 0x2BDC   jump outside
+            JMP 0x2BDC   jump outside // case e0  GOSUB
 x1CE7:
             CMP #0x8
             BNE 0x1CEE
-            JMP 0x2C28   jump outside
+            JMP 0x2C28   jump outside // case e1   GOTO
 x1CEE:
             CMP #0x9
             BNE 0x1CF5
-            JMP 0x2C65   jump outside
+            JMP 0x2C65   jump outside // case e2   SELECT CASE
 x1CF5:
             CMP #0xA
             BNE 0x1CFC
-            JMP 0x2D38   jump outside
+            JMP 0x2D38   jump outside // case e3
 x1CFC:
             SEC
             LDA 0x6964    // last read token
             SBC #0xE3
             CMP #0x1
             BNE 0x1D09
-            JMP 0x2D4E   jump outside
+            JMP 0x2D4E   jump outside  // case e4  read table entry
 x1D09:
             CMP #0x2
             BNE 0x1D10
-            JMP 0x2D72   jump outside
+            JMP 0x2D72   jump outside  // case e5
 x1D10:
             CMP #0x3
             BNE 0x1D17
-            JMP 0x2DD8   jump outside
+            JMP 0x2DD8   jump outside // case e6
 x1D17:
             CMP #0x4
             BNE 0x1D1E
-            JMP 0x2E15   jump outside
+            JMP 0x2E15   jump outside  // case e7
 x1D1E:
             CMP #0x5
             BNE 0x1D25
-            JMP 0x2E39   jump outside
+            JMP 0x2E39   jump outside  // case e8  showtext
 x1D25:
             CMP #0x6
             BNE 0x1D2C
-            JMP 0x2E3F   jump outside
+            JMP 0x2E3F   jump outside  // case e9
 x1D2C:
             CMP #0x7
             BNE 0x1D33
-            JMP 0x2E3F   jump outside
+            JMP 0x2E3F   jump outside  // case ea
 x1D33:
             CMP #0x8
             BNE 0x1D3A
-            JMP 0x2E4C   jump outside
+            JMP 0x2E4C   jump outside  // case eb
 x1D3A:
             CMP #0x9
             BNE 0x1D41
-            JMP 0x2E52   jump outside
+            JMP 0x2E52   jump outside  // case ec
 x1D41:
             CMP #0xA
             BNE 0x1D48
-            JMP 0x2E55   jump outside
+            JMP 0x2E55   jump outside  // case ed
 x1D48:
             SEC
             LDA 0x6964    // last read token
             SBC #0xED
             CMP #0x1
             BNE 0x1D55
-            JMP 0x2FA2   jump outside
+            JMP 0x2FA2   jump outside  // case ee
 x1D55:
             CMP #0x2
             BNE 0x1D5C
-            JMP 0x2FAB   jump outside
+            JMP 0x2FAB   jump outside  // case ef
 x1D5C:
             LDA #0x2
             STA 0x6974
             LDA #0x0
             STA 0x6975
-            JMP 0x23A1   jump outside
+            JMP 0x23A1   jump outside  // token unknown probably. Error?
+
 x1D69:
-            JSR 0x0C42
+            JSR 0x0C42    // case 0xFF end of program
             LDA #0x1
             JMP 0x0AC5   jump outside
     return;
@@ -2902,13 +2903,13 @@ x1D8B:
             BCS 0x1DAF
             JMP 0x1DBE
 x1DAF:
-            JSR 0x1E8C
+            JSR 0x1E8C    // read variable and put it into 0x697C
             LDA 0x697C
             STA 0x697A
             LDA 0x697D
             STA 0x697B
 x1DBE:
-            JSR 0x1E8C
+            JSR 0x1E8C    // read variable and put it into 0x697C
             JSR 0x1D71    // Read next token
             LDA 0x6964    // last read token
             CMP #0xD7
@@ -2939,7 +2940,7 @@ x1DFC:
             STA 0x6982
             LDA 0x697D
             STA 0x6983
-            JSR 0x1E8C
+            JSR 0x1E8C    // read variable and put it into 0x697C
             CLC
             LDA 0x6982
             ADC 0x697C
@@ -2969,7 +2970,7 @@ x1E49:
             STA 0x6982
             LDA 0x697D
             STA 0x6983
-            JSR 0x1E8C
+            JSR 0x1E8C    // read variable and put it into 0x697C
             SEC
             LDA 0x6982
             SBC 0x697C
@@ -2996,7 +2997,7 @@ x1E89:
 // Read       : 0x695d, 0x6963, 0x6964, 0x6986, 0x6987, 0x6988, 0x6989, 0x698a, 0x698b, 0x698c, 0x698d, 0x698e, 0x698f, 0x6990, 0x6991, 0x6992, 0x6993, 0x6994, 0x6995, 0x6996, 0x6997, 0x6998, 0x6999, 0x699a, 0x699b, 
 // Write      :   0x57,   0x58, 0x6974, 0x6975, 
 // Read&Write : 0x697c, 0x697d, 0x6984, 0x6985, 0x70fb, 0x70fc, 0x7100, 
-void Sub_1e8c()
+void Sub_1e8c()   // read variable and put it into 0x697C
 {
 x1E8C:
             JSR 0x1D71    // Read next token
@@ -3240,7 +3241,7 @@ x205B:
             STA 0x6975
             JMP 0x23A1   jump outside
 x2068:
-            LDA 0x6986
+            LDA 0x6986   // command variable
 // 0x2069:  array
             STA 0x697C
             LDA 0x6987
@@ -3260,7 +3261,7 @@ x2082:
             STA 0x697D
             RTS
 x208F:
-            LDA 0x695D
+            LDA 0x695D    // roomnumber
             STA 0x697C
             LDA #0x0
             STA 0x697D
@@ -3330,7 +3331,7 @@ x210F:
             ADC #0x6D
             STA 0x58
             LDY #0x0
-            LDA (0x57),y
+            LDA (0x57),y   // table north
             STA 0x697C
             LDA #0x0
             STA 0x697D
@@ -3345,7 +3346,7 @@ x212E:
             ADC #0x6E
             STA 0x58
             LDY #0x0
-            LDA (0x57),y    north table
+            LDA (0x57),y
             STA 0x697C
             LDA #0x0
             STA 0x697D
@@ -3551,7 +3552,7 @@ x2299:      read 16 bit value from byte stream
 void Sub_22d4()
 {
 x22D4:
-            JSR 0x1E8C
+            JSR 0x1E8C   // read variable and put it into 0x697C
             LDA 0x697C
             CMP #0x0
             LDA 0x697D
@@ -3596,7 +3597,7 @@ x230D:
 void Sub_231a()
 {
 x231A:
-            JSR 0x1E8C
+            JSR 0x1E8C    // read variable and put it into 0x697C
             LDA 0x697C
             CMP #0x0
             LDA 0x697D
@@ -3641,7 +3642,7 @@ x2353:
 void Sub_2360()
 {
 x2360:
-            JSR 0x1E8C
+            JSR 0x1E8C    // read variable and put it into 0x697C
             LDA 0x697C
             CMP #0x0
             LDA 0x697D
@@ -3886,7 +3887,7 @@ x2582:
             JMP 0x23A1   jump outside
 x258F:
             LDA 0x697C
-            STA 0x6986
+            STA 0x6986   // command variable
             LDA 0x697D
             STA 0x6987
             RTS
@@ -3904,7 +3905,7 @@ x25A9:
             RTS
 x25B6:
             LDA 0x697C
-            STA 0x695D
+            STA 0x695D    // roomnumber
             RTS
 x25BD:
             LDA 0x697C
@@ -3968,7 +3969,7 @@ x262C:
             STA 0x3C
             LDA 0x697C
             LDY #0x0
-            STA (0x3B),y
+            STA (0x3B),y   // table north
             RTS
 x2643:
             CLC
@@ -3980,7 +3981,7 @@ x2643:
             STA 0x3C
             LDA 0x697C
             LDY #0x0
-            STA (0x3B),y
+            STA (0x3B),y   // table east
             RTS
 x265A:
             CLC
@@ -3992,7 +3993,7 @@ x265A:
             STA 0x3C
             LDA 0x697C
             LDY #0x0
-            STA (0x3B),y
+            STA (0x3B),y  // table south
             RTS
 x2671:
             CLC
@@ -4004,7 +4005,7 @@ x2671:
             STA 0x3C
             LDA 0x697C
             LDY #0x0
-            STA (0x3B),y
+            STA (0x3B),y   // table west
             RTS
 x2688:
             CLC
@@ -4140,7 +4141,7 @@ x2751:
             BCS 0x2778
             JMP 0x2787
 x2778:
-            JSR 0x1E8C
+            JSR 0x1E8C    // read variable and put it into 0x697C
             LDA 0x697C
             STA 0x697A
             LDA 0x697D
@@ -4169,7 +4170,7 @@ x2787:
 void Sub_27af()
 {
 x27AF:
-            JSR 0x1E8C
+            JSR 0x1E8C    // read variable and put it into 0x697C
             LDA 0x697C
             STA 0x6982
             LDA 0x697D
@@ -4219,7 +4220,7 @@ x27F9:
             LDA 0x70FC
             SBC #0x0
             STA 0x69A2
-            JSR 0x1E8C
+            JSR 0x1E8C    // read variable and put it into 0x697C
             LDA 0x69A1
             CMP #0x1
             BNE 0x282C
@@ -4796,7 +4797,7 @@ x2C28:
             STA 0x6977    // current address in bytecode
             JMP 0x1C12   jump outside
 x2C65:
-            JSR 0x1E8C
+            JSR 0x1E8C    // read variable and put it into 0x697C
             LDA 0x697C
             STA 0x69AF
             LDA 0x697D
@@ -4886,7 +4887,7 @@ x2D08:
             STA 0x6977    // current address in bytecode
             JMP 0x1C12   jump outside
 x2D38:
-            JSR 0x1E8C
+            JSR 0x1E8C    // read variable and put it into 0x697C
             LDA 0x697C
             STA 0x4E
             LDA 0x697D
@@ -4992,8 +4993,10 @@ x2E27:
             LDA 0x69A6
             STA 0x6977    // current address in bytecode
             JMP 0x1C12   jump outside
-x2E39:
-            JSR 0x3C02
+
+
+x2E39: //  showtext
+            JSR 0x3C02   show text
             JMP 0x1C12   jump outside
 x2E3F:
             LDA #0xDE
@@ -5024,7 +5027,7 @@ x2E5B:
             BCC 0x2E65
             JMP 0x2E81
 x2E65:
-            LDA 0x695D
+            LDA 0x695D    // roomnumber
             STA 0x70FB    // helper
             LDA #0x0
             STA 0x70FC
@@ -5037,7 +5040,7 @@ x2E65:
             STA 0x6991
 x2E81:
             LDA #0xF
-            CMP 0x695D
+            CMP 0x695D    // roomnumber
             BCC 0x2E8C
             LDA #0x0
             BEQ 0x2E8E
@@ -5045,7 +5048,7 @@ x2E8C:
             LDA #0xFF
 x2E8E:
             STA 0x70FB    // helper
-            LDA 0x695D
+            LDA 0x695D    // roomnumber
             CMP #0x33
             BCC 0x2E9C
             LDA #0x0
@@ -5059,7 +5062,7 @@ x2E9E:
             BNE 0x2EAC
             JMP 0x2EC8
 x2EAC:
-            LDA 0x695D
+            LDA 0x695D    // roomnumber
             STA 0x70FB    // helper
             LDA #0x0
             STA 0x70FC
@@ -5072,7 +5075,7 @@ x2EAC:
             STA 0x6991
 x2EC8:
             LDA #0x32
-            CMP 0x695D
+            CMP 0x695D    // roomnumber
             BCC 0x2ED3
             LDA #0x0
             BEQ 0x2ED5
@@ -5080,7 +5083,7 @@ x2ED3:
             LDA #0xFF
 x2ED5:
             STA 0x70FB    // helper
-            LDA 0x695D
+            LDA 0x695D    // roomnumber
             CMP #0x42
             BCC 0x2EE3
             LDA #0x0
@@ -5094,7 +5097,7 @@ x2EE5:
             BNE 0x2EF3
             JMP 0x2F0F
 x2EF3:
-            LDA 0x695D
+            LDA 0x695D    // roomnumber
             STA 0x70FB    // helper
             LDA #0x0
             STA 0x70FC
@@ -5107,11 +5110,11 @@ x2EF3:
             STA 0x6991
 x2F0F:
             LDA #0x41
-            CMP 0x695D
+            CMP 0x695D    // roomnumber
             BCC 0x2F19
             JMP 0x2F35
 x2F19:
-            LDA 0x695D
+            LDA 0x695D    // roomnumber
             STA 0x70FB    // helper
             LDA #0x0
             STA 0x70FC
@@ -5130,7 +5133,7 @@ x2F35:
 x2F3F:
             JMP 0x2F85
 x2F42:
-            LDA 0x695D
+            LDA 0x695D    // roomnumber
             STA 0x70FB    // helper
             LDA #0x0
             STA 0x70FC
@@ -5151,7 +5154,7 @@ x2F42:
 x2F6D:
             LDA #0x1
             STA 0x6958
-            LDA 0x695D
+            LDA 0x695D    // roomnumber
             STA 0x6959
             LDA #0x84
             STA 0x6990    // the text to output
@@ -5164,7 +5167,7 @@ x2F85:
             LDA 0x6991
             STA 0x69B6
 
-            LDA 0x695D
+            LDA 0x695D    // roomnumber
             STA 0x69B7
             LDA #0x0
             STA 0x69B8
@@ -5175,9 +5178,12 @@ x2FA1:
 x2FA2:
             JSR 0x0CDB
             BRK
+
+
+// case 0xEF SPECIAL
 // 5 bytes
 x2FAB:
-            JSR 0x1E8C
+            JSR 0x1E8C    // read variable and put it into 0x697C  This will always read a constant number
 
             LDA 0x697C
             STA 0x69B9
@@ -5191,7 +5197,8 @@ x2FAB:
             BCC 0x2FC9
             JMP 0x2FCC
 x2FC9:
-            JMP 0x36B3   jump outside
+            JMP 0x36B3   jump outside   case < 0x64
+
 x2FCC:
             LDA 0x69B9
             CMP #0xC8
@@ -5207,7 +5214,7 @@ x2FDE:
             BVS 0x3006
             STA 0x200C
             PHA
-// 10 bytes
+// 10 bytes     case 0x64 - 0xC7 (probably)
 x2FF4:
             SEC
             LDA 0x69B9
@@ -5219,45 +5226,45 @@ x2FF4:
             LDA 0x70FB    // helper
             CMP #0x1
             BNE 0x3011
-            JSR 0x305C
+            JSR 0x305C    // case 0x64 for SPECIAL
             LDA #0x1
 x3011:
-            CMP #0x2
+            CMP #0x2     // case 0x65
             BNE 0x301A
             JSR 0x31AB
             LDA #0x2
 x301A:
-            CMP #0x3
+            CMP #0x3    // case 0x66 for SPECIAL
             BNE 0x3023
             JSR 0x324F
             LDA #0x3
 x3023:
-            CMP #0x4
+            CMP #0x4    // case 0x67 for SPECIAL
             BNE 0x302C
             JSR 0x3317
             LDA #0x4
 x302C:
-            CMP #0x5
+            CMP #0x5    // case 0x68 for SPECIAL
             BNE 0x3035
             JSR 0x33DA
             LDA #0x5
 x3035:
-            CMP #0x6
+            CMP #0x6    // case 0x69 for SPECIAL
             BNE 0x303E
             JSR 0x347E
             LDA #0x6
 x303E:
-            CMP #0x7
+            CMP #0x7    // case 0x6A for SPECIAL
             BNE 0x3047
             JSR 0x35BB
             LDA #0x7
 x3047:
-            CMP #0x8
+            CMP #0x8   // case 0x6B for SPECIAL
             BNE 0x3050
             JSR 0x362D
             LDA #0x8
 x3050:
-            CMP #0x9
+            CMP #0x9   // case 0x6C for SPECIAL
             BNE 0x3059
             JSR 0x364C
             LDA #0x9
@@ -5513,6 +5520,7 @@ x324E:
             RTS
 }
 
+// SPECIAL CODE FOR CASE 0X66
 
 // Read       : 0x6986, 0x6987, 
 // Write      : 0x6992, 0x6993, 
@@ -5520,14 +5528,18 @@ x324E:
 void Sub_324f()
 {
 x324F:
-            LDA #0x0
+
+            LDA #0x0     // set final result to zero in the beginning
             STA 0x6992
             LDA #0x0
             STA 0x6993
-            LDA #0x3
-            CMP 0x6986
+
+
+            LDA #0x3     // if command == credits
+            CMP 0x6986   // command variable
             LDA #0x0
             SBC 0x6987
+
             BCC 0x3269
             LDA #0x0
             BEQ 0x326B
@@ -5535,10 +5547,11 @@ x3269:
             LDA #0xFF
 x326B:
             STA 0x70FB    // helper
-            LDA 0x6986
-            CMP #0x8
+            LDA 0x6986    // command variable
+            CMP #0x8      // command == diskette installieren
             BNE 0x327A
             LDA 0x6987
+
             CMP #0x0
 x327A:
             BNE 0x3280
@@ -5547,14 +5560,19 @@ x327A:
 x3280:
             LDA #0xFF
 x3282:
+
             STA 0x7100
             LDA 0x70FB    // helper
             AND 0x7100
             STA 0x70FB    // helper
-            LDA #0xB
-            CMP 0x6986
+
+
+
+            LDA #0xB      // compare command with nord
+            CMP 0x6986    // command variable
             LDA #0x0
             SBC 0x6987
+
             BCC 0x329E
             LDA #0x0
             BEQ 0x32A0
@@ -5562,8 +5580,8 @@ x329E:
             LDA #0xFF
 x32A0:
             STA 0x7100
-            LDA 0x6986
-            CMP #0x13
+            LDA 0x6986    // command variable
+            CMP #0x13     // compare command == sued
             LDA 0x6987
             SBC #0x0
             BCC 0x32B3
@@ -5576,12 +5594,17 @@ x32B5:
             LDA 0x7100
             AND 0x7105
             STA 0x7100
+
+
             LDA 0x70FB    // helper
             ORA 0x7100
             STA 0x70FB    // helper
-            LDA 0x6986
-            CMP #0x14
+            // So far ((command...) AND (command...)) OR ((command...) AND (command...)
+
+            LDA 0x6986    // command variable
+            CMP #0x14     // command==speichern
             BNE 0x32D6
+
             LDA 0x6987
             CMP #0x0
 x32D6:
@@ -5595,8 +5618,10 @@ x32DE:
             LDA 0x70FB    // helper
             ORA 0x7100
             STA 0x70FB    // helper
-            LDA 0x6986
-            CMP #0x16
+
+
+            LDA 0x6986    // command variable
+            CMP #0x16     // command==ausfuehrlich
             BNE 0x32F6
             LDA 0x6987
             CMP #0x0
@@ -5605,15 +5630,23 @@ x32F6:
             LDA #0x0
             BEQ 0x32FE
 x32FC:
+
             LDA #0xFF
 x32FE:
             STA 0x7100
+
             LDA 0x70FB    // helper
             ORA 0x7100
+
+            // So far ((command...) AND (command...))
+            //        OR ((command...) AND (command...)
+            //        OR (command != speichern)
+            //        OR (command != ausfuehrlich)
+
             BNE 0x330C
-            JMP 0x3316
+            JMP 0x3316  // RTS
 x330C:
-            LDA #0x1
+            LDA #0x1    // store result in temp
             STA 0x6992
             LDA #0x0
             STA 0x6993
@@ -5622,17 +5655,19 @@ x3316:
 }
 
 
+
 // Read       : 0x6d18, 0x6d51, 0x6d81, 0x6d82, 0x6d93, 0x6d97, 0x6d98, 
 // Write      : 0x6992, 0x6993, 
 // Read&Write : 0x70fb, 0x7100, 
-void Sub_3317()
+void Sub_3317() // SPECIAL case 0x67
 {
 x3317:
-            LDA #0x0
+            LDA #0x0    // sets final result to default 0 at the beginning
             STA 0x6992
             LDA #0x0
             STA 0x6993
-            LDA 0x6D51
+
+            LDA 0x6D51   // what is this variable?
             CMP #0x0
             BEQ 0x332C
             LDA #0x0
@@ -5641,7 +5676,7 @@ x332C:
             LDA #0xFF
 x332E:
             STA 0x70FB    // helper
-            LDA 0x6D98
+            LDA 0x6D98    // what is this variable?
             CMP #0x0
             BEQ 0x333C
             LDA #0x0
@@ -5655,12 +5690,13 @@ x333E:
             BNE 0x334C
             JMP 0x3356
 x334C:
+
             LDA #0x1
             STA 0x6992
             LDA #0x0
             STA 0x6993
 x3356:
-            LDA 0x6D81
+            LDA 0x6D81   // what is this variable?
             CMP #0x0
             BEQ 0x3361
             LDA #0x0
@@ -5669,7 +5705,7 @@ x3361:
             LDA #0xFF
 x3363:
             STA 0x70FB    // helper
-            LDA 0x6D93
+            LDA 0x6D93    // what is this variable?
             CMP #0x0
             BEQ 0x3371
             LDA #0x0
@@ -5681,7 +5717,7 @@ x3373:
             LDA 0x70FB    // helper
             AND 0x7100
             STA 0x70FB    // helper
-            LDA 0x6D97
+            LDA 0x6D97    // what is this variable?
             CMP #0x0
             BEQ 0x338A
             LDA #0x0
@@ -5700,7 +5736,7 @@ x339A:
             LDA #0x0
             STA 0x6993
 x33A4:
-            LDA 0x6D18
+            LDA 0x6D18   // what is this variable?
             CMP #0x0
             BEQ 0x33AF
             LDA #0x0
@@ -5709,7 +5745,7 @@ x33AF:
             LDA #0xFF
 x33B1:
             STA 0x70FB    // helper
-            LDA 0x6D82
+            LDA 0x6D82    // what is this variable?
             CMP #0x0
             BEQ 0x33BF
             LDA #0x0
@@ -5735,15 +5771,16 @@ x33D9:
 // Read       : 0x695d, 
 // Write      : 0x6992, 0x6993, 
 // Read&Write : 0x70fb, 0x7100, 0x7105, 
-void Sub_33da()
+void Sub_33da()   // Special case 0x68
 {
 x33DA:
-            LDA #0x0
+            LDA #0x0    // set reslt to 0 at the beginning
             STA 0x6992
             LDA #0x0
             STA 0x6993
-            LDA 0x695D
-            CMP #0x3
+
+            LDA 0x695D   // roomnumber
+            CMP #0x3     // roomnumber = IN_DER_LOBBY
             BEQ 0x33EF
             LDA #0x0
             BEQ 0x33F1
@@ -5751,8 +5788,8 @@ x33EF:
             LDA #0xFF
 x33F1:
             STA 0x70FB    // helper
-            LDA 0x695D
-            CMP #0x4
+            LDA 0x695D    // roomnumber
+            CMP #0x4      // roomnumber = AUF_DER_STRASSE1
             BEQ 0x33FF
             LDA #0x0
             BEQ 0x3401
@@ -5763,8 +5800,8 @@ x3401:
             LDA 0x70FB    // helper
             ORA 0x7100
             STA 0x70FB    // helper
-            LDA 0x695D
-            CMP #0x7
+            LDA 0x695D    // roomnumber
+            CMP #0x7      // roomnumber == IM_STRUDEL
             BEQ 0x3418
             LDA #0x0
             BEQ 0x341A
@@ -5775,8 +5812,8 @@ x341A:
             LDA 0x70FB    // helper
             ORA 0x7100
             STA 0x70FB    // helper
-            LDA 0x695D
-            CMP #0x8
+            LDA 0x695D    // roomnumber
+            CMP #0x8      // roomnumber == AM_UFER_DES_BERGSEES
             BEQ 0x3431
             LDA #0x0
             BEQ 0x3433
@@ -5787,8 +5824,8 @@ x3433:
             LDA 0x70FB    // helper
             ORA 0x7100
             STA 0x70FB    // helper
-            LDA 0x695D
-            CMP #0xA
+            LDA 0x695D    // roomnumber
+            CMP #0xA      // roomnumber == IM_SEE1
             BCS 0x344A
             LDA #0x0
             BEQ 0x344C
@@ -5796,8 +5833,8 @@ x344A:
             LDA #0xFF
 x344C:
             STA 0x7100
-            LDA #0xF
-            CMP 0x695D
+            LDA #0xF      // roomnumber == AUF_EINER_LICHTUNG1
+            CMP 0x695D    // roomnumber
             BCS 0x345A
             LDA #0x0
             BEQ 0x345C
@@ -5832,7 +5869,7 @@ x347E:
             STA 0x6992
             LDA #0x0
             STA 0x6993
-            LDA 0x695D
+            LDA 0x695D    // roomnumber
             CMP #0x14
             BEQ 0x3493
             LDA #0x0
@@ -5841,7 +5878,7 @@ x3493:
             LDA #0xFF
 x3495:
             STA 0x70FB    // helper
-            LDA 0x695D
+            LDA 0x695D    // roomnumber
             CMP #0x15
             BEQ 0x34A3
             LDA #0x0
@@ -5853,7 +5890,7 @@ x34A5:
             LDA 0x70FB    // helper
             ORA 0x7100
             STA 0x70FB    // helper
-            LDA 0x695D
+            LDA 0x695D    // roomnumber
             CMP #0x17
             BCS 0x34BC
             LDA #0x0
@@ -5863,7 +5900,7 @@ x34BC:
 x34BE:
             STA 0x7100
             LDA #0x1A
-            CMP 0x695D
+            CMP 0x695D    // roomnumber
             BCS 0x34CC
             LDA #0x0
             BEQ 0x34CE
@@ -5877,7 +5914,7 @@ x34CE:
             LDA 0x70FB    // helper
             ORA 0x7100
             STA 0x70FB    // helper
-            LDA 0x695D
+            LDA 0x695D    // roomnumber
             CMP #0x1C
             BCS 0x34EE
             LDA #0x0
@@ -5887,7 +5924,7 @@ x34EE:
 x34F0:
             STA 0x7100
             LDA #0x1E
-            CMP 0x695D
+            CMP 0x695D    // roomnumber
             BCS 0x34FE
             LDA #0x0
             BEQ 0x3500
@@ -5908,7 +5945,7 @@ x3517:
             LDA #0x0
             STA 0x6993
 x3521:
-            LDA 0x695D
+            LDA 0x695D    // roomnumber
             CMP #0x20
             BEQ 0x352C
             LDA #0x0
@@ -5917,7 +5954,7 @@ x352C:
             LDA #0xFF
 x352E:
             STA 0x70FB    // helper
-            LDA 0x695D
+            LDA 0x695D    // roomnumber
             CMP #0x22
             BEQ 0x353C
             LDA #0x0
@@ -5929,7 +5966,7 @@ x353E:
             LDA 0x70FB    // helper
             ORA 0x7100
             STA 0x70FB    // helper
-            LDA 0x695D
+            LDA 0x695D    // roomnumber
             CMP #0x23
             BEQ 0x3555
             LDA #0x0
@@ -5941,7 +5978,7 @@ x3557:
             LDA 0x70FB    // helper
             ORA 0x7100
             STA 0x70FB    // helper
-            LDA 0x695D
+            LDA 0x695D    // roomnumber
             CMP #0x26
             BEQ 0x356E
             LDA #0x0
@@ -5953,7 +5990,7 @@ x3570:
             LDA 0x70FB    // helper
             ORA 0x7100
             STA 0x70FB    // helper
-            LDA 0x695D
+            LDA 0x695D    // roomnumber
             CMP #0x28
             BCS 0x3587
             LDA #0x0
@@ -5963,7 +6000,7 @@ x3587:
 x3589:
             STA 0x7100
             LDA #0x2B
-            CMP 0x695D
+            CMP 0x695D    // roomnumber
             BCS 0x3597
             LDA #0x0
             BEQ 0x3599
@@ -5998,7 +6035,7 @@ x35BB:
             STA 0x6992
             LDA #0x0
             STA 0x6993
-            LDA 0x695D
+            LDA 0x695D    // roomnumber
             CMP #0x42
             BCS 0x35D0
             LDA #0x0
@@ -6008,7 +6045,7 @@ x35D0:
 x35D2:
             STA 0x70FB    // helper
             LDA #0x44
-            CMP 0x695D
+            CMP 0x695D    // roomnumber
             BCS 0x35E0
             LDA #0x0
             BEQ 0x35E2
@@ -6019,7 +6056,7 @@ x35E2:
             LDA 0x70FB    // helper
             AND 0x7100
             STA 0x70FB    // helper
-            LDA 0x695D
+            LDA 0x695D    // roomnumber
             CMP #0x4B
             BCS 0x35F9
             LDA #0x0
@@ -6029,7 +6066,7 @@ x35F9:
 x35FB:
             STA 0x7100
             LDA #0x4D
-            CMP 0x695D
+            CMP 0x695D    // roomnumber
             BCS 0x3609
             LDA #0x0
             BEQ 0x360B
@@ -6064,7 +6101,7 @@ x362D:
             STA 0x6992
             LDA #0x0
             STA 0x6993
-            LDA 0x695D
+            LDA 0x695D    // roomnumber
             CMP #0x19
             BEQ 0x3641
             JMP 0x364B
@@ -6263,7 +6300,7 @@ x38B1:
             LDA #0xFF
 x38B3:
             STA 0x70FB    // helper
-            LDA 0x6986
+            LDA 0x6986    // command variable
             CMP #0xC
             BNE 0x38C2
             LDA 0x6987
@@ -6290,7 +6327,7 @@ x38DB:
             JSR 0x5CDB
             JMP 0x3802
 x38EB:
-            LDA 0x6986
+            LDA 0x6986    // command variable
             CMP #0x18
             BNE 0x38F7
             LDA 0x6987
@@ -6303,7 +6340,7 @@ x38FD:
             LDA #0xFF
 x38FF:
             STA 0x70FB    // helper
-            LDA 0x695D
+            LDA 0x695D    // roomnumber
             CMP #0xF
             BEQ 0x390D
             LDA #0x0
@@ -6319,7 +6356,7 @@ x390F:
 x391D:
             JMP 0x5BE2   jump outside
 x3920:
-            LDA 0x6986
+            LDA 0x6986    // command variable
             CMP #0xB
             BNE 0x392C
             LDA 0x6987
@@ -6332,7 +6369,7 @@ x3932:
             LDA #0xFF
 x3934:
             STA 0x70FB    // helper
-            LDA 0x695D
+            LDA 0x695D    // roomnumber
             CMP #0x19
             BEQ 0x3942
             LDA #0x0
@@ -6372,7 +6409,7 @@ x3976:
 x3984:
             JMP 0x5C11   jump outside
 x3987:
-            LDA 0x6986
+            LDA 0x6986    // command variable
             CMP #0xB
             BNE 0x3993
             LDA 0x6987
@@ -6385,7 +6422,7 @@ x3999:
             LDA #0xFF
 x399B:
             STA 0x70FB    // helper
-            LDA 0x695D
+            LDA 0x695D    // roomnumber
             CMP #0x41
             BEQ 0x39A9
             LDA #0x0
@@ -6413,7 +6450,7 @@ x39C4:
 x39D2:
             JMP 0x5C4D   jump outside
 x39D5:
-            LDA 0x6986
+            LDA 0x6986   // command variable
             CMP #0x12
             BNE 0x39E1
             LDA 0x6987
@@ -6424,7 +6461,7 @@ x39E1:
 x39E6:
             JMP 0x4CDA   jump outside
 x39E9:
-            LDA 0x6986
+            LDA 0x6986   // command variable
             CMP #0x11
             BNE 0x39F5
             LDA 0x6987
@@ -6444,7 +6481,7 @@ x3A00:
 x3A0A:
             JSR 0x1C12
 x3A0D:
-            LDA 0x6986
+            LDA 0x6986   // command variable
             CMP #0x2B
             BNE 0x3A19
             LDA 0x6987
@@ -6491,7 +6528,7 @@ x3A5A:
             LDA #0x0
             STA 0x6991
 x3A64:
-            LDA 0x6986
+            LDA 0x6986   // command variable
             CMP #0x28
             BNE 0x3A70
             LDA 0x6987
@@ -6566,7 +6603,7 @@ x3AE7:
 x3AF1:
             JMP 0x3B2F
 x3AF4:
-            LDA 0x695D
+            LDA 0x695D    // roomnumber
             CMP #0x6
             BEQ 0x3AFE
             JMP 0x3B01
@@ -6578,7 +6615,7 @@ x3B01:
             LDA #0x0
             STA 0x6D10
 x3B0B:
-            LDA 0x695D
+            LDA 0x695D    // roomnumber
             CMP #0x2
             BNE 0x3B15
             JMP 0x3B18
@@ -6588,7 +6625,7 @@ x3B18:
             LDA #0x64
             STA 0x6DA7
 x3B1D:
-            LDA 0x695D
+            LDA 0x695D    // roomnumber
             CMP #0x7
             BNE 0x3B27
             JMP 0x3B2A
@@ -6598,10 +6635,10 @@ x3B2A:
             LDA #0x0
             STA 0x702E
 x3B2F:
-            JSR 0x3C02
+            JSR 0x3C02    // show text
 x3B32:
             LDA #0x0
-            STA 0x6986
+            STA 0x6986   // command variable
             LDA #0x0
             STA 0x6987
             LDA #0x0
@@ -6624,7 +6661,7 @@ x3B32:
 // Read&Write : 0x70b9, 0x70ba,
 // Read&Write : 0x70fb, 0x70fc,
 // Read&Write : 0x7100, 0x7101,
-void Sub_3c02() // show text
+void Sub_3c02() // show text // case e8  showtext
 {
 x3C02:
             LDA 0x6990    the text to output low byte
@@ -6667,7 +6704,7 @@ x3C3D:
             STA 0x3C
             LDA #0x1
             LDY #0x0
-            STA (0x3B),y
+            STA (0x3B),y  // table visited
             LDA #0x1
             STA 0x695A
 x3C57:
@@ -7194,7 +7231,7 @@ x409F:
             JSR 0x0CDB
             BRK
             ORA 0x96,x
-            LDA 0x695D
+            LDA 0x695D    // roomnumber
             STA 0x695E
             LDA 0x6994
             CMP #0xFE
@@ -7505,7 +7542,7 @@ x470F:
             STA 0x6990    the text to output
             LDA #0x2
             STA 0x6991    the text to output
-            JSR 0x3C02
+            JSR 0x3C02    SHOW TEXT
             JSR 0x0CDB
             BRK
 // 25 bytes
@@ -7791,7 +7828,7 @@ void Sub_4b38()
 x4B38:
             JSR 0x409F
             JSR 0x2E5B
-            JSR 0x3C02
+            JSR 0x3C02     show text
             RTS
 }
 
@@ -7878,7 +7915,7 @@ x4C66:
             LDA #0x0
             STA 0x6991
 
-            JSR 0x3C02
+            JSR 0x3C02    show text
             JSR 0x5D5A
             LDA 0x6961
             CMP #0x4E
@@ -7964,7 +8001,7 @@ x4CDA:
             LDA #0x0
             SBC 0x70FC
             STA 0x6991    the text to output
-            JSR 0x3C02
+            JSR 0x3C02    show text
             JSR 0x0CDB
             BRK
 // 5 bytes
@@ -7983,7 +8020,7 @@ x4D1E:
             STA (0x5E),y
 // 43 bytes
 x4D6A:
-            LDA 0x6986
+            LDA 0x6986   // command variable
             CMP #0x28
             BNE 0x4D76
             LDA 0x6987
@@ -8073,12 +8110,12 @@ x4E0A:
             STA 0x6990    the text to output
             LDA #0x0
             STA 0x6991
-            JSR 0x3C02
+            JSR 0x3C02    show text
             JSR 0x0CDB
             BRK
 // 5 bytes
 x4E20:
-            LDA 0x6986
+            LDA 0x6986   // command variable
             CMP #0xB
             BNE 0x4E2C
             LDA 0x6987
@@ -8091,7 +8128,7 @@ x4E32:
             LDA #0xFF
 x4E34:
             STA 0x70FB    // helper
-            LDA 0x695D
+            LDA 0x695D    // roomnumber
             CMP #0x20
             BEQ 0x4E42
             LDA #0x0
@@ -8177,7 +8214,7 @@ x4ECE:
             STA 0x6990    the text to output
             LDA #0x0
             STA 0x6991
-            JSR 0x3C02
+            JSR 0x3C02    show text
             LDA #0x0
             STA 0x69B9
             LDA #0x0
@@ -8254,7 +8291,7 @@ x5130:
             STA 0x6990    the text to output
             LDA #0x0
             STA 0x6991
-            JSR 0x3C02
+            JSR 0x3C02    show text
             JSR 0x5D5A
             LDA 0x6961
             CMP #0x4A
@@ -8297,7 +8334,7 @@ x5174:
             STA 0x6990    the text to output
             LDA #0x0
             STA 0x6991
-            JSR 0x3C02
+            JSR 0x3C02    show text
             JSR 0x5D5A
             LDA 0x6961
             CMP #0x4A
@@ -8338,7 +8375,7 @@ x51B3:
             STA 0x6990    the text to output
             LDA #0x2
             STA 0x6991
-            JSR 0x3C02
+            JSR 0x3C02    show text
             JSR 0x0CDB
             BRK
             PLP
@@ -8367,8 +8404,8 @@ x5277:
             STA 0x6963
             JSR 0x569D
             LDA #0x3
-            STA 0x695D
-            LDA 0x695D
+            STA 0x695D    // roomnumber
+            LDA 0x695D    // roomnumber
             STA 0x70FB    // helper
             LDA #0x0
             STA 0x70FC
@@ -8382,7 +8419,7 @@ x5277:
             LDA #0x1
             LDY #0x0
             STA (0x3B),y
-            LDA 0x695D
+            LDA 0x695D    // roomnumber
             STA 0x6994
             LDA #0x0
             STA 0x6995
@@ -8395,7 +8432,7 @@ x5277:
             STA 0x6990    the text to output
             LDA #0x0
             STA 0x6991
-            JSR 0x3C02
+            JSR 0x3C02    show text
             RTS
 }
 
@@ -8410,7 +8447,7 @@ x52D2:
             STA 0x6990    the text to output
             LDA #0x2
             STA 0x6991
-            JSR 0x3C02
+            JSR 0x3C02    show text
             JSR 0x5D5A
             LDA 0x6961
             CMP #0x4A
@@ -8447,7 +8484,7 @@ x531B:
             STA 0x6990    the text to output
             LDA #0x2
             STA 0x6991
-            JSR 0x3C02
+            JSR 0x3C02    show text
             RTS
 }
 
@@ -8682,7 +8719,7 @@ x5BF9:
             LDA #0x2
             STA 0x6963
             LDA #0x19
-            STA 0x695D
+            STA 0x695D    // roomnumber
             LDA #0x19
             STA 0x6D01
             JSR 0x5396
@@ -8693,7 +8730,7 @@ x5C11:
             STA 0x6990    the text to output
             LDA #0x0
             STA 0x6991
-            JSR 0x3C02
+            JSR 0x3C02    show text
             JSR 0x4B4D
             LDA 0x69BF
             CMP #0xFF
@@ -8709,7 +8746,7 @@ x5C35:
             LDA #0x3
             STA 0x6963
             LDA #0x33
-            STA 0x695D
+            STA 0x695D    // roomnumber
             LDA #0x33
             STA 0x6D01
             JSR 0x5396
@@ -8731,7 +8768,7 @@ x5C64:
             LDA #0x4
             STA 0x6963
             LDA #0x43
-            STA 0x695D
+            STA 0x695D    // roomnumber
             LDA #0x43
             STA 0x6D01
             JSR 0x5396
@@ -8751,7 +8788,7 @@ void Sub_5c8f()
 x5C8F:
             JSR 0x409F
             JSR 0x2E5B
-            JSR 0x3C02
+            JSR 0x3C02    show text
             RTS
 }
 
@@ -8811,7 +8848,7 @@ x5CDB:
             ADC 0x6993
             STA 0x6991
 
-            JSR 0x3C02
+            JSR 0x3C02    show text
             RTS
 }
 

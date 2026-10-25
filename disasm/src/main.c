@@ -13,7 +13,7 @@ void LoadIntoRam()
 {
     unsigned char ram[0x10000];
     FILE *file;
-    file = fopen("../data/nachcodeabfrage.vsf", "rb");
+    file = fopen("../data/tests/nachcodeabfrage.vsf", "rb");
     if (file == NULL)
     {
         printf("Error: Cannot open file\n");
@@ -65,7 +65,7 @@ int main()
     return 1;
     */
     InitAnalyze();
-
+/*
 	//DisassembleAnalyze(0x1c12);
 	DisassembleAnalyze(0x3a0a);
 	DisassembleAnalyze(0x9796);
@@ -73,6 +73,7 @@ int main()
 	DisassembleAnalyze(0x3b94);
 	DisassembleAnalyze(0xcb39);
 	DisassembleAnalyze(0xcf2f);
+
 	DisassembleAnalyze(0x12e5);
 	DisassembleAnalyze(0x0ce8);
 	DisassembleAnalyze(0xaa13);
@@ -82,15 +83,15 @@ int main()
 	DisassembleAnalyze(0x9660);
 	DisassembleAnalyze(0xa626);
 
-	/*
-	DisassembleAnalyze(0x3b3c);
-	DisassembleAnalyze(0x3067);
-	DisassembleAnalyze(0xed7f);
-	*/
-    /*
-    DisassembleAnalyze(0xcde2);
-    DisassembleAnalyze(0xcea7);
-    */
+
+	//DisassembleAnalyze(0x3b3c);
+	//DisassembleAnalyze(0x3067);
+	//DisassembleAnalyze(0xed7f);
+
+
+    //DisassembleAnalyze(0xcde2);
+    //DisassembleAnalyze(0xcea7);
+
 	DisassembleAnalyze(0x984e); // interrrupt ?
 	//DisassembleAnalyze(0x9843); // non-maskable interrupt ?
     //DisassembleAnalyze(0xcdaa); // interrrupt
@@ -104,6 +105,9 @@ int main()
 		//fprintf(stderr, "0x%04x\n", Read16(0xa495+i*2));
 		DisassembleAnalyze(Read16(0xa495+i*2));
 	}
+*/
+
+	DisassembleAnalyze(0x3c02); // show output text
 
     FindVariables();
 
