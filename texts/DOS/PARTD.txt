@@ -43,7 +43,753 @@ Container: FORM / HUFF
  36: 119
  37: 120
 
-## Texts
+## Game texts
+
+### 000
+
+Du findest Dich im Schloßgarten wieder: Einst, als er noch gehegt und gepflegt worden ist, muß das hier wohl ein recht idyllisches und ruhiges Fleckchen gewesen sein - aber diese Tage scheinen für immer vergangen: Alles um Dich herum ist verwildert und mit Efeuranken überwuchert. Mag sein, daß hier vor langer Zeit die früheren Lords und Ladies einmal ihre Spaziergänge (und vielleicht nicht nur das!) im Schatten der nunmehr völlig verwilderten Buchsbaumhecken gemacht haben, doch heute verbreitet der verwilderte Garten nur noch eine unheimliche und bedrohliche Atmosphäre... Im Norden liegen die Stallungen, während Du durch ein kleines Tor in der östlichen Mauer wieder zurück auf den Burghof gelangst. 
+
+### 001
+
+Als Du den Burghof betrittst, hältst Du inne und horchst in die Stille hinein, aber weder das Zwitschern der Vögel noch das Rauschen der Bäume dringt an Dein Ohr: Dieser Ort ist von jedem Lebewesen verlassen worden, das noch Gelegenheit dazu hatte! Plötzlich mußt Du an all die Leute denken, die nie aus diesem unheimlichen Gemäuer herausgekommen sind. Vielleicht gehörst auch Du zu ihnen, auch wenn Du es nicht weißt - NOCH NICHT weißt, meine ich... Hinter Dir liegt das massive Burgtor, vor Dir das Hauptgebäude, und in der westlichen Mauer befindet sich ein kleines Tor, das in den Schloßgarten führt. In einer schattigen Ecke des Burghofes kannst Du außerdem einen engen Schacht erkennen, der nach unten in die Dunkelheit hineinführt... 
+
+### 002
+
+Du betrittst die Stallungen des Schlosses: Einst haben hier die schönsten und schnellsten Pferde des ganzen Landes gestanden, um auszuruhen und zu fressen - heute hingegen ruht hier lediglich die ganz und gar nicht schöne Leiche eines von fürchterlichen Brandwunden grausig entstellten Abenteurers! Neben seiner in einer grotesken Verrenkung ausgestreckten Hand steht eine kleine, stählerne Truhe auf dem Boden. Der einzige sichtbare Ausgang führt durch die Südtür zurück in den Schloßgarten. Wenn Du Dich geschickt genug anstellst, wird sich dir jedoch bald auch noch ein Weg nach oben oder unten eröffnen, je nachdem, aus welcher Perspektive man das Ganze betrachtet... 
+
+### 003
+
+Erfurchtsvoll betrittst Du die große Empfangshalle des Schlosses. Alles um Dich herum zeugt vom guten Geschmack der vormaligen Burgherren: kunstvoll verzierte Vasen, wertvolle Gemälde und teure Teppiche. Offensichtlich wurde diese Halle von Leuten mit einem sehr ausgeprägten Sinn für Prunk und Luxus eingerichtet, und Du versuchst Dir vorzustellen, wie all die vornehmen Lords und Ladies aus fremden Ländern hier bei Staatsempfängen Willkommen geheißen wurden: Das muß schon eine sehr reiche und stolze Nation gewesen sein, die in der Lage gewesen ist, solche Schlösser zu erbauen und sie derart einzurichten - doch was hat der Dunkle Lord bloß mit alledem getan! Am Ende des Ganges liegt die Ahnengalerie des Schloßherrn, während hinter Dir das Portal liegt, durch das Du wieder auf den Burghof gelangst. 
+
+### 004
+
+Erschrocken springst Du zurück, als Du plötzlich ein paar Treppenstufen direkt vor Dir auftauchen siehst - gerade noch rechtzeitig, um nicht hinab in die Tiefe zu stürzen und Dir sämtliche Knochen zu brechen! Dich fröstelt unangenehm, als Du das kränklich gelbe Licht wahrnimmst, das durch die Tür in der Ostwand fällt und alles in seinen unheimlichen Schein taucht... Die steinerne Wendeltreppe führt sowohl nach oben als auch nach unten: Steigst Du nach oben, gelangst Du auf auf die Zinnen des Hauptturmes; entscheidest Du Dich stattdessen für den Weg nach unten, so führt die Treppe Dich in das Untergeschoß der Burg. Wenn Dir momentan jedoch - aus welchem Grund auch immer - nicht nach einem Erkundungsgang durch diese Stockwerke ist, hast Du immer noch die Wahl, hier stehenzubleiben, bis Du schwarz wirst, oder durch die Tür in der Ostwand in die Empfangshalle zurückkehren. 
+
+### 005
+
+Atemlos hältst Du inne, als Du die Gemälde an den Wänden der Galerie erblickst: Obwohl dies hier ja wohl eigentlich die Ahnengalerie König Richards sein sollte, stellen alle Portraits exakt dasselbe dar: einen streng blickenden, grauhaarigen, alten Mann, gehüllt in ein dunkelviolettes Cape, der mit hochmütigem, aber haßerfüllten Blick jedem einzelnen Deiner Schritte zu folgen scheint. ZARGON! Du zitterst...: Wenn er tatsächlich so aussehen sollte wie der Mann auf den Bildern, dann hast Du nicht die geringste Ahnung, wie gerade Du in der Lage sein solltest, ihn zu besiegen! Im Norden liegt der Speisesaal des Schlosses, im Süden die Eingangshalle, und durch eine Tür im Westen gelangst Du in ein düsteres Treppenhaus... 
+
+### 006
+
+Du findest Dich in der Vorratskammer der im östlichen Nachbarraum liegenden Schloßküche wieder. An den Wänden um Dich herum befinden sich eine Unmenge verstaubter oder mit Spinnweben bedeckter Regale, doch viele von ihnen hängen nicht einmal mehr ordentlich an der Mauer, sondern sind im Laufe der Jahrzehnte herabgefallen, so daß ihr Inhalt nun völlig durcheinander auf dem Boden verstreut liegt. Nun beginnst Du auch zu verstehen, warum die Ratten - und vielleicht nicht nur sie...! - Dir den Zutritt zu diesem Raum verwehren wollten: Sie müssen befürchtet haben, daß Du ihnen ihre Delikatessen wegfressen könntest! Unter einer Falltür führt eine Treppe in ein dunkles Gewölbe hinab... 
+
+### 007
+
+Du betrittst die verwahrloste Schloßküche. Seit Jahren scheint in diesem Raum nichts mehr berührt worden zu sein: Sogar die Regalinhalte sind völlig verstaubt! Doch als Du auf den Fußboden schaust, erstarrst Du plötzlich: Inmitten dieses ganzen Schmutzes und der vergammelten Küchenabfälle siehst Du einige kleine Brotscheiben liegen - und sie sehen noch ziemlich frisch aus! Irgendjemand - oder irgendetwas? - muß also von Zeit zu Zeit noch hierherkommen, um die Ratten zu füttern, die hier überall herumhuschen - ziemlich fette und häßliche Ratten übrigens, von denen manche aber irgendwie ziemlich krank aussehen... Langsam beschleicht Dich die unangenehme Vorahnung, daß irgendwer Dein Eintreffen bereits bemerkt und etwas dagegen gehabt hat, daß Du noch tiefer in das Schloß eindringst - und Du könntest verdammt recht haben...! Im Osten liegt der Speisesaal des Schlosses, hinter der Tür im Norden befindet sich der Küchengarten, und durch die Tür im Westen gelangst Du in die Vorratskammer. 
+
+### 008
+
+Du befindest Dich in einem großen, festlich geschmückten Speisesaal. Obwohl er eigentlich eher gemütlich ausstaffiert worden ist, verbreitet dieser Raum eine unheimliche, ja geradezu bedrohliche Atmosphäre: Er scheint so unwirklich! Denn trotz aller Anzeichen, daß dieser Saal schon seit Jahrzehnten nicht mehr betreten worden ist, biegt sich die Tafel dennoch immer noch unter dem Gewicht der gefüllten Schalen und Teller! Eine gespenstische und unglaublich böse Aura geht von diesen verlassenen Hallen aus, obwohl Du nicht einmal genau sagen könntest, warum eigentlich: Du fühlst lediglich so etwas wie einen eisig kalten Wind durch den leeren Saal wehen, der Dir beinahe unmerklich über den Rücken streicht - fast so, als ob Dich eine geisterhafte Hand aus diesen Mauern forthalten wollte, wie eine letzte, nachdrückliche Warnung des Todes persönlich... Im Süden liegt die Schloßgalerie, und durch die kleine Tür in der Westwand kannst Du die Schloßküche erkennen. 
+
+### 009
+
+Du betrittst den Kräutergarten des Schlosses. Vor langer Zeit haben die Schloßbewohner diesen Garten benutzt, um Kräuter für die Küchenarbeiten anzupflanzen, jedoch scheinen die Kräutlein, die jetzt hier wachsen, nicht zum Verzehr, sondern eher als Zutaten für magisches Gebräu angebaut worden zu sein... Durch eine kleine Tür im Süden gelangst Du wieder zurück in die Schloßküche. -A.C.A breaking in for a chat: "Sorry, dieser Raum ist eigentlich bloß zur Verstärkung der schwachen Atmosphäre eingerichtet worden. Trotzdem hoffen wir alle, daß Dir unser Spiel genauso gut gefällt wie uns, obwohl wir nach Deinen letzten Zügen doch schon sehr stark bezweifeln müssen, ob jemand wie Du jemals in der Lage sein wird, es zu lösen. Der Aufenthalt in diesem Raum ist aber mit keinerlei Gefahr verbunden, also mach' Dir erst einmal einen Kaffee und genieße Deine letzte Verschnaufpause vor dem großen Finale. Viel Spaß also noch!" -A.C.A chat end. Bye... 
+
+### 010
+
+Du betrittst das Dach des Hauptturmes, der sich hoch über den Berg erhebt, auf dem Zargons Schloß gelegen ist. Inzwischen ist es finstere Nacht geworden, und während Du die schimmernden Sterne am dunklen Firmament betrachtest, Lichtjahre von hier entfernt, fühlst Du so etwas wie Einsamkeit in Dir aufsteigen...: Du denkst an Deine arme Mutter, die bestimmt gerade zuhause sitzt und sich die Augen nach Dir ausheult, und an Deinen resoluten Vater, der jetzt wohl der gesamten Ortspolizei von Loch Calderwood die Hölle heiß machen wird, da sie auf der Suche nach Dir bisher wohl noch keinerlei Erfolg gehabt haben dürfte. Aber eigentlich hast Du ja überhaupt keine Zeit, Dir über solche Lappalien den Kopf zu zerbrechen: Immerhin hast Du eine Mission zu erfüllen, jetzt - UND HIER! Und wenn es Dir hier draußen endlich zu kalt geworden sein sollte, kannst Du wieder ins Schloßgebäude zurückkehren, das Du über die steinerne Wendeltreppe, die nach unten in den Turm hineinführt, erreichst, oder das kleine Haus des Turmwächters im Norden betreten. 
+
+### 011
+
+Du stehst im Haus des Turmwächters. Hier scheint ein schwerer Kampf getobt zu haben, wie Du aus dem zerstörten oder umgestürzten Mobiliar sowie der fürchterlichen Unordnung auf dem Fußboden ersehen kannst: Zargon scheint also doch noch einige Probleme gehabt zu haben, das Schloß einzunehmen und seine Bewohner zu überrumpeln - zumindest einige von ihnen scheinen doch wohl Widerstand geleistet zu haben! Und wer weiß: Vielleicht sind ja sogar ein oder zwei alte Getreue des Königs noch am Leben und verstecken sich irgendwo im Schloß oder in der umgebenden Wildnis? Auch der Schreibtisch des Turmwächters, das einzige noch halbwegs intakt aussehende Möbelstück, ist wie fast alles, was nicht schon während des Handgemenges zu Bruch gegangen ist, völlig durcheinander. Du kannst diesen Raum durch die Tür in der Südwand, die zurück auf das Dach des Hauptturmes führt, wieder verlassen. 
+
+### 012
+
+Du kletterst in einen dunklen, feuchten Schacht. Ein schmaler Lichtstrahl fällt von oben ein, ist jedoch nicht hell genug, um Dich Deine Umgebung genauer in Augenschein nehmen zu lassen. Während Du Dich vorsichtig an den felsigen Wänden entlangtastest, hörst Du merkwürdige, schlurfende Geräusche hinter der Nordwand! Wenn Du nur das richtige Werkzeug mit Dir führtest, könntest Du der Sache ja auf den Grund gehen, aber so bleibt Dir nur das mulmige Gefühl der Ungewißheit... Die glitschigen Steigeisen, an denen Du gerade Halt zu finden versuchst, führen sowohl nach oben als auch nach unten, noch tiefer in den Berg hinein... 
+
+### 013
+
+Du betrittst eine schummerig beleuchtete, enge Gefängniszelle: Süßlicher Verwesungsgeruch steigt Dir in die Nase, aber auch daran hast Du Dich ja mittlerweile schon gewöhnt... In der südwestlichen Ecke der Zelle liegt auf einem schmutzigen Strohlager ein völlig abgenagtes Knochengerippe - wahrscheinlich einer von den Unglücklichen, die von Zargons Schergen gefaßt worden sind, als sie - genau wie Du - versucht hatten, das Land aus Zargons Schreckensherrschaft zu befreien. Vorsichtshalber prüfst Du also erst einmal, ob das Lager gegebenenfalls auch Platz für zwei Leichen böte, als Dir an den bemoosten Zellenwänden einige flüchtig hingekritzelte Schmierereien auffallen! Im Norden erkennst Du durch eine Gittertür einen von Fackeln in unheimliches, rotes Licht getauchten Raum, während eine massive Stahltür den Ausgang nach Osten darstellt. 
+
+### 014
+
+Dies ist das Amtszimmer des Torwächters. Einige unstet flackernde Kerzen verwandeln den Raum in ein unheimliches, tanzendes Licht- und Schattenspiel, aber wozu brennen sie überhaupt? Der alte Torwächter müßte doch eigentlich schon seit Jahrzehnten tot sein! Will Zargon vielleicht bloß Deine stümperhaften Versuche, ihn zu vernichten, mitansehen können, oder hat er in der Zwischenzeit vielleicht sogar jemanden aus seiner Horde mit der Aufgabe betraut, das Tor zu öffnen - oder vielmehr: zu SCHLIESSEN -, um unerfahrene Abenteurer wie Dich in seine tödlichen Fallen zu locken...? Das Treppenhaus, von dem aus Du wieder in das Obergeschoß der Burg zurückkehren kannst, liegt im Norden, während eine massive Stahltür durch die Wand im Westen führt. 
+
+### 015
+
+Du schaust Dich im Zimmer des Dungeon-Masters Kay um. Alles in diesem Raum erinnert Dich unangenehm an diesen fiesen B-Class-Movie, den Du Dir letzten Monat im Kino bei Euch zuhause angeschaut hast: ein Film, in dem Menschen von einem grausamen Despoten solange in seinen Verliesen gefangengehalten wurden, bis sie zu schwach waren, um während der ihnen bevorstehenden, langen und ekelerregenden Folterprozedur noch um Gnade winseln oder gar um Hilfe schreien zu können! Kay und sein Kumpan Kriss schienen ähnliche Sadisten gewesen zu sein: Überall im Raum findest Du Folterinstrumente, über deren Sinn und Zweck nachzudenken Deine unschuldige Vorstellungskraft bei weitem übersteigen dürfte! Jedes einzelne der Geräte ist mit liebevollen Erläuterungen, wie "Daumenschrauben für FLAKE-Finger", "Für unseren lieben Holger", oder "Dahmlos'sche Jungfrau", versehen. In einer weiteren Ecke des Raumes hängt ein Käfig, in dem zwei verrottete, mit viel Wohlwollen als menschlich zu bezeichnende Skelette kauern: "Das Seifert-Team: Mr. Copper & Blitter-Boy", steht mit zierlichen Buchstaben auf der Tafel daneben geschrieben. Du gedenkst der armen Kreaturen, die diesem Folterinstrumentarium zweifelsohne unfreiwillig seinen Namen geben mußten: Offensichtlich waren sie die unglücklichen Ritter, die es gewagt hatten, sich dem Willen Zargons entgegenzustellen... Der einzige Ausweg aus dieser Stätte hundertfachen Mordes führt durch eine kleine Gittertür im Süden. 
+
+### 016
+
+Du stehst im Untergeschoß des Treppenhauses. "Hmmm...: Ganz schön dunkel hier unten!", erkennst Du mit fachmännischem Blick, da Du so gut wie nichts sehen kannst (Mann! Was für ein Satz!). Über Deinem Kopf befindet sich das mittlere Geschoß der Burg, von dem aus Du hierher hinabgestiegen bist. Dich fröstelt, als Du Dir vor Augen hältst, daß Zargon sich wahrscheinlich ebenfalls in diesem Geschoß aufhält - versteckt hinter einer dieser Wände, vielleicht bloß ein paar Meter von Dir entfernt und nur darauf wartend, daß Du ahnungslos in seine Kammer rauschst, ohne auch nur die geringste Gefahr zu erwarten - und Du kannst verdammt sicher sein, daß er nicht allein sein wird...! Der Gang führt nordwärts in einen Korridor, ostwärts in eine Waffenkammer, und nach Süden hin in das Amtszimmer des Torwächters. 
+
+### 017
+
+Du betrittst die Rüstungskammer des Schlosses: Unmengen uralter Waffen und Rüstungen hängen bzw. stehen an den Wänden - aber alle ohne Ausnahme verstaubt oder vom Rost zerfressen, da sie schon jahrzehntelang nicht mehr benutzt - geschweige denn gepflegt - worden sind. Anscheinend hatten die tapferen Gefolgsleute König Richards nicht einmal mehr die Zeit, sich für ihre letzte, grausame Schlacht zu wappnen: Sie wurden feige und hinterrücks wie Vieh abgeschlachtet! In der Ecke steht eine lebensgroße Statue eines erfahrenen, alten Kriegers in voller Rüstung. Du kannst die Waffenkammer nur durch die westliche Tür verlassen, die wieder ins Treppenhaus zurück führt. 
+
+### 018
+
+Du betrittst eine düstere Halle. Ja, wirklich: Viel mehr kann ich Dir hierzu leider wirklich nicht erzählen: Du stehst in einem ganz simplen Tunnel, dessen einzige Funktion es lediglich ist, zwei Räume miteinander zu verbinden, da wir sie "um die Ecke bauen" mußten. Du verstehst, was ich meine? Ja? Kerl! Natürlich verstehst Du es NICHT, denn Du hast Dir ja auch sicherlich keine Karte gezeichnet, oder? Siehste! Ich hoffe, daß Du uns diese Notlösung trotzdem verzeihen kannst, denn immerhin hast Du es ohne nennenswerte (Jawohl: NENNENSWERTE! Wenn Du wüßtest, was Dich hier erst noch erwartet...!) Probleme bis hierhin gebracht und daher wohl auch einige, hoffentlich unterhaltsame, Stunden in unserer kleinen Welt verbracht, oder? So, und nach all diesem zusammenhanglosen Gesülze, mit dem wir es wieder einmal geschafft haben, eine mehrzeilige Raumbeschreibung zusammenzuschinden, sei hier noch einmal kurz aufgeführt, was uns in drei Jahren Entwicklungszeit zur Beschreibung dieser Örtlichkeit eingefallen ist. Also: Rechts an der Wand neben Dir hängt ein Vorhang, hinter dem der Durchgang zum Weinkeller des Schlosses liegt, und weiter im Norden kannst Du ein unheimliches, phosphoreszierendes Leuchten erkennen. Schaurig, wie? Ich meine: Schaurig, wie man so wenig Information in so viel stumpfsinnigen Text verpacken kann! 
+
+### 019
+
+Du stehst in einem feuchten Weinkeller unterhalb des Vorratsraumes. Der schwere Gärungsgeruch in der Luft raubt Dir beinahe den Atem: Egal, welch' edler Tropfen sich einst in den drei riesigen Holzfässern, die gegen die westliche Wand gelehnt liegen, befunden haben mag: Bei WINZER könnte man mit dem heute wohl völlig vergorenen Zeug sicherlich nicht mal mehr einen Blumentopf gewinnen! Eines von den Fässern kommt Dir allerdings ziemlich bekannnt vor - nur, wo Du es schon einmal gesehen haben könntest, scheint Dir momentan leider entfallen zu sein... Über die glitschigen Steinstufen in der nordöstlichen Ecke des Kellergewölbes gelangst Du wieder in die Vorratskammer im Erdgeschoß des Schlosses. 
+
+### 020
+
+Du betrittst einen Korridor im Untergeschoß des Schlosses. Direkt vor Deiner Nase erhebt sich, unheimlich in den Schein der an den Wänden befestigten Fackeln getaucht, eine riesige, schwarze Ebenholztür. Merkwürdigerweise ist der sonst unbearbeitete, felsige Boden einen Meter vor der Tür sauber gefliest: Ab hier beginnen anscheinend wieder die Wohnräume. Nun kannst Du entweder zurück zu den Steinstufen im Süden gehen oder versuchen, die Tür im Norden zu öffen - falls sie nicht schon längst offen steht... Als Du zufällig nach oben schaust, siehst Du hoch über Deinem Kopf zwei schmutziggraue Vögel am blauen Himmel kreisen: "Geier!", schießt es Dir instinktiv durch den Kopf... Du hast wohl 'ne Macke! Wir befinden uns mehrere Meter unter der Erde! Vielleicht solltest Du einfach mal diese gräßlichen Drogen absetzen? 
+
+### 021
+
+Du betrittst eine lange, düstere Halle, an deren Wänden einige mysteriöse, steinerne Kästen stehen. Exakt in der Mitte des Gewölbes hat jemand ein großes Pentagramm auf den Boden gezeichnet. Nachdem sich Deine Augen einigermaßen an die Dunkelheit hier unten gewöhnt haben, gefriert Dir beim nochmaligen Betrachten der großen Behälter allerdings das Blut in den Adern! Diese "Kisten" sind irgendwie viel zu groß und massiv für ordinäre Truhen oder ähnliches! Das können doch nur... SÄRGE sein! Der kalte Angstschweiß bricht Dir aus: "NEIN! Bitte nicht schon wieder!", flehst Du inbrünstig die A.C.A-Götter an - aber sie kennen keine Gnade: Diese Kästen sind und bleiben Särge! Und nun bemerkst Du auch endlich den penetranten Geruch von Fäulnis und Verwesung in der Luft - den süßlichen Duft des Todes, der in dicken, hellgrünen Rauchschwaden aus jedem Riß der Steinsarkophage quillt... Der einzige sichtbare Ausweg aus diesem Raum ist das Portal im Süden, das Dich zurück in die Vorhalle führt. 
+
+### 022
+
+Dies hier scheint Zargons Schlafzimmer zu sein: Alles ist in gedämpftem Schwarz und Rot gehalten. An den Wänden hängen ein paar Portraits von Zargon und seinen dämonischen Verbündeten, und auf einem kleinen Schminktischchen stehen einige zierliche Parfümflacons, Make Ups (Apropos "OOPS": Grüße an LEVEL 9!) und viele andere Dinge, die wohl die Erscheinung des doch schon nicht mehr ganz so taufrischen Magiers ein wenig verjüngen sollen. Am meisten jedoch zieht Zargons pechschwarzes Himmelbett mit den rotsamtenen Vorhängen Deinen Blick auf sich: Vielleicht können wir ja seinen Teddy als Geisel nehmen...? Durch die Tür im Osten gelangst Du wieder in Zargons Schwarze Bibliothek. 
+
+### 023
+
+Falls Du Dich für Spritismus, Okkultismus und ähnlich obskure Dinge interessierst, solltest Du jetzt besser Deinen Spielstand abspeichern und Dein Tipi in dieser Schwarzen Bibliothek aufschlagen - Du würdest Dich wie im Siebten Himmel fühlen! Die Bücherregale an den Wänden biegen sich förmlich unter der Last der alten, vergilbten Schwarten: Hier kannst Du so ziemlich alles nachlesen, was jemals ein verwirrter Geist zum Thema Teufelsanbetung, Totenkult und anderen Abstrusitäten ersonnen und zu Papier gebracht hat. Von den Regalen einmal abgesehen, besteht das restliche Mobiliar der Bibliothek eigentlich nur noch aus einem großen, antiken Ledersessel, der im Zentrum des Zimmers steht, und einem passenden Studiertisch, von dem aus eine Kerze, die in einem eingeschlagenen menschlichen Schädel steckt, den Raum in ihren unsteten, flackernden Lichtschein taucht... Ausgänge führen in alle vier Himmelsrichtungen - Du mußt sie eventuell nur erst finden... 
+
+### 024
+
+Hier können alle Erträge Zargons gotteslästerlicher Verbrechen gefunden werden: In diesem Raum sind Unmengen wertvoller Vasen, reich verzierter Teppiche und andere Luxusgegenstände zusammengehortet - alle entweder gestohlen oder aus dem Obergeschoß nach hier unten gebracht worden, nachdem die Königsburg eingenommen war. In der Ecke kannst Du einen kleinen Stahltresor stehen sehen. Meine Güte: Das ist ja die reinste Schatzkammer! Durch die Tür in der westlichen Wand gelangst Du wieder zurück in die Schwarze Bibliothek. 
+
+### 025
+
+Du befindest Dich in Zargons Labor, das ihm auch als Opferraum zu dienen scheint, da es - wenn man es zum Beispiel mit Mylgors Labor vergleicht - einen wesentlich mystischeren Eindruck macht: Statt Kolben und Reagenzgläsern findest Du nur ein Weihwasserbecken und eine weitere Schale für Zargons magisches Purpurfeuer, beide auf Sockeln aus schwarzem Marmor. Der einzige Ausweg aus diesem verruchten Ort führt durch die Tür im Osten. 
+
+### 026
+
+Du findest Dich in Zargons Studierstube wieder: Wie üblich, ist wieder einmal fast alles in Schwarz gehalten - aber das Faszinierendste an diesem Raum ist eigentlich der Tisch aus schwarzem Marmor in seiner Mitte: Du kannst Deinen Blick kaum von diesem höchst kunstvoll, ja geradezu perfekt gearbeiteten Möbelstück abwenden! Ausgänge führen nach Osten in Zargons Mysterium, nach Westen in sein Geheimlabor, und - naja, dann ist da eben noch diese mysteriöse Regalwand im Süden... 
+
+### 027
+
+Vorsichtig, und krampfhaft bemüht, nicht das geringste Geräusch zu verursachen, betrittst Du das Mysterium des bösen Hexenmeisters Zargon: Purpurne, grüne und türkise Rauchwolken steigen wabernd aus verschiedenen Kesseln auf und bilden die Gestalten von Dämonen, Geistern und Teufeln, die sich alle in einer Sprache unterhalten, die Dir so fremd ist wie die Welt, deren Bewohner sie vor Millionen von Jahren einmal gesprochen haben - doch sie hört sich wahrhaft teuflisch an! In der nordwestlichen Ecke der Halle befindet sich ein Podest mit einem schwarzen Samtkissen, das zur Aufnahme von Zargons Seelenkristall dient, dem Juwel, das dem Magier seine unheilige Macht verleiht und ihn dennoch für ewig gefangenhält! Der einzige Ausweg aus diesem unheimlichen Stimmen- und Farbenchaos führt durch die schwarze Ebenholztür in der Westwand. 
+
+### 028
+
+Du stehst im Haus des Torwächters. Ebenso wie alle anderen Bediensteten am Hofe des Königs scheint auch er ein Butahzwerg gewesen zu sein, was sich einfach aus der Größe seiner kleinen Holzhütte erkennen läßt: Als Du sie betrittst, mußt Du Dich schon tief bücken, um nicht mit dem Kopf gegen den Türrahmen zu stoßen! Die Winzigkeit der Möbelstücke bestätigt Deine Vermutungen: Selbst das verhältnismäßig großzügig bemessene Bett wäre für Dich zu klein, um auch nur halbwegs bequem darauf sitzen zu können! Ansonsten ist der gesamte Wohnraum jedoch recht sparsam möbliert, wenn auch nicht annähernd so primitiv, wie die anderen Räume in diesem Höhlensystem erwarten ließen. Durch die kleine Tür in der Nordwand gelangst Du wieder zurück ans Ufer der kleinen Insel. 
+
+### 029
+
+Du betrittst die ziemlich primitiv eingerichtete Hütte des alten Fährmanns: An der Wand hängt ein kleiner Schaukasten, der alle denkbaren Kombinationen von Seemannsknoten darstellt, während ein kleines Schild an der Nordwand besagt, daß Dich jede Überfahrt zu der kleinen Insel auf dem unterirdischen See fünf Dollars kostet: Sogar hier hat wohl schon die Währungsreform stattgefunden, so daß nun anscheinend nur noch mit harter, kapitalistischer Währung gezahlt wird! Lässig an einen roh gezimmerten Tresen gelehnt und zufrieden auf dem Mundstück seiner Pfeife herumkauend, kannst Du den Fährkapitän stehen sehen: einen alten, weißbärtigen Seebären mit einer blauen Kapitänsmütze auf dem Kopf. Du kannst das Fährhaus durch die Tür in der östlichen Wand verlassen. 
+
+### 030
+
+Du stehst am Ufer eines kleinen, unterirdischen Sees: Überall um Dich herum hängen bzw. stehen riesige Stalagmiten und Stalagtiten, die geheimnisvoll in allen vorstellbaren Farben leuchten. Im Osten befindet sich der See, in dessen Mitte Du ein winziges Eiland mit einer kleinen Holzhütte darauf erkennen kannst, während weiter im Westen die Hütte des alten Fährmanns liegt. Natürlich kannst Du aber auch genauso gut wieder das Höhlensystem betreten, das sich hinter einem dunklen Loch in der hohen Felswand im Norden weiter in den Berg hinein erstreckt. 
+
+### 031
+
+Du stehst auf einer kleinen Insel inmitten eines unterirdischen Sees: Am westlichen Ufer befindet sich ein kleiner, brüchiger Landesteg, an dem früher das Boot des Torwächters beziehungsweise die hier regelmäßig verkehrende Fähre festgetaut wurden. Hinter Dir, also im südlichen Teil der Insel, steht die kleine Holzhütte des Torwächters. 
+
+### 032
+
+Vorsichtig tastest Du Dir Deinen Weg durch den Tunnel, als Dir plötzlich in den Sinn kommt, daß Du Dich jetzt ja eigentlich direkt unter dem Schloß befinden müßtest, vielleicht sogar direkt unter Zargons Gemächern! Viel mehr beschäftigt Dich jedoch die Frage, wieviele dieser langweiligen Räume dieses Adventure wohl noch enthalten mag, und ob die Autoren wirklich genug Phantasie besessen haben, sich zu jeder einzelnen Örtlichkeit eine halbwegs gehaltvolle Beschreibung aus den Fingern zu saugen. Sorgfältig liest Du Dir also diese Raumbeschreibung durch, um Deine Frage mit einem entschiedenen "Nein!" zu beantworten! Das Geistvollste war noch der Satz "Abzweigungen führen in alle Himmelsrichtungen außer nach Westen." 
+
+### 033
+
+Du betrittst einen stillen, kühlen Platz inmitten des Butah-Höhlensystems. Eine frische Quelle mit bläulichem Wasser sprudelt munter aus der Nordwand heraus, um die durstigen Kehlen fleißiger (!) Abenteurer zu erfrischen. Was Dich allerdings ein wenig stutzig macht, ist das kleine Schild neben der Quelle, das so eine Art rot durchgestrichenen Hundekopf darstellt - ähnlich den STOP-Schildern in Deiner Heimatwelt! Da Du aber die Bedingungen, die Dich zum Trinken aus der Quelle berechtigen würden, sowieso nicht erfüllst, kann Dir die Bedeutung des Schildes auch ziemlich egal sein... Du kannst Deinen Weg nach Norden oder nach Westen fortsetzen. 
+
+### 034
+
+Immer noch völlig erstaunt über die riesige Kapazität dieses Spieles - und völlig fassungslos angesichts der grenzenlosen Blasiertheit seiner Autoren -, betrittst Du den Thronsaal des Butah-Königs. Unheimlich hallen Deine Schritte von dem marmornen Fußboden wider, als Du Dich dem massigen, steinernen Thron auf dem Podest vor der Westwand näherst. Das flackernde Licht, das von den an den Säulen angebrachten Fackeln herrührt, läßt Deinen Schatten unheimlich auf den Wänden hin- und hertanzen, und von irgendwoher dringt ein leises Fauchen an Dein Ohr... Durch ein Loch in der Ostwand gelangst Du wieder zurück in das Höhlensystem der Butah-Zwerge. 
+
+### 035
+
+Als Du die finstere Höhle betrittst, fällt Dir sofort der stechende Raubtiergestank in der Luft auf, der Dir beinahe den Atem raubt und in Deiner Nase beißt. Es riecht nach Gefahr... Es knurrt auch wie Gefahr... Scheiße! Das IST Gefahr! Verschlafen öffnen sich zwei Augen vor Dir, die Dich zornig anfunkeln, und als Deine Augen sich an das Dunkel gewöhnt haben, erkennst Du die Silhouette eines großen, muskulösen Cu-Saths, einem Artverwandten des prähistorischen Säbelzahntigers, mit kräftigen Klauen und langen, scharfen Reißzähnen! Tja, Kumpel: Viel Glück! Ausgänge führen in alle Himmelsrichtungen außer Norden - stellt sich nur noch die Frage, wie Du dort hinkommen willst... 
+
+### 036
+
+Du betrittst ein finsteres, dunkles Höhlensystem, von dessen bemoosten Wänden Wasser herunterrinnt und kleine, brackige Lachen auf dem felsigen Boden bildet. Diese Gänge sind einst von Butahs, einem kleinen, den Zwergen nahe verwandten Volk, angelegt worden, da viele von ihnen früher als Diener oder Handwerker am Hofe König Richards arbeiteten - als sie noch lebten... Du kannst die unterirdischen Höhlen entweder durch die Steigeisen in der Wand nach oben verlassen, oder sie tiefer erforschen, indem Du eine der drei Abzweigungen nimmst, die nach Norden, Süden und Westen führen. 
+
+### 037
+
+Du stehst in einer Art "Wohnhöhle", die allem Anschein nach in höchster Eile verlassen worden ist: Hier gibt es kaum noch ein Möbelstück, wenn man mal von dem kleinen Steinbett absieht, über das so etwas wie ein Mammutfell auf ein paar Lagen schmutzigen Strohs ausgebreitet ist. Auch liegen hier noch ein paar kleinere Habseligkeiten der vormaligen Höhlenbewohner auf dem Boden herum, die sie wohl während ihres überstürzten Aufbruchs vergessen oder verloren haben müssen... Der Wanddurchbruch im Süden führt Dich wieder auf die kleine T-Kreuzung zurück. 
+
+### 038
+
+Als Du den Hof des Schlosses betrittst, fühlst Du irgendetwas Seltsames und Gefährliches hinter Dir, und drehst Dich erschrocken um! Du glaubst Deinen Augen nicht trauen zu können: Das Portaltor, durch das Du den Burghof noch vor wenigen Sekunden betreten hast, bewegt sich langsam - als ob eine geisterhafte Hand es schlösse! Von Panik ergriffen, rennst Du auf den immer schmaler werdenden Spalt zu, um noch in allerletzter Sekunde, solange die Pforte sich noch nicht ganz geschlossen hat, aus diesem unheilvollen Gemäuer zu fliehen, aber es ist bereits zu spät: Mit einem lauten Knall fällt das massive Tor vor Dir ins Schloß! Tja, da steckst Du wohl mal wieder bis zum Hals in der Sch... -äh: im Schlamassel! Ich glaube, es ist besser, Du findest Dich mit Deinem Schicksal ab und löst erst einmal die Aufgabe, die man Dir auferlegt hat - und zwar möglichst bald, denn ich möchte nicht wissen, was um Mitternacht in dieser unheimlichen Burg los sein wird...! 
+
+### 039
+
+Als die Ratten Deine Anwesenheit bemerken, beginnen sie nervös - oder eher: HUNGRIG? - zu quieken! Besonders eine unter ihnen, ein häßliches, fettes Biest, schaut Dich aus heimtückisch funkelnden Äuglein an, während sie die Tür im Westen des Raumes blockiert... 
+
+### 040
+
+Es sieht so aus, als hätten die Ratten nicht ganz so viel Zeit zu verschwenden wie Du, denn es ist Abendbrotzeit, und die fetten Bestien scheinen das genau zu wissen: Wie auf ein Zeichen hin springen sie Dich alle zugleich an! Du kannst Dich der hartnäckigen Attacken der kleinen Biester kaum erwehren und wirst zu Boden gerissen, wo Du machtlos mitansehen mußt, wie Du zu einem schmackhaften Rattenmahl verarbeitet wirst! Tja: Es ist wiklich ein ziemlich übles Gefühl, bei lebendigem Leibe ein Auge aus dem Kopf gerissen zu bekommen: Der Schmerz macht Dich fast wahnsinnig! Doch gerade, als Du den Mund öffnest, um laut loszubrüllen, springt eine Ratte auf Dein Gesicht, tanzt dort zu heißen, rituellen Rhythmen - und reißt Dir während einer Pirouette zu einem ekstatisch und temperamentvoll ausgestoßenen "Ouh!" schwungvoll die Zunge aus, so daß Dein Schrei von einem warmen Schwall Deines eigenen Blutes zu einem gurgelnden Röcheln abgedämpft wird! Keine Sorge: Du wirst schon nicht daran ersticken! Denn mit Deinem verbleibenden Auge kannst Du bereits eine dritte Ratte neugierig an Deiner Halsschlagader schnuppern sehen, bevor sie sie schließlich mit einem einzigen, herzhaften Biß ihrer messerscharfen Schneidezähne durchtrennt und Dich von Deinen Qualen erlöst... 
+
+### 041
+
+Es war ein blöder Fehler, noch einmal hierherzukommen - ganz gleich, unter welchen Umständen: Zwei riesenhafte, verrottende Mumien warten bereits auf Dich... Allerdings: Irgendwie scheinen unsere beiden Vermummungskünstler doch ein wenig infantil veranlagt zu sein, denn offensichtlich wollen sie vor Deinem Tod noch eine Runde Tauziehen mit Dir spielen! In der verzweifelten Hoffnung, während des Wettkampfes vielleicht doch noch eine Gelegenheit zur Flucht zu erhalten, willigst Du kurzerhand in ein Match ein - bis Dir unmißverständlich klargemacht wird, daß Du nicht als Athlet, sondern als SEIL an dem Spiel teilnehmen sollst! Tja, also Wettkampfqualität besaß Dein Körper nicht gerade, denn er reißt schon nach zwei Runden verbissenen Hin- und Herzerrens, so daß es von nun an wohl zwei Hälften von Dir geben wird, aus denen Deine geplatzten Eingeweide herausquellen und den schönen, sauberen Fußboden mit Blut und Galle besudeln... 
+
+### 042
+
+Als Du Dich in der Mitte des weißen Pentagramms in Zargons Mysterium wieder materialisierst, erhebt sich der alte Hexer verwundert aus seinem hohen Sessel. "Warum mußtest Du denn schon so früh kommen?", schnarrt er mit einer Spur von Enttäuschung in seiner Stimme, "Ich habe im Moment überhaupt keine Zeit, mich um Dich zu kümmern - leider...!" Mit einer nebensächlich anmutenden Bewegung seiner rechten Hand läßt er wie aus dem Nichts einen riesigen Feuerball in der Luft entstehen und schleudert ihn direkt auf Dich zu! Das letzte, woran Du in der Dir verbleibenden Zeit noch denken kannst, ist die extreme Energieverschwendung Zargons - denn ein kleiner, dezenter Blitz hätte es ja wohl auch schon getan! Dann wird es plötzlich sehr hell - und sehr heiß! Ein kleines Häuflein rauchender Asche ist schließlich alles, was noch von Deinem Körper übrigbleibt... 
+
+### 043
+
+Als Zargon Dich inmitten seines weißen Kreidepentagramms auftauchen sieht, steht er auf und erhebt sich zu seiner vollen Größe: "Warum konntest Du nicht warten?", schnarrt er enttäuscht, "Ich habe im Moment absolut keine Zeit für Dich - leider..." Mit einer leichten Bewegung seiner rechten Hand versucht er, einen Feuerball herbeizubeschwören, doch alles, was Du erkennen kannst, ist eine kleine Flamme, die ihm die Handflächen versengt! Als Du schadenfroh loskicherst, schreit der Hexenmeister voller Schmerz: "Verdammt! Aber noch hast Du nicht gewonnnenn!" Er klatscht kurz in die Hände ("Say hooo!"), und ein paar Sekunden später materialisieren sich zwei hühnenhafte, häßliche Mumien in dem Pentagramm neben Dir. Völlig entgeistert und zu keiner Gegenwehr fähig, bereitest Du ihnen nicht die geringsten Probleme: Kräftige Klauen greifen nach Deiner Kehle, und kurz darauf hörst Dein Genick mit einem kurzen, aber lauten "Krack!" brechen! "Gott sei Dank!", denkst Du noch erleichtert, "Ich hatte schon befürchtet, sie würden mich erwürgen!" Während Deine Seele in die Ewigen Jagdgründe entfleucht, kannst Du noch mit ansehen, wie Dein Kopf brutal vom Rumpf gerissen und auf den Boden geschmettert wird, wo nun Deine Hirnmasse zähflüssig über die Steinplatten quillt, bis Zargon sie wegwischen lassen wird... 
+
+### 044
+
+Also, wenn Du wirklich meinst, daß Zargon sich fürchten müßte, wenn Du in seine Geheimkammern eindringst, dann hast Du Dich aber ganz gewaltig geschnitten! Im Gegenteil: Seelenruhig führt er erst einmal seine Unterredung mit einem der Dämonenfürsten zu Ende und wendet sich dann erst Dir zu. "Raus hier, aber dalli!", schreit er Dich an, nachdem er Dich ein paar Sekunden lang abschätzend gemustert hat, "Glaubst Du etwa, ich ließe Dich hier stundenlang in meinem Schloß herumlaufen, bloß um Dich hinterher so mir nichts, Dir nichts, einfach abzuschlachten, ohne mich zuvor ein wenig mit Dir amüsieren zu können? Du hast doch überhaupt noch keine Chance, mich zu besiegen - also verschwinde endlich und bereite Dich gefälligst etwas besser auf unseren Kampf vor! Schließlich will auch ich meinen Spaß haben! Man gönnt sich ja sonst nichts..." Mit diesen Worten schiebt er Dich ärgerlich zur Tür hinaus und schließt sie hinter sich. Von draußen kannst Du ihn noch undeutlich murmeln hören: "Diese jungen Narren! Haben nicht die geringste Ahnung, aber wollen immer mit dem Kopf durch die Wand! Was glaubt dieser Spinner wohl, wie er jemals einen Platz in der Highscoreliste ergattern könnte? Ich glaube, ich muß wirklich mal ein ernstes Wörtchen mit Chris und Kai reden: Schlimm genug, mich in solch ein schwachsinniges Spiel zu stecken, aber mir dann noch solche Weicheier vorbeizuschicken - das geht nun wirklich zu weit! Ich sollte mich wirklich beim Verband gegen Nichtspielercharakter-Quälerei beschweren..." 
+
+### 045
+
+Als Zargon Deine Anwesenheit bemerkt, dreht er sich langsam zu Dir um: Du glaubst Deinen Augen nicht trauen zu können, als Du in seinen Augen einen leichten Schimmer von Furcht erkennst! "Nun gut, Du hast Deine Aufgabe erfüllt - nun ist es an mir, zu tun, was getan werden muß...!", keucht er und zieht einen kleinen, silbernen Dolch unter seinem Cape hervor! 
+
+### 046
+
+Als er den Mantel des Butahkönigs um Deine Schultern bemerkt, fällt der alte Fährmann auf die Knie und fragt mit unterwürfiger Stimme: "Eure Majestät wünschen das Boot zu benutzen?" Gütig nickst Du, nimmst den Fuß, den Du instinktiv in den Nacken des Mannes gesetzt hattest, herunter und bedeutest ihm mit einer gnädigen Geste, sich wieder zu erheben. "Dann nehmt den Bootsschlüssel von Eurem ergebenen Diener entgegen und vergebt ihm den miserablen Zustand seiner Fähre: Es muß eine Zumutung fü Euch sein, Euren königlichen Fuß in sie hineinzusetzen, aber die Geschäfte gehen schlecht: Verzeiht mir!" Nachdem er Dir die Füße saubergeleckt hat, wendet sich der Fährenkapitän unter unzähligen Bücklingen wieder seiner Arbeit zu. Siehst Du: Kleider machen Leute! 
+
+### 047
+
+Die Ratten scheinen Deine Absicht, ihr Revier zu durchqueren, aber ganz und gar nicht gutzuheißen! Nichtsdestotrotz bist Du zum Abendessen herzlich willkommen - unglücklicherweise jedoch als Hauptgang... 
+
+### 048
+
+Oh nein! Als Du wieder die Küche betrittst, sind die Ratten bereits mit dem Tischgebet fertig und warten auf das Abendessen - und unglücklicherweise bist Du es, der sich auf ihrer Speisekarte befindet! Genaueres zu Deinem Ableben wollen wir Dir an dieser Stelle ersparen: Appetitlich ist es sicherlich nur für die Ratten gewesen! Wenn Du allerdings tatsächlich eine detailliertere Beschreibung Deines Todes lesen möchtest, dann bleib' beim nächsten Mal doch einfach etwas länger in der Küche, und warte ab, was geschieht! 
+
+### 049
+
+Du glaubst Deinen Augen nicht trauen zu können: Das Portaltor steht tatsächlich sperrangelweit offen! Unter dem Torbogen kannst Du den Geist König Richards schweben sehen, der Dir gütig und dankbar zuzulächeln scheint - und auch die Vögel zwitschern wieder von den Bäumen herab: Das ganze Land blüht wieder auf, zum ersten Mal seit langer, langer Zeit! Feierlich gehst Du auf Deinen neugewonnenen Freund zu und läßt die finsteren Burgmauern für immer hinter Dir - FREI... 
+
+### 050
+
+Es war ein ziemlich dummer Fehler, das Schloß in Werwolfsgestalt zu verlassen: Als Du nämlich gerade das Portaltor passierst, überglücklich, Zargons Fluch entronnen zu sein, fühlst Du plötzlich einen brennenden Schmerz im Rücken: Es war dieser bescheuerte, alte Eremit, der heute auf Wolfsjagd gegangen ist! Langsam und zitternd vor Schmerzen drehst Du den Kopf auf die Seite und ziehst einen Speer aus Deinem Rücken - einen Speer mit versilberter Spitze! Du spürst, wie Du langsam schwächer und schwächer wirst, und während Du über Deinen völlig sinnlosen und unnötigen Tod nachsinnst, wird plötzlich alles dunkel - für immer... 
+
+### 051
+
+Eine starke, dunkle Aura hält Dich immer noch im Schloß gefangen! Ich glaube, Du hast da noch etwas vergessen... 
+
+### 052
+
+Als er Deine Absicht bemerkt, seine Höhle zu durchqueren, fletscht der Cu-Sath zornig seine Zähne, doch dann...: Aber einen Moment mal! Was ist denn das? Es sieht so aus, als würde die Bestie Dein Parfüm mögen, da es dasselbe ist, das ihr Herrchen vor langer, langer Zeit einmal benutzt hat! Du traust Deinen Augen nicht, als das sonst so gefährliche Untier sanft zu schnurren beginnt und sich zärtlich an Deinen Körper schmiegt! Dann spürst Du etwas Merkwürdiges, Warmes Deine Waden herunterrinnen: Angeekelt schaust Du an Deinem Hosenbein herab, wo der Cu-Sath seine Duftnote hinterlassen hat, um Dir seine starke Zuneigung zu zeigen. Dann zuckst Du jedoch gleichgültig die Achseln: Immerhin ist es gesunder, mit Tierexkrementen besudelt zu sein als zu Tierexkrementen verarbeitet zu werden, oder? Gestärkt durch den tiefen philosophischen Sinn dieser Erkenntnis setzt Du also frohen Mutes Deinen Weg durch die Höhle fort... 
+
+### 053
+
+Als der Cu-Sath Deinen Versuch bemerkt, sein Revier zu durchqueren, erfüllt er routiniert seinen Job, nämlich die Halle im Westen zu bewachen! Naja: Es gibt echt nicht sehr viel über Dein plötzliches Ableben zu berichten: Kurz, aber schmerzvoll, gibst Du den Löffel ab! Dabei hätte es wirklich viel spektakulärere Todesmöglichkeiten in diesem Spiel gegeben! Naja: Wenn Du so weiterspielst, wirst Du auch sie sicherlich noch früh genug kennenlernen! 
+
+### 054
+
+Du stößt das kleine Boot vom Ufer ab und ruderst zu der kleinen Insel im Osten hinüber. 
+
+### 055
+
+Du stößt das Boot vom Steg ab und setzt wieder zum westlichen Ufer des unterirdischen Sees über. 
+
+### 056
+
+Tätärätäää! Und wieder eine Situation, in der unser Kandidat Dave Parker sich ein wenig zuviel Zeit nehmen zu können glaubte! Als Zargon Deinen verzweifelt suchenden Blick nach einer wirksamen Waffe gegen ihn und seine magischen Kräfte bemerkt, nimmt er seine Chance wahr und sticht Dich mit seinem kleinen, geweihten Silberdolch ab! Das letzte, was Du noch erkennen kannst, als Du zwischen seinen Beinen alle Viere von Dir streckst, ist die Sohle seines Stiefels, die sich langsam Deinem Gesicht nähert... 
+
+### 057
+
+Hast Du denn etwa überhaupt keinen Respekt mehr vor den Toten? Mal ganz abgesehen davon ist es auch gar nicht mehr nötig, den armen Abenteurer zu töten: Da kommst Du wohl ein wenig zu spät, würde ich sagen! 
+
+### 058
+
+Du versuchst, die Truhe unter Gewaltanwendung zu öffnen - doch im selben Moment, als Du ihr Schloß berührst, siehst Du einen grellweißen Blitz aus ihr herauszucken, der Dich auf der Stelle erschlägt! Du hattest keine Chance: "Die Spannung war auf dem Höhepunkt" - da war einfach nichts mehr zu machen! Aber sag' mal: Bist Du blind? Der verkokelte Leichnam des unglücklichen Abenteurers sollte Dich doch eigentlich gewarnt haben! Naja, vielleicht sind ZWEI verkohlte Leichen ja eher in der Lage, einem Blindfisch wie Dir beim nächsten Mal als abschreckendes Beispiel zu dienen... 
+
+### 059
+
+Mit einem letzten, hämischen Blick zerreißt Du den Vertrag, der Dich an Zargon und Mylgor gebunden hatte, in handliche, kleine Schnipsel und läßt sie zufrieden zu Boden rieseln - aber in dem Moment, als der erste Papierfetzen den Boden berührt, fühlst Du einen stechenden Schmerz in der Herzgegend, der langsam aber sicher Besitz von Deinem gesamten Körper ergreift! Als lebende Fackel stürzt Du mit einem letzten, fürchterlichen Schrei zu Boden, und während Deine Seele zur Hölle fährt, kannst Du mit ansehen, wie sich aus dem Rauch der letzten Flammen ein Totenschädel bildet: Nun bist Du endlich frei! Niemand wird jemals wieder in der Lage sein, Dich zu irgendetwas zu zwingen... 
+
+### 060
+
+Als Zargon bemerkt, wie Du Dich nach seinem Seelenkristall umblickst, versucht er vor Dir zu dem Podest zu gelangen - doch es ist bereits zu spät: Mit zwei, drei leichtfüßigen Schritten erreichst Du den Sockel, ergreifst das Juwel und stemmst es hoch über Deinen Kopf: Dumpf pulsiert der Stein in Deinen Händen, als wäre er von eigenem Leben erfüllt! Als er erkennen muß, daß Du nunmehr die Macht über ihn erlangt hast, verlegt Zargon sich aufs Bitten: Er fleht Dich verzeifelt an, ihn zu verschonen, er bietet Dir Mylgors Stelle als sein Statthalter in dem kleinen Dorf an - ja, er verspricht Dir sogar, Dich wieder in einen Menschen zurückzuverwandeln, wenn Du seinen Kristall unangetastet ließest: Er sagt, es gäbe irgendwo eine Quelle, deren Wasser Dich von Deiner Infektion mit dem Werwolfsblut heilen könnte... Einen kurzen Augenblick lang läßt Du das Geschehene noch einmal vor Deinem geistigen Auge Revue passieren und denkst darüber nach, was wohl mehr wiegt: Dein Schicksal - oder das der gepeinigten und geknechteten Dorfbewohner, und Du brauchst nicht allzu lange, um zu einer Entscheidung zu gelangen: Ohne Zargons Jammergewinsel weiter zu beachten, schmetterst Du den Seelenkristall mit aller Kraft zu Boden, wo er in tausend Splitter zerbirst, von denen jedoch immer noch jeder einzelne Zargons Portrait widerspiegelt! Im selben Moment jedoch, als der Kristall zerbricht, hörst Du Zargon hinter Dir hysterisch aufschreien! Zu Tode erschrocken, drehst Du Dich um - um Zargon im Todeskampf mit einer dichten, dunkelgrauen Wolke zu sehen, die wohl durch das Auseinanderbrechen des dunklen Juwels freigesetzt worden ist, in dem sie viele Jahrzehnte auf diesen einen Moment gewartet haben muß! Lediglich Zargons wild um sich schlagende Arme und Beine schauen noch aus dem schmutziggrauen Nebel heraus! Dann - plötzlich - ist der Spuk vorbei: Die Wolke verschwindet ebenso schnell, wie sie aufgetaucht ist, und mit ihr auch der böse Hexenmeister! Eine bedrückende Stille erfüllt den Raum, als Du Dich erschöpft an der Wand hinuntergleiten läßt: Alles, was von Zargon übriggeblieben ist, sind seine Krone und das Königszepter... 
+
+### 061
+
+Hastig rennst Du zu dem Seelenkristall hin, um ihn zu vernichten und damit Zargons gotteslästerliche Existenz endgültig zu beenden - aber als Du das weiße Kreidepentagramm zwischen Dir und dem Podest überquerst, fühlst Du Dich plötzlich so merkwürdig! So müde - und so schwindelig! Und als Du an Dir herabblickst, bemerkst Du, wie sich Dein Körper langsam entmaterialisiert, um an einen anderen Ort in Zargons Schloß teleportiert zu werden! Vielleicht erinnerst Du Dich ja an ein weiteres Pentagramm in diesem Gemäuer...? 
+
+### 062
+
+Vorsichtig, und ohne den Blick von Zargon abzuwenden, näherst Du Dich dem Kessel. Der alte Magier scheint sehr wohl zu wissen, was Du vorhast, und erhebt beschwörerisch die Hände, um zwei seiner teuflischen Vasallen in sein magisches Pentagramm zu rufen - doch bevor seine Hände in der Luft zusammentreffen, hast Du auch schon den schweren Kessel umgestoßen, so daß sich sein Inhalt dampfend über den Boden ergießt und dabei das Kreidepentagramm fast vollständig auslöscht! 
+
+### 063
+
+Können vor Lachen! Weißt Du eigentlich, wie schwer das Ding ist? Du wärest doch nicht einmal in der Lage, den Kessel auch nur einen Zentimeter von der Stelle zu bewegen! 
+
+### 064
+
+Nicht für eine Million würde ich sie anfassen! Solltest Du tatsächlich irgendwelchen nekrophilen Hobbies frönen wollen, dann tu das bitte in der Realität - aber nicht hier! 
+
+### 065
+
+Unglücklicherweise ist Dein Boot während Deiner Abwesenheit weggetrieben: Nun treibt es herrenlos in der Mitte des kleinen Sees, so daß es Dir wohl unmöglich sein dürfte, es von hier aus zu erreichen. Leider haben wir auch "vergessen", ein "Schwimm"-Gadget in SOUL CRYSTALs Benutzeroberfläche zu integrieren: Schließlich muß Dummheit ja auch irgendwie bestraft werden! Beim nächsten Mal vertauen wir unser Boot also einfach etwas sorgfältiger am Landesteg, ja? Immerhin haben wir das Ding ja nicht nur aus Spaß an der Freude eingebaut... 
+
+### 066
+
+Als Du das weiße Pentagramm betrittst, fühlst Du Dich plötzlich so merkwürdig duselig: Alles um Dich herum beginnt sich zu drehen - und plötzlich wird Dir schwarz vor Augen! Du stirbst... Nein! Entschuldigung: Du stirbst natürlich nicht! NOCH nicht! Du scheinst lediglich teleportiert zu werden, denn als Du wieder aus Deinem traumlosen Schlaf erwachst, hat sich Deine Umgebung vollkommen verändert... 
+
+### 067
+
+Diesen unglücklichen Abenteurer hat's voll erwischt: Sein ganzer Körper ist total verkohlt - also solltest Du bei der Lösung Deiner Aufgabe besser nicht auf seine Hilfe zählen! Er hält immer noch sein verbogenes Schwert in etwas, das vor langer, langer Zeit wohl einmal eine Hand gewesen sein könnte... In seiner linken Hand hält der tote Abenteurer einen verknitterten Zettel! 
+
+### 068
+
+Es enthält ein kleines, vergilbtes Papierzettelchen! 
+
+### 069
+
+Ein kleines, aus Nappaleder gefertigtes Säckchen, das mit einer Schnur zugezogen und als Brustbeutel getragen werden kann. 
+
+### 070
+
+Du klopfst vorsichtig gegen das Holz: Dumpf hallt Dein Schlag von innen zurück! Also, allzu voll scheint das Faß wohl auch nicht mehr zu sein... 
+
+### 071
+
+Als Du ein wenig in Zargons Bettzeug herumstöberst, findest Du einen kleinen Lederbeutel! 
+
+### 072
+
+Das Wasser schimmert geheimnisvoll... 
+
+### 073
+
+Dies ist die kleine Fähre, die der Bootskapitän benutzt, um seine Fahrgäste zu der Insel auf dem unterirdischen See überzusetzen. 
+
+### 074
+
+Auf dem Bootsschlüssel ist - wie nicht anders zu erwarten - ein kleines "B" eingraviert! Keine Sorge: Bei unserem nächsten Spiel werden wir uns extra jemanden suchen, der sich halbwegs intelligente Beschreibungen speziell für Schlüssel ausdenkt! 
+
+### 075
+
+Das scheinen ja wirklich verdammt alte Schwarten zu sein: Auf jedem Buch liegt eine gut zentimeterdicke Staubschicht! 
+
+### 076
+
+Ganz einfach eine kleine Scheibe frischen Weißbrotes. 
+
+### 077
+
+Mit gierigem Blick schaust Du auf die dünne Brotscheibe, die Du vorhin mit dem Rattengift aus dem Kloster präpariert hast: Ein tödlicher Sandwich, wirklich! 
+
+### 078
+
+Eine schwere Truhe, die rein äußerlich nicht viel hermacht - wenn man von dem kleinen und höchst wertvoll gearbeiteten Schloß davor absieht, einem Schloß, das irgendwie ganz und gar nicht zu der Truhe paßt! Andererseits dürfte solch ein kleines Ding jedoch eventuelle "Knackarbeiten" erheblich vereinfachen... 
+
+### 079
+
+Die Kombination lautet: "1A9C9A2": Aufschlußreich, nicht wahr? Naja, nur ein kleiner Scherz: Das ist natürlich kein Code, wie Du vielleicht erwartet hattest, sondern der vollständige Hexdump dieses Programmes! 
+
+### 080
+
+Vorsichtig hebst Du einen der Särge an: Ziemlich schwer, das Ding! Du fragst Dich, wieviel er wohl ohne seinen Inhalt wöge...! 
+
+### 081
+
+Sofort erkennst Du den Vertrag wieder, den Du an dem Abend Deiner Ankunft in dieser Welt unterschrieben hast. Deine Unterschrift ist mit dunkelrotem Blut unter die fremden Schriftzeichen geschmiert worden, deren Sinn zu deuten Du immer noch nicht in der Lage bist... 
+
+### 082
+
+Dir gefriert beinahe das Blut in den Adern, als Du in die nahezu vollständig verwesten Gesichter blickst: Alles, was Du aus ihnen herauslesen kannst, ist Angst und unbeschreibliches Grauen... Nachdem Du Dich zitternd wieder von den toten Tafelgästen abgewandt hast, schaust Du Dich nochmals um: überall im Saal liegen verrenkte Leichen, einzelne Körperteile und andere Dinge, deren Bedeutung und Herkunft Du lieber erst gar nicht wissen möchtest! In der Tat: Es scheint sich also ganz genau so abgespielt zu haben, wie König Richard es Dir beschrieben hatte: Zargons Männer waren in das Schloß eingedrungen und hatten wahllos alles niedergemetzelt, was sich ihnen entgegenzustellen wagte - sogar Frauen und Kinder! Nun bemerkst Du auch langsam, wie Dir der penetrante Gestank der vermodernden Leichname in die Nase steigt - der süßliche Geruch verwesenden Fleisches... 
+
+### 083
+
+Die schwere und prunkvolle Krone Zargons ist von überwältigender Schönheit - doch als Du sie berührst, fühlst Du, wie eine unheimliche, dunkle Macht von Dir Besitz zu ergreifen versucht! 
+
+### 084
+
+Zargons Seelenkristall ist ein fremdartiges Juwel von phänomenaler Größe. Gebettet auf ein schwarzes Samtkissen, glüht der Stein in einem mystischen, kalten Feuer, das ihn ein geradezu überirdisches Licht ausstrahlen läßt. Als Du ihn Dir genauer ansehen willst, mußt Du mit Mühe einen erschrockenen Aufschrei unterdrücken: Der Kristall spiegelt nicht Dein - sondern Zargons Gesicht wider...! 
+
+### 085
+
+Der Cu-Sath hat eine Schulterhöhe von ungefähr einem Meter und ist circa drei Meter lang. Geschmeidig und anmutig bewegt er sich durch seine Höhle und knurrt von Zeit zu Zeit gereizt zu Dir herüber. Es sieht nicht so aus, als hättest Du in einem normalen Kampf eine Chance, diese Bestie zu besiegen... 
+
+### 086
+
+Der Vorhang an der Wand besteht aus teurem, rotem, jedoch schon ziemlich verschlissenen Samt. 
+
+### 087
+
+Der Schacht ist viel zu dunkel, als daß Du seine Tiefe von hier oben aus auch nur annähernd ausloten könntest - aber wir könnten natürlich versuchen, in die Dunkelheit hinabzuklettern, wenn Du darauf bestehst... 
+
+### 088
+
+Auf dem Tisch des Turmwächters befinden sich, mehr oder minder ordentlich aufgereiht, einige Bücher und Zeitschriften, mit denen er sich in Friedenszeiten die Langeweile vertrieben hat: So kannst Du zum Beispiel zwölf Ausgaben des PLAYBOY-Magazins, Ausgabe Januar bis Dezember 712, entdecken (Mann! Einer der besten Jahrgänge überhaupt!), die Bestseller "Sagt der AMSTRAD leise Servus" und "How to blow up my ATARI", und schließlich ein paar seiner Tagebücher... 
+
+### 089
+
+Du hast in Deinem ganzen Leben noch nicht einmal ein Möbelstück gesehen, das gleichzeitig sowohl den Wohlstand als auch den guten Geschmack seines Besitzers besser auszudrücken vermochte als dieser große Schreibtisch aus kostbarem, schwarzen Marmor! 
+
+### 090
+
+Du betrachtest das kleine, wurmzerfressene Tagebuch, das wohl vor Urzeiten einmal in Leder eingebunden gewesen sein muß. Auf seinem Deckel steht in großen Lettern die Zahl 713. 
+
+### 091
+
+Du beginnst das zerfledderte Tagebuch des Turmwächters zu lesen: Es beschreibt die Belagerung des Schlosses von ihren frühesten Anfängen bis zu ihrem bitteren Ende: Der umsichtige Turmwächter hatte die Auseinandersetzungen und Machtkämpfe zwischen seinem Herrn und Zargon schon längst bemerkt, bevor König Richard auch nur an einen Umsturz zu denken gewagt hätte - doch auch der Verfasser dieser Zeilen hätte niemals so etwas erwartet wie das, was erst noch kommen sollte! Richards Geist hat offenbar wirklich nichts beschönigt: Als sein Körper schon kalt und verkrümmt auf dem Boden von Zargons Gemach lag, ließ Zargon alle ehemaligen Gefolgsleute des gestürzten Herrschers wie Vieh im Burghof zusammentreiben, wo er sie vor die Wahl stellte, entweder ihm zu dienen, oder ihrem König in den Tod zu folgen - und an dieser Stelle enden die Aufzeichnungen plötzlich... Du fühlst kalte, nach Rache und Vergeltung schreiende Wut, aber gleichzeitig auch verzweifelte Hilflosigkeit in Dir aufsteigen, als Du das kleine, ledergebundene Buch wieder zuschlägst, um nur nicht weiter auf sein abruptes Ende starren zu müssen... Im selben Moment, als eine dichte, graue Staubwolke aus den vergilbten Seiten aufsteigt, hörst Du draußen einen Blitz in den Hauptturm einschlagen, der den Raum für Bruchteile von Sekunden in sein gespenstisches, fahles Licht taucht und das Gebäude bis in die Grundmauern erschüttert - so, als wollte eine gigantische, eherne Faust diese Brutstätte des Bösen ein für alle Male auslöschen! So ähnlich muß es sich wohl auch in der verhängnisvollen Nacht zugetragen haben, in der der brave Turmwächter seinem Herrn zum allerletzten Mal die Treue hielt... 
+
+### 092
+
+Das Geschirr ist mit kleinen, zusammengeschrumpelten Portionen vergammelter Essensreste gefüllt. 
+
+### 093
+
+Direkt über dem Schlüsselloch kannst Du eine kleine, goldene Türklinke erkennen. 
+
+### 094
+
+Merkwürdig: Es scheint fast so, als wäre diese Türklinke an ihrer Unterseite viel stärker abgegriffen als an ihrer oberen... 
+
+### 095
+
+Der Fährkapitän scheint zwar ein ziemlich rauhbauziger, nichtsdestotrotz aber irgendwie auch liebenswerter, alter Seebär zu sein. 
+
+### 096
+
+Dies muß das magische Purpurfeuer sein, aus dem Zargon angeblich seine magischen Kräfte bezieht! Als Du Dich der Schale näherst, mußt Du jedoch zu Deiner Überraschung feststellen, daß das lodernde Feuer überhaupt keine Hitze - sondern im Gegenteil sogar eisige Kälte ausstrahlt... 
+
+### 097
+
+Also, Du mußt wirklich verdammt hungrig sein! Die Speisereste sind derartig vergammelt und verstaubt, daß selbst der abgerissenste Penner sich vor Ekel schütteln würde, wenn man sie ihm anböte! 
+
+### 098
+
+In Zargons Himmelbett findest Du lediglich seinen rotgepunkteten Pyjama und schwarzseidene Bettwäsche - oder was hattest Du erwartet? Allerdings: Leute, die ihren nächtlichen Aktivitäten auf seidenen Laken nachgehen, sind tatsächlich ein wenig suspekt, da hast Du zweifelsohne recht... 
+
+### 099
+
+Die meisten der Kräuter sind Dir zwar völlig unbekannt, aber zumindest kannst Du Ginseng, Knoblauch, Gift der Nacht und andere Kräuter erkennen, die nicht nur zum Verfeinern feiner Speisen, sondern gewöhnlich auch als Zutaten für magische Tränke verwendet werden... 
+
+### 100
+
+Au, Mann! Laß' das jetzt bitte nicht zum Dauerzustand werden! Du hast doch wohl hoffentlich nicht vor, mir den letzten Nerv zu töten, indem Du mich nach allem möglichen Stuß fragst, den diese hirnverbrannten Programmierer hier eingebaut haben, oder? Das ist ein ganz stinknormaler, eiserner Schlüssel, wie sein Name Dir eigentlich schon verraten haben sollte! Bisher hoffte ich allerdings davon ausgehen zu können, daß Du lesen könntest - und nicht einfach nur wahllos in der Gegend herumklickst! 
+
+### 101
+
+Der Rauch, der aus Zargons Kessel aufsteigt, formt die unmöglichsten Monster- und Dämonenfratzen: Zargons teuflische Verbündete! 
+
+### 102
+
+An diesen hölzernen Landesteg wurden früher die Boote getaut, damit sie während des Aufenthalts auf der Insel nicht auf den See hinaustreiben könnten. 
+
+### 103
+
+Diese massige Gittertür ist wie gschaffen, um Gefangenen wirklich jede Hoffnung auf Flucht zu nehmen! Hmmm...: Ob das wohl so eine Art böses Omen darstellen soll? 
+
+### 104
+
+Es ist ein Brief von Mylgor an seinen Herrn Zargon! Du liest: "Eure Boshaftigkeit! Gestern habe ich einen neuen "Freiwilligen" gefunden, der Euren Erzfeind Firon beseitigen könnte. Ich hoffe, zumindest er wird es endlich schaffen, ihn zu vernichten, ohne vorher seinem dümmlichen Gerede Beachtung zu schenken, wie es seine Vorgänger getan haben. Sollte Dave, so der Name des Jünglings, den ich ausgesandt habe, seine Aufgabe zufriedenstellend erfüllt haben, werde ich ihn selbstverständlich zu Euch schicken, damit Ihr Euch in Euren so gut bestückten Folterkammern mit ihm vergnügen könnt... Zusammen mit diesem Schreiben übersende ich Euch den Vertrag, in dem Dave uns seine Seele verpfändet hat - verfahret damit, wie es Euch beliebt. Lebt wohl, Mylord, Euer ergebener Diener Mylgor." Oha: Nun wird Dir einiges klarer! Aber trotzdem bleibt die Sache noch immer mächtig mysteriös, denn in dem Umschlag kann ich den Vertrag zumindest nicht finden! 
+
+### 105
+
+Die alte Karte zeigt den Raumplan des ersten Untergeschosses der Burg. Obwohl Du die Schriftzeichen, die die verschiedenen Örtlichkeiten betiteln, nicht entziffern kannst, kannst Du doch zumindest noch das kleine "(C)opyright 1989/90/91/92 by AVANTGARDISTIC ARTS & STARBYTE" am rechten Rand des brüchigen Pergaments lesen. 
+
+### 106
+
+Wie in Trance blickst Du zu dem bleichen, vollen Mond auf - bis Du durch ein merkwürdiges Geräusch von dem Berg im Norden her aus Deinen Gedanken gerissen wirst: Es ist dasselbe Geräusch, das Du damals schon einmal auf dem verwilderten Friedhof des alten, verfallenen Klosters wahrgenommen hast - nur: Dieses Mal verspürst Du keine Angst mehr - nein, im Gegenteil: Das Geräusch scheint Dir sogar auf ganz seltsame Weise vertraut zu sein, scheint Dich zu rufen, zu locken...? Urplötzlich fühlst Du einen brennenden Schmerz in Deiner Brust, so als wollte eine dunkle Macht von innen heraus von Deinem Körper Besitz ergreifen! Vor Schmerz wie von Sinnen, willst Du Dir das Hemd vom Körper reißen - und erstarrst: Deine Brust ist über und über bedeckt mit struppigem, schwarzen Haar, genau wie Deine Arme - und nach weiteren qualvollen Sekunden Dein ganzer Körper! Du versuchst zu schreien, doch Du erkennst Deine eigene Stimme nicht wieder: Statt eines menschlichen Schmerzensschreies entringt sich Deiner Kehle - WOLFSGEHEUL...! Fieberhaft versuchst Du, Deine Panik herunterzukämpfen und einen klaren Gedanken zu fassen: Offenbar war die Wunde, die Dir der Werwolf während Eures mitternächtlichen Duells auf dem verwahrlosten Klosterfriedhofes geschlagen hat, doch nicht ganz so harmlos, wie Du anfangs in Deiner Naivität angenommen hattest! Du könntest Dich ohrfeigen vor Wut, aber es hilft nichts... In der Hoffnung, daß König Richard schon einen Weg finden wird, Dich zu heilen, wenn Du diesem verfluchten Gemäuer erst einmal entkommen bist, beschließt Du, weitere Gedanken über Deine behaarte Zukunft fürs erste zu vertagen... 
+
+### 107
+
+Dich fröstelt leicht, als Du den bleichen Vollmond am Himmel erblickst... 
+
+### 108
+
+Die Mumien sind allesamt in dicke, weiße Bandagen eingewickelt: Es würde wohl Monate dauern, sie auszupacken - mal ganz davon abgesehen, daß Du sowieso niemanden der Toten wiedererkennen dürftest... 
+
+### 109
+
+Die Zeilen auf dem zerknitterten Zettel lauten: "Hüte Dich vor dem mächtigen Hexenmeister! Sein Pentagramm ist seine letzte Chance - und seine Diener schlafen niemals...!" 
+
+### 110
+
+Alle Gemälde stellen annähernd dasselbe dar: Einen älteren Mann, der in das traditionelle, purpurne Cape der Magiergilde gehüllt ist, dessen Kapuze sein Gesicht fast vollständig verdeckt: Das einzige, was Du noch unter ihr ausmachen kannst, sind zwei gefährlich glühende Augen, die gnadenlos jedem Deiner Schritte zu folgen scheinen... Auf dem Stirnteil der Kapuze kannst Du ein eingesticktes, goldenes Pentagramm erkennen, das Zargon als Mitglied des Siebten Zirkels ausweist, als Erzmagier, für den nichts, aber auch rein gar nichts unmöglich ist: Die Mitgliedschaft in dieser Magiergilde ist immerhin eine höchst ehrenvolle Auszeichnung, die bisher nur den sieben mächtigsten der Mächtigen zuteil geworden ist - unter ihnen zum Beispiel auch König Richard und sein Bruder Firon. Als Du die Bilder jedoch gerade etwas genauer in Augenschein nehmen willst, ertönt schallendes Gelächter von den Wänden herab: Alle der abgebildeten Magier scheinen Dich zu verhöhnen! Nur ein Trick? Oder steckt Zargon vielleicht tatsächlich hinter einem dieser Bilder, um sich noch eine Weile zu amüsieren, bevor er Dich endlich in Dein Verderben treibt...? 
+
+### 111
+
+Auf dem Papier steht etwas geschrieben, das für Dich keinen Sinn ergibt: Nur wild durcheinandergewürfelte Zahlen und Buchstaben - oder ein Code...? 
+
+### 112
+
+Ein weißer Drudenfuß aus Kreide, der mit pedantischer Sorgfalt auf den Boden gezeichnet worden ist. Sein Durchmesser mißt ungefähr fünf Meter. 
+
+### 113
+
+Auf dem Etikett des Parfümfacons steht in geschwungenen Buchstaben: "Honc Schwartenfranz de Paris - For Winners": Muß ja 'n grelles Zeug sein! Neugierig öffnest Du das Fläschchen und schnupperst: Uaaah! Das stinkt ja wirklich fürchterlich! Vielleicht würde die Mutter des kleinen Orkkindes es ja mögen, aber ich... ich... Ich glaub', ich... ich - muß - ko...! 
+
+### 114
+
+Sieht genauso aus wie von der anderen Seite auch... 
+
+### 115
+
+Die Ratten sind ziemlich fett und häßlich. Obwohl ihr Leibesumfang eindeutig darauf hinweist, daß sie regelmäßig gefüttert werden, scheinen sie doch schon wieder Appetit zu haben, denn sie schnuppern bereits neugierig an Dir herum... 
+
+### 116
+
+Ein kleiner Tresor aus Stahl, dessen Schloß sieben Stellen darstellt. 
+
+### 117
+
+Oho: Im oberen Fach des Tresors findest Du etwas, das dem Vertrag, den Du dereinst mit Mylgor abgeschlossen hast, gar nicht mal so unähnlich sieht! 
+
+### 118
+
+Auf der Spitze des Szepters thront ein goldener Königsadler, die Flügel stolz zum Abflug ausgebreitet. Das untere Ende sieht allerdings höchst seltsam aus - als ob es nicht nur als Haltegriff dienen sollte... 
+
+### 119
+
+Das Gekritzel an der Wand lautet: "Des Königs Macht den Weg Dir schafft!", "For a good time gimme a call: 32168!", "Don't push it - PULL it!", "Paul, halt's Maul!", "Chris, wir lieben Dich!", und "Die Macht, die mir nicht ganz geheuer, bezieht er aus dem Purpurfeuer!" Den Rest der Mitteilungen kannst Du leider nicht mehr entziffern, jedoch ist anzunehmen, daß ihr Niveau auch nicht viel höher liegt als das des Schwachsinns, den Du gerade lesen mußtest. 
+
+### 120
+
+Die Vorratsregale sind leer - eigentlich doch nur logisch, oder? 
+
+### 121
+
+In den Bücherregalen stehen viele, alte Schwarten über Okkultismus. Der Geruch der trockenen Ledereinbände und des vergilbten Papiers dringt Dir unangenehm in die Nase, als Du eines der Bücher in die Hand nimmst und den Staub von seinem Umschlag bläst: Kaum hast Du jedoch die uralten Schriftzeichen auf der Vorderseite bemerkt, stellst Du das Buch auch schon wieder entmutigt an seinen Platz im Regal zurück: Das kann ja kein Schwein lesen! 
+
+### 122
+
+Das Warnschild stellt einen rot durchgestrichenen Hundekopf dar - fast so wie ein Verbotschild: Irgendwie scheint das Wasser wohl nicht so ganz den bayerischen Reinheitsgesetzen für Vierbeiner-Drinks zu entsprechen... 
+
+### 123
+
+Als Du Deine Blicke über die bleichen Knochen des Skelettes schweifen läßt, mußt Du feststellen, daß nicht ein einziger Fleischfetzen mehr an ihnen hängt! Voller Ekel betrachtest Du den weit aufklaffenden Spalt in seiner Schädeldecke, der offenbar die Ursache für sein vorzeitiges Ableben war: "Wahrscheinlich war es besser für ihn, hier zu sterben als in Zargons Folterkammern.", denkst Du Dir mit einem schaudernden Blick durch die Gittertür hindurch... Aber was ist denn das? Die knochigen Finger des Gerippes zeigen auf ein paar Schmierereien auf der Wand, als ob sie Dir noch einen letzten Hinweis geben wollten...? 
+
+### 124
+
+Na, komm schon: Es wird wahrscheinlich gleich regnen - und Du willst den Himmel betrachten? Alter Romantiker! Außer dem Vollmond, der Dich von dort oben herab zu beobachten scheint, kannst Du doch sowieso nicht allzuviel erkennen... 
+
+### 125
+
+Neben dem Slot kannst Du ein kleines Schild mit der Aufschrift "Tor" erkennen! Mensch: Das kleine Ding scheint das einzige zu sein, was uns noch hier im Schloß zurückhält! Allerdings habe ich überhaupt keine Ahnung, wie wir den Öffnungsmechanismus aktivieren könnten: Sieht nämlich gar nicht so aus, als wäre der Schlitz für Schlüssel (oder Schwerter - nur um Dir vorzugreifen!) bestimmt... 
+
+### 126
+
+Aus der Quelle sprudelt munter eine merkwürdige, bläulich leuchtende Flüssigkeit heraus. 
+
+### 127
+
+Die Statue stellt einen schwerbewaffneten, erfahrenen, alten Krieger dar, der sich auf seinen riesigen Zweihänder stützt. 
+
+### 128
+
+Ziemlich massiv! Ich wage sehr zu bezweifeln, ob gerade Du sie aufbrechen könntest! 
+
+### 129
+
+Auf den Tafeltischen liegt eine dichte Staubschicht, fast so dick wie ein Finger... Wie zum Beispiel der Finger des Kadavers, der in sich zusammengesackt auf dem Stuhl neben Dir sitzt! "Iiiiih!": Mit einem hysterischen Aufschrei springst Du zurück - und landest prompt in den vergammelten Armen einer weiteren Leiche, weit ausgestreckt, um Dich zu halten - oder zu fassen? Zitternd wendest Du langsam den Kopf herum - und mußt einen weiteren Schrei unterdrücken: Diese Leute - wer auch immer sie gewesen sein mögen - sind keine Untoten, wie Du vielleicht nach alledem, was Du auf Deiner langen Reise hast erleben und mitansehen müssen, erwartet hattest! Im Gegenteil: Dies müssen die ehemaligen Burgbewohner sein - oder zumindest waren sie das, bevor Zargon und seine Meute hier hineinstürmten und alles ohne Gnade niedermachten... 
+
+### 130
+
+Dies ist der Königsmantel des Herrschers über die Butahzwerge: ein ziemlich schweres, reich verziertes Ding. 
+
+### 131
+
+Dies ist der Schlüssel, den der Dungeon-Master Kay vor langer Zeit benutzt hat, um alle Türen des Schlosses öffnen zu können - aber das ist wirklich schon lange, lange Zeit her: In der Zwischenzeit sind die meisten Schlösser in Zargons Feste natürlich gegen neue - und massivere - ausgetauscht worden. Dennoch: Es gibt immer noch ein Schloß in diesem Gemäuer, in das dieser Schlüssel hineinpaßt - und es ist vielleicht näher, als Du denkst... 
+
+### 132
+
+Etwas Weihwasser, das Zargon bei seinen Götzendiensten verwendet, um die A.C.A-Götter gnädig zu stimmen. Merkwürdig: Dieses "heilige" Wasser duftet viel eher nach Barcadi-Cola als nach dem Wasser, das Du aus Deiner Kirche von zuhause gewöhnt bist (MANN! Das IST Barcadi-Cola - aber nicht weitersagen, Hicks!)... Ich frage mich lediglich, welche tiefere Bedeutung es wohl für einen Schurken wie Zargon haben könnte... 
+
+### 133
+
+Ich glaube, Du solltest besser keinen Gedanken daran verschwenden, ob Du die alten, schartigen Waffen mitnehmen solltest: Sie sind entweder bereits zerbrochen, zu hoch für Dich an den Wänden aufgehängt oder derartig verrostet, daß sie wahrscheinlich schon beim nächsten Waffengang den Weg alles Irdischen gehen werden... 
+
+### 134
+
+Obwohl Zargon schon ein etwas älterer Hexenmeister ist, läßt Dich seine ehrfurchtgebietende Haltung erschauern. Aus dem goldenen Pentagramm, das in die Kapuze seines kostbaren, purpurnen Capes eingestickt ist, kannst Du ersehen, daß er Mitglied im Siebten Zirkel der Magiergilde ist - also unterschätze seine Macht nicht! 
+
+### 135
+
+Nix da, mein Freund! Wohl noch nie was vom Briefgeheimnis gehört, wie? 
+
+### 136
+
+Nö! Einerseits sind sie viel zu schwer, und auf der anderen Seite tragen sie nicht das Geringste zur Lösung dieses Abenteuers bei - ehrlich! 
+
+### 137
+
+"Nimm", "Nimm", "Nimm"! Hey, Du: Geben soll angeblich seliger sein denn nehmen! Außerdem: Könntest Du mir freundlicherweise mal erklären, wie Du Wasser ohne den passenden Behälter mitnehmen willst? 
+
+### 138
+
+Will ich aber nicht! Schau' Dir diese Krücken doch mal genau an: In einem echten Gefecht würden sie Dich wohl elend im Stich lassen! Dein gutes, altes Schwert würde Dir garantiert bessere Dienste leisten... 
+
+### 139
+
+Tja, da kommst Du wohl ein paar Jährchen zu spät. Begrab' ihn, wenn Du Deine Aufgabe erfüllt hast: Sein rastloser Geist würde es Dir sicherlich zu danken wissen... 
+
+### 140
+
+Du willst doch nicht im Ernst Selbstmord begehen, oder? 
+
+### 141
+
+Der Fährmann hat trotz seines hohen Alters eigentlich noch nicht vor, sich aufs Altenteil zurückzuziehen, und lehnt daher Dein Angebot, ihm zu helfen, höflich ab. 
+
+### 142
+
+Laß' sie lieber in Ruhe! Grelles Licht könnte ihren süßen Schlummer stören - und wer weiß schon, wie so eine Morgenmuffel-Mumie auf Störenfriede wie Dich reagiert...? 
+
+### 143
+
+Bete für ihn, wenn Du das nächste mal wieder an einem Altar vorbeikommst: Vielleicht werden die Götter von A.C.A ihm dann ja ein Extraleben schenken! 
+
+### 144
+
+Also, irgendwie hast Du wohl den Sinn des Spieles immer noch nicht so ganz verstanden! Ziemlich enttäuschend, denn wir hatten uns doch wirklich solche Mühe gegeben, uns eine geradezu klischeetriefende Story aus den Fingern zu saugen, damit auch geistige Tiefflieger wie Du mit dem Programm zurechtkämen! Also nochmal: Der Sinn des Spieles besteht darin, Zargon zu vernichten - nicht, ihm zu helfen! Du verstehst? NICHT helfen! Sprich mir nach...: "Niiicht heeelfen!" Schön, und jetzt weiter! 
+
+### 145
+
+Du versuchst, die Bücherregale zur Seite zu rücken, wie Du es in jedem anderen Adventure auch getan hättest - und wie in jedem anderen Adventure hast Du damit Erfolg: Leise drehen sich die Regale auf kleinen Plattformen herum, die Du im Halbdunkel nicht richtig erkennen konntest! Du brauchst Dir wegen dieses Einfalls aber noch lange nicht auf die Schulter zu klopfen, denn was sollte man wohl anderes mit Regalen anstellen, als sie von Wand zu Wand zu bewegen? Naja, andererseits: Es soll ja sogar Leute geben, die etwas in sie hineinstellen! Tja, wem's Spaß macht...? 
+
+### 146
+
+Du schiebst den Wandvorhang beiseite und erkennst hinter ihm einen engen, finsteren Tunnel, der irgendwohin tief ins Dunkel hineinführt... 
+
+### 147
+
+Also, was bist Du doch für ein schlaues Kerlchen! Wenn alles in diesem Spiel so einfach wäre, hättest Du es doch wahrscheinlich schon längst in den Papierkorb geworfen (...oder gelöscht, wenn dies eine Raubkopie sein sollte! GRMPF!), oder? Naja, und von daher: "Tut mir leid, aber das kannst Du nicht machen!" Gemein, wie? 
+
+### 148
+
+Als Du die Statue berührst, fühlst Du, wie Dich eine geheimnisvolle Kraft durchströmt: Schützend reißt Du die Hände vor Dein Gesicht, als Du von einem grellweißen Licht geblendet wirst - und als Du sie wieder herunternimmst, mußt Du zu Deinem großen Erstaunen feststellen, daß sich Deine Umgebung völlig verändert hat... 
+
+### 149
+
+Naja, nach dieser Menge schwachsinnigen Texts, den Du schon über Dich hast ergehen lassen, ist es nur verständlich, wenn Du Deinen Frust über soviel herausgeschmissenes Geld (...oder etwa doch Kopie?) im Wein ersäufen willst: "Hauptsach' Alk!", sagst Du Dir achselzuckend, als Du daran denkst, daß der Inhalt der Fässer mittlerweile wohl doch schon reichlich faulig schmecken dürfte, und öffnest entschlossen das mittlere Faß, in der Erwartung, sofort mit dem edlen Gesöff übergossen zu werden. Aber zu Deiner Überraschung ist das Faß völlig leer! Ein Tunnel scheint durch die ausgeteerten Wände zu führen, irgendwohin in unheimliches Dunkel hinein... 
+
+### 150
+
+Du nimmst eines der Bücher aus dem Regal heraus und versuchst, darin zu lesen - doch leider mußt Du enttäuscht feststellen, daß es in einer uralten, Dir völlig unverständlichen Sprache verfaßt ist... 
+
+### 151
+
+Als Du das alte Tagebuch des Turmwächters öffnest, steigt eine dichte Staubwolke aus seinen zerfledderten, vergilbten Seiten, die Dir fast den Atem raubt - zumindest bekommst Du erst einmal einen Hustenanfall: Die Strafe für Deine Neugier? 
+
+### 152
+
+Ich weiß gar nicht, was Du hast: Du bräuchtest doch eigentlich bloß die Türklinke zu betätigen... 
+
+### 153
+
+Du versuchst die kleine Truhe zu öffnen, doch leider widersteht der komplizierte Mechanismus des zierlichen Schlosses beharrlich Deinen Knackkünsten... 
+
+### 154
+
+Nicht schlecht! Hast Du die Schriftzüge aus der Gefängniszelle richtig gedeutet oder nur aus alten Fehlern gelernt? Leise schwingt die Tür auf und gibt den Weg in Zargons geheime Gemächer frei... 
+
+### 155
+
+Als Du die Türklinke hinunterdrückst, hörst Du ein leises Klicken unter Deinen Füßen - und bevor Du noch Zeit findest, zurückzuspringen, öffnet sich eine verborgene Falltür unter Dir! Im letzten Moment ergreifst Du den Rand der Fallgrube und versuchst, Dich wieder nach oben zu ziehen: "Hätte ich doch nicht so oft den Sportunterricht geschwänzt!", denkst Du Dir verzweifelt, als Dir nach mehreren vergeblichen und kraftraubenden Versuchen klarwird, daß Du Dich niemals ohne fremde Hilfe aus dieser mißlichen Lage befreien können wirst. Als Du panikerfüllt auf den Boden der Grube blickst, erkennst Du voller Grausen tief unter Dir lange Eisenspitzen, an denen Reste geronnenen Blutes kleben! Instinktiv willst Du nach Hilfe rufen, doch kaum hast Du den Mund geöffnet, wird Dir auch schon klar, daß Deine Schreie lediglich reine Kraft- und Zeitverschwendung wären, da die einzige Person, die Dich hier unten hören und finden könnte, Zargon persönlich wäre - und Du weißt genau, daß er kein Mitleid mit Dir hätte! Nachdem Du Dir also die Aussichtslosigkeit Deiner Situation nochmals vor Augen geführt hast, sprichst Du noch ein letztes Gebet und läßt dann den Rand der Grube los... Tja, ein Mann muß eben wissen, wann es für ihn Zeit ist zu gehen: Leider fällst Du länger als erwartet und stößt Dir dabei unzählige Male den Kopf an den harten, kantigen Felswänden, ohne jedoch wirklich das Bewußtsein zu verlieren - dann ist es plötzlich zu Ende: Aufgespießt auf die spitzen Lanzen, erschüttert Dein wilder Todesschrei das ganze Schloß, einzig und allein übertönt von Zargons hämischem Hohngelächter... 
+
+### 156
+
+Glaubst Du ernsthaft, daß er noch in der Lage wäre, Dir zu antworten? 
+
+### 157
+
+Ziemlich blöde Idee - mit einem TIER zu sprechen! Du hörst wohl auch das Gras wachsen und wie die Vögel Dir von den Bäumen herunter Gutenachtgeschichten erzählen, oder was? 
+
+### 158
+
+Der alte Fährmann blickt kurz von seiner Pfeife auf, grüßt Dich mit einem beiläufigen Nicken und sagt, daß Dich eine Überfahrt mit seiner Fähre fünf harte Dollars kosten würde: Dafür, daß Du immerhin seine Welt retten sollst, eine ziemlich unverschämte Einstellung... 
+
+### 159
+
+Dafür ist es jetzt aber nun wirklich nicht der rechte Zeitpunkt: Zargon ist definitiv nicht Dein Freund, und Du solltest besser alle Dir noch zur Verfügung stehende Zeit darauf verwenden, Dir etwas auszudenken, womit Du ihn schlagen könntest, statt Maulaffen feilzuhalten! 
+
+### 160
+
+Du läßt etwas von dem bläulichen Wasser in Deine schalenförmig gehaltenen Handflächen laufen und nippst vorsichtig daran: Schon nach wenigen Schlückchen fühlst Du, wie Dich eine Woge von Fröhlichkeit und neuer Kraft durchströmt, die Dich einerseits beruhigt und andererseits gleichzeitig auf gar wundersame Weise zu erfrischen scheint. Und als Du zufällig an Deinem Körper herunterblickst, bemerkst Du, daß Du Dich wieder in einen Menschen zurückverwandelt hast - was allerdings auch bedeutet, daß Du Deine übernatürlichen Kräfte einbüßt... 
+
+### 161
+
+Du trinkst einen Schluck des bläulichen Wassers, empfindest jedoch nichts weiter als ein angenehmes Gefühl der Erfrischung - obwohl auch das schon eine ganze Menge wert ist, da Du das Spiel noch nicht vollständig gelöst hast und alle Dir zur Verfügung stehenden Kräfte mobilisieren müssen wirst! Allerdings könnte gerade das jetzt zum Problem werden... 
+
+### 162
+
+Mjamjam... Boah, is' mir schlääächt! 
+
+### 163
+
+Hastig würgst Du Dir die Weißbrotscheibe 'rein, ohne in Deiner perversen Freßgier daran zu denken, daß Du sie doch selbst noch vor wenigen Minuten vergiftet hast - aber als Du es gezwungenermaßen bemerkst, ist es bereits zu spät (Ob wir wohl eine Floskeltaste mit dieser Phrase belegen sollten...?): Zum letzten Mal in Deinem jungen Leben fühlst Du, wie Du krank wirst - nein, entschuldige: nicht, wie Du krank wirst, sondern daß Dein letztes Stündlein geschlagen hat (allerdings auch kein sehr viel angenehmeres Gefühl...)! Mit einem letzten, erstickten Würgen krümmst Du Dich auf dem Boden zusammen, bis Du Dein Leben wie eine Ratte aushauchst - denn immerhin war es schließlich Rattengift, das für Dein vorzeitiges Ableben verantwortlich gewesen ist! Nächstes Mal solltest Du die Hinweise auf der Packung wohl doch etwas genauer studieren: "Von Kindern fernhalten!" 
+
+### 164
+
+Du stellst die Kombination ein und drehst an dem schweren, eisernen Rad - schon im Stillen darauf vorbereitet, wieder mit einer dieser miesen Fallen Zargons konfrontiert zu werden, aber nichts dergleichen passiert: Mit einem leisen "Klick!" schieben sich die Zylinder des Schlosses zurück in ihre Ausgangsposition! Herzlichen und so - aber wo zum Geier hast Du das eigentlich gelernt...? 
+
+### 165
+
+Du wirfst den Vertrag in Zargons magisches Purpurfeuer und beobachtest mit selbstzufriedenem Lächeln, wie das Papier erst bräunlich wird, sich dann kräuselt und schließlich den Flammen zum Opfer fällt, woraufhin es sich knisternd in schwarzen Rauch auflöst... 
+
+### 166
+
+"Was Napoliton... äh: Dingsbums konnte, kann ich schon lange!", denkst Du Dir und setzt Dir Zargons Krone auf den Kopf, um Dich zum neuen Herrscher des Reiches zu krönen. Doch was Du leider nicht wußtest war, daß diese Krone ihren Träger zu einem grausamen Diener des Bösen macht! Nun hast Du also auch gleich einen Pakt mit den Höllenmächten geschlossen, die zuvor Zargons Willen und Seele kontrolliert und sich schon ernsthafte Sorgen um seine Nachfolge gemacht hatten...: Im selben Moment, als Du die Krone auf Dein edles Haupt setzt, umklammert sie Deinen Schädel wie ein Schraubstock! Wild schreiend vor Schmerz versuchst Du, das teuflische Kleinod wieder vom Kopf herunterzureißen - aber es geht einfach nicht mehr! Im Gegenteil: Sie wird enger und enger, und mit jeder Sekunde, die verstreicht, wirst Du mehr und mehr zu einem Diener des Satans! Als der Schmerz langsam abklingt und Du nur noch das dumpfe, monotone Pulsieren Deines kalten Blutes im Kopf spürst, drehst Du Dich langsam und mit einem grausamen Lächeln auf den Lippen um - und siehst mit großer Zufriedenheit dabei zu, wie die Splitter des Kristalls, den Du gerade erst zerstört hattest, wieder über dem Boden schweben und sich zu einem neuen Seelenkristall zusammensetzen - einem Seelenkristall, der DEIN Bild darstellt... 
+
+### 167
+
+Du probierst einen Happen der Speisen, spuckst sie jedoch keine Sekunde später schon wieder angewidert aus: Das Zeug schmeckt einfach scheußlich! Naja, was hattest denn Du erwartet - nach so langer Zeit? Du mußt schwer schlucken, als Du ein paar kleine, weiße Würmer und fette, schmutziggraue Maden aus demselben Stück Brot kriechen siehst, das Du eben noch im Mund hattest - doch als Du dann zu allem Überfluß auch noch eine angebissene, noch im Todeskrampf zuckende Madenhälfte aus dem Brotlaib, von dem Du gerade abgebissen hattest, herausschauen siehst, ist es mit Deiner Beherrschung endgültig vorbei! Würgend übergibst Du Dich, so daß sich nun auf dem Boden die Überreste Deiner Mahlzeiten ausbreiten, in denen sich immer noch etwas - BEWEGT...? 
+
+### 168
+
+Okay, ich habe zwar leider kein Recht, Deine Anweisungen zu verweigern, aber um mal ganz ehrlich zu sein: Ich an Deiner Stelle hätte das wirklich nicht getan, denn dieses "Parfüm" stinkt wirklich zum Gotterbarmen! Vergiß bloß nicht, ein ausgiebiges Bad - nein: besser zwei! - zu nehmen, solltest Du jemals wieder lebendig das Dorf betreten! Die Mädels würden sonst glatt die Flucht ergreifen, wenn sie diesen "Honc Schwartenfranz de Paris"-Duft röchen! Schnüffel... Ähem: Nimm DREI Bäder!!! 
+
+### 169
+
+Sorgsam liest Du das Kleingedruckte unter der Gebrauchsanweisung auf der Rückseite der Verpackung, in der sich das Rattengift befindet: "Der Bundesgesundheitsminister:..." Na also: Mit hämischer Vorfreude öffnest Du die Packung und streust gleich eine doppelte, "todsichere", Dosis des Giftes auf die arme, unschuldige Weißbrotscheibe: Sie stirbt sofort - und ohne zu wissen, wofür! Das war Käse, Mann! Was sollen wir denn mit einer Weißbrotleiche anfangen, häh? 
+
+### 170
+
+Du schiebst Zargons Szepter in den Slot - und es scheint tatsächlich zu passen! Mit einem laut vernehmbaren Klicken rastet der Griff ein, und als Du das Szepter wie einen Hebel hin- und herbewegst, hörst Du plötzlich ein scharrendes Geräusch von oben zu Dir hinunterschallen: DAS PORTALTOR!!! 
+
+### 171
+
+Du hast Dich schon immer gerne mit fremden Federn geschmückt, nicht wahr? Stolz hängst Du Dir den purpurnen Mantel des Butahkönigs um die Schultern. 
+
+### 172
+
+Mit der hohlen Hand schöpfst Du ein wenig von dem Weihwasser aus dem Becken und sprenkelst es feierlich in die purpurnen Flammen hinein: Mit einem diabolischen Zischen verlöschen sie, und zusammen mit ihnen auch Zargons dunkle Macht! Im selben Augenblick, als das Purpurfeuer verlischt, erschüttert ein lauter Donnerschlag das ganze Schloß bis tief in die Grundmauern, so als versuchte eine eherne Gigantenfaust diese Brutstätte des Bösen zu vernichten! 
+
+### 173
+
+Also, wenn Du wirklich glaubst, Du könntest Dich einfach so vor Deiner Aufgabe drücken, indem Du das geweihte Wasser in Dich hineinschlabberst, dann bist aber völlig falsch informiert! Du brauchst nämlich ebenfalls eine, möglichst versilberte, Waffe! Und erwarte jetzt bloß nicht von mir, daß ich mein eigenes Schwert gegen mich wende! 
+
+### 174
+
+Ja, sag' mal: Hast Du eigentlich auch noch andere Gedanken? Ich kann Dir wirklich aus eigener Erfahrung versichern, daß es sehr viel mehr Spaß macht, mit einem knackigen, jungen Orkmädel in die Kiste zu hüpfen als mit einer harten und kalten Statue! Wenn sie wenigstens aus Gum... - aber lassen wir dieses! Außerdem: Du bist immerhin schon siebzehn! Das ist doch wohl wirklich alt genug, um Dir eine nette Freundin zu suchen, statt Deine physischen Bedürfnisse mit Hilfe einer männlichen (!!!) Statue zu befriedigen...! 
+
+### 175
+
+Mit der Kette, die Du im Boot findest, machst Du es gewissenhaft am Landesteg fest, um sicherzustellen, daß es während Deiner Abwesenheit nicht davontreibt. 
+
+### 176
+
+"Da: Haut 'rein!", rufst Du den Ratten aufmunternd zu und wirfst ihnen die dünne Weißbrotscheibe hin: Gierig fallen sie darüber her und verschlingen sie binnen weniger Sekunden! Wie selbstlos von Dir, ihnen Dein letztes bißchen Brot zu geben - nur leider bleiben die sehnsüchtig erwarteten Sterntaler aus, so weit Du Dein Hemdchen auch aufhältst! Aber was ist denn das? Alle Ratten beginnen auf einmal im Raum hin- und herzutorkeln, als hätten sie einen leichten Schwips! Du hast sie vergiftet! Du hast sie heimtückisch vergiftet, umgebracht, gekillt! Mörder! MASSENMÖRDER! Glotz' nicht so unschuldig in den Monitor: Du wußtest ganz genau, das die Brotscheibe vergiftet war! Seelenruhig und ohne die geringsten Gewissensbisse siehst Du mit eiskalter Zufriedenheit zu, wie die Ratten, eine nach der anderen, umkippen und alle Viere von sich strecken... Nachdem auch das letzte Opfer Deiner Vernichtungsaktion in die ewigen Jagdgründe abgesegelt ist, kannst Du den Raum nun endlich ungehindert durchqueren, wenn Du möchtest. 
+
+### 177
+
+Oh, da haben wir mal wieder einen echten Tierfreund vor dem Computer sitzen, was? Voller Mitleid mit den armen, hungrigen Viechern teilst Du Dein letztes bißchen Brot mit ihnen. Doch nachdem Ihr Euer dürftiges Mahl beendet habt, schauen die Ratten immer noch aus hungrigen Knopfäuglein zu Dir auf! Offenbar hast Du ihnen mit dem Brot erst richtig Appetit gemacht - und nun warten sie auf das FLEISCHGERICHT! 
+
+### 178
+
+Mit dem Bootsschlüssel schließt Du die Kette auf, mit der das Boot festgemacht ist. 
+
+### 179
+
+Tja, äh... Ich weiß gar nicht, wie ich es Dir beibringen soll, ohne Dir schon wieder auf die Nerven zu gehen, aber... Naja, ähem: Wir müßten noch ein letzes Mal Deine Zugriffsberechtigung für dieses Spiel überprüfen. Tut mir ja wirklich fürchterlich leid, aber dies scheint der einzige Weg zu sein, die Anzahl der Schwarzkopien in halbwegs erträglichen (?) Grenzen zu halten und damit sicherzustellen, daß unsere Programmierer das Geld bekommen, das sie sich mit ihrer Arbeit auch wirklich sauer verdient haben. Also bitte: Noch ein einziges Mal - diesmal allerdings aus dem Tagebuch des Turmwächters ("Variatio delectat!")... 
+
+### 180
+
+Wow! Das ist ja kaum zu glauben: Du hast tatsächlich ein Original! Ein echtes Original! DU warst das also! Dank! Dank sei Dir, großer Meister! Du hast uns mit Deiner Spende so reich gemacht, daß wir gar nicht wissen, wohin mit der ganzen Kohle! Die eine Hälfte haben wir also erst einmal auf unser Nummernkonto in der Schweiz eingezahlt, damit wir später mal von den Zinsen leben können, und von der anderen - ähem: ...haben wir uns zu viert 'ne Familienpizza bestellt...! Trotzdem: Du hast eine gute Tat an ein paar "armen Schülern" vollbracht - laß' uns zum Dank Deine Tasten küssen! So, und nun lasset uns nach all der schleimigen Süßholzraspelei mal sehen, wie die Geschichte weitergeht... 
+
+### 181
+
+Aaargh! Ich hatte es zwar bereits vermutet - aber DAS ist jetzt wirklich zu viel für einen einfachen Parser! Warum hast Du das getan? Ich meine: Wenn Du tatsächlich so viel Zeit geopfert hast, um bis zu diesem Punkt des Spieles zu gelangen, was ja gleichzeitig auch bedeutet, daß es Dir irgendwie gefallen haben muß - warum zum Teufel hast Du es Dir dann nicht gekauft? Glaubst Du denn allen Ernstes, daß wir in der Lage wären, noch einmal ein derart gigantisches Programm zu produzieren, wenn Du uns einfach um unser Geld bringst, das wir uns weiß Gott hart genug und unter größten Entbehrungen erarbeitet haben? Meinst Du denn, wir hätten noch Lust, weitere Programme dieser Art zu produzieren, wenn so ein Typ wie Du einfach hingeht und die Arbeit von vielen Jahren so einfach mir nichts, Dir nichts, kaputtmacht? Denk' doch einfach mal über die Konsequenzen Deines Handelns nach: Wir wollen weiß Gott keine Riesenvillen bewohnen und uns einen Porsche nach dem anderen kaufen können (Mein Penthouse in Paris und der Firmenbentley reichen mir schon - man ist ja bescheiden!), aber wenn wir nicht einmal mehr genug Geld mit diesem Job verdienen, um unseren normalen Lebensunterhalt davon bestreiten zu können, dann werden wir uns bald wohl oder übel nach einem anderen umschauen müssen! Es liegt allein bei Dir und Deinen Freunden, wie lange es noch gute Software geben wird - und nicht zuletzt schadet Ihr Euch ja schließlich auch selbst durch Eure blöde Kopiererei! Also: Bitte kaufe Dir das Originalprogramm, wenn Du möchtest, daß auch noch andere A.C.A-Produktionen erscheinen können... 
+
+### 182
+
+Selbst wenn Du den Code vergessen könntest: Willst Du Dir diese Chance wirklich entgehen lassen? Wir haben das Ding schließlich nicht umsonst ins Spiel eingebaut, weißt Du? 
+
+### 183
+
+Du ziehst den Vorhang wieder zu und verschließt damit die Öffnung, die Dich zurück in den Weinkeller führt. 
+
+### 184
+
+Leise schwingt die Bücherwand wieder in ihre Ausgangsstellung zurück... 
+
+### 185
+
+Du schiebst die Bücherregale in ihre Ausgangsposition zurück und schließt somit den Zugang zu Zargons Geheimkammern wieder... 
+
+## Room titles
 
 ### 000
 

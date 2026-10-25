@@ -19,6 +19,8 @@ func cp437ToUTF8(c byte) string {
 		return "ü"
 	case 0x84:
 		return "ä"
+	case 0x8E:
+		return "Ä"
 	case 0x94:
 		return "ö"
 	case 0x99:
@@ -48,14 +50,20 @@ type huffEntry struct {
 	value byte
 }
 
+// Each TXTL/BODY/HUFL triple is a separate text block sharing the HUTB tree.
+// PART archives contain game texts first and room titles second.
+type textBlock struct {
+	body []byte
+	txtl []uint16
+	hufl []uint16
+}
+
 // archive holds all parsed chunks from one text file.
 type archive struct {
 	topName string
 	formID  string
 	hutb    []huffEntry
-	body    []byte
-	txtl    []uint16
-	hufl    []uint16
+	blocks  []textBlock
 	room    []uint16
 	verbs   []string
 	huhd    []byte
@@ -80,6 +88,9 @@ func parseArchive(data []byte) (*archive, error) {
 		return nil, err
 	}
 	a.topName = top.NameStr()
+	if a.topName != "FORM" || uint64(top.Size)+8 != uint64(len(data)) {
+		return nil, fmt.Errorf("invalid FORM header or file size")
+	}
 
 	// Fixed 4-byte form identifier.
 	if pos+4 > len(data) {
@@ -92,7 +103,7 @@ func parseArchive(data []byte) (*archive, error) {
 	for pos < len(data) {
 		c, next, err := readChunk(data, pos)
 		if err != nil {
-			break
+			return nil, err
 		}
 		pos = next
 		realSize := int(c.Size)
@@ -100,8 +111,8 @@ func parseArchive(data []byte) (*archive, error) {
 		if padded&1 != 0 {
 			padded++
 		}
-		if pos+padded > len(data) {
-			break
+		if padded > len(data)-pos {
+			return nil, fmt.Errorf("truncated %s chunk at 0x%x", c.NameStr(), pos)
 		}
 		payload := data[pos : pos+realSize]
 
@@ -112,15 +123,32 @@ func parseArchive(data []byte) (*archive, error) {
 			for i := 0; i+1 < len(payload); i += 2 {
 				a.hutb = append(a.hutb, huffEntry{bit: payload[i], value: payload[i+1]})
 			}
-		case "BODY":
-			a.body = append([]byte{}, payload...)
 		case "TXTL":
-			for i := 0; i+1 < len(payload); i += 2 {
-				a.txtl = append(a.txtl, binary.BigEndian.Uint16(payload[i:i+2]))
+			if len(payload)%2 != 0 {
+				return nil, fmt.Errorf("odd TXTL length")
 			}
-		case "HUFL":
-			for i := 0; i+1 < len(payload); i += 2 {
-				a.hufl = append(a.hufl, binary.BigEndian.Uint16(payload[i:i+2]))
+			a.blocks = append(a.blocks, textBlock{})
+			block := &a.blocks[len(a.blocks)-1]
+			for i := 0; i < len(payload); i += 2 {
+				block.txtl = append(block.txtl, binary.BigEndian.Uint16(payload[i:i+2]))
+			}
+		case "BODY", "HUFL":
+			if len(a.blocks) == 0 {
+				return nil, fmt.Errorf("%s without TXTL", c.NameStr())
+			}
+			block := &a.blocks[len(a.blocks)-1]
+			if c.NameStr() == "BODY" {
+				if block.body != nil {
+					return nil, fmt.Errorf("duplicate BODY in text block")
+				}
+				block.body = append([]byte{}, payload...)
+			} else {
+				if block.hufl != nil || len(payload)%2 != 0 {
+					return nil, fmt.Errorf("invalid HUFL")
+				}
+				for i := 0; i < len(payload); i += 2 {
+					block.hufl = append(block.hufl, binary.BigEndian.Uint16(payload[i:i+2]))
+				}
 			}
 		case "ROOM":
 			for i := 0; i+1 < len(payload); i += 2 {
@@ -139,74 +167,84 @@ func parseArchive(data []byte) (*archive, error) {
 		pos += padded
 	}
 
+	if a.formID == "HUFF" {
+		if len(a.huhd) != 6 || len(a.hutb) != 2*int(binary.BigEndian.Uint16(a.huhd[:2])) {
+			return nil, fmt.Errorf("invalid HUHD/HUTB")
+		}
+		counts := []int{int(binary.BigEndian.Uint16(a.huhd[2:4]))}
+		if rooms := int(binary.BigEndian.Uint16(a.huhd[4:6])); rooms > 0 {
+			counts = append(counts, rooms)
+		}
+		if len(a.blocks) != len(counts) {
+			return nil, fmt.Errorf("got %d text blocks, expected %d", len(a.blocks), len(counts))
+		}
+		for i, block := range a.blocks {
+			if len(block.txtl) != counts[i] || len(block.hufl) != counts[i] || block.body == nil {
+				return nil, fmt.Errorf("incomplete text block %d", i)
+			}
+		}
+	} else if a.formID != "TEXT" {
+		return nil, fmt.Errorf("unsupported form %q", a.formID)
+	}
 	return a, nil
 }
 
-// decodeChar reads one Huffman-coded character from the bit stream.
-func decodeChar(hutb []huffEntry, body []byte, bytePos *int, bitPos *int) byte {
+// decodeChar consumes every bit, including the final leaf bit, and never
+// reads past this record's compressed boundary.
+func decodeChar(hutb []huffEntry, body []byte, bitPos *int, end int) (byte, error) {
 	half := len(hutb) / 2
-	pos := half - 1
-
-	for {
-		bit := (body[*bytePos] >> *bitPos) & 1
-
-		lo := hutb[pos]
-		hi := hutb[half+pos]
-
-		if bit == 0 && lo.bit == 0 {
-			return lo.value
+	node := half - 1
+	for depth := 0; depth <= len(hutb); depth++ {
+		if node < 0 || node >= half {
+			return 0, fmt.Errorf("invalid Huffman node %d", node)
 		}
-		if bit == 1 && hi.bit == 0 {
-			return hi.value
+		if *bitPos >= end*8 {
+			return 0, fmt.Errorf("truncated Huffman record")
 		}
-
-		if bit == 0 {
-			pos = int(lo.value)
-		} else {
-			pos = int(hi.value)
+		bit := (body[*bitPos/8] >> uint(7-*bitPos%8)) & 1
+		*bitPos++
+		entry := hutb[node+int(bit)*half]
+		if entry.bit == 0 {
+			return entry.value, nil
 		}
-
-		*bitPos--
-		if *bitPos < 0 {
-			*bytePos++
-			*bitPos = 7
-		}
+		node = int(entry.value)
 	}
+	return 0, fmt.Errorf("cyclic Huffman tree")
 }
 
-// decodeBody decodes all Huffman-compressed strings from the BODY chunk.
-func decodeBody(a *archive) []string {
-	if len(a.hutb) == 0 || len(a.body) == 0 {
-		return nil
-	}
-
-	var result []string
-	var cur strings.Builder
-	bytePos := 0
-	bitPos := 7
-
-	for bytePos < len(a.body) {
-		ch := decodeChar(a.hutb, a.body, &bytePos, &bitPos)
-		if ch == 0 {
-			result = append(result, cur.String())
-			cur.Reset()
-			// Byte-align before next string.
-			bitPos = 0
-		} else {
-			cur.WriteString(cp437ToUTF8(ch))
+// Decode indexed records, not a scan of the entire padded BODY. HUFL offsets
+// are relative to their own BODY; TXTL counts original bytes including NUL.
+func decodeBody(a *archive, block textBlock) ([]string, error) {
+	result := make([]string, len(block.txtl))
+	for i, length := range block.txtl {
+		start, end := int(block.hufl[i]), len(block.body)
+		if i+1 < len(block.hufl) {
+			end = int(block.hufl[i+1])
 		}
-
-		bitPos--
-		if bitPos < 0 {
-			bytePos++
-			bitPos = 7
+		if length == 0 || start >= end || end > len(block.body) {
+			return nil, fmt.Errorf("invalid record %d offset/length", i)
 		}
+		bits := start * 8
+		var text strings.Builder
+		for n := 0; n < int(length); n++ {
+			c, err := decodeChar(a.hutb, block.body, &bits, end)
+			if err != nil {
+				return nil, fmt.Errorf("record %d: %w", i, err)
+			}
+			if n == int(length)-1 {
+				if c != 0 {
+					return nil, fmt.Errorf("record %d exceeds TXTL length %d", i, length)
+				}
+			} else {
+				if c == 0 {
+					return nil, fmt.Errorf("record %d terminates before TXTL length %d", i, length)
+				}
+				text.WriteString(cp437ToUTF8(c))
+			}
+		}
+		result[i] = text.String()
 	}
-	if cur.Len() > 0 {
-		result = append(result, cur.String())
-	}
-
-	return result
+	return result, nil
 }
 
 // decodeObjects reads the XOR-encoded object name table.
@@ -265,13 +303,13 @@ func main() {
 		data, err := os.ReadFile(filepath.Join(dataDir, name))
 		if err != nil {
 			fmt.Fprintf(os.Stderr, "%s: %v\n", name, err)
-			continue
+			os.Exit(1)
 		}
 
 		a, err := parseArchive(data)
 		if err != nil {
 			fmt.Fprintf(os.Stderr, "%s: %v\n", name, err)
-			continue
+			os.Exit(1)
 		}
 
 		base := strings.TrimSuffix(name, filepath.Ext(name))
@@ -295,18 +333,32 @@ func main() {
 			out.WriteByte('\n')
 		}
 
-		texts := decodeBody(a)
-		if len(texts) > 0 {
-			out.WriteString("## Texts\n\n")
-			for i, s := range texts {
-				fmt.Fprintf(&out, "### %03d\n\n%s\n\n", i, s)
+		textCount := 0
+		for blockIndex, block := range a.blocks {
+			texts, err := decodeBody(a, block)
+			if err != nil {
+				fmt.Fprintf(os.Stderr, "%s block %d: %v\n", name, blockIndex, err)
+				os.Exit(1)
 			}
+			heading := "Texts"
+			if len(a.blocks) > 1 {
+				if blockIndex == 0 {
+					heading = "Game texts"
+				} else {
+					heading = "Room titles"
+				}
+			}
+			fmt.Fprintf(&out, "## %s\n\n", heading)
+			for i, text := range texts {
+				fmt.Fprintf(&out, "### %03d\n\n%s\n\n", i, text)
+			}
+			textCount += len(texts)
 		}
 
 		outPath := filepath.Join(outDir, base+".txt")
 		if err := os.WriteFile(outPath, []byte(out.String()), 0o644); err != nil {
 			panic(err)
 		}
-		fmt.Printf("%s: %d texts, %d verbs, %d rooms\n", outPath, len(texts), len(a.verbs), len(a.room))
+		fmt.Printf("%s: %d texts, %d verbs, %d rooms\n", outPath, textCount, len(a.verbs), len(a.room))
 	}
 }

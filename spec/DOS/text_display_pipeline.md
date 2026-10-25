@@ -234,6 +234,11 @@ The HUHD chunk header (6 bytes, 3 big-endian uint16) stores:
 | +02    | primary_count   | Number of texts in primary sub-archive    |
 | +04    | room_count      | Number of texts in room sub-archive (0 if none) |
 
+The Go exporter (`src/Go/dos`) preserves both TXTL/BODY/HUFL triples and
+exports them as separate `Game texts` and `Room titles` sections. It validates
+each decoded byte count including NUL against TXTL, and the block counts
+against HUHD. Earlier exports incorrectly retained only the last BODY.
+
 ### 9.3 Text counts per file
 
 | File         | Primary texts | Room texts | Total | Notes                      |
