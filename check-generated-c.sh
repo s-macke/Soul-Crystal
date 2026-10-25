@@ -11,4 +11,5 @@ for part in a b c d; do
 done
 clang -std=c11 -pedantic-errors -I. -c out/game_tables.c -o "$c_check_dir/game_tables.o"
 clang -std=c11 -pedantic-errors -I. -c out/game_state.c -o "$c_check_dir/game_state.o"
+clang -std=c11 -pedantic-errors -I. -c out/game_texts.c -o "$c_check_dir/game_texts.o"
 printf 'All four generated game parts compile as C11 (without linking).\n'

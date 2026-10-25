@@ -151,6 +151,9 @@ func exportCatalogs() error {
 	if err := writeJSON("texts/C64/text_ids.json", mapping); err != nil {
 		return err
 	}
+	if err := cTextFiles("out", mapping, catalogs); err != nil {
+		return err
+	}
 	return commentsHeader("src/C/text_comments.generated.h", mapping, catalogs)
 }
 

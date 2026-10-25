@@ -1,7 +1,10 @@
 # C64-Texte für die direkte Go-Portierung
 
-Die JSON-Dateien sind die Textquelle für die Go-Portierung. Der Textexport erzeugt
-aus denselben dekodierten Daten zusätzlich `src/C/text_comments.generated.h`.
+Die JSON-Dateien dokumentieren die Texte und ihre Zuordnung für die Go-Portierung.
+Der Textexport erzeugt aus denselben dekodierten Originaldaten außerdem
+`out/game_texts.c` und `out/game_texts.h` für die C-Laufzeit sowie
+`src/C/text_comments.generated.h` für die Konverter-Kommentare.
+Das C-Spiel liest keine JSON-Dateien; alle 1.486 Archivtexte werden einkompiliert.
 Der C++-Konverter verwendet diesen festen Header: Zum Bauen und Ausführen sind
 weder Go noch JSON-Dateien erforderlich. Die alten Textarrays in `src/C/tables.h`
 sind für seine Kommentare nicht mehr maßgeblich. Die logischen IDs in
@@ -46,10 +49,30 @@ bash build.sh
 GO111MODULE=off go test -v ./src/Go/text
 ```
 
-Ohne Ausgabeparameter schreibt der Konverter nach `out/`. Die temporäre Ausgabe
-ist für Vergleiche sinnvoll, weil die vorhandene `out/parta.c` zusätzliche
-Nullbytes am Ende einer Datentabelle enthält, die hier erhalten wurden.
+Ohne Ausgabeparameter schreibt der Konverter nach `out/`. Die Textdateien
+`game_texts.c/.h` erzeugt separat der Go-Textexport, direkt aus den Diskimages.
 
 [converter_audit.json](converter_audit.json) protokolliert den Vergleich der
 vorherigen Kommentare mit dem neuen Mapping; die Auswertung steht im
 [Konverter-Audit](../../spec/C64/converter_audit.md).
+
+## C-Zugriff ohne Laufzeitdateien
+
+- `GameTextRecord(part, record)` liefert einen UTF-8-Archivtext; ungültige
+  Spielteile oder Datensatznummern liefern `NULL`.
+- `GameTextRecordCount(part)` nennt die Anzahl der Datensätze.
+- `GameTextLookup(part, id)` übersetzt die logische Meldungs-ID. Das Ergebnis
+  unterscheidet `TextLiteral`, `TextNone`, `TextUnavailable` und
+  `TextEngineFormatted`. Nur `TextLiteral` enthält einen Textzeiger.
+
+Die Spielteile sind 1 bis 4. Es gibt keinen Rückgriff auf Texte anderer Teile.
+Die dynamischen IDs 1, 2, 8 und 12 benötigen weiterhin Engine-Code. Der
+Raumtitelpfad verwendet eigene Datensatznummern und ist nicht Teil des gewöhnlichen
+Meldungs-Lookups. Die C-Fassung verwendet die lesbare `text`-Darstellung mit
+vereinheitlichten Leerzeichen; die originalen Bildschirmzeilen bleiben im JSON.
+Im Programm eingebettete UI-Texte sind damit noch nicht vollständig extrahiert.
+
+`TestCompiledCTexts` kompiliert und linkt die C-Textdatei mit einem Testprogramm.
+Es vergleicht sämtliche tatsächlich ausgegebenen Strings und alle 2.548
+Kombinationen aus Spielteil und Meldungs-ID gegen die erneut dekodierten Diskdaten
+und das geprüfte Routing. Ungültige Zugriffe werden ebenfalls geprüft.

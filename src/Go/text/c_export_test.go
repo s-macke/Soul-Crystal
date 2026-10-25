@@ -1,0 +1,79 @@
+package main
+
+import (
+	"bytes"
+	"os"
+	"os/exec"
+	"path/filepath"
+	"strconv"
+	"strings"
+	"testing"
+)
+
+func TestCompiledCTexts(t *testing.T) {
+	root, err := filepath.Abs("../../..")
+	if err != nil {
+		t.Fatal(err)
+	}
+	dir := t.TempDir()
+	// Dump actual linked C strings, including all ordinary routed messages.
+	harness := `#include "game_texts.h"
+#include <stdio.h>
+static void emit(const char *s) { if(s) fputs(s,stdout); putchar(0); }
+int main(void) {
+ for(unsigned p=1;p<=4;p++) {
+  for(unsigned r=0;r<GameTextRecordCount(p);r++) emit(GameTextRecord(p,r));
+  for(unsigned id=0;id<=636;id++) { GameText t=GameTextLookup(p,id); printf("%d:",t.kind); emit(t.text); }
+ }
+ if(GameTextRecord(0,0)||GameTextRecord(5,0)||GameTextRecord(1,312)) return 1;
+ if(GameTextLookup(0,1).kind!=TextUnavailable||GameTextLookup(5,1).kind!=TextUnavailable||GameTextLookup(1,637).kind!=TextUnavailable) return 2;
+ return 0;
+}`
+	source := filepath.Join(dir, "test.c")
+	if err := os.WriteFile(source, []byte(harness), 0600); err != nil {
+		t.Fatal(err)
+	}
+	exe := filepath.Join(dir, "test")
+	cmd := exec.Command("clang", "-std=c11", "-pedantic-errors", "-I"+root, "-I"+filepath.Join(root, "out"), source, filepath.Join(root, "out/game_texts.c"), "-o", exe)
+	if b, err := cmd.CombinedOutput(); err != nil {
+		t.Fatalf("compile: %v\n%s", err, b)
+	}
+	got, err := exec.Command(exe).Output()
+	if err != nil {
+		t.Fatal(err)
+	}
+	var want bytes.Buffer
+	for side, disk := range knownRanges {
+		raw, err := os.ReadFile(filepath.Join(root, disk.path))
+		if err != nil {
+			t.Fatal(err)
+		}
+		records := make([]string, disk.lastIdx+1)
+		for i := range records {
+			lines, err := decodeScreen(raw, i)
+			if err != nil {
+				t.Fatal(err)
+			}
+			records[i] = strings.Join(strings.Fields(strings.Join(lines, "\n")), " ")
+			want.WriteString(records[i])
+			want.WriteByte(0)
+		}
+		tail := int(raw[0x2fa]) + 256*int(raw[0x2fb])
+		for id := 0; id <= 636; id++ {
+			kind, text := 0, ""
+			if id == 0 {
+				kind = 1
+			} else if id == 1 || id == 2 || id == 8 || id == 12 {
+				kind = 3
+			} else if r, ok := route(id, side+1, tail); ok {
+				kind = 2
+				text = records[r]
+			}
+			want.WriteString(strconv.Itoa(kind) + ":" + text)
+			want.WriteByte(0)
+		}
+	}
+	if !bytes.Equal(got, want.Bytes()) {
+		t.Fatal("compiled C text or routing differs from original disks")
+	}
+}
