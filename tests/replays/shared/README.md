@@ -15,6 +15,14 @@ verkürzten Anläufe der Todesfälle; sie sind nicht beliebig austauschbar.
 Zerstörung von Kessel und Kristall und spielt danach den restlichen Gewinnweg.
 Die jeweils erwartete Punktzahl wird weiterhin im aufrufenden Replay geprüft.
 
+`controls.inc` prüft die allgemeinen Bedienbefehle und bricht alle modalen
+Abfragen ab. Es setzt einen laufenden, sicheren Spielabschnitt und zunächst
+ausgeschaltete Musik voraus. `equipment_failures.inc` prüft allgemeine
+Fehlversuche und Kleidung: warme Kleidung muss getragen werden, die Pfeife
+muss im Inventar sein; der Aufrufort darf keinen Ausgang nach oben und keinen
+aktiven zeitkritischen Gegner haben. Die aufrufenden Replays prüfen anschließend
+Teil und Raum. Diese Bausteine werden derzeit in B und D verwendet.
+
 Erkundungs- und Schnelllauf bleiben absichtlich ohne Includes lesbar.
 `./check-replay.sh` prüft alle vollständigen Replays, einschließlich der
 eingebundenen Befehle und Assertions. `./check-replay-texts.sh` verwendet

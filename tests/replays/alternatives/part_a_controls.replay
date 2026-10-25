@@ -1,0 +1,59 @@
+# Reachable Part A controls and invalid directions, using normal input only.
+# Confirmations are cancelled so this remains a continuous game, not a reset fixture.
+@part 1
+@room 3
+> inventar
+@text Inventar:
+@text Jeans
+> ausgaenge
+@text Ausgänge:
+@text West
+> schau
+@text Du stehst auf der Straße
+@room 3
+> punkte
+@text Bis jetzt hast Du 0 Punkte in 3 Schritten erreicht.
+> musikein
+@text Okay, die Musik ist wieder eingeschaltet.
+> musikein
+@text Gut, die Musik wird ausgeschaltet.
+> neustart
+@mode restart
+@text Möchtest Du das Spiel wirklich von vorn beginnen
+> nein
+@mode ready
+@room 3
+> spielende
+@mode quit
+@text Willst Du das Spiel wirklich schon beenden
+> nein
+@mode ready
+@room 3
+> loesung
+@mode solution
+@text N = Neustart, E = Ende
+> abbrechen
+@mode ready
+@room 3
+> nord
+@text Aber dorthin kannst Du doch gar nicht gehen!
+@room 3
+> hinauf
+@text Aber dorthin kannst Du doch gar nicht gehen!
+@room 3
+> hinunter
+@text Aber dorthin kannst Du doch gar nicht gehen!
+@room 3
+> betritt hotel
+@room 2
+> west
+@text Aber dorthin kannst Du doch gar nicht gehen!
+@room 2
+> nord
+@room 6
+> ost
+@text Aber dorthin kannst Du doch gar nicht gehen!
+@room 6
+@score 0
+@mode ready
+@finish checkpoint

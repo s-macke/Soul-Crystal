@@ -79,7 +79,11 @@
 > wende jeans auf dave
 @text Du steigst wieder in Deine Jeans.
 @mode ready
-> west
+> hilf hinweisschild
+@text keine Hilfe benötigt
+> betritt hotel
+@room 2
+@image 2
 > nord
 > betrachte tresen
 > betrachte prospekt
@@ -104,11 +108,23 @@
 @text Willst Du mir etwa schon wieder auf die Nerven gehen? DORT SITZT EIN ÄLTERER MANN AN EINEM DER TISCHE UND STUD
 @mode ready
 > sued
+# Leaving reception resets the bell. The porter must not return after giving the key.
+> druecke klingel
+@state 12 1
+> druecke klingel
+@state 12 2
+> druecke klingel
+@state 12 0
+@location 74 0
+@text aber nichts passiert
 > west
 # The door is still locked; unsuitable tools must not change it.
 > verriegele zimmertuer mit zimmerschluessel
 @text Aber das ist doch bereits abgeschlossen!
 @mode ready
+> entriegele t-shirt mit zimmerschluessel
+@text Wie soll denn DAS funktionieren?
+@state 49 0
 > entriegele zimmertuer mit t-shirt
 @text Also, DAMIT kann man ja nun wiklich nichts aufschlißen, oder?
 @mode ready
@@ -135,9 +151,38 @@
 @state 49 0
 > entriegele zimmertuer mit zimmerschluessel
 > oeffne zimmertuer
+# Locking an open door must close its south exit first.
+> verriegele zimmertuer mit zimmerschluessel
+@state 49 0
+@text Gut, abgeschlossen.
 > sued
+@room 5
+@text Aber dorthin kannst Du doch gar nicht gehen!
+> entriegele zimmertuer mit zimmerschluessel
+> oeffne zimmertuer
+> sued
+@room 1
+# The inside door is a separate original object (48), controlling the north exit.
+> oeffne zimmertuer
+@state 48 1
+> schliesse zimmertuer
+@state 48 2
+> nord
+@room 1
+@text Aber dorthin kannst Du doch gar nicht gehen!
+> oeffne zimmertuer
+@state 48 1
+# Incomplete clothing indoors resets the cold counter without moving.
+> verliere jeans
+> warte
+@state 163 100
+> wende jeans auf dave
 > betrachte stuhl
 > nimm badehose
+> wende badehose auf dave
+@text Wie soll denn DAS funktionieren?
+@state 151 0
+@state 77 1
 > nord
 > ost
 > sued
@@ -160,9 +205,18 @@
 @text Mutig versuchst Du Dein Glück, wirst jedoch von einer unsichtbaren Faust zurückgeschmettert. Es ist, als liefe
 @mode ready
 @room 13
+# Only the worn swimming trunks are carried: survive the westward attempt.
+> west
+@room 13
+@mode ready
+@location 151 255
+@state 151 1
 > ost
 > nord
 > hilf einhorn
+> hilf einhorn
+@text keine Hilfe benötigt
+@mode ready
 > sprich einhorn
 > nimm kristallkugel
 > west
@@ -193,8 +247,10 @@
 > nord
 > west
 > west
-> druecke holztuer
+> wende dave auf holztuer
 > sprich mylgor
+> gib messer an mylgor
+@text Mr. Adams hätte
 > wende messer auf dave
 > verliere blut
 @text Du willst Dein Blut verlieren, ja? Schön! Warum begehst Du nicht einfach Selbstmord?
@@ -209,8 +265,24 @@
 > wende baumwollhemd auf dave
 > wende hose auf dave
 > wende fellstiefel auf dave
+@include ../shared/controls.inc
+@include ../shared/equipment_failures.inc
+@part 2
+@room 19
+> hinunter
+@text Aber dorthin kannst Du doch gar nicht gehen!
+> bewege kamin
+@text Ein kurzer, vorwurfsvoller Blick
+> wende dave auf mylgor
+@text Hey, Du! Ich bin bloß ein Computer!
 > nimm elixier
+> wende elixier auf dave
+@text Mr. Adams hätte
+> schliesse haustuer
+@text Wie willst Du denn etwas Geschlossenes noch schließen?
 > oeffne haustuer
+> oeffne haustuer
+@text Oh! Da scheint Dir wohl jemand
 > nord
 > ost
 > ost
@@ -235,15 +307,21 @@
 > west
 > sprich verkaeufer
 > gib silbermuenzen an verkaeufer
+> sprich verkaeufer
+@text Wie merkwürdig! Keine Antwort
 > west
 > nord
 > betrachte hundeschlitten
 > betritt hundeschlitten
 > nord
 > west
+> betritt eispalast
+@text Der Yeti macht aber ganz und gar nicht den Eindruck
 > wende elixier auf dave
 > betritt eispalast
 @text Unbemerkt schleichst Du Dich
+> sued
+@text Der Yeti macht aber ganz und gar nicht den Eindruck
 > sprich firon
 > sprich firon
 > sprich firon
@@ -272,7 +350,31 @@
 > west
 > entriegele friedhofstor mit eisschluessel
 > oeffne friedhofstor
+> schliesse friedhofstor
+@state 65 2
+@state 66 2
+> verriegele friedhofstor mit eisschluessel
+@state 65 0
+@state 66 0
+> verriegele friedhofstor mit eisschluessel
+@text Aber das ist doch bereits abgeschlossen!
+> entriegele friedhofstor mit hose
+@text Also, DAMIT
+> verriegele friedhofstor mit hose
+@text Wie willst Du denn DAMIT
+> entriegele friedhofstor mit eisschluessel
+> entriegele friedhofstor mit eisschluessel
+@text Das ist aber doch schon längst entriegelt!
+> oeffne friedhofstor
 > nord
+> schliesse friedhofstor
+@state 65 2
+@state 66 2
+> verriegele friedhofstor mit eisschluessel
+@state 65 0
+@state 66 0
+> entriegele friedhofstor mit eisschluessel
+> oeffne friedhofstor
 > nord
 > hinunter
 > betrachte grabplatte
@@ -328,12 +430,16 @@
 > wende dave auf skelett
 @text Es ist leider zu hart, um bequem darauf liegen zu können - und außerdem: So auf die Schnelle macht das nun auc
 @mode ready
-> wende totenschaedel auf skelett
+> schliesse sarkophag
+@location 131 0
+> oeffne sarkophag
+> befestige totenschaedel an skelett
 > sprich koenig
 > sprich koenig
 > sprich koenig
 > sued
-> wende kurzschwert auf werwolf
+> zerstoere werwolf
+@state 159 3
 > ost
 > sued
 > ost
@@ -350,6 +456,9 @@
 > sued
 > wende zauberspruch auf westtuer
 > oeffne westtuer
+> schliesse westtuer
+@state 160 2
+> oeffne westtuer
 > west
 > betrachte studiertisch
 > oeffne schubladen
@@ -358,12 +467,20 @@
 > ost
 > nord
 > bewege kamin
+> bewege kamin
+> bewege kamin
 > hinunter
 > west
 > betrachte bett
 > nimm amulett
 > wende amulett auf dave
 > ost
+> entriegele labortuer mit eisschluessel
+@text Mist! Entschuldige bitte
+> oeffne labortuer
+> schliesse labortuer
+@state 81 2
+@state 139 2
 > oeffne labortuer
 > nord
 > zerstoere reagenzien
@@ -397,7 +514,17 @@
 > entriegele portaltor mit torschluessel
 > oeffne portaltor
 > nord
-> hinunter
+@include ../shared/controls.inc
+@include ../shared/equipment_failures.inc
+@part 4
+@room 67
+> ost
+@text Aber dorthin kannst Du doch gar nicht gehen!
+> sued
+@text Aber dorthin kannst Du doch gar nicht gehen!
+> betrachte kurzschwert
+@state 142 3
+> betritt schacht
 > hinunter
 > nord
 > nimm parfuem
@@ -411,16 +538,28 @@
 > sued
 > wende purpurmantel auf dave
 > west
+> wende dave auf faehrmann
+@text Hey, Du! Ich bin bloß ein Computer!
 > nimm bootsschluessel
 > ost
 > ost
 @text Mr. Adams hätte in einem solchen Fall wahrscheinlich mit "You can't do that... YET!" geantwortet, was in etwa
 @mode ready
 @room 96
+> verlasse kahn
+@text Wie soll denn DAS funktionieren?
 > betritt kahn
+> betritt kahn
+@text Wie soll denn DAS funktionieren?
+> nord
+@room 96
 > wende bootsschluessel auf kahn
 > ost
+> sued
+@room 97
 > befestige kahn an bootssteg
+> befestige kahn an bootssteg
+@text Mr. Adams hätte
 > verlasse kahn
 > sued
 > nimm eisenschluessel
@@ -451,15 +590,60 @@
 > entriegele gittertuer mit eisenschluessel
 @text Mist! Entschuldige bitte, aber das hier scheint einfach nicht der richtige Schlüssel zu sein - er paßt leider
 @mode ready
+> verriegele gittertuer mit hose
+@text Wie willst Du denn DAMIT
+> entriegele gittertuer mit hose
+@text Also, DAMIT
+> verriegele gittertuer mit kays schluessel
+@text Aber das ist doch bereits abgeschlossen!
+> entriegele gittertuer mit kays schluessel
+> entriegele gittertuer mit kays schluessel
+@text Das ist aber doch schon längst entriegelt!
+> oeffne gittertuer
+> verriegele gittertuer mit kays schluessel
+@state 87 0
+@state 88 0
 > entriegele gittertuer mit kays schluessel
 > oeffne gittertuer
 > sued
+> wende dave auf skelett
+@text Es ist leider zu hart
+> verliere hose
+> warte
+@state 163 100
+> wende hose auf dave
+> schliesse gittertuer
+@state 87 2
+@state 88 2
+> verriegele gittertuer mit kays schluessel
+@state 87 0
+@state 88 0
+> entriegele gittertuer mit kays schluessel
+> oeffne gittertuer
+> entriegele stahltuer mit eisenschluessel
+> oeffne stahltuer
+> verriegele stahltuer mit eisenschluessel
+@state 140 0
 > entriegele stahltuer mit eisenschluessel
 > oeffne stahltuer
 > ost
+> schliesse stahltuer
+@state 140 2
+@state 141 2
+> verriegele stahltuer mit eisenschluessel
+@state 141 0
+@points 140 15
+> hinunter
+@text Aber dorthin kannst Du doch gar nicht gehen!
+> entriegele stahltuer mit eisenschluessel
+@points 140 0
+> oeffne stahltuer
 > nord
 > nord
 > betrachte eichentuer
+> ziehe tuerklinke
+> schliesse eichentuer
+@state 51 2
 > ziehe tuerklinke
 > nord
 > bewege buecherwand
@@ -469,6 +653,8 @@
 > nimm ledersaeckchen
 > oeffne ledersaeckchen
 > betrachte ledersaeckchen
+> betrachte ledersaeckchen
+@text Ein kleines, aus Nappaleder
 > betrachte papier
 > verliere codenummer
 @text Selbst wenn Du den Code vergessen könntest: Willst Du Dir diese Chance wirklich entge
@@ -509,11 +695,17 @@
 > west
 > hinunter
 > oeffne fass
-> west
+> betritt fass
 > nord
 > schliesse saerge
 > betritt drudenfuss
+@room 93
+> betritt drudenfuss
+@room 87
+@mode ready
+> betritt drudenfuss
+@room 93
 @include ../shared/d_sieg.inc
 @mode won
-@score 4930
+@score 4945
 @finish won

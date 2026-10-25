@@ -1,0 +1,259 @@
+# Part C controls, failures, clothing, round-trip boating and gate mechanics.
+# Normal start via shared route; no state injection. End before the handbook gate.
+@include ../shared/c_wald.inc
+@part 3
+@room 51
+@mode ready
+> uebersoulcrystal
+@text "Soul Crystal" V1.5, written from 1989 to 1992 by Avantgardistic Arts. (C) 1992 by Avantgardistic Ar
+> credits
+@text "Soul Crystal", V1.5, written from 1989 to 1992 by Avantgardistic Arts, (C) 1992 by Avantgardistic A
+> ausfuehrlich
+@text "Ausführliche Beschreibungen" aktiviert. Zu jedem Raum, den Du von nun an betrittst, wird die vollst
+> kurztext
+@text "Kurzbeschreibungen" aktiviert. Die Beschreibungen der einzelnen Räume werden jetzt nur noch beim er
+> musikein
+@text Okay, die Musik ist wieder eingeschaltet.
+> musikein
+@text Gut, die Musik wird ausgeschaltet.
+> inventar
+@text Inventar:
+> ausgaenge
+@text Ausgänge:
+> schau
+@text Ansprechbar:
+> punkte
+@text Punkte in
+> neustart
+@mode restart
+> nein
+@mode ready
+@part 3
+@room 51
+> spielende
+@mode quit
+> nein
+@mode ready
+@part 3
+@room 51
+> loesung
+@mode solution
+> abbrechen
+@mode ready
+@part 3
+@room 51
+> grabe
+@text Also, jetzt reicht's ja wohl! Als ob es nicht schon reichen würde, daß Du blind wie ein Maulwurf dur
+> hinauf
+@text Aber dorthin kannst Du doch gar nicht gehen! Zumindest habe ich nichts dergleichen gesagt, oder...?
+> hinunter
+@text Aber dorthin kannst Du doch gar nicht gehen! Zumindest habe ich nichts dergleichen gesagt, oder...?
+> west
+@text Aber dorthin kannst Du doch gar nicht gehen! Zumindest habe ich nichts dergleichen gesagt, oder...?
+> schliesse hose
+@text Aber das kannst Du doch überhaupt nicht schließen!
+> zerstoere hose
+@text "Dave the Destroyer", oder was? Uiuiui! Da möchte man sich ja vor Angst am liebsten hinter dem nächs
+> verliere dave
+@text Nachdem Du eine halbe Stunde lang vergeblich in Deinen Taschen gewühlt hast, wird Dir klar, daß das
+> betritt hose
+@text Könntest Du mir mal bitte erklären, wie Du DAS betreten willst?
+> hilf hose
+@text Danke für Dein wirklich selbstloses Angebot, aber hier wird nun wirklich keine Hilfe benötigt.
+> verlasse hose
+@text Kannst Du mir vielleicht mal einen heißen Tip geben, wie Du DAS verlassen willst?
+> bewege hose
+@text Versprichst Du dir irgend etwas Bestimmtes davon, DAS durch die Gegend zu schleppen?
+> oeffne hose
+@text Tja, was sein muß, muß sein: Hastig siehst Du Dich um, ob auch keiner zusieht, öffnest Deine Hose, u
+> ziehe hose
+@text Das findest Du wohl witzig, häh? Naja, vergessen wir's...
+> druecke hose
+@text Glaube mir: Es besteht wirklich nicht der geringste Grund, das zu drücken!
+> nimm dave
+@text Tut mir leid, aber das kannst Du beim besten Willen nicht mitnehmen!
+> nimm hose
+@text Aber das hast Du doch schon längst!
+> sprich hose
+@text Wie merkwürdig! Keine Antwort ?!?!?
+> befestige hose an dave
+@text Wie soll denn DAS funktionieren?
+> gib hose an dave
+@text Ist ja wirklich lieb gemeint, aber was sollte man denn DAMIT schon anfangen können...?
+> wende hose auf kurzschwert
+@text Also gut: Schwamm drüber! Vergessen wir's, und reden wir nicht mehr davon! Aber gib jetzt bitte mal
+> wende hose auf dave
+@text Also gut: Schwamm drüber! Vergessen wir's, und reden wir nicht mehr davon! Aber gib jetzt bitte mal
+> verriegele hose mit eisschluessel
+@text Tut mir ja wirklich ganz fürchterlich leid, aber DAS kannst Du nun wirklich nicht abschließen!
+> entriegele hose mit eisschluessel
+@text Wie soll denn DAS funktionieren?
+# The spell was retained by this route; its refusal text is absent on C1.
+@location 136 255
+> verliere zauberspruch
+@location 136 255
+@mode ready
+> betrachte kurzschwert
+@text Du betrachtest Dein Schwert: Als Du es im Licht drehst, blitzt die versilberte Klinge, die Du in der
+@state 142 3
+> verliere fellstiefel
+@state 20 0
+> wende fellstiefel auf dave
+@text Unbeholfen steigst Du in die dicken Fellstiefel, die Dir Mylgor gegeben hat. Mannomann, sind die war
+@state 20 1
+@location 20 255
+> verliere baumwollhemd
+@state 125 0
+> wende baumwollhemd auf dave
+@text Gut: Du streifst Dir das warme Baumwollhemd über.
+@state 125 1
+@location 125 255
+> verliere hose
+@state 148 0
+> nord
+@text Du erwartest doch nicht allen Ernstes von mir, daß ich diesen Ort NACKT verlasse, oder?
+@room 51
+> wende hose auf dave
+@text Du bist nun mit der gefütterten, warmen Hose bekleidet.
+@state 148 1
+@location 148 255
+# Rewearing works in the first forest; trying it on the snagged amulet loses it.
+> verliere amulett
+@state 3 0
+> wende amulett auf dave
+@text Du legst Dir das Amulett an.
+@state 3 1
+@location 3 255
+> ost
+@text Während Du unter den toten Bäumen entlangwanderst, fühlst Du plötzlich, wie etwas brutal an Deinem H
+@room 52
+@location 3 52
+> wende amulett auf dave
+@text Als Du versuchst, das Amulett vom Ast loszumachen, rutscht es Dir durch Deine immer noch etwas zittr
+@state 3 0
+@location 3 105
+> west
+@room 51
+> sued
+@text Mutig versuchst Du Dein Glück, wirst jedoch von einer unsichtbaren Faust zurückgeschmettert. Es ist,
+@room 51
+@mode ready
+> ost
+> nord
+> nord
+@room 54
+# A complete boat return trip; land exits stay blocked while aboard.
+> betritt boot
+@state 15 1
+> betritt boot
+@text Wie soll denn DAS funktionieren?
+> sued
+@text Mr. Adams hätte in einem solchen Fall wahrscheinlich mit "You can't do that... YET!" geantwortet, wa
+@room 54
+> nord
+@room 55
+@location 15 55
+> nord
+@room 57
+@location 15 57
+> nord
+@text Mr. Adams hätte in einem solchen Fall wahrscheinlich mit "You can't do that... YET!" geantwortet, wa
+@room 57
+> west
+@text Mr. Adams hätte in einem solchen Fall wahrscheinlich mit "You can't do that... YET!" geantwortet, wa
+@room 57
+> sued
+@room 55
+@location 15 55
+> sued
+@room 54
+@location 15 54
+> verlasse boot
+@state 15 0
+> betritt boot
+> nord
+> nord
+> verlasse boot
+@room 57
+@state 15 0
+> ost
+@text Aber dorthin kannst Du doch gar nicht gehen! Zumindest habe ich nichts dergleichen gesagt, oder...?
+@room 57
+> nord
+> west
+> nimm ziegelstein
+> west
+@room 58
+> sued
+@text Aber dorthin kannst Du doch gar nicht gehen!
+@room 58
+> wende dave auf eremit
+@text Hey, Du! Ich bin bloß ein Computer! Das wird "C-O-M-P-U-T-E-R" geschrieben! Sprich mir nach: "Kooom-
+> ost
+> ost
+> nord
+@room 63
+> betrachte fallgitter
+> wende ziegelstein auf plattform
+@state 85 2
+> oeffne fallgitter
+@text Mühsam ziehst Du die Spitzen des Fallgitters aus dem Boden und schiebst es soweit nach oben, bis es
+@state 85 0
+> oeffne fallgitter
+@text Oh! Da scheint Dir wohl jemand mit dem Öffnen zuvorgekommen zu sein...
+@state 85 0
+> nord
+@room 65
+> oeffne portaltor
+@text Hmmm... - Scheint aber verschlossen zu sein!
+> schliesse portaltor
+@text Wie willst Du denn etwas Geschlossenes noch schließen?
+> west
+@room 64
+# The gatehouse is the indoor exception to Part C's cold countdown.
+> verliere hose
+> warte
+@state 163 100
+> wende hose auf dave
+@text Du bist nun mit der gefütterten, warmen Hose bekleidet.
+> nimm torschluessel
+> ost
+@room 65
+> verriegele portaltor mit torschluessel
+@text Aber das ist doch bereits abgeschlossen!
+@state 111 0
+> verriegele portaltor mit hose
+@text Wie willst Du denn DAMIT etwas abschließen?
+@state 111 0
+> entriegele portaltor mit hose
+@text Also, DAMIT kann man ja nun wiklich nichts aufschlißen, oder?
+@state 111 0
+> entriegele portaltor mit eisschluessel
+@text Mist! Entschuldige bitte, aber das hier scheint einfach nicht der richtige Schlüssel zu sein - er pa
+@state 111 0
+> entriegele portaltor mit torschluessel
+@text Du steckst den großen Eisenschlüssel in das riesige Schloß des gigantischen Burgtores und drehst ihn
+@state 111 2
+@location 84 0
+> oeffne portaltor
+@text Okay, geöffnet.
+@state 111 1
+> oeffne portaltor
+@text Oh! Da scheint Dir wohl jemand mit dem Öffnen zuvorgekommen zu sein...
+> schliesse portaltor
+@text Gut - geschlossen...
+@state 111 2
+> nord
+@text Aber dorthin kannst Du doch gar nicht gehen! Zumindest habe ich nichts dergleichen gesagt, oder...?
+@part 3
+@room 65
+> schliesse portaltor
+@text Wie willst Du denn etwas Geschlossenes noch schließen?
+> oeffne portaltor
+@text Okay, geöffnet.
+@state 111 1
+@part 3
+@room 65
+@mode ready
+@score 800
+@finish checkpoint

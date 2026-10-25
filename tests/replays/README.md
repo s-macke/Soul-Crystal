@@ -26,7 +26,9 @@ Dazu kommen Gewinnvarianten in `alternatives/`: fünf zeitkritische
 Finaleaktionen (Kessel, Zargon und Pentagramm betrachten; Zargon Hilfe anbieten
 und mit ihm sprechen), alternative Lösungsbefehle mit verdorbenem Essen sowie
 ein Aktionslauf für Wiederholungen, Kleidung und weitere Antworten.
-Die beiden letztgenannten Läufe enden wegen des Essens mit 4.930 Punkten;
+Der Rätselvariantenlauf endet wegen des Essens mit 4.930 Punkten; der
+Aktionslauf erhält beim Entriegeln der Stahltür von der anderen Seite
+zusätzlich 15 Originalpunkte und endet mit 4.945 Punkten;
 der Schnelllauf bleibt bei 4.955 und der große Erkundungslauf bei 5.010.
 
 `kristall_zuerst.replay` prüft den Rückteleport beim verfrühten Angriff auf
@@ -34,7 +36,33 @@ den Kristall und gewinnt danach ebenfalls. Vier weitere Varianten enden
 absichtlich als geprüfter Checkpoint: `boot_verloren`, `vertrag_unverbrannt`,
 `firon_getoetet` und `mylgor_eingesperrt`. Sie zeigen fehlgeschlagene oder
 irreversible Entscheidungen und behaupten keinen Gewinn. Insgesamt werden
-61 vollständige Replays geprüft; `.inc`-Dateien sind nur gemeinsame Bausteine.
+63 vollständige Replays geprüft; `.inc`-Dateien sind nur gemeinsame Bausteine.
+
+`alternatives/part_a_controls.replay` prüft in 19 Befehlen mit 37 Assertions
+Inventar, Ausgänge, erneutes Schauen, Punkte, Musik, abgebrochene
+Neustart-/Beenden-/Lösungsabfragen und ungültige Richtungen. Er endet als
+Checkpoint in Teil A, Raum 6, mit 0 Punkten. Keine direkte Zustandsänderung,
+kein Neustart innerhalb des Ablaufs und keine Handbuchabfrage.
+
+Der Aktionslauf ergänzt außerdem Hotelbetreten, erneutes Klingeln nach Erhalt
+des Schlüssels, Verriegeln der offenen Tür, die Innenseite der Zimmertür,
+Kleidung, Hilfsangebote und den westlichen Versuch hinter dem Wasserfall.
+Die 79 verbleibenden nicht ausgeführten Part-A-Zeileneinträge sind einzeln
+in [der Abdeckungsanalyse](../../spec/C64/replay_coverage.md#part-a-pruefung-der-verbleibenden-zeilen)
+zugeordnet; die rohe Coverage wird nicht um diese Stellen bereinigt.
+
+`alternatives/part_c_actions.replay` bündelt die weiteren C-Prüfungen:
+279 Befehle und 146 Assertions vom normalen Start bis zum geöffneten
+Portaltor in Raum 65, 800 Punkte, Ende als Checkpoint. Es prüft unter anderem
+Kleidungswechsel, Amulett, eine Bootsrückfahrt, die Landwegsperren während der
+Bootsfahrt sowie Fallgitter und Portaltor. Der Aktionslauf für B/D nutzt die
+neuen gemeinsamen Bausteine `controls.inc` und `equipment_failures.inc` und
+prüft zusätzlich beide Türseiten, alternative Interaktionen und den
+Pentagramm-Rückweg. Alle Eingaben bleiben normale Spielbefehle.
+
+Aktuelle Zeilenabdeckung: A **90,2 %**, B **91,8 %**, C **88,2 %**, D **90,9 %**;
+gesamt **90,6 %**, Verzweigungsausgänge **67,5 %**, Katalogtexte **87,2 %**.
+Die rohe Messung schließt unerreichbare und deaktivierte Stellen weiterhin ein.
 
 `./check-replay-coverage.sh` misst die gemeinsame Skriptabdeckung mit GCC/gcov
 und hinterlässt Messdaten sowie annotierte Quellen in einem neuen `/tmp`-Ordner.
@@ -217,7 +245,7 @@ bereits getragene Objekte aufnehmen, erneut entriegeln, verschlossene Türen,
 Beschreibungsmodi, Credits, den noch besetzten Bienenstock und Pfeife rauchen.
 Zusätzlich prüft der Lauf 18 weitere Fehlversuche mit ungeeigneten Objekten,
 Graben ohne Werkzeug sowie ungeeigneten und falschen Schlüsseln. Er umfasst
-411 Befehle und 125 Assertions und gewinnt weiterhin mit 4.930 Punkten.
+588 Befehle und 325 Assertions und gewinnt mit 4.945 Punkten.
 Weitere 16 Befehle decken zwölf zusätzliche Texte ab: unter anderem erneutes
 Verriegeln, Losgehen ohne Jeans, die magische Sperre hinter dem Wasserfall,
 das wiederholte Betrachten des Restauranttischs sowie die besonderen Antworten

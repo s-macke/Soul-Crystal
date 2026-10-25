@@ -11,13 +11,28 @@ Spielbefehle verwendet, keine Savegames, Teleports oder Zustands-Fixtures.
 | Erkundungslauf | 597 Befehle, 410 Assertions, Gewinn mit 5.010 Punkten |
 | Schnelllauf | 334 Befehle, 4 Assertions, Gewinn mit 4.955 Punkten |
 | Alternative Lösungsbefehle und verdorbene Speisen | 338 Befehle, 12 Assertions, 4.930 Punkte |
-| Zusätzlicher Aktionslauf | 411 Befehle, 125 Assertions, 4.930 Punkte |
-| Alle eingecheckten Replays zusammen | 61 erfolgreich geprüfte Dateien |
+| Zusätzlicher Aktionslauf | 588 Befehle, 325 Assertions, 4.945 Punkte |
+| Alle eingecheckten Replays zusammen | 63 erfolgreich geprüfte Dateien |
 | Besuchte Räume | 103/103 zusammen; 99/103 im lebend gewonnenen Erkundungslauf |
 | Direkte Todeszuweisungen | 46/48 |
-| Ausführbare Skriptzeilen (gcov JSON) | 3.495/4.824 = 72,5 % |
-| Verzweigungsausgänge | 2.161/3.998 = 54,1 % |
-| Verschiedene ausgegebene Katalogtexte mit normaler Text-ID-Zuordnung | 547/633 = 86,4 % |
+| Ausführbare Skriptzeilen (gcov JSON) | 4.371/4.824 = 90,6 % |
+| Verzweigungsausgänge | 2.700/3.998 = 67,5 % |
+| Verschiedene ausgegebene Katalogtexte mit normaler Text-ID-Zuordnung | 552/633 = 87,2 % |
+
+Aktueller Stand pro Teil nach den gezielten Aktionsprüfungen:
+
+| Teil | Ausgeführte gcov-Zeileneinträge | Verzweigungsausgänge | Fehlende Zeileneinträge |
+| --- | --- | --- | ---: |
+| A | 727/806 = 90,2 % | 452/664 = 68,1 % | 79 |
+| B | 1.517/1.653 = 91,8 % | 950/1.370 = 69,3 % | 136 |
+| C | 761/863 = 88,2 % | 463/730 = 63,4 % | 102 |
+| D | 1.366/1.502 = 90,9 % | 835/1.234 = 67,7 % | 136 |
+
+Die Nenner enthalten weiterhin deaktivierte und unerreichbare Stellen.
+Messung: `./check-replay-coverage.sh`, zuletzt
+`/tmp/soul-replay-coverage.Obsat9/`. Alle 63 Replays und die
+Include-/Fehlerregressionen bestehen; Textbericht:
+`/tmp/soul-replay-texts.PveeYQ/report.{md,tsv}`.
 
 Vor dieser Aktionsprüfung lag die gemeinsame Codeabdeckung bei 61,9 % der
 Zeilen und 45,3 % der Verzweigungsausgänge. Raumabdeckung ist keine
@@ -68,9 +83,9 @@ der IDs bei einem Text nennt mögliche Zuordnungen, **nicht** den Nachweis, dass
 jede dieser IDs ausgeführt wurde. Intro und vollständiges Tagebuch werden
 zusätzlich separat erkannt; beide wurden ausgegeben.
 
-Es fehlen derzeit 86 unterschiedliche Texte aus dem Pool mit normaler
+Es fehlen derzeit 81 unterschiedliche Texte aus dem Pool mit normaler
 Text-ID-Zuordnung. Der Pool umfasst auch Daten, für die der normale Spielverlauf
-keinen Aufruf besitzt. Die fehlenden Texte sind daher nicht pauschal 86
+keinen Aufruf besitzt. Die fehlenden Texte sind daher nicht pauschal 81
 fehlende Spielszenen. Sie werden nicht aus dem Nenner herausgerechnet.
 
 Die Ausnahmen gehen über Handbuchabfrage und Cheatmodus hinaus:
@@ -81,8 +96,8 @@ Die Ausnahmen gehen über Handbuchabfrage und Cheatmodus hinaus:
   in der bisherigen Konsolenbasis. Speichern/Laden ist ausdrücklich vertagt.
 - Manche originale Engine-/Menütexte werden durch eigene Konsolenausgabe
   ersetzt, beispielsweise Teile der Abschluss- und Bedienungsdialoge.
-- Es fehlen weiterhin alternative Spielantworten und Fehlerfälle, etwa eine
-  andere Reihenfolge der Schwertbehandlung oder das unverbrauchte Brot essen.
+- Es bleiben Sonderreaktionen und offene Erreichbarkeitsfragen. Die andere
+  Reihenfolge der Schwertbehandlung und unvergiftetes Brot sind inzwischen geprüft.
 - Der Katalog enthält alte oder nicht verwendete Varianten. Ein konkretes
   Beispiel ist der Titel `[An einer unterirdischen ;uelle]` auf B2: Dort wird
   dieser Raum nicht besucht. Die korrekte spätere Variante wurde ausgegeben.
@@ -209,7 +224,159 @@ dem Nenner der Messung entfernt.
 B2:621 hat dagegen eine Zuweisung in `PartD_HandleVerliere`, ist auf dessen
 Diskseite C2 aber nicht verfügbar. Die offene Mumien-Rückkehr und weitere
 Sonderreaktionen bleiben gesondert zu prüfen. Der vollständige aktuelle
-Messbericht listet alle 86 fehlenden Inhalte unverändert auf.
+Messbericht listet alle 81 fehlenden Inhalte unverändert auf.
+
+## Part A: Pruefung der verbleibenden Zeilen
+
+Nach den zusätzlichen Aktionen und dem neuen Bedienungs-Replay bestehen alle
+62 Replays. Der Aktionslauf gewinnt mit 430 Befehlen, 155 Assertions und
+unverändert 4.930 Punkten. `part_a_controls.replay` endet nach 19 Befehlen und
+37 Assertions als Checkpoint. Die Änderungen betreffen nur Replays und
+Dokumentation, nicht die Spiellogik.
+
+| Messung | Vorher | Jetzt |
+| --- | --- | --- |
+| Part-A-Zeileneinträge mit Ausführung | 637/806 = 79,0 % | 727/806 = 90,2 % |
+| Part-A-Verzweigungsausgänge | 386/664 = 58,1 % | 452/664 = 68,1 % |
+| Nicht ausgeführte Part-A-Zeileneinträge | 169 | 79 |
+
+Die Gewinnroute prüft nun `betritt hotel`, ein allgemeines Hilfsangebot,
+erneute Einhornhilfe, Klingeln nach Erhalt des Schlüssels und erneutem Betreten
+der Rezeption (Klingel 1 → 2 → 0, Portier bleibt verschwunden), Entriegeln eines
+ungeeigneten Objekts, das automatische Schließen beim Verriegeln sowie das
+Schließen/Öffnen der separaten inneren Zimmertür. Versuchte Bewegungen prüfen,
+dass geschlossene Türen ihre Ausgänge tatsächlich sperren. Die Badehose über
+der Jeans wird abgewiesen; unvollständige Kleidung im Zimmer setzt den
+Kältezähler auf 100. Hinter dem Wasserfall bleibt Dave beim West-Versuch mit
+nur angezogener Badehose am Leben. Der Bedienungs-Replay prüft zusätzlich die
+oben genannten Menüfunktionen und die fehlenden Richtungs-Fehlversuche.
+
+### Vollständige Zuordnung der 79 offenen Zeileneinträge
+
+Zeilennummern beziehen sich auf das unveränderte `out/parta.c`. Jede nicht
+ausgeführte gcov-JSON-Zeile gehört genau einer Zeile der folgenden Tabelle an;
+die Vereinigung wurde gegen die Messdaten geprüft (79 Einträge, keine Lücke
+und keine Doppelzählung).
+
+| Status / Ursache | Anzahl | Zeilen in `out/parta.c` | Beleg |
+| --- | ---: | --- | --- |
+| In Part A unerreichbar: vertikale Raumwechsel | 14 | 240–244, 251–252, 479–483, 490–491 | `up` und `down` sind für Räume 1–15 null; Part A schreibt keine Verbindungen hinein. Die Fehlversuche sind jetzt getestet. |
+| In Part A unerreichbar: Türen nach Ost/West | 4 | 620, 623, 880, 883 | Die verfügbaren Zimmertürobjekte 48/49 steuern Nord/Süd; die Ost-/West-Türen der allgemeinen Tabelle gehören zu späteren Teilen. |
+| Noch offene erreichbare Variante: Schließen ohne Richtung | 2 | 619, 622 | Die Vergleiche werden auch für ein Objekt mit Richtungscode 7 wie den Prospekt erreicht. Öffnen und anschließendes Schließen des Prospekts ist noch nicht getestet; auf Wunsch endet die Erweiterung bei rund 90 %. |
+| In Part A unerreichbar: spätere Gegenstände/Gesprächspartner | 7 | 681–682, 685–686, 689–690, 984 | Blut, Gebet und Zauberspruch sind in A nicht erhältlich. Kein Objekt der allgemeinen Gesprächstabelle ist in A verfügbar; Portier, Dorfbewohner und Einhorn haben separate Fälle. |
+| In Part A unerreichbar: anderer echter Schlüssel | 3 | 1188, 1200–1201 | Nur Zimmerschlüssel 117 ist in A erhältlich, und er passt zu beiden Zimmertüren. Die anderen Schlüssel stammen aus späteren Teilen. |
+| Im Port unerreichbar: anderer Teil im Part-A-Dispatcher | 3 | 85, 87, 89 | Der Host ruft `PartA_Execute` nur bei `gamePart == PartA` auf. |
+| Strukturell unerreichbare Verriegelungs-Ausnahme | 3 | 1126, 1138–1139 | `HandleVerriegele` vergleicht hier `object1` (Schloss) mit `LockingExceptions` (Schlüssel). Die Schloss-IDs aus `LockKeyPairs` und die Ausnahmeliste haben keine Schnittmenge. Keine Korrektur der Original-/Konverterlogik vorgenommen. |
+| Noch nicht implementiert / nicht angeboten | 15 | 129, 141, 147, 286–289, 393–396, 469–472 | Laden/Speichern wird vor dem Dispatcher blockiert; Disketteninstallation ist kein angebotener Konsolenbefehl. |
+| Bewusst deaktiviert: Handbuchabfrage | 9 | 553–561 | Der Host vollzieht den Partwechsel vor dem Originalhandler. |
+| Nicht angebotene interne Befehle | 12 | 145, 152–153, 421–425, 575–576, 580–581 | `AUSGAENGE12` ist eine zweite interne Ausgänge-Variante; `NIX1`/`NIX2` sind leere Befehlsplätze. Der Parser bietet diese IDs nicht an. Der reguläre Ausgänge-Befehl ist getestet. |
+| Durch das Unterbrechungsmodell nicht erreicht | 3 | 382, 389, 409 | Spielende, Neustart und Lösung setzen einen Dialogmodus; der unmittelbar vorherige `ScriptInterrupted()`-Test kehrt deshalb bereits zurück. Auch Abbrechen setzt den alten C-Aufruf nicht fort. |
+| gcov-Zuordnung zu Sprunglabels | 4 | 630, 893, 1156, 1220 | Labelzeilen `x7b38`, `x7e49`, `x81b4`, `x825d`; keine eigenständigen Spielaktionen. Sie bleiben im rohen Nenner enthalten. |
+
+Damit sind alle **79 fehlenden Zeileneinträge zugeordnet**. Zwei davon
+bleiben als erreichbare, noch nicht getestete Variante offen; bei den übrigen
+77 handelt es sich um die oben abgegrenzten Fälle. Auf Wunsch wird bei rund
+90 % die weitere Erweiterung von Part A beendet. Diese Aussage betrifft den aktuellen Port mit
+normaler Eingabe ab dem kanonischen Anfangszustand. Sie beweist weder die
+Gleichheit mit allen Originalversionen noch vollständige Bedingungs- oder
+Zustandskombinationsabdeckung. Insbesondere werden die 68,1 % gemessenen
+Verzweigungsausgänge nicht als 100 % ausgegeben. Eine gesonderte vollständige
+Klassifikation der noch fehlenden Verzweigungsausgänge steht aus.
+
+Die Rohdaten stammen aus `./check-replay-coverage.sh`, Verzeichnis
+`/tmp/soul-replay-coverage.XwPnyI/`; die Textmessung aus
+`/tmp/soul-replay-texts.sxbkEl/report.{md,tsv}`. Temporäre Pfade sind lokale
+Nachweise; beide Skripte erzeugen neue reproduzierbare Berichte.
+
+## Part C: gezielte Aktionsprüfung
+
+`alternatives/part_c_actions.replay` startet über `shared/c_wald.inc` regulär
+und endet nach **279 Befehlen und 146 Assertions** vor dem Partwechsel:
+Teil C, Raum 65, geöffnetes Portaltor, 800 Punkte, Modus `ready`. Der Checkpoint
+behauptet keinen Spielgewinn. Die Abdeckung steigt von **483/863 (56,0 %)** auf
+**761/863 (88,2 %)** Zeileneinträge und von **281/730 (38,5 %)** auf
+**463/730 (63,4 %)** Verzweigungsausgänge.
+
+Neu geprüft sind Bedienfunktionen, allgemeine Fehlversuche, Aus-/Anziehen,
+Bewegung ohne ausreichende Kleidung, erneutes Anlegen des Amuletts im ersten
+Wald und sein Verlust beim Anlegen im zweiten Wald. Danach wird die südliche
+Barriere ohne Amulett getestet. Die Bootsfahrt führt vollständig über den See
+und zurück; Standorte und Einsteigezustand werden geprüft, ebenso die
+blockierten Landwege, solange Dave im Boot sitzt. Hinzu kommen der warme
+Torhaus-Aufenthalt, Fallgitter-Wiederholungen, ungeeignete/falsche Schlüssel,
+Schließen und Wiederöffnen des Portaltors und der dabei gesperrte Nordausgang.
+Der noch mitgeführte Zauberspruch bleibt bei `verliere zauberspruch` im Inventar;
+seine Originalantwort 624 ist auf C1 nicht verfügbar und wird nicht erfunden.
+
+Die 102 verbliebenen gcov-Zeileneinträge wurden vollständig und ohne
+Doppelzählung den folgenden Gruppen zugeordnet. Nummern: `out/partc.c`.
+
+| Kategorie | Anzahl | Zeilen | Begründung / Grenze |
+| --- | ---: | --- | --- |
+| Keine vertikalen Raumwechsel in C | 14 | 262–266, 273–274, 591–595, 602–603 | Räume 51–65 haben keine Auf-/Abverbindungen; Fehlversuche sind getestet. |
+| Anderer Spielteil im C-Dispatcher | 1 | 87 | Der Host ruft diesen Handler nur für C auf. |
+| Nicht angebotene Installation, Laden/Speichern | 15 | 127, 139, 145, 339–342, 478–481, 581–584 | Wie in A vor dem Dispatcher ausgeschlossen. |
+| Deaktivierte Handbuchabfrage | 15 | 404–418 | Partwechsel wird vorher vom Host abgewickelt. |
+| Interne Ausgänge-Variante und leere Befehle | 12 | 143, 150–151, 506–510, 658–659, 663–664 | Keine Eingabezuordnung; reguläre Ausgänge sind getestet. |
+| Rückkehr nach modaler Unterbrechung | 3 | 467, 474, 494 | Neustart/Beenden/Lösung kehren bereits beim Unterbrechungstest zurück. |
+| Selbstangriff bereits durch Engine abgefangen | 7 | 1128–1134 | `game.cpp` behandelt Kurzschwert auf Dave vor dem Skriptdispatch. |
+| Verriegelungs-Ausnahmeliste | 3 | 1194, 1206–1207 | Schloss- statt Schlüsselvergleich; keine Schnittmenge der Tabellen. |
+| Wiederverriegeln/erneutes Entriegeln mit verbrauchtem Schlüssel | 7 | 1214–1216, 1218, 1225, 1273–1274 | Das einzige in C vorhandene passende Schloss ist das Portaltor; Entriegeln entfernt den Torschlüssel sofort. |
+| Kahn-Entriegelung aus D | 3 | 1287–1289 | Der Kahn ist erst in D verfügbar. Das Boot in C ist ein anderes Objekt. |
+| Andere Richtungen bei Öffnen/Schließen | 12 | 699–700, 702–703, 705–706, 942–943, 945–946, 948–949 | Das allgemeine verfügbare Türpaar in C reduziert sich auf das Portaltor mit Nordausgang. Das Fallgitter hat einen Sonderhandler. |
+| Voraussetzungen aus B noch ungeklärt | 6 | 764–765, 768–769, 808, 811 | Blut/Gebet nach C mitbringen oder mit nur einfach behandeltem Schwert C erreichen. Nicht ohne weiteren Nachweis als unerreichbar eingestuft. |
+| gcov auf Sprunglabels | 4 | 572, 713, 959, 1224 | Keine eigenständigen Spielaktionen; bleiben im Nenner. |
+
+Die sechs offenen Einträge hängen an früheren Entscheidungen. Ihre Einstufung
+bezieht sich auf den Erkenntnisstand dieser Prüfung; die erfolgreiche
+Standardroute allein beweist keine Unerreichbarkeit.
+
+## Part B und D: weitere Aktionsprüfung
+
+Der bestehende Gewinnlauf `alternatives/action_responses.replay` bündelt die
+Erweiterungen für B/D. Die neuen Bausteine `shared/controls.inc` und
+`shared/equipment_failures.inc` vermeiden doppelte Befehlslisten für die
+allgemeinen Bedienfunktionen, Fehlversuche und Kleidungswechsel. Es gibt keine
+Zustandsinjektion. Die Spiellogik und der Konverter wurden nicht verändert.
+
+| Teil | Vor dieser Erweiterung | Nachher |
+| --- | --- | --- |
+| B: Zeilen | 1.286/1.653 = 77,8 % | 1.517/1.653 = 91,8 % |
+| B: Verzweigungsausgänge | 818/1.370 = 59,7 % | 950/1.370 = 69,3 % |
+| D: Zeilen | 1.089/1.502 = 72,5 % | 1.366/1.502 = 90,9 % |
+| D: Verzweigungsausgänge | 676/1.234 = 54,8 % | 835/1.234 = 67,7 % |
+
+In B umfasst dies zusätzlich die Rückgabe des Messers vor dem Blutabnehmen,
+das Elixier am falschen Ort, `wende dave auf holztuer`, Mylgors Einwand beim
+Bewegen des Kamins, den Verkäufer nach dem Kauf, den Yeti vor dem Palast und
+den blockierten Ausgang bei Firon. Das Friedhofstor wird von beiden Seiten
+geöffnet, geschlossen, verriegelt und entriegelt; beide Objektzustände werden
+geprüft. Auch Sarkophag, Westtür, Kamin und Labortür bekommen zusätzliche
+Wiederholungen. Der König wird über `befestige totenschaedel an skelett`
+wiederhergestellt, der Werwolf mit `zerstoere werwolf` besiegt.
+
+In D werden Schacht und Fass ausdrücklich betreten. Kahn-Wiederholungen,
+blockierte Bewegung während der Bootsfahrt, erneutes Festmachen, die warme
+Verlieszelle und beide Seiten von Gitter-/Stahltür sind geprüft. Dazu kommen
+das erneute Schließen der Eichentür, Skelett/Fährmann, wiederholte Beutelprüfung
+und ein lebendiger Rückweg durch das Pentagramm, gefolgt von der erneuten Reise
+zu Zargon und dem vollständigen Sieg.
+
+**Punktedifferenz:** Das Entriegeln von Stahltürobjekt 141 vergibt in
+`PartD_HandleEntriegele` die bislang ungenutzten 15 Punkte aus
+`remainingPoints[140]`. Die neue Runde verriegelt und entriegelt die Tür auch
+von dieser Seite. Assertions prüfen den Übergang **15 → 0**. Deshalb gewinnt
+der Aktionslauf jetzt mit **4.945 statt 4.930 Punkten**, weiterhin inklusive
+der 25 Strafpunkte für verdorbene Speisen. Das ist Verhalten der unveränderten
+Logik, keine nachträgliche Punkteanpassung im Spiel. Der große Erkundungslauf
+bleibt bei 5.010 Punkten; daraus folgt keine neu bewiesene Maximalpunktzahl.
+
+B und D haben je 136 noch nicht ausgeführte gcov-Zeileneinträge. Darunter sind
+die bekannten technischen Ausschlüsse, partfremde Objektfälle und
+Engine-Vorprüfungen, aber auch weiterhin mögliche Aktionsvarianten (etwa
+Schlittenumwege in B, zusätzliche Labor-Türfolgen und weitere Objekt-/Bootsvarianten
+in D). Eine vollständige Klassifikation aller Reststellen wie für A/C wird
+hier **nicht** behauptet. Die offenen Todeszweige bleiben separat dokumentiert.
 
 ## Offene Todeszweige
 
