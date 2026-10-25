@@ -28,7 +28,7 @@ func TestConverterTextIDsAndSelectCases(t *testing.T) {
 	}
 	textRE := regexp.MustCompile(`pendingTextID = ([^;]+); // text ID ([0-9]+) \(0x([0-9a-f]+)\), script \$([0-9a-f]+): (.*)`)
 	selectRE := regexp.MustCompile(`switch\(.*\) \{ // SELECT script \$([0-9a-f]+); original cases are 1-based`)
-	caseRE := regexp.MustCompile(`case ([0-9]+): ([A-Za-z0-9_]+)\(\); break;`)
+	caseRE := regexp.MustCompile(`case ([0-9]+): ([A-Za-z0-9_]+)\(\); if \(ScriptInterrupted\(\)\) return; break;`)
 	number := func(s string, base int) int {
 		n, e := strconv.ParseInt(s, base, 32)
 		if e != nil {

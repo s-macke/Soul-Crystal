@@ -76,3 +76,12 @@ Im Programm eingebettete UI-Texte sind damit noch nicht vollständig extrahiert.
 Es vergleicht sämtliche tatsächlich ausgegebenen Strings und alle 2.548
 Kombinationen aus Spielteil und Meldungs-ID gegen die erneut dekodierten Diskdaten
 und das geprüfte Routing. Ungültige Zugriffe werden ebenfalls geprüft.
+
+
+## Intro und Tagebuch in der Konsole
+
+Der Textexport bettet zusätzlich `story.txt` (bereinigte Abschrift der C64-Story)
+und `data/tagebuch.txt` als `GameIntroText` und `GameDiaryText` ein. Das Tagebuch
+behält seine ursprüngliche Seiten-/Zeilenstruktur; es wird bei der passenden
+Leseaktion in Teil D ausgegeben. Beide Texte sind auch ohne Quelldateien im
+fertigen Binary verfügbar. Die JSON-Archivkataloge und ihre IDs bleiben unverändert.

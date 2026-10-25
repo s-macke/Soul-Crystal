@@ -20,14 +20,42 @@ func cTextFiles(dir string, mapping Mapping, catalogs []Catalog) error {
 typedef enum { TextUnavailable, TextNone, TextLiteral, TextEngineFormatted } GameTextKind;
 typedef struct { GameTextKind kind; const char *text; } GameText;
 /* Parts 1..4; raw record numbers are NOT logical message IDs. */
+extern const char GameIntroText[];
+extern const char GameDiaryText[];
 unsigned GameTextRecordCount(GamePart part);
 const char *GameTextRecord(GamePart part, unsigned record);
 /* Ordinary message path only. Dynamic messages require engine formatting. */
 GameText GameTextLookup(GamePart part, TextID id);
 #endif
 `
+	intro, err := os.ReadFile("texts/C64/story.txt")
+	if err != nil {
+		return err
+	}
 	var out strings.Builder
 	out.WriteString("// Generated from original C64 disks by src/Go/text. Do not edit.\n#include \"game_texts.h\"\n#include <stddef.h>\n")
+	diary, err := os.ReadFile("data/tagebuch.txt")
+	if err != nil {
+		return err
+	}
+	for _, document := range []struct {
+		name string
+		data []byte
+	}{{"GameIntroText", intro}, {"GameDiaryText", diary}} {
+		fmt.Fprintf(&out, "\n// UTF-8 bytes avoid the C11 minimum string-literal length limit.\nconst char %s[] = {", document.name)
+		data := []byte(strings.ReplaceAll(string(document.data), "\r\n", "\n"))
+		for i, b := range data {
+			if i%24 == 0 {
+				out.WriteString("\n    ")
+			}
+			if b >= 128 {
+				fmt.Fprintf(&out, "(char)0x%02x,", b)
+			} else {
+				fmt.Fprintf(&out, "0x%02x,", b)
+			}
+		}
+		out.WriteString("0\n};\n")
+	}
 	for _, cat := range catalogs {
 		fmt.Fprintf(&out, "\nstatic const char *const records%s[] = {\n", cat.Side)
 		for i := 0; i < len(cat.Records); i++ {

@@ -47,18 +47,20 @@ void PartA_HandleEntriegele(void); // Part A, script $81b5; command 44 (ENTRIEGE
 
 
 
-void Execute(void) {
+void PartA_Execute(void) {
 
 x7600:
     pendingTextID = 0x00; // text ID 0 (0x0000), script $7600: no text
     if ( command == HINUNTER || command == OST || command == NORD || command == SUED || command == HINAUF || command == WEST ) {
         if ( currentRoom != IM_DIENERSCHLAFZIMMER ) {
             SPECIAL(0x64); // Habe ich keine Kleidung an, vielleicht?
+            if (ScriptInterrupted()) return;
             if ( temp == 0x01 ) {
                 pendingTextID = 0x2e; // text ID 46 (0x002e), script $7632: B1 record 148: Du erwartest doch nicht allen Ernstes von mir, daß ich diesen Ort NACKT verlasse, oder?
                 goto x7799;
             } else {
                 SPECIAL(0x65);
+                if (ScriptInterrupted()) return;
                 if ( temp == 0x01 ) {
                     objectState[DAVE] = 0x64;
                 }
@@ -66,11 +68,14 @@ x7600:
         }
     }
     SPECIAL(0x66);
+    if (ScriptInterrupted()) return;
     if ( temp == 0x01 ) {
         SPECIAL(0x67);
+        if (ScriptInterrupted()) return;
         if ( temp == 0x01 ) {
             if ( gamePart == 0x01 ) {
                 SPECIAL(0x68);
+                if (ScriptInterrupted()) return;
                 if ( temp == 0x01 ) {
                     objectState[DAVE] = objectState[DAVE] - 0x01;
                 } else {
@@ -89,7 +94,9 @@ x7600:
             if ( objectState[DAVE] == 0x4b || objectState[DAVE] == 0x32 || objectState[DAVE] == 0x19 ) {
                 pendingTextID = 0x30; // text ID 48 (0x0030), script $76ae: B1 record 150: Langsam fange ich an zu frieren! Es wird immer kälter hier, also sieh Dich langsam mal nach einem warmen Plätzchen um, wo wir in Ruhe die Nacht verbringen können!
                 showtext();
-                Restart();
+                if (ScriptInterrupted()) return;
+                FlushOutput();
+                if (ScriptInterrupted()) return;
                 pendingTextID = 0x00; // text ID 0 (0x0000), script $76b4: no text
                 goto x76e0;
             } else {
@@ -97,9 +104,12 @@ x7600:
                     imageID = 0x81;
                     objectLocation[DAVE] = 0xff;
                     ShowImage();
+                    if (ScriptInterrupted()) return;
                     pendingTextID = 0x31; // text ID 49 (0x0031), script $76cf: B1 record 151: Also, halte mir jetzt bitte nicht vor, daß ich Dich nicht gewarnt hätte - Du hast wirklich genug Zeit gehabt, um nach jemandem zu suchen, der Dir wärmere Kleidung hätte geben können - doch nun ist es endgültig zu spät: Du erfrierst, ohne auch nur die geringste Chance gehabt zu haben, das Spiel zu lösen! Schade eigentlich...
                     showtext();
-                    Restart();
+                    if (ScriptInterrupted()) return;
+                    FlushOutput();
+                    if (ScriptInterrupted()) return;
                     pendingTextID = 0x00; // text ID 0 (0x0000), script $76d5: no text
                     return;
                 }
@@ -109,68 +119,68 @@ x7600:
 
 x76e0:
     switch(command) { // SELECT script $76e0; original cases are 1-based
-         case 1: PartA_HandleUebersoulcrystal(); break;
-         case 2: PartA_HandleKurztext(); break;
-         case 3: PartA_HandleCredits(); break;
-         case 4: PartA_HandleGrabe(); break;
-         case 5: PartA_HandleHinunter(); break;
-         case 6: PartA_HandleOst(); break;
-         case 7: PartA_HandleAusgaenge(); break;
-         case 8: PartA_HandleDisketteinstallieren(); break;
-         case 9: PartA_HandleInventar(); break;
-         case 10: PartA_HandleSchau(); break;
-         case 11: PartA_HandleNord(); break;
-         case 12: PartA_HandleSpielende(); break;
-         case 13: PartA_HandleNeustart(); break;
+         case 1: PartA_HandleUebersoulcrystal(); if (ScriptInterrupted()) return; break;
+         case 2: PartA_HandleKurztext(); if (ScriptInterrupted()) return; break;
+         case 3: PartA_HandleCredits(); if (ScriptInterrupted()) return; break;
+         case 4: PartA_HandleGrabe(); if (ScriptInterrupted()) return; break;
+         case 5: PartA_HandleHinunter(); if (ScriptInterrupted()) return; break;
+         case 6: PartA_HandleOst(); if (ScriptInterrupted()) return; break;
+         case 7: PartA_HandleAusgaenge(); if (ScriptInterrupted()) return; break;
+         case 8: PartA_HandleDisketteinstallieren(); if (ScriptInterrupted()) return; break;
+         case 9: PartA_HandleInventar(); if (ScriptInterrupted()) return; break;
+         case 10: PartA_HandleSchau(); if (ScriptInterrupted()) return; break;
+         case 11: PartA_HandleNord(); if (ScriptInterrupted()) return; break;
+         case 12: PartA_HandleSpielende(); if (ScriptInterrupted()) return; break;
+         case 13: PartA_HandleNeustart(); if (ScriptInterrupted()) return; break;
     }
     if ( pendingTextID != 0x00 ) {
         goto x7799;
     }
     temp = command - NEUSTART;
     switch(temp) { // SELECT script $7718; original cases are 1-based
-         case 1: PartA_HandleLaden(); break;
-         case 2: PartA_HandlePunkte(); break;
-         case 3: PartA_HandleLoesung(); break;
-         case 4: PartA_HandleMusikein(); break;
-         case 5: PartA_HandleAusgaenge12(); break;
-         case 6: PartA_HandleSued(); break;
-         case 7: PartA_HandleSpeichern(); break;
-         case 8: PartA_HandleHinauf(); break;
-         case 9: PartA_HandleAusfuehrlich(); break;
-         case 10: PartA_HandleWarte(); break;
-         case 11: PartA_HandleWest(); break;
-         case 12: PartA_Sub_7aaa(); break;
-         case 13: PartA_Sub_7aab(); break;
+         case 1: PartA_HandleLaden(); if (ScriptInterrupted()) return; break;
+         case 2: PartA_HandlePunkte(); if (ScriptInterrupted()) return; break;
+         case 3: PartA_HandleLoesung(); if (ScriptInterrupted()) return; break;
+         case 4: PartA_HandleMusikein(); if (ScriptInterrupted()) return; break;
+         case 5: PartA_HandleAusgaenge12(); if (ScriptInterrupted()) return; break;
+         case 6: PartA_HandleSued(); if (ScriptInterrupted()) return; break;
+         case 7: PartA_HandleSpeichern(); if (ScriptInterrupted()) return; break;
+         case 8: PartA_HandleHinauf(); if (ScriptInterrupted()) return; break;
+         case 9: PartA_HandleAusfuehrlich(); if (ScriptInterrupted()) return; break;
+         case 10: PartA_HandleWarte(); if (ScriptInterrupted()) return; break;
+         case 11: PartA_HandleWest(); if (ScriptInterrupted()) return; break;
+         case 12: PartA_Sub_7aaa(); if (ScriptInterrupted()) return; break;
+         case 13: PartA_Sub_7aab(); if (ScriptInterrupted()) return; break;
     }
     if ( pendingTextID != 0x00 ) {
         goto x7799;
     }
     temp = command - NIX2;
     switch(temp) { // SELECT script $7750; original cases are 1-based
-         case 1: PartA_HandleSchliesse(); break;
-         case 2: PartA_HandleZerstoere(); break;
-         case 3: PartA_HandleVerliere(); break;
-         case 4: PartA_HandleBetritt(); break;
-         case 5: PartA_HandleBetrachte(); break;
-         case 6: PartA_HandleHilf(); break;
-         case 7: PartA_HandleVerlasse(); break;
-         case 8: PartA_HandleBewege(); break;
-         case 9: PartA_HandleOeffne(); break;
-         case 10: PartA_HandleZiehe(); break;
-         case 11: PartA_HandleDruecke(); break;
+         case 1: PartA_HandleSchliesse(); if (ScriptInterrupted()) return; break;
+         case 2: PartA_HandleZerstoere(); if (ScriptInterrupted()) return; break;
+         case 3: PartA_HandleVerliere(); if (ScriptInterrupted()) return; break;
+         case 4: PartA_HandleBetritt(); if (ScriptInterrupted()) return; break;
+         case 5: PartA_HandleBetrachte(); if (ScriptInterrupted()) return; break;
+         case 6: PartA_HandleHilf(); if (ScriptInterrupted()) return; break;
+         case 7: PartA_HandleVerlasse(); if (ScriptInterrupted()) return; break;
+         case 8: PartA_HandleBewege(); if (ScriptInterrupted()) return; break;
+         case 9: PartA_HandleOeffne(); if (ScriptInterrupted()) return; break;
+         case 10: PartA_HandleZiehe(); if (ScriptInterrupted()) return; break;
+         case 11: PartA_HandleDruecke(); if (ScriptInterrupted()) return; break;
     }
     if ( pendingTextID != 0x00 ) {
         goto x7799;
     }
     temp = command - DRUECKE;
     switch(temp) { // SELECT script $7782; original cases are 1-based
-         case 1: PartA_HandleNimm(); break;
-         case 2: PartA_HandleSprich(); break;
-         case 3: PartA_HandleWende(); break;
-         case 4: PartA_HandleBefestige(); break;
-         case 5: PartA_HandleGib(); break;
-         case 6: PartA_HandleVerriegele(); break;
-         case 7: PartA_HandleEntriegele(); break;
+         case 1: PartA_HandleNimm(); if (ScriptInterrupted()) return; break;
+         case 2: PartA_HandleSprich(); if (ScriptInterrupted()) return; break;
+         case 3: PartA_HandleWende(); if (ScriptInterrupted()) return; break;
+         case 4: PartA_HandleBefestige(); if (ScriptInterrupted()) return; break;
+         case 5: PartA_HandleGib(); if (ScriptInterrupted()) return; break;
+         case 6: PartA_HandleVerriegele(); if (ScriptInterrupted()) return; break;
+         case 7: PartA_HandleEntriegele(); if (ScriptInterrupted()) return; break;
     }
 
 x7799:
@@ -230,6 +240,7 @@ void PartA_HandleHinunter(void) { // Part A, script $780e; command 5 (HINUNTER),
         currentRoom = down[currentRoom];
         objectLocation[DAVE] = currentRoom;
         Code2E5B();
+        if (ScriptInterrupted()) return;
         imageID = currentRoom;
     } else {
         if ( down[currentRoom] == 0x00 ) {
@@ -238,6 +249,7 @@ void PartA_HandleHinunter(void) { // Part A, script $780e; command 5 (HINUNTER),
     }
     if ( imageID != 0xff ) {
         ShowImage();
+        if (ScriptInterrupted()) return;
     }
     return;
 }
@@ -249,6 +261,7 @@ void PartA_HandleOst(void) { // Part A, script $783d; command 6 (OST), SELECT $7
         currentRoom = east[currentRoom];
         objectLocation[DAVE] = currentRoom;
         Code2E5B();
+        if (ScriptInterrupted()) return;
         imageID = currentRoom;
     } else {
         if ( east[currentRoom] == 0x00 ) {
@@ -257,6 +270,7 @@ void PartA_HandleOst(void) { // Part A, script $783d; command 6 (OST), SELECT $7
     }
     if ( imageID != 0xff ) {
         ShowImage();
+        if (ScriptInterrupted()) return;
     }
     return;
 }
@@ -264,18 +278,21 @@ void PartA_HandleOst(void) { // Part A, script $783d; command 6 (OST), SELECT $7
 
 void PartA_HandleAusgaenge(void) { // Part A, script $786c; command 7 (AUSGAENGE), SELECT $76e0 case 7
     SPECIAL(0x08); // Ausgaenge listen
+    if (ScriptInterrupted()) return;
     return;
 }
 
 
 void PartA_HandleDisketteinstallieren(void) { // Part A, script $7870; command 8 (DISKETTEINSTALLIEREN), SELECT $76e0 case 8
     SPECIAL(0x09); // Diskette installieren
+    if (ScriptInterrupted()) return;
     return;
 }
 
 
 void PartA_HandleInventar(void) { // Part A, script $7874; command 9 (INVENTAR), SELECT $76e0 case 9
     SPECIAL(0x0a); // Inventar anzeigen
+    if (ScriptInterrupted()) return;
     return;
 }
 
@@ -283,6 +300,7 @@ void PartA_HandleInventar(void) { // Part A, script $7874; command 9 (INVENTAR),
 void PartA_HandleSchau(void) { // Part A, script $7878; command 10 (SCHAU), SELECT $76e0 case 10
     visited[currentRoom] = 0x00;
     Code2E5B();
+    if (ScriptInterrupted()) return;
     return;
 }
 
@@ -293,9 +311,13 @@ void PartA_HandleNord(void) { // Part A, script $787f; command 11 (NORD), SELECT
         currentRoom = AUF_EINER_LICHTUNG1;
         imageID = currentRoom;
         ShowImage();
+        if (ScriptInterrupted()) return;
         Code2E5B();
+        if (ScriptInterrupted()) return;
         showtext();
-        Restart();
+        if (ScriptInterrupted()) return;
+        FlushOutput();
+        if (ScriptInterrupted()) return;
         pendingTextID = 0x7a; // text ID 122 (0x007a), script $789b: B1 record 224: Als Du die Lichtung betrittst, hörst Du vor Dir ein fürchterliches Knurren und Fauchen! Erschrocken hältst Du inne und versteckst Dich vorsichtshalber erst einmal hinter dem nächsten Baum! Als sich Deine Augen ein wenig an das etwas schummerige Licht gewöhnt haben, erkennst Du auf der anderen Seite der Lichtung zwei miteinander kämpfende Tiere: Einen großen, grauen Wolf und ein zierliches, weiß schimmerndes Einhorn, dessen Fell schon völlig mit seinem bläulichen Blut besudelt ist, das aus unzähligen, tiefen Wunden sickert. Als der Wolf bemerkt, daß der Widerstand des geschwächten Einhorns erlahmt, attackiert er es noch wütender! Das grazile Fabelwesen hat nicht mehr genug Kraft, um den scharfen und langen Wolfszähnen noch lange Widerstand zu leisten...
         objectLocation[DAVE] = AUF_EINER_LICHTUNG1;
         imageID = 0xff;
@@ -304,6 +326,7 @@ void PartA_HandleNord(void) { // Part A, script $787f; command 11 (NORD), SELECT
     if ( north[currentRoom] != 0x00 ) {
         currentRoom = north[currentRoom];
         Code2E5B();
+        if (ScriptInterrupted()) return;
         objectLocation[DAVE] = currentRoom;
         imageID = currentRoom;
     } else {
@@ -329,9 +352,12 @@ x78dd:
         imageID = 0x82;
         objectLocation[DAVE] = 0xff;
         ShowImage();
+        if (ScriptInterrupted()) return;
         pendingTextID = 0x7b; // text ID 123 (0x007b), script $7915: B1 record 225: Du hättest den See wirklich nicht mit mehr Dingen betreten sollen als Du unbedingt zum Überleben benötigtest: Schwer wie ein Mühlstein wirst Du auf den Grund des Sees hinuntergezogen, wo Du elend ersäufst...
         showtext();
-        Restart();
+        if (ScriptInterrupted()) return;
+        FlushOutput();
+        if (ScriptInterrupted()) return;
         imageID = 0xff;
         goto x7939;
     }
@@ -344,6 +370,7 @@ x78dd:
 x7939:
     if ( imageID != 0xff ) {
         ShowImage();
+        if (ScriptInterrupted()) return;
     }
     return;
 }
@@ -351,18 +378,21 @@ x7939:
 
 void PartA_HandleSpielende(void) { // Part A, script $7942; command 12 (SPIELENDE), SELECT $76e0 case 12
     SPECIAL(0x05); // Spielende
+    if (ScriptInterrupted()) return;
     return;
 }
 
 
 void PartA_HandleNeustart(void) { // Part A, script $7946; command 13 (NEUSTART), SELECT $76e0 case 13
     SPECIAL(0x04); // Neustart
+    if (ScriptInterrupted()) return;
     return;
 }
 
 
 void PartA_HandleLaden(void) { // Part A, script $794a; command 14 (LADEN), SELECT $7718 case 1
     SPECIAL(0x02); // Laden
+    if (ScriptInterrupted()) return;
     return;
 }
 
@@ -375,6 +405,7 @@ void PartA_HandlePunkte(void) { // Part A, script $794e; command 15 (PUNKTE), SE
 
 void PartA_HandleLoesung(void) { // Part A, script $7953; command 16 (LOESUNG), SELECT $7718 case 3
     SPECIAL(0x06); // Loesung
+    if (ScriptInterrupted()) return;
     return;
 }
 
@@ -382,6 +413,7 @@ void PartA_HandleLoesung(void) { // Part A, script $7953; command 16 (LOESUNG), 
 void PartA_HandleMusikein(void) { // Part A, script $7957; command 17 (MUSIKEIN), SELECT $7718 case 4
     temp = 0x00;
     SPECIAL(0x07); // Musik ein
+    if (ScriptInterrupted()) return;
     return;
 }
 
@@ -389,6 +421,7 @@ void PartA_HandleMusikein(void) { // Part A, script $7957; command 17 (MUSIKEIN)
 void PartA_HandleAusgaenge12(void) { // Part A, script $795f; command 18 (AUSGAENGE12), SELECT $7718 case 5
     temp = 0x01;
     SPECIAL(0x08); // Ausgaenge listen
+    if (ScriptInterrupted()) return;
     return;
 }
 
@@ -398,6 +431,7 @@ void PartA_HandleSued(void) { // Part A, script $7967; command 19 (SUED), SELECT
     if ( south[currentRoom] != 0x00 ) {
         currentRoom = south[currentRoom];
         Code2E5B();
+        if (ScriptInterrupted()) return;
         objectLocation[DAVE] = currentRoom;
         imageID = currentRoom;
     } else {
@@ -408,9 +442,13 @@ void PartA_HandleSued(void) { // Part A, script $7967; command 19 (SUED), SELECT
     if ( currentRoom == IM_STRUDEL ) {
         objectLocation[DAVE] = 0xff;
         ShowImage();
+        if (ScriptInterrupted()) return;
         Code2E5B();
+        if (ScriptInterrupted()) return;
         showtext();
-        Restart();
+        if (ScriptInterrupted()) return;
+        FlushOutput();
+        if (ScriptInterrupted()) return;
         imageID = 0xff;
         goto x79b3;
     }
@@ -422,6 +460,7 @@ void PartA_HandleSued(void) { // Part A, script $7967; command 19 (SUED), SELECT
 x79b3:
     if ( imageID != 0xff ) {
         ShowImage();
+        if (ScriptInterrupted()) return;
     }
     return;
 }
@@ -429,6 +468,7 @@ x79b3:
 
 void PartA_HandleSpeichern(void) { // Part A, script $79bc; command 20 (SPEICHERN), SELECT $7718 case 7
     SPECIAL(0x03); // Speichern
+    if (ScriptInterrupted()) return;
     return;
 }
 
@@ -438,6 +478,7 @@ void PartA_HandleHinauf(void) { // Part A, script $79c0; command 21 (HINAUF), SE
     if ( up[currentRoom] != 0x00 ) {
         currentRoom = up[currentRoom];
         Code2E5B();
+        if (ScriptInterrupted()) return;
         objectLocation[DAVE] = currentRoom;
         imageID = currentRoom;
     } else {
@@ -447,6 +488,7 @@ void PartA_HandleHinauf(void) { // Part A, script $79c0; command 21 (HINAUF), SE
     }
     if ( imageID != 0xff ) {
         ShowImage();
+        if (ScriptInterrupted()) return;
     }
     return;
 }
@@ -473,6 +515,7 @@ void PartA_HandleWest(void) { // Part A, script $7a08; command 24 (WEST), SELECT
         currentRoom = west[currentRoom];
         objectLocation[DAVE] = currentRoom;
         Code2E5B();
+        if (ScriptInterrupted()) return;
         imageID = currentRoom;
     } else {
         if ( west[currentRoom] == 0x00 ) {
@@ -497,17 +540,23 @@ x7a3c:
         imageID = 0x82;
         objectLocation[DAVE] = 0xff;
         ShowImage();
+        if (ScriptInterrupted()) return;
         pendingTextID = 0x7b; // text ID 123 (0x007b), script $7a74: B1 record 225: Du hättest den See wirklich nicht mit mehr Dingen betreten sollen als Du unbedingt zum Überleben benötigtest: Schwer wie ein Mühlstein wirst Du auf den Grund des Sees hinuntergezogen, wo Du elend ersäufst...
         showtext();
-        Restart();
+        if (ScriptInterrupted()) return;
+        FlushOutput();
+        if (ScriptInterrupted()) return;
         imageID = 0xff;
         return;
     }
     if ( currentRoom == IM_TIEFEN_WALD && visited[IM_TIEFEN_WALD] == 0x00 ) {
         pendingTextID = 0xa6; // text ID 166 (0x00a6), script $7a8f: B1 record 268: Als Du gerade tiefer in den Wald treten willst, tritt ein Waldelf aus dem Unterholz vor Dich und versperrt Dir mit einer Geste den Weg, die keinen Widerspruch zuläßt. "Seid gegrüßt, Fremder!", begrüßt er Dich freundlich, "Bevor Ihr tiefer in unsere Welt vordringen dürft, müßt Ihr einen kleinen Test bezüglich der Spielanleitung bestehen, um zu beweisen, daß Ihr wirklich ein EIGENES Spiel besitzt - und nicht bloß eine von diesen minderwertigen Schwarzkopien..."
         showtext();
-        Restart();
+        if (ScriptInterrupted()) return;
+        FlushOutput();
+        if (ScriptInterrupted()) return;
         SPECIAL(0x01); // Codeabfrage
+        if (ScriptInterrupted()) return;
         objectLocation[DAVE] = currentRoom;
         return;
     }
@@ -515,6 +564,7 @@ x7a3c:
 x7aa1:
     if ( imageID != 0xff ) {
         ShowImage();
+        if (ScriptInterrupted()) return;
     }
 
 x7aa9:
@@ -604,7 +654,9 @@ x7b5c:
     if ( object1 == DAVE ) {
         pendingTextID = 0x3c; // text ID 60 (0x003c), script $7b6c: B1 record 162: Eine weise, ja geradezu philosophische Entscheidung: Selbstmord heißt, Probleme aus der Welt zu schaffen, die man ohne seine Eltern gar nicht hätte! Wirklich schönes Schlußwort! Hasta la vista... - Babe! HARAKIRIIIIIIIIIIHHHHH!
         showtext();
-        Restart();
+        if (ScriptInterrupted()) return;
+        FlushOutput();
+        if (ScriptInterrupted()) return;
         objectLocation[DAVE] = 0xff;
         return;
     }
@@ -651,8 +703,11 @@ void PartA_HandleBetritt(void) { // Part A, script $7c02; command 30 (BETRITT), 
         objectLocation[DAVE] = IN_DER_LOBBY;
         imageID = currentRoom;
         ShowImage();
+        if (ScriptInterrupted()) return;
         Code2E5B();
+        if (ScriptInterrupted()) return;
         showtext();
+        if (ScriptInterrupted()) return;
         imageID = 0xff;
         return;
     }
@@ -664,7 +719,7 @@ x7c24:
 
 
 void PartA_HandleBetrachte(void) { // Part A, script $7c25; command 31 (BETRACHTE), SELECT $7750 case 5
-    pendingTextID = objectDescriptionID[object1]; // dynamic text ID, script $7c25; resolve through texts/C64/text_ids.json
+    pendingTextID = objectDescriptionID[object1]; // dynamic text ID, script $7c25; resolve through GameTextLookup(gamePart, id)
     if ( object1 == TRESEN && objectLocation[KLINGEL] == RAUM_NULL ) {
         objectLocation[KLINGEL] = currentRoom;
         if ( objectLocation[PROSPEKT] == RAUM_NULL ) {
@@ -752,9 +807,12 @@ x7cfe:
         imageID = 0x83;
         objectLocation[DAVE] = 0xff;
         ShowImage();
+        if (ScriptInterrupted()) return;
         pendingTextID = 0x9a; // text ID 154 (0x009a), script $7d85: B1 record 256: "Ich habe sie umzingelt!", denkst Du Dir siegessicher: Mit einem wilden Kamikazeschrei stürmst Du die Lichtung und wirfst Dich mit aller Kraft gegen das Einhorn, um dem Wolf eine Gelegenheit zu geben, seine Zähne in die weiße Kehle des Fabelwesens zu schlagen. Vollgesudelt mit dem bläulichen Blut machen der Wolf und Du sich daran, das erlegte Einhorn auszuweiden, das Dich immer noch mit einem ungläubigen Blick aus seinen erlöschenden Augen anzublicken scheint. Dummerweise scheint der Hunger des Wolfes nach dieser Delikatesse jedoch immer noch nicht vollständig gestillt zu sein: Bei der ersten Gelegenheit, als Du gerade unvorsichtigerweise die Augen von ihm abwendest, springt Dir der Wolf an die Kehle und reißt Dir beinahe den Kopf vom Hals! Da er aber auch nach diesen beiden schmackhaften Mählern noch immer hungrig zu sein scheint, kannst Du ja im nächsten Spiel noch einmal hier vorbeikommen, um "dem Wolf zu helfen"...
         showtext();
-        Restart();
+        if (ScriptInterrupted()) return;
+        FlushOutput();
+        if (ScriptInterrupted()) return;
         imageID = 0xff;
         return;
     }
@@ -1087,7 +1145,7 @@ x8169:
             } else {
                 if ( objectState[object1] == 0x02 || objectState[object1] == 0x01 ) {
                     if ( objectState[object1] == 0x01 ) {
-                        PartA_HandleSchliesse();
+                        PartA_HandleSchliesse(); if (ScriptInterrupted()) return;
                     }
                     objectState[object1] = 0x00;
                 }

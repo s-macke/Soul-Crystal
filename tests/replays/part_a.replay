@@ -1,0 +1,70 @@
+# English C64 walkthrough, PDF page 13, first five bullets; translated commands.
+# Source SHA256: e21bdfcfcb6c5045ca83496bce0722ccd663300fe75167b7f8e1de02ba559319
+# Checkpoint immediately BEFORE the first handbook gate; not a full-game win.
+@part 1
+@room 3
+@mode ready
+@text Endlich da;
+> west
+@room 2
+> nord
+@room 6
+> betrachte tresen
+@location 12 6
+> druecke klingel
+@state 12 1
+> druecke klingel
+@state 12 2
+> druecke klingel
+@location 74 6
+> sprich portier
+@location 117 6
+> nimm zimmerschluessel
+@location 117 255
+> west
+@room 5
+> entriegele zimmertuer mit zimmerschluessel
+> oeffne zimmertuer
+> sued
+@room 1
+> betrachte stuhl
+@location 151 1
+> nimm badehose
+@location 151 255
+> nord
+@room 5
+> ost
+@room 6
+> sued
+@room 2
+> ost
+@room 3
+> ost
+@room 4
+> nord
+@room 8
+> verliere jeans
+@state 77 0
+> verliere t-shirt
+@state 143 0
+> verliere turnschuhe
+@state 126 0
+> verliere zimmerschluessel
+@location 117 8
+> wende badehose auf dave
+@state 151 1
+> nord
+> west
+> nord
+> nord
+> ost
+> nord
+> hilf einhorn
+> sprich einhorn
+> nimm kristallkugel
+@location 36 255
+@room 15
+@part 1
+@mode ready
+@score 40
+@finish checkpoint

@@ -175,7 +175,7 @@ void WriteC(const char* filename, const COutputInput& input,
     WriteDeclarations(fp, input);
 
     int indent = 1;
-    fprintf(fp, "\n\nvoid Execute(void) {\n");
+    fprintf(fp, "\n\nvoid %s(void) {\n", input.entryName);
 
     for (std::size_t i = 0; i < tokens.size();) {
 
@@ -200,7 +200,7 @@ void WriteC(const char* filename, const COutputInput& input,
                             fprintf(fp, " // text ID %u (0x%04x), script $%04x: %s", id, id,
                                 tokens[i].addr, found == comments.end() ? "outside mapped message range; engine special/error path" : found->second.c_str());
                         } else {
-                            fprintf(fp, " // dynamic text ID, script $%04x; resolve through texts/C64/text_ids.json", tokens[i].addr);
+                            fprintf(fp, " // dynamic text ID, script $%04x; resolve through GameTextLookup(gamePart, id)", tokens[i].addr);
                         }
                     }
                     i += 3;
@@ -257,7 +257,7 @@ void WriteC(const char* filename, const COutputInput& input,
             case TokenType::GOSUB:
                 Indent(indent, fp);
                 //fprintf(fp, "gosub x%04x;", tokens[i].data);
-                fprintf(fp, "%s();", symbols.at(tokens[i].data).name.c_str());
+                fprintf(fp, "%s(); if (ScriptInterrupted()) return;", symbols.at(tokens[i].data).name.c_str());
                 i++;
                 break;
 
@@ -277,7 +277,7 @@ void WriteC(const char* filename, const COutputInput& input,
                 k = 1;
                 while (tokens[i].type == TokenType::CASE) {
                     Indent(indent + 1, fp);
-                    fprintf(fp, " case %i: %s(); break;\n", k, symbols.at(tokens[i].data).name.c_str());
+                    fprintf(fp, " case %i: %s(); if (ScriptInterrupted()) return; break;\n", k, symbols.at(tokens[i].data).name.c_str());
                     i++;
                     k++;
                 }
@@ -293,6 +293,9 @@ void WriteC(const char* filename, const COutputInput& input,
                     if (comment == std::string::npos) fprintf(fp, "%s;", tokens[i].str.c_str());
                     else fprintf(fp, "%s;%s", tokens[i].str.substr(0, comment).c_str(), tokens[i].str.substr(comment).c_str());
                 }
+                fputs("\n", fp);
+                Indent(indent, fp);
+                fputs("if (ScriptInterrupted()) return;", fp);
                 i++;
                 break;
 
@@ -361,7 +364,7 @@ void WriteCHeader(const char* filename) {
 #define SOUL_GAME_SCRIPT_H
 
 #include <stdint.h>
-#include "src/C/game_ids.h"
+#include "game_ids.h"
 
 /* Preserve the existing scalar widths; enums name values, not storage types. */
 typedef uint8_t ScriptByte;
@@ -390,7 +393,13 @@ extern ScriptWord engineState69BF; // Saved engine field, meaning not yet fully 
 extern const ScriptByte *tableptr;
 void SPECIAL(ScriptWord operation);
 void showtext(void);
-void Restart(void);
+void FlushOutput(void);
+int ScriptInterrupted(void);
+void ResetGameState(void);
+void PartA_Execute(void);
+void PartB_Execute(void);
+void PartC_Execute(void);
+void PartD_Execute(void);
 void ShowImage(void);
 void Code2E5B(void);
 

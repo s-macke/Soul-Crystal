@@ -209,3 +209,14 @@ clang++ -std=c++17 src/C/tests/object_names_test.cpp -o /tmp/soul-object-names-t
 
 Der Test vergleicht alle vier Snapshots mit dem Speicherabbild des Disassemblies
 und prüft konkrete Namen, Umlaute, doppelte Anzeigenamen und ungültige Offsets.
+
+
+## Linkbare Konsolenbasis
+
+Die [Konsolenbasis](console_application.md) linkt nun alle vier Teile mit einer
+separaten C++-Engine. Die Einstiege heißen `PartA_Execute` bis `PartD_Execute`.
+`ScriptInterrupted()` propagiert Rückfragen und terminale Zustände nach Aufrufen,
+`FlushOutput()` ersetzt den irreführenden Namen `Restart()` für Opcode $EE.
+`out/game_ids.h` wird vom Konverter mit ausgegeben; ein Build der generierten
+Dateien braucht kein Include aus `src/C/`. `ResetGameState()` setzt alle
+veränderlichen Daten aus den kanonischen Konstanten zurück.

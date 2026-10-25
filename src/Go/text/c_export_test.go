@@ -21,6 +21,7 @@ func TestCompiledCTexts(t *testing.T) {
 #include <stdio.h>
 static void emit(const char *s) { if(s) fputs(s,stdout); putchar(0); }
 int main(void) {
+ emit(GameIntroText); emit(GameDiaryText);
  for(unsigned p=1;p<=4;p++) {
   for(unsigned r=0;r<GameTextRecordCount(p);r++) emit(GameTextRecord(p,r));
   for(unsigned id=0;id<=636;id++) { GameText t=GameTextLookup(p,id); printf("%d:",t.kind); emit(t.text); }
@@ -43,6 +44,14 @@ int main(void) {
 		t.Fatal(err)
 	}
 	var want bytes.Buffer
+	for _, path := range []string{"texts/C64/story.txt", "data/tagebuch.txt"} {
+		data, err := os.ReadFile(filepath.Join(root, path))
+		if err != nil {
+			t.Fatal(err)
+		}
+		want.WriteString(strings.ReplaceAll(string(data), "\r\n", "\n"))
+		want.WriteByte(0)
+	}
 	for side, disk := range knownRanges {
 		raw, err := os.ReadFile(filepath.Join(root, disk.path))
 		if err != nil {

@@ -383,10 +383,10 @@ void DecodeToken() {
             break;
 
         case 0xEE: // $2FA2 -> $961B: flush staged output, NOT a game restart.
-            // Historical emitted name; SPECIAL(4) is the actual restart flow.
+            // SPECIAL(4) is the actual restart flow.
             t.type = TokenType::FUNC;
-            t.str = "Restart()";
-            printf("Restart()");
+            t.str = "FlushOutput()";
+            printf("FlushOutput()");
             break;
 
         case 0xE7:
@@ -526,6 +526,7 @@ int main(int argc, char **argv) {
     if (argc > 2) { fprintf(stderr, "Usage: %s [output-directory]\n", argv[0]); return 2; }
     const std::string outDir = argc == 2 ? argv[1] : "out";
     std::filesystem::create_directories(outDir);
+    std::filesystem::copy_file("src/C/game_ids.h", outDir + "/game_ids.h", std::filesystem::copy_options::overwrite_existing);
     WriteCHeader((outDir + "/game_script.h").c_str());
     CTableFiles tableFiles((outDir + "/game_tables.c").c_str(), (outDir + "/game_tables.h").c_str());
     int size;
@@ -546,7 +547,7 @@ int main(int argc, char **argv) {
     //size = 0x2000;
     WalkCode(0x7600, size);
     TransformByteCode(size);
-    WriteC((outDir + "/parta.c").c_str(), {tokens, istable, isfunc, BuildFunctionSymbols(0, ram, isfunc, commandnames), objectnames, 165}, text_comments_B1, tableFiles);
+    WriteC((outDir + "/parta.c").c_str(), {tokens, istable, isfunc, BuildFunctionSymbols(0, ram, isfunc, commandnames), objectnames, 165, "PartA_Execute"}, text_comments_B1, tableFiles);
 
     Init();
     LoadVSF("data/C64/snapshots/diskb2.vsf");
@@ -554,7 +555,7 @@ int main(int argc, char **argv) {
     size = 7864;
     WalkCode(0x7600, size);
     TransformByteCode(size);
-    WriteC((outDir + "/partb.c").c_str(), {tokens, istable, isfunc, BuildFunctionSymbols(1, ram, isfunc, commandnames), objectnames, 165}, text_comments_B2, tableFiles);
+    WriteC((outDir + "/partb.c").c_str(), {tokens, istable, isfunc, BuildFunctionSymbols(1, ram, isfunc, commandnames), objectnames, 165, "PartB_Execute"}, text_comments_B2, tableFiles);
 
     Init();
     LoadVSF("data/C64/snapshots/diskc1.vsf");
@@ -562,7 +563,7 @@ int main(int argc, char **argv) {
     size = 3721;
     WalkCode(0x7600, size);
     TransformByteCode(size);
-    WriteC((outDir + "/partc.c").c_str(), {tokens, istable, isfunc, BuildFunctionSymbols(2, ram, isfunc, commandnames), objectnames, 165}, text_comments_C1, tableFiles);
+    WriteC((outDir + "/partc.c").c_str(), {tokens, istable, isfunc, BuildFunctionSymbols(2, ram, isfunc, commandnames), objectnames, 165, "PartC_Execute"}, text_comments_C1, tableFiles);
 
     Init();
     LoadVSF("data/C64/snapshots/diskc2.vsf");
@@ -570,7 +571,7 @@ int main(int argc, char **argv) {
     size = 6914;
     WalkCode(0x7600, size);
     TransformByteCode(size);
-    WriteC((outDir + "/partd.c").c_str(), {tokens, istable, isfunc, BuildFunctionSymbols(3, ram, isfunc, commandnames), objectnames, 165}, text_comments_C2, tableFiles);
+    WriteC((outDir + "/partd.c").c_str(), {tokens, istable, isfunc, BuildFunctionSymbols(3, ram, isfunc, commandnames), objectnames, 165, "PartD_Execute"}, text_comments_C2, tableFiles);
     return 0;
 }
 

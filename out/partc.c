@@ -47,18 +47,20 @@ void PartC_HandleEntriegele(void); // Part C, script $8273; command 44 (ENTRIEGE
 
 
 
-void Execute(void) {
+void PartC_Execute(void) {
 
 x7600:
     pendingTextID = 0x00; // text ID 0 (0x0000), script $7600: no text
     if ( command == HINUNTER || command == OST || command == NORD || command == SUED || command == HINAUF || command == WEST ) {
         if ( currentRoom != IM_DIENERSCHLAFZIMMER ) {
             SPECIAL(0x64); // Habe ich keine Kleidung an, vielleicht?
+            if (ScriptInterrupted()) return;
             if ( temp == 0x01 ) {
                 pendingTextID = 0x2e; // text ID 46 (0x002e), script $7632: C1 record 148: Du erwartest doch nicht allen Ernstes von mir, daß ich diesen Ort NACKT verlasse, oder?
                 goto x77a0;
             } else {
                 SPECIAL(0x65);
+                if (ScriptInterrupted()) return;
                 if ( temp == 0x01 ) {
                     objectState[DAVE] = 0x64;
                 }
@@ -66,8 +68,10 @@ x7600:
         }
     }
     SPECIAL(0x66);
+    if (ScriptInterrupted()) return;
     if ( temp == 0x01 ) {
         SPECIAL(0x67);
+        if (ScriptInterrupted()) return;
         if ( temp == 0x01 ) {
             if ( gamePart == 0x01 ) {
             } else {
@@ -88,7 +92,9 @@ x7600:
             if ( objectState[DAVE] == 0x4b || objectState[DAVE] == 0x32 || objectState[DAVE] == 0x19 ) {
                 pendingTextID = 0x30; // text ID 48 (0x0030), script $76b5: C1 record 150: Langsam fange ich an zu frieren! Es wird immer kälter hier, also sieh Dich langsam mal nach einem warmen Plätzchen um, wo wir in Ruhe die Nacht verbringen können!
                 showtext();
-                Restart();
+                if (ScriptInterrupted()) return;
+                FlushOutput();
+                if (ScriptInterrupted()) return;
                 pendingTextID = 0x00; // text ID 0 (0x0000), script $76bb: no text
                 goto x76e7;
             } else {
@@ -96,9 +102,12 @@ x7600:
                     imageID = 0x81;
                     objectLocation[DAVE] = 0xff;
                     ShowImage();
+                    if (ScriptInterrupted()) return;
                     pendingTextID = 0x31; // text ID 49 (0x0031), script $76d6: C1 record 151: Also, halte mir jetzt bitte nicht vor, daß ich Dich nicht gewarnt hätte - Du hast wirklich genug Zeit gehabt, um nach jemandem zu suchen, der Dir wärmere Kleidung hätte geben können - doch nun ist es endgültig zu spät: Du erfrierst, ohne auch nur die geringste Chance gehabt zu haben, das Spiel zu lösen! Schade eigentlich...
                     showtext();
-                    Restart();
+                    if (ScriptInterrupted()) return;
+                    FlushOutput();
+                    if (ScriptInterrupted()) return;
                     pendingTextID = 0x00; // text ID 0 (0x0000), script $76dc: no text
                     return;
                 }
@@ -108,68 +117,68 @@ x7600:
 
 x76e7:
     switch(command) { // SELECT script $76e7; original cases are 1-based
-         case 1: PartC_HandleUebersoulcrystal(); break;
-         case 2: PartC_HandleKurztext(); break;
-         case 3: PartC_HandleCredits(); break;
-         case 4: PartC_HandleGrabe(); break;
-         case 5: PartC_HandleHinunter(); break;
-         case 6: PartC_HandleOst(); break;
-         case 7: PartC_HandleAusgaenge(); break;
-         case 8: PartC_HandleDisketteinstallieren(); break;
-         case 9: PartC_HandleInventar(); break;
-         case 10: PartC_HandleSchau(); break;
-         case 11: PartC_HandleNord(); break;
-         case 12: PartC_HandleSpielende(); break;
-         case 13: PartC_HandleNeustart(); break;
+         case 1: PartC_HandleUebersoulcrystal(); if (ScriptInterrupted()) return; break;
+         case 2: PartC_HandleKurztext(); if (ScriptInterrupted()) return; break;
+         case 3: PartC_HandleCredits(); if (ScriptInterrupted()) return; break;
+         case 4: PartC_HandleGrabe(); if (ScriptInterrupted()) return; break;
+         case 5: PartC_HandleHinunter(); if (ScriptInterrupted()) return; break;
+         case 6: PartC_HandleOst(); if (ScriptInterrupted()) return; break;
+         case 7: PartC_HandleAusgaenge(); if (ScriptInterrupted()) return; break;
+         case 8: PartC_HandleDisketteinstallieren(); if (ScriptInterrupted()) return; break;
+         case 9: PartC_HandleInventar(); if (ScriptInterrupted()) return; break;
+         case 10: PartC_HandleSchau(); if (ScriptInterrupted()) return; break;
+         case 11: PartC_HandleNord(); if (ScriptInterrupted()) return; break;
+         case 12: PartC_HandleSpielende(); if (ScriptInterrupted()) return; break;
+         case 13: PartC_HandleNeustart(); if (ScriptInterrupted()) return; break;
     }
     if ( pendingTextID != 0x00 ) {
         goto x77a0;
     }
     temp = command - NEUSTART;
     switch(temp) { // SELECT script $771f; original cases are 1-based
-         case 1: PartC_HandleLaden(); break;
-         case 2: PartC_HandlePunkte(); break;
-         case 3: PartC_HandleLoesung(); break;
-         case 4: PartC_HandleMusikein(); break;
-         case 5: PartC_HandleAusgaenge12(); break;
-         case 6: PartC_HandleSued(); break;
-         case 7: PartC_HandleSpeichern(); break;
-         case 8: PartC_HandleHinauf(); break;
-         case 9: PartC_HandleAusfuehrlich(); break;
-         case 10: PartC_HandleWarte(); break;
-         case 11: PartC_HandleWest(); break;
-         case 12: PartC_Sub_7bd9(); break;
-         case 13: PartC_Sub_7bda(); break;
+         case 1: PartC_HandleLaden(); if (ScriptInterrupted()) return; break;
+         case 2: PartC_HandlePunkte(); if (ScriptInterrupted()) return; break;
+         case 3: PartC_HandleLoesung(); if (ScriptInterrupted()) return; break;
+         case 4: PartC_HandleMusikein(); if (ScriptInterrupted()) return; break;
+         case 5: PartC_HandleAusgaenge12(); if (ScriptInterrupted()) return; break;
+         case 6: PartC_HandleSued(); if (ScriptInterrupted()) return; break;
+         case 7: PartC_HandleSpeichern(); if (ScriptInterrupted()) return; break;
+         case 8: PartC_HandleHinauf(); if (ScriptInterrupted()) return; break;
+         case 9: PartC_HandleAusfuehrlich(); if (ScriptInterrupted()) return; break;
+         case 10: PartC_HandleWarte(); if (ScriptInterrupted()) return; break;
+         case 11: PartC_HandleWest(); if (ScriptInterrupted()) return; break;
+         case 12: PartC_Sub_7bd9(); if (ScriptInterrupted()) return; break;
+         case 13: PartC_Sub_7bda(); if (ScriptInterrupted()) return; break;
     }
     if ( pendingTextID != 0x00 ) {
         goto x77a0;
     }
     temp = command - NIX2;
     switch(temp) { // SELECT script $7757; original cases are 1-based
-         case 1: PartC_HandleSchliesse(); break;
-         case 2: PartC_HandleZerstoere(); break;
-         case 3: PartC_HandleVerliere(); break;
-         case 4: PartC_HandleBetritt(); break;
-         case 5: PartC_HandleBetrachte(); break;
-         case 6: PartC_HandleHilf(); break;
-         case 7: PartC_HandleVerlasse(); break;
-         case 8: PartC_HandleBewege(); break;
-         case 9: PartC_HandleOeffne(); break;
-         case 10: PartC_HandleZiehe(); break;
-         case 11: PartC_HandleDruecke(); break;
+         case 1: PartC_HandleSchliesse(); if (ScriptInterrupted()) return; break;
+         case 2: PartC_HandleZerstoere(); if (ScriptInterrupted()) return; break;
+         case 3: PartC_HandleVerliere(); if (ScriptInterrupted()) return; break;
+         case 4: PartC_HandleBetritt(); if (ScriptInterrupted()) return; break;
+         case 5: PartC_HandleBetrachte(); if (ScriptInterrupted()) return; break;
+         case 6: PartC_HandleHilf(); if (ScriptInterrupted()) return; break;
+         case 7: PartC_HandleVerlasse(); if (ScriptInterrupted()) return; break;
+         case 8: PartC_HandleBewege(); if (ScriptInterrupted()) return; break;
+         case 9: PartC_HandleOeffne(); if (ScriptInterrupted()) return; break;
+         case 10: PartC_HandleZiehe(); if (ScriptInterrupted()) return; break;
+         case 11: PartC_HandleDruecke(); if (ScriptInterrupted()) return; break;
     }
     if ( pendingTextID != 0x00 ) {
         goto x77a0;
     }
     temp = command - DRUECKE;
     switch(temp) { // SELECT script $7789; original cases are 1-based
-         case 1: PartC_HandleNimm(); break;
-         case 2: PartC_HandleSprich(); break;
-         case 3: PartC_HandleWende(); break;
-         case 4: PartC_HandleBefestige(); break;
-         case 5: PartC_HandleGib(); break;
-         case 6: PartC_HandleVerriegele(); break;
-         case 7: PartC_HandleEntriegele(); break;
+         case 1: PartC_HandleNimm(); if (ScriptInterrupted()) return; break;
+         case 2: PartC_HandleSprich(); if (ScriptInterrupted()) return; break;
+         case 3: PartC_HandleWende(); if (ScriptInterrupted()) return; break;
+         case 4: PartC_HandleBefestige(); if (ScriptInterrupted()) return; break;
+         case 5: PartC_HandleGib(); if (ScriptInterrupted()) return; break;
+         case 6: PartC_HandleVerriegele(); if (ScriptInterrupted()) return; break;
+         case 7: PartC_HandleEntriegele(); if (ScriptInterrupted()) return; break;
     }
 
 x77a0:
@@ -179,21 +188,28 @@ x77a0:
         if ( gamePart == 0x03 ) {
             if ( currentRoom == IM_TREIBSAND ) {
                 showtext();
-                Restart();
+                if (ScriptInterrupted()) return;
+                FlushOutput();
+                if (ScriptInterrupted()) return;
                 objectLocation[DAVE] = 0xff;
             }
             if ( currentRoom == IM_MOOR2 ) {
                 if ( objectState[0xa5] >= 0x03 ) {
                     if ( pendingTextID != 0x00 ) {
                         showtext();
-                        Restart();
+                        if (ScriptInterrupted()) return;
+                        FlushOutput();
+                        if (ScriptInterrupted()) return;
                     }
                     objectLocation[DAVE] = 0xff;
                     imageID = 0x84;
                     ShowImage();
+                    if (ScriptInterrupted()) return;
                     pendingTextID = 0x0175; // text ID 373 (0x0175), script $77e6: C1 record 226: Tut mir leid: Du hattest wirklich eine reelle Chance gehabt, noch einmal mit dem Schrecken davonzukommen, aber leider hast Du mal wieder ein wenig zu lange gezögert: Glücklich zieht Dich der Zombie an Dich heran und schlägt voller Genuß seine Zähne in Dein junges, zartes Fleisch! Aber nicht verzweifeln: Immerhin bis Du einem echten Gourmet zum Opfer gefallen, und sicherlich werden einige Deiner schmackhaftesten Körperteile, wie Augen, Zunge, und ähnliche Delikatessen, in seine Vorratshöhle verfrachtet und eingemacht werden, da es einfach viel zu selten vorkommt, daß sich ein unglücklicher Abenteurer in diese Gegend verirrt, als daß man solch' fette Beute gleich an Ort und Stelle verzehren sollte...
                     showtext();
-                    Restart();
+                    if (ScriptInterrupted()) return;
+                    FlushOutput();
+                    if (ScriptInterrupted()) return;
                     return;
                 }
             }
@@ -246,6 +262,7 @@ void PartC_HandleHinunter(void) { // Part C, script $7858; command 5 (HINUNTER),
         currentRoom = down[currentRoom];
         objectLocation[DAVE] = currentRoom;
         Code2E5B();
+        if (ScriptInterrupted()) return;
         imageID = currentRoom;
     } else {
         if ( down[currentRoom] == 0x00 ) {
@@ -254,6 +271,7 @@ void PartC_HandleHinunter(void) { // Part C, script $7858; command 5 (HINUNTER),
     }
     if ( imageID != 0xff ) {
         ShowImage();
+        if (ScriptInterrupted()) return;
     }
     return;
 }
@@ -265,9 +283,12 @@ void PartC_HandleOst(void) { // Part C, script $7887; command 6 (OST), SELECT $7
         objectLocation[DAVE] = 0xff;
         imageID = 0x84;
         ShowImage();
+        if (ScriptInterrupted()) return;
         pendingTextID = 0x0176; // text ID 374 (0x0176), script $789c: C1 record 227: Es war ein tödlicher Fehler, nach Deiner Begegnung von vorhin wieder hierher zurückzukehren: Ein wahres Rudel Zombies steht bereits zu Deinem Empfang bereit und kommt mit langsamen, abgehackten Bewegungen und starrem Blick direkt auf Dich zu - an der Spitze der Zombie, dem Du gerade erst knapp entronnen bist! Dieses Mal hast Du Dich allerdings etwas besser unter Kontrolle, und Deine Reaktion ist um einiges schneller als vorhin: Blitzschnell wirbelst Du herum, nimmst die Beine in die Hand und rennst um Dein Leben, so schnell es Dir auf dem weichen Moorboden überhaupt möglich ist - und direkt in die ausgestreckten Arme eines weiteren Zombies, der wohl nicht so ganz kapiert hatte, was hier draußen überhaupt abging! Zu schade, wirklich - denn Deine Zeit war schon fast weltrekordverdächtig! Nichtsdestotrotz ist der Zombie hocherfreut, Deine Bekanntschaft zu machen, da er schon seit Wochen nicht mehr in den Genuß frischen Fleisches gekommen ist - und immer nur "Konservenabenteurer" zu fressen, die im Sumpf versunken sind, ist auf die Dauer auch für einen halbverwesten Zombiemagen eine etwas zu einseitige und ungesunde Ernährung! Nach einem kurzen Tischgebet schlägt er also dankbar seine Hauer in Dein Fleisch: "Verdammt! Wer hätte gedacht, daß diese brauen Stümpfe noch so scharf sein können...", ist Dein letzter Gedanke, bevor alles vor Deinen Augen verschwimmt...
         showtext();
-        Restart();
+        if (ScriptInterrupted()) return;
+        FlushOutput();
+        if (ScriptInterrupted()) return;
         imageID = 0xff;
         goto x78fa;
     }
@@ -275,6 +296,7 @@ void PartC_HandleOst(void) { // Part C, script $7887; command 6 (OST), SELECT $7
         currentRoom = east[currentRoom];
         objectLocation[DAVE] = currentRoom;
         Code2E5B();
+        if (ScriptInterrupted()) return;
         imageID = currentRoom;
     } else {
         if ( east[currentRoom] == 0x00 ) {
@@ -284,11 +306,15 @@ void PartC_HandleOst(void) { // Part C, script $7887; command 6 (OST), SELECT $7
     if ( currentRoom == IN_EINEM_VERWUNSCHENEN_WALD2 ) {
         if ( objectLocation[AMULETT] == 0xff && objectState[AMULETT] == 0x01 ) {
             ShowImage();
+            if (ScriptInterrupted()) return;
             showtext();
-            Restart();
+            if (ScriptInterrupted()) return;
+            FlushOutput();
+            if (ScriptInterrupted()) return;
             imageID = 0xff;
             pendingTextID = 0x0178; // text ID 376 (0x0178), script $78e9: C1 record 229: Während Du unter den toten Bäumen entlangwanderst, fühlst Du plötzlich, wie etwas brutal an Deinem Hals zerrt! Zu Tode erschrocken versuchst Du, Deinen unsichtbaren Gegner abzuschütteln und wirfst Dich hin und her, bis er schließlich von Dir abläßt - und Du Dich kaum beherrschen kannst, nicht in hysterisches Gelächter auszubrechen: Dein "Gegner" war lediglich Dein Amulett, das sich von Dir unbemerkt in einem der Äste verfangen hatte und nun wie zum Hohn von einem der Bäume herunterbaumelt...
             showtext();
+            if (ScriptInterrupted()) return;
             objectLocation[AMULETT] = IN_EINEM_VERWUNSCHENEN_WALD2;
             goto x78fa;
         }
@@ -297,6 +323,7 @@ void PartC_HandleOst(void) { // Part C, script $7887; command 6 (OST), SELECT $7
 x78fa:
     if ( imageID != 0xff ) {
         ShowImage();
+        if (ScriptInterrupted()) return;
     }
     return;
 }
@@ -304,18 +331,21 @@ x78fa:
 
 void PartC_HandleAusgaenge(void) { // Part C, script $7903; command 7 (AUSGAENGE), SELECT $76e7 case 7
     SPECIAL(0x08); // Ausgaenge listen
+    if (ScriptInterrupted()) return;
     return;
 }
 
 
 void PartC_HandleDisketteinstallieren(void) { // Part C, script $7907; command 8 (DISKETTEINSTALLIEREN), SELECT $76e7 case 8
     SPECIAL(0x09); // Diskette installieren
+    if (ScriptInterrupted()) return;
     return;
 }
 
 
 void PartC_HandleInventar(void) { // Part C, script $790b; command 9 (INVENTAR), SELECT $76e7 case 9
     SPECIAL(0x0a); // Inventar anzeigen
+    if (ScriptInterrupted()) return;
     return;
 }
 
@@ -323,6 +353,7 @@ void PartC_HandleInventar(void) { // Part C, script $790b; command 9 (INVENTAR),
 void PartC_HandleSchau(void) { // Part C, script $790f; command 10 (SCHAU), SELECT $76e7 case 10
     visited[currentRoom] = 0x00;
     Code2E5B();
+    if (ScriptInterrupted()) return;
     return;
 }
 
@@ -333,9 +364,12 @@ void PartC_HandleNord(void) { // Part C, script $7916; command 11 (NORD), SELECT
         imageID = 0x83;
         objectLocation[DAVE] = 0xff;
         ShowImage();
+        if (ScriptInterrupted()) return;
         pendingTextID = 0x0173; // text ID 371 (0x0173), script $7932: C1 record 224: Hmmm...: Mir ist zwar durchaus bekannt, daß es Leute gibt, die ein Moorbad aufgrund seiner gesundheitsfördernden Wirkungen sehr zu schätzen wissen, aber dies hier ist ein tiefer Sumpf - nicht bloß irgendein harmloses, kleines Moor! Hilflos sinkst Du also bis auf den Grund des Sumpfsees hinab, um dort für alle Ewigkeiten konserviert zu werden. Tja, also ich glaube trotzdem, eine Konservierung durch die "Speichern"-Funktion wäre Deiner Gesundheit zuträglicher gewesen, meinst Du nicht...?
         showtext();
-        Restart();
+        if (ScriptInterrupted()) return;
+        FlushOutput();
+        if (ScriptInterrupted()) return;
         imageID = 0xff;
         goto x7a37;
     } else {
@@ -356,9 +390,12 @@ void PartC_HandleNord(void) { // Part C, script $7916; command 11 (NORD), SELECT
             imageID = 0x85;
             objectLocation[DAVE] = 0xff;
             ShowImage();
+            if (ScriptInterrupted()) return;
             pendingTextID = 0x0179; // text ID 377 (0x0179), script $7999: C1 record 230: Okay, sagen wir: Es war ein Versuch - und reden wir nicht weiter darüber, denn sonderlich erfolgreich war er nicht, wie Du schmerzhaft erfahren mußt: Bevor Du auch nur die geringste Chance bekommst, unter dem Portalbogen hindurchschlüpfen zu können, hörst Du etwas von oben herunterrasseln... Naja gut, fassen wir uns ausnahmsweise mal kurz und erzählen Dir einfach, was Dich mal wieder aus dieser schnöden Welt hinweggerafft hat: Das Fallgitter, das Du aktiviert hast, indem Du auf die kleine Plattform darunter getreten bist, hat Dich mit einem einzigen, schweren Schlag erschlagen! Du bist tot - ja, wirklich: Das ist unser voller Ernst! Du bist abgekratzt, hast den Löffel aus der Hand gelegt, ins Gras gebissen, kurz: Du bist weg! Beklag' Dich jetzt bitte nicht bei uns: Hättest Du ein wenig aufmerksamer auf Deine Umgebung geachtet, so wäre Dir die kleine Plattform unter dem Gitter wohl nicht entgangen! Siehst Du? Also ist es wohl eher Deine als unsere Schuld, wenn Du mal wieder von vorn anfangen darfst! Was, das glaubst Du nicht? Naja, irgendwie kann ich Dich ja verstehen: Du hast echt nicht den geringsten Grund dazu - aber vielleicht kann Dich dies hier ja überzeugen...:
             showtext();
-            Restart();
+            if (ScriptInterrupted()) return;
+            FlushOutput();
+            if (ScriptInterrupted()) return;
             imageID = 0xff;
             goto x7a37;
         }
@@ -366,10 +403,15 @@ void PartC_HandleNord(void) { // Part C, script $7916; command 11 (NORD), SELECT
     if ( currentRoom == UNTER_DEM_TORBOGEN && north[UNTER_DEM_TORBOGEN] != 0x00 ) {
         pendingTextID = 0x018b; // text ID 395 (0x018b), script $79b6: C1 record 248: Es ist wieder einmal soweit: "Hi. Hier sind die A.C.A-Götter...", hörst Du ein paar Stimmen von unendlicher Güte aus dem Himmel zu Dir herunterschallen. "Weiß der Geier, wie Du es geschafft hast, zwei unserer nervtötenden Codeabfragen zu überstehen - aber diesmal bist Du endlich fällig...!"
         showtext();
-        Restart();
+        if (ScriptInterrupted()) return;
+        FlushOutput();
+        if (ScriptInterrupted()) return;
         SPECIAL(0x01); // Codeabfrage
+        if (ScriptInterrupted()) return;
         showtext();
-        Restart();
+        if (ScriptInterrupted()) return;
+        FlushOutput();
+        if (ScriptInterrupted()) return;
         pendingTextID = 0x01b4; // text ID 436 (0x01b4), script $79c2: not displayed on C1 by $3F62
         imageID = 0xff;
         objectLocation[DAVE] = currentRoom;
@@ -378,6 +420,7 @@ void PartC_HandleNord(void) { // Part C, script $7916; command 11 (NORD), SELECT
     if ( north[currentRoom] != 0x00 ) {
         currentRoom = north[currentRoom];
         Code2E5B();
+        if (ScriptInterrupted()) return;
         objectLocation[DAVE] = currentRoom;
         imageID = currentRoom;
     } else {
@@ -395,9 +438,12 @@ x79fa:
     if ( currentRoom == IM_MOOR2 ) {
         if ( objectState[0xa5] == 0x00 ) {
             ShowImage();
+            if (ScriptInterrupted()) return;
             showtext();
+            if (ScriptInterrupted()) return;
             imageID = currentRoom;
-            Restart();
+            FlushOutput();
+            if (ScriptInterrupted()) return;
             imageID = 0xff;
             objectLocation[0xa5] = IM_MOOR2;
             objectState[0xa5] = 0x01;
@@ -409,6 +455,7 @@ x79fa:
 x7a37:
     if ( imageID != 0xff ) {
         ShowImage();
+        if (ScriptInterrupted()) return;
     }
     return;
 }
@@ -416,18 +463,21 @@ x7a37:
 
 void PartC_HandleSpielende(void) { // Part C, script $7a40; command 12 (SPIELENDE), SELECT $76e7 case 12
     SPECIAL(0x05); // Spielende
+    if (ScriptInterrupted()) return;
     return;
 }
 
 
 void PartC_HandleNeustart(void) { // Part C, script $7a44; command 13 (NEUSTART), SELECT $76e7 case 13
     SPECIAL(0x04); // Neustart
+    if (ScriptInterrupted()) return;
     return;
 }
 
 
 void PartC_HandleLaden(void) { // Part C, script $7a48; command 14 (LADEN), SELECT $771f case 1
     SPECIAL(0x02); // Laden
+    if (ScriptInterrupted()) return;
     return;
 }
 
@@ -440,6 +490,7 @@ void PartC_HandlePunkte(void) { // Part C, script $7a4c; command 15 (PUNKTE), SE
 
 void PartC_HandleLoesung(void) { // Part C, script $7a51; command 16 (LOESUNG), SELECT $771f case 3
     SPECIAL(0x06); // Loesung
+    if (ScriptInterrupted()) return;
     return;
 }
 
@@ -447,6 +498,7 @@ void PartC_HandleLoesung(void) { // Part C, script $7a51; command 16 (LOESUNG), 
 void PartC_HandleMusikein(void) { // Part C, script $7a55; command 17 (MUSIKEIN), SELECT $771f case 4
     temp = 0x00;
     SPECIAL(0x07); // Musik ein
+    if (ScriptInterrupted()) return;
     return;
 }
 
@@ -454,6 +506,7 @@ void PartC_HandleMusikein(void) { // Part C, script $7a55; command 17 (MUSIKEIN)
 void PartC_HandleAusgaenge12(void) { // Part C, script $7a5d; command 18 (AUSGAENGE12), SELECT $771f case 5
     temp = 0x01;
     SPECIAL(0x08); // Ausgaenge listen
+    if (ScriptInterrupted()) return;
     return;
 }
 
@@ -465,10 +518,13 @@ void PartC_HandleSued(void) { // Part C, script $7a65; command 19 (SUED), SELECT
             imageID = 0x82;
             objectLocation[DAVE] = 0xff;
             ShowImage();
+            if (ScriptInterrupted()) return;
             pendingTextID = 0x0177; // text ID 375 (0x0177), script $7a89: C1 record 228: Während Du Dich auf den Rückweg aus dem verwunschenen Wald nach Süden machst, verfängt sich das Amulett, das Dich auf dem Hinweg durch die magische Barriere vor ihrer zerstörerischen Kraft beschützt hatte, in einem der abgestorbenen Äste: Ohne, daß Du es bemerkst, löst es sich von Deinem Hals, so daß Du - nichts Böses ahnend - frohen Mutes die Grenze zwischen den beiden Waldabschnitten durchschreitest und die andere Seite der magischen Wand zwar knackig braun, aber leider auch ziemlich tot erreichst...
             showtext();
+            if (ScriptInterrupted()) return;
             imageID = 0xff;
-            Restart();
+            FlushOutput();
+            if (ScriptInterrupted()) return;
             imageID = 0xff;
             goto x7b2d;
         } else {
@@ -480,9 +536,12 @@ void PartC_HandleSued(void) { // Part C, script $7a65; command 19 (SUED), SELECT
         imageID = 0x83;
         objectLocation[DAVE] = 0xff;
         ShowImage();
+        if (ScriptInterrupted()) return;
         pendingTextID = 0x0173; // text ID 371 (0x0173), script $7abd: C1 record 224: Hmmm...: Mir ist zwar durchaus bekannt, daß es Leute gibt, die ein Moorbad aufgrund seiner gesundheitsfördernden Wirkungen sehr zu schätzen wissen, aber dies hier ist ein tiefer Sumpf - nicht bloß irgendein harmloses, kleines Moor! Hilflos sinkst Du also bis auf den Grund des Sumpfsees hinab, um dort für alle Ewigkeiten konserviert zu werden. Tja, also ich glaube trotzdem, eine Konservierung durch die "Speichern"-Funktion wäre Deiner Gesundheit zuträglicher gewesen, meinst Du nicht...?
         showtext();
-        Restart();
+        if (ScriptInterrupted()) return;
+        FlushOutput();
+        if (ScriptInterrupted()) return;
         imageID = 0xff;
         goto x7b2d;
     } else {
@@ -501,6 +560,7 @@ void PartC_HandleSued(void) { // Part C, script $7a65; command 19 (SUED), SELECT
     if ( south[currentRoom] != 0x00 ) {
         currentRoom = south[currentRoom];
         Code2E5B();
+        if (ScriptInterrupted()) return;
         objectLocation[DAVE] = currentRoom;
         imageID = currentRoom;
     } else {
@@ -512,6 +572,7 @@ void PartC_HandleSued(void) { // Part C, script $7a65; command 19 (SUED), SELECT
 x7b2d:
     if ( imageID != 0xff ) {
         ShowImage();
+        if (ScriptInterrupted()) return;
     }
     return;
 }
@@ -519,6 +580,7 @@ x7b2d:
 
 void PartC_HandleSpeichern(void) { // Part C, script $7b36; command 20 (SPEICHERN), SELECT $771f case 7
     SPECIAL(0x03); // Speichern
+    if (ScriptInterrupted()) return;
     return;
 }
 
@@ -528,6 +590,7 @@ void PartC_HandleHinauf(void) { // Part C, script $7b3a; command 21 (HINAUF), SE
     if ( up[currentRoom] != 0x00 ) {
         currentRoom = up[currentRoom];
         Code2E5B();
+        if (ScriptInterrupted()) return;
         objectLocation[DAVE] = currentRoom;
         imageID = currentRoom;
     } else {
@@ -537,6 +600,7 @@ void PartC_HandleHinauf(void) { // Part C, script $7b3a; command 21 (HINAUF), SE
     }
     if ( imageID != 0xff ) {
         ShowImage();
+        if (ScriptInterrupted()) return;
     }
     return;
 }
@@ -567,6 +631,7 @@ void PartC_HandleWest(void) { // Part C, script $7b82; command 24 (WEST), SELECT
         currentRoom = west[currentRoom];
         objectLocation[DAVE] = currentRoom;
         Code2E5B();
+        if (ScriptInterrupted()) return;
         imageID = currentRoom;
     } else {
         if ( west[currentRoom] == 0x00 ) {
@@ -582,6 +647,7 @@ x7bc1:
     }
     if ( imageID != 0xff ) {
         ShowImage();
+        if (ScriptInterrupted()) return;
     }
 
 x7bd8:
@@ -671,7 +737,9 @@ x7c8b:
     if ( object1 == DAVE ) {
         pendingTextID = 0x3c; // text ID 60 (0x003c), script $7c9b: C1 record 162: Eine weise, ja geradezu philosophische Entscheidung: Selbstmord heißt, Probleme aus der Welt zu schaffen, die man ohne seine Eltern gar nicht hätte! Wirklich schönes Schlußwort! Hasta la vista... - Babe! HARAKIRIIIIIIIIIIHHHHH!
         showtext();
-        Restart();
+        if (ScriptInterrupted()) return;
+        FlushOutput();
+        if (ScriptInterrupted()) return;
         objectLocation[DAVE] = 0xff;
         return;
     }
@@ -734,7 +802,7 @@ x7d6c:
 
 
 void PartC_HandleBetrachte(void) { // Part C, script $7d6d; command 31 (BETRACHTE), SELECT $7757 case 5
-    pendingTextID = objectDescriptionID[object1]; // dynamic text ID, script $7d6d; resolve through texts/C64/text_ids.json
+    pendingTextID = objectDescriptionID[object1]; // dynamic text ID, script $7d6d; resolve through GameTextLookup(gamePart, id)
     if ( object1 == KURZSCHWERT ) {
         if ( objectState[KURZSCHWERT] == 0x01 ) {
             pendingTextID = 0x011f; // text ID 287 (0x011f), script $7d7f: not displayed on C1 by $3F62
@@ -800,8 +868,11 @@ void PartC_HandleVerlasse(void) { // Part C, script $7e13; command 33 (VERLASSE)
             objectLocation[DAVE] = 0xff;
             imageID = 0x83;
             ShowImage();
+            if (ScriptInterrupted()) return;
             showtext();
-            Restart();
+            if (ScriptInterrupted()) return;
+            FlushOutput();
+            if (ScriptInterrupted()) return;
             return;
         } else {
             objectState[BOOT] = 0x00;
@@ -942,6 +1013,7 @@ x7fa0:
     if ( object1 == AMULETT && currentRoom == IN_EINEM_VERWUNSCHENEN_WALD2 ) {
         pendingTextID = 0x0182; // text ID 386 (0x0182), script $7fab: C1 record 239: Als Du versuchst, das Amulett vom Ast loszumachen, rutscht es Dir durch Deine immer noch etwas zittrigen Finger, fällt zu Boden - und verschwindet mit einem kurzen "Blobb!" im Morast...
         showtext();
+        if (ScriptInterrupted()) return;
         objectLocation[AMULETT] = 0x69;
         objectState[AMULETT] = 0x00;
         return;
@@ -1030,6 +1102,7 @@ void PartC_HandleWende(void) { // Part C, script $803d; command 40 (WENDE), SELE
                 if ( currentRoom == IN_EINEM_VERWUNSCHENEN_WALD2 ) {
                     pendingTextID = 0x0182; // text ID 386 (0x0182), script $80da: C1 record 239: Als Du versuchst, das Amulett vom Ast loszumachen, rutscht es Dir durch Deine immer noch etwas zittrigen Finger, fällt zu Boden - und verschwindet mit einem kurzen "Blobb!" im Morast...
                     showtext();
+                    if (ScriptInterrupted()) return;
                     objectLocation[AMULETT] = 0x69;
                     objectState[AMULETT] = 0x00;
                     return;
@@ -1055,7 +1128,9 @@ void PartC_HandleWende(void) { // Part C, script $803d; command 40 (WENDE), SELE
         if ( object2 == DAVE ) {
             pendingTextID = 0x60; // text ID 96 (0x0060), script $8178: C1 record 198: Na gut, wie Du meinst: Heldenhaft stürzst Du Dich in die Klinge Deines Schwertes - aber nichts passiert! Kein Blut, kein Schmerz, rein gar nichts! Frustriert unternimmst Du einen weiteren Versuch, doch wieder spürst Du nichts. Beim dritten Mal triffst Du Dich dann endlich: In Todesqualen windest Du Dich auf dem Boden, ohne daß ein Wort des Schmerzes über Deine Lippen kommt - wie es sich eben für einen echten Helden gehört. Wenn das Deine Freundin sehen könnte! So einen stilvollen Abgang legt man schließlich nicht alle Tage hin! Auf einmal ist alles vorbei, und es wird dunkel... Nach einiger Zeit erwachst Du schwebend in einem dunklen Raum. Du schauderst: Ist das das Leben nach dem Tode? Das soll wirklich alles sein? Sieht ja finster aus... Doch auf einmal wird Dir klar, was Dich geweckt hat: Leise, wie aus weiter Ferne, weht eine sanfte Stimme zu Dir herüber... "Dave Parker!", kannst Du sie wispern hören, "Du solltest wissen, daß niemand seinem Schicksal entkommen kann! Es hat keinen Sinn, vor seiner Bestimmung zu fliehen - das Schicksal holt Dich immer wieder ein! Gehe also hin und erfülle die Aufgaben, die man Dir auferlegt hat. Kraft meiner göttlichen Befugnisse werde ich Dir nun ein Extraleben schenken, um Dir noch eine Gelegenheit zu geben, Deine Bestimmung zu erfüllen..." Während die Stimme im Nichts verhallt, beginnt sich alles um Dich herum zu drehen, Dir wird schwindlig - und Du fällst in einen tiefen, traumlosen Schlaf... Als Du Deine Augen wieder öffnest, findest Du Dich genau dort wieder, wo Du Deinen Selbstmordversuch unternommen hast...
             showtext();
-            Restart();
+            if (ScriptInterrupted()) return;
+            FlushOutput();
+            if (ScriptInterrupted()) return;
             return;
         }
     }
@@ -1138,7 +1213,7 @@ x8227:
             } else {
                 if ( objectState[object1] == 0x02 || objectState[object1] == 0x01 ) {
                     if ( objectState[object1] == 0x01 ) {
-                        PartC_HandleSchliesse();
+                        PartC_HandleSchliesse(); if (ScriptInterrupted()) return;
                     }
                     objectState[object1] = 0x00;
                 }

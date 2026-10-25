@@ -1,7 +1,9 @@
 # Engine-Rest für eine reine Textversion
 
-Stand: Analyse der vier generierten Spielteile und der Originalinstruktionen in
-`opcodeoracle/soul_crystal/soul_crystal.asm`. Kein Konsolenspiel implementiert.
+Analyse der vier generierten Spielteile und der Originalinstruktionen in
+`opcodeoracle/soul_crystal/soul_crystal.asm`. Dieser Audit entstand vor der
+Implementierung; den aktuellen Umfang der inzwischen vorhandenen Konsolenbasis
+beschreibt [console_application.md](console_application.md).
 Ziel: direkte C/C++-Logik, später WebAssembly, keine externen Laufzeitbibliotheken,
 keine JSON-Dateien zur Laufzeit. Speichern/Laden und Cheats zunächst ausgeschlossen.
 Kein Spielteilauswahlmenü: Der Originalablauf wechselt intern automatisch.
@@ -22,7 +24,7 @@ verwenden konstante Zahlen. Hexzahlen in dieser Tabelle sind Selektoren.
 | 08 | $4440 | Vorhandene Ausgänge aus den sechs veränderlichen Raumtabellen auflisten. |
 | 09 | $52D2 | Originaler Disketten-/Installationsdialog. Für fest eingebundene Daten kein Disketten-I/O nötig; nicht mit normalem Spielfortschritt verwechseln. |
 | 0A | $4E62 | Inventar: Objekt-IDs 1..165 mit Standort $FF; Anzeige über den originalen Namensdecoder $4FB1. |
-| 32 | $62B9 | Handbuchprüfung über $4B60; anschließend $69BF/$69C0 nach temp kopieren. Im Finale prüft das Script temp==$FF. Prompt-/Antwortablauf noch umzusetzen. |
+| 32 | $62B9 | Handbuchprüfung über $4B60; anschließend $69BF/$69C0 nach temp kopieren. Im Finale prüft das Script temp==$FF. In der Portierung auf Wunsch deaktiviert: temp=0 (Fortsetzen), ohne Rückfrage. |
 | 33 | $62C9 | Gewinnstatus $CFF4=1, Übergang zum Abschlussablauf $381A. Muss die aktuelle Ausführung geordnet beenden. Laut früherer Testnotiz: Ende → Hall of Fame → Credits (siehe Quellen unten). |
 | 64..6A | $305C..$362C | Sieben unten aufgeführte Zustandsprüfungen; direkt übersetzbar und nativ geprüft. |
 | C8 | $2FDE | Allgemeiner Pfad für Selektoren >=200: Zahl formatieren, mit eingebettetem Präfix „EXGOSUB -“ zusammensetzen und über $45D1 ausgeben. Kein nachgewiesener Bonus-/Punktehandler. Ein Aufruf in Teil B nach der Laborexplosion. |
@@ -115,8 +117,9 @@ korrektes Spiel. Nächster Implementierungsschritt: die geprüften Prädikate,
 Raumtextauswahl und korrekt benannte Ausgabeaktualisierung; danach
 Dialog-/Endzustände, automatische Übergänge und Eingabeparser verbinden.
 HILF bleibt ein Spielverb, Cheats sind ausgeschlossen. Speichern/Laden ist kein
-Teil dieses ersten spielbaren Stands. Die Handbuchprüfung ist separat vom Cheat
-zu behandeln und wird nicht stillschweigend umgangen.
+Teil dieses ersten spielbaren Stands. Die Handbuchprüfung ist auf ausdrücklichen
+Wunsch deaktiviert; Teilübergänge und Finale laufen ohne Codeeingabe weiter.
+Die übrigen Spielbedingungen bleiben unverändert.
 
 ## Nachweis
 

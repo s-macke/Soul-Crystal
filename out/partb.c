@@ -47,18 +47,20 @@ void PartB_HandleEntriegele(void); // Part B, script $92b7; command 44 (ENTRIEGE
 
 
 
-void Execute(void) {
+void PartB_Execute(void) {
 
 x7600:
     pendingTextID = 0x00; // text ID 0 (0x0000), script $7600: no text
     if ( command == HINUNTER || command == OST || command == NORD || command == SUED || command == HINAUF || command == WEST ) {
         if ( currentRoom != IM_DIENERSCHLAFZIMMER ) {
             SPECIAL(0x64); // Habe ich keine Kleidung an, vielleicht?
+            if (ScriptInterrupted()) return;
             if ( temp == 0x01 ) {
                 pendingTextID = 0x2e; // text ID 46 (0x002e), script $7632: B2 record 148: Du erwartest doch nicht allen Ernstes von mir, daß ich diesen Ort NACKT verlasse, oder?
                 goto x77bb;
             } else {
                 SPECIAL(0x65);
+                if (ScriptInterrupted()) return;
                 if ( temp == 0x01 ) {
                     objectState[DAVE] = 0x64;
                 }
@@ -69,19 +71,25 @@ x7600:
             imageID = 0x85;
             objectLocation[DAVE] = 0xff;
             ShowImage();
+            if (ScriptInterrupted()) return;
             showtext();
-            Restart();
+            if (ScriptInterrupted()) return;
+            FlushOutput();
+            if (ScriptInterrupted()) return;
             return;
         }
     }
     SPECIAL(0x66);
+    if (ScriptInterrupted()) return;
     if ( temp == 0x01 ) {
         SPECIAL(0x67);
+        if (ScriptInterrupted()) return;
         if ( temp == 0x01 ) {
             if ( gamePart == 0x01 ) {
             } else {
                 if ( gamePart == 0x02 ) {
                     SPECIAL(0x69);
+                    if (ScriptInterrupted()) return;
                     if ( temp == 0x01 ) {
                         objectState[DAVE] = objectState[DAVE] - 0x01;
                     } else {
@@ -98,7 +106,9 @@ x7600:
             if ( objectState[DAVE] == 0x4b || objectState[DAVE] == 0x32 || objectState[DAVE] == 0x19 ) {
                 pendingTextID = 0x30; // text ID 48 (0x0030), script $76d0: B2 record 150: Langsam fange ich an zu frieren! Es wird immer kälter hier, also sieh Dich langsam mal nach einem warmen Plätzchen um, wo wir in Ruhe die Nacht verbringen können!
                 showtext();
-                Restart();
+                if (ScriptInterrupted()) return;
+                FlushOutput();
+                if (ScriptInterrupted()) return;
                 pendingTextID = 0x00; // text ID 0 (0x0000), script $76d6: no text
                 goto x7702;
             } else {
@@ -106,9 +116,12 @@ x7600:
                     imageID = 0x81;
                     objectLocation[DAVE] = 0xff;
                     ShowImage();
+                    if (ScriptInterrupted()) return;
                     pendingTextID = 0x31; // text ID 49 (0x0031), script $76f1: B2 record 151: Also, halte mir jetzt bitte nicht vor, daß ich Dich nicht gewarnt hätte - Du hast wirklich genug Zeit gehabt, um nach jemandem zu suchen, der Dir wärmere Kleidung hätte geben können - doch nun ist es endgültig zu spät: Du erfrierst, ohne auch nur die geringste Chance gehabt zu haben, das Spiel zu lösen! Schade eigentlich...
                     showtext();
-                    Restart();
+                    if (ScriptInterrupted()) return;
+                    FlushOutput();
+                    if (ScriptInterrupted()) return;
                     pendingTextID = 0x00; // text ID 0 (0x0000), script $76f7: no text
                     return;
                 }
@@ -118,68 +131,68 @@ x7600:
 
 x7702:
     switch(command) { // SELECT script $7702; original cases are 1-based
-         case 1: PartB_HandleUebersoulcrystal(); break;
-         case 2: PartB_HandleKurztext(); break;
-         case 3: PartB_HandleCredits(); break;
-         case 4: PartB_HandleGrabe(); break;
-         case 5: PartB_HandleHinunter(); break;
-         case 6: PartB_HandleOst(); break;
-         case 7: PartB_HandleAusgaenge(); break;
-         case 8: PartB_HandleDisketteinstallieren(); break;
-         case 9: PartB_HandleInventar(); break;
-         case 10: PartB_HandleSchau(); break;
-         case 11: PartB_HandleNord(); break;
-         case 12: PartB_HandleSpielende(); break;
-         case 13: PartB_HandleNeustart(); break;
+         case 1: PartB_HandleUebersoulcrystal(); if (ScriptInterrupted()) return; break;
+         case 2: PartB_HandleKurztext(); if (ScriptInterrupted()) return; break;
+         case 3: PartB_HandleCredits(); if (ScriptInterrupted()) return; break;
+         case 4: PartB_HandleGrabe(); if (ScriptInterrupted()) return; break;
+         case 5: PartB_HandleHinunter(); if (ScriptInterrupted()) return; break;
+         case 6: PartB_HandleOst(); if (ScriptInterrupted()) return; break;
+         case 7: PartB_HandleAusgaenge(); if (ScriptInterrupted()) return; break;
+         case 8: PartB_HandleDisketteinstallieren(); if (ScriptInterrupted()) return; break;
+         case 9: PartB_HandleInventar(); if (ScriptInterrupted()) return; break;
+         case 10: PartB_HandleSchau(); if (ScriptInterrupted()) return; break;
+         case 11: PartB_HandleNord(); if (ScriptInterrupted()) return; break;
+         case 12: PartB_HandleSpielende(); if (ScriptInterrupted()) return; break;
+         case 13: PartB_HandleNeustart(); if (ScriptInterrupted()) return; break;
     }
     if ( pendingTextID != 0x00 ) {
         goto x77bb;
     }
     temp = command - NEUSTART;
     switch(temp) { // SELECT script $773a; original cases are 1-based
-         case 1: PartB_HandleLaden(); break;
-         case 2: PartB_HandlePunkte(); break;
-         case 3: PartB_HandleLoesung(); break;
-         case 4: PartB_HandleMusikein(); break;
-         case 5: PartB_HandleAusgaenge12(); break;
-         case 6: PartB_HandleSued(); break;
-         case 7: PartB_HandleSpeichern(); break;
-         case 8: PartB_HandleHinauf(); break;
-         case 9: PartB_HandleAusfuehrlich(); break;
-         case 10: PartB_HandleWarte(); break;
-         case 11: PartB_HandleWest(); break;
-         case 12: PartB_Sub_7f93(); break;
-         case 13: PartB_Sub_7f94(); break;
+         case 1: PartB_HandleLaden(); if (ScriptInterrupted()) return; break;
+         case 2: PartB_HandlePunkte(); if (ScriptInterrupted()) return; break;
+         case 3: PartB_HandleLoesung(); if (ScriptInterrupted()) return; break;
+         case 4: PartB_HandleMusikein(); if (ScriptInterrupted()) return; break;
+         case 5: PartB_HandleAusgaenge12(); if (ScriptInterrupted()) return; break;
+         case 6: PartB_HandleSued(); if (ScriptInterrupted()) return; break;
+         case 7: PartB_HandleSpeichern(); if (ScriptInterrupted()) return; break;
+         case 8: PartB_HandleHinauf(); if (ScriptInterrupted()) return; break;
+         case 9: PartB_HandleAusfuehrlich(); if (ScriptInterrupted()) return; break;
+         case 10: PartB_HandleWarte(); if (ScriptInterrupted()) return; break;
+         case 11: PartB_HandleWest(); if (ScriptInterrupted()) return; break;
+         case 12: PartB_Sub_7f93(); if (ScriptInterrupted()) return; break;
+         case 13: PartB_Sub_7f94(); if (ScriptInterrupted()) return; break;
     }
     if ( pendingTextID != 0x00 ) {
         goto x77bb;
     }
     temp = command - NIX2;
     switch(temp) { // SELECT script $7772; original cases are 1-based
-         case 1: PartB_HandleSchliesse(); break;
-         case 2: PartB_HandleZerstoere(); break;
-         case 3: PartB_HandleVerliere(); break;
-         case 4: PartB_HandleBetritt(); break;
-         case 5: PartB_HandleBetrachte(); break;
-         case 6: PartB_HandleHilf(); break;
-         case 7: PartB_HandleVerlasse(); break;
-         case 8: PartB_HandleBewege(); break;
-         case 9: PartB_HandleOeffne(); break;
-         case 10: PartB_HandleZiehe(); break;
-         case 11: PartB_HandleDruecke(); break;
+         case 1: PartB_HandleSchliesse(); if (ScriptInterrupted()) return; break;
+         case 2: PartB_HandleZerstoere(); if (ScriptInterrupted()) return; break;
+         case 3: PartB_HandleVerliere(); if (ScriptInterrupted()) return; break;
+         case 4: PartB_HandleBetritt(); if (ScriptInterrupted()) return; break;
+         case 5: PartB_HandleBetrachte(); if (ScriptInterrupted()) return; break;
+         case 6: PartB_HandleHilf(); if (ScriptInterrupted()) return; break;
+         case 7: PartB_HandleVerlasse(); if (ScriptInterrupted()) return; break;
+         case 8: PartB_HandleBewege(); if (ScriptInterrupted()) return; break;
+         case 9: PartB_HandleOeffne(); if (ScriptInterrupted()) return; break;
+         case 10: PartB_HandleZiehe(); if (ScriptInterrupted()) return; break;
+         case 11: PartB_HandleDruecke(); if (ScriptInterrupted()) return; break;
     }
     if ( pendingTextID != 0x00 ) {
         goto x77bb;
     }
     temp = command - DRUECKE;
     switch(temp) { // SELECT script $77a4; original cases are 1-based
-         case 1: PartB_HandleNimm(); break;
-         case 2: PartB_HandleSprich(); break;
-         case 3: PartB_HandleWende(); break;
-         case 4: PartB_HandleBefestige(); break;
-         case 5: PartB_HandleGib(); break;
-         case 6: PartB_HandleVerriegele(); break;
-         case 7: PartB_HandleEntriegele(); break;
+         case 1: PartB_HandleNimm(); if (ScriptInterrupted()) return; break;
+         case 2: PartB_HandleSprich(); if (ScriptInterrupted()) return; break;
+         case 3: PartB_HandleWende(); if (ScriptInterrupted()) return; break;
+         case 4: PartB_HandleBefestige(); if (ScriptInterrupted()) return; break;
+         case 5: PartB_HandleGib(); if (ScriptInterrupted()) return; break;
+         case 6: PartB_HandleVerriegele(); if (ScriptInterrupted()) return; break;
+         case 7: PartB_HandleEntriegele(); if (ScriptInterrupted()) return; break;
     }
 
 x77bb:
@@ -191,11 +204,14 @@ x77bb:
             if ( currentRoom == IN_DER_ORKHOEHLE && objectState[ORKMANN] == 0x06 ) {
                 if ( pendingTextID != 0x00 ) {
                     showtext();
+                    if (ScriptInterrupted()) return;
                 }
-                Restart();
+                FlushOutput();
+                if (ScriptInterrupted()) return;
                 pendingTextID = 0xcd; // text ID 205 (0x00cd), script $77f6: B2 record 245: Während Ihr auf Euer Mittagessen wartet, schauen Du und der Orkvater dem kleinen Kind zu, das in der Ecke der Höhle sitzt und überglücklich mit der Kristallkugel spielt, die Du ihm geschenkt hast. Plötzlich rutscht sie ihm durch die Finger! Sofort springt der Kleine hinterher und verfolgt sie fröhlich quiekend und krakeelend durch die ganze Höhle - bis er sie endlich mit einem todesmutigen Hechtsprung kurz vor dem Kamin zu fassen bekommt! Doch im selben Moment, als sich die Finger des Jungen um die Kugel schließen, gerät er direkt zwischen die Beine seiner Mutter, die gerade den Tisch decken wollte, so daß sie über ihr Kind stolpert und das gesamte Geschirr auf seinen Rücken scheppern läßt! Inmitten eines riesigen Scherbenhaufens sitzend, beginnt der kleine Ork lauthals loszubrüllen, und auf einen kurzen, befehlenden Blick des Vaters hin tritt die Mutter auf ihren Sohn zu und verpaßt ihm zu allem Überfluß noch eine deftige linke Gerade. Das hilft: Verdutzt hört das Orkkind auf zu schreien und blickt verlegen in die Runde... Einen kurzen Moment lang blickt die gesamte Orkfamilie ärgerlich auf ihren Sohn hinab, der sich mit unglücklicher Miene die letzten Scherben aus dem Pelz zupft, und ist erst einmal völlig von Dir abgelenkt...
                 objectState[ORKMANN] = 0x06;
                 showtext();
+                if (ScriptInterrupted()) return;
                 pendingTextID = 0x00; // text ID 0 (0x0000), script $7801: no text
             }
             if ( objectState[ELIXIER] == 0x01 ) {
@@ -212,25 +228,33 @@ x77bb:
                     if ( objectState[WERWOLF] == 0x01 ) {
                         if ( pendingTextID != 0x00 ) {
                             showtext();
-                            Restart();
+                            if (ScriptInterrupted()) return;
+                            FlushOutput();
+                            if (ScriptInterrupted()) return;
                         }
                         pendingTextID = 0xd4; // text ID 212 (0x00d4), script $784b: B2 record 252: Himmel! Es ist wohl schon zu spät, um noch an Flucht zu denken: Starr vor Entsetzen mußt Du zusehen, wie sich hinter einem verwitterten Grabstein ein riesiger, schwarzer Schatten erhebt - nur einige Meter neben Dir! Zu keiner Bewegung fähig, mußt Du mit ansehen, wie er lautlos größer und größer wird... Plötzlich reißt die Wolkendecke, die den Vollmond für kurze Zeit verdeckt hatte, auseinander - und Du schreist in panischer Todesangst auf: Dein Gegner ist ein riesiger, grauer Werwolf, der siegesgewiß seine scharfen, gelben Zähne bleckt! Heiser fauchend und mit ausgestreckten Armen setzt er sich in Bewegung - Schritt für Schritt, denn er kennt keine Eile... Doch plötzlich bleibt er stehen! Für Bruchteile von Sekunden treffen sich Eure Blicke und Du spürst die Mordlust und den abgrundtiefen Haß, die in seinen Augen lodern...
                         showtext();
+                        if (ScriptInterrupted()) return;
                         objectLocation[WERWOLF] = VOR_EINER_GRUFT;
                         objectState[WERWOLF] = 0x02;
                     } else {
                         if ( objectState[WERWOLF] == 0x02 ) {
                             if ( pendingTextID != 0x00 ) {
                                 showtext();
-                                Restart();
+                                if (ScriptInterrupted()) return;
+                                FlushOutput();
+                                if (ScriptInterrupted()) return;
                             }
                             objectLocation[DAVE] = 0xff;
                             imageID = 0x85;
                             ShowImage();
+                            if (ScriptInterrupted()) return;
                             imageID = 0xff;
                             pendingTextID = 0xee; // text ID 238 (0x00ee), script $787d: B2 record 278: Mehr instinktiv als beabsichtigt wirbelst Du herum und schlägst nach dem Kopf Deines Gegners - aber entweder ist er schmerzunempfindlich oder er besitzt eine sehr ausgeprägte masochistische Ader: Statt sich zu trollen oder zumindest mal brav "Aua" zu sagen, attackiert er Dich nur umso wilder! Das war wohl nix: Das letzte, was Du in diesem Leben zu Gesicht bekommst, sind die Zähne einer grausig entstellten Wolfsschnauze, die sich Deinem Brustkorb wie in Zeitlupe nähern... Tja, Du bist mal wieder tot! Wenn Du tatsächlich einen längeren Kommentar über die Art und Weise Deines plötzlichen, wenn auch zu erwartenden Ablebens lesen möchtest, dann versuch' den Werwolf beim nächsten Mal doch einfach mal mit etwas anderem zu töten...
                             showtext();
-                            Restart();
+                            if (ScriptInterrupted()) return;
+                            FlushOutput();
+                            if (ScriptInterrupted()) return;
                         }
                     }
                 }
@@ -240,43 +264,58 @@ x77bb:
                     objectState[MYLGOR] = 0x05;
                     if ( pendingTextID != 0x00 ) {
                         showtext();
+                        if (ScriptInterrupted()) return;
                     }
-                    Restart();
+                    FlushOutput();
+                    if (ScriptInterrupted()) return;
                     pendingTextID = 0xd5; // text ID 213 (0x00d5), script $78a4: B2 record 253: Also, ich an Deiner Stelle würde mich langsam mal beeilen, einen Weg zu finden, dem wahnsinnigen, alten Alchemisten Einhalt zu gebieten, bevor es zu spät ist! Es trennen Euch nur noch wenige Meter...
                     showtext();
+                    if (ScriptInterrupted()) return;
                 } else {
                     if ( objectState[MYLGOR] == 0x06 ) {
                         if ( pendingTextID != 0x00 ) {
                             showtext();
+                            if (ScriptInterrupted()) return;
                         }
-                        Restart();
+                        FlushOutput();
+                        if (ScriptInterrupted()) return;
                         pendingTextID = 0xd6; // text ID 214 (0x00d6), script $78bb: B2 record 254: A.C.A breaking in for a chat: "Dies ist unsere ALLERLETZTE Warnung: Schick' Mylgor endlich zur Hölle - langsam gehen uns die Texte aus!" A.C.A chat end.
                         showtext();
+                        if (ScriptInterrupted()) return;
                     } else {
                         if ( objectState[MYLGOR] >= 0x07 && objectState[REAGENZIEN] == 0x00 ) {
                             if ( pendingTextID != 0x00 ) {
                                 showtext();
+                                if (ScriptInterrupted()) return;
                             }
-                            Restart();
+                            FlushOutput();
+                            if (ScriptInterrupted()) return;
                             objectLocation[DAVE] = 0xff;
                             imageID = 0x87;
                             ShowImage();
+                            if (ScriptInterrupted()) return;
                             pendingTextID = 0xd8; // text ID 216 (0x00d8), script $78e4: B2 record 256: Tja, also ich glaube, Du hast etwas zu lange gezögert: Hysterisch wiehernd packt Mylgor Deinen rechten Arm, sticht die Injektionsnadel in eine Vene und "drückt ab", indem er mit der rechten Handfläche einmal brutal gegen den Kolben schlägt! "Wenigstens die Luftblasen hätte er vorher entfernen können..." ist der letzte halbwegs klare Gedanke, den zu fassen Du unter dem Einfluß des Giftes noch in der Lage bist... Mit einem letzten erstickten Röcheln brichst Du zusammen und stirbst einen langsamen, schmerzvollen Tod... Sorry, aber das mußte jetzt wirklich mal sein...
                             showtext();
-                            Restart();
+                            if (ScriptInterrupted()) return;
+                            FlushOutput();
+                            if (ScriptInterrupted()) return;
                         }
                     }
                 }
                 if ( objectState[REAGENZIEN] > 0x02 ) {
                     if ( pendingTextID != 0x00 ) {
                         showtext();
+                        if (ScriptInterrupted()) return;
                     }
                     imageID = 0x87;
                     objectLocation[DAVE] = 0xff;
                     ShowImage();
+                    if (ScriptInterrupted()) return;
                     pendingTextID = 0xd8; // text ID 216 (0x00d8), script $7908: B2 record 256: Tja, also ich glaube, Du hast etwas zu lange gezögert: Hysterisch wiehernd packt Mylgor Deinen rechten Arm, sticht die Injektionsnadel in eine Vene und "drückt ab", indem er mit der rechten Handfläche einmal brutal gegen den Kolben schlägt! "Wenigstens die Luftblasen hätte er vorher entfernen können..." ist der letzte halbwegs klare Gedanke, den zu fassen Du unter dem Einfluß des Giftes noch in der Lage bist... Mit einem letzten erstickten Röcheln brichst Du zusammen und stirbst einen langsamen, schmerzvollen Tod... Sorry, aber das mußte jetzt wirklich mal sein...
                     showtext();
-                    Restart();
+                    if (ScriptInterrupted()) return;
+                    FlushOutput();
+                    if (ScriptInterrupted()) return;
                 }
             }
             if ( objectState[REAGENZIEN] >= 0x01 && objectState[MYLGOR] != 0x09 ) {
@@ -286,22 +325,28 @@ x77bb:
                     if ( objectState[REAGENZIEN] == 0x04 ) {
                         if ( pendingTextID != 0x00 ) {
                             showtext();
-                            Restart();
+                            if (ScriptInterrupted()) return;
+                            FlushOutput();
+                            if (ScriptInterrupted()) return;
                         }
                         objectState[REAGENZIEN] = 0x05;
                         if ( objectState[LABORTUER] == 0x00 ) {
                             pendingTextID = 0x015f; // text ID 351 (0x015f), script $7950: B2 record 391: Hastig verschließt Du die Labortür mit dem Schlüssel aus Mylgors Studierzimmer und hörst zu Deiner Beruhigung, wie das riesige Spezialschloß mit einem leisen Klicken schließt - keine Sekunde zu früh: Im selben Moment, als Du den Schlüssel herumdrehst, erschüttert eine fürchterliche Explosion im Labor das ganze Haus bis in die Grundmauern - aber die massive und klugerweise verschlossene Tür hält die schlimmsten Auswirkungen der Druckwelle glücklicherweise von Dir ab! Putz rieselt von der Decke, der Boden und die Wände beben bedrohlich - und plötzlich wird es sehr still: Nur das knisternde Lecken der Flammen an der Labortür ist noch zu hören... Als sich der Staub nach einer Weile gelegt hat, schaust Du Dich um: Die Labortür ist noch immer verschlossen - nur aus kleinen Ritzen in ihrem Rahmen quillt schwarzer Rauch... Du schickst ein Dankgebet dafür zum Himmel, daß Du die Explosion unversehrt überlebt hast - im krassen Gegensatz zu Mylgor übrigens, der jetzt wahrscheinlich mehr oder minder gleichmäßig über die gesamte Laborfläche verteilt sein dürfte... WELL DONE: BONUS AWARDED! ...NOW PREPARE FOR NEXT STAGE... Ähem: Kleiner Scherz...!
                             objectState[MYLGOR] = 0x09;
                             SPECIAL(0xc8);
+                            if (ScriptInterrupted()) return;
                         } else {
                             if ( objectState[LABORTUER] != 0x00 && objectState[MYLGOR] != 0x09 ) {
                                 objectLocation[DAVE] = 0xff;
                                 imageID = 0x89;
                                 ShowImage();
+                                if (ScriptInterrupted()) return;
                                 pendingTextID = 0xd9; // text ID 217 (0x00d9), script $7979: B2 record 257: Hmmm...: War wohl irgendwie nicht so toll, Dein Plan: Die Druckwelle, die von der Explosion der Reagenzien in Mylgors Labor verursacht wurde, sprengt die massive Labortür auf und läßt die gesamte Hütte über Dir zusammenbrechen! Ziemlich blöder Fehler, Mann! Vielleicht sicherst Du die Tür beim nächsten Mal einfach mal besser ab...? Aber unter Umständen tröstet Dich ja die Tatsache, daß Mylgor "noch viel toter" ist als Du: DEIN Körper kann zumindest noch begraben werden - Mylgors Überreste hingegen müßte man erst von den Wänden abkratzen...
                                 showtext();
+                                if (ScriptInterrupted()) return;
                                 imageID = 0xff;
-                                Restart();
+                                FlushOutput();
+                                if (ScriptInterrupted()) return;
                             }
                         }
                     }
@@ -374,6 +419,7 @@ void PartB_HandleHinunter(void) { // Part B, script $7a2f; command 5 (HINUNTER),
         currentRoom = down[currentRoom];
         objectLocation[DAVE] = currentRoom;
         Code2E5B();
+        if (ScriptInterrupted()) return;
         imageID = currentRoom;
     } else {
         if ( down[currentRoom] == 0x00 ) {
@@ -382,6 +428,7 @@ void PartB_HandleHinunter(void) { // Part B, script $7a2f; command 5 (HINUNTER),
     }
     if ( imageID != 0xff ) {
         ShowImage();
+        if (ScriptInterrupted()) return;
     }
     return;
 }
@@ -402,6 +449,7 @@ void PartB_HandleOst(void) { // Part B, script $7a5e; command 6 (OST), SELECT $7
         currentRoom = east[currentRoom];
         objectLocation[DAVE] = currentRoom;
         Code2E5B();
+        if (ScriptInterrupted()) return;
         imageID = currentRoom;
     } else {
         if ( east[currentRoom] == 0x00 ) {
@@ -412,6 +460,7 @@ void PartB_HandleOst(void) { // Part B, script $7a5e; command 6 (OST), SELECT $7
 x7aa8:
     if ( imageID != 0xff ) {
         ShowImage();
+        if (ScriptInterrupted()) return;
     }
     return;
 }
@@ -419,18 +468,21 @@ x7aa8:
 
 void PartB_HandleAusgaenge(void) { // Part B, script $7ab1; command 7 (AUSGAENGE), SELECT $7702 case 7
     SPECIAL(0x08); // Ausgaenge listen
+    if (ScriptInterrupted()) return;
     return;
 }
 
 
 void PartB_HandleDisketteinstallieren(void) { // Part B, script $7ab5; command 8 (DISKETTEINSTALLIEREN), SELECT $7702 case 8
     SPECIAL(0x09); // Diskette installieren
+    if (ScriptInterrupted()) return;
     return;
 }
 
 
 void PartB_HandleInventar(void) { // Part B, script $7ab9; command 9 (INVENTAR), SELECT $7702 case 9
     SPECIAL(0x0a); // Inventar anzeigen
+    if (ScriptInterrupted()) return;
     return;
 }
 
@@ -438,6 +490,7 @@ void PartB_HandleInventar(void) { // Part B, script $7ab9; command 9 (INVENTAR),
 void PartB_HandleSchau(void) { // Part B, script $7abd; command 10 (SCHAU), SELECT $7702 case 10
     visited[currentRoom] = 0x00;
     Code2E5B();
+    if (ScriptInterrupted()) return;
     return;
 }
 
@@ -472,11 +525,15 @@ void PartB_HandleNord(void) { // Part B, script $7ac4; command 11 (NORD), SELECT
             remainingPoints[0xa2] = 0x00;
             pendingTextID = 0xe3; // text ID 227 (0x00e3), script $7b51: B2 record 267: Unbemerkt schleichst Du Dich an dem Yeti vorbei in den Thronsaal - keinen Moment zu früh: Kaum hast Du die Halle erreicht, werden aus dem Nichts Deine Konturen sichtbar...
             showtext();
-            Restart();
+            if (ScriptInterrupted()) return;
+            FlushOutput();
+            if (ScriptInterrupted()) return;
             currentRoom = IN_FIRONS_THRONSAAL;
             objectLocation[DAVE] = IN_FIRONS_THRONSAAL;
             Code2E5B();
+            if (ScriptInterrupted()) return;
             showtext();
+            if (ScriptInterrupted()) return;
             imageID = currentRoom;
             goto x7cf8;
         }
@@ -484,17 +541,23 @@ void PartB_HandleNord(void) { // Part B, script $7ac4; command 11 (NORD), SELECT
     if ( currentRoom == IM_TIEFEN_WALD && objectLocation[AMULETT] == 0xff && objectState[AMULETT] == 0x01 ) {
         pendingTextID = 0xde; // text ID 222 (0x00de), script $7b7f: B2 record 262: Dir wird etwas flau im Magen, als Du die magische Barriere durchschreitest, aber Mylgors Amulett schützt Dich vor ihrer zerstörerischen Kraft: Sicher und unversehrt betrittst Du also den verfluchten Teil des Waldes...
         showtext();
-        Restart();
+        if (ScriptInterrupted()) return;
+        FlushOutput();
+        if (ScriptInterrupted()) return;
         pendingTextID = 0x0161; // text ID 353 (0x0161), script $7b85: B2 record 393: Als Du die magische Barriere durchschreitest, die Dich bisher von dem verfluchten Wald im Norden getrennt hat, hörst Du eine Stimme aus den Baumkronen herausdröhnen! Es ist ein Waldgeist, der Dich bittet, einen bestimmten Code aus dem Handbuch einzugeben, um sicherzustellen, daß Du auch wirklich authorisiert bist, Deine Reise fortzusetzen...
         showtext();
-        Restart();
+        if (ScriptInterrupted()) return;
+        FlushOutput();
+        if (ScriptInterrupted()) return;
         SPECIAL(0x01); // Codeabfrage
+        if (ScriptInterrupted()) return;
         objectLocation[DAVE] = currentRoom;
         goto x7cf8;
     }
     if ( north[currentRoom] != 0x00 ) {
         currentRoom = north[currentRoom];
         Code2E5B();
+        if (ScriptInterrupted()) return;
         objectLocation[DAVE] = currentRoom;
         imageID = currentRoom;
     } else {
@@ -527,8 +590,11 @@ x7bbe:
         if ( objectState[HONIG] == 0x14 && objectState[FELLSTIEFEL] == 0x01 ) {
             pendingTextID = 0xe1; // text ID 225 (0x00e1), script $7c36: B2 record 265: Vorsichtig balancierst Du auf dem dicken Baumstamm: Zwei, drei Mal rutschst Du ab, fängst Dich jedoch im letzten Augenblick wieder, bevor Du in die Tiefe fallen kannst! Hättest Du Deine Stiefel nicht mit dem klebrigen Honig präpariert, wäre es wahrscheinlich nicht so glimpflich verlaufen: Zitternd, aber unversehrt, erreichst Du das andere Ende des Baumstamms und springst ab - froh, wieder festen Boden unter den Füßen zu haben...
             showtext();
-            Restart();
+            if (ScriptInterrupted()) return;
+            FlushOutput();
+            if (ScriptInterrupted()) return;
             Code2E5B();
+            if (ScriptInterrupted()) return;
             imageID = currentRoom;
             goto x7cf8;
         } else {
@@ -536,9 +602,12 @@ x7bbe:
                 imageID = 0x84;
                 objectLocation[DAVE] = 0xff;
                 ShowImage();
+                if (ScriptInterrupted()) return;
                 pendingTextID = 0xe2; // text ID 226 (0x00e2), script $7c5e: B2 record 266: Du versuchst, auf dem dicken Baumstamm zu balancieren, aber auf halbem Wege, genau über dem tiefen Abgrund, rutschst Du ab und fällst... und fällst... und fäll... MAAATSCH! Daß Du es aber auch immer gleich übertreiben mußt! Der ganze Fluß war frei - mußtest Du Dir denn unbedingt den einzigen Felsen für Deine Landung aussuchen? Na okay, das war's dann wohl mal wieder. Eigentlich schade, daß wir uns entschieden haben, doch keine Geräuscheffekte in diese Version zu integrieren, denn Dein langgezogener Schrei sowie der dumpfe Aufprall in dem ca. zweihundert Meter tiefer gelegenen Tal waren wirklich hörenswert! Aber es hätte die Produktionskosten in schwindelerregende Höhen getrieben, Freiwillige zu finden, die sich zur Erzeugung dieser Geräusche bereit erklärt hätten... Naja gut, ich gebe zu: Wir HATTEN jemanden, der es gewagt hat, aber dummerweise vergaß Chris den Sampler einzuschalten! Mit der Witwe prozessieren wir bis heute...
                 showtext();
-                Restart();
+                if (ScriptInterrupted()) return;
+                FlushOutput();
+                if (ScriptInterrupted()) return;
                 imageID = 0xff;
                 goto x7cf8;
             }
@@ -547,8 +616,11 @@ x7bbe:
     if ( currentRoom == IN_DER_EISWUESTE && objectLocation[HUNDESCHLITTEN] == IN_DER_EISWUESTE ) {
         imageID = currentRoom;
         ShowImage();
+        if (ScriptInterrupted()) return;
         showtext();
-        Restart();
+        if (ScriptInterrupted()) return;
+        FlushOutput();
+        if (ScriptInterrupted()) return;
         imageID = 0xff;
         pendingTextID = 0xd3; // text ID 211 (0x00d3), script $7c85: B2 record 251: Während Deiner langen Reise durch die Eiswüste ist Dir leider das Wolfsrudel entgangen, das die ganze Zeit lang der Spur Deines Schlittens gefolgt ist! Nun, als Du den Schlitten anhältst, um Deinen Hunden ein paar Minuten Erholung zu gönnen, fangen die Wölfe an, Euch zu umzingeln! Nach einigen Sekunden beginnt der größte und stärkste Wolf, ein riesiges Tier mit schmutzig-grauem Fell, laut zu heulen - und ein schauriges Geheul wie aus tausend Kehlen fällt mit ein! Diese Bestien scheinen seit Wochen nichts mehr zu fressen bekommen zu haben: Ohne jede Vorwarnung greifen sie Deinen Schlitten an! Zu lange sind Deine Schlittenhunde schon gelaufen, zu sehr hast Du sie angetrieben, als daß sie noch wirkungsvollen Widerstand leisten könnten: Hilflos mußt Du mit ansehen, wie sie zu einer widerlichen, blutigen Masse zerfleischt werden... Nachdem sie die Eingeweide aus den noch im Todeskrampf zuckenden Hunden herausgerissen haben, verschwindet das Wolfsrudel genauso schnell wieder, wie es gekommen ist...
         objectLocation[HUNDESCHLITTEN] = RAUM_NULL;
@@ -559,9 +631,13 @@ x7bbe:
         objectLocation[DAVE] = 0xff;
         imageID = currentRoom;
         ShowImage();
+        if (ScriptInterrupted()) return;
         Code2E5B();
+        if (ScriptInterrupted()) return;
         showtext();
-        Restart();
+        if (ScriptInterrupted()) return;
+        FlushOutput();
+        if (ScriptInterrupted()) return;
         imageID = 0xff;
         goto x7cf8;
     }
@@ -570,9 +646,12 @@ x7bbe:
             imageID = 0x88;
             objectLocation[DAVE] = 0xff;
             ShowImage();
+            if (ScriptInterrupted()) return;
             pendingTextID = 0xe5; // text ID 229 (0x00e5), script $7ccd: B2 record 269: Unvorsichtigerweise öffnest Du noch einmal die Tür zu Mylgors Geheimlabor: Gnadenlos schlägt Dir die Feuersbrunst ins Gesicht und raubt Dir den Atem! Du schaust Dich um, um Dich zu vergewissern, daß Mylgor auch wirklich tot ist, kannst ihn aber nirgendwo entdecken! "Okay!", sagst Du Dir selbstzufrieden, "Sieht ganz so aus, als hätte ich ganze Arbeit geleistet! Friede seiner Asche!", und willst das Labor gerade wieder verlassen, als sich eine von Brandwunden fürchterlich entstellte Hand um Dein Fußgelenk schließt - MYLGORS HAND! Der wahnsinnige Alchemist hat es noch geschafft, sich kurz bevor Du eintratst zur Tür zu schleppen! Unter hysterischem Gelächter reißt er Dich zu Boden, springt schneller auf, als Du es ihm jemals zugetraut hättest, rennt aus dem Labor und wirft die Tür hinter sich ins Schloß! In Deinem panischen Versuch, den Flammen zu entkommen, stößt Du unvorsichtigerweise gegen ein kleines Tischchen, auf dem verschiedene Chemikalienbehälter stehen - einer von ihnen mit der Aufschrift "N-I-T-R-O - NICHT RAUCHEN!" Daß man Nitro nicht rauchen kann, bedauerst Du zwar außerordentlich, aber was Dich im Moment viel mehr beunruhigt ist der Gedanke, der Dir kommt, als Du das Fläschchen kippeln und umfallen siehst - denn: Nitroglyzerin ist explosiv! Ein wirklich beruhigendes Gefühl, nicht ganz unwissend aus dieser Welt zu scheiden...
             showtext();
-            Restart();
+            if (ScriptInterrupted()) return;
+            FlushOutput();
+            if (ScriptInterrupted()) return;
             imageID = 0xff;
             goto x7cf8;
         } else {
@@ -587,6 +666,7 @@ x7bbe:
 x7cf8:
     if ( imageID != 0xff ) {
         ShowImage();
+        if (ScriptInterrupted()) return;
     }
     return;
 }
@@ -594,18 +674,21 @@ x7cf8:
 
 void PartB_HandleSpielende(void) { // Part B, script $7d01; command 12 (SPIELENDE), SELECT $7702 case 12
     SPECIAL(0x05); // Spielende
+    if (ScriptInterrupted()) return;
     return;
 }
 
 
 void PartB_HandleNeustart(void) { // Part B, script $7d05; command 13 (NEUSTART), SELECT $7702 case 13
     SPECIAL(0x04); // Neustart
+    if (ScriptInterrupted()) return;
     return;
 }
 
 
 void PartB_HandleLaden(void) { // Part B, script $7d09; command 14 (LADEN), SELECT $773a case 1
     SPECIAL(0x02); // Laden
+    if (ScriptInterrupted()) return;
     return;
 }
 
@@ -618,6 +701,7 @@ void PartB_HandlePunkte(void) { // Part B, script $7d0d; command 15 (PUNKTE), SE
 
 void PartB_HandleLoesung(void) { // Part B, script $7d12; command 16 (LOESUNG), SELECT $773a case 3
     SPECIAL(0x06); // Loesung
+    if (ScriptInterrupted()) return;
     return;
 }
 
@@ -625,6 +709,7 @@ void PartB_HandleLoesung(void) { // Part B, script $7d12; command 16 (LOESUNG), 
 void PartB_HandleMusikein(void) { // Part B, script $7d16; command 17 (MUSIKEIN), SELECT $773a case 4
     temp = 0x00;
     SPECIAL(0x07); // Musik ein
+    if (ScriptInterrupted()) return;
     return;
 }
 
@@ -632,6 +717,7 @@ void PartB_HandleMusikein(void) { // Part B, script $7d16; command 17 (MUSIKEIN)
 void PartB_HandleAusgaenge12(void) { // Part B, script $7d1e; command 18 (AUSGAENGE12), SELECT $773a case 5
     temp = 0x01;
     SPECIAL(0x08); // Ausgaenge listen
+    if (ScriptInterrupted()) return;
     return;
 }
 
@@ -642,9 +728,12 @@ void PartB_HandleSued(void) { // Part B, script $7d26; command 19 (SUED), SELECT
         if ( objectState[BETT1] == 0x00 ) {
             pendingTextID = 0xce; // text ID 206 (0x00ce), script $7d3f: B2 record 246: Nachdem Du die Dienerkammer betreten hast, steckt Mylgor noch einmal kurz seinen Kopf durch den Türspalt, wünscht Dir eine angenehme Nachtruhe, verläßt den Raum - und schließt die Tür hinter sich ab!
             showtext();
-            Restart();
+            if (ScriptInterrupted()) return;
+            FlushOutput();
+            if (ScriptInterrupted()) return;
         }
         Code2E5B();
+        if (ScriptInterrupted()) return;
     }
     if ( currentRoom == IN_DER_EISWUESTE ) {
         if ( objectState[HUNDESCHLITTEN] == 0x00 && objectState[DACHSSCHLITTEN] == 0x00 ) {
@@ -675,12 +764,15 @@ void PartB_HandleSued(void) { // Part B, script $7d26; command 19 (SUED), SELECT
             objectState[KOENIG] = 0x05;
             pendingTextID = 0xd0; // text ID 208 (0x00d0), script $7dd4: B2 record 248: Als Du wieder das Kaminzimmer betrittst, wunderst Du Dich, weshalb Mylgor die Tür eigentlich nicht verschlossen hat. Irgendetwas in diesem Haus scheint nicht in Ordnung zu sein - ganz und gar nicht in Ordnung... Du fragst Dich ebenfalls, warum Mylgor nicht anwesend ist, um Dich zu begrüßen: Vielleicht ist dies bloß eine Falle, weil er gemerkt hat, daß Du Dein Versprechen, Firon zu beseitigen, nicht gehalten hast? Oder haben König Richard und sein Bruder Dir vielleicht doch nicht die volle Wahrheit gesagt und Mylgor umbringen lassen, bevor Du sie durchschauen und Deinen Fehler, Firon am Leben zu lassen, wiedergutmachen könntest? Dir kommen starke Zweifel und Gewissensbisse, als Du Dir vor Augen hältst, daß durch Dein Verschulden vielleicht ein unschuldiger Mensch sterben mußte...
             showtext();
-            Restart();
+            if (ScriptInterrupted()) return;
+            FlushOutput();
+            if (ScriptInterrupted()) return;
         }
     }
     if ( south[currentRoom] != 0x00 ) {
         currentRoom = south[currentRoom];
         Code2E5B();
+        if (ScriptInterrupted()) return;
         objectLocation[DAVE] = currentRoom;
         imageID = currentRoom;
     } else {
@@ -697,25 +789,33 @@ void PartB_HandleSued(void) { // Part B, script $7d26; command 19 (SUED), SELECT
             imageID = 0x84;
             objectLocation[DAVE] = 0xff;
             ShowImage();
+            if (ScriptInterrupted()) return;
             imageID = 0xff;
             pendingTextID = 0xe2; // text ID 226 (0x00e2), script $7e30: B2 record 266: Du versuchst, auf dem dicken Baumstamm zu balancieren, aber auf halbem Wege, genau über dem tiefen Abgrund, rutschst Du ab und fällst... und fällst... und fäll... MAAATSCH! Daß Du es aber auch immer gleich übertreiben mußt! Der ganze Fluß war frei - mußtest Du Dir denn unbedingt den einzigen Felsen für Deine Landung aussuchen? Na okay, das war's dann wohl mal wieder. Eigentlich schade, daß wir uns entschieden haben, doch keine Geräuscheffekte in diese Version zu integrieren, denn Dein langgezogener Schrei sowie der dumpfe Aufprall in dem ca. zweihundert Meter tiefer gelegenen Tal waren wirklich hörenswert! Aber es hätte die Produktionskosten in schwindelerregende Höhen getrieben, Freiwillige zu finden, die sich zur Erzeugung dieser Geräusche bereit erklärt hätten... Naja gut, ich gebe zu: Wir HATTEN jemanden, der es gewagt hat, aber dummerweise vergaß Chris den Sampler einzuschalten! Mit der Witwe prozessieren wir bis heute...
             showtext();
-            Restart();
+            if (ScriptInterrupted()) return;
+            FlushOutput();
+            if (ScriptInterrupted()) return;
             imageID = 0xff;
             goto x7e4d;
         }
         pendingTextID = 0xe1; // text ID 225 (0x00e1), script $7e3e: B2 record 265: Vorsichtig balancierst Du auf dem dicken Baumstamm: Zwei, drei Mal rutschst Du ab, fängst Dich jedoch im letzten Augenblick wieder, bevor Du in die Tiefe fallen kannst! Hättest Du Deine Stiefel nicht mit dem klebrigen Honig präpariert, wäre es wahrscheinlich nicht so glimpflich verlaufen: Zitternd, aber unversehrt, erreichst Du das andere Ende des Baumstamms und springst ab - froh, wieder festen Boden unter den Füßen zu haben...
         showtext();
+        if (ScriptInterrupted()) return;
         Code2E5B();
-        Restart();
+        if (ScriptInterrupted()) return;
+        FlushOutput();
+        if (ScriptInterrupted()) return;
         imageID = currentRoom;
         showtext();
+        if (ScriptInterrupted()) return;
         goto x7e4d;
     }
 
 x7e4d:
     if ( imageID != 0xff ) {
         ShowImage();
+        if (ScriptInterrupted()) return;
     }
     return;
 }
@@ -723,6 +823,7 @@ x7e4d:
 
 void PartB_HandleSpeichern(void) { // Part B, script $7e56; command 20 (SPEICHERN), SELECT $773a case 7
     SPECIAL(0x03); // Speichern
+    if (ScriptInterrupted()) return;
     return;
 }
 
@@ -734,18 +835,24 @@ void PartB_HandleHinauf(void) { // Part B, script $7e5a; command 21 (HINAUF), SE
             imageID = 0x89;
             objectLocation[DAVE] = 0xff;
             ShowImage();
+            if (ScriptInterrupted()) return;
             pendingTextID = 0xd9; // text ID 217 (0x00d9), script $7e85: B2 record 257: Hmmm...: War wohl irgendwie nicht so toll, Dein Plan: Die Druckwelle, die von der Explosion der Reagenzien in Mylgors Labor verursacht wurde, sprengt die massive Labortür auf und läßt die gesamte Hütte über Dir zusammenbrechen! Ziemlich blöder Fehler, Mann! Vielleicht sicherst Du die Tür beim nächsten Mal einfach mal besser ab...? Aber unter Umständen tröstet Dich ja die Tatsache, daß Mylgor "noch viel toter" ist als Du: DEIN Körper kann zumindest noch begraben werden - Mylgors Überreste hingegen müßte man erst von den Wänden abkratzen...
             showtext();
-            Restart();
+            if (ScriptInterrupted()) return;
+            FlushOutput();
+            if (ScriptInterrupted()) return;
             return;
         } else {
             if ( objectState[LABORTUER] != 0x00 && objectState[MYLGOR] >= 0x05 && objectState[REAGENZIEN] == 0x00 ) {
                 imageID = 0x86;
                 objectLocation[DAVE] = 0xff;
                 ShowImage();
+                if (ScriptInterrupted()) return;
                 pendingTextID = 0xd7; // text ID 215 (0x00d7), script $7eb0: B2 record 255: Als Du gerade die Steigeisen erklimmen willst, um wieder in Mylgors Kaminzimmer hinaufzuklettern, hörst Du, wie hinter Dir die Labortür geöffnet wird, und siehst Mylgor herauskommen, wie wild mit der Pferdespritze herumfuchtelnd! Vielen Dank: Du botest ihm gerade genau die richtige Position, um seinen "Schuß" zu plazieren - obwohl die Injektion, die er Dir verpaßt, wirklich alles andere als heilsam ist...
                 showtext();
-                Restart();
+                if (ScriptInterrupted()) return;
+                FlushOutput();
+                if (ScriptInterrupted()) return;
                 return;
             }
         }
@@ -753,6 +860,7 @@ void PartB_HandleHinauf(void) { // Part B, script $7e5a; command 21 (HINAUF), SE
     if ( up[currentRoom] != 0x00 ) {
         currentRoom = up[currentRoom];
         Code2E5B();
+        if (ScriptInterrupted()) return;
         objectLocation[DAVE] = currentRoom;
         imageID = currentRoom;
     } else {
@@ -762,6 +870,7 @@ void PartB_HandleHinauf(void) { // Part B, script $7e5a; command 21 (HINAUF), SE
     }
     if ( imageID != 0xff ) {
         ShowImage();
+        if (ScriptInterrupted()) return;
     }
 
 x7ee6:
@@ -796,9 +905,13 @@ void PartB_HandleWest(void) { // Part B, script $7f00; command 24 (WEST), SELECT
         objectLocation[DAVE] = AUF_EINER_LICHTUNG2;
         imageID = currentRoom;
         ShowImage();
+        if (ScriptInterrupted()) return;
         Code2E5B();
+        if (ScriptInterrupted()) return;
         showtext();
-        Restart();
+        if (ScriptInterrupted()) return;
+        FlushOutput();
+        if (ScriptInterrupted()) return;
         pendingTextID = 0xd1; // text ID 209 (0x00d1), script $7f38: B2 record 249: In der Mitte der Lichtung spielt ein kleiner Orkjunge "Ameisenbomber", ein unter den Orks sehr beliebtes Jagdspiel. Er scheint so um die achtzig Jahre alt zu sein und noch nicht vollständig ausgewachsen - aber warte noch ein paar Jahrhunderte, und er wird Dich mühelos mit der linken Hand erwürgen... Ein paar Augenblicke lang schaust Du dem Kind bei seinem Spiel zu: Seine rechte Hand schwebt hoch in der Luft über einem Ameisenloch, während es mit der Linken die auf dem Boden herumkrabbelnden Waldameisen in Richtung des Loches scheucht. Jedesmal, wenn eine Ameise versucht, in ihren Bau zu schlüpfen, läßt der Kleine einen Kiesel auf sie fallen! Viel Glück scheint der junge Ork bei dieser Partie bisher jedoch noch nicht gehabt zu haben, bemerkst Du beruhigt, als er angesichts einer Ameise, die er kurz vor dem Loch verfehlt hat, zerknirscht knurrt: "Okay, 23 : 4 für Euch! Aber jetzt geht's rund, Leute!" Irgendwann hast Du genug davon, dem Ork bei seinen sadistischen Machenschaften zuzusehen, und trittst auf ihn zu. Als er Dich bemerkt, reicht der Kleine Dir ein paar Kiesel: "Hier! Laß uns ein Match machen: Ich setze zwei Goldstücke!" Ohne auf sein Angebot einzugehen, nimmst Du dem Jungen die Kiesel aus der Hand und wirfst sie mit Nachdruck ins Gebüsch. Der Ork scheint zu verstehen, zieht eine Schnute und murmelt: "Dann eben nicht..."
         return;
     }
@@ -806,6 +919,7 @@ void PartB_HandleWest(void) { // Part B, script $7f00; command 24 (WEST), SELECT
         currentRoom = west[currentRoom];
         objectLocation[DAVE] = currentRoom;
         Code2E5B();
+        if (ScriptInterrupted()) return;
         imageID = currentRoom;
     } else {
         if ( west[currentRoom] == 0x00 ) {
@@ -825,6 +939,7 @@ x7f66:
     }
     if ( imageID != 0xff ) {
         ShowImage();
+        if (ScriptInterrupted()) return;
     }
 
 x7f92:
@@ -943,7 +1058,9 @@ x80cd:
     if ( object1 == DAVE ) {
         pendingTextID = 0x3c; // text ID 60 (0x003c), script $80dd: B2 record 162: Eine weise, ja geradezu philosophische Entscheidung: Selbstmord heißt, Probleme aus der Welt zu schaffen, die man ohne seine Eltern gar nicht hätte! Wirklich schönes Schlußwort! Hasta la vista... - Babe! HARAKIRIIIIIIIIIIHHHHH!
         showtext();
-        Restart();
+        if (ScriptInterrupted()) return;
+        FlushOutput();
+        if (ScriptInterrupted()) return;
         objectLocation[DAVE] = 0xff;
         return;
     }
@@ -956,9 +1073,12 @@ x80cd:
         objectLocation[DAVE] = 0xff;
         imageID = 0x83;
         ShowImage();
+        if (ScriptInterrupted()) return;
         pendingTextID = 0xec; // text ID 236 (0x00ec), script $811c: B2 record 276: Du versuchst, Mylgors Nase zu fassen zu bekommen, um ihn zu zwingen, endlich die Tür zu öffnen, auf daß Du ihn leichter meucheln könntest, aber der Kerl besitzt tatsächlich die ungeheuerliche Dreistigkeit, Dir zeigen zu wollen, daß er mit Deinem Vorhaben nicht so ganz einverstanden ist - und unglücklicherweise ist er etwas schneller als Du! Bevor Du ihn berührst, duckt er sich, und Deine Hände schießen ins Leere! Aber im selben Augenblick, als sie im Raum auftauchen, packt Mylgor sie und bricht Dir über den Lukenrahmen beide Arme! Du brüllst vor Schmerz, aber Dein Gegner ist noch nicht fertig mit Dir: Mit geradezu übermenschlicher Kraft zieht Mylgor Dich nach und nach durch die Luke - zwar nicht ganz vollständig, aber was nicht durchpaßt, muß halt draußen bleiben! Und das ist bei einer ca. 20 X 20 Zentimeter großen Luke ziemlich viel! Nun weißt Du auch endlich, wie einer Kartoffel zumute sein muß, die zu Pommes Frites verarbeitet wird - eine Frage, die Dich seit Urzeiten bewegt hat: Man fühlt sich eben ziemlich "gesiebt" - aber das ist dann auch schon die letzte Erkenntnis, die sich Dir in diesem Leben noch offenbart - denn ein Kopf, der als ein Haufen aus Blut und gebrochenen Knochen den Boden vor einer Haustür ziert, ist schließlich nicht mehr in der Lage, noch an irgendetwas zu denken, oder?
         showtext();
-        Restart();
+        if (ScriptInterrupted()) return;
+        FlushOutput();
+        if (ScriptInterrupted()) return;
         return;
     }
     if ( object1 == FIRON ) {
@@ -974,6 +1094,7 @@ x80cd:
             objectLocation[WERWOLF] = RAUM_NULL;
             objectState[WERWOLF] = 0x03;
             showtext();
+            if (ScriptInterrupted()) return;
             pendingTextID = 0x00; // text ID 0 (0x0000), script $816c: no text
             return;
         }
@@ -987,6 +1108,7 @@ x80cd:
         objectLocation[REAGENZIEN] = RAUM_NULL;
         objectState[REAGENZIEN] = 0x01;
         showtext();
+        if (ScriptInterrupted()) return;
         pendingTextID = 0x00; // text ID 0 (0x0000), script $819f: no text
         return;
     }
@@ -1045,11 +1167,16 @@ void PartB_HandleBetritt(void) { // Part B, script $822d; command 30 (BETRITT), 
                 remainingPoints[0xa2] = 0x00;
                 pendingTextID = 0xe3; // text ID 227 (0x00e3), script $827f: B2 record 267: Unbemerkt schleichst Du Dich an dem Yeti vorbei in den Thronsaal - keinen Moment zu früh: Kaum hast Du die Halle erreicht, werden aus dem Nichts Deine Konturen sichtbar...
                 showtext();
-                Restart();
+                if (ScriptInterrupted()) return;
+                FlushOutput();
+                if (ScriptInterrupted()) return;
                 imageID = currentRoom;
                 ShowImage();
+                if (ScriptInterrupted()) return;
                 Code2E5B();
+                if (ScriptInterrupted()) return;
                 showtext();
+                if (ScriptInterrupted()) return;
                 return;
             }
         }
@@ -1062,7 +1189,7 @@ x8295:
 
 
 void PartB_HandleBetrachte(void) { // Part B, script $8296; command 31 (BETRACHTE), SELECT $7772 case 5
-    pendingTextID = objectDescriptionID[object1]; // dynamic text ID, script $8296; resolve through texts/C64/text_ids.json
+    pendingTextID = objectDescriptionID[object1]; // dynamic text ID, script $8296; resolve through GameTextLookup(gamePart, id)
     if ( object1 == ERDLOCH && objectLocation[NOTIZ] == RAUM_NULL ) {
         objectLocation[NOTIZ] = currentRoom;
         objectDescriptionID[ERDLOCH] = 0x0b;
@@ -1180,7 +1307,9 @@ x8462:
     if ( object1 == WERWOLF ) {
         pendingTextID = 0x0130; // text ID 304 (0x0130), script $8485: B2 record 344: Das kann doch wohl nicht Dein Ernst seiiiiiiiiiin...!
         showtext();
-        Restart();
+        if (ScriptInterrupted()) return;
+        FlushOutput();
+        if (ScriptInterrupted()) return;
         objectLocation[DAVE] = 0xff;
         return;
     }
@@ -1319,6 +1448,7 @@ x8591:
                 if ( object1 == LABORTUER && objectState[REAGENZIEN] != 0x00 ) {
                     pendingTextID = 0x0272; // text ID 626 (0x0272), script $8674: B2 record 441: Die Labortür hat sich durch die Hitze schon zu sehr verzogen, als daß Du sie noch öffnen könntest...
                     showtext();
+                    if (ScriptInterrupted()) return;
                     objectState[LABORTUER] = 0x02;
                     north[IN_EINEM_KURZEN_KORRIDOR] = 0x00;
                     goto x86d0;
@@ -1408,9 +1538,12 @@ x8766:
                 objectLocation[DAVE] = 0xff;
                 imageID = 0x82;
                 ShowImage();
+                if (ScriptInterrupted()) return;
                 pendingTextID = 0x0128; // text ID 296 (0x0128), script $878b: B2 record 336: Vorsichtig langst Du nach der kleinen Pfeife - doch unglücklicherweise hast Du Dir genau den falschen Augenblick für Deinen Diebstahl ausgesucht: Als sich der Blick des Orkvaters wieder auf Dich, dann auf die Pfeife richtet, wirst Du hochrot, um kurz darauf wieder sehr, sehr bleich zu werden...: "Verdammter Dieb!", schreit Dich der Ork an, "Einem Abhängigen sein Ein und Alles stehlen zu wollen!" Zu seinem Sohn gewandt, ruft er erbost aus: "So, Filius! Kapierst Du jetzt endlich, weshalb ich dieses verfluchte Menschenpack hasse? Alles Lügner und Diebe! Aber...", er grinst hämisch zu Dir herüber, während Du vor Schreck keinen Ton zu Deiner Verteidigung herausbringen kannst, "...EIN Gutes hat es doch, daß Du ihn zum Essen hierhergebracht hast: Er dürfte ein schmackhaftes Hors d'Oevre abgeben...!" Bevor Du aufspringen kannst, um Fersengeld zu geben, packen Dich bereits zwei kräftige Hände brutal im Nacken und brechen Dir mit einer kurzen, aber gut geübten Bewegung das Genick! Du findest nicht einmal mehr die Zeit, den traurigen und schwer enttäuschten Gesichtsausdruck des kleinen Orks zu bemerken...
                 showtext();
-                Restart();
+                if (ScriptInterrupted()) return;
+                FlushOutput();
+                if (ScriptInterrupted()) return;
                 return;
             } else {
                 if ( objectState[ORKMANN] == 0x06 && objectLocation[ORKMANN] == currentRoom ) {
@@ -1583,16 +1716,21 @@ x88ab:
                 if ( objectState[EICHENTUER] == 0x02 ) {
                     pendingTextID = 0x013b; // text ID 315 (0x013b), script $8a57: B2 record 355: Firon antwortet: "Um Dir zu beweisen, daß ich auf Deiner Seite stehe, werde ich Dir einen Schlüssel geben, dessen Zweck Dir später sicherlich noch erklärt wird. Es liegt leider nicht in meiner Befugnis, es Dir persönlich zu sagen, aber es gibt jemanden... -jemanden in dem alten Kloster auf dem Hügel im Nordosten des Landes, den Du finden solltest. Wir beide waren Mitglieder einer Lobby, die sich im Geheimen mit den Problemen des Landes beschäftigt hat, nachdem das Böse die Oberhand gewonnen hatte. Bedauerlicherweise..." - bei diesen Worten seufzt er und blickt für einen kurzen Moment geistesabwesend an Dir vorbei in die kalte Leere - "Bedauerlicherweise schaffte er es nicht mehr, zu uns in diese Wüste zu fliehen, so daß er den Häschern des Bösen in die Hände fiel... Ich habe ihn und das Kloster, das uns damals als geheimes Hauptquartier diente, nie mehr wiedergesehen: Alles, was mir blieb, war ein Schlüssel, dessen Abdruck ich in magischem Eis gegossen und seit Jahrzehnten aufbewahrt habe. Möge er Dir auf Deiner Suche behilflich sein..." Mit diesen Worten steht Firon auf, holt einen großen Schlüssel aus einem Geheimfach in seinem Thron und legt ihn Dir vorsichtig in die ausgestreckte Hand. Mit einem Blick auf das Portal hinter Dir fügt er hinzu: "Meine Wachen werden Dich passieren lassen. Ich werde sie anweisen, einen meiner schnellsten Dachsschlitten für Deine Rückkehr zum Rand der Eisregionen bereit zu machen. Leb' wohl, mein Freund - und mögen die Götter Dich schützen..." Mit diesen Worten winkt Firon den Yeti heran, der Dich nach draußen geleitet, wo Firons Schlitten schon auf Dich wartet...
                     showtext();
-                    Restart();
+                    if (ScriptInterrupted()) return;
+                    FlushOutput();
+                    if (ScriptInterrupted()) return;
                     objectLocation[EISSCHLUESSEL] = 0xff;
                     objectLocation[DACHSSCHLITTEN] = IN_DER_EISWUESTE;
                     objectLocation[DAVE] = IN_DER_EISWUESTE;
                     currentRoom = IN_DER_EISWUESTE;
                     imageID = currentRoom;
                     ShowImage();
+                    if (ScriptInterrupted()) return;
                     imageID = 0xff;
                     Code2E5B();
+                    if (ScriptInterrupted()) return;
                     showtext();
+                    if (ScriptInterrupted()) return;
                     return;
                 }
             }
@@ -1708,6 +1846,7 @@ void PartB_HandleWende(void) { // Part B, script $8b82; command 40 (WENDE), SELE
                 if ( currentRoom == IN_EINEM_VERWUNSCHENEN_WALD2 ) {
                     pendingTextID = 0x0182; // text ID 386 (0x0182), script $8c6b: not displayed on B2 by $3F62
                     showtext();
+                    if (ScriptInterrupted()) return;
                     objectLocation[AMULETT] = 0x69;
                     objectState[AMULETT] = 0x00;
                     return;
@@ -1840,6 +1979,7 @@ void PartB_HandleWende(void) { // Part B, script $8b82; command 40 (WENDE), SELE
                 objectLocation[WERWOLF] = RAUM_NULL;
                 objectState[WERWOLF] = 0x03;
                 showtext();
+                if (ScriptInterrupted()) return;
                 pendingTextID = 0x00; // text ID 0 (0x0000), script $8f19: no text
                 return;
             }
@@ -1849,7 +1989,9 @@ void PartB_HandleWende(void) { // Part B, script $8b82; command 40 (WENDE), SELE
         if ( object2 == DAVE ) {
             pendingTextID = 0x60; // text ID 96 (0x0060), script $8f2f: B2 record 198: Na gut, wie Du meinst: Heldenhaft stürzst Du Dich in die Klinge Deines Schwertes - aber nichts passiert! Kein Blut, kein Schmerz, rein gar nichts! Frustriert unternimmst Du einen weiteren Versuch, doch wieder spürst Du nichts. Beim dritten Mal triffst Du Dich dann endlich: In Todesqualen windest Du Dich auf dem Boden, ohne daß ein Wort des Schmerzes über Deine Lippen kommt - wie es sich eben für einen echten Helden gehört. Wenn das Deine Freundin sehen könnte! So einen stilvollen Abgang legt man schließlich nicht alle Tage hin! Auf einmal ist alles vorbei, und es wird dunkel... Nach einiger Zeit erwachst Du schwebend in einem dunklen Raum. Du schauderst: Ist das das Leben nach dem Tode? Das soll wirklich alles sein? Sieht ja finster aus... Doch auf einmal wird Dir klar, was Dich geweckt hat: Leise, wie aus weiter Ferne, weht eine sanfte Stimme zu Dir herüber... "Dave Parker!", kannst Du sie wispern hören, "Du solltest wissen, daß niemand seinem Schicksal entkommen kann! Es hat keinen Sinn, vor seiner Bestimmung zu fliehen - das Schicksal holt Dich immer wieder ein! Gehe also hin und erfülle die Aufgaben, die man Dir auferlegt hat. Kraft meiner göttlichen Befugnisse werde ich Dir nun ein Extraleben schenken, um Dir noch eine Gelegenheit zu geben, Deine Bestimmung zu erfüllen..." Während die Stimme im Nichts verhallt, beginnt sich alles um Dich herum zu drehen, Dir wird schwindlig - und Du fällst in einen tiefen, traumlosen Schlaf... Als Du Deine Augen wieder öffnest, findest Du Dich genau dort wieder, wo Du Deinen Selbstmordversuch unternommen hast...
             showtext();
-            Restart();
+            if (ScriptInterrupted()) return;
+            FlushOutput();
+            if (ScriptInterrupted()) return;
             return;
         }
     }
@@ -1930,6 +2072,7 @@ void PartB_HandleGib(void) { // Part B, script $9053; command 42 (GIB), SELECT $
     if ( object1 == KRISTALLKUGEL && object2 == ORKKIND ) {
         pendingTextID = 0x015d; // text ID 349 (0x015d), script $905e: B2 record 389: Du gibst dem Kind die Kristallkugel, damit es endlich etwas zum Spielen hat - und vor allem, damit bei seinen Spielen niemand mehr zu Schaden kommt. Mit zitternden Fingern betastet es das schimmernde Kleinod und betrachtet es, als wäre die kleine Kugel das wertvollste Ding auf dieser Welt. "Sie ist wunderschön - was willst Du dafür haben?", fragt es, ängstlich, in seinem jungen Leben noch nicht genug Schätze gehortet zu haben und Dir deshalb sein neues Spielzeug wieder zurückgeben zu müssen. "Nichts. Ich schenke sie Dir. Aber versuch' nicht, Fußball damit zu spielen!", antwortest Du freundlich - froh, das Kind ein wenig glücklicher machen zu können. Das kleine Ding starrt Dich aus ungläubigen Augen an: "Wirklich - gar nichts?", wiederholt es fragend, als könne es Dir nicht glauben. "Wirklich - gar nichts!", gibst Du zurück. Das Kind fällt Dir überglücklich um den Hals: "Du bist mein Freund!", kräht es in seiner kindlichen Freude, die noch nichts von dem feindseligen Ton an sich hat, in dem Orks und Menschen normalerweise miteinander zu verkehren pflegen, "Komm' mit mir mit: Ich werde Dir unsere Höhle zeigen und Dich meinen Eltern vorstellen!" Bevor Du etwas erwidern kannst, läßt der Kleine Dich los und stapft in das Unterholz hinein. Kopfschüttelnd folgst Du dem Kind durch das dichte Gestrüpp am südlichen Rande der Lichtung, auf einem Pfad, den nur die Orks kennen...
         showtext();
+        if (ScriptInterrupted()) return;
         objectLocation[KRISTALLKUGEL] = RAUM_NULL;
         objectLocation[ORKKIND] = IN_DER_ORKHOEHLE;
         objectLocation[DAVE] = IN_DER_ORKHOEHLE;
@@ -1937,9 +2080,13 @@ void PartB_HandleGib(void) { // Part B, script $9053; command 42 (GIB), SELECT $
         currentRoom = IN_DER_ORKHOEHLE;
         imageID = currentRoom;
         ShowImage();
+        if (ScriptInterrupted()) return;
         Code2E5B();
+        if (ScriptInterrupted()) return;
         showtext();
-        Restart();
+        if (ScriptInterrupted()) return;
+        FlushOutput();
+        if (ScriptInterrupted()) return;
         pendingTextID = 0xcc; // text ID 204 (0x00cc), script $9087: B2 record 244: Als der Orkvater seinen kleinen Sohn vegnügt hinter Dir die Höhle betreten sieht, verwandelt sich sein anfänglich feindseliger Blick plötzlich in ein breites Grinsen. "Oho! Sieht ja ganz danach aus, als bekämen wir heute Besuch zum Essen!", sagt er, und Du zuckst unwillkürlich zusammen - doch er fährt unbeirrt in seiner rauhbauzigen Art fort, ohne sich der Zweideutigkeit seiner Worte überhaupt erst richtig bewußt zu werden: "Naja: Wenn mein Weib es tatsächlich noch schaffen sollte, die Echse zu grillen, bevor wir alle verhungert sind, kannst Du ja mit uns zu Mittag essen. Setz' Dich einfach hin - es ist genug für uns alle da!" Mit sehr gemischten Gefühlen setzt Du Dich auf einen der kleinen Schemel, wobei Du Dich jedoch krampfhaft bemühst, nicht zu dem Tier über der Feuerstelle zu blicken...
         imageID = 0xff;
         return;
@@ -1970,7 +2117,9 @@ void PartB_HandleGib(void) { // Part B, script $9053; command 42 (GIB), SELECT $
         }
         if ( objectState[VERTRAG] == 0x01 && objectLocation[VERTRAG] == RAUM_NULL && objectLocation[MESSER] == RAUM_NULL ) {
             showtext();
-            Restart();
+            if (ScriptInterrupted()) return;
+            FlushOutput();
+            if (ScriptInterrupted()) return;
             score = score + remainingPoints[0x50];
             remainingPoints[0x50] = 0x00;
             objectLocation[MESSER] = RAUM_NULL;
@@ -1980,10 +2129,14 @@ void PartB_HandleGib(void) { // Part B, script $9053; command 42 (GIB), SELECT $
             currentRoom = IM_KAMINZIMMER;
             imageID = currentRoom;
             ShowImage();
+            if (ScriptInterrupted()) return;
             pendingTextID = 0xcf; // text ID 207 (0x00cf), script $9148: B2 record 247: Als Du den Vertrag sowie das Messer an den Mann zurückgegeben hast, verschwindet sein Gesicht kurz hinter der Luke. Nach wenigen Sekunden hörst Du, wie von innen die Tür aufgeschlossen wird. "Tritt ein!", sagt der Mann, als er Dir die Tür öffnet, und führt Dich in ein kleines, aber sehr gemütlich eingerichtetes Kaminzimmer. Er stellt sich als "Mylgor, Alchemist" vor und zeigt Dir auch gleich den Raum, in dem Du die Nacht verbringen sollst. Auf Deine Frage hin, wo er denn schlafen wolle, wenn nicht dort, lacht er herzlich und sagt: "Meinst Du denn wirklich, daß diese kleine Hütte groß genug zum Leben für einen Wissenschaftler wie mich ist? Nein, aber nicht doch: Dies ist bloß der Raum, in dem mein Diener gewöhnlich schläft, der zur Zeit aber gerade im Nachbardorf ein paar Besorgungen für mich erledigt. Mein Labor und die anderen Räume befinden sich... - sind versteckt! Es spielt keine Rolle, wo..." Nervös streicht sich Mylgor über seinen Kinnbart, zwingt sich dann jedoch wieder zu seinem eigentümlichen Lächeln. "Aber ich dachte eigentlich, wir wollten über Dich reden - nicht über mich...?", meint er und nickt mit dem Kopf in Richtung Kaminzimmer, "Laß uns noch ein Stündchen am warmen Kamin plaudern, und ich werde Dir vielleicht ein wenig über die Geschichte unseres Dorfes erzählen. Aber gib mir erst einmal Deine nassen Sachen - Du könntest Dir ja sonst glatt den Tod holen...!" Mit einem sehr flauen Gefühl im Magen entkleidest Du Dich, wobei Du den alten Alchemisten jedoch genauestens im Auge behältst: Wer weiß, was das für eine Gefälligkeit sein wird, die Du dem alten Mann erweisen sollst? War da nicht gerade so ein gieriges Funkeln in seinen Augen zu erkennen? Vorsichtshalber lugst Du zur Tür Deiner Kammer: Gott sei Dank! Sie läßt sich abschließen! Verlegen und unsicher reichst Du Mylgor Deine klamme Badehose, doch alles was er tut, ist, sie zum Trocknen an den Kamin zu legen...
             showtext();
-            Restart();
+            if (ScriptInterrupted()) return;
+            FlushOutput();
+            if (ScriptInterrupted()) return;
             Code2E5B();
+            if (ScriptInterrupted()) return;
             return;
         }
         if ( pendingTextID == 0x00 ) {
@@ -2056,7 +2209,7 @@ x91f0:
             } else {
                 if ( objectState[object1] == 0x02 || objectState[object1] == 0x01 ) {
                     if ( objectState[object1] == 0x01 ) {
-                        PartB_HandleSchliesse();
+                        PartB_HandleSchliesse(); if (ScriptInterrupted()) return;
                     }
                     objectState[object1] = 0x00;
                     if ( object1 == FRIEDHOFSTOR1 ) {

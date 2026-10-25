@@ -58,8 +58,8 @@ int main(int argc, char** argv) {
     }
     contains("score = 0x03e8;");
     contains("pendingTextID = 0x2e; // text ID 46 (0x002e), script $7605: fixture text");
-    contains("case 1: PartA_HandleExample(); break;");
-    contains("case 2: PartA_Sub_7800(); break;");
+    contains("case 1: PartA_HandleExample(); if (ScriptInterrupted()) return; break;");
+    contains("case 2: PartA_Sub_7800(); if (ScriptInterrupted()) return; break;");
     contains("SPECIAL(0x64); // engine annotation");
     std::ifstream tableStream(std::string(argv[1]) + ".tables.c");
     std::string tableSource((std::istreambuf_iterator<char>(tableStream)), {});

@@ -1,4 +1,4 @@
-/* Test-only engine doubles. Production generated C still has declarations only. */
+/* Test-only engine doubles. The production engine is linked separately. */
 #include "out/parta.c"
 #include <assert.h>
 #include <stdio.h>
@@ -7,9 +7,10 @@ ObjectID object1;
 ScriptWord temp, scratch1;
 TextID pendingTextID;
 ScriptByte objectLocation[166];
-static unsigned shown, restarted;
+static unsigned shown, flushed;
 void showtext(void) { ++shown; }
-void Restart(void) { ++restarted; }
+int ScriptInterrupted(void) { return 0; }
+void FlushOutput(void) { ++flushed; }
 
 static ScriptWord word(const unsigned char *p) {
     return (ScriptWord)(p[0] | ((unsigned)p[1] << 8));
@@ -48,12 +49,12 @@ int main(int argc, char **argv) {
         object1 = (ObjectID)id;
         temp = scratch1 = pendingTextID = 0xffff;
         objectLocation[DAVE] = 17;
-        shown = restarted = 0;
+        shown = flushed = 0;
         PartA_HandleZerstoere();
         assert(temp == expectedIndex);
         assert(scratch1 == expectedObject);
         assert(pendingTextID == expectedText);
-        assert(shown == expectedCalls && restarted == expectedCalls);
+        assert(shown == expectedCalls && flushed == expectedCalls);
         assert(objectLocation[DAVE] == expectedLocation);
     }
 

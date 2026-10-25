@@ -1,0 +1,549 @@
+# Main walkthrough: all 393 commands reach GameWon in the current console port.
+# The runner MUST reach GameWon for success; intermediate assertions are selective.
+# English C64 walkthrough, PDF page 13, first five bullets; translated commands.
+# Source SHA256: e21bdfcfcb6c5045ca83496bce0722ccd663300fe75167b7f8e1de02ba559319
+# Handbook checks are disabled as requested. Includes diary, ten optional discoveries, the hermit and a safe moor excursion.
+@part 1
+@room 3
+@mode ready
+@text Endlich da;
+> west
+@room 2
+> nord
+@room 6
+> betrachte tresen
+@location 12 6
+# Read the hotel's brochure before leaving the reception.
+@points 23 5
+> oeffne prospekt
+> lese prospekt
+@points 23 0
+@score 5
+# Reading again must not award the brochure points a second time.
+> lese prospekt
+@text Farbprospekt
+@points 23 0
+@score 5
+> druecke klingel
+@state 12 1
+> druecke klingel
+@state 12 2
+> druecke klingel
+@location 74 6
+> sprich portier
+@location 117 6
+> nimm zimmerschluessel
+@location 117 255
+# Restaurant: menu and the local resident's story.
+> nord
+@room 9
+> betrachte esstisch
+@points 94 5
+> lese speisekarte
+@points 94 0
+@points 98 5
+> hilf dorfbewohner
+@state 98 0
+> sprich dorfbewohner
+@points 98 0
+> hilf dorfbewohner
+@text keine Hilfe benötigt
+@state 98 1
+> sprich dorfbewohner
+@text Börks!
+@points 98 0
+> sued
+@room 6
+> west
+@room 5
+> entriegele zimmertuer mit zimmerschluessel
+> oeffne zimmertuer
+@state 49 1
+> oeffne zimmertuer
+@state 49 1
+> schliesse zimmertuer
+@state 49 2
+> oeffne zimmertuer
+@state 49 1
+> sued
+@room 1
+> betrachte stuhl
+@location 151 1
+> nimm badehose
+@location 151 255
+# The hiding place is empty; drop and retrieve the unworn swimsuit.
+> betrachte stuhl
+@location 151 255
+> verliere badehose
+@location 151 1
+> nimm badehose
+@location 151 255
+> nord
+@room 5
+> ost
+@room 6
+> sued
+@room 2
+> ost
+@room 3
+> ost
+@room 4
+> nord
+@room 8
+> verliere jeans
+@state 77 0
+> verliere t-shirt
+@state 143 0
+> verliere turnschuhe
+@state 126 0
+> verliere zimmerschluessel
+@location 117 8
+> wende badehose auf dave
+@state 151 1
+> nord
+> west
+> nord
+> nord
+> ost
+> nord
+> hilf einhorn
+> sprich einhorn
+> nimm kristallkugel
+@location 36 255
+@room 15
+@part 1
+@mode ready
+@score 55
+
+# Part B: continuation from PDF page 13
+> west
+@part 2
+@room 25
+@location 36 255
+@score 55
+@mode ready
+> west
+# Read the note hidden in the hole beside the path.
+> betrachte erdloch
+@points 100 5
+> lese notiz
+@points 100 0
+> sued
+> west
+> gib kristallkugel an orkkind
+> betrachte tisch
+> warte
+> warte
+> warte
+> warte
+> nimm pfeife
+> nord
+> ost
+> nord
+> west
+> west
+# Outside: HOLZTUER (50); HAUSTUER (64) is the inside object.
+> druecke holztuer
+@room 22
+@location 97 22
+> sprich mylgor
+> lese vertrag
+@state 32 0
+> wende messer auf dave
+> wende blut auf vertrag
+> lese vertrag
+@text Drei große Kreuze
+@state 32 1
+> gib messer an mylgor
+> gib vertrag an mylgor
+> sued
+> wende dave auf bett
+> nord
+> sprich mylgor
+> wende baumwollhemd auf dave
+> wende hose auf dave
+> wende fellstiefel auf dave
+> nimm elixier
+> oeffne haustuer
+> nord
+> ost
+> ost
+> ost
+> wende pfeife auf bienenstock
+> betrachte bienenstock
+> nimm honig
+> wende honig auf fellstiefel
+> west
+> nord
+> nord
+> west
+> nord
+> nimm silbermuenzen
+> sued
+> ost
+> sued
+> sued
+> west
+> nord
+> west
+> sprich verkaeufer
+> gib silbermuenzen an verkaeufer
+> west
+> nord
+> betrachte hundeschlitten
+> betritt hundeschlitten
+> nord
+> west
+> wende elixier auf dave
+> nord
+> sprich firon
+> sprich firon
+> sprich firon
+> betritt dachsschlitten
+> sued
+> verlasse dachsschlitten
+> sued
+> ost
+> ost
+> sued
+> ost
+> nord
+> nord
+> ost
+> nord
+> nimm rattengift
+> nord
+> nimm kurzschwert
+> betrachte kurzschwert
+@state 142 0
+> sued
+> west
+> entriegele friedhofstor mit eisschluessel
+> oeffne friedhofstor
+> nord
+> nord
+> wende kurzschwert auf weihwasserbecken
+> betrachte kurzschwert
+@text stinknormales Schwert
+@state 142 1
+> hinunter
+> betrachte grabplatte
+> hinauf
+@points 2 5
+> betrachte steinaltar
+@points 2 0
+> wende gebet auf steinaltar
+> sprich jacks geist
+> sued
+> sued
+> ost
+> sued
+> west
+> west
+> nord
+> wende kurzschwert auf silber
+> betrachte kurzschwert
+@text versilberte Klinge
+@state 142 3
+> west
+> nimm schaufel
+> grabe
+> nimm totenschaedel
+> ost
+> sued
+> ost
+> ost
+> nord
+> west
+> nord
+> west
+> nord
+> oeffne sarkophag
+> wende totenschaedel auf skelett
+> sprich koenig
+> sprich koenig
+> sprich koenig
+> sued
+> wende kurzschwert auf werwolf
+> ost
+> sued
+> ost
+> sued
+> west
+> sued
+> sued
+> west
+> west
+> sued
+> sued
+> wende zauberspruch auf westtuer
+> oeffne westtuer
+> west
+> betrachte studiertisch
+> betrachte schubladen
+@text Öffnen müßtest Du sie schon selbst
+@state 53 2
+> oeffne schubladen
+> betrachte schubladen
+> nimm laborschluessel
+> betrachte schubladen
+@location 82 255
+> ost
+> nord
+> bewege kamin
+> hinunter
+> west
+> betrachte bett
+> nimm amulett
+> betrachte bett
+@location 3 255
+> wende amulett auf dave
+> ost
+> oeffne labortuer
+> nord
+> zerstoere reagenzien
+> sued
+> verriegele labortuer mit laborschluessel
+> hinauf
+> nord
+> ost
+> ost
+> ost
+> nord
+
+# Part C: continuation from PDF page 14
+> ost
+> nord
+> nord
+> betritt boot
+> nord
+> nord
+> verlasse boot
+> nord
+> west
+> nimm ziegelstein
+# Part C: visit the hermit and hear the complete conversation sequence.
+> west
+@room 58
+@state 54 0
+> sprich eremit
+@state 54 1
+@text Die Insel, die Insel...
+> sprich eremit
+@state 54 2
+@text riesigen, magischen Kristall
+> sprich eremit
+@state 54 2
+@text ICH NICHT!
+> ost
+@room 59
+# Visit the zombie, inspect it once, then retreat south before the timer expires.
+# Do not go west into room 61: its only return route is fatal.
+> nord
+@room 62
+@location 165 62
+@state 165 2
+@mode ready
+> betrachte zombie
+@text IGITT!
+@state 165 3
+@mode ready
+> sued
+@room 59
+@location 163 59
+@mode ready
+> ost
+> nord
+> betrachte fallgitter
+> wende ziegelstein auf plattform
+> ziehe fallgitter
+> nord
+> west
+> nimm torschluessel
+> ost
+> entriegele portaltor mit torschluessel
+> oeffne portaltor
+> nord
+
+# Part D: continuation from PDF page 14
+# Explore the stables before entering the castle's lower floors.
+> west
+> nord
+@room 68
+@points 25 5
+> betrachte truhe
+@points 25 0
+> betrachte abenteurer
+@points 101 5
+> lese zettel
+@points 101 0
+> sued
+> ost
+@room 67
+> hinunter
+> hinunter
+> nord
+> nimm parfuem
+> wende parfuem auf dave
+> sued
+> west
+> west
+> nimm purpurmantel
+> ost
+> sued
+> sued
+> wende purpurmantel auf dave
+> west
+> nimm bootsschluessel
+> ost
+> betritt kahn
+> wende bootsschluessel auf kahn
+> ost
+> befestige kahn an bootssteg
+> verlasse kahn
+> sued
+> nimm eisenschluessel
+> nord
+> betritt kahn
+> west
+> verlasse kahn
+> nord
+> nord
+> ost
+> hinauf
+> hinauf
+> nord
+> nord
+> west
+> hinauf
+# Visit the tower guard before continuing on the main route.
+> nord
+@room 77
+> betrachte schreibtisch
+@location 45 77
+> oeffne tagebuch
+@state 45 1
+@points 45 5
+> lese tagebuch
+@text Tagebuch des Turmwächters
+@text 1. Tag des Jahres 713
+@text Kameraden erl....
+@state 45 2
+@points 45 0
+> lese tagebuch
+@text Kameraden erl....
+@state 45 2
+@points 45 0
+> sued
+@room 76
+> betrachte himmel
+> betrachte vollmond
+> hinunter
+> hinunter
+> ost
+> bewege kriegerstatue
+> nimm kays schluessel
+> entriegele gittertuer mit kays schluessel
+> oeffne gittertuer
+> sued
+# Read the previous prisoner's writing.
+@points 121 5
+> lese schmierereien
+@points 121 0
+> entriegele stahltuer mit eisenschluessel
+> oeffne stahltuer
+> ost
+> nord
+> nord
+> betrachte eichentuer
+> ziehe tuerklinke
+> nord
+> bewege buecherwand
+> west
+> betrachte himmelbett
+> betrachte bettzeug
+> nimm ledersaeckchen
+> oeffne ledersaeckchen
+> betrachte ledersaeckchen
+> betrachte papier
+> ost
+> ost
+> wende codenummer auf tresor
+> oeffne tresor
+> betrachte tresor
+> nimm vertrag
+> west
+> nord
+# Mylgor's letter on Zargon's marble desk.
+> betrachte marmortisch
+@points 89 5
+> lese brief
+@points 89 0
+> lese brief
+@points 89 0
+> betrachte buecherregale
+@location 19 92
+> lese buecher
+> betrachte buecherregale
+@location 19 92
+> west
+> wende vertrag auf purpurfeuer
+> betrachte weihwasserbecken
+> wende weihwasser auf purpurfeuer
+> ost
+> sued
+> sued
+> sued
+> hinauf
+> ost
+> nord
+> west
+> nimm weissbrotscheibe
+> wende rattengift auf weissbrotscheibe
+> gib weissbrotscheibe an ratten
+# Visit the kitchen garden only AFTER feeding the rats: their timer is lethal.
+> nord
+@room 75
+@points 69 5
+> betrachte kraeuter
+@points 69 0
+> sued
+@room 73
+> west
+> hinunter
+> oeffne fass
+> west
+> nord
+> schliesse saerge
+> betritt drudenfuss
+> zerstoere kessel
+> zerstoere kristall
+> nimm zepter
+> west
+> sued
+> sued
+> sued
+> sued
+> west
+> nord
+> wende zepter auf slot
+> sued
+> ost
+> nord
+> hinauf
+> ost
+> sued
+> sued
+> hinunter
+> hinunter
+> sued
+> betrachte quelle
+> nimm wasser
+> wende wasser auf dave
+> nord
+> hinauf
+> hinauf
+> sued
+@mode won
+@score 5010
+@finish won

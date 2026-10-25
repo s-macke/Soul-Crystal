@@ -144,6 +144,26 @@ func stateC(state initialState) []byte {
 		}
 		out.WriteString("};\n")
 	}
+	out.WriteString("\n// Reset from disk-derived constants, independent of previous play.\nvoid ResetGameState(void) {\n")
+	for _, scalar := range stateScalars {
+		v, ok := state.Scalars[scalar.name]
+		if !ok {
+			v = state.Transients[scalar.name]
+		}
+		fmt.Fprintf(&out, "    %s = %d;\n", scalar.name, v)
+	}
+	out.WriteString("    tableptr = 0;\n")
+	for _, a := range stateArrays {
+		fmt.Fprintf(&out, "    {\n        static const %s initial[%s] = {", a.ctype, a.countName)
+		for i, v := range state.Arrays[a.name] {
+			if i%16 == 0 {
+				out.WriteString("\n            ")
+			}
+			fmt.Fprintf(&out, "%d,", v)
+		}
+		fmt.Fprintf(&out, "\n        };\n        for (unsigned i = 0; i < %s; ++i) %s[i] = initial[i];\n    }\n", a.countName, a.name)
+	}
+	out.WriteString("}\n")
 	return []byte(out.String())
 }
 

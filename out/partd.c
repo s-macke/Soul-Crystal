@@ -47,18 +47,20 @@ void PartD_HandleEntriegele(void); // Part D, script $8eaa; command 44 (ENTRIEGE
 
 
 
-void Execute(void) {
+void PartD_Execute(void) {
 
 x7600:
     pendingTextID = 0x00; // text ID 0 (0x0000), script $7600: no text
     if ( command == HINUNTER || command == OST || command == NORD || command == SUED || command == HINAUF || command == WEST ) {
         if ( currentRoom != IM_DIENERSCHLAFZIMMER ) {
             SPECIAL(0x64); // Habe ich keine Kleidung an, vielleicht?
+            if (ScriptInterrupted()) return;
             if ( temp == 0x01 ) {
                 pendingTextID = 0x2e; // text ID 46 (0x002e), script $7632: C2 record 148: Du erwartest doch nicht allen Ernstes von mir, daß ich diesen Ort NACKT verlasse, oder?
                 goto x77ce;
             } else {
                 SPECIAL(0x65);
+                if (ScriptInterrupted()) return;
                 if ( temp == 0x01 ) {
                     objectState[DAVE] = 0x64;
                 }
@@ -75,8 +77,10 @@ x7600:
         }
     }
     SPECIAL(0x66);
+    if (ScriptInterrupted()) return;
     if ( temp == 0x01 ) {
         SPECIAL(0x67);
+        if (ScriptInterrupted()) return;
         if ( temp == 0x01 ) {
             if ( gamePart == 0x01 ) {
             } else {
@@ -86,6 +90,7 @@ x7600:
                     } else {
                         if ( gamePart == 0x04 ) {
                             SPECIAL(0x6a);
+                            if (ScriptInterrupted()) return;
                             if ( temp == 0x01 ) {
                                 objectState[DAVE] = objectState[DAVE] - 0x01;
                             } else {
@@ -98,7 +103,9 @@ x7600:
             if ( objectState[DAVE] == 0x4b || objectState[DAVE] == 0x32 || objectState[DAVE] == 0x19 ) {
                 pendingTextID = 0x30; // text ID 48 (0x0030), script $76e3: C2 record 150: Langsam fange ich an zu frieren! Es wird immer kälter hier, also sieh Dich langsam mal nach einem warmen Plätzchen um, wo wir in Ruhe die Nacht verbringen können!
                 showtext();
-                Restart();
+                if (ScriptInterrupted()) return;
+                FlushOutput();
+                if (ScriptInterrupted()) return;
                 pendingTextID = 0x00; // text ID 0 (0x0000), script $76e9: no text
                 goto x7715;
             } else {
@@ -106,9 +113,12 @@ x7600:
                     imageID = 0x81;
                     objectLocation[DAVE] = 0xff;
                     ShowImage();
+                    if (ScriptInterrupted()) return;
                     pendingTextID = 0x31; // text ID 49 (0x0031), script $7704: C2 record 151: Also, halte mir jetzt bitte nicht vor, daß ich Dich nicht gewarnt hätte - Du hast wirklich genug Zeit gehabt, um nach jemandem zu suchen, der Dir wärmere Kleidung hätte geben können - doch nun ist es endgültig zu spät: Du erfrierst, ohne auch nur die geringste Chance gehabt zu haben, das Spiel zu lösen! Schade eigentlich...
                     showtext();
-                    Restart();
+                    if (ScriptInterrupted()) return;
+                    FlushOutput();
+                    if (ScriptInterrupted()) return;
                     pendingTextID = 0x00; // text ID 0 (0x0000), script $770a: no text
                     return;
                 }
@@ -118,68 +128,68 @@ x7600:
 
 x7715:
     switch(command) { // SELECT script $7715; original cases are 1-based
-         case 1: PartD_HandleUebersoulcrystal(); break;
-         case 2: PartD_HandleKurztext(); break;
-         case 3: PartD_HandleCredits(); break;
-         case 4: PartD_HandleGrabe(); break;
-         case 5: PartD_HandleHinunter(); break;
-         case 6: PartD_HandleOst(); break;
-         case 7: PartD_HandleAusgaenge(); break;
-         case 8: PartD_HandleDisketteinstallieren(); break;
-         case 9: PartD_HandleInventar(); break;
-         case 10: PartD_HandleSchau(); break;
-         case 11: PartD_HandleNord(); break;
-         case 12: PartD_HandleSpielende(); break;
-         case 13: PartD_HandleNeustart(); break;
+         case 1: PartD_HandleUebersoulcrystal(); if (ScriptInterrupted()) return; break;
+         case 2: PartD_HandleKurztext(); if (ScriptInterrupted()) return; break;
+         case 3: PartD_HandleCredits(); if (ScriptInterrupted()) return; break;
+         case 4: PartD_HandleGrabe(); if (ScriptInterrupted()) return; break;
+         case 5: PartD_HandleHinunter(); if (ScriptInterrupted()) return; break;
+         case 6: PartD_HandleOst(); if (ScriptInterrupted()) return; break;
+         case 7: PartD_HandleAusgaenge(); if (ScriptInterrupted()) return; break;
+         case 8: PartD_HandleDisketteinstallieren(); if (ScriptInterrupted()) return; break;
+         case 9: PartD_HandleInventar(); if (ScriptInterrupted()) return; break;
+         case 10: PartD_HandleSchau(); if (ScriptInterrupted()) return; break;
+         case 11: PartD_HandleNord(); if (ScriptInterrupted()) return; break;
+         case 12: PartD_HandleSpielende(); if (ScriptInterrupted()) return; break;
+         case 13: PartD_HandleNeustart(); if (ScriptInterrupted()) return; break;
     }
     if ( pendingTextID != 0x00 ) {
         goto x77ce;
     }
     temp = command - NEUSTART;
     switch(temp) { // SELECT script $774d; original cases are 1-based
-         case 1: PartD_HandleLaden(); break;
-         case 2: PartD_HandlePunkte(); break;
-         case 3: PartD_HandleLoesung(); break;
-         case 4: PartD_HandleMusikein(); break;
-         case 5: PartD_HandleAusgaenge12(); break;
-         case 6: PartD_HandleSued(); break;
-         case 7: PartD_HandleSpeichern(); break;
-         case 8: PartD_HandleHinauf(); break;
-         case 9: PartD_HandleAusfuehrlich(); break;
-         case 10: PartD_HandleWarte(); break;
-         case 11: PartD_HandleWest(); break;
-         case 12: PartD_Sub_7d6d(); break;
-         case 13: PartD_Sub_7d6e(); break;
+         case 1: PartD_HandleLaden(); if (ScriptInterrupted()) return; break;
+         case 2: PartD_HandlePunkte(); if (ScriptInterrupted()) return; break;
+         case 3: PartD_HandleLoesung(); if (ScriptInterrupted()) return; break;
+         case 4: PartD_HandleMusikein(); if (ScriptInterrupted()) return; break;
+         case 5: PartD_HandleAusgaenge12(); if (ScriptInterrupted()) return; break;
+         case 6: PartD_HandleSued(); if (ScriptInterrupted()) return; break;
+         case 7: PartD_HandleSpeichern(); if (ScriptInterrupted()) return; break;
+         case 8: PartD_HandleHinauf(); if (ScriptInterrupted()) return; break;
+         case 9: PartD_HandleAusfuehrlich(); if (ScriptInterrupted()) return; break;
+         case 10: PartD_HandleWarte(); if (ScriptInterrupted()) return; break;
+         case 11: PartD_HandleWest(); if (ScriptInterrupted()) return; break;
+         case 12: PartD_Sub_7d6d(); if (ScriptInterrupted()) return; break;
+         case 13: PartD_Sub_7d6e(); if (ScriptInterrupted()) return; break;
     }
     if ( pendingTextID != 0x00 ) {
         goto x77ce;
     }
     temp = command - NIX2;
     switch(temp) { // SELECT script $7785; original cases are 1-based
-         case 1: PartD_HandleSchliesse(); break;
-         case 2: PartD_HandleZerstoere(); break;
-         case 3: PartD_HandleVerliere(); break;
-         case 4: PartD_HandleBetritt(); break;
-         case 5: PartD_HandleBetrachte(); break;
-         case 6: PartD_HandleHilf(); break;
-         case 7: PartD_HandleVerlasse(); break;
-         case 8: PartD_HandleBewege(); break;
-         case 9: PartD_HandleOeffne(); break;
-         case 10: PartD_HandleZiehe(); break;
-         case 11: PartD_HandleDruecke(); break;
+         case 1: PartD_HandleSchliesse(); if (ScriptInterrupted()) return; break;
+         case 2: PartD_HandleZerstoere(); if (ScriptInterrupted()) return; break;
+         case 3: PartD_HandleVerliere(); if (ScriptInterrupted()) return; break;
+         case 4: PartD_HandleBetritt(); if (ScriptInterrupted()) return; break;
+         case 5: PartD_HandleBetrachte(); if (ScriptInterrupted()) return; break;
+         case 6: PartD_HandleHilf(); if (ScriptInterrupted()) return; break;
+         case 7: PartD_HandleVerlasse(); if (ScriptInterrupted()) return; break;
+         case 8: PartD_HandleBewege(); if (ScriptInterrupted()) return; break;
+         case 9: PartD_HandleOeffne(); if (ScriptInterrupted()) return; break;
+         case 10: PartD_HandleZiehe(); if (ScriptInterrupted()) return; break;
+         case 11: PartD_HandleDruecke(); if (ScriptInterrupted()) return; break;
     }
     if ( pendingTextID != 0x00 ) {
         goto x77ce;
     }
     temp = command - DRUECKE;
     switch(temp) { // SELECT script $77b7; original cases are 1-based
-         case 1: PartD_HandleNimm(); break;
-         case 2: PartD_HandleSprich(); break;
-         case 3: PartD_HandleWende(); break;
-         case 4: PartD_HandleBefestige(); break;
-         case 5: PartD_HandleGib(); break;
-         case 6: PartD_HandleVerriegele(); break;
-         case 7: PartD_HandleEntriegele(); break;
+         case 1: PartD_HandleNimm(); if (ScriptInterrupted()) return; break;
+         case 2: PartD_HandleSprich(); if (ScriptInterrupted()) return; break;
+         case 3: PartD_HandleWende(); if (ScriptInterrupted()) return; break;
+         case 4: PartD_HandleBefestige(); if (ScriptInterrupted()) return; break;
+         case 5: PartD_HandleGib(); if (ScriptInterrupted()) return; break;
+         case 6: PartD_HandleVerriegele(); if (ScriptInterrupted()) return; break;
+         case 7: PartD_HandleEntriegele(); if (ScriptInterrupted()) return; break;
     }
 
 x77ce:
@@ -198,14 +208,19 @@ x77ce:
             if ( objectState[RATTEN] >= 0x07 && currentRoom == IN_DER_SCHLOSSKUECHE && objectLocation[RATTEN] == IN_DER_SCHLOSSKUECHE ) {
                 if ( pendingTextID != 0x00 ) {
                     showtext();
-                    Restart();
+                    if (ScriptInterrupted()) return;
+                    FlushOutput();
+                    if (ScriptInterrupted()) return;
                 }
                 objectLocation[DAVE] = 0xff;
                 imageID = 0x84;
                 ShowImage();
+                if (ScriptInterrupted()) return;
                 pendingTextID = 0x01b6; // text ID 438 (0x01b6), script $783e: C2 record 249: Es sieht so aus, als hätten die Ratten nicht ganz so viel Zeit zu verschwenden wie Du, denn es ist Abendbrotzeit, und die fetten Bestien scheinen das genau zu wissen: Wie auf ein Zeichen hin springen sie Dich alle zugleich an! Du kannst Dich der hartnäckigen Attacken der kleinen Biester kaum erwehren und wirst zu Boden gerissen, wo Du machtlos mitansehen mußt, wie Du zu einem schmackhaften Rattenmahl verarbeitet wirst! Tja: Es ist wiklich ein ziemlich übles Gefühl, bei lebendigem Leibe ein Auge aus dem Kopf gerissen zu bekommen: Der Schmerz macht Dich fast wahnsinnig! Doch gerade, als Du den Mund öffnest, um laut loszubrüllen, springt eine Ratte auf Dein Gesicht, tanzt dort zu heißen, rituellen Rhythmen - und reißt Dir während einer Pirouette zu einem ekstatisch und temperamentvoll ausgestoßenen "Ouh!" schwungvoll die Zunge aus, so daß Dein Schrei von einem warmen Schwall Deines eigenen Blutes zu einem gurgelnden Röcheln abgedämpft wird! Keine Sorge: Du wirst schon nicht daran ersticken! Denn mit Deinem verbleibenden Auge kannst Du bereits eine dritte Ratte neugierig an Deiner Halsschlagader schnuppern sehen, bevor sie sie schließlich mit einem einzigen, herzhaften Biß ihrer messerscharfen Schneidezähne durchtrennt und Dich von Deinen Qualen erlöst...
                 showtext();
-                Restart();
+                if (ScriptInterrupted()) return;
+                FlushOutput();
+                if (ScriptInterrupted()) return;
                 return;
             }
             if ( currentRoom == IN_EINEM_FINSTEREN_GRUFTGEWOELBE && objectState[DRUDENFUSS2] == 0x01 && objectState[SAERGE] == 0x02 ) {
@@ -215,14 +230,19 @@ x77ce:
                 if ( currentRoom == IN_EINEM_FINSTEREN_GRUFTGEWOELBE && objectState[DRUDENFUSS2] == 0x01 && objectState[SAERGE] == 0x01 ) {
                     if ( pendingTextID != 0x00 ) {
                         showtext();
-                        Restart();
+                        if (ScriptInterrupted()) return;
+                        FlushOutput();
+                        if (ScriptInterrupted()) return;
                     }
                     objectLocation[DAVE] = 0xff;
                     imageID = 0x8b;
                     ShowImage();
+                    if (ScriptInterrupted()) return;
                     pendingTextID = 0x01b7; // text ID 439 (0x01b7), script $788f: C2 record 250: Es war ein blöder Fehler, noch einmal hierherzukommen - ganz gleich, unter welchen Umständen: Zwei riesenhafte, verrottende Mumien warten bereits auf Dich... Allerdings: Irgendwie scheinen unsere beiden Vermummungskünstler doch ein wenig infantil veranlagt zu sein, denn offensichtlich wollen sie vor Deinem Tod noch eine Runde Tauziehen mit Dir spielen! In der verzweifelten Hoffnung, während des Wettkampfes vielleicht doch noch eine Gelegenheit zur Flucht zu erhalten, willigst Du kurzerhand in ein Match ein - bis Dir unmißverständlich klargemacht wird, daß Du nicht als Athlet, sondern als SEIL an dem Spiel teilnehmen sollst! Tja, also Wettkampfqualität besaß Dein Körper nicht gerade, denn er reißt schon nach zwei Runden verbissenen Hin- und Herzerrens, so daß es von nun an wohl zwei Hälften von Dir geben wird, aus denen Deine geplatzten Eingeweide herausquellen und den schönen, sauberen Fußboden mit Blut und Galle besudeln...
                     showtext();
-                    Restart();
+                    if (ScriptInterrupted()) return;
+                    FlushOutput();
+                    if (ScriptInterrupted()) return;
                     return;
                 }
             }
@@ -233,44 +253,60 @@ x77ce:
                 if ( objectState[PURPURFEUER] == 0x00 && objectState[DRUDENFUSS1] == 0x00 ) {
                     if ( pendingTextID != 0x00 ) {
                         showtext();
-                        Restart();
+                        if (ScriptInterrupted()) return;
+                        FlushOutput();
+                        if (ScriptInterrupted()) return;
                     }
                     pendingTextID = 0x01ba; // text ID 442 (0x01ba), script $78d8: C2 record 253: Also, wenn Du wirklich meinst, daß Zargon sich fürchten müßte, wenn Du in seine Geheimkammern eindringst, dann hast Du Dich aber ganz gewaltig geschnitten! Im Gegenteil: Seelenruhig führt er erst einmal seine Unterredung mit einem der Dämonenfürsten zu Ende und wendet sich dann erst Dir zu. "Raus hier, aber dalli!", schreit er Dich an, nachdem er Dich ein paar Sekunden lang abschätzend gemustert hat, "Glaubst Du etwa, ich ließe Dich hier stundenlang in meinem Schloß herumlaufen, bloß um Dich hinterher so mir nichts, Dir nichts, einfach abzuschlachten, ohne mich zuvor ein wenig mit Dir amüsieren zu können? Du hast doch überhaupt noch keine Chance, mich zu besiegen - also verschwinde endlich und bereite Dich gefälligst etwas besser auf unseren Kampf vor! Schließlich will auch ich meinen Spaß haben! Man gönnt sich ja sonst nichts..." Mit diesen Worten schiebt er Dich ärgerlich zur Tür hinaus und schließt sie hinter sich. Von draußen kannst Du ihn noch undeutlich murmeln hören: "Diese jungen Narren! Haben nicht die geringste Ahnung, aber wollen immer gleich mit dem Kopf durch die Wand! Was glaubt dieser Spinner wohl, wie er jemals einen Platz in der Highscoreliste ergattern könnte? Ich glaube, ich muß wirklich mal ein ernstes Wörtchen mit Chris und Kai reden: Schlimm genug, mich in solch ein schwachsinniges Spiel zu stecken, aber mir dann noch solche Weicheier vorbeizuschicken - das geht nun wirklich zu weit! Ich sollte mich wirklich beim Verband gegen Nichtspielercharakter-Quälerei beschweren..."
                     showtext();
-                    Restart();
-                    PartD_HandleWest();
+                    if (ScriptInterrupted()) return;
+                    FlushOutput();
+                    if (ScriptInterrupted()) return;
+                    PartD_HandleWest(); if (ScriptInterrupted()) return;
                     return;
                 } else {
                     if ( objectState[PURPURFEUER] == 0x00 && objectState[DRUDENFUSS1] == 0x01 ) {
                         if ( pendingTextID != 0x00 ) {
                             showtext();
-                            Restart();
+                            if (ScriptInterrupted()) return;
+                            FlushOutput();
+                            if (ScriptInterrupted()) return;
                         }
                         objectLocation[DAVE] = 0xff;
                         imageID = 0x88;
                         ShowImage();
+                        if (ScriptInterrupted()) return;
                         pendingTextID = 0x01b8; // text ID 440 (0x01b8), script $7909: C2 record 251: Als Du Dich in der Mitte des weißen Pentagramms in Zargons Mysterium wieder materialisierst, erhebt sich der alte Hexer verwundert aus seinem hohen Sessel. "Warum mußtest Du denn schon so früh kommen?", schnarrt er mit einer Spur von Enttäuschung in seiner Stimme, "Ich habe im Moment überhaupt keine Zeit, mich um Dich zu kümmern - leider...!" Mit einer nebensächlich anmutenden Bewegung seiner rechten Hand läßt er wie aus dem Nichts einen riesigen Feuerball in der Luft entstehen und schleudert ihn direkt auf Dich zu! Das letzte, woran Du in der Dir verbleibenden Zeit noch denken kannst, ist die extreme Energieverschwendung Zargons - denn ein kleiner, dezenter Blitz hätte es ja wohl auch schon getan! Dann wird es plötzlich sehr hell - und sehr heiß! Ein kleines Häuflein rauchender Asche ist schließlich alles, was noch von Deinem Körper übrigbleibt...
                         showtext();
-                        Restart();
+                        if (ScriptInterrupted()) return;
+                        FlushOutput();
+                        if (ScriptInterrupted()) return;
                         return;
                     } else {
                         if ( objectState[PURPURFEUER] == 0x01 && objectState[SAERGE] == 0x01 ) {
                             if ( pendingTextID != 0x00 ) {
                                 showtext();
-                                Restart();
+                                if (ScriptInterrupted()) return;
+                                FlushOutput();
+                                if (ScriptInterrupted()) return;
                             }
                             objectLocation[DAVE] = 0xff;
                             imageID = 0x89;
                             ShowImage();
+                            if (ScriptInterrupted()) return;
                             pendingTextID = 0x01b9; // text ID 441 (0x01b9), script $7937: C2 record 252: Als Zargon Dich inmitten seines weißen Kreidepentagramms auftauchen sieht, steht er auf und erhebt sich zu seiner vollen Größe: "Warum konntest Du nicht warten?", schnarrt er enttäuscht, "Ich habe im Moment absolut keine Zeit für Dich - leider..." Mit einer leichten Bewegung seiner rechten Hand versucht er, einen Feuerball herbeizubeschwören, doch alles, was Du erkennen kannst, ist eine kleine Flamme, die ihm die Handflächen versengt! Als Du schadenfroh loskicherst, schreit der Hexenmeister voller Schmerz: "Verdammt! Aber noch hast Du nicht gewonnnenn!" Er klatscht kurz in die Hände ("Say hooo!"), und ein paar Sekunden später materialisieren sich zwei hühnenhafte, häßliche Mumien in dem Pentagramm neben Dir. Völlig entgeistert und zu keiner Gegenwehr fähig, bereitest Du ihnen nicht die geringsten Probleme: Kräftige Klauen greifen nach Deiner Kehle, und kurz darauf hörst Dein Genick mit einem kurzen, aber lauten "Krack!" brechen! "Gott sei Dank!", denkst Du noch erleichtert, "Ich hatte schon befürchtet, sie würden mich erwürgen!" Während Deine Seele in die Ewigen Jagdgründe entfleucht, kannst Du noch mit ansehen, wie Dein Kopf brutal vom Rumpf gerissen und auf den Boden geschmettert wird, wo nun Deine Hirnmasse zähflüssig über die Steinplatten quillt, bis Zargon sie wegwischen lassen wird...
                             showtext();
-                            Restart();
+                            if (ScriptInterrupted()) return;
+                            FlushOutput();
+                            if (ScriptInterrupted()) return;
                             return;
                         } else {
                             if ( objectState[SAERGE] == 0x02 && objectState[PURPURFEUER] == 0x01 && objectState[ZARGON] == 0x00 ) {
                                 if ( pendingTextID != 0x00 ) {
                                     showtext();
-                                    Restart();
+                                    if (ScriptInterrupted()) return;
+                                    FlushOutput();
+                                    if (ScriptInterrupted()) return;
                                 }
                                 objectState[ZARGON] = 0x01;
                                 pendingTextID = 0x01bb; // text ID 443 (0x01bb), script $7967: C2 record 254: Als Zargon Deine Anwesenheit bemerkt, dreht er sich langsam zu Dir um: Du glaubst Deinen Augen nicht trauen zu können, als Du in seinen Augen einen leichten Schimmer von Furcht erkennst! "Nun gut, Du hast Deine Aufgabe erfüllt - nun ist es an mir, zu tun, was getan werden muß...!", keucht er und zieht einen kleinen, silbernen Dolch unter seinem Cape hervor!
@@ -282,14 +318,19 @@ x77ce:
                 if ( objectState[ZARGON] >= 0x04 ) {
                     if ( pendingTextID != 0x00 ) {
                         showtext();
-                        Restart();
+                        if (ScriptInterrupted()) return;
+                        FlushOutput();
+                        if (ScriptInterrupted()) return;
                     }
                     objectLocation[DAVE] = 0xff;
                     imageID = 0x8a;
                     ShowImage();
+                    if (ScriptInterrupted()) return;
                     pendingTextID = 0x01c6; // text ID 454 (0x01c6), script $798f: C2 record 265: Tätärätäää! Und wieder eine Situation, in der unser Kandidat Dave Parker sich ein wenig zuviel Zeit nehmen zu können glaubte! Als Zargon Deinen verzweifelt suchenden Blick nach einer wirksamen Waffe gegen ihn und seine magischen Kräfte bemerkt, nimmt er seine Chance wahr und sticht Dich mit seinem kleinen, geweihten Silberdolch ab! Das letzte, was Du noch erkennen kannst, als Du zwischen seinen Beinen alle Viere von Dir streckst, ist die Sohle seines Stiefels, die sich langsam Deinem Gesicht nähert...
                     showtext();
-                    Restart();
+                    if (ScriptInterrupted()) return;
+                    FlushOutput();
+                    if (ScriptInterrupted()) return;
                     return;
                 }
             }
@@ -337,6 +378,7 @@ void PartD_HandleHinunter(void) { // Part D, script $79e1; command 5 (HINUNTER),
         currentRoom = down[currentRoom];
         objectLocation[DAVE] = currentRoom;
         Code2E5B();
+        if (ScriptInterrupted()) return;
         imageID = currentRoom;
     } else {
         if ( down[currentRoom] == 0x00 ) {
@@ -345,6 +387,7 @@ void PartD_HandleHinunter(void) { // Part D, script $79e1; command 5 (HINUNTER),
     }
     if ( imageID != 0xff ) {
         ShowImage();
+        if (ScriptInterrupted()) return;
     }
     return;
 }
@@ -360,7 +403,9 @@ void PartD_HandleOst(void) { // Part D, script $7a10; command 6 (OST), SELECT $7
             if ( objectState[BOOTSSCHLUESSEL] == 0x01 && objectState[KAHN] == 0x02 ) {
                 pendingTextID = 0x01c4; // text ID 452 (0x01c4), script $7a40: C2 record 263: Du stößt das kleine Boot vom Ufer ab und ruderst zu der kleinen Insel im Osten hinüber.
                 showtext();
-                Restart();
+                if (ScriptInterrupted()) return;
+                FlushOutput();
+                if (ScriptInterrupted()) return;
                 objectLocation[KAHN] = AUF_EINER_KLEINEN_INSEL;
             }
         }
@@ -369,6 +414,7 @@ void PartD_HandleOst(void) { // Part D, script $7a10; command 6 (OST), SELECT $7
         currentRoom = east[currentRoom];
         objectLocation[DAVE] = currentRoom;
         Code2E5B();
+        if (ScriptInterrupted()) return;
         imageID = currentRoom;
     } else {
         if ( east[currentRoom] == 0x00 ) {
@@ -379,6 +425,7 @@ void PartD_HandleOst(void) { // Part D, script $7a10; command 6 (OST), SELECT $7
 x7a72:
     if ( imageID != 0xff ) {
         ShowImage();
+        if (ScriptInterrupted()) return;
     }
     return;
 }
@@ -386,18 +433,21 @@ x7a72:
 
 void PartD_HandleAusgaenge(void) { // Part D, script $7a7b; command 7 (AUSGAENGE), SELECT $7715 case 7
     SPECIAL(0x08); // Ausgaenge listen
+    if (ScriptInterrupted()) return;
     return;
 }
 
 
 void PartD_HandleDisketteinstallieren(void) { // Part D, script $7a7f; command 8 (DISKETTEINSTALLIEREN), SELECT $7715 case 8
     SPECIAL(0x09); // Diskette installieren
+    if (ScriptInterrupted()) return;
     return;
 }
 
 
 void PartD_HandleInventar(void) { // Part D, script $7a83; command 9 (INVENTAR), SELECT $7715 case 9
     SPECIAL(0x0a); // Inventar anzeigen
+    if (ScriptInterrupted()) return;
     return;
 }
 
@@ -405,6 +455,7 @@ void PartD_HandleInventar(void) { // Part D, script $7a83; command 9 (INVENTAR),
 void PartD_HandleSchau(void) { // Part D, script $7a87; command 10 (SCHAU), SELECT $7715 case 10
     visited[currentRoom] = 0x00;
     Code2E5B();
+    if (ScriptInterrupted()) return;
     return;
 }
 
@@ -414,6 +465,7 @@ void PartD_HandleNord(void) { // Part D, script $7a8e; command 11 (NORD), SELECT
     if ( north[currentRoom] != 0x00 ) {
         currentRoom = north[currentRoom];
         Code2E5B();
+        if (ScriptInterrupted()) return;
         objectLocation[DAVE] = currentRoom;
         imageID = currentRoom;
     } else {
@@ -430,8 +482,11 @@ x7ab8:
     }
     if ( currentRoom == AUF_EINER_KLEINEN_INSEL && objectLocation[KAHN] == 0x69 ) {
         ShowImage();
+        if (ScriptInterrupted()) return;
         showtext();
-        Restart();
+        if (ScriptInterrupted()) return;
+        FlushOutput();
+        if (ScriptInterrupted()) return;
         pendingTextID = 0x01cf; // text ID 463 (0x01cf), script $7ad7: C2 record 274: Unglücklicherweise ist Dein Boot während Deiner Abwesenheit weggetrieben: Nun treibt es herrenlos in der Mitte des kleinen Sees, so daß es Dir wohl unmöglich sein dürfte, es von hier aus zu erreichen. Leider haben wir auch "vergessen", ein "Schwimm"-Gadget in SOUL CRYSTALs Benutzeroberfläche zu integrieren: Schließlich muß Dummheit ja auch irgendwie bestraft werden! Beim nächsten Mal vertauen wir unser Boot also einfach etwas sorgfältiger am Landesteg, ja? Immerhin haben wir das Ding ja nicht nur aus Spaß an der Freude eingebaut...
         imageID = 0xff;
         goto x7ae4;
@@ -440,6 +495,7 @@ x7ab8:
 x7ae4:
     if ( imageID != 0xff ) {
         ShowImage();
+        if (ScriptInterrupted()) return;
     }
     return;
 }
@@ -447,18 +503,21 @@ x7ae4:
 
 void PartD_HandleSpielende(void) { // Part D, script $7aed; command 12 (SPIELENDE), SELECT $7715 case 12
     SPECIAL(0x05); // Spielende
+    if (ScriptInterrupted()) return;
     return;
 }
 
 
 void PartD_HandleNeustart(void) { // Part D, script $7af1; command 13 (NEUSTART), SELECT $7715 case 13
     SPECIAL(0x04); // Neustart
+    if (ScriptInterrupted()) return;
     return;
 }
 
 
 void PartD_HandleLaden(void) { // Part D, script $7af5; command 14 (LADEN), SELECT $774d case 1
     SPECIAL(0x02); // Laden
+    if (ScriptInterrupted()) return;
     return;
 }
 
@@ -471,6 +530,7 @@ void PartD_HandlePunkte(void) { // Part D, script $7af9; command 15 (PUNKTE), SE
 
 void PartD_HandleLoesung(void) { // Part D, script $7afe; command 16 (LOESUNG), SELECT $774d case 3
     SPECIAL(0x06); // Loesung
+    if (ScriptInterrupted()) return;
     return;
 }
 
@@ -478,6 +538,7 @@ void PartD_HandleLoesung(void) { // Part D, script $7afe; command 16 (LOESUNG), 
 void PartD_HandleMusikein(void) { // Part D, script $7b02; command 17 (MUSIKEIN), SELECT $774d case 4
     temp = 0x00;
     SPECIAL(0x07); // Musik ein
+    if (ScriptInterrupted()) return;
     return;
 }
 
@@ -485,6 +546,7 @@ void PartD_HandleMusikein(void) { // Part D, script $7b02; command 17 (MUSIKEIN)
 void PartD_HandleAusgaenge12(void) { // Part D, script $7b0a; command 18 (AUSGAENGE12), SELECT $774d case 5
     temp = 0x01;
     SPECIAL(0x08); // Ausgaenge listen
+    if (ScriptInterrupted()) return;
     return;
 }
 
@@ -498,8 +560,11 @@ void PartD_HandleSued(void) { // Part D, script $7b12; command 19 (SUED), SELECT
         }
         pendingTextID = 0x0241; // text ID 577 (0x0241), script $7b34: C2 record 388: Tja, äh... Ich weiß gar nicht, wie ich es Dir beibringen soll, ohne Dir schon wieder auf die Nerven zu gehen, aber... Naja, ähem: Wir müßten noch ein letzes Mal Deine Zugriffsberechtigung für dieses Spiel überprüfen. Tut mir ja wirklich fürchterlich leid, aber dies scheint der einzige Weg zu sein, die Anzahl der Schwarzkopien in halbwegs erträglichen (?) Grenzen zu halten und damit sicherzustellen, daß unsere Programmierer das Geld bekommen, das sie sich mit ihrer Arbeit auch wirklich sauer verdient haben. Also bitte: Noch ein einziges Mal - diesmal allerdings aus dem Tagebuch des Turmwächters ("Variatio delectat!")...
         showtext();
-        Restart();
+        if (ScriptInterrupted()) return;
+        FlushOutput();
+        if (ScriptInterrupted()) return;
         SPECIAL(0x32);
+        if (ScriptInterrupted()) return;
         if ( temp == 0xff ) {
             imageID = 0xff;
             goto x7bd3;
@@ -508,9 +573,12 @@ void PartD_HandleSued(void) { // Part D, script $7b12; command 19 (SUED), SELECT
             objectLocation[DAVE] = 0xff;
             imageID = 0x8d;
             ShowImage();
+            if (ScriptInterrupted()) return;
             pendingTextID = 0x01c0; // text ID 448 (0x01c0), script $7b66: C2 record 259: Es war ein ziemlich dummer Fehler, das Schloß in Werwolfsgestalt zu verlassen: Als Du nämlich gerade das Portaltor passierst, überglücklich, Zargons Fluch entronnen zu sein, fühlst Du plötzlich einen brennenden Schmerz im Rücken: Es war dieser bescheuerte, alte Eremit, der heute auf Wolfsjagd gegangen ist! Langsam und zitternd vor Schmerzen drehst Du den Kopf auf die Seite und ziehst einen Speer aus Deinem Rücken - einen Speer mit versilberter Spitze! Du spürst, wie Du langsam schwächer und schwächer wirst, und während Du über Deinen völlig sinnlosen und unnötigen Tod nachsinnst, wird plötzlich alles dunkel - für immer...
             showtext();
-            Restart();
+            if (ScriptInterrupted()) return;
+            FlushOutput();
+            if (ScriptInterrupted()) return;
             imageID = 0xff;
             goto x7bd3;
         } else {
@@ -518,14 +586,18 @@ void PartD_HandleSued(void) { // Part D, script $7b12; command 19 (SUED), SELECT
                 score = score + 0x03e8;
                 pendingTextID = 0x01bf; // text ID 447 (0x01bf), script $7b8a: C2 record 258: Du glaubst Deinen Augen nicht trauen zu können: Das Portaltor steht tatsächlich sperrangelweit offen! Unter dem Torbogen kannst Du den Geist König Richards schweben sehen, der Dir gütig und dankbar zuzulächeln scheint - und auch die Vögel zwitschern wieder von den Bäumen herab: Das ganze Land blüht wieder auf, zum ersten Mal seit langer, langer Zeit! Feierlich gehst Du auf Deinen neugewonnenen Freund zu und läßt die finsteren Burgmauern für immer hinter Dir - FREI...
                 showtext();
-                Restart();
+                if (ScriptInterrupted()) return;
+                FlushOutput();
+                if (ScriptInterrupted()) return;
                 SPECIAL(0x33); // Gewonnen
+                if (ScriptInterrupted()) return;
             }
         }
     }
     if ( south[currentRoom] != 0x00 ) {
         currentRoom = south[currentRoom];
         Code2E5B();
+        if (ScriptInterrupted()) return;
         objectLocation[DAVE] = currentRoom;
         imageID = currentRoom;
     } else {
@@ -536,8 +608,11 @@ void PartD_HandleSued(void) { // Part D, script $7b12; command 19 (SUED), SELECT
     if ( currentRoom == IN_DER_SCHLOSSKUECHE ) {
         if ( objectLocation[RATTEN] == currentRoom ) {
             ShowImage();
+            if (ScriptInterrupted()) return;
             showtext();
-            Restart();
+            if (ScriptInterrupted()) return;
+            FlushOutput();
+            if (ScriptInterrupted()) return;
             pendingTextID = 0x01b5; // text ID 437 (0x01b5), script $7bc9: C2 record 248: Als die Ratten Deine Anwesenheit bemerken, beginnen sie nervös - oder eher: HUNGRIG? - zu quieken! Besonders eine unter ihnen, ein häßliches, fettes Biest, schaut Dich aus heimtückisch funkelnden Äuglein an, während sie die Tür im Westen des Raumes blockiert...
             goto x7bd3;
         }
@@ -546,6 +621,7 @@ void PartD_HandleSued(void) { // Part D, script $7b12; command 19 (SUED), SELECT
 x7bd3:
     if ( imageID != 0xff ) {
         ShowImage();
+        if (ScriptInterrupted()) return;
     }
     return;
 }
@@ -553,6 +629,7 @@ x7bd3:
 
 void PartD_HandleSpeichern(void) { // Part D, script $7bdc; command 20 (SPEICHERN), SELECT $774d case 7
     SPECIAL(0x03); // Speichern
+    if (ScriptInterrupted()) return;
     return;
 }
 
@@ -562,6 +639,7 @@ void PartD_HandleHinauf(void) { // Part D, script $7be0; command 21 (HINAUF), SE
     if ( up[currentRoom] != 0x00 ) {
         currentRoom = up[currentRoom];
         Code2E5B();
+        if (ScriptInterrupted()) return;
         objectLocation[DAVE] = currentRoom;
         imageID = currentRoom;
     } else {
@@ -571,6 +649,7 @@ void PartD_HandleHinauf(void) { // Part D, script $7be0; command 21 (HINAUF), SE
     }
     if ( imageID != 0xff ) {
         ShowImage();
+        if (ScriptInterrupted()) return;
     }
     return;
 }
@@ -601,7 +680,9 @@ void PartD_HandleWest(void) { // Part D, script $7c28; command 24 (WEST), SELECT
             if ( objectState[BOOTSSCHLUESSEL] == 0x01 ) {
                 pendingTextID = 0x01c5; // text ID 453 (0x01c5), script $7c4a: C2 record 264: Du stößt das Boot vom Steg ab und setzt wieder zum westlichen Ufer des unterirdischen Sees über.
                 showtext();
-                Restart();
+                if (ScriptInterrupted()) return;
+                FlushOutput();
+                if (ScriptInterrupted()) return;
                 objectLocation[KAHN] = AM_UFER_EINES_UNTERIRDISCHEN_SEES;
                 objectState[KAHN] = 0x02;
             }
@@ -611,9 +692,12 @@ void PartD_HandleWest(void) { // Part D, script $7c28; command 24 (WEST), SELECT
         objectLocation[DAVE] = 0xff;
         imageID = 0x84;
         ShowImage();
+        if (ScriptInterrupted()) return;
         pendingTextID = 0x01bd; // text ID 445 (0x01bd), script $7c78: C2 record 256: Die Ratten scheinen Deine Absicht, ihr Revier zu durchqueren, aber ganz und gar nicht gutzuheißen! Nichtsdestotrotz bist Du zum Abendessen herzlich willkommen - unglücklicherweise jedoch als Hauptgang...
         showtext();
-        Restart();
+        if (ScriptInterrupted()) return;
+        FlushOutput();
+        if (ScriptInterrupted()) return;
         return;
     }
     if ( currentRoom == IN_DER_HOEHLE_DES_CUSATHS && objectState[PARFUEM] == 0x00 ) {
@@ -621,8 +705,11 @@ void PartD_HandleWest(void) { // Part D, script $7c28; command 24 (WEST), SELECT
         pendingTextID = 0x01c3; // text ID 451 (0x01c3), script $7c96: C2 record 262: Als der Cu-Sath Deinen Versuch bemerkt, sein Revier zu durchqueren, erfüllt er routiniert seinen Job, nämlich die Halle im Westen zu bewachen! Naja: Es gibt echt nicht sehr viel über Dein plötzliches Ableben zu berichten: Kurz, aber schmerzvoll, gibst Du den Löffel ab! Dabei hätte es wirklich viel spektakulärere Todesmöglichkeiten in diesem Spiel gegeben! Naja: Wenn Du so weiterspielst, wirst Du auch sie sicherlich noch früh genug kennenlernen!
         imageID = 0x83;
         ShowImage();
+        if (ScriptInterrupted()) return;
         showtext();
-        Restart();
+        if (ScriptInterrupted()) return;
+        FlushOutput();
+        if (ScriptInterrupted()) return;
         imageID = 0xff;
         return;
     }
@@ -630,6 +717,7 @@ void PartD_HandleWest(void) { // Part D, script $7c28; command 24 (WEST), SELECT
         currentRoom = west[currentRoom];
         objectLocation[DAVE] = currentRoom;
         Code2E5B();
+        if (ScriptInterrupted()) return;
         imageID = currentRoom;
     } else {
         if ( west[currentRoom] == 0x00 ) {
@@ -645,29 +733,41 @@ x7cd0:
     }
     if ( currentRoom == IN_DER_HUETTE_DES_FAEHRMANNS && objectState[PURPURMANTEL] == 0x01 && objectLocation[BOOTSSCHLUESSEL] == RAUM_NULL ) {
         ShowImage();
+        if (ScriptInterrupted()) return;
         showtext();
-        Restart();
+        if (ScriptInterrupted()) return;
+        FlushOutput();
+        if (ScriptInterrupted()) return;
         pendingTextID = 0x01bc; // text ID 444 (0x01bc), script $7cf6: C2 record 255: Als er den Mantel des Butahkönigs um Deine Schultern bemerkt, fällt der alte Fährmann auf die Knie und fragt mit unterwürfiger Stimme: "Eure Majestät wünschen das Boot zu benutzen?" Gütig nickst Du, nimmst den Fuß, den Du instinktiv in den Nacken des Mannes gesetzt hattest, herunter und bedeutest ihm mit einer gnädigen Geste, sich wieder zu erheben. "Dann nehmt den Bootsschlüssel von Eurem ergebenen Diener entgegen und vergebt ihm den miserablen Zustand seiner Fähre: Es muß eine Zumutung fü Euch sein, Euren königlichen Fuß in sie hineinzusetzen, aber die Geschäfte gehen schlecht: Verzeiht mir!" Nachdem er Dir die Füße saubergeleckt hat, wendet sich der Fährenkapitän unter unzähligen Bücklingen wieder seiner Arbeit zu. Siehst Du: Kleider machen Leute!
         objectLocation[BOOTSSCHLUESSEL] = currentRoom;
         showtext();
+        if (ScriptInterrupted()) return;
         return;
     }
     if ( currentRoom == IM_THRONSAAL_DES_BUTHAKOENIGS && objectState[PARFUEM] == 0x01 ) {
         pendingTextID = 0x01c2; // text ID 450 (0x01c2), script $7d12: C2 record 261: Als er Deine Absicht bemerkt, seine Höhle zu durchqueren, fletscht der Cu-Sath zornig seine Zähne, doch dann...: Aber einen Moment mal! Was ist denn das? Es sieht so aus, als würde die Bestie Dein Parfüm mögen, da es dasselbe ist, das ihr Herrchen vor langer, langer Zeit einmal benutzt hat! Du traust Deinen Augen nicht, als das sonst so gefährliche Untier sanft zu schnurren beginnt und sich zärtlich an Deinen Körper schmiegt! Dann spürst Du etwas Merkwürdiges, Warmes Deine Waden herunterrinnen: Angeekelt schaust Du an Deinem Hosenbein herab, wo der Cu-Sath seine Duftnote hinterlassen hat, um Dir seine starke Zuneigung zu zeigen. Dann zuckst Du jedoch gleichgültig die Achseln: Immerhin ist es gesunder, mit Tierexkrementen besudelt zu sein als zu Tierexkrementen verarbeitet zu werden, oder? Gestärkt durch den tiefen philosophischen Sinn dieser Erkenntnis setzt Du also frohen Mutes Deinen Weg durch die Höhle fort...
         showtext();
-        Restart();
+        if (ScriptInterrupted()) return;
+        FlushOutput();
+        if (ScriptInterrupted()) return;
         Code2E5B();
+        if (ScriptInterrupted()) return;
         imageID = currentRoom;
         ShowImage();
+        if (ScriptInterrupted()) return;
         showtext();
+        if (ScriptInterrupted()) return;
         return;
     }
     if ( currentRoom == IN_DER_SCHLOSSKUECHE ) {
         if ( objectState[RATTEN] == 0x00 ) {
             objectState[RATTEN] = 0x01;
             ShowImage();
+            if (ScriptInterrupted()) return;
             showtext();
-            Restart();
+            if (ScriptInterrupted()) return;
+            FlushOutput();
+            if (ScriptInterrupted()) return;
             pendingTextID = 0x01b5; // text ID 437 (0x01b5), script $7d3a: C2 record 248: Als die Ratten Deine Anwesenheit bemerken, beginnen sie nervös - oder eher: HUNGRIG? - zu quieken! Besonders eine unter ihnen, ein häßliches, fettes Biest, schaut Dich aus heimtückisch funkelnden Äuglein an, während sie die Tür im Westen des Raumes blockiert...
             imageID = 0xff;
             return;
@@ -675,7 +775,9 @@ x7cd0:
             if ( objectLocation[RATTEN] == currentRoom ) {
                 objectState[RATTEN] = 0x01;
                 ShowImage();
+                if (ScriptInterrupted()) return;
                 showtext();
+                if (ScriptInterrupted()) return;
                 pendingTextID = 0x00; // text ID 0 (0x0000), script $7d56: no text
                 imageID = 0xff;
                 return;
@@ -684,6 +786,7 @@ x7cd0:
     }
     if ( imageID != 0xff ) {
         ShowImage();
+        if (ScriptInterrupted()) return;
     }
 
 x7d6c:
@@ -808,7 +911,9 @@ x7ec9:
     if ( object1 == DAVE ) {
         pendingTextID = 0x3c; // text ID 60 (0x003c), script $7ed9: C2 record 162: Eine weise, ja geradezu philosophische Entscheidung: Selbstmord heißt, Probleme aus der Welt zu schaffen, die man ohne seine Eltern gar nicht hätte! Wirklich schönes Schlußwort! Hasta la vista... - Babe! HARAKIRIIIIIIIIIIHHHHH!
         showtext();
-        Restart();
+        if (ScriptInterrupted()) return;
+        FlushOutput();
+        if (ScriptInterrupted()) return;
         objectLocation[DAVE] = 0xff;
         return;
     }
@@ -817,8 +922,11 @@ x7ec9:
         pendingTextID = 0x01c8; // text ID 456 (0x01c8), script $7ef5: C2 record 267: Du versuchst, die Truhe unter Gewaltanwendung zu öffnen - doch im selben Moment, als Du ihr Schloß berührst, siehst Du einen grellweißen Blitz aus ihr herauszucken, der Dich auf der Stelle erschlägt! Du hattest keine Chance: "Die Spannung war auf dem Höhepunkt" - da war einfach nichts mehr zu machen! Aber sag' mal: Bist Du blind? Der verkokelte Leichnam des unglücklichen Abenteurers sollte Dich doch eigentlich gewarnt haben! Naja, vielleicht sind ZWEI verkohlte Leichen ja eher in der Lage, einem Blindfisch wie Dir beim nächsten Mal als abschreckendes Beispiel zu dienen...
         imageID = 0x82;
         ShowImage();
+        if (ScriptInterrupted()) return;
         showtext();
-        Restart();
+        if (ScriptInterrupted()) return;
+        FlushOutput();
+        if (ScriptInterrupted()) return;
         return;
     }
     if ( object1 == KESSEL && objectState[WERWOLF] == 0x04 ) {
@@ -848,11 +956,15 @@ x7ec9:
                 objectState[DRUDENFUSS2] = 0x01;
                 pendingTextID = 0x01cb; // text ID 459 (0x01cb), script $7f94: C2 record 270: Hastig rennst Du zu dem Seelenkristall hin, um ihn zu vernichten und damit Zargons gotteslästerliche Existenz endgültig zu beenden - aber als Du das weiße Kreidepentagramm zwischen Dir und dem Podest überquerst, fühlst Du Dich plötzlich so merkwürdig! So müde - und so schwindelig! Und als Du an Dir herabblickst, bemerkst Du, wie sich Dein Körper langsam entmaterialisiert, um an einen anderen Ort in Zargons Schloß teleportiert zu werden! Vielleicht erinnerst Du Dich ja an ein weiteres Pentagramm in diesem Gemäuer...?
                 showtext();
-                Restart();
+                if (ScriptInterrupted()) return;
+                FlushOutput();
+                if (ScriptInterrupted()) return;
                 currentRoom = IN_EINEM_FINSTEREN_GRUFTGEWOELBE;
                 Code2E5B();
+                if (ScriptInterrupted()) return;
                 imageID = currentRoom;
                 ShowImage();
+                if (ScriptInterrupted()) return;
             } else {
                 if ( objectState[WERWOLF] != 0x04 ) {
                     pendingTextID = 0x01cd; // text ID 461 (0x01cd), script $7fad: C2 record 272: Können vor Lachen! Weißt Du eigentlich, wie schwer das Ding ist? Du wärest doch nicht einmal in der Lage, den Kessel auch nur einen Zentimeter von der Stelle zu bewegen!
@@ -867,8 +979,11 @@ x7ec9:
             pendingTextID = 0x01c9; // text ID 457 (0x01c9), script $7fcb: C2 record 268: Mit einem letzten, hämischen Blick zerreißt Du den Vertrag, der Dich an Zargon und Mylgor gebunden hatte, in handliche, kleine Schnipsel und läßt sie zufrieden zu Boden rieseln - aber in dem Moment, als der erste Papierfetzen den Boden berührt, fühlst Du einen stechenden Schmerz in der Herzgegend, der langsam aber sicher Besitz von Deinem gesamten Körper ergreift! Als lebende Fackel stürzt Du mit einem letzten, fürchterlichen Schrei zu Boden, und während Deine Seele zur Hölle fährt, kannst Du mit ansehen, wie sich aus dem Rauch der letzten Flammen ein Totenschädel bildet: Nun bist Du endlich frei! Niemand wird jemals wieder in der Lage sein, Dich zu irgendetwas zu zwingen...
             imageID = 0x87;
             ShowImage();
+            if (ScriptInterrupted()) return;
             showtext();
-            Restart();
+            if (ScriptInterrupted()) return;
+            FlushOutput();
+            if (ScriptInterrupted()) return;
             return;
         } else {
             pendingTextID = 0x026d; // text ID 621 (0x026d), script $7fdb: not displayed on C2 by $3F62
@@ -922,8 +1037,11 @@ void PartD_HandleBetritt(void) { // Part D, script $807a; command 30 (BETRITT), 
         objectLocation[DAVE] = IN_EINEM_DUNKLEN_SCHACHT;
         imageID = currentRoom;
         ShowImage();
+        if (ScriptInterrupted()) return;
         Code2E5B();
+        if (ScriptInterrupted()) return;
         showtext();
+        if (ScriptInterrupted()) return;
         imageID = 0xff;
         return;
     }
@@ -932,8 +1050,11 @@ void PartD_HandleBetritt(void) { // Part D, script $807a; command 30 (BETRITT), 
         objectLocation[DAVE] = IN_EINER_DUNKLEN_HALLE;
         imageID = currentRoom;
         ShowImage();
+        if (ScriptInterrupted()) return;
         Code2E5B();
+        if (ScriptInterrupted()) return;
         showtext();
+        if (ScriptInterrupted()) return;
         imageID = 0xff;
         return;
     }
@@ -970,24 +1091,32 @@ void PartD_HandleBetritt(void) { // Part D, script $807a; command 30 (BETRITT), 
         objectState[DRUDENFUSS1] = 0x01;
         pendingTextID = 0x01d0; // text ID 464 (0x01d0), script $8136: C2 record 275: Als Du das weiße Pentagramm betrittst, fühlst Du Dich plötzlich so merkwürdig duselig: Alles um Dich herum beginnt sich zu drehen - und plötzlich wird Dir schwarz vor Augen! Du stirbst... Nein! Entschuldigung: Du stirbst natürlich nicht! NOCH nicht! Du scheinst lediglich teleportiert zu werden, denn als Du wieder aus Deinem traumlosen Schlaf erwachst, hat sich Deine Umgebung vollkommen verändert...
         showtext();
-        Restart();
+        if (ScriptInterrupted()) return;
+        FlushOutput();
+        if (ScriptInterrupted()) return;
         currentRoom = IN_ZARGONS_MYSTERIUM;
         objectLocation[DAVE] = IN_ZARGONS_MYSTERIUM;
         imageID = currentRoom;
         ShowImage();
+        if (ScriptInterrupted()) return;
         Code2E5B();
+        if (ScriptInterrupted()) return;
         return;
     }
     if ( object1 == DRUDENFUSS2 ) {
         objectState[DRUDENFUSS2] = 0x01;
         pendingTextID = 0x01d0; // text ID 464 (0x01d0), script $815c: C2 record 275: Als Du das weiße Pentagramm betrittst, fühlst Du Dich plötzlich so merkwürdig duselig: Alles um Dich herum beginnt sich zu drehen - und plötzlich wird Dir schwarz vor Augen! Du stirbst... Nein! Entschuldigung: Du stirbst natürlich nicht! NOCH nicht! Du scheinst lediglich teleportiert zu werden, denn als Du wieder aus Deinem traumlosen Schlaf erwachst, hat sich Deine Umgebung vollkommen verändert...
         showtext();
-        Restart();
+        if (ScriptInterrupted()) return;
+        FlushOutput();
+        if (ScriptInterrupted()) return;
         currentRoom = IN_EINEM_FINSTEREN_GRUFTGEWOELBE;
         objectLocation[DAVE] = IN_EINEM_FINSTEREN_GRUFTGEWOELBE;
         Code2E5B();
+        if (ScriptInterrupted()) return;
         imageID = currentRoom;
         ShowImage();
+        if (ScriptInterrupted()) return;
         return;
     }
     pendingTextID = 0x0a; // text ID 10 (0x000a), script $8176: C2 record 112: Könntest Du mir mal bitte erklären, wie Du DAS betreten willst?
@@ -998,7 +1127,7 @@ x817a:
 
 
 void PartD_HandleBetrachte(void) { // Part D, script $817b; command 31 (BETRACHTE), SELECT $7785 case 5
-    pendingTextID = objectDescriptionID[object1]; // dynamic text ID, script $817b; resolve through texts/C64/text_ids.json
+    pendingTextID = objectDescriptionID[object1]; // dynamic text ID, script $817b; resolve through GameTextLookup(gamePart, id)
     if ( object1 == KURZSCHWERT ) {
         if ( objectState[KURZSCHWERT] == 0x01 ) {
             pendingTextID = 0x011f; // text ID 287 (0x011f), script $818d: not displayed on C2 by $3F62
@@ -1284,14 +1413,18 @@ void PartD_HandleBewege(void) { // Part D, script $857e; command 34 (BEWEGE), SE
     if ( object1 == KRIEGERSTATUE ) {
         pendingTextID = 0x0222; // text ID 546 (0x0222), script $8680: C2 record 357: Als Du die Statue berührst, fühlst Du, wie Dich eine geheimnisvolle Kraft durchströmt: Schützend reißt Du die Hände vor Dein Gesicht, als Du von einem grellweißen Licht geblendet wirst - und als Du sie wieder herunternimmst, mußt Du zu Deinem großen Erstaunen feststellen, daß sich Deine Umgebung völlig verändert hat...
         showtext();
-        Restart();
+        if (ScriptInterrupted()) return;
+        FlushOutput();
+        if (ScriptInterrupted()) return;
         score = score + remainingPoints[0x8a];
         remainingPoints[0x8a] = 0x00;
         currentRoom = IM_ZIMMER_DES_DUNGEON_MASTERS;
         objectLocation[DAVE] = IM_ZIMMER_DES_DUNGEON_MASTERS;
         imageID = currentRoom;
         ShowImage();
+        if (ScriptInterrupted()) return;
         Code2E5B();
+        if (ScriptInterrupted()) return;
         return;
     }
     pendingTextID = 0x10; // text ID 16 (0x0010), script $86a6: C2 record 118: Versprichst Du dir irgend etwas Bestimmtes davon, DAS durch die Gegend zu schleppen?
@@ -1426,9 +1559,12 @@ void PartD_HandleDruecke(void) { // Part D, script $884b; command 37 (DRUECKE), 
         objectLocation[DAVE] = 0xff;
         imageID = 0x86;
         ShowImage();
+        if (ScriptInterrupted()) return;
         pendingTextID = 0x0229; // text ID 553 (0x0229), script $885c: C2 record 364: Als Du die Türklinke hinunterdrückst, hörst Du ein leises Klicken unter Deinen Füßen - und bevor Du noch Zeit findest, zurückzuspringen, öffnet sich eine verborgene Falltür unter Dir! Im letzten Moment ergreifst Du den Rand der Fallgrube und versuchst, Dich wieder nach oben zu ziehen: "Hätte ich doch nicht so oft den Sportunterricht geschwänzt!", denkst Du Dir verzweifelt, als Dir nach mehreren vergeblichen und kraftraubenden Versuchen klarwird, daß Du Dich niemals ohne fremde Hilfe aus dieser mißlichen Lage befreien können wirst. Als Du panikerfüllt auf den Boden der Grube blickst, erkennst Du voller Grausen tief unter Dir lange Eisenspitzen, an denen Reste geronnenen Blutes kleben! Instinktiv willst Du nach Hilfe rufen, doch kaum hast Du den Mund geöffnet, wird Dir auch schon klar, daß Deine Schreie lediglich reine Kraft- und Zeitverschwendung wären, da die einzige Person, die Dich hier unten hören und finden könnte, Zargon persönlich wäre - und Du weißt genau, daß er kein Mitleid mit Dir hätte! Nachdem Du Dir also die Aussichtslosigkeit Deiner Situation nochmals vor Augen geführt hast, sprichst Du noch ein letztes Gebet und läßt dann den Rand der Grube los... Tja, ein Mann muß eben wissen, wann es für ihn Zeit ist zu gehen: Leider fällst Du länger als erwartet und stößt Dir dabei unzählige Male den Kopf an den harten, kantigen Felswänden, ohne jedoch wirklich das Bewußtsein zu verlieren - dann ist es plötzlich zu Ende: Aufgespießt auf die spitzen Lanzen, erschüttert Dein wilder Todesschrei das ganze Schloß, einzig und allein übertönt von Zargons hämischem Hohngelächter...
         showtext();
-        Restart();
+        if (ScriptInterrupted()) return;
+        FlushOutput();
+        if (ScriptInterrupted()) return;
         return;
     }
     pendingTextID = 0x59; // text ID 89 (0x0059), script $8867: C2 record 191: Glaube mir: Es besteht wirklich nicht der geringste Grund, das zu drücken!
@@ -1614,9 +1750,12 @@ void PartD_HandleWende(void) { // Part D, script $8993; command 40 (WENDE), SELE
                     objectLocation[DAVE] = 0xff;
                     imageID = 0x85;
                     ShowImage();
+                    if (ScriptInterrupted()) return;
                     pendingTextID = 0x0231; // text ID 561 (0x0231), script $8afa: C2 record 372: Hastig würgst Du Dir die Weißbrotscheibe 'rein, ohne in Deiner perversen Freßgier daran zu denken, daß Du sie doch selbst noch vor wenigen Minuten vergiftet hast - aber als Du es gezwungenermaßen bemerkst, ist es bereits zu spät (Ob wir wohl eine Floskeltaste mit dieser Phrase belegen sollten...?): Zum letzten Mal in Deinem jungen Leben fühlst Du, wie Du krank wirst - nein, entschuldige: nicht, wie Du krank wirst, sondern daß Dein letztes Stündlein geschlagen hat (allerdings auch kein sehr viel angenehmeres Gefühl...)! Mit einem letzten, erstickten Würgen krümmst Du Dich auf dem Boden zusammen, bis Du Dein Leben wie eine Ratte aushauchst - denn immerhin war es schließlich Rattengift, das für Dein vorzeitiges Ableben verantwortlich gewesen ist! Nächstes Mal solltest Du die Hinweise auf der Packung wohl doch etwas genauer studieren: "Von Kindern fernhalten!"
                     showtext();
-                    Restart();
+                    if (ScriptInterrupted()) return;
+                    FlushOutput();
+                    if (ScriptInterrupted()) return;
                     return;
                 }
             }
@@ -1625,9 +1764,12 @@ void PartD_HandleWende(void) { // Part D, script $8993; command 40 (WENDE), SELE
             objectLocation[DAVE] = 0xff;
             imageID = 0x8c;
             ShowImage();
+            if (ScriptInterrupted()) return;
             pendingTextID = 0x0234; // text ID 564 (0x0234), script $8b18: C2 record 375: "Was Napoliton... äh: Dingsbums konnte, kann ich schon lange!", denkst Du Dir und setzt Dir Zargons Krone auf den Kopf, um Dich zum neuen Herrscher des Reiches zu krönen. Doch was Du leider nicht wußtest war, daß diese Krone ihren Träger zu einem grausamen Diener des Bösen macht! Nun hast Du also auch gleich einen Pakt mit den Höllenmächten geschlossen, die zuvor Zargons Willen und Seele kontrolliert und sich schon ernsthafte Sorgen um seine Nachfolge gemacht hatten...: Im selben Moment, als Du die Krone auf Dein edles Haupt setzt, umklammert sie Deinen Schädel wie ein Schraubstock! Wild schreiend vor Schmerz versuchst Du, das teuflische Kleinod wieder vom Kopf herunterzureißen - aber es geht einfach nicht mehr! Im Gegenteil: Sie wird enger und enger, und mit jeder Sekunde, die verstreicht, wirst Du mehr und mehr zu einem Diener des Satans! Als der Schmerz langsam abklingt und Du nur noch das dumpfe, monotone Pulsieren Deines kalten Blutes im Kopf spürst, drehst Du Dich langsam und mit einem grausamen Lächeln auf den Lippen um - und siehst mit großer Zufriedenheit dabei zu, wie die Splitter des Kristalls, den Du gerade erst zerstört hattest, wieder über dem Boden schweben und sich zu einem neuen Seelenkristall zusammensetzen - einem Seelenkristall, der DEIN Bild darstellt...
             showtext();
-            Restart();
+            if (ScriptInterrupted()) return;
+            FlushOutput();
+            if (ScriptInterrupted()) return;
             return;
         }
     }
@@ -1657,7 +1799,9 @@ void PartD_HandleWende(void) { // Part D, script $8993; command 40 (WENDE), SELE
         if ( object2 == DAVE ) {
             pendingTextID = 0x60; // text ID 96 (0x0060), script $8bcb: C2 record 198: Na gut, wie Du meinst: Heldenhaft stürzst Du Dich in die Klinge Deines Schwertes - aber nichts passiert! Kein Blut, kein Schmerz, rein gar nichts! Frustriert unternimmst Du einen weiteren Versuch, doch wieder spürst Du nichts. Beim dritten Mal triffst Du Dich dann endlich: In Todesqualen windest Du Dich auf dem Boden, ohne daß ein Wort des Schmerzes über Deine Lippen kommt - wie es sich eben für einen echten Helden gehört. Wenn das Deine Freundin sehen könnte! So einen stilvollen Abgang legt man schließlich nicht alle Tage hin! Auf einmal ist alles vorbei, und es wird dunkel... Nach einiger Zeit erwachst Du schwebend in einem dunklen Raum. Du schauderst: Ist das das Leben nach dem Tode? Das soll wirklich alles sein? Sieht ja finster aus... Doch auf einmal wird Dir klar, was Dich geweckt hat: Leise, wie aus weiter Ferne, weht eine sanfte Stimme zu Dir herüber... "Dave Parker!", kannst Du sie wispern hören, "Du solltest wissen, daß niemand seinem Schicksal entkommen kann! Es hat keinen Sinn, vor seiner Bestimmung zu fliehen - das Schicksal holt Dich immer wieder ein! Gehe also hin und erfülle die Aufgaben, die man Dir auferlegt hat. Kraft meiner göttlichen Befugnisse werde ich Dir nun ein Extraleben schenken, um Dir noch eine Gelegenheit zu geben, Deine Bestimmung zu erfüllen..." Während die Stimme im Nichts verhallt, beginnt sich alles um Dich herum zu drehen, Dir wird schwindlig - und Du fällst in einen tiefen, traumlosen Schlaf... Als Du Deine Augen wieder öffnest, findest Du Dich genau dort wieder, wo Du Deinen Selbstmordversuch unternommen hast...
             showtext();
-            Restart();
+            if (ScriptInterrupted()) return;
+            FlushOutput();
+            if (ScriptInterrupted()) return;
             return;
         }
         if ( object2 == TRUHE ) {
@@ -1665,8 +1809,11 @@ void PartD_HandleWende(void) { // Part D, script $8993; command 40 (WENDE), SELE
             pendingTextID = 0x01c8; // text ID 456 (0x01c8), script $8be1: C2 record 267: Du versuchst, die Truhe unter Gewaltanwendung zu öffnen - doch im selben Moment, als Du ihr Schloß berührst, siehst Du einen grellweißen Blitz aus ihr herauszucken, der Dich auf der Stelle erschlägt! Du hattest keine Chance: "Die Spannung war auf dem Höhepunkt" - da war einfach nichts mehr zu machen! Aber sag' mal: Bist Du blind? Der verkokelte Leichnam des unglücklichen Abenteurers sollte Dich doch eigentlich gewarnt haben! Naja, vielleicht sind ZWEI verkohlte Leichen ja eher in der Lage, einem Blindfisch wie Dir beim nächsten Mal als abschreckendes Beispiel zu dienen...
             imageID = 0x82;
             ShowImage();
+            if (ScriptInterrupted()) return;
             showtext();
-            Restart();
+            if (ScriptInterrupted()) return;
+            FlushOutput();
+            if (ScriptInterrupted()) return;
             return;
         }
     }
@@ -1832,7 +1979,7 @@ x8e29:
             } else {
                 if ( objectState[object1] == 0x02 || objectState[object1] == 0x01 ) {
                     if ( objectState[object1] == 0x01 ) {
-                        PartD_HandleSchliesse();
+                        PartD_HandleSchliesse(); if (ScriptInterrupted()) return;
                     }
                     objectState[object1] = 0x00;
                     if ( object1 == STAHLTUER2 ) {

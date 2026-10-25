@@ -15,6 +15,7 @@ struct COutputInput {
     const FunctionSymbols& symbols;
     const char* const* objectNames = nullptr;
     unsigned objectNameCount = 0;
+    const char* entryName = "Execute";
 };
 
 // One pair of constant-table files shared by all emitted game parts.

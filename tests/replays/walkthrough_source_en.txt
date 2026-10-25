@@ -1,0 +1,94 @@
+Source: data/c64_en/Soul Crystal Walkthrough and Info.pdf, pages 13-14
+SHA256: e21bdfcfcb6c5045ca83496bce0722ccd663300fe75167b7f8e1de02ba559319
+
+Walkthrough
+
+Joystick/Mouse
+
+  ➢   W, N, (OBJECTS) CONSIDER desk, (MENU, ACTION) PUSH bell 3 times, SPEAK Clerk, (MENU, OBJECTS) TAKE
+      room-key
+  ➢   W, (MENU, CONTROL) UNLOCK room-door with room-key, OPEN room-door
+  ➢   S, (MENU, OBJECTS) CONSIDER chair, TAKE swimsuit
+  ➢   N, E, S, E, E, N, (MENU, OBJECTS) LOSE jeans, LOSE t-shirt, LOSE sneakers, LOSE room-key, USE swimsuit on
+      Dave
+  ➢   N, W, N, N, E, N, (MENU, ACTION) HELP unicorn, SPEAK unicorn, (MENU, OBJECTS) TAKE crystalball, W
+
+
+
+
+  ➢   W, S, W, (MENU, ACTION) GIVE crystalball to orc kid, (MENU, OBJECTS) CONSIDER table, (MENU, ACTION)
+      WAIT 4 times, (MENU, OBJECTS) TAKE pipe
+  ➢   N, E, N, W, W, (MENU, ACTION) PUSH door, SPEAK Mylgor, (MENU, OBJECTS) USE knife on Dave, USE gore on
+      pledge, (MENU, ACTION) GIVE knife to Mylgor, GIVE pledge to Mylgor
+  ➢   S, (MENU, OBJECTS) USE Dave on bed
+  ➢   N, (MENU, ACTION) SPEAK Mylgor, (MENU, OBJECTS) USE cotton shirt on Dave, USE pant on Dave, USE fur
+      boots on Dave, TAKE elixir, (MENU, CONTROL) OPEN door
+  ➢   N, E, E, E, (MENU, OBJECTS) USE pipe on beehive, CONSIDER beehive, TAKE honey, USE honey on fur boots
+  ➢   W, N, N, W, N, (MENU, OBJECTS) TAKE silver coins
+  ➢   S, E, S, S, W, N, W, (MENU, ACTION) SPEAK salesman, GIVE silver coins to salesman
+  ➢   W, N, (MENU, OBJECTS) CONSIDER dog sled, (MENU, LOCATION) ENTER dog sled
+  ➢   N, W, (MENU, OBJECTS) USE elixir on Dave
+  ➢   N, (MENU, ACTION) SPEAK with Firon 3 times, (MENU, LOCATION) ENTER badger sleigh
+  ➢   S, LEAVE badger sleigh
+  ➢   S, E, E, S, E, N, N, E, N, (MENU, OBJECTS) TAKE rat poison
+  ➢   N, TAKE short sword
+  ➢   S, W, (MENU, CONTROL) UNLOCK burial gate with ice key, OPEN burial gate
+  ➢   N, N, (MENU, OBJECTS) USE short sword on holy water font, (DOWNWARD), CONSIDER gravestone,
+      (UPWARD), USE pray on stonealtar, (MENU, ACTION) SPEAK to Jack's Ghost
+  ➢   S, S, E, S, W, W, N, (MENU, OBJECTS) USE short sword on silver
+  ➢   W, TAKE shovel, (MENU, LOCATION) DIG, (MENU, OBJECTS) TAKE skull
+  ➢   E, S, E, E, N, W, N, W, N, (MENU, CONTROL) OPEN casket, (MENU, OBJECTS) USE skull on skelly, (MENU,
+      ACTION) SPEAK to king 3 times
+  ➢   S, (MENU, OBJECTS) USE short sword on werwolf
+  ➢   E, S, E, S, W, S, S, W, W, S, S, USE magic spell on west door, (MENU, CONTROL) OPEN west door
+  ➢   W, (MENU, OBJECTS) CONSIDER study table, (MENU, CONTROL) OPEN drawers, (MENU, OBJECTS) CONSIDER
+      drawers, TAKE laboratory key
+  ➢   E, N, (MENU, CONTROL) MOVE FLUE, (DOWNWARD)
+  ➢   W, (MENU, OBJECTS) CONSIDER bed, TAKE amulet, USE amulet on Dave
+  ➢   E, (MENU, CONTROL) OPEN lab door
+  ➢   N, (MENU, OBJECTS) DESTROY reagents
+  ➢   S, (MENU, CONTROL) LOCK lab door with lab key, (UPWARD)
+  ➢   N, E, E, E, N
+
+➢   E, N, N, (MENU LOCATION) ENTER boat
+➢   N, N, LEAVE boat
+➢   N, W, (MENU, OBJECTS) TAKE brick
+➢   E, N, CONSIDER portcullis, USE brick on platform, (MENU, ACTION) TUG portcullis
+➢   N, W, (MENU, OBJECTS) TAKE gate key
+➢   E, (MENU, CONTROL) UNLOCK portal with gate key, OPEN portal, N
+
+
+
+
+➢   (DOWNWARD), (DOWNWARD)
+➢   N, (MENU, OBJECTS) TAKE SCENT, USE scent on Dave
+➢   S, W, W, TAKE purple cloak
+➢   E, S, S, USE purple cloak on Dave
+➢   W, TAKE boat key
+➢   E, (MENU, LOCATION) ENTER boat, (MENU, OBJECTS) USE boat key on boat
+➢   E, (MENU, CONTROL) ATTACH boat to jetty, (MENU, LOCATION) LEAVE boat
+➢   S, (MENU, OBJECTS) TAKE iron key
+➢   N, (MENU, LOCATION) ENTER boat
+➢   W, LEAVE boat
+➢   N, N, E, (UPWARD), (UPWARD), N, N, W, (UPWARD), (MENU, OBJECTS) CONSIDER heaven, CONSIDER full
+    moon, (DOWNWARD), (DOWNWARD)
+➢   E, (MENU, CONTROL) MOVE warrior statue, (MENU, OBJECTS) TAKE kay‘s key, (MENU, CONTROL), UNLOCK
+    gate door with kay‘s key, OPEN gate door
+➢   S, UNLOCK steel door with iron key, OPEN steel door
+➢   E, N, N, (MENU, OBJECTS) CONSIDER oak door, (MENU, ACTION) TUG doorknob
+➢   N, (MENU, CONTROL) MOVE bookshelf
+➢   W, (MENU, OBJECTS) CONSIDER ornate bed, CONSIDER bedding, TAKE leather socks, (MENU, CONTROL)
+    OPEN leather socks, (MENU, OBJECTS) CONSIDER leather socks, CONSIDER paper
+➢   E, E, USE code number on safe, (MENU, CONTROL) OPEN safe, (MENU, OBJECTS) CONSIDER safe, TAKE pledge
+➢   W, N, W, USE pledge on purple fire, CONSIDER holy water font, USE holy water on purple fire
+➢   E, S, S, S, (UPWARD), E, N, W, TAKE slice of bread, USE rat poison on a slice of bread, (MENU, ACTION) GIVE
+    slice of bread to rats
+➢   W, (DOWNWARD), (MENU, CONTROL) OPEN keg
+➢   W, N, CLOSE tombs, (MENU, LOCATION) ENTER pentagram, (MENU, OBJECTS) DESTROY boiler, DESTROY
+    crystal, TAKE scepter
+➢   W, S, S, S, S, W, N, USE scepter on slot
+➢   S, E, N, (UPWARD)
+➢   E, S, S, (DOWNWARD), (DOWNWARD)
+➢   S, CONSIDER source, TAKE water, USE water on Dave
+➢   N, (UPWARD), (UPWARD)
+➢   S.

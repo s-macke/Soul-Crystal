@@ -5,6 +5,8 @@
 typedef enum { TextUnavailable, TextNone, TextLiteral, TextEngineFormatted } GameTextKind;
 typedef struct { GameTextKind kind; const char *text; } GameText;
 /* Parts 1..4; raw record numbers are NOT logical message IDs. */
+extern const char GameIntroText[];
+extern const char GameDiaryText[];
 unsigned GameTextRecordCount(GamePart part);
 const char *GameTextRecord(GamePart part, unsigned record);
 /* Ordinary message path only. Dynamic messages require engine formatting. */

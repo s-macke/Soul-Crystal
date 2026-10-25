@@ -2,6 +2,31 @@
 
 Reverse Engineering of the Game Soul Crystal
 
+## Textkonsole
+
+```sh
+./build_console.sh
+./build/soul-crystal
+```
+
+Erste spielbare Basis mit einkompilierten Texten, Intro, Verbliste und
+zustandsabhängiger Objektliste. Keine Laufzeitdateien oder zusätzlichen Libraries.
+Handbuchabfragen sind deaktiviert; die Teilübergänge laufen ohne Rückfrage weiter;
+Speichern/Laden und Cheats sind nicht enthalten.
+Details und Tests: [Konsolenanwendung](spec/C64/console_application.md).
+
+Die vorhandene Komplettlösung dient als Grundlage für einen automatischen
+[Replay-Runner](tests/replays/README.md):
+
+```sh
+./build/soul-replay tests/replays/part_a.replay
+```
+
+Die vollständige Hauptroute erreicht mit 393 Befehlen und 130 Prüfstellen den
+Gewinn (5.010 Punkte). Nebenpfade sind noch nicht vollständig geprüft.
+
+## Frühere SPECIAL-Notizen
+
 
       3 SPECIAL(0x0001);    coderequest? passwortabfrage?
       4 SPECIAL(0x0002);    laden

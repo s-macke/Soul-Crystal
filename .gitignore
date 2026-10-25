@@ -12,3 +12,6 @@ tables
 
 # Accidental terminal hex dump, not a disk image.
 /data/C64/d64/--help
+
+# Native console build artifacts
+/build/

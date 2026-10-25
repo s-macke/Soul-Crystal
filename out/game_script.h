@@ -2,7 +2,7 @@
 #define SOUL_GAME_SCRIPT_H
 
 #include <stdint.h>
-#include "src/C/game_ids.h"
+#include "game_ids.h"
 
 /* Preserve the existing scalar widths; enums name values, not storage types. */
 typedef uint8_t ScriptByte;
@@ -50,7 +50,13 @@ extern ScriptWord engineState69BF; // Saved engine field, meaning not yet fully 
 extern const ScriptByte *tableptr;
 void SPECIAL(ScriptWord operation);
 void showtext(void);
-void Restart(void);
+void FlushOutput(void);
+int ScriptInterrupted(void);
+void ResetGameState(void);
+void PartA_Execute(void);
+void PartB_Execute(void);
+void PartC_Execute(void);
+void PartD_Execute(void);
 void ShowImage(void);
 void Code2E5B(void);
 
