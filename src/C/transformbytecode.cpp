@@ -6,6 +6,8 @@
 #include<stdint.h>
 #include<filesystem>
 #include "text_comments.generated.h"
+#include "c_output.h"
+#include "script_symbols.h"
 
 #include"tables.h"
 #include"disk.h"
@@ -19,63 +21,11 @@ unsigned char isjump[0x10000];
 unsigned char istable[0x10000];
 unsigned char isfunc[0x10000];
 unsigned short pc;
-int casen;
 
 int lasttoken = 0x0;
 
 std::string InterpretVariable(unsigned char token) {
-    switch (token) {
-        case 0x80:
-            return std::string("command");  // addr6986
-        case 0x81:
-            return std::string("object1");  // addr6988
-        case 0x82:
-            return std::string("object2"); // addr698A
-        case 0x83:
-            return std::string("roomnumber"); // addr695D
-        case 0x84:
-            return std::string("addr6963");  // addr6963
-        case 0x90:
-            return std::string("pointsum"); // addr698c
-        case 0x91:
-            return std::string("steps"); // addr698E
-        case 0x92:
-            return std::string("textoutput"); // addr6990
-        case 0x93:
-            return std::string("temp"); // addr6992
-        case 0x94:
-            return std::string("imageno"); // addr6994
-        case 0x95:
-            return std::string("addr6996");
-        case 0x96:
-            return std::string("addr6998");
-        case 0x97:
-            return std::string("addr699a");
-        case 0xA0:
-            return std::string("north");
-        case 0xA1:
-            return std::string("east");
-        case 0xA2:
-            return std::string("south");
-        case 0xA3:
-            return std::string("west");
-        case 0xA4:
-            return std::string("up");
-        case 0xA5:
-            return std::string("down");
-        case 0xA6:
-            return std::string("objectposition");
-        case 0xA7:
-            return std::string("objectstatus");
-        case 0xA8:
-            return std::string("visited");
-        case 0xB0:
-            return std::string("points"); // 16 Bit
-        case 0xB1:
-            return std::string("objectdescription"); // 16 Bit
-            // case 0xB2: ???
-    }
-    return std::string("Not_found");
+    return ScriptSymbol(token).name;
 }
 
 std::string ConstantToVariable(unsigned int token, bool isbyte) {
@@ -195,41 +145,10 @@ std::string ReadNextVariable(unsigned char token) {
     return std::string();
 }
 
-enum TokenType {
-    UNDEF,
-    DATA,
-    VARIABLE,
-    IF,
-    IFEND,
-    ELSE,
-    ENDIF,
-    OP,
-    GOSUB,
-    GOTO,
-    RETURN,
-    FUNC,
-    TABLE,
-    SELECT,
-    CASE,
-    READTABLE8,
-    READTABLE16,
-    EQ,
-    FUNC2
-};
-
-struct Token {
-    int addr;
-    bool isjump;
-    TokenType type;
-    int data;
-    bool isConstant;
-    std::string str;
-};
-
 std::vector <Token> tokens;
 
 
-void Token() {
+void DecodeToken() {
     uint16_t x;
     unsigned char token = ram[pc];
     struct Token t{};
@@ -536,14 +455,14 @@ void WalkCode(int pc, int size) {
 
             case 0xE0: // GOSUB
                 x = ram[pc] | (ram[pc + 1] << 8);
-                if (isfunc[x] == 0) isfunc[x] = 100;
+                isfunc[x] = 1;
                 WalkCode(x, size);
                 pc += 2;
                 break;
 
             case 0xEA: // CASE
                 x = ram[pc] | (ram[pc + 1] << 8);
-                isfunc[x] = casen++;
+                isfunc[x] = 1;
                 WalkCode(x, size);
                 pc += 2;
                 break;
@@ -568,244 +487,11 @@ void WalkCode(int pc, int size) {
 void TransformByteCode(int size)  { // Code at 0x1C12{
     pc = 0x7600;
     while ((pc - 0x7600) <= size) {
-        Token();
+        DecodeToken();
     }
-}
-
-void Indent(int indent, FILE *fp) {
-    for (int j = 0; j < indent; j++) fprintf(fp, "    ");
-}
-
-void ToC(const char* filename, const std::map<unsigned, std::string>& comments) {
-    int k = 0;
-    int selectAddr = 0;
-    FILE *fp = fopen(filename, "w");
-    if (fp == NULL) {
-        printf("Error: Cannot open file to write\n");
-        exit(1);
-    }
-
-    fprintf(fp, "#include\"src/tables.h\"\n");
-
-// --------------------------
-    bool firstcomma = true;
-    bool firstdata = true;
-    for (int i = 0; i < tokens.size(); i++) {
-        if (istable[tokens[i].addr]) {
-            if (firstdata) {
-                firstdata = false;
-            } else {
-                fprintf(fp, "};\n");
-            }
-            fprintf(fp, "\nunsigned char data0x%04x[] = {", tokens[i].addr);
-            firstcomma = true;
-        }
-        if (tokens[i].type == TokenType::DATA) {
-            if (firstcomma) {
-                fprintf(fp, "0x%02x", tokens[i].data);
-                firstcomma = false;
-            } else {
-                fprintf(fp, ", 0x%02x", tokens[i].data);
-            }
-        }
-    }
-    fprintf(fp, "};\n\n");
-// --------------------------
-
-    for (int i = 0; i < 0x10000; i++) {
-        if (isfunc[i]) {
-            fprintf(fp, "void Func%04x(); // %s\n", i, isfunc[i]<45?commandnames[isfunc[i]]:"");
-        }
-    }
-    fprintf(fp, "\n");
-
-    fprintf(fp, "unsigned short textoutput;\n");
-    fprintf(fp, "unsigned short command;\n");
-    fprintf(fp, "unsigned short roomnumber;\n");
-    fprintf(fp, "unsigned short temp;\n");
-    fprintf(fp, "unsigned short object1, object2;\n");
-    fprintf(fp, "unsigned short steps;\n");
-    fprintf(fp, "unsigned short addr6963;\n");
-    fprintf(fp, "unsigned short imageno;\n"); // addr6994
-    fprintf(fp, "unsigned short pointsum;\n");
-    fprintf(fp, "unsigned short addr6996;\n");
-    fprintf(fp, "unsigned short addr699a;\n");
-    fprintf(fp, "unsigned short addr6998;\n");
-    fprintf(fp, "unsigned char *tableptr;\n");
-
-    fprintf(fp, "void SPECIAL(unsigned short x);\n");
-    fprintf(fp, "void showtext();\n");
-    fprintf(fp, "void Restart();\n");
-    fprintf(fp, "void ShowImage();\n"); // Code4087()
-    fprintf(fp, "void Code2E5B();\n");
-
-    int indent = 1;
-    fprintf(fp, "\n\nvoid Execute() {\n");
-
-    for (int i = 0; i < tokens.size();) {
-
-        if (isfunc[tokens[i].addr]) {
-            fprintf(fp, "}\n\n");
-            fprintf(fp, "\nvoid Func%04x() { // %s\n", tokens[i].addr, isfunc[tokens[i].addr]<45?commandnames[isfunc[tokens[i].addr]]:"");
-            indent = 1;
-        } else if (tokens[i].isjump) {
-            fprintf(fp, "\nx%04x:\n", tokens[i].addr);
-        }
-
-        switch (tokens[i].type) {
-
-            case TokenType::VARIABLE:
-                Indent(indent, fp);
-                if (tokens[i + 1].type == VARIABLE && tokens[i + 2].type == EQ) {
-                    fprintf(fp, "%s = %s;", tokens[i].str.c_str(), tokens[i + 1].str.c_str());
-                    if (tokens[i + 0].str == "textoutput") {
-                        if (tokens[i + 1].isConstant) {
-                            unsigned id = tokens[i + 1].data;
-                            auto found = comments.find(id);
-                            fprintf(fp, " // text ID %u (0x%04x), script $%04x: %s", id, id,
-                                tokens[i].addr, found == comments.end() ? "outside mapped message range; engine special/error path" : found->second.c_str());
-                        } else {
-                            fprintf(fp, " // dynamic text ID, script $%04x; resolve through texts/C64/text_ids.json", tokens[i].addr);
-                        }
-                    }
-                    i += 3;
-                } else if (tokens[i + 1].type == VARIABLE && tokens[i + 2].type == OP &&
-                           tokens[i + 3].type == VARIABLE) {
-                    fprintf(fp, "%s = %s %s %s;", tokens[i].str.c_str(), tokens[i + 1].str.c_str(),
-                            tokens[i + 2].str.c_str(), tokens[i + 3].str.c_str());
-                    i += 4;
-                } else {
-                    fprintf(fp, "%4i 0x%04x: unknown variable type %i", i, tokens[i].addr, (int) tokens[i].type);
-                    i++;
-                }
-                break;
-
-            case TokenType::IF:
-                if (indent == 0) fprintf(fp, "\n");
-
-                Indent(indent, fp);
-                fprintf(fp, "if (");
-                while (tokens[i].type != TokenType::IFEND) {
-                    fprintf(fp, "%s ", tokens[i].str.c_str());
-                    i++;
-                }
-                fprintf(fp, ") {");
-                i++;
-                indent++;
-                break;
-
-            case TokenType::ENDIF:
-                indent--;
-                if (indent <= 0) {
-                    indent = 1;
-                    printf("Error; Endif ident equal zero at 0x%04x\n", tokens[i].addr);
-                } else {
-                    Indent(indent, fp);
-                    fprintf(fp, "}");
-                }
-
-                i++;
-                break;
-
-            case TokenType::ELSE:
-                Indent(indent - 1, fp);
-                fprintf(fp, "} else {");
-                i++;
-                break;
-
-            case TokenType::GOTO:
-                Indent(indent, fp);
-                fprintf(fp, "goto x%04x;", tokens[i].data);
-                i++;
-                break;
-
-            case TokenType::GOSUB:
-                Indent(indent, fp);
-                //fprintf(fp, "gosub x%04x;", tokens[i].data);
-                fprintf(fp, "Func%04x();", tokens[i].data);
-                i++;
-                break;
-
-            case TokenType::RETURN:
-                Indent(indent, fp);
-                fprintf(fp, "return;");
-                i++;
-                break;
-
-            case TokenType::SELECT:
-                Indent(indent, fp);
-                selectAddr = tokens[i].addr;
-                i++;
-                fprintf(fp, "switch(%s) { // SELECT script $%04x; original cases are 1-based\n", tokens[i].str.c_str(), selectAddr);
-                i++;
-                // $2C65 initializes the original SELECT CASE counter to one.
-                k = 1;
-                while (tokens[i].type == TokenType::CASE) {
-                    Indent(indent + 1, fp);
-                    fprintf(fp, " case %i: Func%04x(); break;\n", k, tokens[i].data);
-                    i++;
-                    k++;
-                }
-                Indent(indent, fp);
-                fprintf(fp, "}");
-                break;
-
-            case TokenType::FUNC:
-                Indent(indent, fp);
-                // A trailing // annotation must not swallow the statement semicolon.
-                {
-                    const auto comment = tokens[i].str.find(" // ");
-                    if (comment == std::string::npos) fprintf(fp, "%s;", tokens[i].str.c_str());
-                    else fprintf(fp, "%s;%s", tokens[i].str.substr(0, comment).c_str(), tokens[i].str.substr(comment).c_str());
-                }
-                i++;
-                break;
-
-            case TokenType::FUNC2:
-                Indent(indent, fp);
-                fprintf(fp, "%s = %s;", tokens[i + 1].str.c_str(), tokens[i].str.c_str());
-                i += 2;
-                break;
-
-            case TokenType::TABLE:
-                Indent(indent, fp);
-                fprintf(fp, "tableptr = data0x%04x;", tokens[i].data);
-                i++;
-                break;
-
-            case TokenType::READTABLE8:
-                Indent(indent, fp);
-                fprintf(fp, "%s = *tableptr++;", tokens[i + 1].str.c_str());
-                i += 2;
-                break;
-
-            case TokenType::READTABLE16:
-                Indent(indent, fp);
-                fprintf(fp, "%s = *(unsigned short*)tableptr; tableptr += 2;", tokens[i + 1].str.c_str());
-                i += 2;
-                break;
-
-            case TokenType::DATA:
-                i++;
-                goto end;
-
-            default:
-                Indent(indent, fp);
-                fprintf(fp, "%4i 0x%04x: unknown type %i", i, tokens[i].addr, (int) tokens[i].type);
-                i++;
-                break;
-        }
-        fprintf(fp, "\n");
-    }
-
-    end:
-    fprintf(fp, "}\n");
-
-    fclose(fp);
 }
 
 void Init() {
-    casen = 1;
     lasttoken = 0;
     tokens.clear();
     memset(ram, 0, 0x10000);
@@ -856,28 +542,28 @@ int main(int argc, char **argv) {
     //size = 0x2000;
     WalkCode(0x7600, size);
     TransformByteCode(size);
-    ToC((outDir + "/parta.c").c_str(), text_comments_B1);
+    WriteC((outDir + "/parta.c").c_str(), {tokens, istable, isfunc, BuildFunctionSymbols(0, ram, isfunc, commandnames)}, text_comments_B1);
 
     Init();
     LoadVSF("data/C64/snapshots/diskb2.vsf");
     size = 7864;
     WalkCode(0x7600, size);
     TransformByteCode(size);
-    ToC((outDir + "/partb.c").c_str(), text_comments_B2);
+    WriteC((outDir + "/partb.c").c_str(), {tokens, istable, isfunc, BuildFunctionSymbols(1, ram, isfunc, commandnames)}, text_comments_B2);
 
     Init();
     LoadVSF("data/C64/snapshots/diskc1.vsf");
     size = 3721;
     WalkCode(0x7600, size);
     TransformByteCode(size);
-    ToC((outDir + "/partc.c").c_str(), text_comments_C1);
+    WriteC((outDir + "/partc.c").c_str(), {tokens, istable, isfunc, BuildFunctionSymbols(2, ram, isfunc, commandnames)}, text_comments_C1);
 
     Init();
     LoadVSF("data/C64/snapshots/diskc2.vsf");
     size = 6914;
     WalkCode(0x7600, size);
     TransformByteCode(size);
-    ToC((outDir + "/partd.c").c_str(), text_comments_C2);
+    WriteC((outDir + "/partd.c").c_str(), {tokens, istable, isfunc, BuildFunctionSymbols(3, ram, isfunc, commandnames)}, text_comments_C2);
     return 0;
 }
 

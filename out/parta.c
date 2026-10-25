@@ -14,63 +14,64 @@ unsigned char data0x834a[] = {0x4a, 0x00, 0x7c, 0x00, 0x02, 0x00, 0xe8, 0x00, 0x
 
 unsigned char data0x8366[] = {0x36, 0x00, 0x5b, 0x00, 0x37, 0x00, 0x38, 0x01, 0x5b, 0x00, 0x41, 0x01, 0x02, 0x00, 0x34, 0x01, 0x4c, 0x00, 0x5a, 0x00, 0x4f, 0x00, 0x5a, 0x00, 0x60, 0x00, 0x5a, 0x00, 0x83, 0x00, 0x5a, 0x00, 0x84, 0x00, 0x5a, 0x00, 0x85, 0x00, 0x5a, 0x00, 0x9f, 0x00, 0x5a, 0x00, 0xa5, 0x00, 0x5a, 0x00, 0x01, 0x00, 0x2a, 0x02, 0x25, 0x00, 0x2b, 0x02, 0xa4, 0x00, 0x2d, 0x02, 0xff, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x0c, 0x02, 0x00, 0x00, 0x63, 0x00, 0x0d, 0x02, 0x32, 0x00, 0x53, 0x00, 0x0f, 0x01, 0x00, 0x00, 0x31, 0x00, 0x0e, 0x02, 0x0f, 0x00, 0x4f, 0x00, 0x0e, 0x02, 0x00, 0x00, 0x50, 0x00, 0x1d, 0x01, 0x05, 0x00, 0x2c, 0x00, 0x8f, 0x00, 0x00, 0x00, 0xff, 0x01, 0x20, 0x01, 0x00, 0x00, 0x12, 0x00, 0x0f, 0x02, 0x00, 0x00, 0x4a, 0x00, 0x8e, 0x00, 0x00, 0x00, 0x09, 0x00, 0x10, 0x02, 0x0f, 0x00, 0x64, 0x00, 0x4e, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x01, 0x00, 0x00, 0x1d, 0x00, 0x21, 0x01, 0x00, 0x00, 0x20, 0x00, 0x4f, 0x00, 0x05, 0x00, 0x00, 0x00, 0x91, 0x00, 0x0f, 0x00, 0x0f, 0x00, 0x11, 0x02, 0x00, 0x00, 0x51, 0x00, 0x92, 0x00, 0x00, 0x00, 0x01, 0x02, 0x12, 0x02, 0x2d, 0x00, 0x00, 0x00, 0x93, 0x00, 0x05, 0x00, 0x0c, 0x00, 0x94, 0x00, 0x00, 0x00, 0x0d, 0x00, 0x13, 0x02, 0x00, 0x00, 0x53, 0x00, 0xee, 0x00, 0x64, 0x00, 0x00, 0x00, 0x01, 0x01, 0x00, 0x00, 0x11, 0x00, 0x95, 0x00, 0x00, 0x00, 0x0f, 0x00, 0x24, 0x01, 0x19, 0x00, 0x22, 0x00, 0x51, 0x00, 0x00, 0x00, 0x03, 0x64, 0x14, 0x02, 0x00, 0x00, 0x5d, 0x00, 0x75, 0x01, 0x00, 0x00, 0x3e, 0x00, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0x1a, 0xc9, 0x07, 0x00};
 
-void Func77d8(); // UEBERSOULCRYSTAL
-void Func77dd(); // KURZTEXT
-void Func77f1(); // CREDITS
-void Func77f6(); // GRABE
-void Func780e(); // HINUNTER
-void Func783d(); // OST
-void Func786c(); // AUSGAENGE
-void Func7870(); // DISKETTEINSTALLIEREN
-void Func7874(); // INVENTAR
-void Func7878(); // SCHAU
-void Func787f(); // NORD
-void Func7942(); // SPIELENDE
-void Func7946(); // NEUSTART
-void Func794a(); // LADEN
-void Func794e(); // PUNKTE
-void Func7953(); // LOESUNG
-void Func7957(); // MUSIKEIN
-void Func795f(); // AUSGAENGE12
-void Func7967(); // SUED
-void Func79bc(); // SPEICHERN
-void Func79c0(); // HINAUF
-void Func79ef(); // AUSFUEHRLICH
-void Func7a03(); // WARTE
-void Func7a08(); // WEST
-void Func7aaa(); // NIX1
-void Func7aab(); // NIX2
-void Func7aac(); // SCHLIESSE
-void Func7b39(); // ZERSTOERE
-void Func7b81(); // VERLIERE
-void Func7c02(); // BETRITT
-void Func7c25(); // BETRACHTE
-void Func7cdb(); // HILF
-void Func7d98(); // VERLASSE
-void Func7d9d(); // BEWEGE
-void Func7da2(); // OEFFNE
-void Func7e52(); // ZIEHE
-void Func7e58(); // DRUECKE
-void Func7ebd(); // NIMM
-void Func7f2d(); // SPRICH
-void Func7fda(); // WENDE
-void Func8108(); // BEFESTIGE
-void Func810d(); // GIB
-void Func8112(); // VERRIEGELE
-void Func81b5(); // ENTRIEGELE
+void PartA_HandleUebersoulcrystal(); // Part A, script $77d8; command 1 (UEBERSOULCRYSTAL), SELECT $76e0 case 1
+void PartA_HandleKurztext(); // Part A, script $77dd; command 2 (KURZTEXT), SELECT $76e0 case 2
+void PartA_HandleCredits(); // Part A, script $77f1; command 3 (CREDITS), SELECT $76e0 case 3
+void PartA_HandleGrabe(); // Part A, script $77f6; command 4 (GRABE), SELECT $76e0 case 4
+void PartA_HandleHinunter(); // Part A, script $780e; command 5 (HINUNTER), SELECT $76e0 case 5
+void PartA_HandleOst(); // Part A, script $783d; command 6 (OST), SELECT $76e0 case 6
+void PartA_HandleAusgaenge(); // Part A, script $786c; command 7 (AUSGAENGE), SELECT $76e0 case 7
+void PartA_HandleDisketteinstallieren(); // Part A, script $7870; command 8 (DISKETTEINSTALLIEREN), SELECT $76e0 case 8
+void PartA_HandleInventar(); // Part A, script $7874; command 9 (INVENTAR), SELECT $76e0 case 9
+void PartA_HandleSchau(); // Part A, script $7878; command 10 (SCHAU), SELECT $76e0 case 10
+void PartA_HandleNord(); // Part A, script $787f; command 11 (NORD), SELECT $76e0 case 11
+void PartA_HandleSpielende(); // Part A, script $7942; command 12 (SPIELENDE), SELECT $76e0 case 12
+void PartA_HandleNeustart(); // Part A, script $7946; command 13 (NEUSTART), SELECT $76e0 case 13
+void PartA_HandleLaden(); // Part A, script $794a; command 14 (LADEN), SELECT $7718 case 1
+void PartA_HandlePunkte(); // Part A, script $794e; command 15 (PUNKTE), SELECT $7718 case 2
+void PartA_HandleLoesung(); // Part A, script $7953; command 16 (LOESUNG), SELECT $7718 case 3
+void PartA_HandleMusikein(); // Part A, script $7957; command 17 (MUSIKEIN), SELECT $7718 case 4
+void PartA_HandleAusgaenge12(); // Part A, script $795f; command 18 (AUSGAENGE12), SELECT $7718 case 5
+void PartA_HandleSued(); // Part A, script $7967; command 19 (SUED), SELECT $7718 case 6
+void PartA_HandleSpeichern(); // Part A, script $79bc; command 20 (SPEICHERN), SELECT $7718 case 7
+void PartA_HandleHinauf(); // Part A, script $79c0; command 21 (HINAUF), SELECT $7718 case 8
+void PartA_HandleAusfuehrlich(); // Part A, script $79ef; command 22 (AUSFUEHRLICH), SELECT $7718 case 9
+void PartA_HandleWarte(); // Part A, script $7a03; command 23 (WARTE), SELECT $7718 case 10
+void PartA_HandleWest(); // Part A, script $7a08; command 24 (WEST), SELECT $7718 case 11
+void PartA_Sub_7aaa(); // Part A, script $7aaa; command 25 (NIX1), SELECT $7718 case 12
+void PartA_Sub_7aab(); // Part A, script $7aab; command 26 (NIX2), SELECT $7718 case 13
+void PartA_HandleSchliesse(); // Part A, script $7aac; command 27 (SCHLIESSE), SELECT $7750 case 1
+void PartA_HandleZerstoere(); // Part A, script $7b39; command 28 (ZERSTOERE), SELECT $7750 case 2
+void PartA_HandleVerliere(); // Part A, script $7b81; command 29 (VERLIERE), SELECT $7750 case 3
+void PartA_HandleBetritt(); // Part A, script $7c02; command 30 (BETRITT), SELECT $7750 case 4
+void PartA_HandleBetrachte(); // Part A, script $7c25; command 31 (BETRACHTE), SELECT $7750 case 5
+void PartA_HandleHilf(); // Part A, script $7cdb; command 32 (HILF), SELECT $7750 case 6
+void PartA_HandleVerlasse(); // Part A, script $7d98; command 33 (VERLASSE), SELECT $7750 case 7
+void PartA_HandleBewege(); // Part A, script $7d9d; command 34 (BEWEGE), SELECT $7750 case 8
+void PartA_HandleOeffne(); // Part A, script $7da2; command 35 (OEFFNE), SELECT $7750 case 9
+void PartA_HandleZiehe(); // Part A, script $7e52; command 36 (ZIEHE), SELECT $7750 case 10
+void PartA_HandleDruecke(); // Part A, script $7e58; command 37 (DRUECKE), SELECT $7750 case 11
+void PartA_HandleNimm(); // Part A, script $7ebd; command 38 (NIMM), SELECT $7782 case 1
+void PartA_HandleSprich(); // Part A, script $7f2d; command 39 (SPRICH), SELECT $7782 case 2
+void PartA_HandleWende(); // Part A, script $7fda; command 40 (WENDE), SELECT $7782 case 3
+void PartA_HandleBefestige(); // Part A, script $8108; command 41 (BEFESTIGE), SELECT $7782 case 4
+void PartA_HandleGib(); // Part A, script $810d; command 42 (GIB), SELECT $7782 case 5
+void PartA_HandleVerriegele(); // Part A, script $8112; command 43 (VERRIEGELE), SELECT $7782 case 6
+void PartA_HandleEntriegele(); // Part A, script $81b5; command 44 (ENTRIEGELE), SELECT $7782 case 7
 
-unsigned short textoutput;
-unsigned short command;
-unsigned short roomnumber;
-unsigned short temp;
-unsigned short object1, object2;
-unsigned short steps;
-unsigned short addr6963;
-unsigned short imageno;
-unsigned short pointsum;
-unsigned short addr6996;
-unsigned short addr699a;
-unsigned short addr6998;
+unsigned short command; // $6986: Parsed command
+unsigned short object1; // $6988: First parsed object
+unsigned short object2; // $698a: Second parsed object
+unsigned short currentRoom; // $695d: Current room
+unsigned short diskSide; // $6963: Active side: B1=1, B2=2, C1=3, C2=4
+unsigned short score; // $698c: Current score, including deductions
+unsigned short steps; // $698e: Original step counter
+unsigned short pendingTextID; // $6990: Logical message ID awaiting display
+unsigned short temp; // $6992: Shared temporary value
+unsigned short imageID; // $6994: Selected image ID
+unsigned short scratch1; // $6996: Shared scratch value; meaning depends on routine
+unsigned short scratch2; // $6998: Shared scratch value; meaning depends on routine
+unsigned short scratch3; // $699a: Shared scratch value; meaning depends on routine
 unsigned char *tableptr;
 void SPECIAL(unsigned short x);
 void showtext();
@@ -82,17 +83,17 @@ void Code2E5B();
 void Execute() {
 
 x7600:
-    textoutput = 0x00; // text ID 0 (0x0000), script $7600: no text
+    pendingTextID = 0x00; // text ID 0 (0x0000), script $7600: no text
     if ( command == HINUNTER || command == OST || command == NORD || command == SUED || command == HINAUF || command == WEST ) {
-        if ( roomnumber != IM_DIENERSCHLAFZIMMER ) {
+        if ( currentRoom != IM_DIENERSCHLAFZIMMER ) {
             SPECIAL(0x64); // Habe ich keine Kleidung an, vielleicht?
             if ( temp == 0x01 ) {
-                textoutput = 0x2e; // text ID 46 (0x002e), script $7632: B1 record 148: Du erwartest doch nicht allen Ernstes von mir, daß ich diesen Ort NACKT verlasse, oder?
+                pendingTextID = 0x2e; // text ID 46 (0x002e), script $7632: B1 record 148: Du erwartest doch nicht allen Ernstes von mir, daß ich diesen Ort NACKT verlasse, oder?
                 goto x7799;
             } else {
                 SPECIAL(0x65);
                 if ( temp == 0x01 ) {
-                    objectstatus[DAVE] = 0x64;
+                    objectState[DAVE] = 0x64;
                 }
             }
         }
@@ -101,38 +102,38 @@ x7600:
     if ( temp == 0x01 ) {
         SPECIAL(0x67);
         if ( temp == 0x01 ) {
-            if ( addr6963 == 0x01 ) {
+            if ( diskSide == 0x01 ) {
                 SPECIAL(0x68);
                 if ( temp == 0x01 ) {
-                    objectstatus[DAVE] = objectstatus[DAVE] - 0x01;
+                    objectState[DAVE] = objectState[DAVE] - 0x01;
                 } else {
-                    objectstatus[DAVE] = 0x64;
+                    objectState[DAVE] = 0x64;
                 }
             } else {
-                if ( addr6963 == 0x02 ) {
+                if ( diskSide == 0x02 ) {
                 } else {
-                    if ( addr6963 == 0x03 ) {
+                    if ( diskSide == 0x03 ) {
                     } else {
-                        if ( addr6963 == 0x04 ) {
+                        if ( diskSide == 0x04 ) {
                         }
                     }
                 }
             }
-            if ( objectstatus[DAVE] == 0x4b || objectstatus[DAVE] == 0x32 || objectstatus[DAVE] == 0x19 ) {
-                textoutput = 0x30; // text ID 48 (0x0030), script $76ae: B1 record 150: Langsam fange ich an zu frieren! Es wird immer kälter hier, also sieh Dich langsam mal nach einem warmen Plätzchen um, wo wir in Ruhe die Nacht verbringen können!
+            if ( objectState[DAVE] == 0x4b || objectState[DAVE] == 0x32 || objectState[DAVE] == 0x19 ) {
+                pendingTextID = 0x30; // text ID 48 (0x0030), script $76ae: B1 record 150: Langsam fange ich an zu frieren! Es wird immer kälter hier, also sieh Dich langsam mal nach einem warmen Plätzchen um, wo wir in Ruhe die Nacht verbringen können!
                 showtext();
                 Restart();
-                textoutput = 0x00; // text ID 0 (0x0000), script $76b4: no text
+                pendingTextID = 0x00; // text ID 0 (0x0000), script $76b4: no text
                 goto x76e0;
             } else {
-                if ( objectstatus[DAVE] <= 0x00 ) {
-                    imageno = 0x81;
-                    objectposition[DAVE] = 0xff;
+                if ( objectState[DAVE] <= 0x00 ) {
+                    imageID = 0x81;
+                    objectLocation[DAVE] = 0xff;
                     ShowImage();
-                    textoutput = 0x31; // text ID 49 (0x0031), script $76cf: B1 record 151: Also, halte mir jetzt bitte nicht vor, daß ich Dich nicht gewarnt hätte - Du hast wirklich genug Zeit gehabt, um nach jemandem zu suchen, der Dir wärmere Kleidung hätte geben können - doch nun ist es endgültig zu spät: Du erfrierst, ohne auch nur die geringste Chance gehabt zu haben, das Spiel zu lösen! Schade eigentlich...
+                    pendingTextID = 0x31; // text ID 49 (0x0031), script $76cf: B1 record 151: Also, halte mir jetzt bitte nicht vor, daß ich Dich nicht gewarnt hätte - Du hast wirklich genug Zeit gehabt, um nach jemandem zu suchen, der Dir wärmere Kleidung hätte geben können - doch nun ist es endgültig zu spät: Du erfrierst, ohne auch nur die geringste Chance gehabt zu haben, das Spiel zu lösen! Schade eigentlich...
                     showtext();
                     Restart();
-                    textoutput = 0x00; // text ID 0 (0x0000), script $76d5: no text
+                    pendingTextID = 0x00; // text ID 0 (0x0000), script $76d5: no text
                     return;
                 }
             }
@@ -141,77 +142,77 @@ x7600:
 
 x76e0:
     switch(command) { // SELECT script $76e0; original cases are 1-based
-         case 1: Func77d8(); break;
-         case 2: Func77dd(); break;
-         case 3: Func77f1(); break;
-         case 4: Func77f6(); break;
-         case 5: Func780e(); break;
-         case 6: Func783d(); break;
-         case 7: Func786c(); break;
-         case 8: Func7870(); break;
-         case 9: Func7874(); break;
-         case 10: Func7878(); break;
-         case 11: Func787f(); break;
-         case 12: Func7942(); break;
-         case 13: Func7946(); break;
+         case 1: PartA_HandleUebersoulcrystal(); break;
+         case 2: PartA_HandleKurztext(); break;
+         case 3: PartA_HandleCredits(); break;
+         case 4: PartA_HandleGrabe(); break;
+         case 5: PartA_HandleHinunter(); break;
+         case 6: PartA_HandleOst(); break;
+         case 7: PartA_HandleAusgaenge(); break;
+         case 8: PartA_HandleDisketteinstallieren(); break;
+         case 9: PartA_HandleInventar(); break;
+         case 10: PartA_HandleSchau(); break;
+         case 11: PartA_HandleNord(); break;
+         case 12: PartA_HandleSpielende(); break;
+         case 13: PartA_HandleNeustart(); break;
     }
-    if ( textoutput != 0x00 ) {
+    if ( pendingTextID != 0x00 ) {
         goto x7799;
     }
     temp = command - NEUSTART;
     switch(temp) { // SELECT script $7718; original cases are 1-based
-         case 1: Func794a(); break;
-         case 2: Func794e(); break;
-         case 3: Func7953(); break;
-         case 4: Func7957(); break;
-         case 5: Func795f(); break;
-         case 6: Func7967(); break;
-         case 7: Func79bc(); break;
-         case 8: Func79c0(); break;
-         case 9: Func79ef(); break;
-         case 10: Func7a03(); break;
-         case 11: Func7a08(); break;
-         case 12: Func7aaa(); break;
-         case 13: Func7aab(); break;
+         case 1: PartA_HandleLaden(); break;
+         case 2: PartA_HandlePunkte(); break;
+         case 3: PartA_HandleLoesung(); break;
+         case 4: PartA_HandleMusikein(); break;
+         case 5: PartA_HandleAusgaenge12(); break;
+         case 6: PartA_HandleSued(); break;
+         case 7: PartA_HandleSpeichern(); break;
+         case 8: PartA_HandleHinauf(); break;
+         case 9: PartA_HandleAusfuehrlich(); break;
+         case 10: PartA_HandleWarte(); break;
+         case 11: PartA_HandleWest(); break;
+         case 12: PartA_Sub_7aaa(); break;
+         case 13: PartA_Sub_7aab(); break;
     }
-    if ( textoutput != 0x00 ) {
+    if ( pendingTextID != 0x00 ) {
         goto x7799;
     }
     temp = command - NIX2;
     switch(temp) { // SELECT script $7750; original cases are 1-based
-         case 1: Func7aac(); break;
-         case 2: Func7b39(); break;
-         case 3: Func7b81(); break;
-         case 4: Func7c02(); break;
-         case 5: Func7c25(); break;
-         case 6: Func7cdb(); break;
-         case 7: Func7d98(); break;
-         case 8: Func7d9d(); break;
-         case 9: Func7da2(); break;
-         case 10: Func7e52(); break;
-         case 11: Func7e58(); break;
+         case 1: PartA_HandleSchliesse(); break;
+         case 2: PartA_HandleZerstoere(); break;
+         case 3: PartA_HandleVerliere(); break;
+         case 4: PartA_HandleBetritt(); break;
+         case 5: PartA_HandleBetrachte(); break;
+         case 6: PartA_HandleHilf(); break;
+         case 7: PartA_HandleVerlasse(); break;
+         case 8: PartA_HandleBewege(); break;
+         case 9: PartA_HandleOeffne(); break;
+         case 10: PartA_HandleZiehe(); break;
+         case 11: PartA_HandleDruecke(); break;
     }
-    if ( textoutput != 0x00 ) {
+    if ( pendingTextID != 0x00 ) {
         goto x7799;
     }
     temp = command - DRUECKE;
     switch(temp) { // SELECT script $7782; original cases are 1-based
-         case 1: Func7ebd(); break;
-         case 2: Func7f2d(); break;
-         case 3: Func7fda(); break;
-         case 4: Func8108(); break;
-         case 5: Func810d(); break;
-         case 6: Func8112(); break;
-         case 7: Func81b5(); break;
+         case 1: PartA_HandleNimm(); break;
+         case 2: PartA_HandleSprich(); break;
+         case 3: PartA_HandleWende(); break;
+         case 4: PartA_HandleBefestige(); break;
+         case 5: PartA_HandleGib(); break;
+         case 6: PartA_HandleVerriegele(); break;
+         case 7: PartA_HandleEntriegele(); break;
     }
 
 x7799:
-    if ( objectposition[DAVE] != 0xff ) {
-        if ( addr6963 == 0x02 ) {
+    if ( objectLocation[DAVE] != 0xff ) {
+        if ( diskSide == 0x02 ) {
         }
-        if ( addr6963 == 0x03 ) {
+        if ( diskSide == 0x03 ) {
         }
-        if ( addr6963 == 0x04 ) {
+        if ( diskSide == 0x04 ) {
         }
     }
     if ( command != INVENTAR && command != AUSGAENGE && command != LADEN && command != SPEICHERN && command != DISKETTEINSTALLIEREN ) {
@@ -223,329 +224,329 @@ x77d7:
 }
 
 
-void Func77d8() { // UEBERSOULCRYSTAL
-    textoutput = 0x1b; // text ID 27 (0x001b), script $77d8: B1 record 129: "Soul Crystal" V1.5, written from 1989 to 1992 by Avantgardistic Arts. (C) 1992 by Avantgardistic Arts, Hannover & Starbyte Software, Bochum. Dieses Adventure besitzt 103 Locations, mehr als 130 hochauflösende Farbgrafiken, ungefähr 320 KBytes Text und einen ca. 30-minütigen Soundtrack. Seine Programmentwicklung hat ingesamt 16 sog. "Mann-Jahre" in Anspruch genommen. Sei also bitte so fair und "spread the word - not the disk!" Sollte dies aber doch eine Raubkopie sein (obwohl das Programm geschützt war, und das bestimmt nicht ganz ohne Grund...), dann denke bitte auch mal über die ASDG-Philosophie "A program worth using is a program worth buying" nach - allein schon die Originalverpackung sowie die Handbücher sollten Dir das Geld wert sein. Viel Spaß beim Spielen von "Soul Crystal", und - ach ja: Soweit wir wissen, ist dies das erste Adventure, in das ein CHEATMODE implementiert wurde - also solltest Du Dir Mühe geben, ihn zu finden...
+void PartA_HandleUebersoulcrystal() { // Part A, script $77d8; command 1 (UEBERSOULCRYSTAL), SELECT $76e0 case 1
+    pendingTextID = 0x1b; // text ID 27 (0x001b), script $77d8: B1 record 129: "Soul Crystal" V1.5, written from 1989 to 1992 by Avantgardistic Arts. (C) 1992 by Avantgardistic Arts, Hannover & Starbyte Software, Bochum. Dieses Adventure besitzt 103 Locations, mehr als 130 hochauflösende Farbgrafiken, ungefähr 320 KBytes Text und einen ca. 30-minütigen Soundtrack. Seine Programmentwicklung hat ingesamt 16 sog. "Mann-Jahre" in Anspruch genommen. Sei also bitte so fair und "spread the word - not the disk!" Sollte dies aber doch eine Raubkopie sein (obwohl das Programm geschützt war, und das bestimmt nicht ganz ohne Grund...), dann denke bitte auch mal über die ASDG-Philosophie "A program worth using is a program worth buying" nach - allein schon die Originalverpackung sowie die Handbücher sollten Dir das Geld wert sein. Viel Spaß beim Spielen von "Soul Crystal", und - ach ja: Soweit wir wissen, ist dies das erste Adventure, in das ein CHEATMODE implementiert wurde - also solltest Du Dir Mühe geben, ihn zu finden...
     return;
 }
 
 
-void Func77dd() { // KURZTEXT
+void PartA_HandleKurztext() { // Part A, script $77dd; command 2 (KURZTEXT), SELECT $76e0 case 2
     if ( visited[RAUM_NULL] == 0x01 ) {
         visited[RAUM_NULL] = 0x00;
     }
-    textoutput = 0x25; // text ID 37 (0x0025), script $77ec: B1 record 139: "Kurzbeschreibungen" aktiviert. Die Beschreibungen der einzelnen Räume werden jetzt nur noch beim erstmaligen Betreten ausgegeben.
+    pendingTextID = 0x25; // text ID 37 (0x0025), script $77ec: B1 record 139: "Kurzbeschreibungen" aktiviert. Die Beschreibungen der einzelnen Räume werden jetzt nur noch beim erstmaligen Betreten ausgegeben.
     return;
 }
 
 
-void Func77f1() { // CREDITS
-    textoutput = 0x1c; // text ID 28 (0x001c), script $77f1: B1 record 130: "Soul Crystal", V1.5, written from 1989 to 1992 by Avantgardistic Arts, (C) 1992 by Avantgardistic Arts, Hannover & Starbyte Software, Bochum. A.C.A sind: Chris Link (Spielkonzept, Gamedesign, Tools, Texte, Soundtrack und Effekte), Kai Schulze (Spielkonzept, Gamedesign, Intro- und Parser-Programmierung AMIGA, Tools), Michael Niemeyer (Intro-Programmierung C-64, Tools), Carsten Jendro (Kernal- und Parserprogrammierung C-64), Henrik Fisch (Kernal- und Introprogrammierung MS-DOS), Kjersten Waldheim (Parserprogrammierung MS-DOS), Oliver Brühl (Grafiken und Animationen AMIGA & MS-DOS) und Klaus Adamovsky (Graphiken C-64). Besonderer Dank gilt Johnny, der "bayrischen Forelle" - stellvertretend für all die Leute, die mitgeholfen haben, "Soul Crystal" zu dem zu machen, was Ihr jetzt in den Händen haltet, indem sie uns Unmengen wertvoller Tips, Hinweise und Denkanstöße gaben, und uns nach jedem Nervenzusammenbruch auf's Neue halfen, uns weiter an die Verwirklichung unserer größenwahnsinnigen Ideen zu setzen. Ohne sie wäre das Projekt "Soul Crystal" wahrscheinlich niemals über die Planungsphase hinausgekommen.
+void PartA_HandleCredits() { // Part A, script $77f1; command 3 (CREDITS), SELECT $76e0 case 3
+    pendingTextID = 0x1c; // text ID 28 (0x001c), script $77f1: B1 record 130: "Soul Crystal", V1.5, written from 1989 to 1992 by Avantgardistic Arts, (C) 1992 by Avantgardistic Arts, Hannover & Starbyte Software, Bochum. A.C.A sind: Chris Link (Spielkonzept, Gamedesign, Tools, Texte, Soundtrack und Effekte), Kai Schulze (Spielkonzept, Gamedesign, Intro- und Parser-Programmierung AMIGA, Tools), Michael Niemeyer (Intro-Programmierung C-64, Tools), Carsten Jendro (Kernal- und Parserprogrammierung C-64), Henrik Fisch (Kernal- und Introprogrammierung MS-DOS), Kjersten Waldheim (Parserprogrammierung MS-DOS), Oliver Brühl (Grafiken und Animationen AMIGA & MS-DOS) und Klaus Adamovsky (Graphiken C-64). Besonderer Dank gilt Johnny, der "bayrischen Forelle" - stellvertretend für all die Leute, die mitgeholfen haben, "Soul Crystal" zu dem zu machen, was Ihr jetzt in den Händen haltet, indem sie uns Unmengen wertvoller Tips, Hinweise und Denkanstöße gaben, und uns nach jedem Nervenzusammenbruch auf's Neue halfen, uns weiter an die Verwirklichung unserer größenwahnsinnigen Ideen zu setzen. Ohne sie wäre das Projekt "Soul Crystal" wahrscheinlich niemals über die Planungsphase hinausgekommen.
     return;
 }
 
 
-void Func77f6() { // GRABE
-    if ( roomnumber >= IM_SEE1 && roomnumber <= HINTER_DEM_WASSERFALL ) {
-        textoutput = 0x32; // text ID 50 (0x0032), script $7801: B1 record 152: Gerne käme ich Deiner Aufforderung nach - wenn Du mir netterweise verrietest, wie ich auf den Grund des Sees hinuntertauchen soll! Er scheint nämlich ziemlich tief zu sein...
+void PartA_HandleGrabe() { // Part A, script $77f6; command 4 (GRABE), SELECT $76e0 case 4
+    if ( currentRoom >= IM_SEE1 && currentRoom <= HINTER_DEM_WASSERFALL ) {
+        pendingTextID = 0x32; // text ID 50 (0x0032), script $7801: B1 record 152: Gerne käme ich Deiner Aufforderung nach - wenn Du mir netterweise verrietest, wie ich auf den Grund des Sees hinuntertauchen soll! Er scheint nämlich ziemlich tief zu sein...
         return;
     }
-    textoutput = 0x33; // text ID 51 (0x0033), script $7809: B1 record 153: Also, jetzt reicht's ja wohl! Als ob es nicht schon reichen würde, daß Du blind wie ein Maulwurf durch die Gegend rennst: Jetzt versuchst Du Dich auch noch artgerecht durchs Erdreich zu buddeln! Mal ganz ehrlich: Man kann es mit der Realitätstreue in Adventures auch übertreiben...
+    pendingTextID = 0x33; // text ID 51 (0x0033), script $7809: B1 record 153: Also, jetzt reicht's ja wohl! Als ob es nicht schon reichen würde, daß Du blind wie ein Maulwurf durch die Gegend rennst: Jetzt versuchst Du Dich auch noch artgerecht durchs Erdreich zu buddeln! Mal ganz ehrlich: Man kann es mit der Realitätstreue in Adventures auch übertreiben...
 
 x780d:
     return;
 }
 
 
-void Func780e() { // HINUNTER
-    imageno = 0xff;
-    if ( down[roomnumber] != 0x00 ) {
-        roomnumber = down[roomnumber];
-        objectposition[DAVE] = roomnumber;
+void PartA_HandleHinunter() { // Part A, script $780e; command 5 (HINUNTER), SELECT $76e0 case 5
+    imageID = 0xff;
+    if ( down[currentRoom] != 0x00 ) {
+        currentRoom = down[currentRoom];
+        objectLocation[DAVE] = currentRoom;
         Code2E5B();
-        imageno = roomnumber;
+        imageID = currentRoom;
     } else {
-        if ( down[roomnumber] == 0x00 ) {
-            textoutput = 0x05; // text ID 5 (0x0005), script $782e: B1 record 107: Aber dorthin kannst Du doch gar nicht gehen! Zumindest habe ich nichts dergleichen gesagt, oder...?
+        if ( down[currentRoom] == 0x00 ) {
+            pendingTextID = 0x05; // text ID 5 (0x0005), script $782e: B1 record 107: Aber dorthin kannst Du doch gar nicht gehen! Zumindest habe ich nichts dergleichen gesagt, oder...?
         }
     }
-    if ( imageno != 0xff ) {
+    if ( imageID != 0xff ) {
         ShowImage();
     }
     return;
 }
 
 
-void Func783d() { // OST
-    imageno = 0xff;
-    if ( east[roomnumber] != 0x00 ) {
-        roomnumber = east[roomnumber];
-        objectposition[DAVE] = roomnumber;
+void PartA_HandleOst() { // Part A, script $783d; command 6 (OST), SELECT $76e0 case 6
+    imageID = 0xff;
+    if ( east[currentRoom] != 0x00 ) {
+        currentRoom = east[currentRoom];
+        objectLocation[DAVE] = currentRoom;
         Code2E5B();
-        imageno = roomnumber;
+        imageID = currentRoom;
     } else {
-        if ( east[roomnumber] == 0x00 ) {
-            textoutput = 0x05; // text ID 5 (0x0005), script $785d: B1 record 107: Aber dorthin kannst Du doch gar nicht gehen! Zumindest habe ich nichts dergleichen gesagt, oder...?
+        if ( east[currentRoom] == 0x00 ) {
+            pendingTextID = 0x05; // text ID 5 (0x0005), script $785d: B1 record 107: Aber dorthin kannst Du doch gar nicht gehen! Zumindest habe ich nichts dergleichen gesagt, oder...?
         }
     }
-    if ( imageno != 0xff ) {
+    if ( imageID != 0xff ) {
         ShowImage();
     }
     return;
 }
 
 
-void Func786c() { // AUSGAENGE
+void PartA_HandleAusgaenge() { // Part A, script $786c; command 7 (AUSGAENGE), SELECT $76e0 case 7
     SPECIAL(0x08); // Ausgaenge listen
     return;
 }
 
 
-void Func7870() { // DISKETTEINSTALLIEREN
+void PartA_HandleDisketteinstallieren() { // Part A, script $7870; command 8 (DISKETTEINSTALLIEREN), SELECT $76e0 case 8
     SPECIAL(0x09); // Diskette installieren
     return;
 }
 
 
-void Func7874() { // INVENTAR
+void PartA_HandleInventar() { // Part A, script $7874; command 9 (INVENTAR), SELECT $76e0 case 9
     SPECIAL(0x0a); // Inventar anzeigen
     return;
 }
 
 
-void Func7878() { // SCHAU
-    visited[roomnumber] = 0x00;
+void PartA_HandleSchau() { // Part A, script $7878; command 10 (SCHAU), SELECT $76e0 case 10
+    visited[currentRoom] = 0x00;
     Code2E5B();
     return;
 }
 
 
-void Func787f() { // NORD
-    imageno = 0xff;
-    if ( roomnumber == AM_UFER && objectposition[WOLF] != RAUM_NULL ) {
-        roomnumber = AUF_EINER_LICHTUNG1;
-        imageno = roomnumber;
+void PartA_HandleNord() { // Part A, script $787f; command 11 (NORD), SELECT $76e0 case 11
+    imageID = 0xff;
+    if ( currentRoom == AM_UFER && objectLocation[WOLF] != RAUM_NULL ) {
+        currentRoom = AUF_EINER_LICHTUNG1;
+        imageID = currentRoom;
         ShowImage();
         Code2E5B();
         showtext();
         Restart();
-        textoutput = 0x7a; // text ID 122 (0x007a), script $789b: B1 record 224: Als Du die Lichtung betrittst, hörst Du vor Dir ein fürchterliches Knurren und Fauchen! Erschrocken hältst Du inne und versteckst Dich vorsichtshalber erst einmal hinter dem nächsten Baum! Als sich Deine Augen ein wenig an das etwas schummerige Licht gewöhnt haben, erkennst Du auf der anderen Seite der Lichtung zwei miteinander kämpfende Tiere: Einen großen, grauen Wolf und ein zierliches, weiß schimmerndes Einhorn, dessen Fell schon völlig mit seinem bläulichen Blut besudelt ist, das aus unzähligen, tiefen Wunden sickert. Als der Wolf bemerkt, daß der Widerstand des geschwächten Einhorns erlahmt, attackiert er es noch wütender! Das grazile Fabelwesen hat nicht mehr genug Kraft, um den scharfen und langen Wolfszähnen noch lange Widerstand zu leisten...
-        objectposition[DAVE] = AUF_EINER_LICHTUNG1;
-        imageno = 0xff;
+        pendingTextID = 0x7a; // text ID 122 (0x007a), script $789b: B1 record 224: Als Du die Lichtung betrittst, hörst Du vor Dir ein fürchterliches Knurren und Fauchen! Erschrocken hältst Du inne und versteckst Dich vorsichtshalber erst einmal hinter dem nächsten Baum! Als sich Deine Augen ein wenig an das etwas schummerige Licht gewöhnt haben, erkennst Du auf der anderen Seite der Lichtung zwei miteinander kämpfende Tiere: Einen großen, grauen Wolf und ein zierliches, weiß schimmerndes Einhorn, dessen Fell schon völlig mit seinem bläulichen Blut besudelt ist, das aus unzähligen, tiefen Wunden sickert. Als der Wolf bemerkt, daß der Widerstand des geschwächten Einhorns erlahmt, attackiert er es noch wütender! Das grazile Fabelwesen hat nicht mehr genug Kraft, um den scharfen und langen Wolfszähnen noch lange Widerstand zu leisten...
+        objectLocation[DAVE] = AUF_EINER_LICHTUNG1;
+        imageID = 0xff;
         goto x7939;
     }
-    if ( north[roomnumber] != 0x00 ) {
-        roomnumber = north[roomnumber];
+    if ( north[currentRoom] != 0x00 ) {
+        currentRoom = north[currentRoom];
         Code2E5B();
-        objectposition[DAVE] = roomnumber;
-        imageno = roomnumber;
+        objectLocation[DAVE] = currentRoom;
+        imageID = currentRoom;
     } else {
-        if ( north[roomnumber] == 0x00 ) {
-            textoutput = 0x05; // text ID 5 (0x0005), script $78c9: B1 record 107: Aber dorthin kannst Du doch gar nicht gehen! Zumindest habe ich nichts dergleichen gesagt, oder...?
+        if ( north[currentRoom] == 0x00 ) {
+            pendingTextID = 0x05; // text ID 5 (0x0005), script $78c9: B1 record 107: Aber dorthin kannst Du doch gar nicht gehen! Zumindest habe ich nichts dergleichen gesagt, oder...?
         }
     }
-    if ( roomnumber == IM_SEE2 ) {
-        addr6996 = 0x00;
+    if ( currentRoom == IM_SEE2 ) {
+        scratch1 = 0x00;
         temp = 0x01;
 
 x78dd:
-        if ( objectposition[temp] == 0xff ) {
-            addr6996 = addr6996 + 0x01;
+        if ( objectLocation[temp] == 0xff ) {
+            scratch1 = scratch1 + 0x01;
         }
         temp = temp + 0x01;
         if ( temp <= 0xa5 ) {
             goto x78dd;
         }
-        if ( addr6996 == 0x01 && objectstatus[BADEHOSE] == 0x01 ) {
+        if ( scratch1 == 0x01 && objectState[BADEHOSE] == 0x01 ) {
             goto x7939;
         }
-        imageno = 0x82;
-        objectposition[DAVE] = 0xff;
+        imageID = 0x82;
+        objectLocation[DAVE] = 0xff;
         ShowImage();
-        textoutput = 0x7b; // text ID 123 (0x007b), script $7915: B1 record 225: Du hättest den See wirklich nicht mit mehr Dingen betreten sollen als Du unbedingt zum Überleben benötigtest: Schwer wie ein Mühlstein wirst Du auf den Grund des Sees hinuntergezogen, wo Du elend ersäufst...
+        pendingTextID = 0x7b; // text ID 123 (0x007b), script $7915: B1 record 225: Du hättest den See wirklich nicht mit mehr Dingen betreten sollen als Du unbedingt zum Überleben benötigtest: Schwer wie ein Mühlstein wirst Du auf den Grund des Sees hinuntergezogen, wo Du elend ersäufst...
         showtext();
         Restart();
-        imageno = 0xff;
+        imageID = 0xff;
         goto x7939;
     }
-    if ( roomnumber == HINTER_DEM_WASSERFALL ) {
-        pointsum = pointsum + points[0x9c];
-        points[0x9c] = 0x00;
+    if ( currentRoom == HINTER_DEM_WASSERFALL ) {
+        score = score + remainingPoints[0x9c];
+        remainingPoints[0x9c] = 0x00;
         goto x7939;
     }
 
 x7939:
-    if ( imageno != 0xff ) {
+    if ( imageID != 0xff ) {
         ShowImage();
     }
     return;
 }
 
 
-void Func7942() { // SPIELENDE
+void PartA_HandleSpielende() { // Part A, script $7942; command 12 (SPIELENDE), SELECT $76e0 case 12
     SPECIAL(0x05); // Spielende
     return;
 }
 
 
-void Func7946() { // NEUSTART
+void PartA_HandleNeustart() { // Part A, script $7946; command 13 (NEUSTART), SELECT $76e0 case 13
     SPECIAL(0x04); // Neustart
     return;
 }
 
 
-void Func794a() { // LADEN
+void PartA_HandleLaden() { // Part A, script $794a; command 14 (LADEN), SELECT $7718 case 1
     SPECIAL(0x02); // Laden
     return;
 }
 
 
-void Func794e() { // PUNKTE
-    textoutput = 0x01; // text ID 1 (0x0001), script $794e: engine $5D94: Score message assembled by the engine.
+void PartA_HandlePunkte() { // Part A, script $794e; command 15 (PUNKTE), SELECT $7718 case 2
+    pendingTextID = 0x01; // text ID 1 (0x0001), script $794e: engine $5D94: Score message assembled by the engine.
     return;
 }
 
 
-void Func7953() { // LOESUNG
+void PartA_HandleLoesung() { // Part A, script $7953; command 16 (LOESUNG), SELECT $7718 case 3
     SPECIAL(0x06); // Loesung
     return;
 }
 
 
-void Func7957() { // MUSIKEIN
+void PartA_HandleMusikein() { // Part A, script $7957; command 17 (MUSIKEIN), SELECT $7718 case 4
     temp = 0x00;
     SPECIAL(0x07); // Musik ein
     return;
 }
 
 
-void Func795f() { // AUSGAENGE12
+void PartA_HandleAusgaenge12() { // Part A, script $795f; command 18 (AUSGAENGE12), SELECT $7718 case 5
     temp = 0x01;
     SPECIAL(0x08); // Ausgaenge listen
     return;
 }
 
 
-void Func7967() { // SUED
-    imageno = 0xff;
-    if ( south[roomnumber] != 0x00 ) {
-        roomnumber = south[roomnumber];
+void PartA_HandleSued() { // Part A, script $7967; command 19 (SUED), SELECT $7718 case 6
+    imageID = 0xff;
+    if ( south[currentRoom] != 0x00 ) {
+        currentRoom = south[currentRoom];
         Code2E5B();
-        objectposition[DAVE] = roomnumber;
-        imageno = roomnumber;
+        objectLocation[DAVE] = currentRoom;
+        imageID = currentRoom;
     } else {
-        if ( south[roomnumber] == 0x00 ) {
-            textoutput = 0x05; // text ID 5 (0x0005), script $7987: B1 record 107: Aber dorthin kannst Du doch gar nicht gehen! Zumindest habe ich nichts dergleichen gesagt, oder...?
+        if ( south[currentRoom] == 0x00 ) {
+            pendingTextID = 0x05; // text ID 5 (0x0005), script $7987: B1 record 107: Aber dorthin kannst Du doch gar nicht gehen! Zumindest habe ich nichts dergleichen gesagt, oder...?
         }
     }
-    if ( roomnumber == IM_STRUDEL ) {
-        objectposition[DAVE] = 0xff;
+    if ( currentRoom == IM_STRUDEL ) {
+        objectLocation[DAVE] = 0xff;
         ShowImage();
         Code2E5B();
         showtext();
         Restart();
-        imageno = 0xff;
+        imageID = 0xff;
         goto x79b3;
     }
-    if ( roomnumber == HINTER_DEM_WASSERFALL ) {
-        textoutput = 0x2f; // text ID 47 (0x002f), script $79ab: B1 record 149: Mutig versuchst Du Dein Glück, wirst jedoch von einer unsichtbaren Faust zurückgeschmettert. Es ist, als liefest Du gegen eine Wand: Irgendwie scheint Dich eine unfaßbar böse Macht von dort fernzuhalten! Deprimiert gibst Du nach einigen fehlgeschlagenen Versuchen auf...
+    if ( currentRoom == HINTER_DEM_WASSERFALL ) {
+        pendingTextID = 0x2f; // text ID 47 (0x002f), script $79ab: B1 record 149: Mutig versuchst Du Dein Glück, wirst jedoch von einer unsichtbaren Faust zurückgeschmettert. Es ist, als liefest Du gegen eine Wand: Irgendwie scheint Dich eine unfaßbar böse Macht von dort fernzuhalten! Deprimiert gibst Du nach einigen fehlgeschlagenen Versuchen auf...
         goto x79b3;
     }
 
 x79b3:
-    if ( imageno != 0xff ) {
+    if ( imageID != 0xff ) {
         ShowImage();
     }
     return;
 }
 
 
-void Func79bc() { // SPEICHERN
+void PartA_HandleSpeichern() { // Part A, script $79bc; command 20 (SPEICHERN), SELECT $7718 case 7
     SPECIAL(0x03); // Speichern
     return;
 }
 
 
-void Func79c0() { // HINAUF
-    imageno = 0xff;
-    if ( up[roomnumber] != 0x00 ) {
-        roomnumber = up[roomnumber];
+void PartA_HandleHinauf() { // Part A, script $79c0; command 21 (HINAUF), SELECT $7718 case 8
+    imageID = 0xff;
+    if ( up[currentRoom] != 0x00 ) {
+        currentRoom = up[currentRoom];
         Code2E5B();
-        objectposition[DAVE] = roomnumber;
-        imageno = roomnumber;
+        objectLocation[DAVE] = currentRoom;
+        imageID = currentRoom;
     } else {
-        if ( up[roomnumber] == 0x00 ) {
-            textoutput = 0x05; // text ID 5 (0x0005), script $79e0: B1 record 107: Aber dorthin kannst Du doch gar nicht gehen! Zumindest habe ich nichts dergleichen gesagt, oder...?
+        if ( up[currentRoom] == 0x00 ) {
+            pendingTextID = 0x05; // text ID 5 (0x0005), script $79e0: B1 record 107: Aber dorthin kannst Du doch gar nicht gehen! Zumindest habe ich nichts dergleichen gesagt, oder...?
         }
     }
-    if ( imageno != 0xff ) {
+    if ( imageID != 0xff ) {
         ShowImage();
     }
     return;
 }
 
 
-void Func79ef() { // AUSFUEHRLICH
+void PartA_HandleAusfuehrlich() { // Part A, script $79ef; command 22 (AUSFUEHRLICH), SELECT $7718 case 9
     if ( visited[RAUM_NULL] == 0x00 ) {
         visited[RAUM_NULL] = 0x01;
     }
-    textoutput = 0x24; // text ID 36 (0x0024), script $79fe: B1 record 138: "Ausführliche Beschreibungen" aktiviert. Zu jedem Raum, den Du von nun an betrittst, wird die vollständige Beschreibung geliefert, ganz gleich, ob Du ihn schon betreten hast oder nicht.
+    pendingTextID = 0x24; // text ID 36 (0x0024), script $79fe: B1 record 138: "Ausführliche Beschreibungen" aktiviert. Zu jedem Raum, den Du von nun an betrittst, wird die vollständige Beschreibung geliefert, ganz gleich, ob Du ihn schon betreten hast oder nicht.
     return;
 }
 
 
-void Func7a03() { // WARTE
-    textoutput = 0x36; // text ID 54 (0x0036), script $7a03: B1 record 156: Die Zeit verstreicht wie der Lauf der Sonne: Langsam, aber unaufhaltsam...
+void PartA_HandleWarte() { // Part A, script $7a03; command 23 (WARTE), SELECT $7718 case 10
+    pendingTextID = 0x36; // text ID 54 (0x0036), script $7a03: B1 record 156: Die Zeit verstreicht wie der Lauf der Sonne: Langsam, aber unaufhaltsam...
     return;
 }
 
 
-void Func7a08() { // WEST
-    imageno = 0xff;
-    if ( west[roomnumber] != 0x00 ) {
-        roomnumber = west[roomnumber];
-        objectposition[DAVE] = roomnumber;
+void PartA_HandleWest() { // Part A, script $7a08; command 24 (WEST), SELECT $7718 case 11
+    imageID = 0xff;
+    if ( west[currentRoom] != 0x00 ) {
+        currentRoom = west[currentRoom];
+        objectLocation[DAVE] = currentRoom;
         Code2E5B();
-        imageno = roomnumber;
+        imageID = currentRoom;
     } else {
-        if ( west[roomnumber] == 0x00 ) {
-            textoutput = 0x05; // text ID 5 (0x0005), script $7a28: B1 record 107: Aber dorthin kannst Du doch gar nicht gehen! Zumindest habe ich nichts dergleichen gesagt, oder...?
+        if ( west[currentRoom] == 0x00 ) {
+            pendingTextID = 0x05; // text ID 5 (0x0005), script $7a28: B1 record 107: Aber dorthin kannst Du doch gar nicht gehen! Zumindest habe ich nichts dergleichen gesagt, oder...?
         }
     }
-    if ( roomnumber == HINTER_DEM_WASSERFALL ) {
-        addr6996 = 0x00;
+    if ( currentRoom == HINTER_DEM_WASSERFALL ) {
+        scratch1 = 0x00;
         temp = 0x01;
 
 x7a3c:
-        if ( objectposition[temp] == 0xff ) {
-            addr6996 = addr6996 + 0x01;
+        if ( objectLocation[temp] == 0xff ) {
+            scratch1 = scratch1 + 0x01;
         }
         temp = temp + 0x01;
         if ( temp <= 0xa5 ) {
             goto x7a3c;
         }
-        if ( addr6996 == 0x01 && objectstatus[BADEHOSE] == 0x01 ) {
+        if ( scratch1 == 0x01 && objectState[BADEHOSE] == 0x01 ) {
             goto x7aa1;
         }
-        imageno = 0x82;
-        objectposition[DAVE] = 0xff;
+        imageID = 0x82;
+        objectLocation[DAVE] = 0xff;
         ShowImage();
-        textoutput = 0x7b; // text ID 123 (0x007b), script $7a74: B1 record 225: Du hättest den See wirklich nicht mit mehr Dingen betreten sollen als Du unbedingt zum Überleben benötigtest: Schwer wie ein Mühlstein wirst Du auf den Grund des Sees hinuntergezogen, wo Du elend ersäufst...
+        pendingTextID = 0x7b; // text ID 123 (0x007b), script $7a74: B1 record 225: Du hättest den See wirklich nicht mit mehr Dingen betreten sollen als Du unbedingt zum Überleben benötigtest: Schwer wie ein Mühlstein wirst Du auf den Grund des Sees hinuntergezogen, wo Du elend ersäufst...
         showtext();
         Restart();
-        imageno = 0xff;
+        imageID = 0xff;
         return;
     }
-    if ( roomnumber == IM_TIEFEN_WALD && visited[IM_TIEFEN_WALD] == 0x00 ) {
-        textoutput = 0xa6; // text ID 166 (0x00a6), script $7a8f: B1 record 268: Als Du gerade tiefer in den Wald treten willst, tritt ein Waldelf aus dem Unterholz vor Dich und versperrt Dir mit einer Geste den Weg, die keinen Widerspruch zuläßt. "Seid gegrüßt, Fremder!", begrüßt er Dich freundlich, "Bevor Ihr tiefer in unsere Welt vordringen dürft, müßt Ihr einen kleinen Test bezüglich der Spielanleitung bestehen, um zu beweisen, daß Ihr wirklich ein EIGENES Spiel besitzt - und nicht bloß eine von diesen minderwertigen Schwarzkopien..."
+    if ( currentRoom == IM_TIEFEN_WALD && visited[IM_TIEFEN_WALD] == 0x00 ) {
+        pendingTextID = 0xa6; // text ID 166 (0x00a6), script $7a8f: B1 record 268: Als Du gerade tiefer in den Wald treten willst, tritt ein Waldelf aus dem Unterholz vor Dich und versperrt Dir mit einer Geste den Weg, die keinen Widerspruch zuläßt. "Seid gegrüßt, Fremder!", begrüßt er Dich freundlich, "Bevor Ihr tiefer in unsere Welt vordringen dürft, müßt Ihr einen kleinen Test bezüglich der Spielanleitung bestehen, um zu beweisen, daß Ihr wirklich ein EIGENES Spiel besitzt - und nicht bloß eine von diesen minderwertigen Schwarzkopien..."
         showtext();
         Restart();
         SPECIAL(0x01); // Codeabfrage
-        objectposition[DAVE] = roomnumber;
+        objectLocation[DAVE] = currentRoom;
         return;
     }
 
 x7aa1:
-    if ( imageno != 0xff ) {
+    if ( imageID != 0xff ) {
         ShowImage();
     }
 
@@ -554,25 +555,25 @@ x7aa9:
 }
 
 
-void Func7aaa() { // NIX1
+void PartA_Sub_7aaa() { // Part A, script $7aaa; command 25 (NIX1), SELECT $7718 case 12
     return;
 }
 
 
-void Func7aab() { // NIX2
+void PartA_Sub_7aab() { // Part A, script $7aab; command 26 (NIX2), SELECT $7718 case 13
     return;
 }
 
 
-void Func7aac() { // SCHLIESSE
+void PartA_HandleSchliesse() { // Part A, script $7aac; command 27 (SCHLIESSE), SELECT $7750 case 1
     tableptr = data0x8286;
     temp = 0x01;
 
 x7ab3:
-    addr6996 = *tableptr++;
-    addr699a = *tableptr++;
-    addr6998 = *tableptr++;
-    if ( addr6996 == object1 ) {
+    scratch1 = *tableptr++;
+    scratch3 = *tableptr++;
+    scratch2 = *tableptr++;
+    if ( scratch1 == object1 ) {
         goto x7ad1;
     }
     temp = temp + 0x01;
@@ -582,27 +583,27 @@ x7ab3:
 
 x7ad1:
     if ( temp > 0x1c ) {
-        textoutput = 0x07; // text ID 7 (0x0007), script $7ad7: B1 record 109: Aber das kannst Du doch überhaupt nicht schließen!
+        pendingTextID = 0x07; // text ID 7 (0x0007), script $7ad7: B1 record 109: Aber das kannst Du doch überhaupt nicht schließen!
         return;
     }
-    if ( objectstatus[object1] == 0x02 || objectstatus[object1] == 0x00 ) {
-        textoutput = 0x3a; // text ID 58 (0x003a), script $7aec: B1 record 160: Wie willst Du denn etwas Geschlossenes noch schließen?
+    if ( objectState[object1] == 0x02 || objectState[object1] == 0x00 ) {
+        pendingTextID = 0x3a; // text ID 58 (0x003a), script $7aec: B1 record 160: Wie willst Du denn etwas Geschlossenes noch schließen?
         return;
     }
-    if ( objectstatus[object1] == 0x01 ) {
-        objectstatus[object1] = 0x02;
-        textoutput = 0x06; // text ID 6 (0x0006), script $7b00: B1 record 108: Gut - geschlossen...
-        if ( addr699a == 0x01 ) {
-            north[roomnumber] = 0x00;
+    if ( objectState[object1] == 0x01 ) {
+        objectState[object1] = 0x02;
+        pendingTextID = 0x06; // text ID 6 (0x0006), script $7b00: B1 record 108: Gut - geschlossen...
+        if ( scratch3 == 0x01 ) {
+            north[currentRoom] = 0x00;
         } else {
-            if ( addr699a == 0x02 ) {
-                south[roomnumber] = 0x00;
+            if ( scratch3 == 0x02 ) {
+                south[currentRoom] = 0x00;
             } else {
-                if ( addr699a == 0x03 ) {
-                    west[roomnumber] = 0x00;
+                if ( scratch3 == 0x03 ) {
+                    west[currentRoom] = 0x00;
                 } else {
-                    if ( addr699a == 0x04 ) {
-                        east[roomnumber] = 0x00;
+                    if ( scratch3 == 0x04 ) {
+                        east[currentRoom] = 0x00;
                     }
                 }
             }
@@ -614,14 +615,14 @@ x7b38:
 }
 
 
-void Func7b39() { // ZERSTOERE
+void PartA_HandleZerstoere() { // Part A, script $7b39; command 28 (ZERSTOERE), SELECT $7750 case 2
     tableptr = data0x834a;
     temp = 0x01;
 
 x7b40:
-    addr6996 = *(unsigned short*)tableptr; tableptr += 2;
-    textoutput = *(unsigned short*)tableptr; tableptr += 2;
-    if ( addr6996 == object1 ) {
+    scratch1 = *(unsigned short*)tableptr; tableptr += 2;
+    pendingTextID = *(unsigned short*)tableptr; tableptr += 2;
+    if ( scratch1 == object1 ) {
         goto x7b5c;
     }
     temp = temp + 0x01;
@@ -634,102 +635,102 @@ x7b5c:
         return;
     }
     if ( object1 == DAVE ) {
-        textoutput = 0x3c; // text ID 60 (0x003c), script $7b6c: B1 record 162: Eine weise, ja geradezu philosophische Entscheidung: Selbstmord heißt, Probleme aus der Welt zu schaffen, die man ohne seine Eltern gar nicht hätte! Wirklich schönes Schlußwort! Hasta la vista... - Babe! HARAKIRIIIIIIIIIIHHHHH!
+        pendingTextID = 0x3c; // text ID 60 (0x003c), script $7b6c: B1 record 162: Eine weise, ja geradezu philosophische Entscheidung: Selbstmord heißt, Probleme aus der Welt zu schaffen, die man ohne seine Eltern gar nicht hätte! Wirklich schönes Schlußwort! Hasta la vista... - Babe! HARAKIRIIIIIIIIIIHHHHH!
         showtext();
         Restart();
-        objectposition[DAVE] = 0xff;
+        objectLocation[DAVE] = 0xff;
         return;
     }
-    textoutput = 0x3d; // text ID 61 (0x003d), script $7b7c: B1 record 163: "Dave the Destroyer", oder was? Uiuiui! Da möchte man sich ja vor Angst am liebsten hinter dem nächsten Baum verkriechen!
+    pendingTextID = 0x3d; // text ID 61 (0x003d), script $7b7c: B1 record 163: "Dave the Destroyer", oder was? Uiuiui! Da möchte man sich ja vor Angst am liebsten hinter dem nächsten Baum verkriechen!
 
 x7b80:
     return;
 }
 
 
-void Func7b81() { // VERLIERE
-    if ( objectposition[object1] != 0xff ) {
-        textoutput = 0x41; // text ID 65 (0x0041), script $7b88: B1 record 167: Nachdem Du eine halbe Stunde lang vergeblich in Deinen Taschen gewühlt hast, wird Dir klar, daß das Ding, das Du gerade so achtlos in die Gegend werfen wolltest, bereits in derselben liegt! Jaja, wenn's anfängt - dann im Kopf, gell?
+void PartA_HandleVerliere() { // Part A, script $7b81; command 29 (VERLIERE), SELECT $7750 case 3
+    if ( objectLocation[object1] != 0xff ) {
+        pendingTextID = 0x41; // text ID 65 (0x0041), script $7b88: B1 record 167: Nachdem Du eine halbe Stunde lang vergeblich in Deinen Taschen gewühlt hast, wird Dir klar, daß das Ding, das Du gerade so achtlos in die Gegend werfen wolltest, bereits in derselben liegt! Jaja, wenn's anfängt - dann im Kopf, gell?
         return;
     }
     if ( object1 == AMULETT || object1 == FELLSTIEFEL || object1 == JEANS || object1 == BAUMWOLLHEMD || object1 == TURNSCHUHE || object1 == TSHIRT || object1 == PURPURMANTEL || object1 == HOSE || object1 == BADEHOSE ) {
-        if ( objectstatus[object1] == 0x01 ) {
-            objectstatus[object1] = 0x00;
+        if ( objectState[object1] == 0x01 ) {
+            objectState[object1] = 0x00;
         }
     }
     if ( object1 == BLUT ) {
-        textoutput = 0x026e; // text ID 622 (0x026e), script $7bd2: not displayed on B1 by $3F62
+        pendingTextID = 0x026e; // text ID 622 (0x026e), script $7bd2: not displayed on B1 by $3F62
         return;
     }
     if ( object1 == GEBET ) {
-        textoutput = 0x026f; // text ID 623 (0x026f), script $7be1: not displayed on B1 by $3F62
+        pendingTextID = 0x026f; // text ID 623 (0x026f), script $7be1: not displayed on B1 by $3F62
         return;
     }
     if ( object1 == ZAUBERSPRUCH ) {
-        textoutput = 0x0270; // text ID 624 (0x0270), script $7bf0: not displayed on B1 by $3F62
+        pendingTextID = 0x0270; // text ID 624 (0x0270), script $7bf0: not displayed on B1 by $3F62
         return;
     }
-    textoutput = 0x08; // text ID 8 (0x0008), script $7bf9: engine $5D94: Drop-object response with object name.
-    objectposition[object1] = roomnumber;
+    pendingTextID = 0x08; // text ID 8 (0x0008), script $7bf9: engine $5D94: Drop-object response with object name.
+    objectLocation[object1] = currentRoom;
 
 x7c01:
     return;
 }
 
 
-void Func7c02() { // BETRITT
+void PartA_HandleBetritt() { // Part A, script $7c02; command 30 (BETRITT), SELECT $7750 case 4
     if ( object1 == HOTEL ) {
-        roomnumber = IN_DER_LOBBY;
-        objectposition[DAVE] = IN_DER_LOBBY;
-        imageno = roomnumber;
+        currentRoom = IN_DER_LOBBY;
+        objectLocation[DAVE] = IN_DER_LOBBY;
+        imageID = currentRoom;
         ShowImage();
         Code2E5B();
         showtext();
-        imageno = 0xff;
+        imageID = 0xff;
         return;
     }
-    textoutput = 0x0a; // text ID 10 (0x000a), script $7c20: B1 record 112: Könntest Du mir mal bitte erklären, wie Du DAS betreten willst?
+    pendingTextID = 0x0a; // text ID 10 (0x000a), script $7c20: B1 record 112: Könntest Du mir mal bitte erklären, wie Du DAS betreten willst?
 
 x7c24:
     return;
 }
 
 
-void Func7c25() { // BETRACHTE
-    textoutput = objectdescription[object1]; // dynamic text ID, script $7c25; resolve through texts/C64/text_ids.json
-    if ( object1 == TRESEN && objectposition[KLINGEL] == RAUM_NULL ) {
-        objectposition[KLINGEL] = roomnumber;
-        if ( objectposition[PROSPEKT] == RAUM_NULL ) {
-            objectposition[PROSPEKT] = roomnumber;
+void PartA_HandleBetrachte() { // Part A, script $7c25; command 31 (BETRACHTE), SELECT $7750 case 5
+    pendingTextID = objectDescriptionID[object1]; // dynamic text ID, script $7c25; resolve through texts/C64/text_ids.json
+    if ( object1 == TRESEN && objectLocation[KLINGEL] == RAUM_NULL ) {
+        objectLocation[KLINGEL] = currentRoom;
+        if ( objectLocation[PROSPEKT] == RAUM_NULL ) {
+            objectLocation[PROSPEKT] = currentRoom;
         }
-        objectdescription[TRESEN] = 0x0b;
+        objectDescriptionID[TRESEN] = 0x0b;
         return;
     }
-    if ( object1 == PROSPEKT && objectstatus[PROSPEKT] == 0x01 ) {
-        textoutput = 0x80; // text ID 128 (0x0080), script $7c60: B1 record 230: Der Farbprospekt stellt Loch Calderwood und seine Umgebung dar: Falls Du also die Schönheit der Landschaft bisher noch nicht selbst entdeckt haben solltest, so kannst Du Dich zumindest mittels dieser Fotos davon überzeugen, daß es eine großartige Idee gewesen ist, hierher zu reisen. Auf den letzten Seiten befinden sich die Autogramme einiger bedeutender Personen, die hier schon einmal ihren Urlaub verbracht haben, so z.B. Ronald Reagan, Kirk Douglas, Chris Link, Elvis Presley, Kai Schulze, Prince und viele andere weltberühmte Persönlichkeiten. Du schauderst vor Ehrfurcht, fragst Dich allerdings, was wohl diese merkwürdigen, kleinen Kreuze hinter einigen der Namen bedeuten mögen...
-        pointsum = pointsum + points[object1];
-        points[object1] = 0x00;
+    if ( object1 == PROSPEKT && objectState[PROSPEKT] == 0x01 ) {
+        pendingTextID = 0x80; // text ID 128 (0x0080), script $7c60: B1 record 230: Der Farbprospekt stellt Loch Calderwood und seine Umgebung dar: Falls Du also die Schönheit der Landschaft bisher noch nicht selbst entdeckt haben solltest, so kannst Du Dich zumindest mittels dieser Fotos davon überzeugen, daß es eine großartige Idee gewesen ist, hierher zu reisen. Auf den letzten Seiten befinden sich die Autogramme einiger bedeutender Personen, die hier schon einmal ihren Urlaub verbracht haben, so z.B. Ronald Reagan, Kirk Douglas, Chris Link, Elvis Presley, Kai Schulze, Prince und viele andere weltberühmte Persönlichkeiten. Du schauderst vor Ehrfurcht, fragst Dich allerdings, was wohl diese merkwürdigen, kleinen Kreuze hinter einigen der Namen bedeuten mögen...
+        score = score + remainingPoints[object1];
+        remainingPoints[object1] = 0x00;
         return;
     }
-    if ( object1 == ESSTISCH2 && objectposition[SPEISEKARTE] == RAUM_NULL ) {
-        objectposition[SPEISEKARTE] = roomnumber;
-        objectdescription[ESSTISCH2] = 0x90;
+    if ( object1 == ESSTISCH2 && objectLocation[SPEISEKARTE] == RAUM_NULL ) {
+        objectLocation[SPEISEKARTE] = currentRoom;
+        objectDescriptionID[ESSTISCH2] = 0x90;
         return;
     } else {
-        if ( object1 == ESSTISCH2 && objectdescription[ESSTISCH2] == 0x90 ) {
-            objectdescription[ESSTISCH2] = 0x0b;
+        if ( object1 == ESSTISCH2 && objectDescriptionID[ESSTISCH2] == 0x90 ) {
+            objectDescriptionID[ESSTISCH2] = 0x0b;
             return;
         }
     }
     if ( object1 == SPEISEKARTE ) {
-        textoutput = 0x89; // text ID 137 (0x0089), script $7cac: B1 record 239: Die Speise- und Getränkekarte enthält alle möglichen örtlichen Spezialitäten, aber hauptsächlich: Bier! Bier in Flaschen, Bier in Dosen, Bier in Tüten... QUATSCH! Du glaubst auch wirklich jeden Mist, was? Egal: Hauptsache, Du bekommst hier Bier in GLÄSERN!
-        pointsum = pointsum + points[object1];
-        points[object1] = 0x00;
+        pendingTextID = 0x89; // text ID 137 (0x0089), script $7cac: B1 record 239: Die Speise- und Getränkekarte enthält alle möglichen örtlichen Spezialitäten, aber hauptsächlich: Bier! Bier in Flaschen, Bier in Dosen, Bier in Tüten... QUATSCH! Du glaubst auch wirklich jeden Mist, was? Egal: Hauptsache, Du bekommst hier Bier in GLÄSERN!
+        score = score + remainingPoints[object1];
+        remainingPoints[object1] = 0x00;
         return;
     }
-    if ( object1 == STUHL && objectposition[BADEHOSE] == RAUM_NULL ) {
-        objectposition[BADEHOSE] = roomnumber;
-        objectdescription[STUHL] = 0x0b;
+    if ( object1 == STUHL && objectLocation[BADEHOSE] == RAUM_NULL ) {
+        objectLocation[BADEHOSE] = currentRoom;
+        objectDescriptionID[STUHL] = 0x0b;
         return;
     }
 
@@ -738,14 +739,14 @@ x7cda:
 }
 
 
-void Func7cdb() { // HILF
+void PartA_HandleHilf() { // Part A, script $7cdb; command 32 (HILF), SELECT $7750 case 6
     tableptr = data0x82f6;
     temp = 0x01;
 
 x7ce2:
-    addr6996 = *(unsigned short*)tableptr; tableptr += 2;
-    textoutput = *(unsigned short*)tableptr; tableptr += 2;
-    if ( addr6996 == object1 ) {
+    scratch1 = *(unsigned short*)tableptr; tableptr += 2;
+    pendingTextID = *(unsigned short*)tableptr; tableptr += 2;
+    if ( scratch1 == object1 ) {
         goto x7cfe;
     }
     temp = temp + 0x01;
@@ -755,73 +756,73 @@ x7ce2:
 
 x7cfe:
     if ( object1 == DORFBEWOHNER ) {
-        if ( objectstatus[DORFBEWOHNER] == 0x00 ) {
+        if ( objectState[DORFBEWOHNER] == 0x00 ) {
             return;
         } else {
-            if ( objectstatus[DORFBEWOHNER] != 0x00 ) {
-                textoutput = 0x53; // text ID 83 (0x0053), script $7d18: B1 record 185: Danke für Dein wirklich selbstloses Angebot, aber hier wird nun wirklich keine Hilfe benötigt.
+            if ( objectState[DORFBEWOHNER] != 0x00 ) {
+                pendingTextID = 0x53; // text ID 83 (0x0053), script $7d18: B1 record 185: Danke für Dein wirklich selbstloses Angebot, aber hier wird nun wirklich keine Hilfe benötigt.
                 return;
             }
         }
     }
-    if ( object1 == EINHORN && objectposition[WOLF] == RAUM_NULL ) {
-        textoutput = 0x53; // text ID 83 (0x0053), script $7d2f: B1 record 185: Danke für Dein wirklich selbstloses Angebot, aber hier wird nun wirklich keine Hilfe benötigt.
+    if ( object1 == EINHORN && objectLocation[WOLF] == RAUM_NULL ) {
+        pendingTextID = 0x53; // text ID 83 (0x0053), script $7d2f: B1 record 185: Danke für Dein wirklich selbstloses Angebot, aber hier wird nun wirklich keine Hilfe benötigt.
         return;
     }
     if ( temp <= 0x15 ) {
         return;
     }
-    if ( object1 == EINHORN && objectstatus[WOLF] == 0x00 ) {
-        pointsum = pointsum + points[0x98];
-        points[0x98] = 0x00;
-        objectstatus[EINHORN] = 0x01;
-        objectposition[WOLF] = RAUM_NULL;
-        objectstatus[WOLF] = 0x01;
-        textoutput = 0x99; // text ID 153 (0x0099), script $7d6c: B1 record 255: Als der Wolf Dich auf die Lichtung stürmen sieht, erschrickt er derartig über Deine hagere Figur, daß er sofort den Schwanz einzieht und die Beine in die Pfoten nimmt! Nachdem er, noch immer erschüttert über soviel Elend, jaulend im Unterholz verschwunden ist, legt sich das angeschlagene Einhorn erschöpft auf den Boden, um sich ein wenig von dem ungleichen Kampf zu erholen. Seine Nüstern beben nervös, und es atmet schwer und ungleichmäßig...
+    if ( object1 == EINHORN && objectState[WOLF] == 0x00 ) {
+        score = score + remainingPoints[0x98];
+        remainingPoints[0x98] = 0x00;
+        objectState[EINHORN] = 0x01;
+        objectLocation[WOLF] = RAUM_NULL;
+        objectState[WOLF] = 0x01;
+        pendingTextID = 0x99; // text ID 153 (0x0099), script $7d6c: B1 record 255: Als der Wolf Dich auf die Lichtung stürmen sieht, erschrickt er derartig über Deine hagere Figur, daß er sofort den Schwanz einzieht und die Beine in die Pfoten nimmt! Nachdem er, noch immer erschüttert über soviel Elend, jaulend im Unterholz verschwunden ist, legt sich das angeschlagene Einhorn erschöpft auf den Boden, um sich ein wenig von dem ungleichen Kampf zu erholen. Seine Nüstern beben nervös, und es atmet schwer und ungleichmäßig...
         return;
     }
     if ( object1 == WOLF ) {
-        imageno = 0x83;
-        objectposition[DAVE] = 0xff;
+        imageID = 0x83;
+        objectLocation[DAVE] = 0xff;
         ShowImage();
-        textoutput = 0x9a; // text ID 154 (0x009a), script $7d85: B1 record 256: "Ich habe sie umzingelt!", denkst Du Dir siegessicher: Mit einem wilden Kamikazeschrei stürmst Du die Lichtung und wirfst Dich mit aller Kraft gegen das Einhorn, um dem Wolf eine Gelegenheit zu geben, seine Zähne in die weiße Kehle des Fabelwesens zu schlagen. Vollgesudelt mit dem bläulichen Blut machen der Wolf und Du sich daran, das erlegte Einhorn auszuweiden, das Dich immer noch mit einem ungläubigen Blick aus seinen erlöschenden Augen anzublicken scheint. Dummerweise scheint der Hunger des Wolfes nach dieser Delikatesse jedoch immer noch nicht vollständig gestillt zu sein: Bei der ersten Gelegenheit, als Du gerade unvorsichtigerweise die Augen von ihm abwendest, springt Dir der Wolf an die Kehle und reißt Dir beinahe den Kopf vom Hals! Da er aber auch nach diesen beiden schmackhaften Mählern noch immer hungrig zu sein scheint, kannst Du ja im nächsten Spiel noch einmal hier vorbeikommen, um "dem Wolf zu helfen"...
+        pendingTextID = 0x9a; // text ID 154 (0x009a), script $7d85: B1 record 256: "Ich habe sie umzingelt!", denkst Du Dir siegessicher: Mit einem wilden Kamikazeschrei stürmst Du die Lichtung und wirfst Dich mit aller Kraft gegen das Einhorn, um dem Wolf eine Gelegenheit zu geben, seine Zähne in die weiße Kehle des Fabelwesens zu schlagen. Vollgesudelt mit dem bläulichen Blut machen der Wolf und Du sich daran, das erlegte Einhorn auszuweiden, das Dich immer noch mit einem ungläubigen Blick aus seinen erlöschenden Augen anzublicken scheint. Dummerweise scheint der Hunger des Wolfes nach dieser Delikatesse jedoch immer noch nicht vollständig gestillt zu sein: Bei der ersten Gelegenheit, als Du gerade unvorsichtigerweise die Augen von ihm abwendest, springt Dir der Wolf an die Kehle und reißt Dir beinahe den Kopf vom Hals! Da er aber auch nach diesen beiden schmackhaften Mählern noch immer hungrig zu sein scheint, kannst Du ja im nächsten Spiel noch einmal hier vorbeikommen, um "dem Wolf zu helfen"...
         showtext();
         Restart();
-        imageno = 0xff;
+        imageID = 0xff;
         return;
     }
-    textoutput = 0x53; // text ID 83 (0x0053), script $7d93: B1 record 185: Danke für Dein wirklich selbstloses Angebot, aber hier wird nun wirklich keine Hilfe benötigt.
+    pendingTextID = 0x53; // text ID 83 (0x0053), script $7d93: B1 record 185: Danke für Dein wirklich selbstloses Angebot, aber hier wird nun wirklich keine Hilfe benötigt.
 
 x7d97:
     return;
 }
 
 
-void Func7d98() { // VERLASSE
-    textoutput = 0x55; // text ID 85 (0x0055), script $7d98: B1 record 187: Kannst Du mir vielleicht mal einen heißen Tip geben, wie Du DAS verlassen willst?
+void PartA_HandleVerlasse() { // Part A, script $7d98; command 33 (VERLASSE), SELECT $7750 case 7
+    pendingTextID = 0x55; // text ID 85 (0x0055), script $7d98: B1 record 187: Kannst Du mir vielleicht mal einen heißen Tip geben, wie Du DAS verlassen willst?
     return;
 }
 
 
-void Func7d9d() { // BEWEGE
-    textoutput = 0x10; // text ID 16 (0x0010), script $7d9d: B1 record 118: Versprichst Du dir irgend etwas Bestimmtes davon, DAS durch die Gegend zu schleppen?
+void PartA_HandleBewege() { // Part A, script $7d9d; command 34 (BEWEGE), SELECT $7750 case 8
+    pendingTextID = 0x10; // text ID 16 (0x0010), script $7d9d: B1 record 118: Versprichst Du dir irgend etwas Bestimmtes davon, DAS durch die Gegend zu schleppen?
     return;
 }
 
 
-void Func7da2() { // OEFFNE
+void PartA_HandleOeffne() { // Part A, script $7da2; command 35 (OEFFNE), SELECT $7750 case 9
     if ( object1 == JEANS || object1 == HOSE ) {
-        textoutput = 0x0268; // text ID 616 (0x0268), script $7dad: B1 record 307: Tja, was sein muß, muß sein: Hastig siehst Du Dich um, ob auch keiner zusieht, öffnest Deine Hose, und... MOMENT MAL! So nicht, Kumpel! Als ob der Saure Regen nicht schon reichte...!
+        pendingTextID = 0x0268; // text ID 616 (0x0268), script $7dad: B1 record 307: Tja, was sein muß, muß sein: Hastig siehst Du Dich um, ob auch keiner zusieht, öffnest Deine Hose, und... MOMENT MAL! So nicht, Kumpel! Als ob der Saure Regen nicht schon reichte...!
         goto x7e49;
     }
     tableptr = data0x8286;
     temp = 0x01;
 
 x7dbd:
-    addr6996 = *tableptr++;
-    addr699a = *tableptr++;
-    addr6998 = *tableptr++;
-    if ( addr6996 == object1 ) {
+    scratch1 = *tableptr++;
+    scratch3 = *tableptr++;
+    scratch2 = *tableptr++;
+    if ( scratch1 == object1 ) {
         goto x7ddb;
     }
     temp = temp + 0x01;
@@ -831,86 +832,86 @@ x7dbd:
 
 x7ddb:
     if ( temp > 0x1c ) {
-        textoutput = 0x58; // text ID 88 (0x0058), script $7de1: B1 record 190: Vorsichtig öffnest Du es, bis Du nach ein paar Sekunden bemerkst, daß Du das doch eigentlich gar nicht öffnen konntest! Also schließt Du es wieder, läßt es wie es war und nimmst Dir vor, nicht weiter über Logik in Computerprogrammen nachzudenken.
+        pendingTextID = 0x58; // text ID 88 (0x0058), script $7de1: B1 record 190: Vorsichtig öffnest Du es, bis Du nach ein paar Sekunden bemerkst, daß Du das doch eigentlich gar nicht öffnen konntest! Also schließt Du es wieder, läßt es wie es war und nimmst Dir vor, nicht weiter über Logik in Computerprogrammen nachzudenken.
         goto x7e49;
     }
-    if ( objectstatus[object1] == 0x00 ) {
-        textoutput = 0x11; // text ID 17 (0x0011), script $7df0: B1 record 119: Hmmm... - Scheint aber verschlossen zu sein!
+    if ( objectState[object1] == 0x00 ) {
+        pendingTextID = 0x11; // text ID 17 (0x0011), script $7df0: B1 record 119: Hmmm... - Scheint aber verschlossen zu sein!
         goto x7e49;
     } else {
-        if ( objectstatus[object1] == 0x01 ) {
-            textoutput = 0x57; // text ID 87 (0x0057), script $7dff: B1 record 189: Oh! Da scheint Dir wohl jemand mit dem Öffnen zuvorgekommen zu sein...
+        if ( objectState[object1] == 0x01 ) {
+            pendingTextID = 0x57; // text ID 87 (0x0057), script $7dff: B1 record 189: Oh! Da scheint Dir wohl jemand mit dem Öffnen zuvorgekommen zu sein...
             goto x7e49;
         } else {
-            if ( objectstatus[object1] == 0x02 ) {
-                objectstatus[object1] = 0x01;
-                if ( addr699a == 0x01 ) {
-                    north[roomnumber] = addr6998;
+            if ( objectState[object1] == 0x02 ) {
+                objectState[object1] = 0x01;
+                if ( scratch3 == 0x01 ) {
+                    north[currentRoom] = scratch2;
                 } else {
-                    if ( addr699a == 0x02 ) {
-                        south[roomnumber] = addr6998;
+                    if ( scratch3 == 0x02 ) {
+                        south[currentRoom] = scratch2;
                     } else {
-                        if ( addr699a == 0x03 ) {
-                            west[roomnumber] = addr6998;
+                        if ( scratch3 == 0x03 ) {
+                            west[currentRoom] = scratch2;
                         } else {
-                            if ( addr699a == 0x04 ) {
-                                east[roomnumber] = addr6998;
+                            if ( scratch3 == 0x04 ) {
+                                east[currentRoom] = scratch2;
                             }
                         }
                     }
                 }
-                textoutput = 0x56; // text ID 86 (0x0056), script $7e42: B1 record 188: Okay, geöffnet.
+                pendingTextID = 0x56; // text ID 86 (0x0056), script $7e42: B1 record 188: Okay, geöffnet.
             }
         }
     }
 
 x7e49:
-    addr6998 = 0x00;
-    addr699a = 0x00;
+    scratch2 = 0x00;
+    scratch3 = 0x00;
     return;
 }
 
 
-void Func7e52() { // ZIEHE
-    textoutput = 0x0258; // text ID 600 (0x0258), script $7e52: B1 record 291: Das findest Du wohl witzig, häh? Naja, vergessen wir's...
+void PartA_HandleZiehe() { // Part A, script $7e52; command 36 (ZIEHE), SELECT $7750 case 10
+    pendingTextID = 0x0258; // text ID 600 (0x0258), script $7e52: B1 record 291: Das findest Du wohl witzig, häh? Naja, vergessen wir's...
     return;
 }
 
 
-void Func7e58() { // DRUECKE
+void PartA_HandleDruecke() { // Part A, script $7e58; command 37 (DRUECKE), SELECT $7750 case 11
     if ( object1 == KLINGEL ) {
-        if ( objectstatus[KLINGEL] < 0x03 ) {
-            objectstatus[KLINGEL] = objectstatus[KLINGEL] + 0x01;
+        if ( objectState[KLINGEL] < 0x03 ) {
+            objectState[KLINGEL] = objectState[KLINGEL] + 0x01;
         }
-        if ( objectstatus[KLINGEL] == 0x03 && objectposition[ZIMMERSCHLUESSEL] == RAUM_NULL ) {
-            objectposition[PORTIER] = roomnumber;
-            objectstatus[KLINGEL] = 0x04;
-            textoutput = 0x9c; // text ID 156 (0x009c), script $7e8a: B1 record 258: Du drückst den Knopf der Klingel so tief ins Gehäuse hinein, daß Dir ernsthafte Bedenken kommen, ob sie nicht unter Deiner Hand explodieren wird. Nach ein paar Sekunden hörst Du endlich ein langsames Schlurfen auf der Treppe hinter dem Rezeptionstresen, und der Portier betritt, wild mit den Armen umherfuchtelnd, die Rezeption. "Warum klingelst Du denn Sturm?", fragt er Dich ungehalten, "Ich bin doch nicht taub!"
+        if ( objectState[KLINGEL] == 0x03 && objectLocation[ZIMMERSCHLUESSEL] == RAUM_NULL ) {
+            objectLocation[PORTIER] = currentRoom;
+            objectState[KLINGEL] = 0x04;
+            pendingTextID = 0x9c; // text ID 156 (0x009c), script $7e8a: B1 record 258: Du drückst den Knopf der Klingel so tief ins Gehäuse hinein, daß Dir ernsthafte Bedenken kommen, ob sie nicht unter Deiner Hand explodieren wird. Nach ein paar Sekunden hörst Du endlich ein langsames Schlurfen auf der Treppe hinter dem Rezeptionstresen, und der Portier betritt, wild mit den Armen umherfuchtelnd, die Rezeption. "Warum klingelst Du denn Sturm?", fragt er Dich ungehalten, "Ich bin doch nicht taub!"
             return;
         } else {
-            if ( objectstatus[KLINGEL] == 0x03 && objectposition[ZIMMERSCHLUESSEL] != RAUM_NULL ) {
-                objectstatus[KLINGEL] = 0x00;
-                textoutput = 0x9b; // text ID 155 (0x009b), script $7ea7: B1 record 257: Du drückst auf die kleine Kupferklingel. In einem Raum weiter oben hörst Du einen Summer - aber nichts passiert...
+            if ( objectState[KLINGEL] == 0x03 && objectLocation[ZIMMERSCHLUESSEL] != RAUM_NULL ) {
+                objectState[KLINGEL] = 0x00;
+                pendingTextID = 0x9b; // text ID 155 (0x009b), script $7ea7: B1 record 257: Du drückst auf die kleine Kupferklingel. In einem Raum weiter oben hörst Du einen Summer - aber nichts passiert...
                 return;
             }
         }
-        textoutput = 0x9b; // text ID 155 (0x009b), script $7eb0: B1 record 257: Du drückst auf die kleine Kupferklingel. In einem Raum weiter oben hörst Du einen Summer - aber nichts passiert...
+        pendingTextID = 0x9b; // text ID 155 (0x009b), script $7eb0: B1 record 257: Du drückst auf die kleine Kupferklingel. In einem Raum weiter oben hörst Du einen Summer - aber nichts passiert...
         return;
     }
-    textoutput = 0x59; // text ID 89 (0x0059), script $7eb8: B1 record 191: Glaube mir: Es besteht wirklich nicht der geringste Grund, das zu drücken!
+    pendingTextID = 0x59; // text ID 89 (0x0059), script $7eb8: B1 record 191: Glaube mir: Es besteht wirklich nicht der geringste Grund, das zu drücken!
 
 x7ebc:
     return;
 }
 
 
-void Func7ebd() { // NIMM
+void PartA_HandleNimm() { // Part A, script $7ebd; command 38 (NIMM), SELECT $7782 case 1
     tableptr = data0x825e;
     temp = 0x01;
 
 x7ec4:
-    addr6996 = *tableptr++;
-    if ( addr6996 == object1 ) {
+    scratch1 = *tableptr++;
+    if ( scratch1 == object1 ) {
         goto x7ede;
     }
     temp = temp + 0x01;
@@ -920,24 +921,24 @@ x7ec4:
 
 x7ede:
     if ( temp > 0x28 ) {
-        textoutput = 0x0e; // text ID 14 (0x000e), script $7ee4: B1 record 116: Tut mir leid, aber das kannst Du beim besten Willen nicht mitnehmen!
+        pendingTextID = 0x0e; // text ID 14 (0x000e), script $7ee4: B1 record 116: Tut mir leid, aber das kannst Du beim besten Willen nicht mitnehmen!
         goto x7f1a;
     }
-    if ( objectposition[object1] == 0xff ) {
-        textoutput = 0x0d; // text ID 13 (0x000d), script $7ef3: B1 record 115: Aber das hast Du doch schon längst!
+    if ( objectLocation[object1] == 0xff ) {
+        pendingTextID = 0x0d; // text ID 13 (0x000d), script $7ef3: B1 record 115: Aber das hast Du doch schon längst!
         goto x7f1a;
     }
-    objectposition[object1] = 0xff;
+    objectLocation[object1] = 0xff;
     if ( object1 == ZIMMERSCHLUESSEL || object1 == KRISTALLKUGEL ) {
-        pointsum = pointsum + points[object1];
-        points[object1] = 0x00;
+        score = score + remainingPoints[object1];
+        remainingPoints[object1] = 0x00;
     }
-    textoutput = 0x0c; // text ID 12 (0x000c), script $7f16: engine $5D94: Take-object response with object name.
+    pendingTextID = 0x0c; // text ID 12 (0x000c), script $7f16: engine $5D94: Take-object response with object name.
 
 x7f1a:
     if ( object1 == SPEISEKARTE ) {
-        textoutput = 0x96; // text ID 150 (0x0096), script $7f20: B1 record 252: Oh nein! Bitte erzähl' mir jetzt nicht, daß Du einer von den Typen bist, die kein Hotel verlassen können, ohne sich zuvor ein kleines "Souvenir" (z.B. Handtücher, Aschenbecher oder Zimmerfernseher...) organisiert zu haben! Also ehrlich: Du hast es doch wohl nicht nötig, zu stehlen, oder? Außerdem: Was willst Du überhaupt mit der Speisekarte? Selbst wenn wir mal davon ausgingen, daß der Verdacht nicht auf Dich fiele, was unwahrscheinlich ist, da Du zur Zeit nun mal der einzige Gast des Hotels bist, so hätte die Karte doch überhaupt keinen Wert für Dich! Mary hingegen, die Besitzerin des Hotels, wäre sicherlich nicht sehr glücklich, wenn sie Deinetwegen extra einen neuen Satz Speisekarten bestellen müßte. Es ist hier auf dem Lande nämlich nicht ganz so einfach, solche Dinge zu bekommen, wie Du verwöhnter Stadtjunge Dir vielleicht denkst! Also: Finger weg, sonst Finger ab!
-        objectposition[object1] = roomnumber;
+        pendingTextID = 0x96; // text ID 150 (0x0096), script $7f20: B1 record 252: Oh nein! Bitte erzähl' mir jetzt nicht, daß Du einer von den Typen bist, die kein Hotel verlassen können, ohne sich zuvor ein kleines "Souvenir" (z.B. Handtücher, Aschenbecher oder Zimmerfernseher...) organisiert zu haben! Also ehrlich: Du hast es doch wohl nicht nötig, zu stehlen, oder? Außerdem: Was willst Du überhaupt mit der Speisekarte? Selbst wenn wir mal davon ausgingen, daß der Verdacht nicht auf Dich fiele, was unwahrscheinlich ist, da Du zur Zeit nun mal der einzige Gast des Hotels bist, so hätte die Karte doch überhaupt keinen Wert für Dich! Mary hingegen, die Besitzerin des Hotels, wäre sicherlich nicht sehr glücklich, wenn sie Deinetwegen extra einen neuen Satz Speisekarten bestellen müßte. Es ist hier auf dem Lande nämlich nicht ganz so einfach, solche Dinge zu bekommen, wie Du verwöhnter Stadtjunge Dir vielleicht denkst! Also: Finger weg, sonst Finger ab!
+        objectLocation[object1] = currentRoom;
         return;
     }
 
@@ -946,15 +947,15 @@ x7f2c:
 }
 
 
-void Func7f2d() { // SPRICH
-    textoutput = 0x5b; // text ID 91 (0x005b), script $7f2d: B1 record 193: Wie merkwürdig! Keine Antwort ?!?!?
+void PartA_HandleSprich() { // Part A, script $7f2d; command 39 (SPRICH), SELECT $7782 case 2
+    pendingTextID = 0x5b; // text ID 91 (0x005b), script $7f2d: B1 record 193: Wie merkwürdig! Keine Antwort ?!?!?
     tableptr = data0x8366;
     temp = 0x01;
 
 x7f38:
-    addr6996 = *(unsigned short*)tableptr; tableptr += 2;
-    textoutput = *(unsigned short*)tableptr; tableptr += 2;
-    if ( addr6996 == object1 ) {
+    scratch1 = *(unsigned short*)tableptr; tableptr += 2;
+    pendingTextID = *(unsigned short*)tableptr; tableptr += 2;
+    if ( scratch1 == object1 ) {
         goto x7f54;
     }
     temp = temp + 0x01;
@@ -964,31 +965,31 @@ x7f38:
 
 x7f54:
     if ( temp > 0x0f ) {
-        textoutput = 0x5b; // text ID 91 (0x005b), script $7f5a: B1 record 193: Wie merkwürdig! Keine Antwort ?!?!?
+        pendingTextID = 0x5b; // text ID 91 (0x005b), script $7f5a: B1 record 193: Wie merkwürdig! Keine Antwort ?!?!?
     }
     if ( object1 == PORTIER ) {
-        textoutput = 0x9d; // text ID 157 (0x009d), script $7f65: B1 record 259: So höflich, wie es Dir nach der unfreundlichen Begrüßung noch möglich ist, fragst Du nach Deinem Zimmerschlüssel. Nach jedem Satz, den Du sagst, hält der Portier die Hand hinter sein linkes Ohr: Anscheinend hört er wohl doch nicht mehr ganz so gut wie er glaubt, doch nach einer Weile scheint er begriffen zu haben, nimmt Deinen Zimmerschlüssel vom Brett und wirft ihn unwillig auf den Tresen. Er murmelt noch kurz: "Raum Nummer Null-Null-Drei.", dreht sich ohne ein weiteres Wort um und schlurft die Treppe hoch. "So was Unfreundliches!", denkst Du bei Dir, "Kein Wunder, daß hier keiner wohnen will!" Auch Dein stiller Wunsch, er möge auf seinem Weg nach oben ausrutschen und die Stufen hinunterpoltern, erfüllt sich leider nicht. Na, na, na! Wer wird denn gleich aggressiv werden! Eigentlich solltest Du etwas mehr Verständnis und Mitgefühl für das alte Männchen zeigen und das nächste Mal Deine jugendliche Ungeduld ein wenig zügeln!
-        objectposition[ZIMMERSCHLUESSEL] = roomnumber;
-        objectposition[PORTIER] = RAUM_NULL;
+        pendingTextID = 0x9d; // text ID 157 (0x009d), script $7f65: B1 record 259: So höflich, wie es Dir nach der unfreundlichen Begrüßung noch möglich ist, fragst Du nach Deinem Zimmerschlüssel. Nach jedem Satz, den Du sagst, hält der Portier die Hand hinter sein linkes Ohr: Anscheinend hört er wohl doch nicht mehr ganz so gut wie er glaubt, doch nach einer Weile scheint er begriffen zu haben, nimmt Deinen Zimmerschlüssel vom Brett und wirft ihn unwillig auf den Tresen. Er murmelt noch kurz: "Raum Nummer Null-Null-Drei.", dreht sich ohne ein weiteres Wort um und schlurft die Treppe hoch. "So was Unfreundliches!", denkst Du bei Dir, "Kein Wunder, daß hier keiner wohnen will!" Auch Dein stiller Wunsch, er möge auf seinem Weg nach oben ausrutschen und die Stufen hinunterpoltern, erfüllt sich leider nicht. Na, na, na! Wer wird denn gleich aggressiv werden! Eigentlich solltest Du etwas mehr Verständnis und Mitgefühl für das alte Männchen zeigen und das nächste Mal Deine jugendliche Ungeduld ein wenig zügeln!
+        objectLocation[ZIMMERSCHLUESSEL] = currentRoom;
+        objectLocation[PORTIER] = RAUM_NULL;
         return;
     }
-    if ( object1 == DORFBEWOHNER && objectstatus[DORFBEWOHNER] == 0x00 ) {
-        textoutput = 0x9e; // text ID 158 (0x009e), script $7f85: B1 record 260: Du winkst die Bedienung zu Dir heran und nennst ihr Deine dringendsten Wünsche: "Bringen Sie mir bitte ein großes Steak, ein kühles Bier und eine Fra..." - Plötzlich spürst Du, wie Du rot wirst und stammelst: "Ach nein: Die Frankfurter Allgemeine können Sie wieder streichen. Deutsche Zeitungen werden Sie hier ja wohl ohnehin nicht bekommen, oder?" Als das Mädchen, ebenfalls rot bis über beide Ohren, hastig verneint, beruhigst Du es - den Altersunterschied von gut zehn Jahren geflissentlich ignorierend - väterlich: "Das macht nichts, meine Tochter: Ich kann sowieso kein Deutsch!", und brichst in brüllendes Gelächter aus, woraufhin der bisher unbeteiligt dasitzende Dorfbewohner die Augen leidend zum Himmel verdreht, als hätte man ihm dort in die Weichteile getreten, wo es so richtig wehtut. Als Du bestürzt feststellst, daß auch die Kellnerin anscheinend unter chronischer Humorlosigkeit leidet, beschließt Du, Deine komische Darbietung abrupt abzubrechen und das Mädchen mit einer gnädigen Handbewegung zu entlassen. Als es in der Küche verschwunden ist, sprichst Du den alten Mann an, ob er Dir nicht vielleicht ein wenig über das Dorf und seine Umgebung erzählen könnte. Langsam und schleppend beginnt der Dorfbewohner, in seinen Bart hineinzubrabbeln, daß er Dir eine interessante Sage erzählen könne. Gut, Du bist zwar nicht gerade davon ausgegangen, daß er Dir gleich die Adressen der lokalen In-Treffs und Yuppie-Diskotheken aufzählen würde, aber muß es denn gleich ein Märchen sein? Vorsichtshalber stützt Du den Kopf auf die Hände, um im Ernstfall nicht mit der Nase auf die Tischkante zu knallen, und während Du sehnsüchtig auf Dein Essen wartest, damit Du wenigstens etwas zu tun hättest, lauschst Du der Geschichte des Alten: Vor langer, langer Zeit soll an dem Platz, den jetzt das Loch Calderwood einnimmt, eine reiche und stolze Stadt gestanden haben - doch von einer Nacht auf die andere war sie verschwunden, und statt ihrer befand sich der See am Fuße der Berge! Es wurde vermutet, daß die Bewohner dieser legendären Stadt für ihren Stolz und ihre Eitelkeit von den Göttern bestraft worden seien. Ebenfalls erzählt man sich, daß sie sehr reich und kunstfertig gewesen wären! Da Du für Deinen Teil Dich seit Beginn der Erzählung in der Kunst übst, mit offenen Augen zu schlafen, hält der Einheimische Deinen starren Blick für ungläubiges Staunen und setzt noch mal einen drauf: Angeblich behaupten die Leute im Dorf nämlich sogar heute noch, daß die Türme und Dächer der Stadt noch unter Wasser gesehen werden könnten, wenn man es wagte, bei Vollmond um Mitternacht auf den Grund des Sees hinabzutauchen - ein sehr exklusives und einmaliges Vergnügen übrigens, da keiner der tapferen Männer, die bisher ihr Glück versucht haben, jemals zurückkam...
-        pointsum = pointsum + points[object1];
-        points[object1] = 0x00;
-        objectstatus[DORFBEWOHNER] = 0x01;
+    if ( object1 == DORFBEWOHNER && objectState[DORFBEWOHNER] == 0x00 ) {
+        pendingTextID = 0x9e; // text ID 158 (0x009e), script $7f85: B1 record 260: Du winkst die Bedienung zu Dir heran und nennst ihr Deine dringendsten Wünsche: "Bringen Sie mir bitte ein großes Steak, ein kühles Bier und eine Fra..." - Plötzlich spürst Du, wie Du rot wirst und stammelst: "Ach nein: Die Frankfurter Allgemeine können Sie wieder streichen. Deutsche Zeitungen werden Sie hier ja wohl ohnehin nicht bekommen, oder?" Als das Mädchen, ebenfalls rot bis über beide Ohren, hastig verneint, beruhigst Du es - den Altersunterschied von gut zehn Jahren geflissentlich ignorierend - väterlich: "Das macht nichts, meine Tochter: Ich kann sowieso kein Deutsch!", und brichst in brüllendes Gelächter aus, woraufhin der bisher unbeteiligt dasitzende Dorfbewohner die Augen leidend zum Himmel verdreht, als hätte man ihm dort in die Weichteile getreten, wo es so richtig wehtut. Als Du bestürzt feststellst, daß auch die Kellnerin anscheinend unter chronischer Humorlosigkeit leidet, beschließt Du, Deine komische Darbietung abrupt abzubrechen und das Mädchen mit einer gnädigen Handbewegung zu entlassen. Als es in der Küche verschwunden ist, sprichst Du den alten Mann an, ob er Dir nicht vielleicht ein wenig über das Dorf und seine Umgebung erzählen könnte. Langsam und schleppend beginnt der Dorfbewohner, in seinen Bart hineinzubrabbeln, daß er Dir eine interessante Sage erzählen könne. Gut, Du bist zwar nicht gerade davon ausgegangen, daß er Dir gleich die Adressen der lokalen In-Treffs und Yuppie-Diskotheken aufzählen würde, aber muß es denn gleich ein Märchen sein? Vorsichtshalber stützt Du den Kopf auf die Hände, um im Ernstfall nicht mit der Nase auf die Tischkante zu knallen, und während Du sehnsüchtig auf Dein Essen wartest, damit Du wenigstens etwas zu tun hättest, lauschst Du der Geschichte des Alten: Vor langer, langer Zeit soll an dem Platz, den jetzt das Loch Calderwood einnimmt, eine reiche und stolze Stadt gestanden haben - doch von einer Nacht auf die andere war sie verschwunden, und statt ihrer befand sich der See am Fuße der Berge! Es wurde vermutet, daß die Bewohner dieser legendären Stadt für ihren Stolz und ihre Eitelkeit von den Göttern bestraft worden seien. Ebenfalls erzählt man sich, daß sie sehr reich und kunstfertig gewesen wären! Da Du für Deinen Teil Dich seit Beginn der Erzählung in der Kunst übst, mit offenen Augen zu schlafen, hält der Einheimische Deinen starren Blick für ungläubiges Staunen und setzt noch mal einen drauf: Angeblich behaupten die Leute im Dorf nämlich sogar heute noch, daß die Türme und Dächer der Stadt noch unter Wasser gesehen werden könnten, wenn man es wagte, bei Vollmond um Mitternacht auf den Grund des Sees hinabzutauchen - ein sehr exklusives und einmaliges Vergnügen übrigens, da keiner der tapferen Männer, die bisher ihr Glück versucht haben, jemals zurückkam...
+        score = score + remainingPoints[object1];
+        remainingPoints[object1] = 0x00;
+        objectState[DORFBEWOHNER] = 0x01;
         return;
     } else {
-        if ( object1 == DORFBEWOHNER && objectstatus[DORFBEWOHNER] == 0x01 ) {
-            textoutput = 0x9f; // text ID 159 (0x009f), script $7faa: B1 record 261: Der alte Mann verbirgt sein Gesicht hinter seinem Bierglas - nicht mehr in der Lage, noch ein weiteres Wort von sich zu geben. Das einzige, was Du noch von Zeit zu Zeit von ihm vernimmst, ist ein leises und verschämtes "Börks!". Offensichtlich hat er während seiner Erzählung ein Gläschen über den Durst getrunken...
+        if ( object1 == DORFBEWOHNER && objectState[DORFBEWOHNER] == 0x01 ) {
+            pendingTextID = 0x9f; // text ID 159 (0x009f), script $7faa: B1 record 261: Der alte Mann verbirgt sein Gesicht hinter seinem Bierglas - nicht mehr in der Lage, noch ein weiteres Wort von sich zu geben. Das einzige, was Du noch von Zeit zu Zeit von ihm vernimmst, ist ein leises und verschämtes "Börks!". Offensichtlich hat er während seiner Erzählung ein Gläschen über den Durst getrunken...
             return;
         }
     }
-    if ( object1 == EINHORN && objectstatus[WOLF] == 0x01 ) {
-        objectposition[KRISTALLKUGEL] = roomnumber;
-        objectposition[EINHORN] = RAUM_NULL;
+    if ( object1 == EINHORN && objectState[WOLF] == 0x01 ) {
+        objectLocation[KRISTALLKUGEL] = currentRoom;
+        objectLocation[EINHORN] = RAUM_NULL;
         west[AUF_EINER_LICHTUNG1] = 0x19;
-        textoutput = 0xa0; // text ID 160 (0x00a0), script $7fd1: B1 record 262: Nachdem es sich ein wenig erholt hat, dankt das Einhorn Dir für Deine Hilfe und warnt Dich eindringlich, Deinen Weg nach Westen fortzusetzen. "Nachdem Du erst einmal diesen Teil des Waldes verlassen hast, gibt es kein Zurück mehr...", sagt es mit einem unendlich traurigen Blick in seinen tiefblauen Augen, "Doch nimm diese kleine Kristallkugel: Sie könnte Dir helfen, Freunde in dieser feindlichen Welt zu finden..." Mit diesen Worten gibt Dir das Einhorn eine kleine, leuchtende Kristallkugel, während es Dir mit ersterbender Stimme zuwispert: "Denke an mich, wenn Du sie benutzt - ich habe nicht mehr lange zu leben...". Mit einem letzten Blick zu Dir zurück, einem Blick so voller Bedauern und Schmerz, daß es Dir fast das Herz bricht, wendet sich das todgeweihte, schöne Wesen um und trottet langsam davon, ohne sich noch einmal nach Dir umzudrehen, bis es zwischen den Bäumen verschwunden ist...
+        pendingTextID = 0xa0; // text ID 160 (0x00a0), script $7fd1: B1 record 262: Nachdem es sich ein wenig erholt hat, dankt das Einhorn Dir für Deine Hilfe und warnt Dich eindringlich, Deinen Weg nach Westen fortzusetzen. "Nachdem Du erst einmal diesen Teil des Waldes verlassen hast, gibt es kein Zurück mehr...", sagt es mit einem unendlich traurigen Blick in seinen tiefblauen Augen, "Doch nimm diese kleine Kristallkugel: Sie könnte Dir helfen, Freunde in dieser feindlichen Welt zu finden..." Mit diesen Worten gibt Dir das Einhorn eine kleine, leuchtende Kristallkugel, während es Dir mit ersterbender Stimme zuwispert: "Denke an mich, wenn Du sie benutzt - ich habe nicht mehr lange zu leben...". Mit einem letzten Blick zu Dir zurück, einem Blick so voller Bedauern und Schmerz, daß es Dir fast das Herz bricht, wendet sich das todgeweihte, schöne Wesen um und trottet langsam davon, ohne sich noch einmal nach Dir umzudrehen, bis es zwischen den Bäumen verschwunden ist...
         return;
     }
 
@@ -997,36 +998,36 @@ x7fd9:
 }
 
 
-void Func7fda() { // WENDE
+void PartA_HandleWende() { // Part A, script $7fda; command 40 (WENDE), SELECT $7782 case 3
     if ( object2 == DAVE ) {
-        if ( object1 == BADEHOSE && objectstatus[BADEHOSE] == 0x00 ) {
-            if ( objectstatus[JEANS] == 0x01 ) {
-                textoutput = 0x18; // text ID 24 (0x0018), script $7ff5: B1 record 126: Wie soll denn DAS funktionieren?
+        if ( object1 == BADEHOSE && objectState[BADEHOSE] == 0x00 ) {
+            if ( objectState[JEANS] == 0x01 ) {
+                pendingTextID = 0x18; // text ID 24 (0x0018), script $7ff5: B1 record 126: Wie soll denn DAS funktionieren?
                 return;
             }
-            textoutput = 0x62; // text ID 98 (0x0062), script $7ffd: B1 record 200: Du ziehst Deine Badehose an, überprüfst ihren Sitz an den wichtigsten Stellen und nickst selbstzufrieden (Mein Gott! Sieh bloß zu, daß Dich so niemand sieht - sonst wirst Du den Rest Deines Urlaubs wie ein Mönch verbringen müssen!).
-            pointsum = pointsum + points[object1];
-            points[object1] = 0x00;
-            objectstatus[BADEHOSE] = 0x01;
-            objectposition[BADEHOSE] = 0xff;
+            pendingTextID = 0x62; // text ID 98 (0x0062), script $7ffd: B1 record 200: Du ziehst Deine Badehose an, überprüfst ihren Sitz an den wichtigsten Stellen und nickst selbstzufrieden (Mein Gott! Sieh bloß zu, daß Dich so niemand sieht - sonst wirst Du den Rest Deines Urlaubs wie ein Mönch verbringen müssen!).
+            score = score + remainingPoints[object1];
+            remainingPoints[object1] = 0x00;
+            objectState[BADEHOSE] = 0x01;
+            objectLocation[BADEHOSE] = 0xff;
             return;
         } else {
-            if ( object1 == JEANS && objectstatus[JEANS] == 0x00 ) {
-                textoutput = 0xa1; // text ID 161 (0x00a1), script $8028: B1 record 263: Du steigst wieder in Deine Jeans.
-                objectstatus[JEANS] = 0x01;
-                objectposition[JEANS] = 0xff;
+            if ( object1 == JEANS && objectState[JEANS] == 0x00 ) {
+                pendingTextID = 0xa1; // text ID 161 (0x00a1), script $8028: B1 record 263: Du steigst wieder in Deine Jeans.
+                objectState[JEANS] = 0x01;
+                objectLocation[JEANS] = 0xff;
                 return;
             } else {
-                if ( object1 == TURNSCHUHE && objectstatus[TURNSCHUHE] == 0x00 ) {
-                    textoutput = 0xa2; // text ID 162 (0x00a2), script $8049: B1 record 264: Also, wenn Du mich fragst, dann täte Deinen Füßen noch ein wenig Frischluft gut - aber okay: Du trägst jetzt wieder Deine Turnschuhe.
-                    objectstatus[TURNSCHUHE] = 0x01;
-                    objectposition[TURNSCHUHE] = 0xff;
+                if ( object1 == TURNSCHUHE && objectState[TURNSCHUHE] == 0x00 ) {
+                    pendingTextID = 0xa2; // text ID 162 (0x00a2), script $8049: B1 record 264: Also, wenn Du mich fragst, dann täte Deinen Füßen noch ein wenig Frischluft gut - aber okay: Du trägst jetzt wieder Deine Turnschuhe.
+                    objectState[TURNSCHUHE] = 0x01;
+                    objectLocation[TURNSCHUHE] = 0xff;
                     return;
                 } else {
-                    if ( object1 == TSHIRT && objectstatus[TSHIRT] == 0x00 ) {
-                        textoutput = 0xa3; // text ID 163 (0x00a3), script $806a: B1 record 265: Du zwängst Dich in Dein T-Shirt hinein: Hach! Da fühlt man sich doch gleich wieder viel cooler!
-                        objectstatus[TSHIRT] = 0x01;
-                        objectposition[TSHIRT] = 0xff;
+                    if ( object1 == TSHIRT && objectState[TSHIRT] == 0x00 ) {
+                        pendingTextID = 0xa3; // text ID 163 (0x00a3), script $806a: B1 record 265: Du zwängst Dich in Dein T-Shirt hinein: Hach! Da fühlt man sich doch gleich wieder viel cooler!
+                        objectState[TSHIRT] = 0x01;
+                        objectLocation[TSHIRT] = 0xff;
                         return;
                     }
                 }
@@ -1035,49 +1036,49 @@ void Func7fda() { // WENDE
     }
     if ( object1 == DAVE ) {
         if ( object2 == ABENTEURER || object2 == ORKKIND || object2 == KADAVER || object2 == CU_SATH || object2 == EREMIT || object2 == FAEHRMANN || object2 == FIRON || object2 == PORTIER || object2 == KOENIG || object2 == MYLGOR || object2 == DORFBEWOHNER || object2 == VERKAEUFER || object2 == YETI || object2 == ZARGON ) {
-            textoutput = 0x65; // text ID 101 (0x0065), script $80cf: B1 record 203: Hey, Du! Ich bin bloß ein Computer! Das wird "C-O-M-P-U-T-E-R" geschrieben! Sprich mir nach: "Kooom-Piuuu-Tääär"! Fein, und jetzt denk' Dir mal was Realistischeres aus...
+            pendingTextID = 0x65; // text ID 101 (0x0065), script $80cf: B1 record 203: Hey, Du! Ich bin bloß ein Computer! Das wird "C-O-M-P-U-T-E-R" geschrieben! Sprich mir nach: "Kooom-Piuuu-Tääär"! Fein, und jetzt denk' Dir mal was Realistischeres aus...
             return;
         }
         if ( object2 == GAESTEBETT ) {
-            textoutput = 0x63; // text ID 99 (0x0063), script $80dd: B1 record 201: Also, zum Schlafen bist Du doch wohl nicht hierher gekommen, oder?
+            pendingTextID = 0x63; // text ID 99 (0x0063), script $80dd: B1 record 201: Also, zum Schlafen bist Du doch wohl nicht hierher gekommen, oder?
             return;
         }
         if ( object2 == STUHL ) {
-            textoutput = 0xa5; // text ID 165 (0x00a5), script $80eb: B1 record 267: Du setzt Dich hin, um darüber nachzusinnen, was Du als nächstes tun könntest, aber mit einem Blick auf die Tischplatte vor Dir - eine Tischplatte ohne Deinen geliebten Computer darauf - fragst Du Dich verwirrt, wofür Du Dich überhaupt hingesetzt hast - denn was sollte man schon mit einem Tisch anfangen können, auf dem sich kein Monitor befindet? Da Du als eingefleischter Medientrottel leider außerstande bist, eine Antwort auf diese brennende und weltbewegende Frage zu finden, stehst Du frustriert wieder auf, um etwas Produktiveres zu tun als lediglich herumzusitzen...
+            pendingTextID = 0xa5; // text ID 165 (0x00a5), script $80eb: B1 record 267: Du setzt Dich hin, um darüber nachzusinnen, was Du als nächstes tun könntest, aber mit einem Blick auf die Tischplatte vor Dir - eine Tischplatte ohne Deinen geliebten Computer darauf - fragst Du Dich verwirrt, wofür Du Dich überhaupt hingesetzt hast - denn was sollte man schon mit einem Tisch anfangen können, auf dem sich kein Monitor befindet? Da Du als eingefleischter Medientrottel leider außerstande bist, eine Antwort auf diese brennende und weltbewegende Frage zu finden, stehst Du frustriert wieder auf, um etwas Produktiveres zu tun als lediglich herumzusitzen...
             return;
         }
         if ( object2 == KLEIDERSCHRANK ) {
-            textoutput = 0x026c; // text ID 620 (0x026c), script $80f9: B1 record 311: Hastig reißt Du die Tür des Kleiderschranks auf, hechtest hinein und schließt die Tür hinter Dir. Zitternd horchst Du in die Stille, doch Dein pumpender Herzschlag ist alles, was Du hören kannst. Mann! Du bist im Urlaub! Hier gibt es keine Väter, die besorgt in das Zimmer ihrer Tochter schleichen! Du bist hier in Sicherheit! Muß wohl die Macht der Gewohnheit gewesen sein, wie? Schweißgebadet verläßt Du Dein Versteck wieder...
+            pendingTextID = 0x026c; // text ID 620 (0x026c), script $80f9: B1 record 311: Hastig reißt Du die Tür des Kleiderschranks auf, hechtest hinein und schließt die Tür hinter Dir. Zitternd horchst Du in die Stille, doch Dein pumpender Herzschlag ist alles, was Du hören kannst. Mann! Du bist im Urlaub! Hier gibt es keine Väter, die besorgt in das Zimmer ihrer Tochter schleichen! Du bist hier in Sicherheit! Muß wohl die Macht der Gewohnheit gewesen sein, wie? Schweißgebadet verläßt Du Dein Versteck wieder...
             return;
         }
     }
-    textoutput = 0x67; // text ID 103 (0x0067), script $8103: B1 record 205: Also gut: Schwamm drüber! Vergessen wir's, und reden wir nicht mehr davon! Aber gib jetzt bitte mal etwas Sinnvolleres ein - mir wird's langsam zu langweilig!
+    pendingTextID = 0x67; // text ID 103 (0x0067), script $8103: B1 record 205: Also gut: Schwamm drüber! Vergessen wir's, und reden wir nicht mehr davon! Aber gib jetzt bitte mal etwas Sinnvolleres ein - mir wird's langsam zu langweilig!
 
 x8107:
     return;
 }
 
 
-void Func8108() { // BEFESTIGE
-    textoutput = 0x18; // text ID 24 (0x0018), script $8108: B1 record 126: Wie soll denn DAS funktionieren?
+void PartA_HandleBefestige() { // Part A, script $8108; command 41 (BEFESTIGE), SELECT $7782 case 4
+    pendingTextID = 0x18; // text ID 24 (0x0018), script $8108: B1 record 126: Wie soll denn DAS funktionieren?
     return;
 }
 
 
-void Func810d() { // GIB
-    textoutput = 0x12; // text ID 18 (0x0012), script $810d: B1 record 120: Ist ja wirklich lieb gemeint, aber was sollte man denn DAMIT schon anfangen können...?
+void PartA_HandleGib() { // Part A, script $810d; command 42 (GIB), SELECT $7782 case 5
+    pendingTextID = 0x12; // text ID 18 (0x0012), script $810d: B1 record 120: Ist ja wirklich lieb gemeint, aber was sollte man denn DAMIT schon anfangen können...?
     return;
 }
 
 
-void Func8112() { // VERRIEGELE
+void PartA_HandleVerriegele() { // Part A, script $8112; command 43 (VERRIEGELE), SELECT $7782 case 6
     tableptr = data0x82d7;
     temp = 0x01;
 
 x8119:
-    addr6996 = *tableptr++;
-    addr699a = *tableptr++;
-    if ( addr6996 == object1 ) {
+    scratch1 = *tableptr++;
+    scratch3 = *tableptr++;
+    if ( scratch1 == object1 ) {
         goto x8135;
     }
     temp = temp + 0x01;
@@ -1087,16 +1088,16 @@ x8119:
 
 x8135:
     if ( temp > 0x0c ) {
-        textoutput = 0x15; // text ID 21 (0x0015), script $813b: B1 record 123: Tut mir ja wirklich ganz fürchterlich leid, aber DAS kannst Du nun wirklich nicht abschließen!
+        pendingTextID = 0x15; // text ID 21 (0x0015), script $813b: B1 record 123: Tut mir ja wirklich ganz fürchterlich leid, aber DAS kannst Du nun wirklich nicht abschließen!
         return;
     }
-    if ( addr699a != object2 ) {
+    if ( scratch3 != object2 ) {
         tableptr = data0x82ef;
         temp = 0x01;
 
 x814f:
-        addr6996 = *tableptr++;
-        if ( addr6996 == object1 ) {
+        scratch1 = *tableptr++;
+        if ( scratch1 == object1 ) {
             goto x8169;
         }
         temp = temp + 0x01;
@@ -1106,22 +1107,22 @@ x814f:
 
 x8169:
         if ( temp > 0x07 ) {
-            textoutput = 0x14; // text ID 20 (0x0014), script $816f: B1 record 122: Wie willst Du denn DAMIT etwas abschließen?
+            pendingTextID = 0x14; // text ID 20 (0x0014), script $816f: B1 record 122: Wie willst Du denn DAMIT etwas abschließen?
             return;
         }
-        textoutput = 0x6a; // text ID 106 (0x006a), script $8177: B1 record 208: Mist! Entschuldige bitte, aber das hier scheint einfach nicht der richtige Schlüssel zu sein - er paßt leider nicht.
+        pendingTextID = 0x6a; // text ID 106 (0x006a), script $8177: B1 record 208: Mist! Entschuldige bitte, aber das hier scheint einfach nicht der richtige Schlüssel zu sein - er paßt leider nicht.
         return;
     } else {
-        if ( addr699a == object2 ) {
-            if ( objectstatus[object1] == 0x00 ) {
-                textoutput = 0x68; // text ID 104 (0x0068), script $818b: B1 record 206: Aber das ist doch bereits abgeschlossen!
+        if ( scratch3 == object2 ) {
+            if ( objectState[object1] == 0x00 ) {
+                pendingTextID = 0x68; // text ID 104 (0x0068), script $818b: B1 record 206: Aber das ist doch bereits abgeschlossen!
                 return;
             } else {
-                if ( objectstatus[object1] == 0x02 || objectstatus[object1] == 0x01 ) {
-                    if ( objectstatus[object1] == 0x01 ) {
-                        Func7aac();
+                if ( objectState[object1] == 0x02 || objectState[object1] == 0x01 ) {
+                    if ( objectState[object1] == 0x01 ) {
+                        PartA_HandleSchliesse();
                     }
-                    objectstatus[object1] = 0x00;
+                    objectState[object1] = 0x00;
                 }
             }
         }
@@ -1132,14 +1133,14 @@ x81b4:
 }
 
 
-void Func81b5() { // ENTRIEGELE
+void PartA_HandleEntriegele() { // Part A, script $81b5; command 44 (ENTRIEGELE), SELECT $7782 case 7
     tableptr = data0x82d7;
     temp = 0x01;
 
 x81bc:
-    addr6996 = *tableptr++;
-    addr699a = *tableptr++;
-    if ( addr6996 == object1 ) {
+    scratch1 = *tableptr++;
+    scratch3 = *tableptr++;
+    if ( scratch1 == object1 ) {
         goto x81d8;
     }
     temp = temp + 0x01;
@@ -1149,16 +1150,16 @@ x81bc:
 
 x81d8:
     if ( temp > 0x0c ) {
-        textoutput = 0x18; // text ID 24 (0x0018), script $81de: B1 record 126: Wie soll denn DAS funktionieren?
+        pendingTextID = 0x18; // text ID 24 (0x0018), script $81de: B1 record 126: Wie soll denn DAS funktionieren?
         return;
     }
-    if ( addr699a != object2 ) {
+    if ( scratch3 != object2 ) {
         tableptr = data0x82ef;
         temp = 0x01;
 
 x81f2:
-        addr6996 = *tableptr++;
-        if ( addr6996 == object2 ) {
+        scratch1 = *tableptr++;
+        if ( scratch1 == object2 ) {
             goto x820c;
         }
         temp = temp + 0x01;
@@ -1168,23 +1169,23 @@ x81f2:
 
 x820c:
         if ( temp > 0x07 ) {
-            textoutput = 0x17; // text ID 23 (0x0017), script $8212: B1 record 125: Also, DAMIT kann man ja nun wiklich nichts aufschlißen, oder?
+            pendingTextID = 0x17; // text ID 23 (0x0017), script $8212: B1 record 125: Also, DAMIT kann man ja nun wiklich nichts aufschlißen, oder?
             return;
         }
-        textoutput = 0x6a; // text ID 106 (0x006a), script $821a: B1 record 208: Mist! Entschuldige bitte, aber das hier scheint einfach nicht der richtige Schlüssel zu sein - er paßt leider nicht.
+        pendingTextID = 0x6a; // text ID 106 (0x006a), script $821a: B1 record 208: Mist! Entschuldige bitte, aber das hier scheint einfach nicht der richtige Schlüssel zu sein - er paßt leider nicht.
         return;
     } else {
-        if ( addr699a == object2 ) {
-            if ( objectstatus[object1] > 0x00 ) {
-                textoutput = 0x69; // text ID 105 (0x0069), script $822e: B1 record 207: Das ist aber doch schon längst entriegelt!
+        if ( scratch3 == object2 ) {
+            if ( objectState[object1] > 0x00 ) {
+                pendingTextID = 0x69; // text ID 105 (0x0069), script $822e: B1 record 207: Das ist aber doch schon längst entriegelt!
                 return;
             } else {
-                if ( objectstatus[object1] == 0x00 ) {
-                    objectstatus[object1] = 0x02;
-                    textoutput = 0x16; // text ID 22 (0x0016), script $8242: B1 record 124: Okay, aufgeschlossen.
+                if ( objectState[object1] == 0x00 ) {
+                    objectState[object1] = 0x02;
+                    pendingTextID = 0x16; // text ID 22 (0x0016), script $8242: B1 record 124: Okay, aufgeschlossen.
                     if ( object1 == ZIMMERTUER2 ) {
-                        pointsum = pointsum + points[0x31];
-                        points[0x31] = 0x00;
+                        score = score + remainingPoints[0x31];
+                        remainingPoints[0x31] = 0x00;
                     }
                 }
             }

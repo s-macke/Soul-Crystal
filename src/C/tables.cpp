@@ -7,10 +7,10 @@ void WriteTable(const char *tablename) {
 int main() {
     LoadVSF("data/C64/snapshots/diskb1.vsf");
 
-    WriteTable("objectdescription");
-    WriteTable("points");
-    WriteTable("objectposition");
-    WriteTable("objectstatus");
+    WriteTable("objectDescriptionID");
+    WriteTable("remainingPoints");
+    WriteTable("objectLocation");
+    WriteTable("objectState");
     WriteTable("north");
     WriteTable("south");
     WriteTable("west");
@@ -29,10 +29,10 @@ int main() {
     WriteTable(""); // 0x8366 (SPRICH)
 
 
-//		s = s + std::string(", 0x")+IntToHex(memory[0x69C6+i*2+0] | (memory[0x69C6+i*2+1]<<8) ,4); //objectdescription
-//		s = s + std::string(", 0x")+IntToHex(memory[0x6b12+i*2+0] | (memory[0x6b12+i*2+1]<<8) ,4); //points
-//		s = s + std::string(",0x")+IntToHex(memory[0x6C5E+i],2); //objectposition
-//		s = s + std::string(",0x")+IntToHex(memory[0x6D04+i],2); //objectstatus
+//		s = s + std::string(", 0x")+IntToHex(memory[0x69C6+i*2+0] | (memory[0x69C6+i*2+1]<<8) ,4); //objectDescriptionID
+//		s = s + std::string(", 0x")+IntToHex(memory[0x6b12+i*2+0] | (memory[0x6b12+i*2+1]<<8) ,4); //remainingPoints
+//		s = s + std::string(",0x")+IntToHex(memory[0x6C5E+i],2); //objectLocation
+//		s = s + std::string(",0x")+IntToHex(memory[0x6D04+i],2); //objectState
 //		s = s + std::string(",0x")+IntToHex(memory[0x6DAA+i],2); //nord
 //		s = s + std::string(",0x")+IntToHex(memory[0x6E12+i],2); //south
 //		s = s + std::string(",0x")+IntToHex(memory[0x6E7A+i],2); //west

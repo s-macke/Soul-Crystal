@@ -347,19 +347,19 @@ void InterpretVariableWrite(std::string &str, unsigned short addr) {
         str += "down";
         lastvariable = 46;
     } else if (x == 0xA6) {
-        str += "objectposition";
+        str += "objectLocation";
         lastvariable = 47;
     } else if (x == 0xA7) {
-        str += "objectstatus";
+        str += "objectState";
         lastvariable = 48;
     } else if (x == 0xA8) {
         str += "visited";  //visited
         lastvariable = 49;
     } else if (x == 0xB0) {
-        str += "points";
+        str += "remainingPoints";
         lastvariable = 50;
     } else if (x == 0xB1) {
-        str += "objectdescription";
+        str += "objectDescriptionID";
         lastvariable = 51;
     } else
 //	if (x == 0xB2) str += "tab12"; else
@@ -442,11 +442,11 @@ void InterpretVariableRead(std::string &str, int addr) {
         lastvariable = 20;
     } else    //0x6FB2
     if (x == 0xA6) {
-        str += "objectposition";
+        str += "objectLocation";
         lastvariable = 21;
     } else    //0x6C5E
     if (x == 0xA7) {
-        str += "objectstatus";
+        str += "objectState";
         lastvariable = 22;
     } else    //0x6D04
     if (x == 0xA8) {
@@ -457,11 +457,11 @@ void InterpretVariableRead(std::string &str, int addr) {
 //tab 10, 11, 12 sind unsigned short
 
     if (x == 0xB0) {
-        str += "points";
+        str += "remainingPoints";
         lastvariable = 24;
     } else    //0x6B12
     if (x == 0xB1) {
-        str += "objectdescription";
+        str += "objectDescriptionID";
         lastvariable = 25;
     } else    //0x69C6
     if (x == 0xC0) {

@@ -562,10 +562,10 @@ void Button7Click() {
 //	for(int i=0; i<0x167; i++) //objects
 	{
 
-//		s = s + std::string(", 0x")+IntToHex(memory[0x69C6+i*2+0] | (memory[0x69C6+i*2+1]<<8) ,4); //objectdescription
-//		s = s + std::string(", 0x")+IntToHex(memory[0x6b12+i*2+0] | (memory[0x6b12+i*2+1]<<8) ,4); //points
-//		s = s + std::string(",0x")+IntToHex(memory[0x6C5E+i],2); //objectposition
-//		s = s + std::string(",0x")+IntToHex(memory[0x6D04+i],2); //objectstatus
+//		s = s + std::string(", 0x")+IntToHex(memory[0x69C6+i*2+0] | (memory[0x69C6+i*2+1]<<8) ,4); //objectDescriptionID
+//		s = s + std::string(", 0x")+IntToHex(memory[0x6b12+i*2+0] | (memory[0x6b12+i*2+1]<<8) ,4); //remainingPoints
+//		s = s + std::string(",0x")+IntToHex(memory[0x6C5E+i],2); //objectLocation
+//		s = s + std::string(",0x")+IntToHex(memory[0x6D04+i],2); //objectState
 //		s = s + std::string(",0x")+IntToHex(memory[0x6DAA+i],2); //nord
 //		s = s + std::string(",0x")+IntToHex(memory[0x6E12+i],2); //south
 //		s = s + std::string(",0x")+IntToHex(memory[0x6E7A+i],2); //west
