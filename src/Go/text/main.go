@@ -69,33 +69,53 @@ func pointerOffset(buf []byte, idx int) (int, error) {
 	return pos, nil
 }
 
-func decodeChar(buf []byte, bytePos *int, bitPos *int) byte {
-	pos := 0
-	for {
-		bit := (buf[*bytePos] >> *bitPos) & 1
-		a := buf[0x200+pos]
-		b := buf[0x280+pos]
-
-		if bit == 1 && a >= 128 {
-			return a
+// decodeScreen preserves the native 40-column text, including padding spaces.
+func decodeScreen(buf []byte, idx int) ([]string, error) {
+	pos, err := pointerOffset(buf, idx)
+	if err != nil {
+		return nil, err
+	}
+	if pos < 0 || pos+4 > len(buf) {
+		return nil, fmt.Errorf("invalid record %d", idx)
+	}
+	n := 65536 - int(buf[pos+2]) - (int(buf[pos+3]) << 8)
+	if n < 1 || n > 32768 {
+		return nil, fmt.Errorf("invalid decoded length %d", n)
+	}
+	bytePos, bitPos := pos+4, 7
+	var lines []string
+	var line strings.Builder
+	for i := 0; i < n; i++ {
+		node := 0
+		var v byte
+		for depth := 0; ; depth++ {
+			if bytePos >= len(buf) || node >= 128 || depth >= 128 {
+				return nil, fmt.Errorf("invalid Huffman stream in record %d", idx)
+			}
+			bit := (buf[bytePos] >> bitPos) & 1
+			if bit == 1 {
+				v = buf[0x200+node]
+			} else {
+				v = buf[0x280+node]
+			}
+			bitPos--
+			if bitPos < 0 {
+				bytePos++
+				bitPos = 7
+			}
+			if v >= 128 {
+				break
+			}
+			node = int(v)
 		}
-		if bit == 0 && b >= 128 {
-			return b
-		}
-		if bit == 1 {
-			pos = int(a)
-		} else {
-			pos = int(b)
-		}
-
-		*bitPos--
-		if *bitPos == -1 {
-			*bytePos++
-			*bitPos = 7
+		line.WriteString(soulChar(v))
+		if (i+1)%40 == 0 || i+1 == n {
+			lines = append(lines, line.String())
+			line.Reset()
 		}
 	}
+	return lines, nil
 }
-
 func soulChar(v byte) string {
 	idx := int(v) - 0x40
 	if idx < 0 || idx >= len(soulToASCII) {
@@ -103,37 +123,19 @@ func soulChar(v byte) string {
 	}
 	return soulToASCII[idx]
 }
-
 func decodeString(buf []byte, idx int) (string, error) {
-	pos, err := pointerOffset(buf, idx)
+	lines, err := decodeScreen(buf, idx)
 	if err != nil {
 		return "", err
 	}
-	bytePos := pos + 4
-	bitPos := 7
-	n := 0x10000 - int(buf[pos+2]) - int(buf[pos+3])<<8
-
-	var out strings.Builder
-	for i := 0; i < n; i++ {
-		out.WriteString(soulChar(decodeChar(buf, &bytePos, &bitPos)))
-		bitPos--
-		if bitPos == -1 {
-			bytePos++
-			bitPos = 7
-		}
-		if (i+1)%40 == 0 && i+1 < n {
-			out.WriteByte('\n')
-		}
-	}
-	lines := strings.Split(out.String(), "\n")
 	for i, line := range lines {
 		lines[i] = strings.Join(strings.Fields(line), " ")
 	}
 	return strings.TrimSpace(strings.Join(lines, "\n")), nil
 }
 
-func main() {
-	if err := os.MkdirAll("texts", 0o755); err != nil {
+func exportMarkdown() {
+	if err := os.MkdirAll("texts/C64", 0o755); err != nil {
 		panic(err)
 	}
 
@@ -146,7 +148,7 @@ func main() {
 			panic(fmt.Errorf("%s has unexpected size %d", disk.path, len(buf)))
 		}
 
-		outPath := filepath.Join("texts", disk.name+".md")
+		outPath := filepath.Join("texts/C64", disk.name+".md")
 		f, err := os.Create(outPath)
 		if err != nil {
 			panic(err)

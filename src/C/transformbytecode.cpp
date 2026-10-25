@@ -4,6 +4,8 @@
 #include<string>
 #include<vector>
 #include<stdint.h>
+#include<filesystem>
+#include "text_comments.generated.h"
 
 #include"tables.h"
 #include"disk.h"
@@ -220,6 +222,7 @@ struct Token {
     bool isjump;
     TokenType type;
     int data;
+    bool isConstant;
     std::string str;
 };
 
@@ -229,7 +232,7 @@ std::vector <Token> tokens;
 void Token() {
     uint16_t x;
     unsigned char token = ram[pc];
-    struct Token t;
+    struct Token t{};
     t.addr = pc;
     t.type = UNDEF;
     t.isjump = false;
@@ -259,6 +262,11 @@ void Token() {
 
     std::string str = ReadNextVariable(token);
     if (!str.empty()) {
+        t.isConstant = token == 0xC0 || token == 0xC1;
+        if (t.isConstant) {
+            t.data = ram[t.addr + 1];
+            if (token == 0xC1) t.data |= unsigned(ram[t.addr + 2]) << 8;
+        }
         t.str = str;
         t.type = TokenType::VARIABLE;
         tokens.push_back(t);
@@ -568,8 +576,9 @@ void Indent(int indent, FILE *fp) {
     for (int j = 0; j < indent; j++) fprintf(fp, "    ");
 }
 
-void ToC(const char* filename, const char *texts[]) {
+void ToC(const char* filename, const std::map<unsigned, std::string>& comments) {
     int k = 0;
+    int selectAddr = 0;
     FILE *fp = fopen(filename, "w");
     if (fp == NULL) {
         printf("Error: Cannot open file to write\n");
@@ -650,10 +659,13 @@ void ToC(const char* filename, const char *texts[]) {
                 if (tokens[i + 1].type == VARIABLE && tokens[i + 2].type == EQ) {
                     fprintf(fp, "%s = %s;", tokens[i].str.c_str(), tokens[i + 1].str.c_str());
                     if (tokens[i + 0].str == "textoutput") {
-                        try {
-                            unsigned int hex = std::stoul(tokens[i + 1].str, nullptr, 16);
-                            if (hex < 0x100) fprintf(fp, " // %s", texts[hex]);
-                        } catch (...) {
+                        if (tokens[i + 1].isConstant) {
+                            unsigned id = tokens[i + 1].data;
+                            auto found = comments.find(id);
+                            fprintf(fp, " // text ID %u (0x%04x), script $%04x: %s", id, id,
+                                tokens[i].addr, found == comments.end() ? "outside mapped message range; engine special/error path" : found->second.c_str());
+                        } else {
+                            fprintf(fp, " // dynamic text ID, script $%04x; resolve through texts/C64/text_ids.json", tokens[i].addr);
                         }
                     }
                     i += 3;
@@ -722,10 +734,12 @@ void ToC(const char* filename, const char *texts[]) {
 
             case TokenType::SELECT:
                 Indent(indent, fp);
+                selectAddr = tokens[i].addr;
                 i++;
-                fprintf(fp, "switch(%s) {\n", tokens[i].str.c_str());
+                fprintf(fp, "switch(%s) { // SELECT script $%04x; original cases are 1-based\n", tokens[i].str.c_str(), selectAddr);
                 i++;
-                k = 0;
+                // $2C65 initializes the original SELECT CASE counter to one.
+                k = 1;
                 while (tokens[i].type == TokenType::CASE) {
                     Indent(indent + 1, fp);
                     fprintf(fp, " case %i: Func%04x(); break;\n", k, tokens[i].data);
@@ -738,7 +752,12 @@ void ToC(const char* filename, const char *texts[]) {
 
             case TokenType::FUNC:
                 Indent(indent, fp);
-                fprintf(fp, "%s;", tokens[i].str.c_str());
+                // A trailing // annotation must not swallow the statement semicolon.
+                {
+                    const auto comment = tokens[i].str.find(" // ");
+                    if (comment == std::string::npos) fprintf(fp, "%s;", tokens[i].str.c_str());
+                    else fprintf(fp, "%s;%s", tokens[i].str.substr(0, comment).c_str(), tokens[i].str.substr(comment).c_str());
+                }
                 i++;
                 break;
 
@@ -787,6 +806,7 @@ void ToC(const char* filename, const char *texts[]) {
 
 void Init() {
     casen = 1;
+    lasttoken = 0;
     tokens.clear();
     memset(ram, 0, 0x10000);
     memset(iscode, 0, 0x10000);
@@ -815,7 +835,10 @@ void LoadByteCode(const char* filename) {
 */
 
 
-int main() {
+int main(int argc, char **argv) {
+    if (argc > 2) { fprintf(stderr, "Usage: %s [output-directory]\n", argv[0]); return 2; }
+    const std::string outDir = argc == 2 ? argv[1] : "out";
+    std::filesystem::create_directories(outDir);
     int size;
     //LoadByteCode("data/C64/d64/Soul Crystal SideB1.d64");
     //LoadByteCode("data/C64/d64/Soul Crystal SideC2.d64");
@@ -833,28 +856,28 @@ int main() {
     //size = 0x2000;
     WalkCode(0x7600, size);
     TransformByteCode(size);
-    ToC("out/parta.c", texta);
+    ToC((outDir + "/parta.c").c_str(), text_comments_B1);
 
     Init();
     LoadVSF("data/C64/snapshots/diskb2.vsf");
     size = 7864;
     WalkCode(0x7600, size);
     TransformByteCode(size);
-    ToC("out/partb.c", textb);
+    ToC((outDir + "/partb.c").c_str(), text_comments_B2);
 
     Init();
     LoadVSF("data/C64/snapshots/diskc1.vsf");
     size = 3721;
     WalkCode(0x7600, size);
     TransformByteCode(size);
-    ToC("out/partc.c", textc);
+    ToC((outDir + "/partc.c").c_str(), text_comments_C1);
 
     Init();
     LoadVSF("data/C64/snapshots/diskc2.vsf");
     size = 6914;
     WalkCode(0x7600, size);
     TransformByteCode(size);
-    ToC("out/partd.c", textd);
+    ToC((outDir + "/partd.c").c_str(), text_comments_C2);
     return 0;
 }
 

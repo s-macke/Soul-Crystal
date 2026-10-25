@@ -1,0 +1,148 @@
+{
+  "note": "Audit of the pre-change out/part*.c files. Different text includes punctuation edits as well as wrong passages; not every difference is an ID shift.",
+  "parts": [
+    {
+      "part": "a",
+      "side": "B1",
+      "previous_comments": {
+        "nonstatic_or_unavailable": 6,
+        "correct_ignoring_whitespace": 68,
+        "different_text": 6,
+        "missing_comment": 6
+      },
+      "examples": [
+        {
+          "id": 28,
+          "old": "\"Soul Crystal\", V1.5, written from 1989 to 1992 by Avantgardistic Arts, (C) 1992 by Avantgardistic Arts, Hannover & Starbyte Software, Bochum. A.C.A sind: Chris Link (Spielkonzept, Gamedesign, Tools, Texte, Soundtrack und Effekte), Kai Schulze (Spielkonzept, Gamedesign, Intro- und Parser-Programmierung AMIGA, Tools), Michael Niemeyer (Intro-Programmierung C-64, Tools), Carsten Jendro (Kernal- und Parserprogrammierung C-64), Henrik Fisch (Kernal- und Introprogrammierung MS-DOS), Kjersten Waldheim (Parserprogrammierung MS-DOS), Oliver Brühl (Grafiken und Animationen AMIGA & MS-DOS) und Klaus Adamovsky (Graphiken C-64). Besonderer Dank gilt Johnny, der \"bayrischen Forelle\" - stellvertretend für all die Leute, die mitgeholfen haben, \"Soul Crystal\" zu dem zu machen, was Ihr jetzt in den Händen haltet, indem sie uns Unmengen wertvoller Tips, Hinweise und Denkanstöße gaben, und uns nach jedem Nervenzusammenbruch auf\"s Neue halfen, uns weiter an die Verwirklichung unserer größenwahnsinnigen Ideen zu setzen. Ohne sie wäre das Projekt \"Soul Crystal\" wahrscheinlich niemals über die Planungsphase hinausgekommen.",
+          "correct": "\"Soul Crystal\", V1.5, written from 1989 to 1992 by Avantgardistic Arts, (C) 1992 by Avantgardistic Arts, Hannover & Starbyte Software, Bochum. A.C.A sind: Chris Link (Spielkonzept, Gamedesign, Tools, Texte, Soundtrack und Effekte), Kai Schulze (Spielkonzept, Gamedesign, Intro- und Parser-Programmierung AMIGA, Tools), Michael Niemeyer (Intro-Programmierung C-64, Tools), Carsten Jendro (Kernal- und Parserprogrammierung C-64), Henrik Fisch (Kernal- und Introprogrammierung MS-DOS), Kjersten Waldheim (Parserprogrammierung MS-DOS), Oliver Brühl (Grafiken und Animationen AMIGA & MS-DOS) und Klaus Adamovsky (Graphiken C-64). Besonderer Dank gilt Johnny, der \"bayrischen Forelle\" - stellvertretend für all die Leute, die mitgeholfen haben, \"Soul Crystal\" zu dem zu machen, was Ihr jetzt in den Händen haltet, indem sie uns Unmengen wertvoller Tips, Hinweise und Denkanstöße gaben, und uns nach jedem Nervenzusammenbruch auf's Neue halfen, uns weiter an die Verwirklichung unserer größenwahnsinnigen Ideen zu setzen. Ohne sie wäre das Projekt \"Soul Crystal\" wahrscheinlich niemals über die Planungsphase hinausgekommen.",
+          "record": 130
+        },
+        {
+          "id": 51,
+          "old": "Also, jetzt reicht\"s ja wohl! Als ob es nicht schon reichen würde, daß Du blind wie ein Maulwurf durch die Gegend rennst: Jetzt versuchst Du Dich auch noch artgerecht durchs Erdreich zu buddeln! Mal ganz ehrlich: Man kann es mit der Realitätstreue in Adventures auch übertreiben...",
+          "correct": "Also, jetzt reicht's ja wohl! Als ob es nicht schon reichen würde, daß Du blind wie ein Maulwurf durch die Gegend rennst: Jetzt versuchst Du Dich auch noch artgerecht durchs Erdreich zu buddeln! Mal ganz ehrlich: Man kann es mit der Realitätstreue in Adventures auch übertreiben...",
+          "record": 153
+        },
+        {
+          "id": 65,
+          "old": "Nachdem Du eine halbe Stunde lang vergeblich in Deinen Taschen gewühlt hast, wird Dir klar, daß das Ding, das Du gerade so achtlos in die Gegend werfen wolltest, bereits in derselben liegt! Jaja, wenn\"s anfängt - dann im Kopf, gell?",
+          "correct": "Nachdem Du eine halbe Stunde lang vergeblich in Deinen Taschen gewühlt hast, wird Dir klar, daß das Ding, das Du gerade so achtlos in die Gegend werfen wolltest, bereits in derselben liegt! Jaja, wenn's anfängt - dann im Kopf, gell?",
+          "record": 167
+        },
+        {
+          "id": 150,
+          "old": "Oh nein! Bitte erzähl\" mir jetzt nicht, daß Du einer von den Typen bist, die kein Hotel verlassen können, ohne sich zuvor ein kleines \"Souvenir\" (z.B. Handtücher, Aschenbecher oder Zimmerfernseher...) organisiert zu haben! Also ehrlich: Du hast es doch wohl nicht nötig, zu stehlen, oder? Außerdem: Was willst Du überhaupt mit der Speisekarte? Selbst wenn wir mal davon ausgingen, daß der Verdacht nicht auf Dich fiele, was unwahrscheinlich ist, da Du zur Zeit nun mal der einzige Gast des Hotels bist, so hätte die Karte doch überhaupt keinen Wert für Dich! Mary hingegen, die Besitzerin des Hotels, wäre sicherlich nicht sehr glücklich, wenn sie Deinetwegen extra einen neuen Satz Speisekarten bestellen müßte. Es ist hier auf dem Lande nämlich nicht ganz so einfach, solche Dinge zu bekommen, wie Du verwöhnter Stadtjunge Dir vielleicht denkst! Also: Finger weg, sonst Finger ab!",
+          "correct": "Oh nein! Bitte erzähl' mir jetzt nicht, daß Du einer von den Typen bist, die kein Hotel verlassen können, ohne sich zuvor ein kleines \"Souvenir\" (z.B. Handtücher, Aschenbecher oder Zimmerfernseher...) organisiert zu haben! Also ehrlich: Du hast es doch wohl nicht nötig, zu stehlen, oder? Außerdem: Was willst Du überhaupt mit der Speisekarte? Selbst wenn wir mal davon ausgingen, daß der Verdacht nicht auf Dich fiele, was unwahrscheinlich ist, da Du zur Zeit nun mal der einzige Gast des Hotels bist, so hätte die Karte doch überhaupt keinen Wert für Dich! Mary hingegen, die Besitzerin des Hotels, wäre sicherlich nicht sehr glücklich, wenn sie Deinetwegen extra einen neuen Satz Speisekarten bestellen müßte. Es ist hier auf dem Lande nämlich nicht ganz so einfach, solche Dinge zu bekommen, wie Du verwöhnter Stadtjunge Dir vielleicht denkst! Also: Finger weg, sonst Finger ab!",
+          "record": 252
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "side": "B2",
+      "previous_comments": {
+        "nonstatic_or_unavailable": 19,
+        "correct_ignoring_whitespace": 58,
+        "different_text": 57,
+        "missing_comment": 75
+      },
+      "examples": [
+        {
+          "id": 239,
+          "old": "Der Orkvater ist ein starker und kerngesunder Ork: Warum sollte gerade er die Hilfe eines schwächlichen Menschen benötigen?",
+          "correct": "Auf Deiner panischen Flucht über den Friedhof stolperst Du unglücklicherweise: Die kalte, modrige Hand eines Ghouls, den Du durch Dein Geschrei beim Abendessen gestört hast, ist aus einem Grab geschossen und umklammert nun wie ein Schraubstock Dein Fußgelenk! \"Komm', Herr Jesus, und sei unser Gast...\", denkst Du Dir noch, als Du feststellst, daß sich der Leichenfresser bereits an Deinen anscheinend recht delikaten Waden zu schaffen macht, während Du - ohne die geringste Chance davonzukommen - zusehen mußt, wie der Werfolf sich Dir mit langsamen, stampfenden Schritten nähert...",
+          "record": 279
+        },
+        {
+          "id": 205,
+          "old": "Dies ist Firons Eispalast: Du mußt Deine Augen gegen die Sonne abschirmen, um nicht von ihrem extrem grellen Licht geblendet zu werden, das von den Palastmauern reflektiert wird. Der Bau selbst ist ungefähr zweihundert Meter hoch und glitzert geheimnisvoll im hellen Sonnenlicht.",
+          "correct": "Während Ihr auf Euer Mittagessen wartet, schauen Du und der Orkvater dem kleinen Kind zu, das in der Ecke der Höhle sitzt und überglücklich mit der Kristallkugel spielt, die Du ihm geschenkt hast. Plötzlich rutscht sie ihm durch die Finger! Sofort springt der Kleine hinterher und verfolgt sie fröhlich quiekend und krakeelend durch die ganze Höhle - bis er sie endlich mit einem todesmutigen Hechtsprung kurz vor dem Kamin zu fassen bekommt! Doch im selben Moment, als sich die Finger des Jungen um die Kugel schließen, gerät er direkt zwischen die Beine seiner Mutter, die gerade den Tisch decken wollte, so daß sie über ihr Kind stolpert und das gesamte Geschirr auf seinen Rücken scheppern läßt! Inmitten eines riesigen Scherbenhaufens sitzend, beginnt der kleine Ork lauthals loszubrüllen, und auf einen kurzen, befehlenden Blick des Vaters hin tritt die Mutter auf ihren Sohn zu und verpaßt ihm zu allem Überfluß noch eine deftige linke Gerade. Das hilft: Verdutzt hört das Orkkind auf zu schreien und blickt verlegen in die Runde... Einen kurzen Moment lang blickt die gesamte Orkfamilie ärgerlich auf ihren Sohn hinab, der sich mit unglücklicher Miene die letzten Scherben aus dem Pelz zupft, und ist erst einmal völlig von Dir abgelenkt...",
+          "record": 245
+        },
+        {
+          "id": 212,
+          "old": "Der Alchemist Mylgor ist ein hochgewachsener, ungefähr fünfzig Jahre alter Mann. Er ist in den für seine Zunft üblichen türkisen Umhang gekleidet, der Dir den Eindruck von Weisheit und Erhabenheit vermittelt.",
+          "correct": "Himmel! Es ist wohl schon zu spät, um noch an Flucht zu denken: Starr vor Entsetzen mußt Du zusehen, wie sich hinter einem verwitterten Grabstein ein riesiger, schwarzer Schatten erhebt - nur einige Meter neben Dir! Zu keiner Bewegung fähig, mußt Du mit ansehen, wie er lautlos größer und größer wird... Plötzlich reißt die Wolkendecke, die den Vollmond für kurze Zeit verdeckt hatte, auseinander - und Du schreist in panischer Todesangst auf: Dein Gegner ist ein riesiger, grauer Werwolf, der siegesgewiß seine scharfen, gelben Zähne bleckt! Heiser fauchend und mit ausgestreckten Armen setzt er sich in Bewegung - Schritt für Schritt, denn er kennt keine Eile... Doch plötzlich bleibt er stehen! Für Bruchteile von Sekunden treffen sich Eure Blicke und Du spürst die Mordlust und den abgrundtiefen Haß, die in seinen Augen lodern...",
+          "record": 252
+        },
+        {
+          "id": 238,
+          "old": "Also, entschuldige mal bitte: Bräuchtest DU etwa noch irgendwelche Hilfe, wenn DU tot wärest?",
+          "correct": "Mehr instinktiv als beabsichtigt wirbelst Du herum und schlägst nach dem Kopf Deines Gegners - aber entweder ist er schmerzunempfindlich oder er besitzt eine sehr ausgeprägte masochistische Ader: Statt sich zu trollen oder zumindest mal brav \"Aua\" zu sagen, attackiert er Dich nur umso wilder! Das war wohl nix: Das letzte, was Du in diesem Leben zu Gesicht bekommst, sind die Zähne einer grausig entstellten Wolfsschnauze, die sich Deinem Brustkorb wie in Zeitlupe nähern... Tja, Du bist mal wieder tot! Wenn Du tatsächlich einen längeren Kommentar über die Art und Weise Deines plötzlichen, wenn auch zu erwartenden Ablebens lesen möchtest, dann versuch' den Werwolf beim nächsten Mal doch einfach mal mit etwas anderem zu töten...",
+          "record": 278
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "side": "C1",
+      "previous_comments": {
+        "nonstatic_or_unavailable": 6,
+        "different_text": 62,
+        "missing_comment": 30
+      },
+      "examples": [
+        {
+          "id": 46,
+          "old": "Mutig versuchst Du Dein Glück, wirst jedoch von einer unsichtbaren Faust zurückgeschmettert. Es ist, als liefest Du gegen eine Wand: Irgendwie scheint Dich eine unfaßbar böse Macht von dort fernzuhalten! Deprimiert gibst Du nach einigen fehlgeschlagenen Versuchen auf...",
+          "correct": "Du erwartest doch nicht allen Ernstes von mir, daß ich diesen Ort NACKT verlasse, oder?",
+          "record": 148
+        },
+        {
+          "id": 48,
+          "old": "Also, halte mir jetzt bitte nicht vor, daß ich Dich nicht gewarnt hätte - Du hast wirklich genug Zeit gehabt, um nach jemandem zu suchen, der Dir wärmere Kleidung hätte geben können - doch nun ist es endgültig zu spät: Du erfrierst, ohne auch nur die geringste Chance gehabt zu haben, das Spiel zu lösen! Schade eigentlich...",
+          "correct": "Langsam fange ich an zu frieren! Es wird immer kälter hier, also sieh Dich langsam mal nach einem warmen Plätzchen um, wo wir in Ruhe die Nacht verbringen können!",
+          "record": 150
+        },
+        {
+          "id": 49,
+          "old": "Gerne käme ich Deiner Aufforderung nach - wenn Du mir netterweise verrietest, wie ich auf den Grund des Sees hinuntertauchen soll! Er scheint nämlich ziemlich tief zu sein...",
+          "correct": "Also, halte mir jetzt bitte nicht vor, daß ich Dich nicht gewarnt hätte - Du hast wirklich genug Zeit gehabt, um nach jemandem zu suchen, der Dir wärmere Kleidung hätte geben können - doch nun ist es endgültig zu spät: Du erfrierst, ohne auch nur die geringste Chance gehabt zu haben, das Spiel zu lösen! Schade eigentlich...",
+          "record": 151
+        },
+        {
+          "id": 27,
+          "old": "\"Soul Crystal\", V1.5, written from 1989 to 1992 by Avantgardistic Arts, (C) 1992 by Avantgardistic Arts, Hannover & Starbyte Software, Bochum. A.C.A sind: Chris Link (Spielkonzept, Gamedesign, Tools, Texte, Soundtrack und Effekte), Kai Schulze (Spielkonzept, Gamedesign, Intro- und Parser-Programmierung AMIGA, Tools), Michael Niemeyer (Intro-Programmierung C-64, Tools), Carsten Jendro (Kernal- und Parserprogrammierung C-64), Henrik Fisch (Kernal- und Introprogrammierung MS-DOS), Kjersten Waldheim (Parserprogrammierung MS-DOS), Oliver Brühl (Grafiken und Animationen AMIGA & MS-DOS) und Klaus Adamovsky (Graphiken C-64). Besonderer Dank gilt Johnny, der \"bayrischen Forelle\" - stellvertretend für all die Leute, die mitgeholfen haben, \"Soul Crystal\" zu dem zu machen, was Ihr jetzt in den Händen haltet, indem sie uns Unmengen wertvoller Tips, Hinweise und Denkanstöße gaben, und uns nach jedem Nervenzusammenbruch auf\"s Neue halfen, uns weiter an die Verwirklichung unserer größenwahnsinnigen Ideen zu setzen. Ohne sie wäre das Projekt \"Soul Crystal\" wahrscheinlich niemals über die Planungsphase hinausgekommen.",
+          "correct": "\"Soul Crystal\" V1.5, written from 1989 to 1992 by Avantgardistic Arts. (C) 1992 by Avantgardistic Arts, Hannover & Starbyte Software, Bochum. Dieses Adventure besitzt 103 Locations, mehr als 130 hochauflösende Farbgrafiken, ungefähr 320 KBytes Text und einen ca. 30-minütigen Soundtrack. Seine Programmentwicklung hat ingesamt 16 sog. \"Mann-Jahre\" in Anspruch genommen. Sei also bitte so fair und \"spread the word - not the disk!\" Sollte dies aber doch eine Raubkopie sein (obwohl das Programm geschützt war, und das bestimmt nicht ganz ohne Grund...), dann denke bitte auch mal über die ASDG-Philosophie \"A program worth using is a program worth buying\" nach - allein schon die Originalverpackung sowie die Handbücher sollten Dir das Geld wert sein. Viel Spaß beim Spielen von \"Soul Crystal\", und - ach ja: Soweit wir wissen, ist dies das erste Adventure, in das ein CHEATMODE implementiert wurde - also solltest Du Dir Mühe geben, ihn zu finden...",
+          "record": 129
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "side": "C2",
+      "previous_comments": {
+        "nonstatic_or_unavailable": 8,
+        "correct_ignoring_whitespace": 61,
+        "different_text": 11,
+        "missing_comment": 101
+      },
+      "examples": [
+        {
+          "id": 26,
+          "old": "Mr. Adams hätte in einem solchen Fall wahrscheinlich mit \"You can\"t do that... YET!\" geantwortet, was in etwa soviel heißt wie: \"Das kannst Du (noch) nicht tun.\"",
+          "correct": "Mr. Adams hätte in einem solchen Fall wahrscheinlich mit \"You can't do that... YET!\" geantwortet, was in etwa soviel heißt wie: \"Das kannst Du (noch) nicht tun.\"",
+          "record": 128
+        },
+        {
+          "id": 26,
+          "old": "Mr. Adams hätte in einem solchen Fall wahrscheinlich mit \"You can\"t do that... YET!\" geantwortet, was in etwa soviel heißt wie: \"Das kannst Du (noch) nicht tun.\"",
+          "correct": "Mr. Adams hätte in einem solchen Fall wahrscheinlich mit \"You can't do that... YET!\" geantwortet, was in etwa soviel heißt wie: \"Das kannst Du (noch) nicht tun.\"",
+          "record": 128
+        },
+        {
+          "id": 28,
+          "old": "\"Soul Crystal\", V1.5, written from 1989 to 1992 by Avantgardistic Arts, (C) 1992 by Avantgardistic Arts, Hannover & Starbyte Software, Bochum. A.C.A sind: Chris Link (Spielkonzept, Gamedesign, Tools, Texte, Soundtrack und Effekte), Kai Schulze (Spielkonzept, Gamedesign, Intro- und Parser-Programmierung AMIGA, Tools), Michael Niemeyer (Intro-Programmierung C-64, Tools), Carsten Jendro (Kernal- und Parserprogrammierung C-64), Henrik Fisch (Kernal- und Introprogrammierung MS-DOS), Kjersten Waldheim (Parserprogrammierung MS-DOS), Oliver Brühl (Grafiken und Animationen AMIGA & MS-DOS) und Klaus Adamovsky (Graphiken C-64). Besonderer Dank gilt Johnny, der \"bayrischen Forelle\" - stellvertretend für all die Leute, die mitgeholfen haben, \"Soul Crystal\" zu dem zu machen, was Ihr jetzt in den Händen haltet, indem sie uns Unmengen wertvoller Tips, Hinweise und Denkanstöße gaben, und uns nach jedem Nervenzusammenbruch auf\"s Neue halfen, uns weiter an die Verwirklichung unserer größenwahnsinnigen Ideen zu setzen. Ohne sie wäre das Projekt \"Soul Crystal\" wahrscheinlich niemals über die Planungsphase hinausgekommen.",
+          "correct": "\"Soul Crystal\", V1.5, written from 1989 to 1992 by Avantgardistic Arts, (C) 1992 by Avantgardistic Arts, Hannover & Starbyte Software, Bochum. A.C.A sind: Chris Link (Spielkonzept, Gamedesign, Tools, Texte, Soundtrack und Effekte), Kai Schulze (Spielkonzept, Gamedesign, Intro- und Parser-Programmierung AMIGA, Tools), Michael Niemeyer (Intro-Programmierung C-64, Tools), Carsten Jendro (Kernal- und Parserprogrammierung C-64), Henrik Fisch (Kernal- und Introprogrammierung MS-DOS), Kjersten Waldheim (Parserprogrammierung MS-DOS), Oliver Brühl (Grafiken und Animationen AMIGA & MS-DOS) und Klaus Adamovsky (Graphiken C-64). Besonderer Dank gilt Johnny, der \"bayrischen Forelle\" - stellvertretend für all die Leute, die mitgeholfen haben, \"Soul Crystal\" zu dem zu machen, was Ihr jetzt in den Händen haltet, indem sie uns Unmengen wertvoller Tips, Hinweise und Denkanstöße gaben, und uns nach jedem Nervenzusammenbruch auf's Neue halfen, uns weiter an die Verwirklichung unserer größenwahnsinnigen Ideen zu setzen. Ohne sie wäre das Projekt \"Soul Crystal\" wahrscheinlich niemals über die Planungsphase hinausgekommen.",
+          "record": 130
+        },
+        {
+          "id": 51,
+          "old": "Also, jetzt reicht\"s ja wohl! Als ob es nicht schon reichen würde, daß Du blind wie ein Maulwurf durch die Gegend rennst: Jetzt versuchst Du Dich auch noch artgerecht durchs Erdreich zu buddeln! Mal ganz ehrlich: Man kann es mit der Realitätstreue in Adventures auch übertreiben...",
+          "correct": "Also, jetzt reicht's ja wohl! Als ob es nicht schon reichen würde, daß Du blind wie ein Maulwurf durch die Gegend rennst: Jetzt versuchst Du Dich auch noch artgerecht durchs Erdreich zu buddeln! Mal ganz ehrlich: Man kann es mit der Realitätstreue in Adventures auch übertreiben...",
+          "record": 153
+        }
+      ]
+    }
+  ]
+}

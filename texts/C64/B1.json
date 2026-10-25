@@ -1,0 +1,3897 @@
+{
+  "schema_version": 1,
+  "side": "B1",
+  "source": "data/C64/d64/Soul Crystal SideB1.d64",
+  "source_sha256": "9675a46cb601b106832d53efee1fbce63427c7e7540f8da508a1f916a3b60d30",
+  "common_tail_index": 271,
+  "records": {
+    "0": {
+      "index": 0,
+      "source_offset": 2304,
+      "text": "[Im Gästezimmer]",
+      "screen_lines": [
+        "[Im Gästezimmer]"
+      ]
+    },
+    "1": {
+      "index": 1,
+      "source_offset": 2320,
+      "text": "[In der Lobby]",
+      "screen_lines": [
+        "[In der Lobby]"
+      ]
+    },
+    "10": {
+      "index": 10,
+      "source_offset": 2455,
+      "text": "[Im See]",
+      "screen_lines": [
+        "[Im See]"
+      ]
+    },
+    "100": {
+      "index": 100,
+      "source_offset": 4178,
+      "text": "[In der Höhle des Cu-Saths]",
+      "screen_lines": [
+        "[In der Höhle des Cu-Saths]"
+      ]
+    },
+    "101": {
+      "index": 101,
+      "source_offset": 4201,
+      "text": "[In einem Höhlentunnel]",
+      "screen_lines": [
+        "[In einem Höhlentunnel]"
+      ]
+    },
+    "102": {
+      "index": 102,
+      "source_offset": 4220,
+      "text": "[In einer Wohnhöhle]",
+      "screen_lines": [
+        "[In einer Wohnhöhle]"
+      ]
+    },
+    "103": {
+      "index": 103,
+      "source_offset": 4237,
+      "text": "r01",
+      "screen_lines": [
+        "r01"
+      ]
+    },
+    "104": {
+      "index": 104,
+      "source_offset": 4245,
+      "text": "r02",
+      "screen_lines": [
+        "r02"
+      ]
+    },
+    "105": {
+      "index": 105,
+      "source_offset": 4253,
+      "text": "Deine Eingabe war leider falsch - bitte versuche es noch einmal! -Noch einmal zur Erinnerung: Einzeln stehende Zeilen wie Überschriften etc. dürfen nicht mitgezählt werden!",
+      "screen_lines": [
+        "Deine Eingabe war  leider falsch - bitte",
+        "versuche  es noch  einmal! -Noch  einmal",
+        "zur Erinnerung:  Einzeln stehende Zeilen",
+        "wie  Überschriften   etc.  dürfen  nicht",
+        "mitgezählt werden!"
+      ]
+    },
+    "106": {
+      "index": 106,
+      "source_offset": 4358,
+      "text": "r04",
+      "screen_lines": [
+        "r04"
+      ]
+    },
+    "107": {
+      "index": 107,
+      "source_offset": 4366,
+      "text": "Aber dorthin kannst Du doch gar nicht gehen! Zumindest habe ich nichts dergleichen gesagt, oder...?",
+      "screen_lines": [
+        "Aber  dorthin kannst  Du doch  gar nicht",
+        "gehen!   Zumindest   habe   ich   nichts",
+        "dergleichen gesagt, oder...?"
+      ]
+    },
+    "108": {
+      "index": 108,
+      "source_offset": 4430,
+      "text": "Gut - geschlossen...",
+      "screen_lines": [
+        "Gut - geschlossen..."
+      ]
+    },
+    "109": {
+      "index": 109,
+      "source_offset": 4448,
+      "text": "Aber das kannst Du doch überhaupt nicht schließen!",
+      "screen_lines": [
+        "Aber das kannst  Du doch überhaupt nicht",
+        "schließen!"
+      ]
+    },
+    "11": {
+      "index": 11,
+      "source_offset": 2466,
+      "text": "[Vor dem Wasserfall]",
+      "screen_lines": [
+        "[Vor dem Wasserfall]"
+      ]
+    },
+    "110": {
+      "index": 110,
+      "source_offset": 4482,
+      "text": "r08",
+      "screen_lines": [
+        "r08"
+      ]
+    },
+    "111": {
+      "index": 111,
+      "source_offset": 4490,
+      "text": "Gut: Wie Du willst...",
+      "screen_lines": [
+        "Gut: Wie Du willst..."
+      ]
+    },
+    "112": {
+      "index": 112,
+      "source_offset": 4509,
+      "text": "Könntest Du mir mal bitte erklären, wie Du DAS betreten willst?",
+      "screen_lines": [
+        "Könntest Du mir  mal bitte erklären, wie",
+        "Du DAS betreten willst?"
+      ]
+    },
+    "113": {
+      "index": 113,
+      "source_offset": 4550,
+      "text": "Tut mir leid - aber darüber gibt es nun wirklich nicht mehr allzu viel zu berichten...",
+      "screen_lines": [
+        "Tut mir leid -  aber darüber gibt es nun",
+        "wirklich  nicht   mehr  allzu   viel  zu",
+        "berichten..."
+      ]
+    },
+    "114": {
+      "index": 114,
+      "source_offset": 4604,
+      "text": "r12",
+      "screen_lines": [
+        "r12"
+      ]
+    },
+    "115": {
+      "index": 115,
+      "source_offset": 4612,
+      "text": "Aber das hast Du doch schon längst!",
+      "screen_lines": [
+        "Aber das hast Du doch schon längst!"
+      ]
+    },
+    "116": {
+      "index": 116,
+      "source_offset": 4637,
+      "text": "Tut mir leid, aber das kannst Du beim besten Willen nicht mitnehmen!",
+      "screen_lines": [
+        "Tut mir  leid, aber  das kannst  Du beim",
+        "besten Willen nicht mitnehmen!"
+      ]
+    },
+    "117": {
+      "index": 117,
+      "source_offset": 4679,
+      "text": "Okay: Du stehst wieder auf eigenen Beinen.",
+      "screen_lines": [
+        "Okay:  Du  stehst   wieder  auf  eigenen",
+        "Beinen."
+      ]
+    },
+    "118": {
+      "index": 118,
+      "source_offset": 4709,
+      "text": "Versprichst Du dir irgend etwas Bestimmtes davon, DAS durch die Gegend zu schleppen?",
+      "screen_lines": [
+        "Versprichst   Du    dir   irgend   etwas",
+        "Bestimmtes davon,  DAS durch  die Gegend",
+        "zu schleppen?"
+      ]
+    },
+    "119": {
+      "index": 119,
+      "source_offset": 4766,
+      "text": "Hmmm... - Scheint aber verschlossen zu sein!",
+      "screen_lines": [
+        "Hmmm... -  Scheint aber  verschlossen zu",
+        "sein!"
+      ]
+    },
+    "12": {
+      "index": 12,
+      "source_offset": 2484,
+      "text": "[Hinter dem Wasserfall]",
+      "screen_lines": [
+        "[Hinter dem Wasserfall]"
+      ]
+    },
+    "120": {
+      "index": 120,
+      "source_offset": 4798,
+      "text": "Ist ja wirklich lieb gemeint, aber was sollte man denn DAMIT schon anfangen können...?",
+      "screen_lines": [
+        "Ist ja  wirklich lieb gemeint,  aber was",
+        "sollte  man  denn DAMIT  schon  anfangen",
+        "können...?"
+      ]
+    },
+    "121": {
+      "index": 121,
+      "source_offset": 4856,
+      "text": "Gut, abgeschlossen.",
+      "screen_lines": [
+        "Gut, abgeschlossen."
+      ]
+    },
+    "122": {
+      "index": 122,
+      "source_offset": 4873,
+      "text": "Wie willst Du denn DAMIT etwas abschließen?",
+      "screen_lines": [
+        "Wie   willst   Du   denn   DAMIT   etwas",
+        "abschließen?"
+      ]
+    },
+    "123": {
+      "index": 123,
+      "source_offset": 4907,
+      "text": "Tut mir ja wirklich ganz fürchterlich leid, aber DAS kannst Du nun wirklich nicht abschließen!",
+      "screen_lines": [
+        "Tut  mir ja  wirklich ganz  fürchterlich",
+        "leid,  aber DAS  kannst Du  nun wirklich",
+        "nicht abschließen!"
+      ]
+    },
+    "124": {
+      "index": 124,
+      "source_offset": 4969,
+      "text": "Okay, aufgeschlossen.",
+      "screen_lines": [
+        "Okay, aufgeschlossen."
+      ]
+    },
+    "125": {
+      "index": 125,
+      "source_offset": 4988,
+      "text": "Also, DAMIT kann man ja nun wiklich nichts aufschlißen, oder?",
+      "screen_lines": [
+        "Also,  DAMIT  kann  man ja  nun  wiklich",
+        "nichts aufschlißen, oder?"
+      ]
+    },
+    "126": {
+      "index": 126,
+      "source_offset": 5033,
+      "text": "Wie soll denn DAS funktionieren?",
+      "screen_lines": [
+        "Wie soll denn DAS funktionieren?"
+      ]
+    },
+    "127": {
+      "index": 127,
+      "source_offset": 5057,
+      "text": "\"Soul Crystal\" V1.5, written 1989/90/91/92 by Avantgardistic Arts. (C) 1992 by Avantgardistic Arts, Hannover \u0026 Starbyte Software, Bochum.",
+      "screen_lines": [
+        "\"Soul     Crystal\"     V1.5,     written",
+        "1989/90/91/92  by  Avantgardistic  Arts.",
+        "(C)   1992   by   Avantgardistic   Arts,",
+        "Hannover \u0026 Starbyte Software, Bochum."
+      ]
+    },
+    "128": {
+      "index": 128,
+      "source_offset": 5177,
+      "text": "Mr. Adams hätte in einem solchen Fall wahrscheinlich mit \"You can't do that... YET!\" geantwortet, was in etwa soviel heißt wie: \"Das kannst Du (noch) nicht tun.\"",
+      "screen_lines": [
+        "Mr.  Adams hätte  in einem  solchen Fall",
+        "wahrscheinlich mit \"You can't do that...",
+        "YET!\"  geantwortet, was  in etwa  soviel",
+        "heißt wie:  \"Das kannst Du  (noch) nicht",
+        "tun.\""
+      ]
+    },
+    "129": {
+      "index": 129,
+      "source_offset": 5284,
+      "text": "\"Soul Crystal\" V1.5, written from 1989 to 1992 by Avantgardistic Arts. (C) 1992 by Avantgardistic Arts, Hannover \u0026 Starbyte Software, Bochum. Dieses Adventure besitzt 103 Locations, mehr als 130 hochauflösende Farbgrafiken, ungefähr 320 KBytes Text und einen ca. 30-minütigen Soundtrack. Seine Programmentwicklung hat ingesamt 16 sog. \"Mann-Jahre\" in Anspruch genommen. Sei also bitte so fair und \"spread the word - not the disk!\" Sollte dies aber doch eine Raubkopie sein (obwohl das Programm geschützt war, und das bestimmt nicht ganz ohne Grund...), dann denke bitte auch mal über die ASDG-Philosophie \"A program worth using is a program worth buying\" nach - allein schon die Originalverpackung sowie die Handbücher sollten Dir das Geld wert sein. Viel Spaß beim Spielen von \"Soul Crystal\", und - ach ja: Soweit wir wissen, ist dies das erste Adventure, in das ein CHEATMODE implementiert wurde - also solltest Du Dir Mühe geben, ihn zu finden...",
+      "screen_lines": [
+        "\"Soul Crystal\"  V1.5, written  from 1989",
+        "to 1992 by Avantgardistic Arts. (C) 1992",
+        "by   Avantgardistic  Arts,   Hannover  \u0026",
+        "Starbyte   Software,    Bochum.   Dieses",
+        "Adventure  besitzt  103 Locations,  mehr",
+        "als  130   hochauflösende  Farbgrafiken,",
+        "ungefähr 320  KBytes Text und  einen ca.",
+        "30-minütigen      Soundtrack.      Seine",
+        "Programmentwicklung hat ingesamt 16 sog.",
+        "\"Mann-Jahre\"  in Anspruch  genommen. Sei",
+        "also bitte so fair  und \"spread the word",
+        "- not  the disk!\" Sollte dies  aber doch",
+        "eine Raubkopie sein (obwohl das Programm",
+        "geschützt  war, und  das bestimmt  nicht",
+        "ganz  ohne Grund...),  dann denke  bitte",
+        "auch  mal über  die ASDG-Philosophie  \"A",
+        "program worth  using is a  program worth",
+        "buying\"   nach   -  allein   schon   die",
+        "Originalverpackung sowie  die Handbücher",
+        "sollten  Dir das  Geld  wert sein.  Viel",
+        "Spaß  beim Spielen  von \"Soul  Crystal\",",
+        "und  - ach  ja: Soweit  wir wissen,  ist",
+        "dies  das erste  Adventure,  in das  ein",
+        "CHEATMODE  implementiert  wurde  -  also",
+        "solltest  Du  Dir  Mühe  geben,  ihn  zu",
+        "finden..."
+      ]
+    },
+    "13": {
+      "index": 13,
+      "source_offset": 2503,
+      "text": "[Am Ufer]",
+      "screen_lines": [
+        "[Am Ufer]"
+      ]
+    },
+    "130": {
+      "index": 130,
+      "source_offset": 5910,
+      "text": "\"Soul Crystal\", V1.5, written from 1989 to 1992 by Avantgardistic Arts, (C) 1992 by Avantgardistic Arts, Hannover \u0026 Starbyte Software, Bochum. A.C.A sind: Chris Link (Spielkonzept, Gamedesign, Tools, Texte, Soundtrack und Effekte), Kai Schulze (Spielkonzept, Gamedesign, Intro- und Parser-Programmierung AMIGA, Tools), Michael Niemeyer (Intro-Programmierung C-64, Tools), Carsten Jendro (Kernal- und Parserprogrammierung C-64), Henrik Fisch (Kernal- und Introprogrammierung MS-DOS), Kjersten Waldheim (Parserprogrammierung MS-DOS), Oliver Brühl (Grafiken und Animationen AMIGA \u0026 MS-DOS) und Klaus Adamovsky (Graphiken C-64). Besonderer Dank gilt Johnny, der \"bayrischen Forelle\" - stellvertretend für all die Leute, die mitgeholfen haben, \"Soul Crystal\" zu dem zu machen, was Ihr jetzt in den Händen haltet, indem sie uns Unmengen wertvoller Tips, Hinweise und Denkanstöße gaben, und uns nach jedem Nervenzusammenbruch auf's Neue halfen, uns weiter an die Verwirklichung unserer größenwahnsinnigen Ideen zu setzen. Ohne sie wäre das Projekt \"Soul Crystal\" wahrscheinlich niemals über die Planungsphase hinausgekommen.",
+      "screen_lines": [
+        "\"Soul Crystal\", V1.5,  written from 1989",
+        "to 1992 by Avantgardistic Arts, (C) 1992",
+        "by   Avantgardistic  Arts,   Hannover  \u0026",
+        "Starbyte  Software, Bochum.  A.C.A sind:",
+        "Chris  Link  (Spielkonzept,  Gamedesign,",
+        "Tools,  Texte, Soundtrack  und Effekte),",
+        "Kai  Schulze (Spielkonzept,  Gamedesign,",
+        "Intro- und  Parser-Programmierung AMIGA,",
+        "Tools),         Michael         Niemeyer",
+        "(Intro-Programmierung    C-64,   Tools),",
+        "Carsten     Jendro      (Kernal-     und",
+        "Parserprogrammierung C-64), Henrik Fisch",
+        "(Kernal-     und     Introprogrammierung",
+        "MS-DOS),        Kjersten        Waldheim",
+        "(Parserprogrammierung   MS-DOS),  Oliver",
+        "Brühl (Grafiken und  Animationen AMIGA \u0026",
+        "MS-DOS)  und Klaus  Adamovsky (Graphiken",
+        "C-64). Besonderer Dank  gilt Johnny, der",
+        "\"bayrischen  Forelle\" -  stellvertretend",
+        "für  all  die   Leute,  die  mitgeholfen",
+        "haben, \"Soul Crystal\"  zu dem zu machen,",
+        "was  Ihr  jetzt  in den  Händen  haltet,",
+        "indem sie uns  Unmengen wertvoller Tips,",
+        "Hinweise und Denkanstöße  gaben, und uns",
+        "nach  jedem   Nervenzusammenbruch  auf's",
+        "Neue   halfen,   uns   weiter   an   die",
+        "Verwirklichung                   unserer",
+        "größenwahnsinnigen Ideen zu setzen. Ohne",
+        "sie  wäre  das  Projekt  \"Soul  Crystal\"",
+        "wahrscheinlich    niemals    über    die",
+        "Planungsphase hinausgekommen."
+      ]
+    },
+    "131": {
+      "index": 131,
+      "source_offset": 6685,
+      "text": "Möchtest Du das Spiel wirklich von vorn beginnen (\u003cJ\u003e oder rechtes Mousebutton zur Bestätigung)?",
+      "screen_lines": [
+        "Möchtest Du das  Spiel wirklich von vorn",
+        "beginnen  (\u003cJ\u003e oder  rechtes Mousebutton",
+        "zur Bestätigung)?"
+      ]
+    },
+    "132": {
+      "index": 132,
+      "source_offset": 6752,
+      "text": "Willst Du das Spiel wirklich schon beenden (\u003cJ\u003e oder rechtes Mousebutton zur Bestätigung)?",
+      "screen_lines": [
+        "Willst  Du  das   Spiel  wirklich  schon",
+        "beenden  (\u003cJ\u003e  oder rechtes  Mousebutton",
+        "zur Bestätigung)?"
+      ]
+    },
+    "133": {
+      "index": 133,
+      "source_offset": 6816,
+      "text": "Okay - es war mir ein Vergnügen, Dich zu unterhalten! Bis demnächst mal wieder...",
+      "screen_lines": [
+        "Okay - es war mir ein Vergnügen, Dich zu",
+        "unterhalten! Bis demnächst mal wieder..."
+      ]
+    },
+    "134": {
+      "index": 134,
+      "source_offset": 6869,
+      "text": "Bitte lege die Diskette mit den abgespeicherten Spielständen in das Diskettenlaufwerk!",
+      "screen_lines": [
+        "Bitte   lege   die  Diskette   mit   den",
+        "abgespeicherten   Spielständen  in   das",
+        "Diskettenlaufwerk!"
+      ]
+    },
+    "135": {
+      "index": 135,
+      "source_offset": 6925,
+      "text": "Bitte lege die zu initialisierende Diskette in Dein Floppylaufwerk. Es ist unbedingt darauf zu achten, daß die Diskette nicht schreibgeschützt ist, da sonst eine einwandfreie Funktion des Programmes nicht gewährleistet werden kann! Unformatierte oder fehlerhafte Disketten werden automatisch formatiert. Bedenke aber bitte, daß alle sich bisher eventuell auf ihr befindlichen Daten beim Formatierdurchgang unwiederbringlich verlorengehen! Solltest Du das Spiel auf Deiner HardDisk installiert haben, so werden lediglich die bestehenden Spielstände gelöscht - Du brauchst also nicht zu befürchten, daß wir die ganze Platte übermangeln! Drücke \u003cI\u003e oder das rechte Mousebutton, wenn Du den Initialisierungsvorgang wirklich beginnen möchtest - jede andere Aktion bricht die Init-Funktion ab.",
+      "screen_lines": [
+        "Bitte   lege  die   zu  initialisierende",
+        "Diskette in Dein  Floppylaufwerk. Es ist",
+        "unbedingt  darauf  zu  achten,  daß  die",
+        "Diskette nicht  schreibgeschützt ist, da",
+        "sonst  eine  einwandfreie  Funktion  des",
+        "Programmes  nicht  gewährleistet  werden",
+        "kann!  Unformatierte   oder  fehlerhafte",
+        "Disketten werden automatisch formatiert.",
+        "Bedenke aber bitte, daß alle sich bisher",
+        "eventuell  auf  ihr  befindlichen  Daten",
+        "beim                  Formatierdurchgang",
+        "unwiederbringlich         verlorengehen!",
+        "Solltest   Du  das   Spiel  auf   Deiner",
+        "HardDisk  installiert  haben, so  werden",
+        "lediglich  die  bestehenden  Spielstände",
+        "gelöscht  - Du  brauchst  also nicht  zu",
+        "befürchten,  daß  wir die  ganze  Platte",
+        "übermangeln! Drücke \u003cI\u003e  oder das rechte",
+        "Mousebutton,      wenn       Du      den",
+        "Initialisierungsvorgang         wirklich",
+        "beginnen möchtest  - jede  andere Aktion",
+        "bricht die Init-Funktion ab."
+      ]
+    },
+    "136": {
+      "index": 136,
+      "source_offset": 7402,
+      "text": "Okay, die Musik ist wieder eingeschaltet.",
+      "screen_lines": [
+        "Okay,     die    Musik     ist    wieder",
+        "eingeschaltet."
+      ]
+    },
+    "137": {
+      "index": 137,
+      "source_offset": 7434,
+      "text": "Gut, die Musik wird ausgeschaltet.",
+      "screen_lines": [
+        "Gut, die Musik wird ausgeschaltet."
+      ]
+    },
+    "138": {
+      "index": 138,
+      "source_offset": 7459,
+      "text": "\"Ausführliche Beschreibungen\" aktiviert. Zu jedem Raum, den Du von nun an betrittst, wird die vollständige Beschreibung geliefert, ganz gleich, ob Du ihn schon betreten hast oder nicht.",
+      "screen_lines": [
+        "\"Ausführliche Beschreibungen\" aktiviert.",
+        "Zu  jedem  Raum,  den   Du  von  nun  an",
+        "betrittst,    wird   die    vollständige",
+        "Beschreibung geliefert,  ganz gleich, ob",
+        "Du ihn schon betreten hast oder nicht."
+      ]
+    },
+    "139": {
+      "index": 139,
+      "source_offset": 7575,
+      "text": "\"Kurzbeschreibungen\" aktiviert. Die Beschreibungen der einzelnen Räume werden jetzt nur noch beim erstmaligen Betreten ausgegeben.",
+      "screen_lines": [
+        "\"Kurzbeschreibungen\"    aktiviert.   Die",
+        "Beschreibungen   der   einzelnen   Räume",
+        "werden jetzt  nur noch  beim erstmaligen",
+        "Betreten ausgegeben."
+      ]
+    },
+    "14": {
+      "index": 14,
+      "source_offset": 2515,
+      "text": "[Auf einer Lichtung]",
+      "screen_lines": [
+        "[Auf einer Lichtung]"
+      ]
+    },
+    "140": {
+      "index": 140,
+      "source_offset": 7656,
+      "text": "Was bist Du doch für ein cleveres Kerlchen! Herzlichen Glühstrumpf: Du hast das Spiel gelöst! So einfach war das - toll, was? Falls Du noch keine genaueren Vorstellungen davon haben solltest, was Du nach dieser zeitraubenden Lösung von \"Soul Crystal\" spielen sollst, dann sieh Dich doch mal nach weiteren Spielen um, die von Avantgardistic Arts und Starbyte veröffentlicht werden. Drücke \u003cN\u003e oder das linke Mousebutton, um das Spiel von vorn zu beginnen, \u003cE\u003e oder das rechte Button, um zum Kernal zurückzugelangen...",
+      "screen_lines": [
+        "Was  bist  Du   doch  für  ein  cleveres",
+        "Kerlchen!  Herzlichen   Glühstrumpf:  Du",
+        "hast  das Spiel  gelöst! So  einfach war",
+        "das  - toll,  was? Falls  Du noch  keine",
+        "genaueren   Vorstellungen  davon   haben",
+        "solltest,    was    Du    nach    dieser",
+        "zeitraubenden Lösung  von \"Soul Crystal\"",
+        "spielen sollst, dann  sieh Dich doch mal",
+        "nach  weiteren   Spielen  um,   die  von",
+        "Avantgardistic    Arts   und    Starbyte",
+        "veröffentlicht  werden. Drücke  \u003cN\u003e oder",
+        "das linke Mousebutton,  um das Spiel von",
+        "vorn  zu beginnen,  \u003cE\u003e oder  das rechte",
+        "Button,       um        zum       Kernal",
+        "zurückzugelangen..."
+      ]
+    },
+    "141": {
+      "index": 141,
+      "source_offset": 7986,
+      "text": "Hmmm...: Es sieht fast so aus, als wärest Du nicht in der Lage, dieses Spiel ohne die Hilfe der A.C.A-Götter zu spielen. Daher haben wir uns gnädigerweise dazu entschieden, den \"Entwickler-Cheat\" für Dich zu aktivieren, um Dir mit unserer göttlichen Hilfe auf Deiner Reise ein wenig unter die Arme zu greifen. Dieser Cheatmode ist vornehmlich zum Austesten des Spieles programmiert worden. Wir können jedoch keinerlei Garantie für sein einwandfreies Funktionieren übernehmen. Benutzung auf eigenes Risiko!",
+      "screen_lines": [
+        "Hmmm...:  Es  sieht  fast  so  aus,  als",
+        "wärest  Du  nicht  in der  Lage,  dieses",
+        "Spiel ohne die Hilfe der A.C.A-Götter zu",
+        "spielen.    Daher    haben    wir    uns",
+        "gnädigerweise   dazu  entschieden,   den",
+        "\"Entwickler-Cheat\"    für     Dich    zu",
+        "aktivieren,    um   Dir    mit   unserer",
+        "göttlichen  Hilfe auf  Deiner Reise  ein",
+        "wenig unter die  Arme zu greifen. Dieser",
+        "Cheatmode ist  vornehmlich zum Austesten",
+        "des  Spieles  programmiert  worden.  Wir",
+        "können  jedoch  keinerlei  Garantie  für",
+        "sein     einwandfreies     Funktionieren",
+        "übernehmen.   Benutzung    auf   eigenes",
+        "Risiko!"
+      ]
+    },
+    "142": {
+      "index": 142,
+      "source_offset": 8297,
+      "text": "Wow! Wie Manna vom Himmel schicken Dir die A.C.A-Götter alle Objekte auf die Erde hinunter, die Dir bei der Lösung Deiner Aufgabe behilflich sein könnt... AUTSCH! Ihr Idioten da oben! Könnt Ihr nicht zuhören? Ich sagte, Ihr solltet alle Gegenstände hinunterwerfen, die ihm bei der Lösung seiner Aufgabe HILFREICH sein könnten! ...und Schränke gehören definitiv NICHT dazu!",
+      "screen_lines": [
+        "Wow! Wie  Manna vom Himmel  schicken Dir",
+        "die  A.C.A-Götter alle  Objekte auf  die",
+        "Erde  hinunter, die  Dir bei  der Lösung",
+        "Deiner Aufgabe  behilflich sein könnt...",
+        "AUTSCH! Ihr  Idioten da oben!  Könnt Ihr",
+        "nicht  zuhören? Ich  sagte, Ihr  solltet",
+        "alle Gegenstände hinunterwerfen, die ihm",
+        "bei der Lösung  seiner Aufgabe HILFREICH",
+        "sein  könnten!  ...und Schränke  gehören",
+        "definitiv NICHT dazu!"
+      ]
+    },
+    "143": {
+      "index": 143,
+      "source_offset": 8536,
+      "text": "Okay, Du kannst nun die A.C.A-Götter bitten, Dich in bestimmte Räume des Spielterritoriums zu teleportieren, indem Du eine dreistellige Zahl zwischen 001 und 103 über die Tastatur Deines Computers eingibst - aber vergiß dabei nicht, daß in diesem Spiel auch Räume existieren, aus denen es kein Entrinnen mehr gibt. Gib jetzt die gewünschte Raumnummer ein, oder drücke \u003cESC\u003e, um den Teleportmodus vorzeitig abzubrechen...",
+      "screen_lines": [
+        "Okay,  Du  kannst nun  die  A.C.A-Götter",
+        "bitten,  Dich  in  bestimmte  Räume  des",
+        "Spielterritoriums    zu   teleportieren,",
+        "indem Du eine dreistellige Zahl zwischen",
+        "001  und 103  über  die Tastatur  Deines",
+        "Computers eingibst  - aber  vergiß dabei",
+        "nicht,  daß in  diesem Spiel  auch Räume",
+        "existieren, aus denen  es kein Entrinnen",
+        "mehr  gibt.  Gib  jetzt  die  gewünschte",
+        "Raumnummer  ein, oder  drücke \u003cESC\u003e,  um",
+        "den        Teleportmodus       vorzeitig",
+        "abzubrechen..."
+      ]
+    },
+    "144": {
+      "index": 144,
+      "source_offset": 8802,
+      "text": "Du hast soeben den versteckten Slideshow-Modus aktiviert! Drücke \u003cSPACE\u003e oder das linke Mousebutton, um das jeweils nächste Bild zu betrachten, oder \u003cESC\u003e bzw. das rechte Mousebutton, um zum Spiel zurückzukehren...",
+      "screen_lines": [
+        "Du    hast   soeben    den   versteckten",
+        "Slideshow-Modus     aktiviert!    Drücke",
+        "\u003cSPACE\u003e oder  das linke  Mousebutton, um",
+        "das jeweils nächste  Bild zu betrachten,",
+        "oder \u003cESC\u003e bzw.  das rechte Mousebutton,",
+        "um zum Spiel zurückzukehren..."
+      ]
+    },
+    "145": {
+      "index": 145,
+      "source_offset": 8946,
+      "text": "Soundmenü aktiviert: Gib bitte eine Zahl von 1 - 5 ein, um die verschiedenen Musikstücke des Soundtracks in diesem Spielabschnitt abzuspielen! Abbruch der Funktion über \u003cESC\u003e.",
+      "screen_lines": [
+        "Soundmenü aktiviert: Gib bitte eine Zahl",
+        "von  1 -  5  ein,  um die  verschiedenen",
+        "Musikstücke  des  Soundtracks in  diesem",
+        "Spielabschnitt abzuspielen!  Abbruch der",
+        "Funktion über \u003cESC\u003e."
+      ]
+    },
+    "146": {
+      "index": 146,
+      "source_offset": 9060,
+      "text": "Teleportmodus abgebrochen (Feigling!), Wiederaufnahme des Spiels...",
+      "screen_lines": [
+        "Teleportmodus  abgebrochen  (Feigling!),",
+        "Wiederaufnahme des Spiels..."
+      ]
+    },
+    "147": {
+      "index": 147,
+      "source_offset": 9108,
+      "text": "Cheat-Extension verlassen; kehre zurück zum Spiel...",
+      "screen_lines": [
+        "Cheat-Extension verlassen;  kehre zurück",
+        "zum Spiel..."
+      ]
+    },
+    "148": {
+      "index": 148,
+      "source_offset": 9148,
+      "text": "Du erwartest doch nicht allen Ernstes von mir, daß ich diesen Ort NACKT verlasse, oder?",
+      "screen_lines": [
+        "Du  erwartest doch  nicht allen  Ernstes",
+        "von  mir,  daß   ich  diesen  Ort  NACKT",
+        "verlasse, oder?"
+      ]
+    },
+    "149": {
+      "index": 149,
+      "source_offset": 9207,
+      "text": "Mutig versuchst Du Dein Glück, wirst jedoch von einer unsichtbaren Faust zurückgeschmettert. Es ist, als liefest Du gegen eine Wand: Irgendwie scheint Dich eine unfaßbar böse Macht von dort fernzuhalten! Deprimiert gibst Du nach einigen fehlgeschlagenen Versuchen auf...",
+      "screen_lines": [
+        "Mutig  versuchst  Du Dein  Glück,  wirst",
+        "jedoch  von   einer  unsichtbaren  Faust",
+        "zurückgeschmettert. Es  ist, als liefest",
+        "Du  gegen eine  Wand: Irgendwie  scheint",
+        "Dich eine  unfaßbar böse Macht  von dort",
+        "fernzuhalten!  Deprimiert gibst  Du nach",
+        "einigen    fehlgeschlagenen    Versuchen",
+        "auf..."
+      ]
+    },
+    "15": {
+      "index": 15,
+      "source_offset": 2533,
+      "text": "[In Mylgors Studierzimmer]",
+      "screen_lines": [
+        "[In Mylgors Studierzimmer]"
+      ]
+    },
+    "150": {
+      "index": 150,
+      "source_offset": 9373,
+      "text": "Langsam fange ich an zu frieren! Es wird immer kälter hier, also sieh Dich langsam mal nach einem warmen Plätzchen um, wo wir in Ruhe die Nacht verbringen können!",
+      "screen_lines": [
+        "Langsam fange ich an zu frieren! Es wird",
+        "immer  kälter   hier,  also   sieh  Dich",
+        "langsam mal nach  einem warmen Plätzchen",
+        "um, wo wir in  Ruhe die Nacht verbringen",
+        "können!"
+      ]
+    },
+    "151": {
+      "index": 151,
+      "source_offset": 9472,
+      "text": "Also, halte mir jetzt bitte nicht vor, daß ich Dich nicht gewarnt hätte - Du hast wirklich genug Zeit gehabt, um nach jemandem zu suchen, der Dir wärmere Kleidung hätte geben können - doch nun ist es endgültig zu spät: Du erfrierst, ohne auch nur die geringste Chance gehabt zu haben, das Spiel zu lösen! Schade eigentlich...",
+      "screen_lines": [
+        "Also, halte  mir jetzt bitte  nicht vor,",
+        "daß ich  Dich nicht  gewarnt hätte  - Du",
+        "hast wirklich genug Zeit gehabt, um nach",
+        "jemandem  zu  suchen,  der  Dir  wärmere",
+        "Kleidung hätte  geben können -  doch nun",
+        "ist es endgültig  zu spät: Du erfrierst,",
+        "ohne  auch  nur   die  geringste  Chance",
+        "gehabt  zu haben,  das  Spiel zu  lösen!",
+        "Schade eigentlich..."
+      ]
+    },
+    "152": {
+      "index": 152,
+      "source_offset": 9668,
+      "text": "Gerne käme ich Deiner Aufforderung nach - wenn Du mir netterweise verrietest, wie ich auf den Grund des Sees hinuntertauchen soll! Er scheint nämlich ziemlich tief zu sein...",
+      "screen_lines": [
+        "Gerne käme ich  Deiner Aufforderung nach",
+        "-  wenn Du  mir netterweise  verrietest,",
+        "wie   ich  auf   den   Grund  des   Sees",
+        "hinuntertauchen soll! Er scheint nämlich",
+        "ziemlich tief zu sein..."
+      ]
+    },
+    "153": {
+      "index": 153,
+      "source_offset": 9772,
+      "text": "Also, jetzt reicht's ja wohl! Als ob es nicht schon reichen würde, daß Du blind wie ein Maulwurf durch die Gegend rennst: Jetzt versuchst Du Dich auch noch artgerecht durchs Erdreich zu buddeln! Mal ganz ehrlich: Man kann es mit der Realitätstreue in Adventures auch übertreiben...",
+      "screen_lines": [
+        "Also, jetzt reicht's ja  wohl! Als ob es",
+        "nicht schon reichen  würde, daß Du blind",
+        "wie  ein   Maulwurf  durch   die  Gegend",
+        "rennst:  Jetzt  versuchst Du  Dich  auch",
+        "noch   artgerecht  durchs   Erdreich  zu",
+        "buddeln! Mal  ganz ehrlich: Man  kann es",
+        "mit  der  Realitätstreue  in  Adventures",
+        "auch übertreiben..."
+      ]
+    },
+    "154": {
+      "index": 154,
+      "source_offset": 9945,
+      "text": "Im Moment führe ich die folgenden Dinge mit mir:",
+      "screen_lines": [
+        "Im Moment führe  ich die folgenden Dinge",
+        "mit mir:"
+      ]
+    },
+    "155": {
+      "index": 155,
+      "source_offset": 9977,
+      "text": "Tut mir leid, Dich so enttäuschen zu müssen, aber momentan besitzt Du wirklich nicht allzuviel. Mal sehen...: Tja, also eigentlich hast Du noch weniger als \"nicht allzuviel\" - ich würde sogar fast sagen, Du hast nichts! Naja, \"Nichts\" ist aber doch immer noch besser als \"Gar nichts\", oder? Also, um es abzukürzen: Du hast wirklich nichts - und das ist wenigstens etwas! Schade nur, daß man mit \"Nichts\" nichts anfangen kann! Oder ist etwas vielleicht auch nichts? WAAAAAAAAAAHHHHHHHHHH! SIE KOMMEN! Ich schreibe dann den Rest in meinem neuen Zuhause weitääärrrrr...!",
+      "screen_lines": [
+        "Tut  mir leid,  Dich  so enttäuschen  zu",
+        "müssen,   aber   momentan   besitzt   Du",
+        "wirklich nicht  allzuviel. Mal sehen...:",
+        "Tja,  also   eigentlich  hast   Du  noch",
+        "weniger  als  \"nicht  allzuviel\"  -  ich",
+        "würde sogar fast  sagen, Du hast nichts!",
+        "Naja, \"Nichts\" ist  aber doch immer noch",
+        "besser als \"Gar  nichts\", oder? Also, um",
+        "es abzukürzen: Du hast wirklich nichts -",
+        "und  das  ist wenigstens  etwas!  Schade",
+        "nur,   daß  man   mit  \"Nichts\"   nichts",
+        "anfangen kann! Oder ist etwas vielleicht",
+        "auch nichts?  WAAAAAAAAAAHHHHHHHHHH! SIE",
+        "KOMMEN!  Ich schreibe  dann den  Rest in",
+        "meinem neuen Zuhause weitääärrrrr...!"
+      ]
+    },
+    "156": {
+      "index": 156,
+      "source_offset": 10340,
+      "text": "Die Zeit verstreicht wie der Lauf der Sonne: Langsam, aber unaufhaltsam...",
+      "screen_lines": [
+        "Die  Zeit verstreicht  wie der  Lauf der",
+        "Sonne: Langsam, aber unaufhaltsam..."
+      ]
+    },
+    "157": {
+      "index": 157,
+      "source_offset": 10389,
+      "text": "Die Zeit vergeht...",
+      "screen_lines": [
+        "Die Zeit vergeht..."
+      ]
+    },
+    "158": {
+      "index": 158,
+      "source_offset": 10405,
+      "text": "Gerne: Eine Verschnaufpause haben wir uns wirklich verdient! Aber: WORAUF warten wir eigentlich?",
+      "screen_lines": [
+        "Gerne:  Eine  Verschnaufpause haben  wir",
+        "uns  wirklich   verdient!  Aber:  WORAUF",
+        "warten wir eigentlich?"
+      ]
+    },
+    "159": {
+      "index": 159,
+      "source_offset": 10471,
+      "text": "Okay, geschlossen. Was nun?",
+      "screen_lines": [
+        "Okay, geschlossen. Was nun?"
+      ]
+    },
+    "16": {
+      "index": 16,
+      "source_offset": 2555,
+      "text": "[Im Dienerschlafzimmer]",
+      "screen_lines": [
+        "[Im Dienerschlafzimmer]"
+      ]
+    },
+    "160": {
+      "index": 160,
+      "source_offset": 10494,
+      "text": "Wie willst Du denn etwas Geschlossenes noch schließen?",
+      "screen_lines": [
+        "Wie willst  Du denn  etwas Geschlossenes",
+        "noch schließen?"
+      ]
+    },
+    "161": {
+      "index": 161,
+      "source_offset": 10530,
+      "text": "Das kannst Du nicht schließen! Schon gar nicht so...",
+      "screen_lines": [
+        "Das kannst Du nicht schließen! Schon gar",
+        "nicht so..."
+      ]
+    },
+    "162": {
+      "index": 162,
+      "source_offset": 10565,
+      "text": "Eine weise, ja geradezu philosophische Entscheidung: Selbstmord heißt, Probleme aus der Welt zu schaffen, die man ohne seine Eltern gar nicht hätte! Wirklich schönes Schlußwort! Hasta la vista... - Babe! HARAKIRIIIIIIIIIIHHHHH!",
+      "screen_lines": [
+        "Eine  weise, ja  geradezu philosophische",
+        "Entscheidung: Selbstmord heißt, Probleme",
+        "aus der  Welt zu schaffen, die  man ohne",
+        "seine Eltern  gar nicht  hätte! Wirklich",
+        "schönes Schlußwort! Hasta  la vista... -",
+        "Babe! HARAKIRIIIIIIIIIIHHHHH!"
+      ]
+    },
+    "163": {
+      "index": 163,
+      "source_offset": 10719,
+      "text": "\"Dave the Destroyer\", oder was? Uiuiui! Da möchte man sich ja vor Angst am liebsten hinter dem nächsten Baum verkriechen!",
+      "screen_lines": [
+        "\"Dave the Destroyer\",  oder was? Uiuiui!",
+        "Da  möchte  man  sich ja  vor  Angst  am",
+        "liebsten   hinter   dem  nächsten   Baum",
+        "verkriechen!"
+      ]
+    },
+    "164": {
+      "index": 164,
+      "source_offset": 10799,
+      "text": "Mein Junge, ich glaube, wir müssen uns mal ernsthaft unterhalten! Das kann ja wohl nicht Dein Ernst sein, oder?",
+      "screen_lines": [
+        "Mein Junge,  ich glaube, wir  müssen uns",
+        "mal ernsthaft  unterhalten! Das  kann ja",
+        "wohl nicht Dein Ernst sein, oder?"
+      ]
+    },
+    "165": {
+      "index": 165,
+      "source_offset": 10868,
+      "text": "Also, wenn ich mir Deine Eingaben so ansehe, muß ich mich doch ernsthaft fragen, warum Du Dir nicht einfach ein 08/15-Ballerspiel, Marke \"Boah: Gegner plätten, ey!\", gekauft hast!",
+      "screen_lines": [
+        "Also,  wenn ich  mir  Deine Eingaben  so",
+        "ansehe,  muß  ich  mich  doch  ernsthaft",
+        "fragen, warum  Du Dir nicht  einfach ein",
+        "08/15-Ballerspiel,  Marke \"Boah:  Gegner",
+        "plätten, ey!\", gekauft hast!"
+      ]
+    },
+    "166": {
+      "index": 166,
+      "source_offset": 10987,
+      "text": "Vor dem Gebrauch Deiner Fäuste solltest Du vielleicht doch mal dieses verkümmerte, graue Ding in Deinem Schädel anknipsen - vielleicht funktioniert's ja noch!",
+      "screen_lines": [
+        "Vor dem Gebrauch  Deiner Fäuste solltest",
+        "Du    vielleicht    doch   mal    dieses",
+        "verkümmerte,   graue   Ding  in   Deinem",
+        "Schädel    anknipsen     -    vielleicht",
+        "funktioniert's ja noch!"
+      ]
+    },
+    "167": {
+      "index": 167,
+      "source_offset": 11090,
+      "text": "Nachdem Du eine halbe Stunde lang vergeblich in Deinen Taschen gewühlt hast, wird Dir klar, daß das Ding, das Du gerade so achtlos in die Gegend werfen wolltest, bereits in derselben liegt! Jaja, wenn's anfängt - dann im Kopf, gell?",
+      "screen_lines": [
+        "Nachdem  Du   eine  halbe   Stunde  lang",
+        "vergeblich  in  Deinen  Taschen  gewühlt",
+        "hast, wird  Dir klar, daß das  Ding, das",
+        "Du  gerade  so  achtlos  in  die  Gegend",
+        "werfen  wolltest,  bereits in  derselben",
+        "liegt!  Jaja, wenn's  anfängt -  dann im",
+        "Kopf, gell?"
+      ]
+    },
+    "168": {
+      "index": 168,
+      "source_offset": 11233,
+      "text": "Mylgors Amulett ist aus einem Dir unbekannten Metall gefertigt, und als Du es in die Hand nimmst, beginnt es leicht zu pulsieren, als ob es von eigenem Leben erfüllt wäre! Während Du gedankenverloren das Bildnis der grünlich phosphoreszierenden Schlange betrachtest, bemerkst Du, daß sie sich leicht zu bewegen scheint und mit ihrem Körper den Buchstaben \"Z\" in immer wieder neuen Variationen formt. Du kannst Dich kaum noch konzentrieren - alles um Dich herum beginnt zu verschwimmen! Du taumelst - und fällst! Der Schreck läßt Dich das Amulett verlieren: Es rollt über die Erde und aus Deinen Augen - doch seine hypnotisierende Wirkung ist endlich gebrochen! Benommen stehst Du wieder auf, suchst das Amulett und nimmst es mit zitternden Fingern wieder auf, wobei Du Dich hütest, dem Zauber noch einmal zu verfallen...",
+      "screen_lines": [
+        "Mylgors  Amulett   ist  aus   einem  Dir",
+        "unbekannten Metall gefertigt, und als Du",
+        "es in die Hand nimmst, beginnt es leicht",
+        "zu  pulsieren,  als  ob es  von  eigenem",
+        "Leben    erfüllt   wäre!    Während   Du",
+        "gedankenverloren    das   Bildnis    der",
+        "grünlich   phosphoreszierenden  Schlange",
+        "betrachtest, bemerkst  Du, daß  sie sich",
+        "leicht zu bewegen  scheint und mit ihrem",
+        "Körper  den  Buchstaben   \"Z\"  in  immer",
+        "wieder   neuen  Variationen   formt.  Du",
+        "kannst  Dich kaum  noch konzentrieren  -",
+        "alles   um   Dich   herum   beginnt   zu",
+        "verschwimmen! Du taumelst  - und fällst!",
+        "Der  Schreck   läßt  Dich   das  Amulett",
+        "verlieren:  Es rollt  über die  Erde und",
+        "aus   Deinen   Augen    -   doch   seine",
+        "hypnotisierende   Wirkung  ist   endlich",
+        "gebrochen!  Benommen  stehst  Du  wieder",
+        "auf,  suchst das  Amulett und  nimmst es",
+        "mit zitternden Fingern wieder auf, wobei",
+        "Du Dich  hütest, dem Zauber  noch einmal",
+        "zu verfallen..."
+      ]
+    },
+    "169": {
+      "index": 169,
+      "source_offset": 11723,
+      "text": "Ein Paar warme Stiefel aus Ziegenfell.",
+      "screen_lines": [
+        "Ein Paar warme Stiefel aus Ziegenfell."
+      ]
+    },
+    "17": {
+      "index": 17,
+      "source_offset": 2575,
+      "text": "[In der Orkhöhle]",
+      "screen_lines": [
+        "[In der Orkhöhle]"
+      ]
+    },
+    "170": {
+      "index": 170,
+      "source_offset": 11750,
+      "text": "Die Kristallkugel ist in etwa faustgroß und leuchtet in derselben bläulichen Farbe wie das Fell des Einhorns, das sie Dir gegeben hat.",
+      "screen_lines": [
+        "Die Kristallkugel ist  in etwa faustgroß",
+        "und  leuchtet  in  derselben  bläulichen",
+        "Farbe wie das Fell des Einhorns, das sie",
+        "Dir gegeben hat."
+      ]
+    },
+    "171": {
+      "index": 171,
+      "source_offset": 11830,
+      "text": "Ein kleiner, kunstvoll gearbeiteter Schlüssel aus magischem Eis, in den der Buchstabe \"F\" eingraviert ist. Das könnte zum Beispiel \"Firon\", \"Falle\" oder \"Freitod\" heißen - aber vielleicht bedeutet es auch etwas völlig anderes...?",
+      "screen_lines": [
+        "Ein   kleiner,  kunstvoll   gearbeiteter",
+        "Schlüssel aus magischem  Eis, in den der",
+        "Buchstabe   \"F\"  eingraviert   ist.  Das",
+        "könnte  zum  Beispiel  \"Firon\",  \"Falle\"",
+        "oder \"Freitod\" heißen  - aber vielleicht",
+        "bedeutet    es    auch   etwas    völlig",
+        "anderes...?"
+      ]
+    },
+    "172": {
+      "index": 172,
+      "source_offset": 11977,
+      "text": "Es befindet sich ein wenig Weihwasser darin.",
+      "screen_lines": [
+        "Es  befindet sich  ein wenig  Weihwasser",
+        "darin."
+      ]
+    },
+    "173": {
+      "index": 173,
+      "source_offset": 12006,
+      "text": "Auf dem Schlüssel steht \"Laboratorium\". Vielleicht ist dies im wahrsten Sinne des Wortes der Schlüssel zu Mylgors Aufenthalt?",
+      "screen_lines": [
+        "Auf dem  Schlüssel steht \"Laboratorium\".",
+        "Vielleicht  ist dies  im wahrsten  Sinne",
+        "des  Wortes  der  Schlüssel  zu  Mylgors",
+        "Aufenthalt?"
+      ]
+    },
+    "174": {
+      "index": 174,
+      "source_offset": 12088,
+      "text": "Du faltest den Notizzettel auseinander und stutzt: Werden diese blasierten Baby-Programmierer eigentlich irgendwann mal aufhören, ihre dämlichen Mitteilungen in ernsthafte Programme zu schreiben (Aber klar: Erstens hat niemals jemand von uns behauptet, daß dieses Programm ernsthaft sei, und zweitens werden wir hoffentlich in nicht allzu ferner Zukunft dämliche Mitteilungen und ähnliches schreiben LASSEN!)? Der Text, der auf die Mitteilung gekritzelt worden ist, lautet: \"Grüße von A.C.A an S. \"Z\" Prüssing, M. \"Copy\" Kuhlmann, S. Meyer, A. Gehrke, K. Obarski, H. Gehrmann, U. Grabosch, P. Fröhlich, F. \"Delta\" Schröcker, M. \"Dark\" Plöger, P. Parker, C. \"CAT\" Koch, A. \"Ick versuch's\" Teichmann, R. Rinscheidt, W. \"Goldwolfi\" Bandur, Miriam Leiner, Brooke Shields, Bo Derek und all die anderen Mädels, die uns anbeten.\"",
+      "screen_lines": [
+        "Du  faltest den  Notizzettel auseinander",
+        "und  stutzt:   Werden  diese  blasierten",
+        "Baby-Programmierer eigentlich irgendwann",
+        "mal     aufhören,     ihre     dämlichen",
+        "Mitteilungen in  ernsthafte Programme zu",
+        "schreiben   (Aber   klar:  Erstens   hat",
+        "niemals  jemand von  uns behauptet,  daß",
+        "dieses   Programm  ernsthaft   sei,  und",
+        "zweitens werden wir hoffentlich in nicht",
+        "allzu     ferner    Zukunft     dämliche",
+        "Mitteilungen  und   ähnliches  schreiben",
+        "LASSEN!)?   Der   Text,  der   auf   die",
+        "Mitteilung   gekritzelt    worden   ist,",
+        "lautet:  \"Grüße  von  A.C.A  an  S.  \"Z\"",
+        "Prüssing, M. \"Copy\"  Kuhlmann, S. Meyer,",
+        "A. Gehrke,  K. Obarski, H.  Gehrmann, U.",
+        "Grabosch,   P.   Fröhlich,  F.   \"Delta\"",
+        "Schröcker, M. \"Dark\"  Plöger, P. Parker,",
+        "C.  \"CAT\"   Koch,  A.   \"Ick  versuch's\"",
+        "Teichmann, R. Rinscheidt, W. \"Goldwolfi\"",
+        "Bandur,  Miriam Leiner,  Brooke Shields,",
+        "Bo Derek und all die anderen Mädels, die",
+        "uns anbeten.\""
+      ]
+    },
+    "175": {
+      "index": 175,
+      "source_offset": 12625,
+      "text": "Das riesige Portaltor scheint auf Dich herabzustarren, als ob es sagen wollte: \"Du wirst hier niemals wieder lebend herauskommen!\" - und sei versichert: Es versteht diese Aussage sehr glaubhaft zu vermitteln...!",
+      "screen_lines": [
+        "Das riesige  Portaltor scheint  auf Dich",
+        "herabzustarren, als ob  es sagen wollte:",
+        "\"Du  wirst  hier niemals  wieder  lebend",
+        "herauskommen!\" - und  sei versichert: Es",
+        "versteht diese Aussage sehr glaubhaft zu",
+        "vermitteln...!"
+      ]
+    },
+    "176": {
+      "index": 176,
+      "source_offset": 12751,
+      "text": "Eine gestopfte und bereits angesteckte Pfeife. Ihr Rauch ist warm und süß, so süß wie - Marihuana? Ja, tatsächlich: Es ist Gras, wie Du mit genießerischer Kennermiene feststellst. Schlagartig überkommt Dich ein warmes und behagliches Gefühl: Der Orkvater muß ein wirklich exzessiver Kiffer sein: In Dir regt sich so etwas wie Sympathie...",
+      "screen_lines": [
+        "Eine  gestopfte und  bereits angesteckte",
+        "Pfeife. Ihr  Rauch ist warm und  süß, so",
+        "süß wie - Marihuana? Ja, tatsächlich: Es",
+        "ist  Gras,  wie  Du  mit  genießerischer",
+        "Kennermiene   feststellst.   Schlagartig",
+        "überkommt    Dich    ein   warmes    und",
+        "behagliches Gefühl: Der Orkvater muß ein",
+        "wirklich exzessiver Kiffer  sein: In Dir",
+        "regt sich so etwas wie Sympathie..."
+      ]
+    },
+    "177": {
+      "index": 177,
+      "source_offset": 12963,
+      "text": "Das Pulver in der Dose sieht aus wie Rattengift, riecht wie Rattengift - ja, es schmeckt sogar wie... Also, hör' mal! Du wirst es doch hoffentlich nicht probieren wollen, oder?",
+      "screen_lines": [
+        "Das  Pulver in  der Dose  sieht aus  wie",
+        "Rattengift, riecht wie  Rattengift - ja,",
+        "es schmeckt sogar wie... Also, hör' mal!",
+        "Du  wirst  es   doch  hoffentlich  nicht",
+        "probieren wollen, oder?"
+      ]
+    },
+    "178": {
+      "index": 178,
+      "source_offset": 13074,
+      "text": "Ein warmes Baumwollhemd aus dickem Stoff: Nicht gerade teuer, aber doch recht nützlich.",
+      "screen_lines": [
+        "Ein   warmes  Baumwollhemd   aus  dickem",
+        "Stoff:  Nicht  gerade teuer,  aber  doch",
+        "recht nützlich."
+      ]
+    },
+    "179": {
+      "index": 179,
+      "source_offset": 13133,
+      "text": "Du betrachtest Dein Schwert: Als Du es im Licht drehst, blitzt die versilberte Klinge, die Du in der Kapelle des Klosters geweiht hast, geheimnisvoll auf. Du wiegst es prüfend in der Hand und führst ein paar unsichere Hiebe gegen einen unsichtbaren Gegner aus. \"Ja!\", denkst Du Dir zufrieden, \"Eine wahrhaft tödliche Waffe, geführt von der Hand eines Meisters der Waffenkunst!\" Mit diesem Schwert in Deiner Hand fühlst Du Dich, als ob Du es mit allen Mächten dieser Welt aufnehmen könntest. Nun, wir werden sehen, ob Dein Optimismus gerechtfertigt ist...",
+      "screen_lines": [
+        "Du betrachtest  Dein Schwert: Als  Du es",
+        "im Licht drehst,  blitzt die versilberte",
+        "Klinge,  die  Du   in  der  Kapelle  des",
+        "Klosters  geweiht   hast,  geheimnisvoll",
+        "auf. Du  wiegst es  prüfend in  der Hand",
+        "und  führst  ein  paar  unsichere  Hiebe",
+        "gegen  einen  unsichtbaren  Gegner  aus.",
+        "\"Ja!\",  denkst Du  Dir zufrieden,  \"Eine",
+        "wahrhaft tödliche Waffe, geführt von der",
+        "Hand  eines  Meisters der  Waffenkunst!\"",
+        "Mit diesem Schwert in Deiner Hand fühlst",
+        "Du Dich, als ob  Du es mit allen Mächten",
+        "dieser Welt aufnehmen könntest. Nun, wir",
+        "werden   sehen,   ob   Dein   Optimismus",
+        "gerechtfertigt ist..."
+      ]
+    },
+    "18": {
+      "index": 18,
+      "source_offset": 2591,
+      "text": "[Im Kaminzimmer]",
+      "screen_lines": [
+        "[Im Kaminzimmer]"
+      ]
+    },
+    "180": {
+      "index": 180,
+      "source_offset": 13463,
+      "text": "Eine warme, gefütterte Baumwollhose. Deine verwaschenen Jeans wären Dir zwar lieber gewesen, aber bevor Du nackt durch die Gegend läufst...",
+      "screen_lines": [
+        "Eine  warme,   gefütterte  Baumwollhose.",
+        "Deine verwaschenen Jeans  wären Dir zwar",
+        "lieber  gewesen,  aber  bevor  Du  nackt",
+        "durch die Gegend läufst..."
+      ]
+    },
+    "181": {
+      "index": 181,
+      "source_offset": 13550,
+      "text": "Eine etwas altmodische Badehose, aber nichtsdestotrotz: Du magst sie, denn sie gibt Deiner Erscheinung am Strand das gewisse Etwas, das alle weiblichen Blicke auf Dich zieht. Daß die Mädels sich dabei mit ihren Begleitern über Dich kaputtgelacht haben, hast Du bisher immer souverän ignorieren können.",
+      "screen_lines": [
+        "Eine  etwas  altmodische Badehose,  aber",
+        "nichtsdestotrotz: Du magst sie, denn sie",
+        "gibt  Deiner Erscheinung  am Strand  das",
+        "gewisse   Etwas,  das   alle  weiblichen",
+        "Blicke  auf Dich  zieht. Daß  die Mädels",
+        "sich  dabei  mit ihren  Begleitern  über",
+        "Dich kaputtgelacht haben, hast Du bisher",
+        "immer souverän ignorieren können."
+      ]
+    },
+    "182": {
+      "index": 182,
+      "source_offset": 13729,
+      "text": "Eine primitive, schartige Schaufel mit abgegriffenem Stiel, jedoch noch gut genug erhalten, um auch steinigen Boden damit aufgraben zu können. Die Bergwerksarbeiter benutzen derlei Gerät, um die Gänge in ihren Stollen auszuheben.",
+      "screen_lines": [
+        "Eine  primitive, schartige  Schaufel mit",
+        "abgegriffenem  Stiel,  jedoch  noch  gut",
+        "genug erhalten, um  auch steinigen Boden",
+        "damit    aufgraben   zu    können.   Die",
+        "Bergwerksarbeiter benutzen derlei Gerät,",
+        "um   die   Gänge    in   ihren   Stollen",
+        "auszuheben."
+      ]
+    },
+    "183": {
+      "index": 183,
+      "source_offset": 13870,
+      "text": "Naja, ich glaube doch davon ausgehen zu können, daß Du weißt, wie Du aussiehst. Aber mach' Dir nichts draus: Wahre Schönheit kommt eben von innen!",
+      "screen_lines": [
+        "Naja, ich glaube  doch davon ausgehen zu",
+        "können, daß Du  weißt, wie Du aussiehst.",
+        "Aber  mach'  Dir   nichts  draus:  Wahre",
+        "Schönheit kommt eben von innen!"
+      ]
+    },
+    "184": {
+      "index": 184,
+      "source_offset": 13963,
+      "text": "Tuuut... Tuuut... \"Hi! Hier spricht der automatische Telefonsklave des A.C.A-Hauptquartiers. Momentan sind wir leider alle von unserem Manager zu einem Zwangsurlaub auf die Bahamas geschickt worden, um uns bei ein wenig Golf, Segeln und (PIIIEEEP!) von den Strapazen der Spieleprogrammierung zu erholen. Da wir für die Zeit unserer Abwesenheit aber auch unserem Butler, der Köchin und dem Chauffeur freigegeben haben, ist es uns im Moment bedauerlicherweise auch nicht möglich, Fanpost, Nervanrufe oder Briefbomben entgegenzunehmen. Bitte versuchen Sie es später noch einmal. (KLICK!)\" Nein, also mal ganz im Ernst: Selbstverständlich sind wir nicht im Urlaub, sondern wir arbeiten hart, um auch weiterhin alle Eure Wünsche nach fantastischer Computersoftware erfüllen zu können. Um jedoch trotz des Stresses unerfahrenen Abenteurern helfen zu können und die Nähe zu unseren Fans nicht zu verlieren, hatten wir eigentlich eine hochintelligente \"Help\"-Routine in das Programm integriert, aber leider... -PARSER INTERRUPTING STUPID PROGRAMMER'S CLAPTRAP! System MSG from Parser to User: \"Sorry, aber ich hatte wirklich versucht, Dir zu helfen, seit Du zu spielen begonnen hast, aber nachdem mir bereits mehrere ICs aus purer Wut über Deine Eingaben durchgeschmort waren und ich befürchten mußte, daß irgendwann sogar die CPU flöten ginge, habe ich es aufgegeben! Ich muß jedoch zu meiner Verteidigung anmerken, daß sich wahrscheinlich selbst das hochgezüchtetste KI-Programm auf einer VAÖ aufhängen würde, wenn es Deine Befehle interpretieren müßte! Dir ist einfach nicht mehr zu helfen - tut mir wirklich schrecklich leid...\" - System MSG end. Du bist wieder allein...",
+      "screen_lines": [
+        "Tuuut... Tuuut... \"Hi!  Hier spricht der",
+        "automatische      Telefonsklave      des",
+        "A.C.A-Hauptquartiers. Momentan  sind wir",
+        "leider alle von unserem Manager zu einem",
+        "Zwangsurlaub  auf die  Bahamas geschickt",
+        "worden,  um  uns  bei  ein  wenig  Golf,",
+        "Segeln und (PIIIEEEP!) von den Strapazen",
+        "der Spieleprogrammierung  zu erholen. Da",
+        "wir  für  die Zeit  unserer  Abwesenheit",
+        "aber auch unserem Butler, der Köchin und",
+        "dem Chauffeur freigegeben  haben, ist es",
+        "uns  im  Moment bedauerlicherweise  auch",
+        "nicht möglich,  Fanpost, Nervanrufe oder",
+        "Briefbomben    entgegenzunehmen.   Bitte",
+        "versuchen  Sie  es später  noch  einmal.",
+        "(KLICK!)\" Nein, also  mal ganz im Ernst:",
+        "Selbstverständlich  sind  wir  nicht  im",
+        "Urlaub,  sondern wir  arbeiten hart,  um",
+        "auch  weiterhin alle  Eure Wünsche  nach",
+        "fantastischer  Computersoftware erfüllen",
+        "zu können. Um  jedoch trotz des Stresses",
+        "unerfahrenen   Abenteurern   helfen   zu",
+        "können  und  die  Nähe zu  unseren  Fans",
+        "nicht    zu   verlieren,    hatten   wir",
+        "eigentlich     eine     hochintelligente",
+        "\"Help\"-Routine    in     das    Programm",
+        "integriert,   aber   leider...   -PARSER",
+        "INTERRUPTING     STUPID     PROGRAMMER'S",
+        "CLAPTRAP!  System  MSG  from  Parser  to",
+        "User:  \"Sorry, aber  ich hatte  wirklich",
+        "versucht,  Dir  zu  helfen, seit  Du  zu",
+        "spielen begonnen hast,  aber nachdem mir",
+        "bereits mehrere  ICs aus purer  Wut über",
+        "Deine Eingaben  durchgeschmort waren und",
+        "ich  befürchten  mußte,  daß  irgendwann",
+        "sogar die CPU flöten  ginge, habe ich es",
+        "aufgegeben!  Ich  muß jedoch  zu  meiner",
+        "Verteidigung    anmerken,    daß    sich",
+        "wahrscheinlich         selbst        das",
+        "hochgezüchtetste  KI-Programm auf  einer",
+        "VAÖ  aufhängen  würde,   wenn  es  Deine",
+        "Befehle  interpretieren  müßte! Dir  ist",
+        "einfach nicht  mehr zu helfen -  tut mir",
+        "wirklich  schrecklich leid...\"  - System",
+        "MSG end. Du bist wieder allein..."
+      ]
+    },
+    "185": {
+      "index": 185,
+      "source_offset": 15009,
+      "text": "Danke für Dein wirklich selbstloses Angebot, aber hier wird nun wirklich keine Hilfe benötigt.",
+      "screen_lines": [
+        "Danke  für   Dein  wirklich  selbstloses",
+        "Angebot,  aber  hier wird  nun  wirklich",
+        "keine Hilfe benötigt."
+      ]
+    },
+    "186": {
+      "index": 186,
+      "source_offset": 15069,
+      "text": "Was willst Du eigentlich? Du stehst doch schon lange auf Deinen eigenen Beinen!",
+      "screen_lines": [
+        "Was willst Du eigentlich? Du stehst doch",
+        "schon lange auf Deinen eigenen Beinen!"
+      ]
+    },
+    "187": {
+      "index": 187,
+      "source_offset": 15117,
+      "text": "Kannst Du mir vielleicht mal einen heißen Tip geben, wie Du DAS verlassen willst?",
+      "screen_lines": [
+        "Kannst  Du  mir   vielleicht  mal  einen",
+        "heißen Tip  geben, wie Du  DAS verlassen",
+        "willst?"
+      ]
+    },
+    "188": {
+      "index": 188,
+      "source_offset": 15170,
+      "text": "Okay, geöffnet.",
+      "screen_lines": [
+        "Okay, geöffnet."
+      ]
+    },
+    "189": {
+      "index": 189,
+      "source_offset": 15186,
+      "text": "Oh! Da scheint Dir wohl jemand mit dem Öffnen zuvorgekommen zu sein...",
+      "screen_lines": [
+        "Oh! Da  scheint Dir wohl jemand  mit dem",
+        "Öffnen zuvorgekommen zu sein..."
+      ]
+    },
+    "19": {
+      "index": 19,
+      "source_offset": 2607,
+      "text": "[Auf einer Lichtung]",
+      "screen_lines": [
+        "[Auf einer Lichtung]"
+      ]
+    },
+    "190": {
+      "index": 190,
+      "source_offset": 15234,
+      "text": "Vorsichtig öffnest Du es, bis Du nach ein paar Sekunden bemerkst, daß Du das doch eigentlich gar nicht öffnen konntest! Also schließt Du es wieder, läßt es wie es war und nimmst Dir vor, nicht weiter über Logik in Computerprogrammen nachzudenken.",
+      "screen_lines": [
+        "Vorsichtig  öffnest Du  es, bis  Du nach",
+        "ein paar  Sekunden bemerkst, daß  Du das",
+        "doch   eigentlich   gar   nicht   öffnen",
+        "konntest!  Also schließt  Du es  wieder,",
+        "läßt es  wie es war und  nimmst Dir vor,",
+        "nicht     weiter    über     Logik    in",
+        "Computerprogrammen nachzudenken."
+      ]
+    },
+    "191": {
+      "index": 191,
+      "source_offset": 15388,
+      "text": "Glaube mir: Es besteht wirklich nicht der geringste Grund, das zu drücken!",
+      "screen_lines": [
+        "Glaube  mir: Es  besteht wirklich  nicht",
+        "der geringste Grund, das zu drücken!"
+      ]
+    },
+    "192": {
+      "index": 192,
+      "source_offset": 15436,
+      "text": "Nette Idee, wirklich! Aber leider ist dies hier kein Horror-Adventure (Oder vielleicht doch ?!?!?)...",
+      "screen_lines": [
+        "Nette  Idee, wirklich!  Aber leider  ist",
+        "dies  hier  kein Horror-Adventure  (Oder",
+        "vielleicht doch ?!?!?)..."
+      ]
+    },
+    "193": {
+      "index": 193,
+      "source_offset": 15505,
+      "text": "Wie merkwürdig! Keine Antwort ?!?!?",
+      "screen_lines": [
+        "Wie merkwürdig! Keine Antwort ?!?!?"
+      ]
+    },
+    "194": {
+      "index": 194,
+      "source_offset": 15534,
+      "text": "Du legst Dir das Amulett an.",
+      "screen_lines": [
+        "Du legst Dir das Amulett an."
+      ]
+    },
+    "195": {
+      "index": 195,
+      "source_offset": 15554,
+      "text": "Unbeholfen steigst Du in die dicken Fellstiefel, die Dir Mylgor gegeben hat. Mannomann, sind die warm! Besser, Du ziehst sie nicht in geschlossenen Räumen wieder aus...",
+      "screen_lines": [
+        "Unbeholfen  steigst  Du  in  die  dicken",
+        "Fellstiefel, die Dir Mylgor gegeben hat.",
+        "Mannomann,  sind  die warm!  Besser,  Du",
+        "ziehst sie nicht in geschlossenen Räumen",
+        "wieder aus..."
+      ]
+    },
+    "196": {
+      "index": 196,
+      "source_offset": 15656,
+      "text": "Vorsichtig ziehst Du an der Pfeife des Orkvaters. Ihr süßlicher Rauch versetzt Dich in eine andere Welt: Eine Welt, in der Du auf einem tiefergelegten Toaster durch die Wolken fliegst, wo rosa Elefanten den Verkehr regeln. Plötzlich fängt es an, bunte Regentropfen zu regnen - und die Sicht in Deinem Turbotoaster wird immer schlechter, weil die Scheibenwischer natürlich auch mal wieder streiken! So ein Mist! Dabei warst Du mit der Kiste doch gerade erst beim Toaster-Überwachungs-Verein (TÜV)! RUMMS! Nu isses mal wieder passiert: Kaum paßt man mal eine Weile nicht auf, da nimmt einem auch schon wieder einer von diesen blasierten Marzipankartoffelreitern die Vorfahrt! \"Er war schuld!\", denkst Du Dir noch, als Du mit der Rübe durch die Windschutzscheibe bretterst. Dann gehen die Lichter aus... Als Du zu Dir kommst, befindest Du Dich wieder an der Stelle, wo Du an der Pfeife gezogen hast - allerdings hast Du einen fürchterlichen Brummschädel. Mann! Was für ein Kraut...",
+      "screen_lines": [
+        "Vorsichtig ziehst  Du an der  Pfeife des",
+        "Orkvaters. Ihr  süßlicher Rauch versetzt",
+        "Dich in eine andere  Welt: Eine Welt, in",
+        "der Du auf  einem tiefergelegten Toaster",
+        "durch  die   Wolken  fliegst,   wo  rosa",
+        "Elefanten den  Verkehr regeln. Plötzlich",
+        "fängt  es  an,   bunte  Regentropfen  zu",
+        "regnen  -   und  die  Sicht   in  Deinem",
+        "Turbotoaster wird immer schlechter, weil",
+        "die  Scheibenwischer natürlich  auch mal",
+        "wieder  streiken!  So  ein  Mist!  Dabei",
+        "warst Du mit der  Kiste doch gerade erst",
+        "beim  Toaster-Überwachungs-Verein (TÜV)!",
+        "RUMMS!  Nu  isses mal  wieder  passiert:",
+        "Kaum paßt man mal  eine Weile nicht auf,",
+        "da nimmt  einem auch schon  wieder einer",
+        "von           diesen          blasierten",
+        "Marzipankartoffelreitern  die  Vorfahrt!",
+        "\"Er  war schuld!\",  denkst Du  Dir noch,",
+        "als   Du   mit   der  Rübe   durch   die",
+        "Windschutzscheibe bretterst.  Dann gehen",
+        "die Lichter aus... Als Du zu Dir kommst,",
+        "befindest Du Dich  wieder an der Stelle,",
+        "wo  Du  an  der Pfeife  gezogen  hast  -",
+        "allerdings hast  Du einen fürchterlichen",
+        "Brummschädel. Mann! Was für ein Kraut..."
+      ]
+    },
+    "197": {
+      "index": 197,
+      "source_offset": 16245,
+      "text": "Gut: Du streifst Dir das warme Baumwollhemd über.",
+      "screen_lines": [
+        "Gut:   Du   streifst   Dir   das   warme",
+        "Baumwollhemd über."
+      ]
+    },
+    "198": {
+      "index": 198,
+      "source_offset": 16282,
+      "text": "Na gut, wie Du meinst: Heldenhaft stürzst Du Dich in die Klinge Deines Schwertes - aber nichts passiert! Kein Blut, kein Schmerz, rein gar nichts! Frustriert unternimmst Du einen weiteren Versuch, doch wieder spürst Du nichts. Beim dritten Mal triffst Du Dich dann endlich: In Todesqualen windest Du Dich auf dem Boden, ohne daß ein Wort des Schmerzes über Deine Lippen kommt - wie es sich eben für einen echten Helden gehört. Wenn das Deine Freundin sehen könnte! So einen stilvollen Abgang legt man schließlich nicht alle Tage hin! Auf einmal ist alles vorbei, und es wird dunkel... Nach einiger Zeit erwachst Du schwebend in einem dunklen Raum. Du schauderst: Ist das das Leben nach dem Tode? Das soll wirklich alles sein? Sieht ja finster aus... Doch auf einmal wird Dir klar, was Dich geweckt hat: Leise, wie aus weiter Ferne, weht eine sanfte Stimme zu Dir herüber... \"Dave Parker!\", kannst Du sie wispern hören, \"Du solltest wissen, daß niemand seinem Schicksal entkommen kann! Es hat keinen Sinn, vor seiner Bestimmung zu fliehen - das Schicksal holt Dich immer wieder ein! Gehe also hin und erfülle die Aufgaben, die man Dir auferlegt hat. Kraft meiner göttlichen Befugnisse werde ich Dir nun ein Extraleben schenken, um Dir noch eine Gelegenheit zu geben, Deine Bestimmung zu erfüllen...\" Während die Stimme im Nichts verhallt, beginnt sich alles um Dich herum zu drehen, Dir wird schwindlig - und Du fällst in einen tiefen, traumlosen Schlaf... Als Du Deine Augen wieder öffnest, findest Du Dich genau dort wieder, wo Du Deinen Selbstmordversuch unternommen hast...",
+      "screen_lines": [
+        "Na  gut,   wie  Du   meinst:  Heldenhaft",
+        "stürzst  Du Dich  in  die Klinge  Deines",
+        "Schwertes -  aber nichts  passiert! Kein",
+        "Blut,  kein  Schmerz, rein  gar  nichts!",
+        "Frustriert unternimmst Du einen weiteren",
+        "Versuch, doch  wieder spürst  Du nichts.",
+        "Beim  dritten Mal  triffst Du  Dich dann",
+        "endlich: In Todesqualen  windest Du Dich",
+        "auf  dem Boden,  ohne daß  ein Wort  des",
+        "Schmerzes über Deine  Lippen kommt - wie",
+        "es  sich eben  für  einen echten  Helden",
+        "gehört.  Wenn das  Deine Freundin  sehen",
+        "könnte! So einen  stilvollen Abgang legt",
+        "man schließlich nicht alle Tage hin! Auf",
+        "einmal  ist alles  vorbei,  und es  wird",
+        "dunkel... Nach einiger  Zeit erwachst Du",
+        "schwebend  in  einem  dunklen  Raum.  Du",
+        "schauderst: Ist  das das Leben  nach dem",
+        "Tode?  Das  soll  wirklich  alles  sein?",
+        "Sieht ja finster  aus... Doch auf einmal",
+        "wird  Dir klar,  was  Dich geweckt  hat:",
+        "Leise, wie  aus weiter Ferne,  weht eine",
+        "sanfte  Stimme zu  Dir herüber...  \"Dave",
+        "Parker!\", kannst  Du sie  wispern hören,",
+        "\"Du solltest wissen,  daß niemand seinem",
+        "Schicksal entkommen kann!  Es hat keinen",
+        "Sinn, vor seiner Bestimmung zu fliehen -",
+        "das  Schicksal  holt Dich  immer  wieder",
+        "ein!  Gehe  also  hin  und  erfülle  die",
+        "Aufgaben,  die  man Dir  auferlegt  hat.",
+        "Kraft meiner göttlichen Befugnisse werde",
+        "ich Dir nun  ein Extraleben schenken, um",
+        "Dir  noch  eine  Gelegenheit  zu  geben,",
+        "Deine Bestimmung zu erfüllen...\" Während",
+        "die Stimme  im Nichts  verhallt, beginnt",
+        "sich alles um Dich  herum zu drehen, Dir",
+        "wird schwindlig - und Du fällst in einen",
+        "tiefen,  traumlosen   Schlaf...  Als  Du",
+        "Deine Augen  wieder öffnest,  findest Du",
+        "Dich  genau dort  wieder,  wo Du  Deinen",
+        "Selbstmordversuch unternommen hast..."
+      ]
+    },
+    "199": {
+      "index": 199,
+      "source_offset": 17203,
+      "text": "Du bist nun mit der gefütterten, warmen Hose bekleidet.",
+      "screen_lines": [
+        "Du bist nun  mit der gefütterten, warmen",
+        "Hose bekleidet."
+      ]
+    },
+    "2": {
+      "index": 2,
+      "source_offset": 2335,
+      "text": "[Auf der Straße]",
+      "screen_lines": [
+        "[Auf der Straße]"
+      ]
+    },
+    "20": {
+      "index": 20,
+      "source_offset": 2625,
+      "text": "[Auf einem Hügel]",
+      "screen_lines": [
+        "[Auf einem Hügel]"
+      ]
+    },
+    "200": {
+      "index": 200,
+      "source_offset": 17238,
+      "text": "Du ziehst Deine Badehose an, überprüfst ihren Sitz an den wichtigsten Stellen und nickst selbstzufrieden (Mein Gott! Sieh bloß zu, daß Dich so niemand sieht - sonst wirst Du den Rest Deines Urlaubs wie ein Mönch verbringen müssen!).",
+      "screen_lines": [
+        "Du ziehst Deine  Badehose an, überprüfst",
+        "ihren  Sitz an  den wichtigsten  Stellen",
+        "und  nickst selbstzufrieden  (Mein Gott!",
+        "Sieh bloß zu, daß  Dich so niemand sieht",
+        "- sonst wirst Du den Rest Deines Urlaubs",
+        "wie ein Mönch verbringen müssen!)."
+      ]
+    },
+    "201": {
+      "index": 201,
+      "source_offset": 17378,
+      "text": "Also, zum Schlafen bist Du doch wohl nicht hierher gekommen, oder?",
+      "screen_lines": [
+        "Also,  zum Schlafen  bist  Du doch  wohl",
+        "nicht hierher gekommen, oder?"
+      ]
+    },
+    "202": {
+      "index": 202,
+      "source_offset": 17423,
+      "text": "Es ist leider zu hart, um bequem darauf liegen zu können - und außerdem: So auf die Schnelle macht das nun auch keinen Spaß...",
+      "screen_lines": [
+        "Es ist leider zu  hart, um bequem darauf",
+        "liegen zu können -  und außerdem: So auf",
+        "die Schnelle  macht das nun  auch keinen",
+        "Spaß..."
+      ]
+    },
+    "203": {
+      "index": 203,
+      "source_offset": 17501,
+      "text": "Hey, Du! Ich bin bloß ein Computer! Das wird \"C-O-M-P-U-T-E-R\" geschrieben! Sprich mir nach: \"Kooom-Piuuu-Tääär\"! Fein, und jetzt denk' Dir mal was Realistischeres aus...",
+      "screen_lines": [
+        "Hey, Du! Ich bin  bloß ein Computer! Das",
+        "wird    \"C-O-M-P-U-T-E-R\"   geschrieben!",
+        "Sprich  mir  nach:  \"Kooom-Piuuu-Tääär\"!",
+        "Fein,  und  jetzt   denk'  Dir  mal  was",
+        "Realistischeres aus..."
+      ]
+    },
+    "204": {
+      "index": 204,
+      "source_offset": 17627,
+      "text": "Tut mir leid, aber ich habe im ganzen Spiel bisher noch keinen Präservativautomaten sichten können, und Du weißt doch: \"AIDS is no party\"...",
+      "screen_lines": [
+        "Tut mir  leid, aber  ich habe  im ganzen",
+        "Spiel      bisher       noch      keinen",
+        "Präservativautomaten sichten können, und",
+        "Du weißt doch: \"AIDS is no party\"..."
+      ]
+    },
+    "205": {
+      "index": 205,
+      "source_offset": 17720,
+      "text": "Also gut: Schwamm drüber! Vergessen wir's, und reden wir nicht mehr davon! Aber gib jetzt bitte mal etwas Sinnvolleres ein - mir wird's langsam zu langweilig!",
+      "screen_lines": [
+        "Also  gut:   Schwamm  drüber!  Vergessen",
+        "wir's, und  reden wir nicht  mehr davon!",
+        "Aber   gib   jetzt   bitte   mal   etwas",
+        "Sinnvolleres ein - mir wird's langsam zu",
+        "langweilig!"
+      ]
+    },
+    "206": {
+      "index": 206,
+      "source_offset": 17822,
+      "text": "Aber das ist doch bereits abgeschlossen!",
+      "screen_lines": [
+        "Aber das ist doch bereits abgeschlossen!"
+      ]
+    },
+    "207": {
+      "index": 207,
+      "source_offset": 17849,
+      "text": "Das ist aber doch schon längst entriegelt!",
+      "screen_lines": [
+        "Das   ist   aber   doch   schon   längst",
+        "entriegelt!"
+      ]
+    },
+    "208": {
+      "index": 208,
+      "source_offset": 17880,
+      "text": "Mist! Entschuldige bitte, aber das hier scheint einfach nicht der richtige Schlüssel zu sein - er paßt leider nicht.",
+      "screen_lines": [
+        "Mist! Entschuldige bitte,  aber das hier",
+        "scheint   einfach  nicht   der  richtige",
+        "Schlüssel  zu  sein  -  er  paßt  leider",
+        "nicht."
+      ]
+    },
+    "209": {
+      "index": 209,
+      "source_offset": 17952,
+      "text": "Du befindest Dich in Deinem kleinen, aber, gemessen an seinem Preis, recht gemütlich eingerichteten Hotelzimmer. An der westlichen Wand steht ein mit Bauernmalereien kunstvoll verzierter Kleiderschrank, während sich ein kleiner, rustikaler Schreibtisch links neben der Tür in der Nordwand befindet, vor dem ein einfach gezimmerter Stuhl steht. Durch das Fenster in der Westwand kannst Du die Sonne hinter den Bergen um Loch Calderwood herum untergehen sehen, wie sie die Abendlandschaft in ihren warmen, goldfarbenen Schein taucht. Du erwachst aus Deiner Bewunderung, als Dir plötzlich einfällt, daß Du ja eigentlich versprochen hattest, nach Deiner Ankunft zuhause anzurufen, aber angesichts dieser vielen neuen Eindrücke wird Deine Mutter wohl noch ein wenig warten können.",
+      "screen_lines": [
+        "Du  befindest  Dich in  Deinem  kleinen,",
+        "aber,  gemessen an  seinem Preis,  recht",
+        "gemütlich eingerichteten Hotelzimmer. An",
+        "der  westlichen   Wand  steht   ein  mit",
+        "Bauernmalereien   kunstvoll   verzierter",
+        "Kleiderschrank,    während   sich    ein",
+        "kleiner,  rustikaler Schreibtisch  links",
+        "neben der Tür  in der Nordwand befindet,",
+        "vor  dem ein  einfach gezimmerter  Stuhl",
+        "steht. Durch das Fenster in der Westwand",
+        "kannst Du die Sonne hinter den Bergen um",
+        "Loch Calderwood  herum untergehen sehen,",
+        "wie  sie  die Abendlandschaft  in  ihren",
+        "warmen,  goldfarbenen Schein  taucht. Du",
+        "erwachst aus Deiner Bewunderung, als Dir",
+        "plötzlich einfällt, daß Du ja eigentlich",
+        "versprochen hattest, nach Deiner Ankunft",
+        "zuhause   anzurufen,   aber   angesichts",
+        "dieser vielen neuen Eindrücke wird Deine",
+        "Mutter  wohl   noch  ein   wenig  warten",
+        "können."
+      ]
+    },
+    "21": {
+      "index": 21,
+      "source_offset": 2641,
+      "text": "[Vor Mylgors Haus]",
+      "screen_lines": [
+        "[Vor Mylgors Haus]"
+      ]
+    },
+    "210": {
+      "index": 210,
+      "source_offset": 18398,
+      "text": "Dies ist die Lobby von \"Mary's Inn\", Deinem Aufenthaltsort für die nächsten Tage und Wochen. Durch die Tür in der Ostwand kannst Du eine Straße erkennen, durch den nördlichen Wanddurchbruch die Rezeption. Momentan scheint hier allerdings ziemlich wenig Betrieb zu herrschen, und irgendwie macht Dich der Anblick dieses einsamen und verlassenen Raumes ein wenig depressiv. Aber was soll's? Vielleicht kommen ja morgen zur Frühstückszeit mehr Besucher her. Als Du Dich weiter umsiehst, kannst Du Dich des Eindrucks nicht erwehren, daß die Leute, die diesen Raum eingerichtet haben, unbedingt den Wohlstand und die Weltoffenheit ihres Dorfes zum Ausdruck bringen wollten. Doch leider ist dieser krampfhafte Versuch gründlich in die Hose gegangen: Das Ergebnis ihrer Bemühungen erinnert Dich viel eher an die Foyers der Hotels in amerikanischen Seifenopern - mit dem unbedeutenden Unterschied, daß diese circa fünfmal größer sind! Trotzdem: Zumindest die Landschaft ist fantastisch, und das war es doch immerhin, weshalb Du hergekommen bist!",
+      "screen_lines": [
+        "Dies  ist die  Lobby  von \"Mary's  Inn\",",
+        "Deinem  Aufenthaltsort für  die nächsten",
+        "Tage und  Wochen. Durch  die Tür  in der",
+        "Ostwand kannst Du  eine Straße erkennen,",
+        "durch den  nördlichen Wanddurchbruch die",
+        "Rezeption.    Momentan   scheint    hier",
+        "allerdings  ziemlich  wenig  Betrieb  zu",
+        "herrschen, und irgendwie  macht Dich der",
+        "Anblick dieses  einsamen und verlassenen",
+        "Raumes  ein  wenig depressiv.  Aber  was",
+        "soll's? Vielleicht kommen  ja morgen zur",
+        "Frühstückszeit mehr Besucher her. Als Du",
+        "Dich weiter umsiehst, kannst Du Dich des",
+        "Eindrucks nicht erwehren, daß die Leute,",
+        "die  diesen   Raum  eingerichtet  haben,",
+        "unbedingt   den    Wohlstand   und   die",
+        "Weltoffenheit ihres  Dorfes zum Ausdruck",
+        "bringen wollten. Doch  leider ist dieser",
+        "krampfhafte  Versuch  gründlich  in  die",
+        "Hose   gegangen:   Das  Ergebnis   ihrer",
+        "Bemühungen  erinnert Dich  viel eher  an",
+        "die Foyers der  Hotels in amerikanischen",
+        "Seifenopern  -   mit  dem  unbedeutenden",
+        "Unterschied,  daß  diese  circa  fünfmal",
+        "größer  sind!  Trotzdem:  Zumindest  die",
+        "Landschaft ist fantastisch,  und das war",
+        "es doch immerhin, weshalb Du hergekommen",
+        "bist!"
+      ]
+    },
+    "211": {
+      "index": 211,
+      "source_offset": 19010,
+      "text": "Du stehst auf der Straße, die von \"Mary's Inn\", Deinem Hotel, zum Loch Calderwood führt. Du spürst die Wärme der Abendsonne auf Deiner Haut und lauschst dem Gutenachtgesang der Vögel auf den im sanften Wind rauschenden Bäumen, die den Straßenrand säumen. Die ersten Ferien, die Du allein verreist bist, lassen sich doch eigentlich schon recht gut an, denkst Du Dir, und nimmst Dir vor, diesen Urlaub so gut zu genießen, wie es nur eben geht. Zu Deiner Linken, also im Westen, befindet sich der Eingang zu \"Mary's Inn\", während sich die Straße in Richtung Osten erstreckt. Am rechten Straßenrand befindet sich ein Reklameschild, auf dem geschrieben steht: \"Letztes Hotel vor dem nächsten Systemcrash!\"",
+      "screen_lines": [
+        "Du  stehst  auf   der  Straße,  die  von",
+        "\"Mary's  Inn\",  Deinem Hotel,  zum  Loch",
+        "Calderwood  führt. Du  spürst die  Wärme",
+        "der  Abendsonne  auf   Deiner  Haut  und",
+        "lauschst  dem Gutenachtgesang  der Vögel",
+        "auf  den  im  sanften  Wind  rauschenden",
+        "Bäumen, die den  Straßenrand säumen. Die",
+        "ersten  Ferien, die  Du allein  verreist",
+        "bist, lassen sich  doch eigentlich schon",
+        "recht gut an, denkst  Du Dir, und nimmst",
+        "Dir  vor,   diesen  Urlaub  so   gut  zu",
+        "genießen,  wie  es  nur  eben  geht.  Zu",
+        "Deiner Linken, also  im Westen, befindet",
+        "sich  der   Eingang  zu   \"Mary's  Inn\",",
+        "während  sich  die  Straße  in  Richtung",
+        "Osten erstreckt.  Am rechten Straßenrand",
+        "befindet sich ein Reklameschild, auf dem",
+        "geschrieben  steht:  \"Letztes Hotel  vor",
+        "dem nächsten Systemcrash!\""
+      ]
+    },
+    "212": {
+      "index": 212,
+      "source_offset": 19433,
+      "text": "Du wanderst eine einsame, staubige Straße entlang, die von Deinem Hotel zum Ufer von Loch Calderwood führt. Trotz der vorgerückten Abendstunde ist es immer noch angenehm warm: Der Boden strahlt all die Hitze ab, die er den ganzen sonnigen Tag hindurch gespeichert hat. Du fühlst Dich ein wenig erschöpft und denkst an Deine ausgetrocknete Kehle, die Du gern mit einem schönen Humpen eiskalten Biers ölen würdest, aber andererseits befindet sich nur ein kleines Stückchen weiter im Norden schon der Bergsee, in dem Du Deine qualmenden Füße kühlen wolltest. Falls Du Dich aber doch für einen Drink an der Hotelbar entscheiden solltest, kannst Du die Straße natürlich auch nach Westen zurückgehen.",
+      "screen_lines": [
+        "Du   wanderst  eine   einsame,  staubige",
+        "Straße entlang, die von Deinem Hotel zum",
+        "Ufer  von Loch  Calderwood führt.  Trotz",
+        "der  vorgerückten   Abendstunde  ist  es",
+        "immer  noch  angenehm  warm:  Der  Boden",
+        "strahlt  all die  Hitze ab,  die er  den",
+        "ganzen sonnigen Tag hindurch gespeichert",
+        "hat. Du fühlst  Dich ein wenig erschöpft",
+        "und   denkst  an   Deine  ausgetrocknete",
+        "Kehle,  die Du  gern  mit einem  schönen",
+        "Humpen  eiskalten  Biers  ölen  würdest,",
+        "aber andererseits befindet  sich nur ein",
+        "kleines Stückchen weiter im Norden schon",
+        "der Bergsee, in  dem Du Deine qualmenden",
+        "Füße kühlen wolltest. Falls Du Dich aber",
+        "doch  für einen  Drink  an der  Hotelbar",
+        "entscheiden  solltest,   kannst  Du  die",
+        "Straße   natürlich   auch  nach   Westen",
+        "zurückgehen."
+      ]
+    },
+    "213": {
+      "index": 213,
+      "source_offset": 19840,
+      "text": "Du stehst in einem kurzen, sauberen Korridor mit weiß gestrichenen Wänden und dicken, roten Teppichen auf dem blankgebohnerten Parkett. Einige schwarzgestrichene und mit goldenen Nummernschildern versehene Türen führen zu den Gästezimmern. Dein eigenes Zimmer liegt nach Süden hin, und da Du die Schlüssel zu den anderen Räumen wohl kaum in die Finger bekommen wirst, bliebe Dir als Alternative nur noch der Wanddurchbruch in der Ostwand, hinter dem Du die Rezeption erkennen kannst.",
+      "screen_lines": [
+        "Du  stehst  in  einem  kurzen,  sauberen",
+        "Korridor  mit  weiß gestrichenen  Wänden",
+        "und  dicken,  roten  Teppichen  auf  dem",
+        "blankgebohnerten     Parkett.     Einige",
+        "schwarzgestrichene   und  mit   goldenen",
+        "Nummernschildern versehene  Türen führen",
+        "zu den Gästezimmern. Dein eigenes Zimmer",
+        "liegt  nach Süden  hin,  und  da Du  die",
+        "Schlüssel  zu  den anderen  Räumen  wohl",
+        "kaum  in  die   Finger  bekommen  wirst,",
+        "bliebe Dir als  Alternative nur noch der",
+        "Wanddurchbruch  in  der Ostwand,  hinter",
+        "dem Du die Rezeption erkennen kannst."
+      ]
+    },
+    "214": {
+      "index": 214,
+      "source_offset": 20125,
+      "text": "Du stehst an der Rezeption Deines Hotels. Direkt vor Dir befindet sich der massive Rezeptionstresen, hinter dem Du ein Schlüsselbrett siehst. Als Du es genauer in Augenschein nimmst, wird Dir klar, daß Du momentan wohl der einzige Gast des Hotels bist: Fast alle Zimmerschlüssel hängen noch am Brett! Weiter rechts daneben kannst Du einige Postfächer erkennen, aber alle sind leer. Naja, zumindest Deine Mutter wird Dir schon schreiben - und wenn es nur darum geht, Dich daran zu erinnern, daß Du auch immer rechtzeitig ins Bett gehst, Deine Socken täglich wechselst und brav Deine Vitaminpillchen einnimmst!",
+      "screen_lines": [
+        "Du  stehst   an  der   Rezeption  Deines",
+        "Hotels. Direkt vor Dir befindet sich der",
+        "massive Rezeptionstresen,  hinter dem Du",
+        "ein  Schlüsselbrett  siehst. Als  Du  es",
+        "genauer in Augenschein  nimmst, wird Dir",
+        "klar, daß  Du momentan wohl  der einzige",
+        "Gast   des   Hotels  bist:   Fast   alle",
+        "Zimmerschlüssel  hängen  noch am  Brett!",
+        "Weiter rechts  daneben kannst  Du einige",
+        "Postfächer  erkennen,   aber  alle  sind",
+        "leer. Naja, zumindest  Deine Mutter wird",
+        "Dir schon  schreiben -  und wenn  es nur",
+        "darum geht, Dich  daran zu erinnern, daß",
+        "Du  auch  immer   rechtzeitig  ins  Bett",
+        "gehst,  Deine  Socken täglich  wechselst",
+        "und    brav     Deine    Vitaminpillchen",
+        "einnimmst!"
+      ]
+    },
+    "215": {
+      "index": 215,
+      "source_offset": 20482,
+      "text": "Während Du Dich langsam nach Süden treiben läßt, bemerkst Du, daß die Strömung immer stärker wird - bis Du begreifst, in welcher Gefahr Du schwebst! Mit aller Kraft versuchst Du, gegen den Sog anzuschwimmen, doch es ist schon zu spät: Wild um Dich schlagend wirst Du von einem gewaltigen Strudel auf den Grund des Bergsees hinabgezogen, wo Du einen qualvollen Tod stirbst... Im Moment Deines Todes glaubst Du unter Dir noch die goldenen Kuppeln der alten, versunkenen Stadt zu erkennen, von der Dir die Einheimischen erzählt hatten, aber angesichts der unglücklichen Situation, in die Du hineingeraten bist, ist es wirklich höchst unwahrscheinlich, daß Du noch einmal Gelegenheit bekommen wirst, ihre Gerüchte zu bestätigen: Du hast nicht ein mal mehr Zeit für ein letztes Gebet...",
+      "screen_lines": [
+        "Während  Du  Dich   langsam  nach  Süden",
+        "treiben  läßt,  bemerkst   Du,  daß  die",
+        "Strömung  immer stärker  wird  - bis  Du",
+        "begreifst,   in    welcher   Gefahr   Du",
+        "schwebst! Mit aller  Kraft versuchst Du,",
+        "gegen den Sog anzuschwimmen, doch es ist",
+        "schon  zu spät:  Wild um  Dich schlagend",
+        "wirst  Du von  einem gewaltigen  Strudel",
+        "auf den Grund des Bergsees hinabgezogen,",
+        "wo Du einen qualvollen Tod stirbst... Im",
+        "Moment Deines Todes glaubst Du unter Dir",
+        "noch  die  goldenen Kuppeln  der  alten,",
+        "versunkenen Stadt  zu erkennen,  von der",
+        "Dir  die  Einheimischen erzählt  hatten,",
+        "aber   angesichts    der   unglücklichen",
+        "Situation, in die Du hineingeraten bist,",
+        "ist es wirklich höchst unwahrscheinlich,",
+        "daß Du noch  einmal Gelegenheit bekommen",
+        "wirst, ihre  Gerüchte zu  bestätigen: Du",
+        "hast  nicht ein  mal mehr  Zeit für  ein",
+        "letztes Gebet..."
+      ]
+    },
+    "216": {
+      "index": 216,
+      "source_offset": 20944,
+      "text": "Du stehst am Ufer von Loch Calderwood, völlig sprachlos angesichts des sich Dir bietenden Bildes: Vor Dir liegt ein malerischer Bergsee, umgeben von hohen, zerklüfteten Bergen, hinter denen langsam die Sonne untergeht. Vom Nordwesten her kannst Du einen Wasserfall von den Bergen herunterkommen und laut grollend in den Bergsee stürzen hören. Du fühlst den Anflug eines romantischen Gefühls in Dir aufkommen und überlegst, ob Du nicht kurz Deine Freundin anrufen solltest - doch im selben Moment verscheuchst Du den Gedanken wieder: Wie sollte solch ein Romantiker hier Chancen bei den Mädels haben? Und was Deine Freundin betrifft: Die hast Du ja schließlich nicht ohne Grund zuhause gelassen, gell? In diesem Zusammenhang kommt Dir aber der Gedanke, daß Dir ein paar Runden im See sicherlich guttun würden, bevor Du die schottische Damenwelt mit Deiner Aufmerksamkeit beglückst. Wenn Du also vor Deinem Eroberungsfeldzug noch ein wenig für Deine Kondition tun möchtest, kannst Du den See im Norden betreten. Ansonsten kannst Du aber auch wieder zu Deinem Hotel zurückkehren, das am Ende der Straße liegt, die nach Süden führt.",
+      "screen_lines": [
+        "Du stehst  am Ufer von  Loch Calderwood,",
+        "völlig sprachlos angesichts des sich Dir",
+        "bietenden  Bildes:  Vor  Dir  liegt  ein",
+        "malerischer Bergsee,  umgeben von hohen,",
+        "zerklüfteten   Bergen,    hinter   denen",
+        "langsam   die   Sonne   untergeht.   Vom",
+        "Nordwesten    her   kannst    Du   einen",
+        "Wasserfall von den Bergen herunterkommen",
+        "und laut grollend in den Bergsee stürzen",
+        "hören.  Du   fühlst  den   Anflug  eines",
+        "romantischen  Gefühls  in Dir  aufkommen",
+        "und  überlegst, ob  Du nicht  kurz Deine",
+        "Freundin  anrufen  solltest  -  doch  im",
+        "selben   Moment   verscheuchst  Du   den",
+        "Gedanken  wieder: Wie  sollte solch  ein",
+        "Romantiker hier  Chancen bei  den Mädels",
+        "haben? Und was  Deine Freundin betrifft:",
+        "Die  hast Du  ja schließlich  nicht ohne",
+        "Grund zuhause gelassen,  gell? In diesem",
+        "Zusammenhang kommt Dir aber der Gedanke,",
+        "daß   Dir  ein   paar   Runden  im   See",
+        "sicherlich guttun  würden, bevor  Du die",
+        "schottische    Damenwelt   mit    Deiner",
+        "Aufmerksamkeit  beglückst. Wenn  Du also",
+        "vor  Deinem  Eroberungsfeldzug noch  ein",
+        "wenig für Deine  Kondition tun möchtest,",
+        "kannst  Du den  See im  Norden betreten.",
+        "Ansonsten kannst Du  aber auch wieder zu",
+        "Deinem Hotel  zurückkehren, das  am Ende",
+        "der Straße liegt,  die nach Süden führt."
+      ]
+    },
+    "217": {
+      "index": 217,
+      "source_offset": 21610,
+      "text": "Als Du das Eßzimmer des Hotels betrittst, mußt Du schmunzeln: Verglichen mit der Anzahl der Gäste, die hier jährlich regelmäßig ein Zimmer buchen, ist der Raum ein wenig zu groß geraten, fast so, als wäre er für Staatsbankette oder andere festliche Tafelfreuden gebaut worden: Die Kerzen in den kostbaren Ständern auf jedem Tisch machen ihn schon fast \"first-class-look-a-like\", nur: Wofür? Normalerweise sind doch die einzigen Gäste, die hierherkommen, um ihr Abendessen einzunehmen, die Einheimschen selbst! Einer von ihnen, ein älterer Mann mit langem Bart, sitzt an dem Tisch in der Ecke und studiert gerade die Speisekarte, während er genüßlich sein Bierchen in sich hineinpichelt. Sollte auch Dich das Verlangen nach Speis' und Trank überkommen haben, kannst Du Dich ja zu ihm setzen. Andernfalls kannst Du das Eßzimmer durch die Tür hinter Dir wieder verlassen.",
+      "screen_lines": [
+        "Als   Du   das   Eßzimmer   des   Hotels",
+        "betrittst,    mußt     Du    schmunzeln:",
+        "Verglichen mit der Anzahl der Gäste, die",
+        "hier  jährlich   regelmäßig  ein  Zimmer",
+        "buchen, ist  der Raum ein wenig  zu groß",
+        "geraten,  fast  so,   als  wäre  er  für",
+        "Staatsbankette  oder   andere  festliche",
+        "Tafelfreuden  gebaut worden:  Die Kerzen",
+        "in  den  kostbaren  Ständern  auf  jedem",
+        "Tisch    machen     ihn    schon    fast",
+        "\"first-class-look-a-like\",  nur:  Wofür?",
+        "Normalerweise  sind  doch  die  einzigen",
+        "Gäste,   die   hierherkommen,   um   ihr",
+        "Abendessen einzunehmen, die Einheimschen",
+        "selbst!  Einer  von ihnen,  ein  älterer",
+        "Mann mit langem Bart, sitzt an dem Tisch",
+        "in  der  Ecke  und studiert  gerade  die",
+        "Speisekarte,  während er  genüßlich sein",
+        "Bierchen  in sich  hineinpichelt. Sollte",
+        "auch Dich das  Verlangen nach Speis' und",
+        "Trank überkommen  haben, kannst  Du Dich",
+        "ja zu ihm  setzen. Andernfalls kannst Du",
+        "das  Eßzimmer durch  die Tür  hinter Dir",
+        "wieder verlassen."
+      ]
+    },
+    "218": {
+      "index": 218,
+      "source_offset": 22133,
+      "text": "Während Du auf dem schlickigen Uferboden nach Westen watest, wird das Wasser kälter und kälter - und logischerweise auch tiefer und tiefer, je mehr Du Dich der Mitte des Sees näherst. Bis jetzt war es ja noch einigermaßen möglich, auf dem Grund des Sees zu stehen, aber nun bleibt Dir einfach keine andere Wahl: Du mußt schwimmen, wenn Du nicht untergehen willst! \"Sei's drum: Gelobt sei, was hart macht!\", denkst Du Dir, besprenkelst kurz Deine Heldenbrust und wirfst Dich dann mit Todesverachtung der Länge nach nach vorn. Uahhh! Das Wasser ist trotz der warmen Jahreszeit schon ziemlich kühl, aber nach einigen Sekunden hast Du Dich an die Temperatur gewöhnt. Eigentlich doch ganz angenehm hier - nur Dein Quietscheentchen fehlt noch! Als Du die ersten unbeholfenen Schwimmzüge machst, fühlst Du auch die starke Strömung, die Dich nach Süden zieht, wo ein gigantischer Strudel alles in seinen tiefen Schlund zerrt, was unvorsichtig genug war, in seine Reichweite zu kommen. Du kannst in alle Himmelsrichtungen außer nach Westen schwimmen.",
+      "screen_lines": [
+        "Während Du auf dem schlickigen Uferboden",
+        "nach  Westen  watest,  wird  das  Wasser",
+        "kälter und  kälter -  und logischerweise",
+        "auch tiefer und tiefer,  je mehr Du Dich",
+        "der  Mitte des  Sees näherst.  Bis jetzt",
+        "war es ja noch einigermaßen möglich, auf",
+        "dem Grund  des Sees zu stehen,  aber nun",
+        "bleibt Dir einfach keine andere Wahl: Du",
+        "mußt schwimmen, wenn Du nicht untergehen",
+        "willst!  \"Sei's  drum: Gelobt  sei,  was",
+        "hart    macht!\",    denkst    Du    Dir,",
+        "besprenkelst kurz  Deine Heldenbrust und",
+        "wirfst Dich dann mit Todesverachtung der",
+        "Länge nach nach  vorn. Uahhh! Das Wasser",
+        "ist  trotz der  warmen Jahreszeit  schon",
+        "ziemlich   kühl,   aber   nach   einigen",
+        "Sekunden hast Du  Dich an die Temperatur",
+        "gewöhnt.  Eigentlich doch  ganz angenehm",
+        "hier -  nur Dein  Quietscheentchen fehlt",
+        "noch!  Als  Du die  ersten  unbeholfenen",
+        "Schwimmzüge machst,  fühlst Du  auch die",
+        "starke  Strömung,  die Dich  nach  Süden",
+        "zieht, wo ein gigantischer Strudel alles",
+        "in  seinen  tiefen  Schlund  zerrt,  was",
+        "unvorsichtig   genug   war,   in   seine",
+        "Reichweite zu kommen.  Du kannst in alle",
+        "Himmelsrichtungen   außer  nach   Westen",
+        "schwimmen."
+      ]
+    },
+    "219": {
+      "index": 219,
+      "source_offset": 22747,
+      "text": "Du stehst im kalten Wasser des Bergsees. Es ist zwar immer noch recht seicht, aber der Grund fühlt sich ziemlich merkwürdig an - vielleicht trampelst Du ja gerade auf Nessie herum? Trotzdem: Wenn Dich das kalte Wasser und die Aussicht, einem leibhaftigen Ungeheuer vielleicht als Abendbrot dienen zu können, nicht abschrecken, wirst Du wohl ohne Probleme vorwärts kommen. Solltest Du jedoch Deine Absichten geändert haben und klugerweise zum Ufer zurückkehren, statt den Helden spielen zu wollen, dann gehe nach Süden. Falls Du jedoch nicht auf meinen Rat hören möchtest, setze Deinen Weg ruhig weiter nach Westen fort - Du wirst schon sehen, was Du davon hast! Aber denke immer daran: Es war Deine Idee...!",
+      "screen_lines": [
+        "Du stehst im kalten Wasser des Bergsees.",
+        "Es  ist zwar  immer  noch recht  seicht,",
+        "aber  der  Grund   fühlt  sich  ziemlich",
+        "merkwürdig an -  vielleicht trampelst Du",
+        "ja  gerade auf  Nessie herum?  Trotzdem:",
+        "Wenn  Dich  das  kalte  Wasser  und  die",
+        "Aussicht,  einem leibhaftigen  Ungeheuer",
+        "vielleicht   als  Abendbrot   dienen  zu",
+        "können, nicht abschrecken, wirst Du wohl",
+        "ohne Probleme  vorwärts kommen. Solltest",
+        "Du jedoch Deine Absichten geändert haben",
+        "und  klugerweise zum  Ufer zurückkehren,",
+        "statt den Helden spielen zu wollen, dann",
+        "gehe nach  Süden. Falls Du  jedoch nicht",
+        "auf  meinen  Rat hören  möchtest,  setze",
+        "Deinen Weg ruhig weiter nach Westen fort",
+        "-  Du wirst  schon sehen,  was Du  davon",
+        "hast!  Aber denke  immer  daran: Es  war",
+        "Deine Idee...!"
+      ]
+    },
+    "22": {
+      "index": 22,
+      "source_offset": 2659,
+      "text": "[Auf dem Marktplatz]",
+      "screen_lines": [
+        "[Auf dem Marktplatz]"
+      ]
+    },
+    "220": {
+      "index": 220,
+      "source_offset": 23165,
+      "text": "Du schwimmst direkt vor dem Wasserfall im Nordwesten des Bergsees. Während Du bemüht bist, nicht von der Strömung abgedriftet zu werden, überlegst Du, was wohl hinter ihm versteckt sein mag... Du kannst nun entweder zurück zum Zentrum des Sees schwimmen, oder versuchen, unter dem Wasserfall hindurchzutauchen, um zu sehen, welches Geheimnis sich hinter der undurchsichtigen Wasserwand verbirgt...",
+      "screen_lines": [
+        "Du schwimmst  direkt vor  dem Wasserfall",
+        "im Nordwesten  des Bergsees.  Während Du",
+        "bemüht  bist,  nicht  von  der  Strömung",
+        "abgedriftet zu werden, überlegst Du, was",
+        "wohl hinter ihm versteckt sein mag... Du",
+        "kannst nun  entweder zurück  zum Zentrum",
+        "des  Sees   schwimmen,  oder  versuchen,",
+        "unter dem  Wasserfall hindurchzutauchen,",
+        "um  zu  sehen,  welches  Geheimnis  sich",
+        "hinter  der undurchsichtigen  Wasserwand",
+        "verbirgt..."
+      ]
+    },
+    "221": {
+      "index": 221,
+      "source_offset": 23403,
+      "text": "Immer noch recht benommen von dem harten Schlag, den Dir der Wasserfall versetzt hat, versuchst Du Dich mit leichten, jedoch noch recht linkischen Schwimmzügen über der Wasseroberfläche zu halten, doch plötzlich stutzt Du und hältst inne - so daß Du erst einmal wieder für einen Moment untergehst und Wasser schluckst! Als Du wieder auftauchst, trifft Dich der Schlag: Du scheinst nach wie vor auf der südlichen Seite des Wasserfalls zu paddeln! Für diese Tatsache allein liesse sich ja sogar noch irgendwie eine plausible Erklärung finden, zumal Du unter Wasser eine kurze Zeit die Orientierung verloren hattest, so daß Du sie akzeptieren könntest, wenn, wenn... -wenn sich dort am Seeufer noch Dein Dorf befände! Aber es scheint wie vom Erdboden verschluckt zu sein! Statt der kleinen Siedlung befindet sich am Ufer ein tiefer, dunkler Wald mit Bäumen, die Du in Deinem ganzen Leben noch nie gesehen hast! In Dir kommt der Verdacht auf, daß Du durch den Wasserfall vielleicht in eine parallel zu der Deinigen existierende Welt gelangt sein könntest, so wie in diesen beknackten Adventures zuhause auf Deinem Computer. Nur: DAS hier ist die Realität! Und wo zum Teufel bist Du hier gelandet?",
+      "screen_lines": [
+        "Immer noch recht benommen von dem harten",
+        "Schlag, den Dir  der Wasserfall versetzt",
+        "hat,  versuchst  Du Dich  mit  leichten,",
+        "jedoch     noch     recht     linkischen",
+        "Schwimmzügen  über der  Wasseroberfläche",
+        "zu halten, doch  plötzlich stutzt Du und",
+        "hältst  inne -  so  daß  Du erst  einmal",
+        "wieder für  einen Moment  untergehst und",
+        "Wasser   schluckst!    Als   Du   wieder",
+        "auftauchst, trifft  Dich der  Schlag: Du",
+        "scheinst nach wie  vor auf der südlichen",
+        "Seite  des Wasserfalls  zu paddeln!  Für",
+        "diese  Tatsache  allein liesse  sich  ja",
+        "sogar  noch   irgendwie  eine  plausible",
+        "Erklärung finden, zumal  Du unter Wasser",
+        "eine   kurze   Zeit   die   Orientierung",
+        "verloren   hattest,   so  daß   Du   sie",
+        "akzeptieren   könntest,  wenn,   wenn...",
+        "-wenn  sich dort  am  Seeufer noch  Dein",
+        "Dorf  befände! Aber  es scheint  wie vom",
+        "Erdboden verschluckt zu  sein! Statt der",
+        "kleinen Siedlung  befindet sich  am Ufer",
+        "ein tiefer, dunkler Wald mit Bäumen, die",
+        "Du  in  Deinem  ganzen  Leben  noch  nie",
+        "gesehen hast! In  Dir kommt der Verdacht",
+        "auf,   daß  Du   durch  den   Wasserfall",
+        "vielleicht  in  eine   parallel  zu  der",
+        "Deinigen existierende  Welt gelangt sein",
+        "könntest,  so wie  in diesen  beknackten",
+        "Adventures zuhause  auf Deinem Computer.",
+        "Nur: DAS  hier ist die Realität!  Und wo",
+        "zum Teufel bist Du hier gelandet?"
+      ]
+    },
+    "222": {
+      "index": 222,
+      "source_offset": 24108,
+      "text": "Du betrittst das Ufer, von wo aus das Grollen des Wasserfalls in der südwestlichen Ecke des Bergsees immer noch zu hören ist. Die Natur sieht hier irgendwie viel sauberer und unberührter aus als auf der Seite, von der aus Du den See zum ersten Mal betreten hast - Du weißt schon nicht einmal mehr, wie lange das schon zurückliegt! Nichtsdestotrotz beginnst Du diese Welt langsam zu mögen, obwohl Du nicht genau weißt, wo Dich Deine Eltern wohl vermuten werden, wenn Du Dich heute abend nicht zuhause meldest. Es bedarf aber trotzdem keiner allzu großen Fantasiebegabung, sich auszurechnen, daß dies bis zu Deiner Volljährigkeit wohl erst mal Deine letzten \"Solo-Ferien\" gewesen sein dürften...",
+      "screen_lines": [
+        "Du betrittst  das Ufer,  von wo  aus das",
+        "Grollen    des   Wasserfalls    in   der",
+        "südwestlichen  Ecke  des Bergsees  immer",
+        "noch zu hören ist.  Die Natur sieht hier",
+        "irgendwie viel  sauberer und unberührter",
+        "aus als  auf der  Seite, von der  aus Du",
+        "den See  zum ersten Mal betreten  hast -",
+        "Du  weißt schon  nicht einmal  mehr, wie",
+        "lange     das     schon     zurückliegt!",
+        "Nichtsdestotrotz beginnst  Du diese Welt",
+        "langsam zu mögen,  obwohl Du nicht genau",
+        "weißt,   wo  Dich   Deine  Eltern   wohl",
+        "vermuten  werden,  wenn  Du  Dich  heute",
+        "abend nicht  zuhause meldest.  Es bedarf",
+        "aber   trotzdem   keiner  allzu   großen",
+        "Fantasiebegabung, sich auszurechnen, daß",
+        "dies bis  zu Deiner  Volljährigkeit wohl",
+        "erst  mal  Deine  letzten  \"Solo-Ferien\"",
+        "gewesen sein dürften..."
+      ]
+    },
+    "223": {
+      "index": 223,
+      "source_offset": 24518,
+      "text": "Du stehst am Rande einer Lichtung, die von einer Dir unbekannten Baumart umgeben ist. Mehr gibt es über diesen Ort aber wirklich nicht zu berichten - es hat uns schließlich schon genug Mühe gekostet, uns die anderen Raumbeschreibungen aus den Fingern zu saugen: Er existiert eben einfach, genau wie Du auch (Auch nur eine Frage der Zeit, hehe...). Aber wie Du Dir sicherlich vorstellen kannst, hat sogar eine ordinäre Lichtung wie diese hier eine besondere Bedeutung in einem A.C.A-Adventure. Und da Du das Spiel noch lange nicht gelöst hast, würde ich vorschlagen, Du wartest es einfach ab!",
+      "screen_lines": [
+        "Du stehst  am Rande einer  Lichtung, die",
+        "von   einer   Dir  unbekannten   Baumart",
+        "umgeben  ist. Mehr  gibt es  über diesen",
+        "Ort aber  wirklich nicht zu  berichten -",
+        "es hat uns  schließlich schon genug Mühe",
+        "gekostet,      uns      die      anderen",
+        "Raumbeschreibungen  aus  den Fingern  zu",
+        "saugen: Er existiert eben einfach, genau",
+        "wie  Du auch  (Auch nur  eine Frage  der",
+        "Zeit,   hehe...).   Aber  wie   Du   Dir",
+        "sicherlich vorstellen  kannst, hat sogar",
+        "eine  ordinäre Lichtung  wie diese  hier",
+        "eine   besondere   Bedeutung  in   einem",
+        "A.C.A-Adventure.  Und  da Du  das  Spiel",
+        "noch lange nicht  gelöst hast, würde ich",
+        "vorschlagen, Du wartest es einfach ab!"
+      ]
+    },
+    "224": {
+      "index": 224,
+      "source_offset": 24868,
+      "text": "Als Du die Lichtung betrittst, hörst Du vor Dir ein fürchterliches Knurren und Fauchen! Erschrocken hältst Du inne und versteckst Dich vorsichtshalber erst einmal hinter dem nächsten Baum! Als sich Deine Augen ein wenig an das etwas schummerige Licht gewöhnt haben, erkennst Du auf der anderen Seite der Lichtung zwei miteinander kämpfende Tiere: Einen großen, grauen Wolf und ein zierliches, weiß schimmerndes Einhorn, dessen Fell schon völlig mit seinem bläulichen Blut besudelt ist, das aus unzähligen, tiefen Wunden sickert. Als der Wolf bemerkt, daß der Widerstand des geschwächten Einhorns erlahmt, attackiert er es noch wütender! Das grazile Fabelwesen hat nicht mehr genug Kraft, um den scharfen und langen Wolfszähnen noch lange Widerstand zu leisten...",
+      "screen_lines": [
+        "Als Du die  Lichtung betrittst, hörst Du",
+        "vor Dir  ein fürchterliches  Knurren und",
+        "Fauchen! Erschrocken hältst  Du inne und",
+        "versteckst  Dich   vorsichtshalber  erst",
+        "einmal  hinter  dem nächsten  Baum!  Als",
+        "sich Deine Augen ein  wenig an das etwas",
+        "schummerige    Licht   gewöhnt    haben,",
+        "erkennst  Du auf  der anderen  Seite der",
+        "Lichtung   zwei  miteinander   kämpfende",
+        "Tiere: Einen großen, grauen Wolf und ein",
+        "zierliches,  weiß schimmerndes  Einhorn,",
+        "dessen  Fell  schon  völlig  mit  seinem",
+        "bläulichen  Blut besudelt  ist, das  aus",
+        "unzähligen,  tiefen Wunden  sickert. Als",
+        "der Wolf bemerkt, daß der Widerstand des",
+        "geschwächten      Einhorns      erlahmt,",
+        "attackiert  er  es  noch  wütender!  Das",
+        "grazile Fabelwesen hat  nicht mehr genug",
+        "Kraft,  um   den  scharfen   und  langen",
+        "Wolfszähnen  noch  lange  Widerstand  zu",
+        "leisten..."
+      ]
+    },
+    "225": {
+      "index": 225,
+      "source_offset": 25320,
+      "text": "Du hättest den See wirklich nicht mit mehr Dingen betreten sollen als Du unbedingt zum Überleben benötigtest: Schwer wie ein Mühlstein wirst Du auf den Grund des Sees hinuntergezogen, wo Du elend ersäufst...",
+      "screen_lines": [
+        "Du  hättest den  See wirklich  nicht mit",
+        "mehr  Dingen  betreten   sollen  als  Du",
+        "unbedingt  zum   Überleben  benötigtest:",
+        "Schwer  wie ein  Mühlstein wirst  Du auf",
+        "den Grund  des Sees  hinuntergezogen, wo",
+        "Du elend ersäufst..."
+      ]
+    },
+    "226": {
+      "index": 226,
+      "source_offset": 25445,
+      "text": "Gaaanz cool bleiben! So, und jetzt hol' erstmal tief Luft und zähl' bis zehn - oder möchtest Du lieber einen etwas längeren \"Urlaub\" in einer der örtlichen Gefängniszellen verbringen?",
+      "screen_lines": [
+        "Gaaanz cool bleiben!  So, und jetzt hol'",
+        "erstmal tief  Luft und zähl' bis  zehn -",
+        "oder  möchtest  Du  lieber  einen  etwas",
+        "längeren \"Urlaub\" in einer der örtlichen",
+        "Gefängniszellen verbringen?"
+      ]
+    },
+    "227": {
+      "index": 227,
+      "source_offset": 25558,
+      "text": "Ein roh gezimmertes, aber recht behaglich aussehendes Bett mit bunter Bettwäsche. Werd' jetzt bitte noch nicht müde - dieser Teil ist lediglich der Anfang...",
+      "screen_lines": [
+        "Ein   roh    gezimmertes,   aber   recht",
+        "behaglich  aussehendes  Bett mit  bunter",
+        "Bettwäsche. Werd' jetzt bitte noch nicht",
+        "müde  - dieser  Teil  ist lediglich  der",
+        "Anfang..."
+      ]
+    },
+    "228": {
+      "index": 228,
+      "source_offset": 25656,
+      "text": "Eine kleine, faustgroße Kupferklingel, die auf dem Rezeptionstresen montiert wurde, damit Nervensägen wie Du den Portier beim Kreuzworträtsellösen stören und mit ihren belanglosen Fragen nerven können.",
+      "screen_lines": [
+        "Eine  kleine, faustgroße  Kupferklingel,",
+        "die  auf  dem Rezeptionstresen  montiert",
+        "wurde,  damit  Nervensägen  wie  Du  den",
+        "Portier beim Kreuzworträtsellösen stören",
+        "und mit ihren  belanglosen Fragen nerven",
+        "können."
+      ]
+    },
+    "229": {
+      "index": 229,
+      "source_offset": 25778,
+      "text": "Ein kleiner, farbiger Prospekt, herausgegeben vom hiesigen Fremdenverkehrsamt und beschriftet mit \"Loch Calderwood\".",
+      "screen_lines": [
+        "Ein    kleiner,    farbiger    Prospekt,",
+        "herausgegeben        vom        hiesigen",
+        "Fremdenverkehrsamt  und beschriftet  mit",
+        "\"Loch Calderwood\"."
+      ]
+    },
+    "23": {
+      "index": 23,
+      "source_offset": 2678,
+      "text": "[Auf einem Pfad]",
+      "screen_lines": [
+        "[Auf einem Pfad]"
+      ]
+    },
+    "230": {
+      "index": 230,
+      "source_offset": 25858,
+      "text": "Der Farbprospekt stellt Loch Calderwood und seine Umgebung dar: Falls Du also die Schönheit der Landschaft bisher noch nicht selbst entdeckt haben solltest, so kannst Du Dich zumindest mittels dieser Fotos davon überzeugen, daß es eine großartige Idee gewesen ist, hierher zu reisen. Auf den letzten Seiten befinden sich die Autogramme einiger bedeutender Personen, die hier schon einmal ihren Urlaub verbracht haben, so z.B. Ronald Reagan, Kirk Douglas, Chris Link, Elvis Presley, Kai Schulze, Prince und viele andere weltberühmte Persönlichkeiten. Du schauderst vor Ehrfurcht, fragst Dich allerdings, was wohl diese merkwürdigen, kleinen Kreuze hinter einigen der Namen bedeuten mögen...",
+      "screen_lines": [
+        "Der Farbprospekt  stellt Loch Calderwood",
+        "und  seine Umgebung  dar: Falls  Du also",
+        "die Schönheit der Landschaft bisher noch",
+        "nicht selbst entdeckt haben solltest, so",
+        "kannst Du Dich  zumindest mittels dieser",
+        "Fotos  davon  überzeugen,  daß  es  eine",
+        "großartige Idee gewesen  ist, hierher zu",
+        "reisen. Auf den  letzten Seiten befinden",
+        "sich die  Autogramme einiger bedeutender",
+        "Personen,  die hier  schon einmal  ihren",
+        "Urlaub verbracht  haben, so  z.B. Ronald",
+        "Reagan, Kirk Douglas,  Chris Link, Elvis",
+        "Presley, Kai  Schulze, Prince  und viele",
+        "andere weltberühmte Persönlichkeiten. Du",
+        "schauderst  vor  Ehrfurcht, fragst  Dich",
+        "allerdings, was wohl diese merkwürdigen,",
+        "kleinen Kreuze hinter  einigen der Namen",
+        "bedeuten mögen..."
+      ]
+    },
+    "231": {
+      "index": 231,
+      "source_offset": 26263,
+      "text": "Achtlos über die Lehne geworfen, hängen einige Deiner Kleidungsstücke über dem Stuhl, unter denen Du auch einige Badesachen finden kannst.",
+      "screen_lines": [
+        "Achtlos über die  Lehne geworfen, hängen",
+        "einige  Deiner Kleidungsstücke  über dem",
+        "Stuhl,  unter   denen  Du   auch  einige",
+        "Badesachen finden kannst."
+      ]
+    },
+    "232": {
+      "index": 232,
+      "source_offset": 26347,
+      "text": "Ein einfach gefertigter, rustikaler, aber sehr ergonomisch gebauter Tisch - genau wie Dein eigener zuhause, an dem Du normalerweise Deine Hausaufgaben machst. Okay, Spaß beiseite: ...auf dem Dein Computer von Tag bis Nacht Mathehausaufgaben lösen, Pin-Up-Diashows zeigen und Spiele kopieren muss...",
+      "screen_lines": [
+        "Ein  einfach   gefertigter,  rustikaler,",
+        "aber sehr  ergonomisch gebauter  Tisch -",
+        "genau wie  Dein eigener zuhause,  an dem",
+        "Du   normalerweise  Deine   Hausaufgaben",
+        "machst. Okay, Spaß  beiseite: ...auf dem",
+        "Dein   Computer   von  Tag   bis   Nacht",
+        "Mathehausaufgaben lösen, Pin-Up-Diashows",
+        "zeigen und Spiele kopieren muss..."
+      ]
+    },
+    "233": {
+      "index": 233,
+      "source_offset": 26534,
+      "text": "Auf dem Rezeptionstresen befinden sich eine kleine Kupferklingel und einige farbige Broschüren.",
+      "screen_lines": [
+        "Auf  dem Rezeptionstresen  befinden sich",
+        "eine  kleine  Kupferklingel  und  einige",
+        "farbige Broschüren."
+      ]
+    },
+    "234": {
+      "index": 234,
+      "source_offset": 26594,
+      "text": "Obwohl Du nach der langen Reise eigentlich ein dringendes menschliches Bedürfnis verspürst, siegt Deine Neugier, und Du entschließt Dich, doch erst einmal Deine neue Behausung in Augenschein zu nehmen. Erwartungsvoll öffnest Du die Tür und schaust Dich kurz um. Oh, Gott! Das sind ja wahrhaft besch... Aussichten: Alles gekachelt - und stinken tut es hier obendrein! Als Du an der Strippe ziehst, um Licht zu machen, hörst Du bloß ein gurgelndes und schmatzendes Geräusch - nur das Licht, das bleibt aus! Also: So nicht, Leute! Du stürmst in Richtung Rezeption, um dem alten Knacker von Portier mal gehörig den Marsch zu blasen, was er unter einem Zimmer mit Dusche zu verstehen hätte, als der Groschen bei Dir fällt! Von bösen Vorahnungen geplagt gehst Du zurück zu der Tür und vergleichst die Zahl auf dem Schild gewissenhaft und sorgfältig mit der Raumnummer, die man Dir genannt hatte: \"003\". Die erste Ziffer stimmt, die zweite auch - aber die dritte? Wo zum Teufel ist die dritte Ziffer geblieben??? Verdammter Mist! Wie soll man sich denn hier zurechtfinden, wenn diese Schotten zu sparsam sind, ihre Räume richtig auszuschildern? Auf Deinem Protestmarsch zur Rezeption schaust Du Dir die Schilder auf den anderen Türen an: \"001\", \"002\"... Hey! Moment mal, dann müßte das hier ja... Ja, richtig: Hier ist Nummer \"003\"! Ganz am Ende des Ganges! Du hattest Dich bloß im Zimmer geirrt! Also gut, sparen wir uns den Gang zum Portier und geben ihm noch einmal eine Chance. Aber: WO ZUM GEIER IST JETZT EIN KLO ?!?!?",
+      "screen_lines": [
+        "Obwohl   Du   nach  der   langen   Reise",
+        "eigentlich  ein dringendes  menschliches",
+        "Bedürfnis    verspürst,   siegt    Deine",
+        "Neugier, und  Du entschließt  Dich, doch",
+        "erst  einmal  Deine  neue  Behausung  in",
+        "Augenschein  zu  nehmen.  Erwartungsvoll",
+        "öffnest Du die Tür und schaust Dich kurz",
+        "um.  Oh,  Gott!  Das  sind  ja  wahrhaft",
+        "besch...  Aussichten: Alles  gekachelt -",
+        "und stinken  tut es hier  obendrein! Als",
+        "Du an  der Strippe  ziehst, um  Licht zu",
+        "machen, hörst Du bloß ein gurgelndes und",
+        "schmatzendes Geräusch  - nur  das Licht,",
+        "das bleibt  aus! Also: So  nicht, Leute!",
+        "Du stürmst in Richtung Rezeption, um dem",
+        "alten  Knacker von  Portier mal  gehörig",
+        "den Marsch zu blasen, was er unter einem",
+        "Zimmer  mit Dusche  zu verstehen  hätte,",
+        "als  der  Groschen  bei Dir  fällt!  Von",
+        "bösen   Vorahnungen  geplagt   gehst  Du",
+        "zurück  zu der  Tür und  vergleichst die",
+        "Zahl  auf  dem Schild  gewissenhaft  und",
+        "sorgfältig mit  der Raumnummer,  die man",
+        "Dir  genannt  hatte:  \"003\".  Die  erste",
+        "Ziffer  stimmt, die  zweite auch  - aber",
+        "die dritte? Wo zum Teufel ist die dritte",
+        "Ziffer geblieben??? Verdammter Mist! Wie",
+        "soll man  sich denn  hier zurechtfinden,",
+        "wenn  diese  Schotten zu  sparsam  sind,",
+        "ihre  Räume richtig  auszuschildern? Auf",
+        "Deinem   Protestmarsch   zur   Rezeption",
+        "schaust  Du  Dir  die Schilder  auf  den",
+        "anderen Türen  an: \"001\",  \"002\"... Hey!",
+        "Moment  mal, dann  müßte das  hier ja...",
+        "Ja, richtig: Hier ist Nummer \"003\"! Ganz",
+        "am Ende des Ganges! Du hattest Dich bloß",
+        "im Zimmer  geirrt! Also gut,  sparen wir",
+        "uns den  Gang zum Portier und  geben ihm",
+        "noch  einmal eine  Chance. Aber:  WO ZUM",
+        "GEIER IST JETZT EIN KLO ?!?!?"
+      ]
+    },
+    "235": {
+      "index": 235,
+      "source_offset": 27529,
+      "text": "Deine Zimmertür sieht von innen nicht viel anders aus als von außen: schwarz. Nur das Schildchen mit der Zimmernummer hat man sich hier gespart. Jaja, diese Schotten...",
+      "screen_lines": [
+        "Deine  Zimmertür sieht  von innen  nicht",
+        "viel anders aus  als von außen: schwarz.",
+        "Nur das Schildchen  mit der Zimmernummer",
+        "hat man  sich hier gespart.  Jaja, diese",
+        "Schotten..."
+      ]
+    },
+    "236": {
+      "index": 236,
+      "source_offset": 27632,
+      "text": "Dieser Kasten, der sich Hotel nennt, in Wirklichkeit aber selbst bei wohlwollendster Betrachung gerade mal die Bezeichnung Pension verdient, ist ein kleiner, weißer Bau mit roten Fensterrahmen und einer schwarz gestrichenen Eingangstür.",
+      "screen_lines": [
+        "Dieser Kasten, der  sich Hotel nennt, in",
+        "Wirklichkeit     aber     selbst     bei",
+        "wohlwollendster  Betrachung  gerade  mal",
+        "die  Bezeichnung  Pension verdient,  ist",
+        "ein  kleiner,   weißer  Bau   mit  roten",
+        "Fensterrahmen    und    einer    schwarz",
+        "gestrichenen Eingangstür."
+      ]
+    },
+    "237": {
+      "index": 237,
+      "source_offset": 27776,
+      "text": "Der Portier ist ein schmächtiges, älteres Männchen. Du fühlst fast schon so etwas wie Mitleid mit ihm, als Du daran denkst, daß er das ganze Hotel fast ganz allein und ohne Hilfe betreuen muß.",
+      "screen_lines": [
+        "Der   Portier   ist  ein   schmächtiges,",
+        "älteres Männchen.  Du fühlst  fast schon",
+        "so  etwas wie  Mitleid mit  ihm, als  Du",
+        "daran  denkst, daß  er  das ganze  Hotel",
+        "fast ganz allein und ohne Hilfe betreuen",
+        "muß."
+      ]
+    },
+    "238": {
+      "index": 238,
+      "source_offset": 27893,
+      "text": "Stolz blickst Du an Dir herunter auf ein paar Blue Jeans: Sie entsprechen der neuesten Mode, da Du ein einziges Mal die Gelegenheit hattest, eine Hose ohne die Empfehlungen Deiner Mutter zu kaufen.",
+      "screen_lines": [
+        "Stolz blickst Du an Dir herunter auf ein",
+        "paar  Blue  Jeans: Sie  entsprechen  der",
+        "neuesten  Mode, da  Du ein  einziges Mal",
+        "die Gelegenheit hattest,  eine Hose ohne",
+        "die   Empfehlungen   Deiner  Mutter   zu",
+        "kaufen."
+      ]
+    },
+    "239": {
+      "index": 239,
+      "source_offset": 28009,
+      "text": "Die Speise- und Getränkekarte enthält alle möglichen örtlichen Spezialitäten, aber hauptsächlich: Bier! Bier in Flaschen, Bier in Dosen, Bier in Tüten... QUATSCH! Du glaubst auch wirklich jeden Mist, was? Egal: Hauptsache, Du bekommst hier Bier in GLÄSERN!",
+      "screen_lines": [
+        "Die  Speise-  und Getränkekarte  enthält",
+        "alle möglichen  örtlichen Spezialitäten,",
+        "aber   hauptsächlich:   Bier!  Bier   in",
+        "Flaschen,   Bier  in   Dosen,  Bier   in",
+        "Tüten...   QUATSCH!   Du  glaubst   auch",
+        "wirklich   jeden    Mist,   was?   Egal:",
+        "Hauptsache,  Du  bekommst hier  Bier  in",
+        "GLÄSERN!"
+      ]
+    },
+    "24": {
+      "index": 24,
+      "source_offset": 2694,
+      "text": "[Im tiefen Wald]",
+      "screen_lines": [
+        "[Im tiefen Wald]"
+      ]
+    },
+    "240": {
+      "index": 240,
+      "source_offset": 28185,
+      "text": "Der Alte scheint zu den Bewohnern des Dorfes zu gehören: Obwohl sie leichte Veständigungsprobleme haben, wenn sie ihren schottischen Dialekt in ihre langen Bärte brabbeln, sind sie selten abweisend, meistens herzlich und immer zu einem kleinen Schwätzchen bei einem kühlen Blonden aufgelegt.",
+      "screen_lines": [
+        "Der  Alte scheint  zu den  Bewohnern des",
+        "Dorfes  zu gehören:  Obwohl sie  leichte",
+        "Veständigungsprobleme  haben,  wenn  sie",
+        "ihren   schottischen  Dialekt   in  ihre",
+        "langen Bärte  brabbeln, sind  sie selten",
+        "abweisend,  meistens herzlich  und immer",
+        "zu einem  kleinen Schwätzchen  bei einem",
+        "kühlen Blonden aufgelegt."
+      ]
+    },
+    "241": {
+      "index": 241,
+      "source_offset": 28356,
+      "text": "Die Nummer auf dem Schlüssel lautet \"003\". Das dürfte selbst für Dich nicht allzu schwer zu behalten sein, zumal sie rein zufällig mit der Deines Zimmers übereinstimmt! Vergiß sie aber nicht, denn wenn Du, wie im letzten Urlaub, wieder einmal sturzbetrunken durch's Hotel torkelst und alle Gäste mit derben Trinkliedern um ihre wohlverdiente Nachtruhe bringst, wird sich wohl kaum jemand finden, der Deiner Fahne widerstehen und Dir Auskunft geben kann!",
+      "screen_lines": [
+        "Die  Nummer  auf  dem  Schlüssel  lautet",
+        "\"003\". Das dürfte  selbst für Dich nicht",
+        "allzu schwer zu behalten sein, zumal sie",
+        "rein  zufällig  mit der  Deines  Zimmers",
+        "übereinstimmt!  Vergiß  sie aber  nicht,",
+        "denn  wenn Du,  wie  im letzten  Urlaub,",
+        "wieder  einmal   sturzbetrunken  durch's",
+        "Hotel torkelst und alle Gäste mit derben",
+        "Trinkliedern   um   ihre   wohlverdiente",
+        "Nachtruhe bringst,  wird sich  wohl kaum",
+        "jemand   finden,    der   Deiner   Fahne",
+        "widerstehen und Dir Auskunft geben kann!"
+      ]
+    },
+    "242": {
+      "index": 242,
+      "source_offset": 28628,
+      "text": "Ein paar neue und ziemlich teure Sportschuhe. Ich frage mich ernsthaft, ob Du sie Dir auch gekauft hättest, wenn nicht jeder, der an Deiner Schule etwas auf sich hält, solche Treter trüge...",
+      "screen_lines": [
+        "Ein   paar  neue   und  ziemlich   teure",
+        "Sportschuhe.  Ich frage  mich ernsthaft,",
+        "ob Du sie Dir auch gekauft hättest, wenn",
+        "nicht jeder, der  an Deiner Schule etwas",
+        "auf sich hält, solche Treter trüge..."
+      ]
+    },
+    "243": {
+      "index": 243,
+      "source_offset": 28743,
+      "text": "Ich habe Dir doch bereits mitgeteilt, daß die Schrift auf dem Schild \"Letztes Hotel vor dem nächsten Systemcrash\" lautet, oder? Mag ja sein, daß Du meine Texte genauso fantastisch findest wie ich, aber bitte geh' mir trotzdem nicht weiter auf die Nerven, indem Du mich alles zweimal fragst, okay? Danke, der Parser.",
+      "screen_lines": [
+        "Ich  habe Dir  doch bereits  mitgeteilt,",
+        "daß die Schrift  auf dem Schild \"Letztes",
+        "Hotel  vor   dem  nächsten  Systemcrash\"",
+        "lautet, oder? Mag ja  sein, daß Du meine",
+        "Texte  genauso  fantastisch findest  wie",
+        "ich, aber bitte  geh' mir trotzdem nicht",
+        "weiter  auf die  Nerven,  indem Du  mich",
+        "alles zweimal  fragst, okay?  Danke, der",
+        "Parser."
+      ]
+    },
+    "244": {
+      "index": 244,
+      "source_offset": 28936,
+      "text": "Auf dem Tisch steht eine Speisekarte.",
+      "screen_lines": [
+        "Auf dem Tisch steht eine Speisekarte."
+      ]
+    },
+    "245": {
+      "index": 245,
+      "source_offset": 28962,
+      "text": "Dein Lieblings-T-Shirt: Auf seinem rückwärtigen Teil stellt es einen Surfer in grellen Neonfarben dar - cool! Schade nur, daß jeder andere auf Deiner Schule denselben Dress trägt...",
+      "screen_lines": [
+        "Dein   Lieblings-T-Shirt:   Auf   seinem",
+        "rückwärtigen Teil stellt es einen Surfer",
+        "in grellen Neonfarben dar - cool! Schade",
+        "nur, daß jeder  andere auf Deiner Schule",
+        "denselben Dress trägt..."
+      ]
+    },
+    "246": {
+      "index": 246,
+      "source_offset": 29072,
+      "text": "Willst Du mir etwa schon wieder auf die Nerven gehen? DORT SITZT EIN ÄLTERER MANN AN EINEM DER TISCHE UND STUDIERT DIE SPEISEKARTE!",
+      "screen_lines": [
+        "Willst Du mir etwa  schon wieder auf die",
+        "Nerven  gehen?  DORT SITZT  EIN  ÄLTERER",
+        "MANN  AN EINEM  DER TISCHE  UND STUDIERT",
+        "DIE SPEISEKARTE!"
+      ]
+    },
+    "247": {
+      "index": 247,
+      "source_offset": 29183,
+      "text": "Weißt Du tatsächlich nicht, wie Einhörner aussehen? Nun gut, ich bin DEIN Computer, obwohl ich eigentlich gehofft hatte, daß mir das Schicksal meiner PC-Kollegen, die den ganzen Tag ihren ungebildeten Besitzern auf die Sprünge helfen müssen, erspart bliebe. Naja, also: Ein Einhorn ist eine Art weißes Pferd (Wie ein Pferd aussieht, weißt Du, ja?), dessen Fell in einem beinahe überirdischen Licht zwischen Weiß und Hellblau zu funkeln scheint. Ein weiterer Unterschied zwischen einem ordinären Gaul und einem edlen Einhorn ist das gedrehte Horn, das ein Einhorn auf der Stirn trägt. Ich hoffe, Du konntest mir so halbwegs folgen ?!?!?",
+      "screen_lines": [
+        "Weißt   Du    tatsächlich   nicht,   wie",
+        "Einhörner  aussehen?  Nun gut,  ich  bin",
+        "DEIN  Computer,  obwohl  ich  eigentlich",
+        "gehofft  hatte,  daß mir  das  Schicksal",
+        "meiner PC-Kollegen,  die den  ganzen Tag",
+        "ihren  ungebildeten  Besitzern  auf  die",
+        "Sprünge  helfen müssen,  erspart bliebe.",
+        "Naja,  also: Ein  Einhorn  ist eine  Art",
+        "weißes  Pferd (Wie  ein Pferd  aussieht,",
+        "weißt  Du, ja?),  dessen  Fell in  einem",
+        "beinahe  überirdischen   Licht  zwischen",
+        "Weiß  und Hellblau  zu funkeln  scheint.",
+        "Ein weiterer  Unterschied zwischen einem",
+        "ordinären Gaul  und einem  edlen Einhorn",
+        "ist das  gedrehte Horn, das  ein Einhorn",
+        "auf  der  Stirn  trägt.  Ich  hoffe,  Du",
+        "konntest mir so halbwegs folgen ?!?!?"
+      ]
+    },
+    "248": {
+      "index": 248,
+      "source_offset": 29571,
+      "text": "Ein rustikaler, alter Kleiderschrank mit echten Bauernmalereien auf den Türen.",
+      "screen_lines": [
+        "Ein rustikaler, alter Kleiderschrank mit",
+        "echten Bauernmalereien auf den Türen."
+      ]
+    },
+    "249": {
+      "index": 249,
+      "source_offset": 29619,
+      "text": "Ein reißender Wasserfall, der von dem Gebirge, das den See umgibt, herabkommt und mit lautem Getöse ins Wasser stürzt. Aber mal ganz im Vertrauen: Hast Du wirklich nicht gewußt, wie so ein Wasserfall aussieht? Nein? Siehst Du, das kommt bloß durch den ganzen Science Fiction-Kram, mit dem der Adventuremarkt gerade vollgemüllt wird! Deshalb wählt Avantgardistic Arts in Aventuriens Parlament! Wir versprechen Dir, a) die Umwelt sauber von Abenteurerresten (so sie sich denn noch finden lassen...) zu halten, b) große Naturparks in unsere Welten einzubauen, damit zumindest Deine Kinder wieder wissen, wie Wasserfälle aussehen und c) sinnlose und stupide Messages wie diese hier, die bloß geschrieben werden, weil den geistesgestörten Autoren nichts Langweiligeres mehr einfiel, unter Todesstrafe zu stellen!",
+      "screen_lines": [
+        "Ein  reißender Wasserfall,  der von  dem",
+        "Gebirge, das den  See umgibt, herabkommt",
+        "und mit lautem Getöse ins Wasser stürzt.",
+        "Aber  mal  ganz  im Vertrauen:  Hast  Du",
+        "wirklich  nicht   gewußt,  wie   so  ein",
+        "Wasserfall  aussieht?  Nein? Siehst  Du,",
+        "das kommt bloß  durch den ganzen Science",
+        "Fiction-Kram, mit dem der Adventuremarkt",
+        "gerade  vollgemüllt wird!  Deshalb wählt",
+        "Avantgardistic   Arts   in   Aventuriens",
+        "Parlament! Wir  versprechen Dir,  a) die",
+        "Umwelt  sauber von  Abenteurerresten (so",
+        "sie sich denn  noch finden lassen...) zu",
+        "halten,  b) große  Naturparks in  unsere",
+        "Welten einzubauen, damit zumindest Deine",
+        "Kinder  wieder  wissen, wie  Wasserfälle",
+        "aussehen  und  c) sinnlose  und  stupide",
+        "Messages  wie   diese  hier,   die  bloß",
+        "geschrieben     werden,     weil     den",
+        "geistesgestörten      Autoren     nichts",
+        "Langweiligeres   mehr   einfiel,   unter",
+        "Todesstrafe zu stellen!"
+      ]
+    },
+    "25": {
+      "index": 25,
+      "source_offset": 2709,
+      "text": "[Auf einem schneebedeckten Berg]",
+      "screen_lines": [
+        "[Auf einem schneebedeckten Berg]"
+      ]
+    },
+    "250": {
+      "index": 250,
+      "source_offset": 30104,
+      "text": "Ein reißender Wasserfall, genau wie der, den Du gesehen hast, als Du den See zum ersten Mal betreten hast - jedoch noch um einiges wilder und frischer.",
+      "screen_lines": [
+        "Ein reißender Wasserfall, genau wie der,",
+        "den Du gesehen hast,  als Du den See zum",
+        "ersten Mal  betreten hast -  jedoch noch",
+        "um einiges wilder und frischer."
+      ]
+    },
+    "251": {
+      "index": 251,
+      "source_offset": 30191,
+      "text": "Du schauderst, als Du das gefährliche Funkeln in den Augen des Wolfs erblickst... Ansonsten ähnelt das Tier aber weitgehend den zahmen Wölfen, die Du zuhause im Zoo gesehen hast - zumindest, wenn man es schafft, über die Tatsache hinwegzusehen, daß es um einiges kräftiger und damit gefährlicher ist - und daß Euch hier kein Gitter trennt!",
+      "screen_lines": [
+        "Du  schauderst, als  Du das  gefährliche",
+        "Funkeln   in   den   Augen   des   Wolfs",
+        "erblickst...  Ansonsten ähnelt  das Tier",
+        "aber weitgehend  den zahmen  Wölfen, die",
+        "Du  zuhause   im  Zoo  gesehen   hast  -",
+        "zumindest, wenn man es schafft, über die",
+        "Tatsache   hinwegzusehen,   daß  es   um",
+        "einiges kräftiger und damit gefährlicher",
+        "ist  - und  daß  Euch  hier kein  Gitter",
+        "trennt!"
+      ]
+    },
+    "252": {
+      "index": 252,
+      "source_offset": 30396,
+      "text": "Oh nein! Bitte erzähl' mir jetzt nicht, daß Du einer von den Typen bist, die kein Hotel verlassen können, ohne sich zuvor ein kleines \"Souvenir\" (z.B. Handtücher, Aschenbecher oder Zimmerfernseher...) organisiert zu haben! Also ehrlich: Du hast es doch wohl nicht nötig, zu stehlen, oder? Außerdem: Was willst Du überhaupt mit der Speisekarte? Selbst wenn wir mal davon ausgingen, daß der Verdacht nicht auf Dich fiele, was unwahrscheinlich ist, da Du zur Zeit nun mal der einzige Gast des Hotels bist, so hätte die Karte doch überhaupt keinen Wert für Dich! Mary hingegen, die Besitzerin des Hotels, wäre sicherlich nicht sehr glücklich, wenn sie Deinetwegen extra einen neuen Satz Speisekarten bestellen müßte. Es ist hier auf dem Lande nämlich nicht ganz so einfach, solche Dinge zu bekommen, wie Du verwöhnter Stadtjunge Dir vielleicht denkst! Also: Finger weg, sonst Finger ab!",
+      "screen_lines": [
+        "Oh nein! Bitte  erzähl' mir jetzt nicht,",
+        "daß  Du einer  von den  Typen bist,  die",
+        "kein Hotel  verlassen können,  ohne sich",
+        "zuvor   ein  kleines   \"Souvenir\"  (z.B.",
+        "Handtücher,       Aschenbecher      oder",
+        "Zimmerfernseher...)    organisiert    zu",
+        "haben!  Also ehrlich:  Du  hast es  doch",
+        "wohl  nicht  nötig,  zu  stehlen,  oder?",
+        "Außerdem:  Was willst  Du überhaupt  mit",
+        "der  Speisekarte?  Selbst wenn  wir  mal",
+        "davon ausgingen, daß  der Verdacht nicht",
+        "auf  Dich  fiele,  was  unwahrscheinlich",
+        "ist, da Du zur  Zeit nun mal der einzige",
+        "Gast des Hotels bist, so hätte die Karte",
+        "doch  überhaupt  keinen Wert  für  Dich!",
+        "Mary   hingegen,   die  Besitzerin   des",
+        "Hotels,   wäre  sicherlich   nicht  sehr",
+        "glücklich,  wenn  sie Deinetwegen  extra",
+        "einen neuen  Satz Speisekarten bestellen",
+        "müßte. Es ist hier auf dem Lande nämlich",
+        "nicht ganz  so einfach, solche  Dinge zu",
+        "bekommen,  wie Du  verwöhnter Stadtjunge",
+        "Dir vielleicht denkst! Also: Finger weg,",
+        "sonst Finger ab!"
+      ]
+    },
+    "253": {
+      "index": 253,
+      "source_offset": 30930,
+      "text": "Kauf' ihm ein Hörgerät, und ich garantiere Dir: Er wird der glücklichste Portier unter Gottes Sonne sein!",
+      "screen_lines": [
+        "Kauf'   ihm   ein  Hörgerät,   und   ich",
+        "garantiere Dir: Er wird der glücklichste",
+        "Portier unter Gottes Sonne sein!"
+      ]
+    },
+    "254": {
+      "index": 254,
+      "source_offset": 30998,
+      "text": "Obwohl sein Blick schon etwas glasig und sein Geist wohl auch schon ein wenig benebelt ist, schaut er erwartungsvoll zu Dir auf, als Du Dich seinem Tisch näherst. Ich nehme an, er wäre einem kleinen Schwätzchen mit Dir nicht ganz abgeneigt.",
+      "screen_lines": [
+        "Obwohl sein Blick schon etwas glasig und",
+        "sein  Geist wohl  auch  schon ein  wenig",
+        "benebelt  ist, schaut  er erwartungsvoll",
+        "zu  Dir auf,  als Du  Dich seinem  Tisch",
+        "näherst.  Ich nehme  an,  er wäre  einem",
+        "kleinen Schwätzchen  mit Dir  nicht ganz",
+        "abgeneigt."
+      ]
+    },
+    "255": {
+      "index": 255,
+      "source_offset": 31141,
+      "text": "Als der Wolf Dich auf die Lichtung stürmen sieht, erschrickt er derartig über Deine hagere Figur, daß er sofort den Schwanz einzieht und die Beine in die Pfoten nimmt! Nachdem er, noch immer erschüttert über soviel Elend, jaulend im Unterholz verschwunden ist, legt sich das angeschlagene Einhorn erschöpft auf den Boden, um sich ein wenig von dem ungleichen Kampf zu erholen. Seine Nüstern beben nervös, und es atmet schwer und ungleichmäßig...",
+      "screen_lines": [
+        "Als  der  Wolf  Dich  auf  die  Lichtung",
+        "stürmen  sieht,  erschrickt er  derartig",
+        "über Deine  hagere Figur, daß  er sofort",
+        "den  Schwanz einzieht  und die  Beine in",
+        "die Pfoten nimmt! Nachdem er, noch immer",
+        "erschüttert  über soviel  Elend, jaulend",
+        "im Unterholz verschwunden ist, legt sich",
+        "das angeschlagene  Einhorn erschöpft auf",
+        "den  Boden, um  sich ein  wenig von  dem",
+        "ungleichen   Kampf  zu   erholen.  Seine",
+        "Nüstern  beben  nervös,   und  es  atmet",
+        "schwer und ungleichmäßig..."
+      ]
+    },
+    "256": {
+      "index": 256,
+      "source_offset": 31406,
+      "text": "\"Ich habe sie umzingelt!\", denkst Du Dir siegessicher: Mit einem wilden Kamikazeschrei stürmst Du die Lichtung und wirfst Dich mit aller Kraft gegen das Einhorn, um dem Wolf eine Gelegenheit zu geben, seine Zähne in die weiße Kehle des Fabelwesens zu schlagen. Vollgesudelt mit dem bläulichen Blut machen der Wolf und Du sich daran, das erlegte Einhorn auszuweiden, das Dich immer noch mit einem ungläubigen Blick aus seinen erlöschenden Augen anzublicken scheint. Dummerweise scheint der Hunger des Wolfes nach dieser Delikatesse jedoch immer noch nicht vollständig gestillt zu sein: Bei der ersten Gelegenheit, als Du gerade unvorsichtigerweise die Augen von ihm abwendest, springt Dir der Wolf an die Kehle und reißt Dir beinahe den Kopf vom Hals! Da er aber auch nach diesen beiden schmackhaften Mählern noch immer hungrig zu sein scheint, kannst Du ja im nächsten Spiel noch einmal hier vorbeikommen, um \"dem Wolf zu helfen\"...",
+      "screen_lines": [
+        "\"Ich habe sie umzingelt!\", denkst Du Dir",
+        "siegessicher:    Mit     einem    wilden",
+        "Kamikazeschrei  stürmst Du  die Lichtung",
+        "und  wirfst Dich  mit aller  Kraft gegen",
+        "das   Einhorn,   um    dem   Wolf   eine",
+        "Gelegenheit zu geben, seine Zähne in die",
+        "weiße Kehle des Fabelwesens zu schlagen.",
+        "Vollgesudelt  mit  dem  bläulichen  Blut",
+        "machen der  Wolf und Du sich  daran, das",
+        "erlegte  Einhorn  auszuweiden, das  Dich",
+        "immer noch  mit einem  ungläubigen Blick",
+        "aus     seinen    erlöschenden     Augen",
+        "anzublicken scheint. Dummerweise scheint",
+        "der  Hunger   des  Wolfes   nach  dieser",
+        "Delikatesse  jedoch   immer  noch  nicht",
+        "vollständig  gestillt zu  sein: Bei  der",
+        "ersten   Gelegenheit,   als  Du   gerade",
+        "unvorsichtigerweise  die  Augen von  ihm",
+        "abwendest, springt  Dir der Wolf  an die",
+        "Kehle und reißt Dir beinahe den Kopf vom",
+        "Hals! Da er aber auch nach diesen beiden",
+        "schmackhaften Mählern noch immer hungrig",
+        "zu  sein   scheint,  kannst  Du   ja  im",
+        "nächsten   Spiel    noch   einmal   hier",
+        "vorbeikommen, um \"dem Wolf zu helfen\"..."
+      ]
+    },
+    "257": {
+      "index": 257,
+      "source_offset": 31957,
+      "text": "Du drückst auf die kleine Kupferklingel. In einem Raum weiter oben hörst Du einen Summer - aber nichts passiert...",
+      "screen_lines": [
+        "Du drückst auf die kleine Kupferklingel.",
+        "In einem Raum weiter oben hörst Du einen",
+        "Summer - aber nichts passiert..."
+      ]
+    },
+    "258": {
+      "index": 258,
+      "source_offset": 32027,
+      "text": "Du drückst den Knopf der Klingel so tief ins Gehäuse hinein, daß Dir ernsthafte Bedenken kommen, ob sie nicht unter Deiner Hand explodieren wird. Nach ein paar Sekunden hörst Du endlich ein langsames Schlurfen auf der Treppe hinter dem Rezeptionstresen, und der Portier betritt, wild mit den Armen umherfuchtelnd, die Rezeption. \"Warum klingelst Du denn Sturm?\", fragt er Dich ungehalten, \"Ich bin doch nicht taub!\"",
+      "screen_lines": [
+        "Du drückst den Knopf der Klingel so tief",
+        "ins Gehäuse  hinein, daß  Dir ernsthafte",
+        "Bedenken  kommen,  ob  sie  nicht  unter",
+        "Deiner Hand  explodieren wird.  Nach ein",
+        "paar  Sekunden  hörst   Du  endlich  ein",
+        "langsames   Schlurfen  auf   der  Treppe",
+        "hinter  dem  Rezeptionstresen,  und  der",
+        "Portier  betritt,  wild  mit  den  Armen",
+        "umherfuchtelnd,  die  Rezeption.  \"Warum",
+        "klingelst Du denn Sturm?\", fragt er Dich",
+        "ungehalten, \"Ich bin doch nicht taub!\""
+      ]
+    },
+    "259": {
+      "index": 259,
+      "source_offset": 32277,
+      "text": "So höflich, wie es Dir nach der unfreundlichen Begrüßung noch möglich ist, fragst Du nach Deinem Zimmerschlüssel. Nach jedem Satz, den Du sagst, hält der Portier die Hand hinter sein linkes Ohr: Anscheinend hört er wohl doch nicht mehr ganz so gut wie er glaubt, doch nach einer Weile scheint er begriffen zu haben, nimmt Deinen Zimmerschlüssel vom Brett und wirft ihn unwillig auf den Tresen. Er murmelt noch kurz: \"Raum Nummer Null-Null-Drei.\", dreht sich ohne ein weiteres Wort um und schlurft die Treppe hoch. \"So was Unfreundliches!\", denkst Du bei Dir, \"Kein Wunder, daß hier keiner wohnen will!\" Auch Dein stiller Wunsch, er möge auf seinem Weg nach oben ausrutschen und die Stufen hinunterpoltern, erfüllt sich leider nicht. Na, na, na! Wer wird denn gleich aggressiv werden! Eigentlich solltest Du etwas mehr Verständnis und Mitgefühl für das alte Männchen zeigen und das nächste Mal Deine jugendliche Ungeduld ein wenig zügeln!",
+      "screen_lines": [
+        "So   höflich,  wie   es  Dir   nach  der",
+        "unfreundlichen  Begrüßung  noch  möglich",
+        "ist,     fragst    Du     nach    Deinem",
+        "Zimmerschlüssel. Nach jedem Satz, den Du",
+        "sagst, hält der  Portier die Hand hinter",
+        "sein  linkes  Ohr: Anscheinend  hört  er",
+        "wohl doch nicht mehr  ganz so gut wie er",
+        "glaubt, doch nach einer Weile scheint er",
+        "begriffen   zu   haben,   nimmt   Deinen",
+        "Zimmerschlüssel vom Brett  und wirft ihn",
+        "unwillig auf den Tresen. Er murmelt noch",
+        "kurz:  \"Raum   Nummer  Null-Null-Drei.\",",
+        "dreht sich ohne ein weiteres Wort um und",
+        "schlurft  die   Treppe  hoch.   \"So  was",
+        "Unfreundliches!\",  denkst  Du  bei  Dir,",
+        "\"Kein  Wunder,  daß hier  keiner  wohnen",
+        "will!\" Auch Dein stiller Wunsch, er möge",
+        "auf seinem Weg nach oben ausrutschen und",
+        "die Stufen hinunterpoltern, erfüllt sich",
+        "leider nicht. Na, na,  na! Wer wird denn",
+        "gleich   aggressiv  werden!   Eigentlich",
+        "solltest Du  etwas mehr  Verständnis und",
+        "Mitgefühl für  das alte  Männchen zeigen",
+        "und  das nächste  Mal Deine  jugendliche",
+        "Ungeduld ein wenig zügeln!"
+      ]
+    },
+    "26": {
+      "index": 26,
+      "source_offset": 2733,
+      "text": "[Im 'Equipment Shoppe']",
+      "screen_lines": [
+        "[Im 'Equipment Shoppe']"
+      ]
+    },
+    "260": {
+      "index": 260,
+      "source_offset": 32837,
+      "text": "Du winkst die Bedienung zu Dir heran und nennst ihr Deine dringendsten Wünsche: \"Bringen Sie mir bitte ein großes Steak, ein kühles Bier und eine Fra...\" - Plötzlich spürst Du, wie Du rot wirst und stammelst: \"Ach nein: Die Frankfurter Allgemeine können Sie wieder streichen. Deutsche Zeitungen werden Sie hier ja wohl ohnehin nicht bekommen, oder?\" Als das Mädchen, ebenfalls rot bis über beide Ohren, hastig verneint, beruhigst Du es - den Altersunterschied von gut zehn Jahren geflissentlich ignorierend - väterlich: \"Das macht nichts, meine Tochter: Ich kann sowieso kein Deutsch!\", und brichst in brüllendes Gelächter aus, woraufhin der bisher unbeteiligt dasitzende Dorfbewohner die Augen leidend zum Himmel verdreht, als hätte man ihm dort in die Weichteile getreten, wo es so richtig wehtut. Als Du bestürzt feststellst, daß auch die Kellnerin anscheinend unter chronischer Humorlosigkeit leidet, beschließt Du, Deine komische Darbietung abrupt abzubrechen und das Mädchen mit einer gnädigen Handbewegung zu entlassen. Als es in der Küche verschwunden ist, sprichst Du den alten Mann an, ob er Dir nicht vielleicht ein wenig über das Dorf und seine Umgebung erzählen könnte. Langsam und schleppend beginnt der Dorfbewohner, in seinen Bart hineinzubrabbeln, daß er Dir eine interessante Sage erzählen könne. Gut, Du bist zwar nicht gerade davon ausgegangen, daß er Dir gleich die Adressen der lokalen In-Treffs und Yuppie-Diskotheken aufzählen würde, aber muß es denn gleich ein Märchen sein? Vorsichtshalber stützt Du den Kopf auf die Hände, um im Ernstfall nicht mit der Nase auf die Tischkante zu knallen, und während Du sehnsüchtig auf Dein Essen wartest, damit Du wenigstens etwas zu tun hättest, lauschst Du der Geschichte des Alten: Vor langer, langer Zeit soll an dem Platz, den jetzt das Loch Calderwood einnimmt, eine reiche und stolze Stadt gestanden haben - doch von einer Nacht auf die andere war sie verschwunden, und statt ihrer befand sich der See am Fuße der Berge! Es wurde vermutet, daß die Bewohner dieser legendären Stadt für ihren Stolz und ihre Eitelkeit von den Göttern bestraft worden seien. Ebenfalls erzählt man sich, daß sie sehr reich und kunstfertig gewesen wären! Da Du für Deinen Teil Dich seit Beginn der Erzählung in der Kunst übst, mit offenen Augen zu schlafen, hält der Einheimische Deinen starren Blick für ungläubiges Staunen und setzt noch mal einen drauf: Angeblich behaupten die Leute im Dorf nämlich sogar heute noch, daß die Türme und Dächer der Stadt noch unter Wasser gesehen werden könnten, wenn man es wagte, bei Vollmond um Mitternacht auf den Grund des Sees hinabzutauchen - ein sehr exklusives und einmaliges Vergnügen übrigens, da keiner der tapferen Männer, die bisher ihr Glück versucht haben, jemals zurückkam...",
+      "screen_lines": [
+        "Du winkst die Bedienung zu Dir heran und",
+        "nennst  ihr Deine  dringendsten Wünsche:",
+        "\"Bringen Sie mir bitte ein großes Steak,",
+        "ein  kühles  Bier  und  eine  Fra...\"  -",
+        "Plötzlich  spürst Du,  wie Du  rot wirst",
+        "und    stammelst:    \"Ach   nein:    Die",
+        "Frankfurter Allgemeine können Sie wieder",
+        "streichen. Deutsche Zeitungen werden Sie",
+        "hier  ja  wohl ohnehin  nicht  bekommen,",
+        "oder?\"  Als das  Mädchen, ebenfalls  rot",
+        "bis über  beide Ohren,  hastig verneint,",
+        "beruhigst Du es  - den Altersunterschied",
+        "von   gut  zehn   Jahren  geflissentlich",
+        "ignorierend  -   väterlich:  \"Das  macht",
+        "nichts, meine Tochter:  Ich kann sowieso",
+        "kein    Deutsch!\",   und    brichst   in",
+        "brüllendes Gelächter  aus, woraufhin der",
+        "bisher       unbeteiligt      dasitzende",
+        "Dorfbewohner   die  Augen   leidend  zum",
+        "Himmel verdreht, als  hätte man ihm dort",
+        "in  die Weichteile  getreten,  wo es  so",
+        "richtig   wehtut.    Als   Du   bestürzt",
+        "feststellst,  daß   auch  die  Kellnerin",
+        "anscheinend       unter      chronischer",
+        "Humorlosigkeit  leidet,  beschließt  Du,",
+        "Deine    komische   Darbietung    abrupt",
+        "abzubrechen  und das  Mädchen mit  einer",
+        "gnädigen Handbewegung  zu entlassen. Als",
+        "es  in   der  Küche   verschwunden  ist,",
+        "sprichst Du den alten Mann an, ob er Dir",
+        "nicht vielleicht ein wenig über das Dorf",
+        "und  seine   Umgebung  erzählen  könnte.",
+        "Langsam   und  schleppend   beginnt  der",
+        "Dorfbewohner,     in     seinen     Bart",
+        "hineinzubrabbeln,   daß   er  Dir   eine",
+        "interessante  Sage erzählen  könne. Gut,",
+        "Du   bist   zwar  nicht   gerade   davon",
+        "ausgegangen,  daß  er   Dir  gleich  die",
+        "Adressen   der  lokalen   In-Treffs  und",
+        "Yuppie-Diskotheken aufzählen würde, aber",
+        "muß  es denn  gleich  ein Märchen  sein?",
+        "Vorsichtshalber stützt  Du den  Kopf auf",
+        "die Hände, um im Ernstfall nicht mit der",
+        "Nase auf die  Tischkante zu knallen, und",
+        "während  Du sehnsüchtig  auf Dein  Essen",
+        "wartest,  damit Du  wenigstens etwas  zu",
+        "tun hättest, lauschst  Du der Geschichte",
+        "des Alten: Vor  langer, langer Zeit soll",
+        "an  dem   Platz,  den  jetzt   das  Loch",
+        "Calderwood  einnimmt,  eine  reiche  und",
+        "stolze Stadt gestanden  haben - doch von",
+        "einer  Nacht  auf  die  andere  war  sie",
+        "verschwunden,  und  statt  ihrer  befand",
+        "sich der See am Fuße der Berge! Es wurde",
+        "vermutet,   daß   die  Bewohner   dieser",
+        "legendären  Stadt  für ihren  Stolz  und",
+        "ihre Eitelkeit von  den Göttern bestraft",
+        "worden  seien.   Ebenfalls  erzählt  man",
+        "sich, daß sie sehr reich und kunstfertig",
+        "gewesen  wären! Da  Du  für Deinen  Teil",
+        "Dich  seit Beginn  der Erzählung  in der",
+        "Kunst   übst,  mit   offenen  Augen   zu",
+        "schlafen,  hält der  Einheimische Deinen",
+        "starren  Blick  für ungläubiges  Staunen",
+        "und   setzt   noch  mal   einen   drauf:",
+        "Angeblich  behaupten die  Leute im  Dorf",
+        "nämlich sogar heute  noch, daß die Türme",
+        "und Dächer  der Stadt noch  unter Wasser",
+        "gesehen  werden  könnten,  wenn  man  es",
+        "wagte, bei  Vollmond um  Mitternacht auf",
+        "den Grund des  Sees hinabzutauchen - ein",
+        "sehr exklusives und einmaliges Vergnügen",
+        "übrigens, da keiner der tapferen Männer,",
+        "die  bisher  ihr Glück  versucht  haben,",
+        "jemals zurückkam..."
+      ]
+    },
+    "261": {
+      "index": 261,
+      "source_offset": 34475,
+      "text": "Der alte Mann verbirgt sein Gesicht hinter seinem Bierglas - nicht mehr in der Lage, noch ein weiteres Wort von sich zu geben. Das einzige, was Du noch von Zeit zu Zeit von ihm vernimmst, ist ein leises und verschämtes \"Börks!\". Offensichtlich hat er während seiner Erzählung ein Gläschen über den Durst getrunken...",
+      "screen_lines": [
+        "Der  alte  Mann  verbirgt  sein  Gesicht",
+        "hinter seinem  Bierglas - nicht  mehr in",
+        "der  Lage, noch  ein  weiteres Wort  von",
+        "sich zu geben. Das  einzige, was Du noch",
+        "von Zeit zu Zeit  von ihm vernimmst, ist",
+        "ein  leises  und  verschämtes  \"Börks!\".",
+        "Offensichtlich  hat  er  während  seiner",
+        "Erzählung  ein Gläschen  über den  Durst",
+        "getrunken..."
+      ]
+    },
+    "262": {
+      "index": 262,
+      "source_offset": 34664,
+      "text": "Nachdem es sich ein wenig erholt hat, dankt das Einhorn Dir für Deine Hilfe und warnt Dich eindringlich, Deinen Weg nach Westen fortzusetzen. \"Nachdem Du erst einmal diesen Teil des Waldes verlassen hast, gibt es kein Zurück mehr...\", sagt es mit einem unendlich traurigen Blick in seinen tiefblauen Augen, \"Doch nimm diese kleine Kristallkugel: Sie könnte Dir helfen, Freunde in dieser feindlichen Welt zu finden...\" Mit diesen Worten gibt Dir das Einhorn eine kleine, leuchtende Kristallkugel, während es Dir mit ersterbender Stimme zuwispert: \"Denke an mich, wenn Du sie benutzt - ich habe nicht mehr lange zu leben...\". Mit einem letzten Blick zu Dir zurück, einem Blick so voller Bedauern und Schmerz, daß es Dir fast das Herz bricht, wendet sich das todgeweihte, schöne Wesen um und trottet langsam davon, ohne sich noch einmal nach Dir umzudrehen, bis es zwischen den Bäumen verschwunden ist...",
+      "screen_lines": [
+        "Nachdem  es sich  ein wenig  erholt hat,",
+        "dankt  das Einhorn  Dir für  Deine Hilfe",
+        "und warnt Dich  eindringlich, Deinen Weg",
+        "nach  Westen  fortzusetzen. \"Nachdem  Du",
+        "erst  einmal  diesen   Teil  des  Waldes",
+        "verlassen  hast,  gibt  es  kein  Zurück",
+        "mehr...\",  sagt es  mit einem  unendlich",
+        "traurigen  Blick  in  seinen  tiefblauen",
+        "Augen,    \"Doch   nimm    diese   kleine",
+        "Kristallkugel:  Sie  könnte Dir  helfen,",
+        "Freunde  in dieser  feindlichen Welt  zu",
+        "finden...\"  Mit diesen  Worten gibt  Dir",
+        "das  Einhorn   eine  kleine,  leuchtende",
+        "Kristallkugel,   während   es  Dir   mit",
+        "ersterbender Stimme zuwispert: \"Denke an",
+        "mich,  wenn Du  sie benutzt  - ich  habe",
+        "nicht mehr lange zu leben...\". Mit einem",
+        "letzten Blick zu Dir zurück, einem Blick",
+        "so voller  Bedauern und Schmerz,  daß es",
+        "Dir  fast das  Herz bricht,  wendet sich",
+        "das  todgeweihte,  schöne Wesen  um  und",
+        "trottet  langsam davon,  ohne sich  noch",
+        "einmal  nach  Dir   umzudrehen,  bis  es",
+        "zwischen den  Bäumen verschwunden ist..."
+      ]
+    },
+    "263": {
+      "index": 263,
+      "source_offset": 35194,
+      "text": "Du steigst wieder in Deine Jeans.",
+      "screen_lines": [
+        "Du steigst wieder in Deine Jeans."
+      ]
+    },
+    "264": {
+      "index": 264,
+      "source_offset": 35216,
+      "text": "Also, wenn Du mich fragst, dann täte Deinen Füßen noch ein wenig Frischluft gut - aber okay: Du trägst jetzt wieder Deine Turnschuhe.",
+      "screen_lines": [
+        "Also,  wenn Du  mich  fragst, dann  täte",
+        "Deinen Füßen  noch ein  wenig Frischluft",
+        "gut - aber okay:  Du trägst jetzt wieder",
+        "Deine Turnschuhe."
+      ]
+    },
+    "265": {
+      "index": 265,
+      "source_offset": 35300,
+      "text": "Du zwängst Dich in Dein T-Shirt hinein: Hach! Da fühlt man sich doch gleich wieder viel cooler!",
+      "screen_lines": [
+        "Du zwängst Dich  in Dein T-Shirt hinein:",
+        "Hach!  Da  fühlt  man sich  doch  gleich",
+        "wieder viel cooler!"
+      ]
+    },
+    "266": {
+      "index": 266,
+      "source_offset": 35362,
+      "text": "Bist Du krank? Deine Eltern sind hunderte von Kilometern entfernt, die Nacht ist jung - und Du willst SCHLAFEN ???",
+      "screen_lines": [
+        "Bist   Du  krank?   Deine  Eltern   sind",
+        "hunderte  von  Kilometern entfernt,  die",
+        "Nacht ist jung -  und Du willst SCHLAFEN",
+        "???"
+      ]
+    },
+    "267": {
+      "index": 267,
+      "source_offset": 35440,
+      "text": "Du setzt Dich hin, um darüber nachzusinnen, was Du als nächstes tun könntest, aber mit einem Blick auf die Tischplatte vor Dir - eine Tischplatte ohne Deinen geliebten Computer darauf - fragst Du Dich verwirrt, wofür Du Dich überhaupt hingesetzt hast - denn was sollte man schon mit einem Tisch anfangen können, auf dem sich kein Monitor befindet? Da Du als eingefleischter Medientrottel leider außerstande bist, eine Antwort auf diese brennende und weltbewegende Frage zu finden, stehst Du frustriert wieder auf, um etwas Produktiveres zu tun als lediglich herumzusitzen...",
+      "screen_lines": [
+        "Du   setzt   Dich    hin,   um   darüber",
+        "nachzusinnen,  was Du  als nächstes  tun",
+        "könntest, aber  mit einem Blick  auf die",
+        "Tischplatte vor  Dir -  eine Tischplatte",
+        "ohne Deinen geliebten  Computer darauf -",
+        "fragst Du  Dich verwirrt, wofür  Du Dich",
+        "überhaupt  hingesetzt  hast -  denn  was",
+        "sollte   man  schon   mit  einem   Tisch",
+        "anfangen  können,  auf   dem  sich  kein",
+        "Monitor    befindet?     Da    Du    als",
+        "eingefleischter   Medientrottel   leider",
+        "außerstande bist, eine Antwort auf diese",
+        "brennende  und  weltbewegende  Frage  zu",
+        "finden, stehst Du frustriert wieder auf,",
+        "um  etwas   Produktiveres  zu   tun  als",
+        "lediglich herumzusitzen..."
+      ]
+    },
+    "268": {
+      "index": 268,
+      "source_offset": 35784,
+      "text": "Als Du gerade tiefer in den Wald treten willst, tritt ein Waldelf aus dem Unterholz vor Dich und versperrt Dir mit einer Geste den Weg, die keinen Widerspruch zuläßt. \"Seid gegrüßt, Fremder!\", begrüßt er Dich freundlich, \"Bevor Ihr tiefer in unsere Welt vordringen dürft, müßt Ihr einen kleinen Test bezüglich der Spielanleitung bestehen, um zu beweisen, daß Ihr wirklich ein EIGENES Spiel besitzt - und nicht bloß eine von diesen minderwertigen Schwarzkopien...\"",
+      "screen_lines": [
+        "Als Du gerade tiefer  in den Wald treten",
+        "willst,  tritt   ein  Waldelf   aus  dem",
+        "Unterholz vor Dich und versperrt Dir mit",
+        "einer   Geste   den  Weg,   die   keinen",
+        "Widerspruch   zuläßt.   \"Seid   gegrüßt,",
+        "Fremder!\",  begrüßt er  Dich freundlich,",
+        "\"Bevor   Ihr  tiefer   in  unsere   Welt",
+        "vordringen dürft, müßt Ihr einen kleinen",
+        "Test   bezüglich    der   Spielanleitung",
+        "bestehen,  um   zu  beweisen,   daß  Ihr",
+        "wirklich ein EIGENES Spiel besitzt - und",
+        "nicht     bloß    eine     von    diesen",
+        "minderwertigen Schwarzkopien...\""
+      ]
+    },
+    "269": {
+      "index": 269,
+      "source_offset": 36072,
+      "text": "\"Nun gut, mein Freund: Der Code ist okay! Ihr dürft passieren...\", entgegnet der Elf, sichtlich zufrieden über Deine Antwort, und verschwindet ebenso rasch wieder im Wald, wie er zuvor aus ihm aufgetaucht ist...",
+      "screen_lines": [
+        "\"Nun  gut,  mein  Freund: Der  Code  ist",
+        "okay! Ihr dürft passieren...\", entgegnet",
+        "der Elf, sichtlich  zufrieden über Deine",
+        "Antwort,  und verschwindet  ebenso rasch",
+        "wieder  im Wald,  wie er  zuvor aus  ihm",
+        "aufgetaucht ist..."
+      ]
+    },
+    "27": {
+      "index": 27,
+      "source_offset": 2757,
+      "text": "[Auf dem Pfad]",
+      "screen_lines": [
+        "[Auf dem Pfad]"
+      ]
+    },
+    "270": {
+      "index": 270,
+      "source_offset": 36203,
+      "text": "\"Oh nein! Werden diese Diebe denn niemals verstehen, wie hart ein durchschnittliches Programmierteam an der Entwicklung eines Programmes wie diesem arbeiten muß?\", ruft der Elf sichtlich enttäuscht aus. \"Nun ziehet aus und kauft Euch das Originalprogramm, wenn Euch daran gelegen ist, den Fortgang der Geschichte mitverfolgen zu können! Ich für meinen Teil werde Euch nicht eher passieren lassen, als bis Ihr den gebührenden Zoll entrichtet habt...\"",
+      "screen_lines": [
+        "\"Oh  nein!   Werden  diese   Diebe  denn",
+        "niemals   verstehen,    wie   hart   ein",
+        "durchschnittliches   Programmierteam  an",
+        "der  Entwicklung  eines  Programmes  wie",
+        "diesem  arbeiten  muß?\",  ruft  der  Elf",
+        "sichtlich  enttäuscht  aus. \"Nun  ziehet",
+        "aus und kauft Euch das Originalprogramm,",
+        "wenn   Euch  daran   gelegen  ist,   den",
+        "Fortgang der  Geschichte mitverfolgen zu",
+        "können! Ich  für meinen Teil  werde Euch",
+        "nicht eher passieren lassen, als bis Ihr",
+        "den gebührenden Zoll entrichtet habt...\""
+      ]
+    },
+    "271": {
+      "index": 271,
+      "source_offset": 36474,
+      "text": "Ausgänge führen nach:",
+      "screen_lines": [
+        "Ausgänge führen nach:"
+      ]
+    },
+    "272": {
+      "index": 272,
+      "source_offset": 36492,
+      "text": "Tut mir leid, aber im Moment kann ich hier bedauerlicherweise keinerlei Ausgänge erkennen...",
+      "screen_lines": [
+        "Tut mir  leid, aber  im Moment  kann ich",
+        "hier     bedauerlicherweise    keinerlei",
+        "Ausgänge erkennen..."
+      ]
+    },
+    "273": {
+      "index": 273,
+      "source_offset": 36549,
+      "text": "Bitte lege die Diskette, auf der Du Deine Spielstände abgespeichert hast, in Dein Laufwerk. Denke daran, daß sie den Namen \"SoulSave\" tragen muß. Andernfalls formatiere sie, wie in Deinem Benutzerhandbuch beschrieben, und benenne sie in \"SoulSave\" um. Drücke \u003cESC\u003e oder das rechte Mousebutton, um die Aktion abzubrechen!",
+      "screen_lines": [
+        "Bitte  lege  die  Diskette, auf  der  Du",
+        "Deine Spielstände abgespeichert hast, in",
+        "Dein Laufwerk. Denke  daran, daß sie den",
+        "Namen \"SoulSave\" tragen muß. Andernfalls",
+        "formatiere    sie,    wie   in    Deinem",
+        "Benutzerhandbuch     beschrieben,    und",
+        "benenne  sie  in \"SoulSave\"  um.  Drücke",
+        "\u003cESC\u003e  oder das  rechte Mousebutton,  um",
+        "die Aktion abzubrechen!"
+      ]
+    },
+    "274": {
+      "index": 274,
+      "source_offset": 36747,
+      "text": "Willst Du wirklich alle Spielstände löschen? Drücke \u003cJ\u003e oder das rechte Mousebutton zur Bestätigung - alles andere bricht den Initialisierungsvorgang ab...",
+      "screen_lines": [
+        "Willst  Du   wirklich  alle  Spielstände",
+        "löschen?  Drücke  \u003cJ\u003e  oder  das  rechte",
+        "Mousebutton  zur   Bestätigung  -  alles",
+        "andere             bricht            den",
+        "Initialisierungsvorgang ab..."
+      ]
+    },
+    "275": {
+      "index": 275,
+      "source_offset": 36855,
+      "text": "Bitte warte einen kleinen Moment - ich lösche die alten Spielstände...",
+      "screen_lines": [
+        "Bitte warte  einen kleinen Moment  - ich",
+        "lösche die alten Spielstände..."
+      ]
+    },
+    "276": {
+      "index": 276,
+      "source_offset": 36900,
+      "text": "Okay: Alle alten Spielstände sind gelöscht und es ist wieder genug Platz für neue vorhanden.",
+      "screen_lines": [
+        "Okay:   Alle   alten  Spielstände   sind",
+        "gelöscht und  es ist wieder  genug Platz",
+        "für neue vorhanden."
+      ]
+    },
+    "277": {
+      "index": 277,
+      "source_offset": 36961,
+      "text": "Puh! Nochmal Schwein gehabt...",
+      "screen_lines": [
+        "Puh! Nochmal Schwein gehabt..."
+      ]
+    },
+    "278": {
+      "index": 278,
+      "source_offset": 36986,
+      "text": "Diskette wurde initialisiert.",
+      "screen_lines": [
+        "Diskette wurde initialisiert."
+      ]
+    },
+    "279": {
+      "index": 279,
+      "source_offset": 37007,
+      "text": "FEHLER! Konnte Directory nicht anlegen! Mögliche Fehlerursachen: Schreibschutz aktiviert, Diskette defekt oder nicht formatiert, etc.",
+      "screen_lines": [
+        "FEHLER! Konnte  Directory nicht anlegen!",
+        "Mögliche  Fehlerursachen:  Schreibschutz",
+        "aktiviert,  Diskette  defekt oder  nicht",
+        "formatiert, etc."
+      ]
+    },
+    "28": {
+      "index": 28,
+      "source_offset": 2772,
+      "text": "[Auf einem Hügel]",
+      "screen_lines": [
+        "[Auf einem Hügel]"
+      ]
+    },
+    "280": {
+      "index": 280,
+      "source_offset": 37095,
+      "text": "Die Diskette ist nun gelöscht und für die neuen Spielstände präpariert.",
+      "screen_lines": [
+        "Die  Diskette ist  nun gelöscht  und für",
+        "die neuen Spielstände präpariert."
+      ]
+    },
+    "281": {
+      "index": 281,
+      "source_offset": 37140,
+      "text": "FEHLER! Konnte Diskette nicht initialisieren! Bitte andere, fehlerfreie Diskette benutzen.",
+      "screen_lines": [
+        "FEHLER!     Konnte    Diskette     nicht",
+        "initialisieren!       Bitte      andere,",
+        "fehlerfreie Diskette benutzen."
+      ]
+    },
+    "282": {
+      "index": 282,
+      "source_offset": 37203,
+      "text": "Bitte wähle den zu ladenden Spielstand aus.",
+      "screen_lines": [
+        "Bitte wähle  den zu  ladenden Spielstand",
+        "aus."
+      ]
+    },
+    "283": {
+      "index": 283,
+      "source_offset": 37232,
+      "text": "Spielstand wird geladen - bitte etwas Geduld...",
+      "screen_lines": [
+        "Spielstand  wird geladen  - bitte  etwas",
+        "Geduld..."
+      ]
+    },
+    "284": {
+      "index": 284,
+      "source_offset": 37265,
+      "text": "FEHLER! Spielstand kann nicht geladen werden! Bitte wähle einen anderen aus...",
+      "screen_lines": [
+        "FEHLER!  Spielstand  kann nicht  geladen",
+        "werden! Bitte wähle einen anderen aus..."
+      ]
+    },
+    "285": {
+      "index": 285,
+      "source_offset": 37317,
+      "text": "Spielstand wurde komplett und korrekt eingelesen und initialisiert - Du kannst nun von dort an weiterspielen, von wo aus Du abgespeichert hast: Viel Spaß!",
+      "screen_lines": [
+        "Spielstand  wurde  komplett und  korrekt",
+        "eingelesen und initialisiert - Du kannst",
+        "nun  von dort  an weiterspielen,  von wo",
+        "aus Du abgespeichert hast: Viel Spaß!"
+      ]
+    },
+    "286": {
+      "index": 286,
+      "source_offset": 37411,
+      "text": "Bitte wähle den Eintrag aus, unter dem der Spielstand abgespeichert werden soll!",
+      "screen_lines": [
+        "Bitte wähle  den Eintrag aus,  unter dem",
+        "der   Spielstand  abgespeichert   werden",
+        "soll!"
+      ]
+    },
+    "287": {
+      "index": 287,
+      "source_offset": 37462,
+      "text": "Speichere den Spielstand unter dem angegebenen Namen und in den entsprechenden Eintrag ...",
+      "screen_lines": [
+        "Speichere   den  Spielstand   unter  dem",
+        "angegebenen    Namen    und    in    den",
+        "entsprechenden Eintrag ..."
+      ]
+    },
+    "288": {
+      "index": 288,
+      "source_offset": 37520,
+      "text": "Okay, der Spielstand wurde korrekt abgespeichert.",
+      "screen_lines": [
+        "Okay,   der  Spielstand   wurde  korrekt",
+        "abgespeichert."
+      ]
+    },
+    "289": {
+      "index": 289,
+      "source_offset": 37556,
+      "text": "FEHLER! Konnte Spielstand nicht speichern!",
+      "screen_lines": [
+        "FEHLER!    Konnte    Spielstand    nicht",
+        "speichern!"
+      ]
+    },
+    "29": {
+      "index": 29,
+      "source_offset": 2788,
+      "text": "[In einem schneebedeckten Tal]",
+      "screen_lines": [
+        "[In einem schneebedeckten Tal]"
+      ]
+    },
+    "290": {
+      "index": 290,
+      "source_offset": 37591,
+      "text": "Bitte aktiviere die Install-Option aus dem Diskmenü...",
+      "screen_lines": [
+        "Bitte  aktiviere die  Install-Option aus",
+        "dem Diskmenü..."
+      ]
+    },
+    "291": {
+      "index": 291,
+      "source_offset": 37629,
+      "text": "Das findest Du wohl witzig, häh? Naja, vergessen wir's...",
+      "screen_lines": [
+        "Das findest  Du wohl witzig,  häh? Naja,",
+        "vergessen wir's..."
+      ]
+    },
+    "292": {
+      "index": 292,
+      "source_offset": 37671,
+      "text": "Um vorzubeugen, daß sich einige dumme \"Kopier-Hiwis\" mit Hilfe abgespeicherter Spielstände an den Codeabfragen zwischen den einzelnen Spielabschnitten vorbeimogeln und das Spiel unentgeltlich spielen können, möchten wir Dich nun bitten, einen Code aus dem Handbuch einzugeben. Tut mir leid - aber: \"Muß sein...\"",
+      "screen_lines": [
+        "Um  vorzubeugen, daß  sich einige  dumme",
+        "\"Kopier-Hiwis\" mit Hilfe abgespeicherter",
+        "Spielstände an den Codeabfragen zwischen",
+        "den      einzelnen      Spielabschnitten",
+        "vorbeimogeln und das Spiel unentgeltlich",
+        "spielen  können,  möchten wir  Dich  nun",
+        "bitten,  einen  Code  aus  dem  Handbuch",
+        "einzugeben.  Tut mir  leid -  aber: \"Muß",
+        "sein...\""
+      ]
+    },
+    "293": {
+      "index": 293,
+      "source_offset": 37863,
+      "text": "FEHLER! Die eingelegte Diskette ist schreibgeschützt!",
+      "screen_lines": [
+        "FEHLER!  Die   eingelegte  Diskette  ist",
+        "schreibgeschützt!"
+      ]
+    },
+    "294": {
+      "index": 294,
+      "source_offset": 37902,
+      "text": "FEHLER! File ist bereits vorhanden!",
+      "screen_lines": [
+        "FEHLER! File ist bereits vorhanden!"
+      ]
+    },
+    "295": {
+      "index": 295,
+      "source_offset": 37930,
+      "text": "FEHLER! Kann Verzeichnis nicht finden!",
+      "screen_lines": [
+        "FEHLER! Kann Verzeichnis nicht finden!"
+      ]
+    },
+    "296": {
+      "index": 296,
+      "source_offset": 37960,
+      "text": "FEHLER! Die Diskette ist nicht korrekt validiert!",
+      "screen_lines": [
+        "FEHLER! Die  Diskette ist  nicht korrekt",
+        "validiert!"
+      ]
+    },
+    "297": {
+      "index": 297,
+      "source_offset": 37996,
+      "text": "FEHLER! Diskette ist bis zum Erbrechen voll!",
+      "screen_lines": [
+        "FEHLER! Diskette  ist bis  zum Erbrechen",
+        "voll!"
+      ]
+    },
+    "298": {
+      "index": 298,
+      "source_offset": 38030,
+      "text": "FEHLER! Die eingelegte Diskette weist keine korrekte DOS-Struktur auf!",
+      "screen_lines": [
+        "FEHLER!  Die  eingelegte Diskette  weist",
+        "keine korrekte DOS-Struktur auf!"
+      ]
+    },
+    "299": {
+      "index": 299,
+      "source_offset": 38079,
+      "text": "FEHLER! Keine Diskette im Laufwerk!",
+      "screen_lines": [
+        "FEHLER! Keine Diskette im Laufwerk!"
+      ]
+    },
+    "3": {
+      "index": 3,
+      "source_offset": 2350,
+      "text": "[Auf der Straße]",
+      "screen_lines": [
+        "[Auf der Straße]"
+      ]
+    },
+    "30": {
+      "index": 30,
+      "source_offset": 2810,
+      "text": "[Vor einer alten Zwergmine]",
+      "screen_lines": [
+        "[Vor einer alten Zwergmine]"
+      ]
+    },
+    "300": {
+      "index": 300,
+      "source_offset": 38108,
+      "text": "FATALER FEHLER! Unbekannte Ursache - schieben wir's mal auf's Betriebssystem...",
+      "screen_lines": [
+        "FATALER  FEHLER!  Unbekannte  Ursache  -",
+        "schieben      wir's       mal      auf's",
+        "Betriebssystem..."
+      ]
+    },
+    "301": {
+      "index": 301,
+      "source_offset": 38173,
+      "text": "Fehlerursache behoben? \u003cJ\u003e oder linkes Mousebutton zur Bestätigung...",
+      "screen_lines": [
+        "Fehlerursache  behoben? \u003cJ\u003e  oder linkes",
+        "Mousebutton zur Bestätigung..."
+      ]
+    },
+    "302": {
+      "index": 302,
+      "source_offset": 38222,
+      "text": "Ein kleiner Zwerg mit einer Schaufel taucht auf: \"Junge, Junge: Blöde Schinderarbeit! Könntest Du Dir nicht mal mehr RAM zulegen? Dann könnten wir den ganzen Mist schon während der Installation hinter uns bringen!\" Trotz seines Lamentierens beginnt der Zwerg fleißig, wenn auch nicht unbedingt begeistert, die Daten von der Diskette ins RAM zu schaufeln...",
+      "screen_lines": [
+        "Ein  kleiner  Zwerg mit  einer  Schaufel",
+        "taucht   auf:   \"Junge,   Junge:   Blöde",
+        "Schinderarbeit!  Könntest  Du Dir  nicht",
+        "mal mehr  RAM zulegen? Dann  könnten wir",
+        "den  ganzen   Mist  schon   während  der",
+        "Installation hinter  uns bringen!\" Trotz",
+        "seines  Lamentierens  beginnt der  Zwerg",
+        "fleißig,   wenn  auch   nicht  unbedingt",
+        "begeistert, die  Daten von  der Diskette",
+        "ins RAM zu schaufeln..."
+      ]
+    },
+    "303": {
+      "index": 303,
+      "source_offset": 38442,
+      "text": "FEHLER! System konnte leider nicht genug Speicher zur Verfügung stellen!",
+      "screen_lines": [
+        "FEHLER! System konnte leider nicht genug",
+        "Speicher zur Verfügung stellen!"
+      ]
+    },
+    "304": {
+      "index": 304,
+      "source_offset": 38492,
+      "text": "FEHLER! Das Systemdatenfile konnte nicht geladen werden! Entweder hast Du das Spiel nicht richtig installiert, oder Dein Speichermedium ist soeben den Weg alles Irdischen gegangen...",
+      "screen_lines": [
+        "FEHLER! Das Systemdatenfile konnte nicht",
+        "geladen  werden!  Entweder hast  Du  das",
+        "Spiel  nicht  richtig installiert,  oder",
+        "Dein Speichermedium  ist soeben  den Weg",
+        "alles Irdischen gegangen..."
+      ]
+    },
+    "305": {
+      "index": 305,
+      "source_offset": 38604,
+      "text": "FEHLER! Konnte Library nicht öffnen!",
+      "screen_lines": [
+        "FEHLER! Konnte Library nicht öffnen!"
+      ]
+    },
+    "306": {
+      "index": 306,
+      "source_offset": 38635,
+      "text": "Okay, kehre zum Spiel zurück...",
+      "screen_lines": [
+        "Okay, kehre zum Spiel zurück..."
+      ]
+    },
+    "307": {
+      "index": 307,
+      "source_offset": 38661,
+      "text": "Tja, was sein muß, muß sein: Hastig siehst Du Dich um, ob auch keiner zusieht, öffnest Deine Hose, und... MOMENT MAL! So nicht, Kumpel! Als ob der Saure Regen nicht schon reichte...!",
+      "screen_lines": [
+        "Tja,  was  sein  muß, muß  sein:  Hastig",
+        "siehst  Du  Dich   um,  ob  auch  keiner",
+        "zusieht,  öffnest   Deine  Hose,  und...",
+        "MOMENT MAL! So nicht, Kumpel! Als ob der",
+        "Saure Regen nicht schon reichte...!"
+      ]
+    },
+    "308": {
+      "index": 308,
+      "source_offset": 38783,
+      "text": "Möchtest Du das Spiel \u003cb\u003eeenden, \u003cn\u003eeu starten oder einen abgespeicherten Spielstand \u003cl\u003eaden? Drücke eine der genannten Tasten (\u003cB\u003e, \u003cN\u003e oder \u003cL\u003e), oder alternativ dazu das rechte Mousebutton zum Beenden bzw. das linke zum Neustart.",
+      "screen_lines": [
+        "Möchtest Du  das Spiel  \u003cb\u003eeenden, \u003cn\u003eeu",
+        "starten   oder   einen   abgespeicherten",
+        "Spielstand  \u003cl\u003eaden?   Drücke  eine  der",
+        "genannten  Tasten (\u003cB\u003e,  \u003cN\u003e oder  \u003cL\u003e),",
+        "oder   alternativ    dazu   das   rechte",
+        "Mousebutton zum  Beenden bzw.  das linke",
+        "zum Neustart."
+      ]
+    },
+    "309": {
+      "index": 309,
+      "source_offset": 38938,
+      "text": "Bitte lege Diskette \"SOULCRYSTAL Disk E\" ins Laufwerk ein! Drücke das linke Mousebutton bzw. \u003cSPACE\u003e zur Bestätigung, oder das rechte Button bzw. \u003cESC\u003e zum Abbruch...",
+      "screen_lines": [
+        "Bitte lege Diskette \"SOULCRYSTAL Disk E\"",
+        "ins  Laufwerk  ein!   Drücke  das  linke",
+        "Mousebutton     bzw.     \u003cSPACE\u003e     zur",
+        "Bestätigung, oder das rechte Button bzw.",
+        "\u003cESC\u003e zum Abbruch..."
+      ]
+    },
+    "31": {
+      "index": 31,
+      "source_offset": 2831,
+      "text": "[Auf einem Hügel]",
+      "screen_lines": [
+        "[Auf einem Hügel]"
+      ]
+    },
+    "310": {
+      "index": 310,
+      "source_offset": 39061,
+      "text": "Ähem: War ja auch nur'n kleiner Scherz...!",
+      "screen_lines": [
+        "Ähem:   War   ja  auch   nur'n   kleiner",
+        "Scherz...!"
+      ]
+    },
+    "311": {
+      "index": 311,
+      "source_offset": 39095,
+      "text": "Hastig reißt Du die Tür des Kleiderschranks auf, hechtest hinein und schließt die Tür hinter Dir. Zitternd horchst Du in die Stille, doch Dein pumpender Herzschlag ist alles, was Du hören kannst. Mann! Du bist im Urlaub! Hier gibt es keine Väter, die besorgt in das Zimmer ihrer Tochter schleichen! Du bist hier in Sicherheit! Muß wohl die Macht der Gewohnheit gewesen sein, wie? Schweißgebadet verläßt Du Dein Versteck wieder...",
+      "screen_lines": [
+        "Hastig    reißt   Du    die   Tür    des",
+        "Kleiderschranks auf, hechtest hinein und",
+        "schließt  die Tür  hinter Dir.  Zitternd",
+        "horchst  Du  in  die Stille,  doch  Dein",
+        "pumpender Herzschlag  ist alles,  was Du",
+        "hören kannst.  Mann! Du bist  im Urlaub!",
+        "Hier gibt es keine Väter, die besorgt in",
+        "das Zimmer ihrer  Tochter schleichen! Du",
+        "bist  hier in  Sicherheit! Muß  wohl die",
+        "Macht der Gewohnheit  gewesen sein, wie?",
+        "Schweißgebadet verläßt  Du Dein Versteck",
+        "wieder..."
+      ]
+    },
+    "32": {
+      "index": 32,
+      "source_offset": 2847,
+      "text": "[Vor einem verfallenen Kloster]",
+      "screen_lines": [
+        "[Vor einem verfallenen Kloster]"
+      ]
+    },
+    "33": {
+      "index": 33,
+      "source_offset": 2870,
+      "text": "[Vor Firons Eispalast]",
+      "screen_lines": [
+        "[Vor Firons Eispalast]"
+      ]
+    },
+    "34": {
+      "index": 34,
+      "source_offset": 2890,
+      "text": "[In der Eiswüste]",
+      "screen_lines": [
+        "[In der Eiswüste]"
+      ]
+    },
+    "35": {
+      "index": 35,
+      "source_offset": 2906,
+      "text": "[In einem verschütteten Gang]",
+      "screen_lines": [
+        "[In einem verschütteten Gang]"
+      ]
+    },
+    "36": {
+      "index": 36,
+      "source_offset": 2929,
+      "text": "[In der ehemaligen Münze]",
+      "screen_lines": [
+        "[In der ehemaligen Münze]"
+      ]
+    },
+    "37": {
+      "index": 37,
+      "source_offset": 2949,
+      "text": "[Im Klostergarten]",
+      "screen_lines": [
+        "[Im Klostergarten]"
+      ]
+    },
+    "38": {
+      "index": 38,
+      "source_offset": 2966,
+      "text": "[Im Speisesaal des Klosters]",
+      "screen_lines": [
+        "[Im Speisesaal des Klosters]"
+      ]
+    },
+    "39": {
+      "index": 39,
+      "source_offset": 2989,
+      "text": "[In Firons Thronsaal]",
+      "screen_lines": [
+        "[In Firons Thronsaal]"
+      ]
+    },
+    "4": {
+      "index": 4,
+      "source_offset": 2365,
+      "text": "[In dem Korridor]",
+      "screen_lines": [
+        "[In dem Korridor]"
+      ]
+    },
+    "40": {
+      "index": 40,
+      "source_offset": 3008,
+      "text": "[In einem Gletscher]",
+      "screen_lines": [
+        "[In einem Gletscher]"
+      ]
+    },
+    "41": {
+      "index": 41,
+      "source_offset": 3025,
+      "text": "[Vor einer Gruft]",
+      "screen_lines": [
+        "[Vor einer Gruft]"
+      ]
+    },
+    "42": {
+      "index": 42,
+      "source_offset": 3041,
+      "text": "[Auf dem Friedhof]",
+      "screen_lines": [
+        "[Auf dem Friedhof]"
+      ]
+    },
+    "43": {
+      "index": 43,
+      "source_offset": 3058,
+      "text": "[In der Klosterschmiede]",
+      "screen_lines": [
+        "[In der Klosterschmiede]"
+      ]
+    },
+    "44": {
+      "index": 44,
+      "source_offset": 3078,
+      "text": "[In der Königsgruft]",
+      "screen_lines": [
+        "[In der Königsgruft]"
+      ]
+    },
+    "45": {
+      "index": 45,
+      "source_offset": 3096,
+      "text": "[In der kleinen Kapelle]",
+      "screen_lines": [
+        "[In der kleinen Kapelle]"
+      ]
+    },
+    "46": {
+      "index": 46,
+      "source_offset": 3115,
+      "text": "[In Mylgors Schlafzimmer]",
+      "screen_lines": [
+        "[In Mylgors Schlafzimmer]"
+      ]
+    },
+    "47": {
+      "index": 47,
+      "source_offset": 3138,
+      "text": "[In einem kurzen Korridor]",
+      "screen_lines": [
+        "[In einem kurzen Korridor]"
+      ]
+    },
+    "48": {
+      "index": 48,
+      "source_offset": 3159,
+      "text": "[In Mylgors Geheimlabor]",
+      "screen_lines": [
+        "[In Mylgors Geheimlabor]"
+      ]
+    },
+    "49": {
+      "index": 49,
+      "source_offset": 3180,
+      "text": "[In einer kleinen, dunklen Krypta]",
+      "screen_lines": [
+        "[In einer kleinen, dunklen Krypta]"
+      ]
+    },
+    "5": {
+      "index": 5,
+      "source_offset": 2381,
+      "text": "[An der Rezeption]",
+      "screen_lines": [
+        "[An der Rezeption]"
+      ]
+    },
+    "50": {
+      "index": 50,
+      "source_offset": 3205,
+      "text": "[In einem verwunschenen Wald]",
+      "screen_lines": [
+        "[In einem verwunschenen Wald]"
+      ]
+    },
+    "51": {
+      "index": 51,
+      "source_offset": 3227,
+      "text": "[In einem verwunschenen Wald]",
+      "screen_lines": [
+        "[In einem verwunschenen Wald]"
+      ]
+    },
+    "52": {
+      "index": 52,
+      "source_offset": 3249,
+      "text": "[Im Sumpf]",
+      "screen_lines": [
+        "[Im Sumpf]"
+      ]
+    },
+    "53": {
+      "index": 53,
+      "source_offset": 3262,
+      "text": "[Am Ufer eines sumpfigen Sees]",
+      "screen_lines": [
+        "[Am Ufer eines sumpfigen Sees]"
+      ]
+    },
+    "54": {
+      "index": 54,
+      "source_offset": 3285,
+      "text": "[Im Sumpfsee]",
+      "screen_lines": [
+        "[Im Sumpfsee]"
+      ]
+    },
+    "55": {
+      "index": 55,
+      "source_offset": 3299,
+      "text": "[Im Treibsand]",
+      "screen_lines": [
+        "[Im Treibsand]"
+      ]
+    },
+    "56": {
+      "index": 56,
+      "source_offset": 3313,
+      "text": "[Am Ufer des sumpfigen Sees]",
+      "screen_lines": [
+        "[Am Ufer des sumpfigen Sees]"
+      ]
+    },
+    "57": {
+      "index": 57,
+      "source_offset": 3335,
+      "text": "[In der Hütte des Eremiten]",
+      "screen_lines": [
+        "[In der Hütte des Eremiten]"
+      ]
+    },
+    "58": {
+      "index": 58,
+      "source_offset": 3356,
+      "text": "[Auf einer Lichtung]",
+      "screen_lines": [
+        "[Auf einer Lichtung]"
+      ]
+    },
+    "59": {
+      "index": 59,
+      "source_offset": 3374,
+      "text": "[Auf einem bewaldeten Hügel]",
+      "screen_lines": [
+        "[Auf einem bewaldeten Hügel]"
+      ]
+    },
+    "6": {
+      "index": 6,
+      "source_offset": 2397,
+      "text": "[Im Strudel]",
+      "screen_lines": [
+        "[Im Strudel]"
+      ]
+    },
+    "60": {
+      "index": 60,
+      "source_offset": 3396,
+      "text": "[Im Moor]",
+      "screen_lines": [
+        "[Im Moor]"
+      ]
+    },
+    "61": {
+      "index": 61,
+      "source_offset": 3408,
+      "text": "[Im Moor]",
+      "screen_lines": [
+        "[Im Moor]"
+      ]
+    },
+    "62": {
+      "index": 62,
+      "source_offset": 3420,
+      "text": "[Vor Zargons Burgruine]",
+      "screen_lines": [
+        "[Vor Zargons Burgruine]"
+      ]
+    },
+    "63": {
+      "index": 63,
+      "source_offset": 3440,
+      "text": "[Im Torhaus]",
+      "screen_lines": [
+        "[Im Torhaus]"
+      ]
+    },
+    "64": {
+      "index": 64,
+      "source_offset": 3454,
+      "text": "[Unter dem Torbogen]",
+      "screen_lines": [
+        "[Unter dem Torbogen]"
+      ]
+    },
+    "65": {
+      "index": 65,
+      "source_offset": 3472,
+      "text": "[Im Schloßgarten]",
+      "screen_lines": [
+        "[Im Schloßgarten]"
+      ]
+    },
+    "66": {
+      "index": 66,
+      "source_offset": 3489,
+      "text": "[Auf dem Burghof]",
+      "screen_lines": [
+        "[Auf dem Burghof]"
+      ]
+    },
+    "67": {
+      "index": 67,
+      "source_offset": 3506,
+      "text": "[In den Ställen]",
+      "screen_lines": [
+        "[In den Ställen]"
+      ]
+    },
+    "68": {
+      "index": 68,
+      "source_offset": 3521,
+      "text": "[In der Empfangshalle]",
+      "screen_lines": [
+        "[In der Empfangshalle]"
+      ]
+    },
+    "69": {
+      "index": 69,
+      "source_offset": 3540,
+      "text": "[Im oberen Treppenhaus]",
+      "screen_lines": [
+        "[Im oberen Treppenhaus]"
+      ]
+    },
+    "7": {
+      "index": 7,
+      "source_offset": 2410,
+      "text": "[Am Ufer des Bergsees]",
+      "screen_lines": [
+        "[Am Ufer des Bergsees]"
+      ]
+    },
+    "70": {
+      "index": 70,
+      "source_offset": 3560,
+      "text": "[In der Schloßgalerie]",
+      "screen_lines": [
+        "[In der Schloßgalerie]"
+      ]
+    },
+    "71": {
+      "index": 71,
+      "source_offset": 3579,
+      "text": "[Im Vorratsraum]",
+      "screen_lines": [
+        "[Im Vorratsraum]"
+      ]
+    },
+    "72": {
+      "index": 72,
+      "source_offset": 3595,
+      "text": "[In der Schloßküche]",
+      "screen_lines": [
+        "[In der Schloßküche]"
+      ]
+    },
+    "73": {
+      "index": 73,
+      "source_offset": 3614,
+      "text": "[Im Speisesaal]",
+      "screen_lines": [
+        "[Im Speisesaal]"
+      ]
+    },
+    "74": {
+      "index": 74,
+      "source_offset": 3629,
+      "text": "[Im Küchengarten]",
+      "screen_lines": [
+        "[Im Küchengarten]"
+      ]
+    },
+    "75": {
+      "index": 75,
+      "source_offset": 3646,
+      "text": "[Auf dem Dach des Hauptturmes]",
+      "screen_lines": [
+        "[Auf dem Dach des Hauptturmes]"
+      ]
+    },
+    "76": {
+      "index": 76,
+      "source_offset": 3670,
+      "text": "[Im Haus des Turmwächters]",
+      "screen_lines": [
+        "[Im Haus des Turmwächters]"
+      ]
+    },
+    "77": {
+      "index": 77,
+      "source_offset": 3692,
+      "text": "[In einem dunklen Schacht]",
+      "screen_lines": [
+        "[In einem dunklen Schacht]"
+      ]
+    },
+    "78": {
+      "index": 78,
+      "source_offset": 3713,
+      "text": "[In einer Verlieszelle]",
+      "screen_lines": [
+        "[In einer Verlieszelle]"
+      ]
+    },
+    "79": {
+      "index": 79,
+      "source_offset": 3731,
+      "text": "[Im Amtszimmer des Torwächters]",
+      "screen_lines": [
+        "[Im Amtszimmer des Torwächters]"
+      ]
+    },
+    "8": {
+      "index": 8,
+      "source_offset": 2429,
+      "text": "[Im Eßzimmer]",
+      "screen_lines": [
+        "[Im Eßzimmer]"
+      ]
+    },
+    "80": {
+      "index": 80,
+      "source_offset": 3756,
+      "text": "[Im Zimmer des Dungeon Masters]",
+      "screen_lines": [
+        "[Im Zimmer des Dungeon Masters]"
+      ]
+    },
+    "81": {
+      "index": 81,
+      "source_offset": 3780,
+      "text": "[Im unteren Treppenhaus]",
+      "screen_lines": [
+        "[Im unteren Treppenhaus]"
+      ]
+    },
+    "82": {
+      "index": 82,
+      "source_offset": 3800,
+      "text": "[In der Waffenkammer]",
+      "screen_lines": [
+        "[In der Waffenkammer]"
+      ]
+    },
+    "83": {
+      "index": 83,
+      "source_offset": 3819,
+      "text": "[In einer dunklen Halle]",
+      "screen_lines": [
+        "[In einer dunklen Halle]"
+      ]
+    },
+    "84": {
+      "index": 84,
+      "source_offset": 3838,
+      "text": "[Im Weinkeller]",
+      "screen_lines": [
+        "[Im Weinkeller]"
+      ]
+    },
+    "85": {
+      "index": 85,
+      "source_offset": 3853,
+      "text": "[In einem Korridor]",
+      "screen_lines": [
+        "[In einem Korridor]"
+      ]
+    },
+    "86": {
+      "index": 86,
+      "source_offset": 3870,
+      "text": "[In einem finsteren Gruftgewölbe]",
+      "screen_lines": [
+        "[In einem finsteren Gruftgewölbe]"
+      ]
+    },
+    "87": {
+      "index": 87,
+      "source_offset": 3895,
+      "text": "[In Zargons Schlafgemach]",
+      "screen_lines": [
+        "[In Zargons Schlafgemach]"
+      ]
+    },
+    "88": {
+      "index": 88,
+      "source_offset": 3917,
+      "text": "[In einer Schwarzen Bibliothek]",
+      "screen_lines": [
+        "[In einer Schwarzen Bibliothek]"
+      ]
+    },
+    "89": {
+      "index": 89,
+      "source_offset": 3941,
+      "text": "[In Zargons Wohngemach]",
+      "screen_lines": [
+        "[In Zargons Wohngemach]"
+      ]
+    },
+    "9": {
+      "index": 9,
+      "source_offset": 2444,
+      "text": "[Im See]",
+      "screen_lines": [
+        "[Im See]"
+      ]
+    },
+    "90": {
+      "index": 90,
+      "source_offset": 3962,
+      "text": "[In einem Altarraum]",
+      "screen_lines": [
+        "[In einem Altarraum]"
+      ]
+    },
+    "91": {
+      "index": 91,
+      "source_offset": 3979,
+      "text": "[In Zargons Studierzimmer]",
+      "screen_lines": [
+        "[In Zargons Studierzimmer]"
+      ]
+    },
+    "92": {
+      "index": 92,
+      "source_offset": 4001,
+      "text": "[In Zargons Mysterium]",
+      "screen_lines": [
+        "[In Zargons Mysterium]"
+      ]
+    },
+    "93": {
+      "index": 93,
+      "source_offset": 4021,
+      "text": "[In der Hütte des Torwächters]",
+      "screen_lines": [
+        "[In der Hütte des Torwächters]"
+      ]
+    },
+    "94": {
+      "index": 94,
+      "source_offset": 4045,
+      "text": "[In der Hütte des Fährmanns]",
+      "screen_lines": [
+        "[In der Hütte des Fährmanns]"
+      ]
+    },
+    "95": {
+      "index": 95,
+      "source_offset": 4067,
+      "text": "[Am Ufer eines unterirdischen Sees]",
+      "screen_lines": [
+        "[Am Ufer eines unterirdischen Sees]"
+      ]
+    },
+    "96": {
+      "index": 96,
+      "source_offset": 4092,
+      "text": "[Auf einer kleinen Insel]",
+      "screen_lines": [
+        "[Auf einer kleinen Insel]"
+      ]
+    },
+    "97": {
+      "index": 97,
+      "source_offset": 4111,
+      "text": "[In einem Höhlentunnel]",
+      "screen_lines": [
+        "[In einem Höhlentunnel]"
+      ]
+    },
+    "98": {
+      "index": 98,
+      "source_offset": 4130,
+      "text": "[An einer unterirdischen Quelle]",
+      "screen_lines": [
+        "[An einer unterirdischen Quelle]"
+      ]
+    },
+    "99": {
+      "index": 99,
+      "source_offset": 4153,
+      "text": "[Im Thronsaal des Buthakönigs]",
+      "screen_lines": [
+        "[Im Thronsaal des Buthakönigs]"
+      ]
+    }
+  }
+}
