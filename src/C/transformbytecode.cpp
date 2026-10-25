@@ -382,7 +382,8 @@ void DecodeToken() {
             printf("Code2E5B()");
             break;
 
-        case 0xEE: // CodeCDB();
+        case 0xEE: // $2FA2 -> $961B: flush staged output, NOT a game restart.
+            // Historical emitted name; SPECIAL(4) is the actual restart flow.
             t.type = TokenType::FUNC;
             t.str = "Restart()";
             printf("Restart()");

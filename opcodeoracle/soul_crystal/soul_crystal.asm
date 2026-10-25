@@ -7307,7 +7307,7 @@ $2F85 L_2F85:                         ; xref: jump from $2F3F (L_2F3F)
 $2FA1 L_2FA1:                         ; xref: jump from $2F82
     RTS
 ; --------------------------------------------------------
-; Handler for VM opcode EE: restart/reset via the shared engine entry at $0CDB.
+; Handler for VM opcode EE: flush staged output via $0CDB -> $961B; NOT a game restart.
 ; --------------------------------------------------------
 $2FA2 script_vm_op_restart:           ; xref: jump from $1D52
     JSR $0CDB                         ; Call call_vector_helper
@@ -7421,11 +7421,11 @@ $3059 L_3059:                         ; xref: branch from $3052
 ; === SUBROUTINE: special_64_exposure_predicate ===
 
 $305C special_64_exposure_predicate:  ; xref: call from $300C
-    LDA #$00                          ; Uses room_env_flag_group_b/e/d/g plus room_env_flag_group_c/a/h as a composite boolean test; this is likely one of the broader environmental exposure predicates.
+    LDA #$00                          ; Tests two incomplete clothing sets and absence of swimwear; see console_engine_audit.md.
     STA $6992                         ; temp_LO
     LDA #$00
     STA $6993                         ; temp_HI
-    LDA $6D51                         ; room_env_flag_group_b
+    LDA $6D51                         ; object_state_jeans
     STA $70FB
     LDA #$00
     STA $70FC
@@ -7442,7 +7442,7 @@ $3083 L_3083:                         ; xref: branch from $307D (L_307D)
     LDA #$FF
 $3085 L_3085:                         ; xref: branch from $3081
     STA $70FB
-    LDA $6D93                         ; room_env_flag_group_e
+    LDA $6D93                         ; object_state_tshirt
     STA $7100
     LDA #$00
     STA $7101
@@ -7471,7 +7471,7 @@ $30A7 L_30A7:                         ; xref: branch from $30A3
     LDA $70FC
     ORA $7101
     STA $70FC
-    LDA $6D82                         ; room_env_flag_group_d
+    LDA $6D82                         ; object_state_turnschuhe
     STA $7100
     LDA #$00
     STA $7101
@@ -7497,7 +7497,7 @@ $30ED L_30ED:                         ; xref: branch from $30E9
     LDA $70FC
     ORA $7101
     STA $69BA
-    LDA $6D98                         ; room_env_flag_group_g
+    LDA $6D98                         ; object_state_hose
     CMP #$00
     BEQ $3116                         ; Branch to L_3116
     LDA #$00
@@ -7506,7 +7506,7 @@ $3116 L_3116:                         ; xref: branch from $3110
     LDA #$FF
 $3118 L_3118:                         ; xref: branch from $3114
     STA $70FB
-    LDA $6D81                         ; room_env_flag_group_c
+    LDA $6D81                         ; object_state_baumwollhemd
     CMP #$00
     BEQ $3126                         ; Branch to L_3126
     LDA #$00
@@ -7518,7 +7518,7 @@ $3128 L_3128:                         ; xref: branch from $3124
     LDA $70FB
     ORA $7100
     STA $70FB
-    LDA $6D18                         ; room_env_flag_group_a
+    LDA $6D18                         ; object_state_fellstiefel
     CMP #$00
     BEQ $313F                         ; Branch to L_313F
     LDA #$00
@@ -7539,7 +7539,7 @@ $3141 L_3141:                         ; xref: branch from $313D
     LDA $69BA
     AND $70FC
     STA $70FC
-    LDA $6D9B                         ; room_env_flag_group_h
+    LDA $6D9B                         ; object_state_badehose
     CMP #$00
     BEQ $3173                         ; Branch to L_3173
     LDA #$00
@@ -7573,11 +7573,11 @@ $31AA L_31AA:                         ; xref: jump from $319D
 ; === SUBROUTINE: special_65_exposure_predicate_alt ===
 
 $31AB special_65_exposure_predicate_alt:  ; xref: call from $3015
-    LDA #$00                          ; Checks the same room_env flag groups for the exact value 1 instead of zero/nonzero, suggesting a narrower room-class predicate over the same current-room metadata.
+    LDA #$00                          ; Tests whether all three items of either clothing set have state exactly 1; not a room-class predicate.
     STA $6992                         ; temp_LO
     LDA #$00
     STA $6993                         ; temp_HI
-    LDA $6D51                         ; room_env_flag_group_b
+    LDA $6D51                         ; object_state_jeans
     CMP #$01
     BEQ $31C0                         ; Branch to L_31C0
     LDA #$00
@@ -7586,7 +7586,7 @@ $31C0 L_31C0:                         ; xref: branch from $31BA
     LDA #$FF
 $31C2 L_31C2:                         ; xref: branch from $31BE
     STA $70FB
-    LDA $6D93                         ; room_env_flag_group_e
+    LDA $6D93                         ; object_state_tshirt
     CMP #$01
     BEQ $31D0                         ; Branch to L_31D0
     LDA #$00
@@ -7598,7 +7598,7 @@ $31D2 L_31D2:                         ; xref: branch from $31CE
     LDA $70FB
     AND $7100
     STA $70FB
-    LDA $6D82                         ; room_env_flag_group_d
+    LDA $6D82                         ; object_state_turnschuhe
     CMP #$01
     BEQ $31E9                         ; Branch to L_31E9
     LDA #$00
@@ -7610,7 +7610,7 @@ $31EB L_31EB:                         ; xref: branch from $31E7
     LDA $70FB
     AND $7100
     STA $70FB
-    LDA $6D98                         ; room_env_flag_group_g
+    LDA $6D98                         ; object_state_hose
     CMP #$01
     BEQ $3202                         ; Branch to L_3202
     LDA #$00
@@ -7619,7 +7619,7 @@ $3202 L_3202:                         ; xref: branch from $31FC
     LDA #$FF
 $3204 L_3204:                         ; xref: branch from $3200
     STA $7100
-    LDA $6D81                         ; room_env_flag_group_c
+    LDA $6D81                         ; object_state_baumwollhemd
     CMP #$01
     BEQ $3212                         ; Branch to L_3212
     LDA #$00
@@ -7631,7 +7631,7 @@ $3214 L_3214:                         ; xref: branch from $3210
     LDA $7100
     AND $7105
     STA $7100
-    LDA $6D18                         ; room_env_flag_group_a
+    LDA $6D18                         ; object_state_fellstiefel
     CMP #$01
     BEQ $322B                         ; Branch to L_322B
     LDA #$00
@@ -7658,9 +7658,9 @@ $324E L_324E:                         ; xref: jump from $3241
 ; === SUBROUTINE: special_66_is_movement_command ===
 
 ; --------------------------------------------------------
-; SPECIAL($66): true when the current command in $6986/$6987 is one of the movement/time-passing commands that should trigger the global exposure/cold checks.
+; SPECIAL($66): native condition is always true for all 65536 command values (tested).
 ; 
-; This matches the script prologue, where SPECIAL($66) gates the periodic status-loss logic before room-specific predicates $67-$6A are consulted.
+; The final OR chain includes command != 20 OR command != 22. The historical is_movement_command label is misleading; preserve the native result.
 ; --------------------------------------------------------
 $324F special_66_is_movement_command: ; xref: call from $301E
     LDA #$00
@@ -7766,16 +7766,16 @@ $3316 L_3316:                         ; xref: jump from $3309
 ; === SUBROUTINE: special_67_is_exposed_zone ===
 
 ; --------------------------------------------------------
-; SPECIAL($67): exposed-zone predicate.
+; SPECIAL($67): missing clothing coverage predicate, not a room-zone test.
 ; 
-; Returns true in $6992/$6993 when the current region flag groups indicate one of the 'open/exposed' map areas. Used by all script parts immediately after SPECIAL($66) to decide whether environmental damage logic applies this turn.
+; Returns 1 for missing both trousers, or all three upper-body garments, or both footwear alternatives. Tests objectState entries for equality to zero.
 ; --------------------------------------------------------
 $3317 special_67_is_exposed_zone:     ; xref: call from $3027
-    LDA #$00                          ; Another composite test over the room_env flag groups, but with inverted zero logic; this matches its role as the positive 'is exposed zone' predicate seen in the script prologue.
+    LDA #$00                          ; Tests clothing coverage using object states; see the exact formula in console_engine_audit.md.
     STA $6992                         ; temp_LO
     LDA #$00
     STA $6993                         ; temp_HI
-    LDA $6D51                         ; room_env_flag_group_b
+    LDA $6D51                         ; object_state_jeans
     CMP #$00
     BEQ $332C                         ; Branch to L_332C
     LDA #$00
@@ -7784,7 +7784,7 @@ $332C L_332C:                         ; xref: branch from $3326
     LDA #$FF
 $332E L_332E:                         ; xref: branch from $332A
     STA $70FB
-    LDA $6D98                         ; room_env_flag_group_g
+    LDA $6D98                         ; object_state_hose
     CMP #$00
     BEQ $333C                         ; Branch to L_333C
     LDA #$00
@@ -7803,7 +7803,7 @@ $334C L_334C:                         ; xref: branch from $3347
     LDA #$00
     STA $6993                         ; temp_HI
 $3356 L_3356:                         ; xref: jump from $3349
-    LDA $6D81                         ; room_env_flag_group_c
+    LDA $6D81                         ; object_state_baumwollhemd
     CMP #$00
     BEQ $3361                         ; Branch to L_3361
     LDA #$00
@@ -7812,7 +7812,7 @@ $3361 L_3361:                         ; xref: branch from $335B
     LDA #$FF
 $3363 L_3363:                         ; xref: branch from $335F
     STA $70FB
-    LDA $6D93                         ; room_env_flag_group_e
+    LDA $6D93                         ; object_state_tshirt
     CMP #$00
     BEQ $3371                         ; Branch to L_3371
     LDA #$00
@@ -7824,7 +7824,7 @@ $3373 L_3373:                         ; xref: branch from $336F
     LDA $70FB
     AND $7100
     STA $70FB
-    LDA $6D97                         ; room_env_flag_group_f
+    LDA $6D97                         ; object_state_purpurmantel
     CMP #$00
     BEQ $338A                         ; Branch to L_338A
     LDA #$00
@@ -7843,7 +7843,7 @@ $339A L_339A:                         ; xref: branch from $3395
     LDA #$00
     STA $6993                         ; temp_HI
 $33A4 L_33A4:                         ; xref: jump from $3397
-    LDA $6D18                         ; room_env_flag_group_a
+    LDA $6D18                         ; object_state_fellstiefel
     CMP #$00
     BEQ $33AF                         ; Branch to L_33AF
     LDA #$00
@@ -7852,7 +7852,7 @@ $33AF L_33AF:                         ; xref: branch from $33A9
     LDA #$FF
 $33B1 L_33B1:                         ; xref: branch from $33AD
     STA $70FB
-    LDA $6D82                         ; room_env_flag_group_d
+    LDA $6D82                         ; object_state_turnschuhe
     CMP #$00
     BEQ $33BF                         ; Branch to L_33BF
     LDA #$00
@@ -12358,7 +12358,7 @@ $5392                   .BYTE $00,$1E,$96                                       
 ; --------------------------------------------------------
 ; Refresh current-room state and transient room metadata.
 ; 
-; Called after the engine changes $695D/$6D01 or switches movement mode in $6963. It clears transient input/result bytes ($6961/$6962), then populates the per-room working state used by movement helpers and the SPECIAL($64-$6C) environmental predicates. The exact copy path is partly obscured by code Oracle cannot lift cleanly, but the downstream reads show that it feeds the room-environment flag block around $6D18-$6D9F.
+; Called after room/part changes; clears transient input/result bytes. The old claim that it populates room flags at $6D18..$6D9F was incorrect: those addresses are clothing entries in objectState. Remaining loader effects require separate tracing.
 ; --------------------------------------------------------
 $5396 refresh_current_room_state:     ; xref: call from $377E
                                       ; xref: call from $3825
@@ -17183,14 +17183,14 @@ $6D0F                   .BYTE $00                                               
 ; xref: write from $3B08
 $6D10                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00                                  ; "........"
 ; --------------------------------------------------------
-; Room-environment flag workspace consumed by SPECIAL($64-$6C).
+; Clothing entries within objectState (base $6D04), consumed by SPECIAL($64/$65/$67).
 ; 
-; These bytes behave like the current room's precomputed classification flags. The predicates at $305C, $31AB, and $3317 combine equality/zero tests over this block to decide whether cold/exposure logic should apply. The data appears to be refreshed by refresh_current_room_state ($5396), but Oracle does not yet lift the write path cleanly enough to assign exact meanings to each flag byte.
+; These are saved mutable object states, not room classifications. See spec/C64/console_engine_audit.md and TestSpecialPredicates for native-verified conditions.
 ; --------------------------------------------------------
 ; xref: read from $3134
 ; xref: read from $3220
 ; xref: read from $33A4 (L_33A4)
-$6D18 room_env_flag_group_a:.BYTE $00
+$6D18 object_state_fellstiefel:.BYTE $00
 $6D19                   .BYTE $00,$00,$02,$00,$00,$00,$00                                      ; "......."
 $6D20                   .BYTE $00,$00,$01,$00,$00,$00,$00,$00,$00,$00,$01,$00,$00,$00,$00,$00  ; "................"
 $6D30                   .BYTE $00,$02,$00,$00,$01,$00,$00,$00,$00,$02,$00,$00,$00,$00,$00,$00  ; "................"
@@ -17199,7 +17199,7 @@ $6D50                   .BYTE $00                                               
 ; xref: read from $3066
 ; xref: read from $31B5
 ; xref: read from $3321
-$6D51 room_env_flag_group_b:.BYTE $01
+$6D51 object_state_jeans:.BYTE $01
 $6D52                   .BYTE $00,$00,$00,$02,$00,$00,$00,$02,$00,$00,$00,$00,$01,$00          ; ".............."
 $6D60                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00  ; "................"
 $6D70                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$02,$00,$00,$00,$00  ; "................"
@@ -17207,27 +17207,27 @@ $6D80                   .BYTE $00                                               
 ; xref: read from $311B
 ; xref: read from $3207
 ; xref: read from $3356 (L_3356)
-$6D81 room_env_flag_group_c:.BYTE $00
+$6D81 object_state_baumwollhemd:.BYTE $00
 ; xref: read from $30CE
 ; xref: read from $31DE
 ; xref: read from $33B4
-$6D82 room_env_flag_group_d:.BYTE $01
+$6D82 object_state_turnschuhe:.BYTE $01
 $6D83                   .BYTE $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00              ; "............."
 $6D90                   .BYTE $00,$00,$00                                                      ; "..."
 ; xref: read from $3088
 ; xref: read from $31C5
 ; xref: read from $3366
-$6D93 room_env_flag_group_e:.BYTE $01
+$6D93 object_state_tshirt:.BYTE $01
 $6D94                   .BYTE $00,$00,$00                                                      ; "..."
 ; xref: read from $337F
-$6D97 room_env_flag_group_f:.BYTE $00
+$6D97 object_state_purpurmantel:.BYTE $00
 ; xref: read from $310B
 ; xref: read from $31F7
 ; xref: read from $3331
-$6D98 room_env_flag_group_g:.BYTE $00
+$6D98 object_state_hose:.BYTE $00
 $6D99                   .BYTE $00,$00                                                          ; ".."
 ; xref: read from $3168
-$6D9B room_env_flag_group_h:.BYTE $00
+$6D9B object_state_badehose:.BYTE $00
 $6D9C                   .BYTE $00,$00,$02,$00                                                  ; "...."
 $6DA0                   .BYTE $00,$00,$00,$00,$00,$00,$00                                      ; "......."
 ; xref: write from $3B1A
