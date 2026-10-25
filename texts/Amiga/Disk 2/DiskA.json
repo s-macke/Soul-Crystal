@@ -1,0 +1,512 @@
+{
+  "source": "Disk 2/Data/Texts/DiskA.TXT",
+  "source_sha256": "f8fd7d92c80dcfa317fa89015883f5053dbbc8bd0cc59a2156894ff2d2ff2d4f",
+  "table_sha256": "87f882b2820669a33c0f2da4a9dae6afcb7b468ccae59af5ef0e8e66efd63c6b",
+  "main_sha256": "cc74c2f3ce20ac1445d5c53382c6ac4baae6e40160d88173df54cd469b82449c",
+  "records": [
+    {
+      "id": 107,
+      "source_offset": 0,
+      "packed_bytes": 446,
+      "decoded_bytes": 806,
+      "decoded_sha256": "14603e852d082b2d8ec51781826bce60504b383ade3ee43c3bab2d2660717551",
+      "text": "Du  befindest  Dich  in  Deinem kleinen, aber, gemessen an seinem Preis,recht  gemütlich  eingerichteten  Hotelzimmer.  An  der westlichen Wandsteht  ein  mit  Bauernmalereien  kunstvoll  verzierter Kleiderschrank,während  sich  ein kleiner, rustikaler Schreibtisch links neben der Türin  der  Nordwand  befindet, vor dem ein einfach gezimmerter Stuhl steht. Durchdas  Fenster  in  der  Westwand  kannst  Du die Sonne hinter den Bergen um LochCalderwood  herum  untergehen  sehen,  wie  sie  die  Abendlandschaft  in ihrenwarmen,  goldfarbenen  Schein  taucht.  Du erwachst aus Deiner Bewunderung, alsDir  plötzlich  einfällt, daß Du ja eigentlich versprochen hattest, nach DeinerAnkunft  zuhause  anzurufen, aber angesichts dieser vielen neuen Eindrücke wirdDeine Mutter wohl noch ein wenig warten können."
+    },
+    {
+      "id": 108,
+      "source_offset": 446,
+      "packed_bytes": 624,
+      "decoded_bytes": 1103,
+      "decoded_sha256": "ed1e2c89180d52ac69d91b6d03036befa775bd4fed6e2f69698768b2ef4541f0",
+      "text": "Dies  ist  die  Lobby  von  \"Mary's  Inn\", Deinem Aufenthaltsort für dienächsten  Tage  und Wochen. Durch die Tür in der Ostwand kannst Du eineStraße  erkennen,  durch  den  nördlichen Wanddurchbruch die Rezeption.Momentan  scheint  hier allerdings ziemlich wenig Betrieb zu herrschen,und  irgendwie  macht  Dich  der Anblick dieses einsamen und verlassenen Raumesein  wenig  depressiv.  Aber  was  soll's?  Vielleicht  kommen  ja  morgen  zurFrühstückszeit  mehr  Besucher her. Als Du Dich weiter umsiehst, kannst Du Dichdes  Eindrucks  nicht  erwehren,  daß  die  Leute, die diesen Raum eingerichtethaben,   unbedingt  den  Wohlstand  und  die  Weltoffenheit  ihres  Dorfes  zumAusdruck   bringen   wollten.   Doch  leider  ist  dieser  krampfhafte  Versuchgründlich  in  die  Hose  gegangen: Das Ergebnis ihrer Bemühungen erinnert Dichviel  eher  an  die  Foyers  der Hotels in amerikanischen Seifenopern - mit demunbedeutenden  Unterschied,  daß  diese  circa  fünfmal  größer sind! Trotzdem:Zumindest  die  Landschaft  ist  fantastisch,  und  das  war  es doch immerhin,weshalb Du hergekommen bist!"
+    },
+    {
+      "id": 109,
+      "source_offset": 1070,
+      "packed_bytes": 418,
+      "decoded_bytes": 725,
+      "decoded_sha256": "3c75359af3cf9ec89fa93c04be2380acdfbe3735113a985d02144451f4db5266",
+      "text": "Du  stehst  auf der Straße, die von \"Mary's Inn\", Deinem Hotel, zum LochCalderwood  führt.  Du  spürst die Wärme der Abendsonne auf Deiner Hautund  lauschst  dem  Gutenachtgesang  der  Vögel auf den im sanften Windrauschenden  Bäumen,  die  den  Straßenrand  säumen. Die ersten Ferien,die  Du  allein  verreist bist, lassen sich doch eigentlich schon recht gut an,denkst  Du  Dir,  und  nimmst Dir vor, diesen Urlaub so gut zu genießen, wie esnur  eben  geht. Zu Deiner Linken, also im Westen, befindet sich der Eingang zu\"Mary's  Inn\",  während sich die Straße in Richtung Osten erstreckt. Am rechtenStraßenrand  befindet  sich  ein  Reklameschild,  auf  dem  geschrieben  steht:\"Letztes Hotel vor dem nächsten Systemcrash!\""
+    },
+    {
+      "id": 110,
+      "source_offset": 1488,
+      "packed_bytes": 409,
+      "decoded_bytes": 733,
+      "decoded_sha256": "a70430f589d821bf0f20b9c71320437bea8ae247471226f835bac532bf210385",
+      "text": "Du  wanderst eine einsame, staubige Straße entlang, die von Deinem Hotelzum   Ufer   von   Loch   Calderwood   führt.  Trotz  der  vorgerücktenAbendstunde  ist  es  immer  noch  angenehm warm: Der Boden strahlt alldie  Hitze  ab,  die  er  den  ganzen sonnigen Tag hindurch gespeicherthat.  Du  fühlst  Dich  ein  wenig erschöpft und denkst an Deine ausgetrockneteKehle,  die  Du  gern  mit  einem  schönen Humpen eiskalten Biers ölen würdest,aber  andererseits  befindet  sich  nur  ein kleines Stückchen weiter im Nordenschon  der  Bergsee,  in dem Du Deine qualmenden Füße kühlen wolltest. Falls DuDich  aber  doch  für  einen Drink an der Hotelbar entscheiden solltest, kannstDu die Straße natürlich auch nach Westen zurückgehen."
+    },
+    {
+      "id": 111,
+      "source_offset": 1897,
+      "packed_bytes": 280,
+      "decoded_bytes": 503,
+      "decoded_sha256": "9f63e6355e765c4b0b15691d7e1d890e32dff478ce60670b5445f6caa8e7f16d",
+      "text": "Du  stehst  in  einem  kurzen,  sauberen  Korridor mit weiß gestrichenenWänden  und  dicken,  roten Teppichen auf dem blankgebohnerten Parkett.Einige  schwarzgestrichene  und mit goldenen Nummernschildern verseheneTüren  führen  zu  den  Gästezimmern.  Dein  eigenes  Zimmer liegt nachSüden  hin,  und  da  Du  die  Schlüssel zu den anderen Räumen wohl kaum in dieFinger  bekommen  wirst, bliebe Dir als Alternative nur noch der Wanddurchbruchin der Ostwand, hinter dem Du die Rezeption erkennen kannst."
+    },
+    {
+      "id": 112,
+      "source_offset": 2177,
+      "packed_bytes": 357,
+      "decoded_bytes": 638,
+      "decoded_sha256": "ba144694df58632bb17f974b79461fd85808babf5727af51d90477e34518b7cb",
+      "text": "Du  stehst  an der Rezeption Deines Hotels. Direkt vor Dir befindet sichder   massive   Rezeptionstresen,  hinter  dem  Du  ein  Schlüsselbrettsiehst.  Als  Du  es  genauer in Augenschein nimmst, wird Dir klar, daßDu   momentan  wohl  der  einzige  Gast  des  Hotels  bist:  Fast  alleZimmerschlüssel  hängen  noch  am Brett! Weiter rechts daneben kannst Du einigePostfächer  erkennen,  aber  alle  sind leer. Naja, zumindest Deine Mutter wirdDir  schon  schreiben - und wenn es nur darum geht, Dich daran zu erinnern, daßDu  auch  immer  rechtzeitig ins Bett gehst, Deine Socken täglich wechselst undbrav Deine Vitaminpillchen einnimmst!"
+    },
+    {
+      "id": 113,
+      "source_offset": 2534,
+      "packed_bytes": 477,
+      "decoded_bytes": 846,
+      "decoded_sha256": "7fdf4607b2af98d23a311b235d84ee5d304aadfdb616cc7806311c360fb50cc2",
+      "text": "Während  Du  Dich  langsam nach Süden treiben läßt, bemerkst Du, daß dieStrömung  immer  stärker  wird - bis Du begreifst, in welcher Gefahr Duschwebst!  Mit  aller  Kraft versuchst Du, gegen den Sog anzuschwimmen,doch  es  ist  schon zu spät: Wild um Dich schlagend wirst Du von einemgewaltigen  Strudel  auf  den  Grund  des  Bergsees  hinabgezogen,  wo Du einenqualvollen  Tod  stirbst...  Im  Moment  Deines Todes glaubst Du unter Dir nochdie  goldenen  Kuppeln  der  alten,  versunkenen Stadt zu erkennen, von der Dirdie   Einheimischen   erzählt   hatten,   aber   angesichts  der  unglücklichenSituation,   in   die   Du   hineingeraten   bist,   ist   es  wirklich  höchstunwahrscheinlich,   daß   Du  noch  einmal  Gelegenheit  bekommen  wirst,  ihreGerüchte  zu  bestätigen:  Du  hast  nicht  ein  mal  mehr Zeit für ein letztesGebet..."
+    },
+    {
+      "id": 114,
+      "source_offset": 3011,
+      "packed_bytes": 667,
+      "decoded_bytes": 1189,
+      "decoded_sha256": "17596fbf2f8412049902a4d97139be2002f5377a52b5637a0fdee5dcdbf87ea6",
+      "text": "Du  stehst  am Ufer von Loch Calderwood, völlig sprachlos angesichts dessich  Dir  bietenden  Bildes:  Vor  Dir  liegt ein malerischer Bergsee,umgeben  von  hohen,  zerklüfteten  Bergen,  hinter  denen  langsam dieSonne  untergeht.  Vom  Nordwesten  her  kannst Du einen Wasserfall vonden  Bergen  herunterkommen  und laut grollend in den Bergsee stürzen hören. Dufühlst  den  Anflug  eines romantischen Gefühls in Dir aufkommen und überlegst,ob  Du  nicht  kurz  Deine  Freundin  anrufen  solltest - doch im selben Momentverscheuchst  Du  den  Gedanken  wieder:  Wie  sollte solch ein Romantiker hierChancen  bei  den Mädels haben? Und was Deine Freundin betrifft: Die hast Du jaschließlich  nicht  ohne  Grund  zuhause gelassen, gell? In diesem Zusammenhangkommt  Dir  aber  der Gedanke, daß Dir ein paar Runden im See sicherlich guttunwürden,   bevor   Du   die  schottische  Damenwelt  mit  Deiner  Aufmerksamkeitbeglückst.  Wenn  Du also vor Deinem Eroberungsfeldzug noch ein wenig für DeineKondition  tun  möchtest,  kannst  Du  den  See  im  Norden betreten. Ansonstenkannst  Du  aber  auch  wieder  zu  Deinem  Hotel zurückkehren, das am Ende derStraße liegt, die nach Süden führt."
+    },
+    {
+      "id": 115,
+      "source_offset": 3678,
+      "packed_bytes": 522,
+      "decoded_bytes": 915,
+      "decoded_sha256": "38513ef527b3057ca680943faeb088b32b4b1f89fede34eda5bca5cd8158f99c",
+      "text": "Als   Du   das  Eßzimmer  des  Hotels  betrittst,  mußt  Du  schmunzeln:Verglichen  mit  der Anzahl der Gäste, die hier jährlich regelmäßig einZimmer  buchen,  ist  der  Raum ein wenig zu groß geraten, fast so, alswäre  er  für  Staatsbankette oder andere festliche Tafelfreuden gebautworden:  Die  Kerzen in den kostbaren Ständern auf jedem Tisch machen ihn schonfast   \"first-class-look-a-like\",  nur:  Wofür?  Normalerweise  sind  doch  dieeinzigen   Gäste,   die  hierherkommen,  um  ihr  Abendessen  einzunehmen,  dieEinheimschen  selbst!  Einer von ihnen, ein älterer Mann mit langem Bart, sitztan  dem  Tisch  in  der  Ecke  und  studiert gerade die Speisekarte, während ergenüßlich  sein  Bierchen in sich hineinpichelt. Sollte auch Dich das Verlangennach  Speis'  und  Trank  überkommen  haben,  kannst  Du Dich ja zu ihm setzen.Andernfalls kannst Du das Eßzimmer durch die Tür hinter Dir wieder verlassen."
+    },
+    {
+      "id": 116,
+      "source_offset": 4200,
+      "packed_bytes": 620,
+      "decoded_bytes": 1103,
+      "decoded_sha256": "57aa54ae103d2020a278c2664ea10b307e9f97606bb448e5cb5de0e6a9c57fb4",
+      "text": "Während  Du  auf  dem schlickigen Uferboden nach Westen watest, wird dasWasser  kälter  und kälter - und logischerweise auch tiefer und tiefer,je  mehr  Du  Dich der Mitte des Sees näherst. Bis jetzt war es ja nocheinigermaßen  möglich,  auf  dem  Grund  des  Sees  zu stehen, aber nunbleibt  Dir  einfach  keine  andere  Wahl:  Du  mußt  schwimmen,  wenn Du nichtuntergehen  willst!  \"Sei's  drum: Gelobt sei, was hart macht!\", denkst Du Dir,besprenkelst  kurz  Deine  Heldenbrust und wirfst Dich dann mit Todesverachtungder  Länge  nach  nach  vorn. Uahhh! Das Wasser ist trotz der warmen Jahreszeitschon   ziemlich  kühl,  aber  nach  einigen  Sekunden  hast  Du  Dich  an  dieTemperatur   gewöhnt.   Eigentlich   doch   ganz   angenehm  hier  -  nur  DeinQuietscheentchen  fehlt  noch!  Als  Du  die  ersten  unbeholfenen  Schwimmzügemachst,  fühlst  Du auch die starke Strömung, die Dich nach Süden zieht, wo eingigantischer  Strudel  alles  in  seinen tiefen Schlund zerrt, was unvorsichtiggenug  war,  in seine Reichweite zu kommen. Du kannst in alle Himmelsrichtungenaußer nach Westen schwimmen."
+    },
+    {
+      "id": 117,
+      "source_offset": 4820,
+      "packed_bytes": 424,
+      "decoded_bytes": 751,
+      "decoded_sha256": "901aa63400dabb31582dab37abd03f84dfd2bd28c5b8d0c23f201fd5e656c74d",
+      "text": "Du  stehst  im  kalten Wasser des Bergsees. Es ist zwar immer noch rechtseicht,  aber  der Grund fühlt sich ziemlich merkwürdig an - vielleichttrampelst  Du  ja  gerade  auf  Nessie  herum?  Trotzdem: Wenn Dich daskalte   Wasser   und   die   Aussicht,   einem  leibhaftigen  Ungeheuervielleicht  als  Abendbrot  dienen  zu können, nicht abschrecken, wirst Du wohlohne  Probleme  vorwärts  kommen.  Solltest  Du jedoch Deine Absichten geänderthaben  und  klugerweise  zum  Ufer  zurückkehren,  statt  den Helden spielen zuwollen,  dann  gehe  nach  Süden.  Falls  Du  jedoch nicht auf meinen Rat hörenmöchtest,  setze  Deinen  Weg  ruhig  weiter  nach Westen fort - Du wirst schonsehen, was Du davon hast! Aber denke immer daran: Es war Deine Idee...!"
+    },
+    {
+      "id": 118,
+      "source_offset": 5244,
+      "packed_bytes": 232,
+      "decoded_bytes": 407,
+      "decoded_sha256": "6cd0fdc1d2928f6c29fe4c257784be8c828b526afacdd7b999c996a989274841",
+      "text": "Du  schwimmst  direkt  vor  dem  Wasserfall  im Nordwesten des Bergsees.Während  Du  bemüht bist, nicht von der Strömung abgedriftet zu werden,überlegst  Du,  was wohl hinter ihm versteckt sein mag... Du kannst nunentweder  zurück  zum Zentrum des Sees schwimmen, oder versuchen, unterdem  Wasserfall  hindurchzutauchen,  um zu sehen, welches Geheimnis sich hinterder undurchsichtigen Wasserwand verbirgt..."
+    },
+    {
+      "id": 119,
+      "source_offset": 5476,
+      "packed_bytes": 707,
+      "decoded_bytes": 1250,
+      "decoded_sha256": "404c9e3fb09e40232c7090b95139ea1326b3690b0ee1a94d0c144b2aeaeda80d",
+      "text": "Immer  noch recht benommen von dem harten Schlag, den Dir der Wasserfallversetzt  hat,  versuchst  Du  Dich  mit  leichten,  jedoch  noch rechtlinkischen  Schwimmzügen  über  der  Wasseroberfläche  zu  halten, dochplötzlich  stutzt  Du  und  hältst  inne - so daß Du erst einmal wiederfür  einen  Moment  untergehst  und Wasser schluckst! Als Du wieder auftauchst,trifft  Dich  der  Schlag: Du scheinst nach wie vor auf der südlichen Seite desWasserfalls  zu  paddeln!  Für  diese Tatsache allein liesse sich ja sogar nochirgendwie  eine  plausible  Erklärung  finden, zumal Du unter Wasser eine kurzeZeit  die  Orientierung  verloren  hattest, so daß Du sie akzeptieren könntest,wenn,  wenn...  -wenn  sich  dort  am  Seeufer  noch Dein Dorf befände! Aber esscheint  wie  vom  Erdboden  verschluckt  zu  sein!  Statt der kleinen Siedlungbefindet  sich  am  Ufer  ein tiefer, dunkler Wald mit Bäumen, die Du in Deinemganzen  Leben  noch  nie  gesehen  hast!  In Dir kommt der Verdacht auf, daß Dudurch  den  Wasserfall vielleicht in eine parallel zu der Deinigen existierendeWelt  gelangt  sein  könntest,  so  wie in diesen beknackten Adventures zuhauseauf  Deinem  Computer.  Nur:  DAS hier ist die Realität! Und wo zum Teufel bistDu hier gelandet?"
+    },
+    {
+      "id": 120,
+      "source_offset": 6183,
+      "packed_bytes": 408,
+      "decoded_bytes": 725,
+      "decoded_sha256": "6a743cc319f3cc7a6a1f85af7c599cbbe159993a6f490312ee33f67b59fc17b1",
+      "text": "Du  betrittst  das  Ufer,  von wo aus das Grollen des Wasserfalls in dersüdwestlichen  Ecke  des  Bergsees  immer  noch zu hören ist. Die Natursieht  hier  irgendwie  viel  sauberer  und unberührter aus als auf derSeite,  von  der aus Du den See zum ersten Mal betreten hast - Du weißtschon  nicht  einmal  mehr,  wie  lange das schon zurückliegt! Nichtsdestotrotzbeginnst  Du  diese Welt langsam zu mögen, obwohl Du nicht genau weißt, wo DichDeine  Eltern  wohl  vermuten  werden,  wenn  Du Dich heute abend nicht zuhausemeldest.  Es  bedarf  aber  trotzdem keiner allzu großen Fantasiebegabung, sichauszurechnen,  daß  dies  bis  zu  Deiner  Volljährigkeit  wohl  erst mal Deineletzten \"Solo-Ferien\" gewesen sein dürften..."
+    },
+    {
+      "id": 121,
+      "source_offset": 6591,
+      "packed_bytes": 357,
+      "decoded_bytes": 639,
+      "decoded_sha256": "a595745d666d020fcd12f3ca9105c66775cc4ba5c81f76157e5bdabccd02ec41",
+      "text": "Du  stehst  am  Rande  einer  Lichtung,  die  von  einer Dir unbekanntenBaumart  umgeben  ist. Mehr gibt es über diesen Ort aber wirklich nichtzu  berichten  -  es hat uns schließlich schon genug Mühe gekostet, unsdie   anderen   Raumbeschreibungen   aus  den  Fingern  zu  saugen:  Erexistiert  eben  einfach,  genau  wie  Du  auch  (Auch nur eine Frage der Zeit,hehe...).  Aber  wie  Du  Dir  sicherlich  vorstellen  kannst,  hat  sogar eineordinäre   Lichtung   wie   diese   hier  eine  besondere  Bedeutung  in  einemA.C.A-Adventure.  Und  da  Du das Spiel noch lange nicht gelöst hast, würde ichvorschlagen, Du wartest es einfach ab!"
+    },
+    {
+      "id": 122,
+      "source_offset": 6948,
+      "packed_bytes": 448,
+      "decoded_bytes": 800,
+      "decoded_sha256": "c67330d2bec1a636e8bcbe1a714f0cbab654519c06ffcf5f192c167bad1b67f7",
+      "text": "Als  Du die Lichtung betrittst, hörst Du vor Dir ein fürchterliches Knurren undFauchen!  Erschrocken  hältst  Du inne und versteckst Dich vorsichtshalber ersteinmal  hinter  dem  nächsten Baum! Als sich Deine Augen ein wenig an das etwasschummerige  Licht  gewöhnt  haben,  erkennst  Du  auf  der  anderen  Seite derLichtung  zwei  miteinander  kämpfende Tiere: Einen großen, grauen Wolf und einzierliches,  weiß  schimmerndes  Einhorn,  dessen  Fell schon völlig mit seinembläulichen  Blut  besudelt  ist, das aus unzähligen, tiefen Wunden sickert. Alsder  Wolf  bemerkt,  daß  der  Widerstand  des  geschwächten  Einhorns erlahmt,attackiert  er  es  noch  wütender! Das grazile Fabelwesen hat nicht mehr genugKraft,  um  den  scharfen  und  langen  Wolfszähnen  noch  lange  Widerstand zuleisten..."
+    },
+    {
+      "id": 123,
+      "source_offset": 7396,
+      "packed_bytes": 121,
+      "decoded_bytes": 217,
+      "decoded_sha256": "33ceaee03f05be5089e22c4c460d09b5f3a1d2856b0490a667302051c523b601",
+      "text": "Du  hättest  den  See  wirklich  nicht  mit  mehr Dingen betreten sollen als Duunbedingt  zum  Überleben  benötigtest:  Schwer  wie ein Mühlstein wirst Du aufden Grund des Sees hinuntergezogen, wo Du elend ersäufst..."
+    },
+    {
+      "id": 124,
+      "source_offset": 7517,
+      "packed_bytes": 111,
+      "decoded_bytes": 185,
+      "decoded_sha256": "6b0fd566411f713776e75f5734e74740d2809fe84e7a84edc5af0bb3a8ad2418",
+      "text": "Gaaanz  cool bleiben! So, und jetzt hol' erstmal tief Luft und zähl' bis zehn -oder  möchtest  Du  lieber einen etwas längeren \"Urlaub\" in einer der örtlichenGefängniszellen verbringen?"
+    },
+    {
+      "id": 125,
+      "source_offset": 7628,
+      "packed_bytes": 95,
+      "decoded_bytes": 167,
+      "decoded_sha256": "e33bab9b1dfa4c9ea81c9cc3413385f38cd33420570a1bac7387dc60ebe08e3e",
+      "text": "Ein   roh  gezimmertes,  aber  recht  behaglich  aussehendes  Bett  mit  bunterBettwäsche.  Werd'  jetzt bitte noch nicht müde - dieser Teil ist lediglich derAnfang..."
+    },
+    {
+      "id": 126,
+      "source_offset": 7723,
+      "packed_bytes": 118,
+      "decoded_bytes": 205,
+      "decoded_sha256": "e70927cf8f0a3531a2e3a4fa21c558f6cfaf47402c6359450363cb0e35d851e4",
+      "text": "Eine  kleine,  faustgroße  Kupferklingel, die auf dem Rezeptionstresen montiertwurde,  damit  Nervensägen  wie Du den Portier beim Kreuzworträtsellösen störenund mit ihren belanglosen Fragen nerven können."
+    },
+    {
+      "id": 127,
+      "source_offset": 7841,
+      "packed_bytes": 71,
+      "decoded_bytes": 117,
+      "decoded_sha256": "df3bf936d925fc91a848358fca4dc29ee37ceb41ce099f1c683d97ec43134b8d",
+      "text": "Ein  kleiner,  farbiger Prospekt, herausgegeben vom hiesigen Fremdenverkehrsamtund beschriftet mit \"Loch Calderwood\"."
+    },
+    {
+      "id": 128,
+      "source_offset": 7912,
+      "packed_bytes": 419,
+      "decoded_bytes": 734,
+      "decoded_sha256": "8166ae0668885c4c7eea7677976254beb48d052e93a6c5028611f178f21a4b8e",
+      "text": "Der  Farbprospekt  stellt Loch Calderwood und seine Umgebung dar: Falls Du alsodie   Schönheit   der  Landschaft  bisher  noch  nicht  selbst  entdeckt  habensolltest,  so  kannst  Du Dich zumindest mittels dieser Fotos davon überzeugen,daß  es  eine  großartige  Idee gewesen ist, hierher zu reisen. Auf den letztenSeiten  befinden  sich  die  Autogramme  einiger bedeutender Personen, die hierschon  einmal  ihren  Urlaub  verbracht  haben,  so  z.B.  Ronald  Reagan, KirkDouglas,  Chris  Link,  Elvis  Presley,  Kai  Schulze,  Prince und viele andereweltberühmte   Persönlichkeiten.  Du  schauderst  vor  Ehrfurcht,  fragst  Dichallerdings,  was  wohl  diese  merkwürdigen,  kleinen Kreuze hinter einigen derNamen bedeuten mögen..."
+    },
+    {
+      "id": 129,
+      "source_offset": 8331,
+      "packed_bytes": 77,
+      "decoded_bytes": 138,
+      "decoded_sha256": "1f723c912cea3779d5d55df893591e7ce128809cdbc88a1c6e49a64d9c32f836",
+      "text": "Achtlos  über die Lehne geworfen, hängen einige Deiner Kleidungsstücke über demStuhl, unter denen Du auch einige Badesachen finden kannst."
+    },
+    {
+      "id": 130,
+      "source_offset": 8408,
+      "packed_bytes": 187,
+      "decoded_bytes": 312,
+      "decoded_sha256": "bad9f8edf6d4012e4de1b64269026e5acd2d2ef126b222743ed1969f836cd657",
+      "text": "Ein  einfach  gefertigter,  rustikaler,  aber sehr ergonomisch gebauter Tisch -genau  wie  Dein  eigener  zuhause,  an dem Du normalerweise Deine Hausaufgabenmachst.  Okay,  Spaß  beiseite:  ...auf  dem  Dein  Computer  von Tag bis NachtMathehausaufgaben lösen, Pin-Up-Diashows zeigen und Spiele kopieren muss..."
+    },
+    {
+      "id": 131,
+      "source_offset": 8595,
+      "packed_bytes": 56,
+      "decoded_bytes": 98,
+      "decoded_sha256": "87528e291db3222ad55de2f2ccd5aaa551d178a77e25471115f4ac8f416c5094",
+      "text": "Auf  dem  Rezeptionstresen  befinden  sich eine kleine Kupferklingel und einigefarbige Broschüren."
+    },
+    {
+      "id": 132,
+      "source_offset": 8651,
+      "packed_bytes": 955,
+      "decoded_bytes": 1603,
+      "decoded_sha256": "9653b24362deb885aa95feaea9ff2c8533a7c8eaae3c1d116915f0e92e6f9de4",
+      "text": "Obwohl  Du  nach  der  langen  Reise  eigentlich  ein  dringendes  menschlichesBedürfnis  verspürst,  siegt  Deine Neugier, und Du entschließt Dich, doch ersteinmal  Deine  neue  Behausung in Augenschein zu nehmen. Erwartungsvoll öffnestDu  die  Tür  und schaust Dich kurz um. Oh, Gott! Das sind ja wahrhaft besch...Aussichten:  Alles  gekachelt  -  und  stinken tut es hier obendrein! Als Du ander  Strippe  ziehst,  um  Licht  zu  machen,  hörst Du bloß ein gurgelndes undschmatzendes  Geräusch  - nur das Licht, das bleibt aus! Also: So nicht, Leute!Du  stürmst  in  Richtung  Rezeption,  um  dem  alten  Knacker  von Portier malgehörig  den  Marsch  zu  blasen,  was  er  unter  einem  Zimmer  mit Dusche zuverstehen  hätte,  als  der  Groschen  bei  Dir  fällt!  Von  bösen Vorahnungengeplagt  gehst  Du  zurück  zu  der Tür und vergleichst die Zahl auf dem Schildgewissenhaft  und  sorgfältig  mit  der  Raumnummer, die man Dir genannt hatte:\"003\".  Die  erste  Ziffer  stimmt,  die  zweite auch - aber die dritte? Wo zumTeufel  ist  die  dritte Ziffer geblieben??? Verdammter Mist! Wie soll man sichdenn  hier  zurechtfinden,  wenn  diese  Schotten  zu  sparsam sind, ihre Räumerichtig  auszuschildern?  Auf Deinem Protestmarsch zur Rezeption schaust Du Dirdie  Schilder  auf  den anderen Türen an: \"001\", \"002\"... Hey! Moment mal, dannmüßte  das  hier  ja...  Ja,  richtig:  Hier ist Nummer \"003\"! Ganz am Ende desGanges!  Du  hattest  Dich  bloß im Zimmer geirrt! Also gut, sparen wir uns denGang  zum  Portier  und  geben  ihm noch einmal eine Chance. Aber: WO ZUM GEIERIST JETZT EIN KLO ?!?!?"
+    },
+    {
+      "id": 133,
+      "source_offset": 9606,
+      "packed_bytes": 101,
+      "decoded_bytes": 175,
+      "decoded_sha256": "ee293be648980257df565f87bd9a9c74e1fd2b6a16c16a3df9035c7d6f8d0992",
+      "text": "Deine  Zimmertür  sieht von innen nicht viel anders aus als von außen: schwarz.Nur  das  Schildchen  mit  der  Zimmernummer  hat  man sich hier gespart. Jaja,diese Schotten..."
+    },
+    {
+      "id": 134,
+      "source_offset": 9707,
+      "packed_bytes": 143,
+      "decoded_bytes": 262,
+      "decoded_sha256": "bd2166f21f412dc6f93a20038c00da2b33ee4bdb078bc503f09a4c83019de7d3",
+      "text": "Dieser   Kasten,  der  sich  Hotel  nennt,  in  Wirklichkeit  aber  selbst  beiwohlwollendster  Betrachung  gerade  mal  die Bezeichnung Pension verdient, istein   kleiner,   weißer   Bau   mit   roten  Fensterrahmen  und  einer  schwarzgestrichenen Eingangstür."
+    },
+    {
+      "id": 135,
+      "source_offset": 9850,
+      "packed_bytes": 113,
+      "decoded_bytes": 198,
+      "decoded_sha256": "6fa4dbd8992d18e45f9633246f3c763dc7bcf1c1067892281826f7cafc9f80d9",
+      "text": "Der  Portier  ist  ein  schmächtiges, älteres Männchen. Du fühlst fast schon soetwas  wie  Mitleid  mit  ihm, als Du daran denkst, daß er das ganze Hotel fastganz allein und ohne Hilfe betreuen muß."
+    },
+    {
+      "id": 136,
+      "source_offset": 9963,
+      "packed_bytes": 113,
+      "decoded_bytes": 199,
+      "decoded_sha256": "632ce76bb4ee2d7e340a45631e9e26430c4eb52b0ae13b38c3b3beff65dd4bc4",
+      "text": "Stolz  blickst  Du an Dir herunter auf ein paar Blue Jeans: Sie entsprechen derneuesten  Mode,  da Du ein einziges Mal die Gelegenheit hattest, eine Hose ohnedie Empfehlungen Deiner Mutter zu kaufen."
+    },
+    {
+      "id": 137,
+      "source_offset": 10076,
+      "packed_bytes": 171,
+      "decoded_bytes": 267,
+      "decoded_sha256": "703e28cd311639acbd5f2e68a7ab27587348a7bb70a471d4d6a92eb868477644",
+      "text": "Die  Speise-  und Getränkekarte enthält alle möglichen örtlichen Spezialitäten,aber  hauptsächlich:  Bier!  Bier  in Flaschen, Bier in Dosen, Bier in Tüten...QUATSCH!  Du  glaubst  auch  wirklich  jeden  Mist,  was?  Egal: Hauptsache, Dubekommst hier Bier in GLÄSERN!"
+    },
+    {
+      "id": 138,
+      "source_offset": 10247,
+      "packed_bytes": 166,
+      "decoded_bytes": 301,
+      "decoded_sha256": "d577ccbaf5a2869b571492ce0b4f46999376eb95b4efcd38a4691d23b6c36c22",
+      "text": "Der  Alte  scheint  zu  den Bewohnern des Dorfes zu gehören: Obwohl sie leichteVeständigungsprobleme  haben,  wenn  sie  ihren  schottischen  Dialekt  in ihrelangen  Bärte  brabbeln, sind sie selten abweisend, meistens herzlich und immerzu einem kleinen Schwätzchen bei einem kühlen Blonden aufgelegt."
+    },
+    {
+      "id": 139,
+      "source_offset": 10413,
+      "packed_bytes": 270,
+      "decoded_bytes": 467,
+      "decoded_sha256": "c4aa0ade999a1ef61e3b7f6a2d04283918836201d07ee00a93e1d85f13f32973",
+      "text": "Die  Nummer  auf  dem  Schlüssel lautet \"003\". Das dürfte selbst für Dich nichtallzu  schwer  zu behalten sein, zumal sie rein zufällig mit der Deines Zimmersübereinstimmt!  Vergiß  sie  aber  nicht,  denn wenn Du, wie im letzten Urlaub,wieder  einmal  sturzbetrunken durch's Hotel torkelst und alle Gäste mit derbenTrinkliedern  um  ihre  wohlverdiente  Nachtruhe  bringst,  wird sich wohl kaumjemand finden, der Deiner Fahne widerstehen und Dir Auskunft geben kann!"
+    },
+    {
+      "id": 140,
+      "source_offset": 10683,
+      "packed_bytes": 112,
+      "decoded_bytes": 195,
+      "decoded_sha256": "7af3f1df37c23d221afe72a4b39ff551e1ba482fe09b31399b46d2a9e1f24637",
+      "text": "Ein  paar  neue und ziemlich teure Sportschuhe. Ich frage mich ernsthaft, ob Dusie  Dir  auch  gekauft  hättest,  wenn nicht jeder, der an Deiner Schule etwasauf sich hält, solche Treter trüge..."
+    },
+    {
+      "id": 141,
+      "source_offset": 10795,
+      "packed_bytes": 191,
+      "decoded_bytes": 323,
+      "decoded_sha256": "43494913698da428e95dc7db14ff94cb3461bbb27d8ffa9eb83fdc121b645342",
+      "text": "Ich  habe  Dir doch bereits mitgeteilt, daß die Schrift auf dem Schild \"LetztesHotel  vor  dem  nächsten  Systemcrash\" lautet, oder? Mag ja sein, daß Du meineTexte  genauso  fantastisch findest wie ich, aber bitte geh' mir trotzdem nichtweiter  auf  die  Nerven,  indem Du mich alles zweimal fragst, okay? Danke, derParser."
+    },
+    {
+      "id": 142,
+      "source_offset": 10986,
+      "packed_bytes": 22,
+      "decoded_bytes": 37,
+      "decoded_sha256": "95aa7931f3476a396e734a5fb42217d4548ab4e69b1820bb0faf49237a4d541d",
+      "text": "Auf dem Tisch steht eine Speisekarte."
+    },
+    {
+      "id": 143,
+      "source_offset": 11008,
+      "packed_bytes": 108,
+      "decoded_bytes": 182,
+      "decoded_sha256": "0d66502edaf5f90eac646a365c8bb3ee3170b3a3ee8b79b8e3497cc9468ee026",
+      "text": "Dein  Lieblings-T-Shirt: Auf seinem rückwärtigen Teil stellt es einen Surfer ingrellen  Neonfarben  dar - cool! Schade nur, daß jeder andere auf Deiner Schuledenselben Dress trägt..."
+    },
+    {
+      "id": 144,
+      "source_offset": 11116,
+      "packed_bytes": 108,
+      "decoded_bytes": 133,
+      "decoded_sha256": "890b6c26ad0e4c56dcb52ed4107b1dd0903f8a6b2d647dae1b595677eaf576c5",
+      "text": "Willst  Du  mir  etwa schon wieder auf die Nerven gehen? DORT SITZT EIN ÄLTERERMANN AN EINEM DER TISCHE UND STUDIERT DIE SPEISEKARTE!"
+    },
+    {
+      "id": 145,
+      "source_offset": 11224,
+      "packed_bytes": 388,
+      "decoded_bytes": 669,
+      "decoded_sha256": "db18a4b09fbd67913a40731445e0b8a2d77fb576ce3b24330d511be3e856d752",
+      "text": "Weißt  Du  tatsächlich  nicht,  wie  Einhörner  aussehen? Nun gut, ich bin DEINComputer,  obwohl  ich  eigentlich  gehofft hatte, daß mir das Schicksal meinerPC-Kollegen,  die  den  ganzen Tag ihren ungebildeten Besitzern auf die Sprüngehelfen  müssen,  erspart  bliebe.  Naja,  also: Ein Einhorn ist eine Art weißesPferd  (Wie  ein  Pferd  aussieht, weißt Du, ja?), dessen Fell in einem beinaheüberirdischen  Licht  zwischen  Weiß  und  Hellblau  zu  funkeln  scheint.  Einweiterer  Unterschied  zwischen  einem  ordinären  Gaul und einem edlen Einhornist  das  gedrehte  Horn,  das  ein  Einhorn auf der Stirn trägt. Ich hoffe, Dukonntest mir so halbwegs folgen ?!?!?"
+    },
+    {
+      "id": 146,
+      "source_offset": 11612,
+      "packed_bytes": 45,
+      "decoded_bytes": 78,
+      "decoded_sha256": "527a18adf1d5fc5f89232c98cd2a5fc54468f32cb19bb3f4797c6d0b0e045549",
+      "text": "Ein rustikaler, alter Kleiderschrank mit echten Bauernmalereien auf den Türen."
+    },
+    {
+      "id": 147,
+      "source_offset": 11657,
+      "packed_bytes": 485,
+      "decoded_bytes": 848,
+      "decoded_sha256": "3d3e127080ebf3dc53fde1ebc87a89d84665ab464423ed0b88489b4a8407a128",
+      "text": "Ein  reißender  Wasserfall, der von dem Gebirge, das den See umgibt, herabkommtund  mit  lautem  Getöse ins Wasser stürzt. Aber mal ganz im Vertrauen: Hast Duwirklich  nicht  gewußt,  wie  so ein Wasserfall aussieht? Nein? Siehst Du, daskommt  bloß  durch  den ganzen Science Fiction-Kram, mit dem der Adventuremarktgerade  vollgemüllt  wird!  Deshalb  wählt  Avantgardistic  Arts in AventuriensParlament!  Wir  versprechen Dir, a) die Umwelt sauber von Abenteurerresten (sosie  sich  denn noch finden lassen...) zu halten, b) große Naturparks in unsereWelten   einzubauen,   damit   zumindest   Deine   Kinder  wieder  wissen,  wieWasserfälle  aussehen  und c) sinnlose und stupide Messages wie diese hier, diebloß   geschrieben   werden,   weil   den   geistesgestörten   Autoren   nichtsLangweiligeres mehr einfiel, unter Todesstrafe zu stellen!"
+    },
+    {
+      "id": 148,
+      "source_offset": 12142,
+      "packed_bytes": 85,
+      "decoded_bytes": 153,
+      "decoded_sha256": "e2bd8be580c82a0a6071b1149cc56ea4fb18c34f1390914d674125caeeba6caf",
+      "text": "Ein  reißender  Wasserfall,  genau wie der, den Du gesehen hast, als Du den Seezum ersten Mal betreten hast - jedoch noch um einiges wilder und frischer."
+    },
+    {
+      "id": 149,
+      "source_offset": 12227,
+      "packed_bytes": 201,
+      "decoded_bytes": 359,
+      "decoded_sha256": "ceedbc102d95ec36e176456669da4f6443b5c31cb549c96c3d9f67d762255dac",
+      "text": "Du  schauderst,  als  Du  das  gefährliche  Funkeln  in  den  Augen  des  Wolfserblickst...  Ansonsten  ähnelt das Tier aber weitgehend den zahmen Wölfen, dieDu  zuhause  im  Zoo  gesehen  hast  - zumindest, wenn man es schafft, über dieTatsache  hinwegzusehen,  daß  es  um  einiges kräftiger und damit gefährlicherist - und daß Euch hier kein Gitter trennt!"
+    },
+    {
+      "id": 150,
+      "source_offset": 12428,
+      "packed_bytes": 534,
+      "decoded_bytes": 922,
+      "decoded_sha256": "ba3decb637f6b3ddf144d52453147efc02411730cc9756df938e7a37676ee0bc",
+      "text": "Oh  nein!  Bitte  erzähl' mir jetzt nicht, daß Du einer von den Typen bist, diekein  Hotel  verlassen  können,  ohne  sich  zuvor ein kleines \"Souvenir\" (z.B.Handtücher,  Aschenbecher  oder  Zimmerfernseher...) organisiert zu haben! Alsoehrlich:  Du  hast  es  doch  wohl nicht nötig, zu stehlen, oder? Außerdem: Waswillst  Du  überhaupt mit der Speisekarte? Selbst wenn wir mal davon ausgingen,daß  der  Verdacht  nicht  auf  Dich fiele, was unwahrscheinlich ist, da Du zurZeit  nun  mal  der  einzige  Gast  des  Hotels  bist,  so hätte die Karte dochüberhaupt  keinen  Wert  für  Dich!  Mary  hingegen, die Besitzerin des Hotels,wäre  sicherlich  nicht  sehr glücklich, wenn sie Deinetwegen extra einen neuenSatz  Speisekarten  bestellen  müßte.  Es  ist hier auf dem Lande nämlich nichtganz  so  einfach,  solche  Dinge zu bekommen, wie Du verwöhnter Stadtjunge Dirvielleicht denkst! Also: Finger weg, sonst Finger ab!"
+    },
+    {
+      "id": 151,
+      "source_offset": 12962,
+      "packed_bytes": 66,
+      "decoded_bytes": 111,
+      "decoded_sha256": "ca19f1bce0fbaa264fe9692034a013fc4dfba230a76565bbeba22184311c33bf",
+      "text": "Kauf'  ihm  ein  Hörgerät,  und  ich  garantiere  Dir: Er wird der glücklichstePortier unter Gottes Sonne sein!"
+    },
+    {
+      "id": 152,
+      "source_offset": 13028,
+      "packed_bytes": 140,
+      "decoded_bytes": 247,
+      "decoded_sha256": "f07ecd10b55007122676572886d2747746939f3ed62342d1e0ad26a94501a400",
+      "text": "Obwohl  sein  Blick schon etwas glasig und sein Geist wohl auch schon ein wenigbenebelt  ist,  schaut  er  erwartungsvoll zu Dir auf, als Du Dich seinem Tischnäherst.  Ich  nehme  an,  er wäre einem kleinen Schwätzchen mit Dir nicht ganzabgeneigt."
+    },
+    {
+      "id": 153,
+      "source_offset": 13168,
+      "packed_bytes": 260,
+      "decoded_bytes": 457,
+      "decoded_sha256": "fb5ec47a12f74e7901fc8b11ad9f372ab8182bb9dab83a635ba6233b20957c03",
+      "text": "Als  der  Wolf Dich auf die Lichtung stürmen sieht, erschrickt er derartig überDeine  hagere  Figur,  daß  er sofort den Schwanz einzieht und die Beine in diePfoten  nimmt!  Nachdem  er,  noch immer erschüttert über soviel Elend, jaulendim  Unterholz  verschwunden  ist, legt sich das angeschlagene Einhorn erschöpftauf  den  Boden,  um  sich ein wenig von dem ungleichen Kampf zu erholen. SeineNüstern beben nervös, und es atmet schwer und ungleichmäßig..."
+    },
+    {
+      "id": 154,
+      "source_offset": 13428,
+      "packed_bytes": 556,
+      "decoded_bytes": 988,
+      "decoded_sha256": "ad89b93bde3ecb744eaa0c88770d23eca116e902e20f6ce6fc7f3f356f13cc1c",
+      "text": "\"Ich  habe  sie  umzingelt!\",  denkst  Du  Dir  siegessicher:  Mit einem wildenKamikazeschrei  stürmst  Du  die Lichtung und wirfst Dich mit aller Kraft gegendas  Einhorn,  um  dem Wolf eine Gelegenheit zu geben, seine Zähne in die weißeKehle  des  Fabelwesens  zu  schlagen.  Vollgesudelt  mit  dem  bläulichen Blutmachen  der  Wolf  und Du sich daran, das erlegte Einhorn auszuweiden, das Dichimmer   noch   mit  einem  ungläubigen  Blick  aus  seinen  erlöschenden  Augenanzublicken  scheint.  Dummerweise  scheint  der  Hunger des Wolfes nach dieserDelikatesse  jedoch  immer  noch  nicht  vollständig  gestillt zu sein: Bei derersten  Gelegenheit,  als  Du  gerade  unvorsichtigerweise  die  Augen  von ihmabwendest,  springt  Dir  der  Wolf an die Kehle und reißt Dir beinahe den Kopfvom  Hals!  Da er aber auch nach diesen beiden schmackhaften Mählern noch immerhungrig  zu  sein  scheint,  kannst  Du  ja  im nächsten Spiel noch einmal hiervorbeikommen, um \"dem Wolf zu helfen\"..."
+    },
+    {
+      "id": 155,
+      "source_offset": 13984,
+      "packed_bytes": 69,
+      "decoded_bytes": 117,
+      "decoded_sha256": "ecb787eb37cb1d3f6b51cbf5888e9f765af94650de852c1ee1f23fcf25ff9b17",
+      "text": "Du  drückst  auf  die  kleine Kupferklingel. In einem Raum weiter oben hörst Dueinen Summer - aber nichts passiert..."
+    },
+    {
+      "id": 156,
+      "source_offset": 14053,
+      "packed_bytes": 252,
+      "decoded_bytes": 441,
+      "decoded_sha256": "b4f90a3a0912ad068827cbf0fb3dfd2c599136088f1b0b43eb83149efc385202",
+      "text": "Du  drückst  den  Knopf  der  Klingel  so  tief  ins  Gehäuse  hinein,  daß Dirernsthafte  Bedenken  kommen,  ob sie nicht unter Deiner Hand explodieren wird.Nach  ein  paar  Sekunden  hörst  Du  endlich  ein  langsames Schlurfen auf derTreppe  hinter  dem  Rezeptionstresen,  und  der  Portier betritt, wild mit denArmen  umherfuchtelnd,  die  Rezeption. \"Warum klingelst Du denn Sturm?\", fragter Dich ungehalten, \"Ich bin doch nicht taub!\""
+    },
+    {
+      "id": 157,
+      "source_offset": 14305,
+      "packed_bytes": 568,
+      "decoded_bytes": 992,
+      "decoded_sha256": "b46746c30e56bd5871f63611132c6ec97ecc96349dd799017278880c96959be4",
+      "text": "So  höflich,  wie  es  Dir  nach der unfreundlichen Begrüßung noch möglich ist,fragst  Du  nach  Deinem  Zimmerschlüssel.  Nach jedem Satz, den Du sagst, hältder  Portier  die  Hand  hinter  sein linkes Ohr: Anscheinend hört er wohl dochnicht  mehr  ganz  so  gut  wie  er  glaubt,  doch  nach einer Weile scheint erbegriffen  zu  haben,  nimmt  Deinen  Zimmerschlüssel  vom  Brett und wirft ihnunwillig  auf  den Tresen. Er murmelt noch kurz: \"Raum Nummer Null-Null-Drei.\",dreht  sich  ohne  ein  weiteres  Wort um und schlurft die Treppe hoch. \"So wasUnfreundliches!\",  denkst  Du  bei  Dir,  \"Kein  Wunder, daß hier keiner wohnenwill!\"  Auch  Dein stiller Wunsch, er möge auf seinem Weg nach oben ausrutschenund  die  Stufen  hinunterpoltern,  erfüllt  sich leider nicht. Na, na, na! Werwird   denn   gleich  aggressiv  werden!  Eigentlich  solltest  Du  etwas  mehrVerständnis  und  Mitgefühl  für  das  alte Männchen zeigen und das nächste MalDeine jugendliche Ungeduld ein wenig zügeln!"
+    },
+    {
+      "id": 158,
+      "source_offset": 14873,
+      "packed_bytes": 1650,
+      "decoded_bytes": 2935,
+      "decoded_sha256": "3fa7379e7be3561d4228cdea27ac39b44b5eb02ccbc46a4cff4a594313614cbd",
+      "text": "Du  winkst  die  Bedienung  zu  Dir  heran  und  nennst  ihr Deine dringendstenWünsche:  \"Bringen  Sie  mir  bitte  ein großes Steak, ein kühles Bier und eineFra...\"  -  Plötzlich spürst Du, wie Du rot wirst und stammelst: \"Ach nein: DieFrankfurter  Allgemeine  können Sie wieder streichen. Deutsche Zeitungen werdenSie  hier  ja  wohl  ohnehin  nicht bekommen, oder?\" Als das Mädchen, ebenfallsrot   bis   über   beide   Ohren,  hastig  verneint,  beruhigst  Du  es  -  denAltersunterschied  von  gut zehn Jahren geflissentlich ignorierend - väterlich:\"Das  macht  nichts,  meine  Tochter:  Ich  kann  sowieso  kein  Deutsch!\", undbrichst   in   brüllendes  Gelächter  aus,  woraufhin  der  bisher  unbeteiligtdasitzende  Dorfbewohner  die  Augen leidend zum Himmel verdreht, als hätte manihm  dort  in die Weichteile getreten, wo es so richtig wehtut. Als Du bestürztfeststellst,   daß   auch   die   Kellnerin   anscheinend   unter   chronischerHumorlosigkeit   leidet,   beschließt  Du,  Deine  komische  Darbietung  abruptabzubrechen  und  das Mädchen mit einer gnädigen Handbewegung zu entlassen. Alses  in  der  Küche  verschwunden  ist, sprichst Du den alten Mann an, ob er Dirnicht  vielleicht  ein  wenig über das Dorf und seine Umgebung erzählen könnte.Langsam   und   schleppend   beginnt   der   Dorfbewohner,   in   seinen   Barthineinzubrabbeln,  daß  er  Dir  eine interessante Sage erzählen könne. Gut, Dubist  zwar  nicht  gerade davon ausgegangen, daß er Dir gleich die Adressen derlokalen  In-Treffs  und  Yuppie-Diskotheken  aufzählen  würde, aber muß es denngleich  ein  Märchen sein? Vorsichtshalber stützt Du den Kopf auf die Hände, umim  Ernstfall  nicht mit der Nase auf die Tischkante zu knallen, und während Dusehnsüchtig  auf  Dein Essen wartest, damit Du wenigstens etwas zu tun hättest,lauschst  Du  der  Geschichte  des  Alten:  Vor langer, langer Zeit soll an demPlatz,  den  jetzt  das  Loch Calderwood einnimmt, eine reiche und stolze Stadtgestanden  haben  -  doch  von einer Nacht auf die andere war sie verschwunden,und  statt  ihrer befand sich der See am Fuße der Berge! Es wurde vermutet, daßdie  Bewohner  dieser  legendären  Stadt für ihren Stolz und ihre Eitelkeit vonden  Göttern  bestraft  worden  seien. Ebenfalls erzählt man sich, daß sie sehrreich  und  kunstfertig  gewesen  wären! Da Du für Deinen Teil Dich seit Beginnder  Erzählung  in  der  Kunst  übst,  mit  offenen Augen zu schlafen, hält derEinheimische  Deinen  starren  Blick für ungläubiges Staunen und setzt noch maleinen  drauf:  Angeblich  behaupten die Leute im Dorf nämlich sogar heute noch,daß  die  Türme  und Dächer der Stadt noch unter Wasser gesehen werden könnten,wenn  man  es  wagte,  bei  Vollmond  um  Mitternacht  auf  den  Grund des Seeshinabzutauchen  -  ein  sehr  exklusives  und einmaliges Vergnügen übrigens, dakeiner  der  tapferen  Männer,  die  bisher  ihr  Glück  versucht haben, jemalszurückkam..."
+    },
+    {
+      "id": 159,
+      "source_offset": 16523,
+      "packed_bytes": 187,
+      "decoded_bytes": 328,
+      "decoded_sha256": "17320486c4c67e6aee3bd924060a6e0e7bd861ad1466b27835fa86e9725e777c",
+      "text": "Der  alte Mann verbirgt sein Gesicht hinter seinem Bierglas - nicht mehr in derLage,  noch  ein  weiteres Wort von sich zu geben. Das einzige, was Du noch vonZeit  zu  Zeit  von  ihm  vernimmst,  ist  ein leises und verschämtes \"Börks!\".Offensichtlich  hat  er  während  seiner  Erzählung ein Gläschen über den Durstgetrunken..."
+    },
+    {
+      "id": 160,
+      "source_offset": 16710,
+      "packed_bytes": 537,
+      "decoded_bytes": 954,
+      "decoded_sha256": "63e94ce419487ebcd0e8c4d86c598055443f598c210ae1b1f55f561257aedae0",
+      "text": "Nachdem  es  sich  ein  wenig erholt hat, dankt das Einhorn Dir für Deine Hilfeund  warnt  Dich eindringlich, Deinen Weg nach Westen fortzusetzen. \"Nachdem Duerst  einmal  diesen  Teil  des  Waldes  verlassen  hast,  gibt  es kein Zurückmehr...\",  sagt  es  mit  einem  unendlich traurigen Blick in seinen tiefblauenAugen,  \"Doch  nimm  diese kleine Kristallkugel: Sie könnte Dir helfen, Freundein  dieser  feindlichen  Welt  zu  finden...\"  Mit  diesen  Worten gibt Dir dasEinhorn   eine   kleine,   leuchtende   Kristallkugel,   während   es  Dir  mitersterbender  Stimme  zuwispert: \"Denke an mich, wenn Du sie benutzt - ich habenicht  mehr  lange  zu  leben...\". Mit einem letzten Blick zu Dir zurück, einemBlick  so  voller Bedauern und Schmerz, daß es Dir fast das Herz bricht, wendetsich  das  todgeweihte,  schöne  Wesen  um und trottet langsam davon, ohne sichnoch  einmal  nach  Dir  umzudrehen,  bis  es  zwischen den Bäumen verschwundenist..."
+    },
+    {
+      "id": 161,
+      "source_offset": 17247,
+      "packed_bytes": 19,
+      "decoded_bytes": 33,
+      "decoded_sha256": "870c2a57c93cb8f30854ff01f88457e3d9fd3252fa5af221706913f9cfa9b933",
+      "text": "Du steigst wieder in Deine Jeans."
+    },
+    {
+      "id": 162,
+      "source_offset": 17266,
+      "packed_bytes": 80,
+      "decoded_bytes": 136,
+      "decoded_sha256": "410542137a6c157113988bc6167298e30ded2f824862cb8d0791ec25d98badfb",
+      "text": "Also,  wenn  Du  mich  fragst, dann täte Deinen Füßen noch ein wenig Frischluftgut - aber okay: Du trägst jetzt wieder Deine Turnschuhe."
+    },
+    {
+      "id": 163,
+      "source_offset": 17346,
+      "packed_bytes": 59,
+      "decoded_bytes": 98,
+      "decoded_sha256": "272f539082f75a10d40809f3c6bc46d032b1d86291f5e70166efbf9e7afe6a67",
+      "text": "Du  zwängst  Dich  in  Dein T-Shirt hinein: Hach! Da fühlt man sich doch gleichwieder viel cooler!"
+    },
+    {
+      "id": 164,
+      "source_offset": 17405,
+      "packed_bytes": 72,
+      "decoded_bytes": 116,
+      "decoded_sha256": "3cfa20a278ca609be12741041b08f307c906dc9a188413d3714a42d783c4d81d",
+      "text": "Bist  Du  krank?  Deine Eltern sind hunderte von Kilometern entfernt, die Nachtist jung - und Du willst SCHLAFEN ???"
+    },
+    {
+      "id": 165,
+      "source_offset": 17477,
+      "packed_bytes": 342,
+      "decoded_bytes": 613,
+      "decoded_sha256": "3e17d97f4ae7675c37f6ffb85e5f2c44623f0bf0ace9b0a456566790784a651a",
+      "text": "Du  setzt  Dich hin, um darüber nachzusinnen, was Du als nächstes tun könntest,aber  mit  einem  Blick  auf  die  Tischplatte  vor Dir - eine Tischplatte ohneDeinen  geliebten  Computer  darauf  -  fragst  Du Dich verwirrt, wofür Du Dichüberhaupt  hingesetzt  hast  -  denn  was  sollte  man  schon  mit  einem Tischanfangen   können,   auf   dem   sich   kein   Monitor   befindet?  Da  Du  alseingefleischter  Medientrottel  leider außerstande bist, eine Antwort auf diesebrennende  und  weltbewegende Frage zu finden, stehst Du frustriert wieder auf,um etwas Produktiveres zu tun als lediglich herumzusitzen..."
+    },
+    {
+      "id": 166,
+      "source_offset": 17819,
+      "packed_bytes": 289,
+      "decoded_bytes": 491,
+      "decoded_sha256": "7793cedf201c7d8e8c0b54e9840dd79c9aad14cc48af48e03404110719eecd49",
+      "text": "Als  Du  gerade  tiefer  in  den  Wald treten willst, tritt ein Waldelf aus demUnterholz  vor  Dich  und  versperrt  Dir  mit  einer Geste den Weg, die keinenWiderspruch  zuläßt.  \"Seid  gegrüßt,  Fremder!\",  begrüßt  er Dich freundlich,\"Bevor  Ihr  tiefer  in  unsere  Welt  vordringen dürft, müßt Ihr einen kleinenTest  bezüglich  der  Spielanleitung bestehen, um zu beweisen, daß Ihr wirklichein  EIGENES  Spiel  besitzt  -  und  nicht bloß eine von diesen minderwertigenSchwarzkopien...\""
+    },
+    {
+      "id": 167,
+      "source_offset": 18108,
+      "packed_bytes": 130,
+      "decoded_bytes": 219,
+      "decoded_sha256": "e9168cd96dc9107ad93b4aa606baa11e57316a386980aa1212da8e151f368144",
+      "text": "\"Nun  gut,  mein  Freund: Der Code ist okay! Ihr dürft passieren...\", entgegnetder  Elf,  sichtlich  zufrieden  über  Deine  Antwort,  und verschwindet ebensorasch wieder im Wald, wie er zuvor aus ihm aufgetaucht ist..."
+    },
+    {
+      "id": 168,
+      "source_offset": 18238,
+      "packed_bytes": 273,
+      "decoded_bytes": 482,
+      "decoded_sha256": "e36a9afeb367098ac6c376e780b7d9aa3855a64db32e209a3adb3285c1fc5dee",
+      "text": "\"Oh   nein!   Werden   diese   Diebe  denn  niemals  verstehen,  wie  hart  eindurchschnittliches  Programmierteam  an  der  Entwicklung  eines Programmes wiediesem  arbeiten  muß?\", ruft der Elf sichtlich enttäuscht aus. \"Nun ziehet ausund  kauft  Euch  das  Originalprogramm,  wenn  Euch  daran  gelegen  ist,  denFortgang  der  Geschichte  mitverfolgen  zu  können!  Ich für meinen Teil werdeEuch  nicht  eher passieren lassen, als bis Ihr den gebührenden Zoll entrichtethabt...\""
+    },
+    {
+      "id": 620,
+      "source_offset": 18511,
+      "packed_bytes": 259,
+      "decoded_bytes": 444,
+      "decoded_sha256": "9e9bca3961910db96a8d3d264b148efeeb5ba19a33bf077422084edc43663577",
+      "text": "Hastig  reißt  Du die Tür des Kleiderschranks auf, hechtest hinein und schließtdie  Tür  hinter  Dir.  Zitternd  horchst Du in die Stille, doch Dein pumpenderHerzschlag  ist  alles, was Du hören kannst. Mann! Du bist im Urlaub! Hier gibtes  keine  Väter,  die  besorgt in das Zimmer ihrer Tochter schleichen! Du bisthier  in  Sicherheit!  Muß  wohl  die  Macht  der Gewohnheit gewesen sein, wie?Schweißgebadet verläßt Du Dein Versteck wieder..."
+    }
+  ]
+}

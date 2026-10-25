@@ -1,0 +1,1496 @@
+{
+  "source": "Disk 4/Data/Texts/DiskD.TXT",
+  "source_sha256": "415f24516da69ad2681dfc4c556da9f19421649dba416c567753f6b404a451bb",
+  "table_sha256": "2b7b76d4175eb8d68dddcde8c792854306fcbf455f60a6daa0b71b5d0caae00d",
+  "main_sha256": "cc74c2f3ce20ac1445d5c53382c6ac4baae6e40160d88173df54cd469b82449c",
+  "records": [
+    {
+      "id": 398,
+      "source_offset": 0,
+      "packed_bytes": 422,
+      "decoded_bytes": 746,
+      "decoded_sha256": "9712df65b2f3e2de70cfbca63aa371929be6654b195613659a2eed1bc82fbb50",
+      "text": "Du  findest  Dich  im Schloßgarten wieder: Einst, als er noch gehegt undgepflegt  worden  ist,  muß  das  hier  wohl  ein recht idyllisches undruhiges  Fleckchen  gewesen  sein  - aber diese Tage scheinen für immervergangen:  Alles  um  Dich  herum  ist  verwildert  und mit Efeurankenüberwuchert.  Mag  sein, daß hier vor langer Zeit die früheren Lords und Ladieseinmal  ihre  Spaziergänge  (und  vielleicht  nicht  nur  das!) im Schatten dernunmehr   völlig   verwilderten   Buchsbaumhecken  gemacht  haben,  doch  heuteverbreitet  der  verwilderte  Garten  nur noch eine unheimliche und bedrohlicheAtmosphäre...  Im  Norden  liegen  die Stallungen, während Du durch ein kleinesTor in der östlichen Mauer wieder zurück auf den Burghof gelangst."
+    },
+    {
+      "id": 399,
+      "source_offset": 422,
+      "packed_bytes": 445,
+      "decoded_bytes": 788,
+      "decoded_sha256": "c015424a3b04ffb0291ae0c1aaae399eb5cb6c07ddda1c4971f15661cac2297c",
+      "text": "Als  Du  den Burghof betrittst, hältst Du inne und horchst in die Stillehinein,  aber  weder  das  Zwitschern  der  Vögel noch das Rauschen derBäume   dringt  an  Dein  Ohr:  Dieser  Ort  ist  von  jedem  Lebewesenverlassen  worden,  das  noch Gelegenheit dazu hatte! Plötzlich mußt Duan   all   die   Leute   denken,   die  nie  aus  diesem  unheimlichen  Gemäuerherausgekommen  sind.  Vielleicht  gehörst  auch  Du  zu ihnen, auch wenn Du esnicht  weißt  -  NOCH  NICHT  weißt,  meine ich... Hinter Dir liegt das massiveBurgtor,  vor  Dir  das Hauptgebäude, und in der westlichen Mauer befindet sichein  kleines  Tor,  das in den Schloßgarten führt. In einer schattigen Ecke desBurghofes  kannst  Du  außerdem einen engen Schacht erkennen, der nach unten indie Dunkelheit hineinführt..."
+    },
+    {
+      "id": 400,
+      "source_offset": 867,
+      "packed_bytes": 387,
+      "decoded_bytes": 707,
+      "decoded_sha256": "4f14d707e13c4113142e9f89b5ce1678b47a6f137509e0bba4bf6cde763cb114",
+      "text": "Du  betrittst  die  Stallungen  des  Schlosses:  Einst  haben  hier  dieschönsten  und  schnellsten  Pferde  des  ganzen  Landes  gestanden, umauszuruhen  und  zu  fressen  -  heute hingegen ruht hier lediglich dieganz  und  gar nicht schöne Leiche eines von fürchterlichen Brandwundengrausig  entstellten  Abenteurers!  Neben  seiner in einer grotesken Verrenkungausgestreckten  Hand  steht  eine  kleine,  stählerne  Truhe auf dem Boden. Dereinzige  sichtbare  Ausgang  führt durch die Südtür zurück in den Schloßgarten.Wenn  Du  Dich  geschickt  genug anstellst, wird sich dir jedoch bald auch nochein  Weg  nach  oben  oder  unten eröffnen, je nachdem, aus welcher Perspektiveman das Ganze betrachtet..."
+    },
+    {
+      "id": 401,
+      "source_offset": 1254,
+      "packed_bytes": 485,
+      "decoded_bytes": 855,
+      "decoded_sha256": "10c3ebdc8dc8b988b9930250270687fb5d416c2de8d2021841f2a72c98a7cd34",
+      "text": "Erfurchtsvoll  betrittst Du die große Empfangshalle des Schlosses. Allesum  Dich  herum  zeugt  vom  guten Geschmack der vormaligen Burgherren:kunstvoll  verzierte  Vasen,  wertvolle  Gemälde  und  teure  Teppiche.Offensichtlich   wurde   diese   Halle   von   Leuten  mit  einem  sehrausgeprägten  Sinn  für  Prunk  und  Luxus  eingerichtet,  und Du versuchst Dirvorzustellen,  wie  all die vornehmen Lords und Ladies aus fremden Ländern hierbei  Staatsempfängen  Willkommen  geheißen  wurden:  Das  muß  schon  eine sehrreiche  und  stolze  Nation  gewesen  sein, die in der Lage gewesen ist, solcheSchlösser  zu  erbauen  und  sie  derart einzurichten - doch was hat der DunkleLord  bloß  mit  alledem  getan!  Am Ende des Ganges liegt die Ahnengalerie desSchloßherrn,  während  hinter Dir das Portal liegt, durch das Du wieder auf denBurghof gelangst."
+    },
+    {
+      "id": 402,
+      "source_offset": 1739,
+      "packed_bytes": 533,
+      "decoded_bytes": 948,
+      "decoded_sha256": "beebf468b5b3330b9e66e0326165788a420ac0c8247e10ff1d33a46f93119fe0",
+      "text": "Erschrocken  springst Du zurück, als Du plötzlich ein paar Treppenstufendirekt  vor  Dir  auftauchen siehst - gerade noch rechtzeitig, um nichthinab  in  die  Tiefe  zu stürzen und Dir sämtliche Knochen zu brechen!Dich   fröstelt   unangenehm,   als   Du   das  kränklich  gelbe  Lichtwahrnimmst,  das  durch  die  Tür  in  der  Ostwand  fällt  und alles in seinenunheimlichen  Schein  taucht...  Die  steinerne  Wendeltreppe führt sowohl nachoben  als  auch  nach  unten:  Steigst  Du  nach  oben, gelangst Du auf auf dieZinnen  des  Hauptturmes;  entscheidest  Du  Dich  stattdessen für den Weg nachunten,  so  führt  die  Treppe  Dich  in  das  Untergeschoß  der Burg. Wenn Dirmomentan   jedoch   -   aus  welchem  Grund  auch  immer  -  nicht  nach  einemErkundungsgang  durch  diese  Stockwerke ist, hast Du immer noch die Wahl, hierstehenzubleiben,  bis  Du  schwarz  wirst, oder durch die Tür in der Ostwand indie Empfangshalle zurückkehren."
+    },
+    {
+      "id": 403,
+      "source_offset": 2272,
+      "packed_bytes": 436,
+      "decoded_bytes": 773,
+      "decoded_sha256": "204910c0b2f7fb608eaef5254efb335f237ac36d94116068ed3b2cb408ce865e",
+      "text": "Atemlos  hältst  Du  inne,  als Du die Gemälde an den Wänden der Galerieerblickst:  Obwohl  dies hier ja wohl eigentlich die Ahnengalerie KönigRichards  sein  sollte,  stellen  alle  Portraits  exakt  dasselbe dar:einen  streng  blickenden,  grauhaarigen,  alten  Mann,  gehüllt in eindunkelviolettes  Cape,  der  mit  hochmütigem,  aber  haßerfüllten  Blick jedemeinzelnen  Deiner  Schritte  zu folgen scheint. ZARGON! Du zitterst...: Wenn ertatsächlich  so  aussehen  sollte  wie  der  Mann auf den Bildern, dann hast Dunicht  die  geringste  Ahnung,  wie gerade Du in der Lage sein solltest, ihn zubesiegen!   Im  Norden  liegt  der  Speisesaal  des  Schlosses,  im  Süden  dieEingangshalle,  und  durch  eine  Tür  im  Westen  gelangst  Du in ein düsteresTreppenhaus..."
+    },
+    {
+      "id": 404,
+      "source_offset": 2708,
+      "packed_bytes": 405,
+      "decoded_bytes": 718,
+      "decoded_sha256": "32901bdefc9a0c2070d2e76d4d079f16d3f34048d9ddc18c4500a2edb7bc8d87",
+      "text": "Du  findest  Dich  in  der  Vorratskammer  der  im östlichen Nachbarraumliegenden  Schloßküche  wieder.  An  den  Wänden um Dich herum befindensich  eine  Unmenge  verstaubter  oder mit Spinnweben bedeckter Regale,doch  viele  von  ihnen  hängen  nicht  einmal  mehr  ordentlich an derMauer,  sondern  sind  im Laufe der Jahrzehnte herabgefallen, so daß ihr Inhaltnun  völlig  durcheinander  auf dem Boden verstreut liegt. Nun beginnst Du auchzu  verstehen,  warum  die  Ratten - und vielleicht nicht nur sie...! - Dir denZutritt  zu  diesem Raum verwehren wollten: Sie müssen befürchtet haben, daß Duihnen  ihre  Delikatessen  wegfressen  könntest! Unter einer Falltür führt eineTreppe in ein dunkles Gewölbe hinab..."
+    },
+    {
+      "id": 405,
+      "source_offset": 3113,
+      "packed_bytes": 592,
+      "decoded_bytes": 1047,
+      "decoded_sha256": "21842e3d28bf9fe42baabb7a9c5383e5d62bf6cb54305e7978aeab7a6e4aaa22",
+      "text": "Du  betrittst  die  verwahrloste  Schloßküche.  Seit  Jahren  scheint indiesem   Raum   nichts   mehr   berührt   worden  zu  sein:  Sogar  dieRegalinhalte  sind  völlig  verstaubt!  Doch  als  Du  auf den Fußbodenschaust,  erstarrst  Du plötzlich: Inmitten dieses ganzen Schmutzes undder  vergammelten  Küchenabfälle  siehst Du einige kleine Brotscheiben liegen -und  sie  sehen  noch  ziemlich  frisch aus! Irgendjemand - oder irgendetwas? -muß  also  von  Zeit  zu Zeit noch hierherkommen, um die Ratten zu füttern, diehier  überall  herumhuschen  - ziemlich fette und häßliche Ratten übrigens, vondenen  manche  aber  irgendwie  ziemlich  krank aussehen... Langsam beschleichtDich  die  unangenehme Vorahnung, daß irgendwer Dein Eintreffen bereits bemerktund  etwas  dagegen  gehabt  hat, daß Du noch tiefer in das Schloß eindringst -und  Du  könntest  verdammt  recht  haben...! Im Osten liegt der Speisesaal desSchlosses,  hinter  der Tür im Norden befindet sich der Küchengarten, und durchdie Tür im Westen gelangst Du in die Vorratskammer."
+    },
+    {
+      "id": 406,
+      "source_offset": 3705,
+      "packed_bytes": 573,
+      "decoded_bytes": 1031,
+      "decoded_sha256": "c883d7c452aeee6d8cf54d2079d5f67e55fa13b06e33db8c0b4f24367906df55",
+      "text": "Du  befindest  Dich  in  einem großen, festlich geschmückten Speisesaal.Obwohl   er   eigentlich   eher   gemütlich  ausstaffiert  worden  ist,verbreitet  dieser  Raum  eine  unheimliche,  ja  geradezu  bedrohlicheAtmosphäre:  Er  scheint so unwirklich! Denn trotz aller Anzeichen, daßdieser  Saal  schon seit Jahrzehnten nicht mehr betreten worden ist, biegt sichdie  Tafel  dennoch  immer  noch  unter  dem  Gewicht der gefüllten Schalen undTeller!   Eine   gespenstische  und  unglaublich  böse  Aura  geht  von  diesenverlassenen  Hallen  aus,  obwohl  Du  nicht einmal genau sagen könntest, warumeigentlich:  Du  fühlst  lediglich  so  etwas wie einen eisig kalten Wind durchden  leeren  Saal  wehen, der Dir beinahe unmerklich über den Rücken streicht -fast  so,  als  ob  Dich  eine  geisterhafte  Hand aus diesen Mauern forthaltenwollte,  wie  eine  letzte,  nachdrückliche  Warnung des Todes persönlich... ImSüden  liegt  die  Schloßgalerie,  und  durch  die  kleine  Tür in der Westwandkannst Du die Schloßküche erkennen."
+    },
+    {
+      "id": 407,
+      "source_offset": 4278,
+      "packed_bytes": 582,
+      "decoded_bytes": 1002,
+      "decoded_sha256": "739f4f0768f2da607d70493d462a8262b39737f64fd96bcf9b2498c8c7f12c44",
+      "text": "Du  betrittst den Kräutergarten des Schlosses. Vor langer Zeit haben dieSchloßbewohner    diesen   Garten   benutzt,   um   Kräuter   für   dieKüchenarbeiten  anzupflanzen,  jedoch scheinen die Kräutlein, die jetzthier   wachsen,  nicht  zum  Verzehr,  sondern  eher  als  Zutaten  fürmagisches  Gebräu  angebaut  worden  zu  sein... Durch eine kleine Tür im Südengelangst  Du  wieder  zurück in die Schloßküche. -A.C.A breaking in for a chat:\"Sorry,   dieser  Raum  ist  eigentlich  bloß  zur  Verstärkung  der  schwachenAtmosphäre  eingerichtet  worden. Trotzdem hoffen wir alle, daß Dir unser Spielgenauso  gut  gefällt  wie uns, obwohl wir nach Deinen letzten Zügen doch schonsehr  stark  bezweifeln  müssen, ob jemand wie Du jemals in der Lage sein wird,es  zu  lösen.  Der  Aufenthalt  in  diesem  Raum ist aber mit keinerlei Gefahrverbunden,  also  mach'  Dir  erst einmal einen Kaffee und genieße Deine letzteVerschnaufpause  vor  dem großen Finale. Viel Spaß also noch!\" -A.C.A chat end.Bye..."
+    },
+    {
+      "id": 408,
+      "source_offset": 4860,
+      "packed_bytes": 631,
+      "decoded_bytes": 1123,
+      "decoded_sha256": "ed56d0563ff233351a08b8bbbab0f0cd20c2cd0c1fac7673bc4f976092b175fc",
+      "text": "Du  betrittst  das  Dach  des  Hauptturmes,  der sich hoch über den Bergerhebt,   auf  dem  Zargons  Schloß  gelegen  ist.  Inzwischen  ist  esfinstere  Nacht  geworden,  und  während  Du die schimmernden Sterne amdunklen  Firmament  betrachtest,  Lichtjahre  von hier entfernt, fühlstDu  so  etwas  wie  Einsamkeit  in  Dir  aufsteigen...: Du denkst an Deine armeMutter,  die  bestimmt  gerade  zuhause  sitzt  und  sich  die  Augen  nach Dirausheult,   und  an  Deinen  resoluten  Vater,  der  jetzt  wohl  der  gesamtenOrtspolizei  von  Loch  Calderwood  die  Hölle heiß machen wird, da sie auf derSuche  nach  Dir  bisher  wohl  noch keinerlei Erfolg gehabt haben dürfte. Abereigentlich  hast  Du  ja  überhaupt  keine  Zeit, Dir über solche Lappalien denKopf  zu  zerbrechen:  Immerhin  hast  Du eine Mission zu erfüllen, jetzt - UNDHIER!  Und  wenn  es  Dir  hier  draußen  endlich zu kalt geworden sein sollte,kannst  Du  wieder  ins  Schloßgebäude  zurückkehren, das Du über die steinerneWendeltreppe,  die  nach  unten  in  den  Turm hineinführt, erreichst, oder daskleine Haus des Turmwächters im Norden betreten."
+    },
+    {
+      "id": 409,
+      "source_offset": 5491,
+      "packed_bytes": 530,
+      "decoded_bytes": 941,
+      "decoded_sha256": "f1d11d48ff6dc27dc5fd4d9f9ca7dcea811963b1372a482089b18bac3dbdd234",
+      "text": "Du  stehst  im  Haus  des  Turmwächters. Hier scheint ein schwerer Kampfgetobt  zu  haben, wie Du aus dem zerstörten oder umgestürzten Mobiliarsowie  der  fürchterlichen  Unordnung  auf dem Fußboden ersehen kannst:Zargon  scheint  also  doch  noch  einige Probleme gehabt zu haben, dasSchloß  einzunehmen  und  seine  Bewohner zu überrumpeln - zumindest einige vonihnen  scheinen  doch  wohl  Widerstand  geleistet  zu  haben!  Und  wer  weiß:Vielleicht  sind  ja  sogar ein oder zwei alte Getreue des Königs noch am Lebenund  verstecken  sich  irgendwo  im Schloß oder in der umgebenden Wildnis? Auchder   Schreibtisch   des   Turmwächters,   das  einzige  noch  halbwegs  intaktaussehende  Möbelstück,  ist  wie  fast  alles,  was  nicht  schon  während desHandgemenges  zu  Bruch  gegangen  ist,  völlig durcheinander. Du kannst diesenRaum  durch  die  Tür  in  der Südwand, die zurück auf das Dach des Hauptturmesführt, wieder verlassen."
+    },
+    {
+      "id": 410,
+      "source_offset": 6021,
+      "packed_bytes": 373,
+      "decoded_bytes": 672,
+      "decoded_sha256": "16879f40954e12368f7b3164626777649ba85a620fcc76896ef134ff001f3d1f",
+      "text": "Du   kletterst   in   einen  dunklen,  feuchten  Schacht.  Ein  schmalerLichtstrahl  fällt  von  oben ein, ist jedoch nicht hell genug, um DichDeine  Umgebung  genauer  in  Augenschein  nehmen zu lassen. Während DuDich  vorsichtig  an  den  felsigen  Wänden  entlangtastest,  hörst  Dumerkwürdige,  schlurfende  Geräusche  hinter  der  Nordwand!  Wenn  Du  nur dasrichtige  Werkzeug  mit  Dir  führtest,  könntest Du der Sache ja auf den Grundgehen,  aber  so  bleibt  Dir  nur  das  mulmige  Gefühl der Ungewißheit... Dieglitschigen  Steigeisen,  an  denen  Du gerade Halt zu finden versuchst, führensowohl nach oben als auch nach unten, noch tiefer in den Berg hinein..."
+    },
+    {
+      "id": 411,
+      "source_offset": 6394,
+      "packed_bytes": 509,
+      "decoded_bytes": 907,
+      "decoded_sha256": "de63c49c2692f84d595f11a6f28b08abe4ce150ed77f7078e828f92984d5a5a5",
+      "text": "Du   betrittst   eine   schummerig   beleuchtete,  enge  Gefängniszelle:Süßlicher  Verwesungsgeruch  steigt  Dir  in  die Nase, aber auch daranhast  Du  Dich  ja  mittlerweile  schon gewöhnt... In der südwestlichenEcke  der  Zelle  liegt  auf  einem  schmutzigen  Strohlager ein völligabgenagtes  Knochengerippe  -  wahrscheinlich  einer von den Unglücklichen, dievon  Zargons  Schergen  gefaßt  worden  sind, als sie - genau wie Du - versuchthatten,    das    Land    aus   Zargons   Schreckensherrschaft   zu   befreien.Vorsichtshalber  prüfst  Du  also erst einmal, ob das Lager gegebenenfalls auchPlatz  für  zwei  Leichen  böte,  als  Dir an den bemoosten Zellenwänden einigeflüchtig  hingekritzelte  Schmierereien  auffallen! Im Norden erkennst Du durcheine  Gittertür  einen  von  Fackeln  in  unheimliches,  rotes Licht getauchtenRaum, während eine massive Stahltür den Ausgang nach Osten darstellt."
+    },
+    {
+      "id": 412,
+      "source_offset": 6903,
+      "packed_bytes": 451,
+      "decoded_bytes": 780,
+      "decoded_sha256": "e7009196f4b8e49b6383fd67156364bef0c1ce0ec2daa25c08a4ff97e5fb4f39",
+      "text": "Dies  ist  das  Amtszimmer  des  Torwächters.  Einige  unstet flackerndeKerzen  verwandeln  den  Raum in ein unheimliches, tanzendes Licht- undSchattenspiel,  aber  wozu  brennen  sie überhaupt? Der alte Torwächtermüßte  doch  eigentlich  schon  seit  Jahrzehnten tot sein! Will Zargonvielleicht  bloß  Deine  stümperhaften  Versuche, ihn zu vernichten, mitansehenkönnen,  oder  hat  er in der Zwischenzeit vielleicht sogar jemanden aus seinerHorde  mit  der  Aufgabe  betraut,  das  Tor  zu  öffnen  -  oder  vielmehr: zuSCHLIESSEN  -,  um unerfahrene Abenteurer wie Dich in seine tödlichen Fallen zulocken...?  Das  Treppenhaus, von dem aus Du wieder in das Obergeschoß der Burgzurückkehren  kannst,  liegt im Norden, während eine massive Stahltür durch dieWand im Westen führt."
+    },
+    {
+      "id": 413,
+      "source_offset": 7354,
+      "packed_bytes": 876,
+      "decoded_bytes": 1534,
+      "decoded_sha256": "20f0f8fe5068b656d77404fffd7ab6c535e2b859f2895f636149d8ee641fd6aa",
+      "text": "Du  schaust  Dich  im Zimmer des Dungeon-Masters Kay um. Alles in diesemRaum  erinnert  Dich  unangenehm an diesen fiesen B-Class-Movie, den DuDir  letzten  Monat im Kino bei Euch zuhause angeschaut hast: ein Film,in  dem  Menschen  von  einem  grausamen  Despoten  solange  in  seinenVerliesen  gefangengehalten  wurden,  bis  sie zu schwach waren, um während derihnen  bevorstehenden,  langen  und ekelerregenden Folterprozedur noch um Gnadewinseln  oder  gar  um  Hilfe  schreien  zu  können!  Kay und sein Kumpan Krissschienen  ähnliche  Sadisten  gewesen  zu  sein:  Überall  im  Raum  findest DuFolterinstrumente,  über  deren  Sinn  und Zweck nachzudenken Deine unschuldigeVorstellungskraft  bei  weitem  übersteigen  dürfte!  Jedes einzelne der Geräteist  mit  liebevollen  Erläuterungen,  wie  \"Daumenschrauben für FLAKE-Finger\",\"Für  unseren  lieben Holger\", oder \"Dahmlos'sche Jungfrau\", versehen. In einerweiteren  Ecke  des  Raumes  hängt  ein Käfig, in dem zwei verrottete, mit vielWohlwollen  als  menschlich zu bezeichnende Skelette kauern: \"Das Seifert-Team:Mr.  Copper  \u0026  Blitter-Boy\",  steht  mit  zierlichen  Buchstaben auf der Tafeldaneben   geschrieben.   Du   gedenkst   der   armen   Kreaturen,   die  diesemFolterinstrumentarium  zweifelsohne  unfreiwillig  seinen  Namen  geben mußten:Offensichtlich  waren  sie die unglücklichen Ritter, die es gewagt hatten, sichdem  Willen  Zargons  entgegenzustellen... Der einzige Ausweg aus dieser Stättehundertfachen Mordes führt durch eine kleine Gittertür im Süden."
+    },
+    {
+      "id": 414,
+      "source_offset": 8230,
+      "packed_bytes": 488,
+      "decoded_bytes": 850,
+      "decoded_sha256": "f17234fdae5d14cf748d5b661428a34defb72ea6cc107031f477e1692b1d2856",
+      "text": "Du  stehst  im  Untergeschoß  des  Treppenhauses.  \"Hmmm...:  Ganz schöndunkel  hier  unten!\",  erkennst  Du mit fachmännischem Blick, da Du sogut  wie  nichts  sehen  kannst  (Mann! Was für ein Satz!). Über DeinemKopf  befindet  sich  das  mittlere  Geschoß  der  Burg, von dem aus Duhierher  hinabgestiegen  bist.  Dich fröstelt, als Du Dir vor Augen hältst, daßZargon  sich  wahrscheinlich  ebenfalls  in  diesem Geschoß aufhält - versteckthinter  einer  dieser  Wände,  vielleicht  bloß ein paar Meter von Dir entferntund  nur  darauf wartend, daß Du ahnungslos in seine Kammer rauschst, ohne auchnur  die  geringste  Gefahr  zu  erwarten - und Du kannst verdammt sicher sein,daß  er  nicht allein sein wird...! Der Gang führt nordwärts in einen Korridor,ostwärts  in  eine  Waffenkammer,  und  nach  Süden  hin  in das Amtszimmer desTorwächters."
+    },
+    {
+      "id": 415,
+      "source_offset": 8718,
+      "packed_bytes": 393,
+      "decoded_bytes": 705,
+      "decoded_sha256": "bfa1d08f6385d51be0b2bf4d0b7e7f44e64bb5062c6eaf3704ed45c697aa3a79",
+      "text": "Du  betrittst  die Rüstungskammer des Schlosses: Unmengen uralter Waffenund  Rüstungen  hängen  bzw.  stehen  an  den  Wänden  - aber alle ohneAusnahme   verstaubt   oder   vom   Rost   zerfressen,   da  sie  schonjahrzehntelang  nicht  mehr benutzt - geschweige denn gepflegt - wordensind.  Anscheinend  hatten  die  tapferen  Gefolgsleute  König  Richards  nichteinmal  mehr  die Zeit, sich für ihre letzte, grausame Schlacht zu wappnen: Siewurden  feige  und  hinterrücks wie Vieh abgeschlachtet! In der Ecke steht einelebensgroße  Statue  eines  erfahrenen,  alten  Kriegers  in voller Rüstung. Dukannst  die  Waffenkammer nur durch die westliche Tür verlassen, die wieder insTreppenhaus zurück führt."
+    },
+    {
+      "id": 416,
+      "source_offset": 9111,
+      "packed_bytes": 807,
+      "decoded_bytes": 1406,
+      "decoded_sha256": "955fdc704b8c747ec640264ec4693893a3ef03c0a4bafbe95d50117fb4c374ec",
+      "text": "Du  betrittst  eine  düstere Halle. Ja, wirklich: Viel mehr kann ich Dirhierzu  leider  wirklich  nicht  erzählen:  Du  stehst  in  einem  ganzsimplen  Tunnel,  dessen  einzige Funktion es lediglich ist, zwei Räumemiteinander  zu  verbinden,  da  wir sie \"um die Ecke bauen\" mußten. Duverstehst,  was  ich  meine? Ja? Kerl! Natürlich verstehst Du es NICHT, denn Duhast  Dir  ja auch sicherlich keine Karte gezeichnet, oder? Siehste! Ich hoffe,daß  Du  uns  diese  Notlösung trotzdem verzeihen kannst, denn immerhin hast Dues  ohne  nennenswerte  (Jawohl:  NENNENSWERTE!  Wenn Du wüßtest, was Dich hiererst  noch  erwartet...!)  Probleme  bis  hierhin  gebracht und daher wohl aucheinige,  hoffentlich  unterhaltsame, Stunden in unserer kleinen Welt verbracht,oder?  So,  und  nach  all  diesem  zusammenhanglosen  Gesülze,  mit dem wir eswieder    einmal    geschafft    haben,   eine   mehrzeilige   Raumbeschreibungzusammenzuschinden,  sei  hier  noch  einmal  kurz  aufgeführt, was uns in dreiJahren  Entwicklungszeit  zur  Beschreibung dieser Örtlichkeit eingefallen ist.Also:  Rechts  an  der  Wand  neben  Dir  hängt  ein  Vorhang,  hinter  dem derDurchgang  zum  Weinkeller  des Schlosses liegt, und weiter im Norden kannst Duein  unheimliches,  phosphoreszierendes  Leuchten  erkennen. Schaurig, wie? Ichmeine:  Schaurig,  wie  man so wenig Information in so viel stumpfsinnigen Textverpacken kann!"
+    },
+    {
+      "id": 417,
+      "source_offset": 9918,
+      "packed_bytes": 417,
+      "decoded_bytes": 739,
+      "decoded_sha256": "77a4788328e1d9036aee5b7f177bde4ea9a6fb81de9b2995eb919fa4602f8e85",
+      "text": "Du  stehst in einem feuchten Weinkeller unterhalb des Vorratsraumes. Derschwere  Gärungsgeruch  in  der  Luft raubt Dir beinahe den Atem: Egal,welch'  edler  Tropfen sich einst in den drei riesigen Holzfässern, diegegen  die  westliche  Wand  gelehnt  liegen,  befunden  haben mag: BeiWINZER  könnte  man  mit dem heute wohl völlig vergorenen Zeug sicherlich nichtmal   mehr   einen  Blumentopf  gewinnen!  Eines  von  den  Fässern  kommt  Dirallerdings  ziemlich  bekannnt  vor  - nur, wo Du es schon einmal gesehen habenkönntest,   scheint   Dir   momentan  leider  entfallen  zu  sein...  Über  dieglitschigen  Steinstufen  in der nordöstlichen Ecke des Kellergewölbes gelangstDu wieder in die Vorratskammer im Erdgeschoß des Schlosses."
+    },
+    {
+      "id": 418,
+      "source_offset": 10335,
+      "packed_bytes": 495,
+      "decoded_bytes": 865,
+      "decoded_sha256": "13d573d7d8723b30cecd0ac90805a8274a0a2e0a743f6e51987d1f98fcc9aa09",
+      "text": "Du  betrittst  einen  Korridor im Untergeschoß des Schlosses. Direkt vorDeiner  Nase  erhebt  sich,  unheimlich in den Schein der an den Wändenbefestigten  Fackeln  getaucht,  eine  riesige,  schwarze  Ebenholztür.Merkwürdigerweise  ist  der  sonst  unbearbeitete,  felsige Boden einenMeter  vor  der  Tür  sauber  gefliest: Ab hier beginnen anscheinend wieder dieWohnräume.  Nun  kannst  Du  entweder  zurück zu den Steinstufen im Süden gehenoder  versuchen,  die  Tür  im  Norden  zu öffen - falls sie nicht schon längstoffen  steht...  Als  Du zufällig nach oben schaust, siehst Du hoch über DeinemKopf  zwei  schmutziggraue Vögel am blauen Himmel kreisen: \"Geier!\", schießt esDir  instinktiv  durch  den  Kopf...  Du  hast wohl 'ne Macke! Wir befinden unsmehrere  Meter  unter  der  Erde!  Vielleicht  solltest  Du  einfach  mal diesegräßlichen Drogen absetzen?"
+    },
+    {
+      "id": 419,
+      "source_offset": 10830,
+      "packed_bytes": 609,
+      "decoded_bytes": 1055,
+      "decoded_sha256": "c582ba0959ed951bff48daceddf51cb47c7427f704ee9162f8d9fab2a122f312",
+      "text": "Du   betrittst  eine  lange,  düstere  Halle,  an  deren  Wänden  einigemysteriöse,  steinerne  Kästen  stehen. Exakt in der Mitte des Gewölbeshat  jemand  ein  großes  Pentagramm  auf den Boden gezeichnet. Nachdemsich  Deine  Augen  einigermaßen  an  die Dunkelheit hier unten gewöhnthaben,   gefriert   Dir   beim   nochmaligen  Betrachten  der  großen  Behälterallerdings  das  Blut  in den Adern! Diese \"Kisten\" sind irgendwie viel zu großund  massiv  für  ordinäre  Truhen oder ähnliches! Das können doch nur... SÄRGEsein!  Der  kalte  Angstschweiß  bricht  Dir  aus:  \"NEIN!  Bitte  nicht  schonwieder!\",  flehst  Du  inbrünstig  die  A.C.A-Götter an - aber sie kennen keineGnade:  Diese  Kästen  sind und bleiben Särge! Und nun bemerkst Du auch endlichden  penetranten  Geruch  von Fäulnis und Verwesung in der Luft - den süßlichenDuft  des  Todes,  der  in  dicken,  hellgrünen Rauchschwaden aus jedem Riß derSteinsarkophage  quillt...  Der  einzige  sichtbare  Ausweg aus diesem Raum istdas Portal im Süden, das Dich zurück in die Vorhalle führt."
+    },
+    {
+      "id": 420,
+      "source_offset": 11439,
+      "packed_bytes": 421,
+      "decoded_bytes": 711,
+      "decoded_sha256": "eb6580545bc3ace06e01df12ce974379f0ab2aecae5a85956393eb1689672ef8",
+      "text": "Dies  hier scheint Zargons Schlafzimmer zu sein: Alles ist in gedämpftemSchwarz  und  Rot gehalten. An den Wänden hängen ein paar Portraits vonZargon  und  seinen  dämonischen  Verbündeten,  und  auf  einem kleinenSchminktischchen   stehen  einige  zierliche  Parfümflacons,  Make  Ups(Apropos  \"OOPS\":  Grüße  an  LEVEL  9!)  und  viele andere Dinge, die wohl dieErscheinung  des  doch  schon  nicht mehr ganz so taufrischen Magiers ein wenigverjüngen  sollen.  Am  meisten  jedoch  zieht Zargons pechschwarzes Himmelbettmit  den  rotsamtenen Vorhängen Deinen Blick auf sich: Vielleicht können wir jaseinen  Teddy  als  Geisel nehmen...? Durch die Tür im Osten gelangst Du wiederin Zargons Schwarze Bibliothek."
+    },
+    {
+      "id": 421,
+      "source_offset": 11860,
+      "packed_bytes": 575,
+      "decoded_bytes": 1033,
+      "decoded_sha256": "ead41a6f230228bcb0f6fee4537408520187981e4936f1d63f4961b8c7c922b8",
+      "text": "Falls  Du  Dich  für  Spritismus,  Okkultismus und ähnlich obskure Dingeinteressierst,  solltest  Du jetzt besser Deinen Spielstand abspeichernund  Dein  Tipi in dieser Schwarzen Bibliothek aufschlagen - Du würdestDich  wie  im  Siebten  Himmel  fühlen!  Die Bücherregale an den Wändenbiegen  sich  förmlich  unter  der  Last  der alten, vergilbten Schwarten: Hierkannst  Du  so  ziemlich  alles  nachlesen, was jemals ein verwirrter Geist zumThema  Teufelsanbetung,  Totenkult  und  anderen  Abstrusitäten ersonnen und zuPapier  gebracht  hat.  Von den Regalen einmal abgesehen, besteht das restlicheMobiliar   der  Bibliothek  eigentlich  nur  noch  aus  einem  großen,  antikenLedersessel,   der   im   Zentrum   des  Zimmers  steht,  und  einem  passendenStudiertisch,   von   dem   aus   eine  Kerze,  die  in  einem  eingeschlagenenmenschlichen   Schädel   steckt,   den  Raum  in  ihren  unsteten,  flackerndenLichtschein  taucht...  Ausgänge  führen  in  alle  vier Himmelsrichtungen - Dumußt sie eventuell nur erst finden..."
+    },
+    {
+      "id": 422,
+      "source_offset": 12435,
+      "packed_bytes": 311,
+      "decoded_bytes": 549,
+      "decoded_sha256": "b339517bdbd4ad64be49488fbc657c60c3093fc4c60168ff8a8ec05821107d47",
+      "text": "Hier  können alle Erträge Zargons gotteslästerlicher Verbrechen gefundenwerden:   In   diesem   Raum  sind  Unmengen  wertvoller  Vasen,  reichverzierter  Teppiche  und  andere  Luxusgegenstände  zusammengehortet -alle  entweder  gestohlen  oder  aus  dem  Obergeschoß  nach hier untengebracht  worden,  nachdem  die  Königsburg eingenommen war. In der Ecke kannstDu  einen  kleinen Stahltresor stehen sehen. Meine Güte: Das ist ja die reinsteSchatzkammer!  Durch  die  Tür in der westlichen Wand gelangst Du wieder zurückin die Schwarze Bibliothek."
+    },
+    {
+      "id": 423,
+      "source_offset": 12746,
+      "packed_bytes": 264,
+      "decoded_bytes": 460,
+      "decoded_sha256": "e711625ccaaccd24187c45f9599ebdbb75545a67c173164c0bfa6bddb7cb31af",
+      "text": "Du  befindest  Dich  in  Zargons  Labor,  das  ihm auch als Opferraum zudienen  scheint,  da  es  -  wenn man es zum Beispiel mit Mylgors Laborvergleicht  -  einen  wesentlich  mystischeren  Eindruck  macht:  StattKolben  und  Reagenzgläsern  findest  Du  nur  ein Weihwasserbecken undeine  weitere  Schale  für Zargons magisches Purpurfeuer, beide auf Sockeln ausschwarzem  Marmor.  Der  einzige  Ausweg  aus diesem verruchten Ort führt durchdie Tür im Osten."
+    },
+    {
+      "id": 424,
+      "source_offset": 13010,
+      "packed_bytes": 283,
+      "decoded_bytes": 494,
+      "decoded_sha256": "313f7c79aaae814fc4576c10398e2a152397f594e2fe55196d82a2f1559ddebc",
+      "text": "Du  findest  Dich in Zargons Studierstube wieder: Wie üblich, ist wiedereinmal  fast  alles  in  Schwarz gehalten - aber das Faszinierendste andiesem  Raum  ist  eigentlich  der Tisch aus schwarzem Marmor in seinerMitte:  Du  kannst  Deinen  Blick  kaum von diesem höchst kunstvoll, jageradezu  perfekt  gearbeiteten Möbelstück abwenden! Ausgänge führen nach Ostenin  Zargons  Mysterium,  nach  Westen in sein Geheimlabor, und - naja, dann istda eben noch diese mysteriöse Regalwand im Süden..."
+    },
+    {
+      "id": 425,
+      "source_offset": 13293,
+      "packed_bytes": 504,
+      "decoded_bytes": 903,
+      "decoded_sha256": "6cb7a2e56956426740bb0e19c609cad086236fb53d738c573ed34f89229128bc",
+      "text": "Vorsichtig,  und  krampfhaft  bemüht,  nicht  das  geringste Geräusch zuverursachen,   betrittst  Du  das  Mysterium  des  bösen  HexenmeistersZargon:  Purpurne,  grüne  und  türkise Rauchwolken steigen wabernd ausverschiedenen  Kesseln  auf  und  bilden  die  Gestalten  von  Dämonen,Geistern  und  Teufeln,  die sich alle in einer Sprache unterhalten, die Dir sofremd  ist  wie  die  Welt,  deren Bewohner sie vor Millionen von Jahren einmalgesprochen   haben  -  doch  sie  hört  sich  wahrhaft  teuflisch  an!  In  dernordwestlichen  Ecke  der  Halle  befindet  sich ein Podest mit einem schwarzenSamtkissen,  das  zur Aufnahme von Zargons Seelenkristall dient, dem Juwel, dasdem   Magier   seine   unheilige  Macht  verleiht  und  ihn  dennoch  für  ewiggefangenhält!   Der   einzige  Ausweg  aus  diesem  unheimlichen  Stimmen-  undFarbenchaos führt durch die schwarze Ebenholztür in der Westwand."
+    },
+    {
+      "id": 426,
+      "source_offset": 13797,
+      "packed_bytes": 459,
+      "decoded_bytes": 803,
+      "decoded_sha256": "4aad40c2823b0a3c6756c5d82f3cc7df50c5808025043305103d4825c1e5281b",
+      "text": "Du  stehst im Haus des Torwächters. Ebenso wie alle anderen Bedienstetenam  Hofe  des  Königs  scheint  auch er ein Butahzwerg gewesen zu sein,was  sich  einfach  aus  der  Größe  seiner  kleinen Holzhütte erkennenläßt:  Als  Du  sie betrittst, mußt Du Dich schon tief bücken, um nichtmit  dem  Kopf  gegen  den  Türrahmen zu stoßen! Die Winzigkeit der Möbelstückebestätigt  Deine  Vermutungen:  Selbst  das verhältnismäßig großzügig bemesseneBett  wäre  für  Dich  zu  klein,  um auch nur halbwegs bequem darauf sitzen zukönnen!  Ansonsten  ist  der  gesamte  Wohnraum  jedoch recht sparsam möbliert,wenn  auch  nicht  annähernd  so  primitiv,  wie  die  anderen  Räume in diesemHöhlensystem  erwarten  ließen.  Durch  die kleine Tür in der Nordwand gelangstDu wieder zurück ans Ufer der kleinen Insel."
+    },
+    {
+      "id": 427,
+      "source_offset": 14256,
+      "packed_bytes": 456,
+      "decoded_bytes": 818,
+      "decoded_sha256": "c7d40eb1db41ab8107ab260a3c9c553e7cebec127266c3fa0ef585f48899b883",
+      "text": "Du  betrittst  die  ziemlich  primitiv  eingerichtete  Hütte  des  altenFährmanns:  An  der  Wand  hängt  ein  kleiner  Schaukasten,  der  alledenkbaren  Kombinationen  von  Seemannsknoten  darstellt,  während  einkleines  Schild  an der Nordwand besagt, daß Dich jede Überfahrt zu derkleinen  Insel  auf  dem unterirdischen See fünf Dollars kostet: Sogar hier hatwohl  schon  die  Währungsreform stattgefunden, so daß nun anscheinend nur nochmit  harter,  kapitalistischer  Währung  gezahlt  wird!  Lässig  an  einen  rohgezimmerten  Tresen  gelehnt  und  zufrieden  auf  dem  Mundstück seiner Pfeifeherumkauend,   kannst   Du   den   Fährkapitän   stehen   sehen:  einen  alten,weißbärtigen  Seebären  mit  einer blauen Kapitänsmütze auf dem Kopf. Du kannstdas Fährhaus durch die Tür in der östlichen Wand verlassen."
+    },
+    {
+      "id": 428,
+      "source_offset": 14712,
+      "packed_bytes": 320,
+      "decoded_bytes": 583,
+      "decoded_sha256": "3ec4fd7160c54f247f2081d2ed76ca303577cfa6553fe6e19641c2c640e5dd62",
+      "text": "Du  stehst  am  Ufer eines kleinen, unterirdischen Sees: Überall um Dichherum  hängen  bzw.  stehen  riesige  Stalagmiten  und Stalagtiten, diegeheimnisvoll   in   allen  vorstellbaren  Farben  leuchten.  Im  Ostenbefindet  sich  der  See,  in  dessen  Mitte Du ein winziges Eiland miteiner  kleinen  Holzhütte  darauf erkennen kannst, während weiter im Westen dieHütte  des  alten  Fährmanns  liegt.  Natürlich kannst Du aber auch genauso gutwieder  das  Höhlensystem  betreten,  das sich hinter einem dunklen Loch in derhohen Felswand im Norden weiter in den Berg hinein erstreckt."
+    },
+    {
+      "id": 429,
+      "source_offset": 15032,
+      "packed_bytes": 199,
+      "decoded_bytes": 354,
+      "decoded_sha256": "75c272c6f25a28d1643bcd03c98f8893e3715057822989a6602872cfb4b6b113",
+      "text": "Du  stehst  auf  einer kleinen Insel inmitten eines unterirdischen Sees:Am  westlichen  Ufer befindet sich ein kleiner, brüchiger Landesteg, andem   früher   das   Boot  des  Torwächters  beziehungsweise  die  hierregelmäßig  verkehrende  Fähre  festgetaut  wurden. Hinter Dir, also imsüdlichen Teil der Insel, steht die kleine Holzhütte des Torwächters."
+    },
+    {
+      "id": 430,
+      "source_offset": 15231,
+      "packed_bytes": 437,
+      "decoded_bytes": 767,
+      "decoded_sha256": "7d3ddbe55d40aa7d8296581df3c5741db1ae9552761496fd38b80c573ab0440e",
+      "text": "Vorsichtig  tastest  Du  Dir  Deinen  Weg  durch  den  Tunnel,  als  Dirplötzlich  in  den  Sinn  kommt, daß Du Dich jetzt ja eigentlich direktunter  dem  Schloß  befinden  müßtest,  vielleicht  sogar  direkt unterZargons  Gemächern!  Viel  mehr  beschäftigt  Dich  jedoch  die  Frage,wieviele  dieser  langweiligen  Räume dieses Adventure wohl noch enthalten mag,und  ob  die  Autoren  wirklich  genug  Phantasie besessen haben, sich zu jedereinzelnen  Örtlichkeit  eine  halbwegs gehaltvolle Beschreibung aus den Fingernzu  saugen.  Sorgfältig  liest  Du  Dir  also  diese Raumbeschreibung durch, umDeine  Frage  mit  einem entschiedenen \"Nein!\" zu beantworten! Das Geistvollstewar  noch  der  Satz  \"Abzweigungen führen in alle Himmelsrichtungen außer nachWesten.\""
+    },
+    {
+      "id": 431,
+      "source_offset": 15668,
+      "packed_bytes": 399,
+      "decoded_bytes": 703,
+      "decoded_sha256": "a6105e3ee4e3442cc5d1ffa04f71d2b13eb5be930a76d23c831241dd5465ce11",
+      "text": "Du    betrittst    einen    stillen,    kühlen    Platz   inmitten   desButah-Höhlensystems.   Eine   frische   Quelle  mit  bläulichem  Wassersprudelt  munter  aus  der  Nordwand  heraus,  um  die durstigen Kehlenfleißiger  (!)  Abenteurer zu erfrischen. Was Dich allerdings ein wenigstutzig  macht,  ist  das  kleine  Schild neben der Quelle, das so eine Art rotdurchgestrichenen  Hundekopf  darstellt  - ähnlich den STOP-Schildern in DeinerHeimatwelt!  Da  Du  aber  die Bedingungen, die Dich zum Trinken aus der Quelleberechtigen  würden,  sowieso  nicht  erfüllst,  kann  Dir  die  Bedeutung  desSchildes  auch  ziemlich  egal  sein...  Du  kannst Deinen Weg nach Norden odernach Westen fortsetzen."
+    },
+    {
+      "id": 432,
+      "source_offset": 16067,
+      "packed_bytes": 386,
+      "decoded_bytes": 679,
+      "decoded_sha256": "99ba13286c6b2159542296cf4f8a7260eca419518f1948e19279d054dd1c0bff",
+      "text": "Immer  noch  völlig erstaunt über die riesige Kapazität dieses Spieles -und   völlig   fassungslos  angesichts  der  grenzenlosen  Blasiertheitseiner   Autoren  -,  betrittst  Du  den  Thronsaal  des  Butah-Königs.Unheimlich  hallen  Deine  Schritte  von  dem marmornen Fußboden wider,als  Du  Dich  dem  massigen,  steinernen Thron auf dem Podest vor der Westwandnäherst.  Das  flackernde Licht, das von den an den Säulen angebrachten Fackelnherrührt,  läßt  Deinen  Schatten unheimlich auf den Wänden hin- und hertanzen,und  von  irgendwoher  dringt  ein leises Fauchen an Dein Ohr... Durch ein Lochin der Ostwand gelangst Du wieder zurück in das Höhlensystem der Butah-Zwerge."
+    },
+    {
+      "id": 433,
+      "source_offset": 16453,
+      "packed_bytes": 413,
+      "decoded_bytes": 704,
+      "decoded_sha256": "6fca7fcf164ab1512b809f6d8b67d19c6f19cc5f52b2e3998c2414fcf6148725",
+      "text": "Als  Du  die  finstere  Höhle  betrittst, fällt Dir sofort der stechendeRaubtiergestank  in  der  Luft  auf, der Dir beinahe den Atem raubt undin  Deiner  Nase  beißt.  Es  riecht  nach Gefahr... Es knurrt auch wieGefahr...  Scheiße!  Das IST Gefahr! Verschlafen öffnen sich zwei Augenvor  Dir,  die  Dich  zornig  anfunkeln, und als Deine Augen sich an das Dunkelgewöhnt  haben,  erkennst  Du die Silhouette eines großen, muskulösen Cu-Saths,einem  Artverwandten  des prähistorischen Säbelzahntigers, mit kräftigen Klauenund  langen,  scharfen  Reißzähnen! Tja, Kumpel: Viel Glück! Ausgänge führen inalle  Himmelsrichtungen  außer  Norden - stellt sich nur noch die Frage, wie Dudort hinkommen willst..."
+    },
+    {
+      "id": 434,
+      "source_offset": 16866,
+      "packed_bytes": 335,
+      "decoded_bytes": 608,
+      "decoded_sha256": "f5dbc1dde013c2ea22f453c09aa2cca2a7c84dcda12d48de6f407455eb51cc07",
+      "text": "Du  betrittst  ein finsteres, dunkles Höhlensystem, von dessen bemoostenWänden  Wasser  herunterrinnt  und  kleine,  brackige  Lachen  auf  demfelsigen  Boden  bildet.  Diese  Gänge  sind  einst  von  Butahs, einemkleinen,  den  Zwergen  nahe verwandten Volk, angelegt worden, da vielevon  ihnen  früher als Diener oder Handwerker am Hofe König Richards arbeiteten-  als  sie  noch  lebten... Du kannst die unterirdischen Höhlen entweder durchdie  Steigeisen  in  der  Wand nach oben verlassen, oder sie tiefer erforschen,indem  Du  eine der drei Abzweigungen nimmst, die nach Norden, Süden und Westenführen."
+    },
+    {
+      "id": 435,
+      "source_offset": 17201,
+      "packed_bytes": 327,
+      "decoded_bytes": 573,
+      "decoded_sha256": "de1cdbbdcc2169e9a3c19ea979c8760c3ba048b695cbb30298114238e498983b",
+      "text": "Du  stehst in einer Art \"Wohnhöhle\", die allem Anschein nach in höchsterEile  verlassen  worden  ist:  Hier  gibt  es kaum noch ein Möbelstück,wenn  man  mal von dem kleinen Steinbett absieht, über das so etwas wieein  Mammutfell  auf  ein  paar  Lagen  schmutzigen Strohs ausgebreitetist.  Auch  liegen  hier  noch  ein paar kleinere Habseligkeiten der vormaligenHöhlenbewohner  auf  dem  Boden  herum, die sie wohl während ihres überstürztenAufbruchs  vergessen  oder verloren haben müssen... Der Wanddurchbruch im Südenführt Dich wieder auf die kleine T-Kreuzung zurück."
+    },
+    {
+      "id": 436,
+      "source_offset": 17528,
+      "packed_bytes": 571,
+      "decoded_bytes": 1005,
+      "decoded_sha256": "156a3609d8f5be1f68feb6ac84b8070b43761dca894e45b69a915c9e2bb697a8",
+      "text": "Als  Du  den  Hof  des Schlosses betrittst, fühlst Du irgendetwas Seltsames undGefährliches  hinter  Dir,  und  drehst  Dich erschrocken um! Du glaubst DeinenAugen  nicht  trauen  zu  können:  Das Portaltor, durch das Du den Burghof nochvor  wenigen  Sekunden  betreten  hast,  bewegt  sich  langsam  -  als  ob einegeisterhafte  Hand  es  schlösse!  Von Panik ergriffen, rennst Du auf den immerschmaler  werdenden  Spalt  zu,  um  noch  in allerletzter Sekunde, solange diePforte  sich  noch  nicht ganz geschlossen hat, aus diesem unheilvollen Gemäuerzu  fliehen,  aber  es  ist  bereits  zu spät: Mit einem lauten Knall fällt dasmassive  Tor  vor  Dir  ins  Schloß! Tja, da steckst Du wohl mal wieder bis zumHals  in  der Sch... -äh: im Schlamassel! Ich glaube, es ist besser, Du findestDich  mit  Deinem  Schicksal  ab  und löst erst einmal die Aufgabe, die man Dirauferlegt  hat  - und zwar möglichst bald, denn ich möchte nicht wissen, was umMitternacht in dieser unheimlichen Burg los sein wird...!"
+    },
+    {
+      "id": 437,
+      "source_offset": 18099,
+      "packed_bytes": 161,
+      "decoded_bytes": 274,
+      "decoded_sha256": "69cd5159e84546c8c9381a8746d24da71ab8c0c95a423cf0b78dbab08c503719",
+      "text": "Als  die  Ratten  Deine  Anwesenheit bemerken, beginnen sie nervös - oder eher:HUNGRIG?  -  zu  quieken!  Besonders  eine  unter  ihnen, ein häßliches, fettesBiest,  schaut  Dich  aus  heimtückisch  funkelnden Äuglein an, während sie dieTür im Westen des Raumes blockiert..."
+    },
+    {
+      "id": 438,
+      "source_offset": 18260,
+      "packed_bytes": 750,
+      "decoded_bytes": 1341,
+      "decoded_sha256": "677ae8d517e09e44490b718da4cf40c1bdf2555fab35e788ed55bd7c502ca19f",
+      "text": "Es  sieht so aus, als hätten die Ratten nicht ganz so viel Zeit zu verschwendenwie  Du,  denn  es ist Abendbrotzeit, und die fetten Bestien scheinen das genauzu  wissen:  Wie  auf  ein  Zeichen  hin springen sie Dich alle zugleich an! Dukannst  Dich  der  hartnäckigen  Attacken der kleinen Biester kaum erwehren undwirst  zu  Boden  gerissen,  wo  Du  machtlos  mitansehen mußt, wie Du zu einemschmackhaften  Rattenmahl  verarbeitet  wirst! Tja: Es ist wiklich ein ziemlichübles  Gefühl,  bei  lebendigem  Leibe  ein  Auge  aus  dem  Kopf  gerissen  zubekommen:  Der  Schmerz  macht  Dich  fast  wahnsinnig! Doch gerade, als Du denMund  öffnest,  um  laut  loszubrüllen,  springt  eine  Ratte auf Dein Gesicht,tanzt  dort  zu  heißen,  rituellen  Rhythmen  -  und  reißt  Dir während einerPirouette   zu   einem  ekstatisch  und  temperamentvoll  ausgestoßenen  \"Ouh!\"schwungvoll  die  Zunge aus, so daß Dein Schrei von einem warmen Schwall Deineseigenen  Blutes  zu  einem  gurgelnden Röcheln abgedämpft wird! Keine Sorge: Duwirst  schon  nicht  daran ersticken! Denn mit Deinem verbleibenden Auge kannstDu  bereits  eine  dritte  Ratte  neugierig an Deiner Halsschlagader schnuppernsehen,  bevor  sie  sie  schließlich  mit  einem einzigen, herzhaften Biß ihrermesserscharfen Schneidezähne durchtrennt und Dich von Deinen Qualen erlöst..."
+    },
+    {
+      "id": 439,
+      "source_offset": 19010,
+      "packed_bytes": 564,
+      "decoded_bytes": 987,
+      "decoded_sha256": "a13b66d41b95117069b73c65b9c65cf208d4caecb3549c13fbb320099a557d38",
+      "text": "Es  war  ein  blöder  Fehler,  noch einmal hierherzukommen - ganz gleich, unterwelchen  Umständen:  Zwei  riesenhafte,  verrottende  Mumien warten bereits aufDich...  Allerdings:  Irgendwie scheinen unsere beiden Vermummungskünstler dochein  wenig  infantil  veranlagt  zu  sein,  denn  offensichtlich wollen sie vorDeinem  Tod  noch  eine  Runde  Tauziehen mit Dir spielen! In der verzweifeltenHoffnung,  während  des  Wettkampfes  vielleicht doch noch eine Gelegenheit zurFlucht  zu  erhalten,  willigst  Du  kurzerhand  in  ein  Match  ein  - bis Dirunmißverständlich  klargemacht  wird, daß Du nicht als Athlet, sondern als SEILan  dem  Spiel teilnehmen sollst! Tja, also Wettkampfqualität besaß Dein Körpernicht  gerade,  denn  er  reißt  schon  nach  zwei  Runden verbissenen Hin- undHerzerrens,  so  daß  es  von  nun an wohl zwei Hälften von Dir geben wird, ausdenen  Deine  geplatzten  Eingeweide  herausquellen  und  den schönen, sauberenFußboden mit Blut und Galle besudeln..."
+    },
+    {
+      "id": 440,
+      "source_offset": 19574,
+      "packed_bytes": 516,
+      "decoded_bytes": 910,
+      "decoded_sha256": "9b9e8c125812951ed6813c93a010543e27503b00f48a35222b2e03be1cf06f6e",
+      "text": "Als  Du  Dich  in  der Mitte des weißen Pentagramms in Zargons Mysterium wiedermaterialisierst,  erhebt  sich  der  alte  Hexer  verwundert  aus  seinem hohenSessel.  \"Warum  mußtest  Du denn schon so früh kommen?\", schnarrt er mit einerSpur  von  Enttäuschung  in  seiner Stimme, \"Ich habe im Moment überhaupt keineZeit,   mich   um  Dich  zu  kümmern  -  leider...!\"  Mit  einer  nebensächlichanmutenden  Bewegung  seiner  rechten  Hand  läßt  er  wie aus dem Nichts einenriesigen  Feuerball  in  der  Luft entstehen und schleudert ihn direkt auf Dichzu!  Das  letzte,  woran  Du  in der Dir verbleibenden Zeit noch denken kannst,ist  die  extreme  Energieverschwendung  Zargons  -  denn ein kleiner, dezenterBlitz  hätte  es  ja  wohl auch schon getan! Dann wird es plötzlich sehr hell -und  sehr  heiß!  Ein  kleines Häuflein rauchender Asche ist schließlich alles,was noch von Deinem Körper übrigbleibt..."
+    },
+    {
+      "id": 441,
+      "source_offset": 20090,
+      "packed_bytes": 791,
+      "decoded_bytes": 1372,
+      "decoded_sha256": "36ca0b91be0a5e9df5d5b3a16f6564167245d75c4e198cdbb6e5a1d6b22bfe1d",
+      "text": "Als  Zargon  Dich  inmitten  seines  weißen Kreidepentagramms auftauchen sieht,steht  er  auf und erhebt sich zu seiner vollen Größe: \"Warum konntest Du nichtwarten?\",  schnarrt  er  enttäuscht, \"Ich habe im Moment absolut keine Zeit fürDich  -  leider...\"  Mit  einer  leichten Bewegung seiner rechten Hand versuchter,  einen  Feuerball  herbeizubeschwören,  doch alles, was Du erkennen kannst,ist  eine  kleine  Flamme, die ihm die Handflächen versengt! Als Du schadenfrohloskicherst,  schreit  der  Hexenmeister  voller  Schmerz: \"Verdammt! Aber nochhast  Du  nicht  gewonnnenn!\"  Er klatscht kurz in die Hände (\"Say hooo!\"), undein  paar  Sekunden  später  materialisieren  sich  zwei  hühnenhafte, häßlicheMumien   in  dem  Pentagramm  neben  Dir.  Völlig  entgeistert  und  zu  keinerGegenwehr  fähig,  bereitest  Du  ihnen nicht die geringsten Probleme: KräftigeKlauen  greifen  nach Deiner Kehle, und kurz darauf hörst Dein Genick mit einemkurzen,  aber  lauten  \"Krack!\"  brechen!  \"Gott  sei  Dank!\",  denkst  Du nocherleichtert,  \"Ich  hatte  schon befürchtet, sie würden mich erwürgen!\" WährendDeine  Seele  in  die Ewigen Jagdgründe entfleucht, kannst Du noch mit ansehen,wie  Dein  Kopf  brutal vom Rumpf gerissen und auf den Boden geschmettert wird,wo  nun  Deine  Hirnmasse  zähflüssig  über die Steinplatten quillt, bis Zargonsie wegwischen lassen wird..."
+    },
+    {
+      "id": 442,
+      "source_offset": 20881,
+      "packed_bytes": 920,
+      "decoded_bytes": 1625,
+      "decoded_sha256": "0638c4daf2e781eec829e3640fcfbcd5b678c44aa0703f2bedd37df13b30b4de",
+      "text": "Also,  wenn  Du  wirklich  meinst,  daß  Zargon sich fürchten müßte, wenn Du inseine   Geheimkammern   eindringst,  dann  hast  Du  Dich  aber  ganz  gewaltiggeschnitten!  Im  Gegenteil: Seelenruhig führt er erst einmal seine Unterredungmit  einem  der  Dämonenfürsten zu Ende und wendet sich dann erst Dir zu. \"Raushier,  aber  dalli!\",  schreit  er  Dich  an, nachdem er Dich ein paar Sekundenlang  abschätzend  gemustert  hat,  \"Glaubst  Du  etwa,  ich  ließe  Dich  hierstundenlang  in  meinem  Schloß  herumlaufen,  bloß  um  Dich  hinterher so mirnichts,  Dir  nichts, einfach abzuschlachten, ohne mich zuvor ein wenig mit Diramüsieren  zu  können?  Du  hast  doch  überhaupt  noch  keine  Chance, mich zubesiegen  -  also  verschwinde endlich und bereite Dich gefälligst etwas besserauf  unseren  Kampf vor! Schließlich will auch ich meinen Spaß haben! Man gönntsich  ja  sonst  nichts...\" Mit diesen Worten schiebt er Dich ärgerlich zur Türhinaus   und  schließt  sie  hinter  sich.  Von  draußen  kannst  Du  ihn  nochundeutlich  murmeln  hören:  \"Diese  jungen  Narren!  Haben nicht die geringsteAhnung,  aber  wollen  immer  gleich  mit  dem  Kopf durch die Wand! Was glaubtdieser   Spinner  wohl,  wie  er  jemals  einen  Platz  in  der  Highscorelisteergattern  könnte?  Ich  glaube,  ich muß wirklich mal ein ernstes Wörtchen mitChris  und  Kai  reden:  Schlimm genug, mich in solch ein schwachsinniges Spielzu  stecken,  aber  mir  dann noch solche Weicheier vorbeizuschicken - das gehtnun   wirklich   zu   weit!   Ich  sollte  mich  wirklich  beim  Verband  gegenNichtspielercharakter-Quälerei beschweren...\""
+    },
+    {
+      "id": 443,
+      "source_offset": 21801,
+      "packed_bytes": 210,
+      "decoded_bytes": 378,
+      "decoded_sha256": "9ae4a8bb0e8583073b5c362254fe1470cdc6d139744a82df428b7bc2d94a44bb",
+      "text": "Als  Zargon  Deine  Anwesenheit  bemerkt,  dreht  er sich langsam zu Dir um: Duglaubst  Deinen  Augen  nicht  trauen  zu  können, als Du in seinen Augen einenleichten  Schimmer  von  Furcht  erkennst!  \"Nun  gut,  Du  hast  Deine Aufgabeerfüllt  -  nun ist es an mir, zu tun, was getan werden muß...!\", keucht er undzieht einen kleinen, silbernen Dolch unter seinem Cape hervor!"
+    },
+    {
+      "id": 444,
+      "source_offset": 22011,
+      "packed_bytes": 458,
+      "decoded_bytes": 811,
+      "decoded_sha256": "3efb183d9befe8be01467f44f5ef446f242cef24eb6e857115bd618b277cfa6c",
+      "text": "Als  er  den  Mantel des Butahkönigs um Deine Schultern bemerkt, fällt der alteFährmann  auf  die  Knie  und  fragt  mit  unterwürfiger Stimme: \"Eure Majestätwünschen  das  Boot  zu  benutzen?\"  Gütig  nickst  Du,  nimmst den Fuß, den Duinstinktiv  in  den  Nacken  des Mannes gesetzt hattest, herunter und bedeutestihm  mit  einer  gnädigen  Geste,  sich  wieder  zu  erheben.  \"Dann  nehmt denBootsschlüssel  von  Eurem  ergebenen  Diener  entgegen  und  vergebt  ihm  denmiserablen  Zustand  seiner  Fähre:  Es  muß  eine Zumutung fü Euch sein, Eurenköniglichen  Fuß  in  sie  hineinzusetzen,  aber  die Geschäfte gehen schlecht:Verzeiht  mir!\"  Nachdem  er  Dir  die  Füße saubergeleckt hat, wendet sich derFährenkapitän  unter  unzähligen Bücklingen wieder seiner Arbeit zu. Siehst Du:Kleider machen Leute!"
+    },
+    {
+      "id": 445,
+      "source_offset": 22469,
+      "packed_bytes": 125,
+      "decoded_bytes": 213,
+      "decoded_sha256": "a826481481a7ca0009db0c6c21baf9177a04db8fa1b4cf33908c903fc1da6390",
+      "text": "Die  Ratten  scheinen  Deine  Absicht, ihr Revier zu durchqueren, aber ganz undgar  nicht  gutzuheißen!  Nichtsdestotrotz  bist  Du  zum  Abendessen  herzlichwillkommen - unglücklicherweise jedoch als Hauptgang..."
+    },
+    {
+      "id": 446,
+      "source_offset": 22594,
+      "packed_bytes": 300,
+      "decoded_bytes": 537,
+      "decoded_sha256": "087041a44c95e7aedce1918dc9e94d33fe2c1442a963b8e0626691cc6595f7cf",
+      "text": "Oh  nein!  Als  Du  wieder die Küche betrittst, sind die Ratten bereits mit demTischgebet  fertig  und warten auf das Abendessen - und unglücklicherweise bistDu  es,  der  sich  auf ihrer Speisekarte befindet! Genaueres zu Deinem Ablebenwollen  wir  Dir  an  dieser Stelle ersparen: Appetitlich ist es sicherlich nurfür  die  Ratten  gewesen!  Wenn  Du allerdings tatsächlich eine detailliertereBeschreibung  Deines  Todes  lesen möchtest, dann bleib' beim nächsten Mal docheinfach etwas länger in der Küche, und warte ab, was geschieht!"
+    },
+    {
+      "id": 447,
+      "source_offset": 22894,
+      "packed_bytes": 285,
+      "decoded_bytes": 500,
+      "decoded_sha256": "6fedb704e75fa98c243891362fefb66616ca9531da1aa2440cbc80fa66f3b96b",
+      "text": "Du   glaubst   Deinen  Augen  nicht  trauen  zu  können:  Das  Portaltor  stehttatsächlich  sperrangelweit  offen!  Unter  dem  Torbogen  kannst  Du den GeistKönig  Richards  schweben  sehen, der Dir gütig und dankbar zuzulächeln scheint-  und  auch  die  Vögel zwitschern wieder von den Bäumen herab: Das ganze Landblüht  wieder  auf, zum ersten Mal seit langer, langer Zeit! Feierlich gehst Duauf  Deinen  neugewonnenen  Freund  zu  und  läßt  die finsteren Burgmauern fürimmer hinter Dir - FREI..."
+    },
+    {
+      "id": 448,
+      "source_offset": 23179,
+      "packed_bytes": 379,
+      "decoded_bytes": 653,
+      "decoded_sha256": "da5d6306df62266e9d2a64f3c4d72315e8f1707c7d9bc5aa9dcaf404ee6ff49e",
+      "text": "Es  war ein ziemlich dummer Fehler, das Schloß in Werwolfsgestalt zu verlassen:Als  Du  nämlich  gerade  das Portaltor passierst, überglücklich, Zargons Fluchentronnen  zu  sein, fühlst Du plötzlich einen brennenden Schmerz im Rücken: Eswar  dieser  bescheuerte,  alte  Eremit,  der heute auf Wolfsjagd gegangen ist!Langsam  und  zitternd  vor  Schmerzen  drehst  Du  den  Kopf auf die Seite undziehst  einen  Speer  aus  Deinem Rücken - einen Speer mit versilberter Spitze!Du  spürst,  wie  Du langsam schwächer und schwächer wirst, und während Du überDeinen  völlig  sinnlosen  und  unnötigen  Tod nachsinnst, wird plötzlich allesdunkel - für immer..."
+    },
+    {
+      "id": 449,
+      "source_offset": 23558,
+      "packed_bytes": 67,
+      "decoded_bytes": 113,
+      "decoded_sha256": "623173b473b8252ae0b1d01ef587e7a675e5a931a5a60011a4dc223a0e198421",
+      "text": "Eine  starke,  dunkle Aura hält Dich immer noch im Schloß gefangen! Ich glaube,Du hast da noch etwas vergessen..."
+    },
+    {
+      "id": 450,
+      "source_offset": 23625,
+      "packed_bytes": 549,
+      "decoded_bytes": 971,
+      "decoded_sha256": "e05ff6c942d14d754c497f4c7f309f4913358b928c219ced3644a2ac64518685",
+      "text": "Als  er Deine Absicht bemerkt, seine Höhle zu durchqueren, fletscht der Cu-Sathzornig  seine  Zähne, doch dann...: Aber einen Moment mal! Was ist denn das? Essieht  so  aus, als würde die Bestie Dein Parfüm mögen, da es dasselbe ist, dasihr  Herrchen  vor  langer,  langer  Zeit  einmal benutzt hat! Du traust DeinenAugen  nicht,  als  das  sonst so gefährliche Untier sanft zu schnurren beginntund   sich   zärtlich   an   Deinen  Körper  schmiegt!  Dann  spürst  Du  etwasMerkwürdiges,  Warmes  Deine  Waden  herunterrinnen:  Angeekelt  schaust  Du anDeinem  Hosenbein  herab,  wo  der  Cu-Sath seine Duftnote hinterlassen hat, umDir  seine  starke  Zuneigung zu zeigen. Dann zuckst Du jedoch gleichgültig dieAchseln:  Immerhin  ist  es  gesunder, mit Tierexkrementen besudelt zu sein alszu  Tierexkrementen  verarbeitet  zu  werden,  oder?  Gestärkt durch den tiefenphilosophischen  Sinn  dieser  Erkenntnis setzt Du also frohen Mutes Deinen Wegdurch die Höhle fort..."
+    },
+    {
+      "id": 451,
+      "source_offset": 24174,
+      "packed_bytes": 275,
+      "decoded_bytes": 468,
+      "decoded_sha256": "7ec036b0ef3523a67e0896c80d36a0354008d334cb5ff3156b6eeeb287c6101e",
+      "text": "Als  der Cu-Sath Deinen Versuch bemerkt, sein Revier zu durchqueren, erfüllt erroutiniert  seinen  Job, nämlich die Halle im Westen zu bewachen! Naja: Es gibtecht  nicht  sehr  viel  über Dein plötzliches Ableben zu berichten: Kurz, aberschmerzvoll,   gibst   Du   den   Löffel  ab!  Dabei  hätte  es  wirklich  vielspektakulärere  Todesmöglichkeiten  in  diesem  Spiel gegeben! Naja: Wenn Du soweiterspielst, wirst Du auch sie sicherlich noch früh genug kennenlernen!"
+    },
+    {
+      "id": 452,
+      "source_offset": 24449,
+      "packed_bytes": 52,
+      "decoded_bytes": 87,
+      "decoded_sha256": "360235ce4a00e38074cdac32665f16a8503997f725874f169ae1f38601d0b4fa",
+      "text": "Du  stößt das kleine Boot vom Ufer ab und ruderst zu der kleinen Insel im Ostenhinüber."
+    },
+    {
+      "id": 453,
+      "source_offset": 24501,
+      "packed_bytes": 59,
+      "decoded_bytes": 104,
+      "decoded_sha256": "7723aaf7963b0a622e72bc1984c19ba7eeedb6bfc7312002ef40f67c6212fdd0",
+      "text": "Du  stößt  das  Boot  vom  Steg  ab  und  setzt  wieder zum westlichen Ufer desunterirdischen Sees über."
+    },
+    {
+      "id": 454,
+      "source_offset": 24560,
+      "packed_bytes": 297,
+      "decoded_bytes": 532,
+      "decoded_sha256": "2b8d2795621ac60b14ebf11f39cc2a2621db6447a671ead411858065e59bdba4",
+      "text": "Tätärätäää!  Und  wieder eine Situation, in der unser Kandidat Dave Parker sichein  wenig  zuviel Zeit nehmen zu können glaubte! Als Zargon Deinen verzweifeltsuchenden  Blick  nach  einer  wirksamen  Waffe  gegen  ihn und seine magischenKräfte  bemerkt,  nimmt  er  seine  Chance  wahr  und  sticht  Dich  mit seinemkleinen,  geweihten  Silberdolch  ab!  Das letzte, was Du noch erkennen kannst,als  Du  zwischen  seinen  Beinen  alle  Viere  von Dir streckst, ist die Sohleseines Stiefels, die sich langsam Deinem Gesicht nähert..."
+    },
+    {
+      "id": 455,
+      "source_offset": 24857,
+      "packed_bytes": 122,
+      "decoded_bytes": 218,
+      "decoded_sha256": "af6aeff5229bb1b1282f2e20ba170a2c7e8b39d5ee1eabe8374733ef3bbd9119",
+      "text": "Hast  Du  denn  etwa  überhaupt  keinen  Respekt  mehr  vor den Toten? Mal ganzabgesehen  davon  ist  es  auch  gar  nicht mehr nötig, den armen Abenteurer zutöten: Da kommst Du wohl ein wenig zu spät, würde ich sagen!"
+    },
+    {
+      "id": 456,
+      "source_offset": 24979,
+      "packed_bytes": 353,
+      "decoded_bytes": 606,
+      "decoded_sha256": "b297126a4bac5181dcd29ba172a1a663f3076d6d64768e6a1873e4b0a2ef85bc",
+      "text": "Du  versuchst,  die  Truhe  unter  Gewaltanwendung  zu  öffnen - doch im selbenMoment,  als  Du ihr Schloß berührst, siehst Du einen grellweißen Blitz aus ihrherauszucken,  der  Dich  auf  der  Stelle  erschlägt! Du hattest keine Chance:\"Die  Spannung  war  auf dem Höhepunkt\" - da war einfach nichts mehr zu machen!Aber  sag'  mal:  Bist  Du  blind?  Der  verkokelte  Leichnam des unglücklichenAbenteurers  sollte  Dich  doch eigentlich gewarnt haben! Naja, vielleicht sindZWEI  verkohlte  Leichen  ja  eher  in  der Lage, einem Blindfisch wie Dir beimnächsten Mal als abschreckendes Beispiel zu dienen..."
+    },
+    {
+      "id": 457,
+      "source_offset": 25332,
+      "packed_bytes": 404,
+      "decoded_bytes": 710,
+      "decoded_sha256": "998ab249511a4bd447a63089bf0ae00b1e857aeaac4a1cd58da14ec920ac8603",
+      "text": "Mit  einem letzten, hämischen Blick zerreißt Du den Vertrag, der Dich an Zargonund  Mylgor  gebunden  hatte,  in  handliche,  kleine  Schnipsel  und  läßt siezufrieden  zu  Boden  rieseln  - aber in dem Moment, als der erste Papierfetzenden  Boden  berührt,  fühlst Du einen stechenden Schmerz in der Herzgegend, derlangsam  aber  sicher  Besitz  von Deinem gesamten Körper ergreift! Als lebendeFackel  stürzt  Du  mit  einem  letzten,  fürchterlichen  Schrei  zu Boden, undwährend  Deine  Seele  zur Hölle fährt, kannst Du mit ansehen, wie sich aus demRauch  der  letzten  Flammen ein Totenschädel bildet: Nun bist Du endlich frei!Niemand wird jemals wieder in der Lage sein, Dich zu irgendetwas zu zwingen..."
+    },
+    {
+      "id": 458,
+      "source_offset": 25736,
+      "packed_bytes": 1269,
+      "decoded_bytes": 2227,
+      "decoded_sha256": "ac415babfd831598ebd850cedeffcff3f1838be1fbd0097cf93a3a8b4f75de9a",
+      "text": "Als  Zargon bemerkt, wie Du Dich nach seinem Seelenkristall umblickst, versuchter  vor  Dir zu dem Podest zu gelangen - doch es ist bereits zu spät: Mit zwei,drei  leichtfüßigen  Schritten erreichst Du den Sockel, ergreifst das Juwel undstemmst  es  hoch  über Deinen Kopf: Dumpf pulsiert der Stein in Deinen Händen,als  wäre  er  von  eigenem  Leben erfüllt! Als er erkennen muß, daß Du nunmehrdie  Macht  über  ihn  erlangt  hast, verlegt Zargon sich aufs Bitten: Er flehtDich  verzeifelt  an,  ihn zu verschonen, er bietet Dir Mylgors Stelle als seinStatthalter  in  dem kleinen Dorf an - ja, er verspricht Dir sogar, Dich wiederin  einen  Menschen  zurückzuverwandeln,  wenn  Du seinen Kristall unangetastetließest:  Er  sagt,  es gäbe irgendwo eine Quelle, deren Wasser Dich von DeinerInfektion  mit  dem  Werwolfsblut heilen könnte... Einen kurzen Augenblick langläßt  Du  das  Geschehene noch einmal vor Deinem geistigen Auge Revue passierenund  denkst  darüber  nach,  was wohl mehr wiegt: Dein Schicksal - oder das dergepeinigten  und  geknechteten Dorfbewohner, und Du brauchst nicht allzu lange,um  zu  einer  Entscheidung  zu gelangen: Ohne Zargons Jammergewinsel weiter zubeachten,  schmetterst  Du  den  Seelenkristall mit aller Kraft zu Boden, wo erin  tausend  Splitter  zerbirst,  von  denen  jedoch  immer noch jeder einzelneZargons  Portrait  widerspiegelt!  Im  selben  Moment  jedoch, als der Kristallzerbricht,   hörst  Du  Zargon  hinter  Dir  hysterisch  aufschreien!  Zu  Todeerschrocken,  drehst  Du  Dich  um - um Zargon im Todeskampf mit einer dichten,dunkelgrauen  Wolke  zu  sehen,  die  wohl  durch  das  Auseinanderbrechen  desdunklen  Juwels  freigesetzt worden ist, in dem sie viele Jahrzehnte auf dieseneinen  Moment  gewartet  haben  muß!  Lediglich Zargons wild um sich schlagendeArme  und  Beine  schauen  noch  aus  dem  schmutziggrauen Nebel heraus! Dann -plötzlich  -  ist  der  Spuk vorbei: Die Wolke verschwindet ebenso schnell, wiesie  aufgetaucht  ist, und mit ihr auch der böse Hexenmeister! Eine bedrückendeStille  erfüllt  den  Raum,  als  Du Dich erschöpft an der Wand hinuntergleitenläßt:  Alles,  was  von  Zargon  übriggeblieben  ist,  sind seine Krone und dasKönigszepter..."
+    },
+    {
+      "id": 459,
+      "source_offset": 27005,
+      "packed_bytes": 315,
+      "decoded_bytes": 543,
+      "decoded_sha256": "01a585519f58b2c0b40927caa57eb61b39899b3e0831aa228a909bc0b7eef554",
+      "text": "Hastig  rennst  Du  zu  dem  Seelenkristall hin, um ihn zu vernichten und damitZargons  gotteslästerliche  Existenz  endgültig  zu  beenden  - aber als Du dasweiße  Kreidepentagramm  zwischen Dir und dem Podest überquerst, fühlst Du Dichplötzlich  so  merkwürdig!  So  müde  -  und  so schwindelig! Und als Du an Dirherabblickst,  bemerkst  Du, wie sich Dein Körper langsam entmaterialisiert, uman  einen  anderen  Ort  in  Zargons  Schloß teleportiert zu werden! Vielleichterinnerst Du Dich ja an ein weiteres Pentagramm in diesem Gemäuer...?"
+    },
+    {
+      "id": 460,
+      "source_offset": 27320,
+      "packed_bytes": 288,
+      "decoded_bytes": 518,
+      "decoded_sha256": "aaab789e4832f43c6fc383ae247239b0be79560efcb1fb7eda54b52861c8fce5",
+      "text": "Vorsichtig,  und  ohne  den  Blick  von  Zargon abzuwenden, näherst Du Dich demKessel.  Der  alte  Magier  scheint  sehr  wohl  zu wissen, was Du vorhast, underhebt  beschwörerisch  die  Hände, um zwei seiner teuflischen Vasallen in seinmagisches   Pentagramm   zu  rufen  -  doch  bevor  seine  Hände  in  der  Luftzusammentreffen,  hast  Du  auch  schon  den schweren Kessel umgestoßen, so daßsich   sein   Inhalt   dampfend   über   den   Boden   ergießt  und  dabei  dasKreidepentagramm fast vollständig auslöscht!"
+    },
+    {
+      "id": 461,
+      "source_offset": 27608,
+      "packed_bytes": 99,
+      "decoded_bytes": 176,
+      "decoded_sha256": "3e9fe7470c115939565ecd90a0266c2b01bfeff480d93249becc02d7aaef705b",
+      "text": "Können  vor  Lachen!  Weißt  Du  eigentlich, wie schwer das Ding ist? Du wärestdoch  nicht  einmal  in  der Lage, den Kessel auch nur einen Zentimeter von derStelle zu bewegen!"
+    },
+    {
+      "id": 462,
+      "source_offset": 27707,
+      "packed_bytes": 105,
+      "decoded_bytes": 185,
+      "decoded_sha256": "fdf173e05a306308bb57d8f1b23742e5592bfec66fe7e8ff705622e843973467",
+      "text": "Nicht  für  eine  Million  würde  ich  sie  anfassen!  Solltest  Du tatsächlichirgendwelchen  nekrophilen  Hobbies  frönen  wollen,  dann  tu das bitte in derRealität - aber nicht hier!"
+    },
+    {
+      "id": 463,
+      "source_offset": 27812,
+      "packed_bytes": 333,
+      "decoded_bytes": 572,
+      "decoded_sha256": "f0af738d2c0fbc974969ab761870357626308828633c3caa763f6ce2ffa9030d",
+      "text": "Unglücklicherweise  ist  Dein Boot während Deiner Abwesenheit weggetrieben: Nuntreibt  es  herrenlos  in  der  Mitte  des  kleinen  Sees,  so  daß es Dir wohlunmöglich  sein  dürfte,  es  von  hier aus zu erreichen. Leider haben wir auch\"vergessen\",  ein  \"Schwimm\"-Gadget  in  SOUL  CRYSTALs  Benutzeroberfläche  zuintegrieren:  Schließlich  muß Dummheit ja auch irgendwie bestraft werden! Beimnächsten  Mal  vertauen  wir  unser  Boot  also  einfach  etwas sorgfältiger amLandesteg,  ja?  Immerhin  haben  wir  das  Ding  ja  nicht nur aus Spaß an derFreude eingebaut..."
+    },
+    {
+      "id": 464,
+      "source_offset": 28145,
+      "packed_bytes": 249,
+      "decoded_bytes": 418,
+      "decoded_sha256": "8660fde916cd81dc32ba18bcd6f6b0d14e94d803c1b4668287e7240d3836bea0",
+      "text": "Als  Du  das weiße Pentagramm betrittst, fühlst Du Dich plötzlich so merkwürdigduselig:  Alles  um  Dich herum beginnt sich zu drehen - und plötzlich wird Dirschwarz  vor  Augen!  Du  stirbst... Nein! Entschuldigung: Du stirbst natürlichnicht!  NOCH  nicht!  Du scheinst lediglich teleportiert zu werden, denn als Duwieder   aus  Deinem  traumlosen  Schlaf  erwachst,  hat  sich  Deine  Umgebungvollkommen verändert..."
+    },
+    {
+      "id": 465,
+      "source_offset": 28394,
+      "packed_bytes": 220,
+      "decoded_bytes": 387,
+      "decoded_sha256": "94d8d2ea0b7e41b62134b226ff80fb2e4970c901adef81eb6c4fcaffda7fdead",
+      "text": "Diesen  unglücklichen  Abenteurer  hat's  voll erwischt: Sein ganzer Körper isttotal  verkohlt  -  also solltest Du bei der Lösung Deiner Aufgabe besser nichtauf  seine  Hilfe  zählen! Er hält immer noch sein verbogenes Schwert in etwas,das  vor  langer,  langer  Zeit wohl einmal eine Hand gewesen sein könnte... Inseiner linken Hand hält der tote Abenteurer einen verknitterten Zettel!"
+    },
+    {
+      "id": 466,
+      "source_offset": 28614,
+      "packed_bytes": 31,
+      "decoded_bytes": 52,
+      "decoded_sha256": "c5b154f036b347c410768de059ec7410daf6272e71e8a85718fdb111362bd008",
+      "text": "Es enthält ein kleines, vergilbtes Papierzettelchen!"
+    },
+    {
+      "id": 467,
+      "source_offset": 28645,
+      "packed_bytes": 73,
+      "decoded_bytes": 130,
+      "decoded_sha256": "9337f1583468ef451051f695a8d10bb6a39e367dbc817bfc44105a0cb28fa59b",
+      "text": "Ein  kleines,  aus  Nappaleder  gefertigtes  Säckchen,  das  mit  einer  Schnurzugezogen und als Brustbeutel getragen werden kann."
+    },
+    {
+      "id": 468,
+      "source_offset": 28718,
+      "packed_bytes": 92,
+      "decoded_bytes": 151,
+      "decoded_sha256": "05ef17a731bbad496c6fb705d80db51588e46c49ab6c58bc72c936738a74c581",
+      "text": "Du  klopfst  vorsichtig  gegen  das  Holz:  Dumpf  hallt  Dein Schlag von innenzurück! Also, allzu voll scheint das Faß wohl auch nicht mehr zu sein..."
+    },
+    {
+      "id": 469,
+      "source_offset": 28810,
+      "packed_bytes": 52,
+      "decoded_bytes": 91,
+      "decoded_sha256": "cd7f6cd335912dd1b185b1804ccac69209c151801f555d95e263a160370dfa0e",
+      "text": "Als  Du  ein  wenig in Zargons Bettzeug herumstöberst, findest Du einen kleinenLederbeutel!"
+    },
+    {
+      "id": 470,
+      "source_offset": 28862,
+      "packed_bytes": 23,
+      "decoded_bytes": 37,
+      "decoded_sha256": "e9f1323d6053a24af7b8acd70b6292b4d5935dbdaad435e5d0adba6f2985f166",
+      "text": "Das Wasser schimmert geheimnisvoll..."
+    },
+    {
+      "id": 471,
+      "source_offset": 28885,
+      "packed_bytes": 74,
+      "decoded_bytes": 129,
+      "decoded_sha256": "5e2c295743393133bc6471442e9039aa348771737dd4932e3423495fe9178756",
+      "text": "Dies  ist die kleine Fähre, die der Bootskapitän benutzt, um seine Fahrgäste zuder Insel auf dem unterirdischen See überzusetzen."
+    },
+    {
+      "id": 472,
+      "source_offset": 28959,
+      "packed_bytes": 146,
+      "decoded_bytes": 256,
+      "decoded_sha256": "9fdafb70612532e19a1bbd33660f87919cdc75cdc08df14cb1b090b352565f5e",
+      "text": "Auf  dem  Bootsschlüssel  ist  - wie nicht anders zu erwarten - ein kleines \"B\"eingraviert!  Keine  Sorge:  Bei  unserem  nächsten  Spiel werden wir uns extrajemanden  suchen,  der  sich  halbwegs intelligente Beschreibungen speziell fürSchlüssel ausdenkt!"
+    },
+    {
+      "id": 473,
+      "source_offset": 29105,
+      "packed_bytes": 69,
+      "decoded_bytes": 117,
+      "decoded_sha256": "fcf1189cb7d928a77e2099644f9da63923c22a06b0d3cb54b181e8a7d4443965",
+      "text": "Das  scheinen ja wirklich verdammt alte Schwarten zu sein: Auf jedem Buch liegteine gut zentimeterdicke Staubschicht!"
+    },
+    {
+      "id": 474,
+      "source_offset": 29174,
+      "packed_bytes": 31,
+      "decoded_bytes": 53,
+      "decoded_sha256": "e7da77614589896eab36b1620c94a5f8490e50971e4dace562a1433d1fd3d07b",
+      "text": "Ganz einfach eine kleine Scheibe frischen Weißbrotes."
+    },
+    {
+      "id": 475,
+      "source_offset": 29205,
+      "packed_bytes": 95,
+      "decoded_bytes": 156,
+      "decoded_sha256": "4aa049c72fa14b93621d25c234b5922ea261ba15f11915c67db8d4ce18875707",
+      "text": "Mit  gierigem Blick schaust Du auf die dünne Brotscheibe, die Du vorhin mit demRattengift aus dem Kloster präpariert hast: Ein tödlicher Sandwich, wirklich!"
+    },
+    {
+      "id": 476,
+      "source_offset": 29300,
+      "packed_bytes": 181,
+      "decoded_bytes": 313,
+      "decoded_sha256": "d6bf9b0ec8529fcb4c4abc0df786b11bffa321d09ea88cb2116104d61ec35c02",
+      "text": "Eine  schwere  Truhe, die rein äußerlich nicht viel hermacht - wenn man von demkleinen  und  höchst  wertvoll gearbeiteten Schloß davor absieht, einem Schloß,das  irgendwie  ganz und gar nicht zu der Truhe paßt! Andererseits dürfte solchein kleines Ding jedoch eventuelle \"Knackarbeiten\" erheblich vereinfachen..."
+    },
+    {
+      "id": 477,
+      "source_offset": 29481,
+      "packed_bytes": 138,
+      "decoded_bytes": 218,
+      "decoded_sha256": "1cac3001f18822cb854722e75dfb12103bed46f15af0881625f692738592561a",
+      "text": "Die  Kombination  lautet:  \"1A9C9A2\": Aufschlußreich, nicht wahr? Naja, nur einkleiner  Scherz:  Das  ist  natürlich  kein  Code,  wie  Du vielleicht erwartethattest, sondern der vollständige Hexdump dieses Programmes!"
+    },
+    {
+      "id": 478,
+      "source_offset": 29619,
+      "packed_bytes": 76,
+      "decoded_bytes": 128,
+      "decoded_sha256": "ec8578cabc3ab7b7a4728c41bfffea538e4098da3ed55395a69ec36963051cae",
+      "text": "Vorsichtig  hebst  Du  einen der Särge an: Ziemlich schwer, das Ding! Du fragstDich, wieviel er wohl ohne seinen Inhalt wöge...!"
+    },
+    {
+      "id": 479,
+      "source_offset": 29695,
+      "packed_bytes": 152,
+      "decoded_bytes": 273,
+      "decoded_sha256": "f81999f2d18c0395e329b1d7904e05daa15ae9dcc6fafc62fdcd7d669f25c6bc",
+      "text": "Sofort  erkennst  Du  den Vertrag wieder, den Du an dem Abend Deiner Ankunft indieser  Welt  unterschrieben  hast. Deine Unterschrift ist mit dunkelrotem Blutunter  die  fremden  Schriftzeichen  geschmiert worden, deren Sinn zu deuten Duimmer noch nicht in der Lage bist..."
+    },
+    {
+      "id": 480,
+      "source_offset": 29847,
+      "packed_bytes": 505,
+      "decoded_bytes": 909,
+      "decoded_sha256": "62ebb7d2c1d40a28ecb119f317a661fbc0843b89007ab4d96d58abfa8357db95",
+      "text": "Dir  gefriert  beinahe  das Blut in den Adern, als Du in die nahezu vollständigverwesten  Gesichter  blickst:  Alles, was Du aus ihnen herauslesen kannst, istAngst  und  unbeschreibliches Grauen... Nachdem Du Dich zitternd wieder von dentoten  Tafelgästen  abgewandt  hast,  schaust  Du  Dich nochmals um: überall imSaal  liegen  verrenkte  Leichen,  einzelne Körperteile und andere Dinge, derenBedeutung  und  Herkunft  Du lieber erst gar nicht wissen möchtest! In der Tat:Es  scheint  sich  also ganz genau so abgespielt zu haben, wie König Richard esDir  beschrieben  hatte:  Zargons  Männer  waren in das Schloß eingedrungen undhatten  wahllos  alles  niedergemetzelt, was sich ihnen entgegenzustellen wagte-  sogar  Frauen  und  Kinder!  Nun  bemerkst  Du  auch  langsam,  wie  Dir derpenetrante  Gestank  der  vermodernden  Leichname  in  die  Nase  steigt  - dersüßliche Geruch verwesenden Fleisches..."
+    },
+    {
+      "id": 481,
+      "source_offset": 30352,
+      "packed_bytes": 112,
+      "decoded_bytes": 191,
+      "decoded_sha256": "5ffafde164eafadbba2c33dd74ba4650a6ef3e9f9ca2eb819c88d878155fed06",
+      "text": "Die  schwere  und  prunkvolle Krone Zargons ist von überwältigender Schönheit -doch  als  Du  sie  berührst, fühlst Du, wie eine unheimliche, dunkle Macht vonDir Besitz zu ergreifen versucht!"
+    },
+    {
+      "id": 482,
+      "source_offset": 30464,
+      "packed_bytes": 235,
+      "decoded_bytes": 412,
+      "decoded_sha256": "88c113cb50bed01af4b97c078b24d0fe23d0e7b221101a0891b6d34c792d4949",
+      "text": "Zargons  Seelenkristall  ist  ein  fremdartiges  Juwel  von phänomenaler Größe.Gebettet  auf  ein  schwarzes  Samtkissen, glüht der Stein in einem mystischen,kalten  Feuer,  das  ihn ein geradezu überirdisches Licht ausstrahlen läßt. AlsDu  ihn  Dir  genauer  ansehen  willst,  mußt  Du  mit Mühe einen erschrockenenAufschrei  unterdrücken:  Der  Kristall  spiegelt  nicht Dein - sondern ZargonsGesicht wider...!"
+    },
+    {
+      "id": 483,
+      "source_offset": 30699,
+      "packed_bytes": 177,
+      "decoded_bytes": 312,
+      "decoded_sha256": "69ac79006f160c9977662e992626f4f283f7d32937bc862fc29b6f11fb9b8cb4",
+      "text": "Der  Cu-Sath  hat eine Schulterhöhe von ungefähr einem Meter und ist circa dreiMeter  lang.  Geschmeidig  und  anmutig  bewegt  er  sich durch seine Höhle undknurrt  von  Zeit  zu  Zeit  gereizt zu Dir herüber. Es sieht nicht so aus, alshättest Du in einem normalen Kampf eine Chance, diese Bestie zu besiegen..."
+    },
+    {
+      "id": 484,
+      "source_offset": 30876,
+      "packed_bytes": 56,
+      "decoded_bytes": 99,
+      "decoded_sha256": "c2af45071cb8367bbef6e20b071581c9e9f533c64d10ded6171bcd46473707b4",
+      "text": "Der  Vorhang  an  der  Wand  besteht  aus  teurem, rotem, jedoch schon ziemlichverschlissenen Samt."
+    },
+    {
+      "id": 485,
+      "source_offset": 30932,
+      "packed_bytes": 121,
+      "decoded_bytes": 216,
+      "decoded_sha256": "382ec5d2bbfaee80418abd22f91a4ec8990f1541890ecaea343fa04f4bb6b1f0",
+      "text": "Der  Schacht  ist viel zu dunkel, als daß Du seine Tiefe von hier oben aus auchnur  annähernd  ausloten  könntest  -  aber wir könnten natürlich versuchen, indie Dunkelheit hinabzuklettern, wenn Du darauf bestehst..."
+    },
+    {
+      "id": 486,
+      "source_offset": 31053,
+      "packed_bytes": 303,
+      "decoded_bytes": 494,
+      "decoded_sha256": "f5657dace705b8ba37e7db073ddbbb7ac5cfb0101197ff8808bc64251dde4fc4",
+      "text": "Auf  dem  Tisch  des  Turmwächters  befinden  sich, mehr oder minder ordentlichaufgereiht,   einige   Bücher   und   Zeitschriften,   mit  denen  er  sich  inFriedenszeiten  die  Langeweile vertrieben hat: So kannst Du zum Beispiel zwölfAusgaben  des  PLAYBOY-Magazins,  Ausgabe  Januar  bis  Dezember 712, entdecken(Mann!  Einer  der  besten  Jahrgänge  überhaupt!),  die  Bestseller  \"Sagt derAMSTRAD  leise  Servus\" und \"How to blow up my ATARI\", und schließlich ein paarseiner Tagebücher..."
+    },
+    {
+      "id": 487,
+      "source_offset": 31356,
+      "packed_bytes": 148,
+      "decoded_bytes": 265,
+      "decoded_sha256": "08479c11d8721854f106b2211c38cc423118162167e59939ca48bbaed7e01f77",
+      "text": "Du  hast  in  Deinem ganzen Leben noch nicht einmal ein Möbelstück gesehen, dasgleichzeitig   sowohl  den  Wohlstand  als  auch  den  guten  Geschmack  seinesBesitzers  besser  auszudrücken  vermochte  als  dieser  große Schreibtisch auskostbarem, schwarzen Marmor!"
+    },
+    {
+      "id": 488,
+      "source_offset": 31504,
+      "packed_bytes": 107,
+      "decoded_bytes": 186,
+      "decoded_sha256": "565a7136cda6c9c1142c4585aabf976022d438076e5735982dddd6be46d68a5b",
+      "text": "Du  betrachtest  das  kleine,  wurmzerfressene  Tagebuch, das wohl vor Urzeiteneinmal  in  Leder  eingebunden  gewesen  sein  muß.  Auf seinem Deckel steht ingroßen Lettern die Zahl 713."
+    },
+    {
+      "id": 489,
+      "source_offset": 31611,
+      "packed_bytes": 987,
+      "decoded_bytes": 1746,
+      "decoded_sha256": "1f45d52f8c3f6961120a4a3687880b21e5246aa982d33594001baa9ba12dd000",
+      "text": "Du  beginnst das zerfledderte Tagebuch des Turmwächters zu lesen: Es beschreibtdie  Belagerung  des  Schlosses  von  ihren  frühesten  Anfängen  bis  zu ihrembitteren  Ende:  Der  umsichtige Turmwächter hatte die Auseinandersetzungen undMachtkämpfe  zwischen  seinem  Herrn  und  Zargon  schon  längst bemerkt, bevorKönig  Richard  auch  nur  an  einen Umsturz zu denken gewagt hätte - doch auchder  Verfasser  dieser Zeilen hätte niemals so etwas erwartet wie das, was erstnoch  kommen  sollte!  Richards  Geist hat offenbar wirklich nichts beschönigt:Als  sein  Körper  schon  kalt  und  verkrümmt auf dem Boden von Zargons Gemachlag,  ließ  Zargon  alle  ehemaligen Gefolgsleute des gestürzten Herrschers wieVieh  im  Burghof zusammentreiben, wo er sie vor die Wahl stellte, entweder ihmzu  dienen,  oder ihrem König in den Tod zu folgen - und an dieser Stelle endendie  Aufzeichnungen  plötzlich...  Du  fühlst  kalte, nach Rache und Vergeltungschreiende  Wut,  aber  gleichzeitig  auch  verzweifelte  Hilflosigkeit  in Diraufsteigen,  als  Du  das kleine, ledergebundene Buch wieder zuschlägst, um nurnicht  weiter  auf  sein  abruptes  Ende starren zu müssen... Im selben Moment,als  eine  dichte,  graue Staubwolke aus den vergilbten Seiten aufsteigt, hörstDu  draußen  einen  Blitz  in  den  Hauptturm  einschlagen,  der  den  Raum fürBruchteile  von  Sekunden  in  sein gespenstisches, fahles Licht taucht und dasGebäude  bis  in die Grundmauern erschüttert - so, als wollte eine gigantische,eherne  Faust  diese  Brutstätte  des  Bösen  ein  für alle Male auslöschen! Soähnlich  muß  es sich wohl auch in der verhängnisvollen Nacht zugetragen haben,in  der  der  brave  Turmwächter  seinem  Herrn  zum allerletzten Mal die Treuehielt..."
+    },
+    {
+      "id": 490,
+      "source_offset": 32598,
+      "packed_bytes": 57,
+      "decoded_bytes": 99,
+      "decoded_sha256": "a48bf33f644b473fd3ec4c4d67f46aa351c4ac496dcb9a351f413687b884de34",
+      "text": "Das  Geschirr  ist  mit  kleinen, zusammengeschrumpelten Portionen vergammelterEssensreste gefüllt."
+    },
+    {
+      "id": 491,
+      "source_offset": 32655,
+      "packed_bytes": 50,
+      "decoded_bytes": 88,
+      "decoded_sha256": "360a56147ea980a140939af4d01daa5526364c7dab2621121e09151d5aa7ee11",
+      "text": "Direkt  über  dem  Schlüsselloch  kannst  Du  eine  kleine,  goldene  Türklinkeerkennen."
+    },
+    {
+      "id": 492,
+      "source_offset": 32705,
+      "packed_bytes": 74,
+      "decoded_bytes": 126,
+      "decoded_sha256": "4b354b2e1706b34c1598390377c6014135176fca2ff52de192b00169b7336da0",
+      "text": "Merkwürdig:  Es  scheint  fast so, als wäre diese Türklinke an ihrer Unterseiteviel stärker abgegriffen als an ihrer oberen..."
+    },
+    {
+      "id": 493,
+      "source_offset": 32779,
+      "packed_bytes": 75,
+      "decoded_bytes": 130,
+      "decoded_sha256": "e36b679ae6b519435054119e1e27263cc672ff06ae2bb9771d4243990d13f9ea",
+      "text": "Der  Fährkapitän  scheint zwar ein ziemlich rauhbauziger, nichtsdestotrotz aberirgendwie auch liebenswerter, alter Seebär zu sein."
+    },
+    {
+      "id": 494,
+      "source_offset": 32854,
+      "packed_bytes": 169,
+      "decoded_bytes": 292,
+      "decoded_sha256": "5eeb4b33fc4eb5e993c2e295ab3c2c276ee60455b02b587d3cbb403c18e879ff",
+      "text": "Dies  muß  das  magische  Purpurfeuer  sein,  aus  dem  Zargon  angeblich seinemagischen  Kräfte  bezieht!  Als  Du Dich der Schale näherst, mußt Du jedoch zuDeiner  Überraschung  feststellen, daß das lodernde Feuer überhaupt keine Hitze- sondern im Gegenteil sogar eisige Kälte ausstrahlt..."
+    },
+    {
+      "id": 495,
+      "source_offset": 33023,
+      "packed_bytes": 113,
+      "decoded_bytes": 199,
+      "decoded_sha256": "7f862539d3769eb35161ebbe2ca0f9e840d9e0504d3dd7768fdf352156b210a4",
+      "text": "Also,  Du  mußt  wirklich  verdammt hungrig sein! Die Speisereste sind derartigvergammelt  und  verstaubt,  daß  selbst der abgerissenste Penner sich vor Ekelschütteln würde, wenn man sie ihm anböte!"
+    },
+    {
+      "id": 496,
+      "source_offset": 33136,
+      "packed_bytes": 170,
+      "decoded_bytes": 300,
+      "decoded_sha256": "a586b0ab5342ca17f0e9e80f6c9047b862db9c4b0b55131b12dbddd52803bf9f",
+      "text": "In  Zargons  Himmelbett  findest  Du lediglich seinen rotgepunkteten Pyjama undschwarzseidene  Bettwäsche  -  oder was hattest Du erwartet? Allerdings: Leute,die   ihren   nächtlichen   Aktivitäten  auf  seidenen  Laken  nachgehen,  sindtatsächlich ein wenig suspekt, da hast Du zweifelsohne recht..."
+    },
+    {
+      "id": 497,
+      "source_offset": 33306,
+      "packed_bytes": 156,
+      "decoded_bytes": 272,
+      "decoded_sha256": "b8f34b5a8f79233b620894cff2b838ebca7bcc2572d945e073f65b8885ecf6ca",
+      "text": "Die  meisten  der Kräuter sind Dir zwar völlig unbekannt, aber zumindest kannstDu  Ginseng,  Knoblauch,  Gift der Nacht und andere Kräuter erkennen, die nichtnur  zum  Verfeinern  feiner  Speisen,  sondern gewöhnlich auch als Zutaten fürmagische Tränke verwendet werden..."
+    },
+    {
+      "id": 498,
+      "source_offset": 33462,
+      "packed_bytes": 293,
+      "decoded_bytes": 521,
+      "decoded_sha256": "2643b18ad3ce1c80fd243ca363b230e335d852aadf0298fb53fc7fd94ef581fa",
+      "text": "Au,  Mann!  Laß'  das  jetzt  bitte nicht zum Dauerzustand werden! Du hast dochwohl  hoffentlich  nicht vor, mir den letzten Nerv zu töten, indem Du mich nachallem  möglichen  Stuß  fragst,  den  diese  hirnverbrannten Programmierer hiereingebaut  haben,  oder?  Das  ist  ein ganz stinknormaler, eiserner Schlüssel,wie  sein  Name  Dir  eigentlich schon verraten haben sollte! Bisher hoffte ichallerdings  davon  ausgehen  zu  können,  daß  Du  lesen  könntest  - und nichteinfach nur wahllos in der Gegend herumklickst!"
+    },
+    {
+      "id": 499,
+      "source_offset": 33755,
+      "packed_bytes": 77,
+      "decoded_bytes": 129,
+      "decoded_sha256": "cdcd57d627081717aad97fb864be3e890d7a64a86da33e1642ca0663390e1579",
+      "text": "Der  Rauch,  der aus Zargons Kessel aufsteigt, formt die unmöglichsten Monster-und Dämonenfratzen: Zargons teuflische Verbündete!"
+    },
+    {
+      "id": 500,
+      "source_offset": 33832,
+      "packed_bytes": 85,
+      "decoded_bytes": 157,
+      "decoded_sha256": "4611f19076da7260edd76f3b8d2c77fae53bc18e4a2f4d6e7ebbccabbf67f148",
+      "text": "An  diesen  hölzernen  Landesteg  wurden  früher  die  Boote  getaut, damit siewährend des Aufenthalts auf der Insel nicht auf den See hinaustreiben könnten."
+    },
+    {
+      "id": 501,
+      "source_offset": 33917,
+      "packed_bytes": 102,
+      "decoded_bytes": 174,
+      "decoded_sha256": "3e6ed8a0bab9202a80c611a61eb5110ccc4d35b9c5257b2c63dd8e6fa159f127",
+      "text": "Diese  massige  Gittertür  ist  wie  gschaffen,  um  Gefangenen  wirklich  jedeHoffnung  auf  Flucht  zu  nehmen!  Hmmm...: Ob das wohl so eine Art böses Omendarstellen soll?"
+    },
+    {
+      "id": 502,
+      "source_offset": 34019,
+      "packed_bytes": 582,
+      "decoded_bytes": 1024,
+      "decoded_sha256": "468ff4050df36bd3ca2770be25d5775b3637c07fe151b367e4e0888dae1dca29",
+      "text": "Es  ist  ein  Brief  von  Mylgor  an  seinen  Herrn  Zargon!  Du  liest:  \"EureBoshaftigkeit!  Gestern  habe  ich  einen  neuen  \"Freiwilligen\"  gefunden, derEuren  Erzfeind  Firon  beseitigen  könnte.  Ich  hoffe,  zumindest  er wird esendlich  schaffen,  ihn  zu  vernichten,  ohne  vorher seinem dümmlichen GeredeBeachtung  zu  schenken,  wie  es  seine Vorgänger getan haben. Sollte Dave, soder   Name   des   Jünglings,   den   ich   ausgesandt   habe,   seine  Aufgabezufriedenstellend  erfüllt  haben,  werde  ich  ihn  selbstverständlich zu Euchschicken,  damit  Ihr  Euch  in  Euren  so gut bestückten Folterkammern mit ihmvergnügen  könnt...  Zusammen  mit  diesem  Schreiben  übersende  ich  Euch denVertrag,  in  dem Dave uns seine Seele verpfändet hat - verfahret damit, wie esEuch  beliebt.  Lebt wohl, Mylord, Euer ergebener Diener Mylgor.\" Oha: Nun wirdDir  einiges  klarer!  Aber  trotzdem  bleibt  die  Sache  noch  immer  mächtigmysteriös, denn in dem Umschlag kann ich den Vertrag zumindest nicht finden!"
+    },
+    {
+      "id": 503,
+      "source_offset": 34601,
+      "packed_bytes": 229,
+      "decoded_bytes": 343,
+      "decoded_sha256": "f491b71b529761d812c22dc72d68d916c0a419f9a8cdab7314bff2eb8af28706",
+      "text": "Die  alte  Karte zeigt den Raumplan des ersten Untergeschosses der Burg. ObwohlDu  die  Schriftzeichen,  die  die  verschiedenen Örtlichkeiten betiteln, nichtentziffern  kannst,  kannst  Du  doch  zumindest  noch  das kleine \"(C)opyright1989/90/91/92   by   AVANTGARDISTIC  ARTS  \u0026  STARBYTE\"  am  rechten  Rand  desbrüchigen Pergaments lesen."
+    },
+    {
+      "id": 504,
+      "source_offset": 34830,
+      "packed_bytes": 988,
+      "decoded_bytes": 1729,
+      "decoded_sha256": "85a970af90671de6c1a1e07c342719eb2869631663ce998c97ce69c6168622e7",
+      "text": "Wie  in  Trance  blickst Du zu dem bleichen, vollen Mond auf - bis Du durch einmerkwürdiges  Geräusch  von dem Berg im Norden her aus Deinen Gedanken gerissenwirst:   Es  ist  dasselbe  Geräusch,  das  Du  damals  schon  einmal  auf  demverwilderten  Friedhof  des  alten,  verfallenen  Klosters  wahrgenommen hast -nur:  Dieses  Mal  verspürst  Du  keine  Angst  mehr  - nein, im Gegenteil: DasGeräusch  scheint  Dir  sogar auf ganz seltsame Weise vertraut zu sein, scheintDich  zu  rufen,  zu  locken...? Urplötzlich fühlst Du einen brennenden Schmerzin  Deiner  Brust,  so als wollte eine dunkle Macht von innen heraus von DeinemKörper  Besitz  ergreifen!  Vor  Schmerz wie von Sinnen, willst Du Dir das Hemdvom  Körper  reißen  - und erstarrst: Deine Brust ist über und über bedeckt mitstruppigem,   schwarzen  Haar,  genau  wie  Deine  Arme  -  und  nach  weiterenqualvollen  Sekunden  Dein  ganzer  Körper!  Du  versuchst zu schreien, doch Duerkennst   Deine   eigene   Stimme   nicht  wieder:  Statt  eines  menschlichenSchmerzensschreies  entringt  sich  Deiner  Kehle  - WOLFSGEHEUL...! Fieberhaftversuchst  Du,  Deine  Panik  herunterzukämpfen  und  einen  klaren Gedanken zufassen:   Offenbar   war   die   Wunde,  die  Dir  der  Werwolf  während  Euresmitternächtlichen  Duells  auf  dem  verwahrlosten Klosterfriedhofes geschlagenhat,  doch  nicht ganz so harmlos, wie Du anfangs in Deiner Naivität angenommenhattest!  Du  könntest  Dich  ohrfeigen vor Wut, aber es hilft nichts... In derHoffnung,  daß  König Richard schon einen Weg finden wird, Dich zu heilen, wennDu  diesem  verfluchten  Gemäuer  erst  einmal  entkommen  bist, beschließt Du,weitere Gedanken über Deine behaarte Zukunft fürs erste zu vertagen..."
+    },
+    {
+      "id": 505,
+      "source_offset": 35818,
+      "packed_bytes": 46,
+      "decoded_bytes": 73,
+      "decoded_sha256": "245b87c55b92f29c6c655108db94013256e2ec4bd31b78aa236c93e7df07b420",
+      "text": "Dich fröstelt leicht, als Du den bleichen Vollmond am Himmel erblickst..."
+    },
+    {
+      "id": 506,
+      "source_offset": 35864,
+      "packed_bytes": 116,
+      "decoded_bytes": 204,
+      "decoded_sha256": "e61af1d8ffdc688f1ca6a717fc4b50d5f93b545707362271e436f4fa79df5a70",
+      "text": "Die  Mumien  sind allesamt in dicke, weiße Bandagen eingewickelt: Es würde wohlMonate  dauern,  sie  auszupacken  -  mal  ganz davon abgesehen, daß Du sowiesoniemanden der Toten wiedererkennen dürftest..."
+    },
+    {
+      "id": 507,
+      "source_offset": 35980,
+      "packed_bytes": 104,
+      "decoded_bytes": 179,
+      "decoded_sha256": "f871c492dd91c64fa8a28585486c6e44fcbc1044fd84e6dacb020480861317b3",
+      "text": "Die  Zeilen  auf  dem zerknitterten Zettel lauten: \"Hüte Dich vor dem mächtigenHexenmeister!  Sein  Pentagramm  ist  seine  letzte  Chance  - und seine Dienerschlafen niemals...!\""
+    },
+    {
+      "id": 508,
+      "source_offset": 36084,
+      "packed_bytes": 674,
+      "decoded_bytes": 1195,
+      "decoded_sha256": "f6e4137b16e9e446cb19c139c472518425217d297a1271958af232ad04dd95d8",
+      "text": "Alle  Gemälde  stellen  annähernd  dasselbe dar: Einen älteren Mann, der in dastraditionelle,  purpurne  Cape  der Magiergilde gehüllt ist, dessen Kapuze seinGesicht  fast  vollständig  verdeckt:  Das  einzige,  was  Du  noch  unter  ihrausmachen  kannst,  sind  zwei  gefährlich  glühende Augen, die gnadenlos jedemDeiner  Schritte  zu  folgen scheinen... Auf dem Stirnteil der Kapuze kannst Duein  eingesticktes,  goldenes  Pentagramm erkennen, das Zargon als Mitglied desSiebten  Zirkels  ausweist,  als  Erzmagier, für den nichts, aber auch rein garnichts  unmöglich  ist:  Die  Mitgliedschaft in dieser Magiergilde ist immerhineine  höchst  ehrenvolle  Auszeichnung,  die  bisher nur den sieben mächtigstender  Mächtigen  zuteil  geworden  ist  -  unter  ihnen  zum Beispiel auch KönigRichard  und  sein  Bruder Firon. Als Du die Bilder jedoch gerade etwas genauerin  Augenschein  nehmen  willst,  ertönt  schallendes  Gelächter von den Wändenherab:  Alle  der  abgebildeten  Magier  scheinen  Dich  zu  verhöhnen! Nur einTrick?  Oder  steckt  Zargon vielleicht tatsächlich hinter einem dieser Bilder,um  sich  noch eine Weile zu amüsieren, bevor er Dich endlich in Dein Verderbentreibt...?"
+    },
+    {
+      "id": 509,
+      "source_offset": 36758,
+      "packed_bytes": 88,
+      "decoded_bytes": 149,
+      "decoded_sha256": "9efc05eb8dc1b043eb041071dc5d752020cef190b9fc4d45050dcfa71823bd9b",
+      "text": "Auf  dem  Papier  steht etwas geschrieben, das für Dich keinen Sinn ergibt: Nurwild durcheinandergewürfelte Zahlen und Buchstaben - oder ein Code...?"
+    },
+    {
+      "id": 510,
+      "source_offset": 36846,
+      "packed_bytes": 85,
+      "decoded_bytes": 144,
+      "decoded_sha256": "d1c8f8a1ee57e701bc849e4ce58b89514b7ee24b93db7cca3962f4496e01f979",
+      "text": "Ein  weißer  Drudenfuß  aus Kreide, der mit pedantischer Sorgfalt auf den Bodengezeichnet worden ist. Sein Durchmesser mißt ungefähr fünf Meter."
+    },
+    {
+      "id": 511,
+      "source_offset": 36931,
+      "packed_bytes": 235,
+      "decoded_bytes": 382,
+      "decoded_sha256": "dc0066601bcd71299f968c2b5a3ae0af75566d7c9e0f5d0ecdbb691e168036c0",
+      "text": "Auf  dem  Etikett  des  Parfümfacons  steht  in geschwungenen Buchstaben: \"HoncSchwartenfranz  de  Paris  -  For  Winners\":  Muß  ja  'n  grelles  Zeug  sein!Neugierig  öffnest  Du  das  Fläschchen  und  schnupperst: Uaaah! Das stinkt jawirklich  fürchterlich!  Vielleicht  würde  die Mutter des kleinen Orkkindes esja mögen, aber ich... ich... Ich glaub', ich... ich - muß - ko...!"
+    },
+    {
+      "id": 512,
+      "source_offset": 37166,
+      "packed_bytes": 29,
+      "decoded_bytes": 51,
+      "decoded_sha256": "3e9f71fe618f74c477891dcbd17a985dca3aca02f9fcb26cdcd795e0f46674ee",
+      "text": "Sieht genauso aus wie von der anderen Seite auch..."
+    },
+    {
+      "id": 513,
+      "source_offset": 37195,
+      "packed_bytes": 134,
+      "decoded_bytes": 236,
+      "decoded_sha256": "2f487075dd2f591bae19ada207dd9f8a581fb10515c6e7a7192daaf478ab2e34",
+      "text": "Die  Ratten  sind  ziemlich fett und häßlich. Obwohl ihr Leibesumfang eindeutigdarauf  hinweist,  daß sie regelmäßig gefüttert werden, scheinen sie doch schonwieder Appetit zu haben, denn sie schnuppern bereits neugierig an Dir herum..."
+    },
+    {
+      "id": 514,
+      "source_offset": 37329,
+      "packed_bytes": 41,
+      "decoded_bytes": 69,
+      "decoded_sha256": "cf42d5e1fe956b36762cbdd8bcb315e674ce9824d170f43897635feb91ac445f",
+      "text": "Ein kleiner Tresor aus Stahl, dessen Schloß sieben Stellen darstellt."
+    },
+    {
+      "id": 515,
+      "source_offset": 37370,
+      "packed_bytes": 88,
+      "decoded_bytes": 152,
+      "decoded_sha256": "0161036f7dc455fd0e72e6c444347cd04da8a8df5bca7448baf3d08c65ee81de",
+      "text": "Oho:  Im  oberen  Fach  des  Tresors  findest Du etwas, das dem Vertrag, den Dudereinst mit Mylgor abgeschlossen hast, gar nicht mal so unähnlich sieht!"
+    },
+    {
+      "id": 516,
+      "source_offset": 37458,
+      "packed_bytes": 122,
+      "decoded_bytes": 211,
+      "decoded_sha256": "5e60a89869b9c2a0cb86377c4836d839d2ace286b671b6af07a863f090de8fd0",
+      "text": "Auf  der  Spitze des Szepters thront ein goldener Königsadler, die Flügel stolzzum  Abflug  ausgebreitet.  Das untere Ende sieht allerdings höchst seltsam aus- als ob es nicht nur als Haltegriff dienen sollte..."
+    },
+    {
+      "id": 517,
+      "source_offset": 37580,
+      "packed_bytes": 292,
+      "decoded_bytes": 472,
+      "decoded_sha256": "fd47f2b2cce0c7c451c228d3c7b1419f16ac67ab6cadd6a93add82076faaf111",
+      "text": "Das  Gekritzel  an  der  Wand  lautet: \"Des Königs Macht den Weg Dir schafft!\",\"For  a  good  time  gimme  a call: 32168!\", \"Don't push it - PULL it!\", \"Paul,halt's  Maul!\",  \"Chris,  wir lieben Dich!\", und \"Die Macht, die mir nicht ganzgeheuer,  bezieht  er aus dem Purpurfeuer!\" Den Rest der Mitteilungen kannst Duleider  nicht  mehr  entziffern,  jedoch  ist  anzunehmen,  daß ihr Niveau auchnicht viel höher liegt als das des Schwachsinns, den Du gerade lesen mußtest."
+    },
+    {
+      "id": 518,
+      "source_offset": 37872,
+      "packed_bytes": 38,
+      "decoded_bytes": 64,
+      "decoded_sha256": "6746c7b633435bfac4e66f0bc284ae2c152edf117540e5b7080129fb381156a9",
+      "text": "Die Vorratsregale sind leer - eigentlich doch nur logisch, oder?"
+    },
+    {
+      "id": 519,
+      "source_offset": 37910,
+      "packed_bytes": 259,
+      "decoded_bytes": 456,
+      "decoded_sha256": "cbf4829e2347c960ea29b261344bb567aa45c7ff97189b1dd22544330b162e14",
+      "text": "In  den Bücherregalen stehen viele, alte Schwarten über Okkultismus. Der Geruchder  trockenen  Ledereinbände  und des vergilbten Papiers dringt Dir unangenehmin  die  Nase,  als  Du  eines  der Bücher in die Hand nimmst und den Staub vonseinem  Umschlag  bläst: Kaum hast Du jedoch die uralten Schriftzeichen auf derVorderseite  bemerkt,  stellst  Du  das  Buch  auch  schon  wieder entmutigt anseinen Platz im Regal zurück: Das kann ja kein Schwein lesen!"
+    },
+    {
+      "id": 520,
+      "source_offset": 38169,
+      "packed_bytes": 130,
+      "decoded_bytes": 227,
+      "decoded_sha256": "dd0cce47e5daf186748f8666d450cdfa8d191f088cbdb1114153f04bcd9c9588",
+      "text": "Das  Warnschild  stellt einen rot durchgestrichenen Hundekopf dar - fast so wieein  Verbotschild:  Irgendwie  scheint  das  Wasser  wohl  nicht  so  ganz  denbayerischen Reinheitsgesetzen für Vierbeiner-Drinks zu entsprechen..."
+    },
+    {
+      "id": 521,
+      "source_offset": 38299,
+      "packed_bytes": 378,
+      "decoded_bytes": 671,
+      "decoded_sha256": "0345981346ae16d1a9889c7529ad57762338dead4034a996497dbcc52afc8ee1",
+      "text": "Als  Du  Deine  Blicke  über die bleichen Knochen des Skelettes schweifen läßt,mußt  Du  feststellen,  daß  nicht  ein  einziger  Fleischfetzen  mehr an ihnenhängt!  Voller  Ekel  betrachtest  Du  den  weit  aufklaffenden Spalt in seinerSchädeldecke,  der  offenbar  die  Ursache  für  sein  vorzeitiges Ableben war:\"Wahrscheinlich  war  es  besser  für  ihn,  hier  zu  sterben  als  in ZargonsFolterkammern.\",   denkst  Du  Dir  mit  einem  schaudernden  Blick  durch  dieGittertür  hindurch...  Aber  was  ist  denn  das?  Die  knochigen  Finger  desGerippes  zeigen  auf  ein paar Schmierereien auf der Wand, als ob sie Dir nocheinen letzten Hinweis geben wollten...?"
+    },
+    {
+      "id": 522,
+      "source_offset": 38677,
+      "packed_bytes": 144,
+      "decoded_bytes": 248,
+      "decoded_sha256": "79cce68e356bbe166a3e3c11322004e11331b21981abc776145e0eafcde2adfb",
+      "text": "Na,  komm  schon:  Es  wird  wahrscheinlich  gleich  regnen - und Du willst denHimmel  betrachten?  Alter  Romantiker!  Außer  dem Vollmond, der Dich von dortoben  herab  zu  beobachten  scheint,  kannst  Du  doch sowieso nicht allzuvielerkennen..."
+    },
+    {
+      "id": 523,
+      "source_offset": 38821,
+      "packed_bytes": 239,
+      "decoded_bytes": 406,
+      "decoded_sha256": "352be9b7ce8782d1484c3e8832440ea004ede70475f3966c226515b805602e0d",
+      "text": "Neben  dem Slot kannst Du ein kleines Schild mit der Aufschrift \"Tor\" erkennen!Mensch:  Das  kleine  Ding  scheint  das  einzige zu sein, was uns noch hier imSchloß  zurückhält!  Allerdings  habe  ich  überhaupt keine Ahnung, wie wir denÖffnungsmechanismus  aktivieren  könnten:  Sieht  nämlich gar nicht so aus, alswäre  der  Schlitz  für  Schlüssel  (oder Schwerter - nur um Dir vorzugreifen!)bestimmt..."
+    },
+    {
+      "id": 524,
+      "source_offset": 39060,
+      "packed_bytes": 57,
+      "decoded_bytes": 98,
+      "decoded_sha256": "bad633ef2be28ca131b2d00240ad1160767ed268b2b3ea92ed50112f4a708110",
+      "text": "Aus   der   Quelle   sprudelt  munter  eine  merkwürdige,  bläulich  leuchtendeFlüssigkeit heraus."
+    },
+    {
+      "id": 525,
+      "source_offset": 39117,
+      "packed_bytes": 66,
+      "decoded_bytes": 122,
+      "decoded_sha256": "d3fd8f5fde30d40ccb01bfc94cb6e18081b0874cda94dd4e4cda36c144a12817",
+      "text": "Die  Statue  stellt einen schwerbewaffneten, erfahrenen, alten Krieger dar, dersich auf seinen riesigen Zweihänder stützt."
+    },
+    {
+      "id": 526,
+      "source_offset": 39183,
+      "packed_bytes": 51,
+      "decoded_bytes": 88,
+      "decoded_sha256": "d5ab23155e7f26da0d75a80bcf4ec9845ee535171ea2ab8f42996d1c99c47e98",
+      "text": "Ziemlich  massiv!  Ich  wage  sehr  zu  bezweifeln, ob gerade Du sie aufbrechenkönntest!"
+    },
+    {
+      "id": 527,
+      "source_offset": 39234,
+      "packed_bytes": 497,
+      "decoded_bytes": 902,
+      "decoded_sha256": "42abf98d8296fef8ce7f24848999a8a3be3815c617527b041bc22bc82da84b16",
+      "text": "Auf  den  Tafeltischen  liegt  eine  dichte  Staubschicht, fast so dick wie einFinger...   Wie   zum   Beispiel   der   Finger   des  Kadavers,  der  in  sichzusammengesackt   auf   dem   Stuhl  neben  Dir  sitzt!  \"Iiiiih!\":  Mit  einemhysterischen  Aufschrei  springst  Du  zurück  -  und  landest  prompt  in  denvergammelten  Armen  einer  weiteren  Leiche,  weit  ausgestreckt,  um  Dich zuhalten  -  oder  zu  fassen?  Zitternd  wendest Du langsam den Kopf herum - undmußt  einen  weiteren  Schrei  unterdrücken:  Diese  Leute - wer auch immer siegewesen  sein  mögen  - sind keine Untoten, wie Du vielleicht nach alledem, wasDu  auf  Deiner  langen  Reise  hast  erleben  und  mitansehen müssen, erwartethattest!  Im  Gegenteil:  Dies  müssen  die ehemaligen Burgbewohner sein - oderzumindest  waren  sie das, bevor Zargon und seine Meute hier hineinstürmten undalles ohne Gnade niedermachten..."
+    },
+    {
+      "id": 528,
+      "source_offset": 39731,
+      "packed_bytes": 64,
+      "decoded_bytes": 111,
+      "decoded_sha256": "78ef38768689d89c6579f88dbbb54a5053faae7826db60c7667c83ea4e6d5a01",
+      "text": "Dies  ist  der  Königsmantel  des Herrschers über die Butahzwerge: ein ziemlichschweres, reich verziertes Ding."
+    },
+    {
+      "id": 529,
+      "source_offset": 39795,
+      "packed_bytes": 263,
+      "decoded_bytes": 463,
+      "decoded_sha256": "5891b232de380279922b70bbf554cfe7ab42625d0005a73db1b0f8401ab0f4fb",
+      "text": "Dies  ist  der  Schlüssel,  den  der Dungeon-Master Kay vor langer Zeit benutzthat,  um  alle  Türen  des  Schlosses  öffnen zu können - aber das ist wirklichschon  lange,  lange  Zeit  her: In der Zwischenzeit sind die meisten Schlösserin  Zargons  Feste  natürlich gegen neue - und massivere - ausgetauscht worden.Dennoch:  Es  gibt  immer  noch  ein  Schloß  in  diesem Gemäuer, in das dieserSchlüssel hineinpaßt - und es ist vielleicht näher, als Du denkst..."
+    },
+    {
+      "id": 530,
+      "source_offset": 40058,
+      "packed_bytes": 265,
+      "decoded_bytes": 436,
+      "decoded_sha256": "352fa0279c81782fd56c23a200ec8cae4e9a1afb11527bf7df7a4037eac7d178",
+      "text": "Etwas  Weihwasser,  das  Zargon  bei  seinen  Götzendiensten  verwendet, um dieA.C.A-Götter  gnädig  zu  stimmen.  Merkwürdig:  Dieses \"heilige\" Wasser duftetviel  eher  nach Barcadi-Cola als nach dem Wasser, das Du aus Deiner Kirche vonzuhause  gewöhnt  bist  (MANN!  Das  IST Barcadi-Cola - aber nicht weitersagen,Hicks!)...  Ich  frage  mich  lediglich,  welche  tiefere Bedeutung es wohl füreinen Schurken wie Zargon haben könnte..."
+    },
+    {
+      "id": 531,
+      "source_offset": 40323,
+      "packed_bytes": 189,
+      "decoded_bytes": 347,
+      "decoded_sha256": "f04b37300ef622c256d9392ec57ef601fc6e8bf54249c328d01771c37c53e9c4",
+      "text": "Ich  glaube,  Du  solltest besser keinen Gedanken daran verschwenden, ob Du diealten,   schartigen  Waffen  mitnehmen  solltest:  Sie  sind  entweder  bereitszerbrochen,   zu   hoch  für  Dich  an  den  Wänden  aufgehängt  oder  derartigverrostet,  daß  sie  wahrscheinlich  schon  beim  nächsten  Waffengang den Wegalles Irdischen gehen werden..."
+    },
+    {
+      "id": 532,
+      "source_offset": 40512,
+      "packed_bytes": 195,
+      "decoded_bytes": 347,
+      "decoded_sha256": "950be72d11de5b3137dc957ee058fda2433a9f327d9242cfd25083bd22a76393",
+      "text": "Obwohl  Zargon  schon  ein  etwas  älterer  Hexenmeister  ist,  läßt Dich seineehrfurchtgebietende  Haltung  erschauern.  Aus  dem goldenen Pentagramm, das indie  Kapuze  seines  kostbaren,  purpurnen  Capes  eingestickt  ist,  kannst Duersehen,  daß  er  Mitglied  im  Siebten  Zirkel  der  Magiergilde  ist  - alsounterschätze seine Macht nicht!"
+    },
+    {
+      "id": 533,
+      "source_offset": 40707,
+      "packed_bytes": 44,
+      "decoded_bytes": 70,
+      "decoded_sha256": "d3cdc99f7c1437e5d1c67a93796b72848b3bd825933e47217a563495b3cf7df5",
+      "text": "Nix da, mein Freund! Wohl noch nie was vom Briefgeheimnis gehört, wie?"
+    },
+    {
+      "id": 534,
+      "source_offset": 40751,
+      "packed_bytes": 80,
+      "decoded_bytes": 142,
+      "decoded_sha256": "69a3f23d0ccf96d5e18b56fb53b485f537a650ec654985084031729a8a3b96f0",
+      "text": "Nö!  Einerseits  sind  sie viel zu schwer, und auf der anderen Seite tragen sienicht das Geringste zur Lösung dieses Abenteuers bei - ehrlich!"
+    },
+    {
+      "id": 535,
+      "source_offset": 40831,
+      "packed_bytes": 127,
+      "decoded_bytes": 210,
+      "decoded_sha256": "6b36cd5074f9c8828c113cb118a49307528a134c4971583f2fb18f694de3cc76",
+      "text": "\"Nimm\",  \"Nimm\",  \"Nimm\"!  Hey,  Du:  Geben  soll  angeblich  seliger sein dennnehmen!  Außerdem:  Könntest  Du  mir  freundlicherweise  mal  erklären, wie DuWasser ohne den passenden Behälter mitnehmen willst?"
+    },
+    {
+      "id": 536,
+      "source_offset": 40958,
+      "packed_bytes": 121,
+      "decoded_bytes": 213,
+      "decoded_sha256": "9c4028100ce386fd0cfbacb143ca6a8c923dcf1f7cbe459f6d02ba9fe9bd8c82",
+      "text": "Will  ich  aber  nicht!  Schau'  Dir  diese Krücken doch mal genau an: In einemechten  Gefecht  würden  sie Dich wohl elend im Stich lassen! Dein gutes, altesSchwert würde Dir garantiert bessere Dienste leisten..."
+    },
+    {
+      "id": 537,
+      "source_offset": 41079,
+      "packed_bytes": 100,
+      "decoded_bytes": 167,
+      "decoded_sha256": "bf21b65969a4dd1b9ab5b60d0d005b7d642de7dbdde31d386ccac8e05c68cfc6",
+      "text": "Tja,  da  kommst  Du wohl ein paar Jährchen zu spät. Begrab' ihn, wenn Du DeineAufgabe  erfüllt  hast:  Sein rastloser Geist würde es Dir sicherlich zu dankenwissen..."
+    },
+    {
+      "id": 538,
+      "source_offset": 41179,
+      "packed_bytes": 33,
+      "decoded_bytes": 55,
+      "decoded_sha256": "b0dd44906d1a8bfeaee05850b1dfdfa45fffabf08c4f61304f743f0895a8d432",
+      "text": "Du willst doch nicht im Ernst Selbstmord begehen, oder?"
+    },
+    {
+      "id": 539,
+      "source_offset": 41212,
+      "packed_bytes": 95,
+      "decoded_bytes": 169,
+      "decoded_sha256": "df2d74a49187a0c6b33f577a3b831570a3e5201c01212b3812195c32e4a59e57",
+      "text": "Der  Fährmann  hat  trotz  seines  hohen Alters eigentlich noch nicht vor, sichaufs  Altenteil  zurückzuziehen,  und  lehnt daher Dein Angebot, ihm zu helfen,höflich ab."
+    },
+    {
+      "id": 540,
+      "source_offset": 41307,
+      "packed_bytes": 104,
+      "decoded_bytes": 170,
+      "decoded_sha256": "7c76a5999db407374c068dbcc6578ba4d28ddff16663f0a2d58cf62e21b1ff66",
+      "text": "Laß'  sie  lieber  in Ruhe! Grelles Licht könnte ihren süßen Schlummer stören -und  wer  weiß  schon, wie so eine Morgenmuffel-Mumie auf Störenfriede wie Dichreagiert...?"
+    },
+    {
+      "id": 541,
+      "source_offset": 41411,
+      "packed_bytes": 91,
+      "decoded_bytes": 154,
+      "decoded_sha256": "857e82cb97c8dc7453184abd959a6b4a56cb00a1cad044632b9106a0c98ef870",
+      "text": "Bete  für  ihn,  wenn  Du  das  nächste mal wieder an einem Altar vorbeikommst:Vielleicht werden die Götter von A.C.A ihm dann ja ein Extraleben schenken!"
+    },
+    {
+      "id": 542,
+      "source_offset": 41502,
+      "packed_bytes": 300,
+      "decoded_bytes": 518,
+      "decoded_sha256": "6c4eb18894f8f4409163693fd92f06e0a64036db9ef1c27b52156680cb0cea15",
+      "text": "Also,  irgendwie  hast  Du  wohl  den Sinn des Spieles immer noch nicht so ganzverstanden!  Ziemlich  enttäuschend,  denn  wir hatten uns doch wirklich solcheMühe  gegeben,  uns  eine  geradezu  klischeetriefende Story aus den Fingern zusaugen,  damit  auch geistige Tiefflieger wie Du mit dem Programm zurechtkämen!Also  nochmal:  Der  Sinn  des  Spieles  besteht  darin, Zargon zu vernichten -nicht,  ihm  zu  helfen!  Du  verstehst?  NICHT  helfen!  Sprich  mir  nach...:\"Niiicht heeelfen!\" Schön, und jetzt weiter!"
+    },
+    {
+      "id": 543,
+      "source_offset": 41802,
+      "packed_bytes": 335,
+      "decoded_bytes": 593,
+      "decoded_sha256": "7827f142233d4847027e28ab610c6204f2689775c726585eba23888e2520c887",
+      "text": "Du  versuchst, die Bücherregale zur Seite zu rücken, wie Du es in jedem anderenAdventure  auch  getan  hättest  -  und  wie in jedem anderen Adventure hast Dudamit  Erfolg:  Leise drehen sich die Regale auf kleinen Plattformen herum, dieDu  im  Halbdunkel  nicht  richtig  erkennen  konntest!  Du  brauchst Dir wegendieses  Einfalls  aber  noch  lange nicht auf die Schulter zu klopfen, denn wassollte  man  wohl  anderes  mit  Regalen anstellen, als sie von Wand zu Wand zubewegen?  Naja,  andererseits:  Es  soll ja sogar Leute geben, die etwas in siehineinstellen! Tja, wem's Spaß macht...?"
+    },
+    {
+      "id": 544,
+      "source_offset": 42137,
+      "packed_bytes": 77,
+      "decoded_bytes": 143,
+      "decoded_sha256": "40cdd805bb73c3bab81570267c4a06d32805c2205ba072b7735a117a3bdd3f83",
+      "text": "Du  schiebst  den  Wandvorhang  beiseite  und  erkennst hinter ihm einen engen,finsteren Tunnel, der irgendwohin tief ins Dunkel hineinführt..."
+    },
+    {
+      "id": 545,
+      "source_offset": 42214,
+      "packed_bytes": 202,
+      "decoded_bytes": 337,
+      "decoded_sha256": "c2e63a22f0db1a39d8e8ca7fda036d324753d4eece4977c9030004210138ee18",
+      "text": "Also,  was  bist  Du doch für ein schlaues Kerlchen! Wenn alles in diesem Spielso  einfach  wäre,  hättest  Du  es  doch  wahrscheinlich  schon  längst in denPapierkorb  geworfen  (...oder  gelöscht, wenn dies eine Raubkopie sein sollte!GRMPF!),  oder?  Naja,  und  von daher: \"Tut mir leid, aber das kannst Du nichtmachen!\" Gemein, wie?"
+    },
+    {
+      "id": 546,
+      "source_offset": 42416,
+      "packed_bytes": 196,
+      "decoded_bytes": 339,
+      "decoded_sha256": "0dd7c0e2aa7f8c974df18e0c5ef334087fb16e8532f32cfc55bbdd8a2bc7cf03",
+      "text": "Als  Du  die  Statue  berührst,  fühlst  Du, wie Dich eine geheimnisvolle Kraftdurchströmt:  Schützend  reißt  Du die Hände vor Dein Gesicht, als Du von einemgrellweißen  Licht  geblendet  wirst  -  und  als Du sie wieder herunternimmst,mußt  Du  zu  Deinem  großen  Erstaunen  feststellen,  daß  sich Deine Umgebungvöllig verändert hat..."
+    },
+    {
+      "id": 547,
+      "source_offset": 42612,
+      "packed_bytes": 396,
+      "decoded_bytes": 684,
+      "decoded_sha256": "1636aa0a7944c46f92e6ccd31a2276a167d8c07493b3d8d7340f12c47dce30c5",
+      "text": "Naja,  nach  dieser  Menge  schwachsinnigen  Texts, den Du schon über Dich hastergehen  lassen,  ist  es  nur  verständlich,  wenn Du Deinen Frust über sovielherausgeschmissenes  Geld  (...oder  etwa doch Kopie?) im Wein ersäufen willst:\"Hauptsach'  Alk!\",  sagst  Du  Dir achselzuckend, als Du daran denkst, daß derInhalt  der  Fässer  mittlerweile  wohl  doch  schon reichlich faulig schmeckendürfte,  und  öffnest  entschlossen  das mittlere Faß, in der Erwartung, sofortmit  dem  edlen  Gesöff  übergossen  zu werden. Aber zu Deiner Überraschung istdas  Faß  völlig  leer!  Ein  Tunnel  scheint  durch  die ausgeteerten Wände zuführen, irgendwohin in unheimliches Dunkel hinein..."
+    },
+    {
+      "id": 548,
+      "source_offset": 43008,
+      "packed_bytes": 116,
+      "decoded_bytes": 204,
+      "decoded_sha256": "ee9b3e3ba959645cb224c39c5103ba3a62bc13b263f22c446929a84548849b9b",
+      "text": "Du  nimmst  eines der Bücher aus dem Regal heraus und versuchst, darin zu lesen-  doch  leider  mußt  Du  enttäuscht feststellen, daß es in einer uralten, Dirvöllig unverständlichen Sprache verfaßt ist..."
+    },
+    {
+      "id": 549,
+      "source_offset": 43124,
+      "packed_bytes": 141,
+      "decoded_bytes": 251,
+      "decoded_sha256": "dffe2b880b727d80a983fb6715c1db98f12ffa8e4adc7c2c99e493929f6df1fd",
+      "text": "Als  Du  das  alte  Tagebuch  des  Turmwächters  öffnest,  steigt  eine  dichteStaubwolke  aus  seinen zerfledderten, vergilbten Seiten, die Dir fast den Atemraubt  -  zumindest  bekommst Du erst einmal einen Hustenanfall: Die Strafe fürDeine Neugier?"
+    },
+    {
+      "id": 550,
+      "source_offset": 43265,
+      "packed_bytes": 63,
+      "decoded_bytes": 104,
+      "decoded_sha256": "3a1ae8e0f126f3edbb263f1ee46dd5c9226101b09871376dc6063b6845949007",
+      "text": "Ich  weiß  gar  nicht,  was  Du  hast:  Du  bräuchtest doch eigentlich bloß dieTürklinke zu betätigen..."
+    },
+    {
+      "id": 551,
+      "source_offset": 43328,
+      "packed_bytes": 97,
+      "decoded_bytes": 173,
+      "decoded_sha256": "3fd9f7976f0057899c6b085c3f5d11b6a03ca396f5c194d30ee24c14b6a71b62",
+      "text": "Du   versuchst   die  kleine  Truhe  zu  öffnen,  doch  leider  widersteht  derkomplizierte   Mechanismus   des   zierlichen   Schlosses   beharrlich   DeinenKnackkünsten..."
+    },
+    {
+      "id": 552,
+      "source_offset": 43425,
+      "packed_bytes": 118,
+      "decoded_bytes": 206,
+      "decoded_sha256": "f7b8eea90fa1c2b4afe40b9a0972795957829d2d7bd9f66b67e1c02e1cbfd084",
+      "text": "Nicht  schlecht!  Hast  Du  die  Schriftzüge  aus  der  Gefängniszelle  richtiggedeutet  oder  nur  aus  alten Fehlern gelernt? Leise schwingt die Tür auf undgibt den Weg in Zargons geheime Gemächer frei..."
+    },
+    {
+      "id": 553,
+      "source_offset": 43543,
+      "packed_bytes": 965,
+      "decoded_bytes": 1685,
+      "decoded_sha256": "ceca0e1d547a9d9b5edacff80978093afc1f7d365e388a622d9645b48beaf0df",
+      "text": "Als  Du die Türklinke hinunterdrückst, hörst Du ein leises Klicken unter DeinenFüßen  -  und  bevor  Du  noch Zeit findest, zurückzuspringen, öffnet sich eineverborgene  Falltür  unter  Dir!  Im  letzten  Moment ergreifst Du den Rand derFallgrube  und  versuchst,  Dich  wieder  nach  oben zu ziehen: \"Hätte ich dochnicht  so  oft den Sportunterricht geschwänzt!\", denkst Du Dir verzweifelt, alsDir  nach  mehreren  vergeblichen und kraftraubenden Versuchen klarwird, daß DuDich  niemals  ohne  fremde  Hilfe  aus  dieser  mißlichen Lage befreien könnenwirst.  Als  Du  panikerfüllt  auf  den  Boden  der  Grube blickst, erkennst Duvoller  Grausen  tief  unter  Dir lange Eisenspitzen, an denen Reste geronnenenBlutes  kleben!  Instinktiv  willst  Du nach Hilfe rufen, doch kaum hast Du denMund  geöffnet,  wird  Dir  auch  schon klar, daß Deine Schreie lediglich reineKraft-  und  Zeitverschwendung  wären,  da  die  einzige  Person, die Dich hierunten  hören  und  finden  könnte, Zargon persönlich wäre - und Du weißt genau,daß  er  kein Mitleid mit Dir hätte! Nachdem Du Dir also die AussichtslosigkeitDeiner  Situation  nochmals  vor  Augen  geführt  hast,  sprichst  Du  noch einletztes  Gebet  und  läßt dann den Rand der Grube los... Tja, ein Mann muß ebenwissen,  wann  es  für  ihn  Zeit  ist  zu  gehen:  Leider fällst Du länger alserwartet  und  stößt  Dir dabei unzählige Male den Kopf an den harten, kantigenFelswänden,  ohne  jedoch  wirklich  das  Bewußtsein zu verlieren - dann ist esplötzlich  zu  Ende:  Aufgespießt  auf  die  spitzen  Lanzen,  erschüttert Deinwilder  Todesschrei  das  ganze  Schloß, einzig und allein übertönt von Zargonshämischem Hohngelächter..."
+    },
+    {
+      "id": 554,
+      "source_offset": 44508,
+      "packed_bytes": 41,
+      "decoded_bytes": 69,
+      "decoded_sha256": "fcfc2083593834fc215852791f5e747875b67a8bd1ce842ec162da8c30e2d218",
+      "text": "Glaubst Du ernsthaft, daß er noch in der Lage wäre, Dir zu antworten?"
+    },
+    {
+      "id": 555,
+      "source_offset": 44549,
+      "packed_bytes": 106,
+      "decoded_bytes": 177,
+      "decoded_sha256": "de6ad4e0a7285ed1546154238bbd0911eac146fb6b590fbb9d27944a15c4b696",
+      "text": "Ziemlich  blöde  Idee - mit einem TIER zu sprechen! Du hörst wohl auch das Graswachsen  und  wie  die  Vögel  Dir von den Bäumen herunter Gutenachtgeschichtenerzählen, oder was?"
+    },
+    {
+      "id": 556,
+      "source_offset": 44655,
+      "packed_bytes": 163,
+      "decoded_bytes": 278,
+      "decoded_sha256": "df5d69251c884574f64aff967228fbe251e3376e3972eaa1b3f362d028d6add3",
+      "text": "Der  alte  Fährmann  blickt  kurz  von  seiner Pfeife auf, grüßt Dich mit einembeiläufigen  Nicken  und  sagt,  daß  Dich eine Überfahrt mit seiner Fähre fünfharte  Dollars  kosten  würde: Dafür, daß Du immerhin seine Welt retten sollst,eine ziemlich unverschämte Einstellung..."
+    },
+    {
+      "id": 557,
+      "source_offset": 44818,
+      "packed_bytes": 160,
+      "decoded_bytes": 285,
+      "decoded_sha256": "18722bc1119cc1b11a89d6c1b6a0c766a3c8ac0f02d470910147f16db06dd554",
+      "text": "Dafür  ist  es  jetzt  aber nun wirklich nicht der rechte Zeitpunkt: Zargon istdefinitiv  nicht  Dein  Freund,  und  Du  solltest  besser  alle  Dir  noch zurVerfügung  stehende  Zeit darauf verwenden, Dir etwas auszudenken, womit Du ihnschlagen könntest, statt Maulaffen feilzuhalten!"
+    },
+    {
+      "id": 558,
+      "source_offset": 44978,
+      "packed_bytes": 332,
+      "decoded_bytes": 586,
+      "decoded_sha256": "b40479828e704c595f474dffa40401386ae81c25493c551b816351482a27cbfe",
+      "text": "Du  läßt  etwas  von  dem  bläulichen  Wasser in Deine schalenförmig gehaltenenHandflächen   laufen   und   nippst   vorsichtig   daran:  Schon  nach  wenigenSchlückchen  fühlst  Du,  wie  Dich  eine Woge von Fröhlichkeit und neuer Kraftdurchströmt,  die  Dich  einerseits  beruhigt und andererseits gleichzeitig aufgar  wundersame  Weise  zu  erfrischen  scheint.  Und als Du zufällig an DeinemKörper  herunterblickst,  bemerkst  Du,  daß  Du  Dich wieder in einen Menschenzurückverwandelt   hast   -   was   allerdings  auch  bedeutet,  daß  Du  Deineübernatürlichen Kräfte einbüßt..."
+    },
+    {
+      "id": 559,
+      "source_offset": 45310,
+      "packed_bytes": 207,
+      "decoded_bytes": 361,
+      "decoded_sha256": "fd85f43a321dfa8f8b0c7f88e924cf2ce4a0bf814e1e84b4f63d6547fb7ae428",
+      "text": "Du  trinkst  einen  Schluck  des  bläulichen  Wassers, empfindest jedoch nichtsweiter  als  ein angenehmes Gefühl der Erfrischung - obwohl auch das schon eineganze  Menge  wert  ist, da Du das Spiel noch nicht vollständig gelöst hast undalle  Dir  zur Verfügung stehenden Kräfte mobilisieren müssen wirst! Allerdingskönnte gerade das jetzt zum Problem werden..."
+    },
+    {
+      "id": 560,
+      "source_offset": 45517,
+      "packed_bytes": 28,
+      "decoded_bytes": 36,
+      "decoded_sha256": "fa1e29584620ebf0bd33566cf6e8218621a4bca70aa69c5a63559f75e38776ce",
+      "text": "Mjamjam... Boah, is' mir schlääächt!"
+    },
+    {
+      "id": 561,
+      "source_offset": 45545,
+      "packed_bytes": 518,
+      "decoded_bytes": 905,
+      "decoded_sha256": "51b0910513f2de8f5ae43fd90d6504886746768909aee7ed27ae628772b0cf13",
+      "text": "Hastig  würgst  Du  Dir  die  Weißbrotscheibe  'rein,  ohne in Deiner perversenFreßgier  daran  zu  denken,  daß  Du  sie doch selbst noch vor wenigen Minutenvergiftet  hast  -  aber als Du es gezwungenermaßen bemerkst, ist es bereits zuspät  (Ob  wir  wohl  eine Floskeltaste mit dieser Phrase belegen sollten...?):Zum  letzten  Mal  in Deinem jungen Leben fühlst Du, wie Du krank wirst - nein,entschuldige:  nicht,  wie  Du  krank wirst, sondern daß Dein letztes Stündleingeschlagen  hat  (allerdings  auch  kein sehr viel angenehmeres Gefühl...)! Miteinem  letzten,  erstickten  Würgen krümmst Du Dich auf dem Boden zusammen, bisDu  Dein  Leben  wie  eine  Ratte aushauchst - denn immerhin war es schließlichRattengift,  das  für  Dein  vorzeitiges  Ableben  verantwortlich  gewesen ist!Nächstes  Mal  solltest Du die Hinweise auf der Packung wohl doch etwas genauerstudieren: \"Von Kindern fernhalten!\""
+    },
+    {
+      "id": 562,
+      "source_offset": 46063,
+      "packed_bytes": 234,
+      "decoded_bytes": 417,
+      "decoded_sha256": "4f370988932aa6d222ec0d74dda1b73f99a08e7ebc38512e7dbcae995d9418a2",
+      "text": "Du  stellst  die  Kombination  ein  und  drehst an dem schweren, eisernen Rad -schon  im  Stillen  darauf  vorbereitet,  wieder mit einer dieser miesen FallenZargons  konfrontiert  zu  werden,  aber nichts dergleichen passiert: Mit einemleisen  \"Klick!\"  schieben  sich  die  Zylinder  des  Schlosses  zurück in ihreAusgangsposition!   Herzlichen  und  so  -  aber  wo  zum  Geier  hast  Du  daseigentlich gelernt...?"
+    },
+    {
+      "id": 563,
+      "source_offset": 46297,
+      "packed_bytes": 161,
+      "decoded_bytes": 276,
+      "decoded_sha256": "5f97158df49f35ca369abdc1e0bb32688ea925e32ff731234ffa6244661ce5ec",
+      "text": "Du  wirfst  den  Vertrag  in  Zargons magisches Purpurfeuer und beobachtest mitselbstzufriedenem  Lächeln,  wie  das  Papier  erst  bräunlich  wird, sich dannkräuselt  und  schließlich  den  Flammen  zum  Opfer  fällt,  woraufhin es sichknisternd in schwarzen Rauch auflöst..."
+    },
+    {
+      "id": 564,
+      "source_offset": 46458,
+      "packed_bytes": 776,
+      "decoded_bytes": 1360,
+      "decoded_sha256": "c7b7f7ef45d33bf57e4008137e0f84a9144f6e54a81c1ebd1262d924919e5076",
+      "text": "\"Was  Napoliton...  äh: Dingsbums konnte, kann ich schon lange!\", denkst Du Dirund  setzt  Dir  Zargons  Krone  auf  den Kopf, um Dich zum neuen Herrscher desReiches  zu  krönen.  Doch  was  Du  leider  nicht wußtest war, daß diese Kroneihren  Träger  zu einem grausamen Diener des Bösen macht! Nun hast Du also auchgleich  einen  Pakt mit den Höllenmächten geschlossen, die zuvor Zargons Willenund  Seele  kontrolliert  und  sich  schon ernsthafte Sorgen um seine Nachfolgegemacht  hatten...:  Im  selben  Moment,  als Du die Krone auf Dein edles Hauptsetzt,  umklammert  sie Deinen Schädel wie ein Schraubstock! Wild schreiend vorSchmerz  versuchst  Du, das teuflische Kleinod wieder vom Kopf herunterzureißen-  aber  es  geht  einfach  nicht mehr! Im Gegenteil: Sie wird enger und enger,und  mit  jeder  Sekunde,  die  verstreicht,  wirst  Du  mehr und mehr zu einemDiener  des  Satans!  Als  der  Schmerz  langsam  abklingt  und Du nur noch dasdumpfe,  monotone  Pulsieren  Deines  kalten  Blutes  im Kopf spürst, drehst DuDich  langsam  und  mit  einem grausamen Lächeln auf den Lippen um - und siehstmit  großer  Zufriedenheit  dabei  zu,  wie  die Splitter des Kristalls, den Dugerade  erst  zerstört  hattest,  wieder  über  dem  Boden schweben und sich zueinem  neuen  Seelenkristall  zusammensetzen  -  einem Seelenkristall, der DEINBild darstellt..."
+    },
+    {
+      "id": 565,
+      "source_offset": 47234,
+      "packed_bytes": 446,
+      "decoded_bytes": 777,
+      "decoded_sha256": "caf7633ffe2e13ab5b40447d8751a206b93ddd63282e01e8872dac344449da61",
+      "text": "Du  probierst einen Happen der Speisen, spuckst sie jedoch keine Sekunde späterschon  wieder  angewidert  aus: Das Zeug schmeckt einfach scheußlich! Naja, washattest  denn  Du erwartet - nach so langer Zeit? Du mußt schwer schlucken, alsDu   ein  paar  kleine,  weiße  Würmer  und  fette,  schmutziggraue  Maden  ausdemselben  Stück  Brot kriechen siehst, das Du eben noch im Mund hattest - dochals  Du  dann zu allem Überfluß auch noch eine angebissene, noch im Todeskrampfzuckende  Madenhälfte  aus  dem Brotlaib, von dem Du gerade abgebissen hattest,herausschauen   siehst,  ist  es  mit  Deiner  Beherrschung  endgültig  vorbei!Würgend  übergibst  Du Dich, so daß sich nun auf dem Boden die Überreste DeinerMahlzeiten ausbreiten, in denen sich immer noch etwas - BEWEGT...?"
+    },
+    {
+      "id": 566,
+      "source_offset": 47680,
+      "packed_bytes": 304,
+      "decoded_bytes": 511,
+      "decoded_sha256": "38e1d5f1f575c37fae9395d1247a55063aa2ae8cbe212f6593abf09cf19ddbfb",
+      "text": "Okay,  ich  habe  zwar leider kein Recht, Deine Anweisungen zu verweigern, aberum  mal  ganz  ehrlich  zu  sein: Ich an Deiner Stelle hätte das wirklich nichtgetan,  denn  dieses  \"Parfüm\"  stinkt  wirklich  zum Gotterbarmen! Vergiß bloßnicht,  ein  ausgiebiges  Bad  -  nein:  besser  zwei! - zu nehmen, solltest Dujemals  wieder  lebendig  das  Dorf betreten! Die Mädels würden sonst glatt dieFlucht  ergreifen,  wenn sie diesen \"Honc Schwartenfranz de Paris\"-Duft röchen!Schnüffel... Ähem: Nimm DREI Bäder!!!"
+    },
+    {
+      "id": 567,
+      "source_offset": 47984,
+      "packed_bytes": 290,
+      "decoded_bytes": 503,
+      "decoded_sha256": "f7649914a4ecef120f6c7f9139d5609d7e3babb7837c4e54e253cd5bce54453e",
+      "text": "Sorgsam  liest  Du  das  Kleingedruckte  unter  der  Gebrauchsanweisung auf derRückseite   der   Verpackung,   in  der  sich  das  Rattengift  befindet:  \"DerBundesgesundheitsminister:...\"  Na  also:  Mit  hämischer  Vorfreude öffnest Dudie  Packung  und  streust gleich eine doppelte, \"todsichere\", Dosis des Giftesauf  die  arme,  unschuldige  Weißbrotscheibe:  Sie stirbt sofort - und ohne zuwissen,   wofür!   Das   war   Käse,  Mann!  Was  sollen  wir  denn  mit  einerWeißbrotleiche anfangen, häh?"
+    },
+    {
+      "id": 568,
+      "source_offset": 48274,
+      "packed_bytes": 182,
+      "decoded_bytes": 308,
+      "decoded_sha256": "acc1e91c2e0c045f83624dbaed3ad3ecfb1ece1c664d1f940a8bb3ae6b421f6c",
+      "text": "Du  schiebst  Zargons  Szepter  in  den  Slot  -  und es scheint tatsächlich zupassen!  Mit  einem  laut vernehmbaren Klicken rastet der Griff ein, und als Dudas  Szepter  wie  einen  Hebel  hin-  und  herbewegst,  hörst Du plötzlich einscharrendes Geräusch von oben zu Dir hinunterschallen: DAS PORTALTOR!!!"
+    },
+    {
+      "id": 569,
+      "source_offset": 48456,
+      "packed_bytes": 89,
+      "decoded_bytes": 153,
+      "decoded_sha256": "b8f1fcec4d31489a5682b7674e630c7c517226dc3bb8f1675b5806f6257e87c1",
+      "text": "Du  hast  Dich  schon  immer  gerne  mit fremden Federn geschmückt, nicht wahr?Stolz hängst Du Dir den purpurnen Mantel des Butahkönigs um die Schultern."
+    },
+    {
+      "id": 570,
+      "source_offset": 48545,
+      "packed_bytes": 274,
+      "decoded_bytes": 494,
+      "decoded_sha256": "f9983dbbcf3a287a064d7a1ba55e657d66140f5cb6b1bfab133a8ad7af9d4ac8",
+      "text": "Mit  der  hohlen  Hand  schöpfst Du ein wenig von dem Weihwasser aus dem Beckenund  sprenkelst  es  feierlich  in  die  purpurnen  Flammen  hinein:  Mit einemdiabolischen  Zischen  verlöschen  sie,  und  zusammen  mit  ihnen auch Zargonsdunkle   Macht!   Im   selben   Augenblick,   als  das  Purpurfeuer  verlischt,erschüttert   ein  lauter  Donnerschlag  das  ganze  Schloß  bis  tief  in  dieGrundmauern,  so  als  versuchte eine eherne Gigantenfaust diese Brutstätte desBösen zu vernichten!"
+    },
+    {
+      "id": 571,
+      "source_offset": 48819,
+      "packed_bytes": 201,
+      "decoded_bytes": 349,
+      "decoded_sha256": "47a1ec67c68888cb9cc5b39ca94236eb9d5ff180defacc7b36d77ccba278a4d7",
+      "text": "Also,  wenn Du wirklich glaubst, Du könntest Dich einfach so vor Deiner Aufgabedrücken,  indem  Du  das  geweihte  Wasser in Dich hineinschlabberst, dann bistaber  völlig  falsch  informiert! Du brauchst nämlich ebenfalls eine, möglichstversilberte,  Waffe!  Und  erwarte  jetzt  bloß  nicht  von  mir,  daß ich meineigenes Schwert gegen mich wende!"
+    },
+    {
+      "id": 572,
+      "source_offset": 49020,
+      "packed_bytes": 314,
+      "decoded_bytes": 544,
+      "decoded_sha256": "9eb40cfe5e93c25205b3ef2dd6691d46763d829d4a6dab88616bd35363262ee4",
+      "text": "Ja,  sag'  mal:  Hast  Du  eigentlich  auch  noch andere Gedanken? Ich kann Dirwirklich  aus  eigener  Erfahrung versichern, daß es sehr viel mehr Spaß macht,mit  einem  knackigen,  jungen  Orkmädel  in  die Kiste zu hüpfen als mit einerharten  und  kalten  Statue!  Wenn  sie wenigstens aus Gum... - aber lassen wirdieses!  Außerdem:  Du bist immerhin schon siebzehn! Das ist doch wohl wirklichalt  genug,  um  Dir  eine  nette  Freundin  zu  suchen, statt Deine physischenBedürfnisse mit Hilfe einer männlichen (!!!) Statue zu befriedigen...!"
+    },
+    {
+      "id": 573,
+      "source_offset": 49334,
+      "packed_bytes": 88,
+      "decoded_bytes": 157,
+      "decoded_sha256": "2181add626633837d920bd30bb6f6d723eca1df03173ff8f943f974a83a2acb2",
+      "text": "Mit  der  Kette, die Du im Boot findest, machst Du es gewissenhaft am Landestegfest, um sicherzustellen, daß es während Deiner Abwesenheit nicht davontreibt."
+    },
+    {
+      "id": 574,
+      "source_offset": 49422,
+      "packed_bytes": 615,
+      "decoded_bytes": 1086,
+      "decoded_sha256": "be2aa8bac2e19d06522d9ac1a557b8b6fd56da530cdf7e697623a92d5d519460",
+      "text": "\"Da:  Haut  'rein!\",  rufst  Du  den Ratten aufmunternd zu und wirfst ihnen diedünne  Weißbrotscheibe  hin: Gierig fallen sie darüber her und verschlingen siebinnen  weniger  Sekunden!  Wie  selbstlos  von Dir, ihnen Dein letztes bißchenBrot  zu  geben - nur leider bleiben die sehnsüchtig erwarteten Sterntaler aus,so  weit  Du  Dein  Hemdchen auch aufhältst! Aber was ist denn das? Alle Rattenbeginnen  auf  einmal  im  Raum  hin-  und  herzutorkeln,  als hätten sie einenleichten  Schwips!  Du  hast sie vergiftet! Du hast sie heimtückisch vergiftet,umgebracht,  gekillt!  Mörder!  MASSENMÖRDER! Glotz' nicht so unschuldig in denMonitor:   Du   wußtest   ganz   genau,  daß  die  Brotscheibe  vergiftet  war!Seelenruhig  und  ohne  die  geringsten  Gewissensbisse siehst Du mit eiskalterZufriedenheit  zu,  wie  die  Ratten,  eine nach der anderen, umkippen und alleViere   von   sich   strecken...   Nachdem   auch   das   letzte  Opfer  DeinerVernichtungsaktion  in  die  ewigen  Jagdgründe  abgesegelt  ist, kannst Du denRaum nun endlich ungehindert durchqueren, wenn Du möchtest."
+    },
+    {
+      "id": 575,
+      "source_offset": 50037,
+      "packed_bytes": 247,
+      "decoded_bytes": 418,
+      "decoded_sha256": "dbca92bd1dc0981ecd2a04e1ade7654dc7870fe8f61c40739a4e9773d8aaa49c",
+      "text": "Oh,  da  haben  wir mal wieder einen echten Tierfreund vor dem Computer sitzen,was?  Voller  Mitleid  mit den armen, hungrigen Viechern teilst Du Dein letztesbißchen  Brot  mit  ihnen.  Doch  nachdem Ihr Euer dürftiges Mahl beendet habt,schauen  die  Ratten immer noch aus hungrigen Knopfäuglein zu Dir auf! Offenbarhast  Du  ihnen  mit dem Brot erst richtig Appetit gemacht - und nun warten sieauf das FLEISCHGERICHT!"
+    },
+    {
+      "id": 576,
+      "source_offset": 50284,
+      "packed_bytes": 50,
+      "decoded_bytes": 83,
+      "decoded_sha256": "562dca98498fd14e1e3f0e80dcba2f7ee7739ddce70c34862feeb6ff4a8386d2",
+      "text": "Mit  dem Bootsschlüssel schließt Du die Kette auf, mit der das Boot festgemachtist."
+    },
+    {
+      "id": 577,
+      "source_offset": 50334,
+      "packed_bytes": 388,
+      "decoded_bytes": 657,
+      "decoded_sha256": "03d28285ebb28b79d357c2713a8a00ecf03b430d19d45b4faa089cc9f6a73bdb",
+      "text": "Tja,  äh...  Ich weiß gar nicht, wie ich es Dir beibringen soll, ohne Dir schonwieder  auf  die  Nerven  zu  gehen,  aber...  Naja,  ähem: Wir müßten noch einletzes  Mal  Deine Zugriffsberechtigung für dieses Spiel überprüfen. Tut mir jawirklich  fürchterlich  leid,  aber  dies  scheint der einzige Weg zu sein, dieAnzahl  der  Schwarzkopien  in  halbwegs erträglichen (?) Grenzen zu halten unddamit  sicherzustellen,  daß  unsere  Programmierer  das Geld bekommen, das siesich  mit  ihrer  Arbeit  auch  wirklich sauer verdient haben. Also bitte: Nochein  einziges  Mal  -  diesmal  allerdings  aus  dem  Tagebuch des Turmwächters(\"Variatio delectat!\")..."
+    },
+    {
+      "id": 578,
+      "source_offset": 50722,
+      "packed_bytes": 423,
+      "decoded_bytes": 735,
+      "decoded_sha256": "2f3208a5f27f59a0e0ac617ab3a3f4cd3a3f6cbf1defb8be3e9d8721d93205d5",
+      "text": "Wow!  Das  ist ja kaum zu glauben: Du hast tatsächlich ein Original! Ein echtesOriginal!  DU  warst  das also! Dank! Dank sei Dir, großer Meister! Du hast unsmit  Deiner  Spende  so  reich gemacht, daß wir gar nicht wissen, wohin mit derganzen   Kohle!   Die  eine  Hälfte  haben  wir  also  erst  einmal  auf  unserNummernkonto  in  der  Schweiz  eingezahlt, damit wir später mal von den Zinsenleben  können,  und  von  der  anderen  -  ähem:  ...haben wir uns zu viert 'neFamilienpizza  bestellt...!  Trotzdem: Du hast eine gute Tat an ein paar \"armenSchülern\"  vollbracht  -  laß'  uns  zum  Dank Deine Tasten küssen! So, und nunlasset  uns  nach  all  der  schleimigen  Süßholzraspelei  mal  sehen,  wie dieGeschichte weitergeht..."
+    },
+    {
+      "id": 579,
+      "source_offset": 51145,
+      "packed_bytes": 954,
+      "decoded_bytes": 1698,
+      "decoded_sha256": "929e1489bed25b59aa480fcc5ec856f8c2e9c53d1051a502ea999b08bd3f2dac",
+      "text": "Aaargh!  Ich  hatte  es  zwar bereits vermutet - aber DAS ist jetzt wirklich zuviel  für  einen  einfachen Parser! Warum hast Du das getan? Ich meine: Wenn Dutatsächlich  so  viel Zeit geopfert hast, um bis zu diesem Punkt des Spieles zugelangen,  was  ja  gleichzeitig  auch  bedeutet, daß es Dir irgendwie gefallenhaben  muß  -  warum  zum  Teufel hast Du es Dir dann nicht gekauft? Glaubst Dudenn  allen  Ernstes,  daß  wir  in  der  Lage  wären,  noch  einmal ein derartgigantisches  Programm  zu  produzieren,  wenn  Du  uns  einfach  um unser Geldbringst,  das  wir  uns  weiß  Gott  hart  genug und unter größten Entbehrungenerarbeitet  haben?  Meinst  Du  denn,  wir  hätten noch Lust, weitere Programmedieser  Art  zu  produzieren,  wenn  so  ein Typ wie Du einfach hingeht und dieArbeit  von  vielen  Jahren  so  einfach  mir  nichts, Dir nichts, kaputtmacht?Denk'  doch  einfach mal über die Konsequenzen Deines Handelns nach: Wir wollenweiß  Gott  keine  Riesenvillen bewohnen und uns einen Porsche nach dem anderenkaufen  können  (Mein  Penthouse  in  Paris  und  der Firmenbentley reichen mirschon  -  man  ist  ja bescheiden!), aber wenn wir nicht einmal mehr genug Geldmit   diesem   Job   verdienen,   um  unseren  normalen  Lebensunterhalt  davonbestreiten  zu  können,  dann  werden  wir  uns  bald wohl oder übel nach einemanderen  umschauen  müssen!  Es  liegt  allein bei Dir und Deinen Freunden, wielange  es  noch  gute  Software geben wird - und nicht zuletzt schadet Ihr Euchja  schließlich  auch selbst durch Eure blöde Kopiererei! Also: Bitte kaufe Dirdas    Originalprogramm,    wenn    Du   möchtest,   daß   auch   noch   andereA.C.A-Produktionen erscheinen können..."
+    },
+    {
+      "id": 633,
+      "source_offset": 52099,
+      "packed_bytes": 105,
+      "decoded_bytes": 184,
+      "decoded_sha256": "4db923dabaaa527b30fcccb3b4e4f3706c275530cb0dc8261a5eb32fbd4711d3",
+      "text": "Selbst  wenn  Du  den  Code  vergessen  könntest:  Willst  Du  Dir diese Chancewirklich  entgehen  lassen?  Wir  haben  das Ding schließlich nicht umsonst insSpiel eingebaut, weißt Du?"
+    },
+    {
+      "id": 634,
+      "source_offset": 52204,
+      "packed_bytes": 65,
+      "decoded_bytes": 110,
+      "decoded_sha256": "198f981cc59e75be78c41eec0f73892773ffc70cbd6d99f623e56a2fba0ec44a",
+      "text": "Du  ziehst  den  Vorhang  wieder zu und verschließt damit die Öffnung, die Dichzurück in den Weinkeller führt."
+    },
+    {
+      "id": 635,
+      "source_offset": 52269,
+      "packed_bytes": 43,
+      "decoded_bytes": 71,
+      "decoded_sha256": "b6581d6167e4cbec4891545e81eabab3326f5fb5ef316500d4414a203cb7db17",
+      "text": "Leise schwingt die Bücherwand wieder in ihre Ausgangsstellung zurück..."
+    },
+    {
+      "id": 636,
+      "source_offset": 52312,
+      "packed_bytes": 77,
+      "decoded_bytes": 130,
+      "decoded_sha256": "a32bf87044f134e46b8f82bf4a48f0c3e228f82ac2ac66e90ef4d0c30e76c406",
+      "text": "Du  schiebst  die  Bücherregale  in  ihre  Ausgangsposition zurück und schließtsomit den Zugang zu Zargons Geheimkammern wieder..."
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+# DiskC — Amiga
+
+Quelle: Disk 2/Data/Texts/DiskC.TXT
+Text-IDs aus Code/Main; originale Abstände bleiben erhalten.
+
+## 356
+
+Während  Du unter den verkrüppelten Bäumen Deinem Weg nach Osten folgst,bekommst  Du  den  Eindruck,  daß  Du tatsächlich das einzige Lebewesenbist,  das  leichtsinnig  genug  war,  diesen  Teil  des Waldes noch zubetreten  -  einen  Wald,  in  dem  die  Zeit angehalten worden zu seinscheint...  Weiter  nach  Osten  hin  siehst  Du, wie der unheimliche Wald nochdichter und tiefer wird...
+
+## 357
+
+Du  setzt Deinen Weg unter den dicken, knorrigen Ästen der abgestorbenenBäume  fort,  durch  deren  bizarre  Kronen  kaum  ein Sonnenstahl mehrfällt  -  alles  um  Dich herum scheint tot und von einer geisterhaftenLeere  erfüllt  zu  sein...  Im Norden kannst Du das Ufer eines Sumpfeserkennen,  während  der  Pfad,  von  dem aus Du hierhergekommen bist, im Westenliegt.
+
+## 358
+
+Während  Du  den  weichen,  morastigen  Boden unter Deinen Füßen spürst,beschleicht  Dich  die  unbestimmte Vorahnung, daß hier sehr bald etwaspassieren  wird:  Es  ist  einfach zu still, obwohl alles um Dich herumdoch  eigentlich  einen  ziemlich  friedlichen  - zumindest jedoch sehrruhigen  -  Eindruck macht. Aber ist es nicht sogar - ZU friedlich...? Das Uferdes   Sumpfsees   befindet  sich  im  Norden,  während  sich  der  verwunscheneWaldabschnitt nach Süden hin erstreckt.
+
+## 359
+
+Du  erreichst  das  Ufer  eines  großen  Sumpfsees:  Diese  braune Brühescheint  also  das einzige zu sein, was Dich noch von der Insel trennt,die  Du  weiter  im  Norden  erkennen kannst. Wenn die Geschichte KönigRichards  stimmt,  so  befindet  sich  hinter dem kleinen Hügel auf derInsel  tatsächlich  das Ziel Deiner Reise: das Königsschloß des Landes, das vorlanger  Zeit  von  Zargon  und  seiner Horde besetzt worden ist und ihm nun alsHauptquartier  dient,  von  dem  aus er seine finsteren Machenschaften steuert,die  Tod  und  Verderben  über  das  ganze Land gebracht haben... Nun kannst Duentweder   den   Sumpfsee   im   Norden   betreten   oder  zum  Sumpf  und  demdahinterliegenden Wald im Süden zurückkehren.
+
+## 360
+
+Während  Du  mit  dem  Boot  über  den  See  ruderst, schaust Du auf diebräunliche  Brühe  links  und  rechts  Deines  Bootes  herab: Irgendwieerinnert  sie  Dich  unangenehm  an  den Kaffee, den Du Dir zuhause voreiner  langen  Nacht  zusammenzubrauen pflegtest, unbeeindruckt von derTatsache,  daß  Du wegen dieses "Killer-Kaffees" bereits seit Monaten ganz obenauf  der  Drogenfahndungsliste  der Kriminalpolizei rangiertest: Sechs gehäufteLöffel  Kaffee  pro Tasse - das Gesöff hat sogar Tote wieder zum Leben erweckt,um  sie  gleich  darauf  nach einer Herzattacke wieder in die Ewigen Jagdgründezurückzuschicken!  Ein  nicht  ganz  unpassender  Vergleich  übrigens, denn werweiß  schon,  was sich wohl unter dieser braunen Masse versteckt und nur daraufwartet,  zum  Leben  erweckt zu werden...? Nicht denken, Mann: RUDERN! Und zwarnach Norden, wenn Du die Insel heil erreichen willst.
+
+## 361
+
+Neugierig  betrittst Du die undurchdringlichen Sumpfgebiete. Obwohl sichder  Boden  schon  gefährlich  weich  und  schlüpfrig anfühlt, setzt DuDeinen  Weg  unbeirrt  fort  - bis Du Dir schließlich eingestehen mußt,daß  Du  Dich  mal wieder völlig verfranzt hast! Wütend schlägst Du Direine  Bresche  durch  die  dichte,  feuchte Vegetation, in der Hoffnung, daß Duauf  irgendeinen  markanten  Punkt  stoßen  wirst, der Dir vielleicht ein wenigbei  der  Orientierung  hilft,  doch  irgendwie  scheinst  Du  nur  im Kreis zulaufen!  Nach  einiger  Zeit  kommt  Dir  endlich  der  rettende Gedanke: Stattziellos  umherzuirren,  beschließt  Du, Deinen Weg stur geradeaus fortzusetzen.Irgendwann  wirst  Du  schon  an  ein Ufer der Insel kommen, von wo aus Du Dichzum  Landeplatz  Deines  Bootes  durchschlagen kannst! Frischen Mutes machst DuDich  also  auf  den Weg, bis Du endlich auf eine kleine Lichtung gelangst, vonder  aus  Du  im  Südosten  auch  schon  das  südliche  Ufer der Insel erkennenkannst,  wo  auch  dieses  merkwürdige  Schild  stand,  dessen  Sinn  Du  nichtverstanden  hast.  "Puh, geschafft!", denkst Du Dir erleichtert und willst Dicherschöpft   hinhocken,   um  ein  wenig  zu  verschnaufen,  als  Du  zu  DeinemErschrecken  feststellen  mußt,  daß  Du  bereits bis zu den Knien in den Bodeneingesackt  bist.  Von  Panik  ergriffen strampelst Du wie wild mit den Beinen,ohne   Dich   jedoch   auch   nur  einen  einzigen  Zentimeter  aus  dem  Bodenherauszubewegen  -  im Gegenteil: Du sackst nur noch tiefer ein! Tja, wie jedesrichtiges  Adventure  besitzt  auch "Soul Crystal" eine Treibsand-Location: Nunkennst  Du  sie!  Während  Du  also  langsam  Deiner  Bestimmung als Moorleichezugeführt  wirst,  fühlst Du zu Deinem Trost zumindest noch, wie Dein Fuß gegendie   Überreste   eines  anderen  unglücklichen  Abenteurers  stößt,  der  sichanscheinend für dieselbe Route entschieden hatte wie Du...
+
+## 362
+
+Du  erreichst  das  Ufer  eines wunderschönen, ruhigen Eilands. Alles umDich  herum  macht einen ziemlich unberührten und verwilderten Eindruck-  fast  so,  als  ob  seit  Jahrhunderten  niemand mehr seinen Fuß aufdiese  Insel  gese...  "Mist! Nicht noch eine Parallelwelt!", denkst DuDir    und    verfluchst    im    Stillen    die   Einfallslosigkeit   gewisserSpieledesigner...  Der  Sumpfsee  befindet  sich hinter Dir im Süden, weiter imNorden  liegt  ein  kleiner,  bewaldeter  Hügel,  von  dem  aus  man  eine guteAussicht  über  die  Insel  haben  müßte, und zu Deiner Linken steht ein Schildmit  der  Aufschrift  "Achtung  -  Treibsand! Durchgang verboten! Eltern haftenfür  ihre  Kinder!"  Naja, vielleicht solltest Du Dir doch die Mühe machen, malwieder   Deinen   Spielstand  abzuspeichern,  bevor  Du  Deinen  Erkundungsgangfortsetzt...?
+
+## 363
+
+Du  betrittst  die  Hütte  eines älteren Einsiedlers, die dieser sich imLaufe  der  Jahre  aus  den Steinen und Ästen zusammengeflickt hat, diehier  überall  auf  der  Insel  herumliegen. Als Du ohne anzuklopfen inseine  Hütte  eintrittst, blickt der alte Eremit, der damit beschäftigtwar,  Pfeilspitzen  für  die  nächste Wolfshatz zu schleifen, von seiner Arbeitauf  und  blickt  Dich aus neugierigen - wenn auch etwas blöden - Augen an, alsob  er  Dich  fragen  wollte,  von welchem Planeten denn Du kämest... Durch diekleine  Türluke  im  Osten  kannst  Du die Lichtung sehen, von der aus Du dieseHütte betreten hast.
+
+## 364
+
+Du  befindest  Dich  auf  einer  kleinen Lichtung inmitten eines dunklenWaldes.  Unmengen  Steine,  Bretter  und anderes Baumaterial liegen aufdem   Boden   vor  der  kleinen  Hütte  im  Westen  herum,  über  derenSchornstein  sich  friedlich  eine  kleine  Rauchfahne gegen den Himmelkräuselt.  Weiter  nordwärts  kannst  Du am Saum des Waldes ein dampfendes Moorerkennen,  dessen  feuchte  Nebelschwaden  schwer  und  unheilverkündend in denWald  hineinwehen.  Rechts  neben  Dir  befindet sich ein Pfad, der Dich wiederauf  den  kleinen  Hügel hinaufführt, von dem Du Dir einen guten Überblick überdie   geographischen   Gegebenheiten   dieser   Insel   verschaffen   könntest.Schließlich  befindet  sich  hinter  Dir  noch  ein  Schild  mit der Aufschrift"Achtung  -  Treibsand!  Durchgang  verboten!  Eltern  haften für ihre Kinder!"Tja,  wenn  Du  Dir  tatsächlich  in  weiser  Voraussicht eine Karte gezeichnethaben  solltest,  so  wird  sie Dir an dieser Stelle unter Umständen von Nutzensein  können  -  wenn  nicht,  macht  das aber auch nichts: Wenn es soweit ist,wirst  Du  wohl  verstehen, was ich gemeint habe - aber vergiß bis dahin nicht,Deinen Spielstand regelmäßig abzuspeichern...
+
+## 365
+
+Unter  allergrößten  Anstrengungen  schleppst Du Dich auf den Gipfel deszirka  einhundert  Meter  hohen  Hügels.  Nachdem Du Dich auf einen dergrößeren  Felsen  gesetzt  hast,  um  Dich  von  Deinem kräftezehrendenGipfelsturm  zu  erholen,  betrachtest Du Deine Umgebung etwas genauer:Der  gesamte  Hügel  ist  von  einem  dichten Wald umgeben, durch den sich dreiPfade  winden:  Der  westliche Weg führt hinunter auf eine kleine Lichtung, vonder  aus  Du  auch  das  Moor  im  Nordwesten der Insel erreichst, der südlicheendet  am  Ufer  des  Sumpfsees,  wo  Dein  Boot auf Dich wartet, und im Nordenliegt  düster  und  ehrfurchtgebietend das Ziel Deiner langen Reise: Das SchloßZargons!
+
+## 366
+
+Zitternd  und  noch  immer  in  panischer  Erregung über das, was Du vorwenigen  Sekunden  erlebt  hast,  bleibst  Du  am  westlichen Rande desMoores  stehen,  um  ein wenig zu verschnaufen. Zumindest kannst Du vonDeinen   Verfolgern   keine   Spur  mehr  entdecken:  Du  scheinst  sieabgehängt  zu  haben, aber - wohin nun? "Mist!", denkst Du Dir verbittert,"Wäreich  doch  nur  in  meinem  gemütlichen Hotel geblieben und hätte mich ein paarWochen  lang  entspannt,  statt  mal  wieder das Abenteuer zu suchen! Nun habenwir  den  Salat:  Jetzt  sitze  ich einsam und verlassen in der Pampa, habe dasbißwütige  Zombierudel  hinter  mir  -  und  überhaupt  war das ganze Spiel eineinziger  Fehlkauf!  Nie im Leben werde ich wieder Geld für solch einen Schrottausgeben!"   Wie   recht  Du  mit  Deinem  letzten  Statement  hast,  wird  Dirallerdings  erst  richtig klar, als Du Dich umschaust und zu Deinem Erschreckenfeststellen  mußt,  daß  der  einzige  Ausweg  aus  diesem Teil des Moores nachOsten  führt  -  direkt in die Arme der Zombies, die Deine Verfolgung aus gutemGrund  aufgegeben  haben: Sie kennen dieses Moor sehr genau - den Ort, der wohlfrüher oder später Dein Grab werden wird...
+
+## 367
+
+Während  Du  auf einem mehr imaginären als tatsächlich vorhandenen Pfad,der  von  Süden  nach  Westen  verläuft,  über  das Moor läufst, sinkenDeine  Füße  tiefer  und tiefer in den schwammig-weichen Boden ein. Derundurchdringliche,  feuchte  Nebel,  der  zu beiden Seiten Deines Wegesaufsteigt,  verdichtet  sich  zu  grotesken Fabelwesen, deren Anblick Dir kalteSchauder  über  den  Rücken  jagt... Kurze Zeit später sagst Du Dir jedoch, daßalles,  was  um  Dich  herum passiert, lediglich ein Produkt Deiner überreiztenNerven  ist  -  Hirngespinste, die bloß Deiner blühenden Fantasie erwachsen. UmDir  ein  wenig  Mut  zu  machen,  denkst  Du  an Deine bisherigen Abenteuer indieser  Welt  zurück,  und  daß schon etwas mehr dazu gehört, einen Dave Parkerdas  Fürchten  zu  lehren, als bloß ein paar lächerliche Nebelschwaden und einegespenstische   Geräuschkulisse.  Gerade  willst  Du  neuen  Mutes  Deinen  Wegfortsetzen,  als  Du  ein merkwürdiges, blubberndes Geräusch vor Dir hörst, dasnäher  und  näher  zu  kommen  scheint - ein Geräusch, das alles andere ist alsirreal!  Gehetzt  siehst  Du  Dich  um,  doch  nirgendwo  inmitten des wogendenNebelmeeres  kannst  Du eine Erklärung für diese unheimlichen Geräusche finden,die direkt aus den tiefsten Tiefen des Moores zu kommen scheinen...
+
+## 368
+
+Du  stehst  direkt  vor dem Ziel Deiner Reise - der Schloßruine Zargons!Viel   ist   aber  wirklich  nicht  übriggeblieben  von  dem  einstigenKönigsschloß:   Das  einzige,  was  inmitten  der  traurigen  Überresteerhalten  ist,  ist  das riesige Eintrittsportal in der hohen Mauer vorDir  -  der einzige Zugang zu Zargons Hauptquartier, wie Du ein wenig entmutigtfeststellen  mußt.  Wenn Du es wagst, kannst Du nun versuchen, Zargons Feste zubetreten  -  doch  niemand  würde  es  Dir verübeln, wenn Du angesichts der Dirhinter  diesen  Mauern  drohenden  Gefahren  im letzten Moment einen Rückziehermachen und zu Deinem Boot am südlichen Ufer der Insel zurückkehren wolltest.
+
+## 369
+
+Du  betrittst das Torhaus, das vor langer, langer Zeit einmal jedermann,der  Eintritt  in  des  Königs  Schloß begehrte, zu passieren hatte. Dumußt  leise  kichern,  als Du Dir vorzustellen versuchst, wie der alte,schwerhörige  "Torwächter"  von  "Mary's  Inn" hier säße und alle neuenBesucher  kontrollierte!  Als  Du  Dich  umsiehst,  erkennst  Du,  daß alles indiesem  Raum  mit  einer dicken Staubschicht bedeckt ist. Trotzdem schätze ich,daß  das  übliche  Gesindel  uns  mal  wieder  zuvorgekommen ist und hier schonlängst  alles,  was  nicht niet- und nagelfest war, geplündert hat... Durch diekleine  Tür  in der Ostwad gelangst Du wieder nach zurück nach draußen, vor dasBurgtor.
+
+## 370
+
+Direkt  vor  Dir  erhebt sich drohend und massig das massive Burgtor mitseinen    eisernen    Beschlägen.   Hämisch   scheint   es   auf   Dichhinabzustarren  -  fast  schon  so, als ob es sagen wollte: "Dich werdeich  hier  niemals  wieder  herauslassen...!",  und  prompt bekommst Duauch  schon  das  leichte  und  unbestimmte,  andererseits jedoch absolut nichtangenehme  Gefühl,  daß  Du  diesen  Zugang  zum  Schloß  tatsächlich  nur  eineinziges  Mal  durchschreiten  wirst...  Noch  hast Du ein wenig Zeit, Dir DeinVorhaben  reiflich  zu  überlegen  -  und  wir sollten Dich fairerweise warnen,obwohl  Du  Dich  eigentlich  schon  auf  dem  richtigen  Weg zur Lösung DeinerAufgabe  befindest:  Wenn  Du  es  tatsächlich  wagen  solltest, dieses düstereGemäuer  entgegen  allen  unseren  Warnungen  zu  betreten, so wird Dich diesesSpiel  so  lange  nicht  schlafen  lassen,  bis  Du es endlich gelöst hast. Ichschlage  daher  vor,  daß Du Dir erst einmal ein paar Fäßchen Kaffee auf Vorratbraust,  ein  paar  Stangen  Zigaretten  kaufst  - und Dir vor allen Dingen einpaar  halbwegs  intelligente  Entschuldigungen  für  Deinen Boss ausdenkst! So,und  solltest  Du  nach all diesen furchterregenden Ankündigungen trotzdem nochden  Mut  -  oder  den  Leichtsinn? - besitzen, Zargons Burg zu betreten - hiersind  die  Ausgänge:  Im  Westen  gelangst Du in ein kleines Torhaus, in dem Duvielleicht  in  letzter  Minute  noch  den  einen  oder  anderen  Hinweis  odernützlichen  Gegenstand  finden  könntest.  Gehst  Du  hingegen  nach Norden, sobetrittst  Du  entweder  das Innere der Ruine, oder Du knallst mit voller Wuchtin  massives  Eichenholz  - je nach Zustand des Burgtores... Schließlich bliebeDir  noch  der  Rückzug  gen  Süden, aus dem Schloß heraus - ohne Deine Missionerfüllt zu haben nicht sehr sinnvoll, meinst Du nicht...?
+
+## 371
+
+Hmmm...:  Mir  ist  zwar  durchaus  bekannt, daß es Leute gibt, die ein Moorbadaufgrund  seiner  gesundheitsfördernden Wirkungen sehr zu schätzen wissen, aberdies  hier  ist  ein  tiefer  Sumpf  -  nicht bloß irgendein harmloses, kleinesMoor!  Hilflos  sinkst  Du  also bis auf den Grund des Sumpfsees hinab, um dortfür  alle  Ewigkeiten  konserviert  zu  werden.  Tja, also ich glaube trotzdem,eine  Konservierung  durch  die  "Speichern"-Funktion  wäre  Deiner  Gesundheitzuträglicher gewesen, meinst Du nicht...?
+
+## 372
+
+Nach  wenigen  Metern hältst Du inne und horchst noch einmal in die trügerischeStille   hinein:   Nein,   es  war  tatsächlich  keine  Einbildung  -  da  sindtatsächlich  Geräusche,  die  sich  unangenehm  von  dem  stetigen Blubbern desMoorbodens  abheben!  Schritte  nähern  sich  Dir von hinten, werden lauter undlauter  -  langsam,  aber unaufhaltsam... Erschrocken wirbelst Du herum, kannstaber  nichts  als  dichte,  waberndende  Nebelschwaden  erkennen,  die  sich zugrotesken,  Dich  für  Deine Furcht verhöhnenden Fratzen verziehen... Plötzlichjedoch  begint  der  Boden  neben Dir zu brodeln und Blasen zu schlagen, als ober   kochte   -   und   dann   taucht  das  grausig  entstellte  Gesicht  eineshalbverwesten  Leichnams  aus  der  Tiefe auf! Starr vor Entsetzen und unfähig,Deinen  Blick  von dem grauenerregenden Schauspiel abzuwenden, mußt Du zusehen,wie  sich  ein  Zombie  aus  den Tiefen des Moores erhebt! Im selben Moment, indem  Du  wieder  die  Kontrolle  über  Dich  selbst  erlangst,  schießen  seinekrallenbewehrten  Klauen  auch  schon  auf  Deine Kehle zu! Du weißt nicht wie,aber  irgendwie  wirfst  Du  Dich  noch  einmal  mit  aller Kraft zur Seite undentgehst  so  dem sicheren Tod! Allerdings strauchelst Du bei Deiner Parade undlandest  unsanft  im  Matsch! Nun scheint der Schwarzblüter endlich gewonnen zuhaben:  Während  Du  Dich  krampfhaft  bemühst, wieder auf Die Beine zu kommen,nähert  er  sich  Dir  zischend  und  fauchend:  Während  er  auf Dich zuwankt,klappen  seine  Kiefer mit einem knarrenden Laut auf und zu und entblößen seinewiderlich-braunen Zahnstümpfe...
+
+## 373
+
+Tut  mir  leid:  Du hattest wirklich eine reelle Chance gehabt, noch einmal mitdem  Schrecken  davonzukommen,  aber  leider  hast  Du  mal wieder ein wenig zulange  gezögert:  Glücklich  zieht  Dich  der  Zombie an Dich heran und schlägtvoller   Genuß   seine  Zähne  in  Dein  junges,  zartes  Fleisch!  Aber  nichtverzweifeln:  Immerhin  bis  Du  einem  echten  Gourmet zum Opfer gefallen, undsicherlich  werden  einige  Deiner  schmackhaftesten  Körperteile,  wie  Augen,Zunge,  und  ähnliche  Delikatessen,  in  seine  Vorratshöhle  verfrachtet  undeingemacht  werden,  da  es  einfach  viel  zu  selten  vorkommt,  daß sich einunglücklicher  Abenteurer  in  diese  Gegend  verirrt, als daß man solch' fetteBeute gleich an Ort und Stelle verzehren sollte...
+
+## 374
+
+Es  war  ein  tödlicher Fehler, nach Deiner Begegnung von vorhin wieder hierherzurückzukehren:  Ein  wahres  Rudel  Zombies  steht  bereits  zu Deinem Empfangbereit  und  kommt  mit  lagsamen,  abgehackten  Bewegungen  und  starrem Blickdirekt  auf  Dich  zu  -  an  der  Spitze  der Zombie, dem Du gerade erst knappentronnen  bist!  Dieses  Mal  hast  Du  Dich  allerdings  etwas  besser  unterKontrolle,   und   Deine   Reaktion   ist  um  einiges  schneller  als  vorhin:Blitzschnell  wirbelst  Du  herum,  nimmst  die Beine in die Hand und rennst umDein  Leben,  so schnell es Dir auf dem weichen Moorboden überhaupt möglich ist-  und  direkt  in  die  ausgestreckten  Arme  eines weiteren Zombies, der wohlnicht  so  ganz  kapiert  hatte,  was hier draußen überhaupt abging! Zu schade,wirklich   -   denn   Deine   Zeit   war   schon   fast   weltrekordverdächtig!Nichtsdestotrotz  ist  der  Zombie  hocherfreut, Deine Bekanntschaft zu machen,da  er  schon  seit  Wochen nicht mehr in den Genuß frischen Fleisches gekommenist  -  und  immer nur "Konservenabenteurer" zu fressen, die im Sumpf versunkensind,  ist  auf  die  Dauer auch für einen halbverwesten Zombiemagen eine etwaszu  einseitige  und  ungesunde  Ernährung! Nach einem kurzen Tischgebet schlägter  also  dankbar  seine  Hauer  in Dein Fleisch: "Verdammt! Wer hätte gedacht,daß  diese  brauen  Stümpfe  noch  so  scharf sein können...", ist Dein letzterGedanke, bevor alles vor Deinen Augen verschwimmt...
+
+## 375
+
+Während  Du  Dich auf den Rückweg aus dem verwunschenen Wald nach Süden machst,verfängt  sich  das  Amulett,  das  Dich  auf  dem  Hinweg  durch  die magischeBarriere  vor  ihrer  zerstörerischen  Kraft  beschützt  hatte,  in  einem  derabgestorbenen  Äste:  Ohne,  daß  Du es bemerkst, löst es sich von Deinem Hals,so  daß  Du - nichts Böses ahnend - frohen Mutes die Grenze zwischen den beidenWaldabschnitten  durchschreitest  und  die andere Seite der magischen Wand zwarknackig braun, aber leider auch ziemlich tot erreichst...
+
+## 376
+
+Während  Du  unter  den  toten Bäumen entlangwanderst, fühlst Du plötzlich, wieetwas  brutal  an  Deinem  Hals zerrt! Zu Tode erschrocken versuchst Du, Deinenunsichtbaren  Gegner  abzuschütteln  und  wirfst  Dich  hin  und  her,  bis  erschließlich  von  Dir  abläßt  -  und Du Dich kaum beherrschen kannst, nicht inhysterisches   Gelächter   auszubrechen:   Dein  "Gegner"  war  lediglich  DeinAmulett,  das  sich von Dir unbemerkt in einem der Äste verfangen hatte und nunwie zum Hohn von einem der Bäume herunterbaumelt...
+
+## 377
+
+Okay,  sagen wir: Es war ein Versuch - und reden wir nicht weiter darüber, dennsonderlich  erfolgreich  war  er nicht, wie Du schmerzhaft erfahren mußt: BevorDu   auch   nur   die   geringste   Chance   bekommst,  unter  dem  Portalbogenhindurchschlüpfen  zu  können,  hörst Du etwas von oben herunterrasseln... Najagut,  fassen  wir uns ausnahmsweise mal kurz und erzählen Dir einfach, was Dichmal  wieder  aus dieser schnöden Welt hinweggerafft hat: Das Fallgitter, das Duaktiviert  hast,  indem Du auf die kleine Plattform darunter getreten bist, hatDich  mit  einem  einzigen,  schweren  Schlag  erschlagen!  Du  bist  tot - ja,wirklich:  Das  ist unser voller Ernst! Du bist abgekratzt, hast den Löffel ausder  Hand  gelegt,  ins  Gras  gebissen,  kurz: Du bist weg! Beklag' Dich jetztbitte  nicht  bei  uns:  Hättest  Du  ein wenig aufmerksamer auf Deine Umgebunggeachtet,  so  wäre  Dir  die  kleine  Plattform  unter  dem  Gitter wohl nichtentgangen!  Siehst  Du?  Also ist es wohl eher Deine als unsere Schuld, wenn Dumal  wieder  von  vorn  anfangen  darfst!  Was,  das  glaubst  Du  nicht? Naja,irgendwie  kann  ich Dich ja verstehen: Du hast echt nicht den geringsten Grunddazu - aber vielleicht kann Dich dies hier ja überzeugen...:
+
+## 378
+
+Weißt  Du:  Es  gibt Situationen im Leben eines Mannes, in denen er seine Beinezu gebrauchen wissen sollte - nicht seine Fäuste...
+
+## 379
+
+Zweifelnd    betrachtest    Du    das    alte,    morsche   Boot:   Naja,   denvertrauenserwckendsten  Eindruck  macht  es wahrlich nicht, aber ich glaube, esbleibt  uns  wohl  keine  andere  Wahl,  wenn  wir den Sumpfsee halbwegs sicherüberqueren   wollen.   Wenn  Du  stattdessen  lieber  in  der  Pampe  schwimmenwillst...?
+
+## 380
+
+Ein  Ziegelstein  ist  ein  Ziegelstein ist ein Ziegelstein, und diese Diskettehat  einen  Sprung  hat  einen  Sprung hat einen Spr... -MANN! Was erwartest Duschon  Besonderes  von  einem ZIEGELSTEIN?!?!? Klein, quadratisch, gut - reichtdas?
+
+## 381
+
+Der  alte Eremit trägt ein lustiges Wams, das mit vielen bunten Flicken besetztist.  Obwohl  Du  ungebeten in seine Behausung eingetreten bist, schaut er Dichziemlich  freundlich  an,  wenn sein Blick auf Dich auch einen etwas verwirrtenEindruck macht.
+
+## 382
+
+Da  es  sich hier um einen ziemlich großen und schweren Schlüssel handelt, wirder  wohl  zu  einem  mindestens  ebenso  großen Schloß gehören, oder was meinstDu...?
+
+## 383
+
+Direkt  dort, wo die Gitterstäbe in den Boden einschlagen müßten, befindet sicheine  zirka  einen Quadratmeter große Plattform, die spärlich mit frischem Grasüberwachsen ist.
+
+## 384
+
+Die  kleine  Plattform  erweckt  den Anschein, als wäre sie zur Aktivierung vonirgendetwas   in   den   Boden   eingelassen   worden:   einer  Klingel,  einesMK-III-Flugtoasterkatapults,  eines  Fastformaters,  oder  - noch bescheuerter:EINER  FALLE?  Neee,  also  das  wäre  nun  selbst  für  dieses  Spiel etwas zueinfallslos!
+
+## 385
+
+IGITT!  Während  Du  den  Zombie  betrachtest, mußt Du krampfhaft das dringendeBedürfnis  unterdrücken,  ihm  nicht gleich direkt in die vergammelte Visage zukotzen:  Er  geht  Dir  ungefähr  bis  zur  Schulter, und während jeder noch sogeringen Bewegung fallen Reste fauligen Fleisches von seinen Knochen...
+
+## 386
+
+Als  Du  versuchst, das Amulett vom Ast loszumachen, rutscht es Dir durch Deineimmer  noch  etwas  zittrigen  Finger,  fällt  zu  Boden - und verschwindet miteinem kurzen "Blobb!" im Morast...
+
+## 387
+
+Der  alte  Eremit nimmt Dein Angebot dankbar an und bittet Dich freundlich, dasganze  Gerümpel  vor  seiner  Hütte  wegzuräumen  -  "...die  Bandscheiben, Ihrversteht...?"  Also,  ich  meine,  wir  sollten  das  den alten Hypochonder malschön  selbst  machen  lassen!  Die  Bewegung  an  der  frischen  Luft wird ihmsicherlich  guttun  -  Du  hingegen  hast  derweil  eine  wichtigere Aufgabe zuerfüllen als bloß Müllmann zu spielen...
+
+## 388
+
+Der  Zombie  wäre  Dir bestimmt bis an Dein Lebensende dankbar, wenn Du ihm einAuge  abgäbest  -  immerhin  hast  Du  zwei davon, und er hat heute noch nichtsAnständiges zwischen die Hauer bekommen...
+
+## 389
+
+Mühsam  ziehst  Du  die  Spitzen  des Fallgitters aus dem Boden und schiebst essoweit  nach  oben,  bis  es  sich  im Rahmen verkantet. Nun scheint die Gefahrerst  einmal  gebannt,  und es dürfte jetzt auch kein allzu großes Problem mehrsein, unter dem Gitter hindurch unter den Torbogen zu schlüpfen...
+
+## 390
+
+Die  langen  Jahre  der  Einsamkeit  scheinen  den  alten  Mann wohl doch schonreichlich  verblödet  zu haben. Dennoch fragst Du ihn, was er über diese kleineInsel  zu  berichten weiß. "Die Insel, die Insel...", sinniert er vor sich hin,"Wenn  ich  nur  wüßte,  welche  Insel  Du wohl meinen könntest! Vielleicht dieInsel,  die  Aeneas, der göttliche Held, vor Urzeiten betreten hat? Ah, ja: Ichhabe  auch  schon  von  einer  Insel  namens  "Amerika"  gehört,  die von einemgewissen  "Columbo",  äh:  "Coulomb"  entdeckt  worden  sein  soll  -  quatsch:"Columbos"  hieß  der  Knabe  -  ach,  vergiß' es wieder! Interessiert doch eh'keinen...  Oder  meinst  Du  vielleicht  sogar die Insel, auf der wir im Momentstehen?  Jawoll,  dies  hier  ist  nämlich  auch  eine  Insel, ob Du es glaubenwillst  oder  nicht!  Das  kannst Du zum Beispiel schon daran erkennen, daß sierundum  von  Wasser  umgeben  ist  und..."  Genervt  verdrehst Du die Augen genHimmel,  als  angesichts  dieser  Lektion  aus  der hohen Schule der Geographieunangenehme  Erinnerungen  an  Deine  "Sesamstraßen-Zeit"  in  Dir aufzusteigendrohen: Schon damals hast Du's nicht kapiert...
+
+## 391
+
+Mit  einer  wahren  Engelsgeduld entscheidest Du Dich, dem dummen Gebrabbel desAlten  noch  einmal  Gehör zu schenken, obwohl Du schon im Voraus zu bezweifelnwagst,  daß  Du  etwas Intelligenteres zu hören bekommen wirst als beim letztenMal.  Zu  Deiner  Überraschung antwortet der alte Eremit diesmal jedoch relativdirekt  auf  Deine Frage: "Ja, doch, ich weiß etwas über diese Insel! Natürlichtu  ich  das:  Immerhin  lebe  ich  hier bereits seit über zehn Jahren! Du tustalso  sehr  gut daran, Dich an mich zu wenden - ich wohne hier nämlich und...",erschrocken   hält   er   inne   und  blickt  auf  Deine  sich  gerade  in  denverschiedensten  Würgebewegungen  übenden  Hände,  und  fährt dann hastig fort:"Also,  auch  auf  die  Gefahr hin, daß Du mich für verrückt erklären wirst," -Du  lachst  hysterisch  auf  -  "muß  ich  Dir  sagen,  daß  die Flüsse hier umMitternacht  bergauf  fließen und sich bei Vollmond all die Abenteurer, die derSumpf  im  Laufe  der  Jahrzehnte  verschlungen hat, aus ihren feuchten Gräbernerheben   und  ausgelassene  Orgien  feiern!  Sogar  Zargon,  der  Dunkle  Lordhöchstpersönlich,  der  einst  einen  Pakt  mit dem Teufel geschlossen hat, derseine  Seele  gefrieren und einen riesigen, magischen Kristall einsperren ließ,ist  dann  hier  anwesend  und  nimmt  eine  Parade  seiner untoten Palastwacheab..."  In  Erinnerung  an  all  die  rauschenden Feste und die vielen hübschenZombienchen,   die  er  im  Verlauf  dieser  schon  vernascht  hat,  hellt  eintiefgründiges Lächeln die verrunzelten Gesichtszüge des alten Männchens auf...
+
+## 392
+
+Es  mag  ja  sein,  daß  Du  Dich  noch  weiter über das ausgesprochen hirnloseGewäsch  des  Alten  amüsieren  möchtest - aber ICH NICHT! Mannomann! Da ist jasogar DIESER Schwachsinn noch halbwegs erträglich gegen...!
+
+## 393
+
+Schon  in  der  weisen  Voraussicht,  daß  sich  unter der Plattform vielleichtwieder  eine  dieser  einfallslosen  Fallen  verbergen  könnte, von denen es indiesem  Land  nur  so  zu  wimmeln  scheint,  läßt  Du  den armen, unschuldigenZiegelstein  aus  sicherer Entfernung vorsichtig auf sie aufschlagen: Im selbenMoment,  als  der  Stein  sein  Ziel trifft, rasselt das riesige Fallgitter vonoben  auf  ihn  herab  -  mit  einer Geschwindigkeit, die es nicht einmal einerRatte  erlaubt  hätte,  unversehrt auf die andere Seite des Gitters zu gelangen-  und  zerbröselt  den  Stein  in  tausend  handliche Kiesel!!! Irgendetwas inDeiner  Brust  verkrampft  sich  und  rutscht  eine Etage tiefer: Wie sähest Dujetzt  wohl  aus,  wenn  es  Dein  Gewicht  gewesen  wäre,  das den Mechanismusaktiviert  hätte?  Und  noch  viel wichtiger: Wer hat eigentlich den Dreck, denDeine Vorgänger hier hinterlassen haben, weggewischt ???
+
+## 394
+
+Du  steckst  den  großen  Eisenschlüssel in das riesige Schloß des gigantischenBurgtores  und  drehst  ihn  herum!  Unglücklicherweise brichst Du dabei jedochden  Schlüssel  im Schloß ab - woher Du diese Kraft hast, ist Dir selbst völligschleierhaft!  Nichtsdestotrotz:  Zumindest  ist  das  Tor  jetzt  erst  einmalaufgeschlossen...
+
+## 395
+
+Es  ist wieder einmal soweit: "Hi. Hier sind die A.C.A-Götter...", hörst Du einpaar  Stimmen  von  unendlicher  Güte  aus  dem Himmel zu Dir herunterschallen."Weiß   der  Geier,  wie  Du  es  geschafft  hast,  zwei  unserer  nervtötendenCodeabfragen zu überstehen - aber diesmal bist Du endlich fällig...!"
+
+## 396
+
+Dumpfes  Gemurmel,  Seitenblättern,  ein erstaunter Aufschrei...: "WAS? Du hasttatsächlich  den  richtigen  Code  eingegeben  -  da  muß  doch  was faul sein!Kopiert  man  jetzt  auch  schon  Anleitungen  und  Packungsbeilagen mit? Naja,okay:  Du  hast jetzt auf jeden Fall das Recht, Zargons Schloß zu betreten. Na,wie  sieht's  aus:  Hast  Du  vielleicht  noch  'nen  letzten  Wunsch?" Genervtbeschließt  Du,  dieses  alberne  Kindergewäsch schnell wieder zu vergessen undDich  zu  beeilen,  ins  Innere  der  Burg  zu  gelangen.  Anscheinend  hat dasSpieldesign   die   armen  Seelen  wirklich  zu  alten  Männern  (Eremiten...?)gemacht...
+
+## 397
+
+"Verdammter  Dieb!",  kreischen  die  vier  Stimmen  hysterisch,  so daß Du Direrschrocken  die  Ohren  zuhältst!  "Wie  hast  Du es nur bei den ersten beidenAbfragen  geschafft,  uns  hinters  Licht zu führen? Naja, jetzt haben wir Dichauf  jeden  Fall!  Hiermit  verfluchen wir Dich zur Strafe für Dein Verbrechen,für alle Ewigkeit in diesem langweiligen Raum zu bleiben!"
+

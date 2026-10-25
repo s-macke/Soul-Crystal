@@ -1,0 +1,257 @@
+# DiskA — Amiga
+
+Quelle: Disk 2/Data/Texts/DiskA.TXT
+Text-IDs aus Code/Main; originale Abstände bleiben erhalten.
+
+## 107
+
+Du  befindest  Dich  in  Deinem kleinen, aber, gemessen an seinem Preis,recht  gemütlich  eingerichteten  Hotelzimmer.  An  der westlichen Wandsteht  ein  mit  Bauernmalereien  kunstvoll  verzierter Kleiderschrank,während  sich  ein kleiner, rustikaler Schreibtisch links neben der Türin  der  Nordwand  befindet, vor dem ein einfach gezimmerter Stuhl steht. Durchdas  Fenster  in  der  Westwand  kannst  Du die Sonne hinter den Bergen um LochCalderwood  herum  untergehen  sehen,  wie  sie  die  Abendlandschaft  in ihrenwarmen,  goldfarbenen  Schein  taucht.  Du erwachst aus Deiner Bewunderung, alsDir  plötzlich  einfällt, daß Du ja eigentlich versprochen hattest, nach DeinerAnkunft  zuhause  anzurufen, aber angesichts dieser vielen neuen Eindrücke wirdDeine Mutter wohl noch ein wenig warten können.
+
+## 108
+
+Dies  ist  die  Lobby  von  "Mary's  Inn", Deinem Aufenthaltsort für dienächsten  Tage  und Wochen. Durch die Tür in der Ostwand kannst Du eineStraße  erkennen,  durch  den  nördlichen Wanddurchbruch die Rezeption.Momentan  scheint  hier allerdings ziemlich wenig Betrieb zu herrschen,und  irgendwie  macht  Dich  der Anblick dieses einsamen und verlassenen Raumesein  wenig  depressiv.  Aber  was  soll's?  Vielleicht  kommen  ja  morgen  zurFrühstückszeit  mehr  Besucher her. Als Du Dich weiter umsiehst, kannst Du Dichdes  Eindrucks  nicht  erwehren,  daß  die  Leute, die diesen Raum eingerichtethaben,   unbedingt  den  Wohlstand  und  die  Weltoffenheit  ihres  Dorfes  zumAusdruck   bringen   wollten.   Doch  leider  ist  dieser  krampfhafte  Versuchgründlich  in  die  Hose  gegangen: Das Ergebnis ihrer Bemühungen erinnert Dichviel  eher  an  die  Foyers  der Hotels in amerikanischen Seifenopern - mit demunbedeutenden  Unterschied,  daß  diese  circa  fünfmal  größer sind! Trotzdem:Zumindest  die  Landschaft  ist  fantastisch,  und  das  war  es doch immerhin,weshalb Du hergekommen bist!
+
+## 109
+
+Du  stehst  auf der Straße, die von "Mary's Inn", Deinem Hotel, zum LochCalderwood  führt.  Du  spürst die Wärme der Abendsonne auf Deiner Hautund  lauschst  dem  Gutenachtgesang  der  Vögel auf den im sanften Windrauschenden  Bäumen,  die  den  Straßenrand  säumen. Die ersten Ferien,die  Du  allein  verreist bist, lassen sich doch eigentlich schon recht gut an,denkst  Du  Dir,  und  nimmst Dir vor, diesen Urlaub so gut zu genießen, wie esnur  eben  geht. Zu Deiner Linken, also im Westen, befindet sich der Eingang zu"Mary's  Inn",  während sich die Straße in Richtung Osten erstreckt. Am rechtenStraßenrand  befindet  sich  ein  Reklameschild,  auf  dem  geschrieben  steht:"Letztes Hotel vor dem nächsten Systemcrash!"
+
+## 110
+
+Du  wanderst eine einsame, staubige Straße entlang, die von Deinem Hotelzum   Ufer   von   Loch   Calderwood   führt.  Trotz  der  vorgerücktenAbendstunde  ist  es  immer  noch  angenehm warm: Der Boden strahlt alldie  Hitze  ab,  die  er  den  ganzen sonnigen Tag hindurch gespeicherthat.  Du  fühlst  Dich  ein  wenig erschöpft und denkst an Deine ausgetrockneteKehle,  die  Du  gern  mit  einem  schönen Humpen eiskalten Biers ölen würdest,aber  andererseits  befindet  sich  nur  ein kleines Stückchen weiter im Nordenschon  der  Bergsee,  in dem Du Deine qualmenden Füße kühlen wolltest. Falls DuDich  aber  doch  für  einen Drink an der Hotelbar entscheiden solltest, kannstDu die Straße natürlich auch nach Westen zurückgehen.
+
+## 111
+
+Du  stehst  in  einem  kurzen,  sauberen  Korridor mit weiß gestrichenenWänden  und  dicken,  roten Teppichen auf dem blankgebohnerten Parkett.Einige  schwarzgestrichene  und mit goldenen Nummernschildern verseheneTüren  führen  zu  den  Gästezimmern.  Dein  eigenes  Zimmer liegt nachSüden  hin,  und  da  Du  die  Schlüssel zu den anderen Räumen wohl kaum in dieFinger  bekommen  wirst, bliebe Dir als Alternative nur noch der Wanddurchbruchin der Ostwand, hinter dem Du die Rezeption erkennen kannst.
+
+## 112
+
+Du  stehst  an der Rezeption Deines Hotels. Direkt vor Dir befindet sichder   massive   Rezeptionstresen,  hinter  dem  Du  ein  Schlüsselbrettsiehst.  Als  Du  es  genauer in Augenschein nimmst, wird Dir klar, daßDu   momentan  wohl  der  einzige  Gast  des  Hotels  bist:  Fast  alleZimmerschlüssel  hängen  noch  am Brett! Weiter rechts daneben kannst Du einigePostfächer  erkennen,  aber  alle  sind leer. Naja, zumindest Deine Mutter wirdDir  schon  schreiben - und wenn es nur darum geht, Dich daran zu erinnern, daßDu  auch  immer  rechtzeitig ins Bett gehst, Deine Socken täglich wechselst undbrav Deine Vitaminpillchen einnimmst!
+
+## 113
+
+Während  Du  Dich  langsam nach Süden treiben läßt, bemerkst Du, daß dieStrömung  immer  stärker  wird - bis Du begreifst, in welcher Gefahr Duschwebst!  Mit  aller  Kraft versuchst Du, gegen den Sog anzuschwimmen,doch  es  ist  schon zu spät: Wild um Dich schlagend wirst Du von einemgewaltigen  Strudel  auf  den  Grund  des  Bergsees  hinabgezogen,  wo Du einenqualvollen  Tod  stirbst...  Im  Moment  Deines Todes glaubst Du unter Dir nochdie  goldenen  Kuppeln  der  alten,  versunkenen Stadt zu erkennen, von der Dirdie   Einheimischen   erzählt   hatten,   aber   angesichts  der  unglücklichenSituation,   in   die   Du   hineingeraten   bist,   ist   es  wirklich  höchstunwahrscheinlich,   daß   Du  noch  einmal  Gelegenheit  bekommen  wirst,  ihreGerüchte  zu  bestätigen:  Du  hast  nicht  ein  mal  mehr Zeit für ein letztesGebet...
+
+## 114
+
+Du  stehst  am Ufer von Loch Calderwood, völlig sprachlos angesichts dessich  Dir  bietenden  Bildes:  Vor  Dir  liegt ein malerischer Bergsee,umgeben  von  hohen,  zerklüfteten  Bergen,  hinter  denen  langsam dieSonne  untergeht.  Vom  Nordwesten  her  kannst Du einen Wasserfall vonden  Bergen  herunterkommen  und laut grollend in den Bergsee stürzen hören. Dufühlst  den  Anflug  eines romantischen Gefühls in Dir aufkommen und überlegst,ob  Du  nicht  kurz  Deine  Freundin  anrufen  solltest - doch im selben Momentverscheuchst  Du  den  Gedanken  wieder:  Wie  sollte solch ein Romantiker hierChancen  bei  den Mädels haben? Und was Deine Freundin betrifft: Die hast Du jaschließlich  nicht  ohne  Grund  zuhause gelassen, gell? In diesem Zusammenhangkommt  Dir  aber  der Gedanke, daß Dir ein paar Runden im See sicherlich guttunwürden,   bevor   Du   die  schottische  Damenwelt  mit  Deiner  Aufmerksamkeitbeglückst.  Wenn  Du also vor Deinem Eroberungsfeldzug noch ein wenig für DeineKondition  tun  möchtest,  kannst  Du  den  See  im  Norden betreten. Ansonstenkannst  Du  aber  auch  wieder  zu  Deinem  Hotel zurückkehren, das am Ende derStraße liegt, die nach Süden führt.
+
+## 115
+
+Als   Du   das  Eßzimmer  des  Hotels  betrittst,  mußt  Du  schmunzeln:Verglichen  mit  der Anzahl der Gäste, die hier jährlich regelmäßig einZimmer  buchen,  ist  der  Raum ein wenig zu groß geraten, fast so, alswäre  er  für  Staatsbankette oder andere festliche Tafelfreuden gebautworden:  Die  Kerzen in den kostbaren Ständern auf jedem Tisch machen ihn schonfast   "first-class-look-a-like",  nur:  Wofür?  Normalerweise  sind  doch  dieeinzigen   Gäste,   die  hierherkommen,  um  ihr  Abendessen  einzunehmen,  dieEinheimschen  selbst!  Einer von ihnen, ein älterer Mann mit langem Bart, sitztan  dem  Tisch  in  der  Ecke  und  studiert gerade die Speisekarte, während ergenüßlich  sein  Bierchen in sich hineinpichelt. Sollte auch Dich das Verlangennach  Speis'  und  Trank  überkommen  haben,  kannst  Du Dich ja zu ihm setzen.Andernfalls kannst Du das Eßzimmer durch die Tür hinter Dir wieder verlassen.
+
+## 116
+
+Während  Du  auf  dem schlickigen Uferboden nach Westen watest, wird dasWasser  kälter  und kälter - und logischerweise auch tiefer und tiefer,je  mehr  Du  Dich der Mitte des Sees näherst. Bis jetzt war es ja nocheinigermaßen  möglich,  auf  dem  Grund  des  Sees  zu stehen, aber nunbleibt  Dir  einfach  keine  andere  Wahl:  Du  mußt  schwimmen,  wenn Du nichtuntergehen  willst!  "Sei's  drum: Gelobt sei, was hart macht!", denkst Du Dir,besprenkelst  kurz  Deine  Heldenbrust und wirfst Dich dann mit Todesverachtungder  Länge  nach  nach  vorn. Uahhh! Das Wasser ist trotz der warmen Jahreszeitschon   ziemlich  kühl,  aber  nach  einigen  Sekunden  hast  Du  Dich  an  dieTemperatur   gewöhnt.   Eigentlich   doch   ganz   angenehm  hier  -  nur  DeinQuietscheentchen  fehlt  noch!  Als  Du  die  ersten  unbeholfenen  Schwimmzügemachst,  fühlst  Du auch die starke Strömung, die Dich nach Süden zieht, wo eingigantischer  Strudel  alles  in  seinen tiefen Schlund zerrt, was unvorsichtiggenug  war,  in seine Reichweite zu kommen. Du kannst in alle Himmelsrichtungenaußer nach Westen schwimmen.
+
+## 117
+
+Du  stehst  im  kalten Wasser des Bergsees. Es ist zwar immer noch rechtseicht,  aber  der Grund fühlt sich ziemlich merkwürdig an - vielleichttrampelst  Du  ja  gerade  auf  Nessie  herum?  Trotzdem: Wenn Dich daskalte   Wasser   und   die   Aussicht,   einem  leibhaftigen  Ungeheuervielleicht  als  Abendbrot  dienen  zu können, nicht abschrecken, wirst Du wohlohne  Probleme  vorwärts  kommen.  Solltest  Du jedoch Deine Absichten geänderthaben  und  klugerweise  zum  Ufer  zurückkehren,  statt  den Helden spielen zuwollen,  dann  gehe  nach  Süden.  Falls  Du  jedoch nicht auf meinen Rat hörenmöchtest,  setze  Deinen  Weg  ruhig  weiter  nach Westen fort - Du wirst schonsehen, was Du davon hast! Aber denke immer daran: Es war Deine Idee...!
+
+## 118
+
+Du  schwimmst  direkt  vor  dem  Wasserfall  im Nordwesten des Bergsees.Während  Du  bemüht bist, nicht von der Strömung abgedriftet zu werden,überlegst  Du,  was wohl hinter ihm versteckt sein mag... Du kannst nunentweder  zurück  zum Zentrum des Sees schwimmen, oder versuchen, unterdem  Wasserfall  hindurchzutauchen,  um zu sehen, welches Geheimnis sich hinterder undurchsichtigen Wasserwand verbirgt...
+
+## 119
+
+Immer  noch recht benommen von dem harten Schlag, den Dir der Wasserfallversetzt  hat,  versuchst  Du  Dich  mit  leichten,  jedoch  noch rechtlinkischen  Schwimmzügen  über  der  Wasseroberfläche  zu  halten, dochplötzlich  stutzt  Du  und  hältst  inne - so daß Du erst einmal wiederfür  einen  Moment  untergehst  und Wasser schluckst! Als Du wieder auftauchst,trifft  Dich  der  Schlag: Du scheinst nach wie vor auf der südlichen Seite desWasserfalls  zu  paddeln!  Für  diese Tatsache allein liesse sich ja sogar nochirgendwie  eine  plausible  Erklärung  finden, zumal Du unter Wasser eine kurzeZeit  die  Orientierung  verloren  hattest, so daß Du sie akzeptieren könntest,wenn,  wenn...  -wenn  sich  dort  am  Seeufer  noch Dein Dorf befände! Aber esscheint  wie  vom  Erdboden  verschluckt  zu  sein!  Statt der kleinen Siedlungbefindet  sich  am  Ufer  ein tiefer, dunkler Wald mit Bäumen, die Du in Deinemganzen  Leben  noch  nie  gesehen  hast!  In Dir kommt der Verdacht auf, daß Dudurch  den  Wasserfall vielleicht in eine parallel zu der Deinigen existierendeWelt  gelangt  sein  könntest,  so  wie in diesen beknackten Adventures zuhauseauf  Deinem  Computer.  Nur:  DAS hier ist die Realität! Und wo zum Teufel bistDu hier gelandet?
+
+## 120
+
+Du  betrittst  das  Ufer,  von wo aus das Grollen des Wasserfalls in dersüdwestlichen  Ecke  des  Bergsees  immer  noch zu hören ist. Die Natursieht  hier  irgendwie  viel  sauberer  und unberührter aus als auf derSeite,  von  der aus Du den See zum ersten Mal betreten hast - Du weißtschon  nicht  einmal  mehr,  wie  lange das schon zurückliegt! Nichtsdestotrotzbeginnst  Du  diese Welt langsam zu mögen, obwohl Du nicht genau weißt, wo DichDeine  Eltern  wohl  vermuten  werden,  wenn  Du Dich heute abend nicht zuhausemeldest.  Es  bedarf  aber  trotzdem keiner allzu großen Fantasiebegabung, sichauszurechnen,  daß  dies  bis  zu  Deiner  Volljährigkeit  wohl  erst mal Deineletzten "Solo-Ferien" gewesen sein dürften...
+
+## 121
+
+Du  stehst  am  Rande  einer  Lichtung,  die  von  einer Dir unbekanntenBaumart  umgeben  ist. Mehr gibt es über diesen Ort aber wirklich nichtzu  berichten  -  es hat uns schließlich schon genug Mühe gekostet, unsdie   anderen   Raumbeschreibungen   aus  den  Fingern  zu  saugen:  Erexistiert  eben  einfach,  genau  wie  Du  auch  (Auch nur eine Frage der Zeit,hehe...).  Aber  wie  Du  Dir  sicherlich  vorstellen  kannst,  hat  sogar eineordinäre   Lichtung   wie   diese   hier  eine  besondere  Bedeutung  in  einemA.C.A-Adventure.  Und  da  Du das Spiel noch lange nicht gelöst hast, würde ichvorschlagen, Du wartest es einfach ab!
+
+## 122
+
+Als  Du die Lichtung betrittst, hörst Du vor Dir ein fürchterliches Knurren undFauchen!  Erschrocken  hältst  Du inne und versteckst Dich vorsichtshalber ersteinmal  hinter  dem  nächsten Baum! Als sich Deine Augen ein wenig an das etwasschummerige  Licht  gewöhnt  haben,  erkennst  Du  auf  der  anderen  Seite derLichtung  zwei  miteinander  kämpfende Tiere: Einen großen, grauen Wolf und einzierliches,  weiß  schimmerndes  Einhorn,  dessen  Fell schon völlig mit seinembläulichen  Blut  besudelt  ist, das aus unzähligen, tiefen Wunden sickert. Alsder  Wolf  bemerkt,  daß  der  Widerstand  des  geschwächten  Einhorns erlahmt,attackiert  er  es  noch  wütender! Das grazile Fabelwesen hat nicht mehr genugKraft,  um  den  scharfen  und  langen  Wolfszähnen  noch  lange  Widerstand zuleisten...
+
+## 123
+
+Du  hättest  den  See  wirklich  nicht  mit  mehr Dingen betreten sollen als Duunbedingt  zum  Überleben  benötigtest:  Schwer  wie ein Mühlstein wirst Du aufden Grund des Sees hinuntergezogen, wo Du elend ersäufst...
+
+## 124
+
+Gaaanz  cool bleiben! So, und jetzt hol' erstmal tief Luft und zähl' bis zehn -oder  möchtest  Du  lieber einen etwas längeren "Urlaub" in einer der örtlichenGefängniszellen verbringen?
+
+## 125
+
+Ein   roh  gezimmertes,  aber  recht  behaglich  aussehendes  Bett  mit  bunterBettwäsche.  Werd'  jetzt bitte noch nicht müde - dieser Teil ist lediglich derAnfang...
+
+## 126
+
+Eine  kleine,  faustgroße  Kupferklingel, die auf dem Rezeptionstresen montiertwurde,  damit  Nervensägen  wie Du den Portier beim Kreuzworträtsellösen störenund mit ihren belanglosen Fragen nerven können.
+
+## 127
+
+Ein  kleiner,  farbiger Prospekt, herausgegeben vom hiesigen Fremdenverkehrsamtund beschriftet mit "Loch Calderwood".
+
+## 128
+
+Der  Farbprospekt  stellt Loch Calderwood und seine Umgebung dar: Falls Du alsodie   Schönheit   der  Landschaft  bisher  noch  nicht  selbst  entdeckt  habensolltest,  so  kannst  Du Dich zumindest mittels dieser Fotos davon überzeugen,daß  es  eine  großartige  Idee gewesen ist, hierher zu reisen. Auf den letztenSeiten  befinden  sich  die  Autogramme  einiger bedeutender Personen, die hierschon  einmal  ihren  Urlaub  verbracht  haben,  so  z.B.  Ronald  Reagan, KirkDouglas,  Chris  Link,  Elvis  Presley,  Kai  Schulze,  Prince und viele andereweltberühmte   Persönlichkeiten.  Du  schauderst  vor  Ehrfurcht,  fragst  Dichallerdings,  was  wohl  diese  merkwürdigen,  kleinen Kreuze hinter einigen derNamen bedeuten mögen...
+
+## 129
+
+Achtlos  über die Lehne geworfen, hängen einige Deiner Kleidungsstücke über demStuhl, unter denen Du auch einige Badesachen finden kannst.
+
+## 130
+
+Ein  einfach  gefertigter,  rustikaler,  aber sehr ergonomisch gebauter Tisch -genau  wie  Dein  eigener  zuhause,  an dem Du normalerweise Deine Hausaufgabenmachst.  Okay,  Spaß  beiseite:  ...auf  dem  Dein  Computer  von Tag bis NachtMathehausaufgaben lösen, Pin-Up-Diashows zeigen und Spiele kopieren muss...
+
+## 131
+
+Auf  dem  Rezeptionstresen  befinden  sich eine kleine Kupferklingel und einigefarbige Broschüren.
+
+## 132
+
+Obwohl  Du  nach  der  langen  Reise  eigentlich  ein  dringendes  menschlichesBedürfnis  verspürst,  siegt  Deine Neugier, und Du entschließt Dich, doch ersteinmal  Deine  neue  Behausung in Augenschein zu nehmen. Erwartungsvoll öffnestDu  die  Tür  und schaust Dich kurz um. Oh, Gott! Das sind ja wahrhaft besch...Aussichten:  Alles  gekachelt  -  und  stinken tut es hier obendrein! Als Du ander  Strippe  ziehst,  um  Licht  zu  machen,  hörst Du bloß ein gurgelndes undschmatzendes  Geräusch  - nur das Licht, das bleibt aus! Also: So nicht, Leute!Du  stürmst  in  Richtung  Rezeption,  um  dem  alten  Knacker  von Portier malgehörig  den  Marsch  zu  blasen,  was  er  unter  einem  Zimmer  mit Dusche zuverstehen  hätte,  als  der  Groschen  bei  Dir  fällt!  Von  bösen Vorahnungengeplagt  gehst  Du  zurück  zu  der Tür und vergleichst die Zahl auf dem Schildgewissenhaft  und  sorgfältig  mit  der  Raumnummer, die man Dir genannt hatte:"003".  Die  erste  Ziffer  stimmt,  die  zweite auch - aber die dritte? Wo zumTeufel  ist  die  dritte Ziffer geblieben??? Verdammter Mist! Wie soll man sichdenn  hier  zurechtfinden,  wenn  diese  Schotten  zu  sparsam sind, ihre Räumerichtig  auszuschildern?  Auf Deinem Protestmarsch zur Rezeption schaust Du Dirdie  Schilder  auf  den anderen Türen an: "001", "002"... Hey! Moment mal, dannmüßte  das  hier  ja...  Ja,  richtig:  Hier ist Nummer "003"! Ganz am Ende desGanges!  Du  hattest  Dich  bloß im Zimmer geirrt! Also gut, sparen wir uns denGang  zum  Portier  und  geben  ihm noch einmal eine Chance. Aber: WO ZUM GEIERIST JETZT EIN KLO ?!?!?
+
+## 133
+
+Deine  Zimmertür  sieht von innen nicht viel anders aus als von außen: schwarz.Nur  das  Schildchen  mit  der  Zimmernummer  hat  man sich hier gespart. Jaja,diese Schotten...
+
+## 134
+
+Dieser   Kasten,  der  sich  Hotel  nennt,  in  Wirklichkeit  aber  selbst  beiwohlwollendster  Betrachung  gerade  mal  die Bezeichnung Pension verdient, istein   kleiner,   weißer   Bau   mit   roten  Fensterrahmen  und  einer  schwarzgestrichenen Eingangstür.
+
+## 135
+
+Der  Portier  ist  ein  schmächtiges, älteres Männchen. Du fühlst fast schon soetwas  wie  Mitleid  mit  ihm, als Du daran denkst, daß er das ganze Hotel fastganz allein und ohne Hilfe betreuen muß.
+
+## 136
+
+Stolz  blickst  Du an Dir herunter auf ein paar Blue Jeans: Sie entsprechen derneuesten  Mode,  da Du ein einziges Mal die Gelegenheit hattest, eine Hose ohnedie Empfehlungen Deiner Mutter zu kaufen.
+
+## 137
+
+Die  Speise-  und Getränkekarte enthält alle möglichen örtlichen Spezialitäten,aber  hauptsächlich:  Bier!  Bier  in Flaschen, Bier in Dosen, Bier in Tüten...QUATSCH!  Du  glaubst  auch  wirklich  jeden  Mist,  was?  Egal: Hauptsache, Dubekommst hier Bier in GLÄSERN!
+
+## 138
+
+Der  Alte  scheint  zu  den Bewohnern des Dorfes zu gehören: Obwohl sie leichteVeständigungsprobleme  haben,  wenn  sie  ihren  schottischen  Dialekt  in ihrelangen  Bärte  brabbeln, sind sie selten abweisend, meistens herzlich und immerzu einem kleinen Schwätzchen bei einem kühlen Blonden aufgelegt.
+
+## 139
+
+Die  Nummer  auf  dem  Schlüssel lautet "003". Das dürfte selbst für Dich nichtallzu  schwer  zu behalten sein, zumal sie rein zufällig mit der Deines Zimmersübereinstimmt!  Vergiß  sie  aber  nicht,  denn wenn Du, wie im letzten Urlaub,wieder  einmal  sturzbetrunken durch's Hotel torkelst und alle Gäste mit derbenTrinkliedern  um  ihre  wohlverdiente  Nachtruhe  bringst,  wird sich wohl kaumjemand finden, der Deiner Fahne widerstehen und Dir Auskunft geben kann!
+
+## 140
+
+Ein  paar  neue und ziemlich teure Sportschuhe. Ich frage mich ernsthaft, ob Dusie  Dir  auch  gekauft  hättest,  wenn nicht jeder, der an Deiner Schule etwasauf sich hält, solche Treter trüge...
+
+## 141
+
+Ich  habe  Dir doch bereits mitgeteilt, daß die Schrift auf dem Schild "LetztesHotel  vor  dem  nächsten  Systemcrash" lautet, oder? Mag ja sein, daß Du meineTexte  genauso  fantastisch findest wie ich, aber bitte geh' mir trotzdem nichtweiter  auf  die  Nerven,  indem Du mich alles zweimal fragst, okay? Danke, derParser.
+
+## 142
+
+Auf dem Tisch steht eine Speisekarte.
+
+## 143
+
+Dein  Lieblings-T-Shirt: Auf seinem rückwärtigen Teil stellt es einen Surfer ingrellen  Neonfarben  dar - cool! Schade nur, daß jeder andere auf Deiner Schuledenselben Dress trägt...
+
+## 144
+
+Willst  Du  mir  etwa schon wieder auf die Nerven gehen? DORT SITZT EIN ÄLTERERMANN AN EINEM DER TISCHE UND STUDIERT DIE SPEISEKARTE!
+
+## 145
+
+Weißt  Du  tatsächlich  nicht,  wie  Einhörner  aussehen? Nun gut, ich bin DEINComputer,  obwohl  ich  eigentlich  gehofft hatte, daß mir das Schicksal meinerPC-Kollegen,  die  den  ganzen Tag ihren ungebildeten Besitzern auf die Sprüngehelfen  müssen,  erspart  bliebe.  Naja,  also: Ein Einhorn ist eine Art weißesPferd  (Wie  ein  Pferd  aussieht, weißt Du, ja?), dessen Fell in einem beinaheüberirdischen  Licht  zwischen  Weiß  und  Hellblau  zu  funkeln  scheint.  Einweiterer  Unterschied  zwischen  einem  ordinären  Gaul und einem edlen Einhornist  das  gedrehte  Horn,  das  ein  Einhorn auf der Stirn trägt. Ich hoffe, Dukonntest mir so halbwegs folgen ?!?!?
+
+## 146
+
+Ein rustikaler, alter Kleiderschrank mit echten Bauernmalereien auf den Türen.
+
+## 147
+
+Ein  reißender  Wasserfall, der von dem Gebirge, das den See umgibt, herabkommtund  mit  lautem  Getöse ins Wasser stürzt. Aber mal ganz im Vertrauen: Hast Duwirklich  nicht  gewußt,  wie  so ein Wasserfall aussieht? Nein? Siehst Du, daskommt  bloß  durch  den ganzen Science Fiction-Kram, mit dem der Adventuremarktgerade  vollgemüllt  wird!  Deshalb  wählt  Avantgardistic  Arts in AventuriensParlament!  Wir  versprechen Dir, a) die Umwelt sauber von Abenteurerresten (sosie  sich  denn noch finden lassen...) zu halten, b) große Naturparks in unsereWelten   einzubauen,   damit   zumindest   Deine   Kinder  wieder  wissen,  wieWasserfälle  aussehen  und c) sinnlose und stupide Messages wie diese hier, diebloß   geschrieben   werden,   weil   den   geistesgestörten   Autoren   nichtsLangweiligeres mehr einfiel, unter Todesstrafe zu stellen!
+
+## 148
+
+Ein  reißender  Wasserfall,  genau wie der, den Du gesehen hast, als Du den Seezum ersten Mal betreten hast - jedoch noch um einiges wilder und frischer.
+
+## 149
+
+Du  schauderst,  als  Du  das  gefährliche  Funkeln  in  den  Augen  des  Wolfserblickst...  Ansonsten  ähnelt das Tier aber weitgehend den zahmen Wölfen, dieDu  zuhause  im  Zoo  gesehen  hast  - zumindest, wenn man es schafft, über dieTatsache  hinwegzusehen,  daß  es  um  einiges kräftiger und damit gefährlicherist - und daß Euch hier kein Gitter trennt!
+
+## 150
+
+Oh  nein!  Bitte  erzähl' mir jetzt nicht, daß Du einer von den Typen bist, diekein  Hotel  verlassen  können,  ohne  sich  zuvor ein kleines "Souvenir" (z.B.Handtücher,  Aschenbecher  oder  Zimmerfernseher...) organisiert zu haben! Alsoehrlich:  Du  hast  es  doch  wohl nicht nötig, zu stehlen, oder? Außerdem: Waswillst  Du  überhaupt mit der Speisekarte? Selbst wenn wir mal davon ausgingen,daß  der  Verdacht  nicht  auf  Dich fiele, was unwahrscheinlich ist, da Du zurZeit  nun  mal  der  einzige  Gast  des  Hotels  bist,  so hätte die Karte dochüberhaupt  keinen  Wert  für  Dich!  Mary  hingegen, die Besitzerin des Hotels,wäre  sicherlich  nicht  sehr glücklich, wenn sie Deinetwegen extra einen neuenSatz  Speisekarten  bestellen  müßte.  Es  ist hier auf dem Lande nämlich nichtganz  so  einfach,  solche  Dinge zu bekommen, wie Du verwöhnter Stadtjunge Dirvielleicht denkst! Also: Finger weg, sonst Finger ab!
+
+## 151
+
+Kauf'  ihm  ein  Hörgerät,  und  ich  garantiere  Dir: Er wird der glücklichstePortier unter Gottes Sonne sein!
+
+## 152
+
+Obwohl  sein  Blick schon etwas glasig und sein Geist wohl auch schon ein wenigbenebelt  ist,  schaut  er  erwartungsvoll zu Dir auf, als Du Dich seinem Tischnäherst.  Ich  nehme  an,  er wäre einem kleinen Schwätzchen mit Dir nicht ganzabgeneigt.
+
+## 153
+
+Als  der  Wolf Dich auf die Lichtung stürmen sieht, erschrickt er derartig überDeine  hagere  Figur,  daß  er sofort den Schwanz einzieht und die Beine in diePfoten  nimmt!  Nachdem  er,  noch immer erschüttert über soviel Elend, jaulendim  Unterholz  verschwunden  ist, legt sich das angeschlagene Einhorn erschöpftauf  den  Boden,  um  sich ein wenig von dem ungleichen Kampf zu erholen. SeineNüstern beben nervös, und es atmet schwer und ungleichmäßig...
+
+## 154
+
+"Ich  habe  sie  umzingelt!",  denkst  Du  Dir  siegessicher:  Mit einem wildenKamikazeschrei  stürmst  Du  die Lichtung und wirfst Dich mit aller Kraft gegendas  Einhorn,  um  dem Wolf eine Gelegenheit zu geben, seine Zähne in die weißeKehle  des  Fabelwesens  zu  schlagen.  Vollgesudelt  mit  dem  bläulichen Blutmachen  der  Wolf  und Du sich daran, das erlegte Einhorn auszuweiden, das Dichimmer   noch   mit  einem  ungläubigen  Blick  aus  seinen  erlöschenden  Augenanzublicken  scheint.  Dummerweise  scheint  der  Hunger des Wolfes nach dieserDelikatesse  jedoch  immer  noch  nicht  vollständig  gestillt zu sein: Bei derersten  Gelegenheit,  als  Du  gerade  unvorsichtigerweise  die  Augen  von ihmabwendest,  springt  Dir  der  Wolf an die Kehle und reißt Dir beinahe den Kopfvom  Hals!  Da er aber auch nach diesen beiden schmackhaften Mählern noch immerhungrig  zu  sein  scheint,  kannst  Du  ja  im nächsten Spiel noch einmal hiervorbeikommen, um "dem Wolf zu helfen"...
+
+## 155
+
+Du  drückst  auf  die  kleine Kupferklingel. In einem Raum weiter oben hörst Dueinen Summer - aber nichts passiert...
+
+## 156
+
+Du  drückst  den  Knopf  der  Klingel  so  tief  ins  Gehäuse  hinein,  daß Dirernsthafte  Bedenken  kommen,  ob sie nicht unter Deiner Hand explodieren wird.Nach  ein  paar  Sekunden  hörst  Du  endlich  ein  langsames Schlurfen auf derTreppe  hinter  dem  Rezeptionstresen,  und  der  Portier betritt, wild mit denArmen  umherfuchtelnd,  die  Rezeption. "Warum klingelst Du denn Sturm?", fragter Dich ungehalten, "Ich bin doch nicht taub!"
+
+## 157
+
+So  höflich,  wie  es  Dir  nach der unfreundlichen Begrüßung noch möglich ist,fragst  Du  nach  Deinem  Zimmerschlüssel.  Nach jedem Satz, den Du sagst, hältder  Portier  die  Hand  hinter  sein linkes Ohr: Anscheinend hört er wohl dochnicht  mehr  ganz  so  gut  wie  er  glaubt,  doch  nach einer Weile scheint erbegriffen  zu  haben,  nimmt  Deinen  Zimmerschlüssel  vom  Brett und wirft ihnunwillig  auf  den Tresen. Er murmelt noch kurz: "Raum Nummer Null-Null-Drei.",dreht  sich  ohne  ein  weiteres  Wort um und schlurft die Treppe hoch. "So wasUnfreundliches!",  denkst  Du  bei  Dir,  "Kein  Wunder, daß hier keiner wohnenwill!"  Auch  Dein stiller Wunsch, er möge auf seinem Weg nach oben ausrutschenund  die  Stufen  hinunterpoltern,  erfüllt  sich leider nicht. Na, na, na! Werwird   denn   gleich  aggressiv  werden!  Eigentlich  solltest  Du  etwas  mehrVerständnis  und  Mitgefühl  für  das  alte Männchen zeigen und das nächste MalDeine jugendliche Ungeduld ein wenig zügeln!
+
+## 158
+
+Du  winkst  die  Bedienung  zu  Dir  heran  und  nennst  ihr Deine dringendstenWünsche:  "Bringen  Sie  mir  bitte  ein großes Steak, ein kühles Bier und eineFra..."  -  Plötzlich spürst Du, wie Du rot wirst und stammelst: "Ach nein: DieFrankfurter  Allgemeine  können Sie wieder streichen. Deutsche Zeitungen werdenSie  hier  ja  wohl  ohnehin  nicht bekommen, oder?" Als das Mädchen, ebenfallsrot   bis   über   beide   Ohren,  hastig  verneint,  beruhigst  Du  es  -  denAltersunterschied  von  gut zehn Jahren geflissentlich ignorierend - väterlich:"Das  macht  nichts,  meine  Tochter:  Ich  kann  sowieso  kein  Deutsch!", undbrichst   in   brüllendes  Gelächter  aus,  woraufhin  der  bisher  unbeteiligtdasitzende  Dorfbewohner  die  Augen leidend zum Himmel verdreht, als hätte manihm  dort  in die Weichteile getreten, wo es so richtig wehtut. Als Du bestürztfeststellst,   daß   auch   die   Kellnerin   anscheinend   unter   chronischerHumorlosigkeit   leidet,   beschließt  Du,  Deine  komische  Darbietung  abruptabzubrechen  und  das Mädchen mit einer gnädigen Handbewegung zu entlassen. Alses  in  der  Küche  verschwunden  ist, sprichst Du den alten Mann an, ob er Dirnicht  vielleicht  ein  wenig über das Dorf und seine Umgebung erzählen könnte.Langsam   und   schleppend   beginnt   der   Dorfbewohner,   in   seinen   Barthineinzubrabbeln,  daß  er  Dir  eine interessante Sage erzählen könne. Gut, Dubist  zwar  nicht  gerade davon ausgegangen, daß er Dir gleich die Adressen derlokalen  In-Treffs  und  Yuppie-Diskotheken  aufzählen  würde, aber muß es denngleich  ein  Märchen sein? Vorsichtshalber stützt Du den Kopf auf die Hände, umim  Ernstfall  nicht mit der Nase auf die Tischkante zu knallen, und während Dusehnsüchtig  auf  Dein Essen wartest, damit Du wenigstens etwas zu tun hättest,lauschst  Du  der  Geschichte  des  Alten:  Vor langer, langer Zeit soll an demPlatz,  den  jetzt  das  Loch Calderwood einnimmt, eine reiche und stolze Stadtgestanden  haben  -  doch  von einer Nacht auf die andere war sie verschwunden,und  statt  ihrer befand sich der See am Fuße der Berge! Es wurde vermutet, daßdie  Bewohner  dieser  legendären  Stadt für ihren Stolz und ihre Eitelkeit vonden  Göttern  bestraft  worden  seien. Ebenfalls erzählt man sich, daß sie sehrreich  und  kunstfertig  gewesen  wären! Da Du für Deinen Teil Dich seit Beginnder  Erzählung  in  der  Kunst  übst,  mit  offenen Augen zu schlafen, hält derEinheimische  Deinen  starren  Blick für ungläubiges Staunen und setzt noch maleinen  drauf:  Angeblich  behaupten die Leute im Dorf nämlich sogar heute noch,daß  die  Türme  und Dächer der Stadt noch unter Wasser gesehen werden könnten,wenn  man  es  wagte,  bei  Vollmond  um  Mitternacht  auf  den  Grund des Seeshinabzutauchen  -  ein  sehr  exklusives  und einmaliges Vergnügen übrigens, dakeiner  der  tapferen  Männer,  die  bisher  ihr  Glück  versucht haben, jemalszurückkam...
+
+## 159
+
+Der  alte Mann verbirgt sein Gesicht hinter seinem Bierglas - nicht mehr in derLage,  noch  ein  weiteres Wort von sich zu geben. Das einzige, was Du noch vonZeit  zu  Zeit  von  ihm  vernimmst,  ist  ein leises und verschämtes "Börks!".Offensichtlich  hat  er  während  seiner  Erzählung ein Gläschen über den Durstgetrunken...
+
+## 160
+
+Nachdem  es  sich  ein  wenig erholt hat, dankt das Einhorn Dir für Deine Hilfeund  warnt  Dich eindringlich, Deinen Weg nach Westen fortzusetzen. "Nachdem Duerst  einmal  diesen  Teil  des  Waldes  verlassen  hast,  gibt  es kein Zurückmehr...",  sagt  es  mit  einem  unendlich traurigen Blick in seinen tiefblauenAugen,  "Doch  nimm  diese kleine Kristallkugel: Sie könnte Dir helfen, Freundein  dieser  feindlichen  Welt  zu  finden..."  Mit  diesen  Worten gibt Dir dasEinhorn   eine   kleine,   leuchtende   Kristallkugel,   während   es  Dir  mitersterbender  Stimme  zuwispert: "Denke an mich, wenn Du sie benutzt - ich habenicht  mehr  lange  zu  leben...". Mit einem letzten Blick zu Dir zurück, einemBlick  so  voller Bedauern und Schmerz, daß es Dir fast das Herz bricht, wendetsich  das  todgeweihte,  schöne  Wesen  um und trottet langsam davon, ohne sichnoch  einmal  nach  Dir  umzudrehen,  bis  es  zwischen den Bäumen verschwundenist...
+
+## 161
+
+Du steigst wieder in Deine Jeans.
+
+## 162
+
+Also,  wenn  Du  mich  fragst, dann täte Deinen Füßen noch ein wenig Frischluftgut - aber okay: Du trägst jetzt wieder Deine Turnschuhe.
+
+## 163
+
+Du  zwängst  Dich  in  Dein T-Shirt hinein: Hach! Da fühlt man sich doch gleichwieder viel cooler!
+
+## 164
+
+Bist  Du  krank?  Deine Eltern sind hunderte von Kilometern entfernt, die Nachtist jung - und Du willst SCHLAFEN ???
+
+## 165
+
+Du  setzt  Dich hin, um darüber nachzusinnen, was Du als nächstes tun könntest,aber  mit  einem  Blick  auf  die  Tischplatte  vor Dir - eine Tischplatte ohneDeinen  geliebten  Computer  darauf  -  fragst  Du Dich verwirrt, wofür Du Dichüberhaupt  hingesetzt  hast  -  denn  was  sollte  man  schon  mit  einem Tischanfangen   können,   auf   dem   sich   kein   Monitor   befindet?  Da  Du  alseingefleischter  Medientrottel  leider außerstande bist, eine Antwort auf diesebrennende  und  weltbewegende Frage zu finden, stehst Du frustriert wieder auf,um etwas Produktiveres zu tun als lediglich herumzusitzen...
+
+## 166
+
+Als  Du  gerade  tiefer  in  den  Wald treten willst, tritt ein Waldelf aus demUnterholz  vor  Dich  und  versperrt  Dir  mit  einer Geste den Weg, die keinenWiderspruch  zuläßt.  "Seid  gegrüßt,  Fremder!",  begrüßt  er Dich freundlich,"Bevor  Ihr  tiefer  in  unsere  Welt  vordringen dürft, müßt Ihr einen kleinenTest  bezüglich  der  Spielanleitung bestehen, um zu beweisen, daß Ihr wirklichein  EIGENES  Spiel  besitzt  -  und  nicht bloß eine von diesen minderwertigenSchwarzkopien..."
+
+## 167
+
+"Nun  gut,  mein  Freund: Der Code ist okay! Ihr dürft passieren...", entgegnetder  Elf,  sichtlich  zufrieden  über  Deine  Antwort,  und verschwindet ebensorasch wieder im Wald, wie er zuvor aus ihm aufgetaucht ist...
+
+## 168
+
+"Oh   nein!   Werden   diese   Diebe  denn  niemals  verstehen,  wie  hart  eindurchschnittliches  Programmierteam  an  der  Entwicklung  eines Programmes wiediesem  arbeiten  muß?", ruft der Elf sichtlich enttäuscht aus. "Nun ziehet ausund  kauft  Euch  das  Originalprogramm,  wenn  Euch  daran  gelegen  ist,  denFortgang  der  Geschichte  mitverfolgen  zu  können!  Ich für meinen Teil werdeEuch  nicht  eher passieren lassen, als bis Ihr den gebührenden Zoll entrichtethabt..."
+
+## 620
+
+Hastig  reißt  Du die Tür des Kleiderschranks auf, hechtest hinein und schließtdie  Tür  hinter  Dir.  Zitternd  horchst Du in die Stille, doch Dein pumpenderHerzschlag  ist  alles, was Du hören kannst. Mann! Du bist im Urlaub! Hier gibtes  keine  Väter,  die  besorgt in das Zimmer ihrer Tochter schleichen! Du bisthier  in  Sicherheit!  Muß  wohl  die  Macht  der Gewohnheit gewesen sein, wie?Schweißgebadet verläßt Du Dein Versteck wieder...
+

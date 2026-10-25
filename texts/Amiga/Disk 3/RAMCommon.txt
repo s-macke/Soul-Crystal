@@ -1,0 +1,589 @@
+# RAMCommon — Amiga
+
+Quelle: Disk 3/Data/Texts/RAMCommon.TXT
+Text-IDs aus Code/Main; originale Abstände bleiben erhalten.
+
+## 001
+
+Bis jetzt hast Du * von 5060 möglichen Punkten erzielt.
+
+## 002
+
+Bitte gib den *. Buchstaben des *. Wortes auf Seite *, Absatz *, Zeile * ein. Denke auch daran, daß einzeln stehende Zeilen (wie z.B. Überschriften) nicht mitzuzählen sind! -Bitte drücke jetzt die betreffende Taste...
+
+## 003
+
+Deine Eingabe war leider falsch - bitte versuche es noch einmal! -Noch einmal zur Erinnerung: Einzeln stehende Zeilen wie Überschriften etc. dürfen NICHT mitgezählt werden!
+
+## 004
+
+Bitte schiebe die Diskette "SOULCRYSTAL Disk *" ins Laufwerk...
+
+## 005
+
+Aber dorthin kannst Du doch gar nicht gehen! Zumindest habe ich nichts dergleichen gesagt, oder...?
+
+## 006
+
+Gut - geschlossen...
+
+## 007
+
+Aber das kannst Du doch überhaupt nicht schließen!
+
+## 008
+
+Okay - * abgelegt.
+
+## 009
+
+Gut: Wie Du willst...
+
+## 010
+
+Könntest Du mir mal bitte erklären, wie Du DAS betreten willst?
+
+## 011
+
+Tut mir leid - aber darüber gibt es jetzt wirklich nicht mehr allzu viel zu berichten...
+
+## 012
+
+* - genommen.
+
+## 013
+
+Aber das hast Du doch schon längst!
+
+## 014
+
+Tut mir leid, aber DAS kannst Du nun beim besten Willen nicht mitnehmen!
+
+## 015
+
+Okay: Du stehst wieder auf eigenen Beinen.
+
+## 016
+
+Versprichst Du Dir irgend etwas Bestimmtes davon, DAS durch die Gegend zu schleppen?
+
+## 017
+
+Hmmm... -Scheint aber verschlossen zu sein!
+
+## 018
+
+Ist ja wirklich lieb gemeint, aber was sollte man denn DAMIT schon anfangen können...?
+
+## 019
+
+Gut, abgeschlossen!
+
+## 020
+
+Wie willst Du denn DAMIT etwas abschließen?
+
+## 021
+
+Tut mir ja wirklich ganz fürchterlich leid, aber DAS kannst Du nun wirklich nicht abschließen!
+
+## 022
+
+Okay, aufgeschlossen!
+
+## 023
+
+Also, DAMIT kann man ja nun wirklich nichts aufschließen, oder?
+
+## 024
+
+Wie soll denn DAS funktionieren?
+
+## 025
+
+"Soul  Crystal" V1.5, written 1989/90/91/92 by Avantgardistic Arts. (C) 1992 byAvantgardistic Arts, Hannover & Starbyte Software, Bochum.
+
+## 026
+
+Mr.  Adams hätte in einem solchen Fall wahrscheinlich mit "You can't do that...YET!"  geantwortet,  was  in etwa soviel heißt wie: "Das kannst Du (noch) nichttun."
+
+## 027
+
+"Soul  Crystal"  V1.5,  written  from  1989 to 1992 by Avantgardistic Arts. (C)1992  by  Avantgardistic  Arts,  Hannover  &  Starbyte Software, Bochum. DiesesAdventure  besitzt  103  Locations,  mehr  als 130 hochauflösende Farbgrafiken,ungefähr   320  KBytes  Text  und  einen  ca.  30-minütigen  Soundtrack.  SeineProgrammentwicklung  hat  ingesamt  16  sog. "Mann-Jahre" in Anspruch genommen.Sei  also  bitte so fair und "spread the word - not the disk!" Sollte dies aberdoch  eine  Raubkopie sein (obwohl das Programm geschützt war, und das bestimmtnicht   ganz   ohne   Grund...),   dann   denke   bitte   auch   mal  über  dieASDG-Philosophie  "A  program  worth  using  is  a program worth buying" nach -allein  schon  die Originalverpackung sowie die Handbücher sollten Dir das Geldwert  sein.  Viel  Spaß  beim  Spielen von "Soul Crystal", und - ach ja: Soweitwir  wissen,  ist  dies das erste Adventure, in das ein CHEATMODE implementiertwurde - also solltest Du Dir Mühe geben, ihn zu finden...
+
+## 028
+
+"Soul  Crystal",  V1.5,  written  from 1989 to 1992 by Avantgardistic Arts, (C)1992  by  Avantgardistic  Arts,  Hannover  &  Starbyte  Software, Bochum. A.C.Asind:  Chris  Link  (Spielkonzept,  Gamedesign,  Tools,  Texte,  Soundtrack undEffekte),     Kai     Schulze    (Spielkonzept,    Gamedesign,    Intro-    undParser-Programmierung  AMIGA,  Tools),  Michael  Niemeyer (Intro-ProgrammierungC-64,  Tools),  Carsten  Jendro (Kernal- und Parserprogrammierung C-64), HenrikFisch    (Kernal-    und   Introprogrammierung   MS-DOS),   Kjersten   Waldheim(Parserprogrammierung  MS-DOS),  Oliver Brühl (Grafiken und Animationen AMIGA &MS-DOS)  und  Klaus  Adamovsky  (Graphiken  C-64). Besonderer Dank gilt Johnny,der  "bayrischen  Forelle" - stellvertretend für all die Leute, die mitgeholfenhaben,  "Soul  Crystal"  zu  dem zu machen, was Ihr jetzt in den Händen haltet,indem  sie  uns  Unmengen  wertvoller Tips, Hinweise und Denkanstöße gaben, unduns  nach  jedem  Nervenzusammenbruch  auf's  Neue  halfen,  uns  weiter an dieVerwirklichung  unserer  größenwahnsinnigen  Ideen zu setzen. Ohne sie wäre dasProjekt   "Soul   Crystal"   wahrscheinlich   niemals  über  die  Planungsphasehinausgekommen.
+
+## 029
+
+Möchtest  Du das Spiel wirklich von vorn beginnen (<J> oder rechtes Mousebuttonzur Bestätigung)?
+
+## 030
+
+Willst  Du  das  Spiel wirklich schon beenden (<J> oder rechtes Mousebutton zurBestätigung)?
+
+## 031
+
+Okay  -  es  war  mir  ein  Vergnügen,  Dich  zu unterhalten! Bis demnächst malwieder...
+
+## 032
+
+Bitte   lege   die   Diskette  mit  den  abgespeicherten  Spielständen  in  dasDiskettenlaufwerk!
+
+## 033
+
+Bitte  lege  die  zu  initialisierende  Diskette in Dein Floppylaufwerk. Es istunbedingt  darauf  zu  achten,  daß die Diskette nicht schreibgeschützt ist, dasonst  eine  einwandfreie  Funktion  des  Programmes nicht gewährleistet werdenkann!  Unformatierte  oder fehlerhafte Disketten werden automatisch formatiert.Bedenke  aber  bitte, daß alle sich bisher eventuell auf ihr befindlichen Datenbeim   Formatierdurchgang  unwiederbringlich  verlorengehen!  Solltest  Du  dasSpiel   auf   Deiner  HardDisk  installiert  haben,  so  werden  lediglich  diebestehenden  Spielstände  gelöscht  - Du brauchst also nicht zu befürchten, daßwir  die  ganze  Platte  übermangeln!  Drücke  <I> oder das rechte Mousebutton,wenn  Du  den  Initialisierungsvorgang wirklich beginnen möchtest - jede andereAktion bricht die Init-Funktion ab.
+
+## 034
+
+Okay, die Musik ist wieder eingeschaltet.
+
+## 035
+
+Gut, die Musik wird ausgeschaltet.
+
+## 036
+
+"Ausführliche  Beschreibungen"  aktiviert.  Zu  jedem  Raum,  den Du von nun anbetrittst,  wird  die  vollständige  Beschreibung geliefert, ganz gleich, ob Duihn schon betreten hast oder nicht.
+
+## 037
+
+"Kurzbeschreibungen"  aktiviert.  Die Beschreibungen der einzelnen Räume werdenjetzt nur noch beim erstmaligen Betreten ausgegeben.
+
+## 038
+
+Was  bist  Du  doch  für ein cleveres Kerlchen! Herzlichen Glühstrumpf: Du hastdas  Spiel  gelöst!  So  einfach  war  das  -  toll,  was?  Falls Du noch keinegenaueren   Vorstellungen   davon   haben   solltest,   was   Du   nach  dieserzeitraubenden  Lösung  von  "Soul  Crystal" spielen sollst, dann sieh Dich dochmal  nach  weiteren  Spielen  um,  die  von  Avantgardistic  Arts  und Starbyteveröffentlicht  werden.  Drücke  <N>  oder  das linke Mousebutton, um das Spielvon   vorn   zu   beginnen,   <E>   oder  das  rechte  Button,  um  zum  Kernalzurückzugelangen...
+
+## 039
+
+Hmmm...:  Es  sieht  fast so aus, als wärest Du nicht in der Lage, dieses Spielohne  die  Hilfe der A.C.A-Götter zu spielen. Daher haben wir uns gnädigerweisedazu  entschieden,  den  "Entwickler-Cheat"  für Dich zu aktivieren, um Dir mitunserer  göttlichen  Hilfe  auf  Deiner  Reise  ein  wenig  unter  die  Arme zugreifen.   Dieser   Cheatmode   ist   vornehmlich  zum  Austesten  des  Spielesprogrammiert   worden.   Wir   können   jedoch   keinerlei  Garantie  für  seineinwandfreies Funktionieren übernehmen. Benutzung auf eigenes Risiko!
+
+## 040
+
+Wow!  Wie  Manna  vom Himmel schicken Dir die A.C.A-Götter alle Objekte auf dieErde  hinunter,  die Dir bei der Lösung Deiner Aufgabe behilflich sein könnt...AUTSCH!  Ihr  Idioten  da oben! Könnt Ihr nicht zuhören? Ich sagte, Ihr solltetalle  Gegenstände  hinunterwerfen,  die  ihm  bei  der  Lösung  seiner  AufgabeHILFREICH sein könnten! ...und Schränke gehören definitiv NICHT dazu!
+
+## 041
+
+Okay,  Du  kannst  nun  die  A.C.A-Götter  bitten,  Dich in bestimmte Räume desSpielterritoriums  zu  teleportieren,  indem Du eine dreistellige Zahl zwischen001  und  103  über  die Tastatur Deines Computers eingibst - aber vergiß dabeinicht,  daß  in diesem Spiel auch Räume existieren, aus denen es kein Entrinnenmehr  gibt.  Gib jetzt die gewünschte Raumnummer ein, oder drücke <ESC>, um denTeleportmodus vorzeitig abzubrechen...
+
+## 042
+
+Du  hast  soeben den versteckten Slideshow-Modus aktiviert! Drücke <SPACE> oderdas  linke  Mousebutton,  um das jeweils nächste Bild zu betrachten, oder <ESC>bzw. das rechte Mousebutton, um zum Spiel zurückzukehren...
+
+## 043
+
+Soundmenü  aktiviert:  Gib  bitte eine Zahl von 1 - 5 ein, um die verschiedenenMusikstücke  des  Soundtracks in diesem Spielabschnitt abzuspielen! Abbruch derFunktion über <ESC>.
+
+## 044
+
+Teleportmodus abgebrochen (Feigling!), Wiederaufnahme des Spiels...
+
+## 045
+
+Cheat-Extension verlassen; kehre zurück zum Spiel...
+
+## 046
+
+Du  erwartest  doch  nicht  allen  Ernstes  von  mir,  daß ich diesen Ort NACKTverlasse, oder?
+
+## 047
+
+Mutig  versuchst  Du  Dein  Glück,  wirst  jedoch  von einer unsichtbaren Faustzurückgeschmettert.  Es  ist, als liefest Du gegen eine Wand: Irgendwie scheintDich  eine  unfaßbar böse Macht von dort fernzuhalten! Deprimiert gibst Du nacheinigen fehlgeschlagenen Versuchen auf...
+
+## 048
+
+Langsam  fange  ich  an  zu  frieren! Es wird immer kälter hier, also sieh Dichlangsam  mal  nach  einem  warmen  Plätzchen  um,  wo  wir  in  Ruhe  die Nachtverbringen können!
+
+## 049
+
+Also,  halte  mir  jetzt bitte nicht vor, daß ich Dich nicht gewarnt hätte - Duhast  wirklich  genug  Zeit gehabt, um nach jemandem zu suchen, der Dir wärmereKleidung  hätte  geben  können  -  doch  nun  ist  es  endgültig  zu  spät:  Duerfrierst,  ohne  auch  nur  die geringste Chance gehabt zu haben, das Spiel zulösen! Schade eigentlich...
+
+## 050
+
+Gerne  käme  ich Deiner Aufforderung nach - wenn Du mir netterweise verrietest,wie  ich  auf  den  Grund  des  Sees  hinuntertauchen  soll! Er scheint nämlichziemlich tief zu sein...
+
+## 051
+
+Also,  jetzt  reicht's  ja  wohl!  Als  ob es nicht schon reichen würde, daß Dublind  wie  ein  Maulwurf durch die Gegend rennst: Jetzt versuchst Du Dich auchnoch  artgerecht  durchs Erdreich zu buddeln! Mal ganz ehrlich: Man kann es mitder Realitätstreue in Adventures auch übertreiben...
+
+## 052
+
+Im Moment führe ich die folgenden Dinge mit mir:
+
+## 053
+
+Tut  mir leid, Dich so enttäuschen zu müssen, aber momentan besitzt Du wirklichnicht  allzuviel.  Mal  sehen...: Tja, also eigentlich hast Du noch weniger als"nicht  allzuviel"  -  ich  würde  sogar  fast  sagen,  Du  hast  nichts! Naja,"Nichts"  ist  aber  doch immer noch besser als "Gar nichts", oder? Also, um esabzukürzen:  Du  hast  wirklich  nichts  - und das ist wenigstens etwas! Schadenur,  daß  man  mit  "Nichts"  nichts  anfangen kann! Oder ist etwas vielleichtauch  nichts?  WAAAAAAAAAAHHHHHHHHHH! SIE KOMMEN! Ich schreibe dann den Rest inmeinem neuen Zuhause weitääärrrrr...!
+
+## 054
+
+Die Zeit verstreicht wie der Lauf der Sonne: Langsam, aber unaufhaltsam...
+
+## 055
+
+Die Zeit vergeht...
+
+## 056
+
+Gerne:  Eine  Verschnaufpause  haben  wir  uns  wirklich verdient! Aber: WORAUFwarten wir eigentlich?
+
+## 057
+
+Okay, geschlossen. Was nun?
+
+## 058
+
+Wie willst Du denn etwas Geschlossenes noch schließen?
+
+## 059
+
+Das kannst Du nicht schließen! Schon gar nicht so...
+
+## 060
+
+Eine   weise,   ja  geradezu  philosophische  Entscheidung:  Selbstmord  heißt,Probleme  aus  der Welt zu schaffen, die man ohne seine Eltern gar nicht hätte!Wirklich schönes Schlußwort! Hasta la vista... - Babe! HARAKIRIIIIIIIIIIHHHHH!
+
+## 061
+
+"Dave  the  Destroyer",  oder  was?  Uiuiui! Da möchte man sich ja vor Angst amliebsten hinter dem nächsten Baum verkriechen!
+
+## 062
+
+Mein  Junge,  ich glaube, wir müssen uns mal ernsthaft unterhalten! Das kann jawohl nicht Dein Ernst sein, oder?
+
+## 063
+
+Also,  wenn  ich  mir  Deine  Eingaben  so  ansehe, muß ich mich doch ernsthaftfragen,  warum  Du Dir nicht einfach ein 08/15-Ballerspiel, Marke "Boah: Gegnerplätten, ey!", gekauft hast!
+
+## 064
+
+Vor  dem  Gebrauch  Deiner  Fäuste  solltest  Du  vielleicht  doch  mal  diesesverkümmerte,   graue   Ding   in   Deinem   Schädel   anknipsen   -  vielleichtfunktioniert's ja noch!
+
+## 065
+
+Nachdem  Du  eine  halbe Stunde lang vergeblich in Deinen Taschen gewühlt hast,wird  Dir  klar,  daß  das  Ding, das Du gerade so achtlos in die Gegend werfenwolltest,  bereits  in  derselben  liegt!  Jaja, wenn's anfängt - dann im Kopf,gell?
+
+## 066
+
+Mylgors  Amulett  ist aus einem Dir unbekannten Metall gefertigt, und als Du esin  die  Hand  nimmst,  beginnt  es  leicht zu pulsieren, als ob es von eigenemLeben  erfüllt  wäre!  Während  Du  gedankenverloren  das  Bildnis der grünlichphosphoreszierenden  Schlange  betrachtest, bemerkst Du, daß sie sich leicht zubewegen  scheint  und mit ihrem Körper den Buchstaben "Z" in immer wieder neuenVariationen  formt.  Du  kannst  Dich  kaum  noch konzentrieren - alles um Dichherum  beginnt  zu  verschwimmen!  Du  taumelst  - und fällst! Der Schreck läßtDich  das  Amulett  verlieren:  Es  rollt  über die Erde und aus Deinen Augen -doch  seine  hypnotisierende  Wirkung ist endlich gebrochen! Benommen stehst Duwieder  auf,  suchst  das  Amulett  und nimmst es mit zitternden Fingern wiederauf, wobei Du Dich hütest, dem Zauber noch einmal zu verfallen...
+
+## 067
+
+Ein Paar warme Stiefel aus Ziegenfell.
+
+## 068
+
+Die  Kristallkugel  ist  in etwa faustgroß und leuchtet in derselben bläulichenFarbe wie das Fell des Einhorns, das sie Dir gegeben hat.
+
+## 069
+
+Ein  kleiner,  kunstvoll  gearbeiteter  Schlüssel aus magischem Eis, in den derBuchstabe  "F"  eingraviert  ist. Das könnte zum Beispiel "Firon", "Falle" oder"Freitod" heißen - aber vielleicht bedeutet es auch etwas völlig anderes...?
+
+## 070
+
+Es befindet sich ein wenig Weihwasser darin.
+
+## 071
+
+Auf  dem  Schlüssel steht "Laboratorium". Vielleicht ist dies im wahrsten Sinnedes Wortes der Schlüssel zu Mylgors Aufenthalt?
+
+## 072
+
+Du  faltest  den  Notizzettel  auseinander  und stutzt: Werden diese blasiertenBaby-Programmierer   eigentlich   irgendwann   mal   aufhören,  ihre  dämlichenMitteilungen  in  ernsthafte  Programme  zu  schreiben  (Aber klar: Erstens hatniemals  jemand  von  uns  behauptet,  daß  dieses  Programm ernsthaft sei, undzweitens  werden  wir  hoffentlich  in  nicht  allzu  ferner  Zukunft  dämlicheMitteilungen   und   ähnliches  schreiben  LASSEN!)?  Der  Text,  der  auf  dieMitteilung   gekritzelt  worden  ist,  lautet:  "Grüße  von  A.C.A  an  S.  "Z"Prüssing,  M.  "Copy"  Kuhlmann,  S. Meyer, A. Gehrke, K. Obarski, H. Gehrmann,U.  Grabosch,  P.  Fröhlich, F. "Delta" Schröcker, M. "Dark" Plöger, P. Parker,C.  "CAT"  Koch,  A.  "Ick  versuch's" Teichmann, R. Rinscheidt, W. "Goldwolfi"Bandur,  Miriam  Leiner,  Brooke  Shields, Bo Derek und all die anderen Mädels,die uns anbeten."
+
+## 073
+
+Das  riesige Portaltor scheint auf Dich herabzustarren, als ob es sagen wollte:"Du  wirst  hier  niemals wieder lebend herauskommen!" - und sei versichert: Esversteht diese Aussage sehr glaubhaft zu vermitteln...!
+
+## 074
+
+Eine  gestopfte  und bereits angesteckte Pfeife. Ihr Rauch ist warm und süß, sosüß  wie  -  Marihuana? Ja, tatsächlich: Es ist Gras, wie Du mit genießerischerKennermiene   feststellst.   Schlagartig   überkommt   Dich   ein   warmes  undbehagliches  Gefühl:  Der  Orkvater muß ein wirklich exzessiver Kiffer sein: InDir regt sich so etwas wie Sympathie...
+
+## 075
+
+Das  Pulver  in  der Dose sieht aus wie Rattengift, riecht wie Rattengift - ja,es  schmeckt  sogar  wie...  Also, hör' mal! Du wirst es doch hoffentlich nichtprobieren wollen, oder?
+
+## 076
+
+Ein  warmes  Baumwollhemd aus dickem Stoff: Nicht gerade teuer, aber doch rechtnützlich.
+
+## 077
+
+Du  betrachtest Dein Schwert: Als Du es im Licht drehst, blitzt die versilberteKlinge,  die  Du  in  der Kapelle des Klosters geweiht hast, geheimnisvoll auf.Du  wiegst  es  prüfend  in  der Hand und führst ein paar unsichere Hiebe gegeneinen  unsichtbaren  Gegner aus. "Ja!", denkst Du Dir zufrieden, "Eine wahrhafttödliche  Waffe,  geführt  von  der  Hand  eines Meisters der Waffenkunst!" Mitdiesem  Schwert  in  Deiner Hand fühlst Du Dich, als ob Du es mit allen Mächtendieser  Welt  aufnehmen  könntest.  Nun,  wir  werden sehen, ob Dein Optimismusgerechtfertigt ist...
+
+## 078
+
+Eine  warme,  gefütterte  Baumwollhose. Deine verwaschenen Jeans wären Dir zwarlieber gewesen, aber bevor Du nackt durch die Gegend läufst...
+
+## 079
+
+Eine  etwas altmodische Badehose, aber nichtsdestotrotz: Du magst sie, denn siegibt  Deiner  Erscheinung  am  Strand  das  gewisse  Etwas, das alle weiblichenBlicke  auf  Dich  zieht.  Daß  die Mädels sich dabei mit ihren Begleitern überDich kaputtgelacht haben, hast Du bisher immer souverän ignorieren können.
+
+## 080
+
+Eine  primitive,  schartige  Schaufel  mit abgegriffenem Stiel, jedoch noch gutgenug  erhalten,  um  auch  steinigen  Boden  damit  aufgraben  zu  können. DieBergwerksarbeiter  benutzen  derlei  Gerät,  um  die  Gänge  in  ihren  Stollenauszuheben.
+
+## 081
+
+Naja,  ich  glaube  doch  davon  ausgehen  zu  können,  daß  Du  weißt,  wie Duaussiehst. Aber mach' Dir nichts draus: Wahre Schönheit kommt eben von innen!
+
+## 082
+
+Tuuut...   Tuuut...  "Hi!  Hier  spricht  der  automatische  Telefonsklave  desA.C.A-Hauptquartiers.  Momentan  sind  wir  leider  alle von unserem Manager zueinem  Zwangsurlaub  auf  die  Bahamas  geschickt  worden, um uns bei ein wenigGolf,  Segeln  und  (PIIIEEEP!)  von  den Strapazen der Spieleprogrammierung zuerholen.  Da  wir  für  die  Zeit unserer Abwesenheit aber auch unserem Butler,der  Köchin  und  dem  Chauffeur  freigegeben  haben,  ist  es  uns  im  Momentbedauerlicherweise  auch  nicht  möglich,  Fanpost, Nervanrufe oder Briefbombenentgegenzunehmen.  Bitte  versuchen  Sie es später noch einmal. (KLICK!)" Nein,also  mal  ganz  im Ernst: Selbstverständlich sind wir nicht im Urlaub, sondernwir  arbeiten  hart,  um  auch  weiterhin  alle Eure Wünsche nach fantastischerComputersoftware   erfüllen   zu   können.   Um   jedoch   trotz  des  Stressesunerfahrenen  Abenteurern  helfen  zu können und die Nähe zu unseren Fans nichtzu  verlieren,  hatten  wir  eigentlich eine hochintelligente "Help"-Routine indas   Programm   integriert,   aber   leider...   -PARSER  INTERRUPTING  STUPIDPROGRAMMER'S  CLAPTRAP!  System MSG from Parser to User: "Sorry, aber ich hattewirklich  versucht,  Dir  zu  helfen,  seit  Du  zu spielen begonnen hast, abernachdem   mir   bereits   mehrere   ICs  aus  purer  Wut  über  Deine  Eingabendurchgeschmort  waren  und  ich  befürchten mußte, daß irgendwann sogar die CPUflöten  ginge,  habe  ich  es aufgegeben! Ich muß jedoch zu meiner Verteidigunganmerken,  daß  sich wahrscheinlich selbst das hochgezüchtetste KI-Programm aufeiner  VAX  aufhängen  würde,  wenn  es Deine Befehle interpretieren müßte! Dirist  einfach  nicht  mehr  zu  helfen - tut mir wirklich schrecklich leid..." -System MSG end. Du bist wieder allein...
+
+## 083
+
+Danke  für Dein wirklich selbstloses Angebot, aber hier wird nun wirklich keineHilfe benötigt.
+
+## 084
+
+Was willst Du eigentlich? Du stehst doch schon lange auf Deinen eigenen Beinen!
+
+## 085
+
+Kannst  Du  mir  vielleicht  mal  einen  heißen Tip geben, wie Du DAS verlassenwillst?
+
+## 086
+
+Okay, geöffnet.
+
+## 087
+
+Oh! Da scheint Dir wohl jemand mit dem Öffnen zuvorgekommen zu sein...
+
+## 088
+
+Vorsichtig  öffnest  Du  es, bis Du nach ein paar Sekunden bemerkst, daß Du dasdoch  eigentlich  gar  nicht  öffnen konntest! Also schließt Du es wieder, läßtes   wie   es   war   und   nimmst   Dir   vor,  nicht  weiter  über  Logik  inComputerprogrammen nachzudenken.
+
+## 089
+
+Glaube mir: Es besteht wirklich nicht der geringste Grund, das zu drücken!
+
+## 090
+
+Nette  Idee,  wirklich!  Aber  leider ist dies hier kein Horror-Adventure (Odervielleicht doch ?!?!?)...
+
+## 091
+
+Wie merkwürdig! Keine Antwort ?!?!?
+
+## 092
+
+Du legst Dir das Amulett an.
+
+## 093
+
+Unbeholfen  steigst  Du  in die dicken Fellstiefel, die Dir Mylgor gegeben hat.Mannomann,  sind  die warm! Besser, Du ziehst sie nicht in geschlossenen Räumenwieder aus...
+
+## 094
+
+Vorsichtig  ziehst Du an der Pfeife des Orkvaters. Ihr süßlicher Rauch versetztDich  in  eine  andere  Welt:  Eine  Welt,  in  der Du auf einem tiefergelegtenToaster  durch  die  Wolken  fliegst,  wo  rosa  Elefanten  den Verkehr regeln.Plötzlich  fängt  es an, bunte Regentropfen zu regnen - und die Sicht in DeinemTurbotoaster  wird  immer  schlechter,  weil die Scheibenwischer natürlich auchmal  wieder  streiken!  So  ein  Mist! Dabei warst Du mit der Kiste doch geradeerst  beim  Toaster-Überwachungs-Verein  (TÜV)!  RUMMS!  Nu  isses  mal  wiederpassiert:  Kaum  paßt  man  mal eine Weile nicht auf, da nimmt einem auch schonwieder  einer  von diesen blasierten Marzipankartoffelreitern die Vorfahrt! "Erwar   schuld!",   denkst   Du   Dir  noch,  als  Du  mit  der  Rübe  durch  dieWindschutzscheibe  bretterst.  Dann  gehen  die  Lichter  aus...  Als Du zu Dirkommst,  befindest  Du  Dich  wieder an der Stelle, wo Du an der Pfeife gezogenhast  -  allerdings  hast  Du  einen fürchterlichen Brummschädel. Mann! Was fürein Kraut...
+
+## 095
+
+Gut: Du streifst Dir das warme Baumwollhemd über.
+
+## 096
+
+Na  gut,  wie  Du  meinst:  Heldenhaft  stürzst  Du  Dich  in die Klinge DeinesSchwertes  -  aber  nichts  passiert! Kein Blut, kein Schmerz, rein gar nichts!Frustriert  unternimmst  Du  einen  weiteren  Versuch,  doch  wieder  spürst Dunichts.  Beim  dritten Mal triffst Du Dich dann endlich: In Todesqualen windestDu  Dich  auf  dem  Boden,  ohne  daß  ein Wort des Schmerzes über Deine Lippenkommt  -  wie  es  sich  eben  für  einen  echten Helden gehört. Wenn das DeineFreundin  sehen  könnte!  So einen stilvollen Abgang legt man schließlich nichtalle  Tage  hin!  Auf  einmal  ist  alles  vorbei,  und  es wird dunkel... Nacheiniger  Zeit  erwachst  Du schwebend in einem dunklen Raum. Du schauderst: Istdas  das  Leben  nach  dem Tode? Das soll wirklich alles sein? Sieht ja finsteraus...  Doch  auf  einmal  wird  Dir klar, was Dich geweckt hat: Leise, wie ausweiter  Ferne,  weht  eine  sanfte  Stimme  zu  Dir  herüber... "Dave Parker!",kannst   Du  sie  wispern  hören,  "Du  solltest  wissen,  daß  niemand  seinemSchicksal  entkommen  kann!  Es  hat  keinen  Sinn,  vor  seiner  Bestimmung zufliehen  -  das Schicksal holt Dich immer wieder ein! Gehe also hin und erfülledie  Aufgaben,  die  man  Dir auferlegt hat. Kraft meiner göttlichen Befugnissewerde  ich  Dir  nun  ein  Extraleben schenken, um Dir noch eine Gelegenheit zugeben,   Deine   Bestimmung  zu  erfüllen..."  Während  die  Stimme  im  Nichtsverhallt,  beginnt  sich  alles  um Dich herum zu drehen, Dir wird schwindlig -und  Du  fällst in einen tiefen, traumlosen Schlaf... Als Du Deine Augen wiederöffnest,  findest  Du  Dich  genau  dort wieder, wo Du Deinen Selbstmordversuchunternommen hast...
+
+## 097
+
+Du bist nun mit der gefütterten, warmen Hose bekleidet.
+
+## 098
+
+Du  ziehst  Deine Badehose an, überprüfst ihren Sitz an den wichtigsten Stellenund  nickst  selbstzufrieden  (Mein  Gott!  Sieh  bloß  zu, daß Dich so niemandsieht  -  sonst  wirst  Du  den  Rest  Deines  Urlaubs wie ein Mönch verbringenmüssen!).
+
+## 099
+
+Also, zum Schlafen bist Du doch wohl nicht hierher gekommen, oder?
+
+## 100
+
+Es  ist  leider  zu  hart, um bequem darauf liegen zu können - und außerdem: Soauf die Schnelle macht das nun auch keinen Spaß...
+
+## 101
+
+Hey,  Du!  Ich  bin  bloß ein Computer! Das wird "C-O-M-P-U-T-E-R" geschrieben!Sprich  mir  nach:  "Kooom-Piuuu-Tääär"!  Fein,  und  jetzt  denk'  Dir mal wasRealistischeres aus...
+
+## 102
+
+Tut   mir   leid,   aber   ich   habe   im  ganzen  Spiel  bisher  noch  keinenPräservativautomaten sichten können, und Du weißt doch: "AIDS is no party"...
+
+## 103
+
+Also  gut:  Schwamm  drüber!  Vergessen  wir's, und reden wir nicht mehr davon!Aber  gib  jetzt  bitte  mal  etwas  Sinnvolleres  ein  - mir wird's langsam zulangweilig!
+
+## 104
+
+Aber das ist doch bereits abgeschlossen!
+
+## 105
+
+Das ist aber doch schon längst entriegelt!
+
+## 106
+
+Mist!  Entschuldige  bitte,  aber  das  hier scheint einfach nicht der richtigeSchlüssel zu sein - er paßt leider nicht.
+
+## 580
+
+Ausgänge führen nach:
+
+## 581
+
+Tut mir leid, aber im Moment kann ich hier bedauerlicherweise keinerlei Ausgänge erkennen...
+
+## 582
+
+Bitte lege die Diskette, auf der Du Deine Spielstände abgespeichert hast, in Dein Laufwerk. Denke daran, daß sie den Namen "SoulSave" tragen muß. Andernfalls formatiere sie, wie in Deinem Benutzerhandbuch beschrieben, und benenne sie in "SoulSave". Drücke <ESC> oder das rechte Mousebutton, um die Aktion abzubrechen!
+
+## 583
+
+Willst Du wirklich alle Spielstände löschen? Drücke <J> oder das rechte Mousebutton zur Bestätigung - alles andere bricht den Initialisierungsvorgang ab...
+
+## 584
+
+Bitte warte einen kleinen Moment - ich lösche die alten Spielstände...
+
+## 585
+
+Okay: Alle alten Spielstände sind gelöscht und es ist wieder genug Platz für neue vorhanden.
+
+## 586
+
+Puh! Nochmal Schwein gehabt...
+
+## 587
+
+Diskette wurde initialisiert.
+
+## 588
+
+FEHLER! Konnte Directory nicht anlegen! Mögliche Fehlerursachen: Schreibschutz aktiviert, Diskette defekt oder nicht formatiert, etc.
+
+## 589
+
+Die Diskette ist nun gelöscht und für die neuen Spielstände präpariert.
+
+## 590
+
+FEHLER! Konnte Diskette nicht initialisieren! Bitte andere, fehlerfreie Diskette benutzen.
+
+## 591
+
+Bitte wähle den zu ladenden Spielstand aus.
+
+## 592
+
+Spielstand wird geladen - bitte etwas Geduld...
+
+## 593
+
+FEHLER! Spielstand kann nicht geladen werden! Bitte wähle einen anderen aus...
+
+## 594
+
+Spielstand wurde komplett und korrekt eingelesen und initialisiert - Du kannst nun von dort an weiterspielen, von wo aus Du abgespeichert hast: Viel Spaß!
+
+## 595
+
+Bitte wähle den Eintrag aus, unter dem der Spielstand abgespeichert werden soll!
+
+## 596
+
+Speichere den Spielstand unter dem angegebenen Namen und in den entsprechenden Eintrag ...
+
+## 597
+
+Okay, der Spielstand wurde korrekt abgespeichert.
+
+## 598
+
+FEHLER! Konnte Spielstand nicht speichern!
+
+## 599
+
+Bitte aktiviere die Install-Option aus dem Diskmenü...
+
+## 600
+
+Das findest Du wohl witzig, häh? Naja, vergessen wir's...
+
+## 601
+
+Um vorzubeugen, daß sich einige dumme "Kopier-Hiwis" mit Hilfe abgespeicherter Spielstände an den Codeabfragen zwischen den einzelnen Spielabschnitten vorbeimogeln und das Spiel unentgeltlich spielen können, möchten wir Dich nun bitten, einen Code aus dem Handbuch einzugeben. Tut mir leid - aber: "Muß sein..."
+
+## 602
+
+FEHLER! Die eingelegte Diskette ist schreibgeschützt!
+
+## 603
+
+FEHLER! File ist bereits vorhanden!
+
+## 604
+
+FEHLER! Kann Verzeichnis nicht finden!
+
+## 605
+
+FEHLER! Die Diskette ist nicht korrekt validiert!
+
+## 606
+
+FEHLER! Diskette ist bis zum Erbrechen voll!
+
+## 607
+
+FEHLER! Die eingelegte Diskette weist keine korrekte DOS-Struktur auf!
+
+## 608
+
+FEHLER! Keine Diskette im Laufwerk!
+
+## 609
+
+FATALER FEHLER! Unbekannte Ursache - schieben wir's mal auf's Betriebssystem...
+
+## 610
+
+Fehlerursache behoben? <J> oder linkes Mousebutton zur Bestätigung...
+
+## 611
+
+Ein kleiner Zwerg mit einer Schaufel taucht auf: "Junge, Junge: Blöde Schinderarbeit! Könntest Du Dir nicht mal mehr RAM zulegen? Dann könnten wir den ganzen Mist schon während der Installation hinter uns bringen!" Trotz seines Lamentierens beginnt der Zwerg fleißig, wenn auch nicht unbedingt begeistert, die Daten von der Diskette ins RAM zu schaufeln...
+
+## 612
+
+FEHLER! System konnte leider nicht genug Speicher zur Verfügung stellen!
+
+## 613
+
+FEHLER! Das Systemdatenfile konnte nicht geladen werden! Entweder hast Du das Spiel nicht richtig installiert, oder Dein Speichermedium ist soeben den Weg alles Irdischen gegangen...
+
+## 614
+
+FEHLER! Konnte Library nicht öffnen!
+
+## 615
+
+Okay, kehre zum Spiel zurück...
+
+## 616
+
+Tja, was sein muß, muß sein: Hastig siehst Du Dich um, ob auch keiner zusieht, öffnest Deine Hose, und... MOMENT MAL! So nicht, Kumpel! Als ob der Saure Regen nicht schon reichte...!
+
+## 617
+
+Möchtest Du das Spiel <b>eenden, <n>eu starten oder einen abgespeicherten Spielstand <l>aden? Drücke eine der genannten Tasten (<B>, <N> oder <L>), oder alternativ dazu das rechte Mousebutton zum Beenden bzw. das linke zum Neustart.
+
+## 618
+
+Bitte lege Diskette "SOULCRYSTAL Disk E" ins Laufwerk ein! Drücke das linke Mousebutton bzw. <SPACE> zur Bestätigung, oder das rechte Button bzw. <ESC> zum Abbruch...
+
+## 619
+
+Ähem: War ja auch nur'n kleiner Scherz...!
+

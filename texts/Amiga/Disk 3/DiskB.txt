@@ -1,0 +1,801 @@
+# DiskB — Amiga
+
+Quelle: Disk 3/Data/Texts/DiskB.TXT
+Text-IDs aus Code/Main; originale Abstände bleiben erhalten.
+
+## 169
+
+Vorsichtig  betrittst  Du  Mylgors  Studierzimmer. Du scheinst hier seitlangem  der  erste  Besucher  zu  sein:  Von  der  Decke  hängen dichteSpinnweben  herunter,  und  auf  allen  Möbeln  liegt  eine fingerdickeStaubschicht.  Dieses  Zimmer  hat  wahrscheinlich  schon  seit  Jahrenniemand  mehr  betreten  -  nur:  Warum  hat Mylgor dann wohl die Tür mit einemBann  belegt?  Irgendeine Bedeutung muß dieser Raum demnach doch für ihn haben!Ein  schwerer,  hölzerner  Studiertisch  steht  in  der  nordöstlichen Ecke desRaumes,   während   das   restliche   Mobiliar   ausschließlich   aus  massivenBücherregalen  besteht,  die  sich  unter  der  Last  der  vergilbten Schwartenförmlich  biegen.  In  der  Ostwand befindet sich eine Tür, durch die Du wiederin die Schlafkammer gelangst.
+
+## 170
+
+Du  stehst  in  der  kleinen Schlafkammer, die der alte Alchemist MylgorDir  für  Deine  erste Nacht in dieser Welt zur Verfügung gestellt hat.Durch  eine  kleine Luke in der Wand fällt ein schmaler Lichtstrahl einund  taucht  den Raum in schummeriges Licht. Normalerweise schlafen nurdie  Hausdiener  hier,  was  wohl  auch  die  primitive  Möblierung  der Kammererklären  dürfte:  Lediglich  ein  einfach  gezimmertes  Bett  und  ein kleinerWaschtisch  stehen  an  den  Wänden. Im Norden liegt das Kaminzimmer, aber auchin der Westwand befindet sich eine Tür.
+
+## 171
+
+Hoppla!  Entgegen  Deinen  Erwartungen  ist  die  Höhle  der  Orkfamiliekeineswegs  eine  primitive  Tierbehausung,  sondern im Gegenteil sogarein  direkt  als  gemütlich  zu  bezeichnender  Wohnraum mit rustikalerEinrichtung  und  einem Kamin in der Ecke! An dem großen Eßtisch in derMitte  sitzt  ein  kräftiger  Ork  und  wartet  auf  sein  Essen,  während  einkleinerer,  weiblicher  Ork an der Feuerstelle steht und etwas grillt, was sichnach  genauerem  Hinsehen  als  eine  fette  Echse entpuppt. Liebevoll lächelndbetrachtet  die  Orkfrau  dabei  ihr  Kind,  das  in der anderen Ecke der Höhleselig  mit  der  Kristallkugel  spielt,  die Du ihm geschenkt hast. Der einzigeWeg  nach  draußen  führt  durch  den  Höhleneingang  im  Norden zurück auf diekleine Waldlichtung.
+
+## 172
+
+Du  findest  Dich  in einem gemütlich eingerichteten Kaminzimmer wieder,dessen  Wände  über  und  über  mit  Tierfellen und -geweihen dekoriertsind,  die  Mylgor  als Dank für seine gelegentliche medizinische Hilfevon  den  Bewohnern des kleinen Dorfes bekommt. In einer Ecke kannst Dueinen  kleinen  Steinkamin  erkennen,  der  an  kalten Winterabenden behaglicheWärme  spenden  soll.  Zwei  Türen führen aus dem Zimmer hinaus: die Haustür inder  Nordwand  und  eine  weitere  in  der  Südwand,  hinter der Du eine kleineSchlafkammer erkennen kannst.
+
+## 173
+
+Du  betrittst  eine  kleine Lichtung. Eine ziemlich langweilige Lichtungübrigens  -  so  langweilig,  daß  wir  Dir  ihre  Beschreibung  besserersparen.  Schau'  Dir  doch  das  Bild  an  - das sagt doch eigentlichschon  alles!  Was  Du  allerdings  nicht sehen kannst, ist das dichte,dornige  Gestrüpp  im  Süden,  was  aber  auch  nicht  gerade dazu angetan ist,diesen  Ort  viel  aufregender  zu  machen. Wenn es auch Dir hier zu langweiligwerden  sollte,  kannst  Du  den  Weg nach Osten nehmen, der Dich auf den Hügelzurückführt, von dem aus Du hier hinuntergekommen bist.
+
+## 174
+
+Herzlichen  Glückwunsch:  Du  hast  soeben  den  bedeutungslosesten Raumdieses  Adventures  betreten  und  genießt gerade die Aussicht über denWald  und  den  Pfad  im  Norden, von wo aus Du diesen Hügel zum erstenMal  bestiegen  hast.  Bitte  frag' mich jetzt aber nicht, wofür dieserRaum  gut  ist  -  nicht  einmal  die  Autoren dieses Spieles wissen es! Es istlediglich  ein  völlig  stinknormaler Hügel wie viele andere, und hat keinerleibesondere  Bedeutung  für  die  Lösung Deiner Aufgaben - wie viele andere (Aberirgendwie  mußten  wir  die Disketten ja füllen, gell?). Du kannst Dich nun füreinen  der  beiden  ins  Tal führenden Wege entscheiden: Entweder nimmst Du denWeg nach Norden, oder den, der zu einer öden Lichtung im Westen hinunterführt.
+
+## 175
+
+Du   stehst   vor  einer  kleinen,  primitiven  Hütte  mit  einem  rotenSchindeldach  und  einem  kleinen,  rauchenden Schornstein. Die Haustürbesteht  aus  massivem  Holz, in dem eine kleine Luke ausgespart wordenist,  um  unbekannte  Besucher genauer in Augenschein nehmen zu können.Du  kannst  nun  also  entweder  versuchen, das Haus im Süden zu betreten, oderzurück auf den Marktplatz im Osten gehen.
+
+## 176
+
+Du  befindest  Dich auf dem Marktplatz eines kleinen Dörfchens. Alles umDich  herum  sieht  so  aus, als wärest Du viele, viele Jahrhunderte indie   Vergangenheit   zurückversetzt   worden:   Die   kleinen,  alten,schindelgedeckten  Häuschen,  der  Brunnen  im  Zentrum und die eisernePumpe  neben  den  Blumenbeeten  vermitteln  Dir  den  Eindruck, als liefest Dugerade  durch  ein  Museumsdorf.  Weiter  im Westen kannst Du eine kleine Hüttesehen,  die  etwas abseits der anderen Häuser steht. Im Norden verschwindet derPfad  zwischen  ein  paar  Häusern,  nach  Osten  führt er aus dem Dorf hinaus,zurück in Richtung Wald.
+
+## 177
+
+Du  stehst  auf  einer  Wegkreuzung:  Im  Westen  kannst Du ein kleines,friedliches  Dörfchen  liegen sehen. Als Du mit den Augen den Rillen imPflaster  folgst,  bemerkst  Du  zu  Deiner  Überraschung  ein  kleinesErdloch  am  Rand  des Weges, das erst kürzlich gegraben worden zu seinscheint.  Nun  kannst  Du  entweder  einen  der  beiden Hügel besteigen, die imNorden  und  Süden  liegen,  tiefer  in  den östlich gelegenen Wald vordringen,oder Dich auf den Weg zum Marktplatz des Dorfes im Westen machen.
+
+## 178
+
+Während   Du  tiefer  in  den  Wald  vordringst,  beschleicht  Dich  einmerkwürdiges  Gefühl:  Es  ist sehr still hier - fast schon ZU still...Und  als  Du  nach  Norden  blickst, erschauerst Du: Der nördliche Waldscheint  von  allem  Leben  verlassen  worden  zu sein und strahlt einemerkwürdig  starke  und  unheimliche  Aura aus! Falls Du diesen Teil des Waldeslieber  verlassen  möchtest,  kannst  Du nach Westen gehen - andernfalls kannstDu versuchen, den abgestorbenen Waldabschnitt vor Dir zu betreten...
+
+## 179
+
+Du  stehst  auf  einem hohen Berg und genießt die phantastische Aussichtüber  ein  schneebedecktes  Tal,  das irgendwo weit hinter dem Horizontzu   verlaufen   scheint...   Der   kleine   Laden,   von   wo  aus  Duhierhergekommen  bist,  liegt  zu  Deiner Rechten, während sich das Talnach Norden hin erstreckt.
+
+## 180
+
+Du  betrittst den "Adventurer's Equipment Shoppe", ein Geschäft, das fürsein  riesiges  Angebot  bekannt  ist.  Man sagt sich, daß sie hier diebeste  Ausrüstung  für  Abenteurer  wie  Dich anböten - sicherlich mehrals  nur  ein  Gerücht,  da  sie  zugleich auch der einzige Anbieter imUmkreis  von  mehreren hundert Meilen sind... Ein junger Verkäufer steht hinterdem  Verkaufstresen  und  ist  damit beschäftigt, neu angelieferte Waren in dieRegale  einzusortieren.  Auf  dem  Tresen  entdeckst  Du  ein  Schild  mit  derAufschrift  "Hundeschlitten  zu verkaufen". Du kannst durch die Ladentür in derOstwand  wieder  zurück  auf den Pfad gelangen, der zurück ins Dorf führt, oderaber  den  Laden  durch  die  Tür  im  Westen verlassen, um die Eisregionen desLandes zu betreten.
+
+## 181
+
+Du  stehst  auf  einer  Straße,  die  von Süden nach Westen verläuft. ImNorden  kannst  Du in einiger Entfernung einen tiefen Abgrund erkennen.Dies  ist  eine  der  alten  Handelsstraßen,  die  die Kaufleute früherbenutzt  haben,  wenn  sie  sich  auf  ihren  Reisen von Stadt zu Stadtbefanden  -  doch  heute zeugen nur noch die Rillen der Wagenräder, die sich imLaufe  der  Jahrhunderte  in  das  Straßenpflaster  eingeschliffen  haben,  vondieser  alten  Tradition...  Du kannst der Straße entweder nach Süden oder nachWesten folgen.
+
+## 182
+
+Du  befindest  Dich  auf  einem  hohen Berg und blickst nach Norden übereine  tiefe  Schlucht  hinweg, durch die sich ein reißender Gebirgsbachwindet.  Auf  der  gegenüberliegenden  Seite des Abgrunds kannst Du dieSilhouette  einer  alten  Klosterruine  erkennen, die ihre Mauern immernoch  stolz  und  erfurchtgebietend  vor  der untergehenden Sonne in den Himmelemporreckt.  Neben  Dir liegt außerdem noch ein dicker, abgeknickter Baumstamm,der  den  Abgrund zwischen dem Berg im Norden und dem, auf dem Du Dich momentanbefindest,  überbrückt.  Im  Süden  liegt  eine  Wegkreuzung, aber wenn Du Dichtraust,  kannst  Du  natürlich  auch  versuchen,  über  den  Baumstamm  auf dienördliche Seite der Schlucht zu gelangen.
+
+## 183
+
+Du  läufst  in  das schneebedeckte Tal hinunter. Dies muß der Weg zu demEispalast  sein,  den  Du schon weit im Nordwesten in der Sonne funkelnsehen  kannst  -  was  jedoch  noch lange nicht heißt, daß er leicht zuerreichen  wäre:  Da  es sich bei dem kleinen, funkelnden Fleck dort amHorizont  immerhin  um  eine  gewaltige  Feste  aus  Eis handelt, kannst Du Dirvorstellen,  daß  es  wohl mehr als einen Monat dauern würde, dorthin zu Fuß zureisen.  Falls  Du  dennoch  meinst,  für die Reise in die Eiswüste ausreichendausgerüstet  zu  sein,  kannst  Du  versuchen,  nach Norden zu gehen. Ansonstenliegt  hinter  Dir  im  Süden  der  Berg,  von  dem  aus  Du  wieder  ins  Dorfzurückgelangen kannst.
+
+## 184
+
+Du  stehst  vor  einer  alten,  schon  seit  langer  Zeit  stillgelegtenZwergenmine,  deren  Eingang  sich  als dämmeriges Loch in der Felswandvor  Dir  im  Norden  auftut,  das  tief  in  den  Fels  hineinzuführenscheint.   Weiter   hinten,  am  Ende  des  Tunnels,  kannst  Du  einenrötlichen  Schimmer  erkennen.  Neugierig fragst Du Dich, woher dieser glühendeSchein  kommen  mag und überlegst, ob Du nicht das Innere des Stollens erkundensolltest.  Wenn  Du  die Mine jedoch lieber nicht betreten möchtest, führt Dichder Weg nach Osten wieder zurück auf die kleine T-Kreuzung.
+
+## 185
+
+Du  stehst  auf  einem  erhabenen  Hügel.  Hinter  Dir, zu Deinen Füßen,befindet  sich  ein  tiefer  Abgrund,  durch  den  sich  ein  reißenderGebirgsbach  schlängelt.  Im  Osten erheben sich die verfallenen Mauerneiner  Klosterruine  gegen  den  Abendhimmel,  während  im  Westen  eintiefer  Tunnel  in den Berg gehauen ist. Der Berg, über den Du wieder zurück indie  Dir  etwas vertrauteren Regionen des Landes gelangst, befindet sich hinterDir im Süden.
+
+## 186
+
+Diese  Klosteranlage  muß  einst  recht  großzügig  und  imposant gebautgewesen  sein:  Immer  noch  reckt  sie  stolz ihre mittlerweile jedochüberhaupt  nicht  mehr  sehr ansehnlichen Randmauern hoch in den Himmelempor,  als  ob sie die ganze Welt regierte - aber in Wirklichkeit sinddie  moosüberwachsenen  Steine,  die überall verstreut herumliegen, das einzigeZeugnis     vom     einstmaligen    Vorhandensein    dieser    Trutzburg    derGottesfürchtigen...   Vor   Dir,   im   Norden,   liegt  das  Klosterportal  imHalbdunkel.   Solltest   Du  Dich  jedoch  angesichts  dieses  gar  nicht  sehreinladenden  Eindrucks  wieder  zur  Rückkehr  entscheiden,  solltest Du zu derKreuzung im Westen gehen...
+
+## 187
+
+Direkt  vor  Dir  erhebt  sich der Eispalast, von dem Dir Mylgor erzählthat,  in  den  Himmel  - so hoch, daß Du seine Spitze nur irgendwo überden   Wolken   erahnen   kannst.   Die   Wände   der   Festung  funkelngeheimnisvoll  in  einem  geradezu  überirdischen  Licht,  das  sich inallen  überhaupt  nur  vorstellbaren  Farben  in  jedem  einzelnen  Eiskristallbricht!  Als  Du  aus  Deinem  Staunen  erwachst, bemerkst Du auch den riesigenYeti,  der  vor  dem hohen Eingangsportal Wache schiebt! Du kannst nun entwederversuchen,  den  Palast vor Dir zu betreten, oder wieder zurück in die Eiswüstegehen, die im Osten liegt.
+
+## 188
+
+Du  fühlst Dich ziemlich alleingelassen, als Du die endlose Eiswüste vorDir  siehst...  Der  Schnee  ist derartig hart gefroren, daß Du auf ihmlaufen  kannst  wie  auf  Stahlbeton  -  und  selbst wenn Du auf DeinerReise  durstig  würdest, könntest Du die hartgefrorenen Wasserkristallenicht  einmal  auftauen,  um  sie  zu trinken! Du kannst nun entweder weiter indie  Eiswüste  im  Norden  vordringen  oder  den Eispalast im Westen genauer inAugenschein nehmen.
+
+## 189
+
+Du  stehst in einem verschütteten Gang, der vom Nachbarraum aus in einengeheimnisvoll  leuchtenden,  rotvioletten  Schimmer  getaucht wird. AlsDu  Dich  umsiehst,  verstärkt sich Dein Eindruck, daß diese Mine rechtplötzlich  und  überstürzt  verlassen  worden  zu  sein scheint: EinigeWergzeuge  der  Minenarbeiter  liegen  noch  immer  ungeordnet  über  den Bodenverstreut...  Anscheinend  hatte  man  geplant, diesen Stollen zu erweitern, umweiter  ins  Berginnere  vorzustoßen  -  aber der geringe Erfolg der bisherigenArbeiten  läßt  sich  schon  an  den  paar Geröllbrocken, die aus der schroffenFelswand  herausgebrochen  worden  sind,  messen,  so  daß  der einzige Weg ausdieser Sackgasse heraus nach Osten, also wieder zurück in die Münze, führt.
+
+## 190
+
+Du  betrittst  eine  kleine  Höhle,  deren Decke mit massiven Holzbalkengegen  den  Felsboden  abgestützt  ist.  Als  dieses  Land  einst  nochfinanzkräftig  war,  stellte  dieser  Raum  die  Münze  dar, in der dielandesübliche  Hartwährung  geprägt  wurde. Anscheinend hat das üblicheGesindel  aber  wieder  einmal  alles Wertvolle von hier weggeschafft - obwohl:Dort  hinten  ist  immer noch eine Feuerstelle, in der noch immer Feuer brennt,über  dessen  Flammen ein kleiner Kessel mit geschmolzenem Silber hängt! Als DuDich,  durch  diese  Entdeckung  neugierig  geworden,  ein wenig genauer in derHöhle  umsiehst,  kannst  Du  auch  noch  einige Gefäße entdecken, die wohl zurAufbewahrung  und  zum Transport der fertig geprägten Münzen gedacht waren! DerAusgang  ins  Freie  liegt  direkt  hinter Dir im Süden, während sich im Westenein  weiterer,  kleiner  Stollen  befindet,  der  allerdings schon nach wenigenMetern an einer Felswand endet...
+
+## 191
+
+Als  Du den Klostergarten betrittst, stutzt Du: So einfach wird das wohlnicht  werden,  sich  durch  dieses Gestrüpp zu schlagen! Alles um Dichherum  ist  verwildert  -  eigentlich  auch  ganz verständlich, da sichseit  Jahrzehnten  niemand  um  diesen Garten gekümmert hat. Um es ganzdeutlich  zu  sagen  (Der  Gärtner  - so er noch lebt - möge uns verzeihen...):Dieser  Ort  sieht  eher nach einem Dschungel aus als nach dem sorgsam gehegtenund  gepflegten  Garten,  in dem sich vor langer, langer Zeit einmal die Mönchedieses  Klosters  ihren  Meditationen gewidmet hatten! Aber indem Du Dir brutalDeinen  Weg  durch  das  dornige  Gestrüpp  bahnst,  stößt Du plötzlich auf einschmiedeeisernes  Tor,  das auf den ersten Blick vom Gestrüpp verdeckt war! AlsDu  durch  die  Gitterstäbe  schaust,  erschauerst  Du:  Dies  ist das Tor, dasdirekt  auf  den  Friedhof  des  Klosters  führt, auf dem früher alle Toten desDorfes  bestattet  wurden!  Aber  irgend  etwas  stimmt  nicht  mit diesem Ort:Dichte  Nebelschwaden  kriechen  schwerfällig  und  unheilverkündend  über  denBoden   des  Gottesackers,  durchdringen  jedoch  merkwürdigerweise  nicht  dieGitterstäbe  des  Tores,  sondern  scheinen  fast  von einer magischen Barrierezurückgehalten  zu  werden.  Als  Du siehst, daß der Nebel direkt aus den teilsoffenen  und  geschändeten  Gräbern  zu  kommen scheint - geradezu, als wolltendie  Geister  der  Toten  aus ihrer letzten Ruhestatt fliehen, um sich an allemLebenden  zu  rächen -, läuft es Dir eiskalt den Rücken hinunter... Solltest Duden  passenden  Schlüssel dabeihaben, kannst Du den Friedhof im Norden betreten-  wenn  Du  noch  den  Mut  dazu  hast...  Wenn  nicht,  führt Dich der kleineTorbogen im Osten wieder zurück ins Kloster.
+
+## 192
+
+Du  betrittst  den  Speisesaal  des  Klosters. Vor langer Zeit haben dieMönche  hier  allabendlich gesessen, um zu essen und zu trinken. Oh ja,in  der  Tat:  Es  muß  wirklich  verdammt  lang her sein, denn all dieEßtische  und  Bänke liegen entweder zerbrochen auf dem Boden oder sindderartig  mit  Rattendreck  besudelt, daß Du Dich davor ekeln würdest, sie auchnur  zu  berühren! Dein Eindruck verstärkt sich: Dieses Kloster ist fluchtartigverlassen  worden  -  Du  fragst  Dich  nur,  warum...  Ausgänge führen in alleHimmelsrichtungen außer nach Osten.
+
+## 193
+
+Unbemerkt  erreichst  Du  den Thronsaal des Elfenkönigs Firon: Geblendetvon  dem  hellen  Licht,  das von den Wänden reflektiert wird, schirmstDu  Deine  Augen  mit  den  Händen ab und siehst Dich verwundert um: Soriesig   der   Thronsaal  ist,  so  leer  ist  er  auch:  Die  einzigen"Möbelstücke",  die  Du  erkennen  kannst,  sind Firons Eisthron und die vielenglitzernden  Eiskristalle,  die  zig Meter von der Decke herunterhängen und daseinfallende  Sonnenlicht  in  allen  vorstellbaren Farben reflektieren - als obsie  selbst  aus einem gigantischem, unendlich kostbaren Edelkristall gefertigtwären...
+
+## 194
+
+Du  hast  Dich  leider  dazu  entschieden,  die  Eiswüste viel tiefer zuerforschen   als   es   eigentlich  notwendig  gewesen  wäre.  Nun  ja:Geblendet  von  dem extrem hellen Sonnenlicht hast Du leider die Spalteim  Boden  direkt  vor  Dir  übersehen - ud bist direkt in einen tiefenGletscher  hineingestolpert!  Ähem,  was  soll ich dazu noch sagen? Du solltestDich  ja  eigentlich  glücklich  schätzen, nicht verhungert zu sein, denn dieseEiswüste  ohne  ein  schnelles  Transportmittel  zu betreten, ist an sich schonallein  der  sichere  Tod!  Aber  nicht  aufgeben: Vielleicht wirst Du ja einesTages  einmal  gefunden  und  von  ein paar Wissenschaftlern aufgetaut - jüngerund frischer als Deine Altersgenossen dann sein werden...
+
+## 195
+
+Du  führst  Deinen  Weg über den Friedhof fort, wobei Du Dich allerdingsmit  einem  recht unschönen Gefühl im Magen fragst, wieso alles um Dichherum  auf  einmal so still geworden ist... Im Norden erkennst Du gegendas  kränklich  gelbe  Licht  des Vollmondes die Silhouette eines altenGrabgewölbes,  als  die  unheilvolle  Stille plötzlich von einem langgezogenen,wilden  Schrei  unterbrochen  wird,  der  Dir  das  Blut in den Adern gefrierenläßt:  Dieser  Schrei  war  alles  andere  als menschlich! Bevor Du jedoch nocheinen  weiteren  Gedanken  fassen kannst, hörst Du einen zweiten - MENSCHLICHEN-  Schrei,  der  nach  ein paar Sekunden in ein leises Wimmern übergeht, bis erschließlich   ganz   verebbt...   Als   Du  Dich  zitternd  wieder  aus  DeinerSchreckensstarre  löst,  bemerkst  Du  ein  heiseres  Fauchen  und  das Knackeneiniger  Äste  hinter  Dir  -  und  es kommt geradewegs auf Dich zu! So langsamsollten  wir  also  mal die schlackernden Beine in die Hand nehmen und entwederZuflucht  in  der Gruft im Norden suchen, oder zu der Kapelle auf dem östlichenTeil des Friedhofes fliehen!
+
+## 196
+
+Mit  gemischten  Gefühlen  betrittst Du den Friedhof des alten Klosters,während  das  Tor  in der südlichen Mauer fürchterlich in seinen Angelnquietscht  -  als  ob  es  von  dem  eiskalten  Wind  bewegt würde, dermerkwürdigerweise  genau  in  dem  Moment  aufgekommen zu sein scheint,als  Du  den Friedhof betreten hast. Du zitterst, als Du an Dir herunterblickstund  den  wabernden,  kalten  Nebel  an  Deinen  Beinen  emporkriechen  siehst.Mittlerweile  ist  es  derart  neblig  geworden,  daß  Du  kaum  noch den Bodenerkennen  kannst.  Zaghaft  setzt Du einen Fuß nach dem anderen in dieses graueMeer  und  folgst  dem Weg in Richtung der kleinen Kapelle im Norden, vorbei anverwitterten  Grabsteinen  und  umgekippten,  schmiedeeisernen  Kreuzen, die indem  unheimlichen  Licht  wie  im  Todeskrampf  erstarrte  Klauen  nach  Dir zugreifen  scheinen...  -Hey, Freak! Sag' mal, hast Du eigentlich keine Uhr, oderbist   Du  blind?  Du  stehst  hier  auf  einem  Friedhof,  es  ist  kurz  nachMitternacht  -  und  WIR  HABEN  VOLLMOND! Wenn der Rest dieses Spieles genausoabgelutscht  ist,  wie  die  bisherige  Story  vermuten  läßt, wird hier gleichetwas   ziemlich  Schlimmes  passieren!  Okay:  Wenn  Du  tatsächlich  vorhabensolltest,  hier  einen kleinen Spaziergang zu machen - bitte: Niemand hält Dichzurück  -  aber  erwarte  bitte nicht, daß ich Deine etwas makabren Hobbies mitDir  teile!  Ich  werde  hier  solange  auf  Dich  warten - VIELLEICHT...! Ach,übrigens: Hast Du das offene Grab dort hinten schon gesehen...?
+
+## 197
+
+Dies  ist  -  oder besser: WAR - die alte Klosterschmiede, in der früherWaffen,  Rüstungen  und Gegenstände des täglichen Gebrauchs hergestelltwurden.  Viele  der  Dinge liegen immer noch herum: Zum Beispiel hängendort   noch   einige   alte,  aber  dennoch  halbwegs  funktionstüchtigaussehende  Waffen  an  den  Wänden,  und hier steht auch noch ein alter Amboß,auf  dem  der  Schmiedehammer  im Laufe der Jahre festgerostet ist. Der einzigeWeg,  die  Schmiede  wieder  zu  verlassen,  führt  nach  Süden,  zurück in denSpeisesaal der Mönche.
+
+## 198
+
+Du  betrittst  das  Grabgewölbe  des  Königs. Kaum ein Lichtstrahl fälltdurch  die  kleine, vergitterte Luke in der Westwand. Direkt im Zentrumder  Gruft  steht  der  mächtige  Sarkophag  des Königs, geschmückt mitSzenen  aus  seinem glor- und tatenreichen Leben... Der einzige Ausgangaus  diesem  dunklen  und  gruseligen  Raum führt durch die Tür in der Südwand,zurück auf den mondbeschienenen Friedhof...
+
+## 199
+
+Du  stehst  in  einer kleinen, jedoch im Gegensatz zum Rest des Klostersnoch   recht   gut   erhaltenen   Kapelle.   Die  kühle  Luft  und  deraufdringliche  Geruch  von  Weihrauch, der merkwürdigerweise immer nochnicht  vollständig  verzogen ist, lassen Dich ehrfürchtig erschauern...An  der  Stirnseite  des  Raumes befindet sich ein riesiger Steinaltar, währendzwei  Weihwasserbecken  zu  Deiner  Linken  und  Rechten  stehen.  Im dämmrigenHalbdunkel  der  Kapelle  kannst  Du  mühsam ein paar Steinstufen erkennen, dieneben  dem  Beichtstuhl  hinunter in eine kleine Krypta führen... Die große Türim  Süden  führt Dich zurück auf den Friedhof, während Du über die Stufen hinabin die Dunkelheit steigen kannst...
+
+## 200
+
+Dies  scheint  Mylgors  Schlafgemach  zu  sein.  Es ist wirklich der beiweitem  am  geschmackvollsten  eingerichtete  Raum  in diesem Haus: Einreich  verziertes  Bett  steht  an  der  Nordwand,  daneben ein kleinerNachttisch.  An  den  Wänden  kannst Du einige kostbare, alte Ölgemäldeerkennen.  Der  einzige  Ausgang führt durch die Tür in der Ostwand, zurück aufden Korridor...
+
+## 201
+
+Du  gelangst  auf einen kurzen Flur, der lediglich von einigen loderndenFackeln  erhellt  wird, die an den schwarz getünchten Wänden angebrachtsind.  In  der Nordwand befindet sich eine massive, mit "Laboratorium -Zutritt  verboten!"  beschriftete  Stahltür. Ein paar Steigeisen führenwieder  nach  oben,  zurück  in  Mylgors  Kaminzimmer.  Du  kannst nun entwederversuchen,  das  Labor  hinter  der  nördlichen Wand oder den Raum im Westen zubetreten.   Natürlich  steht  es  Dir  aber  ebenso  frei,  die  Steigeisen  zuerklimmen   und   so   wieder   in   das   Kaminzimmer  über  Mylgors  geheimemSchlupfwinkel zu gelangen...
+
+## 202
+
+Wie  das  Schild  an  der  Tür  bereits andeutete, ist dies hier MylgorsGeheimlabor:  Es  ist geradezu überfüllt mit Reagenzgläsern, Kolben undMeßbechern,  gefüllt  mit  allerlei  mysterösen  Flüssigkeiten,  die inallen  erdenklichen  Farben  vor  sich  hinbrodeln.  Du mußt Dich schonsehr  konzentrieren,  um  Dich  nicht  durch  diese  plötzliche  Schwemme neuerEindrücke  verwirren  zu  lassen  -  doch  dann  siehst  Du  ihn:  MYLGOR,  denbösartigen  Alchemisten,  den  Vasallen des großen Bösen, dessen Namen Du nichteinmal   in  Gedanken  auszusprechen  wagst!  Als  sich  Eure  Blicke  treffen,verzieht  sich  sein  Gesicht zu einer hämischen Grimasse: Langsam kommt er aufDich  zu,  zeigt  Dir  eine  riesige  Pferdespritze,  die  er  gerade mit einemgrünlichen,  blubbernden  Gift  aufgezogen  hat,  und  schnarrt: "Du hast meineBefehle  nicht  befolgt,  mein  Guter,  oder...?"  Hastig  siehst  Du Dich nachmöglichen  Fluchtwegen  um,  kannst jedoch außer der riesigen Stahltür im Südennichts entdecken...!
+
+## 203
+
+Nachdem  Du  die  Steinstufen  hinabgestiegen  bist, gelangst Du in einekleine  Krypta,  die  unter  der  kleinen Klosterkapelle versteckt lag.Die  stickige  Luft  raubt  Dir  beinahe den Atem... Nachdem sich DeineAugen  jedoch  halbwegs  an  die  spärliche  Beleuchtung gewöhnt haben,kannst  Du  auf  dem  Boden,  eingelassen  in  die  groben  Steinplatten,  eineriesige, verwitterte Grabplatte erkennen...
+
+## 204
+
+Als  der  Orkvater  seinen  kleinen  Sohn vegnügt hinter Dir die Höhle betretensieht,  verwandelt  sich  sein  anfänglich  feindseliger Blick plötzlich in einbreites  Grinsen.  "Oho! Sieht ja ganz danach aus, als bekämen wir heute Besuchzum  Essen!",  sagt  er,  und  Du zuckst unwillkürlich zusammen - doch er fährtunbeirrt  in  seiner rauhbauzigen Art fort, ohne sich der Zweideutigkeit seinerWorte  überhaupt  erst  richtig  bewußt  zu  werden:  "Naja:  Wenn mein Weib estatsächlich  noch  schaffen  sollte,  die  Echse  zu  grillen,  bevor  wir alleverhungert  sind,  kannst Du ja mit uns zu Mittag essen. Setz' Dich einfach hin-  es  ist  genug  für uns alle da!" Mit sehr gemischten Gefühlen setzt Du Dichauf  einen  der kleinen Schemel, wobei Du Dich jedoch krampfhaft bemühst, nichtzu dem Tier über der Feuerstelle zu blicken...
+
+## 205
+
+Während  Ihr  auf  Euer  Mittagessen  wartet,  schauen  Du und der Orkvater demkleinen  Kind  zu,  das  in  der Ecke der Höhle sitzt und überglücklich mit derKristallkugel  spielt,  die  Du  ihm  geschenkt hast. Plötzlich rutscht sie ihmdurch  die  Finger!  Sofort  springt  der  Kleine  hinterher  und  verfolgt siefröhlich  quiekend  und  krakeelend  durch die ganze Höhle - bis er sie endlichmit  einem  todesmutigen Hechtsprung kurz vor dem Kamin zu fassen bekommt! Dochim  selben  Moment,  als  sich  die  Finger  des Jungen um die Kugel schließen,gerät  er  direkt zwischen die Beine seiner Mutter, die gerade den Tisch deckenwollte,  so  daß sie über ihr Kind stolpert und das gesamte Geschirr auf seinenRücken   scheppern  läßt!  Inmitten  eines  riesigen  Scherbenhaufens  sitzend,beginnt   der   kleine   Ork  lauthals  loszubrüllen,  und  auf  einen  kurzen,befehlenden  Blick  des  Vaters  hin  tritt  die  Mutter  auf ihren Sohn zu undverpaßt  ihm  zu  allem  Überfluß  noch  eine  deftige linke Gerade. Das hilft:Verdutzt  hört  das Orkkind auf zu schreien und blickt verlegen in die Runde...Einen  kurzen  Moment  lang  blickt  die gesamte Orkfamilie ärgerlich auf ihrenSohn  hinab,  der  sich  mit  unglücklicher  Miene die letzten Scherben aus demPelz zupft, und ist erst einmal völlig von Dir abgelenkt...
+
+## 206
+
+Nachdem  Du  die  Dienerkammer  betreten  hast,  steckt Mylgor noch einmal kurzseinen  Kopf  durch den Türspalt, wünscht Dir eine angenehme Nachtruhe, verläßtden Raum - und schließt die Tür hinter sich ab!
+
+## 207
+
+Als   Du  den  Vertrag  sowie  das  Messer  an  den  Mann  zurückgegeben  hast,verschwindet  sein  Gesicht  kurz  hinter der Luke. Nach wenigen Sekunden hörstDu,  wie  von  innen  die Tür aufgeschlossen wird. "Tritt ein!", sagt der Mann,als  er  Dir die Tür öffnet, und führt Dich in ein kleines, aber sehr gemütlicheingerichtetes  Kaminzimmer.  Er  stellt  sich  als "Mylgor, Alchemist" vor undzeigt  Dir  auch  gleich  den  Raum, in dem Du die Nacht verbringen sollst. AufDeine  Frage  hin,  wo  er  denn  schlafen  wolle,  wenn  nicht  dort, lacht erherzlich  und  sagt:  "Meinst  Du  denn  wirklich,  daß diese kleine Hütte großgenug  zum  Leben  für  einen  Wissenschaftler  wie  mich ist? Nein, aber nichtdoch:  Dies  ist  bloß der Raum, in dem mein Diener gewöhnlich schläft, der zurZeit  aber  gerade  im Nachbardorf ein paar Besorgungen für mich erledigt. MeinLabor  und  die  anderen  Räume  befinden  sich...  - sind versteckt! Es spieltkeine  Rolle,  wo..."  Nervös  streichelt  sich  Mylgor  über  seinen Kinnbart,zwingt  sich  dann  jedoch  wieder  zu seinem eigentümlichen Lächeln. "Aber ichdachte  eigentlich,  wir  wollten über Dich reden - nicht über mich...?", meinter  und  nickt  mit  dem  Kopf  in  Richtung  Kaminzimmer,  "Laß  uns  noch einStündchen  am  warmen  Kamin  plaudern,  und ich werde Dir vielleicht ein wenigüber  die  Geschichte  unseres  Dorfes erzählen. Aber gib mir erst einmal Deinenassen  Sachen  -  Du  könntest Dir ja sonst glatt den Tod holen...!" Mit einemsehr   flauen  Gefühl  im  Magen  entkleidest  Du  Dich,  wobei  Du  den  altenAlchemisten  jedoch  genauestens  im  Auge behältst: Wer weiß, was das für eineGefälligkeit  sein  wird,  die  Du dem alten Mann erweisen sollst? War da nichtgerade  so  ein  gieriges  Funkeln in seinen Augen zu erkennen? Vorsichtshalberlugst  Du  zur  Tür  Deiner  Kammer:  Gott sei Dank! Sie läßt sich abschließen!Verlegen  und  unsicher reichst Du Mylgor Deine klamme Badehose, doch alles waser tut, ist, sie zum Trocknen an den Kamin zu legen...
+
+## 208
+
+Als  Du  wieder das Kaminzimmer betrittst, wunderst Du Dich, weshalb Mylgor dieTür  eigentlich  nicht  verschlossen  hat.  Irgendetwas  in diesem Haus scheintnicht  in  Ordnung  zu  sein  - ganz und gar nicht in Ordnung... Du fragst Dichebenfalls,  warum  Mylgor  nicht  anwesend ist, um Dich zu begrüßen: Vielleichtist  dies  bloß eine Falle, weil er gemerkt hat, daß Du Dein Versprechen, Fironzu  beseitigen,  nicht  gehalten hast? Oder haben König Richard und sein BruderDir  vielleicht  doch  nicht  die  volle  Wahrheit  gesagt und Mylgor umbringenlassen,  bevor  Du  sie  durchschauen  und  Deinen  Fehler,  Firon  am Leben zulassen,    wiedergutmachen    könntest?   Dir   kommen   starke   Zweifel   undGewissensbisse,  als  Du  Dir  vor  Augen  hältst,  daß  durch Dein Verschuldenvielleicht ein unschuldiger Mensch sterben mußte...
+
+## 209
+
+In  der  Mitte  der  Lichtung  spielt ein kleiner Orkjunge "Ameisenbomber", einunter  den  Orks  sehr  beliebtes Jagdspiel. Er scheint so um die achtzig Jahrealt  zu  sein  und  noch  nicht  vollständig ausgewachsen - aber warte noch einpaar  Jahrhunderte,  und  er  wird Dich mühelos mit der linken Hand erwürgen...Ein  paar  Augenblicke  lang  schaust  Du  dem  Kind bei seinem Spiel zu: Seinerechte  Hand  schwebt  hoch  in der Luft über einem Ameisenloch, während es mitder  Linken  die  auf  dem  Boden  herumkrabbelnden Waldameisen in Richtung desLoches  scheucht.  Jedesmal,  wenn  eine  Ameise  versucht,  in  ihren  Bau  zuschlüpfen,  läßt  der  Kleine  einen  Kiesel auf sie fallen! Viel Glück scheintder  junge  Ork  bei  dieser  Partie  bisher jedoch noch nicht gehabt zu haben,bemerkst  Du  beruhigt,  als  er  angesichts  einer Ameise, die er kurz vor demLoch  verfehlt  hat,  zerknirscht  knurrt:  "Okay,  23 : 4 für Euch! Aber jetztgeht's  rund,  Leute!"  Irgendwann  hast  Du  genug  davon,  dem Ork bei seinensadistischen  Machenschaften  zuzusehen,  und  trittst  auf ihn zu. Als er Dichbemerkt,  reicht  der  Kleine  Dir  ein  paar  Kiesel: "Hier! Laß uns ein Matchmachen:  Ich  setze  zwei Goldstücke!" Ohne auf sein Angebot einzugehen, nimmstDu  dem  Jungen  die  Kiesel  aus  der  Hand  und  wirfst sie mit Nachdruck insGebüsch.  Der  Ork  scheint zu verstehen, zieht eine Schnute und murmelt: "Danneben nicht..."
+
+## 210
+
+Nachdem   sie   Dich   zu   Deinem   Reiseziel   gebracht   haben,  machen  dieSchlittendachse  schnell  kehrt  und  verschwinden wieder in der Eiswüste. EineWeile siehst Du ihnen nach - dann bist Du wieder allein...
+
+## 211
+
+Während  Deiner  langen  Reise durch die Eiswüste ist Dir leider das Wolfsrudelentgangen,  das  die  ganze  Zeit  lang der Spur Deines Schlittens gefolgt ist!Nun,  als  Du  den  Schlitten  anhältst,  um  Deinen  Hunden  ein  paar MinutenErholung  zu  gönnen,  fangen  die  Wölfe  an,  Euch zu umzingeln! Nach einigenSekunden   beginnt  der  größte  und  stärkste  Wolf,  ein  riesiges  Tier  mitschmutzig-grauem  Fell,  laut  zu  heulen  -  und ein schauriges Geheul wie austausend  Kehlen  fällt  mit ein! Diese Bestien scheinen seit Wochen nichts mehrzu  fressen  bekommen  zu  haben:  Ohne  jede  Vorwarnung  greifen  sie  DeinenSchlitten  an!  Zu lange sind Deine Schlittenhunde schon gelaufen, zu sehr hastDu  sie  angetrieben,  als  daß  sie  noch  wirkungsvollen  Widerstand  leistenkönnten:  Hilflos  mußt  Du mit ansehen, wie sie zu einer widerlichen, blutigenMasse  zerfleischt  werden...  Nachdem  sie  die  Eingeweide  aus  den  noch imTodeskrampf   zuckenden   Hunden   herausgerissen   haben,   verschwindet   dasWolfsrudel genauso schnell wieder, wie es gekommen ist...
+
+## 212
+
+Himmel!  Es  ist  wohl  schon  zu  spät, um noch an Flucht zu denken: Starr vorEntsetzen  mußt  Du  zusehen,  wie sich hinter einem verwitterten Grabstein einriesiger,  schwarzer  Schatten  erhebt  - nur einige Meter neben Dir! Zu keinerBewegung  fähig,  mußt Du mit ansehen, wie er lautlos größer und größer wird...Plötzlich  reißt  die  Wolkendecke,  die  den  Vollmond für kurze Zeit verdeckthatte,  auseinander  - und Du schreist in panischer Todesangst auf: Dein Gegnerist  ein  riesiger,  grauer  Werwolf,  der  siegesgewiß  seine scharfen, gelbenZähne  bleckt!  Heiser  fauchend  und mit ausgestreckten Armen setzt er sich inBewegung  -  Schritt  für  Schritt,  denn er kennt keine Eile... Doch plötzlichbleibt  er  stehen! Für Bruchteile von Sekunden treffen sich Eure Blicke und Duspürst die Mordlust und den abgrundtiefen Haß, die in seinen Augen lodern...
+
+## 213
+
+Also,  ich  an  Deiner  Stelle  würde  mich  langsam  mal beeilen, einen Weg zufinden,  dem  wahnsinnigen,  alten Alchemisten Einhalt zu gebieten, bevor es zuspät ist! Es trennen Euch nur noch wenige Meter...
+
+## 214
+
+A.C.A  breaking  in  for  a chat: "Dies ist unsere ALLERLETZTE Warnung: Schick'Mylgor endlich zur Hölle - langsam gehen uns die Texte aus!" A.C.A chat end.
+
+## 215
+
+Als   Du   gerade  die  Steigeisen  erklimmen  willst,  um  wieder  in  MylgorsKaminzimmer  hinaufzuklettern,  hörst  Du, wie hinter Dir die Labortür geöffnetwird,   und   siehst  Mylgor  herauskommen,  wie  wild  mit  der  Pferdespritzeherumfuchtelnd!   Vielen   Dank:  Du  botest  ihm  gerade  genau  die  richtigePosition,  um  seinen  "Schuß"  zu plazieren - obwohl die Injektion, die er Dirverpaßt, wirklich alles andere als heilsam ist...
+
+## 216
+
+Tja,  also  ich  glaube,  Du  hast etwas zu lange gezögert: Hysterisch wieherndpackt  Mylgor  Deinen  rechten Arm, sticht die Injektionsnadel in eine Vene und"drückt  ab",  indem  er  mit  der  rechten  Handfläche einmal brutal gegen denKolben   schlägt!   "Wenigstens   die  Luftblasen  hätte  er  vorher  entfernenkönnen..."  ist  der  letzte halbwegs klare Gedanke, den zu fassen Du unter demEinfluß  des  Giftes  noch  in  der  Lage  bist... Mit einem letzten ersticktenRöcheln  brichst  Du zusammen und stirbst einen langsamen, schmerzvollen Tod...Sorry, aber das mußte jetzt wirklich mal sein...
+
+## 217
+
+Hmmm...:  War  wohl irgendwie nicht so toll, Dein Plan: Die Druckwelle, die vonder  Explosion  der  Reagenzien  in Mylgors Labor verursacht wurde, sprengt diemassive  Labortür  auf  und  läßt  die  gesamte Hütte über Dir zusammenbrechen!Ziemlich  blöder  Fehler,  Mann!  Vielleicht  sicherst Du die Tür beim nächstenMal  einfach  mal  besser  ab...?  Aber  unter  Umständen  tröstet  Dich ja dieTatsache,  daß  Mylgor "noch viel toter" ist als Du: DEIN Körper kann zumindestnoch  begraben  werden  -  Mylgors  Überreste  hingegen  müßte man erst von denWänden abkratzen...
+
+## 218
+
+Würde  ich  ja  nur  zu  gern,  wenn ich könnte - aber da steht uns leider einemagische Wand im Weg! So ein Ärger aber auch, was?
+
+## 219
+
+Nun denk' doch mal nach! Wer würde nachts schon seine Tür offenstehen lassen?
+
+## 220
+
+Leider  kann  ich  keinen  Weg  durch die dicken Büsche und das dichte Gestrüppfinden  -  aber  vielleicht  könnten  wir ja einen Ortskundigen finden, der unshindurchführt?
+
+## 221
+
+Eine  starke und unsagbar böse Aura hält Dich von dem verfluchten Waldabschnittim Norden fern...
+
+## 222
+
+Dir  wird  etwas  flau  im Magen, als Du die magische Barriere durchschreitest,aber  Mylgors  Amulett schützt Dich vor ihrer zerstörerischen Kraft: Sicher undunversehrt betrittst Du also den verfluchten Teil des Waldes...
+
+## 223
+
+Merkwürdig:  Der  Weg, von dem aus Du diesen Teil des Waldes betreten hast, istnicht  mehr  zu  erkennen! Dickes, dorniges Gestrüpp versperrt Dir den Weg, alsob niemals etwas anderes dort gewesen wäre...
+
+## 224
+
+Eis  und Schnee soweit das Auge reicht - willst Du die Eiswüste wirklich zu Fußdurchqueren? Das kann doch wohl nicht Dein Ernst sein, oder?
+
+## 225
+
+Vorsichtig  balancierst Du auf dem dicken Baumstamm: Zwei, drei Mal rutschst Duab,  fängst  Dich  jedoch  im  letzten Augenblick wieder, bevor Du in die Tiefefallen  kannst!  Hättest  Du  Deine  Stiefel  nicht  mit  dem  klebrigen  Honigpräpariert,  wäre  es  wahrscheinlich  nicht so glimpflich verlaufen: Zitternd,aber  unversehrt,  erreichst  Du das andere Ende des Baumstamms und springst ab- froh, wieder festen Boden unter den Füßen zu haben...
+
+## 226
+
+Du  versuchst,  auf  dem dicken Baumstamm zu balancieren, aber auf halbem Wege,genau  über  dem tiefen Abgrund, rutschst Du ab und fällst... und fällst... undfäll...  MAAATSCH!  Daß  Du  es  aber  auch  immer gleich übertreiben mußt! Derganze  Fluß  war  frei  - mußtest Du Dir denn unbedingt den einzigen Felsen fürDeine  Landung  aussuchen?  Na okay, das war's dann wohl mal wieder. Eigentlichschade,  daß  wir  uns  entschieden  haben, doch keine Geräuscheffekte in dieseVersion  zu  integrieren,  denn  Dein  langgezogener  Schrei  sowie  der dumpfeAufprall  in  dem  ca.  zweihundert  Meter  tiefer gelegenen Tal waren wirklichhörenswert!  Aber  es  hätte  die Produktionskosten in schwindelerregende Höhengetrieben,  Freiwillige  zu  finden,  die  sich  zur Erzeugung dieser Geräuschebereit  erklärt  hätten...  Naja  gut, ich gebe zu: Wir HATTEN jemanden, der esgewagt  hat,  aber  dummerweise vergaß Chris den Sampler einzuschalten! Mit derWitwe prozessieren wir bis heute...
+
+## 227
+
+Unbemerkt  schleichst  Du  Dich  an  dem  Yeti vorbei in den Thronsaal - keinenMoment  zu  früh:  Kaum hast Du die Halle erreicht, werden aus dem Nichts DeineKonturen sichtbar...
+
+## 228
+
+Der  Yeti  macht  aber  ganz und gar nicht den Eindruck, als hätte er vor, Dichbei Deinem Vorhaben zu unterstützen...
+
+## 229
+
+Unvorsichtigerweise  öffnest  Du  noch  einmal  die Tür zu Mylgors Geheimlabor:Gnadenlos  schlägt  Dir die Feuersbrunst ins Gesicht und raubt Dir den Atem! Duschaust  Dich  um,  um  Dich zu vergewissern, daß Mylgor auch wirklich tot ist,kannst  ihn  aber  nirgendwo  entdecken! "Okay!", sagst Du Dir selbstzufrieden,"Sieht  ganz  so  aus,  als  hätte  ich  ganze  Arbeit geleistet! Friede seinerAsche!",  und  willst  das  Labor  gerade  wieder  verlassen, als sich eine vonBrandwunden  fürchterlich  entstellte Hand um Dein Fußgelenk schließt - MYLGORSHAND!  Der  wahnsinnige  Alchemist  hat  es  noch geschafft, sich kurz bevor Dueintratst  zur  Tür zu schleppen! Unter hysterischem Gelächter reißt er Dich zuBoden,  springt  schneller  auf,  als Du es ihm jemals zugetraut hättest, renntaus  dem  Labor  und  wirft die Tür hinter sich ins Schloß! In Deinem panischenVersuch,  den  Flammen  zu  entkommen,  stößt  Du unvorsichtigerweise gegen einkleines  Tischchen,  auf  dem  verschiedene  Chemikalienbehälter stehen - einervon  ihnen  mit der Aufschrift "N-I-T-R-O - NICHT RAUCHEN!" Daß man Nitro nichtrauchen  kann,  bedauerst Du zwar außerordentlich, aber was Dich im Moment vielmehr  beunruhigt  ist der Gedanke, der Dir kommt, als Du das Fläschchen kippelnund   umfallen   siehst  -  denn:  Nitroglyzerin  ist  explosiv!  Ein  wirklichberuhigendes Gefühl, nicht ganz unwissend aus dieser Welt zu scheiden...
+
+## 230
+
+Hastig  wirfst Du die Labortür ins Schloß! Durch die exothermischen Reaktionen,die  im  Labor stattfinden, und die daraus resultierende extreme Hitze verziehtsich  die  Stahltür sofort in ihrem Rahmen, so daß menschliche Kraft wohl nichtmehr ausreichen dürfte, sie wieder zu öffnen...
+
+## 231
+
+Erwartungsvoll  gräbst  Du  den harten Boden auf - genau an der Stelle, die DirBruder  Jack  genannt  hat.  Nach wenigen Spatenstichen stößt Du auch schon aufetwas  Hartes...:  Mit  zitternden  Fingern greifst Du vorsichtig in das Loch -und ziehst einen grinsenden, vergilbten Totenschädel daraus hervor!
+
+## 232
+
+Dieser  Altar  ist den A.C.A-Programmierern geweiht! Ich an Deiner Stelle würdemich  hüten,  ihren  heiligen  Zorn  zu erregen, denn die großen Götter könntenDeine  sterblichen  Disketten  mit dem heiligen A.C.A-Virus (auch "Soul CrystalII" genannt) infizieren...
+
+## 233
+
+Freundlich   lächelnd   gehst  Du  auf  das  Kind  zu,  das  Dich  aus  großen,erwartungsvollen  Augen  anblickt.  Ein paar Meter vor ihm verwandelt sich DeinLächeln  jedoch  in  ein  boshaftes  Grinsen:  Mit hämischem Gelächter legst DuDeine  Hände  um  seine  Kehle  und  drückst  zu!  "Das ist für die Ameisen, DuSchwein!",  stößt  Du  verbissen  zwischen  Deinen Zähnen hervor, als das arme,kleine  Ding  seine  letzten Worte krächtzt, als ob es Dich noch nach dem Grundfür  Dein  feindseliges  Betragen fragen wollte. Schließlich sinkt es mit einemletzten  anklagenden  Blick  in  seinen Augen zu Boden und haucht sein Leben zuDeinen Füßen aus (..."Say Live And Let Die"!)...
+
+## 234
+
+Der  alte Elfenkönig schien bereits auf Dein Vorhaben gefaßt zu sein: Ruhig undohne  zu  klagen  geht  er  in  den  Tod - und verschwindet in einer hellblauenRauchwolke...
+
+## 235
+
+Also,  mal  immer  ganz  locker  bleiben! Hast Du schon einmal einen LEBENDIGENGeist  gesehen?  Naja,  ich  gebe  zu,  daß man umgekehrt natürlich auch fragenkönnte,  ob  Du  schon  einmal  einen TOTEN Geist zu Gesicht bekommen hast! Undüberhaupt: Wer glaubt schon an Geister...?
+
+## 236
+
+Du  versuchst,  Mylgors  Nase zu fassen zu bekommen, um ihn zu zwingen, endlichdie  Tür  zu  öffnen,  auf daß Du ihn leichter meucheln könntest, aber der Kerlbesitzt  tatsächlich  die  ungeheuerliche  Dreistigkeit,  Dir zeigen zu wollen,daß   er   mit   Deinem   Vorhaben  nicht  so  ganz  einverstanden  ist  -  undunglücklicherweise  ist  er  etwas  schneller  als  Du!  Bevor Du ihn berührst,duckt  er  sich, und Deine Hände schießen ins Leere! Aber im selben Augenblick,als  sie  im  Raum  auftauchen,  packt  Mylgor  sie  und  bricht  Dir  über denLukenrahmen  beide  Arme!  Du  brüllst  vor  Schmerz, aber Dein Gegner ist nochnicht  fertig  mit  Dir:  Mit geradezu übermenschlicher Kraft zieht Mylgor Dichnach  und  nach  durch  die  Luke - zwar nicht ganz vollständig, aber was nichtdurchpaßt,  muß  halt  draußen  bleiben!  Und  das  ist  bei  einer ca. 20 X 20Zentimeter  großen  Luke  ziemlich  viel!  Nun weißt Du auch endlich, wie einerKartoffel  zumute  sein  muß,  die  zu  Pommes  Frites  verarbeitet wird - eineFrage,  die  Dich  seit  Urzeiten  bewegt  hat:  Man  fühlt  sich eben ziemlich"gesiebt"  -  aber  das ist dann auch schon die letzte Erkenntnis, die sich Dirin  diesem  Leben  noch  offenbart - denn ein Kopf, der als ein Haufen aus Blutund  gebrochenen  Knochen  den  Boden  vor einer Haustür ziert, ist schließlichnicht mehr in der Lage, noch an irgendetwas zu denken, oder?
+
+## 237
+
+In  Deiner  Verzweiflung  reißt  Du  an  einem  der  massiven Holzregale, um eszwischen  Dich  und  Mylgor  zu schieben - aber es ist leichter als Du erwartethattest:  Ein  kurzer Ruck, und es kippt mitsamt seinem Inhalt um! "Au Scheiße:Arnold!",  denkst  Du  Dir,  völlig verwundert über Deine plötzliche Kraft, alsdas   Regal  krachend  auf  dem  Boden  aufschlägt  und  sich  der  Inhalt  derverschiedenen  Reagenzien  auf die Fliesen ergießt. Als sich zwei Flüssigkeitenvermischen,  steigen  dicke,  ätzende Rauchwolken auf, die bald den ganzen Raumerfüllen  und  es  Euch  nahezu  unmöglich  machen, einander auch nur zu sehen!Eine  laute  Explosion  haut  Mylgor  aus den Socken und wirft ihn brutal gegendie  gegenüberliegende  Wand,  und plötzlich züngeln auf dem Boden Flammen auf,die  sich  bald ausbreiten und den Raum in ein riesiges Flammenmeer verwandeln!Heißer  Einfall,  Mann!  Aber jetzt laß' uns hier besser verschwinden, bevor esZU heiß wird...!
+
+## 238
+
+Mehr  instinktiv  als beabsichtigt wirbelst Du herum und schlägst nach dem KopfDeines  Gegners  -  aber  entweder  ist er schmerzunempfindlich oder er besitzteine   sehr  ausgeprägte  masochistische  Ader:  Statt  sich  zu  trollen  oderzumindest  mal  brav  "Aua"  zu  sagen, attackiert er Dich nur umso wilder! Daswar  wohl  nix:  Das  letzte,  was Du in diesem Leben zu Gesicht bekommst, sinddie  Zähne  einer  grausig  entstellten Wolsschnauze, die sich Deinem Brustkorbwie  in  Zeitlupe  nähern...  Tja,  Du bist mal wieder tot! Wenn Du tatsächlicheinen  längeren  Kommentar über die Art und Weise Deines plötzlichen, wenn auchzu  erwartenden  Ablebens  lesen  möchtest,  dann  versuch'  den  Werwolf  beimnächsten Mal doch einfach mal mit etwas anderem zu töten...
+
+## 239
+
+Auf  Deiner panischen Flucht über den Friedhof stolperst Du unglücklicherweise:Die  kalte,  modrige  Hand  eines  Ghouls,  den  Du  durch  Dein  Geschrei beimAbendessen  gestört  hast, ist aus einem Grab geschossen und umklammert nun wieein  Schraubstock  Dein  Fußgelenk! "Komm', Herr Jesus, und sei unser Gast...",denkst  Du  Dir  noch,  als Du feststellst, daß sich der Leichenfresser bereitsan  Deinen  anscheinend  recht  delikaten Waden zu schaffen macht, während Du -ohne  die  geringste  Chance davonzukommen - zusehen mußt, wie der Werfolf sichDir mit langsamen, stampfenden Schritten nähert...
+
+## 240
+
+Bevor  Dein untoter Gegner Gelegenheit zum Angriff bekommt, fichst Du mit einergewandten  Bewegung  gegen seine Brust! Kurz bevor Deine Klinge jedoch ihr Zielfindet,  läßt  Du  sie  überraschend  nach  oben,  gegen  den  Hals der Bestie,schwingen,  wo  sie  eine  klaffende,  rauchende Wunde hinterläßt, ohne daß derWerwolf   auch   nur   die  geringste  Chance  gehabt  hätte,  Deinen  wahrhaftmörderisch  guten  Hieb  abzuwehren! Die untote Kreatur sinkt, schwer verwundetdurch  Deine  geweihte  Waffe,  mit  einem  ungläubigen Blick in ihren Augen zuBoden  und  haucht  ihr  "Leben"  aus.  "K.O. wegen vorzeitigen Ablebens in derersten  Runde!"  -  selbstzufrieden  steckst  Du  Dein  Schwert  zurück  in dieScheide  und  pustest  Dir über die Fingernägel, als Dir der Gedanke kommt, daßdies  auch  eine  Finte  sein  könnte:  Vorsichtig,  und  mit  einer  Hand  denSchwertgriff  fest  umklammernd,  kniest Du neben dem Wolfskörper nieder, um zusehen,  ob  Dein  Gegner  wirklich  tot  ist...  Deine  Sorge  war unbegründet:Dampfendes,  grünliches  Blut  rinnt aus einer langen, weit aufklaffenden Wundeaus  seiner  Kehle. Etwas anderes, was Du allerdings auch sehen mußt, ist etwasrotes  Blut,  das  an  einer der Wolfsklauen klebt - und als Du Dich, von bösenVorahnungen   geplagt,   untersuchst,  kannst  Du  eine  kleine,  aber  dennochziemlich  tiefe  Wunde  an  Deinem linken Bein erkennen, die der Wolf wohl nochim  Fallen  gerissen  haben  muß,  und  aus  der  nun  -  GRÜNES  Blut sickert!SCHEISSE!  Jetzt,  wo  Du  sie  bemerkt  hast,  beginnt  die  Wunde höllisch zubrennen:  Die  Infektion hat begonnen, und es wird nur noch eine Frage der Zeitsein,  bis  auch  Du  beginnst,  bei  Vollmond zur Bestie zu werden! Während DuDich  resignierend  auf  einem  der umgefallenen Grabsteine niederläßt, um überDein  ungewisses  Schicksal  nachzusinnen,  verwandelt  sich der der Körper desWolfes  in  den  verwesenden  Leichnam  einer  einst wohl einmal wunderschönen,jungen  Frau,  die  dankbar  zu  Dir  aufzublicken scheint! Als Du sie berührenwillst - zerfällt sie zu Staub...
+
+## 241
+
+Der  Altar  ist den A.C.A-Göttern geweiht und stellt Szenen aus "Soul Crystals"Entwicklungszeit  dar:  Während  Du  staunend  um  den  Steinaltar  herumgehst,kannst  Du  Chris  vor  seinem  AMIGA  beim  Schreiben  der  Spieltexte  sehen,vollgepumpt  mit  Barrels  von  Kaffee,  tausenden  von  Zigaretten und ChopinsTrauermarsch  vor  sich  herpfeifend,  bis  Kai,  die  arme,  geplagte Seele esendlich    fertigbringt,   einen   hochintelligenten   (und   langen!)   Parserfertigzustellen,  der  hinterher die Welt in hehres Entzücken versetzen wird...Du  denkst  an  diese  armen Schweine und daß jemand, der es geschafft hat, einsolch  riesiges  Programm  fertigzustellen,  doch  eine  ganze Menge Geld damitverdient  haben  muß. Naja, ich hoffe doch, daß Du recht haben wirst - aber biszum Irrenhaus ist es mittlerweile auch nicht mehr so weit...
+
+## 242
+
+Der  größte  der  Schlittendachse,  offenbar der "Dachs-Boss", salutiert: "AlleDachse  ready  for  Take-Off!  Mach'  hin  -  wir haben auch nicht unser ganzesLeben   lang   Zeit,   auf   Deine   Befehle   zu  warten!  Wären  wir  in  derChauffeurgewerkschaft,  würden  wir  wahrscheinlich gerade mal wieder streiken,Mann!  Also,  los:  Wohin  geht's?",  antwortet er auf Deinen zweifelnden Blickhin und justiert das Taxameter.
+
+## 243
+
+Ziemlich primitiv - aber bevor Du auf dem Boden schläfst...?
+
+## 244
+
+Du  wühlst  in  Mylgors  Bettzeug  herum,  bis  Du  etwas  unter Mylgors Kissenfindest: Ein merkwürdiges, etwa handtellergroßes Amulett!
+
+## 245
+
+Also,  nun  hör  mal:  Was  meinst  Du  eigentlich,  wer  ich bin? Erwartest Duwirklich,  daß  ich  einen  Bienenstock  durchwühle? Vielleicht weißt Du nicht,daß  ein  Bienenstock  normalerweise  von  BIENEN bewohnt ist - diesen kleinen,pelzigen  Flügelviechern  mit  den  langen STACHELN! Das wird "S-T-A-C-H-E-L-N"geschrieben!!!
+
+## 246
+
+Auf  ihrer  überstürzten  Flucht  haben  die  Bienen  ihren Honig im Bienenkorbzurückgelassen,  so  daß  sich noch eine ganze Menge des klebrigen Zeugs in ihmbefindet...
+
+## 247
+
+Es ist Dein eigenes Blut - Blutgruppe "A", und garantiert "Virus-Free".
+
+## 248
+
+Das  Kind  ist  ein  kleiner,  ungefähr  anderthalb  Meter  großer Orkjunge. Erscheint  nicht  die  geringste  Angst vor Dir zu haben, denn er schaut Dich ausfreundlichen und neugierigen Augen an.
+
+## 249
+
+Über  dem  Feuer  wird  gerade  eine  fette  und  schmackhafte  Echse  am Spießgebraten.  Du  verspürst  das  dringende  Bedürfnis  Dich  zu übergeben, als Dudaran denkst, daß Du hier zum Essen eingeladen bist...
+
+## 250
+
+Als  Du  den Kamin genauer untersuchst, bemerkst Du zu Deiner Verwunderung, daßkeinerlei  Rußspuren  auf  seinen  Innenwänden  zu finden sind - und als Du ihnberührst, hörst Du ein merkwürdiges, scharrendes Geräusch von unten...
+
+## 251
+
+Die  angelaufenen  Silbermünzen stellen das Portrait König Richards dar, wie Duaus dem Titel ersehen kannst, der unter dem Bild eingeprägt ist.
+
+## 252
+
+Der  Vertrag ist in einer für Dich unverständlichen Schrift verfaßt: Keines derfremdartigen  Schriftzeichen  sagt  Dir etwas - insbesondere das Kleingedruckteerscheint  Dir  völlig  unleserlich!  Dir kommen starke Zweifel, ob es wirklichein so gute Idee wäre, dieses Dokument zu unterschreiben...
+
+## 253
+
+Ein  höchst geschmackvoll verzierter, großer Studiertisch mit vielen Schubladenan seiner rechten Seite.
+
+## 254
+
+Naja,   der   Schlitten  ist  vielleicht  nicht  das  allerbeste  Modell,  abernichtsdestotrotz  seinen  geringen Preis wert. Wollen wir hoffen, daß er in derLage ist, uns sicher an den nördlichen Rand der Eiswüste zu bringen...
+
+## 255
+
+Die  Holztür  sieht  genauso aus wie die von all den anderen Häusern, die Du umden   kleinen  Marktplatz  herum  verteilt  siehst.  In  ihrem  oberen  Drittelbefindet  sich  eine  kleine,  ca.  20  X 20 Zentimeter große Holzluke, um neueBesucher genauer in Augenschein nehmen zu können...
+
+## 256
+
+Dies  ist die Tür, die Dich wieder nach draußen, auf den Marktplatz des kleinenDorfes, führt.
+
+## 257
+
+Hmmm...  -  merkwürdig!  Das  Schloß  scheint  mit einer Art Bann versiegelt zusein:   Als   sich  Deine  Hand  dem  Türschild  nähert,  wirst  Du  von  einermerkwürdigen,  völlig  fremden Kraft sanft zurückgedrängt. Ich schätze, nur derpassende Gegenspruch kann diesen Zauber wieder aufheben...
+
+## 258
+
+Ein  paar  ganz  normale  Schreibtischschubladen!  Öffnen  müßtest Du sie schonselbst - durch Wände schauen kann ich nämlich nicht!
+
+## 259
+
+Vorsichtig,  aber  gewissenhaft,  durchsuchst  Du  die  Schubladen  von MylgorsStudiertisch,  eine  nach  der  anderen: In den meisten befinden sich lediglicheinige  persönliche  Habseligkeiten  des  alten  Alchemisten.  Gerade willst Duauch  die  letzte Schublade schon wieder enttäuscht schließen, als Deine Fingerunter  einer  Menge Krimskrams auf etwas Hartes stoßen, das in rotseidenes Tucheingepackt  ist!  Als  Du  es  auspackst,  findest  Du  endlich  einen  kleinenSchlüssel!
+
+## 260
+
+Ja,  doch,  fürwahr: Wirklich ein ziemlich hübsches und attraktives Ding - wennman  das  Ganze  mal  aus  der  Perspektive eines brünftigen Orks zu beurteilenversucht!  Gierig  fährst  Du  Dir  mit  der  Zunge  über  die  Lefzen, bis Dirauffällt,  daß  der  Orkvater  Dich immer mißmutiger anblickt! Also vertagst DuDeinen  Flirt  und  beschließt,  der jungen Dame beim Abschied einen Zettel mitDeiner  Telefonnummer  zuzustecken... Mist! Was denn überhaupt für ein Telefon?Ach,  vergessen  wir's  einfach  wieder:  Immerhin hast Du hier zunächst einmalein  Abenteuer  zu  bestehen  -  also  tu es, bevor Du Dich schon wieder in einneues stürzt!
+
+## 261
+
+Der  alte König Firon ist ein alter, weiser Elf wie all die anderen Elfen, überdie  Du  schon  in  Märchen  und  Fantasystories  gelesen  hast: Er hat langes,schlohweißes  Haar,  das  ihm wallend um den Kopf weht, lange, spitze Ohren undkühle,   stahlblaue   Augen,   die  Dich  freundlich,  aber  gleichsam  trauriganblicken...
+
+## 262
+
+Das  Friedhofstor  könnte  auch  mal wieder ein paar Tröpfchen Öl vertragen: Esquietscht  fürchterlich!  Aber  vielleicht  soll  das  ja auch nur eine Warnungsein...?
+
+## 263
+
+Deine  Knie  werden  weich  wie  Pudding,  als  Du  Dir  die  Größe  des frischausgehobenen  Grabes  ansiehst:  Es  ist  wie maßgeschneidert für - DICH! Naja,spiel'  Du  mal  ruhig  so  weiter - dann werden wir bald Gelegenheit bekommen,diese Vermutung zu verifizieren...
+
+## 264
+
+Während  Du auf den neuen Grabstein blickst, erstarrst Du! Eiskalt läuft es Dirden  Rücken  herunter,  als  Du  liest:  "Dave Parker - May you rest in peace."Sogar  Dein  Geburtsdatum  ist  schon  eingraviert - und der Todestag wird wohlauch  bald  feststehen... MANN! Ich glaube, Du hast noch nicht so ganz kapiert,worum  es  hier  geht!  Laß'  uns hier lieber verschwinden, solange wir es nochkönnen!
+
+## 265
+
+In  dem  Erdloch  hat  jemand  vor  kurzem  eine  Notiz  verscharrt  -  aber sodilettantisch,  daß  es  wirklich jeder Idiot auf Anhieb sehen muß! Wenn ich daan  die  Wertarbeit  denke,  die  wir  damals  verrichtet  haben, als wir PapasSchwiegermutter im Gar... -aber lassen wir das...
+
+## 266
+
+Der Honig ist noch sehr frisch - und dementsprechend klebrig!
+
+## 267
+
+Dies  ist  Firons Eispalast: Du mußt Deine Augen gegen die Sonne abschirmen, umnicht  von  ihrem  extrem  grellen  Licht  geblendet  zu  werden,  das  von denPalastmauern  reflektiert  wird.  Der Bau selbst ist ungefähr zweihundert Meterhoch und glitzert geheimnisvoll im hellen Sonnenlicht.
+
+## 268
+
+Bruder  Jack  ist  nur  noch ein Schatten seiner selbst: Alles, was Du noch vonihm   erkennen   kannst,   ist  seine  lange,  graue  Mönchskutte,  die  seinenAstralleib  vollständig  einhüllt. Nicht einmal seine Hände oder Füße kannst Dusehen  -  es wirkt einfach so, als schwebte die Mönchskutte in der Luft sprächenur in Deiner Phantasie mit Dir...
+
+## 269
+
+König  Richard  sieht  wirklich  genauso  aus  wie der Mann, dessen Bild in dieSilbermünzen  eingeprägt  war,  die  Du in der Zwergenmine gefunden hattest: Erträgt  einen  langen,  samtenen Purpurmantel und eine prächtige, goldene Krone,aber  all  diese  Farben  sind  längst  verblichen und sehen auf geheimnisvolleWeise transparent aus - so als ob Du lediglich Halluzinationen hättest...
+
+## 270
+
+Ein  billiges,  kleines  Messerchen.  Nichtsdestotrotz  mußt  Du  Dich  in Achtnehmen,  als  Du  es  in  Deinen  Händen drehst: Es ist verflucht scharf - fastschon wie ein Skalpell!
+
+## 271
+
+Die  riesige  Stahltür  macht  einen  sehr  massiven  Eindruck - und da es sichimmerhin  um  die  Tür eines Labors handelt, wird sie sicherlich auch feuerfestsein.  Sie  ist  schätzungsweise  so  um die dreißig Zentimeter dick, so daß Duwohl  davon  ausgehen  kannst,  daß  niemand, der dort drinnen gefangengehaltenwürde, jemals eine Chance hätte, lebendig wieder herauszukommen...
+
+## 272
+
+Der  Orkvater  beobachtet Dich noch immer ziemlich mißtrauisch, da es wohl kaumetwas  Ungewöhnlicheres  gibt  als  eine  Freundschaft  zwischen  einem Ork undeinem menschlichen Wesen.
+
+## 273
+
+Die  Grabplatte  ist  einem gewissen Bruder Jack gewidmet, einem Klosterbruder,der  -  wenn  man  der Inschrift Glauben schenken darf - unter sehr mysteriösenUmständen  ums  Leben  gekommen sein soll! Die Inschrift bittet Dich weiterhin,ein Gebet für seine ruhelose Seele zu sprechen...
+
+## 274
+
+Der  Alchemist  Mylgor  ist  ein  hochgewachsener, ungefähr fünfzig Jahre alterMann.  Er  ist  in  den  für seine Zunft in üblichen türkisen Umhang gekleidet,der Dir den Eindruck von Weisheit und Erhabenheit vermittelt.
+
+## 275
+
+Dies  ist  ganz  einfach  die  hölzerne  Tür,  die  wieder  zurück  in  MylgorsKaminzimmer  führt.  Tut  mir  leid,  wenn ich Dir nicht mehr darüber berichtenkann,  aber  etwas  Langweiligeres  und  Primitiveres  als diese Kammer gibt eswohl im ganzen Spiel nicht...
+
+## 276
+
+Die  kleine  Phiole ist mit einem Zaubertrank gefüllt, der Dich für kurze Zeit,genauer:  einen  Zug  lang, unsichtbar macht. Geh' vorsichtig damit um - nicht,daß  Du  sie  im  falschen  Moment  anwendest  oder am Ende sogar das zierlicheFläschchen zerbrichst...
+
+## 277
+
+Du  willst  mir  doch  nicht  allen  Ernstes  erzählen  wollen,  daß  Du GebeteUNTERSUCHST! Du bist doch kein Theologe, oder?
+
+## 278
+
+Die  Reagenzien  leuchten  in allen nur vorstellbaren Farbtönen. Manche rauchenund  dampfen,  manche blubbern nur still in ihren Gläsern vor sich hin - anderehingegen  scheinen  bloß  eine  günstige Gelegenheit abzuwarten, EXPLODIEREN zukönnen...!  "Uiuiui!",  denkst Du Dir, "Wer hier drinsteckt, wenn der Laden malhochgeht, der ist wirklich alle Sorgen los!"
+
+## 279
+
+Der   Sarkophag   des  toten  Königs  ist  mit  Szenen  aus  seinem  glor-  undtatenreichen   Leben   verziert   -  eines  der  eingemeißelten  Bilder  stelltbeispielsweise  zwei  riesige  Heere  in  Schlachtordnung  dar: Eine der Armeenscheint  die  des  Königs  zu sein, während die andere aus einer völlig fremdenWelt zu kommen scheint, vielleicht sogar aus - DEINER...?
+
+## 280
+
+Ein  typischer, natürlich völlig überbeschäftigter Verkäufer - nichtsdestotrotzaber immer bereit, Dir den größten Mist aufzuschwatzen...
+
+## 281
+
+Das  geschmolzene  Silber,  das über dem Feuer brodelt, ist flüssig wie Wasser.Du  fragst  Dich,  wer sich heute noch um diese Mine kümmert, da sie sonst docheigentlich  einen  eher  verlassenen  Eindruck macht. Tja, wir wissen es leiderauch  nicht,  aber  was  wir  wissen  ist,  daß  Du dieses Silber noch dringendbenötigen wirst...
+
+## 282
+
+Mann,  sieht  der  tot  aus!  Eigentlich doch wohl äußerst ungewöhnlich für einGerippe  in  einem Fantasy-Adventure, nicht wahr? Allerdings: Ich nehme an, daßniemand,   dessen  Kopf  ebenfalls  vom  Rumpf  abgetrennt  worden  ist,  einengesünderen Eindruck machen würde...
+
+## 283
+
+Dieses  widerliche  Ding soll einmal der Schädel des Königs gewesen sein? Naja,äh: Wir werden ja schließlich alle mal älter...
+
+## 284
+
+Dies  ist  der  Zauberspruch,  den  Dich  König  Richard  gelehrt hat, damit DuMylgors verzauberte Tür öffnen kannst.
+
+## 285
+
+Die  Waffe  in  Deiner  Hand  ist  ein  ganz  gewöhnliches  Kurzschwert - etwasschartig  zwar,  aber  immerhin  noch  gut  genug  erhalten,  um  Dir  im Kampfwertvolle Dienste leisten zu können.
+
+## 286
+
+Oh,  oh:  Diese Snobs! Was hast Du Dir eigentlich davon versprochen, daß Du dieKlinge  Deines  Schwertes  versilbert  hast?  Meinst  Du,  Du  könntest  DeinenGegnern  damit  imponieren? Vielleicht solltest Du es erst einmal zu gebrauchenlernen - eine Gelegenheit dazu wird sich wohl bald finden...
+
+## 287
+
+Ein  stinknormales  Schwert:  Warum  zum  Himmel  hast Du es bloß in Weihwassergetaucht?
+
+## 288
+
+Auf dem Tisch liegt die kleine Pfeife des Orkvaters.
+
+## 289
+
+Dieser  schlüpfrige,  abgeknickte  Baumstamm  scheint  die  einzige  Verbindungzwischen  dem  Berg, auf dem Du gerade stehst, und dem auf der anderen Seite zusein.  Obwohl  er nicht gerade sehr vertrauenserweckend aussieht, wird Dir wohlkeine  andere  Wahl  bleiben,  als  über  ihn  hinwegzubalancieren, wenn Du dieandere Seite der Schlucht erreichen willst...
+
+## 290
+
+In  dem  Becken  befindet  sich  ein  wenig brackiges Weihwasser, wie es frühermanche Abenteurer gebraucht haben, um die A.C.A-Götter gnädig zu stimmen.
+
+## 291
+
+Im  fahlen  Mondlicht kannst Du einen fürchterlich mutierten Wolf erkennen, ausdessen  spitzer  Schnauze Geifer trieft. Er bleckt seine scharfen, gelben Zähneund  hebt  mit  einem Blick voller Haß auf alles Lebende seine krallenbewehrtenKlauen  gegen  Dich!  Paß  auf:  Er  wird  Dich  angreifen, sobald sich ihm dieerstbeste  Gelegenheit  dazu  bietet!  Schon duckt er sich, um seinen tödlichenSprung gegen Deine Kehle vorzubereiten...!
+
+## 292
+
+Der  Yeti  ist ein riesiger, weißer Schneemensch, der sich als Firons Leibwachegebärdet.   Um   seinen   muskulösen   Oberkörper   ist  eine  türkise  Schärpegeschlugen,   in   die   das  Wappen  König  Firons,  ein  weißer  Eiskristall,eingestickt ist...
+
+## 293
+
+Ein  kurzer,  vorwurfsvoller  Blick  von  Seiten Mylgors hält Dich davon ab, infremder  Leute  Sachen herumzuschnüffeln, die Dich nicht das Geringste angehen!Schuldbewußt  und  etwas  beschämt  senkst  Du  Deine  Augenlider  und läßt vonDeinem Vorhaben ab...
+
+## 294
+
+Hältst  Du  mich  wirklich für so blöd? Nein, nein, und nochmals: NEIN! Niemalswerde  ich  meine  hübschen, kleinen Händchen in einen Korb voller stechwütigerBienen hineinstecken!
+
+## 295
+
+Ohne  daß  die  in  der  Höhle Anwesenden es bemerken, tasten sich Deine Fingerlangsam  über  den  Tisch,  bis Deine Fingerspitzen die kleine Pfeife berühren.Vorsichtig,  und  ohne  den  Orkvater aus den Augen zu lassen, ziehst Du sie zuDir  hin  und sackst sie ein! Naja, wenn das Dein Dank für die Gastfreundschaftder  Orkfamilie  ist...  Zumindest  würde  ich  mich  jetzt  aber beeilen, hierschnell die Platte zu putzen, bevor jemand den Diebstahl bemerkt!
+
+## 296
+
+Vorsichtig  langst Du nach der kleinen Pfeife - doch unglücklicherweise hast DuDir  genau  den  falschen  Augenblick für Deinen Diebstahl ausgesucht: Als sichder  Blick  des  Orkvaters  wieder auf Dich, dann auf die Pfeife richtet, wirstDu  hochrot,  um kurz darauf wieder sehr, sehr bleich zu werden...: "VerdammterDieb!",  schreit  Dich der Ork an, "Einem Abhängigen sein Ein und Alles stehlenzu  wollen!"  Zu seinem Sohn gewandt, ruft er erbost aus: "So, Filius! KapierstDu  jetzt  endlich,  weshalb  ich  dieses  verfluchte Menschenpack hasse? AllesLügner  und  Diebe!  Aber...", er grinst hämisch zu Dir herüber, während Du vorSchreck  keinen  Ton zu Deiner Verteidigung herausbringen kannst, "...EIN Guteshat  es  doch,  daß  Du  ihn  zum  Essen  hierhergebracht  hast:  Er dürfte einschmackhaftes  Hors  d'Oevre  abgeben...!"  Bevor  Du  aufspringen  kannst,  umFersengeld  zu  geben, packen Dich bereits zwei kräftige Hände brutal im Nackenund  brechen  Dir  mit  einer  kurzen, aber gut geübten Bewegung das Genick! Dufindest  nicht  einmal  mehr  die  Zeit,  den traurigen und schwer enttäuschtenGesichtsausdruck des kleinen Orks zu bemerken...
+
+## 297
+
+Der  Kleine  braucht  Deine Hilfe nicht, um seine Spiele zu spielen - abgesehendavon  hättest  Du  auch  gar  keine  Lust  dazu,  ihn  bei seinem sadistischenTreiben  zu  unterstützen  -  obwohl es für ihn vielleicht die normalste (Naja:die ZWEIT-normalste!) Sache der Welt ist...
+
+## 298
+
+Du  erhebst  Dich aus Deinem Stuhl und wendest Dich an die Orkmutter, um sie zufragen,  ob  Du ihr vielleicht beim Kochen behilflich sein könntest. Freundlichverneint  sie,  bietet  Dir  jedoch als Vorgeschmack auf das bevorstehende Mahlschon  einmal  einen  Löffel  des  Süppchens  an, das sie von dem ausgelassenenBlut  der  Echse  gekocht hat. Dieses Mal bist Du es, der ablehnt, indem Du ihrvon  Deinem  empfindlichen  Magen  erzählst...  Angeekelt  gehst  Du zurück undsetzt  Dich  wieder  zu  dem  Orkvater,  der  die Kochkünste seiner Gattin wohlnicht minder zu schätzen und Dich verständnisvoll anzugrinsen scheint...
+
+## 299
+
+Wenn  Du  meinst, daß Firon Deine Hilfe braucht, dann hast Du schon einen gutenTeil  des  Adventures  gelöst!  Aber  warum fragst Du ihn nicht einfach selbst,was er zu tun vorschlüge...?
+
+## 300
+
+Also,  entschuldige mal bitte: Bräuchtest DU etwa noch irgendwelche Hilfe, wennDU tot wärest?
+
+## 301
+
+Der  Orkvater  ist ein starker und kerngesunder Ork: Warum sollte gerade er dieHilfe eines schwächlichen Menschen benötigen?
+
+## 302
+
+Also,  hör  mal: Es ist ja wohl DEIN Leben, das von Mylgors Hilfe abhängt - undnicht umgekehrt!
+
+## 303
+
+"Vielen  Dank",  antwortet  der junge Verkäufer höflich, aber dennoch sichtlicherfreut  über  Deinen  Vorschlag,  ihm  ein  wenig beim Sortieren der Waren zurHand  zu  gehen, "aber mein Chef würde es gar nicht gerne sehen, wenn Fremde inseinem Geschäft arbeiteten."
+
+## 304
+
+Das kann doch wohl nicht Dein Ernst seiiiiiiiiiin...!
+
+## 305
+
+Also,  ich  wage  doch  wirklich  sehr  zu  bezweifeln,  ob  der Yeti von einemHänfling wie Dir abgelöst werden möchte...!
+
+## 306
+
+Du  erinnerst Dich an die Geräusche, die Du in der Nacht, die Du hier verbrachthast,  gehört  hast: Ein Scharren wie...: STEIN AUF STEIN!!! Der Kamin! Das istes!  Hastig  versuchst  Du den Kamin beiseite zu rücken... Das gibt's doch wohlnicht:  Das  Ding  ist  ja  nicht  einmal so schwer wie ein normaler Tisch oderStuhl  -  ja,  es  ist  nicht  einmal  aus  Stein,  sondern  eine fast perfekteAttrappe Atrappe aus billigem Gips! Leicht schwingt der Kamin zur Seite...
+
+## 307
+
+Es  bereitet Dir zwar einige Mühe, den schweren Sargdeckel zur Seite zu rücken,aber  schließlich  hast  Du  ihn  soweit  verschoben,  daß  Du  in sein Inneresblicken  kannst,  soweit es die schummrige Beleuchtung überhaupt zuläßt. Als DuDich  weiter  über  den  Sarg beugst, um sein Inneres genauer in Augenschein zunehmen,  schlägt  Dir  fauliger  Modergeruch  entgegen,  der  Dir fast den Atemraubt!  Also,  wenn das das After Shave war, das der König zu Lebzeiten benutzthat, bin ich echt verdammt froh, nicht seine Gemahlin gewesen zu sein...!
+
+## 308
+
+Sprich  nicht  mit  ihm,  sondern  bete lieber - denn die Götter von A.C.A sindeifersüchtige Götter...
+
+## 309
+
+Du  fragst  das  kleine  Kind,  was es denn so allein hier draußen triebe. "Ichsitze   hier   ganz  einfach  herum  und  versuche,  mich  mit  mir  selbst  zubeschäftigen:  Ich  soll  erst  zum  Essen wieder nach Hause kommen, weil Vaternach  dieser  anstrengenden  Woche  unbedingt  Erholung  braucht und ich Mutternicht  beim  Kochen  stören  soll!  So  ein  Mist! Wenigstens etwas zum Spielenhätten  sie  mir  geben  können!",  antwortet  es traurig, "Kannst Du mir nichtirgendein Spielzeug kaufen?"
+
+## 310
+
+"Ich  hatte nur einen einzigen Wunsch zu Weihnachten: Einen Fußball! Aber sowasfanden   meine   Eltern   zu   ordinär!   Mein  Freund  Horax  hat  sogar  eineBaseballkeule  geschenkt  bekommen,  mit  der  er jetzt Geld verdient, indem erreiche  Abenteurer  sich  ein  wenig  mit  ihr "unterhalten" läßt! Ja, DAS sindGeschenke,  mit  denen  ein Mann was anfangen kann! Und was finde ICH unter demBaum?  Irgendwelche  dämlichen  Malbücher  und  Kleider! Bäh, wie doof! Gar nixzum  Spielen...",  erklärt  Dir  der  kleine  Ork  voller Entrüstung über dieseabsolute Verantwortungslosigkeit seiner Eltern.
+
+## 311
+
+Auf  Deine  Fragen hin schaut das Kind Dich lediglich mit einem flehenden Blickan, nicht willens, noch eine weitere Antwort zu geben.
+
+## 312
+
+Na,  ich  würde  jetzt  aber  nicht  noch  anfangen,  mit hübschen Orkmädels zuflirten  -  ihr Mann beobachtet Dich viel zu eindringlich, und Du rufst Dir mitSchrecken  die  Erinnerung  an  damals zurück, als Eure Schulschönheit Dich vonihrem  Freund  -  einem hirnlosen Bodybuilder - vertrimmen ließ, weil ihr Deinepermanenten  und  ziemlich  flachen  Anmachen  auf  den Geist gingen. Als Rachehast  Du  ihr  eine  Briefbombe geschickt - doch leider war Dein Schwarm am Tagder  Zustellung  nicht  zuhause!  Die Polizei sucht heute immer noch fieberhaftnach  dem  Irren,  der  die  Hauptpost Deines Dorfes in die Luft gesprengt hat!Als  Dir  klar  wird,  welche ungewollten Folgen solch ein harmloser Flirt alsohaben  kann,  zumal Du hier ja nicht einmal ein Postamt finden würdest, läßt Duentmutigt von Deinem Vorhaben ab...
+
+## 313
+
+Der  alte  Elfenkönig  erhebt  sich  von seinem Thron: "Ich wußte, daß Du einesTages  kommen  und  den  Befehl  Deines  Herren  erfüllen würdest. Nun tu DeinePflicht  und  vernichte  auch  noch den letzten Sproß eines edlen Geschlechts -ich  werde  mich  nicht  wehren!  So  lange  habe  ich  auf  diesen  Augenblickgewartet,  und  es  wird  Zeit, daß wir es hinter uns bringen...", antwortet erDir  mit  sanfter  Stimme,  in  deren  Melodie  so  etwas  wie  Melancholie undResignation mitschwingt...
+
+## 314
+
+Es  überrascht  Firon  ein  wenig,  daß  Du  nicht gleich kurzen Prozeß mit ihmmachst,  wie  eigentlich mit Mylgor abgesprochen. Nach einer kurzen Pause nickter  jedoch  bedächtig: "So erfüllt sich denn endlich die Prophezeiung...", sagter,  "Wenn  Du  mich  nun wirklich verschonen willst, werde ich Dir im Gegenzugverraten,  wie  Du  die  volle  Wahrheit  darüber  herausfinden  kannst, was indiesem  Land  passiert  ist,  und wer für all die Dinge verantwortlich ist, dieDu teilweise vielleicht sogar schon gesehen hast..."
+
+## 315
+
+Firon  antwortet:  "Um  Dir  zu beweisen, daß ich auf Deiner Seite stehe, werdeich  Dir  einen  Schlüssel  geben,  dessen  Zweck  Dir  später  sicherlich nocherklärt  wird.  Es  liegt leider nicht in meiner Befugnis, es Dir persönlich zusagen,  aber  es  gibt jemanden... -jemanden in dem alten Kloster auf dem Hügelim  Nordosten  des  Landes,  den Du finden solltest. Wir beide waren Mitgliedereiner  Lobby,  die  sich  im  Geheimen mit den Problemen des Landes beschäftigthat,  nachdem  das  Böse  die Oberhand gewonnen hatte. Bedauerlicherweise..." -bei   diesen   Worten   seufzt   er   und   blickt   für  einen  kurzen  Momentgeistesabwesend  an  Dir  vorbei  in  die  kalte  Leere  -  "Bedauerlicherweiseschaffte  er  es  nicht  mehr,  zu uns in diese Wüste zu fliehen, so daß er denHäschern  des  Bösen in die Hände fiel... Ich habe ihn und das Kloster, das unsdamals  als  geheimes  Hauptquartier diente, nie mehr wiedergesehen: Alles, wasmir  blieb,  war  ein  Schlüssel,  dessen Abdruck ich in magischem Eis gegossenund  seit  Jahrzehnten aufbewahrt habe. Möge er Dir auf Deiner Suche behilflichsein..."  Mit  diesen  Worten  steht Firon auf, holt einen großen Schlüssel auseinem   Geheimfach  in  seinem  Thron  und  legt  ihn  Dir  vorsichtig  in  dieausgestreckte  Hand.  Mit  einem Blick auf das Portal hinter Dir fügt er hinzu:"Meine  Wachen  werden  Dich  passieren  lassen.  Ich werde sie anweisen, einenmeiner  schnellsten  Dachsschlitten für Deine Rückkehr zum Rand der Eisregionenbereit  zu  machen.  Leb'  wohl,  mein  Freund  -  und  mögen  die  Götter Dichschützen..."  Mit  diesen  Worten  winkt  Firon  den  Yeti heran, der Dich nachdraußen geleitet, wo Firons Schlitten schon auf Dich wartet...
+
+## 316
+
+Du  erzählst dem Geist des alten Klosterabtes von Deiner langen, beschwerlichenReise  durch  die  Eiswüste,  und  daß Firon Dir empfohlen habe, Bruder Jack umHilfe  zu  bitten.  Bedächtig  nickt  Jack...:  "Ich  habe niemals gewagt, nochdarauf  zu  hoffen, daß wirklich einmal ein unerschrockener Held kommen könnte,um  den  Dunklen  Lord  für  all  seine  Greueltaten  zu bestrafen. So ist meinletzter  Traum  denn  doch  endlich Wirklichkeit geworden... Nun, das Schicksalunseres  Landes  hat  eine lange, traurige Vorgeschichte - und der einzige, dersie  Dir  erzählen  könnte,  ist  sein  rechtmäßiger  Herrscher,  Firons BruderRichard.  Nach  seinem Sturz wurde er damals vom Dunklen Lord ermordet und seinLeichnahm  zweigeteilt:  Der  Rumpf  wurde  in  seiner  Gruft  auf dem Friedhofbeigesetzt,  während  sein  Kopf  in  dem  verschütteten  Stollen  einer  altenZwergenmine  vergraben  wurde.  Finde  die  beiden  Teile  des  Körpers unseresKönigs,  und  vereine  sie  wieder! Dies ist der einzige Weg, unserem Land nochHilfe  zu  bringen...  -bringen... -brin..." In eine Wolke aus bläulichem Rauchgehüllt  fährt  Bruder  Jacks  Geist wieder zurück ins Reich der Toten und läßtDich allein...
+
+## 317
+
+Der  Geist  des  Königs  schaut  Dich  eine  Weile  an, dann hüpft er mit einemspitzbübischen  Grinsen  auf  den  Rand  seines  Sarges, und nachdem er es sichdort  bequem  gemacht  hat,  beginnt  er  Dir, die Geschichte seines Reiches zuerzählen:  "Vor  langer,  langer  Zeit",  beginnt er seine Geschichte, und seinGesicht  ist  wieder  das  eines  alten,  verbitterten  Mannes,  "war  dies einschönes,  friedliches  und  wohlhabendes  Land,  in  dem  alle meine Untertanengerecht  und  weise von mir regiert wurden. Ich residierte in meinem Schloß aufeiner  von  kristallklarem  Wasser umgebenen Insel, dessen prachtvoller Bau demReichtum  und  der  Kunstfertigkeit  meines  Volkes  Ausdruck verlieh... Damalsbeschäftigte  ich  auch einen jungen Zauberer namens Zargon an meinem Hofe, dermich  von  Zeit  zu  Zeit  mit seinen Kunststückchen zu unterhalten pflegte. Erwar  begabt,  sehr  begabt  sogar, doch niemals hätte ich vermutet, daß er eineGeheimkammer  im  Untergeschoß  meines  Schlosses bewohnte - einen Raum, in demer  all  seine  magischen  Experimente  durchführte: Er war von dem irrsinnigenGedanken   besessen,   künstlich   Gold   herzustellen,   welches  er  dringendbenötigte,  um  die Lehrstunden, die er bei den höchsten Magiern unseres Landesnahm,  bezahlen  zu  können.  Eines  Tages  jedoch erfüllten sich seine Wünschedennoch:  Er  wurde  in  den  Siebenten Zirkel der Magiergilde aufgenommen, wasbedeutete,  daß  sich  seine  volle  magische  Kraft  entfaltet  hatte  und  erberechtigt  war,  auch  die  machtvollsten  Sprüche  anzuwenden  - ja, er wurdeschließlich   sogar   mächtiger   als  seine  einstigen  Lehrmeister,  die  dieEntwicklung  ihres  begabtesten Schülers nun mit großer Sorge verfolgten - dochin  seinem  unendlichen  Ehrgeiz  wollte  er noch mehr: Er wollte meinen Thron!Doch  statt  meine  edlen  Ritter  in  einem  tapferen  und  gerechten Kampf zubekämpfen,  besann  er  sich  auf seine magischen Kräfte und erschuf eine Armeeaus  grausamen,  untoten Kreaturen... In einer finsteren Nacht - es stürmte undgewitterte,  als  wäre  der  jüngste Tag angebrochen - zog er diese Ausgeburtender  Hölle  vor  meinem  Schloß  zusammen, und als die Uhr vom Turm Mitternachtschlug,  erhoben  sich  - welch' makabre Ironie des Schicksals - die Leichnahmemeiner  Ahnen,  die  in  einem  Gruftgewölbe  unterhalb  der Schloßgemächer zurletzten  Ruhe  gebettet  waren,  aus  ihren  Särgen - und öffneten die Tore! Esbereitete  Zargon  und  seinen  Schergen  kaum  Mühe, das Schloß binnen wenigerMinuten   einzunehmen:   Niemand   hatte   diesen   Überfall   erwartet  -  einverhängnisvoller   Fehler...   Nachdem  sie  die  Tür  zu  meinem  Schlafgemachaufgebrochen  hatten,  führten  mich Zargons Schwarzblütler zu ihrem Herren ab,der  mir  ohne  ein  Wort  der  Erklärung oder Entschuldigung die Klinge seinesDegens bis zum Heft in die Brust stieß..."
+
+## 318
+
+Der  König  nickt  zustimmend.  "Du  hast  recht:  Wir haben keine Zeit mehr zuverlieren!",  beschließt  er,  "Die  Zeit  ist  reif,  zurückzuschlagen, Zargonseiner  gerechten  Strafe zuzuführen und die Bewohner meines Reiches aus seinerTyrannis  zu  befreien!  Wie  Du  sehen  kannst..." - er schaut traurig an sichherunter  -  "...erlaubt  es  mir  meine übernatürliche Erscheinungsform leidernicht  mehr,  Zargon persönlich herauszufordern und das Unheil, das er über unsalle  gebracht  hat,  zu  sühnen,  aber  vielleicht  bist  Du ja stark und kluggenug,  um  es  zumindest  zu versuchen! Nein! Sag' jetzt nichts! Du darfst mirnicht  widersprechen:  Dies  hier  ist  nicht  bloß irgendeine Aufgabe - es istDeine Bestimmung!" König Richard schaut Dich aus flehenden Augen an...
+
+## 319
+
+"Na,  bravo!  Du  scheinst  also  verstanden zu haben, worum es in diesem Spielgeht!",  sagt  der  König und faltet zufrieden die Hände über dem Bauch, "BevorDu  jedoch  auch  nur die geringste Chance haben wirst, Zargon herausfordern zukönnen,  mußt  Du  erst einmal seinen Vasallen besiegen: Mylgor! Du kennst ihn:Er  war  derjenige, der Dir befohlen hatte, Firon zu ermorden - meinen jüngerenBruder,  der  emigriert  ist,  als  Zargon  an  die Macht kam, und sich nun miteiner  Handvoll  der  alten  Mitglieder seines Geheimbundes in einem Palast ausEis  verschanzt,  um  vor weiteren Nachstellungen durch Zargons Schergen sicherzu  sein.  Ich  nehme  an,  daß  Mylgor  bereits  vom Scheitern seines Plans inKenntnis  gesetzt  wurde  und  sich  daher  in  den  Geheimkammern unter seinerkleinen  Hütte  versteckt:  Ich  weiß zwar nicht, wie Du dorthin gelangst, abervielleicht   wird   Dir   dieser   Zauberspruch   helfen,   durch   einen  Bannverschlossene  Türen  zu  öffnen.  Er  ist zwar nicht stark genug, um Barrierenwie  die,  die  Zargon  um  das  Weltentor hinter dem Wasserfall gelegt hat, zubrechen,  aber  er  ist  alles,  was  von  meinen einstmals mächtigen magischenKräften   übriggeblieben   ist...  Und  nun  laß  mich  Dich  den  Zauberspruchlehren..."  Der  König  legt  drei  Finger seiner rechten Hand auf Deine Stirn,und  ein  kalter  Schauder  überkommt  Dich,  als Du plötzlich die eisige Kälteseines  Körpers  spürst...  In  einer  fremden, uralten Sprache murmelt Richardeinige  kehlige  Laute  und  öffnet  dann  wieder die Augen: Du besitzt nun dierestliche Astralenergie, die er noch hatte...
+
+## 320
+
+"Du  kennst  den  Zauberspruch!",  sagt der König ungeduldig, "Das ist nun aberwirklich  alles,  was  ich  für  Dich  tun konnte...: Das Schicksal meiner Weltliegt  in  Deinen  Händen, doch meine Gebete begleiten Dich - leb' wohl..." DerGeist  des  Königs wird immer transparenter, bis er schließlich ganz unsichtbarist...  Angesichts  der schweren Bürde, die durch diese ungeheure Verantwortungauf  Dir  lastet,  fühlst  Du  Dich  auf  einmal  unwahrscheinlich  allein  undverlassen...
+
+## 321
+
+Der  Orkvater versteht die menschliche Sprache nicht sonderlich gut, weshalb eres vorzieht, zu schweigen...
+
+## 322
+
+Du  erzählst  dem  Fremden  hinter  der Luke von Deiner Reise in diese Welt undfragst  ihn,  ob er Dir vielleicht etwas zu essen und einen Platz geben könnte,wo  Du  die  Nacht verbringen kannst. Erstaunlicherweise scheint er Deine Storynicht  im  Geringsten  anzuzweifeln:  "Natürlich  könnte ich...", antwortet dieStimme  hinter  der  Tür gedehnt, "Aber nur unter einer Bedingung: Wenn ich Dirhelfe,  mußt  Du mir versprechen, auch mir einen kleinen Dienst zu erweisen: Esgibt  da  eine  kleine, selbstverständlich nicht allzu gefährliche Aufgabe, diemorgen  verrichtet  werden müßte. Wenn Du mir eine kurze schriftliche Erklärungunterzeichnest,  die  besagt,  daß  Du  sie für mich erledigen wirst, werde ichDir  im  Gegenzug  dazu  ein  Bett  zum  Schlafen, warme Kleider und ein warmesAbendessen   geben."   Mit   diesen   Worten   reicht   Dir   der   Mann  einenmerkwürdigerweise  schon  vorformulierten  Vertrag  und  ein  kleines, scharfesMesserchen  durch  die  Luke  hinaus.  Auf  Deine  Frage  hin, wozu Du denn dasMesser  bräuchtest,  antwortet der Fremde gleichgültig: "Ich bin nur vorsichtig-  zuviele  Menschen  haben  mich  schon  hintergangen!  Daher  wirst Du unsereAbmachung  mit  demselben Blut unterschreiben, daß Du vergießen wirst, solltestDu es wagen, sie zu brechen..."
+
+## 323
+
+"Was   sollte  ich  denn  bitte  mit  einem  Vertrag  anfangen,  den  Du  nichtunterschrieben  hast?",  fährt  Mylgor  Dich  ärgerlich an, "Nein, mein Freund,behalte  ihn  ruhig!  Dir  wird  sehr  bald klarwerden, daß Du gar keine andereWahl  hast..."  Irgendwie mißfällt Dir der Ton, in dem Mylgor das Wort "Freund"ausgesprochen hat - es klang irgendwie... -verächtlich?
+
+## 324
+
+"Ich  habe  Dir  bereits  mitgeteilt, was ich zu sagen habe!", antwortet MylgorDir ungeduldig.
+
+## 325
+
+Ihr  beiden  schwatzt,  bis  es  fast  halb Zwölf ist. Ich denke, es wird jetztlangsam  Zeit  für  Dich,  ins  Bett  zu  gehen.  Immerhin  hast  Du  morgen javielleicht einen schweren Tag vor Dir...
+
+## 326
+
+Nach  jedem  Satz, den Du sagst, rekelt sich Mylgor in seinem alten Ohrensesselund  unterdrückt  krampfhaft ein herzhaftes Gähnen: Wahrscheinlich ist er schonviel  zu  müde,  um  Deinen Erzählungen noch konzentriert folgen zu können, undwartet  nur  noch  aus  Höflichkeit  darauf,  daß Du ihm nun endlich von selbsteine angenehme Nachtruhe wünschst und Dich in Deine Schlafkammer verziehst...
+
+## 327
+
+Mylgor  hat  Dich  bereits  erwartet. Er begrüßt Dich kurz und kommt gleich zumGeschäft:  "Ich  hoffe,  Du  erinnerst  Dich  noch an den Pakt, den wir gesternabend  miteinander  geschlossen  haben. Nun, jetzt ist es an der Zeit, daß auchDu  Deinen  Teil  unserer  Abmachung  erfüllst:  Es gibt einen bösen Elfenkönignamens  Firon,  der  sich  mit  seiner  Horde in seinem Eispalast im Nordwestenunseres  geliebten  Landes  versteckt  hält. Oft überfällt er jedoch mit seinerYetiarmee  unser  kleines,  friedliches  Dorfe  und  plündert  es - vor einigenJahren  hat  er es gar vollständig in Schutt und Asche gelegt! Als Vorsitzenderdes  Dorfrates  befehle  ich  Dir:  Gebiete  ihm  Einhalt!  Hier  sind ein paarKleidungsstücke,   die   Du  brauchen  wirst,  um  in  den  kalten  Eisregionenüberleben  zu  können, und ein Flacon mit einem magischen Elixier, das Dich fürein  paar  Sekunden  unsichtbar  macht:  Benutze es auf gar keinen Fall, bis eswirklich  unumgänglich  ist,  da  es  Dich, wie schon gesagt, nur für einen Zugschützen  wird  und  Du es auch nur ein einziges Mal anwenden kannst! Nun begibDich  also  auf  den  Weg  und beende Firons dunkle Machenschaften: Möge ZargonDich  behüten...!"  Mit diesen Worten öffnet Mylgor eine kleine Truhe, holt dieerwähnten Dinge aus ihr heraus und breitet sie auf dem Tisch vor Dir aus.
+
+## 328
+
+Ich  glaube,  Du gehst jetzt besser und löst Dein Versprechen ein, bevor Mylgorungehalten  wird:  Man  weiß ja schließlich nie, wozu so ein alter Alchemist imZorn fähig ist...
+
+## 329
+
+Du   hast   wirklich   absolut   keine   Zeit,   hier  noch  lange  mit  Mylgorherumzuschwätzen! Töte ihn - oder stirb selbst!
+
+## 330
+
+Der  Verkäufer  blickt kurz von seiner Arbeit auf, kommt dann hinter den Tresenund fragt Dich geschäftig, ob Du einen der Hundeschlitten kaufen möchtest.
+
+## 331
+
+Als  Du  das Friedhofstor öffnest, quietscht es fürchterlich in seinen rostigenAngeln  -  so,  als  ob  es  Dir  noch  eine  letzte,  versteckte Warnung gebenwollte...
+
+## 332
+
+Mit  dem  Blut,  das  aus  Deiner  Fingerspitze tropft, schreibst Du unbeholfenDeinen Namen unter den Vertrag...
+
+## 333
+
+Ja,  glaubst  Du  denn  tatsächlich,  ich  hätte  all  diese Strapazen auf michgenommen,  bloß  um  den  Honig  jetzt selbst zu essen? Das kann doch wohl kaumTeil  der  Lösung  sein,  oder?  Naja, okay: Wer weiß - denn was ist hier schonlogisch...?   Also:   Wenn  Du  tatsächlich  so  hungrig  sein  solltest,  dannunterbrich  das  Spiel  (Du solltest sowieso mal auf die Uhr - oder besser: denKALENDER!  -  schauen...),  gehe  in  die  Küche  und  mach' Dir erstmal was zufuttern   ("Schalte  Computer  aus",  "Gehe  in  Küche",  "Öffne  Kühlschrank","Inspiziere  Kühlschrank",  "Plündere  Kühlschrank", "Wende Essen auf Dich an","Gehe  zu  Computer", "Schalte Computer an", "Boote Soul Crystal", "Ärgere Dichüber  nicht  abgespeicherten  Spielstand"...).  Großzügigerweise  werde ich Dirsogar versprechen, während Deiner Abwesenheit nicht zu mogeln...
+
+## 334
+
+Schmerzlich  verziehst Du Dein Gesicht, als das kleine, scharfe Messerchen tiefin  Deine  Fingerkuppe ritzt und dort eine kleine, aber tiefe Wunde hinterläßt,aus  der  nun  rotes Blut auf den Boden tropft. "Den kann ich wegschmeißen! Undgerade  die  Maushand! Wenn das Mylgors Art ist, Leute für ihn zu verpflichten,wird  er  nur  sehr  wenige finden, die nach Vertragsabschluß noch arbeitsfähigsind!", denkst Du Dir, als Du Deinen lädierten Finger betrachtest...
+
+## 335
+
+Genießerisch  ziehst  Du an der Pfeife, die Du dem Orkvater gestohlen hast, undbläst  den  süßlichen  Rauch  rücksichtsloserweise  direkt  in  den Bienenstockhinein.  Wie  erwartet, vertragen die Bienen den Geruch des Zeugs, das der alteOrk  in  die  Pfeife  gestopft  hat,  nicht besonders gut: Hastig verlassen sieihren  Bienenstock  und  suchen das Weite! Als Du ihnen verträumt und irgendwieauch  etwas  benommen  nachblickst, fragst Du Dich allerdings, weshalb so vieleder  Bienen  diese  unkontrollierten  Kurven fliegen - fast schon so, als wärensie   betrunken...   Könnte   es  vielleicht  sein,  daß  irgendetwas  mit  derPfeifenfüllung nicht in Ordnung war...?
+
+## 336
+
+"Auf  Ex!",  denkst  Du  Dir  und  leerst  die  kleine  Phiole,  die Mylgor Dirmitgegeben   hat,   in   einem   Zug.   Sofort  wirst  Du  unsichtbar,  was  Duhauptsächlich  an  dem  ziemlich  stupiden  Ausdruck erkennst, der sich auf demGesicht  des  Yetis breitmacht, als er sieht, daß er nichts sieht... Nun beeil'Dich  aber,  in  Firons Palast im Norden zu kommen - denn nach dem nächsten Zugwirst Du wieder sichtbar werden...!
+
+## 337
+
+Verzweifelt  kniest  Du  vor  dem  Altar nieder und schickst ein Stoßgebet nachgeistvolleren  Texten,  besseren  Grafiken,  leistungsfähigeren  Computern  undkompetenteren  Programmierern  zum  Himmel,  und nebenbei denkst Du auch an denarmen,  armen  Klosterbruder  Jack,  der hier wohl irgendwann mal vom Schlittengerutscht  sein  soll - doch nach wenigen Versen bekommst Du das ungute Gefühl,als  wäre  etwas  hinter Dir - und drehst Dich um: Du fühlst eine leichte, abereisig  kalte  Brise durch den Raum streichen, als Du den Nebel im Kirchenschiffbemerkst,  der  langsam  auf  Dich  zukommt und dabei dichter und dichter wird,bis  er  schließlich kurz vor Dir stehenbleibt... Du spürst, wie sich in DeinemNacken   die  ersten  kalten  Schweißperlen  bilden,  und  zitternd  vor  Angststammelst  Du:  "Au Scheiße! Alles klar, Leute: Vergeßt das mit den geistvollenTexten  und  so... War nur'n blöder Witz! Alles in Ordnung, echt!" Doch gerade,bevor  Du  Dir  vor Angst in Deine einzige Hose machen kannst, nimmt der Nebel,den  Du  eigentlich für eine dieser mysteriösen Wolken gehalten hast, durch diehier  wohl  jeder in himmlische Gefilde abkommandiert wird, menschliche Umrissean  -  und  vor Dir steht: BRUDER JACK! Er begrüßt Dich mit den Worten: "Friedesei  mit  Dir, mein Sohn!", schaut dann auf Deine Beinkleider, grinst und fragtscheinheilig: "Deine Hosen... Ähem: Alles in Ordnung?"
+
+## 338
+
+Du  schließt  die  Augen,  konzentrierst  Dich  und versuchst, all die magischeEnergie,  die  Dir  König  Richard  verliehen  hat,  auf  das Schloß zu lenken:Nichts!  Doch  halt:  Gerade,  als  Du frustriert aufgeben willst, hörst Du einleises Klicken im Türschloß...
+
+## 339
+
+Du  tauchst  Dein  treues  Schwert  tief  in das heiße, geschmolzene Silber undversilberst es somit bis hoch zum Griff.
+
+## 340
+
+Du  tauchst  Dein  Schwert  in  das Weihwasserbecken und präparierst es mit demWeihwasser.
+
+## 341
+
+Erst,  als  Du Dich auf dem Bettzeug ausstreckst, um Dich ein wenig auszuruhen,spürst  Du,  daß  Dich  Deine Reise doch viel müder gemacht hat als Du geglaubthattest.  In  der  Zwischenzeit  ist es tiefe Nacht geworden, draußen regnet esin  Strömen  -  und  Du bist heilfroh, bei diesem Hundewetter ein Dach über demKopf  zu  haben. Du kuschelst Dich tief in die warme, mollige Bettdecke ein unddenkst  über  Deinen  weiteren  Aufenthalt  in  dieser  seltsamen, fremden Weltnach,  über  den  Vertrag,  den  Du mit Mylgor abgeschlossen hast, und was wohlDeine  Eltern...  Elt...  -El...  -Zzz... -Zzz... Mit dem Daumen im Mund fällstDu  in  den  tiefen,  traumlosen  Schlaf der Erschöpfung... Plötzlich wird Deinsüßer  Schlummer  jedoch  von  einem  häßlich  scharrenden Geräusch von nebenanunterbrochen  -  einem Geräusch wie das Scharren von Stein auf Stein! Du stehstauf  und  willst  die  Tür zum Kaminzimmer öffnen - aber sie ist abgeschlossen!Frustriert  legst  Du Dich wieder hin, um wenigstens noch ein paar Stündchen ander  Matratze  horchen  zu  können...  Am nächsten Nachmittag weckt Dich Mylgorund  fordert  Dich  auf, Dich schnell frischzumachen und danach ins Kaminzimmerzu  kommen,  wo  er  Dir  seine  Order  geben  will  - nur über den nächtlichenZwischenfall  verliert  er  merkwürdigerweise  kein  Wort:  Du  beschließt, ihnvorsichtshalber   auch  gar  nicht  darauf  anzusprechen  und  stehst  halbwegsausgeschlafen und entspannt wieder auf...
+
+## 342
+
+Diesmal  hast  Du  aber  nun wirklich keine Zeit zum Schlafen! Immerhin hast Dujetzt  ja  wohl  eine  Aufgabe  zu  erfüllen  -  und  außerdem: Ein echter Heldschläft nie!
+
+## 343
+
+Du  klopfst  zaghaft  an  die Tür und wartest: Nichts passiert! Du klopfst nocheinmal,  diesmal  etwas  lauter:  Keine  Reaktion!  Gerade  willst Du mit allerKraft  gegen  die  Tür  hämmern,  als sich, just an der Stelle, auf der sich umein  Haar  die  zerstörerische  Wirkung  Deiner  kraftvollen  Fäuste  in  ihrerganzen,  schrecklichen  Größe  offenbart hätte, eine kleine Luke öffnet, hinterder  ein  Gesicht, das sich im Halbdunkel jedoch nur sehr schwer identifizierenläßt,  erscheint!  "Was ist Dein Begehr, Fremder?", fragt die Stimme hinter derTür mißtrauisch.
+
+## 344
+
+Vorsichtig  legst Du den Schädel neben den Rumpf des Königs - aber was ist denndas?  Der  Totenschädel rollt zum Hals des Skelettes und wächst dort wieder an,als  ob  er  niemals irgendwo anders gewesen wäre! Im selben Moment jedoch, alsder  Schädel  des  Königs  an  seinen angestammten Platz zurückkehrt, fühlst Dueinen  eiskalten  Wind  im  Nacken...  Mal  wieder  das Schlimmste befürchtend,schließt  Du  angsterfüllt  die  Augen:  Nichts  passiert...  Als Du sie jedochwieder  zu  öffnen  wagst  -  ist  der  Sarg  leer! Du schließt Deine Augen zumzweiten  Mal  und  öffnest  sie  wieder:  Aber  nichts  hat  sich geändert: DerSarkophag  des  Königs  ist  und bleibt leer! Bevor Du jedoch versuchen kannst,auf  Deinen  schlotternden  Beinen  davonzulaufen, hörst Du eine offensichtlichrecht  amüsierte,  sanfte  Stimme  hinter  Dir: "Willkommen, mein Freund..." Esist König Richard!
+
+## 345
+
+Ich  muß mich doch sehr wundern, Herr Parker! Ob das nicht vielleicht sogar einFall  für  die  Sitte wäre? Also: Tut mir fürchterlich leid, aber da spiele ichnicht  mehr  mit:  Vielleicht  solltest  Du  ja  einfach mal weniger vor DeinemComputer  sitzen  und  Dir  lieber eine Freundin zulegen, statt Deine Fantasienin  jugendfreien  Spielen  ausleben  zu  wollen! Falls Dir aber wirklich sovieldaran  gelegen  ist,  Dich  an  Orks  zu  vergehen, kannst Du ja einen Brief anChris   und  Kai  schreiben  -  vielleicht  schreiben  sie  ja  noch  mal  eine"Adult-Version"  für  Perverslinge  wie  Dich...  Vorerst jedoch werden wir dieOrkdame in Ruhe lassen - und wenn's noch so schwerfällt...
+
+## 346
+
+Du   versuchst   ein  wenig  von  dem  Honig  auf  die  Sohlen  Deiner  Stiefelaufzutragen,  was  sich  allerdings als wesentlich komplizierter gestaltet, alsDu  anfangs  angenommen  hattest.  Schließlich, Deinen ganzen Körper völlig mitHonig  verklebt,  schaffst Du es aber trotzdem: Du bringst den letzten Rest derklebrigen  Masse  auf  die  Sohlen auf und versuchst damit herumzulaufen, wobeiDu  erfreut  feststellst, daß Deine Stiefel nun wesentlich besser auf dem Bodenhaften,  was  zwar  auf  der  einen  Seite das Laufen nicht gerade erleichtert,dafür aber auch das Ausrutschen auf glatten Flächen erheblich erschwert...
+
+## 347
+
+Wortlos nimmt Mylgor sein Messer entgegen.
+
+## 348
+
+Mit  einem  seltsamen  Lächeln auf den Lippen nimmt Mylgor den unterschriebenenVertrag zurück...
+
+## 349
+
+Du  gibst  dem Kind die Kristallkugel, damit es endlich etwas zum Spielen hat -und  vor  allem,  damit  bei  seinen Spielen niemand mehr zu Schaden kommt. Mitzitternden  Fingern  betastet es das schimmernde Kleinod und betrachtet es, alswäre  die  kleine  Kugel  das  wertvollste  Ding  auf  dieser  Welt.  "Sie  istwunderschön  -  was  willst  Du  dafür  haben?", fragt es, ängstlich, in seinemjungen  Leben  noch  nicht genug Schätze gehortet zu haben und Dir deshalb seinneues  Spielzeug  wieder  zurückgeben  zu müssen. "Nichts. Ich schenke sie Dir.Aber  versuch'  nicht,  Fußball  damit zu spielen!", antwortest Du freundlich -froh,  das  Kind ein wenig glücklicher machen zu können. Das kleine Ding starrtDich  aus  ungläubigen  Augen  an:  "Wirklich  -  gar  nichts?",  wiederholt esfragend,  als  könne  es  Dir nicht glauben. "Wirklich - gar nichts!", gibst Duzurück.  Das  Kind fällt Dir überglücklich um den Hals: "Du bist mein Freund!",kräht  es  in  seiner  kindlichen  Freude, die noch nichts von dem feindseligenTon  an  sich  hat,  in  dem  Orks  und  Menschen  normalerweise miteinander zuverkehren  pflegen,  "Komm'  mit mir mit: Ich werde Dir unsere Höhle zeigen undDich  meinen  Eltern  vorstellen!"  Bevor  Du  etwas  erwidern kannst, läßt derKleine  Dich  los  und stapft in das Unterholz hinein. Kopfschüttelnd folgst Dudem  Kind  durch das dichte Gestrüpp am südlichen Rande der Lichtung, auf einemPfad, den nur die Orks kennen...
+
+## 350
+
+"Ah,  Ihr habt Euch also entschieden, einen unserer Hundeschlitten zu kaufen?",fragt  Dich  der  Verkäufer  geschäftig und schaut dann auf Deine ausgestreckteHand,  die  ihm  die  paar  Silbermünzen  anbietet,  die  Du in der Zwergenminegefunden  hast.  "Naja...:  Also,  für  den Preis kann ich Euch natürlich nichtgerade  unser  exklusivstes  und  teuerstes  Modell  anbieten,  aber  ich denketrotzdem,  daß  Ihr zufrieden damit sein werdet." Er nimmt die Münzen entgegen,zählt  sie  ab und wirft sie in eine kleine, eiserne Truhe auf dem Tresen. "DerSchlitten  wird  für Euch vorbereitet. Wir werden ihn in einem Tal nordwestlichvon  hier  abliefern:  Nehmt die Hintertür im Westen, um auf den Weg dorthin zugelangen  -  es  ist  nicht allzuweit: In gut anderthalb Stunden könnt Ihr dortsein.  Vielen  Dank  -  und  empfehlt  uns bitte weiter!", sagt er zum Abschiedsein  wohleinstudiertes  Sprüchlein auf und wendet sich daraufhin wieder seinerArbeit hinter dem Tresen zu.
+
+## 351
+
+Hastig  verschließt Du die Labortür mit dem Schlüssel aus Mylgors Studierzimmerund  hörst  zu  Deiner  Beruhigung,  wie  das  riesige  Spezialschloß mit einemleisen  Klicken  schließt - keine Sekunde zu früh: Im selben Moment, als Du denSchlüssel  herumdrehst,  erschüttert  eine fürchterliche Explosion im Labor dasganze  Haus  bis  in  die  Grundmauern  -  aber  die  massive  und  klugerweiseverschlossene   Tür   hält   die   schlimmsten   Auswirkungen   der  Druckwelleglücklicherweise  von  Dir  ab!  Putz  rieselt von der Decke, der Boden und dieWände  beben  bedrohlich - und plötzlich wird es sehr still: Nur das knisterndeLecken  der  Flammen  an  der  Labortür ist noch zu hören... Als sich der Staubnach  einer  Weile  gelegt hat, schaust Du Dich um: Die Labortür ist noch immerverschlossen  -  nur  aus  kleinen  Ritzen  in  ihrem  Rahmen  quillt schwarzerRauch...  Du  schickst  ein  Dankgebet  dafür  zum Himmel, daß Du die Explosionunversehrt  überlebt  hast - im krassen Gegensatz zu Mylgor übrigens, der jetztwahrscheinlich  mehr  oder  minder  gleichmäßig  über  die  gesamte Laborflächeverteilt  sein  dürfte...  WELL  DONE:  BONUS  AWARDED! ...NOW PREPARE FOR NEXTSTAGE... Ähem: Kleiner Scherz...!
+
+## 352
+
+Gute  Idee:  Du  verschließt  die  Tür  zu  Mylgors  Labor  und bereitest somitgewissenhaft  seinen  Hungertod  vor...  Vielleicht  solltest Du ja in ein paarJahren mal wieder hierherkommen, um ihm ein paar Blümchen zu bringen...
+
+## 353
+
+Als  Du  die  magische  Barriere  durchschreitest,  die  Dich  bisher  von  demverfluchten  Wald  im  Norden  getrennt  hat,  hörst  Du  eine  Stimme  aus denBaumkronen  herausdröhnen!  Es  ist  ein  Waldgeist,  der  Dich  bittet,  einenbestimmten  Code  aus  dem Handbuch einzugeben, um sicherzustellen, daß Du auchwirklich authorisiert bist, Deine Reise fortzusetzen...
+
+## 354
+
+"Jawoll!  Das  war  genau  das,  was  ich  hören wollte! Du darfst passieren!",antwortet  der  Waldgeist auf Deine Eingabe hin. Dann wird es wieder still, undDu  nimmst  an,  daß  Du Deine Reise nun erst einmal für einige Zeit fortsetzenkannst, bevor Du wieder von diesen nervigen Abfragen gestört wirst...
+
+## 355
+
+"Bist  Du  Dir wirklich ganz sicher, daß Du Dir ein Originalspiel gekauft hast?Wenn  dem  tatsächlich  so  sein  sollte,  dann  tut es mir wirklich ganz, ganzfürchterlich  leid  -  aber nichtsdestotrotz: Chris und Kai haben mir befohlen,diesen  Teil  des  Waldes  solange  zu  bewachen,  bis  Du  Deine  Legitimationbewiesen  hast.  Und  wenn  ich  ihre  Order  mißachten  sollte, werde ich beimnächsten   Spiel   höchstwahrscheinlich  durch  irgendwelche  dummen  Requesterwegrationalisiert  werden!  Also,  ich  hoffe,  Du  hast  Verständnis  für meinDilemma:  SO  darf  ich  Dich  jedenfalls  nicht durchlassen...", antwortet derGeist  traurig,  nachdem  Du  ihm  seine Frage trotz mehrmaliger Versuche nichtbeantworten konntest...
+
+## 621
+
+Du willst doch wohl nicht Deine letzte Überlebenschance verspielen, oder?
+
+## 622
+
+Du  willst  Dein  Blut  verlieren,  ja?  Schön!  Warum begehst Du nicht einfachSelbstmord?
+
+## 623
+
+Dazu müßtest Du schon Deinen Kopf verlieren!
+
+## 624
+
+Wie  willst  Du  denn  etwas verlieren, das in dem komischen, verkümmerten Dinggespeichert ist, welches Du Dein Hirn nennst?
+
+## 625
+
+Unter  dem  Vertrag  prangt  in  großen roten Strichen Deine Unterschrift: Dreigroße Kreuze...
+
+## 626
+
+Die  Labortür  hat  sich durch die Hitze schon zu sehr verzogen, als daß Du sienoch öffnen könntest...
+
+## 627
+
+Du  nimmst  alle Kraft zusammen und beginnst, den schweren Schlitten hinter Dirherzuziehen,  bis  Du  hinter  Dir  ein  leises  Lachen  hörst.  Diese  faulen,nichtsnutzigen  Tiere!  Jetzt  sitzen  die  schon seit über einer halben Stundeauf  dem  Schlitten  und  lassen  sich  von Dir durch den Schnee ziehen! Wütendscheuchst  Du  sie  von  den  Sitzen  herunter  und  spannst sie wieder vor denSchlitten.
+
+## 628
+
+Warum  so  eilig,  junger Freund? Früher oder später wirst Du hier doch sowiesolanden!  Genieße  Dein  Leben bis dahin - viel Zeit hast Du doch wahrscheinlichsowieso nicht mehr...!
+
+## 629
+
+Du  buddelst  ein wenig im Erdreich herum, doch außer einer mumifizierten Hand,die   Dir   den  ausgestreckten  Mittelfinger  zeigt,  und  einigen  vergilbtenKnochen,  die  zweifelsohne  meschlicher  Herkunft  zu sein scheinen, kannst Dunichts  Interessantes  finden. Enttäuscht wirfst Du Deine Funde hinter Dich insGebüsch.
+
+## 630
+
+Die  Idee ist ja nicht schlecht - nur haben wir leider nicht genug Honig dabei,um den ganzen Baumstamm damit bestreichen zu können.
+
+## 631
+
+Das  wäre  verantwortungslos,  findest  Du  nicht?  Wenn Du Dein Blut unbedingtloswerden   mußt,   solltest  Du  es  vernünftigerweise  zur  Sondermülldeponiebringen!
+
+## 632
+
+Naja,  etwas  infantil - aber ganz nett, diese Ferkelei! Vielleicht sollten wiruns  jedoch  ein wenig von dem klebrigen Zeug aufbewahren: So ganz sinnlos, wieDu zu meinen scheinst, wird es wohl kaum sein!
+

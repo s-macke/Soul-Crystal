@@ -1,0 +1,344 @@
+{
+  "source": "Disk 2/Data/Texts/DiskC.TXT",
+  "source_sha256": "b9d6ddcf327cde0feb1fdc6203eafe3ed22f582f449f8f22ce794824d0bd3cb8",
+  "table_sha256": "52301fc571e0822abd6b045dc25e0a995fa3ec4059ae7e8b3e77b05fe9cd766f",
+  "main_sha256": "cc74c2f3ce20ac1445d5c53382c6ac4baae6e40160d88173df54cd469b82449c",
+  "records": [
+    {
+      "id": 356,
+      "source_offset": 0,
+      "packed_bytes": 218,
+      "decoded_bytes": 390,
+      "decoded_sha256": "69713546a1ce0e33cef584dd2bdf7b64d8acca8f0cacb5ec4ac6e3689980f701",
+      "text": "Während  Du unter den verkrüppelten Bäumen Deinem Weg nach Osten folgst,bekommst  Du  den  Eindruck,  daß  Du tatsächlich das einzige Lebewesenbist,  das  leichtsinnig  genug  war,  diesen  Teil  des Waldes noch zubetreten  -  einen  Wald,  in  dem  die  Zeit angehalten worden zu seinscheint...  Weiter  nach  Osten  hin  siehst  Du, wie der unheimliche Wald nochdichter und tiefer wird..."
+    },
+    {
+      "id": 357,
+      "source_offset": 218,
+      "packed_bytes": 206,
+      "decoded_bytes": 370,
+      "decoded_sha256": "2c49f9c95dc6102f46a02521230765161d1b3f814ecc706b677efa9852b666ba",
+      "text": "Du  setzt Deinen Weg unter den dicken, knorrigen Ästen der abgestorbenenBäume  fort,  durch  deren  bizarre  Kronen  kaum  ein Sonnenstahl mehrfällt  -  alles  um  Dich herum scheint tot und von einer geisterhaftenLeere  erfüllt  zu  sein...  Im Norden kannst Du das Ufer eines Sumpfeserkennen,  während  der  Pfad,  von  dem aus Du hierhergekommen bist, im Westenliegt."
+    },
+    {
+      "id": 358,
+      "source_offset": 424,
+      "packed_bytes": 275,
+      "decoded_bytes": 482,
+      "decoded_sha256": "b5121984edca331622b56c10e7981e4db1396440cd99328c5ea809952f222bf5",
+      "text": "Während  Du  den  weichen,  morastigen  Boden unter Deinen Füßen spürst,beschleicht  Dich  die  unbestimmte Vorahnung, daß hier sehr bald etwaspassieren  wird:  Es  ist  einfach zu still, obwohl alles um Dich herumdoch  eigentlich  einen  ziemlich  friedlichen  - zumindest jedoch sehrruhigen  -  Eindruck macht. Aber ist es nicht sogar - ZU friedlich...? Das Uferdes   Sumpfsees   befindet  sich  im  Norden,  während  sich  der  verwunscheneWaldabschnitt nach Süden hin erstreckt."
+    },
+    {
+      "id": 359,
+      "source_offset": 699,
+      "packed_bytes": 403,
+      "decoded_bytes": 725,
+      "decoded_sha256": "330299bcdee448c4e06a7d6edd4ac5d65687b1f6afed9299bc47ec73cca2b920",
+      "text": "Du  erreichst  das  Ufer  eines  großen  Sumpfsees:  Diese  braune Brühescheint  also  das einzige zu sein, was Dich noch von der Insel trennt,die  Du  weiter  im  Norden  erkennen kannst. Wenn die Geschichte KönigRichards  stimmt,  so  befindet  sich  hinter dem kleinen Hügel auf derInsel  tatsächlich  das Ziel Deiner Reise: das Königsschloß des Landes, das vorlanger  Zeit  von  Zargon  und  seiner Horde besetzt worden ist und ihm nun alsHauptquartier  dient,  von  dem  aus er seine finsteren Machenschaften steuert,die  Tod  und  Verderben  über  das  ganze Land gebracht haben... Nun kannst Duentweder   den   Sumpfsee   im   Norden   betreten   oder  zum  Sumpf  und  demdahinterliegenden Wald im Süden zurückkehren."
+    },
+    {
+      "id": 360,
+      "source_offset": 1102,
+      "packed_bytes": 511,
+      "decoded_bytes": 891,
+      "decoded_sha256": "c010ad84448d7ba071fc3692feb0a3eb0be786d90d3f661169d51e14d4195018",
+      "text": "Während  Du  mit  dem  Boot  über  den  See  ruderst, schaust Du auf diebräunliche  Brühe  links  und  rechts  Deines  Bootes  herab: Irgendwieerinnert  sie  Dich  unangenehm  an  den Kaffee, den Du Dir zuhause voreiner  langen  Nacht  zusammenzubrauen pflegtest, unbeeindruckt von derTatsache,  daß  Du wegen dieses \"Killer-Kaffees\" bereits seit Monaten ganz obenauf  der  Drogenfahndungsliste  der Kriminalpolizei rangiertest: Sechs gehäufteLöffel  Kaffee  pro Tasse - das Gesöff hat sogar Tote wieder zum Leben erweckt,um  sie  gleich  darauf  nach einer Herzattacke wieder in die Ewigen Jagdgründezurückzuschicken!  Ein  nicht  ganz  unpassender  Vergleich  übrigens, denn werweiß  schon,  was sich wohl unter dieser braunen Masse versteckt und nur daraufwartet,  zum  Leben  erweckt zu werden...? Nicht denken, Mann: RUDERN! Und zwarnach Norden, wenn Du die Insel heil erreichen willst."
+    },
+    {
+      "id": 361,
+      "source_offset": 1613,
+      "packed_bytes": 1086,
+      "decoded_bytes": 1923,
+      "decoded_sha256": "b1774738d9d30f4ed6d6137eef99140f61af09231e59609d0819a04125d4d2bf",
+      "text": "Neugierig  betrittst Du die undurchdringlichen Sumpfgebiete. Obwohl sichder  Boden  schon  gefährlich  weich  und  schlüpfrig anfühlt, setzt DuDeinen  Weg  unbeirrt  fort  - bis Du Dir schließlich eingestehen mußt,daß  Du  Dich  mal wieder völlig verfranzt hast! Wütend schlägst Du Direine  Bresche  durch  die  dichte,  feuchte Vegetation, in der Hoffnung, daß Duauf  irgendeinen  markanten  Punkt  stoßen  wirst, der Dir vielleicht ein wenigbei  der  Orientierung  hilft,  doch  irgendwie  scheinst  Du  nur  im Kreis zulaufen!  Nach  einiger  Zeit  kommt  Dir  endlich  der  rettende Gedanke: Stattziellos  umherzuirren,  beschließt  Du, Deinen Weg stur geradeaus fortzusetzen.Irgendwann  wirst  Du  schon  an  ein Ufer der Insel kommen, von wo aus Du Dichzum  Landeplatz  Deines  Bootes  durchschlagen kannst! Frischen Mutes machst DuDich  also  auf  den Weg, bis Du endlich auf eine kleine Lichtung gelangst, vonder  aus  Du  im  Südosten  auch  schon  das  südliche  Ufer der Insel erkennenkannst,  wo  auch  dieses  merkwürdige  Schild  stand,  dessen  Sinn  Du  nichtverstanden  hast.  \"Puh, geschafft!\", denkst Du Dir erleichtert und willst Dicherschöpft   hinhocken,   um  ein  wenig  zu  verschnaufen,  als  Du  zu  DeinemErschrecken  feststellen  mußt,  daß  Du  bereits bis zu den Knien in den Bodeneingesackt  bist.  Von  Panik  ergriffen strampelst Du wie wild mit den Beinen,ohne   Dich   jedoch   auch   nur  einen  einzigen  Zentimeter  aus  dem  Bodenherauszubewegen  -  im Gegenteil: Du sackst nur noch tiefer ein! Tja, wie jedesrichtiges  Adventure  besitzt  auch \"Soul Crystal\" eine Treibsand-Location: Nunkennst  Du  sie!  Während  Du  also  langsam  Deiner  Bestimmung als Moorleichezugeführt  wirst,  fühlst Du zu Deinem Trost zumindest noch, wie Dein Fuß gegendie   Überreste   eines  anderen  unglücklichen  Abenteurers  stößt,  der  sichanscheinend für dieselbe Route entschieden hatte wie Du..."
+    },
+    {
+      "id": 362,
+      "source_offset": 2699,
+      "packed_bytes": 486,
+      "decoded_bytes": 851,
+      "decoded_sha256": "c1345cf4553f8c966891f30b76dd8888183016398dee5162b98877017da4dd15",
+      "text": "Du  erreichst  das  Ufer  eines wunderschönen, ruhigen Eilands. Alles umDich  herum  macht einen ziemlich unberührten und verwilderten Eindruck-  fast  so,  als  ob  seit  Jahrhunderten  niemand mehr seinen Fuß aufdiese  Insel  gese...  \"Mist! Nicht noch eine Parallelwelt!\", denkst DuDir    und    verfluchst    im    Stillen    die   Einfallslosigkeit   gewisserSpieledesigner...  Der  Sumpfsee  befindet  sich hinter Dir im Süden, weiter imNorden  liegt  ein  kleiner,  bewaldeter  Hügel,  von  dem  aus  man  eine guteAussicht  über  die  Insel  haben  müßte, und zu Deiner Linken steht ein Schildmit  der  Aufschrift  \"Achtung  -  Treibsand! Durchgang verboten! Eltern haftenfür  ihre  Kinder!\"  Naja, vielleicht solltest Du Dir doch die Mühe machen, malwieder   Deinen   Spielstand  abzuspeichern,  bevor  Du  Deinen  Erkundungsgangfortsetzt...?"
+    },
+    {
+      "id": 363,
+      "source_offset": 3185,
+      "packed_bytes": 350,
+      "decoded_bytes": 621,
+      "decoded_sha256": "f7579b31cba8f37fdf897427f523a8587eb5c279ccadd2e2102d675cd25421ac",
+      "text": "Du  betrittst  die  Hütte  eines älteren Einsiedlers, die dieser sich imLaufe  der  Jahre  aus  den Steinen und Ästen zusammengeflickt hat, diehier  überall  auf  der  Insel  herumliegen. Als Du ohne anzuklopfen inseine  Hütte  eintrittst, blickt der alte Eremit, der damit beschäftigtwar,  Pfeilspitzen  für  die  nächste Wolfshatz zu schleifen, von seiner Arbeitauf  und  blickt  Dich aus neugierigen - wenn auch etwas blöden - Augen an, alsob  er  Dich  fragen  wollte,  von welchem Planeten denn Du kämest... Durch diekleine  Türluke  im  Osten  kannst  Du die Lichtung sehen, von der aus Du dieseHütte betreten hast."
+    },
+    {
+      "id": 364,
+      "source_offset": 3535,
+      "packed_bytes": 666,
+      "decoded_bytes": 1199,
+      "decoded_sha256": "04e1a4d12c0d2360828e1085debfa501e7d57bbdc24dcf36071995a77d63b654",
+      "text": "Du  befindest  Dich  auf  einer  kleinen Lichtung inmitten eines dunklenWaldes.  Unmengen  Steine,  Bretter  und anderes Baumaterial liegen aufdem   Boden   vor  der  kleinen  Hütte  im  Westen  herum,  über  derenSchornstein  sich  friedlich  eine  kleine  Rauchfahne gegen den Himmelkräuselt.  Weiter  nordwärts  kannst  Du am Saum des Waldes ein dampfendes Moorerkennen,  dessen  feuchte  Nebelschwaden  schwer  und  unheilverkündend in denWald  hineinwehen.  Rechts  neben  Dir  befindet sich ein Pfad, der Dich wiederauf  den  kleinen  Hügel hinaufführt, von dem Du Dir einen guten Überblick überdie   geographischen   Gegebenheiten   dieser   Insel   verschaffen   könntest.Schließlich  befindet  sich  hinter  Dir  noch  ein  Schild  mit der Aufschrift\"Achtung  -  Treibsand!  Durchgang  verboten!  Eltern  haften für ihre Kinder!\"Tja,  wenn  Du  Dir  tatsächlich  in  weiser  Voraussicht eine Karte gezeichnethaben  solltest,  so  wird  sie Dir an dieser Stelle unter Umständen von Nutzensein  können  -  wenn  nicht,  macht  das aber auch nichts: Wenn es soweit ist,wirst  Du  wohl  verstehen, was ich gemeint habe - aber vergiß bis dahin nicht,Deinen Spielstand regelmäßig abzuspeichern..."
+    },
+    {
+      "id": 365,
+      "source_offset": 4201,
+      "packed_bytes": 389,
+      "decoded_bytes": 688,
+      "decoded_sha256": "3205a05bea555232369041303d1e54c50bd5b56b16357ca1bbe579c1e8372522",
+      "text": "Unter  allergrößten  Anstrengungen  schleppst Du Dich auf den Gipfel deszirka  einhundert  Meter  hohen  Hügels.  Nachdem Du Dich auf einen dergrößeren  Felsen  gesetzt  hast,  um  Dich  von  Deinem kräftezehrendenGipfelsturm  zu  erholen,  betrachtest Du Deine Umgebung etwas genauer:Der  gesamte  Hügel  ist  von  einem  dichten Wald umgeben, durch den sich dreiPfade  winden:  Der  westliche Weg führt hinunter auf eine kleine Lichtung, vonder  aus  Du  auch  das  Moor  im  Nordwesten der Insel erreichst, der südlicheendet  am  Ufer  des  Sumpfsees,  wo  Dein  Boot auf Dich wartet, und im Nordenliegt  düster  und  ehrfurchtgebietend das Ziel Deiner langen Reise: Das SchloßZargons!"
+    },
+    {
+      "id": 366,
+      "source_offset": 4590,
+      "packed_bytes": 674,
+      "decoded_bytes": 1197,
+      "decoded_sha256": "51de2d90ac4e608c86f5f5766768f99754866bd0dfbe52d9338617633981b5f2",
+      "text": "Zitternd  und  noch  immer  in  panischer  Erregung über das, was Du vorwenigen  Sekunden  erlebt  hast,  bleibst  Du  am  westlichen Rande desMoores  stehen,  um  ein wenig zu verschnaufen. Zumindest kannst Du vonDeinen   Verfolgern   keine   Spur  mehr  entdecken:  Du  scheinst  sieabgehängt  zu  haben, aber - wohin nun? \"Mist!\", denkst Du Dir verbittert,\"Wäreich  doch  nur  in  meinem  gemütlichen Hotel geblieben und hätte mich ein paarWochen  lang  entspannt,  statt  mal  wieder das Abenteuer zu suchen! Nun habenwir  den  Salat:  Jetzt  sitze  ich einsam und verlassen in der Pampa, habe dasbißwütige  Zombierudel  hinter  mir  -  und  überhaupt  war das ganze Spiel eineinziger  Fehlkauf!  Nie im Leben werde ich wieder Geld für solch einen Schrottausgeben!\"   Wie   recht  Du  mit  Deinem  letzten  Statement  hast,  wird  Dirallerdings  erst  richtig klar, als Du Dich umschaust und zu Deinem Erschreckenfeststellen  mußt,  daß  der  einzige  Ausweg  aus  diesem Teil des Moores nachOsten  führt  -  direkt in die Arme der Zombies, die Deine Verfolgung aus gutemGrund  aufgegeben  haben: Sie kennen dieses Moor sehr genau - den Ort, der wohlfrüher oder später Dein Grab werden wird..."
+    },
+    {
+      "id": 367,
+      "source_offset": 5264,
+      "packed_bytes": 736,
+      "decoded_bytes": 1300,
+      "decoded_sha256": "37185c1a1252c2e07c5839003cf605b8ba5cdce85e0d606eaf0d7c34621bf6ee",
+      "text": "Während  Du  auf einem mehr imaginären als tatsächlich vorhandenen Pfad,der  von  Süden  nach  Westen  verläuft,  über  das Moor läufst, sinkenDeine  Füße  tiefer  und tiefer in den schwammig-weichen Boden ein. Derundurchdringliche,  feuchte  Nebel,  der  zu beiden Seiten Deines Wegesaufsteigt,  verdichtet  sich  zu  grotesken Fabelwesen, deren Anblick Dir kalteSchauder  über  den  Rücken  jagt... Kurze Zeit später sagst Du Dir jedoch, daßalles,  was  um  Dich  herum passiert, lediglich ein Produkt Deiner überreiztenNerven  ist  -  Hirngespinste, die bloß Deiner blühenden Fantasie erwachsen. UmDir  ein  wenig  Mut  zu  machen,  denkst  Du  an Deine bisherigen Abenteuer indieser  Welt  zurück,  und  daß schon etwas mehr dazu gehört, einen Dave Parkerdas  Fürchten  zu  lehren, als bloß ein paar lächerliche Nebelschwaden und einegespenstische   Geräuschkulisse.  Gerade  willst  Du  neuen  Mutes  Deinen  Wegfortsetzen,  als  Du  ein merkwürdiges, blubberndes Geräusch vor Dir hörst, dasnäher  und  näher  zu  kommen  scheint - ein Geräusch, das alles andere ist alsirreal!  Gehetzt  siehst  Du  Dich  um,  doch  nirgendwo  inmitten des wogendenNebelmeeres  kannst  Du eine Erklärung für diese unheimlichen Geräusche finden,die direkt aus den tiefsten Tiefen des Moores zu kommen scheinen..."
+    },
+    {
+      "id": 368,
+      "source_offset": 6000,
+      "packed_bytes": 381,
+      "decoded_bytes": 677,
+      "decoded_sha256": "85cd21bf8a33636b35fee81395ffd9b22f5ca5dab60f3701e2124d3afca3caac",
+      "text": "Du  stehst  direkt  vor dem Ziel Deiner Reise - der Schloßruine Zargons!Viel   ist   aber  wirklich  nicht  übriggeblieben  von  dem  einstigenKönigsschloß:   Das  einzige,  was  inmitten  der  traurigen  Überresteerhalten  ist,  ist  das riesige Eintrittsportal in der hohen Mauer vorDir  -  der einzige Zugang zu Zargons Hauptquartier, wie Du ein wenig entmutigtfeststellen  mußt.  Wenn Du es wagst, kannst Du nun versuchen, Zargons Feste zubetreten  -  doch  niemand  würde  es  Dir verübeln, wenn Du angesichts der Dirhinter  diesen  Mauern  drohenden  Gefahren  im letzten Moment einen Rückziehermachen und zu Deinem Boot am südlichen Ufer der Insel zurückkehren wolltest."
+    },
+    {
+      "id": 369,
+      "source_offset": 6381,
+      "packed_bytes": 397,
+      "decoded_bytes": 688,
+      "decoded_sha256": "dd1dc0b42483cff1c7da6e96a5b5846b91080b66073bf2253ebff1d6f1f2c9d7",
+      "text": "Du  betrittst das Torhaus, das vor langer, langer Zeit einmal jedermann,der  Eintritt  in  des  Königs  Schloß begehrte, zu passieren hatte. Dumußt  leise  kichern,  als Du Dir vorzustellen versuchst, wie der alte,schwerhörige  \"Torwächter\"  von  \"Mary's  Inn\" hier säße und alle neuenBesucher  kontrollierte!  Als  Du  Dich  umsiehst,  erkennst  Du,  daß alles indiesem  Raum  mit  einer dicken Staubschicht bedeckt ist. Trotzdem schätze ich,daß  das  übliche  Gesindel  uns  mal  wieder  zuvorgekommen ist und hier schonlängst  alles,  was  nicht niet- und nagelfest war, geplündert hat... Durch diekleine  Tür  in der Ostwad gelangst Du wieder nach zurück nach draußen, vor dasBurgtor."
+    },
+    {
+      "id": 370,
+      "source_offset": 6778,
+      "packed_bytes": 1030,
+      "decoded_bytes": 1843,
+      "decoded_sha256": "45a787d0d6a11601344057733ae5e4dd4aeb712102b94b0a12e27d4f56c82223",
+      "text": "Direkt  vor  Dir  erhebt sich drohend und massig das massive Burgtor mitseinen    eisernen    Beschlägen.   Hämisch   scheint   es   auf   Dichhinabzustarren  -  fast  schon  so, als ob es sagen wollte: \"Dich werdeich  hier  niemals  wieder  herauslassen...!\",  und  prompt bekommst Duauch  schon  das  leichte  und  unbestimmte,  andererseits jedoch absolut nichtangenehme  Gefühl,  daß  Du  diesen  Zugang  zum  Schloß  tatsächlich  nur  eineinziges  Mal  durchschreiten  wirst...  Noch  hast Du ein wenig Zeit, Dir DeinVorhaben  reiflich  zu  überlegen  -  und  wir sollten Dich fairerweise warnen,obwohl  Du  Dich  eigentlich  schon  auf  dem  richtigen  Weg zur Lösung DeinerAufgabe  befindest:  Wenn  Du  es  tatsächlich  wagen  solltest, dieses düstereGemäuer  entgegen  allen  unseren  Warnungen  zu  betreten, so wird Dich diesesSpiel  so  lange  nicht  schlafen  lassen,  bis  Du es endlich gelöst hast. Ichschlage  daher  vor,  daß Du Dir erst einmal ein paar Fäßchen Kaffee auf Vorratbraust,  ein  paar  Stangen  Zigaretten  kaufst  - und Dir vor allen Dingen einpaar  halbwegs  intelligente  Entschuldigungen  für  Deinen Boss ausdenkst! So,und  solltest  Du  nach all diesen furchterregenden Ankündigungen trotzdem nochden  Mut  -  oder  den  Leichtsinn? - besitzen, Zargons Burg zu betreten - hiersind  die  Ausgänge:  Im  Westen  gelangst Du in ein kleines Torhaus, in dem Duvielleicht  in  letzter  Minute  noch  den  einen  oder  anderen  Hinweis  odernützlichen  Gegenstand  finden  könntest.  Gehst  Du  hingegen  nach Norden, sobetrittst  Du  entweder  das Innere der Ruine, oder Du knallst mit voller Wuchtin  massives  Eichenholz  - je nach Zustand des Burgtores... Schließlich bliebeDir  noch  der  Rückzug  gen  Süden, aus dem Schloß heraus - ohne Deine Missionerfüllt zu haben nicht sehr sinnvoll, meinst Du nicht...?"
+    },
+    {
+      "id": 371,
+      "source_offset": 7808,
+      "packed_bytes": 298,
+      "decoded_bytes": 515,
+      "decoded_sha256": "55869f9daa06c5058750cc8e1a563e24d4dcc58960ebf6d094d4b53f33786d79",
+      "text": "Hmmm...:  Mir  ist  zwar  durchaus  bekannt, daß es Leute gibt, die ein Moorbadaufgrund  seiner  gesundheitsfördernden Wirkungen sehr zu schätzen wissen, aberdies  hier  ist  ein  tiefer  Sumpf  -  nicht bloß irgendein harmloses, kleinesMoor!  Hilflos  sinkst  Du  also bis auf den Grund des Sumpfsees hinab, um dortfür  alle  Ewigkeiten  konserviert  zu  werden.  Tja, also ich glaube trotzdem,eine  Konservierung  durch  die  \"Speichern\"-Funktion  wäre  Deiner  Gesundheitzuträglicher gewesen, meinst Du nicht...?"
+    },
+    {
+      "id": 372,
+      "source_offset": 8106,
+      "packed_bytes": 901,
+      "decoded_bytes": 1612,
+      "decoded_sha256": "008bdf6f44e2bf31aa92dd81d61786bb96cfdec5130f6ab91f911be27d9472df",
+      "text": "Nach  wenigen  Metern hältst Du inne und horchst noch einmal in die trügerischeStille   hinein:   Nein,   es  war  tatsächlich  keine  Einbildung  -  da  sindtatsächlich  Geräusche,  die  sich  unangenehm  von  dem  stetigen Blubbern desMoorbodens  abheben!  Schritte  nähern  sich  Dir von hinten, werden lauter undlauter  -  langsam,  aber unaufhaltsam... Erschrocken wirbelst Du herum, kannstaber  nichts  als  dichte,  waberndende  Nebelschwaden  erkennen,  die  sich zugrotesken,  Dich  für  Deine Furcht verhöhnenden Fratzen verziehen... Plötzlichjedoch  begint  der  Boden  neben Dir zu brodeln und Blasen zu schlagen, als ober   kochte   -   und   dann   taucht  das  grausig  entstellte  Gesicht  eineshalbverwesten  Leichnams  aus  der  Tiefe auf! Starr vor Entsetzen und unfähig,Deinen  Blick  von dem grauenerregenden Schauspiel abzuwenden, mußt Du zusehen,wie  sich  ein  Zombie  aus  den Tiefen des Moores erhebt! Im selben Moment, indem  Du  wieder  die  Kontrolle  über  Dich  selbst  erlangst,  schießen  seinekrallenbewehrten  Klauen  auch  schon  auf  Deine Kehle zu! Du weißt nicht wie,aber  irgendwie  wirfst  Du  Dich  noch  einmal  mit  aller Kraft zur Seite undentgehst  so  dem sicheren Tod! Allerdings strauchelst Du bei Deiner Parade undlandest  unsanft  im  Matsch! Nun scheint der Schwarzblüter endlich gewonnen zuhaben:  Während  Du  Dich  krampfhaft  bemühst, wieder auf Die Beine zu kommen,nähert  er  sich  Dir  zischend  und  fauchend:  Während  er  auf Dich zuwankt,klappen  seine  Kiefer mit einem knarrenden Laut auf und zu und entblößen seinewiderlich-braunen Zahnstümpfe..."
+    },
+    {
+      "id": 373,
+      "source_offset": 9007,
+      "packed_bytes": 430,
+      "decoded_bytes": 761,
+      "decoded_sha256": "b30283fa15a4bdc46685cd2f2233fd05403666af63099ab08298488813e5999c",
+      "text": "Tut  mir  leid:  Du hattest wirklich eine reelle Chance gehabt, noch einmal mitdem  Schrecken  davonzukommen,  aber  leider  hast  Du  mal wieder ein wenig zulange  gezögert:  Glücklich  zieht  Dich  der  Zombie an Dich heran und schlägtvoller   Genuß   seine  Zähne  in  Dein  junges,  zartes  Fleisch!  Aber  nichtverzweifeln:  Immerhin  bis  Du  einem  echten  Gourmet zum Opfer gefallen, undsicherlich  werden  einige  Deiner  schmackhaftesten  Körperteile,  wie  Augen,Zunge,  und  ähnliche  Delikatessen,  in  seine  Vorratshöhle  verfrachtet  undeingemacht  werden,  da  es  einfach  viel  zu  selten  vorkommt,  daß sich einunglücklicher  Abenteurer  in  diese  Gegend  verirrt, als daß man solch' fetteBeute gleich an Ort und Stelle verzehren sollte..."
+    },
+    {
+      "id": 374,
+      "source_offset": 9437,
+      "packed_bytes": 826,
+      "decoded_bytes": 1474,
+      "decoded_sha256": "77d30253fb58b2c00188d388a7a8cfd08de7f1d2694be2e2c56c43a66c207f00",
+      "text": "Es  war  ein  tödlicher Fehler, nach Deiner Begegnung von vorhin wieder hierherzurückzukehren:  Ein  wahres  Rudel  Zombies  steht  bereits  zu Deinem Empfangbereit  und  kommt  mit  lagsamen,  abgehackten  Bewegungen  und  starrem Blickdirekt  auf  Dich  zu  -  an  der  Spitze  der Zombie, dem Du gerade erst knappentronnen  bist!  Dieses  Mal  hast  Du  Dich  allerdings  etwas  besser  unterKontrolle,   und   Deine   Reaktion   ist  um  einiges  schneller  als  vorhin:Blitzschnell  wirbelst  Du  herum,  nimmst  die Beine in die Hand und rennst umDein  Leben,  so schnell es Dir auf dem weichen Moorboden überhaupt möglich ist-  und  direkt  in  die  ausgestreckten  Arme  eines weiteren Zombies, der wohlnicht  so  ganz  kapiert  hatte,  was hier draußen überhaupt abging! Zu schade,wirklich   -   denn   Deine   Zeit   war   schon   fast   weltrekordverdächtig!Nichtsdestotrotz  ist  der  Zombie  hocherfreut, Deine Bekanntschaft zu machen,da  er  schon  seit  Wochen nicht mehr in den Genuß frischen Fleisches gekommenist  -  und  immer nur \"Konservenabenteurer\" zu fressen, die im Sumpf versunkensind,  ist  auf  die  Dauer auch für einen halbverwesten Zombiemagen eine etwaszu  einseitige  und  ungesunde  Ernährung! Nach einem kurzen Tischgebet schlägter  also  dankbar  seine  Hauer  in Dein Fleisch: \"Verdammt! Wer hätte gedacht,daß  diese  brauen  Stümpfe  noch  so  scharf sein können...\", ist Dein letzterGedanke, bevor alles vor Deinen Augen verschwimmt..."
+    },
+    {
+      "id": 375,
+      "source_offset": 10263,
+      "packed_bytes": 300,
+      "decoded_bytes": 531,
+      "decoded_sha256": "6b32068fefd7eaa3c834b2de63e878242248bca78085f87a9a39dfa23488f011",
+      "text": "Während  Du  Dich auf den Rückweg aus dem verwunschenen Wald nach Süden machst,verfängt  sich  das  Amulett,  das  Dich  auf  dem  Hinweg  durch  die magischeBarriere  vor  ihrer  zerstörerischen  Kraft  beschützt  hatte,  in  einem  derabgestorbenen  Äste:  Ohne,  daß  Du es bemerkst, löst es sich von Deinem Hals,so  daß  Du - nichts Böses ahnend - frohen Mutes die Grenze zwischen den beidenWaldabschnitten  durchschreitest  und  die andere Seite der magischen Wand zwarknackig braun, aber leider auch ziemlich tot erreichst..."
+    },
+    {
+      "id": 376,
+      "source_offset": 10563,
+      "packed_bytes": 297,
+      "decoded_bytes": 525,
+      "decoded_sha256": "4172c0e6d39b892c6e67043fa88d415fceac34da48a9d172a214f0e19fd8cd6c",
+      "text": "Während  Du  unter  den  toten Bäumen entlangwanderst, fühlst Du plötzlich, wieetwas  brutal  an  Deinem  Hals zerrt! Zu Tode erschrocken versuchst Du, Deinenunsichtbaren  Gegner  abzuschütteln  und  wirfst  Dich  hin  und  her,  bis  erschließlich  von  Dir  abläßt  -  und Du Dich kaum beherrschen kannst, nicht inhysterisches   Gelächter   auszubrechen:   Dein  \"Gegner\"  war  lediglich  DeinAmulett,  das  sich von Dir unbemerkt in einem der Äste verfangen hatte und nunwie zum Hohn von einem der Bäume herunterbaumelt..."
+    },
+    {
+      "id": 377,
+      "source_offset": 10860,
+      "packed_bytes": 707,
+      "decoded_bytes": 1245,
+      "decoded_sha256": "f6608cdd89771f6b6e9305880835dc9aea06b3d99facbc1a9fcc0669b630e113",
+      "text": "Okay,  sagen wir: Es war ein Versuch - und reden wir nicht weiter darüber, dennsonderlich  erfolgreich  war  er nicht, wie Du schmerzhaft erfahren mußt: BevorDu   auch   nur   die   geringste   Chance   bekommst,  unter  dem  Portalbogenhindurchschlüpfen  zu  können,  hörst Du etwas von oben herunterrasseln... Najagut,  fassen  wir uns ausnahmsweise mal kurz und erzählen Dir einfach, was Dichmal  wieder  aus dieser schnöden Welt hinweggerafft hat: Das Fallgitter, das Duaktiviert  hast,  indem Du auf die kleine Plattform darunter getreten bist, hatDich  mit  einem  einzigen,  schweren  Schlag  erschlagen!  Du  bist  tot - ja,wirklich:  Das  ist unser voller Ernst! Du bist abgekratzt, hast den Löffel ausder  Hand  gelegt,  ins  Gras  gebissen,  kurz: Du bist weg! Beklag' Dich jetztbitte  nicht  bei  uns:  Hättest  Du  ein wenig aufmerksamer auf Deine Umgebunggeachtet,  so  wäre  Dir  die  kleine  Plattform  unter  dem  Gitter wohl nichtentgangen!  Siehst  Du?  Also ist es wohl eher Deine als unsere Schuld, wenn Dumal  wieder  von  vorn  anfangen  darfst!  Was,  das  glaubst  Du  nicht? Naja,irgendwie  kann  ich Dich ja verstehen: Du hast echt nicht den geringsten Grunddazu - aber vielleicht kann Dich dies hier ja überzeugen...:"
+    },
+    {
+      "id": 378,
+      "source_offset": 11567,
+      "packed_bytes": 73,
+      "decoded_bytes": 130,
+      "decoded_sha256": "f3ab0af77f247ae756b78e49785648372c575a86e2b1eb076dd07179459be1bc",
+      "text": "Weißt  Du:  Es  gibt Situationen im Leben eines Mannes, in denen er seine Beinezu gebrauchen wissen sollte - nicht seine Fäuste..."
+    },
+    {
+      "id": 379,
+      "source_offset": 11640,
+      "packed_bytes": 182,
+      "decoded_bytes": 326,
+      "decoded_sha256": "16e75b2e01ba8e001e8ec2be814d3a0597ca991bc405a7a779a3e233d46ccd5a",
+      "text": "Zweifelnd    betrachtest    Du    das    alte,    morsche   Boot:   Naja,   denvertrauenserwckendsten  Eindruck  macht  es wahrlich nicht, aber ich glaube, esbleibt  uns  wohl  keine  andere  Wahl,  wenn  wir den Sumpfsee halbwegs sicherüberqueren   wollen.   Wenn  Du  stattdessen  lieber  in  der  Pampe  schwimmenwillst...?"
+    },
+    {
+      "id": 380,
+      "source_offset": 11822,
+      "packed_bytes": 147,
+      "decoded_bytes": 241,
+      "decoded_sha256": "b74217b89f19272e4afde629e10414e683768fe0dae09665bcfac2015323a5e2",
+      "text": "Ein  Ziegelstein  ist  ein  Ziegelstein ist ein Ziegelstein, und diese Diskettehat  einen  Sprung  hat  einen  Sprung hat einen Spr... -MANN! Was erwartest Duschon  Besonderes  von  einem ZIEGELSTEIN?!?!? Klein, quadratisch, gut - reichtdas?"
+    },
+    {
+      "id": 381,
+      "source_offset": 11969,
+      "packed_bytes": 142,
+      "decoded_bytes": 252,
+      "decoded_sha256": "818e8df04039e4eed67624931b19acfb8edc7817865e6783e2ad0c7046f6719b",
+      "text": "Der  alte Eremit trägt ein lustiges Wams, das mit vielen bunten Flicken besetztist.  Obwohl  Du  ungebeten in seine Behausung eingetreten bist, schaut er Dichziemlich  freundlich  an,  wenn sein Blick auf Dich auch einen etwas verwirrtenEindruck macht."
+    },
+    {
+      "id": 382,
+      "source_offset": 12111,
+      "packed_bytes": 93,
+      "decoded_bytes": 164,
+      "decoded_sha256": "b4794b08e6b7db8fa93080e18a2666907ba0a0371be5f75f953c052a1d43ae8f",
+      "text": "Da  es  sich hier um einen ziemlich großen und schweren Schlüssel handelt, wirder  wohl  zu  einem  mindestens  ebenso  großen Schloß gehören, oder was meinstDu...?"
+    },
+    {
+      "id": 383,
+      "source_offset": 12204,
+      "packed_bytes": 102,
+      "decoded_bytes": 174,
+      "decoded_sha256": "4dcfaf285569d85134026cd4d391dcf7216f2fc03f91f7fb0680a54972a372ea",
+      "text": "Direkt  dort, wo die Gitterstäbe in den Boden einschlagen müßten, befindet sicheine  zirka  einen Quadratmeter große Plattform, die spärlich mit frischem Grasüberwachsen ist."
+    },
+    {
+      "id": 384,
+      "source_offset": 12306,
+      "packed_bytes": 192,
+      "decoded_bytes": 328,
+      "decoded_sha256": "779a0bd406f7c4f54f2752678428e1c26ef0135c1e97249f4067a6d6b8b30ebb",
+      "text": "Die  kleine  Plattform  erweckt  den Anschein, als wäre sie zur Aktivierung vonirgendetwas   in   den   Boden   eingelassen   worden:   einer  Klingel,  einesMK-III-Flugtoasterkatapults,  eines  Fastformaters,  oder  - noch bescheuerter:EINER  FALLE?  Neee,  also  das  wäre  nun  selbst  für  dieses  Spiel etwas zueinfallslos!"
+    },
+    {
+      "id": 385,
+      "source_offset": 12498,
+      "packed_bytes": 181,
+      "decoded_bytes": 308,
+      "decoded_sha256": "95c143af331b998bbb06bd4e00a70960d79a1bed4163672aa8f361fc9f6433f4",
+      "text": "IGITT!  Während  Du  den  Zombie  betrachtest, mußt Du krampfhaft das dringendeBedürfnis  unterdrücken,  ihm  nicht gleich direkt in die vergammelte Visage zukotzen:  Er  geht  Dir  ungefähr  bis  zur  Schulter, und während jeder noch sogeringen Bewegung fallen Reste fauligen Fleisches von seinen Knochen..."
+    },
+    {
+      "id": 386,
+      "source_offset": 12679,
+      "packed_bytes": 114,
+      "decoded_bytes": 192,
+      "decoded_sha256": "a729b668be6d9ae68d46d819ebbfe0578c4567b7cb0c170d11fee0767000a3a8",
+      "text": "Als  Du  versuchst, das Amulett vom Ast loszumachen, rutscht es Dir durch Deineimmer  noch  etwas  zittrigen  Finger,  fällt  zu  Boden - und verschwindet miteinem kurzen \"Blobb!\" im Morast..."
+    },
+    {
+      "id": 387,
+      "source_offset": 12793,
+      "packed_bytes": 251,
+      "decoded_bytes": 435,
+      "decoded_sha256": "26dec35faa9aebb2c698c662d4c359ef5bb83923efa16940e099c1405d27291c",
+      "text": "Der  alte  Eremit nimmt Dein Angebot dankbar an und bittet Dich freundlich, dasganze  Gerümpel  vor  seiner  Hütte  wegzuräumen  -  \"...die  Bandscheiben, Ihrversteht...?\"  Also,  ich  meine,  wir  sollten  das  den alten Hypochonder malschön  selbst  machen  lassen!  Die  Bewegung  an  der  frischen  Luft wird ihmsicherlich  guttun  -  Du  hingegen  hast  derweil  eine  wichtigere Aufgabe zuerfüllen als bloß Müllmann zu spielen..."
+    },
+    {
+      "id": 388,
+      "source_offset": 13044,
+      "packed_bytes": 114,
+      "decoded_bytes": 200,
+      "decoded_sha256": "2a02b53859421b83c476f317615f978519f008d3f6dd12687f43f10150c2183c",
+      "text": "Der  Zombie  wäre  Dir bestimmt bis an Dein Lebensende dankbar, wenn Du ihm einAuge  abgäbest  -  immerhin  hast  Du  zwei davon, und er hat heute noch nichtsAnständiges zwischen die Hauer bekommen..."
+    },
+    {
+      "id": 389,
+      "source_offset": 13158,
+      "packed_bytes": 171,
+      "decoded_bytes": 303,
+      "decoded_sha256": "46a2acffb8688ddea27386bcf6191627b5a71b3c18459138d16f929e87cf9e59",
+      "text": "Mühsam  ziehst  Du  die  Spitzen  des Fallgitters aus dem Boden und schiebst essoweit  nach  oben,  bis  es  sich  im Rahmen verkantet. Nun scheint die Gefahrerst  einmal  gebannt,  und es dürfte jetzt auch kein allzu großes Problem mehrsein, unter dem Gitter hindurch unter den Torbogen zu schlüpfen..."
+    },
+    {
+      "id": 390,
+      "source_offset": 13329,
+      "packed_bytes": 660,
+      "decoded_bytes": 1153,
+      "decoded_sha256": "7edd5c81bbe0c27a72fbc6386d9cdac77ba526f3ed32b949881150a4a24e504e",
+      "text": "Die  langen  Jahre  der  Einsamkeit  scheinen  den  alten  Mann wohl doch schonreichlich  verblödet  zu haben. Dennoch fragst Du ihn, was er über diese kleineInsel  zu  berichten weiß. \"Die Insel, die Insel...\", sinniert er vor sich hin,\"Wenn  ich  nur  wüßte,  welche  Insel  Du wohl meinen könntest! Vielleicht dieInsel,  die  Aeneas, der göttliche Held, vor Urzeiten betreten hat? Ah, ja: Ichhabe  auch  schon  von  einer  Insel  namens  \"Amerika\"  gehört,  die von einemgewissen  \"Columbo\",  äh:  \"Coulomb\"  entdeckt  worden  sein  soll  -  quatsch:\"Columbos\"  hieß  der  Knabe  -  ach,  vergiß' es wieder! Interessiert doch eh'keinen...  Oder  meinst  Du  vielleicht  sogar die Insel, auf der wir im Momentstehen?  Jawoll,  dies  hier  ist  nämlich  auch  eine  Insel, ob Du es glaubenwillst  oder  nicht!  Das  kannst Du zum Beispiel schon daran erkennen, daß sierundum  von  Wasser  umgeben  ist  und...\"  Genervt  verdrehst Du die Augen genHimmel,  als  angesichts  dieser  Lektion  aus  der hohen Schule der Geographieunangenehme  Erinnerungen  an  Deine  \"Sesamstraßen-Zeit\"  in  Dir aufzusteigendrohen: Schon damals hast Du's nicht kapiert..."
+    },
+    {
+      "id": 391,
+      "source_offset": 13989,
+      "packed_bytes": 888,
+      "decoded_bytes": 1579,
+      "decoded_sha256": "015c2e87a5b3ba00377562efb9970b859019fc034cf0aeda518ab26789268be0",
+      "text": "Mit  einer  wahren  Engelsgeduld entscheidest Du Dich, dem dummen Gebrabbel desAlten  noch  einmal  Gehör zu schenken, obwohl Du schon im Voraus zu bezweifelnwagst,  daß  Du  etwas Intelligenteres zu hören bekommen wirst als beim letztenMal.  Zu  Deiner  Überraschung antwortet der alte Eremit diesmal jedoch relativdirekt  auf  Deine Frage: \"Ja, doch, ich weiß etwas über diese Insel! Natürlichtu  ich  das:  Immerhin  lebe  ich  hier bereits seit über zehn Jahren! Du tustalso  sehr  gut daran, Dich an mich zu wenden - ich wohne hier nämlich und...\",erschrocken   hält   er   inne   und  blickt  auf  Deine  sich  gerade  in  denverschiedensten  Würgebewegungen  übenden  Hände,  und  fährt dann hastig fort:\"Also,  auch  auf  die  Gefahr hin, daß Du mich für verrückt erklären wirst,\" -Du  lachst  hysterisch  auf  -  \"muß  ich  Dir  sagen,  daß  die Flüsse hier umMitternacht  bergauf  fließen und sich bei Vollmond all die Abenteurer, die derSumpf  im  Laufe  der  Jahrzehnte  verschlungen hat, aus ihren feuchten Gräbernerheben   und  ausgelassene  Orgien  feiern!  Sogar  Zargon,  der  Dunkle  Lordhöchstpersönlich,  der  einst  einen  Pakt  mit dem Teufel geschlossen hat, derseine  Seele  gefrieren und einen riesigen, magischen Kristall einsperren ließ,ist  dann  hier  anwesend  und  nimmt  eine  Parade  seiner untoten Palastwacheab...\"  In  Erinnerung  an  all  die  rauschenden Feste und die vielen hübschenZombienchen,   die  er  im  Verlauf  dieser  schon  vernascht  hat,  hellt  eintiefgründiges Lächeln die verrunzelten Gesichtszüge des alten Männchens auf..."
+    },
+    {
+      "id": 392,
+      "source_offset": 14877,
+      "packed_bytes": 134,
+      "decoded_bytes": 217,
+      "decoded_sha256": "78aec279c602ce86644fbd59951a85bce792c84ee7286aed7567612f8558c3c7",
+      "text": "Es  mag  ja  sein,  daß  Du  Dich  noch  weiter über das ausgesprochen hirnloseGewäsch  des  Alten  amüsieren  möchtest - aber ICH NICHT! Mannomann! Da ist jasogar DIESER Schwachsinn noch halbwegs erträglich gegen...!"
+    },
+    {
+      "id": 393,
+      "source_offset": 15011,
+      "packed_bytes": 511,
+      "decoded_bytes": 925,
+      "decoded_sha256": "6d0e2d8c50cbeb3c3737bb7462ace768f0331adf0fa976881a551508ba95e2d0",
+      "text": "Schon  in  der  weisen  Voraussicht,  daß  sich  unter der Plattform vielleichtwieder  eine  dieser  einfallslosen  Fallen  verbergen  könnte, von denen es indiesem  Land  nur  so  zu  wimmeln  scheint,  läßt  Du  den armen, unschuldigenZiegelstein  aus  sicherer Entfernung vorsichtig auf sie aufschlagen: Im selbenMoment,  als  der  Stein  sein  Ziel trifft, rasselt das riesige Fallgitter vonoben  auf  ihn  herab  -  mit  einer Geschwindigkeit, die es nicht einmal einerRatte  erlaubt  hätte,  unversehrt auf die andere Seite des Gitters zu gelangen-  und  zerbröselt  den  Stein  in  tausend  handliche Kiesel!!! Irgendetwas inDeiner  Brust  verkrampft  sich  und  rutscht  eine Etage tiefer: Wie sähest Dujetzt  wohl  aus,  wenn  es  Dein  Gewicht  gewesen  wäre,  das den Mechanismusaktiviert  hätte?  Und  noch  viel wichtiger: Wer hat eigentlich den Dreck, denDeine Vorgänger hier hinterlassen haben, weggewischt ???"
+    },
+    {
+      "id": 394,
+      "source_offset": 15522,
+      "packed_bytes": 193,
+      "decoded_bytes": 333,
+      "decoded_sha256": "d4dd50e8669c2de132305ef246464ca4e9cd54a8e83f5b73bb9b178245d3064b",
+      "text": "Du  steckst  den  großen  Eisenschlüssel in das riesige Schloß des gigantischenBurgtores  und  drehst  ihn  herum!  Unglücklicherweise brichst Du dabei jedochden  Schlüssel  im Schloß ab - woher Du diese Kraft hast, ist Dir selbst völligschleierhaft!  Nichtsdestotrotz:  Zumindest  ist  das  Tor  jetzt  erst  einmalaufgeschlossen..."
+    },
+    {
+      "id": 395,
+      "source_offset": 15715,
+      "packed_bytes": 183,
+      "decoded_bytes": 306,
+      "decoded_sha256": "f4ae1d7e0c0ab43e268bc101e373529d61686b2dd2ff0ff22c1f3878e663c8b2",
+      "text": "Es  ist wieder einmal soweit: \"Hi. Hier sind die A.C.A-Götter...\", hörst Du einpaar  Stimmen  von  unendlicher  Güte  aus  dem Himmel zu Dir herunterschallen.\"Weiß   der  Geier,  wie  Du  es  geschafft  hast,  zwei  unserer  nervtötendenCodeabfragen zu überstehen - aber diesmal bist Du endlich fällig...!\""
+    },
+    {
+      "id": 396,
+      "source_offset": 15898,
+      "packed_bytes": 376,
+      "decoded_bytes": 642,
+      "decoded_sha256": "c6bf895ecde6bd906c4672818996fffa30193b55b1f72bd64ac674b3b5a1e116",
+      "text": "Dumpfes  Gemurmel,  Seitenblättern,  ein erstaunter Aufschrei...: \"WAS? Du hasttatsächlich  den  richtigen  Code  eingegeben  -  da  muß  doch  was faul sein!Kopiert  man  jetzt  auch  schon  Anleitungen  und  Packungsbeilagen mit? Naja,okay:  Du  hast jetzt auf jeden Fall das Recht, Zargons Schloß zu betreten. Na,wie  sieht's  aus:  Hast  Du  vielleicht  noch  'nen  letzten  Wunsch?\" Genervtbeschließt  Du,  dieses  alberne  Kindergewäsch schnell wieder zu vergessen undDich  zu  beeilen,  ins  Innere  der  Burg  zu  gelangen.  Anscheinend  hat dasSpieldesign   die   armen  Seelen  wirklich  zu  alten  Männern  (Eremiten...?)gemacht..."
+    },
+    {
+      "id": 397,
+      "source_offset": 16274,
+      "packed_bytes": 219,
+      "decoded_bytes": 374,
+      "decoded_sha256": "869c00e5985d1e082e91ad1499d3fd92ee6b4291ef1b170de8d65adeb3907c91",
+      "text": "\"Verdammter  Dieb!\",  kreischen  die  vier  Stimmen  hysterisch,  so daß Du Direrschrocken  die  Ohren  zuhältst!  \"Wie  hast  Du es nur bei den ersten beidenAbfragen  geschafft,  uns  hinters  Licht zu führen? Naja, jetzt haben wir Dichauf  jeden  Fall!  Hiermit  verfluchen wir Dich zur Strafe für Dein Verbrechen,für alle Ewigkeit in diesem langweiligen Raum zu bleiben!\""
+    }
+  ]
+}
