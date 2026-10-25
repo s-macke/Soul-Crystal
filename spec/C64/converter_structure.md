@@ -12,7 +12,7 @@ Spielregeln, Kontrollflussstruktur, Zahlenformate oder Datentabellenwerte.
 - `src/C/script_symbols.h`: zentrale Zuordnung von Variablenopcode zu Name,
   C-Typ, Beschreibung und ursprünglicher skalarer Speicheradresse.
   Arrayadressen sind hier noch nicht erfasst (`address = 0`). Die C-Typen sind
-  die bisherigen Ausgabetypen, keine neue Aussage über native Speicherbreiten.
+  feste 8-/16-Bit-Aliase; dies ist keine neue Aussage über native Speicherbreiten.
 - `src/C/c_output.h/.cpp`: `WriteC()` bekommt Tokens, Tabellen-/Funktionsmarken
   und Befehlsnamen als explizite, nur lesbare Eingabe. Tabellen, Deklarationen
   und Anweisungen werden hier ausgegeben. Keine Snapshot- oder JSON-Zugriffe.
@@ -26,7 +26,7 @@ Spielregeln, Kontrollflussstruktur, Zahlenformate oder Datentabellenwerte.
 | pointsum | score |
 | points | remainingPoints |
 | roomnumber | currentRoom |
-| addr6963 | diskSide |
+| addr6963 | gamePart |
 | textoutput | pendingTextID |
 | imageno | imageID |
 | addr6996 / addr6998 / addr699a | scratch1 / scratch2 / scratch3 |
@@ -63,9 +63,10 @@ Zahlen und Daten identisch. Lediglich die skalaren Deklarationen werden neu
 sortiert und mit Adresse/Beschreibung versehen. Die zusätzlichen Daten am Ende
 der vorhandenen `out/parta.c` wurden bei der Aktualisierung erhalten.
 
-Die erzeugten C-Dateien bleiben eine Portierungsreferenz; vollständige
-Kompilierbarkeit und Engine-Implementierung sind mit diesem Schritt nicht
-hergestellt. Ein sprachunabhängiger Syntaxbaum und eine Go-Ausgabe folgen separat.
+Die erzeugten C-Dateien bleiben eine Portierungsreferenz. Seit dem folgenden
+[Compile-/Tabellenschritt](c_compilation.md) lassen sich alle vier Teile als C11
+übersetzen; Engine-Implementierung und Linkfähigkeit bleiben offen. Ein
+sprachunabhängiger Syntaxbaum und eine Go-Ausgabe folgen separat.
 
 ## Funktionsnamen pro Spielteil
 

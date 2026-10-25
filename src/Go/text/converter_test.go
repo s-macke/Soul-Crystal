@@ -50,7 +50,7 @@ func TestConverterTextIDsAndSelectCases(t *testing.T) {
 		}
 		ram := read("data/C64/snapshots/disk" + strings.ToLower(side) + ".vsf")[0x99:0x10099]
 		lines := strings.Split(string(read(fmt.Sprintf("out/part%c.c", 'a'+i))), "\n")
-		functionRE := regexp.MustCompile(`void ([A-Za-z0-9_]+)\(\); // Part ([A-D]), script \$([0-9a-f]+)(?:; command ([0-9]+) \(([A-Z0-9]+)\), SELECT \$([0-9a-f]+) case ([0-9]+))?`)
+		functionRE := regexp.MustCompile(`void ([A-Za-z0-9_]+)\(void\); // Part ([A-D]), script \$([0-9a-f]+)(?:; command ([0-9]+) \(([A-Z0-9]+)\), SELECT \$([0-9a-f]+) case ([0-9]+))?`)
 		addresses := map[string]int{}
 		for _, line := range lines {
 			m := functionRE.FindStringSubmatch(line)
@@ -94,7 +94,7 @@ func TestConverterTextIDsAndSelectCases(t *testing.T) {
 		}
 		source := strings.Join(lines, "\n")
 		for name := range addresses {
-			if strings.Count(source, "void "+name+"() {") != 1 {
+			if strings.Count(source, "void "+name+"(void) {") != 1 {
 				t.Fatalf("missing/duplicate definition: %s", name)
 			}
 		}

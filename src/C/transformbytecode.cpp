@@ -525,6 +525,8 @@ int main(int argc, char **argv) {
     if (argc > 2) { fprintf(stderr, "Usage: %s [output-directory]\n", argv[0]); return 2; }
     const std::string outDir = argc == 2 ? argv[1] : "out";
     std::filesystem::create_directories(outDir);
+    WriteCHeader((outDir + "/game_script.h").c_str());
+    CTableFiles tableFiles((outDir + "/game_tables.c").c_str(), (outDir + "/game_tables.h").c_str());
     int size;
     //LoadByteCode("data/C64/d64/Soul Crystal SideB1.d64");
     //LoadByteCode("data/C64/d64/Soul Crystal SideC2.d64");
@@ -536,34 +538,38 @@ int main(int argc, char **argv) {
 
     Init();
     LoadVSF("data/C64/snapshots/diskb1.vsf");
+    tableFiles.WriteObjectNames(ram);
     //printf("%02x %02x %02x %02x %02x %02x %02x %02x\n", ram[0x7600], ram[0x7601], ram[0x7602], ram[0x7603], ram[0x7604], ram[0x7605], ram[0x7606], ram[0x7607]);
     //exit(1);
     size = 3490;
     //size = 0x2000;
     WalkCode(0x7600, size);
     TransformByteCode(size);
-    WriteC((outDir + "/parta.c").c_str(), {tokens, istable, isfunc, BuildFunctionSymbols(0, ram, isfunc, commandnames)}, text_comments_B1);
+    WriteC((outDir + "/parta.c").c_str(), {tokens, istable, isfunc, BuildFunctionSymbols(0, ram, isfunc, commandnames), objectnames, 165}, text_comments_B1, tableFiles);
 
     Init();
     LoadVSF("data/C64/snapshots/diskb2.vsf");
+    tableFiles.WriteObjectNames(ram);
     size = 7864;
     WalkCode(0x7600, size);
     TransformByteCode(size);
-    WriteC((outDir + "/partb.c").c_str(), {tokens, istable, isfunc, BuildFunctionSymbols(1, ram, isfunc, commandnames)}, text_comments_B2);
+    WriteC((outDir + "/partb.c").c_str(), {tokens, istable, isfunc, BuildFunctionSymbols(1, ram, isfunc, commandnames), objectnames, 165}, text_comments_B2, tableFiles);
 
     Init();
     LoadVSF("data/C64/snapshots/diskc1.vsf");
+    tableFiles.WriteObjectNames(ram);
     size = 3721;
     WalkCode(0x7600, size);
     TransformByteCode(size);
-    WriteC((outDir + "/partc.c").c_str(), {tokens, istable, isfunc, BuildFunctionSymbols(2, ram, isfunc, commandnames)}, text_comments_C1);
+    WriteC((outDir + "/partc.c").c_str(), {tokens, istable, isfunc, BuildFunctionSymbols(2, ram, isfunc, commandnames), objectnames, 165}, text_comments_C1, tableFiles);
 
     Init();
     LoadVSF("data/C64/snapshots/diskc2.vsf");
+    tableFiles.WriteObjectNames(ram);
     size = 6914;
     WalkCode(0x7600, size);
     TransformByteCode(size);
-    WriteC((outDir + "/partd.c").c_str(), {tokens, istable, isfunc, BuildFunctionSymbols(3, ram, isfunc, commandnames)}, text_comments_C2);
+    WriteC((outDir + "/partd.c").c_str(), {tokens, istable, isfunc, BuildFunctionSymbols(3, ram, isfunc, commandnames), objectnames, 165}, text_comments_C2, tableFiles);
     return 0;
 }
 

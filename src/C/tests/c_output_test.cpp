@@ -40,19 +40,30 @@ int main(int argc, char** argv) {
     tables[0x7615] = 1;
     append(DATA, 0x7615, "", 0x34);
     append(DATA, 0x7616, "", 0x12);
-    WriteC(argv[1], {tokens, tables, functions, symbols}, {{46, "fixture text"}});
+    {
+        CTableFiles tableFiles((std::string(argv[1]) + ".tables.c").c_str(), (std::string(argv[1]) + ".tables.h").c_str());
+        WriteC(argv[1], {tokens, tables, functions, symbols}, {{46, "fixture text"}}, tableFiles);
+    }
 
     std::ifstream stream(argv[1]);
     std::string output((std::istreambuf_iterator<char>(stream)), {});
     auto contains = [&](const std::string& expected) { assert(output.find(expected) != std::string::npos); };
+    contains("#include \"game_script.h\"");
+    WriteCHeader((std::string(argv[1]) + ".h").c_str());
+    std::ifstream headerStream(std::string(argv[1]) + ".h");
+    std::string header((std::istreambuf_iterator<char>(headerStream)), {});
     for (const auto& symbol : ScriptSymbols) {
-        if (!symbol.isArray) contains(std::string(symbol.cType) + " " + symbol.name + ";");
+        const std::string declaration = std::string("extern ") + symbol.cType + " " + symbol.name + (symbol.isArray ? ((symbol.token <= 0xa5 || symbol.token == 0xa8) ? "[RoomStateCount];" : "[ObjectStateCount];") : ";");
+        assert(header.find(declaration) != std::string::npos);
     }
     contains("score = 0x03e8;");
     contains("pendingTextID = 0x2e; // text ID 46 (0x002e), script $7605: fixture text");
     contains("case 1: PartA_HandleExample(); break;");
     contains("case 2: PartA_Sub_7800(); break;");
     contains("SPECIAL(0x64); // engine annotation");
-    contains("data0x7615[] = {0x34, 0x12};");
+    std::ifstream tableStream(std::string(argv[1]) + ".tables.c");
+    std::string tableSource((std::istreambuf_iterator<char>(tableStream)), {});
+    assert(tableSource.find("const unsigned char PartA_Table_7615[] = { // Script $7615: Unclassified raw table\n    0x34, 0x12\n};") != std::string::npos);
+    assert(output.find("PartA_Table_7615[]") == std::string::npos);
     assert(output.find("case 0:") == std::string::npos);
 }

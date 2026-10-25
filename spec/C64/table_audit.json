@@ -1,0 +1,833 @@
+{
+  "parts": [
+    {
+      "side": "B1",
+      "script_bytes_including_end_marker": 3491,
+      "whole_script_matches_snapshot": true,
+      "tables": [
+        {
+          "name": "PartA_TakeableObjects",
+          "address": "$825E",
+          "fields": [
+            "object:u8"
+          ],
+          "physical_bytes": 40,
+          "physical_records": 40,
+          "readers": [
+            {
+              "address": "$7EBD",
+              "records": 40,
+              "record_bytes": 1
+            }
+          ],
+          "maximum_read_bytes": 40,
+          "disk_sha256": "d1c3b59315f10fbb12ff444abf331ab77455bc57adbe478dc5f0ef6ae1d4e413",
+          "matches_snapshot": true,
+          "same_as_part_a": true
+        },
+        {
+          "name": "PartA_OpenCloseObjects",
+          "address": "$8286",
+          "fields": [
+            "object:u8",
+            "direction:u8",
+            "destination:u8"
+          ],
+          "physical_bytes": 81,
+          "physical_records": 27,
+          "readers": [
+            {
+              "address": "$7AAC",
+              "records": 28,
+              "record_bytes": 3
+            },
+            {
+              "address": "$7DB6",
+              "records": 28,
+              "record_bytes": 3
+            }
+          ],
+          "maximum_read_bytes": 84,
+          "overlap_hex": "10 11 30",
+          "disk_sha256": "70b4fec72deef04df6a1f79ae5f8f38a3eca3623355ebeeb0a6448d961bbf588",
+          "matches_snapshot": true,
+          "same_as_part_a": true
+        },
+        {
+          "name": "PartA_LockKeyPairs",
+          "address": "$82D7",
+          "fields": [
+            "object:u8",
+            "key:u8"
+          ],
+          "physical_bytes": 24,
+          "physical_records": 12,
+          "readers": [
+            {
+              "address": "$8112",
+              "records": 12,
+              "record_bytes": 2
+            },
+            {
+              "address": "$81B5",
+              "records": 12,
+              "record_bytes": 2
+            }
+          ],
+          "maximum_read_bytes": 24,
+          "disk_sha256": "6938ea1c33bbd3ba6cf398aaa6e9cd899e68e19cb95acb5e18039439bfe30375",
+          "matches_snapshot": true,
+          "same_as_part_a": true
+        },
+        {
+          "name": "PartA_LockingExceptions",
+          "address": "$82EF",
+          "fields": [
+            "object:u8"
+          ],
+          "physical_bytes": 7,
+          "physical_records": 7,
+          "readers": [
+            {
+              "address": "$8148",
+              "records": 7,
+              "record_bytes": 1
+            },
+            {
+              "address": "$81EB",
+              "records": 7,
+              "record_bytes": 1
+            }
+          ],
+          "maximum_read_bytes": 7,
+          "disk_sha256": "8db93381a58fe180212ad7787005ee6645af600b00a5152f084bdc594fca117d",
+          "matches_snapshot": true,
+          "same_as_part_a": true
+        },
+        {
+          "name": "PartA_HelpResponses",
+          "address": "$82F6",
+          "fields": [
+            "object:u16le",
+            "text:u16le"
+          ],
+          "physical_bytes": 84,
+          "physical_records": 21,
+          "readers": [
+            {
+              "address": "$7CDB",
+              "records": 21,
+              "record_bytes": 4
+            }
+          ],
+          "maximum_read_bytes": 84,
+          "disk_sha256": "4ae806a4b0a5804f3611ec17a6944445accc903534f1656cf6a4a1d34c67db3a",
+          "matches_snapshot": true,
+          "same_as_part_a": true
+        },
+        {
+          "name": "PartA_DestroyResponses",
+          "address": "$834A",
+          "fields": [
+            "object:u16le",
+            "text:u16le"
+          ],
+          "physical_bytes": 28,
+          "physical_records": 7,
+          "readers": [
+            {
+              "address": "$7B39",
+              "records": 7,
+              "record_bytes": 4
+            }
+          ],
+          "maximum_read_bytes": 28,
+          "disk_sha256": "4bd9312111919c2b63269532c09100fa5431973c857dccc4bc0a51582bbb978b",
+          "matches_snapshot": true,
+          "same_as_part_a": true
+        },
+        {
+          "name": "PartA_TalkResponses",
+          "address": "$8366",
+          "fields": [
+            "object:u16le",
+            "text:u16le"
+          ],
+          "physical_bytes": 60,
+          "physical_records": 15,
+          "readers": [
+            {
+              "address": "$7F31",
+              "records": 15,
+              "record_bytes": 4
+            }
+          ],
+          "maximum_read_bytes": 60,
+          "disk_sha256": "3c82100403b36fb89ce3f81de1e195549b2de566637d5c134dc91fe679cade30",
+          "matches_snapshot": true,
+          "same_as_part_a": true
+        }
+      ]
+    },
+    {
+      "side": "B2",
+      "script_bytes_including_end_marker": 7865,
+      "whole_script_matches_snapshot": true,
+      "tables": [
+        {
+          "name": "PartB_TakeableObjects",
+          "address": "$9374",
+          "fields": [
+            "object:u8"
+          ],
+          "physical_bytes": 40,
+          "physical_records": 40,
+          "readers": [
+            {
+              "address": "$871F",
+              "records": 40,
+              "record_bytes": 1
+            }
+          ],
+          "maximum_read_bytes": 40,
+          "disk_sha256": "d1c3b59315f10fbb12ff444abf331ab77455bc57adbe478dc5f0ef6ae1d4e413",
+          "matches_snapshot": true,
+          "same_as_part_a": true
+        },
+        {
+          "name": "PartB_OpenCloseObjects",
+          "address": "$939C",
+          "fields": [
+            "object:u8",
+            "direction:u8",
+            "destination:u8"
+          ],
+          "physical_bytes": 81,
+          "physical_records": 27,
+          "readers": [
+            {
+              "address": "$7F95",
+              "records": 28,
+              "record_bytes": 3
+            },
+            {
+              "address": "$856C",
+              "records": 28,
+              "record_bytes": 3
+            }
+          ],
+          "maximum_read_bytes": 84,
+          "overlap_hex": "10 11 30",
+          "disk_sha256": "70b4fec72deef04df6a1f79ae5f8f38a3eca3623355ebeeb0a6448d961bbf588",
+          "matches_snapshot": true,
+          "same_as_part_a": true
+        },
+        {
+          "name": "PartB_LockKeyPairs",
+          "address": "$93ED",
+          "fields": [
+            "object:u8",
+            "key:u8"
+          ],
+          "physical_bytes": 24,
+          "physical_records": 12,
+          "readers": [
+            {
+              "address": "$9199",
+              "records": 12,
+              "record_bytes": 2
+            },
+            {
+              "address": "$92B7",
+              "records": 12,
+              "record_bytes": 2
+            }
+          ],
+          "maximum_read_bytes": 24,
+          "disk_sha256": "6938ea1c33bbd3ba6cf398aaa6e9cd899e68e19cb95acb5e18039439bfe30375",
+          "matches_snapshot": true,
+          "same_as_part_a": true
+        },
+        {
+          "name": "PartB_LockingExceptions",
+          "address": "$9405",
+          "fields": [
+            "object:u8"
+          ],
+          "physical_bytes": 7,
+          "physical_records": 7,
+          "readers": [
+            {
+              "address": "$91CF",
+              "records": 7,
+              "record_bytes": 1
+            },
+            {
+              "address": "$92ED",
+              "records": 7,
+              "record_bytes": 1
+            }
+          ],
+          "maximum_read_bytes": 7,
+          "disk_sha256": "8db93381a58fe180212ad7787005ee6645af600b00a5152f084bdc594fca117d",
+          "matches_snapshot": true,
+          "same_as_part_a": true
+        },
+        {
+          "name": "PartB_HelpResponses",
+          "address": "$940C",
+          "fields": [
+            "object:u16le",
+            "text:u16le"
+          ],
+          "physical_bytes": 84,
+          "physical_records": 21,
+          "readers": [
+            {
+              "address": "$843F",
+              "records": 21,
+              "record_bytes": 4
+            }
+          ],
+          "maximum_read_bytes": 84,
+          "disk_sha256": "4ae806a4b0a5804f3611ec17a6944445accc903534f1656cf6a4a1d34c67db3a",
+          "matches_snapshot": true,
+          "same_as_part_a": true
+        },
+        {
+          "name": "PartB_DestroyResponses",
+          "address": "$9460",
+          "fields": [
+            "object:u16le",
+            "text:u16le"
+          ],
+          "physical_bytes": 28,
+          "physical_records": 7,
+          "readers": [
+            {
+              "address": "$80AA",
+              "records": 7,
+              "record_bytes": 4
+            }
+          ],
+          "maximum_read_bytes": 28,
+          "disk_sha256": "4bd9312111919c2b63269532c09100fa5431973c857dccc4bc0a51582bbb978b",
+          "matches_snapshot": true,
+          "same_as_part_a": true
+        },
+        {
+          "name": "PartB_TalkResponses",
+          "address": "$947C",
+          "fields": [
+            "object:u16le",
+            "text:u16le"
+          ],
+          "physical_bytes": 60,
+          "physical_records": 15,
+          "readers": [
+            {
+              "address": "$8888",
+              "records": 15,
+              "record_bytes": 4
+            }
+          ],
+          "maximum_read_bytes": 60,
+          "disk_sha256": "3c82100403b36fb89ce3f81de1e195549b2de566637d5c134dc91fe679cade30",
+          "matches_snapshot": true,
+          "same_as_part_a": true
+        }
+      ]
+    },
+    {
+      "side": "C1",
+      "script_bytes_including_end_marker": 3722,
+      "whole_script_matches_snapshot": true,
+      "tables": [
+        {
+          "name": "PartC_TakeableObjects",
+          "address": "$8345",
+          "fields": [
+            "object:u8"
+          ],
+          "physical_bytes": 40,
+          "physical_records": 40,
+          "readers": [
+            {
+              "address": "$7F59",
+              "records": 40,
+              "record_bytes": 1
+            }
+          ],
+          "maximum_read_bytes": 40,
+          "disk_sha256": "d1c3b59315f10fbb12ff444abf331ab77455bc57adbe478dc5f0ef6ae1d4e413",
+          "matches_snapshot": true,
+          "same_as_part_a": true
+        },
+        {
+          "name": "PartC_OpenCloseObjects",
+          "address": "$836D",
+          "fields": [
+            "object:u8",
+            "direction:u8",
+            "destination:u8"
+          ],
+          "physical_bytes": 81,
+          "physical_records": 27,
+          "readers": [
+            {
+              "address": "$7BDB",
+              "records": 28,
+              "record_bytes": 3
+            },
+            {
+              "address": "$7E62",
+              "records": 28,
+              "record_bytes": 3
+            }
+          ],
+          "maximum_read_bytes": 84,
+          "overlap_hex": "10 11 30",
+          "disk_sha256": "70b4fec72deef04df6a1f79ae5f8f38a3eca3623355ebeeb0a6448d961bbf588",
+          "matches_snapshot": true,
+          "same_as_part_a": true
+        },
+        {
+          "name": "PartC_LockKeyPairs",
+          "address": "$83BE",
+          "fields": [
+            "object:u8",
+            "key:u8"
+          ],
+          "physical_bytes": 24,
+          "physical_records": 12,
+          "readers": [
+            {
+              "address": "$81D0",
+              "records": 12,
+              "record_bytes": 2
+            },
+            {
+              "address": "$8273",
+              "records": 12,
+              "record_bytes": 2
+            }
+          ],
+          "maximum_read_bytes": 24,
+          "disk_sha256": "6938ea1c33bbd3ba6cf398aaa6e9cd899e68e19cb95acb5e18039439bfe30375",
+          "matches_snapshot": true,
+          "same_as_part_a": true
+        },
+        {
+          "name": "PartC_LockingExceptions",
+          "address": "$83D6",
+          "fields": [
+            "object:u8"
+          ],
+          "physical_bytes": 7,
+          "physical_records": 7,
+          "readers": [
+            {
+              "address": "$8206",
+              "records": 7,
+              "record_bytes": 1
+            },
+            {
+              "address": "$82A9",
+              "records": 7,
+              "record_bytes": 1
+            }
+          ],
+          "maximum_read_bytes": 7,
+          "disk_sha256": "8db93381a58fe180212ad7787005ee6645af600b00a5152f084bdc594fca117d",
+          "matches_snapshot": true,
+          "same_as_part_a": true
+        },
+        {
+          "name": "PartC_HelpResponses",
+          "address": "$83DD",
+          "fields": [
+            "object:u16le",
+            "text:u16le"
+          ],
+          "physical_bytes": 84,
+          "physical_records": 21,
+          "readers": [
+            {
+              "address": "$7DE1",
+              "records": 21,
+              "record_bytes": 4
+            }
+          ],
+          "maximum_read_bytes": 84,
+          "disk_sha256": "4ae806a4b0a5804f3611ec17a6944445accc903534f1656cf6a4a1d34c67db3a",
+          "matches_snapshot": true,
+          "same_as_part_a": true
+        },
+        {
+          "name": "PartC_DestroyResponses",
+          "address": "$8431",
+          "fields": [
+            "object:u16le",
+            "text:u16le"
+          ],
+          "physical_bytes": 28,
+          "physical_records": 7,
+          "readers": [
+            {
+              "address": "$7C68",
+              "records": 7,
+              "record_bytes": 4
+            }
+          ],
+          "maximum_read_bytes": 28,
+          "disk_sha256": "4bd9312111919c2b63269532c09100fa5431973c857dccc4bc0a51582bbb978b",
+          "matches_snapshot": true,
+          "same_as_part_a": true
+        },
+        {
+          "name": "PartC_TalkResponses",
+          "address": "$844D",
+          "fields": [
+            "object:u16le",
+            "text:u16le"
+          ],
+          "physical_bytes": 60,
+          "physical_records": 15,
+          "readers": [
+            {
+              "address": "$7FC6",
+              "records": 15,
+              "record_bytes": 4
+            }
+          ],
+          "maximum_read_bytes": 60,
+          "disk_sha256": "3c82100403b36fb89ce3f81de1e195549b2de566637d5c134dc91fe679cade30",
+          "matches_snapshot": true,
+          "same_as_part_a": true
+        }
+      ]
+    },
+    {
+      "side": "C2",
+      "script_bytes_including_end_marker": 6915,
+      "whole_script_matches_snapshot": true,
+      "tables": [
+        {
+          "name": "PartD_TakeableObjects",
+          "address": "$8FBE",
+          "fields": [
+            "object:u8"
+          ],
+          "physical_bytes": 40,
+          "physical_records": 40,
+          "readers": [
+            {
+              "address": "$889E",
+              "records": 40,
+              "record_bytes": 1
+            }
+          ],
+          "maximum_read_bytes": 40,
+          "disk_sha256": "d1c3b59315f10fbb12ff444abf331ab77455bc57adbe478dc5f0ef6ae1d4e413",
+          "matches_snapshot": true,
+          "same_as_part_a": true
+        },
+        {
+          "name": "PartD_OpenCloseObjects",
+          "address": "$8FE6",
+          "fields": [
+            "object:u8",
+            "direction:u8",
+            "destination:u8"
+          ],
+          "physical_bytes": 81,
+          "physical_records": 27,
+          "readers": [
+            {
+              "address": "$7D6F",
+              "records": 28,
+              "record_bytes": 3
+            },
+            {
+              "address": "$86CE",
+              "records": 28,
+              "record_bytes": 3
+            }
+          ],
+          "maximum_read_bytes": 84,
+          "overlap_hex": "10 11 30",
+          "disk_sha256": "e744df534f36009ef11cee2691791677043988855bcc653f19c86ab3de0a3f42",
+          "matches_snapshot": true,
+          "same_as_part_a": false
+        },
+        {
+          "name": "PartD_LockKeyPairs",
+          "address": "$9037",
+          "fields": [
+            "object:u8",
+            "key:u8"
+          ],
+          "physical_bytes": 24,
+          "physical_records": 12,
+          "readers": [
+            {
+              "address": "$8DD2",
+              "records": 12,
+              "record_bytes": 2
+            },
+            {
+              "address": "$8ED6",
+              "records": 12,
+              "record_bytes": 2
+            }
+          ],
+          "maximum_read_bytes": 24,
+          "disk_sha256": "6938ea1c33bbd3ba6cf398aaa6e9cd899e68e19cb95acb5e18039439bfe30375",
+          "matches_snapshot": true,
+          "same_as_part_a": true
+        },
+        {
+          "name": "PartD_LockingExceptions",
+          "address": "$904F",
+          "fields": [
+            "object:u8"
+          ],
+          "physical_bytes": 7,
+          "physical_records": 7,
+          "readers": [
+            {
+              "address": "$8E08",
+              "records": 7,
+              "record_bytes": 1
+            },
+            {
+              "address": "$8F0C",
+              "records": 7,
+              "record_bytes": 1
+            }
+          ],
+          "maximum_read_bytes": 7,
+          "disk_sha256": "8db93381a58fe180212ad7787005ee6645af600b00a5152f084bdc594fca117d",
+          "matches_snapshot": true,
+          "same_as_part_a": true
+        },
+        {
+          "name": "PartD_HelpResponses",
+          "address": "$9056",
+          "fields": [
+            "object:u16le",
+            "text:u16le"
+          ],
+          "physical_bytes": 84,
+          "physical_records": 21,
+          "readers": [
+            {
+              "address": "$84FE",
+              "records": 21,
+              "record_bytes": 4
+            }
+          ],
+          "maximum_read_bytes": 84,
+          "disk_sha256": "4ae806a4b0a5804f3611ec17a6944445accc903534f1656cf6a4a1d34c67db3a",
+          "matches_snapshot": true,
+          "same_as_part_a": true
+        },
+        {
+          "name": "PartD_DestroyResponses",
+          "address": "$90AA",
+          "fields": [
+            "object:u16le",
+            "text:u16le"
+          ],
+          "physical_bytes": 28,
+          "physical_records": 7,
+          "readers": [
+            {
+              "address": "$7EA6",
+              "records": 7,
+              "record_bytes": 4
+            }
+          ],
+          "maximum_read_bytes": 28,
+          "disk_sha256": "4bd9312111919c2b63269532c09100fa5431973c857dccc4bc0a51582bbb978b",
+          "matches_snapshot": true,
+          "same_as_part_a": true
+        },
+        {
+          "name": "PartD_TalkResponses",
+          "address": "$90C6",
+          "fields": [
+            "object:u16le",
+            "text:u16le"
+          ],
+          "physical_bytes": 60,
+          "physical_records": 15,
+          "readers": [
+            {
+              "address": "$893F",
+              "records": 15,
+              "record_bytes": 4
+            }
+          ],
+          "maximum_read_bytes": 60,
+          "disk_sha256": "3c82100403b36fb89ce3f81de1e195549b2de566637d5c134dc91fe679cade30",
+          "matches_snapshot": true,
+          "same_as_part_a": true
+        }
+      ]
+    }
+  ],
+  "state_arrays": [
+    {
+      "name": "objectDescriptionID",
+      "address": "$69C6",
+      "native_capacity": 166,
+      "entry_bytes": 2,
+      "legacy_header_entries": 359,
+      "snapshot_hashes_not_initial_state": [
+        "8c14b854628d2d63af449abe1fd2c779bb47da975988525d2560164f8fd45d2c",
+        "9a7ab8f935a6f6dc05d904bf4b795d168e1fb449ca7c471588d57221d082c697",
+        "1853b933b6b06d8bd5db2d4c5cc662013d275f242f200b26b6f5a3958cfa1f14",
+        "198c62a3100834c6da7b365f22b9216c3ff4fe84baf57ae39f60f2cf9efaf95e"
+      ]
+    },
+    {
+      "name": "remainingPoints",
+      "address": "$6B12",
+      "native_capacity": 166,
+      "entry_bytes": 2,
+      "legacy_header_entries": 359,
+      "snapshot_hashes_not_initial_state": [
+        "1ce572cbd0e24e69502c8c73e30e5dd7c17221738726ec8abedc7d62721087a5",
+        "e0fd4f92e55bad67d16afc753814cb713117dcf21da136e5973586ceb575ac03",
+        "f0c76e4594e2445b6991bdeacc4fa4cdc1354acfed0bf1d2ba9bd82487ff7df1",
+        "09589cfef71eb64c094920b895912d7a80d9627d9f9b0ba069e4197748ed6692"
+      ]
+    },
+    {
+      "name": "objectLocation",
+      "address": "$6C5E",
+      "native_capacity": 166,
+      "entry_bytes": 1,
+      "legacy_header_entries": 359,
+      "snapshot_hashes_not_initial_state": [
+        "b65ebecca84317ead67e98dd20a34b6a071c43b5e2b2b50b585ea494a875742e",
+        "5dede437f8331cc5b870a19f6583d234f1dd6d60aff4fdffa6d37f9b5a517a11",
+        "83c4f88e602586cbf1e28a397249953682425fe840648811b4a1373cd09e8573",
+        "2029a5e201cbd82c61147d65d111e24cb1ba5b98596551bf89d3c2ddb9a9efd6"
+      ]
+    },
+    {
+      "name": "objectState",
+      "address": "$6D04",
+      "native_capacity": 166,
+      "entry_bytes": 1,
+      "legacy_header_entries": 359,
+      "snapshot_hashes_not_initial_state": [
+        "a3a4370da5abd9e850f936770005190b1cb0585af2c81a31a57b61f848b6a412",
+        "8ace414e3c41cf049fb60c0e8daa9cdff0d4333aa06b8a9c6781d0551824f846",
+        "48ee3bc1a53259c3628c9227b952bddaa742f6588f316993ea522c344eee0f3b",
+        "892c08e0cc707707f778971b22fdaf82f32f609225fc9bccdfaa0a5e1a80688b"
+      ]
+    },
+    {
+      "name": "north",
+      "address": "$6DAA",
+      "native_capacity": 104,
+      "entry_bytes": 1,
+      "legacy_header_entries": 103,
+      "snapshot_hashes_not_initial_state": [
+        "82df687072e214d047d0c28fd1d7285ed01a862f82829534f02cde80f0a34b4e",
+        "c56b49715b1a49924397b6b749caeaa6cb582c011cd3a6ac6fe1c5a52b5baee9",
+        "3f8b28059a29aeb461b1fecdd23f3b210b4ccf89254b1056e25667475ff2eb6c",
+        "c766982145c94ad3316d6ccc29c2b3701ac51ac8e9c5991913919999c2c6f155"
+      ]
+    },
+    {
+      "name": "south",
+      "address": "$6E12",
+      "native_capacity": 104,
+      "entry_bytes": 1,
+      "legacy_header_entries": 103,
+      "snapshot_hashes_not_initial_state": [
+        "7b5b19b2b953a0be394796f276ac41e8d51f721e1d3ed66d72c19896037c7303",
+        "11100d98ff315076046ddd38878c31515f0c6ff8af624ee730df5c5494b6e322",
+        "1d684f599db2a3ce72a4666573994dc78f5dd1708418c2fe0df94f8403a0b63a",
+        "1d684f599db2a3ce72a4666573994dc78f5dd1708418c2fe0df94f8403a0b63a"
+      ]
+    },
+    {
+      "name": "west",
+      "address": "$6E7A",
+      "native_capacity": 104,
+      "entry_bytes": 1,
+      "legacy_header_entries": 103,
+      "snapshot_hashes_not_initial_state": [
+        "5ed7ecf4818937e9a44149b4109b83114d6d4f665aa0fa7cd00ee60bf029c1f3",
+        "54b0fce947fe44a666c332426aa88ab89bede034b00325650eef9ccb73257b2c",
+        "3549495d5d334de355f8192c9a3d697c89e6c8fac46d11cd1d53c0b9861c74ad",
+        "3549495d5d334de355f8192c9a3d697c89e6c8fac46d11cd1d53c0b9861c74ad"
+      ]
+    },
+    {
+      "name": "east",
+      "address": "$6EE2",
+      "native_capacity": 104,
+      "entry_bytes": 1,
+      "legacy_header_entries": 103,
+      "snapshot_hashes_not_initial_state": [
+        "9918fff3c0e6a89c63c48fdf8c4a85bb3c7add8a3c94ce7d5197b3dab9e4e8ee",
+        "9918fff3c0e6a89c63c48fdf8c4a85bb3c7add8a3c94ce7d5197b3dab9e4e8ee",
+        "9918fff3c0e6a89c63c48fdf8c4a85bb3c7add8a3c94ce7d5197b3dab9e4e8ee",
+        "9918fff3c0e6a89c63c48fdf8c4a85bb3c7add8a3c94ce7d5197b3dab9e4e8ee"
+      ]
+    },
+    {
+      "name": "up",
+      "address": "$6F4A",
+      "native_capacity": 104,
+      "entry_bytes": 1,
+      "legacy_header_entries": 103,
+      "snapshot_hashes_not_initial_state": [
+        "6a4b90fe260a01f9b5b1512f2083f2340da98b3166681226505ca8135bf3b059",
+        "6a4b90fe260a01f9b5b1512f2083f2340da98b3166681226505ca8135bf3b059",
+        "6a4b90fe260a01f9b5b1512f2083f2340da98b3166681226505ca8135bf3b059",
+        "6a4b90fe260a01f9b5b1512f2083f2340da98b3166681226505ca8135bf3b059"
+      ]
+    },
+    {
+      "name": "down",
+      "address": "$6FB2",
+      "native_capacity": 104,
+      "entry_bytes": 1,
+      "legacy_header_entries": 103,
+      "snapshot_hashes_not_initial_state": [
+        "301d7455231d9a4ac60118c0ac31d58be10098c5898094237a460db910573428",
+        "301d7455231d9a4ac60118c0ac31d58be10098c5898094237a460db910573428",
+        "221a707d9b02c628797eb175d31455d51fdc0e2247fd57b7ea8b4ee1e29f6a74",
+        "221a707d9b02c628797eb175d31455d51fdc0e2247fd57b7ea8b4ee1e29f6a74"
+      ]
+    },
+    {
+      "name": "visited",
+      "address": "$7027",
+      "native_capacity": 104,
+      "entry_bytes": 1,
+      "legacy_header_entries": 103,
+      "snapshot_hashes_not_initial_state": [
+        "eb3bac46daa8387c682a814f9ccf2eab472f5c39ad15163d75483bd15d4eb9f4",
+        "f9565851dba9679a7e0c43f336965a61b8f7162170fa03513f734f247115e68a",
+        "d53f74be402df170a13727b42cd7b5dcfd467de7c0d138c0e15a023ef736a844",
+        "88aa24d385f9b08ec30c2667de917659e130701636d12967410c79f57b601577"
+      ]
+    }
+  ],
+  "notes": [
+    "Snapshots contain played state; differing state bytes do not prove part-specific initial data.",
+    "Every script byte is compared with the original D64 chain before table comparisons.",
+    "OpenCloseObjects scans 28 triples but has only 27 before LockKeyPairs; native overlap bytes are 10 11 30.",
+    "Six lookup-table kinds are identical on all disks. OpenCloseObjects differs only for object $70: A/B/C=(70,00,00), D=(70,02,41).",
+    "Lookup tables are not in the save payload. State arrays are serialized by $5934 and loaded by $56FD.",
+    "Legacy tables.h is not a canonical initial save state; canonical values are separately extracted from B1 track 35 and verified against initializer $569D."
+  ]
+}

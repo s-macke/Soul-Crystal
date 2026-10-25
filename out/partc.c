@@ -1,86 +1,53 @@
-#include"src/tables.h"
-
-unsigned char data0x8345[] = {0x03, 0x05, 0x11, 0x14, 0x15, 0x16, 0x17, 0x1f, 0x20, 0x22, 0x24, 0x2d, 0x3b, 0x3e, 0x47, 0x4b, 0x4d, 0x50, 0x52, 0x54, 0x5c, 0x64, 0x65, 0x68, 0x6b, 0x6c, 0x6e, 0x71, 0x75, 0x78, 0x7d, 0x7e, 0x7f, 0x85, 0x8e, 0x8f, 0x93, 0x94, 0x97, 0x99};
-
-unsigned char data0x836d[] = {0x05, 0x07, 0x00, 0x06, 0x03, 0x54, 0x17, 0x07, 0x00, 0x1e, 0x00, 0x00, 0x2d, 0x07, 0x00, 0x30, 0x01, 0x05, 0x31, 0x02, 0x01, 0x32, 0x02, 0x13, 0x33, 0x07, 0x00, 0x35, 0x07, 0x00, 0x40, 0x01, 0x16, 0x41, 0x01, 0x2b, 0x42, 0x02, 0x26, 0x51, 0x01, 0x31, 0x57, 0x01, 0x51, 0x58, 0x02, 0x4f, 0x5a, 0x04, 0x11, 0x63, 0x01, 0x13, 0x6f, 0x01, 0x43, 0x70, 0x00, 0x00, 0x76, 0x00, 0x00, 0x77, 0x07, 0x00, 0x8b, 0x02, 0x21, 0x8c, 0x04, 0x50, 0x8d, 0x03, 0x4f, 0x9a, 0x07, 0x00, 0xa0, 0x03, 0x10};
-
-unsigned char data0x83be[] = {0x10, 0x11, 0x30, 0x75, 0x31, 0x75, 0x41, 0x3b, 0x42, 0x3b, 0x51, 0x52, 0x57, 0x99, 0x58, 0x99, 0x6f, 0x54, 0x8b, 0x52, 0x8c, 0x4b, 0x8d, 0x4b};
-
-unsigned char data0x83d6[] = {0x11, 0x3b, 0x4b, 0x52, 0x54, 0x75, 0x99};
-
-unsigned char data0x83dd[] = {0xa3, 0x00, 0x52, 0x00, 0x4a, 0x00, 0x97, 0x00, 0x62, 0x00, 0x98, 0x00, 0x37, 0x00, 0x2a, 0x01, 0x5b, 0x00, 0x2d, 0x01, 0x1a, 0x00, 0x29, 0x01, 0x61, 0x00, 0x2e, 0x01, 0x7a, 0x00, 0x2f, 0x01, 0x3a, 0x00, 0x2b, 0x01, 0x4f, 0x00, 0x2c, 0x01, 0x4c, 0x00, 0x2c, 0x01, 0x83, 0x00, 0x2c, 0x01, 0x36, 0x00, 0x83, 0x01, 0xa2, 0x00, 0x31, 0x01, 0xa5, 0x00, 0x84, 0x01, 0x01, 0x00, 0x19, 0x02, 0x25, 0x00, 0x1a, 0x02, 0x38, 0x00, 0x1b, 0x02, 0x60, 0x00, 0x1c, 0x02, 0x84, 0x00, 0x1d, 0x02, 0xa4, 0x00, 0x1e, 0x02};
-
-unsigned char data0x8431[] = {0x4a, 0x00, 0x7c, 0x00, 0x02, 0x00, 0xe8, 0x00, 0x4f, 0x00, 0xeb, 0x00, 0x4c, 0x00, 0xeb, 0x00, 0xa5, 0x00, 0x7a, 0x01, 0x01, 0x00, 0xc7, 0x01, 0x60, 0x00, 0xce, 0x01};
-
-unsigned char data0x844d[] = {0x36, 0x00, 0x5b, 0x00, 0x37, 0x00, 0x38, 0x01, 0x5b, 0x00, 0x41, 0x01, 0x02, 0x00, 0x34, 0x01, 0x4c, 0x00, 0x5a, 0x00, 0x4f, 0x00, 0x5a, 0x00, 0x60, 0x00, 0x5a, 0x00, 0x83, 0x00, 0x5a, 0x00, 0x84, 0x00, 0x5a, 0x00, 0x85, 0x00, 0x5a, 0x00, 0x9f, 0x00, 0x5a, 0x00, 0xa5, 0x00, 0x5a, 0x00, 0x01, 0x00, 0x2a, 0x02, 0x25, 0x00, 0x2b, 0x02, 0xa4, 0x00, 0x2d, 0x02, 0xff};
-
-void PartC_HandleUebersoulcrystal(); // Part C, script $7835; command 1 (UEBERSOULCRYSTAL), SELECT $76e7 case 1
-void PartC_HandleKurztext(); // Part C, script $783a; command 2 (KURZTEXT), SELECT $76e7 case 2
-void PartC_HandleCredits(); // Part C, script $784e; command 3 (CREDITS), SELECT $76e7 case 3
-void PartC_HandleGrabe(); // Part C, script $7853; command 4 (GRABE), SELECT $76e7 case 4
-void PartC_HandleHinunter(); // Part C, script $7858; command 5 (HINUNTER), SELECT $76e7 case 5
-void PartC_HandleOst(); // Part C, script $7887; command 6 (OST), SELECT $76e7 case 6
-void PartC_HandleAusgaenge(); // Part C, script $7903; command 7 (AUSGAENGE), SELECT $76e7 case 7
-void PartC_HandleDisketteinstallieren(); // Part C, script $7907; command 8 (DISKETTEINSTALLIEREN), SELECT $76e7 case 8
-void PartC_HandleInventar(); // Part C, script $790b; command 9 (INVENTAR), SELECT $76e7 case 9
-void PartC_HandleSchau(); // Part C, script $790f; command 10 (SCHAU), SELECT $76e7 case 10
-void PartC_HandleNord(); // Part C, script $7916; command 11 (NORD), SELECT $76e7 case 11
-void PartC_HandleSpielende(); // Part C, script $7a40; command 12 (SPIELENDE), SELECT $76e7 case 12
-void PartC_HandleNeustart(); // Part C, script $7a44; command 13 (NEUSTART), SELECT $76e7 case 13
-void PartC_HandleLaden(); // Part C, script $7a48; command 14 (LADEN), SELECT $771f case 1
-void PartC_HandlePunkte(); // Part C, script $7a4c; command 15 (PUNKTE), SELECT $771f case 2
-void PartC_HandleLoesung(); // Part C, script $7a51; command 16 (LOESUNG), SELECT $771f case 3
-void PartC_HandleMusikein(); // Part C, script $7a55; command 17 (MUSIKEIN), SELECT $771f case 4
-void PartC_HandleAusgaenge12(); // Part C, script $7a5d; command 18 (AUSGAENGE12), SELECT $771f case 5
-void PartC_HandleSued(); // Part C, script $7a65; command 19 (SUED), SELECT $771f case 6
-void PartC_HandleSpeichern(); // Part C, script $7b36; command 20 (SPEICHERN), SELECT $771f case 7
-void PartC_HandleHinauf(); // Part C, script $7b3a; command 21 (HINAUF), SELECT $771f case 8
-void PartC_HandleAusfuehrlich(); // Part C, script $7b69; command 22 (AUSFUEHRLICH), SELECT $771f case 9
-void PartC_HandleWarte(); // Part C, script $7b7d; command 23 (WARTE), SELECT $771f case 10
-void PartC_HandleWest(); // Part C, script $7b82; command 24 (WEST), SELECT $771f case 11
-void PartC_Sub_7bd9(); // Part C, script $7bd9; command 25 (NIX1), SELECT $771f case 12
-void PartC_Sub_7bda(); // Part C, script $7bda; command 26 (NIX2), SELECT $771f case 13
-void PartC_HandleSchliesse(); // Part C, script $7bdb; command 27 (SCHLIESSE), SELECT $7757 case 1
-void PartC_HandleZerstoere(); // Part C, script $7c68; command 28 (ZERSTOERE), SELECT $7757 case 2
-void PartC_HandleVerliere(); // Part C, script $7cb0; command 29 (VERLIERE), SELECT $7757 case 3
-void PartC_HandleBetritt(); // Part C, script $7d31; command 30 (BETRITT), SELECT $7757 case 4
-void PartC_HandleBetrachte(); // Part C, script $7d6d; command 31 (BETRACHTE), SELECT $7757 case 5
-void PartC_HandleHilf(); // Part C, script $7de1; command 32 (HILF), SELECT $7757 case 6
-void PartC_HandleVerlasse(); // Part C, script $7e13; command 33 (VERLASSE), SELECT $7757 case 7
-void PartC_HandleBewege(); // Part C, script $7e49; command 34 (BEWEGE), SELECT $7757 case 8
-void PartC_HandleOeffne(); // Part C, script $7e4e; command 35 (OEFFNE), SELECT $7757 case 9
-void PartC_HandleZiehe(); // Part C, script $7f2c; command 36 (ZIEHE), SELECT $7757 case 10
-void PartC_HandleDruecke(); // Part C, script $7f54; command 37 (DRUECKE), SELECT $7757 case 11
-void PartC_HandleNimm(); // Part C, script $7f59; command 38 (NIMM), SELECT $7789 case 1
-void PartC_HandleSprich(); // Part C, script $7fc2; command 39 (SPRICH), SELECT $7789 case 2
-void PartC_HandleWende(); // Part C, script $803d; command 40 (WENDE), SELECT $7789 case 3
-void PartC_HandleBefestige(); // Part C, script $81c6; command 41 (BEFESTIGE), SELECT $7789 case 4
-void PartC_HandleGib(); // Part C, script $81cb; command 42 (GIB), SELECT $7789 case 5
-void PartC_HandleVerriegele(); // Part C, script $81d0; command 43 (VERRIEGELE), SELECT $7789 case 6
-void PartC_HandleEntriegele(); // Part C, script $8273; command 44 (ENTRIEGELE), SELECT $7789 case 7
-
-unsigned short command; // $6986: Parsed command
-unsigned short object1; // $6988: First parsed object
-unsigned short object2; // $698a: Second parsed object
-unsigned short currentRoom; // $695d: Current room
-unsigned short diskSide; // $6963: Active side: B1=1, B2=2, C1=3, C2=4
-unsigned short score; // $698c: Current score, including deductions
-unsigned short steps; // $698e: Original step counter
-unsigned short pendingTextID; // $6990: Logical message ID awaiting display
-unsigned short temp; // $6992: Shared temporary value
-unsigned short imageID; // $6994: Selected image ID
-unsigned short scratch1; // $6996: Shared scratch value; meaning depends on routine
-unsigned short scratch2; // $6998: Shared scratch value; meaning depends on routine
-unsigned short scratch3; // $699a: Shared scratch value; meaning depends on routine
-unsigned char *tableptr;
-void SPECIAL(unsigned short x);
-void showtext();
-void Restart();
-void ShowImage();
-void Code2E5B();
+#include "game_script.h"
+#include "game_tables.h"
+void PartC_HandleUebersoulcrystal(void); // Part C, script $7835; command 1 (UEBERSOULCRYSTAL), SELECT $76e7 case 1
+void PartC_HandleKurztext(void); // Part C, script $783a; command 2 (KURZTEXT), SELECT $76e7 case 2
+void PartC_HandleCredits(void); // Part C, script $784e; command 3 (CREDITS), SELECT $76e7 case 3
+void PartC_HandleGrabe(void); // Part C, script $7853; command 4 (GRABE), SELECT $76e7 case 4
+void PartC_HandleHinunter(void); // Part C, script $7858; command 5 (HINUNTER), SELECT $76e7 case 5
+void PartC_HandleOst(void); // Part C, script $7887; command 6 (OST), SELECT $76e7 case 6
+void PartC_HandleAusgaenge(void); // Part C, script $7903; command 7 (AUSGAENGE), SELECT $76e7 case 7
+void PartC_HandleDisketteinstallieren(void); // Part C, script $7907; command 8 (DISKETTEINSTALLIEREN), SELECT $76e7 case 8
+void PartC_HandleInventar(void); // Part C, script $790b; command 9 (INVENTAR), SELECT $76e7 case 9
+void PartC_HandleSchau(void); // Part C, script $790f; command 10 (SCHAU), SELECT $76e7 case 10
+void PartC_HandleNord(void); // Part C, script $7916; command 11 (NORD), SELECT $76e7 case 11
+void PartC_HandleSpielende(void); // Part C, script $7a40; command 12 (SPIELENDE), SELECT $76e7 case 12
+void PartC_HandleNeustart(void); // Part C, script $7a44; command 13 (NEUSTART), SELECT $76e7 case 13
+void PartC_HandleLaden(void); // Part C, script $7a48; command 14 (LADEN), SELECT $771f case 1
+void PartC_HandlePunkte(void); // Part C, script $7a4c; command 15 (PUNKTE), SELECT $771f case 2
+void PartC_HandleLoesung(void); // Part C, script $7a51; command 16 (LOESUNG), SELECT $771f case 3
+void PartC_HandleMusikein(void); // Part C, script $7a55; command 17 (MUSIKEIN), SELECT $771f case 4
+void PartC_HandleAusgaenge12(void); // Part C, script $7a5d; command 18 (AUSGAENGE12), SELECT $771f case 5
+void PartC_HandleSued(void); // Part C, script $7a65; command 19 (SUED), SELECT $771f case 6
+void PartC_HandleSpeichern(void); // Part C, script $7b36; command 20 (SPEICHERN), SELECT $771f case 7
+void PartC_HandleHinauf(void); // Part C, script $7b3a; command 21 (HINAUF), SELECT $771f case 8
+void PartC_HandleAusfuehrlich(void); // Part C, script $7b69; command 22 (AUSFUEHRLICH), SELECT $771f case 9
+void PartC_HandleWarte(void); // Part C, script $7b7d; command 23 (WARTE), SELECT $771f case 10
+void PartC_HandleWest(void); // Part C, script $7b82; command 24 (WEST), SELECT $771f case 11
+void PartC_Sub_7bd9(void); // Part C, script $7bd9; command 25 (NIX1), SELECT $771f case 12
+void PartC_Sub_7bda(void); // Part C, script $7bda; command 26 (NIX2), SELECT $771f case 13
+void PartC_HandleSchliesse(void); // Part C, script $7bdb; command 27 (SCHLIESSE), SELECT $7757 case 1
+void PartC_HandleZerstoere(void); // Part C, script $7c68; command 28 (ZERSTOERE), SELECT $7757 case 2
+void PartC_HandleVerliere(void); // Part C, script $7cb0; command 29 (VERLIERE), SELECT $7757 case 3
+void PartC_HandleBetritt(void); // Part C, script $7d31; command 30 (BETRITT), SELECT $7757 case 4
+void PartC_HandleBetrachte(void); // Part C, script $7d6d; command 31 (BETRACHTE), SELECT $7757 case 5
+void PartC_HandleHilf(void); // Part C, script $7de1; command 32 (HILF), SELECT $7757 case 6
+void PartC_HandleVerlasse(void); // Part C, script $7e13; command 33 (VERLASSE), SELECT $7757 case 7
+void PartC_HandleBewege(void); // Part C, script $7e49; command 34 (BEWEGE), SELECT $7757 case 8
+void PartC_HandleOeffne(void); // Part C, script $7e4e; command 35 (OEFFNE), SELECT $7757 case 9
+void PartC_HandleZiehe(void); // Part C, script $7f2c; command 36 (ZIEHE), SELECT $7757 case 10
+void PartC_HandleDruecke(void); // Part C, script $7f54; command 37 (DRUECKE), SELECT $7757 case 11
+void PartC_HandleNimm(void); // Part C, script $7f59; command 38 (NIMM), SELECT $7789 case 1
+void PartC_HandleSprich(void); // Part C, script $7fc2; command 39 (SPRICH), SELECT $7789 case 2
+void PartC_HandleWende(void); // Part C, script $803d; command 40 (WENDE), SELECT $7789 case 3
+void PartC_HandleBefestige(void); // Part C, script $81c6; command 41 (BEFESTIGE), SELECT $7789 case 4
+void PartC_HandleGib(void); // Part C, script $81cb; command 42 (GIB), SELECT $7789 case 5
+void PartC_HandleVerriegele(void); // Part C, script $81d0; command 43 (VERRIEGELE), SELECT $7789 case 6
+void PartC_HandleEntriegele(void); // Part C, script $8273; command 44 (ENTRIEGELE), SELECT $7789 case 7
 
 
-void Execute() {
+
+void Execute(void) {
 
 x7600:
     pendingTextID = 0x00; // text ID 0 (0x0000), script $7600: no text
@@ -102,18 +69,18 @@ x7600:
     if ( temp == 0x01 ) {
         SPECIAL(0x67);
         if ( temp == 0x01 ) {
-            if ( diskSide == 0x01 ) {
+            if ( gamePart == 0x01 ) {
             } else {
-                if ( diskSide == 0x02 ) {
+                if ( gamePart == 0x02 ) {
                 } else {
-                    if ( diskSide == 0x03 ) {
+                    if ( gamePart == 0x03 ) {
                         if ( currentRoom >= IN_EINEM_VERWUNSCHENEN_WALD1 && currentRoom <= VOR_ZARGONS_BURGRUINE || currentRoom == UNTER_DEM_TORBOGEN ) {
                             objectState[DAVE] = objectState[DAVE] - 0x01;
                         } else {
                             objectState[DAVE] = 0x64;
                         }
                     } else {
-                        if ( diskSide == 0x04 ) {
+                        if ( gamePart == 0x04 ) {
                         }
                     }
                 }
@@ -207,9 +174,9 @@ x76e7:
 
 x77a0:
     if ( objectLocation[DAVE] != 0xff ) {
-        if ( diskSide == 0x02 ) {
+        if ( gamePart == 0x02 ) {
         }
-        if ( diskSide == 0x03 ) {
+        if ( gamePart == 0x03 ) {
             if ( currentRoom == IM_TREIBSAND ) {
                 showtext();
                 Restart();
@@ -234,7 +201,7 @@ x77a0:
                 objectState[0xa5] = objectState[0xa5] + 0x01;
             }
         }
-        if ( diskSide == 0x04 ) {
+        if ( gamePart == 0x04 ) {
         }
     }
     if ( command != INVENTAR && command != AUSGAENGE && command != LADEN && command != SPEICHERN && command != DISKETTEINSTALLIEREN ) {
@@ -246,13 +213,13 @@ x7834:
 }
 
 
-void PartC_HandleUebersoulcrystal() { // Part C, script $7835; command 1 (UEBERSOULCRYSTAL), SELECT $76e7 case 1
+void PartC_HandleUebersoulcrystal(void) { // Part C, script $7835; command 1 (UEBERSOULCRYSTAL), SELECT $76e7 case 1
     pendingTextID = 0x1b; // text ID 27 (0x001b), script $7835: C1 record 129: "Soul Crystal" V1.5, written from 1989 to 1992 by Avantgardistic Arts. (C) 1992 by Avantgardistic Arts, Hannover & Starbyte Software, Bochum. Dieses Adventure besitzt 103 Locations, mehr als 130 hochauflösende Farbgrafiken, ungefähr 320 KBytes Text und einen ca. 30-minütigen Soundtrack. Seine Programmentwicklung hat ingesamt 16 sog. "Mann-Jahre" in Anspruch genommen. Sei also bitte so fair und "spread the word - not the disk!" Sollte dies aber doch eine Raubkopie sein (obwohl das Programm geschützt war, und das bestimmt nicht ganz ohne Grund...), dann denke bitte auch mal über die ASDG-Philosophie "A program worth using is a program worth buying" nach - allein schon die Originalverpackung sowie die Handbücher sollten Dir das Geld wert sein. Viel Spaß beim Spielen von "Soul Crystal", und - ach ja: Soweit wir wissen, ist dies das erste Adventure, in das ein CHEATMODE implementiert wurde - also solltest Du Dir Mühe geben, ihn zu finden...
     return;
 }
 
 
-void PartC_HandleKurztext() { // Part C, script $783a; command 2 (KURZTEXT), SELECT $76e7 case 2
+void PartC_HandleKurztext(void) { // Part C, script $783a; command 2 (KURZTEXT), SELECT $76e7 case 2
     if ( visited[RAUM_NULL] == 0x01 ) {
         visited[RAUM_NULL] = 0x00;
     }
@@ -261,19 +228,19 @@ void PartC_HandleKurztext() { // Part C, script $783a; command 2 (KURZTEXT), SEL
 }
 
 
-void PartC_HandleCredits() { // Part C, script $784e; command 3 (CREDITS), SELECT $76e7 case 3
+void PartC_HandleCredits(void) { // Part C, script $784e; command 3 (CREDITS), SELECT $76e7 case 3
     pendingTextID = 0x1c; // text ID 28 (0x001c), script $784e: C1 record 130: "Soul Crystal", V1.5, written from 1989 to 1992 by Avantgardistic Arts, (C) 1992 by Avantgardistic Arts, Hannover & Starbyte Software, Bochum. A.C.A sind: Chris Link (Spielkonzept, Gamedesign, Tools, Texte, Soundtrack und Effekte), Kai Schulze (Spielkonzept, Gamedesign, Intro- und Parser-Programmierung AMIGA, Tools), Michael Niemeyer (Intro-Programmierung C-64, Tools), Carsten Jendro (Kernal- und Parserprogrammierung C-64), Henrik Fisch (Kernal- und Introprogrammierung MS-DOS), Kjersten Waldheim (Parserprogrammierung MS-DOS), Oliver Brühl (Grafiken und Animationen AMIGA & MS-DOS) und Klaus Adamovsky (Graphiken C-64). Besonderer Dank gilt Johnny, der "bayrischen Forelle" - stellvertretend für all die Leute, die mitgeholfen haben, "Soul Crystal" zu dem zu machen, was Ihr jetzt in den Händen haltet, indem sie uns Unmengen wertvoller Tips, Hinweise und Denkanstöße gaben, und uns nach jedem Nervenzusammenbruch auf's Neue halfen, uns weiter an die Verwirklichung unserer größenwahnsinnigen Ideen zu setzen. Ohne sie wäre das Projekt "Soul Crystal" wahrscheinlich niemals über die Planungsphase hinausgekommen.
     return;
 }
 
 
-void PartC_HandleGrabe() { // Part C, script $7853; command 4 (GRABE), SELECT $76e7 case 4
+void PartC_HandleGrabe(void) { // Part C, script $7853; command 4 (GRABE), SELECT $76e7 case 4
     pendingTextID = 0x33; // text ID 51 (0x0033), script $7853: C1 record 153: Also, jetzt reicht's ja wohl! Als ob es nicht schon reichen würde, daß Du blind wie ein Maulwurf durch die Gegend rennst: Jetzt versuchst Du Dich auch noch artgerecht durchs Erdreich zu buddeln! Mal ganz ehrlich: Man kann es mit der Realitätstreue in Adventures auch übertreiben...
     return;
 }
 
 
-void PartC_HandleHinunter() { // Part C, script $7858; command 5 (HINUNTER), SELECT $76e7 case 5
+void PartC_HandleHinunter(void) { // Part C, script $7858; command 5 (HINUNTER), SELECT $76e7 case 5
     imageID = 0xff;
     if ( down[currentRoom] != 0x00 ) {
         currentRoom = down[currentRoom];
@@ -292,7 +259,7 @@ void PartC_HandleHinunter() { // Part C, script $7858; command 5 (HINUNTER), SEL
 }
 
 
-void PartC_HandleOst() { // Part C, script $7887; command 6 (OST), SELECT $76e7 case 6
+void PartC_HandleOst(void) { // Part C, script $7887; command 6 (OST), SELECT $76e7 case 6
     imageID = 0xff;
     if ( currentRoom == IM_MOOR1 ) {
         objectLocation[DAVE] = 0xff;
@@ -335,32 +302,32 @@ x78fa:
 }
 
 
-void PartC_HandleAusgaenge() { // Part C, script $7903; command 7 (AUSGAENGE), SELECT $76e7 case 7
+void PartC_HandleAusgaenge(void) { // Part C, script $7903; command 7 (AUSGAENGE), SELECT $76e7 case 7
     SPECIAL(0x08); // Ausgaenge listen
     return;
 }
 
 
-void PartC_HandleDisketteinstallieren() { // Part C, script $7907; command 8 (DISKETTEINSTALLIEREN), SELECT $76e7 case 8
+void PartC_HandleDisketteinstallieren(void) { // Part C, script $7907; command 8 (DISKETTEINSTALLIEREN), SELECT $76e7 case 8
     SPECIAL(0x09); // Diskette installieren
     return;
 }
 
 
-void PartC_HandleInventar() { // Part C, script $790b; command 9 (INVENTAR), SELECT $76e7 case 9
+void PartC_HandleInventar(void) { // Part C, script $790b; command 9 (INVENTAR), SELECT $76e7 case 9
     SPECIAL(0x0a); // Inventar anzeigen
     return;
 }
 
 
-void PartC_HandleSchau() { // Part C, script $790f; command 10 (SCHAU), SELECT $76e7 case 10
+void PartC_HandleSchau(void) { // Part C, script $790f; command 10 (SCHAU), SELECT $76e7 case 10
     visited[currentRoom] = 0x00;
     Code2E5B();
     return;
 }
 
 
-void PartC_HandleNord() { // Part C, script $7916; command 11 (NORD), SELECT $76e7 case 11
+void PartC_HandleNord(void) { // Part C, script $7916; command 11 (NORD), SELECT $76e7 case 11
     imageID = 0xff;
     if ( currentRoom == AM_UFER_EINES_SUMPFIGEN_SEES && objectState[BOOT] == 0x00 ) {
         imageID = 0x83;
@@ -447,51 +414,51 @@ x7a37:
 }
 
 
-void PartC_HandleSpielende() { // Part C, script $7a40; command 12 (SPIELENDE), SELECT $76e7 case 12
+void PartC_HandleSpielende(void) { // Part C, script $7a40; command 12 (SPIELENDE), SELECT $76e7 case 12
     SPECIAL(0x05); // Spielende
     return;
 }
 
 
-void PartC_HandleNeustart() { // Part C, script $7a44; command 13 (NEUSTART), SELECT $76e7 case 13
+void PartC_HandleNeustart(void) { // Part C, script $7a44; command 13 (NEUSTART), SELECT $76e7 case 13
     SPECIAL(0x04); // Neustart
     return;
 }
 
 
-void PartC_HandleLaden() { // Part C, script $7a48; command 14 (LADEN), SELECT $771f case 1
+void PartC_HandleLaden(void) { // Part C, script $7a48; command 14 (LADEN), SELECT $771f case 1
     SPECIAL(0x02); // Laden
     return;
 }
 
 
-void PartC_HandlePunkte() { // Part C, script $7a4c; command 15 (PUNKTE), SELECT $771f case 2
+void PartC_HandlePunkte(void) { // Part C, script $7a4c; command 15 (PUNKTE), SELECT $771f case 2
     pendingTextID = 0x01; // text ID 1 (0x0001), script $7a4c: engine $5D94: Score message assembled by the engine.
     return;
 }
 
 
-void PartC_HandleLoesung() { // Part C, script $7a51; command 16 (LOESUNG), SELECT $771f case 3
+void PartC_HandleLoesung(void) { // Part C, script $7a51; command 16 (LOESUNG), SELECT $771f case 3
     SPECIAL(0x06); // Loesung
     return;
 }
 
 
-void PartC_HandleMusikein() { // Part C, script $7a55; command 17 (MUSIKEIN), SELECT $771f case 4
+void PartC_HandleMusikein(void) { // Part C, script $7a55; command 17 (MUSIKEIN), SELECT $771f case 4
     temp = 0x00;
     SPECIAL(0x07); // Musik ein
     return;
 }
 
 
-void PartC_HandleAusgaenge12() { // Part C, script $7a5d; command 18 (AUSGAENGE12), SELECT $771f case 5
+void PartC_HandleAusgaenge12(void) { // Part C, script $7a5d; command 18 (AUSGAENGE12), SELECT $771f case 5
     temp = 0x01;
     SPECIAL(0x08); // Ausgaenge listen
     return;
 }
 
 
-void PartC_HandleSued() { // Part C, script $7a65; command 19 (SUED), SELECT $771f case 6
+void PartC_HandleSued(void) { // Part C, script $7a65; command 19 (SUED), SELECT $771f case 6
     imageID = 0xff;
     if ( currentRoom == IN_EINEM_VERWUNSCHENEN_WALD1 ) {
         if ( objectLocation[AMULETT] == 0xff && objectState[AMULETT] == 0x01 ) {
@@ -550,13 +517,13 @@ x7b2d:
 }
 
 
-void PartC_HandleSpeichern() { // Part C, script $7b36; command 20 (SPEICHERN), SELECT $771f case 7
+void PartC_HandleSpeichern(void) { // Part C, script $7b36; command 20 (SPEICHERN), SELECT $771f case 7
     SPECIAL(0x03); // Speichern
     return;
 }
 
 
-void PartC_HandleHinauf() { // Part C, script $7b3a; command 21 (HINAUF), SELECT $771f case 8
+void PartC_HandleHinauf(void) { // Part C, script $7b3a; command 21 (HINAUF), SELECT $771f case 8
     imageID = 0xff;
     if ( up[currentRoom] != 0x00 ) {
         currentRoom = up[currentRoom];
@@ -575,7 +542,7 @@ void PartC_HandleHinauf() { // Part C, script $7b3a; command 21 (HINAUF), SELECT
 }
 
 
-void PartC_HandleAusfuehrlich() { // Part C, script $7b69; command 22 (AUSFUEHRLICH), SELECT $771f case 9
+void PartC_HandleAusfuehrlich(void) { // Part C, script $7b69; command 22 (AUSFUEHRLICH), SELECT $771f case 9
     if ( visited[RAUM_NULL] == 0x00 ) {
         visited[RAUM_NULL] = 0x01;
     }
@@ -584,13 +551,13 @@ void PartC_HandleAusfuehrlich() { // Part C, script $7b69; command 22 (AUSFUEHRL
 }
 
 
-void PartC_HandleWarte() { // Part C, script $7b7d; command 23 (WARTE), SELECT $771f case 10
+void PartC_HandleWarte(void) { // Part C, script $7b7d; command 23 (WARTE), SELECT $771f case 10
     pendingTextID = 0x36; // text ID 54 (0x0036), script $7b7d: C1 record 156: Die Zeit verstreicht wie der Lauf der Sonne: Langsam, aber unaufhaltsam...
     return;
 }
 
 
-void PartC_HandleWest() { // Part C, script $7b82; command 24 (WEST), SELECT $771f case 11
+void PartC_HandleWest(void) { // Part C, script $7b82; command 24 (WEST), SELECT $771f case 11
     imageID = 0xff;
     if ( currentRoom == AM_UFER_DES_SUMPFIGEN_SEES && objectState[BOOT] == 0x01 ) {
         pendingTextID = 0x1a; // text ID 26 (0x001a), script $7b93: C1 record 128: Mr. Adams hätte in einem solchen Fall wahrscheinlich mit "You can't do that... YET!" geantwortet, was in etwa soviel heißt wie: "Das kannst Du (noch) nicht tun."
@@ -622,18 +589,18 @@ x7bd8:
 }
 
 
-void PartC_Sub_7bd9() { // Part C, script $7bd9; command 25 (NIX1), SELECT $771f case 12
+void PartC_Sub_7bd9(void) { // Part C, script $7bd9; command 25 (NIX1), SELECT $771f case 12
     return;
 }
 
 
-void PartC_Sub_7bda() { // Part C, script $7bda; command 26 (NIX2), SELECT $771f case 13
+void PartC_Sub_7bda(void) { // Part C, script $7bda; command 26 (NIX2), SELECT $771f case 13
     return;
 }
 
 
-void PartC_HandleSchliesse() { // Part C, script $7bdb; command 27 (SCHLIESSE), SELECT $7757 case 1
-    tableptr = data0x836d;
+void PartC_HandleSchliesse(void) { // Part C, script $7bdb; command 27 (SCHLIESSE), SELECT $7757 case 1
+    tableptr = PartC_OpenCloseObjects;
     temp = 0x01;
 
 x7be2:
@@ -682,13 +649,13 @@ x7c67:
 }
 
 
-void PartC_HandleZerstoere() { // Part C, script $7c68; command 28 (ZERSTOERE), SELECT $7757 case 2
-    tableptr = data0x8431;
+void PartC_HandleZerstoere(void) { // Part C, script $7c68; command 28 (ZERSTOERE), SELECT $7757 case 2
+    tableptr = PartC_DestroyResponses;
     temp = 0x01;
 
 x7c6f:
-    scratch1 = *(unsigned short*)tableptr; tableptr += 2;
-    pendingTextID = *(unsigned short*)tableptr; tableptr += 2;
+    scratch1 = ReadTableWord(&tableptr);
+    pendingTextID = ReadTableWord(&tableptr);
     if ( scratch1 == object1 ) {
         goto x7c8b;
     }
@@ -715,7 +682,7 @@ x7caf:
 }
 
 
-void PartC_HandleVerliere() { // Part C, script $7cb0; command 29 (VERLIERE), SELECT $7757 case 3
+void PartC_HandleVerliere(void) { // Part C, script $7cb0; command 29 (VERLIERE), SELECT $7757 case 3
     if ( objectLocation[object1] != 0xff ) {
         pendingTextID = 0x41; // text ID 65 (0x0041), script $7cb7: C1 record 167: Nachdem Du eine halbe Stunde lang vergeblich in Deinen Taschen gewühlt hast, wird Dir klar, daß das Ding, das Du gerade so achtlos in die Gegend werfen wolltest, bereits in derselben liegt! Jaja, wenn's anfängt - dann im Kopf, gell?
         return;
@@ -745,7 +712,7 @@ x7d30:
 }
 
 
-void PartC_HandleBetritt() { // Part C, script $7d31; command 30 (BETRITT), SELECT $7757 case 4
+void PartC_HandleBetritt(void) { // Part C, script $7d31; command 30 (BETRITT), SELECT $7757 case 4
     if ( object1 == BOOT ) {
         if ( objectState[BOOT] == 0x00 ) {
             pendingTextID = 0x09; // text ID 9 (0x0009), script $7d3f: C1 record 111: Gut: Wie Du willst...
@@ -766,7 +733,7 @@ x7d6c:
 }
 
 
-void PartC_HandleBetrachte() { // Part C, script $7d6d; command 31 (BETRACHTE), SELECT $7757 case 5
+void PartC_HandleBetrachte(void) { // Part C, script $7d6d; command 31 (BETRACHTE), SELECT $7757 case 5
     pendingTextID = objectDescriptionID[object1]; // dynamic text ID, script $7d6d; resolve through texts/C64/text_ids.json
     if ( object1 == KURZSCHWERT ) {
         if ( objectState[KURZSCHWERT] == 0x01 ) {
@@ -800,13 +767,13 @@ x7de0:
 }
 
 
-void PartC_HandleHilf() { // Part C, script $7de1; command 32 (HILF), SELECT $7757 case 6
-    tableptr = data0x83dd;
+void PartC_HandleHilf(void) { // Part C, script $7de1; command 32 (HILF), SELECT $7757 case 6
+    tableptr = PartC_HelpResponses;
     temp = 0x01;
 
 x7de8:
-    scratch1 = *(unsigned short*)tableptr; tableptr += 2;
-    pendingTextID = *(unsigned short*)tableptr; tableptr += 2;
+    scratch1 = ReadTableWord(&tableptr);
+    pendingTextID = ReadTableWord(&tableptr);
     if ( scratch1 == object1 ) {
         goto x7e04;
     }
@@ -826,7 +793,7 @@ x7e12:
 }
 
 
-void PartC_HandleVerlasse() { // Part C, script $7e13; command 33 (VERLASSE), SELECT $7757 case 7
+void PartC_HandleVerlasse(void) { // Part C, script $7e13; command 33 (VERLASSE), SELECT $7757 case 7
     if ( object1 == BOOT ) {
         if ( currentRoom == IM_SUMPFSEE ) {
             pendingTextID = 0x0173; // text ID 371 (0x0173), script $7e1f: C1 record 224: Hmmm...: Mir ist zwar durchaus bekannt, daß es Leute gibt, die ein Moorbad aufgrund seiner gesundheitsfördernden Wirkungen sehr zu schätzen wissen, aber dies hier ist ein tiefer Sumpf - nicht bloß irgendein harmloses, kleines Moor! Hilflos sinkst Du also bis auf den Grund des Sumpfsees hinab, um dort für alle Ewigkeiten konserviert zu werden. Tja, also ich glaube trotzdem, eine Konservierung durch die "Speichern"-Funktion wäre Deiner Gesundheit zuträglicher gewesen, meinst Du nicht...?
@@ -847,18 +814,18 @@ void PartC_HandleVerlasse() { // Part C, script $7e13; command 33 (VERLASSE), SE
 }
 
 
-void PartC_HandleBewege() { // Part C, script $7e49; command 34 (BEWEGE), SELECT $7757 case 8
+void PartC_HandleBewege(void) { // Part C, script $7e49; command 34 (BEWEGE), SELECT $7757 case 8
     pendingTextID = 0x10; // text ID 16 (0x0010), script $7e49: C1 record 118: Versprichst Du dir irgend etwas Bestimmtes davon, DAS durch die Gegend zu schleppen?
     return;
 }
 
 
-void PartC_HandleOeffne() { // Part C, script $7e4e; command 35 (OEFFNE), SELECT $7757 case 9
+void PartC_HandleOeffne(void) { // Part C, script $7e4e; command 35 (OEFFNE), SELECT $7757 case 9
     if ( object1 == JEANS || object1 == HOSE ) {
         pendingTextID = 0x0268; // text ID 616 (0x0268), script $7e59: C1 record 287: Tja, was sein muß, muß sein: Hastig siehst Du Dich um, ob auch keiner zusieht, öffnest Deine Hose, und... MOMENT MAL! So nicht, Kumpel! Als ob der Saure Regen nicht schon reichte...!
         goto x7f23;
     }
-    tableptr = data0x836d;
+    tableptr = PartC_OpenCloseObjects;
     temp = 0x01;
 
 x7e69:
@@ -925,7 +892,7 @@ x7f23:
 }
 
 
-void PartC_HandleZiehe() { // Part C, script $7f2c; command 36 (ZIEHE), SELECT $7757 case 10
+void PartC_HandleZiehe(void) { // Part C, script $7f2c; command 36 (ZIEHE), SELECT $7757 case 10
     if ( object1 == FALLGITTER1 && objectState[FALLGITTER1] == 0x02 ) {
         pendingTextID = 0x0185; // text ID 389 (0x0185), script $7f39: C1 record 242: Mühsam ziehst Du die Spitzen des Fallgitters aus dem Boden und schiebst es soweit nach oben, bis es sich im Rahmen verkantet. Nun scheint die Gefahr erst einmal gebannt, und es dürfte jetzt auch kein allzu großes Problem mehr sein, unter dem Gitter hindurch unter den Torbogen zu schlüpfen...
         objectState[FALLGITTER1] = 0x00;
@@ -939,14 +906,14 @@ x7f53:
 }
 
 
-void PartC_HandleDruecke() { // Part C, script $7f54; command 37 (DRUECKE), SELECT $7757 case 11
+void PartC_HandleDruecke(void) { // Part C, script $7f54; command 37 (DRUECKE), SELECT $7757 case 11
     pendingTextID = 0x59; // text ID 89 (0x0059), script $7f54: C1 record 191: Glaube mir: Es besteht wirklich nicht der geringste Grund, das zu drücken!
     return;
 }
 
 
-void PartC_HandleNimm() { // Part C, script $7f59; command 38 (NIMM), SELECT $7789 case 1
-    tableptr = data0x8345;
+void PartC_HandleNimm(void) { // Part C, script $7f59; command 38 (NIMM), SELECT $7789 case 1
+    tableptr = PartC_TakeableObjects;
     temp = 0x01;
 
 x7f60:
@@ -985,14 +952,14 @@ x7fc1:
 }
 
 
-void PartC_HandleSprich() { // Part C, script $7fc2; command 39 (SPRICH), SELECT $7789 case 2
+void PartC_HandleSprich(void) { // Part C, script $7fc2; command 39 (SPRICH), SELECT $7789 case 2
     pendingTextID = 0x5b; // text ID 91 (0x005b), script $7fc2: C1 record 193: Wie merkwürdig! Keine Antwort ?!?!?
-    tableptr = data0x844d;
+    tableptr = PartC_TalkResponses;
     temp = 0x01;
 
 x7fcd:
-    scratch1 = *(unsigned short*)tableptr; tableptr += 2;
-    pendingTextID = *(unsigned short*)tableptr; tableptr += 2;
+    scratch1 = ReadTableWord(&tableptr);
+    pendingTextID = ReadTableWord(&tableptr);
     if ( scratch1 == object1 ) {
         goto x7fe9;
     }
@@ -1029,7 +996,7 @@ x803c:
 }
 
 
-void PartC_HandleWende() { // Part C, script $803d; command 40 (WENDE), SELECT $7789 case 3
+void PartC_HandleWende(void) { // Part C, script $803d; command 40 (WENDE), SELECT $7789 case 3
     if ( object2 == DAVE ) {
         if ( object1 == FELLSTIEFEL && objectState[FELLSTIEFEL] == 0x00 ) {
             objectState[FELLSTIEFEL] = 0x01;
@@ -1110,20 +1077,20 @@ x81c5:
 }
 
 
-void PartC_HandleBefestige() { // Part C, script $81c6; command 41 (BEFESTIGE), SELECT $7789 case 4
+void PartC_HandleBefestige(void) { // Part C, script $81c6; command 41 (BEFESTIGE), SELECT $7789 case 4
     pendingTextID = 0x18; // text ID 24 (0x0018), script $81c6: C1 record 126: Wie soll denn DAS funktionieren?
     return;
 }
 
 
-void PartC_HandleGib() { // Part C, script $81cb; command 42 (GIB), SELECT $7789 case 5
+void PartC_HandleGib(void) { // Part C, script $81cb; command 42 (GIB), SELECT $7789 case 5
     pendingTextID = 0x12; // text ID 18 (0x0012), script $81cb: C1 record 120: Ist ja wirklich lieb gemeint, aber was sollte man denn DAMIT schon anfangen können...?
     return;
 }
 
 
-void PartC_HandleVerriegele() { // Part C, script $81d0; command 43 (VERRIEGELE), SELECT $7789 case 6
-    tableptr = data0x83be;
+void PartC_HandleVerriegele(void) { // Part C, script $81d0; command 43 (VERRIEGELE), SELECT $7789 case 6
+    tableptr = PartC_LockKeyPairs;
     temp = 0x01;
 
 x81d7:
@@ -1143,7 +1110,7 @@ x81f3:
         return;
     }
     if ( scratch3 != object2 ) {
-        tableptr = data0x83d6;
+        tableptr = PartC_LockingExceptions;
         temp = 0x01;
 
 x820d:
@@ -1184,8 +1151,8 @@ x8272:
 }
 
 
-void PartC_HandleEntriegele() { // Part C, script $8273; command 44 (ENTRIEGELE), SELECT $7789 case 7
-    tableptr = data0x83be;
+void PartC_HandleEntriegele(void) { // Part C, script $8273; command 44 (ENTRIEGELE), SELECT $7789 case 7
+    tableptr = PartC_LockKeyPairs;
     temp = 0x01;
 
 x827a:
@@ -1205,7 +1172,7 @@ x8296:
         return;
     }
     if ( scratch3 != object2 ) {
-        tableptr = data0x83d6;
+        tableptr = PartC_LockingExceptions;
         temp = 0x01;
 
 x82b0:
