@@ -1,8 +1,10 @@
 # Prüfung der englischen C64-Fanübersetzung
 
 Stand: 2026-10-25. Unabhängige Prüfung durch den beauftragten Subagenten,
-anschließend als Befundbericht festgehalten. Keine Übersetzungskorrekturen
-an den extrahierten Originaltexten vorgenommen.
+anschließend als Befundbericht festgehalten. Die unten dokumentierten Fehler
+sind inzwischen in der spielbaren englischen Fassung korrigiert. Die extrahierten
+Originaltexte bleiben unverändert; siehe
+[separate Korrekturliste](../../texts/C64_en/corrections.json).
 
 ## Ergebnis
 
@@ -57,6 +59,8 @@ Intro und Tagebuch sowie gezielte Objekt- und Part-D-Stichproben. Dies ist
 **keine vollständige Prüfung aller 1486 englischen Datensätze** oder aller
 Wiederholungsvarianten. Teil D wurde nicht systematisch vollständig geprüft.
 
-Eine spätere korrigierte Fassung sollte diese Rohdaten als Quellen erhalten
-und Korrekturen getrennt mit Fundstelle und Begründung dokumentieren. Dieser
-Bericht selbst ändert weder die Originaltexte noch die laufende Spiellogik.
+Die Korrekturen sind mit Fundstelle, erwartetem Originalwortlaut und Begründung
+separat dokumentiert. Wiederholungen der Verriegelungs- und Pfeifentexte wurden
+in allen vier Archiven berücksichtigt; zusätzlich wurde derselbe Pfeifenfehler
+beim Fährmann (C2:367) korrigiert. Dies ist keine neue Vollprüfung der bisher
+nicht systematisch geprüften Texte. Die Spiellogik und IDs bleiben unverändert.

@@ -34,7 +34,12 @@ void emit(GameEventKind kind, const char *text = nullptr, unsigned image = 255) 
 void say(const std::string& text) { if (!text.empty()) emit(GameTextEvent, text.c_str()); }
 void message(TextID id) { pendingTextID = id; showtext(); }
 void fail(const char *text) { say(text); mode = GameError; }
-const char *objectName(unsigned id) { return id < ObjectStateCount ? (english() ? englishObjectNames[id] : objectDisplayNames[id]) : "?"; }
+const char *objectName(unsigned id) {
+    if(id>=ObjectStateCount)return "?";
+    if(!english())return objectDisplayNames[id];
+    if(const char* corrected=GameEnglishObjectNameOverride(id))return corrected;
+    return englishObjectNames[id];
+}
 
 // Exact saved location, including carried clothing; hidden location 0 stays hidden.
 // Original parser supports additional synonyms, but these availability rules must

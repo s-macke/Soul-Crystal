@@ -7,4 +7,6 @@ extern const char GameEnglishDiaryText[];
 unsigned GameEnglishTextRecordCount(GamePart part);
 const char *GameEnglishTextRecord(GamePart part, unsigned record);
 GameText GameEnglishTextLookup(GamePart part, TextID id);
+/* NULL means use the original extracted display name. */
+const char *GameEnglishObjectNameOverride(unsigned id);
 #endif

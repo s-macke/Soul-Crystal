@@ -17,8 +17,10 @@ zur Laufzeit. Das Binary läuft auch außerhalb des Repository-Verzeichnisses.
 Bedienhinweise. Ohne Argument startet Deutsch. Ein Neustart behält die Sprache.
 Die deutschen Enum-Bezeichner und sämtliche Spiel-IDs bleiben unverändert.
 Alle Daten sind einkompiliert: `out/game_texts.c`, `out/game_texts_en.c` und
-`out/game_vocabulary_en.h`. Originaltexte der Fanübersetzung bleiben unverändert;
-die Bedienhinweise des neuen Textparsers haben eigene englische Übersetzungen.
+`out/game_vocabulary_en.h`. Die Rohtexte der Fanübersetzung bleiben als Quellen unverändert. Dokumentierte
+Bedeutungsfehler werden beim C-Export anhand `texts/C64_en/corrections.json`
+korrigiert, einschließlich des Türklinkenhinweises im Tagebuch. Die
+Bedienhinweise des neuen Textparsers haben eigene englische Übersetzungen.
 
 Englische Beispiele: `take dave`, `consider desk`, `push bell`, `speak to porter`,
 `use key on door`, `read diary`. `n/s/e/w`, `up/down`, `look`, `examine`, `inventory`,

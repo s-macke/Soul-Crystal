@@ -1,0 +1,265 @@
+{
+  "schema_version": 1,
+  "source": "Corrections against the German C64 text; see spec/C64/english_translation_review.md. Raw extractions are unchanged.",
+  "corrections": [
+    {
+      "target": "B1:121",
+      "before": "Good, finished.",
+      "after": "Good, locked.",
+      "count": 1,
+      "reason": "German abschließen means lock, not finish or merely close."
+    },
+    {
+      "target": "B1:122",
+      "before": "close something",
+      "after": "lock something",
+      "count": 1,
+      "reason": "German abschließen means lock, not finish or merely close."
+    },
+    {
+      "target": "B1:123",
+      "before": "complete THIS",
+      "after": "lock THIS",
+      "count": 1,
+      "reason": "German abschließen means lock, not finish or merely close."
+    },
+    {
+      "target": "B1:206",
+      "before": "already over!",
+      "after": "already locked!",
+      "count": 1,
+      "reason": "German abschließen means lock, not finish or merely close."
+    },
+    {
+      "target": "B1:196",
+      "before": "whistle",
+      "after": "pipe",
+      "count": 2,
+      "reason": "Pfeife is the orc father's smoking pipe."
+    },
+    {
+      "target": "B1:196",
+      "before": "Her sweet smoke",
+      "after": "Its sweet smoke",
+      "count": 1,
+      "reason": "The smoke belongs to the pipe, not a female character."
+    },
+    {
+      "target": "B2:121",
+      "before": "Good, finished.",
+      "after": "Good, locked.",
+      "count": 1,
+      "reason": "German abschließen means lock, not finish or merely close."
+    },
+    {
+      "target": "B2:122",
+      "before": "close something",
+      "after": "lock something",
+      "count": 1,
+      "reason": "German abschließen means lock, not finish or merely close."
+    },
+    {
+      "target": "B2:123",
+      "before": "complete THIS",
+      "after": "lock THIS",
+      "count": 1,
+      "reason": "German abschließen means lock, not finish or merely close."
+    },
+    {
+      "target": "B2:206",
+      "before": "already over!",
+      "after": "already locked!",
+      "count": 1,
+      "reason": "German abschließen means lock, not finish or merely close."
+    },
+    {
+      "target": "B2:196",
+      "before": "whistle",
+      "after": "pipe",
+      "count": 2,
+      "reason": "Pfeife is the orc father's smoking pipe."
+    },
+    {
+      "target": "B2:196",
+      "before": "Her sweet smoke",
+      "after": "Its sweet smoke",
+      "count": 1,
+      "reason": "The smoke belongs to the pipe, not a female character."
+    },
+    {
+      "target": "C1:121",
+      "before": "Good, finished.",
+      "after": "Good, locked.",
+      "count": 1,
+      "reason": "German abschließen means lock, not finish or merely close."
+    },
+    {
+      "target": "C1:122",
+      "before": "close something",
+      "after": "lock something",
+      "count": 1,
+      "reason": "German abschließen means lock, not finish or merely close."
+    },
+    {
+      "target": "C1:123",
+      "before": "complete THIS",
+      "after": "lock THIS",
+      "count": 1,
+      "reason": "German abschließen means lock, not finish or merely close."
+    },
+    {
+      "target": "C1:206",
+      "before": "already over!",
+      "after": "already locked!",
+      "count": 1,
+      "reason": "German abschließen means lock, not finish or merely close."
+    },
+    {
+      "target": "C1:196",
+      "before": "whistle",
+      "after": "pipe",
+      "count": 2,
+      "reason": "Pfeife is the orc father's smoking pipe."
+    },
+    {
+      "target": "C1:196",
+      "before": "Her sweet smoke",
+      "after": "Its sweet smoke",
+      "count": 1,
+      "reason": "The smoke belongs to the pipe, not a female character."
+    },
+    {
+      "target": "C2:121",
+      "before": "Good, finished.",
+      "after": "Good, locked.",
+      "count": 1,
+      "reason": "German abschließen means lock, not finish or merely close."
+    },
+    {
+      "target": "C2:122",
+      "before": "close something",
+      "after": "lock something",
+      "count": 1,
+      "reason": "German abschließen means lock, not finish or merely close."
+    },
+    {
+      "target": "C2:123",
+      "before": "complete THIS",
+      "after": "lock THIS",
+      "count": 1,
+      "reason": "German abschließen means lock, not finish or merely close."
+    },
+    {
+      "target": "C2:206",
+      "before": "already over!",
+      "after": "already locked!",
+      "count": 1,
+      "reason": "German abschließen means lock, not finish or merely close."
+    },
+    {
+      "target": "C2:196",
+      "before": "whistle",
+      "after": "pipe",
+      "count": 2,
+      "reason": "Pfeife is the orc father's smoking pipe."
+    },
+    {
+      "target": "C2:196",
+      "before": "Her sweet smoke",
+      "after": "Its sweet smoke",
+      "count": 1,
+      "reason": "The smoke belongs to the pipe, not a female character."
+    },
+    {
+      "target": "B2:336",
+      "before": "whistle",
+      "after": "pipe",
+      "count": 2,
+      "reason": "Pfeife is a smoking pipe."
+    },
+    {
+      "target": "B2:375",
+      "before": "whistle",
+      "after": "pipe",
+      "count": 2,
+      "reason": "Pfeife is a smoking pipe."
+    },
+    {
+      "target": "C2:367",
+      "before": "whistle",
+      "after": "pipe",
+      "count": 1,
+      "reason": "The ferryman is smoking a pipe."
+    },
+    {
+      "target": "B2:316",
+      "before": "for one puff",
+      "after": "for one turn",
+      "count": 1,
+      "reason": "Zug means one game turn; invisibility lasts only one turn."
+    },
+    {
+      "target": "B2:367",
+      "before": "for one hit",
+      "after": "for one turn",
+      "count": 1,
+      "reason": "Zug specifies the duration, not protection from a hit."
+    },
+    {
+      "target": "B2:335",
+      "before": "hurry up and clean this plate",
+      "after": "hurry up and get out of here",
+      "count": 1,
+      "reason": "Die Platte putzen means leave quickly, not clean a plate."
+    },
+    {
+      "target": "object:5",
+      "before": "Leather socks",
+      "after": "Leather pouch",
+      "count": 1,
+      "reason": "Ledersäckchen is a small leather bag; keep ID 5 and its existing symbol."
+    },
+    {
+      "target": "diary",
+      "before": "pushed the door handle,",
+      "after": "pushed the door handle upwards,",
+      "count": 1,
+      "reason": "Restore the vital direction nach oben; pressing down triggers a lethal trap."
+    },
+    {
+      "target": "diary",
+      "before": "but he also possesses the strength of character and wisdom\nnecessary for the prosperity of our country.",
+      "after": "but does he also possess the strength of character and wisdom\nneeded to lead a good life that benefits the people of our country?",
+      "count": 1,
+      "reason": "Restore the narrator's doubt about Zargon as a question, not praise."
+    },
+    {
+      "target": "diary",
+      "before": "Before leaving, I whispered to\nSimona to save some morsels from the feast and suggested that we meet shortly before midnight in\nthe castle basement for a private gathering.",
+      "after": "Before I left, Simona whispered to me that she had kept some morsels from the feast in the\nkitchen. If I wanted to, I could meet her shortly before midnight in the castle basement,\nwhere we would enjoy our own little feast.",
+      "count": 1,
+      "reason": "Simona has already saved food and invites the tower guard, not the reverse."
+    },
+    {
+      "target": "story",
+      "before": "Well you have to admit, with a slight\nsmile on your face, that you have\nactually been playing with your thoughts\nover the last few weeks, sitting at home\nwhile while your parents were out\npartying. And one night you finally\nrealized, you are almost forced to\ntravel - if only to show your parents\nwhos the boss in the house!",
+      "after": "Well, you have to admit with a slight\nsmile that, over the last few weeks, you\nhad been thinking of staying at home\nwhile your parents were away and\nthrowing a huge party. But then you\nrealized that you really had to go on\nholiday - if only to show your parents\nwho was boss!",
+      "count": 1,
+      "reason": "Dave considers throwing a party while his parents are away; the parents are not out partying."
+    },
+    {
+      "target": "story",
+      "before": "Happy and full of the\nenergy that you used\nto have when you were\nin school, and that\nisnt normal now, you\nenter your hotel,\nsign the guestbook,\nand receive your room\nkey.",
+      "after": "Happy and full of energy - quite unlike\nyou during the school term - you enter\nyour hotel, ring for the porter at\nreception, sign the guestbook and\ncollect your room key.",
+      "count": 1,
+      "reason": "Dave's energy is unusual during school, not something he had in the past; restore the reception sequence."
+    },
+    {
+      "target": "story",
+      "before": "After all, you want\nto be able to tell\nyour mother some\nstories when you arrive back home later.",
+      "after": "After all, you want something to tell\nyour mother when you let her know later\nthat you have arrived.",
+      "count": 1,
+      "reason": "He plans to report his arrival later, not tell stories after returning home."
+    }
+  ]
+}

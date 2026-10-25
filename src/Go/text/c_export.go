@@ -4,11 +4,12 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
+	"sort"
 	"strconv"
 	"strings"
 )
 
-// Emit runtime data directly from decoded disks, never by reading JSON.
+// Emit decoded disk text as C data; apply reviewed English corrections at build time.
 func cTextFiles(dir string, mapping Mapping, catalogs []Catalog) error {
 	return cTextFilesLanguage(dir, mapping, catalogs, "de")
 }
@@ -44,6 +45,13 @@ GameText GameTextLookup(GamePart part, TextID id);
 	diary, err := os.ReadFile(diaryPath)
 	if err != nil {
 		return err
+	}
+	var objectOverrides map[int]string
+	if language == "en" {
+		catalogs, intro, diary, objectOverrides, err = correctEnglishAssets(".", catalogs, intro, diary)
+		if err != nil {
+			return err
+		}
 	}
 	for _, document := range []struct {
 		name string
@@ -143,9 +151,23 @@ extern const char GameEnglishDiaryText[];
 unsigned GameEnglishTextRecordCount(GamePart part);
 const char *GameEnglishTextRecord(GamePart part, unsigned record);
 GameText GameEnglishTextLookup(GamePart part, TextID id);
+/* NULL means use the original extracted display name. */
+const char *GameEnglishObjectNameOverride(unsigned id);
 #endif
 `
 		source = strings.NewReplacer("GameIntroText", "GameEnglishIntroText", "GameDiaryText", "GameEnglishDiaryText", "GameTextRecordCount", "GameEnglishTextRecordCount", "GameTextRecord", "GameEnglishTextRecord", "GameTextLookup", "GameEnglishTextLookup", "game_texts.h", "game_texts_en.h").Replace(source)
+	}
+	if language == "en" {
+		source += "\n// Reviewed corrections; raw extracted names remain unchanged.\nconst char *GameEnglishObjectNameOverride(unsigned id) {\n    switch (id) {\n"
+		ids := []int{}
+		for id := range objectOverrides {
+			ids = append(ids, id)
+		}
+		sort.Ints(ids)
+		for _, id := range ids {
+			source += fmt.Sprintf("    case %d: return %s;\n", id, strconv.Quote(objectOverrides[id]))
+		}
+		source += "    default: return NULL;\n    }\n}\n"
 	}
 	if err := os.WriteFile(filepath.Join(dir, stem+".h"), []byte(header), 0644); err != nil {
 		return err

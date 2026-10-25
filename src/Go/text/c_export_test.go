@@ -39,6 +39,25 @@ int main(void) {
 	if language == "en" {
 		stem = "game_texts_en"
 		harness = strings.NewReplacer("game_texts.h", "game_texts_en.h", "GameIntroText", "GameEnglishIntroText", "GameDiaryText", "GameEnglishDiaryText", "GameTextRecordCount", "GameEnglishTextRecordCount", "GameTextRecord", "GameEnglishTextRecord", "GameTextLookup", "GameEnglishTextLookup").Replace(harness)
+		harness = "#include <string.h>\n" + harness
+		checks := `
+ for(unsigned p=1;p<=4;p++) {
+  if(strcmp(GameEnglishTextRecord(p,121),"Good, locked.")) return 10;
+  if(strstr(GameEnglishTextRecord(p,196),"whistle")) return 11;
+ }
+ if(!strstr(GameEnglishTextRecord(2,316),"for one turn")) return 12;
+ if(!strstr(GameEnglishTextRecord(2,367),"for one turn")) return 13;
+ if(!strstr(GameEnglishTextRecord(2,335),"get out of here")) return 14;
+ if(!strstr(GameEnglishDiaryText,"door handle upwards")) return 15;
+ if(!strstr(GameEnglishDiaryText,"but does he also possess")) return 16;
+ if(!strstr(GameEnglishDiaryText,"Simona whispered to me")) return 17;
+ if(!strstr(GameEnglishIntroText,"throwing a huge party")) return 18;
+ if(strcmp(GameEnglishObjectNameOverride(5),"Leather pouch")) return 19;
+ if(GameEnglishObjectNameOverride(7)) return 20;
+ return 0;
+`
+		harness = strings.Replace(harness, "return 0;", checks, 1)
+
 	}
 	source := filepath.Join(dir, "test.c")
 	if err := os.WriteFile(source, []byte(harness), 0600); err != nil {
@@ -53,6 +72,13 @@ int main(void) {
 	if err != nil {
 		t.Fatal(err)
 	}
+	var corrections []englishCorrection
+	if language == "en" {
+		corrections, err = readEnglishCorrections(root)
+		if err != nil {
+			t.Fatal(err)
+		}
+	}
 	var want bytes.Buffer
 	documents := []string{"texts/C64/story.txt", "data/tagebuch.txt"}
 	if language == "en" {
@@ -63,7 +89,14 @@ int main(void) {
 		if err != nil {
 			t.Fatal(err)
 		}
-		want.WriteString(strings.ReplaceAll(string(data), "\r\n", "\n"))
+		text := strings.ReplaceAll(string(data), "\r\n", "\n")
+		if language == "en" {
+			text, err = correctedEnglishText(corrections, strings.TrimSuffix(filepath.Base(path), ".txt"), text)
+			if err != nil {
+				t.Fatal(err)
+			}
+		}
+		want.WriteString(text)
 		want.WriteByte(0)
 	}
 	for side, disk := range knownRanges {
@@ -82,6 +115,12 @@ int main(void) {
 				t.Fatal(err)
 			}
 			records[i] = strings.Join(strings.Fields(strings.Join(lines, "\n")), " ")
+			if language == "en" {
+				records[i], err = correctedEnglishText(corrections, disk.name+":"+strconv.Itoa(i), records[i])
+				if err != nil {
+					t.Fatal(err)
+				}
+			}
 			want.WriteString(records[i])
 			want.WriteByte(0)
 		}

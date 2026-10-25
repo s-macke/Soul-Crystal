@@ -102,4 +102,7 @@ Reproduktionsbefehle stehen in [vocabulary.md](vocabulary.md).
 Die Texte sind originalgetreu extrahiert, aber nicht fehlerfrei übersetzt.
 Die unabhängige [Übersetzungsprüfung](../../spec/C64/english_translation_review.md)
 nennt unter anderem fehlende Rätselhinweise und falsche Verriegelungsmeldungen.
-Die Rohtexte und die aktuelle englische Fassung behalten diese Originalformulierungen.
+Die Rohtexte behalten diese Originalformulierungen. Die spielbare englische
+Fassung verwendet inzwischen die geprüften Korrekturen aus `corrections.json`.
+Diese werden nur bei der Erzeugung der C-Daten angewendet; zur Laufzeit werden
+keine JSON-Dateien gelesen. Siehe [Korrekturen](corrections.md).

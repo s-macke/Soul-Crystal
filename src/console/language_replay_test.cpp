@@ -31,7 +31,8 @@ static std::string translated(const std::string& input) {
     }
     auto name=[&](const std::string& phrase) {
         auto id=resolve(phrase);if(!id)throw std::runtime_error("Cannot resolve German object: "+phrase);
-        return normalize(englishObjectNames[id]);
+        const char* corrected=GameEnglishObjectNameOverride(id);
+        return normalize(corrected?corrected:englishObjectNames[id]);
     };
     result+=" "+name(args.substr(0,delimiter));
     if(delimiter!=std::string::npos)result+=" with "+name(args.substr(delimiter+width));
