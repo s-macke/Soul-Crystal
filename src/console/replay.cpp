@@ -21,14 +21,22 @@ const char* modeName(GameMode m){switch(m){case GameReady:return "ready";case Ga
 bool number(const std::string& s,unsigned& n){std::istringstream in(s);in>>n;return !s.empty()&&s[0]!='-'&&!in.fail()&&(in>>std::ws).eof();}
 }
 int main(int argc,char** argv){
-    if(argc<2||argc>3||(argc==3&&std::string(argv[2])!="--verbose")){
-        std::cerr<<"Usage: soul-replay FILE [--verbose]\n";return 64;
+    GameLanguage language=GameGerman;
+    if(argc<2){std::cerr<<"Usage: soul-replay FILE [--verbose] [--language de|en]\n";return 64;}
+    for(int i=2;i<argc;++i) {
+        std::string arg=argv[i];
+        if(arg=="--verbose")verbose=true;
+        else if(arg=="--language"&&i+1<argc) {
+            std::string value=argv[++i];
+            if(value=="de")language=GameGerman;
+            else if(value=="en")language=GameEnglish;
+            else {std::cerr<<"Language must be de or en.\n";return 64;}
+        } else {std::cerr<<"Usage: soul-replay FILE [--verbose] [--language de|en]\n";return 64;}
     }
-    verbose=argc==3;
     std::vector<replay_file::Line> lines;
     try {lines=replay_file::read(argv[1]);}
     catch(const std::exception& e) {std::cerr<<e.what()<<'\n';return 64;}
-    GameStart(receive,nullptr);
+    GameStartLanguage(receive,nullptr,language);
     std::string lastCommand="<start>";unsigned commands=0,checks=0;bool finished=false;std::string finishKind;
     replay_file::Line source{"",argv[1],0,""};
     auto failure=[&](const std::string& reason,int code=1){

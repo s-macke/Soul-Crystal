@@ -91,5 +91,24 @@ int main(){
     currentRoom=3;objectLocation[DAVE]=3;command=WARTE;PartA_Execute();assert(objectLocation[DAVE]==255);
     GameStart(record,nullptr);
     assert(objectLocation[DAVE]==3&&objectState[JEANS]==1);
+    // Language is selected at start and survives restart, death and diary reads.
+    transcript.clear();GameStartLanguage(record,nullptr,GameEnglish);
+    assert(contains("Here at last!")&&contains("Verbs:")&&contains("Available:"));
+    assert(!contains("Endlich da;")&&!contains("Ansprechbar:"));
+    submit("take dave");assert(GameGetView().inputResult==GameInputAccepted);
+    submit("nimm dave");assert(GameGetView().inputResult==GameInputRejected&&contains("Unknown verb"));
+    submit("save");assert(GameGetView().inputResult==GameInputBlocked);
+    submit("restart");assert(GameGetView().mode==GameConfirmRestart&&contains("yes/no"));
+    submit("yes");assert(currentRoom==3&&contains("Available:"));
+    submit("destroy dave");assert(GameGetView().mode==GameDead&&contains("Start again?"));
+    submit("yes");assert(GameGetView().mode==GameReady&&currentRoom==3);
+    submit("solve");assert(GameGetView().mode==GameSolutionPrompt);
+    submit("cancel");assert(GameGetView().mode==GameReady);
+    gamePart=PartD;currentRoom=IM_HAUS_DES_TURMWAECHTERS;objectLocation[DAVE]=currentRoom;
+    objectLocation[TAGEBUCH]=currentRoom;objectState[TAGEBUCH]=1;
+    submit("read the diary");assert(contains("The Diary of the Tower Guardian")&&contains("torments suffered by my fellow comrades."));
+    submit("quit");submit("no");assert(GameGetView().mode==GameReady);
+    submit("quit");submit("yes");assert(GameGetView().mode==GameEnded&&contains("Goodbye."));
+    transcript.clear();GameStart(record,nullptr);assert(contains("Verben:"));
     std::cout<<"Console core: intro, parser, hidden objects, native handlers, restart, diary, images and ending verified.\n";
 }

@@ -1,0 +1,4891 @@
+{
+  "schema_version": 1,
+  "source": "data/c64_en/SoulCrystalA2.d64: chain 10; $3C02..$4001 byte-identical to German dispatch (TestEnglishTextIDRoutingMatchesGerman)",
+  "messages": {
+    "0": {
+      "id": 0,
+      "kind": "no_text",
+      "records": {},
+      "note": "Ordinary dispatch returns without displaying a message."
+    },
+    "1": {
+      "id": 1,
+      "kind": "engine_formatted",
+      "records": {},
+      "handler": "$5D94",
+      "note": "Score message assembled by the engine."
+    },
+    "10": {
+      "id": 10,
+      "kind": "disk_text",
+      "records": {
+        "B1": 112,
+        "B2": 112,
+        "C1": 112,
+        "C2": 112
+      }
+    },
+    "100": {
+      "id": 100,
+      "kind": "disk_text",
+      "records": {
+        "B1": 202,
+        "B2": 202,
+        "C1": 202,
+        "C2": 202
+      }
+    },
+    "101": {
+      "id": 101,
+      "kind": "disk_text",
+      "records": {
+        "B1": 203,
+        "B2": 203,
+        "C1": 203,
+        "C2": 203
+      }
+    },
+    "102": {
+      "id": 102,
+      "kind": "disk_text",
+      "records": {
+        "B1": 204,
+        "B2": 204,
+        "C1": 204,
+        "C2": 204
+      }
+    },
+    "103": {
+      "id": 103,
+      "kind": "disk_text",
+      "records": {
+        "B1": 205,
+        "B2": 205,
+        "C1": 205,
+        "C2": 205
+      }
+    },
+    "104": {
+      "id": 104,
+      "kind": "disk_text",
+      "records": {
+        "B1": 206,
+        "B2": 206,
+        "C1": 206,
+        "C2": 206
+      }
+    },
+    "105": {
+      "id": 105,
+      "kind": "disk_text",
+      "records": {
+        "B1": 207,
+        "B2": 207,
+        "C1": 207,
+        "C2": 207
+      }
+    },
+    "106": {
+      "id": 106,
+      "kind": "disk_text",
+      "records": {
+        "B1": 208,
+        "B2": 208,
+        "C1": 208,
+        "C2": 208
+      }
+    },
+    "107": {
+      "id": 107,
+      "kind": "disk_text",
+      "records": {
+        "B1": 209
+      }
+    },
+    "108": {
+      "id": 108,
+      "kind": "disk_text",
+      "records": {
+        "B1": 210
+      }
+    },
+    "109": {
+      "id": 109,
+      "kind": "disk_text",
+      "records": {
+        "B1": 211
+      }
+    },
+    "11": {
+      "id": 11,
+      "kind": "disk_text",
+      "records": {
+        "B1": 113,
+        "B2": 113,
+        "C1": 113,
+        "C2": 113
+      }
+    },
+    "110": {
+      "id": 110,
+      "kind": "disk_text",
+      "records": {
+        "B1": 212
+      }
+    },
+    "111": {
+      "id": 111,
+      "kind": "disk_text",
+      "records": {
+        "B1": 213
+      }
+    },
+    "112": {
+      "id": 112,
+      "kind": "disk_text",
+      "records": {
+        "B1": 214
+      }
+    },
+    "113": {
+      "id": 113,
+      "kind": "disk_text",
+      "records": {
+        "B1": 215
+      }
+    },
+    "114": {
+      "id": 114,
+      "kind": "disk_text",
+      "records": {
+        "B1": 216
+      }
+    },
+    "115": {
+      "id": 115,
+      "kind": "disk_text",
+      "records": {
+        "B1": 217
+      }
+    },
+    "116": {
+      "id": 116,
+      "kind": "disk_text",
+      "records": {
+        "B1": 218
+      }
+    },
+    "117": {
+      "id": 117,
+      "kind": "disk_text",
+      "records": {
+        "B1": 219
+      }
+    },
+    "118": {
+      "id": 118,
+      "kind": "disk_text",
+      "records": {
+        "B1": 220
+      }
+    },
+    "119": {
+      "id": 119,
+      "kind": "disk_text",
+      "records": {
+        "B1": 221
+      }
+    },
+    "12": {
+      "id": 12,
+      "kind": "engine_formatted",
+      "records": {},
+      "handler": "$5D94",
+      "note": "Take-object response with object name."
+    },
+    "120": {
+      "id": 120,
+      "kind": "disk_text",
+      "records": {
+        "B1": 222
+      }
+    },
+    "121": {
+      "id": 121,
+      "kind": "disk_text",
+      "records": {
+        "B1": 223
+      }
+    },
+    "122": {
+      "id": 122,
+      "kind": "disk_text",
+      "records": {
+        "B1": 224
+      }
+    },
+    "123": {
+      "id": 123,
+      "kind": "disk_text",
+      "records": {
+        "B1": 225
+      }
+    },
+    "124": {
+      "id": 124,
+      "kind": "disk_text",
+      "records": {
+        "B1": 226
+      }
+    },
+    "125": {
+      "id": 125,
+      "kind": "disk_text",
+      "records": {
+        "B1": 227
+      }
+    },
+    "126": {
+      "id": 126,
+      "kind": "disk_text",
+      "records": {
+        "B1": 228
+      }
+    },
+    "127": {
+      "id": 127,
+      "kind": "disk_text",
+      "records": {
+        "B1": 229
+      }
+    },
+    "128": {
+      "id": 128,
+      "kind": "disk_text",
+      "records": {
+        "B1": 230
+      }
+    },
+    "129": {
+      "id": 129,
+      "kind": "disk_text",
+      "records": {
+        "B1": 231
+      }
+    },
+    "13": {
+      "id": 13,
+      "kind": "disk_text",
+      "records": {
+        "B1": 115,
+        "B2": 115,
+        "C1": 115,
+        "C2": 115
+      }
+    },
+    "130": {
+      "id": 130,
+      "kind": "disk_text",
+      "records": {
+        "B1": 232
+      }
+    },
+    "131": {
+      "id": 131,
+      "kind": "disk_text",
+      "records": {
+        "B1": 233
+      }
+    },
+    "132": {
+      "id": 132,
+      "kind": "disk_text",
+      "records": {
+        "B1": 234
+      }
+    },
+    "133": {
+      "id": 133,
+      "kind": "disk_text",
+      "records": {
+        "B1": 235
+      }
+    },
+    "134": {
+      "id": 134,
+      "kind": "disk_text",
+      "records": {
+        "B1": 236
+      }
+    },
+    "135": {
+      "id": 135,
+      "kind": "disk_text",
+      "records": {
+        "B1": 237
+      }
+    },
+    "136": {
+      "id": 136,
+      "kind": "disk_text",
+      "records": {
+        "B1": 238
+      }
+    },
+    "137": {
+      "id": 137,
+      "kind": "disk_text",
+      "records": {
+        "B1": 239
+      }
+    },
+    "138": {
+      "id": 138,
+      "kind": "disk_text",
+      "records": {
+        "B1": 240
+      }
+    },
+    "139": {
+      "id": 139,
+      "kind": "disk_text",
+      "records": {
+        "B1": 241
+      }
+    },
+    "14": {
+      "id": 14,
+      "kind": "disk_text",
+      "records": {
+        "B1": 116,
+        "B2": 116,
+        "C1": 116,
+        "C2": 116
+      }
+    },
+    "140": {
+      "id": 140,
+      "kind": "disk_text",
+      "records": {
+        "B1": 242
+      }
+    },
+    "141": {
+      "id": 141,
+      "kind": "disk_text",
+      "records": {
+        "B1": 243
+      }
+    },
+    "142": {
+      "id": 142,
+      "kind": "disk_text",
+      "records": {
+        "B1": 244
+      }
+    },
+    "143": {
+      "id": 143,
+      "kind": "disk_text",
+      "records": {
+        "B1": 245
+      }
+    },
+    "144": {
+      "id": 144,
+      "kind": "disk_text",
+      "records": {
+        "B1": 246
+      }
+    },
+    "145": {
+      "id": 145,
+      "kind": "disk_text",
+      "records": {
+        "B1": 247
+      }
+    },
+    "146": {
+      "id": 146,
+      "kind": "disk_text",
+      "records": {
+        "B1": 248
+      }
+    },
+    "147": {
+      "id": 147,
+      "kind": "disk_text",
+      "records": {
+        "B1": 249
+      }
+    },
+    "148": {
+      "id": 148,
+      "kind": "disk_text",
+      "records": {
+        "B1": 250
+      }
+    },
+    "149": {
+      "id": 149,
+      "kind": "disk_text",
+      "records": {
+        "B1": 251
+      }
+    },
+    "15": {
+      "id": 15,
+      "kind": "disk_text",
+      "records": {
+        "B1": 117,
+        "B2": 117,
+        "C1": 117,
+        "C2": 117
+      }
+    },
+    "150": {
+      "id": 150,
+      "kind": "disk_text",
+      "records": {
+        "B1": 252
+      }
+    },
+    "151": {
+      "id": 151,
+      "kind": "disk_text",
+      "records": {
+        "B1": 253
+      }
+    },
+    "152": {
+      "id": 152,
+      "kind": "disk_text",
+      "records": {
+        "B1": 254
+      }
+    },
+    "153": {
+      "id": 153,
+      "kind": "disk_text",
+      "records": {
+        "B1": 255
+      }
+    },
+    "154": {
+      "id": 154,
+      "kind": "disk_text",
+      "records": {
+        "B1": 256
+      }
+    },
+    "155": {
+      "id": 155,
+      "kind": "disk_text",
+      "records": {
+        "B1": 257
+      }
+    },
+    "156": {
+      "id": 156,
+      "kind": "disk_text",
+      "records": {
+        "B1": 258
+      }
+    },
+    "157": {
+      "id": 157,
+      "kind": "disk_text",
+      "records": {
+        "B1": 259
+      }
+    },
+    "158": {
+      "id": 158,
+      "kind": "disk_text",
+      "records": {
+        "B1": 260
+      }
+    },
+    "159": {
+      "id": 159,
+      "kind": "disk_text",
+      "records": {
+        "B1": 261
+      }
+    },
+    "16": {
+      "id": 16,
+      "kind": "disk_text",
+      "records": {
+        "B1": 118,
+        "B2": 118,
+        "C1": 118,
+        "C2": 118
+      }
+    },
+    "160": {
+      "id": 160,
+      "kind": "disk_text",
+      "records": {
+        "B1": 262
+      }
+    },
+    "161": {
+      "id": 161,
+      "kind": "disk_text",
+      "records": {
+        "B1": 263
+      }
+    },
+    "162": {
+      "id": 162,
+      "kind": "disk_text",
+      "records": {
+        "B1": 264
+      }
+    },
+    "163": {
+      "id": 163,
+      "kind": "disk_text",
+      "records": {
+        "B1": 265
+      }
+    },
+    "164": {
+      "id": 164,
+      "kind": "disk_text",
+      "records": {
+        "B1": 266
+      }
+    },
+    "165": {
+      "id": 165,
+      "kind": "disk_text",
+      "records": {
+        "B1": 267
+      }
+    },
+    "166": {
+      "id": 166,
+      "kind": "disk_text",
+      "records": {
+        "B1": 268
+      }
+    },
+    "167": {
+      "id": 167,
+      "kind": "disk_text",
+      "records": {
+        "B1": 269
+      }
+    },
+    "168": {
+      "id": 168,
+      "kind": "disk_text",
+      "records": {
+        "B1": 270
+      }
+    },
+    "169": {
+      "id": 169,
+      "kind": "disk_text",
+      "records": {
+        "B2": 209
+      }
+    },
+    "17": {
+      "id": 17,
+      "kind": "disk_text",
+      "records": {
+        "B1": 119,
+        "B2": 119,
+        "C1": 119,
+        "C2": 119
+      }
+    },
+    "170": {
+      "id": 170,
+      "kind": "disk_text",
+      "records": {
+        "B2": 210
+      }
+    },
+    "171": {
+      "id": 171,
+      "kind": "disk_text",
+      "records": {
+        "B2": 211
+      }
+    },
+    "172": {
+      "id": 172,
+      "kind": "disk_text",
+      "records": {
+        "B2": 212
+      }
+    },
+    "173": {
+      "id": 173,
+      "kind": "disk_text",
+      "records": {
+        "B2": 213
+      }
+    },
+    "174": {
+      "id": 174,
+      "kind": "disk_text",
+      "records": {
+        "B2": 214
+      }
+    },
+    "175": {
+      "id": 175,
+      "kind": "disk_text",
+      "records": {
+        "B2": 215
+      }
+    },
+    "176": {
+      "id": 176,
+      "kind": "disk_text",
+      "records": {
+        "B2": 216
+      }
+    },
+    "177": {
+      "id": 177,
+      "kind": "disk_text",
+      "records": {
+        "B2": 217
+      }
+    },
+    "178": {
+      "id": 178,
+      "kind": "disk_text",
+      "records": {
+        "B2": 218
+      }
+    },
+    "179": {
+      "id": 179,
+      "kind": "disk_text",
+      "records": {
+        "B2": 219
+      }
+    },
+    "18": {
+      "id": 18,
+      "kind": "disk_text",
+      "records": {
+        "B1": 120,
+        "B2": 120,
+        "C1": 120,
+        "C2": 120
+      }
+    },
+    "180": {
+      "id": 180,
+      "kind": "disk_text",
+      "records": {
+        "B2": 220
+      }
+    },
+    "181": {
+      "id": 181,
+      "kind": "disk_text",
+      "records": {
+        "B2": 221
+      }
+    },
+    "182": {
+      "id": 182,
+      "kind": "disk_text",
+      "records": {
+        "B2": 222
+      }
+    },
+    "183": {
+      "id": 183,
+      "kind": "disk_text",
+      "records": {
+        "B2": 223
+      }
+    },
+    "184": {
+      "id": 184,
+      "kind": "disk_text",
+      "records": {
+        "B2": 224
+      }
+    },
+    "185": {
+      "id": 185,
+      "kind": "disk_text",
+      "records": {
+        "B2": 225
+      }
+    },
+    "186": {
+      "id": 186,
+      "kind": "disk_text",
+      "records": {
+        "B2": 226
+      }
+    },
+    "187": {
+      "id": 187,
+      "kind": "disk_text",
+      "records": {
+        "B2": 227
+      }
+    },
+    "188": {
+      "id": 188,
+      "kind": "disk_text",
+      "records": {
+        "B2": 228
+      }
+    },
+    "189": {
+      "id": 189,
+      "kind": "disk_text",
+      "records": {
+        "B2": 229
+      }
+    },
+    "19": {
+      "id": 19,
+      "kind": "disk_text",
+      "records": {
+        "B1": 121,
+        "B2": 121,
+        "C1": 121,
+        "C2": 121
+      }
+    },
+    "190": {
+      "id": 190,
+      "kind": "disk_text",
+      "records": {
+        "B2": 230
+      }
+    },
+    "191": {
+      "id": 191,
+      "kind": "disk_text",
+      "records": {
+        "B2": 231
+      }
+    },
+    "192": {
+      "id": 192,
+      "kind": "disk_text",
+      "records": {
+        "B2": 232
+      }
+    },
+    "193": {
+      "id": 193,
+      "kind": "disk_text",
+      "records": {
+        "B2": 233
+      }
+    },
+    "194": {
+      "id": 194,
+      "kind": "disk_text",
+      "records": {
+        "B2": 234
+      }
+    },
+    "195": {
+      "id": 195,
+      "kind": "disk_text",
+      "records": {
+        "B2": 235
+      }
+    },
+    "196": {
+      "id": 196,
+      "kind": "disk_text",
+      "records": {
+        "B2": 236
+      }
+    },
+    "197": {
+      "id": 197,
+      "kind": "disk_text",
+      "records": {
+        "B2": 237
+      }
+    },
+    "198": {
+      "id": 198,
+      "kind": "disk_text",
+      "records": {
+        "B2": 238
+      }
+    },
+    "199": {
+      "id": 199,
+      "kind": "disk_text",
+      "records": {
+        "B2": 239
+      }
+    },
+    "2": {
+      "id": 2,
+      "kind": "engine_formatted",
+      "records": {},
+      "handler": "$5D94",
+      "note": "Manual-check prompt assembled by the engine."
+    },
+    "20": {
+      "id": 20,
+      "kind": "disk_text",
+      "records": {
+        "B1": 122,
+        "B2": 122,
+        "C1": 122,
+        "C2": 122
+      }
+    },
+    "200": {
+      "id": 200,
+      "kind": "disk_text",
+      "records": {
+        "B2": 240
+      }
+    },
+    "201": {
+      "id": 201,
+      "kind": "disk_text",
+      "records": {
+        "B2": 241
+      }
+    },
+    "202": {
+      "id": 202,
+      "kind": "disk_text",
+      "records": {
+        "B2": 242
+      }
+    },
+    "203": {
+      "id": 203,
+      "kind": "disk_text",
+      "records": {
+        "B2": 243
+      }
+    },
+    "204": {
+      "id": 204,
+      "kind": "disk_text",
+      "records": {
+        "B2": 244
+      }
+    },
+    "205": {
+      "id": 205,
+      "kind": "disk_text",
+      "records": {
+        "B2": 245
+      }
+    },
+    "206": {
+      "id": 206,
+      "kind": "disk_text",
+      "records": {
+        "B2": 246
+      }
+    },
+    "207": {
+      "id": 207,
+      "kind": "disk_text",
+      "records": {
+        "B2": 247
+      }
+    },
+    "208": {
+      "id": 208,
+      "kind": "disk_text",
+      "records": {
+        "B2": 248
+      }
+    },
+    "209": {
+      "id": 209,
+      "kind": "disk_text",
+      "records": {
+        "B2": 249
+      }
+    },
+    "21": {
+      "id": 21,
+      "kind": "disk_text",
+      "records": {
+        "B1": 123,
+        "B2": 123,
+        "C1": 123,
+        "C2": 123
+      }
+    },
+    "210": {
+      "id": 210,
+      "kind": "disk_text",
+      "records": {
+        "B2": 250
+      }
+    },
+    "211": {
+      "id": 211,
+      "kind": "disk_text",
+      "records": {
+        "B2": 251
+      }
+    },
+    "212": {
+      "id": 212,
+      "kind": "disk_text",
+      "records": {
+        "B2": 252
+      }
+    },
+    "213": {
+      "id": 213,
+      "kind": "disk_text",
+      "records": {
+        "B2": 253
+      }
+    },
+    "214": {
+      "id": 214,
+      "kind": "disk_text",
+      "records": {
+        "B2": 254
+      }
+    },
+    "215": {
+      "id": 215,
+      "kind": "disk_text",
+      "records": {
+        "B2": 255
+      }
+    },
+    "216": {
+      "id": 216,
+      "kind": "disk_text",
+      "records": {
+        "B2": 256
+      }
+    },
+    "217": {
+      "id": 217,
+      "kind": "disk_text",
+      "records": {
+        "B2": 257
+      }
+    },
+    "218": {
+      "id": 218,
+      "kind": "disk_text",
+      "records": {
+        "B2": 258
+      }
+    },
+    "219": {
+      "id": 219,
+      "kind": "disk_text",
+      "records": {
+        "B2": 259
+      }
+    },
+    "22": {
+      "id": 22,
+      "kind": "disk_text",
+      "records": {
+        "B1": 124,
+        "B2": 124,
+        "C1": 124,
+        "C2": 124
+      }
+    },
+    "220": {
+      "id": 220,
+      "kind": "disk_text",
+      "records": {
+        "B2": 260
+      }
+    },
+    "221": {
+      "id": 221,
+      "kind": "disk_text",
+      "records": {
+        "B2": 261
+      }
+    },
+    "222": {
+      "id": 222,
+      "kind": "disk_text",
+      "records": {
+        "B2": 262
+      }
+    },
+    "223": {
+      "id": 223,
+      "kind": "disk_text",
+      "records": {
+        "B2": 263
+      }
+    },
+    "224": {
+      "id": 224,
+      "kind": "disk_text",
+      "records": {
+        "B2": 264
+      }
+    },
+    "225": {
+      "id": 225,
+      "kind": "disk_text",
+      "records": {
+        "B2": 265
+      }
+    },
+    "226": {
+      "id": 226,
+      "kind": "disk_text",
+      "records": {
+        "B2": 266
+      }
+    },
+    "227": {
+      "id": 227,
+      "kind": "disk_text",
+      "records": {
+        "B2": 267
+      }
+    },
+    "228": {
+      "id": 228,
+      "kind": "disk_text",
+      "records": {
+        "B2": 268
+      }
+    },
+    "229": {
+      "id": 229,
+      "kind": "disk_text",
+      "records": {
+        "B2": 269
+      }
+    },
+    "23": {
+      "id": 23,
+      "kind": "disk_text",
+      "records": {
+        "B1": 125,
+        "B2": 125,
+        "C1": 125,
+        "C2": 125
+      }
+    },
+    "230": {
+      "id": 230,
+      "kind": "disk_text",
+      "records": {
+        "B2": 270
+      }
+    },
+    "231": {
+      "id": 231,
+      "kind": "disk_text",
+      "records": {
+        "B2": 271
+      }
+    },
+    "232": {
+      "id": 232,
+      "kind": "disk_text",
+      "records": {
+        "B2": 272
+      }
+    },
+    "233": {
+      "id": 233,
+      "kind": "disk_text",
+      "records": {
+        "B2": 273
+      }
+    },
+    "234": {
+      "id": 234,
+      "kind": "disk_text",
+      "records": {
+        "B2": 274
+      }
+    },
+    "235": {
+      "id": 235,
+      "kind": "disk_text",
+      "records": {
+        "B2": 275
+      }
+    },
+    "236": {
+      "id": 236,
+      "kind": "disk_text",
+      "records": {
+        "B2": 276
+      }
+    },
+    "237": {
+      "id": 237,
+      "kind": "disk_text",
+      "records": {
+        "B2": 277
+      }
+    },
+    "238": {
+      "id": 238,
+      "kind": "disk_text",
+      "records": {
+        "B2": 278
+      }
+    },
+    "239": {
+      "id": 239,
+      "kind": "disk_text",
+      "records": {
+        "B2": 279
+      }
+    },
+    "24": {
+      "id": 24,
+      "kind": "disk_text",
+      "records": {
+        "B1": 126,
+        "B2": 126,
+        "C1": 126,
+        "C2": 126
+      }
+    },
+    "240": {
+      "id": 240,
+      "kind": "disk_text",
+      "records": {
+        "B2": 280
+      }
+    },
+    "241": {
+      "id": 241,
+      "kind": "disk_text",
+      "records": {
+        "B2": 281
+      }
+    },
+    "242": {
+      "id": 242,
+      "kind": "disk_text",
+      "records": {
+        "B2": 282
+      }
+    },
+    "243": {
+      "id": 243,
+      "kind": "disk_text",
+      "records": {
+        "B2": 283
+      }
+    },
+    "244": {
+      "id": 244,
+      "kind": "disk_text",
+      "records": {
+        "B2": 284
+      }
+    },
+    "245": {
+      "id": 245,
+      "kind": "disk_text",
+      "records": {
+        "B2": 285
+      }
+    },
+    "246": {
+      "id": 246,
+      "kind": "disk_text",
+      "records": {
+        "B2": 286
+      }
+    },
+    "247": {
+      "id": 247,
+      "kind": "disk_text",
+      "records": {
+        "B2": 287
+      }
+    },
+    "248": {
+      "id": 248,
+      "kind": "disk_text",
+      "records": {
+        "B2": 288
+      }
+    },
+    "249": {
+      "id": 249,
+      "kind": "disk_text",
+      "records": {
+        "B2": 289
+      }
+    },
+    "25": {
+      "id": 25,
+      "kind": "disk_text",
+      "records": {
+        "B1": 127,
+        "B2": 127,
+        "C1": 127,
+        "C2": 127
+      }
+    },
+    "250": {
+      "id": 250,
+      "kind": "disk_text",
+      "records": {
+        "B2": 290
+      }
+    },
+    "251": {
+      "id": 251,
+      "kind": "disk_text",
+      "records": {
+        "B2": 291
+      }
+    },
+    "252": {
+      "id": 252,
+      "kind": "disk_text",
+      "records": {
+        "B2": 292
+      }
+    },
+    "253": {
+      "id": 253,
+      "kind": "disk_text",
+      "records": {
+        "B2": 293
+      }
+    },
+    "254": {
+      "id": 254,
+      "kind": "disk_text",
+      "records": {
+        "B2": 294
+      }
+    },
+    "255": {
+      "id": 255,
+      "kind": "disk_text",
+      "records": {
+        "B2": 295
+      }
+    },
+    "256": {
+      "id": 256,
+      "kind": "disk_text",
+      "records": {
+        "B2": 296
+      }
+    },
+    "257": {
+      "id": 257,
+      "kind": "disk_text",
+      "records": {
+        "B2": 297
+      }
+    },
+    "258": {
+      "id": 258,
+      "kind": "disk_text",
+      "records": {
+        "B2": 298
+      }
+    },
+    "259": {
+      "id": 259,
+      "kind": "disk_text",
+      "records": {
+        "B2": 299
+      }
+    },
+    "26": {
+      "id": 26,
+      "kind": "disk_text",
+      "records": {
+        "B1": 128,
+        "B2": 128,
+        "C1": 128,
+        "C2": 128
+      }
+    },
+    "260": {
+      "id": 260,
+      "kind": "disk_text",
+      "records": {
+        "B2": 300
+      }
+    },
+    "261": {
+      "id": 261,
+      "kind": "disk_text",
+      "records": {
+        "B2": 301
+      }
+    },
+    "262": {
+      "id": 262,
+      "kind": "disk_text",
+      "records": {
+        "B2": 302
+      }
+    },
+    "263": {
+      "id": 263,
+      "kind": "disk_text",
+      "records": {
+        "B2": 303
+      }
+    },
+    "264": {
+      "id": 264,
+      "kind": "disk_text",
+      "records": {
+        "B2": 304
+      }
+    },
+    "265": {
+      "id": 265,
+      "kind": "disk_text",
+      "records": {
+        "B2": 305
+      }
+    },
+    "266": {
+      "id": 266,
+      "kind": "disk_text",
+      "records": {
+        "B2": 306
+      }
+    },
+    "267": {
+      "id": 267,
+      "kind": "disk_text",
+      "records": {
+        "B2": 307
+      }
+    },
+    "268": {
+      "id": 268,
+      "kind": "disk_text",
+      "records": {
+        "B2": 308
+      }
+    },
+    "269": {
+      "id": 269,
+      "kind": "disk_text",
+      "records": {
+        "B2": 309
+      }
+    },
+    "27": {
+      "id": 27,
+      "kind": "disk_text",
+      "records": {
+        "B1": 129,
+        "B2": 129,
+        "C1": 129,
+        "C2": 129
+      }
+    },
+    "270": {
+      "id": 270,
+      "kind": "disk_text",
+      "records": {
+        "B2": 310
+      }
+    },
+    "271": {
+      "id": 271,
+      "kind": "disk_text",
+      "records": {
+        "B2": 311
+      }
+    },
+    "272": {
+      "id": 272,
+      "kind": "disk_text",
+      "records": {
+        "B2": 312
+      }
+    },
+    "273": {
+      "id": 273,
+      "kind": "disk_text",
+      "records": {
+        "B2": 313
+      }
+    },
+    "274": {
+      "id": 274,
+      "kind": "disk_text",
+      "records": {
+        "B2": 314
+      }
+    },
+    "275": {
+      "id": 275,
+      "kind": "disk_text",
+      "records": {
+        "B2": 315
+      }
+    },
+    "276": {
+      "id": 276,
+      "kind": "disk_text",
+      "records": {
+        "B2": 316
+      }
+    },
+    "277": {
+      "id": 277,
+      "kind": "disk_text",
+      "records": {
+        "B2": 317
+      }
+    },
+    "278": {
+      "id": 278,
+      "kind": "disk_text",
+      "records": {
+        "B2": 318
+      }
+    },
+    "279": {
+      "id": 279,
+      "kind": "disk_text",
+      "records": {
+        "B2": 319
+      }
+    },
+    "28": {
+      "id": 28,
+      "kind": "disk_text",
+      "records": {
+        "B1": 130,
+        "B2": 130,
+        "C1": 130,
+        "C2": 130
+      }
+    },
+    "280": {
+      "id": 280,
+      "kind": "disk_text",
+      "records": {
+        "B2": 320
+      }
+    },
+    "281": {
+      "id": 281,
+      "kind": "disk_text",
+      "records": {
+        "B2": 321
+      }
+    },
+    "282": {
+      "id": 282,
+      "kind": "disk_text",
+      "records": {
+        "B2": 322
+      }
+    },
+    "283": {
+      "id": 283,
+      "kind": "disk_text",
+      "records": {
+        "B2": 323
+      }
+    },
+    "284": {
+      "id": 284,
+      "kind": "disk_text",
+      "records": {
+        "B2": 324
+      }
+    },
+    "285": {
+      "id": 285,
+      "kind": "disk_text",
+      "records": {
+        "B2": 325
+      }
+    },
+    "286": {
+      "id": 286,
+      "kind": "disk_text",
+      "records": {
+        "B2": 326
+      }
+    },
+    "287": {
+      "id": 287,
+      "kind": "disk_text",
+      "records": {
+        "B2": 327
+      }
+    },
+    "288": {
+      "id": 288,
+      "kind": "disk_text",
+      "records": {
+        "B2": 328
+      }
+    },
+    "289": {
+      "id": 289,
+      "kind": "disk_text",
+      "records": {
+        "B2": 329
+      }
+    },
+    "29": {
+      "id": 29,
+      "kind": "disk_text",
+      "records": {
+        "B1": 131,
+        "B2": 131,
+        "C1": 131,
+        "C2": 131
+      }
+    },
+    "290": {
+      "id": 290,
+      "kind": "disk_text",
+      "records": {
+        "B2": 330
+      }
+    },
+    "291": {
+      "id": 291,
+      "kind": "disk_text",
+      "records": {
+        "B2": 331
+      }
+    },
+    "292": {
+      "id": 292,
+      "kind": "disk_text",
+      "records": {
+        "B2": 332
+      }
+    },
+    "293": {
+      "id": 293,
+      "kind": "disk_text",
+      "records": {
+        "B2": 333
+      }
+    },
+    "294": {
+      "id": 294,
+      "kind": "disk_text",
+      "records": {
+        "B2": 334
+      }
+    },
+    "295": {
+      "id": 295,
+      "kind": "disk_text",
+      "records": {
+        "B2": 335
+      }
+    },
+    "296": {
+      "id": 296,
+      "kind": "disk_text",
+      "records": {
+        "B2": 336
+      }
+    },
+    "297": {
+      "id": 297,
+      "kind": "disk_text",
+      "records": {
+        "B2": 337
+      }
+    },
+    "298": {
+      "id": 298,
+      "kind": "disk_text",
+      "records": {
+        "B2": 338
+      }
+    },
+    "299": {
+      "id": 299,
+      "kind": "disk_text",
+      "records": {
+        "B2": 339
+      }
+    },
+    "3": {
+      "id": 3,
+      "kind": "disk_text",
+      "records": {
+        "B1": 105,
+        "B2": 105,
+        "C1": 105,
+        "C2": 105
+      }
+    },
+    "30": {
+      "id": 30,
+      "kind": "disk_text",
+      "records": {
+        "B1": 132,
+        "B2": 132,
+        "C1": 132,
+        "C2": 132
+      }
+    },
+    "300": {
+      "id": 300,
+      "kind": "disk_text",
+      "records": {
+        "B2": 340
+      }
+    },
+    "301": {
+      "id": 301,
+      "kind": "disk_text",
+      "records": {
+        "B2": 341
+      }
+    },
+    "302": {
+      "id": 302,
+      "kind": "disk_text",
+      "records": {
+        "B2": 342
+      }
+    },
+    "303": {
+      "id": 303,
+      "kind": "disk_text",
+      "records": {
+        "B2": 343
+      }
+    },
+    "304": {
+      "id": 304,
+      "kind": "disk_text",
+      "records": {
+        "B2": 344
+      }
+    },
+    "305": {
+      "id": 305,
+      "kind": "disk_text",
+      "records": {
+        "B2": 345
+      }
+    },
+    "306": {
+      "id": 306,
+      "kind": "disk_text",
+      "records": {
+        "B2": 346
+      }
+    },
+    "307": {
+      "id": 307,
+      "kind": "disk_text",
+      "records": {
+        "B2": 347
+      }
+    },
+    "308": {
+      "id": 308,
+      "kind": "disk_text",
+      "records": {
+        "B2": 348
+      }
+    },
+    "309": {
+      "id": 309,
+      "kind": "disk_text",
+      "records": {
+        "B2": 349
+      }
+    },
+    "31": {
+      "id": 31,
+      "kind": "disk_text",
+      "records": {
+        "B1": 133,
+        "B2": 133,
+        "C1": 133,
+        "C2": 133
+      }
+    },
+    "310": {
+      "id": 310,
+      "kind": "disk_text",
+      "records": {
+        "B2": 350
+      }
+    },
+    "311": {
+      "id": 311,
+      "kind": "disk_text",
+      "records": {
+        "B2": 351
+      }
+    },
+    "312": {
+      "id": 312,
+      "kind": "disk_text",
+      "records": {
+        "B2": 352
+      }
+    },
+    "313": {
+      "id": 313,
+      "kind": "disk_text",
+      "records": {
+        "B2": 353
+      }
+    },
+    "314": {
+      "id": 314,
+      "kind": "disk_text",
+      "records": {
+        "B2": 354
+      }
+    },
+    "315": {
+      "id": 315,
+      "kind": "disk_text",
+      "records": {
+        "B2": 355
+      }
+    },
+    "316": {
+      "id": 316,
+      "kind": "disk_text",
+      "records": {
+        "B2": 356
+      }
+    },
+    "317": {
+      "id": 317,
+      "kind": "disk_text",
+      "records": {
+        "B2": 357
+      }
+    },
+    "318": {
+      "id": 318,
+      "kind": "disk_text",
+      "records": {
+        "B2": 358
+      }
+    },
+    "319": {
+      "id": 319,
+      "kind": "disk_text",
+      "records": {
+        "B2": 359
+      }
+    },
+    "32": {
+      "id": 32,
+      "kind": "disk_text",
+      "records": {
+        "B1": 134,
+        "B2": 134,
+        "C1": 134,
+        "C2": 134
+      }
+    },
+    "320": {
+      "id": 320,
+      "kind": "disk_text",
+      "records": {
+        "B2": 360
+      }
+    },
+    "321": {
+      "id": 321,
+      "kind": "disk_text",
+      "records": {
+        "B2": 361
+      }
+    },
+    "322": {
+      "id": 322,
+      "kind": "disk_text",
+      "records": {
+        "B2": 362
+      }
+    },
+    "323": {
+      "id": 323,
+      "kind": "disk_text",
+      "records": {
+        "B2": 363
+      }
+    },
+    "324": {
+      "id": 324,
+      "kind": "disk_text",
+      "records": {
+        "B2": 364
+      }
+    },
+    "325": {
+      "id": 325,
+      "kind": "disk_text",
+      "records": {
+        "B2": 365
+      }
+    },
+    "326": {
+      "id": 326,
+      "kind": "disk_text",
+      "records": {
+        "B2": 366
+      }
+    },
+    "327": {
+      "id": 327,
+      "kind": "disk_text",
+      "records": {
+        "B2": 367
+      }
+    },
+    "328": {
+      "id": 328,
+      "kind": "disk_text",
+      "records": {
+        "B2": 368
+      }
+    },
+    "329": {
+      "id": 329,
+      "kind": "disk_text",
+      "records": {
+        "B2": 369
+      }
+    },
+    "33": {
+      "id": 33,
+      "kind": "disk_text",
+      "records": {
+        "B1": 135,
+        "B2": 135,
+        "C1": 135,
+        "C2": 135
+      }
+    },
+    "330": {
+      "id": 330,
+      "kind": "disk_text",
+      "records": {
+        "B2": 370
+      }
+    },
+    "331": {
+      "id": 331,
+      "kind": "disk_text",
+      "records": {
+        "B2": 371
+      }
+    },
+    "332": {
+      "id": 332,
+      "kind": "disk_text",
+      "records": {
+        "B2": 372
+      }
+    },
+    "333": {
+      "id": 333,
+      "kind": "disk_text",
+      "records": {
+        "B2": 373
+      }
+    },
+    "334": {
+      "id": 334,
+      "kind": "disk_text",
+      "records": {
+        "B2": 374
+      }
+    },
+    "335": {
+      "id": 335,
+      "kind": "disk_text",
+      "records": {
+        "B2": 375
+      }
+    },
+    "336": {
+      "id": 336,
+      "kind": "disk_text",
+      "records": {
+        "B2": 376
+      }
+    },
+    "337": {
+      "id": 337,
+      "kind": "disk_text",
+      "records": {
+        "B2": 377
+      }
+    },
+    "338": {
+      "id": 338,
+      "kind": "disk_text",
+      "records": {
+        "B2": 378
+      }
+    },
+    "339": {
+      "id": 339,
+      "kind": "disk_text",
+      "records": {
+        "B2": 379
+      }
+    },
+    "34": {
+      "id": 34,
+      "kind": "disk_text",
+      "records": {
+        "B1": 136,
+        "B2": 136,
+        "C1": 136,
+        "C2": 136
+      }
+    },
+    "340": {
+      "id": 340,
+      "kind": "disk_text",
+      "records": {
+        "B2": 380
+      }
+    },
+    "341": {
+      "id": 341,
+      "kind": "disk_text",
+      "records": {
+        "B2": 381
+      }
+    },
+    "342": {
+      "id": 342,
+      "kind": "disk_text",
+      "records": {
+        "B2": 382
+      }
+    },
+    "343": {
+      "id": 343,
+      "kind": "disk_text",
+      "records": {
+        "B2": 383
+      }
+    },
+    "344": {
+      "id": 344,
+      "kind": "disk_text",
+      "records": {
+        "B2": 384
+      }
+    },
+    "345": {
+      "id": 345,
+      "kind": "disk_text",
+      "records": {
+        "B2": 385
+      }
+    },
+    "346": {
+      "id": 346,
+      "kind": "disk_text",
+      "records": {
+        "B2": 386
+      }
+    },
+    "347": {
+      "id": 347,
+      "kind": "disk_text",
+      "records": {
+        "B2": 387
+      }
+    },
+    "348": {
+      "id": 348,
+      "kind": "disk_text",
+      "records": {
+        "B2": 388
+      }
+    },
+    "349": {
+      "id": 349,
+      "kind": "disk_text",
+      "records": {
+        "B2": 389
+      }
+    },
+    "35": {
+      "id": 35,
+      "kind": "disk_text",
+      "records": {
+        "B1": 137,
+        "B2": 137,
+        "C1": 137,
+        "C2": 137
+      }
+    },
+    "350": {
+      "id": 350,
+      "kind": "disk_text",
+      "records": {
+        "B2": 390
+      }
+    },
+    "351": {
+      "id": 351,
+      "kind": "disk_text",
+      "records": {
+        "B2": 391
+      }
+    },
+    "352": {
+      "id": 352,
+      "kind": "disk_text",
+      "records": {
+        "B2": 392
+      }
+    },
+    "353": {
+      "id": 353,
+      "kind": "disk_text",
+      "records": {
+        "B2": 393
+      }
+    },
+    "354": {
+      "id": 354,
+      "kind": "disk_text",
+      "records": {
+        "B2": 394
+      }
+    },
+    "355": {
+      "id": 355,
+      "kind": "disk_text",
+      "records": {
+        "B2": 395
+      }
+    },
+    "356": {
+      "id": 356,
+      "kind": "disk_text",
+      "records": {
+        "C1": 209
+      }
+    },
+    "357": {
+      "id": 357,
+      "kind": "disk_text",
+      "records": {
+        "C1": 210
+      }
+    },
+    "358": {
+      "id": 358,
+      "kind": "disk_text",
+      "records": {
+        "C1": 211
+      }
+    },
+    "359": {
+      "id": 359,
+      "kind": "disk_text",
+      "records": {
+        "C1": 212
+      }
+    },
+    "36": {
+      "id": 36,
+      "kind": "disk_text",
+      "records": {
+        "B1": 138,
+        "B2": 138,
+        "C1": 138,
+        "C2": 138
+      }
+    },
+    "360": {
+      "id": 360,
+      "kind": "disk_text",
+      "records": {
+        "C1": 213
+      }
+    },
+    "361": {
+      "id": 361,
+      "kind": "disk_text",
+      "records": {
+        "C1": 214
+      }
+    },
+    "362": {
+      "id": 362,
+      "kind": "disk_text",
+      "records": {
+        "C1": 215
+      }
+    },
+    "363": {
+      "id": 363,
+      "kind": "disk_text",
+      "records": {
+        "C1": 216
+      }
+    },
+    "364": {
+      "id": 364,
+      "kind": "disk_text",
+      "records": {
+        "C1": 217
+      }
+    },
+    "365": {
+      "id": 365,
+      "kind": "disk_text",
+      "records": {
+        "C1": 218
+      }
+    },
+    "366": {
+      "id": 366,
+      "kind": "disk_text",
+      "records": {
+        "C1": 219
+      }
+    },
+    "367": {
+      "id": 367,
+      "kind": "disk_text",
+      "records": {
+        "C1": 220
+      }
+    },
+    "368": {
+      "id": 368,
+      "kind": "disk_text",
+      "records": {
+        "C1": 221
+      }
+    },
+    "369": {
+      "id": 369,
+      "kind": "disk_text",
+      "records": {
+        "C1": 222
+      }
+    },
+    "37": {
+      "id": 37,
+      "kind": "disk_text",
+      "records": {
+        "B1": 139,
+        "B2": 139,
+        "C1": 139,
+        "C2": 139
+      }
+    },
+    "370": {
+      "id": 370,
+      "kind": "disk_text",
+      "records": {
+        "C1": 223
+      }
+    },
+    "371": {
+      "id": 371,
+      "kind": "disk_text",
+      "records": {
+        "C1": 224
+      }
+    },
+    "372": {
+      "id": 372,
+      "kind": "disk_text",
+      "records": {
+        "C1": 225
+      }
+    },
+    "373": {
+      "id": 373,
+      "kind": "disk_text",
+      "records": {
+        "C1": 226
+      }
+    },
+    "374": {
+      "id": 374,
+      "kind": "disk_text",
+      "records": {
+        "C1": 227
+      }
+    },
+    "375": {
+      "id": 375,
+      "kind": "disk_text",
+      "records": {
+        "C1": 228
+      }
+    },
+    "376": {
+      "id": 376,
+      "kind": "disk_text",
+      "records": {
+        "C1": 229
+      }
+    },
+    "377": {
+      "id": 377,
+      "kind": "disk_text",
+      "records": {
+        "C1": 230
+      }
+    },
+    "378": {
+      "id": 378,
+      "kind": "disk_text",
+      "records": {
+        "C1": 231
+      }
+    },
+    "379": {
+      "id": 379,
+      "kind": "disk_text",
+      "records": {
+        "C1": 232
+      }
+    },
+    "38": {
+      "id": 38,
+      "kind": "disk_text",
+      "records": {
+        "B1": 140,
+        "B2": 140,
+        "C1": 140,
+        "C2": 140
+      }
+    },
+    "380": {
+      "id": 380,
+      "kind": "disk_text",
+      "records": {
+        "C1": 233
+      }
+    },
+    "381": {
+      "id": 381,
+      "kind": "disk_text",
+      "records": {
+        "C1": 234
+      }
+    },
+    "382": {
+      "id": 382,
+      "kind": "disk_text",
+      "records": {
+        "C1": 235
+      }
+    },
+    "383": {
+      "id": 383,
+      "kind": "disk_text",
+      "records": {
+        "C1": 236
+      }
+    },
+    "384": {
+      "id": 384,
+      "kind": "disk_text",
+      "records": {
+        "C1": 237
+      }
+    },
+    "385": {
+      "id": 385,
+      "kind": "disk_text",
+      "records": {
+        "C1": 238
+      }
+    },
+    "386": {
+      "id": 386,
+      "kind": "disk_text",
+      "records": {
+        "C1": 239
+      }
+    },
+    "387": {
+      "id": 387,
+      "kind": "disk_text",
+      "records": {
+        "C1": 240
+      }
+    },
+    "388": {
+      "id": 388,
+      "kind": "disk_text",
+      "records": {
+        "C1": 241
+      }
+    },
+    "389": {
+      "id": 389,
+      "kind": "disk_text",
+      "records": {
+        "C1": 242
+      }
+    },
+    "39": {
+      "id": 39,
+      "kind": "disk_text",
+      "records": {
+        "B1": 141,
+        "B2": 141,
+        "C1": 141,
+        "C2": 141
+      }
+    },
+    "390": {
+      "id": 390,
+      "kind": "disk_text",
+      "records": {
+        "C1": 243
+      }
+    },
+    "391": {
+      "id": 391,
+      "kind": "disk_text",
+      "records": {
+        "C1": 244
+      }
+    },
+    "392": {
+      "id": 392,
+      "kind": "disk_text",
+      "records": {
+        "C1": 245
+      }
+    },
+    "393": {
+      "id": 393,
+      "kind": "disk_text",
+      "records": {
+        "C1": 246
+      }
+    },
+    "394": {
+      "id": 394,
+      "kind": "disk_text",
+      "records": {
+        "C1": 247
+      }
+    },
+    "395": {
+      "id": 395,
+      "kind": "disk_text",
+      "records": {
+        "C1": 248
+      }
+    },
+    "396": {
+      "id": 396,
+      "kind": "disk_text",
+      "records": {
+        "C1": 249
+      }
+    },
+    "397": {
+      "id": 397,
+      "kind": "disk_text",
+      "records": {
+        "C1": 250
+      }
+    },
+    "398": {
+      "id": 398,
+      "kind": "disk_text",
+      "records": {
+        "C2": 209
+      }
+    },
+    "399": {
+      "id": 399,
+      "kind": "disk_text",
+      "records": {
+        "C2": 210
+      }
+    },
+    "4": {
+      "id": 4,
+      "kind": "disk_text",
+      "records": {
+        "B1": 106,
+        "B2": 106,
+        "C1": 106,
+        "C2": 106
+      },
+      "note": "Literal placeholder record; do not substitute Amiga/DOS wording without documenting it."
+    },
+    "40": {
+      "id": 40,
+      "kind": "disk_text",
+      "records": {
+        "B1": 142,
+        "B2": 142,
+        "C1": 142,
+        "C2": 142
+      }
+    },
+    "400": {
+      "id": 400,
+      "kind": "disk_text",
+      "records": {
+        "C2": 211
+      }
+    },
+    "401": {
+      "id": 401,
+      "kind": "disk_text",
+      "records": {
+        "C2": 212
+      }
+    },
+    "402": {
+      "id": 402,
+      "kind": "disk_text",
+      "records": {
+        "C2": 213
+      }
+    },
+    "403": {
+      "id": 403,
+      "kind": "disk_text",
+      "records": {
+        "C2": 214
+      }
+    },
+    "404": {
+      "id": 404,
+      "kind": "disk_text",
+      "records": {
+        "C2": 215
+      }
+    },
+    "405": {
+      "id": 405,
+      "kind": "disk_text",
+      "records": {
+        "C2": 216
+      }
+    },
+    "406": {
+      "id": 406,
+      "kind": "disk_text",
+      "records": {
+        "C2": 217
+      }
+    },
+    "407": {
+      "id": 407,
+      "kind": "disk_text",
+      "records": {
+        "C2": 218
+      }
+    },
+    "408": {
+      "id": 408,
+      "kind": "disk_text",
+      "records": {
+        "C2": 219
+      }
+    },
+    "409": {
+      "id": 409,
+      "kind": "disk_text",
+      "records": {
+        "C2": 220
+      }
+    },
+    "41": {
+      "id": 41,
+      "kind": "disk_text",
+      "records": {
+        "B1": 143,
+        "B2": 143,
+        "C1": 143,
+        "C2": 143
+      }
+    },
+    "410": {
+      "id": 410,
+      "kind": "disk_text",
+      "records": {
+        "C2": 221
+      }
+    },
+    "411": {
+      "id": 411,
+      "kind": "disk_text",
+      "records": {
+        "C2": 222
+      }
+    },
+    "412": {
+      "id": 412,
+      "kind": "disk_text",
+      "records": {
+        "C2": 223
+      }
+    },
+    "413": {
+      "id": 413,
+      "kind": "disk_text",
+      "records": {
+        "C2": 224
+      }
+    },
+    "414": {
+      "id": 414,
+      "kind": "disk_text",
+      "records": {
+        "C2": 225
+      }
+    },
+    "415": {
+      "id": 415,
+      "kind": "disk_text",
+      "records": {
+        "C2": 226
+      }
+    },
+    "416": {
+      "id": 416,
+      "kind": "disk_text",
+      "records": {
+        "C2": 227
+      }
+    },
+    "417": {
+      "id": 417,
+      "kind": "disk_text",
+      "records": {
+        "C2": 228
+      }
+    },
+    "418": {
+      "id": 418,
+      "kind": "disk_text",
+      "records": {
+        "C2": 229
+      }
+    },
+    "419": {
+      "id": 419,
+      "kind": "disk_text",
+      "records": {
+        "C2": 230
+      }
+    },
+    "42": {
+      "id": 42,
+      "kind": "disk_text",
+      "records": {
+        "B1": 144,
+        "B2": 144,
+        "C1": 144,
+        "C2": 144
+      }
+    },
+    "420": {
+      "id": 420,
+      "kind": "disk_text",
+      "records": {
+        "C2": 231
+      }
+    },
+    "421": {
+      "id": 421,
+      "kind": "disk_text",
+      "records": {
+        "C2": 232
+      }
+    },
+    "422": {
+      "id": 422,
+      "kind": "disk_text",
+      "records": {
+        "C2": 233
+      }
+    },
+    "423": {
+      "id": 423,
+      "kind": "disk_text",
+      "records": {
+        "C2": 234
+      }
+    },
+    "424": {
+      "id": 424,
+      "kind": "disk_text",
+      "records": {
+        "C2": 235
+      }
+    },
+    "425": {
+      "id": 425,
+      "kind": "disk_text",
+      "records": {
+        "C2": 236
+      }
+    },
+    "426": {
+      "id": 426,
+      "kind": "disk_text",
+      "records": {
+        "C2": 237
+      }
+    },
+    "427": {
+      "id": 427,
+      "kind": "disk_text",
+      "records": {
+        "C2": 238
+      }
+    },
+    "428": {
+      "id": 428,
+      "kind": "disk_text",
+      "records": {
+        "C2": 239
+      }
+    },
+    "429": {
+      "id": 429,
+      "kind": "disk_text",
+      "records": {
+        "C2": 240
+      }
+    },
+    "43": {
+      "id": 43,
+      "kind": "disk_text",
+      "records": {
+        "B1": 145,
+        "B2": 145,
+        "C1": 145,
+        "C2": 145
+      }
+    },
+    "430": {
+      "id": 430,
+      "kind": "disk_text",
+      "records": {
+        "C2": 241
+      }
+    },
+    "431": {
+      "id": 431,
+      "kind": "disk_text",
+      "records": {
+        "C2": 242
+      }
+    },
+    "432": {
+      "id": 432,
+      "kind": "disk_text",
+      "records": {
+        "C2": 243
+      }
+    },
+    "433": {
+      "id": 433,
+      "kind": "disk_text",
+      "records": {
+        "C2": 244
+      }
+    },
+    "434": {
+      "id": 434,
+      "kind": "disk_text",
+      "records": {
+        "C2": 245
+      }
+    },
+    "435": {
+      "id": 435,
+      "kind": "disk_text",
+      "records": {
+        "C2": 246
+      }
+    },
+    "436": {
+      "id": 436,
+      "kind": "disk_text",
+      "records": {
+        "C2": 247
+      }
+    },
+    "437": {
+      "id": 437,
+      "kind": "disk_text",
+      "records": {
+        "C2": 248
+      }
+    },
+    "438": {
+      "id": 438,
+      "kind": "disk_text",
+      "records": {
+        "C2": 249
+      }
+    },
+    "439": {
+      "id": 439,
+      "kind": "disk_text",
+      "records": {
+        "C2": 250
+      }
+    },
+    "44": {
+      "id": 44,
+      "kind": "disk_text",
+      "records": {
+        "B1": 146,
+        "B2": 146,
+        "C1": 146,
+        "C2": 146
+      }
+    },
+    "440": {
+      "id": 440,
+      "kind": "disk_text",
+      "records": {
+        "C2": 251
+      }
+    },
+    "441": {
+      "id": 441,
+      "kind": "disk_text",
+      "records": {
+        "C2": 252
+      }
+    },
+    "442": {
+      "id": 442,
+      "kind": "disk_text",
+      "records": {
+        "C2": 253
+      }
+    },
+    "443": {
+      "id": 443,
+      "kind": "disk_text",
+      "records": {
+        "C2": 254
+      }
+    },
+    "444": {
+      "id": 444,
+      "kind": "disk_text",
+      "records": {
+        "C2": 255
+      }
+    },
+    "445": {
+      "id": 445,
+      "kind": "disk_text",
+      "records": {
+        "C2": 256
+      }
+    },
+    "446": {
+      "id": 446,
+      "kind": "disk_text",
+      "records": {
+        "C2": 257
+      }
+    },
+    "447": {
+      "id": 447,
+      "kind": "disk_text",
+      "records": {
+        "C2": 258
+      }
+    },
+    "448": {
+      "id": 448,
+      "kind": "disk_text",
+      "records": {
+        "C2": 259
+      }
+    },
+    "449": {
+      "id": 449,
+      "kind": "disk_text",
+      "records": {
+        "C2": 260
+      }
+    },
+    "45": {
+      "id": 45,
+      "kind": "disk_text",
+      "records": {
+        "B1": 147,
+        "B2": 147,
+        "C1": 147,
+        "C2": 147
+      }
+    },
+    "450": {
+      "id": 450,
+      "kind": "disk_text",
+      "records": {
+        "C2": 261
+      }
+    },
+    "451": {
+      "id": 451,
+      "kind": "disk_text",
+      "records": {
+        "C2": 262
+      }
+    },
+    "452": {
+      "id": 452,
+      "kind": "disk_text",
+      "records": {
+        "C2": 263
+      }
+    },
+    "453": {
+      "id": 453,
+      "kind": "disk_text",
+      "records": {
+        "C2": 264
+      }
+    },
+    "454": {
+      "id": 454,
+      "kind": "disk_text",
+      "records": {
+        "C2": 265
+      }
+    },
+    "455": {
+      "id": 455,
+      "kind": "disk_text",
+      "records": {
+        "C2": 266
+      }
+    },
+    "456": {
+      "id": 456,
+      "kind": "disk_text",
+      "records": {
+        "C2": 267
+      }
+    },
+    "457": {
+      "id": 457,
+      "kind": "disk_text",
+      "records": {
+        "C2": 268
+      }
+    },
+    "458": {
+      "id": 458,
+      "kind": "disk_text",
+      "records": {
+        "C2": 269
+      }
+    },
+    "459": {
+      "id": 459,
+      "kind": "disk_text",
+      "records": {
+        "C2": 270
+      }
+    },
+    "46": {
+      "id": 46,
+      "kind": "disk_text",
+      "records": {
+        "B1": 148,
+        "B2": 148,
+        "C1": 148,
+        "C2": 148
+      }
+    },
+    "460": {
+      "id": 460,
+      "kind": "disk_text",
+      "records": {
+        "C2": 271
+      }
+    },
+    "461": {
+      "id": 461,
+      "kind": "disk_text",
+      "records": {
+        "C2": 272
+      }
+    },
+    "462": {
+      "id": 462,
+      "kind": "disk_text",
+      "records": {
+        "C2": 273
+      }
+    },
+    "463": {
+      "id": 463,
+      "kind": "disk_text",
+      "records": {
+        "C2": 274
+      }
+    },
+    "464": {
+      "id": 464,
+      "kind": "disk_text",
+      "records": {
+        "C2": 275
+      }
+    },
+    "465": {
+      "id": 465,
+      "kind": "disk_text",
+      "records": {
+        "C2": 276
+      }
+    },
+    "466": {
+      "id": 466,
+      "kind": "disk_text",
+      "records": {
+        "C2": 277
+      }
+    },
+    "467": {
+      "id": 467,
+      "kind": "disk_text",
+      "records": {
+        "C2": 278
+      }
+    },
+    "468": {
+      "id": 468,
+      "kind": "disk_text",
+      "records": {
+        "C2": 279
+      }
+    },
+    "469": {
+      "id": 469,
+      "kind": "disk_text",
+      "records": {
+        "C2": 280
+      }
+    },
+    "47": {
+      "id": 47,
+      "kind": "disk_text",
+      "records": {
+        "B1": 149,
+        "B2": 149,
+        "C1": 149,
+        "C2": 149
+      }
+    },
+    "470": {
+      "id": 470,
+      "kind": "disk_text",
+      "records": {
+        "C2": 281
+      }
+    },
+    "471": {
+      "id": 471,
+      "kind": "disk_text",
+      "records": {
+        "C2": 282
+      }
+    },
+    "472": {
+      "id": 472,
+      "kind": "disk_text",
+      "records": {
+        "C2": 283
+      }
+    },
+    "473": {
+      "id": 473,
+      "kind": "disk_text",
+      "records": {
+        "C2": 284
+      }
+    },
+    "474": {
+      "id": 474,
+      "kind": "disk_text",
+      "records": {
+        "C2": 285
+      }
+    },
+    "475": {
+      "id": 475,
+      "kind": "disk_text",
+      "records": {
+        "C2": 286
+      }
+    },
+    "476": {
+      "id": 476,
+      "kind": "disk_text",
+      "records": {
+        "C2": 287
+      }
+    },
+    "477": {
+      "id": 477,
+      "kind": "disk_text",
+      "records": {
+        "C2": 288
+      }
+    },
+    "478": {
+      "id": 478,
+      "kind": "disk_text",
+      "records": {
+        "C2": 289
+      }
+    },
+    "479": {
+      "id": 479,
+      "kind": "disk_text",
+      "records": {
+        "C2": 290
+      }
+    },
+    "48": {
+      "id": 48,
+      "kind": "disk_text",
+      "records": {
+        "B1": 150,
+        "B2": 150,
+        "C1": 150,
+        "C2": 150
+      }
+    },
+    "480": {
+      "id": 480,
+      "kind": "disk_text",
+      "records": {
+        "C2": 291
+      }
+    },
+    "481": {
+      "id": 481,
+      "kind": "disk_text",
+      "records": {
+        "C2": 292
+      }
+    },
+    "482": {
+      "id": 482,
+      "kind": "disk_text",
+      "records": {
+        "C2": 293
+      }
+    },
+    "483": {
+      "id": 483,
+      "kind": "disk_text",
+      "records": {
+        "C2": 294
+      }
+    },
+    "484": {
+      "id": 484,
+      "kind": "disk_text",
+      "records": {
+        "C2": 295
+      }
+    },
+    "485": {
+      "id": 485,
+      "kind": "disk_text",
+      "records": {
+        "C2": 296
+      }
+    },
+    "486": {
+      "id": 486,
+      "kind": "disk_text",
+      "records": {
+        "C2": 297
+      }
+    },
+    "487": {
+      "id": 487,
+      "kind": "disk_text",
+      "records": {
+        "C2": 298
+      }
+    },
+    "488": {
+      "id": 488,
+      "kind": "disk_text",
+      "records": {
+        "C2": 299
+      }
+    },
+    "489": {
+      "id": 489,
+      "kind": "disk_text",
+      "records": {
+        "C2": 300
+      }
+    },
+    "49": {
+      "id": 49,
+      "kind": "disk_text",
+      "records": {
+        "B1": 151,
+        "B2": 151,
+        "C1": 151,
+        "C2": 151
+      }
+    },
+    "490": {
+      "id": 490,
+      "kind": "disk_text",
+      "records": {
+        "C2": 301
+      }
+    },
+    "491": {
+      "id": 491,
+      "kind": "disk_text",
+      "records": {
+        "C2": 302
+      }
+    },
+    "492": {
+      "id": 492,
+      "kind": "disk_text",
+      "records": {
+        "C2": 303
+      }
+    },
+    "493": {
+      "id": 493,
+      "kind": "disk_text",
+      "records": {
+        "C2": 304
+      }
+    },
+    "494": {
+      "id": 494,
+      "kind": "disk_text",
+      "records": {
+        "C2": 305
+      }
+    },
+    "495": {
+      "id": 495,
+      "kind": "disk_text",
+      "records": {
+        "C2": 306
+      }
+    },
+    "496": {
+      "id": 496,
+      "kind": "disk_text",
+      "records": {
+        "C2": 307
+      }
+    },
+    "497": {
+      "id": 497,
+      "kind": "disk_text",
+      "records": {
+        "C2": 308
+      }
+    },
+    "498": {
+      "id": 498,
+      "kind": "disk_text",
+      "records": {
+        "C2": 309
+      }
+    },
+    "499": {
+      "id": 499,
+      "kind": "disk_text",
+      "records": {
+        "C2": 310
+      }
+    },
+    "5": {
+      "id": 5,
+      "kind": "disk_text",
+      "records": {
+        "B1": 107,
+        "B2": 107,
+        "C1": 107,
+        "C2": 107
+      }
+    },
+    "50": {
+      "id": 50,
+      "kind": "disk_text",
+      "records": {
+        "B1": 152,
+        "B2": 152,
+        "C1": 152,
+        "C2": 152
+      }
+    },
+    "500": {
+      "id": 500,
+      "kind": "disk_text",
+      "records": {
+        "C2": 311
+      }
+    },
+    "501": {
+      "id": 501,
+      "kind": "disk_text",
+      "records": {
+        "C2": 312
+      }
+    },
+    "502": {
+      "id": 502,
+      "kind": "disk_text",
+      "records": {
+        "C2": 313
+      }
+    },
+    "503": {
+      "id": 503,
+      "kind": "disk_text",
+      "records": {
+        "C2": 314
+      }
+    },
+    "504": {
+      "id": 504,
+      "kind": "disk_text",
+      "records": {
+        "C2": 315
+      }
+    },
+    "505": {
+      "id": 505,
+      "kind": "disk_text",
+      "records": {
+        "C2": 316
+      }
+    },
+    "506": {
+      "id": 506,
+      "kind": "disk_text",
+      "records": {
+        "C2": 317
+      }
+    },
+    "507": {
+      "id": 507,
+      "kind": "disk_text",
+      "records": {
+        "C2": 318
+      }
+    },
+    "508": {
+      "id": 508,
+      "kind": "disk_text",
+      "records": {
+        "C2": 319
+      }
+    },
+    "509": {
+      "id": 509,
+      "kind": "disk_text",
+      "records": {
+        "C2": 320
+      }
+    },
+    "51": {
+      "id": 51,
+      "kind": "disk_text",
+      "records": {
+        "B1": 153,
+        "B2": 153,
+        "C1": 153,
+        "C2": 153
+      }
+    },
+    "510": {
+      "id": 510,
+      "kind": "disk_text",
+      "records": {
+        "C2": 321
+      }
+    },
+    "511": {
+      "id": 511,
+      "kind": "disk_text",
+      "records": {
+        "C2": 322
+      }
+    },
+    "512": {
+      "id": 512,
+      "kind": "disk_text",
+      "records": {
+        "C2": 323
+      }
+    },
+    "513": {
+      "id": 513,
+      "kind": "disk_text",
+      "records": {
+        "C2": 324
+      }
+    },
+    "514": {
+      "id": 514,
+      "kind": "disk_text",
+      "records": {
+        "C2": 325
+      }
+    },
+    "515": {
+      "id": 515,
+      "kind": "disk_text",
+      "records": {
+        "C2": 326
+      }
+    },
+    "516": {
+      "id": 516,
+      "kind": "disk_text",
+      "records": {
+        "C2": 327
+      }
+    },
+    "517": {
+      "id": 517,
+      "kind": "disk_text",
+      "records": {
+        "C2": 328
+      }
+    },
+    "518": {
+      "id": 518,
+      "kind": "disk_text",
+      "records": {
+        "C2": 329
+      }
+    },
+    "519": {
+      "id": 519,
+      "kind": "disk_text",
+      "records": {
+        "C2": 330
+      }
+    },
+    "52": {
+      "id": 52,
+      "kind": "disk_text",
+      "records": {
+        "B1": 154,
+        "B2": 154,
+        "C1": 154,
+        "C2": 154
+      }
+    },
+    "520": {
+      "id": 520,
+      "kind": "disk_text",
+      "records": {
+        "C2": 331
+      }
+    },
+    "521": {
+      "id": 521,
+      "kind": "disk_text",
+      "records": {
+        "C2": 332
+      }
+    },
+    "522": {
+      "id": 522,
+      "kind": "disk_text",
+      "records": {
+        "C2": 333
+      }
+    },
+    "523": {
+      "id": 523,
+      "kind": "disk_text",
+      "records": {
+        "C2": 334
+      }
+    },
+    "524": {
+      "id": 524,
+      "kind": "disk_text",
+      "records": {
+        "C2": 335
+      }
+    },
+    "525": {
+      "id": 525,
+      "kind": "disk_text",
+      "records": {
+        "C2": 336
+      }
+    },
+    "526": {
+      "id": 526,
+      "kind": "disk_text",
+      "records": {
+        "C2": 337
+      }
+    },
+    "527": {
+      "id": 527,
+      "kind": "disk_text",
+      "records": {
+        "C2": 338
+      }
+    },
+    "528": {
+      "id": 528,
+      "kind": "disk_text",
+      "records": {
+        "C2": 339
+      }
+    },
+    "529": {
+      "id": 529,
+      "kind": "disk_text",
+      "records": {
+        "C2": 340
+      }
+    },
+    "53": {
+      "id": 53,
+      "kind": "disk_text",
+      "records": {
+        "B1": 155,
+        "B2": 155,
+        "C1": 155,
+        "C2": 155
+      }
+    },
+    "530": {
+      "id": 530,
+      "kind": "disk_text",
+      "records": {
+        "C2": 341
+      }
+    },
+    "531": {
+      "id": 531,
+      "kind": "disk_text",
+      "records": {
+        "C2": 342
+      }
+    },
+    "532": {
+      "id": 532,
+      "kind": "disk_text",
+      "records": {
+        "C2": 343
+      }
+    },
+    "533": {
+      "id": 533,
+      "kind": "disk_text",
+      "records": {
+        "C2": 344
+      }
+    },
+    "534": {
+      "id": 534,
+      "kind": "disk_text",
+      "records": {
+        "C2": 345
+      }
+    },
+    "535": {
+      "id": 535,
+      "kind": "disk_text",
+      "records": {
+        "C2": 346
+      }
+    },
+    "536": {
+      "id": 536,
+      "kind": "disk_text",
+      "records": {
+        "C2": 347
+      }
+    },
+    "537": {
+      "id": 537,
+      "kind": "disk_text",
+      "records": {
+        "C2": 348
+      }
+    },
+    "538": {
+      "id": 538,
+      "kind": "disk_text",
+      "records": {
+        "C2": 349
+      }
+    },
+    "539": {
+      "id": 539,
+      "kind": "disk_text",
+      "records": {
+        "C2": 350
+      }
+    },
+    "54": {
+      "id": 54,
+      "kind": "disk_text",
+      "records": {
+        "B1": 156,
+        "B2": 156,
+        "C1": 156,
+        "C2": 156
+      }
+    },
+    "540": {
+      "id": 540,
+      "kind": "disk_text",
+      "records": {
+        "C2": 351
+      }
+    },
+    "541": {
+      "id": 541,
+      "kind": "disk_text",
+      "records": {
+        "C2": 352
+      }
+    },
+    "542": {
+      "id": 542,
+      "kind": "disk_text",
+      "records": {
+        "C2": 353
+      }
+    },
+    "543": {
+      "id": 543,
+      "kind": "disk_text",
+      "records": {
+        "C2": 354
+      }
+    },
+    "544": {
+      "id": 544,
+      "kind": "disk_text",
+      "records": {
+        "C2": 355
+      }
+    },
+    "545": {
+      "id": 545,
+      "kind": "disk_text",
+      "records": {
+        "C2": 356
+      }
+    },
+    "546": {
+      "id": 546,
+      "kind": "disk_text",
+      "records": {
+        "C2": 357
+      }
+    },
+    "547": {
+      "id": 547,
+      "kind": "disk_text",
+      "records": {
+        "C2": 358
+      }
+    },
+    "548": {
+      "id": 548,
+      "kind": "disk_text",
+      "records": {
+        "C2": 359
+      }
+    },
+    "549": {
+      "id": 549,
+      "kind": "disk_text",
+      "records": {
+        "C2": 360
+      }
+    },
+    "55": {
+      "id": 55,
+      "kind": "disk_text",
+      "records": {
+        "B1": 157,
+        "B2": 157,
+        "C1": 157,
+        "C2": 157
+      }
+    },
+    "550": {
+      "id": 550,
+      "kind": "disk_text",
+      "records": {
+        "C2": 361
+      }
+    },
+    "551": {
+      "id": 551,
+      "kind": "disk_text",
+      "records": {
+        "C2": 362
+      }
+    },
+    "552": {
+      "id": 552,
+      "kind": "disk_text",
+      "records": {
+        "C2": 363
+      }
+    },
+    "553": {
+      "id": 553,
+      "kind": "disk_text",
+      "records": {
+        "C2": 364
+      }
+    },
+    "554": {
+      "id": 554,
+      "kind": "disk_text",
+      "records": {
+        "C2": 365
+      }
+    },
+    "555": {
+      "id": 555,
+      "kind": "disk_text",
+      "records": {
+        "C2": 366
+      }
+    },
+    "556": {
+      "id": 556,
+      "kind": "disk_text",
+      "records": {
+        "C2": 367
+      }
+    },
+    "557": {
+      "id": 557,
+      "kind": "disk_text",
+      "records": {
+        "C2": 368
+      }
+    },
+    "558": {
+      "id": 558,
+      "kind": "disk_text",
+      "records": {
+        "C2": 369
+      }
+    },
+    "559": {
+      "id": 559,
+      "kind": "disk_text",
+      "records": {
+        "C2": 370
+      }
+    },
+    "56": {
+      "id": 56,
+      "kind": "disk_text",
+      "records": {
+        "B1": 158,
+        "B2": 158,
+        "C1": 158,
+        "C2": 158
+      }
+    },
+    "560": {
+      "id": 560,
+      "kind": "disk_text",
+      "records": {
+        "C2": 371
+      }
+    },
+    "561": {
+      "id": 561,
+      "kind": "disk_text",
+      "records": {
+        "C2": 372
+      }
+    },
+    "562": {
+      "id": 562,
+      "kind": "disk_text",
+      "records": {
+        "C2": 373
+      }
+    },
+    "563": {
+      "id": 563,
+      "kind": "disk_text",
+      "records": {
+        "C2": 374
+      }
+    },
+    "564": {
+      "id": 564,
+      "kind": "disk_text",
+      "records": {
+        "C2": 375
+      }
+    },
+    "565": {
+      "id": 565,
+      "kind": "disk_text",
+      "records": {
+        "C2": 376
+      }
+    },
+    "566": {
+      "id": 566,
+      "kind": "disk_text",
+      "records": {
+        "C2": 377
+      }
+    },
+    "567": {
+      "id": 567,
+      "kind": "disk_text",
+      "records": {
+        "C2": 378
+      }
+    },
+    "568": {
+      "id": 568,
+      "kind": "disk_text",
+      "records": {
+        "C2": 379
+      }
+    },
+    "569": {
+      "id": 569,
+      "kind": "disk_text",
+      "records": {
+        "C2": 380
+      }
+    },
+    "57": {
+      "id": 57,
+      "kind": "disk_text",
+      "records": {
+        "B1": 159,
+        "B2": 159,
+        "C1": 159,
+        "C2": 159
+      }
+    },
+    "570": {
+      "id": 570,
+      "kind": "disk_text",
+      "records": {
+        "C2": 381
+      }
+    },
+    "571": {
+      "id": 571,
+      "kind": "disk_text",
+      "records": {
+        "C2": 382
+      }
+    },
+    "572": {
+      "id": 572,
+      "kind": "disk_text",
+      "records": {
+        "C2": 383
+      }
+    },
+    "573": {
+      "id": 573,
+      "kind": "disk_text",
+      "records": {
+        "C2": 384
+      }
+    },
+    "574": {
+      "id": 574,
+      "kind": "disk_text",
+      "records": {
+        "C2": 385
+      }
+    },
+    "575": {
+      "id": 575,
+      "kind": "disk_text",
+      "records": {
+        "C2": 386
+      }
+    },
+    "576": {
+      "id": 576,
+      "kind": "disk_text",
+      "records": {
+        "C2": 387
+      }
+    },
+    "577": {
+      "id": 577,
+      "kind": "disk_text",
+      "records": {
+        "C2": 388
+      }
+    },
+    "578": {
+      "id": 578,
+      "kind": "disk_text",
+      "records": {
+        "C2": 389
+      }
+    },
+    "579": {
+      "id": 579,
+      "kind": "disk_text",
+      "records": {
+        "C2": 390
+      }
+    },
+    "58": {
+      "id": 58,
+      "kind": "disk_text",
+      "records": {
+        "B1": 160,
+        "B2": 160,
+        "C1": 160,
+        "C2": 160
+      }
+    },
+    "580": {
+      "id": 580,
+      "kind": "disk_text",
+      "records": {
+        "B1": 271,
+        "B2": 396,
+        "C1": 251,
+        "C2": 391
+      }
+    },
+    "581": {
+      "id": 581,
+      "kind": "disk_text",
+      "records": {
+        "B1": 272,
+        "B2": 397,
+        "C1": 252,
+        "C2": 392
+      }
+    },
+    "582": {
+      "id": 582,
+      "kind": "disk_text",
+      "records": {
+        "B1": 273,
+        "B2": 398,
+        "C1": 253,
+        "C2": 393
+      }
+    },
+    "583": {
+      "id": 583,
+      "kind": "disk_text",
+      "records": {
+        "B1": 274,
+        "B2": 399,
+        "C1": 254,
+        "C2": 394
+      }
+    },
+    "584": {
+      "id": 584,
+      "kind": "disk_text",
+      "records": {
+        "B1": 275,
+        "B2": 400,
+        "C1": 255,
+        "C2": 395
+      }
+    },
+    "585": {
+      "id": 585,
+      "kind": "disk_text",
+      "records": {
+        "B1": 276,
+        "B2": 401,
+        "C1": 256,
+        "C2": 396
+      }
+    },
+    "586": {
+      "id": 586,
+      "kind": "disk_text",
+      "records": {
+        "B1": 277,
+        "B2": 402,
+        "C1": 257,
+        "C2": 397
+      }
+    },
+    "587": {
+      "id": 587,
+      "kind": "disk_text",
+      "records": {
+        "B1": 278,
+        "B2": 403,
+        "C1": 258,
+        "C2": 398
+      }
+    },
+    "588": {
+      "id": 588,
+      "kind": "disk_text",
+      "records": {
+        "B1": 279,
+        "B2": 404,
+        "C1": 259,
+        "C2": 399
+      }
+    },
+    "589": {
+      "id": 589,
+      "kind": "disk_text",
+      "records": {
+        "B1": 280,
+        "B2": 405,
+        "C1": 260,
+        "C2": 400
+      }
+    },
+    "59": {
+      "id": 59,
+      "kind": "disk_text",
+      "records": {
+        "B1": 161,
+        "B2": 161,
+        "C1": 161,
+        "C2": 161
+      }
+    },
+    "590": {
+      "id": 590,
+      "kind": "disk_text",
+      "records": {
+        "B1": 281,
+        "B2": 406,
+        "C1": 261,
+        "C2": 401
+      }
+    },
+    "591": {
+      "id": 591,
+      "kind": "disk_text",
+      "records": {
+        "B1": 282,
+        "B2": 407,
+        "C1": 262,
+        "C2": 402
+      }
+    },
+    "592": {
+      "id": 592,
+      "kind": "disk_text",
+      "records": {
+        "B1": 283,
+        "B2": 408,
+        "C1": 263,
+        "C2": 403
+      }
+    },
+    "593": {
+      "id": 593,
+      "kind": "disk_text",
+      "records": {
+        "B1": 284,
+        "B2": 409,
+        "C1": 264,
+        "C2": 404
+      }
+    },
+    "594": {
+      "id": 594,
+      "kind": "disk_text",
+      "records": {
+        "B1": 285,
+        "B2": 410,
+        "C1": 265,
+        "C2": 405
+      }
+    },
+    "595": {
+      "id": 595,
+      "kind": "disk_text",
+      "records": {
+        "B1": 286,
+        "B2": 411,
+        "C1": 266,
+        "C2": 406
+      }
+    },
+    "596": {
+      "id": 596,
+      "kind": "disk_text",
+      "records": {
+        "B1": 287,
+        "B2": 412,
+        "C1": 267,
+        "C2": 407
+      }
+    },
+    "597": {
+      "id": 597,
+      "kind": "disk_text",
+      "records": {
+        "B1": 288,
+        "B2": 413,
+        "C1": 268,
+        "C2": 408
+      }
+    },
+    "598": {
+      "id": 598,
+      "kind": "disk_text",
+      "records": {
+        "B1": 289,
+        "B2": 414,
+        "C1": 269,
+        "C2": 409
+      }
+    },
+    "599": {
+      "id": 599,
+      "kind": "disk_text",
+      "records": {
+        "B1": 290,
+        "B2": 415,
+        "C1": 270,
+        "C2": 410
+      }
+    },
+    "6": {
+      "id": 6,
+      "kind": "disk_text",
+      "records": {
+        "B1": 108,
+        "B2": 108,
+        "C1": 108,
+        "C2": 108
+      }
+    },
+    "60": {
+      "id": 60,
+      "kind": "disk_text",
+      "records": {
+        "B1": 162,
+        "B2": 162,
+        "C1": 162,
+        "C2": 162
+      }
+    },
+    "600": {
+      "id": 600,
+      "kind": "disk_text",
+      "records": {
+        "B1": 291,
+        "B2": 416,
+        "C1": 271,
+        "C2": 411
+      }
+    },
+    "601": {
+      "id": 601,
+      "kind": "disk_text",
+      "records": {
+        "B1": 292,
+        "B2": 417,
+        "C1": 272,
+        "C2": 412
+      }
+    },
+    "602": {
+      "id": 602,
+      "kind": "disk_text",
+      "records": {
+        "B1": 293,
+        "B2": 418,
+        "C1": 273,
+        "C2": 413
+      }
+    },
+    "603": {
+      "id": 603,
+      "kind": "disk_text",
+      "records": {
+        "B1": 294,
+        "B2": 419,
+        "C1": 274,
+        "C2": 414
+      }
+    },
+    "604": {
+      "id": 604,
+      "kind": "disk_text",
+      "records": {
+        "B1": 295,
+        "B2": 420,
+        "C1": 275,
+        "C2": 415
+      }
+    },
+    "605": {
+      "id": 605,
+      "kind": "disk_text",
+      "records": {
+        "B1": 296,
+        "B2": 421,
+        "C1": 276,
+        "C2": 416
+      }
+    },
+    "606": {
+      "id": 606,
+      "kind": "disk_text",
+      "records": {
+        "B1": 297,
+        "B2": 422,
+        "C1": 277,
+        "C2": 417
+      }
+    },
+    "607": {
+      "id": 607,
+      "kind": "disk_text",
+      "records": {
+        "B1": 298,
+        "B2": 423,
+        "C1": 278,
+        "C2": 418
+      }
+    },
+    "608": {
+      "id": 608,
+      "kind": "disk_text",
+      "records": {
+        "B1": 299,
+        "B2": 424,
+        "C1": 279,
+        "C2": 419
+      }
+    },
+    "609": {
+      "id": 609,
+      "kind": "disk_text",
+      "records": {
+        "B1": 300,
+        "B2": 425,
+        "C1": 280,
+        "C2": 420
+      }
+    },
+    "61": {
+      "id": 61,
+      "kind": "disk_text",
+      "records": {
+        "B1": 163,
+        "B2": 163,
+        "C1": 163,
+        "C2": 163
+      }
+    },
+    "610": {
+      "id": 610,
+      "kind": "disk_text",
+      "records": {
+        "B1": 301,
+        "B2": 426,
+        "C1": 281,
+        "C2": 421
+      }
+    },
+    "611": {
+      "id": 611,
+      "kind": "disk_text",
+      "records": {
+        "B1": 302,
+        "B2": 427,
+        "C1": 282,
+        "C2": 422
+      }
+    },
+    "612": {
+      "id": 612,
+      "kind": "disk_text",
+      "records": {
+        "B1": 303,
+        "B2": 428,
+        "C1": 283,
+        "C2": 423
+      }
+    },
+    "613": {
+      "id": 613,
+      "kind": "disk_text",
+      "records": {
+        "B1": 304,
+        "B2": 429,
+        "C1": 284,
+        "C2": 424
+      }
+    },
+    "614": {
+      "id": 614,
+      "kind": "disk_text",
+      "records": {
+        "B1": 305,
+        "B2": 430,
+        "C1": 285,
+        "C2": 425
+      }
+    },
+    "615": {
+      "id": 615,
+      "kind": "disk_text",
+      "records": {
+        "B1": 306,
+        "B2": 431,
+        "C1": 286,
+        "C2": 426
+      }
+    },
+    "616": {
+      "id": 616,
+      "kind": "disk_text",
+      "records": {
+        "B1": 307,
+        "B2": 432,
+        "C1": 287,
+        "C2": 427
+      }
+    },
+    "617": {
+      "id": 617,
+      "kind": "disk_text",
+      "records": {
+        "B1": 308,
+        "B2": 433,
+        "C1": 288,
+        "C2": 428
+      }
+    },
+    "618": {
+      "id": 618,
+      "kind": "disk_text",
+      "records": {
+        "B1": 309,
+        "B2": 434,
+        "C1": 289,
+        "C2": 429
+      }
+    },
+    "619": {
+      "id": 619,
+      "kind": "disk_text",
+      "records": {
+        "B1": 310,
+        "B2": 435,
+        "C1": 290,
+        "C2": 430
+      }
+    },
+    "62": {
+      "id": 62,
+      "kind": "disk_text",
+      "records": {
+        "B1": 164,
+        "B2": 164,
+        "C1": 164,
+        "C2": 164
+      }
+    },
+    "620": {
+      "id": 620,
+      "kind": "disk_text",
+      "records": {
+        "B1": 311
+      }
+    },
+    "621": {
+      "id": 621,
+      "kind": "disk_text",
+      "records": {
+        "B2": 436
+      }
+    },
+    "622": {
+      "id": 622,
+      "kind": "disk_text",
+      "records": {
+        "B2": 437
+      }
+    },
+    "623": {
+      "id": 623,
+      "kind": "disk_text",
+      "records": {
+        "B2": 438
+      }
+    },
+    "624": {
+      "id": 624,
+      "kind": "disk_text",
+      "records": {
+        "B2": 439
+      }
+    },
+    "625": {
+      "id": 625,
+      "kind": "disk_text",
+      "records": {
+        "B2": 440
+      }
+    },
+    "626": {
+      "id": 626,
+      "kind": "disk_text",
+      "records": {
+        "B2": 441
+      }
+    },
+    "627": {
+      "id": 627,
+      "kind": "disk_text",
+      "records": {
+        "B2": 442
+      }
+    },
+    "628": {
+      "id": 628,
+      "kind": "disk_text",
+      "records": {
+        "B2": 443
+      }
+    },
+    "629": {
+      "id": 629,
+      "kind": "disk_text",
+      "records": {
+        "B2": 444
+      }
+    },
+    "63": {
+      "id": 63,
+      "kind": "disk_text",
+      "records": {
+        "B1": 165,
+        "B2": 165,
+        "C1": 165,
+        "C2": 165
+      }
+    },
+    "630": {
+      "id": 630,
+      "kind": "disk_text",
+      "records": {
+        "B2": 445
+      }
+    },
+    "631": {
+      "id": 631,
+      "kind": "disk_text",
+      "records": {
+        "B2": 446
+      }
+    },
+    "632": {
+      "id": 632,
+      "kind": "disk_text",
+      "records": {
+        "B2": 447
+      }
+    },
+    "633": {
+      "id": 633,
+      "kind": "disk_text",
+      "records": {
+        "C2": 431
+      }
+    },
+    "634": {
+      "id": 634,
+      "kind": "disk_text",
+      "records": {
+        "C2": 432
+      }
+    },
+    "635": {
+      "id": 635,
+      "kind": "disk_text",
+      "records": {
+        "C2": 433
+      }
+    },
+    "636": {
+      "id": 636,
+      "kind": "disk_text",
+      "records": {
+        "C2": 434
+      }
+    },
+    "64": {
+      "id": 64,
+      "kind": "disk_text",
+      "records": {
+        "B1": 166,
+        "B2": 166,
+        "C1": 166,
+        "C2": 166
+      }
+    },
+    "65": {
+      "id": 65,
+      "kind": "disk_text",
+      "records": {
+        "B1": 167,
+        "B2": 167,
+        "C1": 167,
+        "C2": 167
+      }
+    },
+    "66": {
+      "id": 66,
+      "kind": "disk_text",
+      "records": {
+        "B1": 168,
+        "B2": 168,
+        "C1": 168,
+        "C2": 168
+      }
+    },
+    "67": {
+      "id": 67,
+      "kind": "disk_text",
+      "records": {
+        "B1": 169,
+        "B2": 169,
+        "C1": 169,
+        "C2": 169
+      }
+    },
+    "68": {
+      "id": 68,
+      "kind": "disk_text",
+      "records": {
+        "B1": 170,
+        "B2": 170,
+        "C1": 170,
+        "C2": 170
+      }
+    },
+    "69": {
+      "id": 69,
+      "kind": "disk_text",
+      "records": {
+        "B1": 171,
+        "B2": 171,
+        "C1": 171,
+        "C2": 171
+      }
+    },
+    "7": {
+      "id": 7,
+      "kind": "disk_text",
+      "records": {
+        "B1": 109,
+        "B2": 109,
+        "C1": 109,
+        "C2": 109
+      }
+    },
+    "70": {
+      "id": 70,
+      "kind": "disk_text",
+      "records": {
+        "B1": 172,
+        "B2": 172,
+        "C1": 172,
+        "C2": 172
+      }
+    },
+    "71": {
+      "id": 71,
+      "kind": "disk_text",
+      "records": {
+        "B1": 173,
+        "B2": 173,
+        "C1": 173,
+        "C2": 173
+      }
+    },
+    "72": {
+      "id": 72,
+      "kind": "disk_text",
+      "records": {
+        "B1": 174,
+        "B2": 174,
+        "C1": 174,
+        "C2": 174
+      }
+    },
+    "73": {
+      "id": 73,
+      "kind": "disk_text",
+      "records": {
+        "B1": 175,
+        "B2": 175,
+        "C1": 175,
+        "C2": 175
+      }
+    },
+    "74": {
+      "id": 74,
+      "kind": "disk_text",
+      "records": {
+        "B1": 176,
+        "B2": 176,
+        "C1": 176,
+        "C2": 176
+      }
+    },
+    "75": {
+      "id": 75,
+      "kind": "disk_text",
+      "records": {
+        "B1": 177,
+        "B2": 177,
+        "C1": 177,
+        "C2": 177
+      }
+    },
+    "76": {
+      "id": 76,
+      "kind": "disk_text",
+      "records": {
+        "B1": 178,
+        "B2": 178,
+        "C1": 178,
+        "C2": 178
+      }
+    },
+    "77": {
+      "id": 77,
+      "kind": "disk_text",
+      "records": {
+        "B1": 179,
+        "B2": 179,
+        "C1": 179,
+        "C2": 179
+      }
+    },
+    "78": {
+      "id": 78,
+      "kind": "disk_text",
+      "records": {
+        "B1": 180,
+        "B2": 180,
+        "C1": 180,
+        "C2": 180
+      }
+    },
+    "79": {
+      "id": 79,
+      "kind": "disk_text",
+      "records": {
+        "B1": 181,
+        "B2": 181,
+        "C1": 181,
+        "C2": 181
+      }
+    },
+    "8": {
+      "id": 8,
+      "kind": "engine_formatted",
+      "records": {},
+      "handler": "$5D94",
+      "note": "Drop-object response with object name."
+    },
+    "80": {
+      "id": 80,
+      "kind": "disk_text",
+      "records": {
+        "B1": 182,
+        "B2": 182,
+        "C1": 182,
+        "C2": 182
+      }
+    },
+    "81": {
+      "id": 81,
+      "kind": "disk_text",
+      "records": {
+        "B1": 183,
+        "B2": 183,
+        "C1": 183,
+        "C2": 183
+      }
+    },
+    "82": {
+      "id": 82,
+      "kind": "disk_text",
+      "records": {
+        "B1": 184,
+        "B2": 184,
+        "C1": 184,
+        "C2": 184
+      }
+    },
+    "83": {
+      "id": 83,
+      "kind": "disk_text",
+      "records": {
+        "B1": 185,
+        "B2": 185,
+        "C1": 185,
+        "C2": 185
+      }
+    },
+    "84": {
+      "id": 84,
+      "kind": "disk_text",
+      "records": {
+        "B1": 186,
+        "B2": 186,
+        "C1": 186,
+        "C2": 186
+      }
+    },
+    "85": {
+      "id": 85,
+      "kind": "disk_text",
+      "records": {
+        "B1": 187,
+        "B2": 187,
+        "C1": 187,
+        "C2": 187
+      }
+    },
+    "86": {
+      "id": 86,
+      "kind": "disk_text",
+      "records": {
+        "B1": 188,
+        "B2": 188,
+        "C1": 188,
+        "C2": 188
+      }
+    },
+    "87": {
+      "id": 87,
+      "kind": "disk_text",
+      "records": {
+        "B1": 189,
+        "B2": 189,
+        "C1": 189,
+        "C2": 189
+      }
+    },
+    "88": {
+      "id": 88,
+      "kind": "disk_text",
+      "records": {
+        "B1": 190,
+        "B2": 190,
+        "C1": 190,
+        "C2": 190
+      }
+    },
+    "89": {
+      "id": 89,
+      "kind": "disk_text",
+      "records": {
+        "B1": 191,
+        "B2": 191,
+        "C1": 191,
+        "C2": 191
+      }
+    },
+    "9": {
+      "id": 9,
+      "kind": "disk_text",
+      "records": {
+        "B1": 111,
+        "B2": 111,
+        "C1": 111,
+        "C2": 111
+      }
+    },
+    "90": {
+      "id": 90,
+      "kind": "disk_text",
+      "records": {
+        "B1": 192,
+        "B2": 192,
+        "C1": 192,
+        "C2": 192
+      }
+    },
+    "91": {
+      "id": 91,
+      "kind": "disk_text",
+      "records": {
+        "B1": 193,
+        "B2": 193,
+        "C1": 193,
+        "C2": 193
+      }
+    },
+    "92": {
+      "id": 92,
+      "kind": "disk_text",
+      "records": {
+        "B1": 194,
+        "B2": 194,
+        "C1": 194,
+        "C2": 194
+      }
+    },
+    "93": {
+      "id": 93,
+      "kind": "disk_text",
+      "records": {
+        "B1": 195,
+        "B2": 195,
+        "C1": 195,
+        "C2": 195
+      }
+    },
+    "94": {
+      "id": 94,
+      "kind": "disk_text",
+      "records": {
+        "B1": 196,
+        "B2": 196,
+        "C1": 196,
+        "C2": 196
+      }
+    },
+    "95": {
+      "id": 95,
+      "kind": "disk_text",
+      "records": {
+        "B1": 197,
+        "B2": 197,
+        "C1": 197,
+        "C2": 197
+      }
+    },
+    "96": {
+      "id": 96,
+      "kind": "disk_text",
+      "records": {
+        "B1": 198,
+        "B2": 198,
+        "C1": 198,
+        "C2": 198
+      }
+    },
+    "97": {
+      "id": 97,
+      "kind": "disk_text",
+      "records": {
+        "B1": 199,
+        "B2": 199,
+        "C1": 199,
+        "C2": 199
+      }
+    },
+    "98": {
+      "id": 98,
+      "kind": "disk_text",
+      "records": {
+        "B1": 200,
+        "B2": 200,
+        "C1": 200,
+        "C2": 200
+      }
+    },
+    "99": {
+      "id": 99,
+      "kind": "disk_text",
+      "records": {
+        "B1": 201,
+        "B2": 201,
+        "C1": 201,
+        "C2": 201
+      }
+    }
+  }
+}

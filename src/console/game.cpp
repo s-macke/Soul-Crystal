@@ -3,11 +3,14 @@ extern "C" {
 #include "game_script.h"
 #include "game_tables.h"
 #include "game_texts.h"
+#include "game_texts_en.h"
+#include "game_vocabulary_en.h"
 }
 #include <algorithm>
 #include <cctype>
 #include <string>
 #include <vector>
+#include <utility>
 
 namespace {
 GameOutput output = nullptr;
@@ -16,6 +19,10 @@ GameMode mode = GameEnded;
 GameInputResult inputResult = GameInputIgnored;
 bool busy = false;
 bool music = false;
+GameLanguage language = GameGerman;
+bool english() { return language == GameEnglish; }
+const char* tr(const char* de, const char* en) { return english() ? en : de; }
+const char* textRecord(GamePart part, unsigned record) { return english() ? GameEnglishTextRecord(part,record) : GameTextRecord(part,record); }
 unsigned lastImage = 255, lastImagePart = 0;
 RoomID descriptionRoom = 0;
 TextID descriptionText = 0;
@@ -27,7 +34,7 @@ void emit(GameEventKind kind, const char *text = nullptr, unsigned image = 255) 
 void say(const std::string& text) { if (!text.empty()) emit(GameTextEvent, text.c_str()); }
 void message(TextID id) { pendingTextID = id; showtext(); }
 void fail(const char *text) { say(text); mode = GameError; }
-const char *objectName(unsigned id) { return id < ObjectStateCount ? objectDisplayNames[id] : "?"; }
+const char *objectName(unsigned id) { return id < ObjectStateCount ? (english() ? englishObjectNames[id] : objectDisplayNames[id]) : "?"; }
 
 // Exact saved location, including carried clothing; hidden location 0 stays hidden.
 // Original parser supports additional synonyms, but these availability rules must
@@ -37,31 +44,31 @@ bool available(unsigned id) {
         (objectLocation[id] == currentRoom || objectLocation[id] == 255);
 }
 void objects(bool inventory = false) {
-    std::string line = inventory ? "Inventar: " : "Ansprechbar: ";
+    std::string line = inventory ? tr("Inventar: ", "Inventory: ") : tr("Ansprechbar: ", "Available: ");
     bool found = false;
     for (unsigned i=1; i<ObjectStateCount; ++i) {
         if (i == DAVE && inventory) continue;
         if (inventory ? objectLocation[i] != 255 : !available(i)) continue;
         if (found) line += ", ";
         line += objectName(i);
-        if (!inventory && objectLocation[i] == 255) line += " (bei dir)";
+        if (!inventory && objectLocation[i] == 255) line += tr(" (bei dir)", " (carried)");
         found = true;
     }
-    if (!found) line += "nichts";
+    if (!found) line += tr("nichts", "nothing");
     say(line);
 }
 void exits() {
-    if (currentRoom >= RoomStateCount) { fail("Ungültiger Raumzustand."); return; }
+    if (currentRoom >= RoomStateCount) { fail(tr("Ungültiger Raumzustand.", "Invalid room state.")); return; }
     const struct { const char* name; ScriptByte* table; } dirs[] = {
-        {"Nord",north},{"Ost",east},{"Süd",south},{"West",west},{"Hinauf",up},{"Hinunter",down}};
-    std::string line="Ausgänge: "; bool found=false;
+        {tr("Nord", "North"),north},{tr("Ost", "East"),east},{tr("Süd", "South"),south},{tr("West", "West"),west},{tr("Hinauf", "Up"),up},{tr("Hinunter", "Down"),down}};
+    std::string line=tr("Ausgänge: ", "Exits: "); bool found=false;
     for (const auto& d:dirs) if (d.table[currentRoom]) { if(found) line+=", ";line+=d.name;found=true; }
-    if(!found) line+="keine";
+    if(!found) line+=tr("keine", "none");
     say(line);
 }
 void roomTitle() {
     if (currentRoom > 0 && currentRoom < RoomStateCount) {
-        const char* title=GameTextRecord(gamePart,currentRoom-1);
+        const char* title=textRecord(gamePart,currentRoom-1);
         if(title) say(title);
     }
 }
@@ -97,9 +104,25 @@ const Verb verbs[] = {
     {"kurztext",KURZTEXT,"Anzeige:    "},{"ausfuehrlich",AUSFUEHRLICH},{"musikein",MUSIKEIN},
     {"uebersoulcrystal",UEBERSOULCRYSTAL,"Info:       "},{"credits",CREDITS}
 };
+const Verb englishVerbs[] = {
+    {"view",SCHAU,"Explore:    "},{"consider",BETRACHTE},{"backpack",INVENTAR},{"paths",AUSGAENGE},
+    {"north",NORD,"Move:       "},{"south",SUED},{"east",OST},{"west",WEST},{"upward",HINAUF},{"downward",HINUNTER},
+    {"enter",BETRITT},{"leave",VERLASSE},
+    {"take",NIMM,"Actions:    "},{"lose",VERLIERE},{"use",WENDE},{"giv",GIB},{"attach",BEFESTIGE},
+    {"speak",SPRICH,"Talk:       "},{"help",HILF},
+    {"open",OEFFNE,"Mechanisms: "},{"close",SCHLIESSE},{"unlock",ENTRIEGELE},{"lock",VERRIEGELE},
+    {"move",BEWEGE},{"push",DRUECKE},{"tug",ZIEHE},{"dig",GRABE},{"destroy",ZERSTOERE},
+    {"wait",WARTE,"Time:       "},
+    {"points",PUNKTE,"Game:       "},{"solve",LOESUNG},{"restart",NEUSTART},{"quit",SPIELENDE},
+    {"compact",KURZTEXT,"Display:    "},{"verbose",AUSFUEHRLICH},{"music",MUSIKEIN},
+    {"about",UEBERSOULCRYSTAL,"Info:       "},{"credits",CREDITS}
+};
+static_assert(sizeof(verbs)==sizeof(englishVerbs), "Language command lists must cover the same IDs");
+const Verb* activeVerbs() {return english()?englishVerbs:verbs;}
 void verbList() {
-    std::string list="Verben:", line;
-    for(const auto& v:verbs) {
+    std::string list=tr("Verben:", "Verbs:"), line;
+    for(unsigned i=0;i<sizeof(verbs)/sizeof(*verbs);++i) {
+        const auto& v=activeVerbs()[i];
         if(v.heading) {
             if(!line.empty())list+='\n'+line;
             line=std::string(v.heading)+v.name;
@@ -109,18 +132,19 @@ void verbList() {
         } else line+=std::string(", ")+v.name;
     }
     list+='\n'+line;
-    list+="\nBedienung:  objekte, verben";
-    say(list);say("Beispiele: nimm dave | betrachte hinweisschild | wende schlüssel auf tür.\nAuch: n/s/o/w, lies <Objekt>, inventar, objekte. Umlaute oder ae/oe/ue sind möglich.\nSpeichern/Laden ist noch nicht verfügbar.");
+    list+=tr("\nBedienung:  objekte, verben", "\nControls:   objects, verbs");
+    say(list);say(tr("Beispiele: nimm dave | betrachte hinweisschild | wende schlüssel auf tür.\nAuch: n/s/o/w, lies <Objekt>, inventar, objekte. Umlaute oder ae/oe/ue sind möglich.\nSpeichern/Laden ist noch nicht verfügbar.", "Examples: take dave | consider sign | use key on door.\nAlso: n/s/e/w, read <object>, inventory, objects.\nSaving/loading is not available yet."));
 }
 
 std::string stripArticle(std::string s) {
+    if(english()) {for(const char* a:{"the ","an ","a "})if(s.rfind(a,0)==0)return s.substr(std::char_traits<char>::length(a));return s;}
     for(const char* a:{"der ","die ","das ","den ","dem ","einen ","eine ","ein "})
         if(s.rfind(a,0)==0) return s.substr(std::char_traits<char>::length(a));
     return s;
 }
 ObjectID resolve(std::string phrase) {
     phrase=stripArticle(phrase);
-    if(phrase=="mich"||phrase=="mir"||phrase=="ich") phrase="dave";
+    if(english() ? (phrase=="me"||phrase=="myself"||phrase=="i") : (phrase=="mich"||phrase=="mir"||phrase=="ich")) phrase="dave";
     std::vector<ObjectID> exact,partial;
     for(unsigned i=1;i<ObjectStateCount;++i) if(available(i)) {
         std::string name=normalize(objectName(i));
@@ -130,18 +154,18 @@ ObjectID resolve(std::string phrase) {
     }
     const auto& matches=exact.empty()?partial:exact;
     if(matches.size()==1) return matches[0];
-    if(matches.empty()) say("Hier ist kein ansprechbares Objekt namens »"+phrase+"«.");
-    else {std::string names;for(auto id:matches){if(!names.empty())names+=", ";names+=objectName(id);}say("Nicht eindeutig: "+names+". Bitte genauer angeben.");}
+    if(matches.empty()) say(tr("Hier ist kein ansprechbares Objekt namens »", "No available object named \"")+phrase+tr("«.", "\"."));
+    else {std::string names;for(auto id:matches){if(!names.empty())names+=", ";names+=objectName(id);}say(tr("Nicht eindeutig: ", "Ambiguous: ")+names+tr(". Bitte genauer angeben.", ". Please be more specific."));}
     return 0;
 }
 void dispatch() {
     switch(gamePart) {case PartA:PartA_Execute();break;case PartB:PartB_Execute();break;
-        case PartC:PartC_Execute();break;case PartD:PartD_Execute();break;default:fail("Ungültiger Spielteil.");}
+        case PartC:PartC_Execute();break;case PartD:PartD_Execute();break;default:fail(tr("Ungültiger Spielteil.", "Invalid game part."));}
 }
 void reset(bool intro) {
     ResetGameState();mode=GameReady;inputResult=GameInputAccepted;music=false;lastImage=255;lastImagePart=0;
     descriptionRoom=0;descriptionText=0;titleOnly=false;
-    if(intro) {say("SOUL CRYSTAL");message(25);verbList();say(GameIntroText);}
+    if(intro) {say("SOUL CRYSTAL");message(25);verbList();say(english()?GameEnglishIntroText:GameIntroText);}
     imageID=currentRoom;ShowImage();describeRoom();
 }
 // The original transitions are intercepted BEFORE the script ($38EB..$39D5).
@@ -164,7 +188,7 @@ extern "C" void ShowImage(void) {
     imageID=255; // $41B9 consumes the request; lastImage preserves displayed selection.
 }
 extern "C" void Code2E5B(void) {
-    if(currentRoom==0||currentRoom>=RoomStateCount) {fail("Ungültiger Raumzustand.");return;}
+    if(currentRoom==0||currentRoom>=RoomStateCount) {fail(tr("Ungültiger Raumzustand.", "Invalid room state."));return;}
     pendingTextID=currentRoom+(currentRoom<16?106:currentRoom<51?153:currentRoom<66?305:332);
     titleOnly=visited[0]==0 && visited[currentRoom]!=0;
     if(titleOnly) pendingTextID=900;
@@ -177,13 +201,13 @@ extern "C" void showtext(void) {
     if(id && id==descriptionText && descriptionRoom<RoomStateCount) visited[descriptionRoom]=1;
     // Suppress the finale copy-protection announcement along with its check.
     if(gamePart==PartD && id==577)return;
-    const GameText text=GameTextLookup(gamePart,id);
+    const GameText text=(english()?GameEnglishTextLookup(gamePart,id):GameTextLookup(gamePart,id));
     if(text.kind==TextLiteral) say(text.text);
     else if(text.kind==TextEngineFormatted) {
-        if(id==1) say("Bis jetzt hast Du "+std::to_string(score)+" Punkte in "+std::to_string(steps)+" Schritten erreicht.");
-        else if(id==8) say(std::string("Du legst ")+objectName(object1)+" ab.");
-        else if(id==12) say(std::string("Du nimmst ")+objectName(object1)+" mit.");
-        else say("Die Handbuchabfrage ist in dieser Konsolenbasis noch nicht umgesetzt.");
+        if(id==1) say(tr("Bis jetzt hast Du ", "So far you have ")+std::to_string(score)+tr(" Punkte in ", " points in ")+std::to_string(steps)+tr(" Schritten erreicht.", " moves."));
+        else if(id==8) say(std::string(tr("Du legst ", "You drop "))+objectName(object1)+tr(" ab.", "."));
+        else if(id==12) say(std::string(tr("Du nimmst ", "You take "))+objectName(object1)+tr(" mit.", "."));
+        else say(tr("Die Handbuchabfrage ist in dieser Konsolenbasis noch nicht umgesetzt.", "The manual check is disabled in this console version."));
     }
 }
 extern "C" void SPECIAL(ScriptWord op) {
@@ -199,29 +223,30 @@ extern "C" void SPECIAL(ScriptWord op) {
     case 0x6a:temp=(r>=66&&r<=68)||(r>=75&&r<=77);break;
     case 0x6b:temp=r==25;break;
     case 0x6c:temp=object2==DAVE||(object2==BIENENSTOCK&&s(BIENENSTOCK)==1);break;
-    case 1:say("Die Codeabfrage gehört zum Handbuch des Spiels.");break;
-    case 2:case 3:say("Speichern/Laden ist noch nicht verfügbar.");break;
-    case 4:message(29);say("Neustart? (ja/nein)");mode=GameConfirmRestart;break;
-    case 5:message(30);say("Spiel beenden? (ja/nein)");mode=GameConfirmQuit;break;
-    case 6:message(38);say("N = Neustart, E = Ende; abbrechen = weiterspielen.");mode=GameSolutionPrompt;break;
+    case 1:say(tr("Die Codeabfrage gehört zum Handbuch des Spiels.", "The code check refers to the game manual."));break;
+    case 2:case 3:say(tr("Speichern/Laden ist noch nicht verfügbar.", "Saving/loading is not available yet."));break;
+    case 4:message(29);say(tr("Neustart? (ja/nein)", "Restart? (yes/no)"));mode=GameConfirmRestart;break;
+    case 5:message(30);say(tr("Spiel beenden? (ja/nein)", "Quit the game? (yes/no)"));mode=GameConfirmQuit;break;
+    case 6:message(38);say(tr("N = Neustart, E = Ende; abbrechen = weiterspielen.", "R = restart, Q = quit; cancel = continue playing."));mode=GameSolutionPrompt;break;
     case 7:music=!music;message(music?34:35);break;
     case 8:exits();break;
-    case 9:say("Die Spieldaten sind bereits eingebunden; ein Diskettenwechsel ist nicht nötig.");break;
+    case 9:say(tr("Die Spieldaten sind bereits eingebunden; ein Diskettenwechsel ist nicht nötig.", "The game data is built in; no disk change is needed."));break;
     case 10:objects(true);break;
     case 0x32:
         // Manual/diary copy protection disabled. $FF means failure, not success.
         // Leave all following finale conditions in the original script intact.
         temp=0;break;
-    case 0x33:mode=GameWon;say("Du hast Soul Crystal gewonnen!");FlushOutput();break;
+    case 0x33:mode=GameWon;say(tr("Du hast Soul Crystal gewonnen!", "You have won Soul Crystal!"));FlushOutput();break;
     default:
         if(op>=200) say("EXGOSUB -"+std::to_string(op));
-        else fail("Unbekannter SPECIAL-Aufruf.");
+        else fail(tr("Unbekannter SPECIAL-Aufruf.", "Unknown SPECIAL call."));
     }
 }
 
 extern "C" GameView GameGetView(void) {return {mode,gamePart,currentRoom,score,steps,lastImagePart,lastImage,inputResult};}
-extern "C" void GameStart(GameOutput sink, void *context) {
-    if(busy)return;busy=true;output=sink;outputContext=context;reset(true);busy=false;
+extern "C" void GameStart(GameOutput sink, void *context) {GameStartLanguage(sink,context,GameGerman);}
+extern "C" void GameStartLanguage(GameOutput sink, void *context, GameLanguage selected) {
+    if(busy)return;busy=true;language=selected==GameEnglish?GameEnglish:GameGerman;output=sink;outputContext=context;reset(true);busy=false;
 }
 extern "C" void GameSubmit(const char *input) {
     if(busy)return;
@@ -232,46 +257,55 @@ extern "C" void GameSubmit(const char *input) {
     // RAII ensures every parser rejection releases the public call boundary.
     struct Guard {~Guard(){busy=false;}} guard;
     std::string line(input);
-    if(line.size()>1024){say("Bitte eine kürzere Eingabe (höchstens 1024 Bytes).");return;}
+    if(line.size()>1024){say(tr("Bitte eine kürzere Eingabe (höchstens 1024 Bytes).", "Please enter a shorter command (at most 1024 bytes)."));return;}
     line=normalize(line);if(line.empty())return;
     if(mode==GameConfirmRestart||mode==GameConfirmQuit||mode==GameDead) {
-        bool yes=line=="j"||line=="ja", no=line=="n"||line=="nein";
-        if(mode==GameDead && line=="neustart")yes=true;
-        if(!yes&&!no){say("Bitte ja oder nein eingeben.");return;}
+        bool yes=english()?(line=="y"||line=="yes"):(line=="j"||line=="ja"), no=english()?(line=="n"||line=="no"):(line=="n"||line=="nein");
+        if(mode==GameDead && line==tr("neustart","restart"))yes=true;
+        if(!yes&&!no){say(tr("Bitte ja oder nein eingeben.", "Please enter yes or no."));return;}
         inputResult=GameInputAccepted;
         const GameMode before=mode;
         if(yes && before!=GameConfirmQuit) reset(false);
-        else if((yes&&before==GameConfirmQuit)||(no&&before==GameDead)){mode=GameEnded;say("Auf Wiedersehen.");}
-        else {mode=GameReady;say("Weiter geht's.");}
+        else if((yes&&before==GameConfirmQuit)||(no&&before==GameDead)){mode=GameEnded;say(tr("Auf Wiedersehen.", "Goodbye."));}
+        else {mode=GameReady;say(tr("Weiter geht's.", "Continuing."));}
         return;
     }
-    if(mode==GameSolutionPrompt){inputResult=GameInputAccepted;if(line=="n"||line=="neustart")reset(false);else if(line=="e"||line=="ende"){mode=GameEnded;say("Auf Wiedersehen.");}else if(line=="abbrechen"){mode=GameReady;}else {inputResult=GameInputRejected;say("N, E oder abbrechen?");}return;}
-    if(line=="objekte"){inputResult=GameInputAccepted;objects();return;}
-    if(line=="verben"){inputResult=GameInputAccepted;verbList();return;}
+    if(mode==GameSolutionPrompt){inputResult=GameInputAccepted;if(line==tr("n","r")||line==tr("neustart","restart"))reset(false);else if(line==tr("e","q")||line==tr("ende","quit")){mode=GameEnded;say(tr("Auf Wiedersehen.", "Goodbye."));}else if(line==tr("abbrechen","cancel")){mode=GameReady;}else {inputResult=GameInputRejected;say(tr("N, E oder abbrechen?", "R, Q or cancel?"));}return;}
+    if(line==tr("objekte","objects")){inputResult=GameInputAccepted;objects();return;}
+    if(line==tr("verben","verbs")){inputResult=GameInputAccepted;verbList();return;}
     auto split=line.find(' ');std::string verb=line.substr(0,split), args=split==std::string::npos?"":line.substr(split+1);
-    if(verb=="laden"||verb=="speichern"){inputResult=GameInputBlocked;say("Speichern/Laden ist noch nicht verfügbar.");return;}
+    if(verb==tr("laden","load")||verb==tr("speichern","save")){inputResult=GameInputBlocked;say(tr("Speichern/Laden ist noch nicht verfügbar.", "Saving/loading is not available yet."));return;}
+    if(english()) {
+        const std::pair<const char*,const char*> aliases[] = {
+            {"n","north"},{"s","south"},{"e","east"},{"w","west"},{"up","upward"},{"down","downward"},
+            {"i","backpack"},{"inventory","backpack"},{"look","view"},{"examine","consider"},{"inspect","consider"},
+            {"read","consider"},{"drop","lose"},{"give","giv"},{"pull","tug"},{"talk","speak"},{"exits","paths"},
+            {"score","points"},{"solution","solve"}};
+        for(const auto& alias:aliases)if(verb==alias.first){verb=alias.second;break;}
+    } else {
     if(verb=="n")verb="nord";if(verb=="s")verb="sued";if(verb=="o")verb="ost";if(verb=="w")verb="west";
     if(verb=="oben")verb="hinauf";if(verb=="unten")verb="hinunter";if(verb=="i")verb="inventar";
     if(verb=="lies"||verb=="lese"||verb=="untersuche")verb="betrachte";
     if(verb=="hilfe")verb="hilf";if(verb=="rede")verb="sprich";
     if(verb=="benutze")verb="wende";if(verb=="ende"||verb=="quit")verb="spielende";
-    CommandID parsed=0;for(const auto& v:verbs)if(verb==v.name){parsed=v.id;break;}
-    if(!parsed){say("Unbekanntes Verb. Mit »verben« kannst Du die Liste anzeigen.");return;}
+    }
+    CommandID parsed=0;for(unsigned i=0;i<sizeof(verbs)/sizeof(*verbs);++i) {const auto& v=activeVerbs()[i];if(verb==v.name){parsed=v.id;break;}}
+    if(!parsed){say(tr("Unbekanntes Verb. Mit »verben« kannst Du die Liste anzeigen.", "Unknown verb. Enter \"verbs\" to see the list."));return;}
     ObjectID first=0,second=0;
     if(parsed>=SCHLIESSE) {
-        if((parsed==SPRICH||parsed==HILF) && args.rfind("mit ",0)==0)args=args.substr(4);
+        if((parsed==SPRICH||parsed==HILF) && args.rfind(tr("mit ","to "),0)==0)args=args.substr(english()?3:4);
         if(args.empty()&&(parsed==HILF||parsed==VERLASSE))first=ABENTEURER;
-        else if(args.empty()){say("Mit welchem Objekt?");return;}
+        else if(args.empty()){say(tr("Mit welchem Objekt?", "Which object?"));return;}
         else {
             std::size_t delimiter=std::string::npos;std::size_t width=0;
-            for(const char* sep:{" auf "," an "," mit "," zu "," in "}) {
+            for(const char* sep:{tr(" auf "," on "),tr(" an "," to "),tr(" mit "," with "),tr(" zu "," at ")," in "}) {
                 auto at=args.find(sep);if(at<delimiter){delimiter=at;width=std::char_traits<char>::length(sep);}
             }
             if(delimiter!=std::string::npos){first=resolve(args.substr(0,delimiter));if(!first)return;second=resolve(args.substr(delimiter+width));if(!second)return;}
             else {first=resolve(args);if(!first)return;}
         }
-        if(parsed>=WENDE && !second){say("Bitte zwei Objekte angeben, z.B. »wende schlüssel auf tür«.");return;}
-    } else if(!args.empty()){say("Dieses Verb benötigt kein Objekt.");return;}
+        if(parsed>=WENDE && !second){say(tr("Bitte zwei Objekte angeben, z.B. »wende schlüssel auf tür«.", "Please specify two objects, e.g. \"use key on door\"."));return;}
+    } else if(!args.empty()){say(tr("Dieses Verb benötigt kein Objekt.", "This verb does not take an object."));return;}
     inputResult=GameInputAccepted;
     command=parsed;object1=first;object2=second;pendingTextID=0;
     if(transitionRequested()) {
@@ -302,8 +336,8 @@ extern "C" void GameSubmit(const char *input) {
     }
     if(currentRoom!=beforeRoom&&!titleOnly)roomTitle();
     showtext();
-    if(readDiary) say(GameDiaryText);
-    if(objectLocation[DAVE]==255){mode=GameDead;say("Das Spiel ist zu Ende. Neu beginnen? (ja/nein)");}
+    if(readDiary) say(english()?GameEnglishDiaryText:GameDiaryText);
+    if(objectLocation[DAVE]==255){mode=GameDead;say(tr("Das Spiel ist zu Ende. Neu beginnen? (ja/nein)", "The game is over. Start again? (yes/no)"));}
     else if(currentRoom!=beforeRoom||parsed==SCHAU||parsed>=SCHLIESSE)objects();
     command=0;object2=0;
     FlushOutput();

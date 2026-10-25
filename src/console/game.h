@@ -12,7 +12,10 @@ typedef enum { GameReady, GameConfirmRestart, GameConfirmQuit, GameSolutionPromp
                GameDead, GameWon, GameEnded, GameError } GameMode;
 typedef enum { GameInputIgnored, GameInputAccepted, GameInputRejected, GameInputBlocked } GameInputResult;
 typedef struct { GameMode mode; unsigned part, room, score, steps, imagePart, image; GameInputResult inputResult; } GameView;
+typedef enum { GameGerman, GameEnglish } GameLanguage;
 void GameStart(GameOutput output, void *context);
+/* Select at start; restart preserves language. GameStart defaults to German. */
+void GameStartLanguage(GameOutput output, void *context, GameLanguage language);
 void GameSubmit(const char *line);
 GameView GameGetView(void);
 #ifdef __cplusplus

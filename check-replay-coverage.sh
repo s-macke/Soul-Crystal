@@ -4,7 +4,7 @@ cd -- "$(dirname -- "${BASH_SOURCE[0]}")"
 # Optional host-side measurement. GCC/gcov are not required by the game itself.
 coverage_root=$PWD
 coverage_dir=$(mktemp -d /tmp/soul-replay-coverage.XXXXXX)
-for source in out/part{a,b,c,d}.c out/game_{state,tables,texts}.c; do
+for source in out/part{a,b,c,d}.c out/game_{state,tables,texts,texts_en}.c; do
     gcc -std=c11 -O0 --coverage -Iout -c "$coverage_root/$source" -o "$coverage_dir/$(basename "${source%.c}").o"
 done
 g++ -std=c++17 -O0 -Iout src/console/game.cpp src/console/replay.cpp "$coverage_dir/"*.o --coverage -o "$coverage_dir/replay"

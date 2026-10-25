@@ -1,6 +1,7 @@
 package main
 
 import (
+	"flag"
 	"fmt"
 	"os"
 	"path/filepath"
@@ -283,10 +284,13 @@ func findDisk(name string) (diskSpec, bool) {
 }
 
 func main() {
-	disks := knownDisks
-	if len(os.Args) > 1 {
-		disks = make([]diskSpec, 0, len(os.Args)-1)
-		for _, name := range os.Args[1:] {
+	english := flag.Bool("english", false, "read the English data/c64_en disk images")
+	destination := flag.String("out", outputDir, "directory for extracted chains")
+	flag.Parse()
+	disks := append([]diskSpec(nil), knownDisks...)
+	if flag.NArg() > 0 {
+		disks = make([]diskSpec, 0, flag.NArg())
+		for _, name := range flag.Args() {
 			spec, ok := findDisk(name)
 			if !ok {
 				fmt.Fprintf(os.Stderr, "unknown disk %q\n", name)
@@ -296,8 +300,13 @@ func main() {
 		}
 	}
 
-	if err := os.MkdirAll(outputDir, 0o755); err != nil {
-		fmt.Fprintf(os.Stderr, "create %s: %v\n", outputDir, err)
+	if *english {
+		for i := range disks {
+			disks[i].path = filepath.Join("data/c64_en", "SoulCrystal"+disks[i].name+".d64")
+		}
+	}
+	if err := os.MkdirAll(*destination, 0o755); err != nil {
+		fmt.Fprintf(os.Stderr, "create %s: %v\n", *destination, err)
 		os.Exit(1)
 	}
 
@@ -320,7 +329,7 @@ func main() {
 		fmt.Printf("- %s: %s\n", spec.name, formatRoots(roots))
 
 		for idx, chain := range chains {
-			outPath := filepath.Join(outputDir, fmt.Sprintf("%s_seq%d.bin", spec.name, idx+1))
+			outPath := filepath.Join(*destination, fmt.Sprintf("%s_seq%d.bin", spec.name, idx+1))
 			if err := os.WriteFile(outPath, chain.payload, 0o644); err != nil {
 				fmt.Fprintf(os.Stderr, "%s: write %s: %v\n", spec.name, outPath, err)
 				os.Exit(1)
@@ -335,7 +344,7 @@ func main() {
 				os.Exit(1)
 			}
 
-			vmPath := filepath.Join(outputDir, fmt.Sprintf("%s_vm.bin", spec.name))
+			vmPath := filepath.Join(*destination, fmt.Sprintf("%s_vm.bin", spec.name))
 			if err := os.WriteFile(vmPath, vmChain.payload, 0o644); err != nil {
 				fmt.Fprintf(os.Stderr, "%s: write %s: %v\n", spec.name, vmPath, err)
 				os.Exit(1)

@@ -7,7 +7,7 @@ text_report_dir=$(mktemp -d /tmp/soul-replay-texts.XXXXXX)
     cat "$text_report_dir/validation.log"
     exit 1
 }
-for source in out/part{a,b,c,d}.c out/game_{state,tables,texts}.c; do
+for source in out/part{a,b,c,d}.c out/game_{state,tables,texts,texts_en}.c; do
     "${CC:-clang}" -std=c11 -O2 -Iout -c "$source" -o "$text_report_dir/$(basename "${source%.c}").o"
 done
 "${CXX:-clang++}" -std=c++17 -O2 -Iout src/console/game.cpp src/console/text_coverage.cpp \

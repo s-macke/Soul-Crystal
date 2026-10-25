@@ -134,12 +134,12 @@ func decodeString(buf []byte, idx int) (string, error) {
 	return strings.TrimSpace(strings.Join(lines, "\n")), nil
 }
 
-func exportMarkdown() {
-	if err := os.MkdirAll("texts/C64", 0o755); err != nil {
+func exportMarkdown(ranges []diskRange, outputDir string) {
+	if err := os.MkdirAll(outputDir, 0o755); err != nil {
 		panic(err)
 	}
 
-	for _, disk := range knownRanges {
+	for _, disk := range ranges {
 		buf, err := os.ReadFile(disk.path)
 		if err != nil {
 			panic(err)
@@ -148,7 +148,7 @@ func exportMarkdown() {
 			panic(fmt.Errorf("%s has unexpected size %d", disk.path, len(buf)))
 		}
 
-		outPath := filepath.Join("texts/C64", disk.name+".md")
+		outPath := filepath.Join(outputDir, disk.name+".md")
 		f, err := os.Create(outPath)
 		if err != nil {
 			panic(err)

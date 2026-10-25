@@ -4,6 +4,7 @@ import (
 	"crypto/sha256"
 	"encoding/binary"
 	"encoding/json"
+	"flag"
 	"fmt"
 	"os"
 	"path/filepath"
@@ -81,11 +82,14 @@ func writeJSON(path string, v interface{}) error {
 	}
 	return os.WriteFile(path, append(b, '\n'), 0644)
 }
-func exportCatalogs() error {
-	if err := os.MkdirAll("texts/C64", 0755); err != nil {
+func exportCatalogs(ranges []diskRange, outputDir string, language string) error {
+	if err := os.MkdirAll(outputDir, 0755); err != nil {
 		return err
 	}
 	mapping := Mapping{1, "opcodeoracle/soul_crystal/soul_crystal.asm: $3C02, $3FEE, $4022, $54EB, $5D94", map[string]Message{}}
+	if language == "en" {
+		mapping.Source = "data/c64_en/SoulCrystalA2.d64: chain 10; $3C02..$4001 byte-identical to German dispatch (TestEnglishTextIDRoutingMatchesGerman)"
+	}
 	for id := 0; id <= 636; id++ {
 		m := Message{ID: id, Kind: "disk_text", Records: map[string]int{}}
 		if id == 0 {
@@ -100,7 +104,7 @@ func exportCatalogs() error {
 		mapping.Messages[strconv.Itoa(id)] = m
 	}
 	var catalogs []Catalog
-	for side, disk := range knownRanges {
+	for side, disk := range ranges {
 		b, err := os.ReadFile(disk.path)
 		if err != nil {
 			return err
@@ -142,13 +146,19 @@ func exportCatalogs() error {
 			}
 			mapping.Messages[strconv.Itoa(id)] = m
 		}
-		if err := writeJSON(filepath.Join("texts/C64", disk.name+".json"), cat); err != nil {
+		if err := writeJSON(filepath.Join(outputDir, disk.name+".json"), cat); err != nil {
 			return err
 		}
 		catalogs = append(catalogs, cat)
 		fmt.Printf("%s: %d original text records, common tail starts at %d\n", disk.name, len(cat.Records), cat.CommonTailIndex)
 	}
-	if err := writeJSON("texts/C64/text_ids.json", mapping); err != nil {
+	if language == "en" {
+		if err := writeJSON(filepath.Join(outputDir, "text_ids.json"), mapping); err != nil {
+			return err
+		}
+		return cTextFilesLanguage("out", mapping, catalogs, "en")
+	}
+	if err := writeJSON(filepath.Join(outputDir, "text_ids.json"), mapping); err != nil {
 		return err
 	}
 	if err := cTextFiles("out", mapping, catalogs); err != nil {
@@ -195,8 +205,23 @@ func commentsHeader(path string, mapping Mapping, catalogs []Catalog) error {
 	return os.WriteFile(path, []byte(out.String()), 0644)
 }
 func main() {
-	exportMarkdown()
-	if err := exportCatalogs(); err != nil {
+	language := flag.String("language", "de", "archive language: de or en (both export catalogs and compiled C texts)")
+	flag.Parse()
+	ranges, outputDir := knownRanges, "texts/C64"
+	switch *language {
+	case "de":
+	case "en":
+		outputDir = "texts/C64_en"
+		ranges = append([]diskRange(nil), knownRanges...)
+		for i := range ranges {
+			ranges[i].path = filepath.Join("data/c64_en", "SoulCrystal"+ranges[i].name+".d64")
+		}
+	default:
+		fmt.Fprintln(os.Stderr, "language must be de or en")
+		os.Exit(2)
+	}
+	exportMarkdown(ranges, outputDir)
+	if err := exportCatalogs(ranges, outputDir, *language); err != nil {
 		fmt.Fprintln(os.Stderr, err)
 		os.Exit(1)
 	}

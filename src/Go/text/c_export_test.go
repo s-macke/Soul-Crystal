@@ -11,6 +11,11 @@ import (
 )
 
 func TestCompiledCTexts(t *testing.T) {
+	for _, language := range []string{"de", "en"} {
+		t.Run(language, func(t *testing.T) { compiledCTexts(t, language) })
+	}
+}
+func compiledCTexts(t *testing.T, language string) {
 	root, err := filepath.Abs("../../..")
 	if err != nil {
 		t.Fatal(err)
@@ -30,12 +35,17 @@ int main(void) {
  if(GameTextLookup(0,1).kind!=TextUnavailable||GameTextLookup(5,1).kind!=TextUnavailable||GameTextLookup(1,637).kind!=TextUnavailable) return 2;
  return 0;
 }`
+	stem := "game_texts"
+	if language == "en" {
+		stem = "game_texts_en"
+		harness = strings.NewReplacer("game_texts.h", "game_texts_en.h", "GameIntroText", "GameEnglishIntroText", "GameDiaryText", "GameEnglishDiaryText", "GameTextRecordCount", "GameEnglishTextRecordCount", "GameTextRecord", "GameEnglishTextRecord", "GameTextLookup", "GameEnglishTextLookup").Replace(harness)
+	}
 	source := filepath.Join(dir, "test.c")
 	if err := os.WriteFile(source, []byte(harness), 0600); err != nil {
 		t.Fatal(err)
 	}
 	exe := filepath.Join(dir, "test")
-	cmd := exec.Command("clang", "-std=c11", "-pedantic-errors", "-I"+root, "-I"+filepath.Join(root, "out"), source, filepath.Join(root, "out/game_texts.c"), "-o", exe)
+	cmd := exec.Command("clang", "-std=c11", "-pedantic-errors", "-I"+root, "-I"+filepath.Join(root, "out"), source, filepath.Join(root, "out/"+stem+".c"), "-o", exe)
 	if b, err := cmd.CombinedOutput(); err != nil {
 		t.Fatalf("compile: %v\n%s", err, b)
 	}
@@ -44,7 +54,11 @@ int main(void) {
 		t.Fatal(err)
 	}
 	var want bytes.Buffer
-	for _, path := range []string{"texts/C64/story.txt", "data/tagebuch.txt"} {
+	documents := []string{"texts/C64/story.txt", "data/tagebuch.txt"}
+	if language == "en" {
+		documents = []string{"texts/C64_en/story.txt", "texts/C64_en/diary.txt"}
+	}
+	for _, path := range documents {
 		data, err := os.ReadFile(filepath.Join(root, path))
 		if err != nil {
 			t.Fatal(err)
@@ -53,7 +67,11 @@ int main(void) {
 		want.WriteByte(0)
 	}
 	for side, disk := range knownRanges {
-		raw, err := os.ReadFile(filepath.Join(root, disk.path))
+		path := disk.path
+		if language == "en" {
+			path = "data/c64_en/SoulCrystal" + disk.name + ".d64"
+		}
+		raw, err := os.ReadFile(filepath.Join(root, path))
 		if err != nil {
 			t.Fatal(err)
 		}

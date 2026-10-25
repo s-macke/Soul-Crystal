@@ -2,13 +2,41 @@
 
 ```sh
 ./build_console.sh
-./build/soul-crystal
+./build/soul-crystal --language de
+./build/soul-crystal --language en
 ```
 
 Zum Bauen genügen ein C11- und ein C++17-Compiler sowie die Standardbibliotheken.
 Keine zusätzlichen Bibliotheken, kein Go beim Build, kein JSON- oder Diskzugriff
 zur Laufzeit. Das Binary läuft auch außerhalb des Repository-Verzeichnisses.
 `CC` und `CXX` können die Compiler festlegen. Artefakte liegen ignoriert in `build/`.
+
+## Sprachwahl
+
+`--language de|en` wählt Texte, Intro, Tagebuch, Objektnamen, Verben und
+Bedienhinweise. Ohne Argument startet Deutsch. Ein Neustart behält die Sprache.
+Die deutschen Enum-Bezeichner und sämtliche Spiel-IDs bleiben unverändert.
+Alle Daten sind einkompiliert: `out/game_texts.c`, `out/game_texts_en.c` und
+`out/game_vocabulary_en.h`. Originaltexte der Fanübersetzung bleiben unverändert;
+die Bedienhinweise des neuen Textparsers haben eigene englische Übersetzungen.
+
+Englische Beispiele: `take dave`, `consider desk`, `push bell`, `speak to porter`,
+`use key on door`, `read diary`. `n/s/e/w`, `up/down`, `look`, `examine`, `inventory`,
+`drop`, `give` und `pull` sind Aliase. Die Originalbegriffe `CONSIDER`, `BACKPACK`,
+`LOSE`, `GIV`, `TUG` werden ebenfalls akzeptiert. Rückfragen: `yes/no`, bei der
+Lösungsabfrage `r/q/cancel`. `objects` und `verbs` zeigen die jeweiligen Listen.
+`help` bleibt das native Hilfsverb. Speichern und Cheats bleiben deaktiviert.
+Die Konsolenfunktion `music` schaltet wie das deutsche `musikein` nur das Flag;
+SID-Konfiguration und Audioausgabe sind nicht implementiert.
+
+Auch der Replay-Runner unterstützt `FILE [--verbose] [--language de|en]`.
+Die vorhandenen Replay-Dateien sind deutsch; Sprachwahl übersetzt keine
+Eingabedatei. `bash check-languages.sh` erzeugt seine englischen Testbefehle aus
+den tatsächlich aufgelösten Objekt-IDs der deutschen Route. Sowohl die schnelle
+Route (334 Befehle) als auch der ausführliche Durchlauf (597 Befehle) gewinnen
+in beiden Sprachen. Nach jedem Schritt werden Modus, Spielteil, Raum, Punkte,
+Schritte, Bild-ID und Eingabeergebnis verglichen. Die CLI läuft auch außerhalb
+des Repositorys ohne Textdateien.
 
 ## Bedienung
 
@@ -47,7 +75,8 @@ bekannten Anfangszustand zurück und benötigt keinen gespeicherten Spielstand.
 
 `src/console/game.h` bietet eine C-Schnittstelle:
 
-- `GameStart(callback, context)`: Anfangszustand, Intro und erste Raumausgabe.
+- `GameStart(callback, context)`: Anfangszustand, deutsches Intro und erste Raumausgabe.
+- `GameStartLanguage(callback, context, GameGerman|GameEnglish)`: Start mit gewählter Sprache.
 - `GameSubmit(line)`: eine Befehlszeile bzw. eine Antwort auf die aktuelle Rückfrage.
 - `GameGetView()`: Eingabemodus und knappe Angaben zu Raum, Teil, Punkten,
   Schritten sowie zuletzt angeforderter Bild-ID und ihrem Spielteil. Zusätzlich

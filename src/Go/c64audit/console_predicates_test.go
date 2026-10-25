@@ -17,7 +17,7 @@ func TestConsolePredicatesAgainstNative(t *testing.T) {
 	}
 	dir := t.TempDir()
 	objects := []string{}
-	for _, name := range []string{"parta", "partb", "partc", "partd", "game_state", "game_tables", "game_texts"} {
+	for _, name := range []string{"parta", "partb", "partc", "partd", "game_state", "game_tables", "game_texts", "game_texts_en"} {
 		obj := filepath.Join(dir, name+".o")
 		objects = append(objects, obj)
 		cmd := exec.Command("clang", "-std=c11", "-O1", "-I"+filepath.Join(root, "out"), "-c", filepath.Join(root, "out", name+".c"), "-o", obj)

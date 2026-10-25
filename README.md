@@ -6,10 +6,12 @@ Reverse Engineering of the Game Soul Crystal
 
 ```sh
 ./build_console.sh
-./build/soul-crystal
+./build/soul-crystal --language de
+./build/soul-crystal --language en
 ```
 
-Erste spielbare Basis mit einkompilierten Texten, Intro, Verbliste und
+Deutsch (Standard) und die englische C64-Fanübersetzung verwenden dieselbe
+Spiellogik. Spielbare Basis mit einkompilierten Texten, Intro, Verbliste und
 zustandsabhängiger Objektliste. Keine Laufzeitdateien oder zusätzlichen Libraries.
 Handbuchabfragen sind deaktiviert; die Teilübergänge laufen ohne Rückfrage weiter;
 Speichern/Laden und Cheats sind nicht enthalten.
