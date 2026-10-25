@@ -79,6 +79,11 @@ int main(){
     SPECIAL(0x33);assert(ScriptInterrupted()&&GameGetView().mode==GameWon);
     GameStart(record,nullptr);submit("spielende");submit("ja");assert(GameGetView().mode==GameEnded);
     const auto endSteps=steps;submit("west");assert(steps==endSteps);
+    // Native $3B0B warms Dave only in the lobby, not in every other room.
+    GameStart(record,nullptr);objectState[TSHIRT]=0;objectState[DAVE]=5;
+    submit("warte");assert(objectState[DAVE]==4&&GameGetView().mode==GameReady);
+    currentRoom=IN_DER_LOBBY;objectLocation[DAVE]=currentRoom;
+    submit("warte");assert(objectState[DAVE]==100&&GameGetView().mode==GameReady);
     // Original cooling logic and death are exercised through actual input.
     GameStart(record,nullptr);objectState[JEANS]=0;objectState[TSHIRT]=0;objectState[TURNSCHUHE]=0;
     currentRoom=IN_DER_LOBBY;objectLocation[DAVE]=currentRoom;objectState[DAVE]=1;

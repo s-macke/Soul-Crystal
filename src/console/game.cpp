@@ -297,7 +297,7 @@ extern "C" void GameSubmit(const char *input) {
     if(parsed==WENDE&&second==DAVE&&pendingTextID==94&&first!=PFEIFE)pendingTextID=103;
     if(gamePart==PartA) {
         if(currentRoom!=6){objectLocation[PORTIER]=0;objectState[KLINGEL]=0;}
-        if(currentRoom!=2)objectState[DAVE]=100;
+        if(currentRoom==2)objectState[DAVE]=100; // Native $3B0B..$3B1D: warm up in the lobby only.
         if(currentRoom==7)visited[7]=0;
     }
     if(currentRoom!=beforeRoom&&!titleOnly)roomTitle();
