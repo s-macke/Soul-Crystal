@@ -1,0 +1,15 @@
+# Dem Wolf helfen.
+# Source: out/parta.c:808 (death assignment).
+# Normal start, regular commands only; shortened by replay-preserving deletion.
+@include ../shared/a_im_see.inc
+> nord
+> nord
+> ost
+> nord
+> hilf Wolf
+@part 1
+@room 15
+@location 163 255
+@text "Ich habe sie umzingelt!", denkst Du Dir siegessicher: Mit einem wilden Kamikazeschrei stürmst
+@mode dead
+@finish dead

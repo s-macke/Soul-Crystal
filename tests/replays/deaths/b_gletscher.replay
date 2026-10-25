@@ -1,0 +1,37 @@
+# In die Gletscherspalte stürzen.
+# Source: out/partb.c:631 (death assignment).
+# Normal start, regular commands only; shortened by replay-preserving deletion.
+@include ../shared/b_ausgeruestet.inc
+> oeffne haustuer
+> nord
+> ost
+> ost
+> ost
+> wende pfeife auf bienenstock
+> betrachte bienenstock
+> wende honig auf fellstiefel
+> west
+> nord
+> nord
+> west
+> nord
+> nimm silbermuenzen
+> sued
+> ost
+> sued
+> sued
+> west
+> nord
+> west
+> gib silbermuenzen an verkaeufer
+> west
+> nord
+> betritt hundeschlitten
+> nord
+> nord
+@part 2
+@room 41
+@location 163 255
+@text Du hast Dich leider dazu entschieden, die Eiswüste viel tiefer zu erforschen als es eigentlich
+@mode dead
+@finish dead

@@ -1,0 +1,19 @@
+# Vor dem Brand fliehen ohne die Labortür zu sichern.
+# Source: out/partb.c:836 (death assignment).
+# Normal start, regular commands only; shortened by replay-preserving deletion.
+@include ../shared/b_mylgors_rueckkehr.inc
+> sued
+> nord
+> bewege kamin
+> hinunter
+> oeffne labortuer
+> nord
+> zerstoere reagenzien
+> sued
+> hinauf
+@part 2
+@room 48
+@location 163 255
+@text Hmmm...: War wohl irgendwie nicht so toll, Dein Plan: Die Druckwelle, die von der Explosion der
+@mode dead
+@finish dead

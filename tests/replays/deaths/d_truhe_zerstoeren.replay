@@ -1,0 +1,26 @@
+# Die verzauberte Truhe zerstören.
+# Source: out/partd.c:921 (death assignment).
+# Normal start, regular commands only; shortened by replay-preserving deletion.
+@include ../shared/c_zombie.inc
+> sued
+> ost
+> nord
+> betrachte fallgitter
+> wende ziegelstein auf plattform
+> ziehe fallgitter
+> nord
+> west
+> nimm torschluessel
+> ost
+> entriegele portaltor mit torschluessel
+> oeffne portaltor
+> nord
+> west
+> nord
+> zerstoere Truhe
+@part 4
+@room 68
+@location 163 255
+@text Du versuchst, die Truhe unter Gewaltanwendung zu öffnen - doch im selben Moment, als Du ihr Sch
+@mode dead
+@finish dead

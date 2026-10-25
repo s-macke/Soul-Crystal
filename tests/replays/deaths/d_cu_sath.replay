@@ -1,0 +1,33 @@
+# Cu-Sath ohne Parfüm passieren.
+# Source: out/partd.c:704 (death assignment).
+# Normal start, regular commands only; shortened by replay-preserving deletion.
+@include ../shared/c_suedufer.inc
+> betritt boot
+> nord
+> nord
+> verlasse boot
+> nord
+> west
+> nimm ziegelstein
+> ost
+> nord
+> betrachte fallgitter
+> wende ziegelstein auf plattform
+> ziehe fallgitter
+> nord
+> west
+> nimm torschluessel
+> ost
+> entriegele portaltor mit torschluessel
+> oeffne portaltor
+> nord
+> hinunter
+> hinunter
+> west
+> west
+@part 4
+@room 101
+@location 163 255
+@text Als der Cu-Sath Deinen Versuch bemerkt, sein Revier zu durchqueren, erfüllt er routiniert seine
+@mode dead
+@finish dead

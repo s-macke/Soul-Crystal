@@ -1,0 +1,10 @@
+# Dave zerstören.
+# Source: out/parta.c:660 (death assignment).
+# Normal start, regular commands only; shortened by replay-preserving deletion.
+> zerstoere dave
+@part 1
+@room 3
+@location 163 255
+@text Eine weise, ja geradezu philosophische Entscheidung: Selbstmord heißt, Probleme aus der Welt zu
+@mode dead
+@finish dead

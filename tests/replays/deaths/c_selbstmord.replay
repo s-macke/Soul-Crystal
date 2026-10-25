@@ -1,0 +1,11 @@
+# Dave zerstören.
+# Source: out/partc.c:743 (death assignment).
+# Normal start, regular commands only; shortened by replay-preserving deletion.
+@include ../shared/c_wald.inc
+> zerstoere dave
+@part 3
+@room 51
+@location 163 255
+@text Eine weise, ja geradezu philosophische Entscheidung: Selbstmord heißt, Probleme aus der Welt zu
+@mode dead
+@finish dead

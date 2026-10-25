@@ -1,0 +1,11 @@
+# In den Strudel geraten.
+# Source: out/parta.c:443 (death assignment).
+# Normal start, regular commands only; shortened by replay-preserving deletion.
+@include ../shared/a_im_see.inc
+> sued
+@part 1
+@room 7
+@location 163 255
+@text Während Du Dich langsam nach Süden treiben läßt, bemerkst Du, daß die Strömung immer stärker wi
+@mode dead
+@finish dead

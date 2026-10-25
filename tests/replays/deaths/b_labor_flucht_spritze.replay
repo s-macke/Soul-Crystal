@@ -1,0 +1,16 @@
+# Vor Mylgor fliehen ohne Gegenangriff.
+# Source: out/partb.c:848 (death assignment).
+# Normal start, regular commands only; shortened by replay-preserving deletion.
+@include ../shared/b_mylgors_rueckkehr.inc
+> bewege kamin
+> hinunter
+> oeffne labortuer
+> nord
+> sued
+> hinauf
+@part 2
+@room 48
+@location 163 255
+@text Als Du gerade die Steigeisen erklimmen willst, um wieder in Mylgors Kaminzimmer hinaufzukletter
+@mode dead
+@finish dead

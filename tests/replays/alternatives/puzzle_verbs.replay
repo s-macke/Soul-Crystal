@@ -1,0 +1,265 @@
+# Alternative solutions and spoiled food; wins with the original 25-point penalty.
+# Based on the short PDF winning route, with the additions described above.
+@part 1
+@room 3
+@include ../shared/b_ausgeruestet.inc
+> nimm elixier
+> oeffne haustuer
+> nord
+> ost
+> ost
+> ost
+> wende pfeife auf bienenstock
+> betrachte bienenstock
+> nimm honig
+> befestige honig an fellstiefel
+@text Du versuchst ein wenig von dem Honig
+> west
+> nord
+> nord
+> west
+> nord
+> nimm silbermuenzen
+> sued
+> ost
+> sued
+> sued
+> west
+> nord
+> west
+> sprich verkaeufer
+> gib silbermuenzen an verkaeufer
+> west
+> nord
+> betrachte hundeschlitten
+> betritt hundeschlitten
+> nord
+> west
+> wende elixier auf dave
+> betritt eispalast
+@text Unbemerkt schleichst Du Dich
+> sprich firon
+> sprich firon
+> sprich firon
+> betritt dachsschlitten
+> sued
+> verlasse dachsschlitten
+> sued
+> ost
+> ost
+> sued
+> ost
+> nord
+> nord
+> ost
+> nord
+> nimm rattengift
+> nord
+> nimm kurzschwert
+> sued
+> west
+> entriegele friedhofstor mit eisschluessel
+> oeffne friedhofstor
+> nord
+> nord
+> wende kurzschwert auf weihwasserbecken
+> hinunter
+> betrachte grabplatte
+> hinauf
+> sprich gebet
+@text Verzweifelt kniest Du vor dem Altar
+> sprich jacks geist
+> sued
+> sued
+> ost
+> sued
+> west
+> west
+> nord
+> wende kurzschwert auf silber
+> west
+> nimm schaufel
+> grabe
+> nimm totenschaedel
+> ost
+> sued
+> ost
+> ost
+> nord
+> west
+> nord
+> west
+> nord
+> oeffne sarkophag
+> wende totenschaedel auf skelett
+> sprich koenig
+> sprich koenig
+> sprich koenig
+> sued
+> wende kurzschwert auf werwolf
+> ost
+> sued
+> ost
+> sued
+> west
+> sued
+> sued
+> west
+> west
+> sued
+> sued
+> wende zauberspruch auf westtuer
+> oeffne westtuer
+> west
+> betrachte studiertisch
+> oeffne schubladen
+> betrachte schubladen
+> nimm laborschluessel
+> ost
+> nord
+> bewege kamin
+> hinunter
+> west
+> betrachte bett
+> nimm amulett
+> wende amulett auf dave
+> ost
+> oeffne labortuer
+> nord
+> zerstoere reagenzien
+> sued
+> verriegele labortuer mit laborschluessel
+> hinauf
+> nord
+> ost
+> ost
+> ost
+> nord
+> ost
+> nord
+> nord
+> betritt boot
+> nord
+> nord
+> verlasse boot
+> nord
+> west
+> nimm ziegelstein
+> ost
+> nord
+> betrachte fallgitter
+> wende ziegelstein auf plattform
+> ziehe fallgitter
+> nord
+> west
+> nimm torschluessel
+> ost
+> entriegele portaltor mit torschluessel
+> oeffne portaltor
+> nord
+> hinunter
+> hinunter
+> nord
+> nimm parfuem
+> wende parfuem auf dave
+> sued
+> west
+> west
+> nimm purpurmantel
+> ost
+> sued
+> sued
+> wende purpurmantel auf dave
+> west
+> nimm bootsschluessel
+> ost
+> betritt kahn
+> wende bootsschluessel auf kahn
+> ost
+> befestige kahn an bootssteg
+> verlasse kahn
+> sued
+> nimm eisenschluessel
+> nord
+> betritt kahn
+> west
+> verlasse kahn
+> nord
+> nord
+> ost
+> hinauf
+> hinauf
+> nord
+> nord
+> west
+> hinauf
+> betrachte himmel
+> betrachte vollmond
+> hinunter
+> hinunter
+> ost
+> bewege kriegerstatue
+> nimm kays schluessel
+> entriegele gittertuer mit kays schluessel
+> oeffne gittertuer
+> sued
+> entriegele stahltuer mit eisenschluessel
+> oeffne stahltuer
+> ost
+> nord
+> nord
+> betrachte eichentuer
+> ziehe tuerklinke
+> nord
+> bewege buecherwand
+> west
+> betrachte himmelbett
+> betrachte bettzeug
+> nimm ledersaeckchen
+> oeffne ledersaeckchen
+> betrachte ledersaeckchen
+> betrachte papier
+> ost
+> ost
+> entriegele tresor mit codenummer
+@text Du stellst die Kombination ein
+> oeffne tresor
+> betrachte tresor
+> nimm vertrag
+> west
+> nord
+> west
+> wende vertrag auf purpurfeuer
+> betrachte weihwasserbecken
+> wende weihwasser auf purpurfeuer
+> ost
+> sued
+> sued
+> sued
+> hinauf
+> ost
+> nord
+# Taste the spoiled banquet food: an optional 25-point penalty.
+> betrachte esstisch
+> betrachte geschirr
+> wende speisen auf dave
+@text Du probierst einen Happen der Speisen
+@mode ready
+> west
+> nimm weissbrotscheibe
+> wende rattengift auf weissbrotscheibe
+> betrachte weissbrotscheibe
+@text Ein tödlicher Sandwich
+@state 21 1
+> gib weissbrotscheibe an ratten
+> west
+> hinunter
+> oeffne fass
+> west
+> nord
+> schliesse saerge
+> betritt drudenfuss
+@include ../shared/d_sieg.inc
+@mode won
+@score 4930
+@finish won

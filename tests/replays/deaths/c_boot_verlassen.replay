@@ -1,0 +1,13 @@
+# Mitten auf dem See aus dem Boot steigen.
+# Source: out/partc.c:868 (death assignment).
+# Normal start, regular commands only; shortened by replay-preserving deletion.
+@include ../shared/c_suedufer.inc
+> betritt boot
+> nord
+> verlasse boot
+@part 3
+@room 55
+@location 163 255
+@text Hmmm...: Mir ist zwar durchaus bekannt, daß es Leute gibt, die ein Moorbad aufgrund seiner gesu
+@mode dead
+@finish dead

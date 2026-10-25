@@ -1,0 +1,15 @@
+# In den Treibsand gehen.
+# Source: out/partc.c:194 (death assignment).
+# Normal start, regular commands only; shortened by replay-preserving deletion.
+@include ../shared/c_suedufer.inc
+> betritt boot
+> nord
+> nord
+> verlasse boot
+> west
+@part 3
+@room 56
+@location 163 255
+@text Neugierig betrittst Du die undurchdringlichen Sumpfgebiete. Obwohl sich der Boden schon gefährl
+@mode dead
+@finish dead

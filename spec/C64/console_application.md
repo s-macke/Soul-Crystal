@@ -98,7 +98,7 @@ weiterhin nur einmal vergeben. Das Tagebuch wird beim Start nicht vorweggenommen
 
 ## Validierter Gewinnpfad und verbleibende Grenzen
 
-Die Hauptroute erreicht im Replay nach 393 Befehlen den Gewinn mit 5.010 Punkten.
+Die Hauptroute erreicht im Replay nach 597 Befehlen den Gewinn mit 5.010 Punkten.
 Das Tagebuch, zehn weitere Nebenaktionen sowie Eremit und der sichere
 Moor-Abstecher in Teil C sind geprüft; weitere Nebenpfade
 und vollständige Originaltreue sind damit noch nicht validiert.
@@ -121,7 +121,7 @@ Bekannte Grenzen dieser Basis:
 
 Der [Replay-Runner](../../tests/replays/README.md) spielt Textdateien über dieselbe
 Schnittstelle wie die Konsole ab und prüft dabei Raum, Punkte, Texte und Objekte.
-Die Komplettlösung aus dem vorhandenen PDF läuft mit 393 Befehlen und 130
+Die Komplettlösung aus dem vorhandenen PDF läuft mit 597 Befehlen und 410
 Prüfstellen bis zum Gewinn durch. Der separate Anfangstest umfasst 34 Befehle
 und 32 Prüfstellen. Außen vor Mylgors Haus heißt die Tür `holztuer`, innen
 `haustuer`; die Route verwendet entsprechend die getrennten Originalobjekte.

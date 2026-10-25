@@ -1,4 +1,4 @@
-# Main walkthrough: all 393 commands reach GameWon in the current console port.
+# Main walkthrough: all 597 commands reach GameWon in the current console port.
 # The runner MUST reach GameWon for success; intermediate assertions are selective.
 # English C64 walkthrough, PDF page 13, first five bullets; translated commands.
 # Source SHA256: e21bdfcfcb6c5045ca83496bce0722ccd663300fe75167b7f8e1de02ba559319
@@ -7,6 +7,24 @@
 @room 3
 @mode ready
 @text Endlich da;
+> hilf Dave
+@text Tuuut... Tuuut... "Hi! Hier spricht der automatische Telefonsklave des A.C.A-Hauptqua
+@mode ready
+> oeffne jeans
+@text Tja, was sein muß, muß sein: Hastig siehst Du Dich um, ob auch keiner zusieht, öffnes
+@mode ready
+> betrachte T-Shirt
+@mode ready
+> betrachte Hinweisschild
+@mode ready
+> betrachte Turnschuhe
+@mode ready
+> betrachte Jeans
+@mode ready
+> betrachte Hotel
+@mode ready
+> betrachte dave
+@mode ready
 > west
 @room 2
 > nord
@@ -15,6 +33,8 @@
 @location 12 6
 # Read the hotel's brochure before leaving the reception.
 @points 23 5
+> betrachte Klingel
+@mode ready
 > oeffne prospekt
 > lese prospekt
 @points 23 0
@@ -30,15 +50,33 @@
 @state 12 2
 > druecke klingel
 @location 74 6
+> zerstoere portier
+@text Gaaanz cool bleiben! So, und jetzt hol' erstmal tief Luft und zähl' bis zehn - oder möchtest Du
+@mode ready
+> hilf Portier
+@text Kauf' ihm ein Hörgerät, und ich garantiere Dir: Er wird der glücklichste Portier unte
+@mode ready
+> druecke klingel
+@text Du drückst auf die kleine Kupferklingel. In einem Raum weiter oben hörst Du einen Sum
+@mode ready
+> betrachte Portier
+@mode ready
 > sprich portier
 @location 117 6
+> betrachte Zimmerschlüssel
+@mode ready
 > nimm zimmerschluessel
 @location 117 255
 # Restaurant: menu and the local resident's story.
 > nord
 @room 9
+> betrachte Dorfbewohner
+@mode ready
 > betrachte esstisch
 @points 94 5
+> nimm speisekarte
+@text Oh nein! Bitte erzähl' mir jetzt nicht, daß Du einer von den Typen bist, die kein Hot
+@mode ready
 > lese speisekarte
 @points 94 0
 @points 98 5
@@ -56,6 +94,8 @@
 @room 6
 > west
 @room 5
+> betrachte Zimmertür
+@mode ready
 > entriegele zimmertuer mit zimmerschluessel
 > oeffne zimmertuer
 @state 49 1
@@ -67,8 +107,27 @@
 @state 49 1
 > sued
 @room 1
+> wende dave auf stuhl
+@text Du setzt Dich hin, um darüber nachzusinnen, was Du als nächstes tun könntest, aber mi
+@mode ready
+> wende dave auf kleiderschrank
+@text Hastig reißt Du die Tür des Kleiderschranks auf, hechtest hinein und schließt die Tür
+@mode ready
+> wende dave auf gaestebett
+@text Also, zum Schlafen bist Du doch wohl nicht hierher gekommen, oder?
+@mode ready
+> betrachte Kleiderschrank
+@mode ready
+> betrachte Zimmertür
+@mode ready
+> betrachte Schreibtisch
+@mode ready
+> betrachte Gästebett
+@mode ready
 > betrachte stuhl
 @location 151 1
+> betrachte Badehose
+@mode ready
 > nimm badehose
 @location 151 255
 # The hiding place is empty; drop and retrieve the unworn swimsuit.
@@ -103,11 +162,21 @@
 > nord
 > west
 > nord
+> betrachte Wasserfall
+@mode ready
 > nord
+> betrachte Wasserfall
+@mode ready
 > ost
 > nord
+> betrachte Wolf
+@mode ready
+> betrachte Einhorn
+@mode ready
 > hilf einhorn
 > sprich einhorn
+> betrachte Kristallkugel
+@mode ready
 > nimm kristallkugel
 @location 36 255
 @room 15
@@ -122,6 +191,12 @@
 @location 36 255
 @score 55
 @mode ready
+> nord
+@text Eine starke und unsagbar böse Aura hält Dich von dem verfluchten Waldabschnitt im Nor
+@mode ready
+> ost
+@text Merkwürdig: Der Weg, von dem aus Du diesen Teil des Waldes betreten hast, ist nicht m
+@mode ready
 > west
 # Read the note hidden in the hole beside the path.
 > betrachte erdloch
@@ -130,6 +205,24 @@
 @points 100 0
 > sued
 > west
+> nord
+> sued
+@text Leider kann ich keinen Weg durch die dicken Büsche und das dichte Gestrüpp finden - aber vielle
+@mode ready
+> hilf Orkkind
+@text Der Kleine braucht Deine Hilfe nicht, um seine Spiele zu spielen - abgesehen davon hä
+@mode ready
+> sprich orkkind
+@text Du fragst das kleine Kind, was es denn so allein hier draußen triebe. "Ich sitze hier
+@mode ready
+> sprich orkkind
+@text "Ich hatte nur einen einzigen Wunsch zu Weihnachten: Einen Fußball! Aber sowas fanden
+@mode ready
+> sprich orkkind
+@text Auf Deine Fragen hin schaut das Kind Dich lediglich mit einem flehenden Blick an, nic
+@mode ready
+> betrachte Orkkind
+@mode ready
 > gib kristallkugel an orkkind
 > betrachte tisch
 > warte
@@ -137,29 +230,105 @@
 > warte
 > warte
 > nimm pfeife
+> sprich Orkmann
+@text Der Orkvater versteht die menschliche Sprache nicht sonderlich gut, weshalb er es vor
+@mode ready
+> sprich Orkfrau
+@text Na, ich würde jetzt aber nicht noch anfangen, mit hübschen Orkmädels zu flirten - ihr
+@mode ready
+> hilf Orkmann
+@text Der Orkvater ist ein starker und kerngesunder Ork: Warum sollte gerade er die Hilfe e
+@mode ready
+> hilf Orkfrau
+@text Du erhebst Dich aus Deinem Stuhl und wendest Dich an die Orkmutter, um sie zu fragen,
+@mode ready
+> betrachte Pfeife
+@mode ready
+> betrachte Orkmann
+@mode ready
+> betrachte Orkfrau
+@mode ready
+> betrachte Feuerstelle
+@mode ready
 > nord
 > ost
 > nord
 > west
 > west
 # Outside: HOLZTUER (50); HAUSTUER (64) is the inside object.
+> betrachte Holztür
+@mode ready
 > druecke holztuer
 @room 22
 @location 97 22
+> hilf Mylgor
+@text Also, hör mal: Es ist ja wohl DEIN Leben, das von Mylgors Hilfe abhängt - und nicht u
+@mode ready
+> betrachte Mylgor
+@mode ready
 > sprich mylgor
+> sprich mylgor
+@text "Ich habe Dir bereits mitgeteilt, was ich zu sagen habe!", antwortet Mylgor Dir unged
+@mode ready
+> gib vertrag an mylgor
+@text "Was sollte ich denn bitte mit einem Vertrag anfangen, den Du nicht unterschrieben ha
+@mode ready
+> betrachte Messer
+@mode ready
 > lese vertrag
 @state 32 0
 > wende messer auf dave
+> wende blut auf dave
+@text Das wäre verantwortungslos, findest Du nicht? Wenn Du Dein Blut unbedingt loswerden m
+@mode ready
+> betrachte Blut
+@mode ready
 > wende blut auf vertrag
 > lese vertrag
 @text Drei große Kreuze
 @state 32 1
 > gib messer an mylgor
 > gib vertrag an mylgor
+> nord
+@text Nun denk' doch mal nach! Wer würde nachts schon seine Tür offenstehen lassen?
+@mode ready
+> sprich mylgor
+@text Ihr beiden schwatzt, bis es fast halb Zwölf ist. Ich denke, es wird jetzt langsam Zei
+@mode ready
+> sprich mylgor
+@text Nach jedem Satz, den Du sagst, rekelt sich Mylgor in seinem alten Ohrensessel und unt
+@mode ready
+> betrachte Haustür
+@mode ready
+> betrachte Kamin
+@mode ready
 > sued
+> west
+@text Würde ich ja nur zu gern, wenn ich könnte - aber da steht uns leider eine magische Wa
+@mode ready
+> betrachte Westtür
+@mode ready
+> betrachte Nordtür
+@mode ready
+> betrachte Bett
+@mode ready
 > wende dave auf bett
+> wende dave auf bett
+@text Diesmal hast Du aber nun wirklich keine Zeit zum Schlafen! Immerhin hast Du jetzt ja
+@mode ready
 > nord
 > sprich mylgor
+> sprich mylgor
+@text Ich glaube, Du gehst jetzt besser und löst Dein Versprechen ein, bevor Mylgor ungehal
+@mode ready
+> betrachte Hose
+@mode ready
+> betrachte Baumwollhemd
+@mode ready
+> betrachte Elixier
+@mode ready
+> betrachte Fellstiefel
+@mode ready
 > wende baumwollhemd auf dave
 > wende hose auf dave
 > wende fellstiefel auf dave
@@ -171,13 +340,33 @@
 > ost
 > wende pfeife auf bienenstock
 > betrachte bienenstock
+> wende honig auf hose
+@text Naja, etwas infantil - aber ganz nett, diese Ferkelei! Vielleicht sollten wir uns jed
+@mode ready
+> wende honig auf dave
+@text Ja, glaubst Du denn tatsächlich, ich hätte all diese Strapazen auf mich genommen, blo
+@mode ready
+> betrachte Honig
+@mode ready
 > nimm honig
+> west
+> nord
+> betrachte Baumstamm
+@mode ready
+# Try coating the trunk before using the honey on the boots.
+> wende honig auf baumstamm
+@text nicht genug Honig dabei
+@mode ready
 > wende honig auf fellstiefel
+> nord
+> betrachte Baumstamm
+@mode ready
 > west
 > nord
-> nord
-> west
-> nord
+> betrachte Silber
+@mode ready
+> betrachte Silbermünzen
+@mode ready
 > nimm silbermuenzen
 > sued
 > ost
@@ -186,19 +375,49 @@
 > west
 > nord
 > west
+> hilf Verkäufer
+@text "Vielen Dank", antwortet der junge Verkäufer höflich, aber dennoch sichtlich erfreut
+@mode ready
+> betrachte Verkäufer
+@mode ready
 > sprich verkaeufer
 > gib silbermuenzen an verkaeufer
 > west
 > nord
+> nord
+@text Eis und Schnee soweit das Auge reicht - willst Du die Eiswüste wirklich zu Fuß durchq
+@mode ready
+> ziehe schlitten
+@text Du nimmst alle Kraft zusammen und beginnst, den schweren Schlitten hinter Dir herzuzi
+@mode ready
 > betrachte hundeschlitten
 > betritt hundeschlitten
 > nord
 > west
+> hilf Yeti
+@text Also, ich wage doch wirklich sehr zu bezweifeln, ob der Yeti von einem Hänfling wie D
+@mode ready
+> nord
+@text Der Yeti macht aber ganz und gar nicht den Eindruck, als hätte er vor, Dich bei Deine
+@mode ready
+> betrachte Yeti
+@mode ready
+> betrachte Eispalast
+@mode ready
 > wende elixier auf dave
 > nord
+> hilf Firon
+@text Wenn Du meinst, daß Firon Deine Hilfe braucht, dann hast Du schon einen guten Teil de
+@mode ready
+> betrachte Firon
+@mode ready
 > sprich firon
 > sprich firon
 > sprich firon
+> betrachte Eisschlüssel
+@mode ready
+> betrachte Dachsschlitten
+@mode ready
 > betritt dachsschlitten
 > sued
 > verlasse dachsschlitten
@@ -211,6 +430,8 @@
 > nord
 > ost
 > nord
+> betrachte Rattengift
+@mode ready
 > nimm rattengift
 > nord
 > nimm kurzschwert
@@ -218,21 +439,53 @@
 @state 142 0
 > sued
 > west
+> betrachte Friedhofstor
+@mode ready
 > entriegele friedhofstor mit eisschluessel
 > oeffne friedhofstor
 > nord
+> wende dave auf grab
+@text Warum so eilig, junger Freund? Früher oder später wirst Du hier doch sowieso landen!
+@mode ready
+> grabe
+@text Du buddelst ein wenig im Erdreich herum, doch außer einer mumifizierten Hand, die Dir
+@mode ready
+> betrachte Grabstein
+@mode ready
+> betrachte Grab
+@mode ready
+> betrachte Friedhofstor
+@mode ready
 > nord
+> zerstoere steinaltar
+@text Dieser Altar ist den A.C.A-Programmierern geweiht! Ich an Deiner Stelle würde mich hüten, ihren
+@mode ready
+> sprich Steinaltar
+@text Sprich nicht mit ihm, sondern bete lieber - denn die Götter von A.C.A sind eifersücht
+@mode ready
+> betrachte Weihwasserbecken
+@mode ready
 > wende kurzschwert auf weihwasserbecken
 > betrachte kurzschwert
 @text stinknormales Schwert
 @state 142 1
 > hinunter
 > betrachte grabplatte
+> verliere gebet
+@text Dazu müßtest Du schon Deinen Kopf verlieren!
+@mode ready
+> betrachte Gebet
+@mode ready
 > hinauf
 @points 2 5
 > betrachte steinaltar
 @points 2 0
 > wende gebet auf steinaltar
+> zerstoere jacks geist
+@text Also, mal immer ganz locker bleiben! Hast Du schon einmal einen LEBENDIGEN Geist gesehen? Naja,
+@mode ready
+> betrachte Jacks Geist
+@mode ready
 > sprich jacks geist
 > sued
 > sued
@@ -246,8 +499,12 @@
 @text versilberte Klinge
 @state 142 3
 > west
+> betrachte Schaufel
+@mode ready
 > nimm schaufel
 > grabe
+> betrachte Totenschädel
+@mode ready
 > nimm totenschaedel
 > ost
 > sued
@@ -258,11 +515,28 @@
 > nord
 > west
 > nord
+> betrachte Sarkophag
+@mode ready
 > oeffne sarkophag
+> betrachte Skelett
+@mode ready
 > wende totenschaedel auf skelett
+> hilf König
+@text Also, entschuldige mal bitte: Bräuchtest DU etwa noch irgendwelche Hilfe, wenn DU tot
+@mode ready
+> betrachte König
+@mode ready
 > sprich koenig
 > sprich koenig
 > sprich koenig
+> verliere zauberspruch
+@text Wie willst Du denn etwas verlieren, das in dem komischen, verkümmerten Ding gespeichert ist, we
+@mode ready
+> sprich koenig
+@text "Du kennst den Zauberspruch!", sagt der König ungeduldig, "Das ist nun aber wirklich
+@mode ready
+> betrachte Zauberspruch
+@mode ready
 > sued
 > wende kurzschwert auf werwolf
 > ost
@@ -279,12 +553,16 @@
 > wende zauberspruch auf westtuer
 > oeffne westtuer
 > west
+> betrachte Zaubertür
+@mode ready
 > betrachte studiertisch
 > betrachte schubladen
 @text Öffnen müßtest Du sie schon selbst
 @state 53 2
 > oeffne schubladen
 > betrachte schubladen
+> betrachte Laborschlüssel
+@mode ready
 > nimm laborschluessel
 > betrachte schubladen
 @location 82 255
@@ -292,8 +570,12 @@
 > nord
 > bewege kamin
 > hinunter
+> betrachte Labortür
+@mode ready
 > west
 > betrachte bett
+> betrachte Amulett
+@mode ready
 > nimm amulett
 > betrachte bett
 @location 3 255
@@ -301,9 +583,17 @@
 > ost
 > oeffne labortuer
 > nord
+> betrachte Reagenzien
+@mode ready
 > zerstoere reagenzien
+> betrachte Stahltür
+@mode ready
 > sued
 > verriegele labortuer mit laborschluessel
+> entriegele labortuer mit laborschluessel
+> oeffne labortuer
+@text Die Labortür hat sich durch die Hitze schon zu sehr verzogen, als daß Du sie noch öffnen könnte
+@mode ready
 > hinauf
 > nord
 > ost
@@ -313,19 +603,31 @@
 
 # Part C: continuation from PDF page 14
 > ost
+> nimm amulett
+@text Als Du versuchst, das Amulett vom Ast loszumachen, rutscht es Dir durch Deine immer n
+@mode ready
 > nord
 > nord
+> betrachte Boot
+@mode ready
 > betritt boot
 > nord
 > nord
 > verlasse boot
 > nord
 > west
+> betrachte Ziegelstein
+@mode ready
 > nimm ziegelstein
 # Part C: visit the hermit and hear the complete conversation sequence.
 > west
 @room 58
 @state 54 0
+> hilf Eremit
+@text Der alte Eremit nimmt Dein Angebot dankbar an und bittet Dich freundlich, das ganze G
+@mode ready
+> betrachte Eremit
+@mode ready
 > sprich eremit
 @state 54 1
 @text Die Insel, die Insel...
@@ -354,11 +656,22 @@
 @mode ready
 > ost
 > nord
+> oeffne fallgitter
+@text Mühsam ziehst Du die Spitzen des Fallgitters aus dem Boden und schiebst es soweit nac
+@mode ready
 > betrachte fallgitter
+> betrachte Plattform
+@mode ready
 > wende ziegelstein auf plattform
 > ziehe fallgitter
 > nord
+> betrachte Portaltor
+@mode ready
+> betrachte Fallgitter
+@mode ready
 > west
+> betrachte Torschlüssel
+@mode ready
 > nimm torschluessel
 > ost
 > entriegele portaltor mit torschluessel
@@ -367,10 +680,26 @@
 
 # Part D: continuation from PDF page 14
 # Explore the stables before entering the castle's lower floors.
+> betrachte Portaltor
+@mode ready
+> betrachte Schacht
+@mode ready
 > west
 > nord
 @room 68
 @points 25 5
+> zerstoere abenteurer
+@text Hast Du denn etwa überhaupt keinen Respekt mehr vor den Toten? Mal ganz abgesehen davon ist es
+@mode ready
+> sprich Abenteurer
+@text Glaubst Du ernsthaft, daß er noch in der Lage wäre, Dir zu antworten?
+@mode ready
+> hilf Abenteurer
+@text Tja, da kommst Du wohl ein paar Jährchen zu spät. Begrab' ihn, wenn Du Deine Aufgabe
+@mode ready
+> oeffne truhe
+@text Du versuchst die kleine Truhe zu öffnen, doch leider widersteht der komplizierte Mech
+@mode ready
 > betrachte truhe
 @points 25 0
 > betrachte abenteurer
@@ -383,25 +712,57 @@
 > hinunter
 > hinunter
 > nord
+> betrachte Parfüm
+@mode ready
+> betrachte Lageplan
+@mode ready
 > nimm parfuem
 > wende parfuem auf dave
 > sued
 > west
+> sprich Cu-Sath
+@text Ziemlich blöde Idee - mit einem TIER zu sprechen! Du hörst wohl auch das Gras wachsen
+@mode ready
+> hilf Cu-Sath
+@text Du willst doch nicht im Ernst Selbstmord begehen, oder?
+@mode ready
+> betrachte Cu-Sath
+@mode ready
 > west
+> betrachte Purpurmantel
+@mode ready
 > nimm purpurmantel
 > ost
 > sued
 > sued
+> betrachte Kahn
+@mode ready
 > wende purpurmantel auf dave
 > west
+> verliere purpurmantel
+> sprich faehrmann
+@text Der alte Fährmann blickt kurz von seiner Pfeife auf, grüßt Dich mit einem beiläufigen Nicken un
+@mode ready
+> wende purpurmantel auf dave
+> hilf Fährmann
+@text Der Fährmann hat trotz seines hohen Alters eigentlich noch nicht vor, sich aufs Alten
+@mode ready
+> betrachte Fährmann
+@mode ready
+> betrachte Bootsschlüssel
+@mode ready
 > nimm bootsschluessel
 > ost
 > betritt kahn
 > wende bootsschluessel auf kahn
 > ost
+> betrachte Bootssteg
+@mode ready
 > befestige kahn an bootssteg
 > verlasse kahn
 > sued
+> betrachte Eisenschlüssel
+@mode ready
 > nimm eisenschluessel
 > nord
 > betritt kahn
@@ -414,6 +775,8 @@
 > hinauf
 > nord
 > nord
+> betrachte Gemälde
+@mode ready
 > west
 > hinauf
 # Visit the tower guard before continuing on the main route.
@@ -441,54 +804,124 @@
 > hinunter
 > hinunter
 > ost
+> nimm waffen
+@text Will ich aber nicht! Schau' Dir diese Krücken doch mal genau an: In einem echten Gefe
+@mode ready
+> betrachte Waffen
+@mode ready
+> betrachte Kriegerstatue
+@mode ready
 > bewege kriegerstatue
+> betrachte Kays Schlüssel
+@mode ready
+> betrachte Slot
+@mode ready
+> betrachte Gittertür
+@mode ready
 > nimm kays schluessel
 > entriegele gittertuer mit kays schluessel
 > oeffne gittertuer
 > sued
 # Read the previous prisoner's writing.
 @points 121 5
+> hilf Skelett
+@text Bete für ihn, wenn Du das nächste mal wieder an einem Altar vorbeikommst: Vielleicht
+@mode ready
+> betrachte Stahltür
+@mode ready
+> betrachte Skelett
+@mode ready
+> betrachte Gittertür
+@mode ready
 > lese schmierereien
 @points 121 0
 > entriegele stahltuer mit eisenschluessel
 > oeffne stahltuer
 > ost
+> betrachte Stahltür
+@mode ready
 > nord
 > nord
+> oeffne eichentuer
+@text Ich weiß gar nicht, was Du hast: Du bräuchtest doch eigentlich bloß die Türklinke zu betätigen.
+@mode ready
 > betrachte eichentuer
+> bewege tuerklinke
+@text Also, was bist Du doch für ein schlaues Kerlchen! Wenn alles in diesem Spiel so einfa
+@mode ready
+> betrachte Türklinke
+@mode ready
 > ziehe tuerklinke
 > nord
+> betrachte Bücherwand
+@mode ready
 > bewege buecherwand
+> bewege buecherwand
+@text Leise schwingt die Bücherwand wieder in ihre Ausgangsstellung zurück...
+@mode ready
+> bewege buecherwand
+@mode ready
 > west
+> betrachte Gemälde
+@mode ready
 > betrachte himmelbett
 > betrachte bettzeug
+> betrachte ledersaeckchen
+@text Ein kleines, aus Nappaleder gefertigtes Säckchen, das mit einer Schnur zugezogen und als Brustb
+@mode ready
 > nimm ledersaeckchen
 > oeffne ledersaeckchen
 > betrachte ledersaeckchen
 > betrachte papier
+> betrachte Codenummer
+@mode ready
 > ost
 > ost
 > wende codenummer auf tresor
 > oeffne tresor
 > betrachte tresor
+> betrachte vertrag
+@text Sofort erkennst Du den Vertrag wieder, den Du an dem Abend Deiner Ankunft in dieser W
+@mode ready
 > nimm vertrag
 > west
 > nord
 # Mylgor's letter on Zargon's marble desk.
+> ost
+@text Also, wenn Du wirklich meinst, daß Zargon sich fürchten müßte, wenn Du in seine Geheimkammern e
+@mode ready
+> bewege buecherregale
+@text Du schiebst die Bücherregale in ihre Ausgangsposition zurück und schließt somit den Z
+@mode ready
+> bewege buecherregale
+@mode ready
 > betrachte marmortisch
 @points 89 5
+> nimm brief
+@text Nix da, mein Freund! Wohl noch nie was vom Briefgeheimnis gehört, wie?
+@mode ready
 > lese brief
 @points 89 0
 > lese brief
 @points 89 0
 > betrachte buecherregale
 @location 19 92
+> nimm buecher
+@text Nö! Einerseits sind sie viel zu schwer, und auf der anderen Seite tragen sie nicht da
+@mode ready
 > lese buecher
 > betrachte buecherregale
 @location 19 92
 > west
+> betrachte Purpurfeuer
+@mode ready
 > wende vertrag auf purpurfeuer
 > betrachte weihwasserbecken
+> wende weihwasser auf dave
+@text Also, wenn Du wirklich glaubst, Du könntest Dich einfach so vor Deiner Aufgabe drücken, indem D
+@mode ready
+> betrachte Weihwasser
+@mode ready
 > wende weihwasser auf purpurfeuer
 > ost
 > sued
@@ -497,7 +930,19 @@
 > hinauf
 > ost
 > nord
+> betrachte Eßtisch
+@mode ready
+> betrachte Geschirr
+@mode ready
+> betrachte Speisen
+@mode ready
+> betrachte Kadaver
+@mode ready
 > west
+> betrachte Ratten
+@mode ready
+> betrachte Weißbrotscheibe
+@mode ready
 > nimm weissbrotscheibe
 > wende rattengift auf weissbrotscheibe
 > gib weissbrotscheibe an ratten
@@ -510,14 +955,49 @@
 > sued
 @room 73
 > west
+> betrachte Vorratsregale
+@mode ready
 > hinunter
+> betrachte Faß
+@mode ready
 > oeffne fass
 > west
+> bewege samtvorhang
+@text Du ziehst den Vorhang wieder zu und verschließt damit die Öffnung, die Dich zurück in
+@mode ready
+> bewege samtvorhang
+@mode ready
+> betrachte Samtvorhang
+@mode ready
 > nord
+# Inspect the open coffins and discover their occupants before closing them.
+@state 30 1
+> betrachte Drudenfuß
+@mode ready
+> betrachte saerge
+@text Ziemlich schwer
+@location 96 87
+@mode ready
+> zerstoere mumien
+@text Nicht für eine Million würde ich sie anfassen! Solltest Du tatsächlich irgendwelchen nekrophile
+@mode ready
+> hilf Mumien
+@text Laß' sie lieber in Ruhe! Grelles Licht könnte ihren süßen Schlummer stören - und wer
+@mode ready
+> betrachte mumien
+@mode ready
 > schliesse saerge
+@state 30 2
 > betritt drudenfuss
+# Zargon allows only one inspection before the two required actions.
+> betrachte Kristall
+@mode ready
 > zerstoere kessel
 > zerstoere kristall
+> betrachte Zepter
+@mode ready
+> betrachte Krone
+@mode ready
 > nimm zepter
 > west
 > sued
@@ -537,9 +1017,16 @@
 > hinunter
 > hinunter
 > sued
+> betrachte Warnschild
+@mode ready
 > betrachte quelle
+> betrachte Wasser
+@mode ready
 > nimm wasser
 > wende wasser auf dave
+> wende wasser auf dave
+@text Du trinkst einen Schluck des bläulichen Wassers, empfindest jedoch nichts weiter als
+@mode ready
 > nord
 > hinauf
 > hinauf

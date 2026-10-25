@@ -1,0 +1,64 @@
+# Die Burg ungeheilt verlassen.
+# Source: out/partd.c:573 (death assignment).
+# Normal start, regular commands only; shortened by replay-preserving deletion.
+@include ../shared/d_bibliothek.inc
+> west
+> betrachte himmelbett
+> betrachte bettzeug
+> oeffne ledersaeckchen
+> betrachte ledersaeckchen
+> betrachte papier
+> ost
+> ost
+> wende codenummer auf tresor
+> oeffne tresor
+> betrachte tresor
+> nimm vertrag
+> west
+> nord
+> west
+> wende vertrag auf purpurfeuer
+> betrachte weihwasserbecken
+> wende weihwasser auf purpurfeuer
+> ost
+> sued
+> sued
+> sued
+> hinauf
+> ost
+> nord
+> west
+> wende rattengift auf weissbrotscheibe
+> gib weissbrotscheibe an ratten
+> west
+> hinunter
+> oeffne fass
+> west
+> nord
+> schliesse saerge
+> betritt drudenfuss
+> zerstoere kessel
+> zerstoere kristall
+> nimm zepter
+> west
+> sued
+> sued
+> sued
+> sued
+> west
+> nord
+> wende zepter auf slot
+> sued
+> ost
+> nord
+> hinauf
+> ost
+> sued
+> sued
+> sued
+@part 4
+@room 67
+@location 163 255
+@text Es war ein ziemlich dummer Fehler, das Schloß in Werwolfsgestalt zu verlassen: Als Du nämlich g
+@mode dead
+@finish dead

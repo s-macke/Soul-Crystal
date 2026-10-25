@@ -1,0 +1,21 @@
+# Vor dem Werwolf fliehen.
+# Source: out/partb.c:72 (death assignment).
+# Normal start, regular commands only; shortened by replay-preserving deletion.
+@include ../shared/b_kloster.inc
+> nord
+> sued
+> west
+> entriegele friedhofstor mit eisschluessel
+> oeffne friedhofstor
+> nord
+> nord
+> sued
+> west
+> west
+> nord
+@part 2
+@room 42
+@location 163 255
+@text Auf Deiner panischen Flucht über den Friedhof stolperst Du unglücklicherweise: Die kalte, modri
+@mode dead
+@finish dead

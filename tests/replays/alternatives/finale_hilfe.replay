@@ -1,0 +1,12 @@
+# One extra finale action; the original Zargon timer stays active.
+# Based on the short PDF winning route, with the additions described above.
+@part 1
+@room 3
+@include ../shared/d_finale.inc
+> hilf zargon
+@text Also, irgendwie hast Du wohl den Sinn des Spieles immer noch nicht so ganz verstanden
+@mode ready
+@include ../shared/d_sieg.inc
+@mode won
+@score 4955
+@finish won

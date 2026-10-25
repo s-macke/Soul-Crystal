@@ -1,0 +1,413 @@
+# Repeated actions, clothing, alternate descriptions and engine replies; normal winning route.
+# Based on the short PDF winning route, with the additions described above.
+# Alternative solutions and spoiled food; wins with the original 25-point penalty.
+@part 1
+@room 3
+> nimm hotel
+@text Tut mir leid, aber das kannst Du beim besten Willen nicht mitnehmen!
+@mode ready
+> ausfuehrlich
+@text "Ausführliche Beschreibungen" aktiviert. Zu jedem Raum, den Du von nun an betrittst,
+@mode ready
+> kurztext
+@text "Kurzbeschreibungen" aktiviert. Die Beschreibungen der einzelnen Räume werden jetzt n
+@mode ready
+> credits
+@text "Soul Crystal", V1.5, written from 1989 to 1992 by Avantgardistic Arts, (C) 1992 by A
+@mode ready
+> uebersoulcrystal
+@text "Soul Crystal" V1.5, written from 1989 to 1992 by Avantgardistic Arts. (C) 1992 by Av
+@mode ready
+> verliere t-shirt
+> wende t-shirt auf dave
+@text Du zwängst Dich in Dein T-Shirt hinein: Hach! Da fühlt man sich doch gleich wieder vi
+@mode ready
+> verliere turnschuhe
+> wende turnschuhe auf dave
+@text Also, wenn Du mich fragst, dann täte Deinen Füßen noch ein wenig Frischluft gut - abe
+@mode ready
+> verliere jeans
+> wende jeans auf dave
+@text Du steigst wieder in Deine Jeans.
+@mode ready
+> west
+> nord
+> betrachte tresen
+> betrachte prospekt
+@text Ein kleiner, farbiger Prospekt, herausgegeben vom hiesigen Fremdenverkehrsamt und bes
+@mode ready
+> druecke klingel
+> druecke klingel
+> druecke klingel
+> sprich portier
+> nimm zimmerschluessel
+> nimm zimmerschluessel
+@text Aber das hast Du doch schon längst!
+@mode ready
+> west
+> oeffne zimmertuer
+@text Hmmm... - Scheint aber verschlossen zu sein!
+@mode ready
+> schliesse zimmertuer
+@text Wie willst Du denn etwas Geschlossenes noch schließen?
+@mode ready
+> entriegele zimmertuer mit zimmerschluessel
+> entriegele zimmertuer mit zimmerschluessel
+@text Das ist aber doch schon längst entriegelt!
+@mode ready
+> oeffne zimmertuer
+> sued
+> betrachte stuhl
+> nimm badehose
+> nord
+> ost
+> sued
+> ost
+> ost
+> nord
+> verliere jeans
+> verliere t-shirt
+> verliere turnschuhe
+> verliere zimmerschluessel
+> wende badehose auf dave
+> nord
+> grabe
+@text Gerne käme ich Deiner Aufforderung nach - wenn Du mir netterweise verrietest, wie ich
+@mode ready
+> west
+> nord
+> nord
+> ost
+> nord
+> hilf einhorn
+> sprich einhorn
+> nimm kristallkugel
+> west
+> hilf dave
+@text Tuuut... Tuuut... "Hi! Hier spricht der automatische Telefonsklave des A.C.A-Hauptqua
+@mode ready
+> betrachte bienenstock
+@text Also, nun hör mal: Was meinst Du eigentlich, wer ich bin? Erwartest Du wirklich, daß
+@mode ready
+> west
+> sued
+> west
+> gib kristallkugel an orkkind
+> betrachte tisch
+> warte
+> warte
+> warte
+> warte
+> nimm pfeife
+> wende pfeife auf dave
+@text Vorsichtig ziehst Du an der Pfeife des Orkvaters. Ihr süßlicher Rauch versetzt Dich i
+@mode ready
+> nord
+> ost
+> nord
+> west
+> west
+> druecke holztuer
+> sprich mylgor
+> wende messer auf dave
+> verliere blut
+@text Du willst Dein Blut verlieren, ja? Schön! Warum begehst Du nicht einfach Selbstmord?
+@mode ready
+> wende blut auf vertrag
+> gib messer an mylgor
+> gib vertrag an mylgor
+> sued
+> wende dave auf bett
+> nord
+> sprich mylgor
+> wende baumwollhemd auf dave
+> wende hose auf dave
+> wende fellstiefel auf dave
+> nimm elixier
+> oeffne haustuer
+> nord
+> ost
+> ost
+> ost
+> wende pfeife auf bienenstock
+> betrachte bienenstock
+> nimm honig
+> befestige honig an fellstiefel
+@text Du versuchst ein wenig von dem Honig
+> west
+> nord
+> nord
+> west
+> nord
+> nimm silbermuenzen
+> sued
+> ost
+> sued
+> sued
+> west
+> nord
+> west
+> sprich verkaeufer
+> gib silbermuenzen an verkaeufer
+> west
+> nord
+> betrachte hundeschlitten
+> betritt hundeschlitten
+> nord
+> west
+> wende elixier auf dave
+> betritt eispalast
+@text Unbemerkt schleichst Du Dich
+> sprich firon
+> sprich firon
+> sprich firon
+> betritt dachsschlitten
+> sued
+> verlasse dachsschlitten
+> sued
+> ost
+> ost
+> sued
+> ost
+> nord
+> nord
+> ost
+> nord
+> nimm rattengift
+> nord
+> wende kurzschwert auf dave
+@text Na gut, wie Du meinst: Heldenhaft stürzst Du Dich in die Klinge Deines Schwertes - ab
+@mode ready
+> nimm kurzschwert
+> sued
+> west
+> entriegele friedhofstor mit eisschluessel
+> oeffne friedhofstor
+> nord
+> nord
+> hinunter
+> betrachte grabplatte
+> hinauf
+> sprich gebet
+@text Verzweifelt kniest Du vor dem Altar
+> sprich jacks geist
+> sued
+> sued
+> ost
+> sued
+> west
+> west
+> nord
+> wende kurzschwert auf silber
+> betrachte kurzschwert
+@text Vielleicht solltest Du es erst einmal zu gebrauchen lernen
+@state 142 2
+# Return to the chapel: silver first, then holy water.
+> sued
+> ost
+> ost
+> nord
+> west
+> nord
+> nord
+> wende kurzschwert auf weihwasserbecken
+@state 142 3
+> sued
+> sued
+> ost
+> sued
+> west
+> west
+> nord
+> west
+> nimm schaufel
+> grabe
+> nimm totenschaedel
+> ost
+> sued
+> ost
+> ost
+> nord
+> west
+> nord
+> west
+> nord
+> oeffne sarkophag
+> wende totenschaedel auf skelett
+> sprich koenig
+> sprich koenig
+> sprich koenig
+> sued
+> wende kurzschwert auf werwolf
+> ost
+> sued
+> ost
+> sued
+> west
+> sued
+> sued
+> west
+> west
+> sued
+> betrachte kamin
+@text Als Du den Kamin genauer untersuchst, bemerkst Du zu Deiner Verwunderung, daß keinerl
+@mode ready
+> sued
+> wende zauberspruch auf westtuer
+> oeffne westtuer
+> west
+> betrachte studiertisch
+> oeffne schubladen
+> betrachte schubladen
+> nimm laborschluessel
+> ost
+> nord
+> bewege kamin
+> hinunter
+> west
+> betrachte bett
+> nimm amulett
+> wende amulett auf dave
+> ost
+> oeffne labortuer
+> nord
+> zerstoere reagenzien
+> sued
+> verriegele labortuer mit laborschluessel
+> hinauf
+> nord
+> ost
+> ost
+> ost
+> nord
+> ost
+> nord
+> nord
+> betritt boot
+> nord
+> nord
+> verlasse boot
+> nord
+> west
+> nimm ziegelstein
+> ost
+> nord
+> betrachte fallgitter
+> wende ziegelstein auf plattform
+> ziehe fallgitter
+> nord
+> west
+> nimm torschluessel
+> ost
+> entriegele portaltor mit torschluessel
+> oeffne portaltor
+> nord
+> hinunter
+> hinunter
+> nord
+> nimm parfuem
+> wende parfuem auf dave
+> sued
+> west
+> west
+> nimm purpurmantel
+> ost
+> sued
+> sued
+> wende purpurmantel auf dave
+> west
+> nimm bootsschluessel
+> ost
+> betritt kahn
+> wende bootsschluessel auf kahn
+> ost
+> befestige kahn an bootssteg
+> verlasse kahn
+> sued
+> nimm eisenschluessel
+> nord
+> betritt kahn
+> west
+> verlasse kahn
+> nord
+> nord
+> ost
+> hinauf
+> hinauf
+> nord
+> nord
+> west
+> hinauf
+> betrachte himmel
+> betrachte vollmond
+> hinunter
+> hinunter
+> ost
+> bewege kriegerstatue
+> nimm kays schluessel
+> entriegele gittertuer mit kays schluessel
+> oeffne gittertuer
+> sued
+> entriegele stahltuer mit eisenschluessel
+> oeffne stahltuer
+> ost
+> nord
+> nord
+> betrachte eichentuer
+> ziehe tuerklinke
+> nord
+> bewege buecherwand
+> west
+> betrachte himmelbett
+> betrachte bettzeug
+> nimm ledersaeckchen
+> oeffne ledersaeckchen
+> betrachte ledersaeckchen
+> betrachte papier
+> verliere codenummer
+@text Selbst wenn Du den Code vergessen könntest: Willst Du Dir diese Chance wirklich entge
+@mode ready
+> ost
+> ost
+> betrachte tresor
+@text Ein kleiner Tresor aus Stahl, dessen Schloß sieben Stellen darstellt.
+@mode ready
+> entriegele tresor mit codenummer
+@text Du stellst die Kombination ein
+> oeffne tresor
+> betrachte tresor
+> nimm vertrag
+> west
+> nord
+> west
+> wende vertrag auf purpurfeuer
+> betrachte weihwasserbecken
+> wende weihwasser auf purpurfeuer
+> ost
+> sued
+> sued
+> sued
+> hinauf
+> ost
+> nord
+# Taste the spoiled banquet food: an optional 25-point penalty.
+> betrachte esstisch
+> betrachte geschirr
+> wende speisen auf dave
+@text Du probierst einen Happen der Speisen
+@mode ready
+> west
+> nimm weissbrotscheibe
+> wende rattengift auf weissbrotscheibe
+> gib weissbrotscheibe an ratten
+> west
+> hinunter
+> oeffne fass
+> west
+> nord
+> schliesse saerge
+> betritt drudenfuss
+@include ../shared/d_sieg.inc
+@mode won
+@score 4930
+@finish won

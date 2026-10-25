@@ -1,0 +1,22 @@
+# Mylgor an der Haustür angreifen.
+# Source: out/partb.c:1073 (death assignment).
+# Normal start, regular commands only; shortened by replay-preserving deletion.
+@include ../shared/a_im_see.inc
+> nord
+> nord
+> ost
+> nord
+> west
+> west
+> sued
+> nord
+> west
+> west
+> druecke holztuer
+> zerstoere Mylgor
+@part 2
+@room 22
+@location 163 255
+@text Du versuchst, Mylgors Nase zu fassen zu bekommen, um ihn zu zwingen, endlich die Tür zu öffnen,
+@mode dead
+@finish dead

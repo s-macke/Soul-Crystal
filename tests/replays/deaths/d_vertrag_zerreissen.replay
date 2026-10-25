@@ -1,0 +1,25 @@
+# Den Vertrag zerreißen.
+# Source: out/partd.c:978 (death assignment).
+# Normal start, regular commands only; shortened by replay-preserving deletion.
+@include ../shared/d_korridor.inc
+> betrachte eichentuer
+> ziehe tuerklinke
+> nord
+> west
+> betrachte himmelbett
+> betrachte bettzeug
+> oeffne ledersaeckchen
+> betrachte ledersaeckchen
+> betrachte papier
+> ost
+> ost
+> wende codenummer auf tresor
+> oeffne tresor
+> betrachte tresor
+> zerstoere Vertrag
+@part 4
+@room 90
+@location 163 255
+@text Mit einem letzten, hämischen Blick zerreißt Du den Vertrag, der Dich an Zargon und Mylgor gebun
+@mode dead
+@finish dead

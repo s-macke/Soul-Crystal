@@ -1,0 +1,18 @@
+# Ohne Boot ins Wasser (Nordufer).
+# Source: out/partc.c:537 (death assignment).
+# Normal start, regular commands only; shortened by replay-preserving deletion.
+@include ../shared/c_wald.inc
+> ost
+> nord
+> nord
+> betritt boot
+> nord
+> nord
+> verlasse boot
+> sued
+@part 3
+@room 57
+@location 163 255
+@text Hmmm...: Mir ist zwar durchaus bekannt, daß es Leute gibt, die ein Moorbad aufgrund seiner gesu
+@mode dead
+@finish dead

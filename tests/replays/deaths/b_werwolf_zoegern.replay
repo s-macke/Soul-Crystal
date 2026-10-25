@@ -1,0 +1,23 @@
+# Werwolf betrachten statt sofort handeln.
+# Source: out/partb.c:248 (death assignment).
+# Normal start, regular commands only; shortened by replay-preserving deletion.
+@include ../shared/b_kloster.inc
+> nord
+> sued
+> west
+> entriegele friedhofstor mit eisschluessel
+> oeffne friedhofstor
+> ost
+> sued
+> nord
+> west
+> nord
+> west
+> warte
+> betrachte werwolf
+@part 2
+@room 42
+@location 163 255
+@text Mehr instinktiv als beabsichtigt wirbelst Du herum und schlägst nach dem Kopf Deines Gegners -
+@mode dead
+@finish dead

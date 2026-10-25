@@ -1,0 +1,11 @@
+# Mit Amulett durch die Barriere zurückgehen.
+# Source: out/partc.c:519 (death assignment).
+# Normal start, regular commands only; shortened by replay-preserving deletion.
+@include ../shared/c_wald.inc
+> sued
+@part 3
+@room 51
+@location 163 255
+@text Während Du Dich auf den Rückweg aus dem verwunschenen Wald nach Süden machst, verfängt sich das
+@mode dead
+@finish dead

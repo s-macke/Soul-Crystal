@@ -1,0 +1,19 @@
+# Mit Gepäck hinter den Wasserfall (Westweg).
+# Source: out/parta.c:541 (death assignment).
+# Normal start, regular commands only; shortened by replay-preserving deletion.
+@include ../shared/a_im_see.inc
+> nord
+> nord
+> ost
+> nord
+> hilf einhorn
+> sprich einhorn
+> nimm kristallkugel
+> sued
+> west
+@part 1
+@room 13
+@location 163 255
+@text Du hättest den See wirklich nicht mit mehr Dingen betreten sollen als Du unbedingt zum Überlebe
+@mode dead
+@finish dead

@@ -1,0 +1,20 @@
+# Ungesichertes Fallgitter passieren.
+# Source: out/partc.c:391 (death assignment).
+# Normal start, regular commands only; shortened by replay-preserving deletion.
+@include ../shared/c_wald.inc
+> ost
+> nord
+> nord
+> betritt boot
+> nord
+> nord
+> verlasse boot
+> nord
+> nord
+> nord
+@part 3
+@room 63
+@location 163 255
+@text Okay, sagen wir: Es war ein Versuch - und reden wir nicht weiter darüber, denn sonderlich erfol
+@mode dead
+@finish dead

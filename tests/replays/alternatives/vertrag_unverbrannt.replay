@@ -1,0 +1,60 @@
+# Defeat Zargon but leave the contract intact: the castle exit remains blocked.
+@part 1
+@room 3
+@include ../shared/d_vertrag.inc
+> betrachte weihwasserbecken
+> wende weihwasser auf purpurfeuer
+> ost
+> sued
+> sued
+> sued
+> hinauf
+> ost
+> nord
+> west
+> nimm weissbrotscheibe
+> wende rattengift auf weissbrotscheibe
+> gib weissbrotscheibe an ratten
+> west
+> hinunter
+> oeffne fass
+> west
+> nord
+> schliesse saerge
+> betritt drudenfuss
+> zerstoere kessel
+> zerstoere kristall
+> nimm zepter
+> west
+> sued
+> sued
+> sued
+> sued
+> west
+> nord
+> wende zepter auf slot
+> sued
+> ost
+> nord
+> hinauf
+> ost
+> sued
+> sued
+> hinunter
+> hinunter
+> sued
+> betrachte quelle
+> nimm wasser
+> wende wasser auf dave
+> nord
+> hinauf
+> hinauf
+> sued
+@text Eine starke, dunkle Aura
+@room 67
+@mode ready
+@state 32 1
+@location 32 255
+@location 164 105
+@score 3155
+@finish checkpoint

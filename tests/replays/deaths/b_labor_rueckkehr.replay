@@ -1,0 +1,18 @@
+# Ins brennende Labor zurückkehren.
+# Source: out/partb.c:647 (death assignment).
+# Normal start, regular commands only; shortened by replay-preserving deletion.
+@include ../shared/b_mylgors_rueckkehr.inc
+> sued
+> nord
+> bewege kamin
+> hinunter
+> oeffne labortuer
+> nord
+> zerstoere reagenzien
+> nord
+@part 2
+@room 49
+@location 163 255
+@text Unvorsichtigerweise öffnest Du noch einmal die Tür zu Mylgors Geheimlabor: Gnadenlos schlägt Di
+@mode dead
+@finish dead

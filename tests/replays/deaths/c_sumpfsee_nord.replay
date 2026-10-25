@@ -1,0 +1,11 @@
+# Ohne Boot ins Wasser (Südufer).
+# Source: out/partc.c:365 (death assignment).
+# Normal start, regular commands only; shortened by replay-preserving deletion.
+@include ../shared/c_suedufer.inc
+> nord
+@part 3
+@room 54
+@location 163 255
+@text Hmmm...: Mir ist zwar durchaus bekannt, daß es Leute gibt, die ein Moorbad aufgrund seiner gesu
+@mode dead
+@finish dead

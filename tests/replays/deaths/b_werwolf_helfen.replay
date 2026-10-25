@@ -1,0 +1,19 @@
+# Dem Werwolf helfen.
+# Source: out/partb.c:1313 (death assignment).
+# Normal start, regular commands only; shortened by replay-preserving deletion.
+@include ../shared/b_kloster.inc
+> nord
+> sued
+> west
+> entriegele friedhofstor mit eisschluessel
+> oeffne friedhofstor
+> nord
+> west
+> sued
+> hilf Werwolf
+@part 2
+@room 42
+@location 163 255
+@text Das kann doch wohl nicht Dein Ernst seiiiiiiiiiin...!
+@mode dead
+@finish dead

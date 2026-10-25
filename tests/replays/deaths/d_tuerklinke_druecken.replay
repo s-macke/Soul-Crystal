@@ -1,0 +1,12 @@
+# Die Türklinke drücken statt ziehen.
+# Source: out/partd.c:1559 (death assignment).
+# Normal start, regular commands only; shortened by replay-preserving deletion.
+@include ../shared/d_korridor.inc
+> betrachte eichentuer
+> druecke Türklinke
+@part 4
+@room 86
+@location 163 255
+@text Als Du die Türklinke hinunterdrückst, hörst Du ein leises Klicken unter Deinen Füßen - und bevo
+@mode dead
+@finish dead

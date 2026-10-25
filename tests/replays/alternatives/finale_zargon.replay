@@ -1,0 +1,11 @@
+# Fast winning variant: inspect Zargon before the confrontation.
+# Based on the short PDF winning route, with the additions described above.
+@part 1
+@room 3
+@include ../shared/d_finale.inc
+> betrachte Zargon
+@mode ready
+@include ../shared/d_sieg.inc
+@mode won
+@score 4955
+@finish won

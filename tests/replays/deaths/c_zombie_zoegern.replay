@@ -1,0 +1,14 @@
+# Beim Zombie zu lange warten.
+# Source: out/partc.c:204 (death assignment).
+# Normal start, regular commands only; shortened by replay-preserving deletion.
+@include ../shared/c_zombie.inc
+> hilf zombie
+@text ein Auge abgäbest
+> zerstoere zombie
+@text Beine zu gebrauchen wissen sollte
+@part 3
+@room 62
+@location 163 255
+@text Tut mir leid: Du hattest wirklich eine reelle Chance gehabt, noch einmal mit dem Schrecken davo
+@mode dead
+@finish dead

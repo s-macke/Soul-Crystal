@@ -1,0 +1,11 @@
+# Zargon erreichen ohne die Särge zu schließen.
+# Source: out/partd.c:293 (death assignment).
+# Normal start, regular commands only; shortened by replay-preserving deletion.
+@include ../shared/d_gruft.inc
+> betritt drudenfuss
+@part 4
+@room 93
+@location 163 255
+@text Als Zargon Dich inmitten seines weißen Kreidepentagramms auftauchen sieht, steht er auf und erh
+@mode dead
+@finish dead

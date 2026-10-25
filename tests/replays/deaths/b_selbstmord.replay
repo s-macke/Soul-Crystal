@@ -1,0 +1,24 @@
+# Kill the child, then end the now-blocked route with the original suicide action.
+# Source: out/partb.c:1064 (death assignment).
+@include ../shared/a_im_see.inc
+> nord
+> nord
+> ost
+> nord
+> hilf einhorn
+> sprich einhorn
+> nimm kristallkugel
+> west
+> west
+> sued
+> west
+> zerstoere orkkind
+@text Das ist für die Ameisen
+@location 26 0
+> zerstoere dave
+@part 2
+@room 20
+@location 163 255
+@text Eine weise, ja geradezu philosophische Entscheidung: Selbstmord heißt, Probleme aus der Welt zu
+@mode dead
+@finish dead

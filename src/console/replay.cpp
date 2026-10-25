@@ -1,6 +1,7 @@
 // Host-only replay adapter: command submission is identical to the interactive
 // console. Global arrays are inspected for assertions, never modified here.
 #include "game.h"
+#include "replay_file.h"
 extern "C" {
 #include "game_script.h"
 }
@@ -24,17 +25,20 @@ int main(int argc,char** argv){
         std::cerr<<"Usage: soul-replay FILE [--verbose]\n";return 64;
     }
     verbose=argc==3;
-    std::ifstream file(argv[1]);if(!file){std::cerr<<"Cannot open "<<argv[1]<<'\n';return 64;}
+    std::vector<replay_file::Line> lines;
+    try {lines=replay_file::read(argv[1]);}
+    catch(const std::exception& e) {std::cerr<<e.what()<<'\n';return 64;}
     GameStart(receive,nullptr);
-    std::string line,lastCommand="<start>";unsigned lineNo=0,commands=0,checks=0;bool finished=false;std::string finishKind;
+    std::string lastCommand="<start>";unsigned commands=0,checks=0;bool finished=false;std::string finishKind;
+    replay_file::Line source{"",argv[1],0,""};
     auto failure=[&](const std::string& reason,int code=1){
         auto v=GameGetView();
-        std::cerr<<argv[1]<<':'<<lineNo<<": "<<reason<<"\nLast command: "<<lastCommand
+        std::cerr<<source.location()<<": "<<reason<<source.includedFrom<<"\nLast command: "<<lastCommand
             <<"\nState: part="<<v.part<<" room="<<v.room<<" score="<<v.score<<" steps="<<v.steps
             <<" mode="<<modeName(v.mode)<<"\nOutput:\n"<<response;return code;
     };
-    while(std::getline(file,line)){
-        ++lineNo;line=trim(line);if(line.empty()||line[0]=='#')continue;
+    for(const auto& entry:lines){
+        source=entry;const auto& line=entry.text;
         if(finished)return failure("Content after @finish");
         if(line[0]=='>'){
             lastCommand=trim(line.substr(1));if(lastCommand.empty())return failure("Empty command");
@@ -73,7 +77,6 @@ int main(int argc,char** argv){
         }else return failure("Unknown assertion: "+op);
         ++checks;if(!okay)return failure("Assertion failed: "+line);
     }
-    if(file.bad())return failure("Read error",64);
     if(!finished)return failure("Missing @finish; end of file is not proof of victory");
     const auto final=GameGetView();
     std::cout<<finishKind<<": "<<commands<<" commands, "<<checks<<" assertions; part="<<final.part<<" room="<<final.room<<" score="<<final.score<<'\n';

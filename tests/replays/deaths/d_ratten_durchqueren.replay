@@ -1,0 +1,19 @@
+# Das Rattenrevier unvorbereitet durchqueren.
+# Source: out/partd.c:692 (death assignment).
+# Normal start, regular commands only; shortened by replay-preserving deletion.
+@include ../shared/d_korridor.inc
+> sued
+> hinauf
+> ost
+> nord
+> west
+> nimm weissbrotscheibe
+> wende weissbrotscheibe auf dave
+@text Mjamjam
+> west
+@part 4
+@room 73
+@location 163 255
+@text Die Ratten scheinen Deine Absicht, ihr Revier zu durchqueren, aber ganz und gar nicht gutzuheiß
+@mode dead
+@finish dead

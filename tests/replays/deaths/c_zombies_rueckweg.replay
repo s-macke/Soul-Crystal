@@ -1,0 +1,22 @@
+# Aus dem westlichen Moor nach Osten zurückkehren.
+# Source: out/partc.c:283 (death assignment).
+# Normal start, regular commands only; shortened by replay-preserving deletion.
+@include ../shared/c_wald.inc
+> ost
+> nord
+> nord
+> betritt boot
+> nord
+> nord
+> verlasse boot
+> nord
+> west
+> nord
+> west
+> ost
+@part 3
+@room 61
+@location 163 255
+@text Es war ein tödlicher Fehler, nach Deiner Begegnung von vorhin wieder hierher zurückzukehren: Ei
+@mode dead
+@finish dead

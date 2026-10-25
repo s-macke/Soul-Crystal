@@ -1,0 +1,30 @@
+# In der Küche zu lange warten.
+# Source: out/partd.c:215 (death assignment).
+# Normal start, regular commands only; shortened by replay-preserving deletion.
+@include ../shared/d_korridor.inc
+> betrachte eichentuer
+> ziehe tuerklinke
+> nord
+> bewege buecherwand
+> ost
+> west
+> nord
+> sued
+> sued
+> sued
+> hinauf
+> ost
+> nord
+> west
+> nimm weissbrotscheibe
+> gib weissbrotscheibe an ratten
+@text FLEISCHGERICHT
+> warte
+> warte
+> warte
+@part 4
+@room 73
+@location 163 255
+@text Es sieht so aus, als hätten die Ratten nicht ganz so viel Zeit zu verschwenden wie Du, denn es
+@mode dead
+@finish dead

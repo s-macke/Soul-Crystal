@@ -22,8 +22,13 @@ Die vorhandene Komplettlösung dient als Grundlage für einen automatischen
 ./build/soul-replay tests/replays/part_a.replay
 ```
 
-Die vollständige Hauptroute erreicht mit 393 Befehlen und 130 Prüfstellen den
-Gewinn (5.010 Punkte). Nebenpfade sind noch nicht vollständig geprüft.
+Die vollständige Hauptroute erreicht mit 597 Befehlen und 410 Prüfstellen den
+Gewinn (5.010 Punkte). Zusätzlich gibt es `tests/replays/fast.replay` mit der
+ursprünglichen 334-Befehle-Route sowie 46 eigenständige Todesfall-Replays.
+`./check-replay.sh` prüft alle Läufe; `./check-replay-coverage.sh` misst ihre
+kombinierte Skriptabdeckung. `./check-replay-texts.sh` listet tatsächlich
+ausgegebene und noch fehlende Originaltexte. Ergebnisse und Grenzen:
+[Abdeckungsbericht](spec/C64/replay_coverage.md).
 
 ## Frühere SPECIAL-Notizen
 

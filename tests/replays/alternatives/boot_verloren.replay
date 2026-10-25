@@ -1,0 +1,8 @@
+# Leaving the boat unsecured strands Dave on the island.
+@include ../shared/d_insel_ankunft.inc
+> verlasse kahn
+@text Unglücklicherweise ist Dein Boot
+@room 97
+@mode ready
+@location 16 105
+@finish checkpoint

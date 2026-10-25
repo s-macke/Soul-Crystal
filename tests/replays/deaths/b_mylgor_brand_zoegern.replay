@@ -1,0 +1,19 @@
+# Nach dem Gegenangriff im Labor zögern.
+# Source: out/partb.c:311 (death assignment).
+# Normal start, regular commands only; shortened by replay-preserving deletion.
+@include ../shared/b_mylgors_rueckkehr.inc
+> sued
+> nord
+> bewege kamin
+> hinunter
+> oeffne labortuer
+> nord
+> zerstoere reagenzien
+> warte
+> warte
+@part 2
+@room 49
+@location 163 255
+@text Tja, also ich glaube, Du hast etwas zu lange gezögert: Hysterisch wiehernd packt Mylgor Deinen
+@mode dead
+@finish dead

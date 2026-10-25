@@ -1,0 +1,36 @@
+# Zargons Krone aufsetzen.
+# Source: out/partd.c:1764 (death assignment).
+# Normal start, regular commands only; shortened by replay-preserving deletion.
+@include ../shared/d_bibliothek.inc
+> ost
+> west
+> nord
+> west
+> betrachte weihwasserbecken
+> wende weihwasser auf purpurfeuer
+> ost
+> sued
+> sued
+> sued
+> hinauf
+> ost
+> nord
+> west
+> wende rattengift auf weissbrotscheibe
+> gib weissbrotscheibe an ratten
+> west
+> hinunter
+> oeffne fass
+> west
+> nord
+> schliesse saerge
+> betritt drudenfuss
+> zerstoere kessel
+> zerstoere kristall
+> wende Krone auf dave
+@part 4
+@room 93
+@location 163 255
+@text "Was Napoliton... äh: Dingsbums konnte, kann ich schon lange!", denkst Du Dir und setzt Dir Zar
+@mode dead
+@finish dead

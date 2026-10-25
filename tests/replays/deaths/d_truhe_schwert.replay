@@ -1,0 +1,13 @@
+# Die Truhe mit dem Schwert angreifen.
+# Source: out/partd.c:1808 (death assignment).
+# Normal start, regular commands only; shortened by replay-preserving deletion.
+@include ../shared/d_burghof.inc
+> west
+> nord
+> wende kurzschwert auf truhe
+@part 4
+@room 68
+@location 163 255
+@text Du versuchst, die Truhe unter Gewaltanwendung zu öffnen - doch im selben Moment, als Du ihr Sch
+@mode dead
+@finish dead

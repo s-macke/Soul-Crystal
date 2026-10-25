@@ -1,0 +1,12 @@
+# Mit Gepäck in den See (Nordweg).
+# Source: out/parta.c:353 (death assignment).
+# Normal start, regular commands only; shortened by replay-preserving deletion.
+> ost
+> nord
+> nord
+@part 1
+@room 11
+@location 163 255
+@text Du hättest den See wirklich nicht mit mehr Dingen betreten sollen als Du unbedingt zum Überlebe
+@mode dead
+@finish dead

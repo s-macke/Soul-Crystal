@@ -1,0 +1,11 @@
+# Die Pfeife im falschen Moment stehlen.
+# Source: out/partb.c:1538 (death assignment).
+# Normal start, regular commands only; shortened by replay-preserving deletion.
+@include ../shared/b_orkhoehle.inc
+> nimm Pfeife
+@part 2
+@room 18
+@location 163 255
+@text Vorsichtig langst Du nach der kleinen Pfeife - doch unglücklicherweise hast Du Dir genau den fa
+@mode dead
+@finish dead

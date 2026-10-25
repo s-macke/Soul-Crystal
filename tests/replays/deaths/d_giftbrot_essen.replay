@@ -1,0 +1,19 @@
+# Das vergiftete Brot selbst essen.
+# Source: out/partd.c:1750 (death assignment).
+# Normal start, regular commands only; shortened by replay-preserving deletion.
+@include ../shared/d_studierzimmer.inc
+> sued
+> sued
+> sued
+> hinauf
+> ost
+> nord
+> west
+> wende rattengift auf weissbrotscheibe
+> wende Weißbrotscheibe auf dave
+@part 4
+@room 73
+@location 163 255
+@text Hastig würgst Du Dir die Weißbrotscheibe 'rein, ohne in Deiner perversen Freßgier daran zu denk
+@mode dead
+@finish dead

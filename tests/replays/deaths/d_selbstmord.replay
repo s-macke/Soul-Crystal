@@ -1,0 +1,11 @@
+# Dave zerstören.
+# Source: out/partd.c:917 (death assignment).
+# Normal start, regular commands only; shortened by replay-preserving deletion.
+@include ../shared/d_burghof.inc
+> zerstoere dave
+@part 4
+@room 67
+@location 163 255
+@text Eine weise, ja geradezu philosophische Entscheidung: Selbstmord heißt, Probleme aus der Welt zu
+@mode dead
+@finish dead

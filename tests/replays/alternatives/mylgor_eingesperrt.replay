@@ -1,0 +1,9 @@
+# Lock Mylgor in before starting the chemical fire; original alternative response.
+@include ../shared/b_labor.inc
+> verriegele labortuer mit laborschluessel
+@text bereitest somit gewissenhaft seinen Hungertod vor
+@state 97 8
+@state 81 0
+@room 48
+@mode ready
+@finish checkpoint

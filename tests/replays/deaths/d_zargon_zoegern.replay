@@ -1,0 +1,112 @@
+# Cure before the full moon: Dave stays human, cannot overturn the cauldron and dies to Zargon.
+# Source: out/partd.c:325 (same timeout death assignment).
+@part 1
+@room 3
+@include ../shared/d_hoehlenzugang.inc
+> sued
+> betrachte quelle
+> nimm wasser
+> wende wasser auf dave
+@state 159 0
+> nord
+> nord
+> nimm parfuem
+> wende parfuem auf dave
+> sued
+> west
+> west
+> nimm purpurmantel
+> ost
+> sued
+> sued
+> wende purpurmantel auf dave
+> west
+> nimm bootsschluessel
+> ost
+> betritt kahn
+> wende bootsschluessel auf kahn
+> ost
+> befestige kahn an bootssteg
+> verlasse kahn
+> sued
+> nimm eisenschluessel
+> nord
+> betritt kahn
+> west
+> verlasse kahn
+> nord
+> nord
+> ost
+> hinauf
+> hinauf
+> nord
+> nord
+> west
+> hinauf
+> betrachte himmel
+> betrachte vollmond
+@text Dich fröstelt leicht
+> hinunter
+> hinunter
+> ost
+> bewege kriegerstatue
+> nimm kays schluessel
+> entriegele gittertuer mit kays schluessel
+> oeffne gittertuer
+> sued
+> entriegele stahltuer mit eisenschluessel
+> oeffne stahltuer
+> ost
+> nord
+> nord
+> betrachte eichentuer
+> ziehe tuerklinke
+> nord
+> bewege buecherwand
+> west
+> betrachte himmelbett
+> betrachte bettzeug
+> nimm ledersaeckchen
+> oeffne ledersaeckchen
+> betrachte ledersaeckchen
+> betrachte papier
+> ost
+> ost
+> wende codenummer auf tresor
+> oeffne tresor
+> betrachte tresor
+> nimm vertrag
+> west
+> nord
+> west
+> wende vertrag auf purpurfeuer
+> betrachte weihwasserbecken
+> wende weihwasser auf purpurfeuer
+> ost
+> sued
+> sued
+> sued
+> hinauf
+> ost
+> nord
+> west
+> nimm weissbrotscheibe
+> wende rattengift auf weissbrotscheibe
+> gib weissbrotscheibe an ratten
+> west
+> hinunter
+> oeffne fass
+> west
+> nord
+> schliesse saerge
+> betritt drudenfuss
+> zerstoere kessel
+@text wie schwer das Ding ist
+> warte
+> warte
+@part 4
+@room 93
+@location 163 255
+@mode dead
+@text Tätärätäää
+@finish dead

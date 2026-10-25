@@ -1,0 +1,8 @@
+# Killing Firon leaves the story unfinished; no key or return journey is awarded.
+@include ../shared/b_firon.inc
+> zerstoere firon
+@text verschwindet in einer hellblauen Rauchwolke
+@location 58 0
+@room 40
+@mode ready
+@finish checkpoint

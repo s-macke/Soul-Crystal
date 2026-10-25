@@ -1,0 +1,10 @@
+# Try the crystal before destroying the cauldron.
+@include ../shared/d_finale.inc
+> zerstoere kristall
+@text um an einen anderen Ort in Zargons Schloß teleportiert zu werden
+@room 87
+@mode ready
+> betritt drudenfuss
+@include ../shared/d_sieg.inc
+@score 4955
+@finish won
