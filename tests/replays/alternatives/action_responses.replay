@@ -3,6 +3,51 @@
 # Alternative solutions and spoiled food; wins with the original 25-point penalty.
 @part 1
 @room 3
+# General refusals: valid commands and visible objects, no parser failures.
+> schliesse hotel
+@text Aber das kannst Du doch überhaupt nicht schließen!
+@mode ready
+> betritt hinweisschild
+@text Könntest Du mir mal bitte erklären, wie Du DAS betreten willst?
+@mode ready
+> verlasse hinweisschild
+@text Kannst Du mir vielleicht mal einen heißen Tip geben, wie Du DAS verlassen willst?
+@mode ready
+> verliere hinweisschild
+@text Nachdem Du eine halbe Stunde lang vergeblich in Deinen Taschen gewühlt hast, wird Dir klar, daß das Ding, das
+@mode ready
+> bewege hinweisschild
+@text Versprichst Du dir irgend etwas Bestimmtes davon, DAS durch die Gegend zu schleppen?
+@mode ready
+> druecke hinweisschild
+@text Glaube mir: Es besteht wirklich nicht der geringste Grund, das zu drücken!
+@mode ready
+> ziehe hinweisschild
+@text Das findest Du wohl witzig, häh? Naja, vergessen wir's...
+@mode ready
+> oeffne hinweisschild
+@text Vorsichtig öffnest Du es, bis Du nach ein paar Sekunden bemerkst, daß Du das doch eigentlich gar nicht öffnen
+@mode ready
+> sprich hinweisschild
+@text Wie merkwürdig! Keine Antwort ?!?!?
+@mode ready
+> gib t-shirt an dave
+@text Ist ja wirklich lieb gemeint, aber was sollte man denn DAMIT schon anfangen können...?
+@mode ready
+> wende turnschuhe auf hinweisschild
+@text Also gut: Schwamm drüber! Vergessen wir's, und reden wir nicht mehr davon! Aber gib jetzt bitte mal etwas Sinn
+@mode ready
+> befestige turnschuhe an hinweisschild
+@text Wie soll denn DAS funktionieren?
+@mode ready
+> grabe
+@text Also, jetzt reicht's ja wohl! Als ob es nicht schon reichen würde, daß Du blind wie ein Maulwurf durch die Geg
+@mode ready
+@room 3
+@score 0
+> zerstoere hinweisschild
+@text "Dave the Destroyer", oder was? Uiuiui! Da möchte man sich ja vor Angst am liebsten hinter dem nächsten Baum ver
+@mode ready
 > nimm hotel
 @text Tut mir leid, aber das kannst Du beim besten Willen nicht mitnehmen!
 @mode ready
@@ -27,6 +72,10 @@
 @text Also, wenn Du mich fragst, dann täte Deinen Füßen noch ein wenig Frischluft gut - abe
 @mode ready
 > verliere jeans
+> west
+@text Du erwartest doch nicht allen Ernstes von mir, daß ich diesen Ort NACKT verlasse, oder?
+@mode ready
+@room 3
 > wende jeans auf dave
 @text Du steigst wieder in Deine Jeans.
 @mode ready
@@ -39,12 +88,37 @@
 > druecke klingel
 > druecke klingel
 > druecke klingel
+> wende dave auf portier
+@text Hey, Du! Ich bin bloß ein Computer! Das wird "C-O-M-P-U-T-E-R" geschrieben! Sprich mir nach: "Kooom-Piuuu-Täää
+@mode ready
 > sprich portier
 > nimm zimmerschluessel
 > nimm zimmerschluessel
 @text Aber das hast Du doch schon längst!
 @mode ready
+# Revisit the restaurant table after discovering its menu.
+> nord
+@room 9
+> betrachte esstisch
+> betrachte esstisch
+@text Willst Du mir etwa schon wieder auf die Nerven gehen? DORT SITZT EIN ÄLTERER MANN AN EINEM DER TISCHE UND STUD
+@mode ready
+> sued
 > west
+# The door is still locked; unsuitable tools must not change it.
+> verriegele zimmertuer mit zimmerschluessel
+@text Aber das ist doch bereits abgeschlossen!
+@mode ready
+> entriegele zimmertuer mit t-shirt
+@text Also, DAMIT kann man ja nun wiklich nichts aufschlißen, oder?
+@mode ready
+> verriegele zimmertuer mit t-shirt
+@text Wie willst Du denn DAMIT etwas abschließen?
+@mode ready
+> verriegele t-shirt mit zimmerschluessel
+@text Tut mir ja wirklich ganz fürchterlich leid, aber DAS kannst Du nun wirklich nicht abschließen!
+@mode ready
+@state 49 0
 > oeffne zimmertuer
 @text Hmmm... - Scheint aber verschlossen zu sein!
 @mode ready
@@ -55,6 +129,11 @@
 > entriegele zimmertuer mit zimmerschluessel
 @text Das ist aber doch schon längst entriegelt!
 @mode ready
+> verriegele zimmertuer mit zimmerschluessel
+@text Gut, abgeschlossen.
+@mode ready
+@state 49 0
+> entriegele zimmertuer mit zimmerschluessel
 > oeffne zimmertuer
 > sued
 > betrachte stuhl
@@ -77,6 +156,10 @@
 > west
 > nord
 > nord
+> sued
+@text Mutig versuchst Du Dein Glück, wirst jedoch von einer unsichtbaren Faust zurückgeschmettert. Es ist, als liefe
+@mode ready
+@room 13
 > ost
 > nord
 > hilf einhorn
@@ -99,6 +182,9 @@
 > warte
 > warte
 > nimm pfeife
+> wende dave auf orkfrau
+@text Ich muß mich doch sehr wundern, Herr Parker! Ob das nicht vielleicht sogar ein Fall für die Sitte wäre? Also:
+@mode ready
 > wende pfeife auf dave
 @text Vorsichtig ziehst Du an der Pfeife des Orkvaters. Ihr süßlicher Rauch versetzt Dich i
 @mode ready
@@ -161,6 +247,9 @@
 > sprich firon
 > sprich firon
 > sprich firon
+> verlasse dachsschlitten
+@text Was willst Du eigentlich? Du stehst doch schon lange auf Deinen eigenen Beinen!
+@mode ready
 > betritt dachsschlitten
 > sued
 > verlasse dachsschlitten
@@ -233,6 +322,12 @@
 > west
 > nord
 > oeffne sarkophag
+> sprich skelett
+@text Nette Idee, wirklich! Aber leider ist dies hier kein Horror-Adventure (Oder vielleicht doch ?!?!?)...
+@mode ready
+> wende dave auf skelett
+@text Es ist leider zu hart, um bequem darauf liegen zu können - und außerdem: So auf die Schnelle macht das nun auc
+@mode ready
 > wende totenschaedel auf skelett
 > sprich koenig
 > sprich koenig
@@ -318,6 +413,10 @@
 > west
 > nimm bootsschluessel
 > ost
+> ost
+@text Mr. Adams hätte in einem solchen Fall wahrscheinlich mit "You can't do that... YET!" geantwortet, was in etwa
+@mode ready
+@room 96
 > betritt kahn
 > wende bootsschluessel auf kahn
 > ost
@@ -343,8 +442,15 @@
 > hinunter
 > hinunter
 > ost
+> wende dave auf kriegerstatue
+@text Ja, sag' mal: Hast Du eigentlich auch noch andere Gedanken? Ich kann Dir wirklich aus eigener Erfahrung versic
+@mode ready
 > bewege kriegerstatue
 > nimm kays schluessel
+# A real but wrong key, followed by the matching one.
+> entriegele gittertuer mit eisenschluessel
+@text Mist! Entschuldige bitte, aber das hier scheint einfach nicht der richtige Schlüssel zu sein - er paßt leider
+@mode ready
 > entriegele gittertuer mit kays schluessel
 > oeffne gittertuer
 > sued

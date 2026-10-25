@@ -215,6 +215,14 @@ Eispalast, Gebet und Tresor sowie das Essen mit 25 Strafpunkten.
 `alternatives/action_responses.replay` ergänzt unter anderem Aus-/Anziehen,
 bereits getragene Objekte aufnehmen, erneut entriegeln, verschlossene Türen,
 Beschreibungsmodi, Credits, den noch besetzten Bienenstock und Pfeife rauchen.
+Zusätzlich prüft der Lauf 18 weitere Fehlversuche mit ungeeigneten Objekten,
+Graben ohne Werkzeug sowie ungeeigneten und falschen Schlüsseln. Er umfasst
+411 Befehle und 125 Assertions und gewinnt weiterhin mit 4.930 Punkten.
+Weitere 16 Befehle decken zwölf zusätzliche Texte ab: unter anderem erneutes
+Verriegeln, Losgehen ohne Jeans, die magische Sperre hinter dem Wasserfall,
+das wiederholte Betrachten des Restauranttischs sowie die besonderen Antworten
+auf Orkfrau, Skelett und Kriegerstatue. Unreferenzierte Katalogfassungen sind
+in `spec/C64/replay_coverage.md` dokumentiert.
 Der Schwertversuch auf Dave ist im Original eine ausdrücklich überlebte Szene.
 
 Die anschließende Textprüfung ergänzt 31 bislang nicht ausgegebene Inhalte.

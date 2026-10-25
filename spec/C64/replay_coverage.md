@@ -11,13 +11,13 @@ Spielbefehle verwendet, keine Savegames, Teleports oder Zustands-Fixtures.
 | Erkundungslauf | 597 Befehle, 410 Assertions, Gewinn mit 5.010 Punkten |
 | Schnelllauf | 334 Befehle, 4 Assertions, Gewinn mit 4.955 Punkten |
 | Alternative Lösungsbefehle und verdorbene Speisen | 338 Befehle, 12 Assertions, 4.930 Punkte |
-| Zusätzlicher Aktionslauf | 377 Befehle, 57 Assertions, 4.930 Punkte |
+| Zusätzlicher Aktionslauf | 411 Befehle, 125 Assertions, 4.930 Punkte |
 | Alle eingecheckten Replays zusammen | 61 erfolgreich geprüfte Dateien |
 | Besuchte Räume | 103/103 zusammen; 99/103 im lebend gewonnenen Erkundungslauf |
 | Direkte Todeszuweisungen | 46/48 |
-| Ausführbare Skriptzeilen (gcov JSON) | 3.362/4.824 = 69,7 % |
-| Verzweigungsausgänge | 2.075/3.998 = 51,9 % |
-| Verschiedene ausgegebene Katalogtexte mit normaler Text-ID-Zuordnung | 517/633 = 81,7 % |
+| Ausführbare Skriptzeilen (gcov JSON) | 3.495/4.824 = 72,5 % |
+| Verzweigungsausgänge | 2.161/3.998 = 54,1 % |
+| Verschiedene ausgegebene Katalogtexte mit normaler Text-ID-Zuordnung | 547/633 = 86,4 % |
 
 Vor dieser Aktionsprüfung lag die gemeinsame Codeabdeckung bei 61,9 % der
 Zeilen und 45,3 % der Verzweigungsausgänge. Raumabdeckung ist keine
@@ -68,9 +68,9 @@ der IDs bei einem Text nennt mögliche Zuordnungen, **nicht** den Nachweis, dass
 jede dieser IDs ausgeführt wurde. Intro und vollständiges Tagebuch werden
 zusätzlich separat erkannt; beide wurden ausgegeben.
 
-Es fehlen derzeit 116 unterschiedliche Texte aus dem Pool mit normaler
+Es fehlen derzeit 86 unterschiedliche Texte aus dem Pool mit normaler
 Text-ID-Zuordnung. Der Pool umfasst auch Daten, für die der normale Spielverlauf
-keinen Aufruf besitzt. Die fehlenden Texte sind daher nicht pauschal 116
+keinen Aufruf besitzt. Die fehlenden Texte sind daher nicht pauschal 86
 fehlende Spielszenen. Sie werden nicht aus dem Nenner herausgerechnet.
 
 Die Ausnahmen gehen über Handbuchabfrage und Cheatmodus hinaus:
@@ -146,17 +146,70 @@ Bedingung im Original korrekt ist: Originalbytecode/Interpreter und
 Konverterausgabe müssen dafür noch getrennt verglichen werden. Die Spiellogik
 wurde bei dieser Texterweiterung nicht verändert.
 
-### Verbleibende Spieltexte
+### Allgemeine Fehlversuche
 
-Nicht jeder fehlende Katalogtext hat einen offensichtlichen aktiven Aufruf.
-Noch offen sind beispielsweise besondere Fassungen zum Öffnen des Tagebuchs
-(C2:549), Bücherlesen (C2:548), Schlafen im Hotel (B1:164), Öffnen des
-Friedhofstors (B2:331) und zur Entnahme aus dem besetzten Bienenstock (B2:294).
-Die normalen Aktionen existieren im Replay, erzeugen aber andere Antworten.
-Diese Unterschiede dürfen nicht durch direkte Textausgabe oder manipulierten
-State als abgedeckt markiert werden. Es bleiben außerdem die offene
-Mumien-Rückkehr und weitere Sonderreaktionen. Der vollständige aktuelle
-Messbericht listet alle 116 fehlenden Inhalte unverändert auf.
+Der zusätzliche Aktionslauf prüft 18 weitere Fehlversuche, darunter ungeeignete
+Objekte beim Öffnen, Bewegen, Drücken, Ziehen, Sprechen, Geben, Anwenden und
+Befestigen, Graben ohne Werkzeug sowie ungeeignete und falsche Schlüssel.
+Text- und Zustandsprüfungen sichern die Antworten ab; der Lauf gewinnt weiterhin
+mit 4.930 Punkten. Alle 61 Replays bestehen. Damit steigt die gemessene
+Textabdeckung von 517 auf 535 der 633 Inhalte.
+
+### Weitere allgemeine und besondere Spielreaktionen
+
+Der Aktionslauf ergänzt anschließend 16 Befehle und 29 Assertions für zwölf
+weitere Inhalte. Er gewinnt mit unverändert 4.930 Punkten; alle 61 Replays
+bestehen einschließlich der Include-/Fehlerregressionen. Gemessen mit
+`./check-replay-texts.sh` und `./check-replay-coverage.sh`.
+
+| Text-ID | Getestete Aktion |
+| --- | --- |
+| 61 | `zerstoere hinweisschild` |
+| 46 | Nach Ablegen der Jeans losgehen; Dave bleibt in Raum 3 |
+| 101 | `wende dave auf portier`, bevor das Gespräch den Portier entfernt |
+| B1:144 | Restaurant-Esstisch erneut betrachten, nachdem die Speisekarte entdeckt wurde |
+| 19 | Zimmertür wieder verriegeln; Zustand 0 prüfen, danach erneut entriegeln |
+| 47 | Hinter dem Wasserfall nach Süden gehen; Dave bleibt in Raum 13 |
+| B2:345 | `wende dave auf orkfrau` |
+| 84 | Dachsschlitten verlassen, bevor Dave eingestiegen ist |
+| 90 | Mit dem Skelett sprechen |
+| 100 | `wende dave auf skelett` |
+| 26 | Am unterirdischen See nach Osten gehen, bevor der Kahn bereit ist |
+| C2:572 | `wende dave auf kriegerstatue` |
+
+B1:144 ist eine wiederholte **Objektbeschreibung des Esstischs**, kein
+Portier-Dialog. Die zusätzliche Restaurant-Runde nimmt keine Punkte weg.
+Die Textabdeckung steigt damit von 535 auf 547/633.
+
+### Unreferenzierte Katalogfassungen und verbleibende Spieltexte
+
+Die folgenden Texte haben im aktuellen C-Code keine Textreferenz:
+
+| IDs | Kataloginhalt | Tatsächliche Verwendung |
+| --- | --- | --- |
+| 55, 56 | Andere Warteantworten | Die Warte-Handler setzen Text 54. |
+| 57, 59 | Andere Schließen-Antworten | Die allgemeinen Handler verwenden 6/7/58. |
+| 62, 63, 64 | Weitere Kampf-Kommentare | Kein entsprechender Textaufruf oder Antworttabelleneintrag. |
+| 102 | Weitere Antwort auf das Anwenden von Dave | Kein entsprechender Textaufruf oder Antworttabelleneintrag. |
+| B1:164 | Andere Hotelschlaf-Antwort | `wende dave auf gaestebett` verwendet Text 99. |
+| B2:331 | Knarrendes Friedhofstor | Öffnen läuft über den allgemeinen Tür-Handler. |
+| B2:294 | Hand in den besetzten Bienenstock stecken | Keine Referenz auf diese Text-ID. |
+| B2:290 | Andere Weihwasserbeschreibung | Keine Referenz auf diese Text-ID. |
+| C2:548 | Andere Bücherlese-Antwort | Keine Referenz auf diese Text-ID. |
+| C2:549 | Besondere Tagebuchöffnung | Keine Referenz auf diese Text-ID; Lesen verwendet 489. |
+
+Geprüft wurden `out/part*.c`, `out/game_tables.c`, `out/game_state.c` und
+`src/console/game.cpp`: direkte Textzuweisungen, Objektbeschreibungen und
+Antworttabellen einschließlich Little-Endian-Textwörtern. Bloße Zahlentreffer
+als Objekt-/Raum-ID, Punktindex oder SPECIAL-Nummer sind keine Textreferenzen.
+Das ist eine Aussage über den aktuellen C64-Port, nicht über andere
+Originalversionen. Diese Inhalte werden weder künstlich ausgegeben noch aus
+dem Nenner der Messung entfernt.
+
+B2:621 hat dagegen eine Zuweisung in `PartD_HandleVerliere`, ist auf dessen
+Diskseite C2 aber nicht verfügbar. Die offene Mumien-Rückkehr und weitere
+Sonderreaktionen bleiben gesondert zu prüfen. Der vollständige aktuelle
+Messbericht listet alle 86 fehlenden Inhalte unverändert auf.
 
 ## Offene Todeszweige
 
