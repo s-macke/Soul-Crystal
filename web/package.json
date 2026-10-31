@@ -1,0 +1,21 @@
+{
+  "name": "soul-crystal-web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "prepare-assets": "node scripts/prepare-assets.mjs",
+    "dev": "npm run prepare-assets && vite --host 127.0.0.1",
+    "build": "npm run prepare-assets && tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --import tsx --test src/*.test.ts",
+    "test:wasm": "node --import tsx scripts/check-wasm.ts",
+    "test:assets": "node scripts/check-assets.mjs"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vite": "^7.3.1",
+    "tsx": "^4.21.0",
+    "@types/node": "^22.19.0"
+  }
+}

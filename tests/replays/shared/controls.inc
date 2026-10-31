@@ -16,7 +16,7 @@
 > ausgaenge
 @text Ausgänge:
 > schau
-@text Ansprechbar:
+@text Objekte:
 > punkte
 @text Punkte in
 > neustart

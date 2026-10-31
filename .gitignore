@@ -15,3 +15,7 @@ tables
 
 # Native console build artifacts
 /build/
+
+# Vite dependencies and copied web assets
+/web/node_modules/
+/web/public/

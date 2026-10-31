@@ -16,8 +16,16 @@ typedef enum { GameGerman, GameEnglish } GameLanguage;
 void GameStart(GameOutput output, void *context);
 /* Select at start; restart preserves language. GameStart defaults to German. */
 void GameStartLanguage(GameOutput output, void *context, GameLanguage language);
+/* Enabled by default for CLI hosts. Set before starting; persists across restarts.
+   Controls the available-object text list only, not explicit inventory output
+   or the read-only object API. */
+void GameSetObjectListTextEnabled(int enabled);
 void GameSubmit(const char *line);
 GameView GameGetView(void);
+/* Read-only UI projection: hidden objects return NULL. Names follow the active language. */
+const char *GameObjectName(unsigned id);
+int GameObjectCarried(unsigned id);
+unsigned GameObjectLimit(void);
 #ifdef __cplusplus
 }
 #endif

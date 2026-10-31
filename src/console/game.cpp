@@ -19,6 +19,7 @@ GameMode mode = GameEnded;
 GameInputResult inputResult = GameInputIgnored;
 bool busy = false;
 bool music = false;
+bool objectListTextEnabled = true;
 GameLanguage language = GameGerman;
 bool english() { return language == GameEnglish; }
 const char* tr(const char* de, const char* en) { return english() ? en : de; }
@@ -49,7 +50,8 @@ bool available(unsigned id) {
         (objectLocation[id] == currentRoom || objectLocation[id] == 255);
 }
 void objects(bool inventory = false) {
-    std::string line = inventory ? tr("Inventar: ", "Inventory: ") : tr("Ansprechbar: ", "Available: ");
+    if (!inventory && !objectListTextEnabled) return;
+    std::string line = inventory ? tr("Inventar: ", "Inventory: ") : tr("Objekte: ", "Available: ");
     bool found = false;
     for (unsigned i=1; i<ObjectStateCount; ++i) {
         if (i == DAVE && inventory) continue;
@@ -249,6 +251,10 @@ extern "C" void SPECIAL(ScriptWord op) {
 }
 
 extern "C" GameView GameGetView(void) {return {mode,gamePart,currentRoom,score,steps,lastImagePart,lastImage,inputResult};}
+extern "C" void GameSetObjectListTextEnabled(int enabled) {if(!busy)objectListTextEnabled=enabled!=0;}
+extern "C" const char *GameObjectName(unsigned id) {return available(id) ? objectName(id) : nullptr;}
+extern "C" int GameObjectCarried(unsigned id) {return available(id) && objectLocation[id]==255 && id!=DAVE;}
+extern "C" unsigned GameObjectLimit(void) {return ObjectStateCount;}
 extern "C" void GameStart(GameOutput sink, void *context) {GameStartLanguage(sink,context,GameGerman);}
 extern "C" void GameStartLanguage(GameOutput sink, void *context, GameLanguage selected) {
     if(busy)return;busy=true;language=selected==GameEnglish?GameEnglish:GameGerman;output=sink;outputContext=context;reset(true);busy=false;

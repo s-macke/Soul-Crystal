@@ -1,0 +1,101 @@
+import './style.css';
+import { loadEngine, type Engine, type GameEvent, type GameView } from './engine';
+import { imagePath, victoryPath } from './images';
+import { loadControls } from './controls';
+let controls: Awaited<ReturnType<typeof loadControls>> | undefined;
+const get = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
+const languageButtons = [get<HTMLButtonElement>('start-de'), get<HTMLButtonElement>('start-en')];
+const transcript = get('transcript');
+const scene = get<HTMLImageElement>('scene');
+let engine: Engine;
+let english = false;
+let starting = false;
+let beforeFirstImage = false;
+let acceptsCommands = false;
+function fail(error: unknown) {
+  get('error').hidden = false;
+  get('error').textContent = `${english ? 'Could not continue' : 'Das Spiel konnte nicht fortgesetzt werden'}: ${String(error)}`;
+  controls?.disable();
+  languageButtons.forEach(button => button.disabled = true);
+  acceptsCommands = false;
+}
+function paragraph(parent: HTMLElement, text: string, className = '') {
+  const p = document.createElement('p');
+  p.textContent = text;
+  p.className = className;
+  parent.append(p);
+}
+function event(event: GameEvent) {
+  if (event.kind === 0) {
+    paragraph(starting && beforeFirstImage ? get('intro-text') : transcript, event.text);
+  } else if (event.kind === 1) {
+    beforeFirstImage = false;
+    const path = imagePath(event.part, event.image, event.room);
+    if (path !== null) {
+      scene.src = `${import.meta.env.BASE_URL}${path}`;
+      scene.alt = english ? `Scene in room ${event.room}` : `Schauplatz in Raum ${event.room}`;
+    }
+  }
+}
+function view(view: GameView) {
+  controls?.update(view, english);
+  if (view.mode === 5) {
+    scene.src = `${import.meta.env.BASE_URL}${victoryPath}`;
+    scene.alt = english ? 'The adventure is won' : 'Das Abenteuer ist gewonnen';
+  }
+  get('scene-label').textContent = `${english ? 'Part' : 'Teil'} ${'ABCD'[view.part - 1]}`;
+  get('stats').textContent = `${view.score.toLocaleString(english ? 'en' : 'de')} ${english ? 'points' : 'Punkte'} · ${view.steps} ${english ? 'moves' : 'Züge'}`;
+  // Death still accepts yes/no or restart. Won/ended/error are terminal.
+  const ended = view.mode >= 5;
+  acceptsCommands = !ended;
+  get('new-game').hidden = !ended;
+}
+function submitCommand(command: string) {
+  if (!command || !acceptsCommands) return;
+  for (const p of Array.from(transcript.children)) p.classList.add('previous');
+  paragraph(transcript, `> ${command}`, 'command');
+  try { engine.ccall('web_submit', null, ['string'], [command]); }
+  catch (error) { fail(error); }
+  transcript.scrollTop = transcript.scrollHeight;
+}
+function startGame(inEnglish: boolean) {
+  if (document.body.classList.contains('playing')) return;
+  english = inEnglish;
+  // Fullscreen requires a user gesture; the viewport layout also works when unavailable.
+  if (!document.fullscreenElement && document.documentElement.requestFullscreen) {
+    void document.documentElement.requestFullscreen().catch(() => {});
+  }
+  document.documentElement.lang = english ? 'en' : 'de';
+  document.body.classList.add('playing');
+  get('welcome').hidden = true;
+  get('game').hidden = false;
+  get('journal-toggle').hidden = false;
+  get('journal-toggle').setAttribute('aria-label', english ? 'Open journal' : 'Tagebuch öffnen');
+  if (english) {
+    get('intro').querySelector('summary')!.textContent = 'The story & how to play';
+    get('new-game').textContent = 'Start a new adventure';
+  }
+  starting = beforeFirstImage = true;
+  try { engine.ccall('web_start', null, ['number'], [english ? 1 : 0]); }
+  catch (error) { fail(error); }
+  finally { starting = false; }
+  get('icon-controls').querySelector<HTMLButtonElement>('button')?.focus({preventScroll: true});
+}
+languageButtons.forEach((button, index) => button.addEventListener('click', () => startGame(index === 1)));
+function toggleJournal(open = !document.body.classList.contains('journal-open')) {
+  document.body.classList.toggle('journal-open', open);
+  get('icon-controls').inert = open;
+  get('journal-toggle').setAttribute('aria-expanded', String(open));
+  get('journal-toggle').setAttribute('aria-label', english ? (open ? 'Close journal' : 'Open journal') : (open ? 'Tagebuch schließen' : 'Tagebuch öffnen'));
+  transcript.scrollTop = transcript.scrollHeight;
+}
+get('journal-toggle').addEventListener('click', () => toggleJournal());
+document.addEventListener('keydown', e => { if (e.key === 'Escape') toggleJournal(false); });
+get('new-game').addEventListener('click', () => location.reload());
+scene.addEventListener('error', () => fail(new Error(english ? 'Picture could not be loaded.' : 'Bild konnte nicht geladen werden.')));
+Promise.all([loadEngine(event, view), loadControls(get('icon-controls'), submitCommand)]).then(([loaded, loadedControls]) => {
+  engine = loaded;
+  controls = loadedControls;
+  languageButtons.forEach(button => button.disabled = false);
+  get('load-status').textContent = '';
+}).catch(fail);

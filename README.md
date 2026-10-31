@@ -32,6 +32,18 @@ kombinierte Skriptabdeckung. `./check-replay-texts.sh` listet tatsächlich
 ausgegebene und noch fehlende Originaltexte. Ergebnisse und Grenzen:
 [Abdeckungsbericht](spec/C64/replay_coverage.md).
 
+## Webport (TypeScript, Vite und WebAssembly)
+
+```sh
+./build_wasm_docker.sh
+npm ci --prefix web
+npm run dev --prefix web
+```
+
+Spielbarer Browserport mit Amiga-HD-Bildern, deutscher/englischer Sprachwahl und
+Symbolsteuerung. Der vorhandene C/C++-Kern wird im Dockerfile zu WebAssembly gebaut.
+Ohne Musik und Spielstände. Details: [Webport](web/README.md).
+
 ## Frühere SPECIAL-Notizen
 
 

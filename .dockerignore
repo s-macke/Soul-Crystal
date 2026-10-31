@@ -1,0 +1,11 @@
+**
+!Dockerfile.wasm
+!build_wasm.sh
+!out/
+!out/**
+!src/
+!src/console/
+!src/console/game.cpp
+!src/console/game.h
+!src/web/
+!src/web/bridge.cpp

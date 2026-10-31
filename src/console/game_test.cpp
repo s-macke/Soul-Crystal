@@ -24,7 +24,15 @@ int main(){
     static_assert(IN_EINER_WOHNHOEHLE==103);
     GameStart(record,nullptr);
     assert(contains("Endlich da;")&&contains("rotgoldene Licht"));
-    assert(contains("Verben:")&&contains("Ansprechbar:"));
+    assert(contains("Verben:")&&contains("Objekte:"));
+    GameSetObjectListTextEnabled(0);
+    submit("schau");assert(!contains("Objekte:"));
+    assert(GameObjectName(DAVE)!=nullptr);
+    submit("inventar");assert(contains("Inventar:"));
+    submit("neustart");submit("ja");assert(!contains("Objekte:"));
+    GameSetObjectListTextEnabled(1);
+    transcript.clear();GameStart(record,nullptr);
+    assert(contains("Objekte:"));
     assert(!contains("Tagebuch des Turmwächters"));
     assert(GameGetView().room==3&&GameGetView().steps==1&&GameGetView().image==3);
     assert(imageID==255&&visited[3]==1&&images.back()==3);
@@ -94,7 +102,7 @@ int main(){
     // Language is selected at start and survives restart, death and diary reads.
     transcript.clear();GameStartLanguage(record,nullptr,GameEnglish);
     assert(contains("Here at last!")&&contains("Verbs:")&&contains("Available:"));
-    assert(!contains("Endlich da;")&&!contains("Ansprechbar:"));
+    assert(!contains("Endlich da;")&&!contains("Objekte:"));
     submit("take dave");assert(GameGetView().inputResult==GameInputAccepted);
     objectLocation[LEDERSOECKCHEN]=currentRoom;
     submit("objects");assert(contains("Leather pouch")&&!contains("Leather socks"));

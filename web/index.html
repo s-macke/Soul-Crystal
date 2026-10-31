@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="de">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#18221f"><title>Soul Crystal</title></head>
+<body>
+<div id="app">
+<main>
+<section id="welcome" class="welcome">
+  <img class="title-crystal" src="./icons/objects/kristall.png" alt="">
+  <h1>SOUL <span>CRYSTAL</span></h1>
+  <p class="language-prompt">Sprache wählen · Choose your language</p>
+  <div class="language-choices" role="group" aria-label="Sprache / Language">
+    <button id="start-de" lang="de" disabled>Deutsch</button>
+    <button id="start-en" lang="en" disabled>English</button>
+  </div>
+  <p id="load-status" role="status">Lädt … / Loading …</p>
+</section>
+<section class="scene" aria-label="Schauplatz"><img id="scene" src="./images/hd/DiskA-002.png" width="2079" height="756" alt="Straße vor dem Hotel"><div class="scene-footer"><span id="scene-label">Soul Crystal · C64</span><span id="stats"></span></div>
+</section>
+<button id="journal-toggle" class="journal-toggle" type="button" aria-label="Tagebuch öffnen" aria-expanded="false" hidden><img src="./icons/objects/tagebuch.png" alt=""></button>
+<section id="game" hidden>
+  <details id="intro"><summary>Vorgeschichte & Spielanleitung</summary><div id="intro-text"></div></details>
+  <div id="transcript" role="log" aria-live="polite" aria-relevant="additions" tabindex="0"></div>
+  <button id="new-game" type="button" hidden>Ein neues Abenteuer beginnen</button>
+</section>
+<section id="icon-controls" aria-label="Spielsteuerung"></section>
+<p id="error" role="alert" hidden></p>
+</main>
+</div><script type="module" src="/src/main.ts"></script>
+</body></html>

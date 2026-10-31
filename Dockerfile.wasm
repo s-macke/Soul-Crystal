@@ -1,0 +1,11 @@
+# Build only the original C/C++ game core. Export with build_wasm_docker.sh.
+FROM emscripten/emsdk:4.0.20@sha256:460fff8f8ac87e11b16447fbd66538a686eafa0e4fb977aa0989ed19fe2079f7 AS builder
+WORKDIR /src
+COPY out/ out/
+COPY src/console/game.cpp src/console/game.h src/console/
+COPY src/web/bridge.cpp src/web/
+COPY build_wasm.sh ./
+RUN bash build_wasm.sh /artifacts
+
+FROM scratch AS artifacts
+COPY --from=builder /artifacts/ /
