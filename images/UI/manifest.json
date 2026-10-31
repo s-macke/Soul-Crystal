@@ -1,0 +1,6241 @@
+{
+  "tool": "image_gen",
+  "date": "2026-10-27",
+  "status": "complete",
+  "style_reference": "images/Amiga_HD/style-references/reception-approved.png",
+  "style_sha256": "e8d98d40987cb5d30f7a8aec7627e925cfd993cf6a82ca98f8741043365e35ff",
+  "prompts": "prompts.json",
+  "icons": [
+    {
+      "kind": "verbs",
+      "symbol": "BETRACHTE",
+      "id": 31,
+      "label": {
+        "de": "Betrachte",
+        "en": "Consider"
+      },
+      "file": "verbs/betrachte.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "10f695b376017e29f24f114f9b301ea6e0502540e7a680d5f4114468f9b5802f",
+      "alpha_bbox": [
+        0,
+        23,
+        1226,
+        1232
+      ],
+      "command": {
+        "de": "betrachte",
+        "en": "consider"
+      },
+      "style_references": [
+        {
+          "file": "images/Amiga_HD/style-references/reception-approved.png",
+          "sha256": "e8d98d40987cb5d30f7a8aec7627e925cfd993cf6a82ca98f8741043365e35ff"
+        }
+      ]
+    },
+    {
+      "kind": "verbs",
+      "symbol": "NIMM",
+      "id": 38,
+      "label": {
+        "de": "Nimm",
+        "en": "Take"
+      },
+      "file": "verbs/nimm.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959",
+      "alpha_bbox": [
+        0,
+        37,
+        1234,
+        1232
+      ],
+      "command": {
+        "de": "nimm",
+        "en": "take"
+      },
+      "style_references": [
+        {
+          "file": "images/Amiga_HD/style-references/reception-approved.png",
+          "sha256": "e8d98d40987cb5d30f7a8aec7627e925cfd993cf6a82ca98f8741043365e35ff"
+        }
+      ]
+    },
+    {
+      "kind": "verbs",
+      "symbol": "SPRICH",
+      "id": 39,
+      "label": {
+        "de": "Sprich",
+        "en": "Speak"
+      },
+      "file": "verbs/sprich.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "8513d24e79573806d231e3bcc670370467c67f39e569de47ea42009fa326370e",
+      "alpha_bbox": [
+        0,
+        0,
+        1244,
+        1254
+      ],
+      "command": {
+        "de": "sprich",
+        "en": "speak"
+      },
+      "style_references": [
+        {
+          "file": "images/Amiga_HD/style-references/reception-approved.png",
+          "sha256": "e8d98d40987cb5d30f7a8aec7627e925cfd993cf6a82ca98f8741043365e35ff"
+        }
+      ]
+    },
+    {
+      "kind": "verbs",
+      "symbol": "OEFFNE",
+      "id": 35,
+      "label": {
+        "de": "Öffne",
+        "en": "Open"
+      },
+      "file": "verbs/oeffne.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "fa8064aa8b533c973685a6908e2bc556ae3eab0fc78c0a75afc8f8febe4375c3",
+      "alpha_bbox": [
+        0,
+        33,
+        1242,
+        1254
+      ],
+      "command": {
+        "de": "oeffne",
+        "en": "open"
+      },
+      "style_references": [
+        {
+          "file": "images/Amiga_HD/style-references/reception-approved.png",
+          "sha256": "e8d98d40987cb5d30f7a8aec7627e925cfd993cf6a82ca98f8741043365e35ff"
+        }
+      ]
+    },
+    {
+      "kind": "verbs",
+      "symbol": "WENDE",
+      "id": 40,
+      "label": {
+        "de": "Wende an",
+        "en": "Use"
+      },
+      "file": "verbs/wende.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c0bedc129a1e0515b530d292a6852e69abbb3283fcccaab5aeedd3973c6bbdc7",
+      "alpha_bbox": [
+        60,
+        54,
+        1242,
+        1198
+      ],
+      "command": {
+        "de": "wende",
+        "en": "use"
+      },
+      "style_references": [
+        {
+          "file": "images/Amiga_HD/style-references/reception-approved.png",
+          "sha256": "e8d98d40987cb5d30f7a8aec7627e925cfd993cf6a82ca98f8741043365e35ff"
+        }
+      ]
+    },
+    {
+      "kind": "verbs",
+      "symbol": "INVENTAR",
+      "id": 9,
+      "label": {
+        "de": "Inventar",
+        "en": "Backpack"
+      },
+      "file": "verbs/inventar.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "62559e7d048e073516b4f4b0a640dc1702f4d23d2bdf1df7ec3b9432f31d7bce",
+      "alpha_bbox": [
+        0,
+        23,
+        1238,
+        1254
+      ],
+      "command": {
+        "de": "inventar",
+        "en": "backpack"
+      },
+      "style_references": [
+        {
+          "file": "images/Amiga_HD/style-references/reception-approved.png",
+          "sha256": "e8d98d40987cb5d30f7a8aec7627e925cfd993cf6a82ca98f8741043365e35ff"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "ZIMMERSCHLUESSEL",
+      "id": 117,
+      "label": {
+        "de": "Zimmerschlüssel",
+        "en": "Room key"
+      },
+      "file": "objects/zimmerschluessel.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "220f88faf695f58285545a7970ee95c0f0618f84c7854f7f0279c69845f374d2",
+      "alpha_bbox": [
+        32,
+        23,
+        1226,
+        1254
+      ],
+      "style_references": [
+        {
+          "file": "images/Amiga_HD/style-references/reception-approved.png",
+          "sha256": "e8d98d40987cb5d30f7a8aec7627e925cfd993cf6a82ca98f8741043365e35ff"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "TAGEBUCH",
+      "id": 45,
+      "label": {
+        "de": "Tagebuch",
+        "en": "Diary"
+      },
+      "file": "objects/tagebuch.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea",
+      "alpha_bbox": [
+        0,
+        55,
+        1228,
+        1254
+      ],
+      "style_references": [
+        {
+          "file": "images/Amiga_HD/style-references/reception-approved.png",
+          "sha256": "e8d98d40987cb5d30f7a8aec7627e925cfd993cf6a82ca98f8741043365e35ff"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "HONIG",
+      "id": 71,
+      "label": {
+        "de": "Honig",
+        "en": "Honey"
+      },
+      "file": "objects/honig.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "e7fb96e3948d494428b3d934077f7122c41d8480f037339a020ff378a7f9d57c",
+      "alpha_bbox": [
+        0,
+        17,
+        1240,
+        1254
+      ],
+      "style_references": [
+        {
+          "file": "images/Amiga_HD/style-references/reception-approved.png",
+          "sha256": "e8d98d40987cb5d30f7a8aec7627e925cfd993cf6a82ca98f8741043365e35ff"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "SCHAUFEL",
+      "id": 127,
+      "label": {
+        "de": "Schaufel",
+        "en": "Shovel"
+      },
+      "file": "objects/schaufel.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "af816e064b1179b3eb92ed2ec98e44c63b8b25d89128a8ed6c2abdd4097e9126",
+      "alpha_bbox": [
+        0,
+        32,
+        1236,
+        1228
+      ],
+      "style_references": [
+        {
+          "file": "images/Amiga_HD/style-references/reception-approved.png",
+          "sha256": "e8d98d40987cb5d30f7a8aec7627e925cfd993cf6a82ca98f8741043365e35ff"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "KRISTALL",
+      "id": 35,
+      "label": {
+        "de": "Kristall",
+        "en": "Crystal"
+      },
+      "file": "objects/kristall.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "157ccb77bbc4cdc41a91d9987045561417d20a8402fd0cb3d2c03c706cb85c28",
+      "alpha_bbox": [
+        0,
+        22,
+        1242,
+        1254
+      ],
+      "style_references": [
+        {
+          "file": "images/Amiga_HD/style-references/reception-approved.png",
+          "sha256": "e8d98d40987cb5d30f7a8aec7627e925cfd993cf6a82ca98f8741043365e35ff"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "KLINGEL",
+      "id": 12,
+      "label": {
+        "de": "Klingel",
+        "en": "Bell"
+      },
+      "file": "objects/klingel.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b93ad93116c4d2e050fc14204be461bdb3582cf205fe7925af3a0bc65543e615",
+      "alpha_bbox": [
+        41,
+        80,
+        1253,
+        1254
+      ],
+      "style_references": [
+        {
+          "file": "images/Amiga_HD/style-references/reception-approved.png",
+          "sha256": "e8d98d40987cb5d30f7a8aec7627e925cfd993cf6a82ca98f8741043365e35ff"
+        }
+      ]
+    },
+    {
+      "kind": "verbs",
+      "symbol": "SCHAU",
+      "id": 10,
+      "label": {
+        "de": "Schau",
+        "en": "View"
+      },
+      "file": "verbs/schau.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "564fabe6d9633ba51b81fcc09432098f6cae044c7a6ea9b4dd1c70387bfb81ba",
+      "alpha_bbox": [
+        25,
+        31,
+        1234,
+        1254
+      ],
+      "command": {
+        "de": "schau",
+        "en": "view"
+      },
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "verbs",
+      "symbol": "AUSGAENGE",
+      "id": 7,
+      "label": {
+        "de": "Ausgänge",
+        "en": "Paths"
+      },
+      "file": "verbs/ausgaenge.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ab1a610213da3df762bb7b9e938d075cc4833edfab2081fa42f0c3bcb48fefe6",
+      "alpha_bbox": [
+        25,
+        27,
+        1240,
+        1254
+      ],
+      "command": {
+        "de": "ausgaenge",
+        "en": "paths"
+      },
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "verbs",
+      "symbol": "NORD",
+      "id": 11,
+      "label": {
+        "de": "Nord",
+        "en": "North"
+      },
+      "file": "verbs/nord.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "f2c1c796a448432288d92abeeb143fb9650dca935dfa00a492e589cc7be81b60",
+      "alpha_bbox": [
+        0,
+        0,
+        1222,
+        1254
+      ],
+      "command": {
+        "de": "nord",
+        "en": "north"
+      },
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "verbs",
+      "symbol": "SUED",
+      "id": 19,
+      "label": {
+        "de": "Süd",
+        "en": "South"
+      },
+      "file": "verbs/sued.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "2d77958b00c040df39ef00b4c1a9d46a0413ddbc13d9caeb7b5c65ee04205142",
+      "alpha_bbox": [
+        0,
+        55,
+        1240,
+        1254
+      ],
+      "command": {
+        "de": "sued",
+        "en": "south"
+      },
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "verbs",
+      "symbol": "OST",
+      "id": 6,
+      "label": {
+        "de": "Ost",
+        "en": "East"
+      },
+      "file": "verbs/ost.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "7b5307890b277d90288dcd020eee1aa423a1793061d337049e6e48857a0e2d45",
+      "alpha_bbox": [
+        0,
+        55,
+        1253,
+        1214
+      ],
+      "command": {
+        "de": "ost",
+        "en": "east"
+      },
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "verbs",
+      "symbol": "WEST",
+      "id": 24,
+      "label": {
+        "de": "West",
+        "en": "West"
+      },
+      "file": "verbs/west.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b4f33fb4fcfc5ee0557863d3bed344eec4028ed6717775f9100afcd8321edd1a",
+      "alpha_bbox": [
+        49,
+        31,
+        1232,
+        1254
+      ],
+      "command": {
+        "de": "west",
+        "en": "west"
+      },
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "verbs",
+      "symbol": "HINAUF",
+      "id": 21,
+      "label": {
+        "de": "Hinauf",
+        "en": "Upward"
+      },
+      "file": "verbs/hinauf.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "5fbc55ae394f5ecd0b99d3aed4c139d7032878ca40383aaf6e2d4f0398f752f5",
+      "alpha_bbox": [
+        0,
+        17,
+        1238,
+        1254
+      ],
+      "command": {
+        "de": "hinauf",
+        "en": "upward"
+      },
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "verbs",
+      "symbol": "HINUNTER",
+      "id": 5,
+      "label": {
+        "de": "Hinunter",
+        "en": "Downward"
+      },
+      "file": "verbs/hinunter.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "06fd769b039398aa8269e44a67310ba87cbc8fc977bb90cd0f7c8da44c9b7b61",
+      "alpha_bbox": [
+        0,
+        17,
+        1240,
+        1254
+      ],
+      "command": {
+        "de": "hinunter",
+        "en": "downward"
+      },
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "verbs",
+      "symbol": "BETRITT",
+      "id": 30,
+      "label": {
+        "de": "Betritt",
+        "en": "Enter"
+      },
+      "file": "verbs/betritt.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "6ed874f84c0209422aa543c90596bc3cbb331bc2ea6b37a4191be20f0ece3621",
+      "alpha_bbox": [
+        17,
+        29,
+        1240,
+        1254
+      ],
+      "command": {
+        "de": "betritt",
+        "en": "enter"
+      },
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "verbs",
+      "symbol": "VERLASSE",
+      "id": 33,
+      "label": {
+        "de": "Verlasse",
+        "en": "Leave"
+      },
+      "file": "verbs/verlasse.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "719f64c06e274727a63d612e6bc9937e45f02bcf18cfa03ed3425edc34365b71",
+      "alpha_bbox": [
+        0,
+        0,
+        1242,
+        1254
+      ],
+      "command": {
+        "de": "verlasse",
+        "en": "leave"
+      },
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "verbs",
+      "symbol": "VERLIERE",
+      "id": 29,
+      "label": {
+        "de": "Verliere",
+        "en": "Lose"
+      },
+      "file": "verbs/verliere.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "3caf0389317bb2a43a0d1e468779252d03d13072524ea436d0983d50651855ea",
+      "alpha_bbox": [
+        0,
+        17,
+        1240,
+        1254
+      ],
+      "command": {
+        "de": "verliere",
+        "en": "lose"
+      },
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "verbs",
+      "symbol": "GIB",
+      "id": 42,
+      "label": {
+        "de": "Gib",
+        "en": "Giv"
+      },
+      "file": "verbs/gib.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "063e22a297f4b0993794e7737bb968b69e3788cbce28f52f78511c20032cc1d6",
+      "alpha_bbox": [
+        0,
+        71,
+        1230,
+        1230
+      ],
+      "command": {
+        "de": "gib",
+        "en": "giv"
+      },
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "verbs",
+      "symbol": "BEFESTIGE",
+      "id": 41,
+      "label": {
+        "de": "Befestige",
+        "en": "Attach"
+      },
+      "file": "verbs/befestige.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "8d134b54cc52a71f40150df38abc742927ecc7bdd68f5cb914fb2a2bbc8ac8fb",
+      "alpha_bbox": [
+        57,
+        55,
+        1238,
+        1254
+      ],
+      "command": {
+        "de": "befestige",
+        "en": "attach"
+      },
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "verbs",
+      "symbol": "HILF",
+      "id": 32,
+      "label": {
+        "de": "Hilf",
+        "en": "Help"
+      },
+      "file": "verbs/hilf.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b85c45cc9785f5d92a7323f16766a2abf22f5ed61af2ebe96bbadf79c5f69d97",
+      "alpha_bbox": [
+        25,
+        48,
+        1248,
+        1254
+      ],
+      "command": {
+        "de": "hilf",
+        "en": "help"
+      },
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "verbs",
+      "symbol": "SCHLIESSE",
+      "id": 27,
+      "label": {
+        "de": "Schließe",
+        "en": "Close"
+      },
+      "file": "verbs/schliesse.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "a51afc8d5713eb113f42c14cdc58a467349f25c523dde5fd2021022c62245682",
+      "alpha_bbox": [
+        0,
+        0,
+        1246,
+        1254
+      ],
+      "command": {
+        "de": "schliesse",
+        "en": "close"
+      },
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "verbs",
+      "symbol": "ENTRIEGELE",
+      "id": 44,
+      "label": {
+        "de": "Entriegele",
+        "en": "Unlock"
+      },
+      "file": "verbs/entriegele.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "56e0aa94c3850b24328b3eb5ccfedb08a77e07f78a8d78ac46c34c1e96173b94",
+      "alpha_bbox": [
+        0,
+        71,
+        1226,
+        1214
+      ],
+      "command": {
+        "de": "entriegele",
+        "en": "unlock"
+      },
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "verbs",
+      "symbol": "VERRIEGELE",
+      "id": 43,
+      "label": {
+        "de": "Verriegele",
+        "en": "Lock"
+      },
+      "file": "verbs/verriegele.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "3aa58427ef7a01d984504a243dca32213245088b62bf93ddbb08ae06ad8335c6",
+      "alpha_bbox": [
+        0,
+        97,
+        1246,
+        1254
+      ],
+      "command": {
+        "de": "verriegele",
+        "en": "lock"
+      },
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "verbs",
+      "symbol": "BEWEGE",
+      "id": 34,
+      "label": {
+        "de": "Bewege",
+        "en": "Move"
+      },
+      "file": "verbs/bewege.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "d9f16b84301d2a439b608edcb6e689bf7d0c4df7ad72baaa13cffdd4f42c0879",
+      "alpha_bbox": [
+        49,
+        41,
+        1254,
+        1220
+      ],
+      "command": {
+        "de": "bewege",
+        "en": "move"
+      },
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "verbs",
+      "symbol": "DRUECKE",
+      "id": 37,
+      "label": {
+        "de": "Drücke",
+        "en": "Push"
+      },
+      "file": "verbs/druecke.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b06ab806995769a2def4de5112f5254384d9ffa956b24d4953925a565e98bc4e",
+      "alpha_bbox": [
+        0,
+        35,
+        1238,
+        1220
+      ],
+      "command": {
+        "de": "druecke",
+        "en": "push"
+      },
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "verbs",
+      "symbol": "ZIEHE",
+      "id": 36,
+      "label": {
+        "de": "Ziehe",
+        "en": "Tug"
+      },
+      "file": "verbs/ziehe.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b14d438f39b1ac58bec6e7d4d1930e26c4c312b715c92122bf7ec3ba86645828",
+      "alpha_bbox": [
+        0,
+        0,
+        1240,
+        1254
+      ],
+      "command": {
+        "de": "ziehe",
+        "en": "tug"
+      },
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "verbs",
+      "symbol": "GRABE",
+      "id": 4,
+      "label": {
+        "de": "Grabe",
+        "en": "Dig"
+      },
+      "file": "verbs/grabe.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c0d3b7ffebf341300a25f7cdc92d7be9da19d4d55af3199190984365e48bf197",
+      "alpha_bbox": [
+        0,
+        0,
+        1232,
+        1254
+      ],
+      "command": {
+        "de": "grabe",
+        "en": "dig"
+      },
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "verbs",
+      "symbol": "ZERSTOERE",
+      "id": 28,
+      "label": {
+        "de": "Zerstöre",
+        "en": "Destroy"
+      },
+      "file": "verbs/zerstoere.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "3b13c4fc1ced91d5298a20fafa7f1eb801d28aea8255b9a5a5ef3a43e3a943a3",
+      "alpha_bbox": [
+        0,
+        14,
+        1240,
+        1254
+      ],
+      "command": {
+        "de": "zerstoere",
+        "en": "destroy"
+      },
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "verbs",
+      "symbol": "WARTE",
+      "id": 23,
+      "label": {
+        "de": "Warte",
+        "en": "Wait"
+      },
+      "file": "verbs/warte.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "6e045d2fe1cd121d05edf5a23ca0725e851d294bbaae6de4a374ece39c4d5df8",
+      "alpha_bbox": [
+        0,
+        31,
+        1234,
+        1254
+      ],
+      "command": {
+        "de": "warte",
+        "en": "wait"
+      },
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "verbs",
+      "symbol": "PUNKTE",
+      "id": 15,
+      "label": {
+        "de": "Punkte",
+        "en": "Points"
+      },
+      "file": "verbs/punkte.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "2e42bdc3dceb5022d60efa3375219abe603ee7eaa2525be68b8ef446d0e08f55",
+      "alpha_bbox": [
+        0,
+        21,
+        1230,
+        1254
+      ],
+      "command": {
+        "de": "punkte",
+        "en": "points"
+      },
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "verbs",
+      "symbol": "LOESUNG",
+      "id": 16,
+      "label": {
+        "de": "Lösung",
+        "en": "Solve"
+      },
+      "file": "verbs/loesung.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "a804795be0e2493a00646be84d203c55a299cc94f9cf7a4144c65f18064135ee",
+      "alpha_bbox": [
+        0,
+        81,
+        1236,
+        1254
+      ],
+      "command": {
+        "de": "loesung",
+        "en": "solve"
+      },
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "verbs",
+      "symbol": "NEUSTART",
+      "id": 13,
+      "label": {
+        "de": "Neustart",
+        "en": "Restart"
+      },
+      "file": "verbs/neustart.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ed7920ab78e05777b3f3b4cc4f3d4ea9c5648010d3c7973128440c4fa4b13143",
+      "alpha_bbox": [
+        0,
+        0,
+        1186,
+        1254
+      ],
+      "command": {
+        "de": "neustart",
+        "en": "restart"
+      },
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "verbs",
+      "symbol": "SPIELENDE",
+      "id": 12,
+      "label": {
+        "de": "Spielende",
+        "en": "Quit"
+      },
+      "file": "verbs/spielende.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "05d276c1083cd2ba69e3ac638ea4aa9133420555edb00946a51d3806269ad6e4",
+      "alpha_bbox": [
+        33,
+        23,
+        1240,
+        1254
+      ],
+      "command": {
+        "de": "spielende",
+        "en": "quit"
+      },
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "verbs",
+      "symbol": "KURZTEXT",
+      "id": 2,
+      "label": {
+        "de": "Kurztext",
+        "en": "Compact"
+      },
+      "file": "verbs/kurztext.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b1092b8ae41d03e30912a7b391da0439a747d0c3accb98c08bb0331df5547a24",
+      "alpha_bbox": [
+        45,
+        28,
+        1226,
+        1254
+      ],
+      "command": {
+        "de": "kurztext",
+        "en": "compact"
+      },
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "verbs",
+      "symbol": "AUSFUEHRLICH",
+      "id": 22,
+      "label": {
+        "de": "Ausführlich",
+        "en": "Verbose"
+      },
+      "file": "verbs/ausfuehrlich.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "7225017cee0d66217f6dfa1044c1dd7b3421212a6e31bcff53837b7b1bf883af",
+      "alpha_bbox": [
+        0,
+        16,
+        1216,
+        1254
+      ],
+      "command": {
+        "de": "ausfuehrlich",
+        "en": "verbose"
+      },
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "verbs",
+      "symbol": "MUSIKEIN",
+      "id": 17,
+      "label": {
+        "de": "Musik",
+        "en": "Music"
+      },
+      "file": "verbs/musikein.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "5ee3949ae8ff19ed2ba2b27117da183e4b80fede308cb114cd6754d09ddece96",
+      "alpha_bbox": [
+        0,
+        17,
+        1234,
+        1238
+      ],
+      "command": {
+        "de": "musikein",
+        "en": "music"
+      },
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "verbs",
+      "symbol": "UEBERSOULCRYSTAL",
+      "id": 1,
+      "label": {
+        "de": "Über Soul Crystal",
+        "en": "About"
+      },
+      "file": "verbs/uebersoulcrystal.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "4b76566b2a21d5f1704dbfc7eadf709b4dfbfcd9483f79e3d37d1e02c56676c9",
+      "alpha_bbox": [
+        0,
+        30,
+        1224,
+        1254
+      ],
+      "command": {
+        "de": "uebersoulcrystal",
+        "en": "about"
+      },
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "verbs",
+      "symbol": "CREDITS",
+      "id": 3,
+      "label": {
+        "de": "Credits",
+        "en": "Credits"
+      },
+      "file": "verbs/credits.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "9991b4fe978d6f0f10c422c8927e2aa796676bd1f853c5017f92a079232c1f76",
+      "alpha_bbox": [
+        0,
+        3,
+        1240,
+        1254
+      ],
+      "command": {
+        "de": "credits",
+        "en": "credits"
+      },
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "SILBERMUENZEN",
+      "id": 31,
+      "label": {
+        "de": "Silbermünzen",
+        "en": "Silver coins"
+      },
+      "file": "objects/silbermuenzen.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "62cd03617d221e120359289b549e1636fe887f0725dfa1a3d991ec6238d97962",
+      "alpha_bbox": [
+        25,
+        21,
+        1240,
+        1214
+      ],
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "AMULETT",
+      "id": 3,
+      "label": {
+        "de": "Amulett",
+        "en": "Amulet"
+      },
+      "file": "objects/amulett.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b0ed3b81f36c4c203e1cc91f18526a6ce618e0a05230b68ce4581b73d14c40a9",
+      "alpha_bbox": [
+        57,
+        61,
+        1206,
+        1254
+      ],
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "JEANS",
+      "id": 77,
+      "label": {
+        "de": "Jeans",
+        "en": "Jeans"
+      },
+      "file": "objects/jeans.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "aa5bc3c9ed0b05558f2847704bafbfd10c86bfe72ad5db24611833021fbb0960",
+      "alpha_bbox": [
+        0,
+        21,
+        1194,
+        1186
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "TSHIRT",
+      "id": 143,
+      "label": {
+        "de": "T-Shirt",
+        "en": "T-Shirt"
+      },
+      "file": "objects/tshirt.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "0811161d14c0d0ee208ec505b11ff89fb4d0a53cd7cdde2e7e941d28210c5a29",
+      "alpha_bbox": [
+        0,
+        35,
+        1194,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "TURNSCHUHE",
+      "id": 126,
+      "label": {
+        "de": "Turnschuhe",
+        "en": "Sneakers"
+      },
+      "file": "objects/turnschuhe.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "e923d19542d8ea9d1c0fffcd74a01c4ce9e861f50090c918b52ddb0b4ef9b239",
+      "alpha_bbox": [
+        0,
+        15,
+        1244,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "HINWEISSCHILD",
+      "id": 128,
+      "label": {
+        "de": "Hinweisschild",
+        "en": "Billboard"
+      },
+      "file": "objects/hinweisschild.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "d3f857eec7fdb8e73744e235313ac77ac990fe49de2c67e474b796caf7d8eff5",
+      "alpha_bbox": [
+        0,
+        17,
+        1240,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "HOTEL",
+      "id": 72,
+      "label": {
+        "de": "Hotel",
+        "en": "Hotel"
+      },
+      "file": "objects/hotel.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c4091006df2e4eaca27bb29beede4a56c53e94db982189e74a73c1e86b9e3012",
+      "alpha_bbox": [
+        0,
+        17,
+        1222,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "DAVE",
+      "id": 163,
+      "label": {
+        "de": "Dave",
+        "en": "Dave"
+      },
+      "file": "objects/dave.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "bf327955a09821808e5fbf8f141277e89ad233007e24715c3916f1605939aa97",
+      "alpha_bbox": [
+        33,
+        29,
+        1236,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        },
+        {
+          "file": "images/Amiga/Disk 1/animations/Dave/Dave-000.png",
+          "sha256": "3bbe4981db1fc177afa0bee4feeb6959d4477479c0940e480a9e3df2fa3cf8e6"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "ABENTEURER",
+      "id": 1,
+      "label": {
+        "de": "Abenteurer",
+        "en": "Adventurer"
+      },
+      "file": "objects/dave.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "bf327955a09821808e5fbf8f141277e89ad233007e24715c3916f1605939aa97",
+      "alpha_bbox": [
+        33,
+        29,
+        1236,
+        1254
+      ],
+      "shared_with": "DAVE",
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        },
+        {
+          "file": "images/Amiga/Disk 1/animations/Dave/Dave-000.png",
+          "sha256": "3bbe4981db1fc177afa0bee4feeb6959d4477479c0940e480a9e3df2fa3cf8e6"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "TRESEN",
+      "id": 41,
+      "label": {
+        "de": "Tresen",
+        "en": "Desk"
+      },
+      "file": "objects/tresen.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "05eb19fa767337bc8d69019b768da2629edaceb9c16c4196617f5ca55d2688ea",
+      "alpha_bbox": [
+        0,
+        48,
+        1210,
+        1230
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "PROSPEKT",
+      "id": 23,
+      "label": {
+        "de": "Prospekt",
+        "en": "Brochure"
+      },
+      "file": "objects/prospekt.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "e6738ed4aa2c51eee6eede38a485737a14bb13bb5753b5afae11c21780668865",
+      "alpha_bbox": [
+        0,
+        23,
+        1240,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "PORTIER",
+      "id": 74,
+      "label": {
+        "de": "Portier",
+        "en": "Clerk"
+      },
+      "file": "objects/portier.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "73c32fe014877208cd3e153de4aa189e219115d6f6e9749ea2ad34df03d08170",
+      "alpha_bbox": [
+        0,
+        50,
+        1208,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        },
+        {
+          "file": "images/Amiga/Disk 1/animations/Inn-keeper/Inn-keeper-000.png",
+          "sha256": "a85e781a62abaac39fd1b48cd1e9cd832ac97a5bf62478e3e25f78977cd9bc2a"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "BADEHOSE",
+      "id": 151,
+      "label": {
+        "de": "Badehose",
+        "en": "Swimsuit"
+      },
+      "file": "objects/badehose.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "627e9ac78706144f2e3ea1465973bbab4c1d697c04300f45eb578d39ba591a8d",
+      "alpha_bbox": [
+        0,
+        17,
+        1222,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "STEINALTAR",
+      "id": 2,
+      "label": {
+        "de": "Steinaltar",
+        "en": "Stonealtar"
+      },
+      "file": "objects/steinaltar.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "03cf96781041067f97de8135622be3c6832b16d7ea15ec0725e0af8c9f3457f8",
+      "alpha_bbox": [
+        0,
+        15,
+        1240,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "DACHSSCHLITTEN",
+      "id": 4,
+      "label": {
+        "de": "Dachsschlitten",
+        "en": "Badger sleigh"
+      },
+      "file": "objects/dachsschlitten.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c33a9469ce0db5325c6d28a0614351d0091c0104d4775afaaedb52148ec727f3",
+      "alpha_bbox": [
+        0,
+        0,
+        1240,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "LEDERSOECKCHEN",
+      "id": 5,
+      "label": {
+        "de": "Ledersäckchen",
+        "en": "Leather pouch"
+      },
+      "file": "objects/ledersoeckchen.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "0307e8b7d8414abbe2e6b239571a0d66d291118c66ee0ff48aaf099c33e40a63",
+      "alpha_bbox": [
+        0,
+        0,
+        1230,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "FASS",
+      "id": 6,
+      "label": {
+        "de": "Faß",
+        "en": "Keg"
+      },
+      "file": "objects/fass.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "98ba6b9dc0248bd33331ea230a58d3b5ba9abc366b94edb52206a3dda712760e",
+      "alpha_bbox": [
+        0,
+        3,
+        1234,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "GAESTEBETT",
+      "id": 7,
+      "label": {
+        "de": "Gästebett",
+        "en": "Bed"
+      },
+      "file": "objects/gaestebett.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "d3f30badc424f636f773d81ff635e0cbc46428cbc70876d4106ab4e07c629fd3",
+      "alpha_bbox": [
+        0,
+        9,
+        1234,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "BETT1",
+      "id": 8,
+      "label": {
+        "de": "Bett",
+        "en": "bed"
+      },
+      "file": "objects/gaestebett.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "d3f30badc424f636f773d81ff635e0cbc46428cbc70876d4106ab4e07c629fd3",
+      "alpha_bbox": [
+        0,
+        9,
+        1234,
+        1254
+      ],
+      "shared_with": "GAESTEBETT",
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "BETT2",
+      "id": 9,
+      "label": {
+        "de": "Bett",
+        "en": "bed"
+      },
+      "file": "objects/gaestebett.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "d3f30badc424f636f773d81ff635e0cbc46428cbc70876d4106ab4e07c629fd3",
+      "alpha_bbox": [
+        0,
+        9,
+        1234,
+        1254
+      ],
+      "shared_with": "GAESTEBETT",
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "BETTZEUG",
+      "id": 10,
+      "label": {
+        "de": "Bettzeug",
+        "en": "Bedding"
+      },
+      "file": "objects/bettzeug.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "d83964d06f7c77361046729122750db7cc256745cd7ff8e34a302f684a42c6d4",
+      "alpha_bbox": [
+        0,
+        9,
+        1226,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "BIENENSTOCK",
+      "id": 11,
+      "label": {
+        "de": "Bienenstock",
+        "en": "Beehive"
+      },
+      "file": "objects/bienenstock.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "8c6e61ef1aaab8339bd347cb1b16b696a905783f0aaea20294fb7a4c22661836",
+      "alpha_bbox": [
+        0,
+        29,
+        1238,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "BLUT",
+      "id": 13,
+      "label": {
+        "de": "Blut",
+        "en": "Gore"
+      },
+      "file": "objects/blut.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "e704969f3d778f879b593d2315fa4b4b639aa9e730d9e3e773dba447a6871976",
+      "alpha_bbox": [
+        21,
+        37,
+        1212,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "WASSER",
+      "id": 14,
+      "label": {
+        "de": "Wasser",
+        "en": "Water"
+      },
+      "file": "objects/wasser.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "eba2950e419d6d5632490f7d80df500a11aa12a8d4e64e4397975935d782819e",
+      "alpha_bbox": [
+        0,
+        25,
+        1224,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "BOOT",
+      "id": 15,
+      "label": {
+        "de": "Boot",
+        "en": "Boat"
+      },
+      "file": "objects/boot.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "f4f8bf2c16e6e89c6e853687396a407e9de1d3f03e26fffbb7192fe2cf0f0934",
+      "alpha_bbox": [
+        41,
+        57,
+        1235,
+        1230
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "KAHN",
+      "id": 16,
+      "label": {
+        "de": "Kahn",
+        "en": "Boat"
+      },
+      "file": "objects/kahn.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "bedc7c87238362f53b9f55d85a60aca80757e480e7f14fc563321583976a9748",
+      "alpha_bbox": [
+        0,
+        0,
+        1234,
+        1243
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "BOOTSSCHLUESSEL",
+      "id": 17,
+      "label": {
+        "de": "Bootsschlüssel",
+        "en": "Boat key"
+      },
+      "file": "objects/bootsschluessel.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "320355a6013b5ec96d10da45e7068bfbdfa44e5b8262e07c8a1dec48affb7c60",
+      "alpha_bbox": [
+        33,
+        21,
+        1240,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "BUECHERREGALE",
+      "id": 18,
+      "label": {
+        "de": "Bücherregale",
+        "en": "Bookshelves"
+      },
+      "file": "objects/buecherregale.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "e53a3a000c377f62b49edf5dcb321d5fc03cfce469d3048b34af5e85d2338b49",
+      "alpha_bbox": [
+        0,
+        0,
+        1224,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "BUECHERWAND",
+      "id": 124,
+      "label": {
+        "de": "Bücherwand",
+        "en": "Bookshelf"
+      },
+      "file": "objects/buecherregale.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "e53a3a000c377f62b49edf5dcb321d5fc03cfce469d3048b34af5e85d2338b49",
+      "alpha_bbox": [
+        0,
+        0,
+        1224,
+        1254
+      ],
+      "shared_with": "BUECHERREGALE",
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "BUECHER",
+      "id": 19,
+      "label": {
+        "de": "Bücher",
+        "en": "Books"
+      },
+      "file": "objects/buecher.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "000dceefcf7424cddd2eb1d51670aa362c146304c71cfe608fbcf4b56ba2c1fc",
+      "alpha_bbox": [
+        0,
+        29,
+        1244,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "FELLSTIEFEL",
+      "id": 20,
+      "label": {
+        "de": "Fellstiefel",
+        "en": "Fur boots"
+      },
+      "file": "objects/fellstiefel.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "140355e10ad6c6073c8638bf60f93f2d49229d99c795b9a935beeffb0fdceba8",
+      "alpha_bbox": [
+        0,
+        33,
+        1239,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "WEISSBROTSCHEIBE",
+      "id": 21,
+      "label": {
+        "de": "Weißbrotscheibe",
+        "en": "Slice of bread"
+      },
+      "file": "objects/weissbrotscheibe.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "d1fb6c051b7043cdd04b54c0db4a2284482eded9825cbe78944d47d80bb1917e",
+      "alpha_bbox": [
+        0,
+        17,
+        1226,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "ZIEGELSTEIN",
+      "id": 22,
+      "label": {
+        "de": "Ziegelstein",
+        "en": "Brick"
+      },
+      "file": "objects/ziegelstein.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b930b8a85cea4153992932864b14200a5de1f49f227edf9ce8d1679357607336",
+      "alpha_bbox": [
+        0,
+        21,
+        1218,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "STUHL",
+      "id": 24,
+      "label": {
+        "de": "Stuhl",
+        "en": "Chair"
+      },
+      "file": "objects/stuhl.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "60ae56ff82f5650072dec9e5e76cc533c2768c0fe46096a9e909185bbdf904fc",
+      "alpha_bbox": [
+        33,
+        58,
+        1236,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "TRUHE",
+      "id": 25,
+      "label": {
+        "de": "Truhe",
+        "en": "Chest"
+      },
+      "file": "objects/truhe.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "fd9f5a7c3bbdca435aac67e530c95aba1962dec455d11cef9c47a0d56306853b",
+      "alpha_bbox": [
+        0,
+        0,
+        1224,
+        1190
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "ORKKIND",
+      "id": 26,
+      "label": {
+        "de": "Orkkind",
+        "en": "Ork kid"
+      },
+      "file": "objects/orkkind.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c10eb3514b527acd866f61bd8b60f43537a3b8c4775f2cf97755bda1318b616c",
+      "alpha_bbox": [
+        0,
+        8,
+        1244,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        },
+        {
+          "file": "images/Amiga/Disk 1/animations/OrcFamily/OrcFamily-000.png",
+          "sha256": "77b07bd0dd612866c6885b24925057dc9eb7f370cac95d8a473b6febaff2e1d1"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "FEUERSTELLE",
+      "id": 27,
+      "label": {
+        "de": "Feuerstelle",
+        "en": "Fireplace"
+      },
+      "file": "objects/feuerstelle.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "8103735d54859766f5717035de470aee61deb323ee775ee2a8a674f3dcfb015c",
+      "alpha_bbox": [
+        0,
+        61,
+        1222,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "KAMIN",
+      "id": 28,
+      "label": {
+        "de": "Kamin",
+        "en": "Flue"
+      },
+      "file": "objects/kamin.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "416f9684d05185dcb1f3330e198fc252afc1145e6220249234f9cb9dc4a4a3a2",
+      "alpha_bbox": [
+        0,
+        15,
+        1253,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "CODENUMMER",
+      "id": 29,
+      "label": {
+        "de": "Codenummer",
+        "en": "Codenumber"
+      },
+      "file": "objects/codenummer.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "21ed1c865761cfb9a0a54e047195dc9e09d92753f159bbb97b23a0335c183a3f",
+      "alpha_bbox": [
+        0,
+        17,
+        1240,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "SAERGE",
+      "id": 30,
+      "label": {
+        "de": "Särge",
+        "en": "Tombs"
+      },
+      "file": "objects/saerge.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "fc80dd67dd3077c08dd7b6cc8b6702167550457dd521604d012ab80937e7fbb1",
+      "alpha_bbox": [
+        0,
+        25,
+        1248,
+        1214
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "VERTRAG",
+      "id": 32,
+      "label": {
+        "de": "Vertrag",
+        "en": "Pledge"
+      },
+      "file": "objects/vertrag.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "e69b946c11bbadab75fa55606e09810abf265b810efc1aa6ddc23cab03449049",
+      "alpha_bbox": [
+        0,
+        23,
+        1219,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "KADAVER",
+      "id": 33,
+      "label": {
+        "de": "Kadaver",
+        "en": "Cadaver"
+      },
+      "file": "objects/kadaver.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "cb9c57b475a88bc15ce4c72188141bae84180fd1b807465984953781c7b8f8cb",
+      "alpha_bbox": [
+        0,
+        0,
+        1224,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "KRONE",
+      "id": 34,
+      "label": {
+        "de": "Krone",
+        "en": "Crown"
+      },
+      "file": "objects/krone.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b0ccedfc5cb6e9a47b118a782e934327f4ac69304d27a36c17c9cdf31ab74913",
+      "alpha_bbox": [
+        0,
+        35,
+        1236,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "KRISTALLKUGEL",
+      "id": 36,
+      "label": {
+        "de": "Kristallkugel",
+        "en": "Crystalball"
+      },
+      "file": "objects/kristallkugel.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "3de600309de500a55619ca5fc4c63adf461b95a79d186ed189b1983981bf936f",
+      "alpha_bbox": [
+        0,
+        23,
+        1234,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "CU_SATH",
+      "id": 37,
+      "label": {
+        "de": "Cu-Sath",
+        "en": "Cu-Sath"
+      },
+      "file": "objects/cu_sath.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "dbf046cff6d5d56a37aa3a1f8e68099744cbb72b2b8161b9afd73b6fd019e5df",
+      "alpha_bbox": [
+        39,
+        31,
+        1232,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "SAMTVORHANG",
+      "id": 38,
+      "label": {
+        "de": "Samtvorhang",
+        "en": "Curtain"
+      },
+      "file": "objects/samtvorhang.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "3e27d1be970201a30214a6c77417dbbc4b82b6537a7f45152b388f6b3b9539f8",
+      "alpha_bbox": [
+        0,
+        0,
+        1234,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "SCHACHT",
+      "id": 39,
+      "label": {
+        "de": "Schacht",
+        "en": "Shaft"
+      },
+      "file": "objects/schacht.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c911fd53c4bb9bc9f5bb5d88d013c18d378fa391292fe2b294e3869d338b768d",
+      "alpha_bbox": [
+        0,
+        33,
+        1244,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "SCHREIBTISCH1",
+      "id": 40,
+      "label": {
+        "de": "Schreibtisch",
+        "en": "Desk"
+      },
+      "file": "objects/schreibtisch1.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ab6dd6ad4a774fe317e9f42a4bc2ed0b765b17983dca2d23067ecadddabce723",
+      "alpha_bbox": [
+        0,
+        3,
+        1244,
+        1230
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "SCHREIBTISCH2",
+      "id": 43,
+      "label": {
+        "de": "Schreibtisch",
+        "en": "Desk"
+      },
+      "file": "objects/schreibtisch1.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ab6dd6ad4a774fe317e9f42a4bc2ed0b765b17983dca2d23067ecadddabce723",
+      "alpha_bbox": [
+        0,
+        3,
+        1244,
+        1230
+      ],
+      "shared_with": "SCHREIBTISCH1",
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "STUDIERTISCH",
+      "id": 42,
+      "label": {
+        "de": "Studiertisch",
+        "en": "Study table"
+      },
+      "file": "objects/studiertisch.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "bd46a43df6eee09c0b227a34de932fd4e96bdf38793c76f07f3347be9ac4f887",
+      "alpha_bbox": [
+        0,
+        37,
+        1226,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "MARMORTISCH",
+      "id": 44,
+      "label": {
+        "de": "Marmortisch",
+        "en": "Marble desk"
+      },
+      "file": "objects/marmortisch.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ca24fb35052b87c812764a5dee87e4c0008b0111fb279119c497667a0ed5c701",
+      "alpha_bbox": [
+        0,
+        23,
+        1224,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "GESCHIRR",
+      "id": 46,
+      "label": {
+        "de": "Geschirr",
+        "en": "Dishes"
+      },
+      "file": "objects/geschirr.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "11701d5cbee3e73caf860e99d96879d6fc82b69f91ba18f6975fbb494e2e653e",
+      "alpha_bbox": [
+        33,
+        157,
+        1224,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "HUNDESCHLITTEN",
+      "id": 47,
+      "label": {
+        "de": "Hundeschlitten",
+        "en": "Dog sled"
+      },
+      "file": "objects/hundeschlitten.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "257fb75d041a7fda8d6bb99974336353d105d4a2353e723082455c9a2cd5e3b6",
+      "alpha_bbox": [
+        0,
+        21,
+        1238,
+        1222
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "ZIMMERTUER1",
+      "id": 48,
+      "label": {
+        "de": "Zimmertür",
+        "en": "Room-door"
+      },
+      "file": "objects/zimmertuer1.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "3cdda36073339b780de96daa6d616b800be2bc6554b1c7c21a8cb621a7b3e403",
+      "alpha_bbox": [
+        0,
+        5,
+        1218,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "ZIMMERTUER2",
+      "id": 49,
+      "label": {
+        "de": "Zimmertür",
+        "en": "Room-door"
+      },
+      "file": "objects/zimmertuer1.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "3cdda36073339b780de96daa6d616b800be2bc6554b1c7c21a8cb621a7b3e403",
+      "alpha_bbox": [
+        0,
+        5,
+        1218,
+        1254
+      ],
+      "shared_with": "ZIMMERTUER1",
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "HOLZTUER",
+      "id": 50,
+      "label": {
+        "de": "Holztür",
+        "en": "Door"
+      },
+      "file": "objects/holztuer.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ca6f979791991a73a250677368168ab550ead112c1fb218afbc7beef331a278e",
+      "alpha_bbox": [
+        0,
+        64,
+        1236,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "NORDTUER",
+      "id": 99,
+      "label": {
+        "de": "Nordtür",
+        "en": "N door"
+      },
+      "file": "objects/holztuer.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ca6f979791991a73a250677368168ab550ead112c1fb218afbc7beef331a278e",
+      "alpha_bbox": [
+        0,
+        64,
+        1236,
+        1254
+      ],
+      "shared_with": "HOLZTUER",
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "WESTTUER",
+      "id": 160,
+      "label": {
+        "de": "Westtür",
+        "en": "W door"
+      },
+      "file": "objects/holztuer.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ca6f979791991a73a250677368168ab550ead112c1fb218afbc7beef331a278e",
+      "alpha_bbox": [
+        0,
+        64,
+        1236,
+        1254
+      ],
+      "shared_with": "HOLZTUER",
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "EICHENTUER",
+      "id": 51,
+      "label": {
+        "de": "Eichentür",
+        "en": "Oak door"
+      },
+      "file": "objects/eichentuer.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b6ae8d5987274bcb635a0ebb0dc6a73c4889bf39db4be809df733b983fb34674",
+      "alpha_bbox": [
+        0,
+        0,
+        1230,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "HAUSTUER",
+      "id": 64,
+      "label": {
+        "de": "Haustür",
+        "en": "Door"
+      },
+      "file": "objects/eichentuer.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b6ae8d5987274bcb635a0ebb0dc6a73c4889bf39db4be809df733b983fb34674",
+      "alpha_bbox": [
+        0,
+        0,
+        1230,
+        1254
+      ],
+      "shared_with": "EICHENTUER",
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "TUERKLINKE",
+      "id": 52,
+      "label": {
+        "de": "Türklinke",
+        "en": "Doorknob"
+      },
+      "file": "objects/tuerklinke.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "4293c9c6c04063de4a5ba7db28f3dabb229084f0b07eeebdc9af4100692cb93c",
+      "alpha_bbox": [
+        27,
+        53,
+        1174,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "SCHUBLADEN",
+      "id": 53,
+      "label": {
+        "de": "Schubladen",
+        "en": "Drawers"
+      },
+      "file": "objects/schubladen.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "43970129d0b4a52f329b76821993cb701d3f6346034b904dc27d06468ef6623b",
+      "alpha_bbox": [
+        0,
+        23,
+        1236,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "EREMIT",
+      "id": 54,
+      "label": {
+        "de": "Eremit",
+        "en": "Hermit"
+      },
+      "file": "objects/eremit.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "688c74d8decdf1f65e5352149ff2329ce5531e36c1acdb0a10fb914f84acde8e",
+      "alpha_bbox": [
+        0,
+        19,
+        1251,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        },
+        {
+          "file": "images/Amiga/Disk 1/animations/OldEremit/OldEremit-000.png",
+          "sha256": "bb95eebd7626c49b55b2ad9f72d20142618c16c08582a40629bcc5b8dc9d82ee"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "ORKFRAU",
+      "id": 55,
+      "label": {
+        "de": "Orkfrau",
+        "en": "Orklady"
+      },
+      "file": "objects/orkfrau.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "cb0f18d96746cd6b0b8d33bdd2ede456095dde58bc821769537944347e65b6f7",
+      "alpha_bbox": [
+        0,
+        9,
+        1236,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        },
+        {
+          "file": "images/Amiga/Disk 1/animations/OrcFamily/OrcFamily-000.png",
+          "sha256": "77b07bd0dd612866c6885b24925057dc9eb7f370cac95d8a473b6febaff2e1d1"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "FAEHRMANN",
+      "id": 56,
+      "label": {
+        "de": "Fährmann",
+        "en": "Ferryman"
+      },
+      "file": "objects/faehrmann.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b04c0178636cccfb3e37f7fa86bd19eae78db6b6065aed97e5ff750b123267a8",
+      "alpha_bbox": [
+        0,
+        21,
+        1240,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "PURPURFEUER",
+      "id": 57,
+      "label": {
+        "de": "Purpurfeuer",
+        "en": "Purple fire"
+      },
+      "file": "objects/purpurfeuer.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ffe953fb85206fb7ee383417b28de0e1b936fb4d4f81d1592c99c3bfb64d237b",
+      "alpha_bbox": [
+        0,
+        17,
+        1241,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "FIRON",
+      "id": 58,
+      "label": {
+        "de": "Firon",
+        "en": "Firon"
+      },
+      "file": "objects/firon.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "9b59e63b015e5ac6c37d6fcf6f7e13a785b9c21bc28616dae01c5146cf08e7a4",
+      "alpha_bbox": [
+        0,
+        3,
+        1240,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        },
+        {
+          "file": "images/Amiga/Disk 1/animations/Firon/Firon-000.png",
+          "sha256": "69d638458036f39dd65187ca417212e6b9f76260e66b28cf0db230e7ab16f490"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "EISSCHLUESSEL",
+      "id": 59,
+      "label": {
+        "de": "Eisschlüssel",
+        "en": "Ice key"
+      },
+      "file": "objects/eisschluessel.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "d49a2ec4da0c05119b326b35e35773942d91ba89a259fbd71eb0ea827b7930e6",
+      "alpha_bbox": [
+        0,
+        19,
+        1236,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "WEIHWASSERBECKEN",
+      "id": 60,
+      "label": {
+        "de": "Weihwasserbecken",
+        "en": "Holy water font"
+      },
+      "file": "objects/weihwasserbecken.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c054533a46310c6bb3847c5403aa9e05a0669adb42bb69dc0540d4de845074c1",
+      "alpha_bbox": [
+        0,
+        9,
+        1232,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "IEEEEEEEEE",
+      "id": 61,
+      "label": {
+        "de": "Weihwasserbecken",
+        "en": "Holy water font"
+      },
+      "file": "objects/weihwasserbecken.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c054533a46310c6bb3847c5403aa9e05a0669adb42bb69dc0540d4de845074c1",
+      "alpha_bbox": [
+        0,
+        9,
+        1232,
+        1254
+      ],
+      "shared_with": "WEIHWASSERBECKEN",
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "SPEISEN",
+      "id": 62,
+      "label": {
+        "de": "Speisen",
+        "en": "Food"
+      },
+      "file": "objects/speisen.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "9d668e2eea799166e961115ce4a2d3d5443e3ae20182b84e338da5c2c269a9b9",
+      "alpha_bbox": [
+        25,
+        9,
+        1226,
+        1224
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "HIMMELBETT",
+      "id": 63,
+      "label": {
+        "de": "Himmelbett",
+        "en": "Ornate bed"
+      },
+      "file": "objects/himmelbett.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "8a89f0a86ffe1ddab9ea2cb8f632ffa0f476bd6a1fc24cc1f0a200ca916ca3d0",
+      "alpha_bbox": [
+        0,
+        0,
+        1202,
+        1238
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "FRIEDHOFSTOR1",
+      "id": 65,
+      "label": {
+        "de": "Friedhofstor",
+        "en": "Burial gate"
+      },
+      "file": "objects/friedhofstor1.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "81d014144d62b737e1f29ae792ce8956ee32590d3572a42ad7b11c3375cad54f",
+      "alpha_bbox": [
+        0,
+        29,
+        1240,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "FRIEDHOFSTOR2",
+      "id": 66,
+      "label": {
+        "de": "Friedhofstor",
+        "en": "Burial gate"
+      },
+      "file": "objects/friedhofstor1.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "81d014144d62b737e1f29ae792ce8956ee32590d3572a42ad7b11c3375cad54f",
+      "alpha_bbox": [
+        0,
+        29,
+        1240,
+        1254
+      ],
+      "shared_with": "FRIEDHOFSTOR1",
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "GRAB",
+      "id": 67,
+      "label": {
+        "de": "Grab",
+        "en": "Dig"
+      },
+      "file": "objects/grab.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "78e3b321409d625126caf6eb97a743ed13c364ed4b2b879e95304879c999104e",
+      "alpha_bbox": [
+        0,
+        21,
+        1246,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "GRABSTEIN",
+      "id": 68,
+      "label": {
+        "de": "Grabstein",
+        "en": "Tombstone"
+      },
+      "file": "objects/grabstein.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "a18a7b8af03a16dc0144d412fc32575f98090ee47cd253afcc6031f318826102",
+      "alpha_bbox": [
+        0,
+        9,
+        1240,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "KRAEUTER",
+      "id": 69,
+      "label": {
+        "de": "Kräuter",
+        "en": "Herbs"
+      },
+      "file": "objects/kraeuter.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "aa73bb2828ed1ce8d8518f7a921d03c4a50f9c8d91d999be8f597f80add03cfe",
+      "alpha_bbox": [
+        0,
+        0,
+        1240,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "ERDLOCH",
+      "id": 70,
+      "label": {
+        "de": "Erdloch",
+        "en": "Hole"
+      },
+      "file": "objects/erdloch.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "a4ec4e242da92466c1e03987a97da0bfca67e8d844f1ce0dbc7e8ea60ceb172b",
+      "alpha_bbox": [
+        73,
+        17,
+        1226,
+        1230
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "EISPALAST",
+      "id": 73,
+      "label": {
+        "de": "Eispalast",
+        "en": "Icepalace"
+      },
+      "file": "objects/eispalast.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "dc0ea39769c6f7146b82bd6deae886a15c271a8627eff349fa5da5e48008d308",
+      "alpha_bbox": [
+        0,
+        42,
+        1240,
+        1210
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "EISENSCHLUESSEL",
+      "id": 75,
+      "label": {
+        "de": "Eisenschlüssel",
+        "en": "Iron key"
+      },
+      "file": "objects/eisenschluessel.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "e330ede653ba4f4b66cab5d2a6040c5a1a6086b52ddc7aa3febf9e05a7c24d4a",
+      "alpha_bbox": [
+        0,
+        23,
+        1240,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "JACKSGEIST",
+      "id": 76,
+      "label": {
+        "de": "Jacks Geist",
+        "en": "Jacks Ghost"
+      },
+      "file": "objects/jacksgeist.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "76380912908f6dc7174e8eeb6dc3f846e443736ea560cd3a6a6fbf025feee56e",
+      "alpha_bbox": [
+        0,
+        4,
+        1222,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        },
+        {
+          "file": "images/Amiga/Disk 1/animations/BrotherJack/BrotherJack-000.png",
+          "sha256": "995de2b794fd39a8556881fcd584f64602cdde0c51cefa63ad88b29277f78b2d"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "KESSEL",
+      "id": 78,
+      "label": {
+        "de": "Kessel",
+        "en": "Boiler"
+      },
+      "file": "objects/kessel.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "e490a1b20f50f49c93963f68b4407e03d02090e18137f47473bb345057d57583",
+      "alpha_bbox": [
+        0,
+        15,
+        1220,
+        1230
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "KOENIG",
+      "id": 79,
+      "label": {
+        "de": "König",
+        "en": "King"
+      },
+      "file": "objects/koenig.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "93627847100bd2aa0897c015169c1efb617c420600102b5dc62b82b8caca6808",
+      "alpha_bbox": [
+        0,
+        19,
+        1208,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        },
+        {
+          "file": "images/Amiga/Disk 1/animations/KingRichard/KingRichard-000.png",
+          "sha256": "cc0ccb5324cd736e633a2e451d3c67bbf2a59cef268880420a0e395fe70cd424"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "MESSER",
+      "id": 80,
+      "label": {
+        "de": "Messer",
+        "en": "Knife"
+      },
+      "file": "objects/messer.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b94b6bf5cf8f6d16a80282d6c6b7a1e19a54e409b7b35c5ed2206f629111fb7e",
+      "alpha_bbox": [
+        99,
+        89,
+        1206,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "LABORTUER",
+      "id": 81,
+      "label": {
+        "de": "Labortür",
+        "en": "Lab door"
+      },
+      "file": "objects/labortuer.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "e595da8dae5cb46a37d33833733544788a534e2e69dd07d716f09871f09f3f4c",
+      "alpha_bbox": [
+        0,
+        31,
+        1240,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "LABORSCHLUESSEL",
+      "id": 82,
+      "label": {
+        "de": "Laborschlüssel",
+        "en": "Laboratory key"
+      },
+      "file": "objects/laborschluessel.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ae1b0f57ec36a0c1c0e3d00523ba574b69b405f62cea38798aa730fd8631e53a",
+      "alpha_bbox": [
+        41,
+        19,
+        1234,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "BOOTSSTEG",
+      "id": 83,
+      "label": {
+        "de": "Bootssteg",
+        "en": "Jetty"
+      },
+      "file": "objects/bootssteg.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "d1b6b5b91e2f528aee389ba5aa069a21b4746093a2e263887ad17efd61b9a819",
+      "alpha_bbox": [
+        102,
+        23,
+        1216,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "TORSCHLUESSEL",
+      "id": 84,
+      "label": {
+        "de": "Torschlüssel",
+        "en": "Gate key"
+      },
+      "file": "objects/torschluessel.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "5097297a5cc37cb711b994cfc6a2db18efefe30c913923f809a4a1b4e289b76a",
+      "alpha_bbox": [
+        63,
+        82,
+        1244,
+        1214
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "FALLGITTER1",
+      "id": 85,
+      "label": {
+        "de": "Fallgitter",
+        "en": "Portcullis"
+      },
+      "file": "objects/fallgitter1.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "21e31546431f464b95a822f160fa649a92f066342e2ceda03ce54c1333296afa",
+      "alpha_bbox": [
+        0,
+        2,
+        1240,
+        1228
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "FALLGITTER2",
+      "id": 86,
+      "label": {
+        "de": "Fallgitter",
+        "en": "Portcullis"
+      },
+      "file": "objects/fallgitter1.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "21e31546431f464b95a822f160fa649a92f066342e2ceda03ce54c1333296afa",
+      "alpha_bbox": [
+        0,
+        2,
+        1240,
+        1228
+      ],
+      "shared_with": "FALLGITTER1",
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "GITTERTUER1",
+      "id": 87,
+      "label": {
+        "de": "Gittertür",
+        "en": "Gate door"
+      },
+      "file": "objects/gittertuer1.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "76a53ec03a83f9ad288f02c05ba51ad7fc4fa4754f0a70f9925954afffe08b18",
+      "alpha_bbox": [
+        0,
+        4,
+        1236,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "GITTERTUER2",
+      "id": 88,
+      "label": {
+        "de": "Gittertür",
+        "en": "Gate door"
+      },
+      "file": "objects/gittertuer1.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "76a53ec03a83f9ad288f02c05ba51ad7fc4fa4754f0a70f9925954afffe08b18",
+      "alpha_bbox": [
+        0,
+        4,
+        1236,
+        1254
+      ],
+      "shared_with": "GITTERTUER1",
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "BRIEF",
+      "id": 89,
+      "label": {
+        "de": "Brief",
+        "en": "Mail"
+      },
+      "file": "objects/brief.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b9a874c470135bffb2a980be1730412b41f871feb4cf59a5026e7f9ca76a740d",
+      "alpha_bbox": [
+        0,
+        17,
+        1219,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "ZAUBERTUER",
+      "id": 90,
+      "label": {
+        "de": "Zaubertür",
+        "en": "Magicdoor"
+      },
+      "file": "objects/zaubertuer.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "68276af41863557c7d2a5b06de0efee3cc5bb2ab5aff666564a39c980c9aaba6",
+      "alpha_bbox": [
+        0,
+        23,
+        1210,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "ORKMANN",
+      "id": 91,
+      "label": {
+        "de": "Orkmann",
+        "en": "Ork man"
+      },
+      "file": "objects/orkmann.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "a6ea99ed73da95436820ffebb7076564ddb74973fcb9ac123cd957b168d5865e",
+      "alpha_bbox": [
+        0,
+        19,
+        1234,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        },
+        {
+          "file": "images/Amiga/Disk 1/animations/OrcFamily/OrcFamily-000.png",
+          "sha256": "77b07bd0dd612866c6885b24925057dc9eb7f370cac95d8a473b6febaff2e1d1"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "LAGEPLAN",
+      "id": 92,
+      "label": {
+        "de": "Lageplan",
+        "en": "Siteplan"
+      },
+      "file": "objects/lageplan.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "cd180d4d945f8894886d9f413ede6eda471c13e50550ee20db73ea91fd9e1611",
+      "alpha_bbox": [
+        0,
+        37,
+        1214,
+        1220
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "GRABPLATTE",
+      "id": 93,
+      "label": {
+        "de": "Grabplatte",
+        "en": "Gravestone"
+      },
+      "file": "objects/grabplatte.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c47053e81cf1622ae2b3c828ca2be0522a89e15029e7be4cd4a62e1a144650a8",
+      "alpha_bbox": [
+        0,
+        23,
+        1184,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "SPEISEKARTE",
+      "id": 94,
+      "label": {
+        "de": "Speisekarte",
+        "en": "Menu"
+      },
+      "file": "objects/speisekarte.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "15421b6360c385bc81c7f77c017c430fc8ac9fe40935c77b159c78878b0b0fce",
+      "alpha_bbox": [
+        0,
+        9,
+        1236,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "VOLLMOND",
+      "id": 95,
+      "label": {
+        "de": "Vollmond",
+        "en": "Fullmoon"
+      },
+      "file": "objects/vollmond.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "379bc9a9ca95d1b8292bf2fd61a77368a5ebdd309ef1d7bdfd01ec3f1866eb89",
+      "alpha_bbox": [
+        0,
+        39,
+        1240,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "MUMIEN",
+      "id": 96,
+      "label": {
+        "de": "Mumien",
+        "en": "Mummy"
+      },
+      "file": "objects/mumien.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "00053da05cbfa3c2d4f3b6dffc180a6b1a97ad96e1a84c8e00c04e0dc04398a7",
+      "alpha_bbox": [
+        0,
+        0,
+        1234,
+        1238
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "MYLGOR",
+      "id": 97,
+      "label": {
+        "de": "Mylgor",
+        "en": "Mylgor"
+      },
+      "file": "objects/mylgor.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "82dc1252bd3ac2287f0ecbf437eeac3eea2d17b95ac85142de53cb6525c9f22f",
+      "alpha_bbox": [
+        0,
+        13,
+        1240,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        },
+        {
+          "file": "images/Amiga/Disk 1/animations/Mylgor/Mylgor-000.png",
+          "sha256": "5c3f6f2641bef948e8e49cf0facc6e06dcdcc48dfb9732a78fd8e4e59ee9f81b"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "DORFBEWOHNER",
+      "id": 98,
+      "label": {
+        "de": "Dorfbewohner",
+        "en": "Villager"
+      },
+      "file": "objects/dorfbewohner.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "8db4db24a29a72706e56c3968e6b982c6bc0977f1773cc0e98428132c22f28d7",
+      "alpha_bbox": [
+        0,
+        21,
+        1218,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        },
+        {
+          "file": "images/Amiga/Disk 1/animations/Native/Native-000.png",
+          "sha256": "615f876849d33f97ace32df19a8df725f720056d6fbc1621b250171ba45144b4"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "NOTIZ",
+      "id": 100,
+      "label": {
+        "de": "Notiz",
+        "en": "Note"
+      },
+      "file": "objects/notiz.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "7c00527deadb17079d4e7ad1581c241571655f53bec55f709cd6fd6138506dc7",
+      "alpha_bbox": [
+        0,
+        0,
+        1240,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "ZETTEL",
+      "id": 101,
+      "label": {
+        "de": "Zettel",
+        "en": "Memo"
+      },
+      "file": "objects/zettel.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "351f3f233a87ae9b103eab93484812a97d9ccad8dae5a984b615d27b18988e86",
+      "alpha_bbox": [
+        27,
+        21,
+        1230,
+        1225
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "GEMAELDE1",
+      "id": 102,
+      "label": {
+        "de": "Gemälde",
+        "en": "Drawing"
+      },
+      "file": "objects/gemaelde1.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "990a907e42e3986bdb3b2d31699afb5efc09c0cffb057ea4cdbf7a6627077add",
+      "alpha_bbox": [
+        0,
+        0,
+        1236,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "GEMAELDE2",
+      "id": 103,
+      "label": {
+        "de": "Gemälde",
+        "en": "Drawing"
+      },
+      "file": "objects/gemaelde1.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "990a907e42e3986bdb3b2d31699afb5efc09c0cffb057ea4cdbf7a6627077add",
+      "alpha_bbox": [
+        0,
+        0,
+        1236,
+        1254
+      ],
+      "shared_with": "GEMAELDE1",
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "PAPIER",
+      "id": 104,
+      "label": {
+        "de": "Papier",
+        "en": "Paper"
+      },
+      "file": "objects/papier.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "0ea92afefa6b4b6f208b4d1c29cf011eb4418653fedaacbba7c037da33895a6b",
+      "alpha_bbox": [
+        0,
+        21,
+        1224,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "DRUDENFUSS1",
+      "id": 105,
+      "label": {
+        "de": "Drudenfuß",
+        "en": "Pentagram"
+      },
+      "file": "objects/drudenfuss1.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ef7f5cd6d30b7fd9ca88b039a3be91a404d727b658525c68e3a53acbe992808f",
+      "alpha_bbox": [
+        0,
+        17,
+        1240,
+        1222
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "DRUDENFUSS2",
+      "id": 106,
+      "label": {
+        "de": "Drudenfuß",
+        "en": "Pentagram"
+      },
+      "file": "objects/drudenfuss1.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ef7f5cd6d30b7fd9ca88b039a3be91a404d727b658525c68e3a53acbe992808f",
+      "alpha_bbox": [
+        0,
+        17,
+        1240,
+        1222
+      ],
+      "shared_with": "DRUDENFUSS1",
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "PARFUEM",
+      "id": 107,
+      "label": {
+        "de": "Parfüm",
+        "en": "Scent"
+      },
+      "file": "objects/parfuem.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "bba0fb5a764624444da516cf813c8a75930dd9183e3843de24ded8499c42252f",
+      "alpha_bbox": [
+        33,
+        32,
+        1234,
+        1230
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "PFEIFE",
+      "id": 108,
+      "label": {
+        "de": "Pfeife",
+        "en": "Pipe"
+      },
+      "file": "objects/pfeife.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "3ffca50aebecf73a4b252b23f0a0a00d2120155e9e883932fd910a200604ad09",
+      "alpha_bbox": [
+        0,
+        17,
+        1230,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "PLATTFORM",
+      "id": 109,
+      "label": {
+        "de": "Plattform",
+        "en": "Platform"
+      },
+      "file": "objects/plattform.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "d61975cfe04f0b0155f60291150b26b749b78c5e014bfb2e9f4c592c39678b09",
+      "alpha_bbox": [
+        0,
+        31,
+        1226,
+        1198
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "RATTENGIFT",
+      "id": 110,
+      "label": {
+        "de": "Rattengift",
+        "en": "Rat poison"
+      },
+      "file": "objects/rattengift.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "dcec32392ccf2042d2308892a526f2f5d8c01fbd571abda277499f132348b0b4",
+      "alpha_bbox": [
+        59,
+        69,
+        1184,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "PORTALTOR1",
+      "id": 111,
+      "label": {
+        "de": "Portaltor",
+        "en": "Portal"
+      },
+      "file": "objects/portaltor1.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "59e86112bbc2e890a117a349911360673e4e4298d8b7649dbd7a0a27515c2706",
+      "alpha_bbox": [
+        0,
+        29,
+        1250,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "PORTALTOR2",
+      "id": 112,
+      "label": {
+        "de": "Portaltor",
+        "en": "Portaltor"
+      },
+      "file": "objects/portaltor1.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "59e86112bbc2e890a117a349911360673e4e4298d8b7649dbd7a0a27515c2706",
+      "alpha_bbox": [
+        0,
+        29,
+        1250,
+        1254
+      ],
+      "shared_with": "PORTALTOR1",
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "ELIXIER",
+      "id": 113,
+      "label": {
+        "de": "Elixier",
+        "en": "Elixir"
+      },
+      "file": "objects/elixier.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "409f3ca9c3cd9a369e9b793b9775020d6f04bcff18694ffa5f95defae65f9549",
+      "alpha_bbox": [
+        0,
+        101,
+        1224,
+        1226
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "GEBET",
+      "id": 114,
+      "label": {
+        "de": "Gebet",
+        "en": "Pray"
+      },
+      "file": "objects/gebet.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "62529e4f4173fcbdd5b6700740ea0187e5af376685f6eafb7102fa5ab45dd84f",
+      "alpha_bbox": [
+        49,
+        94,
+        1184,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "RATTEN",
+      "id": 115,
+      "label": {
+        "de": "Ratten",
+        "en": "Rats"
+      },
+      "file": "objects/ratten.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "0fbf6ac1de451be0de40694c670762a5d728df7a120e8eb54e3416e88a2e79c2",
+      "alpha_bbox": [
+        33,
+        19,
+        1228,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "REAGENZIEN",
+      "id": 116,
+      "label": {
+        "de": "Reagenzien",
+        "en": "Reagents"
+      },
+      "file": "objects/reagenzien.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "9592715965c419efd4eb860267fac1a67bb73a7876f80a7bb91bf3322cdf153b",
+      "alpha_bbox": [
+        0,
+        9,
+        1248,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "TRESOR",
+      "id": 118,
+      "label": {
+        "de": "Tresor",
+        "en": "Safe"
+      },
+      "file": "objects/tresor.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "7fc1f10604a3e4583ac39d9ef30c163a5551334eade26f7f0be5370b23a60f8f",
+      "alpha_bbox": [
+        0,
+        9,
+        1240,
+        1222
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "SARKOPHAG",
+      "id": 119,
+      "label": {
+        "de": "Sarkophag",
+        "en": "Casket"
+      },
+      "file": "objects/sarkophag.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "91c2fcfd0189ffaecd66235cec1131156a3fed3c620845e2dd21f386f4c6d036",
+      "alpha_bbox": [
+        0,
+        55,
+        1243,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "UNKNOWN2",
+      "id": 120,
+      "label": {
+        "de": "Zepter",
+        "en": "Scepter"
+      },
+      "file": "objects/unknown2.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "5d69dd7e1ba9a994cb008cd075a27b8c832f2fe10a4e8f6bde6c31b094afd60f",
+      "alpha_bbox": [
+        97,
+        72,
+        1226,
+        1198
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "SCHMIEREREIEN",
+      "id": 121,
+      "label": {
+        "de": "Schmierereien",
+        "en": "Graffiti"
+      },
+      "file": "objects/schmierereien.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "443744c0b05635ebd409aae15ff0923ecea456ac4711b15b90a0625548c64103",
+      "alpha_bbox": [
+        0,
+        0,
+        1240,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "VERKAEUFER",
+      "id": 122,
+      "label": {
+        "de": "Verkäufer",
+        "en": "Salesman"
+      },
+      "file": "objects/verkaeufer.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "8e926c01b0f464f92c7356347f1805437615f4f4d4137875e1f9fe946ea332d1",
+      "alpha_bbox": [
+        0,
+        33,
+        1234,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        },
+        {
+          "file": "images/Amiga/Disk 1/animations/Seller/Seller-000.png",
+          "sha256": "fb23d6f0b74bb52eebf849382c4f4048de9efcecdefd749b9a4d57fbdb8a3053"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "VORRATSREGALE",
+      "id": 123,
+      "label": {
+        "de": "Vorratsregale",
+        "en": "Pantry shelf"
+      },
+      "file": "objects/vorratsregale.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "4fea1326de09f31315015f650daab3cade640e5f95bf17c2b84ebe0ea5b1c535",
+      "alpha_bbox": [
+        57,
+        0,
+        1253,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "BAUMWOLLHEMD",
+      "id": 125,
+      "label": {
+        "de": "Baumwollhemd",
+        "en": "Cotton shirt"
+      },
+      "file": "objects/baumwollhemd.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "4577ae2f49163e98bb86030d9949b2a6d142ba47dd234a048b9367a4a58ef620",
+      "alpha_bbox": [
+        0,
+        39,
+        1234,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "WARNSCHILD",
+      "id": 129,
+      "label": {
+        "de": "Warnschild",
+        "en": "Warning"
+      },
+      "file": "objects/warnschild.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "4511ba1738f9911f18d59fb18243eeb3ae6693fb05648c263b87609a86227367",
+      "alpha_bbox": [
+        0,
+        17,
+        1234,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "SILBER",
+      "id": 130,
+      "label": {
+        "de": "Silber",
+        "en": "Silver"
+      },
+      "file": "objects/silber.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "dacff0aa064016a1ca42fca604e547c2596c786d4f59c3124b2d12306ade61aa",
+      "alpha_bbox": [
+        0,
+        0,
+        1253,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "SKELETT1",
+      "id": 131,
+      "label": {
+        "de": "Skelett",
+        "en": "Skelly"
+      },
+      "file": "objects/skelett1.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "bec72d0a31db9e1895477d9ace06dec22b2a5f82509d932f1390561746a6301d",
+      "alpha_bbox": [
+        0,
+        21,
+        1232,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "SKELETT2",
+      "id": 132,
+      "label": {
+        "de": "Skelett",
+        "en": "Skelly"
+      },
+      "file": "objects/skelett1.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "bec72d0a31db9e1895477d9ace06dec22b2a5f82509d932f1390561746a6301d",
+      "alpha_bbox": [
+        0,
+        21,
+        1232,
+        1254
+      ],
+      "shared_with": "SKELETT1",
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "TOTENSCHAEDEL",
+      "id": 133,
+      "label": {
+        "de": "Totenschädel",
+        "en": "Skull"
+      },
+      "file": "objects/totenschaedel.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "9406562930caa49a7888748e59397ec8682fc743e3ad8efc0a2c4e0c71028240",
+      "alpha_bbox": [
+        0,
+        9,
+        1240,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "HIMMEL",
+      "id": 134,
+      "label": {
+        "de": "Himmel",
+        "en": "Heaven"
+      },
+      "file": "objects/himmel.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "0b4749acc2d516b404536962d3602f0a067cc831cac2fb55825f38b7eee636f9",
+      "alpha_bbox": [
+        0,
+        20,
+        1244,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "SLOT",
+      "id": 135,
+      "label": {
+        "de": "Slot",
+        "en": "Slot"
+      },
+      "file": "objects/slot.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "bfbd90021f723dc59bd0134be3f570d877a734386d969aa95e733a895040ddfe",
+      "alpha_bbox": [
+        0,
+        0,
+        1240,
+        1214
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "ZAUBERSPRUCH",
+      "id": 136,
+      "label": {
+        "de": "Zauberspruch",
+        "en": "Magic spell"
+      },
+      "file": "objects/zauberspruch.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "3a1f17e34c56d7810f5a358edffe5f6b6de856422e3717e9aebaf64cb2c9800d",
+      "alpha_bbox": [
+        0,
+        7,
+        1220,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "QUELLE",
+      "id": 137,
+      "label": {
+        "de": "Quelle",
+        "en": "Source"
+      },
+      "file": "objects/quelle.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "24aac1a3c3e4e799a340763fdc18d5b4c14470939c6dad11ac4aade0226feae0",
+      "alpha_bbox": [
+        0,
+        17,
+        1240,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "KRIEGERSTATUE",
+      "id": 138,
+      "label": {
+        "de": "Kriegerstatue",
+        "en": "Warriorstatue"
+      },
+      "file": "objects/kriegerstatue.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "d7dae68021d9548d8bcdec730fc183759951f589809b37d0be23e13dbd7f0b4d",
+      "alpha_bbox": [
+        23,
+        49,
+        1222,
+        1214
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "STAHLTUER1",
+      "id": 139,
+      "label": {
+        "de": "Stahltür",
+        "en": "Lab door"
+      },
+      "file": "objects/stahltuer1.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "880ca08e33ad416618cb198d0c9314bfd1591527e3e04ca74ffa0ceeadf320cc",
+      "alpha_bbox": [
+        0,
+        23,
+        1224,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "STAHLTUER2",
+      "id": 140,
+      "label": {
+        "de": "Stahltür",
+        "en": "Stl door"
+      },
+      "file": "objects/stahltuer1.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "880ca08e33ad416618cb198d0c9314bfd1591527e3e04ca74ffa0ceeadf320cc",
+      "alpha_bbox": [
+        0,
+        23,
+        1224,
+        1254
+      ],
+      "shared_with": "STAHLTUER1",
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "STAHLTUER3",
+      "id": 141,
+      "label": {
+        "de": "Stahltür",
+        "en": "Stl door"
+      },
+      "file": "objects/stahltuer1.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "880ca08e33ad416618cb198d0c9314bfd1591527e3e04ca74ffa0ceeadf320cc",
+      "alpha_bbox": [
+        0,
+        23,
+        1224,
+        1254
+      ],
+      "shared_with": "STAHLTUER1",
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "KURZSCHWERT",
+      "id": 142,
+      "label": {
+        "de": "Kurzschwert",
+        "en": "Short sword"
+      },
+      "file": "objects/kurzschwert.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "67cefb7aadaa7ffae2a495db1753be418b58ace37adc56265e7c9019a3ffc95b",
+      "alpha_bbox": [
+        57,
+        75,
+        1178,
+        1214
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "TISCH",
+      "id": 144,
+      "label": {
+        "de": "Tisch",
+        "en": "Table"
+      },
+      "file": "objects/tisch.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "f41d7159a9d62983729f11397498e0624bc6142895f24769bbed9ea583028ce3",
+      "alpha_bbox": [
+        25,
+        25,
+        1238,
+        1232
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "ESSTISCH1",
+      "id": 145,
+      "label": {
+        "de": "Eßtisch",
+        "en": "Table"
+      },
+      "file": "objects/esstisch1.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "75f6c2379b7b2872f1b4c1086aa1c429c4595beea6c46e960a5c14aab6ef9c79",
+      "alpha_bbox": [
+        0,
+        71,
+        1232,
+        1232
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "ESSTISCH2",
+      "id": 146,
+      "label": {
+        "de": "Eßtisch",
+        "en": "Table"
+      },
+      "file": "objects/esstisch1.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "75f6c2379b7b2872f1b4c1086aa1c429c4595beea6c46e960a5c14aab6ef9c79",
+      "alpha_bbox": [
+        0,
+        71,
+        1232,
+        1232
+      ],
+      "shared_with": "ESSTISCH1",
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "PURPURMANTEL",
+      "id": 147,
+      "label": {
+        "de": "Purpurmantel",
+        "en": "Purple cloak"
+      },
+      "file": "objects/purpurmantel.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "a6f3ad84f1fb02ae028f17f3ad2315a9b5f2b0923d3e9baac855b7a80065fc36",
+      "alpha_bbox": [
+        0,
+        19,
+        1240,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "HOSE",
+      "id": 148,
+      "label": {
+        "de": "Hose",
+        "en": "Pant"
+      },
+      "file": "objects/hose.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "4d5e416813292274f0b68e1e69699c7715e13b8e6c171253d5f41094e3d3d13f",
+      "alpha_bbox": [
+        0,
+        39,
+        1210,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "BAUMSTAMM1",
+      "id": 149,
+      "label": {
+        "de": "Baumstamm",
+        "en": "Treetrunk"
+      },
+      "file": "objects/baumstamm1.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "9b10a2e6907fe13a190621db928fca22c78d9b4563bbb28c9ba82c4ab38261b7",
+      "alpha_bbox": [
+        0,
+        23,
+        1242,
+        1238
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "BAUMSTAMM2",
+      "id": 150,
+      "label": {
+        "de": "Baumstamm",
+        "en": "Treetrunk"
+      },
+      "file": "objects/baumstamm1.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "9b10a2e6907fe13a190621db928fca22c78d9b4563bbb28c9ba82c4ab38261b7",
+      "alpha_bbox": [
+        0,
+        23,
+        1242,
+        1238
+      ],
+      "shared_with": "BAUMSTAMM1",
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "EINHORN",
+      "id": 152,
+      "label": {
+        "de": "Einhorn",
+        "en": "Unicorn"
+      },
+      "file": "objects/einhorn.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "6d084646626f1e4eba11880f60f4b8c9d7eacc0d89c0499871e14d265cbe0cc4",
+      "alpha_bbox": [
+        59,
+        47,
+        1240,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "KAYSSCHLUESSEL",
+      "id": 153,
+      "label": {
+        "de": "Kays Schlüssel",
+        "en": "Kays key"
+      },
+      "file": "objects/kaysschluessel.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "f4b40637858e205fb34ab3816969d00d94133180a5448f31dfdf6d240f728dc9",
+      "alpha_bbox": [
+        23,
+        23,
+        1232,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "KLEIDERSCHRANK",
+      "id": 154,
+      "label": {
+        "de": "Kleiderschrank",
+        "en": "Wardrobe"
+      },
+      "file": "objects/kleiderschrank.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c7c024fd63b37b9612326328944f5b9c96237f5ae21f7e80d5ed3194dc5dbec6",
+      "alpha_bbox": [
+        0,
+        19,
+        1240,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "WEIHWASSER",
+      "id": 155,
+      "label": {
+        "de": "Weihwasser",
+        "en": "Holy water"
+      },
+      "file": "objects/weihwasser.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "1e9ac1f93781b8aea985a75df1f97439634573d2929a46f9e6cc70c56b4e46b7",
+      "alpha_bbox": [
+        0,
+        30,
+        1198,
+        1230
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "WASSERFALL1",
+      "id": 156,
+      "label": {
+        "de": "Wasserfall",
+        "en": "Waterfall"
+      },
+      "file": "objects/wasserfall1.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "9819cfe45ee08434df642e0bab06bb09eb6b882de1249ca778844a1a0db805df",
+      "alpha_bbox": [
+        0,
+        3,
+        1253,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "WASSERFALL2",
+      "id": 157,
+      "label": {
+        "de": "Wasserfall",
+        "en": "Wasserfall"
+      },
+      "file": "objects/wasserfall1.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "9819cfe45ee08434df642e0bab06bb09eb6b882de1249ca778844a1a0db805df",
+      "alpha_bbox": [
+        0,
+        3,
+        1253,
+        1254
+      ],
+      "shared_with": "WASSERFALL1",
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "WAFFEN",
+      "id": 158,
+      "label": {
+        "de": "Waffen",
+        "en": "Weapon"
+      },
+      "file": "objects/waffen.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c9c1c588cf9e06a14edce615d95ba1ae3ebd320c0cff62749815b1e5390b91e2",
+      "alpha_bbox": [
+        27,
+        29,
+        1236,
+        1222
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "WERWOLF",
+      "id": 159,
+      "label": {
+        "de": "Werwolf",
+        "en": "Werwolf"
+      },
+      "file": "objects/werwolf.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c4682d4f32b615bd40321fa93b4e0978abe3be0283af3a583cea050fe33d7f19",
+      "alpha_bbox": [
+        0,
+        21,
+        1230,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "WOLF",
+      "id": 161,
+      "label": {
+        "de": "Wolf",
+        "en": "Wolf"
+      },
+      "file": "objects/wolf.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "d0beee3a1dd9036758fb5199cfc1a6fb24f43453f9b13625b4f634c9ffd6eb2f",
+      "alpha_bbox": [
+        0,
+        19,
+        1251,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "YETI",
+      "id": 162,
+      "label": {
+        "de": "Yeti",
+        "en": "Yeti"
+      },
+      "file": "objects/yeti.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "52dccc7c986bd80042c23cf3314b368c0ddc38651ae57ce7dc7ec0de0760d4bc",
+      "alpha_bbox": [
+        0,
+        19,
+        1236,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        },
+        {
+          "file": "images/Amiga/Disk 1/animations/Yeti/Yeti-000.png",
+          "sha256": "fff10b161a5c96edd4f3c75acba8783a095e14237deb27d34f7b6b3c673f7c3c"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "ZARGON",
+      "id": 164,
+      "label": {
+        "de": "Zargon",
+        "en": "Zargon"
+      },
+      "file": "objects/zargon.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "e21074faf1b5b3b3607e1abc4efc07bf7a452d8774aaab26293bb1426aa17116",
+      "alpha_bbox": [
+        0,
+        21,
+        1253,
+        1254
+      ],
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        },
+        {
+          "file": "images/Amiga/Disk 1/animations/Zargon/Zargon-000.png",
+          "sha256": "8c4a3f3f132839dcb79538b73445656a028e3197e19b960b46c8aa3bd0794640"
+        }
+      ]
+    },
+    {
+      "kind": "objects",
+      "symbol": "OBJECT_165",
+      "id": 165,
+      "label": {
+        "de": "Zombie",
+        "en": "Zombie"
+      },
+      "file": "objects/object_165.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "886d9cd367cd41663ff9d940fc76e1b3c0dd8a86b4d78ab18c5029c02584c852",
+      "alpha_bbox": [
+        0,
+        19,
+        1230,
+        1254
+      ],
+      "id_source": "objectDisplayNames[165] (no enum symbol)",
+      "date": "2026-10-28",
+      "style_references": [
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        },
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        }
+      ]
+    }
+  ]
+}

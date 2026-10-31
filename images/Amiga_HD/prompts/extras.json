@@ -1,0 +1,226 @@
+{
+  "scenes": [
+    {
+      "id": "Story1-01",
+      "disk": 1,
+      "title": "Buch und Kerzen",
+      "source": "images/Amiga/Disk 1/Story1.png",
+      "crop": [
+        0,
+        0,
+        240,
+        58
+      ],
+      "vertical_scale": 2,
+      "input_width": 240,
+      "input_height": 116,
+      "prompt": "Use case: style-transfer.\nAsset type: high-resolution background for the Soul Crystal adventure game.\nImage 1 is the EDIT TARGET and the sole authority for content, exact scene layout, perspective, framing, object placement, silhouettes, and dominant colors. It has ALREADY been aspect-corrected from 240x58 to 240x116 using nearest-neighbor vertical doubling. Do not stretch it further.\nImages 2 and 3 are approved STYLE REFERENCES ONLY (hotel reception and landscape). Do not import their objects or scenery into this scene.\nPrimary request: faithfully repaint Image 1 in the same rich, polished hand-painted classic adventure-game style as the approved samples. Detailed brushwork, readable shapes, warm highlights where appropriate, saturated but faithful source palette, believable surfaces, no pixel blocks or dithering. Preserve the mood and lighting of this particular scene even when it differs from the references.\nOutput one panoramic 2.068966:1 image, target 2048x990 pixels, full bleed. No borders, collage, before/after comparison, UI, captions or watermarks. Not photographic and not a 3D render. No newly invented characters, props, exits, architecture or narrative elements; preserve all visible existing objects. Where a tiny detail is ambiguous, keep it simple instead of inventing ornate content.\nScene-specific invariants: Faithfully preserve this small illustration from the intro, including every depicted person and object. Keep only the panel artwork; do not add story paragraphs, invented words or decorative borders. If the first panel has the heading DIE STORY, retain that heading exactly."
+    },
+    {
+      "id": "Story1-02",
+      "disk": 1,
+      "title": "Gepackte Koffer",
+      "source": "images/Amiga/Disk 1/Story1.png",
+      "crop": [
+        400,
+        70,
+        240,
+        58
+      ],
+      "vertical_scale": 2,
+      "input_width": 240,
+      "input_height": 116,
+      "prompt": "Use case: style-transfer.\nAsset type: high-resolution background for the Soul Crystal adventure game.\nImage 1 is the EDIT TARGET and the sole authority for content, exact scene layout, perspective, framing, object placement, silhouettes, and dominant colors. It has ALREADY been aspect-corrected from 240x58 to 240x116 using nearest-neighbor vertical doubling. Do not stretch it further.\nImages 2 and 3 are approved STYLE REFERENCES ONLY (hotel reception and landscape). Do not import their objects or scenery into this scene.\nPrimary request: faithfully repaint Image 1 in the same rich, polished hand-painted classic adventure-game style as the approved samples. Detailed brushwork, readable shapes, warm highlights where appropriate, saturated but faithful source palette, believable surfaces, no pixel blocks or dithering. Preserve the mood and lighting of this particular scene even when it differs from the references.\nOutput one panoramic 2.068966:1 image, target 2048x990 pixels, full bleed. No borders, collage, before/after comparison, UI, captions or watermarks. Not photographic and not a 3D render. No newly invented characters, props, exits, architecture or narrative elements; preserve all visible existing objects. Where a tiny detail is ambiguous, keep it simple instead of inventing ornate content.\nScene-specific invariants: Faithfully preserve this small illustration from the intro, including every depicted person and object. Keep only the panel artwork; do not add story paragraphs, invented words or decorative borders. If the first panel has the heading DIE STORY, retain that heading exactly."
+    },
+    {
+      "id": "Story1-03",
+      "disk": 1,
+      "title": "Abschied am Zug",
+      "source": "images/Amiga/Disk 1/Story1.png",
+      "crop": [
+        0,
+        140,
+        240,
+        58
+      ],
+      "vertical_scale": 2,
+      "input_width": 240,
+      "input_height": 116,
+      "prompt": "Use case: style-transfer.\nAsset type: high-resolution background for the Soul Crystal adventure game.\nImage 1 is the EDIT TARGET and the sole authority for content, exact scene layout, perspective, framing, object placement, silhouettes, and dominant colors. It has ALREADY been aspect-corrected from 240x58 to 240x116 using nearest-neighbor vertical doubling. Do not stretch it further.\nImages 2 and 3 are approved STYLE REFERENCES ONLY (hotel reception and landscape). Do not import their objects or scenery into this scene.\nPrimary request: faithfully repaint Image 1 in the same rich, polished hand-painted classic adventure-game style as the approved samples. Detailed brushwork, readable shapes, warm highlights where appropriate, saturated but faithful source palette, believable surfaces, no pixel blocks or dithering. Preserve the mood and lighting of this particular scene even when it differs from the references.\nOutput one panoramic 2.068966:1 image, target 2048x990 pixels, full bleed. No borders, collage, before/after comparison, UI, captions or watermarks. Not photographic and not a 3D render. No newly invented characters, props, exits, architecture or narrative elements; preserve all visible existing objects. Where a tiny detail is ambiguous, keep it simple instead of inventing ornate content.\nScene-specific invariants: Faithfully preserve this small illustration from the intro, including every depicted person and object. Keep only the panel artwork; do not add story paragraphs, invented words or decorative borders. If the first panel has the heading DIE STORY, retain that heading exactly."
+    },
+    {
+      "id": "Story2-01",
+      "disk": 1,
+      "title": "Paar vor einem Schaufenster",
+      "source": "images/Amiga/Disk 1/Story2.png",
+      "crop": [
+        400,
+        0,
+        240,
+        58
+      ],
+      "vertical_scale": 2,
+      "input_width": 240,
+      "input_height": 116,
+      "prompt": "Use case: style-transfer.\nAsset type: high-resolution background for the Soul Crystal adventure game.\nImage 1 is the EDIT TARGET and the sole authority for content, exact scene layout, perspective, framing, object placement, silhouettes, and dominant colors. It has ALREADY been aspect-corrected from 240x58 to 240x116 using nearest-neighbor vertical doubling. Do not stretch it further.\nImages 2 and 3 are approved STYLE REFERENCES ONLY (hotel reception and landscape). Do not import their objects or scenery into this scene.\nPrimary request: faithfully repaint Image 1 in the same rich, polished hand-painted classic adventure-game style as the approved samples. Detailed brushwork, readable shapes, warm highlights where appropriate, saturated but faithful source palette, believable surfaces, no pixel blocks or dithering. Preserve the mood and lighting of this particular scene even when it differs from the references.\nOutput one panoramic 2.068966:1 image, target 2048x990 pixels, full bleed. No borders, collage, before/after comparison, UI, captions or watermarks. Not photographic and not a 3D render. No newly invented characters, props, exits, architecture or narrative elements; preserve all visible existing objects. Where a tiny detail is ambiguous, keep it simple instead of inventing ornate content.\nScene-specific invariants: Faithfully preserve this small illustration from the intro, including every depicted person and object. Keep only the panel artwork; do not add story paragraphs, invented words or decorative borders. If the first panel has the heading DIE STORY, retain that heading exactly."
+    },
+    {
+      "id": "Story2-02",
+      "disk": 1,
+      "title": "Die Eltern",
+      "source": "images/Amiga/Disk 1/Story2.png",
+      "crop": [
+        0,
+        70,
+        240,
+        58
+      ],
+      "vertical_scale": 2,
+      "input_width": 240,
+      "input_height": 116,
+      "prompt": "Use case: style-transfer.\nAsset type: high-resolution background for the Soul Crystal adventure game.\nImage 1 is the EDIT TARGET and the sole authority for content, exact scene layout, perspective, framing, object placement, silhouettes, and dominant colors. It has ALREADY been aspect-corrected from 240x58 to 240x116 using nearest-neighbor vertical doubling. Do not stretch it further.\nImages 2 and 3 are approved STYLE REFERENCES ONLY (hotel reception and landscape). Do not import their objects or scenery into this scene.\nPrimary request: faithfully repaint Image 1 in the same rich, polished hand-painted classic adventure-game style as the approved samples. Detailed brushwork, readable shapes, warm highlights where appropriate, saturated but faithful source palette, believable surfaces, no pixel blocks or dithering. Preserve the mood and lighting of this particular scene even when it differs from the references.\nOutput one panoramic 2.068966:1 image, target 2048x990 pixels, full bleed. No borders, collage, before/after comparison, UI, captions or watermarks. Not photographic and not a 3D render. No newly invented characters, props, exits, architecture or narrative elements; preserve all visible existing objects. Where a tiny detail is ambiguous, keep it simple instead of inventing ornate content.\nScene-specific invariants: Faithfully preserve this small illustration from the intro, including every depicted person and object. Keep only the panel artwork; do not add story paragraphs, invented words or decorative borders. If the first panel has the heading DIE STORY, retain that heading exactly."
+    },
+    {
+      "id": "Story2-03",
+      "disk": 1,
+      "title": "Gespräch auf dem Sofa",
+      "source": "images/Amiga/Disk 1/Story2.png",
+      "crop": [
+        400,
+        140,
+        240,
+        58
+      ],
+      "vertical_scale": 2,
+      "input_width": 240,
+      "input_height": 116,
+      "prompt": "Use case: style-transfer.\nAsset type: high-resolution background for the Soul Crystal adventure game.\nImage 1 is the EDIT TARGET and the sole authority for content, exact scene layout, perspective, framing, object placement, silhouettes, and dominant colors. It has ALREADY been aspect-corrected from 240x58 to 240x116 using nearest-neighbor vertical doubling. Do not stretch it further.\nImages 2 and 3 are approved STYLE REFERENCES ONLY (hotel reception and landscape). Do not import their objects or scenery into this scene.\nPrimary request: faithfully repaint Image 1 in the same rich, polished hand-painted classic adventure-game style as the approved samples. Detailed brushwork, readable shapes, warm highlights where appropriate, saturated but faithful source palette, believable surfaces, no pixel blocks or dithering. Preserve the mood and lighting of this particular scene even when it differs from the references.\nOutput one panoramic 2.068966:1 image, target 2048x990 pixels, full bleed. No borders, collage, before/after comparison, UI, captions or watermarks. Not photographic and not a 3D render. No newly invented characters, props, exits, architecture or narrative elements; preserve all visible existing objects. Where a tiny detail is ambiguous, keep it simple instead of inventing ornate content.\nScene-specific invariants: Faithfully preserve this small illustration from the intro, including every depicted person and object. Keep only the panel artwork; do not add story paragraphs, invented words or decorative borders. If the first panel has the heading DIE STORY, retain that heading exactly."
+    },
+    {
+      "id": "Story3-01",
+      "disk": 1,
+      "title": "See und Berge",
+      "source": "images/Amiga/Disk 1/Story3.png",
+      "crop": [
+        0,
+        0,
+        240,
+        58
+      ],
+      "vertical_scale": 2,
+      "input_width": 240,
+      "input_height": 116,
+      "prompt": "Use case: style-transfer.\nAsset type: high-resolution background for the Soul Crystal adventure game.\nImage 1 is the EDIT TARGET and the sole authority for content, exact scene layout, perspective, framing, object placement, silhouettes, and dominant colors. It has ALREADY been aspect-corrected from 240x58 to 240x116 using nearest-neighbor vertical doubling. Do not stretch it further.\nImages 2 and 3 are approved STYLE REFERENCES ONLY (hotel reception and landscape). Do not import their objects or scenery into this scene.\nPrimary request: faithfully repaint Image 1 in the same rich, polished hand-painted classic adventure-game style as the approved samples. Detailed brushwork, readable shapes, warm highlights where appropriate, saturated but faithful source palette, believable surfaces, no pixel blocks or dithering. Preserve the mood and lighting of this particular scene even when it differs from the references.\nOutput one panoramic 2.068966:1 image, target 2048x990 pixels, full bleed. No borders, collage, before/after comparison, UI, captions or watermarks. Not photographic and not a 3D render. No newly invented characters, props, exits, architecture or narrative elements; preserve all visible existing objects. Where a tiny detail is ambiguous, keep it simple instead of inventing ornate content.\nScene-specific invariants: Faithfully preserve this small illustration from the intro, including every depicted person and object. Keep only the panel artwork; do not add story paragraphs, invented words or decorative borders. If the first panel has the heading DIE STORY, retain that heading exactly."
+    },
+    {
+      "id": "Story3-02",
+      "disk": 1,
+      "title": "An der Bar",
+      "source": "images/Amiga/Disk 1/Story3.png",
+      "crop": [
+        400,
+        70,
+        240,
+        58
+      ],
+      "vertical_scale": 2,
+      "input_width": 240,
+      "input_height": 116,
+      "prompt": "Use case: style-transfer.\nAsset type: high-resolution background for the Soul Crystal adventure game.\nImage 1 is the EDIT TARGET and the sole authority for content, exact scene layout, perspective, framing, object placement, silhouettes, and dominant colors. It has ALREADY been aspect-corrected from 240x58 to 240x116 using nearest-neighbor vertical doubling. Do not stretch it further.\nImages 2 and 3 are approved STYLE REFERENCES ONLY (hotel reception and landscape). Do not import their objects or scenery into this scene.\nPrimary request: faithfully repaint Image 1 in the same rich, polished hand-painted classic adventure-game style as the approved samples. Detailed brushwork, readable shapes, warm highlights where appropriate, saturated but faithful source palette, believable surfaces, no pixel blocks or dithering. Preserve the mood and lighting of this particular scene even when it differs from the references.\nOutput one panoramic 2.068966:1 image, target 2048x990 pixels, full bleed. No borders, collage, before/after comparison, UI, captions or watermarks. Not photographic and not a 3D render. No newly invented characters, props, exits, architecture or narrative elements; preserve all visible existing objects. Where a tiny detail is ambiguous, keep it simple instead of inventing ornate content.\nScene-specific invariants: Faithfully preserve this small illustration from the intro, including every depicted person and object. Keep only the panel artwork; do not add story paragraphs, invented words or decorative borders. If the first panel has the heading DIE STORY, retain that heading exactly."
+    },
+    {
+      "id": "Story3-03",
+      "disk": 1,
+      "title": "Eintrag ins Gästebuch",
+      "source": "images/Amiga/Disk 1/Story3.png",
+      "crop": [
+        0,
+        140,
+        240,
+        58
+      ],
+      "vertical_scale": 2,
+      "input_width": 240,
+      "input_height": 116,
+      "prompt": "Use case: style-transfer.\nAsset type: high-resolution background for the Soul Crystal adventure game.\nImage 1 is the EDIT TARGET and the sole authority for content, exact scene layout, perspective, framing, object placement, silhouettes, and dominant colors. It has ALREADY been aspect-corrected from 240x58 to 240x116 using nearest-neighbor vertical doubling. Do not stretch it further.\nImages 2 and 3 are approved STYLE REFERENCES ONLY (hotel reception and landscape). Do not import their objects or scenery into this scene.\nPrimary request: faithfully repaint Image 1 in the same rich, polished hand-painted classic adventure-game style as the approved samples. Detailed brushwork, readable shapes, warm highlights where appropriate, saturated but faithful source palette, believable surfaces, no pixel blocks or dithering. Preserve the mood and lighting of this particular scene even when it differs from the references.\nOutput one panoramic 2.068966:1 image, target 2048x990 pixels, full bleed. No borders, collage, before/after comparison, UI, captions or watermarks. Not photographic and not a 3D render. No newly invented characters, props, exits, architecture or narrative elements; preserve all visible existing objects. Where a tiny detail is ambiguous, keep it simple instead of inventing ornate content.\nScene-specific invariants: Faithfully preserve this small illustration from the intro, including every depicted person and object. Keep only the panel artwork; do not add story paragraphs, invented words or decorative borders. If the first panel has the heading DIE STORY, retain that heading exactly."
+    },
+    {
+      "id": "Story4-01",
+      "disk": 1,
+      "title": "Armbanduhr",
+      "source": "images/Amiga/Disk 1/Story4.png",
+      "crop": [
+        400,
+        0,
+        240,
+        58
+      ],
+      "vertical_scale": 2,
+      "input_width": 240,
+      "input_height": 116,
+      "prompt": "Use case: style-transfer.\nAsset type: high-resolution background for the Soul Crystal adventure game.\nImage 1 is the EDIT TARGET and the sole authority for content, exact scene layout, perspective, framing, object placement, silhouettes, and dominant colors. It has ALREADY been aspect-corrected from 240x58 to 240x116 using nearest-neighbor vertical doubling. Do not stretch it further.\nImages 2 and 3 are approved STYLE REFERENCES ONLY (hotel reception and landscape). Do not import their objects or scenery into this scene.\nPrimary request: faithfully repaint Image 1 in the same rich, polished hand-painted classic adventure-game style as the approved samples. Detailed brushwork, readable shapes, warm highlights where appropriate, saturated but faithful source palette, believable surfaces, no pixel blocks or dithering. Preserve the mood and lighting of this particular scene even when it differs from the references.\nOutput one panoramic 2.068966:1 image, target 2048x990 pixels, full bleed. No borders, collage, before/after comparison, UI, captions or watermarks. Not photographic and not a 3D render. No newly invented characters, props, exits, architecture or narrative elements; preserve all visible existing objects. Where a tiny detail is ambiguous, keep it simple instead of inventing ornate content.\nScene-specific invariants: Faithfully preserve this small illustration from the intro, including every depicted person and object. Keep only the panel artwork; do not add story paragraphs, invented words or decorative borders. If the first panel has the heading DIE STORY, retain that heading exactly."
+    },
+    {
+      "id": "Story4-02",
+      "disk": 1,
+      "title": "Zimmerschlüssel",
+      "source": "images/Amiga/Disk 1/Story4.png",
+      "crop": [
+        0,
+        70,
+        240,
+        58
+      ],
+      "vertical_scale": 2,
+      "input_width": 240,
+      "input_height": 116,
+      "prompt": "Use case: style-transfer.\nAsset type: high-resolution background for the Soul Crystal adventure game.\nImage 1 is the EDIT TARGET and the sole authority for content, exact scene layout, perspective, framing, object placement, silhouettes, and dominant colors. It has ALREADY been aspect-corrected from 240x58 to 240x116 using nearest-neighbor vertical doubling. Do not stretch it further.\nImages 2 and 3 are approved STYLE REFERENCES ONLY (hotel reception and landscape). Do not import their objects or scenery into this scene.\nPrimary request: faithfully repaint Image 1 in the same rich, polished hand-painted classic adventure-game style as the approved samples. Detailed brushwork, readable shapes, warm highlights where appropriate, saturated but faithful source palette, believable surfaces, no pixel blocks or dithering. Preserve the mood and lighting of this particular scene even when it differs from the references.\nOutput one panoramic 2.068966:1 image, target 2048x990 pixels, full bleed. No borders, collage, before/after comparison, UI, captions or watermarks. Not photographic and not a 3D render. No newly invented characters, props, exits, architecture or narrative elements; preserve all visible existing objects. Where a tiny detail is ambiguous, keep it simple instead of inventing ornate content.\nScene-specific invariants: Faithfully preserve this small illustration from the intro, including every depicted person and object. Keep only the panel artwork; do not add story paragraphs, invented words or decorative borders. If the first panel has the heading DIE STORY, retain that heading exactly."
+    },
+    {
+      "id": "Story4-03",
+      "disk": 1,
+      "title": "Schottland am Abend",
+      "source": "images/Amiga/Disk 1/Story4.png",
+      "crop": [
+        400,
+        140,
+        240,
+        58
+      ],
+      "vertical_scale": 2,
+      "input_width": 240,
+      "input_height": 116,
+      "prompt": "Use case: style-transfer.\nAsset type: high-resolution background for the Soul Crystal adventure game.\nImage 1 is the EDIT TARGET and the sole authority for content, exact scene layout, perspective, framing, object placement, silhouettes, and dominant colors. It has ALREADY been aspect-corrected from 240x58 to 240x116 using nearest-neighbor vertical doubling. Do not stretch it further.\nImages 2 and 3 are approved STYLE REFERENCES ONLY (hotel reception and landscape). Do not import their objects or scenery into this scene.\nPrimary request: faithfully repaint Image 1 in the same rich, polished hand-painted classic adventure-game style as the approved samples. Detailed brushwork, readable shapes, warm highlights where appropriate, saturated but faithful source palette, believable surfaces, no pixel blocks or dithering. Preserve the mood and lighting of this particular scene even when it differs from the references.\nOutput one panoramic 2.068966:1 image, target 2048x990 pixels, full bleed. No borders, collage, before/after comparison, UI, captions or watermarks. Not photographic and not a 3D render. No newly invented characters, props, exits, architecture or narrative elements; preserve all visible existing objects. Where a tiny detail is ambiguous, keep it simple instead of inventing ornate content.\nScene-specific invariants: Faithfully preserve this small illustration from the intro, including every depicted person and object. Keep only the panel artwork; do not add story paragraphs, invented words or decorative borders. If the first panel has the heading DIE STORY, retain that heading exactly."
+    },
+    {
+      "id": "Title",
+      "disk": 1,
+      "title": "Title",
+      "source": "images/Amiga/Disk 1/Title.png",
+      "vertical_scale": 2,
+      "input_width": 640,
+      "input_height": 400,
+      "prompt": "Use case: style-transfer.\nAsset type: high-resolution background for the Soul Crystal adventure game.\nImage 1 is the EDIT TARGET and the sole authority for content, exact scene layout, perspective, framing, object placement, silhouettes, and dominant colors. It has ALREADY been aspect-corrected from 640x200 to 640x400 using nearest-neighbor vertical doubling. Do not stretch it further.\nImages 2 and 3 are approved STYLE REFERENCES ONLY (hotel reception and landscape). Do not import their objects or scenery into this scene.\nPrimary request: faithfully repaint Image 1 in the same rich, polished hand-painted classic adventure-game style as the approved samples. Detailed brushwork, readable shapes, warm highlights where appropriate, saturated but faithful source palette, believable surfaces, no pixel blocks or dithering. Preserve the mood and lighting of this particular scene even when it differs from the references.\nOutput one panoramic 1.6:1 image, target 1920x1200 pixels, full bleed. No borders, collage, before/after comparison, UI, captions or watermarks. Not photographic and not a 3D render. No newly invented characters, props, exits, architecture or narrative elements; preserve all visible existing objects. Where a tiny detail is ambiguous, keep it simple instead of inventing ornate content.\nScene-specific invariants: Preserve the large SOUL CRYSTAL title lettering exactly, its interlocking ornate gold and cyan shapes, the magical cyan portal, wooden boards, character and eyes on the black background. Keep existing small logos, do not add text."
+    },
+    {
+      "id": "Victory-000",
+      "disk": 4,
+      "title": "Victory-000",
+      "source": "images/Amiga/Disk 4/animations/Victory/Victory-000.png",
+      "vertical_scale": 1,
+      "input_width": 320,
+      "input_height": 200,
+      "prompt": "Use case: style-transfer.\nAsset type: high-resolution background for the Soul Crystal adventure game.\nImage 1 is the EDIT TARGET and the sole authority for content, exact scene layout, perspective, framing, object placement, silhouettes, and dominant colors. It has ALREADY been aspect-corrected from 320x200 to 320x200 with no shape correction because this is a low-resolution Amiga frame. Do not stretch it further.\nImages 2 and 3 are approved STYLE REFERENCES ONLY (hotel reception and landscape). Do not import their objects or scenery into this scene.\nPrimary request: faithfully repaint Image 1 in the same rich, polished hand-painted classic adventure-game style as the approved samples. Detailed brushwork, readable shapes, warm highlights where appropriate, saturated but faithful source palette, believable surfaces, no pixel blocks or dithering. Preserve the mood and lighting of this particular scene even when it differs from the references.\nOutput one panoramic 1.6:1 image, target 1920x1200 pixels, full bleed. No borders, collage, before/after comparison, UI, captions or watermarks. Not photographic and not a 3D render. No newly invented characters, props, exits, architecture or narrative elements; preserve all visible existing objects. Where a tiny detail is ambiguous, keep it simple instead of inventing ornate content.\nScene-specific invariants: Preserve the castle gate, exact state of the doors and portcullis, stone passage and distant landscape. Preserve the words The End exactly if present; do not add them if absent."
+    },
+    {
+      "id": "Victory-015",
+      "disk": 4,
+      "title": "Victory-015",
+      "source": "images/Amiga/Disk 4/animations/Victory/Victory-015.png",
+      "vertical_scale": 1,
+      "input_width": 320,
+      "input_height": 200,
+      "prompt": "Use case: style-transfer.\nAsset type: high-resolution background for the Soul Crystal adventure game.\nImage 1 is the EDIT TARGET and the sole authority for content, exact scene layout, perspective, framing, object placement, silhouettes, and dominant colors. It has ALREADY been aspect-corrected from 320x200 to 320x200 with no shape correction because this is a low-resolution Amiga frame. Do not stretch it further.\nImages 2 and 3 are approved STYLE REFERENCES ONLY (hotel reception and landscape). Do not import their objects or scenery into this scene.\nPrimary request: faithfully repaint Image 1 in the same rich, polished hand-painted classic adventure-game style as the approved samples. Detailed brushwork, readable shapes, warm highlights where appropriate, saturated but faithful source palette, believable surfaces, no pixel blocks or dithering. Preserve the mood and lighting of this particular scene even when it differs from the references.\nOutput one panoramic 1.6:1 image, target 1920x1200 pixels, full bleed. No borders, collage, before/after comparison, UI, captions or watermarks. Not photographic and not a 3D render. No newly invented characters, props, exits, architecture or narrative elements; preserve all visible existing objects. Where a tiny detail is ambiguous, keep it simple instead of inventing ornate content.\nScene-specific invariants: Preserve the castle gate, exact state of the doors and portcullis, stone passage and distant landscape. Preserve the words The End exactly if present; do not add them if absent."
+    }
+  ]
+}

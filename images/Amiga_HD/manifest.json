@@ -1,0 +1,3532 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-25",
+  "preprocessing": "ImageMagick -sample 352x128!: each original row duplicated exactly, no smoothing",
+  "style_references": [
+    "style-references/reception-approved.png",
+    "style-references/landscape-approved.png"
+  ],
+  "prompts": [
+    "prompts/batch.json",
+    "prompts/batch-02.json",
+    "prompts/remaining.json",
+    "prompts/extras.json"
+  ],
+  "images": [
+    {
+      "id": "DiskA-000",
+      "title": "Gästezimmer",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskA-000.png",
+        "sha256": "0e7a3a856b1d72b8740ce9dd53ac07cfffda2ba45b32a5ef2b25ff21949bb2a2"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskA-000.png",
+        "sha256": "2ef735158af74a0d1aad91a5d6038672bb791a578ddbc069c89a4805183e6ebd"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskA-000.png",
+        "sha256": "7f1e144f426cb92eddb7793a44f08d8c759bfd22b945367eb212dbbba2767475"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "Kleine Gegenstände auf Schreibtisch und Stuhl sind KI-Interpretationen; mit Objektliste abgleichen.",
+      "prompt_file": "prompts/batch-02.json",
+      "prompt_id": "DiskA-000"
+    },
+    {
+      "id": "DiskA-001",
+      "title": "Lobby",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskA-001.png",
+        "sha256": "9b6c332bebb87779cf870e077b2a20bfad535e82a2fcc28aa94c35c7e8ffc6c7"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskA-001.png",
+        "sha256": "0fbbf61aa82637b9c41a04dcc0fb3b04fc7833eb151469f60d74f66a4ff0aa32"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskA-001.png",
+        "sha256": "54ecbd4d8e8129227a9f8fa9e0660d77785a0876f8fd3a13a0065621026e0457"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "Bildaufbau visuell geprüft; keine vollständige Prüfung aller Spielobjekte.",
+      "prompt_id": "001",
+      "prompt_file": "prompts/batch.json"
+    },
+    {
+      "id": "DiskA-002",
+      "title": "Straße am Hotel",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskA-002.png",
+        "sha256": "c688a704910871e1b09c3197463f101b09c126ec62b12695530100f0d1faf1ee"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskA-002.png",
+        "sha256": "87b36c4d451b7aea3ccc35b0ae06d248cd4b65409c5e9e48b6e48e6d1d4c7bf9"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskA-002.png",
+        "sha256": "586340a5f37243f009bd9b254b0b79403091da727ef07c2fd44e4ddf113db239"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "Schrift auf dem Schild ist nicht zuverlässig rekonstruiert. Vor Spieleinsatz separat korrigieren.",
+      "prompt_id": "002",
+      "prompt_file": "prompts/batch.json"
+    },
+    {
+      "id": "DiskA-003",
+      "title": "Bergstraße im Abendlicht",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskA-003.png",
+        "sha256": "1dc426b133c2c60a62e8899162c730d596b7b78deef4599097b7bccebe4f679a"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskA-003.png",
+        "sha256": "113f961d6b06d42d63488bfc450c49ea7efb07a1457000f8d7f5ad4b9f0b0e69"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskA-003.png",
+        "sha256": "85bcbca266bea4b6a5f2f4051ec2d9f2742a3cd19a39257a40a50d4250c21504"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "Bildaufbau visuell geprüft; keine vollständige Prüfung aller Spielobjekte.",
+      "prompt_id": "003",
+      "prompt_file": "prompts/batch.json"
+    },
+    {
+      "id": "DiskA-004",
+      "title": "Hotelkorridor",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskA-004.png",
+        "sha256": "0048bd408090e44f20bc0cac5ae0c29c6520705d3c7a12225f09e30d14aa99ed"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskA-004.png",
+        "sha256": "bd86a7c40ca1c6e20b4016240e6bc96b27e587e392ed1a93d6fbf074e9153ed8"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskA-004.png",
+        "sha256": "f1131b08e98867f110d4a4345ab2a8803329587a90f3d86982616b947c01aa85"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "Türnummern sind KI-Interpretationen; mit der Spielzuordnung abgleichen.",
+      "prompt_id": "004",
+      "prompt_file": "prompts/batch.json"
+    },
+    {
+      "id": "DiskA-005",
+      "title": "Rezeption",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskA-005.png",
+        "sha256": "f9a1529c0a30adc178640fbbe93af8f2e9251e60d0bde2132a150317a3065692"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskA-005.png",
+        "sha256": "f4b631b56243bfb1bcc818fc09418409c8bd322bc90a3c605618618d609601ac"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskA-005.png",
+        "sha256": "72dc89bb137f7258f44dc08fa86ce4a192115cf4148f7b04673ed03d5a5e90dd"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "Kleine Beschriftungen und der Raum hinter dem Tresen wurden interpretiert.",
+      "prompt_id": "005",
+      "prompt_file": "prompts/batch.json"
+    },
+    {
+      "id": "DiskA-006",
+      "title": "Im Strudel",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskA-006.png",
+        "sha256": "1f8e4fe8a91628fc0de67aa4d5875460107b64d66fc5600f9df081943267522f"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskA-006.png",
+        "sha256": "0049ddccd3792ab26e40d0a544ba59f7ca7ef8c3fe0ec7d9dae48b3155f655eb"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskA-006.png",
+        "sha256": "698f6041e08d80b2555d572d451a7107d7124f8e3bcd819b4d05de85c7e8d31a"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "Gesicht und erhobene Hand wurden interpretiert; Strudel und Pose bleiben erkennbar.",
+      "prompt_file": "prompts/batch-02.json",
+      "prompt_id": "DiskA-006"
+    },
+    {
+      "id": "DiskA-007",
+      "title": "Ufer des Bergsees",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskA-007.png",
+        "sha256": "2326e5a11fc02f6de0ac44efafb6e9279ddb7f24325b7ad8f4c8d2c0f6225d94"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskA-007.png",
+        "sha256": "c7720f87ee8e24419f4b759c0321cbdb8197669c1de872a44f0461dd46625af3"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskA-007.png",
+        "sha256": "6579525f213de58623e79f640aea7771117affe06a424d87d8f50bbf039e2117"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "Bildaufbau visuell geprüft; keine vollständige Prüfung aller Spielobjekte.",
+      "prompt_id": "007",
+      "prompt_file": "prompts/batch.json"
+    },
+    {
+      "id": "DiskA-008",
+      "title": "Mann im Esszimmer",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskA-008.png",
+        "sha256": "21a22580ce06bd6013bc175f61657fa3aadff50dc00ebca3e500de77bca27c2c"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskA-008.png",
+        "sha256": "8fec13d0587590abb3b9a215a5cb4f2d8e46611918a461ace2e9a91b9491378d"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskA-008.png",
+        "sha256": "e0dea54782fb5dedb715e12fc1070ff4e8f0bfb76223289c810988b210031c89"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "Gesicht, Ausdruck und Hand sind eine Interpretation der sehr kleinen Figurenvorlage.",
+      "prompt_id": "008",
+      "prompt_file": "prompts/batch.json"
+    },
+    {
+      "id": "DiskA-009",
+      "title": "Blick zum Wasserfall",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskA-009.png",
+        "sha256": "89ecac0447959f43f0a15ab621ee0ba563da4af2c1203f1b81978b5ccfec5c81"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskA-009.png",
+        "sha256": "8c732739fd33b6fedfab7e5d783884163a997be99c2644db3b1c53bb39622e80"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskA-009.png",
+        "sha256": "a277346b0709bfe4fcefdb33da640d4b67addf3b895c2c801f048e2034fdc68b"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "Bildaufbau visuell geprüft; keine vollständige Prüfung aller Spielobjekte.",
+      "prompt_id": "009",
+      "prompt_file": "prompts/batch.json"
+    },
+    {
+      "id": "DiskA-010",
+      "title": "Blick über den Bergsee",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskA-010.png",
+        "sha256": "6033da854c67e83b901e1c32a89d8d6adb29a214657ed4914fca9bcfb0f2ec54"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskA-010.png",
+        "sha256": "b8dc80d55dbf496eda91a3752c3f5f9e5663c12d947e5e0bc5f670e85c243b31"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskA-010.png",
+        "sha256": "3bd2f815a840c98ae0825d66b858a05199cf1c434f1a44d27ad9001a683fc307"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "Bildaufbau visuell geprüft; keine vollständige Prüfung aller Spielobjekte.",
+      "prompt_file": "prompts/batch-02.json",
+      "prompt_id": "DiskA-010"
+    },
+    {
+      "id": "DiskA-011",
+      "title": "Wasserfall aus der Nähe",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskA-011.png",
+        "sha256": "38eccfb5756ff7b33df838f7acd7d647d8df68bdcb7b590d3680aea0e0a4f91e"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskA-011.png",
+        "sha256": "4642cd81a22b5ae3cc5c3c7b6d9cb164457120f5b56e85c661b0d9f24e06ec98"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskA-011.png",
+        "sha256": "bc0ba4ccdbba06b383b6d57acb56503c1e5740ee43f7d8f77631c7fba228dbf2"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "Bildaufbau visuell geprüft; keine vollständige Prüfung aller Spielobjekte.",
+      "prompt_id": "011",
+      "prompt_file": "prompts/batch.json"
+    },
+    {
+      "id": "DiskA-012",
+      "title": "Felsufer",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskA-012.png",
+        "sha256": "d5bc565d8610a913ffda90d09f8f60c09200c69ed592bd6d514f76788b89608f"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskA-012.png",
+        "sha256": "2457b468dee04a5f6aa3e1fca50901f0f9e9a5045be4c2e65f570f8b6c86d0f2"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskA-012.png",
+        "sha256": "6aaaf556da18295db988494b296a957e74ecd132d19bb8b70979a91a44d3fcc5"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "Bildaufbau visuell geprüft; keine vollständige Prüfung aller Spielobjekte.",
+      "prompt_id": "012",
+      "prompt_file": "prompts/batch.json"
+    },
+    {
+      "id": "DiskA-013",
+      "title": "Wald am Ufer",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskA-013.png",
+        "sha256": "26c8c0c611ee779e2987eeff788085532f42a88ac7cfa0087a4dd4ebdad23122"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskA-013.png",
+        "sha256": "8fc91cd7e272165afb81052ef9b780e615bb736dc8f982e7e5b1ee84681c30b1"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskA-013.png",
+        "sha256": "b5808b59562b0eea744d48ce64e5237b901a985e13417a8dff0ba4b49d90036d"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "Gelände, Ufer und Wegöffnung sind freier interpretiert; mit der Raumlogik abgleichen.",
+      "prompt_id": "013",
+      "prompt_file": "prompts/batch.json"
+    },
+    {
+      "id": "DiskA-014",
+      "title": "Dunkle Waldlichtung",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskA-014.png",
+        "sha256": "14553e551b69dba68af69bae4a38c07ba19b65e8ed6d5e2b9b590f85ea186ec5"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskA-014.png",
+        "sha256": "7cc722c6ec91fbbe85156e06694224c3a77b5ee8e30b9cbb3ed43d4119816ea4"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskA-014.png",
+        "sha256": "fb39bd3cecc19db3d8c0737a703871fb9959a7e929454f9a5b172a2b4c56aaaf"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "Felsen, Bodenpfade und liegendes Holz weichen im Detail von der Vorlage ab.",
+      "prompt_id": "014",
+      "prompt_file": "prompts/batch.json"
+    },
+    {
+      "id": "DiskA-015",
+      "title": "Todesmotiv – blaues Kreuz",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskA-015.png",
+        "sha256": "29fdad8ad39eb66d81315dd4aa8f9a1175b610f6a5fa8ec1690e5208dc93d7f4"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskA-015.png",
+        "sha256": "ae2c7d2f3854a805ee022e5fadb040f1f198017c2cd90518f20de92022a931d6"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskA-015.png",
+        "sha256": "cedb1e233cde19ac4c6967f49d040905748434301b2352ae703c8cd2a8258dfa"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "Blaues Kreuz mit schwarzem Hintergrund erhalten; Material als vereister Stein interpretiert.",
+      "prompt_file": "prompts/batch-02.json",
+      "prompt_id": "DiskA-015"
+    },
+    {
+      "id": "DiskA-016",
+      "title": "Unter Wasser",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskA-016.png",
+        "sha256": "6e0cb2462797bad6edb520f50909fd96c5b6590aef7202783b2b1584e38b6f09"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskA-016.png",
+        "sha256": "14c56c0fe7a9bf0ee1977de1449b9f52a86d0bd936849242110f667d3934da54"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskA-016.png",
+        "sha256": "bee704a15ad8388ddd6d6ede6a059853ae7dc40a8637ae113b774f91706fb526"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "Unterwasserfigur als Skelett interpretiert; Haltung und Anatomie vor Spieleinsatz prüfen.",
+      "prompt_file": "prompts/batch-02.json",
+      "prompt_id": "DiskA-016"
+    },
+    {
+      "id": "DiskA-017",
+      "title": "Wölfe im Wald",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskA-017.png",
+        "sha256": "ef882053ae2935012866cc0e469206dc301dcf367e65a1ab24fd84e7fe2375b4"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskA-017.png",
+        "sha256": "a3b613ba77db051d82f5c9392b3dc0f66257caf9fb14d6bb9c0896acfdad6d56"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskA-017.png",
+        "sha256": "1a7cb72804c7e0ef79b80636d9bacfac78c02847becae4f919c67790d83d8fe9"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "Wölfe und Baumstamm erhalten; Fell, Pfoten und Gesichtsausdruck neu interpretiert.",
+      "prompt_file": "prompts/batch-02.json",
+      "prompt_id": "DiskA-017"
+    },
+    {
+      "id": "DiskB-000",
+      "title": "Studierzimmer",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-000.png",
+        "sha256": "721bb8d67b73a570154a138c940636c449acfe0c90e457d421f2c02f981cc671"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-000.png",
+        "sha256": "f83dc417c0747cf2226ebaec4324230696e5ac4d051ee4b91a8d6ba8b8e67f4b"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-000.png",
+        "sha256": "f4b79d1f8d553e5005ea79930f4139829ddbf8fe447a82a1ae55ce555ce57b7f"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "Bücher, Schreibtischdetails und Fensterbeschläge frei interpretiert.",
+      "prompt_file": "prompts/batch-02.json",
+      "prompt_id": "DiskB-000"
+    },
+    {
+      "id": "DiskB-001",
+      "title": "Schlafzimmer aus Stein",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-001.png",
+        "sha256": "c8694a3279e97dc4b3b4615e351f768f8b4022c9c3af14f990a056914fa480a2"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-001.png",
+        "sha256": "9587db9b8a488440969b1d9674ef7547c09a8ffad4312aca079ab452fd8a432b"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-001.png",
+        "sha256": "b24713c9989b38d70d58416c4a27f678df1858f0ebb4aacfb12fbf355df0e68e"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "Bildaufbau visuell geprüft; keine vollständige Prüfung aller Spielobjekte.",
+      "prompt_file": "prompts/batch-02.json",
+      "prompt_id": "DiskB-001"
+    },
+    {
+      "id": "DiskB-002",
+      "title": "Orkhöhle",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-002.png",
+        "sha256": "70475330e97fdf0040e7cea7fd90833376f8b767fafab3f374b20fe60b894208"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-002.png",
+        "sha256": "f690f664f01e993f55b4ab6383c29e61d7e35590d552167a47823272cf95f1eb"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-002.png",
+        "sha256": "9d3234322ea69b76f5a64bda2fda70ddd24530186dfe0925e24b53480a4a4b71"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "Zwei Figuren und Feuerstelle erhalten. Besteck statt des im Prompt fälschlich vermuteten Stabs; kleine Gegenstände und Figurenidentität prüfen.",
+      "prompt_file": "prompts/batch-02.json",
+      "prompt_id": "DiskB-002"
+    },
+    {
+      "id": "DiskB-003",
+      "title": "Kaminzimmer",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-003.png",
+        "sha256": "859f808e901a9b7c67ec6c0778268564ea7a3fb3e656df3054a1171dcc02b624"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-003.png",
+        "sha256": "bb433198ca174e993a7275b82a173b61c16e6b29a40777c2da42312abdf085da"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-003.png",
+        "sha256": "a073c135081f250a6313f74531f2a48947e9983ced0463a75e460e69491ee557"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "Grünes Feuer erhalten. Wanddekoration, Tür- und Möbelbeschläge sowie Bücher sind interpretiert.",
+      "prompt_file": "prompts/batch-02.json",
+      "prompt_id": "DiskB-003"
+    },
+    {
+      "id": "DiskB-004",
+      "title": "Grüne Waldlichtung",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-004.png",
+        "sha256": "b3abbf36b1e5c67fd342503e0f663bb0ee700938985bdc36e1d56664a2256361"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-004.png",
+        "sha256": "e993e6d29256f6af3ac48e3540ea32a2e1260acb4e54d0d1e4f8f0939a16db2a"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-004.png",
+        "sha256": "8ede5884cd10f796ddd136119b81d5c413d8cd774edff21908d7359971e05d00"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "Bildaufbau visuell geprüft; keine vollständige Prüfung aller Spielobjekte.",
+      "prompt_file": "prompts/batch-02.json",
+      "prompt_id": "DiskB-004"
+    },
+    {
+      "id": "DiskB-005",
+      "title": "Blick auf die Siedlung",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-005.png",
+        "sha256": "0a80bdc73479a90d6d245ba24d4a3f134137ddd2e02a7ac5d48bc4f9d71b732d"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-005.png",
+        "sha256": "4ded1f8163c369cfeed73211652a2d52151b566db5f269f304a0d1aec0c3fd2d"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-005.png",
+        "sha256": "7d5ae154b71b71e771acfc0a95c93142954324b10e3caac746cf697c67ec9162"
+      },
+      "width": 2078,
+      "height": 757,
+      "status": "generated_sample_visual_review",
+      "note": "Siedlung als Burganlage interpretiert; Türme, Berge und Verlauf der Wege vor Spieleinsatz abgleichen.",
+      "prompt_file": "prompts/batch-02.json",
+      "prompt_id": "DiskB-005"
+    },
+    {
+      "id": "DiskB-006",
+      "title": "DiskB-006",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-006.png",
+        "sha256": "382068d3c9fccb521db9725250f9dea5195dd502a1aa8b9e351fedb03238bf8b"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-006.png",
+        "sha256": "208433fa2fb33229d202e98120858b580626ce7e64ec4553955c67806503e418"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-006.png",
+        "sha256": "1283d5f892c6be3f196ca1a813eeee67fff8e20fcc89c572607ba430d1d52e1c"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-006"
+    },
+    {
+      "id": "DiskB-007",
+      "title": "DiskB-007",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-007.png",
+        "sha256": "18eee03d9933ec419cb3ac032ad137f98d2e9bda954d815093dcdeca41967ae7"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-007.png",
+        "sha256": "2cd439580c777f700ec967ceaaf62229cff5d88da1beed17a04ac2afee46cd1d"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-007.png",
+        "sha256": "0bdd95a4c24f7630c8f27090510f3c4f0573c3d81defb0ef22af87373a92b8e3"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-007"
+    },
+    {
+      "id": "DiskB-008",
+      "title": "DiskB-008",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-008.png",
+        "sha256": "ef617380b9726f17683ae1fceef0000d793da821118a34186e43bbecd85b2273"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-008.png",
+        "sha256": "ab403519bc44bc28e3394b8b83bfafc4ee5f9b05c1fdc3e7a3543fbcaa336cf4"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-008.png",
+        "sha256": "a098f6f8861b59b85c09ea21138c29fcc7354bc58e6e03eebabd994b7f64a3a8"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-008"
+    },
+    {
+      "id": "DiskB-009",
+      "title": "DiskB-009",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-009.png",
+        "sha256": "b8a1c52e2c68677e59e2d03b149815c8082fa22326e0d9dddd821cef7bc6ed83"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-009.png",
+        "sha256": "c41a71530f167d663b362a5fd6f12356729fed12d78281c6fbb62eb018f53f30"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-009.png",
+        "sha256": "e789990e021b09e5848784b9a69e069ecf4d862ad68e8294472e12f50a376281"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-009"
+    },
+    {
+      "id": "DiskB-010",
+      "title": "DiskB-010",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-010.png",
+        "sha256": "79187a47a022d5643a0c569e828f7695dfcba2cdfee727cb00507a3f001b16de"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-010.png",
+        "sha256": "b3f41a6d8b68a6481716fed9a5891bec8a044484741b2dce4bb04deee18db818"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-010.png",
+        "sha256": "88dc3c6a3a56a3d1f1db67db7538c53a58c57e1486ce924750bfd1421800f6c4"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-010"
+    },
+    {
+      "id": "DiskB-011",
+      "title": "DiskB-011",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-011.png",
+        "sha256": "0861fa8b3a22b3b6a1f532f3cec76e09337c72f0e073c933db724d1cb567d586"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-011.png",
+        "sha256": "f91956bdea052b3c1bb4f1962198e5cb6e3846568fd8f162edf731e64b047d26"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-011.png",
+        "sha256": "aecc40bd4c546ce27b755688cc0e813ffc75dab1236a37a20ece301b99fbd6c8"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-011"
+    },
+    {
+      "id": "DiskB-012",
+      "title": "DiskB-012",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-012.png",
+        "sha256": "e65cec048ffd40dd6f573747cb8228030523956ca1c5068280397a10bed8f300"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-012.png",
+        "sha256": "4e87d50802af138f50a75d828d9a283a8115a2fb49cb8344c2fc0ac682328cb9"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-012.png",
+        "sha256": "505c970e87f2b1733d52dba5f567617380fd611af02a4a1f6db56d6efdaf79d7"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-012"
+    },
+    {
+      "id": "DiskB-013",
+      "title": "DiskB-013",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-013.png",
+        "sha256": "5bb859dd13be45045029f3ff2fb21ceb1bfb5e136b23851a898fd927463e7cf1"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-013.png",
+        "sha256": "924901106dee7aec8def66e6cba9e2dfe8b748e49d165008b9e9bbcba4947e27"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-013.png",
+        "sha256": "a374c29b257a8c373f6a83a3d18cb1ddc76597a8ec110a0b72fd006b020ad5ad"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-013"
+    },
+    {
+      "id": "DiskB-014",
+      "title": "DiskB-014",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-014.png",
+        "sha256": "5fd07e3c98753797d72f45a54680388e927f75a438fdb170c7d06ee2fe56d1a8"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-014.png",
+        "sha256": "0127c65ce8165e9a7454bd68be5c361e51aa7fd2e5289b540a4f9664f52b9665"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-014.png",
+        "sha256": "9730c922659506321ee5457c7a159b958f08b9e9f3f05574406ae47c8c6e49c9"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-014"
+    },
+    {
+      "id": "DiskB-015",
+      "title": "DiskB-015",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-015.png",
+        "sha256": "3c58197486efdb44cc798104838c2023f6c33819c798293ec4c1c92d77abdfff"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-015.png",
+        "sha256": "eaeea8d29e60b1e0446c75fc69c1177fdf282d02837be88306b04fa47b5dc594"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-015.png",
+        "sha256": "d916fce05c2f0f226a5b91a2279c6fe9e535ab460ccc5c9176e8c3b39687cd67"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-015"
+    },
+    {
+      "id": "DiskB-016",
+      "title": "DiskB-016",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-016.png",
+        "sha256": "756a2c3e1e61d7c6ecfc43d21067190adc8076f2e9d08d9595ac163ce92bbfd6"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-016.png",
+        "sha256": "84b36bfbcc5e8cf6c472ab6a703d84c78e909d059858604f14c104433056d720"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-016.png",
+        "sha256": "ec78bd72e689132c62d5fc621cfbfd04f0736d0a4953139ba43ad9283b19d52d"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-016"
+    },
+    {
+      "id": "DiskB-017",
+      "title": "DiskB-017",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-017.png",
+        "sha256": "1086425cb7dcc581a5140f9ca4a07f008ec88e4d48d5114fe3ca7fb96900f384"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-017.png",
+        "sha256": "d06f3186368ba75a1c85b3d4ce51b631d238419c38dbbf71ea46238a983f1a1a"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-017.png",
+        "sha256": "9848dc9cd98f0a178158b0426f959dc312fea67ad2de043c05e39222363c5f7d"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-017"
+    },
+    {
+      "id": "DiskB-018",
+      "title": "DiskB-018",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-018.png",
+        "sha256": "75ec6e4225054bbb186f69eb022a490df9ebfffa7981b711aec4bdac48af8631"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-018.png",
+        "sha256": "ed2951565af8326a61a985be39589bff2a494efbd20e087c112029993a5821ec"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-018.png",
+        "sha256": "9c85b8e5614bd115b88b2dbb3319508bf1979e2b8496b88212400131ab201dd9"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-018"
+    },
+    {
+      "id": "DiskB-019",
+      "title": "DiskB-019",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-019.png",
+        "sha256": "2298aeccee57689a7464a941000f47d8eca0b8d6e7e75d4df8f514dbce73c9fa"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-019.png",
+        "sha256": "bd481b66e7945425cde146506ca59ee32379c7964ddb56fa2018c1af56217986"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-019.png",
+        "sha256": "0198e91ef57313244c04b84eac0c44f368150e49c74814ee3074b6261ad68833"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-019"
+    },
+    {
+      "id": "DiskB-020",
+      "title": "DiskB-020",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-020.png",
+        "sha256": "bba7171303580de273faafe9e221451d0db79408f9157e55363fad36dacb09b2"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-020.png",
+        "sha256": "fd9f8e4eabbd5450afcd582352e15b0a9ce27452b281cb3beeb97b51f40a542b"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-020.png",
+        "sha256": "5ddea8a0b79d7ee83746f978cdbf920017a3f82f003463000cac25639d784409"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-020"
+    },
+    {
+      "id": "DiskB-021",
+      "title": "DiskB-021",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-021.png",
+        "sha256": "46fa36b1b6cc4b1e480e3f61295a308005ab3a5350b464cc9d04de684fff008e"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-021.png",
+        "sha256": "7bde9f9eb6694e383529516f984b44b6a642676fcfe46b0895394334de920c45"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-021.png",
+        "sha256": "7f2b8d5d4ab7af367076d733143e5d1fd8fa839bd535d39ea66cf37273102736"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-021"
+    },
+    {
+      "id": "DiskB-022",
+      "title": "DiskB-022",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-022.png",
+        "sha256": "e2eacd71da1d31d530d33f3d59eae32b1f913092f6e53a68fa25a13c6f4497e5"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-022.png",
+        "sha256": "9ec4725f8cc867cdb618d095eeab47b23a8d989d26acb3b73139a2de58cc49dd"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-022.png",
+        "sha256": "d9a98bd929b1d2b7ccd0f61dfcd2b15e08d9f5e027f655dd1f10141aa1184d9a"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-022"
+    },
+    {
+      "id": "DiskB-023",
+      "title": "DiskB-023",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-023.png",
+        "sha256": "61585e797354f23bdc7fde7e908957b58f81f4678ec46b403ff249972bb2a20c"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-023.png",
+        "sha256": "11be2e96fd40f2672654c09ea3c41d246c98f38b3d4d845d1d263579e06b7167"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-023.png",
+        "sha256": "f46bde315d1205dc3e65dc949a91c16f548381215abe8a70ff7d965a5272dcec"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-023"
+    },
+    {
+      "id": "DiskB-024",
+      "title": "DiskB-024",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-024.png",
+        "sha256": "90c5769ece98bc218cecd8e2823ab605ef645e7e6008002670e94a4e7eff2b61"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-024.png",
+        "sha256": "ed6aaf140f6f5cd63ab0c9f64f1c9d9f6c743ac03688d6e3a802fdc3ceaa6750"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-024.png",
+        "sha256": "a39c3b45f8f9bb8cedcd157a5c7f62abe09ca96a0479ebbf41f2776a810324ff"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-024"
+    },
+    {
+      "id": "DiskB-025",
+      "title": "DiskB-025",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-025.png",
+        "sha256": "cbd3132444b21dfed1754a9b882dafd223980f4d092e565a23e11b6acceb39be"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-025.png",
+        "sha256": "b74d821b59dba1044b69ff597b1b8064a01359e73226c60d08a16846a43238c9"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-025.png",
+        "sha256": "aa181d9a967ead69fd3aff60bb4c156038ac73daea1204a45c34d1dac0620cf3"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-025"
+    },
+    {
+      "id": "DiskB-026",
+      "title": "DiskB-026",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-026.png",
+        "sha256": "3bcfa3aa345961111dbefff276aa553bba813fe9b4720920f81a7c4a056db075"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-026.png",
+        "sha256": "e62ca81078e715246d275471706cbae8380ac214ec665987dba23dc77dab45a7"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-026.png",
+        "sha256": "6127b92ecfe89db8705d9bdc87447e58cfb878adabf2cf474e25ecb7ac43897e"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-026"
+    },
+    {
+      "id": "DiskB-027",
+      "title": "DiskB-027",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-027.png",
+        "sha256": "fc5795b489827a81e312e394063f8fed2c85c73605f5aed3e138307c90f9a337"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-027.png",
+        "sha256": "078573530bdf58ee5b37889a5573943e97041ca8c6a556bafedc0a670ab5dbe7"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-027.png",
+        "sha256": "b10d9dfbd412d342f5db7afb8ce19a1b2b27d110522a7c5525fa0d7572b31123"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-027"
+    },
+    {
+      "id": "DiskB-028",
+      "title": "DiskB-028",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-028.png",
+        "sha256": "c25658c5baa77ceda9630f1c2a373e78c426b3f48d00d63df351ffeeb16ab147"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-028.png",
+        "sha256": "1d48d1ee131938f85fcdc2bca558aec77ae3cae3485422f79c85025bd771bc15"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-028.png",
+        "sha256": "01665a7ffd49475db9b84018612cc9fee736258ea890d0033d184a19511a2e7f"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-028"
+    },
+    {
+      "id": "DiskB-029",
+      "title": "DiskB-029",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-029.png",
+        "sha256": "6a134c3cc957fa88a91a3ff8d10a6b0d5c4d3e7b0f97bb1456ddb0c1f5c54c96"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-029.png",
+        "sha256": "806635fa42d95ddae5e98db7f8527e030f99edf445251b4574a37bbb89221eeb"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-029.png",
+        "sha256": "e695755f39fa4a07669257075cbc16563aa6f453e5290feef7417f60a9375e70"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-029"
+    },
+    {
+      "id": "DiskB-030",
+      "title": "DiskB-030",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-030.png",
+        "sha256": "3d28392e5423fff18112de7269953b0a64b4348425c413b32738701b4707187b"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-030.png",
+        "sha256": "96250b312761581f364155b7f9b1ae224d86b9e1ff237751cca7cc5fd1fcb465"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-030.png",
+        "sha256": "726d736d30f8684386cef9f11ee3904b9aba3ffe26b2a76c4e45ae0813c56a67"
+      },
+      "width": 2079,
+      "height": 756,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-030"
+    },
+    {
+      "id": "DiskB-031",
+      "title": "DiskB-031",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-031.png",
+        "sha256": "d3fb943a4381f99614faade1615cb0cc0d6b32cc2ac85b28dffff46908f48b67"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-031.png",
+        "sha256": "0c2c7e83d1f0ec988d3dfbf3c4dcab2e4485a5d936bad1177524c87251ebf4a9"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-031.png",
+        "sha256": "c7d09c644d1a6ab19dc567e7f4b6686c86d86e4163378587ca222fd669a51ea2"
+      },
+      "width": 2078,
+      "height": 757,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-031"
+    },
+    {
+      "id": "DiskB-032",
+      "title": "DiskB-032",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-032.png",
+        "sha256": "44a034d05f77087dde66c5531f4368b3c2957f6410dc72aa7285c2cc2d6d9d12"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-032.png",
+        "sha256": "d4ee2adc228594a81f2e39bcbd3e51d0ab2f12b1f54d049bd28f8c8fa281bb70"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-032.png",
+        "sha256": "10fbb1acc9f70766692177da4ab3a9ce93417a760d95ba2175fea54f7d9afd5e"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-032"
+    },
+    {
+      "id": "DiskB-033",
+      "title": "DiskB-033",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-033.png",
+        "sha256": "6d663d89400d0fcfdaaa2c7cf954557103843e01c77880569cd15f217e9e4a3e"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-033.png",
+        "sha256": "7bf489888e02801c5c15c49bcb784fdb557a96cdebff5a9e25dcad453f17da0e"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-033.png",
+        "sha256": "67f274dcae7b3eec8666c48c457a878d7f85d7baf2ea46d128bfa157fab55449"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-033"
+    },
+    {
+      "id": "DiskB-034",
+      "title": "DiskB-034",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-034.png",
+        "sha256": "87baa31ac9554285c4b9a6d500f351cc2474da9b49aca011a9610f8f6d9e1d95"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-034.png",
+        "sha256": "ca5bb798a2c1745045bad03ad2a3f05c5094a4f8f33300d37eef1d29983a6548"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-034.png",
+        "sha256": "b24869e902dabe7a486628ba4d5adcdf02b5dce0c969d3f3a110ea268d1fc3b4"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-034"
+    },
+    {
+      "id": "DiskB-035",
+      "title": "DiskB-035",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-035.png",
+        "sha256": "29fdad8ad39eb66d81315dd4aa8f9a1175b610f6a5fa8ec1690e5208dc93d7f4"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-035.png",
+        "sha256": "920712dfe946bf49c129bb9ef426fab29201f01d12b42cac0f243dce011b2e3a"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-035.png",
+        "sha256": "c172b25cc282ffb52c56bd293fe05d3a0609e8c74123ef15411cf4180da10566"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-035"
+    },
+    {
+      "id": "DiskB-036",
+      "title": "DiskB-036",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-036.png",
+        "sha256": "8dd46305e1efd9b3c842aa1a34054031bb3291eed76f331ac51da13bb2def52b"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-036.png",
+        "sha256": "096baee26e8411b4762d796c9ec73066c751a7fb33fb6402b865b061f3abc5ab"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-036.png",
+        "sha256": "f44ab2a60db10118d39f55ec2f2350a044eea56873eb113c5f1907c6a741cb70"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-036"
+    },
+    {
+      "id": "DiskB-037",
+      "title": "DiskB-037",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-037.png",
+        "sha256": "593596d7c017720bb2668b4a6c6cff44eeddde807825e28000c84445dc6bc650"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-037.png",
+        "sha256": "13ca33608bc14543fb3df13d39c8bad0f21f6900b79e4f3acaf13d52fda22c38"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-037.png",
+        "sha256": "cc88e77b23c316d99cba4483f63d53fd332f572163962c541d3e841d267eb460"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-037"
+    },
+    {
+      "id": "DiskB-038",
+      "title": "DiskB-038",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-038.png",
+        "sha256": "01f49845f274b3d200c3d7eda07a523fff7312f35be662836ba247022a79c67b"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-038.png",
+        "sha256": "d1e2c81bd99fbcd87bc11f8540265385948e1477ff0482cd8a7190b19e6d4978"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-038.png",
+        "sha256": "b4fd12e3e03623a65501a4aa0bd8549f134a29b394c16185277b36b03a78e704"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-038"
+    },
+    {
+      "id": "DiskB-039",
+      "title": "DiskB-039",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-039.png",
+        "sha256": "d499a77abbfa89c9108d13ca61794ab36b74ed0278ec11d705f70a0b83c3dc1f"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-039.png",
+        "sha256": "41e18bd248d314461858bdf4e45fc415dcfc148c6ef3e1b49cef86ad8791d096"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-039.png",
+        "sha256": "18a969ea4056d398ca34f44c40ed67f890027a3c0ec8619f648c66e983710360"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-039"
+    },
+    {
+      "id": "DiskB-040",
+      "title": "DiskB-040",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-040.png",
+        "sha256": "aef38c6e98f257094bac90a7a4c3688c21b4ed6fbd3fbb4ef1e1f5bd1271773c"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-040.png",
+        "sha256": "e151adb5e7c2b97e20869258fa3d5f0ceba5a8c9a29b5bc1dfae165d86fc436c"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-040.png",
+        "sha256": "d01aba2ff6ffb8f4383af9533fb82dc891e2771c0a8b00dc3382172eb8ed3e88"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-040"
+    },
+    {
+      "id": "DiskB-041",
+      "title": "DiskB-041",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-041.png",
+        "sha256": "95664fed7e8b3659ef3b422e198888baf75f7469b414e85428668a52ff2eaaf3"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-041.png",
+        "sha256": "ce39d6730472ad407bd46adc8ec07d0a5a22fd557c67967aaebc67bd49f90995"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-041.png",
+        "sha256": "04f886b1c359aec36ad5a6e5cd205bf2f0b07b804ea8984b469f34cb31d417db"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-041"
+    },
+    {
+      "id": "DiskB-042",
+      "title": "DiskB-042",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-042.png",
+        "sha256": "af8d7b031b72784b20d0a6340a3aaef74f6e592123a5e4ac3a4be0aa22d55c6f"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-042.png",
+        "sha256": "324eb065f205b730294e7086dc5a7ddf830fcbd0947c939da7b25f3fa03530ab"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-042.png",
+        "sha256": "a0d7e9317a5db33d3d883bdfc3336623a80e852441425a7c04c7871d259b6287"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-042"
+    },
+    {
+      "id": "DiskB-043",
+      "title": "DiskB-043",
+      "source": {
+        "path": "images/Amiga/Disk 3/DiskB-043.png",
+        "sha256": "01d7925f4028b4cab1befa0673f05bae2797587c6844ae6dcbefbf26eabf012f"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskB-043.png",
+        "sha256": "b197dad0486909e090ee57806cca3148eea33a47151bdea83974f1852fada0d6"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 3/DiskB-043.png",
+        "sha256": "48698be7e479208d84008a7effdaa343406c6123e9293fcccf7f40d1b8b9a4ca"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-043"
+    },
+    {
+      "id": "DiskC-000",
+      "title": "DiskC-000",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskC-000.png",
+        "sha256": "0b1796159a837d6b279179a9454c2819b398e494fd2c34d1301eb588c230d40e"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskC-000.png",
+        "sha256": "67179879188c1a2c9719108aa4a673fad9e326edde1d8e2faedbef89ebd0e595"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskC-000.png",
+        "sha256": "ae3157a75362b817e2e7f00e74aef813d71aa005aa603012e1395c1a4e72b478"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskC-000"
+    },
+    {
+      "id": "DiskC-001",
+      "title": "DiskC-001",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskC-001.png",
+        "sha256": "fba35b5152eae291a865a93ce8d36942f87fbdf35824310c6fbc381e230dbc02"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskC-001.png",
+        "sha256": "43fa392ab33d97f0743e656fa5d7bb1954a1fb0d7f0d4226a46f3035c7d866c7"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskC-001.png",
+        "sha256": "f30b7cc5dc14607f768a49ad6f799d95a98035599685af3d0f59911627c24ae8"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskC-001"
+    },
+    {
+      "id": "DiskC-002",
+      "title": "DiskC-002",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskC-002.png",
+        "sha256": "3fb8ba138f15d60a5ab8d3ad63e8c5b62b4f373ad2ff7ecf6770566c91c4d7fa"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskC-002.png",
+        "sha256": "cdf2aed44f2cc892e477230e03b3a3fdf5e7db250ba131bf154f07e409843c36"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskC-002.png",
+        "sha256": "45381e4664543c043075df6596b3674de739d56aadbf433a5b7b86b3bfbd6cac"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskC-002"
+    },
+    {
+      "id": "DiskC-003",
+      "title": "DiskC-003",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskC-003.png",
+        "sha256": "54226203fa733519246caaabf2d1ffb7e5de7079be3d15c82de74ab2619034da"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskC-003.png",
+        "sha256": "c5e95fa78bce337433d535efb087494c4f2103ba8ec560b479287443b8057e5a"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskC-003.png",
+        "sha256": "50230ef4b8402423274c26532d30e42d6783611929543c7b839c6a893791d9e7"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskC-003"
+    },
+    {
+      "id": "DiskC-004",
+      "title": "DiskC-004",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskC-004.png",
+        "sha256": "b9c310719c3df98536afca80c8055a283dc82a8870eb80819b5d5a1f9ae4aa07"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskC-004.png",
+        "sha256": "0cc3b9ace3d45d9a59516189b4ad03cf276c75b2f7732354e9b07b2710d4cd29"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskC-004.png",
+        "sha256": "06eadb5c23a400a07870965628eef533f388f069d7402cdb54addc151e38661f"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskC-004"
+    },
+    {
+      "id": "DiskC-005",
+      "title": "DiskC-005",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskC-005.png",
+        "sha256": "658bbeb552259e84593738520f71558d8bd53be9545c6472bc192b5c108e63ee"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskC-005.png",
+        "sha256": "2c1a5abce676e3e221ded23291ec3d7ec99af2a27e34a19c6cca9a425fa30bf5"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskC-005.png",
+        "sha256": "6cc2110afbe474ddfa9c9ac095ee544bd3026a2670a501478d8e13de4b474473"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskC-005"
+    },
+    {
+      "id": "DiskC-006",
+      "title": "DiskC-006",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskC-006.png",
+        "sha256": "29738d6bd6f846d22454b1606714444e322889c5e10d7e6ac0e34a91a2a5ac21"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskC-006.png",
+        "sha256": "7c9c8b645d17db31126c63125d125259673c4505b52869284a9a1d691e947bf3"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskC-006.png",
+        "sha256": "fe2958a7835c6341f71aa96789d12c47a7557e3c5b03388b8a5344454b7501ec"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskC-006"
+    },
+    {
+      "id": "DiskC-007",
+      "title": "DiskC-007",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskC-007.png",
+        "sha256": "8204c62035c2d1cdf2f3504eb775b1779d8627e554186ce8e915aee49b5fe7ca"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskC-007.png",
+        "sha256": "4ec3c7023678a7529792639c64b133135ee4c961fa2c52e3de01e7f17ea94be5"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskC-007.png",
+        "sha256": "30470b8c51b03ff9ab3ad8ad8ad075ff7c90d9afa39bdab7da9b97b7d1d56303"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskC-007"
+    },
+    {
+      "id": "DiskC-008",
+      "title": "DiskC-008",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskC-008.png",
+        "sha256": "95f7a9a1f3a7b9bec67eab13a3fed72910466c3dadb0ffa1699a413bb4774192"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskC-008.png",
+        "sha256": "ead098364b4eb9d9d05389104de9aa8e41f00c954a68c5e90adce587d3ab8a02"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskC-008.png",
+        "sha256": "dd727a7f548e91a64613845d06066b43128ccfd99699c6920150dfc9cca3a317"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskC-008"
+    },
+    {
+      "id": "DiskC-009",
+      "title": "DiskC-009",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskC-009.png",
+        "sha256": "256c05373dbce0e54d8b585a0b8e4bcca7a4b194e49f40bded70f086df2b5214"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskC-009.png",
+        "sha256": "c52d2206a7ce7932499f894a88f5c3c0a51ab32002cb8f58e879c69a5e59bc91"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskC-009.png",
+        "sha256": "43cc21c7bcc4d30a9ee8f07cdb7126d17559103461f89b64c6744bd823848c73"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskC-009"
+    },
+    {
+      "id": "DiskC-010",
+      "title": "DiskC-010",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskC-010.png",
+        "sha256": "e89674a657553b67f7346a88ea43d86d885d4c978a18fa97c83617f3e4d58a78"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskC-010.png",
+        "sha256": "7077b2e2f66348feb60852c8e97ac77759780e487bb17f69aadb77df8e176a5d"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskC-010.png",
+        "sha256": "df9a8698e4f08152d50061ad29785da5fc47e453aaf36d137ade085766a3adbf"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskC-010"
+    },
+    {
+      "id": "DiskC-011",
+      "title": "DiskC-011",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskC-011.png",
+        "sha256": "1a31b849a230c948dfb77d2283cc56695ba0018a834c0b074839b13b0ddf9526"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskC-011.png",
+        "sha256": "4274d35b65bb12795bc317edf1e3542bb0421496f73c9b7d4c1cfc7e8a932e77"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskC-011.png",
+        "sha256": "1e910079bcd52465ff5956073a79a2b872508444b56014851bb7940547d1128a"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskC-011"
+    },
+    {
+      "id": "DiskC-012",
+      "title": "DiskC-012",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskC-012.png",
+        "sha256": "a281ce2aa9944db1286d51b65f66365b73e5195f62f178b436547b4727c1dbc4"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskC-012.png",
+        "sha256": "fc01e78c4b499db20067dff6e5c85b93ece803d692e4419ff3ec5ba418c94083"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskC-012.png",
+        "sha256": "26c6f5a17319948204d5ecc6d2ef2cba5dd20d91771102527590db91612dcdac"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskC-012"
+    },
+    {
+      "id": "DiskC-013",
+      "title": "DiskC-013",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskC-013.png",
+        "sha256": "97b4fc73a999a0d2af2d603c4c814b3f773678c0df96a61e0eabf4032b2e196a"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskC-013.png",
+        "sha256": "00505cc33e878883ad8c9200fcc5acdc507b2c0f6f8014183333d4b523e99fa8"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskC-013.png",
+        "sha256": "36e6146f7d1f39d76b3db33229c2099e20632e7c2cb0efb0336b45c391fa10db"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskC-013"
+    },
+    {
+      "id": "DiskC-014",
+      "title": "DiskC-014",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskC-014.png",
+        "sha256": "640cd11619464fb0b22ef4659fb20a130adc5427272412255f44e0e626993def"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskC-014.png",
+        "sha256": "07a04272489aee36ce4c88b4b3a62ee983cd3e906605f4c084752eeb287d63ad"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskC-014.png",
+        "sha256": "c69d60bfd4ea8006f92f98f2da380b1ebd095cf4309f828121c58ce582f51fa0"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskC-014"
+    },
+    {
+      "id": "DiskC-015",
+      "title": "DiskC-015",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskC-015.png",
+        "sha256": "29fdad8ad39eb66d81315dd4aa8f9a1175b610f6a5fa8ec1690e5208dc93d7f4"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskC-015.png",
+        "sha256": "1be620c189e476f7d6d28cef1877606c2e5fd77553c46e194a4c2e7f060cf24a"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskC-015.png",
+        "sha256": "c172b25cc282ffb52c56bd293fe05d3a0609e8c74123ef15411cf4180da10566"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "Pixelidentische Originalvorlage; HD-Fassung von DiskB-035 übernommen.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-035",
+      "reused_from": "DiskB-035"
+    },
+    {
+      "id": "DiskC-016",
+      "title": "DiskC-016",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskC-016.png",
+        "sha256": "a49832f392c49c40607df9ff235db7c5ff12539901602d394f7a278a8d8bd824"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskC-016.png",
+        "sha256": "5a1738b4c37d277770230569eed1e06ab76a604a9cc469102048c33b4f7002af"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskC-016.png",
+        "sha256": "cceeafbdbfa9aa97a5bb67027ce7d7c46e5a8f97337e3ce94cbba5e626833a6a"
+      },
+      "width": 2080,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskC-016"
+    },
+    {
+      "id": "DiskC-017",
+      "title": "DiskC-017",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskC-017.png",
+        "sha256": "0a2cc87d83452f3d75089e5b9508b22bba11b3167ed1e5f50a51bb7cf1e9d0f0"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskC-017.png",
+        "sha256": "3bd06600dd4c1525bf5b14f48ad6a05828738b5394db976e316126b178cac851"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskC-017.png",
+        "sha256": "51ed0bf3def90dd45efce0b4ec06752eeba8e3501462746155f7e512f712fe13"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskC-017"
+    },
+    {
+      "id": "DiskC-018",
+      "title": "DiskC-018",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskC-018.png",
+        "sha256": "8b8a67ab1a164afd9b6b43c3b2e8c140342cffdde3409ef7f59d36ec099c94bd"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskC-018.png",
+        "sha256": "62d2970fa98c7f95f355d299c0cf536acadf2d488c6ba53ac35e04724e7a210e"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskC-018.png",
+        "sha256": "561d46eb63f3ae3f42fb52be82e7ef0aa2b8e8acfaa6889a43d00ad2a1b97397"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskC-018"
+    },
+    {
+      "id": "DiskC-019",
+      "title": "DiskC-019",
+      "source": {
+        "path": "images/Amiga/Disk 2/DiskC-019.png",
+        "sha256": "3cedab31e474359f47d988ec7a9ea8f1b8c5caa1afcc5a7419449f3ae0cd38bb"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskC-019.png",
+        "sha256": "2d53916d9946bcb86920fc1622ac79c9472a60cc8c5089a2f6129a9206c4d094"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 2/DiskC-019.png",
+        "sha256": "ea01ad1ebaddf6bdb2c42cb8b672919d99e6aa1cd7293ec502740e856e737022"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskC-019"
+    },
+    {
+      "id": "DiskD-000",
+      "title": "DiskD-000",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-000.png",
+        "sha256": "891d03070c4e2e2dc7478420402378f99a9181d64b9bfae0e273511a19559690"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-000.png",
+        "sha256": "446fcbb9a3842a596c3d55cd9f177ffe8c32a14c4ed0d351310dcc5341a7f71e"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-000.png",
+        "sha256": "b661cfaa8cb18ea5da1f9a12a29c68873c28a22a872a9c7ac0f999029e352f41"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-000"
+    },
+    {
+      "id": "DiskD-001",
+      "title": "DiskD-001",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-001.png",
+        "sha256": "24446cfe77eede18af29734d3363da844d2a4940cd746ab2568277176aa3761f"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-001.png",
+        "sha256": "2fb83275daf387f99c59f24b248c98b6015175747d0e39bf58cf54c7b562ab25"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-001.png",
+        "sha256": "3f5748bf34d2e8d0bac8204f106ce255aca78cf85ecd3983302772ccfc9eb773"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-001"
+    },
+    {
+      "id": "DiskD-002",
+      "title": "DiskD-002",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-002.png",
+        "sha256": "2bb4ee7b0817451cb786fc223df843c7df342c1d53e18fd39d9c66941449d70a"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-002.png",
+        "sha256": "52e6478a4c4d8fa33d8b867ef06e54fa1e00c0f5b9c8128fbe8e9d072a1f252a"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-002.png",
+        "sha256": "d1bf307e10928ba6afa458413dd0c762c84f437e48ac5d1ea25a3ef5d01b86c4"
+      },
+      "width": 2080,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-002"
+    },
+    {
+      "id": "DiskD-003",
+      "title": "DiskD-003",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-003.png",
+        "sha256": "56b0327de60c9745ce8b38c376736bd114e435f68c14cb0db38a895ce1c1f2df"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-003.png",
+        "sha256": "fc372f9d98907aa824a68bfefbce335e7f4b97ef8f8a8f1db65ddf1ed4ac4223"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-003.png",
+        "sha256": "899a9c1db79c4f7652353d7bc995f3bbb34335b475886435058c61b5fddf54e6"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-003"
+    },
+    {
+      "id": "DiskD-004",
+      "title": "DiskD-004",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-004.png",
+        "sha256": "cb66f17035c659000b17175d2b3f3edf701c711119da296bc9d6f45e910aaf7c"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-004.png",
+        "sha256": "ddc90b9036245b8e45e79e414cbbc51b9aaeb0af51eeee92840d67ab7d4ed3e3"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-004.png",
+        "sha256": "9c1875c57a9002281a079fbcfd16f942d686f36175a2ce811a8c3d0823b96ed8"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-004"
+    },
+    {
+      "id": "DiskD-005",
+      "title": "DiskD-005",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-005.png",
+        "sha256": "e961101e71906dab2153c9807bf02812fab43141f52832c71e3e0d74df78c397"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-005.png",
+        "sha256": "1694cce16dde215d2b29e10bf9f41a0fb40e039dc258cb66445ccab9962f0031"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-005.png",
+        "sha256": "7f30b25309b239373683faf43f8efcea1ff9fd7a53c89cda6469d760e186fbc9"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-005"
+    },
+    {
+      "id": "DiskD-006",
+      "title": "DiskD-006",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-006.png",
+        "sha256": "1f435326161eb83b114e366476bde1d5f0bf786cf414aa354b31caa8b9f62568"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-006.png",
+        "sha256": "f837887d9d090318b278b8574a8bd3d2723f401881fd2c3d4e1c9e4afe977d47"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-006.png",
+        "sha256": "ec3dec70d7356066918d746ab84b5b728a21336175b25fe0d6ba6b256c099021"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-006"
+    },
+    {
+      "id": "DiskD-007",
+      "title": "DiskD-007",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-007.png",
+        "sha256": "6b63336be12d29d255d1adf7b9f0729170626f53d8eab4f6badf195bc19eead4"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-007.png",
+        "sha256": "d48162bed2ebdd7121e3cacf451a0fc56700fdf2e9dcaf8eca291d04c27871ad"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-007.png",
+        "sha256": "6230990be49fe653240a4a91d9ca45e4b537a90901fc6d7d26bd181460c046f0"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-007"
+    },
+    {
+      "id": "DiskD-008",
+      "title": "DiskD-008",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-008.png",
+        "sha256": "c0988baed1bcadd0e4ee9bba31365d3103648af713311f2171cd03fe71ba90eb"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-008.png",
+        "sha256": "e9ccb9afb3bbde70357e5d2e1c351c8f658c98f542ca3a386165cb631024c55b"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-008.png",
+        "sha256": "9edd9c4565500c00ad78cc91ff812fffdb3833a1c440fb81e3e32014ca44317d"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-008"
+    },
+    {
+      "id": "DiskD-009",
+      "title": "DiskD-009",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-009.png",
+        "sha256": "045e61f5b22af06a623d9bbd29f824f04a29ac8b5c89cd85b82c1a32a2801711"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-009.png",
+        "sha256": "22308b36210b23bed286a169861ceff40bfece095f744e24f189491b103ce695"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-009.png",
+        "sha256": "1fa2b7bb153b8a70af05eb47fe8d33c9b183dccee7ac9ccd4f2a992187e4ce00"
+      },
+      "width": 2078,
+      "height": 757,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-009"
+    },
+    {
+      "id": "DiskD-010",
+      "title": "DiskD-010",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-010.png",
+        "sha256": "193e71c361bc008e24d56280b8b2513a1388133fd1ea5b518d95c8f1e5d76eca"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-010.png",
+        "sha256": "1bbed353d178a7d679fd0b3379876cae47d6b2a247bc852056b3ac16685b2df1"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-010.png",
+        "sha256": "d2fdf909bd740333798d778305d0d01126bdb5610f896d5fc209d62e18636c38"
+      },
+      "width": 2078,
+      "height": 757,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-010"
+    },
+    {
+      "id": "DiskD-011",
+      "title": "DiskD-011",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-011.png",
+        "sha256": "747f992477c27f9a197a861ac54fa6a27fdc8a91e4d304d3ed90b161ecb1492e"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-011.png",
+        "sha256": "764fe971c503092b29f0ca666f5a7af338ffa9ae67c0c8b4cf1d8a078cf7afd8"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-011.png",
+        "sha256": "9b3f6042aa491c31f51960cadc202466c566a6d77093b5e878a321c7c05323d0"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-011"
+    },
+    {
+      "id": "DiskD-012",
+      "title": "DiskD-012",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-012.png",
+        "sha256": "06e0e5a1076bc4ee7656c155d85e0cd617c06c73e579867a294e8a633ed2493d"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-012.png",
+        "sha256": "dd193e82d40c07f2ac933a5f3079073a339d6bd9615c0e229d65fd2888c08668"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-012.png",
+        "sha256": "61e301c67bc1ab3d517835db861cf0f528a0d805e4c4e7e065c57a2bbff5bf2e"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-012"
+    },
+    {
+      "id": "DiskD-013",
+      "title": "DiskD-013",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-013.png",
+        "sha256": "54585ca1f41902c21358e9ec205bc597a5d7e39688caf6c4f623a3c849082a2a"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-013.png",
+        "sha256": "686b785fc3d4423699795aeb80632e72555d31f8dcb8892bfbd7bc5c98229f5c"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-013.png",
+        "sha256": "acdbca90cc2ef7165fd586d705085d946551a0ab3c5eccb2c004620e0e4b4311"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-013"
+    },
+    {
+      "id": "DiskD-014",
+      "title": "DiskD-014",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-014.png",
+        "sha256": "ce9098d3c44175996987bca59f23e079f9992b8a0d3cc4fe154af4d3c46eccbd"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-014.png",
+        "sha256": "b2eeafbe7ff729329b1e42f92d213838fb36e54dbd7e4d8c423e85bb3e214c8c"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-014.png",
+        "sha256": "eb3f950045ce60a5fddc4bd239367a321344615b3fe85361a8a0bbe52bd4f044"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-014"
+    },
+    {
+      "id": "DiskD-015",
+      "title": "DiskD-015",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-015.png",
+        "sha256": "a7c5c79597c141ddbb1a2f3659f178bf2299043f67fe93e28e102c54699a9ece"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-015.png",
+        "sha256": "2450489f8917c93e1d90c81127f67453f04c7ef78a3e9ff2ef690c3486b6a6c8"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-015.png",
+        "sha256": "e3dd1a77dc77e1f293f1562158850306307dc47f6dd13c26ab79caad0b4aee56"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-015"
+    },
+    {
+      "id": "DiskD-016",
+      "title": "DiskD-016",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-016.png",
+        "sha256": "a0d1ff20ce19c4afe920b348ad9075a894778e082d8e4a41fa50130b97df44ae"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-016.png",
+        "sha256": "5ed6628835641aa2b2ff31cb834927111de836496016e8277560fd296327d855"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-016.png",
+        "sha256": "f4d48282bf9146126f55a18b8eb8be862d1853673b043de5ca7e60880021e8fd"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-016"
+    },
+    {
+      "id": "DiskD-017",
+      "title": "DiskD-017",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-017.png",
+        "sha256": "6b82676d23585a6229a08357c7d3adb6734200324b347365b48ac0449360ccf8"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-017.png",
+        "sha256": "b3dfe4c4c921ed661a063c7a6e95c28e8506b7295055dc93750bbe71914abb1f"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-017.png",
+        "sha256": "b4bd4d9ee2a15f2b055b6680ec15c2a9b545eb8754af79aa2458b6f5ce6d55f8"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-017"
+    },
+    {
+      "id": "DiskD-018",
+      "title": "DiskD-018",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-018.png",
+        "sha256": "2d4fa0d74c0764356484de7144c0f734767d6a8b4755805e850d64729c24d86f"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-018.png",
+        "sha256": "29ae84819337daad4ba0ce649f9a069bf2ad0e1f3b9ad4820620d9491f8597ea"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-018.png",
+        "sha256": "19fb6372d56b6a4a3be24810a7049caaf22b7d49b4bc773682552190ff6ad205"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-018"
+    },
+    {
+      "id": "DiskD-019",
+      "title": "DiskD-019",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-019.png",
+        "sha256": "9cf46b18d979d42536c6623acb57715e1478d23ed62942f760339413f1783832"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-019.png",
+        "sha256": "4372826af09dcbb43c098c5c56c6f0e82df1add7ef343a50af3fbd48f341ef92"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-019.png",
+        "sha256": "a7f163f7d9a90959771bfa1b3fa8bac2bacf1ef0ffe65d1ddd80f4d8700b4ac2"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-019"
+    },
+    {
+      "id": "DiskD-020",
+      "title": "DiskD-020",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-020.png",
+        "sha256": "2f42f983302d3677c7a039320685e12dbe48c13050935ec2d8992bfb96145401"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-020.png",
+        "sha256": "df54439fc59ecd5bde12485a115bdd3ce3e4891cbfbf0d7c5417ac5091e8a63a"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-020.png",
+        "sha256": "dc26de05dea5efed5d3e7852e82a9ce0423df22f465a971dbcfd3670ef887ebd"
+      },
+      "width": 2078,
+      "height": 757,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-020"
+    },
+    {
+      "id": "DiskD-021",
+      "title": "DiskD-021",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-021.png",
+        "sha256": "68584df65f2024de32a8489df57fde375d1e71bc39a8e5f910c8054c91f60560"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-021.png",
+        "sha256": "d4f4c5d986e240b2b07939c7f53acecdca0f2fc0becb9118f73dab9d6b1eb59a"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-021.png",
+        "sha256": "53bc4186d2eef779052b2f9caeb754219caa375403372919c46af415efa6b929"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-021"
+    },
+    {
+      "id": "DiskD-022",
+      "title": "DiskD-022",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-022.png",
+        "sha256": "b8711f182448fcf861f847a42e6ba0cdfdc82fa78dcc49891ce466caf12ff364"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-022.png",
+        "sha256": "30bd4648df57ba5fc054ec50d29d359f808ca1a302827475961c19fd096908be"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-022.png",
+        "sha256": "e176aa3ce7b8223cdc5a82bd9ac186902f5acd08036cb6d6776fa16df5e49abd"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-022"
+    },
+    {
+      "id": "DiskD-023",
+      "title": "DiskD-023",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-023.png",
+        "sha256": "07a90fa48e689eb418e11ec8c1befeeda7aeed459e1af0a98581ec7f4ee6d132"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-023.png",
+        "sha256": "d69fdd9e53b92f243f8bf3a9e8c0d0e623977908a9d8568088230d483c9b9674"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-023.png",
+        "sha256": "3f9563c5439532865b3b71165ac738384937e9e653318e1d1069fab2399ef0c5"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-023"
+    },
+    {
+      "id": "DiskD-024",
+      "title": "DiskD-024",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-024.png",
+        "sha256": "a5984f23f3894e0c8083a3e93959ae2ab3264582bd87b7590c820fc533e2764c"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-024.png",
+        "sha256": "5f261c64353d021ccd2315dcfc172affff9cafaa99474ddf2fbed7397483bfd3"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-024.png",
+        "sha256": "3340ac5f889848bd5c8a1a9c8dc49cbf70961f9885ad84c02c3324df68e6c349"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-024"
+    },
+    {
+      "id": "DiskD-025",
+      "title": "DiskD-025",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-025.png",
+        "sha256": "1a6606518264a39cb745779648f26eb1c1445064e6e45941fced9efa74f200b3"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-025.png",
+        "sha256": "9e707f419226f8bf8b7ed7a5fd3b55dfecdd76880b7053b94d2bd8aac83111f7"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-025.png",
+        "sha256": "05486ae7045d54fa97ad1071137ad105aa4b5d10aaf213dfdeb2af23358a4b09"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-025"
+    },
+    {
+      "id": "DiskD-026",
+      "title": "DiskD-026",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-026.png",
+        "sha256": "90ae645ff6a11669390138ba42dc9ab133cbcefc6a8294fad768390d597fe72e"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-026.png",
+        "sha256": "27f2aa91a3f2457d24a099b304d6b8d0395850426c5f7b7de63cfb0a8169445e"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-026.png",
+        "sha256": "53813a7876142ebc9c6a471292e1015e36bbef04ee84e323280d90af1922c188"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-026"
+    },
+    {
+      "id": "DiskD-027",
+      "title": "DiskD-027",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-027.png",
+        "sha256": "fd37bf7f9426e3aef9c7290ee16ec7eb26a31ed4c66445da1dd6e684f36c1063"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-027.png",
+        "sha256": "cddfdd5b25c56b11d8651b2ed27832639b19d647e287305098f250b3b46b51aa"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-027.png",
+        "sha256": "af49f8083aeee3c3a631b061a663429aa92cee0adb40871835a9e18682173df0"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-027"
+    },
+    {
+      "id": "DiskD-028",
+      "title": "DiskD-028",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-028.png",
+        "sha256": "ce66df4119ad91d05178a0746b83b274a83301429bab100f501e52850e7181be"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-028.png",
+        "sha256": "9d00d0db7bf456a50bc0b38216c4a93bf8290c7594dbff2b25d9e2c39cd836b0"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-028.png",
+        "sha256": "49cd44c6f2893bc18e9f2b2d23b2447d36962752dcbf2f43a48874f12372ec40"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-028"
+    },
+    {
+      "id": "DiskD-029",
+      "title": "DiskD-029",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-029.png",
+        "sha256": "e12ff3f0fd7c67e04dbdb7b86eebf539126fa96ac31efd48247d69a9b98e5ed3"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-029.png",
+        "sha256": "47b3857ed4e018596981ef8b215b1dc7829f53a2976bf6fdf1439a417d13f84f"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-029.png",
+        "sha256": "c88cfbfc8035ed3945d9da5c947076b195c8596e20d47fc42c28cfe004329ed9"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-029"
+    },
+    {
+      "id": "DiskD-030",
+      "title": "DiskD-030",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-030.png",
+        "sha256": "cac7ef65720ec5f163e4cef6934799b6e54b989cea5cfd161840ee1b96eeb335"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-030.png",
+        "sha256": "39d9afac741429447333563457a7a5495dc25a4e2406900807f9d03a67e7f4af"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-030.png",
+        "sha256": "6f5f45513c3ded2c7eb23b552f28104cec9a0b48adf7d5079dac6ad241edde34"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-030"
+    },
+    {
+      "id": "DiskD-031",
+      "title": "DiskD-031",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-031.png",
+        "sha256": "44603535e10749e500c9bff134f9ede62b6f4a69794d08daceef21a076e5a751"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-031.png",
+        "sha256": "24e1de266eb91465ca59c9aa0909abe081d70fb0a2528b74582f845385a9481d"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-031.png",
+        "sha256": "06890d552c16a41c331b7444399f67266ed791e0d3310904379d1bef3a6f6492"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-031"
+    },
+    {
+      "id": "DiskD-032",
+      "title": "DiskD-032",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-032.png",
+        "sha256": "650b5830f259b868172152bf1ccd0bfc3631b7ece39a2b7d3126a08b4bdfb723"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-032.png",
+        "sha256": "09ab8c4f1ca0419fd1b45088bfbee24fa4781f761aeb873900c39e07996b8580"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-032.png",
+        "sha256": "52c7dcbe4ed7c4521dc10a209b966bdb852d976ba56fdefc11050744e40359c3"
+      },
+      "width": 2078,
+      "height": 757,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-032"
+    },
+    {
+      "id": "DiskD-033",
+      "title": "DiskD-033",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-033.png",
+        "sha256": "66c6cc2cd47dc16bd07e91bcefbda280ed9a19007171f4fffbcf3d5cc45de16b"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-033.png",
+        "sha256": "28df3bf3ef0b4dbef1f84cbc4149da2d647d4bbda14f1e4801fc89d198561280"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-033.png",
+        "sha256": "c8f18616c2a89bf507b4ea826df15573b69cc511b3359ee0d6bd90c042aed0e4"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-033"
+    },
+    {
+      "id": "DiskD-034",
+      "title": "DiskD-034",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-034.png",
+        "sha256": "ba84b9262faf1c2b5bbfe8891b3b7d329866d9aa76d46e55253d43eb5003591f"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-034.png",
+        "sha256": "7505d4133283dcd399a5f8ecbdbd942fe6ac27ca21a9e945e43702ea00aa9cbd"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-034.png",
+        "sha256": "36d567cead7f25ce5729a43e7a9492a1a381b3b46563c0920d118e7d381dabb5"
+      },
+      "width": 2078,
+      "height": 757,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-034"
+    },
+    {
+      "id": "DiskD-035",
+      "title": "DiskD-035",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-035.png",
+        "sha256": "763caee17090a50ec61b9ee6c7b73abd3674e52697cb134dc14595b3812e965c"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-035.png",
+        "sha256": "a0089167c0759937619c8d91def49092f318f9540dada2f2efcd70d10c24ec11"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-035.png",
+        "sha256": "0f2bd29962fb11b24eea7ce55ab70698c87cb15808fbfdbc2adeb003e7c30805"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-035"
+    },
+    {
+      "id": "DiskD-036",
+      "title": "DiskD-036",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-036.png",
+        "sha256": "3c0adec399cca8c65e47458abd4307db29c2b38d8ecb51b40b8684fd9340febf"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-036.png",
+        "sha256": "ceba7386ba2c4f2b25027c9cc54281434729d388e08943128313680ebe7b2ac7"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-036.png",
+        "sha256": "efc18713d16aeb349f3620d4a1a249348b24671a44a2a8b6b78213635e6674be"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-036"
+    },
+    {
+      "id": "DiskD-037",
+      "title": "DiskD-037",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-037.png",
+        "sha256": "2983724bb07796378d45da84eab359a87a1ea32b1b879d6842ab9f2d91dfe835"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-037.png",
+        "sha256": "d138743f4bd9e18a36806164f5921949de965c46365e079a2377025d800a44bd"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-037.png",
+        "sha256": "2c6c2535a501e78a90502378259230e8f4c32e2212a5236e7d2241c7c7c64290"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-037"
+    },
+    {
+      "id": "DiskD-038",
+      "title": "DiskD-038",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-038.png",
+        "sha256": "29fdad8ad39eb66d81315dd4aa8f9a1175b610f6a5fa8ec1690e5208dc93d7f4"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-038.png",
+        "sha256": "53de6b56e8b7394f9e5766b83ba6392d9fd5ea550e18f3b883206aad4ba4bf5b"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-038.png",
+        "sha256": "c172b25cc282ffb52c56bd293fe05d3a0609e8c74123ef15411cf4180da10566"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "Pixelidentische Originalvorlage; HD-Fassung von DiskB-035 übernommen.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskB-035",
+      "reused_from": "DiskB-035"
+    },
+    {
+      "id": "DiskD-039",
+      "title": "DiskD-039",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-039.png",
+        "sha256": "ebc22b9367e2e7f7133c1c8e1d7ff0a12a362bffa805dc1dbf4ac536cce9ebb2"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-039.png",
+        "sha256": "da3b7f7ff98d1aba559fd452fbf1105935a13ff6947baa1affcd185c93d0bdd6"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-039.png",
+        "sha256": "572ca34334c99dc19cf40179f2a614f9949fff3f1bf2ce72423c58954a3a9d8b"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-039"
+    },
+    {
+      "id": "DiskD-040",
+      "title": "DiskD-040",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-040.png",
+        "sha256": "5ef1191e7a4f4f76cb64ab18fa8bac196ed24a4383b3b850a01d58cada45cf3c"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-040.png",
+        "sha256": "769b12d8838061c4efeac394cc9812cf07a4ed10d790dfc96093d00d77f193f8"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-040.png",
+        "sha256": "88bb21ba44cee410bc9d0069e8f9ab5ed577e1872b2ecefa9eab465805b521e9"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-040"
+    },
+    {
+      "id": "DiskD-041",
+      "title": "DiskD-041",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-041.png",
+        "sha256": "74a87c808cb699bfb30ae7c62d1e035b87a0d2188611774cb04b9ee5a7b0abf8"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-041.png",
+        "sha256": "2e7bab7fb0209228074e8a49764ae6aadb6504ad0d068056f65d3832dbf543ca"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-041.png",
+        "sha256": "cb006f064dde675cc72622fb9bfe85370df7e587a2ca1c991fdd9648a58ba69b"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-041"
+    },
+    {
+      "id": "DiskD-042",
+      "title": "DiskD-042",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-042.png",
+        "sha256": "cac0e2d4e4d68a6d62d410615e33615aa2ec652cac3153e9771f41b0637b931c"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-042.png",
+        "sha256": "e3a2a721a3ee771b668ba04483dff2af955a1967f3b3eee0ee33f32405912108"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-042.png",
+        "sha256": "b42765cb2f677c71d5cc30cb3d374117d54e8edba6e24b38a38b8ba70e643da7"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-042"
+    },
+    {
+      "id": "DiskD-043",
+      "title": "DiskD-043",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-043.png",
+        "sha256": "b93f30f6fbd0cc1e55db07630a2d244a3cc629c38e28c17978aa337360c72994"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-043.png",
+        "sha256": "d9867588b3591afd0d9bb75e750aac4092074f2c405439460568125507d20c76"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-043.png",
+        "sha256": "5aa53c8e2eb619b2661da917032ce1e341147c429eaaaaeaa56fd10ced2063be"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-043"
+    },
+    {
+      "id": "DiskD-044",
+      "title": "DiskD-044",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-044.png",
+        "sha256": "53b589c22222971af4d94c6cde34df76a85205faf857597096e47aa630f0c9dc"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-044.png",
+        "sha256": "9df1a7f2aee0ab4f267d164dda575fe32602d07a73c101a4c153141f2e0d389f"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-044.png",
+        "sha256": "e4cd0f1c9a35a6e3678537b166bbee57a3d7c19f394b9d503aa5099b0643a67a"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-044"
+    },
+    {
+      "id": "DiskD-045",
+      "title": "DiskD-045",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-045.png",
+        "sha256": "8973b01ecee4671d7a82442a2c6655da7ac5796029697271a9b14b56235ec49a"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-045.png",
+        "sha256": "b910b9390483f0318f3e4e27d7a315e9635c3632f41bb65067b28557ace151ec"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-045.png",
+        "sha256": "5a073f42b7523785978e6f47ede3652e4b582bd29b3f5b244a8300a5b4cb23e2"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-045"
+    },
+    {
+      "id": "DiskD-046",
+      "title": "DiskD-046",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-046.png",
+        "sha256": "4048fcc08e59b71d4826380a2cd0f4f14e0cdcda832dea8a31a36059bf4bd8eb"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-046.png",
+        "sha256": "59a6ebef6035ba37baac35ff34f8a1a0ae2ca5527308089e1ff1e6d4595cd8b3"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-046.png",
+        "sha256": "573fd35e078086f61c80a73887a7d979575f3134b1223780636ca541e575647b"
+      },
+      "width": 2078,
+      "height": 757,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-046"
+    },
+    {
+      "id": "DiskD-047",
+      "title": "DiskD-047",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-047.png",
+        "sha256": "395f592dfb6cb484179d09fffd5db18cb564617d088f8c7d80c11023332ada04"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-047.png",
+        "sha256": "a5ffde02c1f8135c9bb0d9fc4f767c38b9ad3a878f10068bbf208f2ef3943cc5"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-047.png",
+        "sha256": "a24f797b305a7e789ec5bf1f78a515c57e2336b78776f36dbd6e5e0e8e407259"
+      },
+      "width": 2078,
+      "height": 757,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-047"
+    },
+    {
+      "id": "DiskD-048",
+      "title": "DiskD-048",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-048.png",
+        "sha256": "d3ed8fa3aeaa1685c02e24021df421af65d03d65cf5984054846d6cf7f4d9465"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-048.png",
+        "sha256": "0753675b066a641f990da01a6d3a1a9f473c4ef0f68973c0cbe9f793c8d86e0a"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-048.png",
+        "sha256": "6c3d05add8594b8e42875ad622eba2cff756acb359097f8d251612cd071e9a5e"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-048"
+    },
+    {
+      "id": "DiskD-049",
+      "title": "DiskD-049",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-049.png",
+        "sha256": "70a8b03c8dedf76d9fe676a0242a4bedca4a96ea2568a268e863032825cb4a1c"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-049.png",
+        "sha256": "f4898726c0ee7faa63d24b240891749ade72cf71d0ed9f390abe39a0dba6776b"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-049.png",
+        "sha256": "a5e465663aab1070273dd4178480c613f0bd8b2414495f95742ccf37572e341c"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-049"
+    },
+    {
+      "id": "DiskD-050",
+      "title": "DiskD-050",
+      "source": {
+        "path": "images/Amiga/Disk 4/DiskD-050.png",
+        "sha256": "f847b4812442a846859c7b4647acc3f7c7950d516afdbf61279f796e594da98b"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/DiskD-050.png",
+        "sha256": "d4c11db855f62e57c38448a43253b14596c4d6afdb75d94ef34a482bf382e1b3"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/DiskD-050.png",
+        "sha256": "14713d218d765a7c28263765474b4d7e5e1c11ef1e16d25611f26b8889f3f8f9"
+      },
+      "width": 2079,
+      "height": 756,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/remaining.json",
+      "prompt_id": "DiskD-050"
+    },
+    {
+      "id": "Story1-01",
+      "title": "Buch und Kerzen",
+      "source": {
+        "path": "images/Amiga/Disk 1/Story1.png",
+        "sha256": "d44217d357e72f9c4ad96ea412181db68cb9451c78765265e4d0274ffe71cbe5"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/Story1-01.png",
+        "sha256": "ab53cf6715da4307f7d7ccc40d0f10e6e6d26cf3a7bd3ff1102f6f2569ea0040"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 1/Story1-01.png",
+        "sha256": "070ebd85dd6b70950ae038b63d60e3d111457961c9ed232a684aef3e76cb44e4"
+      },
+      "width": 1804,
+      "height": 872,
+      "vertical_scale": 2,
+      "crop": [
+        0,
+        0,
+        240,
+        58
+      ],
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/extras.json",
+      "prompt_id": "Story1-01"
+    },
+    {
+      "id": "Story1-02",
+      "title": "Gepackte Koffer",
+      "source": {
+        "path": "images/Amiga/Disk 1/Story1.png",
+        "sha256": "d44217d357e72f9c4ad96ea412181db68cb9451c78765265e4d0274ffe71cbe5"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/Story1-02.png",
+        "sha256": "2844b9c54a12b64f9c5b1a9c42900999ad718e15b76e51ae513159a735739091"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 1/Story1-02.png",
+        "sha256": "022ba99c918e2b260de91d3591acb946b54bd3ddedc2cb95b7b4ad78d84dbfce"
+      },
+      "width": 1804,
+      "height": 872,
+      "vertical_scale": 2,
+      "crop": [
+        400,
+        70,
+        240,
+        58
+      ],
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/extras.json",
+      "prompt_id": "Story1-02"
+    },
+    {
+      "id": "Story1-03",
+      "title": "Abschied am Zug",
+      "source": {
+        "path": "images/Amiga/Disk 1/Story1.png",
+        "sha256": "d44217d357e72f9c4ad96ea412181db68cb9451c78765265e4d0274ffe71cbe5"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/Story1-03.png",
+        "sha256": "0687a4d366e3d842ec7d21198b9f29eeb62a2de4aa007349f6f127b477526135"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 1/Story1-03.png",
+        "sha256": "b0c688f4d093fabca4ce00280b4aa8602a26bb35c8a8156d0271a6d8d270949f"
+      },
+      "width": 1806,
+      "height": 871,
+      "vertical_scale": 2,
+      "crop": [
+        0,
+        140,
+        240,
+        58
+      ],
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/extras.json",
+      "prompt_id": "Story1-03"
+    },
+    {
+      "id": "Story2-01",
+      "title": "Paar vor einem Schaufenster",
+      "source": {
+        "path": "images/Amiga/Disk 1/Story2.png",
+        "sha256": "c2b343cf4e59be26076bf893d9e28df18cfcd6367716db567fcba2de68127d9e"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/Story2-01.png",
+        "sha256": "fe293e3ec0f1514c97390e70292e092c61783060b8ff8382122d4985e902ff16"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 1/Story2-01.png",
+        "sha256": "8e0ce556408c896cf28ffaa9f2ea33becb7b2c3410e9c26d0a6de59ab1d277fb"
+      },
+      "width": 1804,
+      "height": 872,
+      "vertical_scale": 2,
+      "crop": [
+        400,
+        0,
+        240,
+        58
+      ],
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/extras.json",
+      "prompt_id": "Story2-01"
+    },
+    {
+      "id": "Story2-02",
+      "title": "Die Eltern",
+      "source": {
+        "path": "images/Amiga/Disk 1/Story2.png",
+        "sha256": "c2b343cf4e59be26076bf893d9e28df18cfcd6367716db567fcba2de68127d9e"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/Story2-02.png",
+        "sha256": "3bb575721b831af1672ca10d8d4768925924973efa819c73ddc4a22e6ebdf3a2"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 1/Story2-02.png",
+        "sha256": "0e9ed4076a711e0e2b6aa00bc03be29c0aec8c2a6d1c86434302712b22b705bc"
+      },
+      "width": 1804,
+      "height": 872,
+      "vertical_scale": 2,
+      "crop": [
+        0,
+        70,
+        240,
+        58
+      ],
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/extras.json",
+      "prompt_id": "Story2-02"
+    },
+    {
+      "id": "Story2-03",
+      "title": "Gespräch auf dem Sofa",
+      "source": {
+        "path": "images/Amiga/Disk 1/Story2.png",
+        "sha256": "c2b343cf4e59be26076bf893d9e28df18cfcd6367716db567fcba2de68127d9e"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/Story2-03.png",
+        "sha256": "ae0dcbf6ca9897b750895415a7de5e04bdf03ed46af56e626781edada8655309"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 1/Story2-03.png",
+        "sha256": "61bef87cd198711b95fb1d69b6d29fc3a797510a0aa22dea3a00c3109e43b670"
+      },
+      "width": 1804,
+      "height": 872,
+      "vertical_scale": 2,
+      "crop": [
+        400,
+        140,
+        240,
+        58
+      ],
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/extras.json",
+      "prompt_id": "Story2-03"
+    },
+    {
+      "id": "Story3-01",
+      "title": "See und Berge",
+      "source": {
+        "path": "images/Amiga/Disk 1/Story3.png",
+        "sha256": "1dd6e5a8956adf779c94fd0d09e183f609c9e6fa1de536e8b578f80c21e79fce"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/Story3-01.png",
+        "sha256": "e6be8ca93ce785ecbb1b5d4a80ed8025828bed709b3e35e13d55ac946045b156"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 1/Story3-01.png",
+        "sha256": "373f78f5a00cdf2eb872a731c67e486297f80bab0b01ae4b4e37e8a4f58f3bac"
+      },
+      "width": 1804,
+      "height": 872,
+      "vertical_scale": 2,
+      "crop": [
+        0,
+        0,
+        240,
+        58
+      ],
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/extras.json",
+      "prompt_id": "Story3-01"
+    },
+    {
+      "id": "Story3-02",
+      "title": "An der Bar",
+      "source": {
+        "path": "images/Amiga/Disk 1/Story3.png",
+        "sha256": "1dd6e5a8956adf779c94fd0d09e183f609c9e6fa1de536e8b578f80c21e79fce"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/Story3-02.png",
+        "sha256": "210829656905580cc50fdad38bffa9d0cc9d60c9661061f8fd10b3237dceefbf"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 1/Story3-02.png",
+        "sha256": "0a0846bc8c7a29655030594cfa5e59e4f701a78ab956e074868647101d722dfb"
+      },
+      "width": 1804,
+      "height": 872,
+      "vertical_scale": 2,
+      "crop": [
+        400,
+        70,
+        240,
+        58
+      ],
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/extras.json",
+      "prompt_id": "Story3-02"
+    },
+    {
+      "id": "Story3-03",
+      "title": "Eintrag ins Gästebuch",
+      "source": {
+        "path": "images/Amiga/Disk 1/Story3.png",
+        "sha256": "1dd6e5a8956adf779c94fd0d09e183f609c9e6fa1de536e8b578f80c21e79fce"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/Story3-03.png",
+        "sha256": "fbee004716923fe60296ad31da2062085c55195eac018ae7225291f0b5d24295"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 1/Story3-03.png",
+        "sha256": "187305f5ba149bf7cbc29b9b55dd204b7cf747e2e3310cfe99494a3569b50489"
+      },
+      "width": 1805,
+      "height": 871,
+      "vertical_scale": 2,
+      "crop": [
+        0,
+        140,
+        240,
+        58
+      ],
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/extras.json",
+      "prompt_id": "Story3-03"
+    },
+    {
+      "id": "Story4-01",
+      "title": "Armbanduhr",
+      "source": {
+        "path": "images/Amiga/Disk 1/Story4.png",
+        "sha256": "61941cafd8e8c07379f61d1e0615dfb42b053f55db9683fd6a1a50be80cb4e0f"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/Story4-01.png",
+        "sha256": "038698c1e1b7a714fc2eec6b7eb259ccf3ae4709f3267f1aebd7f25aae5b625d"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 1/Story4-01.png",
+        "sha256": "cc5e06e3969b2db35ded5ef545e3b1e48e7cae5e66686f5631f4d2d40fd12a14"
+      },
+      "width": 1804,
+      "height": 872,
+      "vertical_scale": 2,
+      "crop": [
+        400,
+        0,
+        240,
+        58
+      ],
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/extras.json",
+      "prompt_id": "Story4-01"
+    },
+    {
+      "id": "Story4-02",
+      "title": "Zimmerschlüssel",
+      "source": {
+        "path": "images/Amiga/Disk 1/Story4.png",
+        "sha256": "61941cafd8e8c07379f61d1e0615dfb42b053f55db9683fd6a1a50be80cb4e0f"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/Story4-02.png",
+        "sha256": "f67f779e8e3606fcbd4b6e9461cd97202ed472b3951c6f21085972f90b9868e3"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 1/Story4-02.png",
+        "sha256": "73ff198ebbb9d085d9abfd359f4ffdd9628d6956921b0fec2f8be556c94a33c1"
+      },
+      "width": 1804,
+      "height": 872,
+      "vertical_scale": 2,
+      "crop": [
+        0,
+        70,
+        240,
+        58
+      ],
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/extras.json",
+      "prompt_id": "Story4-02"
+    },
+    {
+      "id": "Story4-03",
+      "title": "Schottland am Abend",
+      "source": {
+        "path": "images/Amiga/Disk 1/Story4.png",
+        "sha256": "61941cafd8e8c07379f61d1e0615dfb42b053f55db9683fd6a1a50be80cb4e0f"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/Story4-03.png",
+        "sha256": "0448b38451d89fa279330216be5fe04aeae6669b34a27068cdcefd67f831cb9d"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 1/Story4-03.png",
+        "sha256": "3364f284b260bf5f47a9b2790fec055e84bd7d290246116b0fc170e31ce9fbf6"
+      },
+      "width": 1803,
+      "height": 872,
+      "vertical_scale": 2,
+      "crop": [
+        400,
+        140,
+        240,
+        58
+      ],
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/extras.json",
+      "prompt_id": "Story4-03"
+    },
+    {
+      "id": "Title",
+      "title": "Title",
+      "source": {
+        "path": "images/Amiga/Disk 1/Title.png",
+        "sha256": "7865ddbc81cc5ba2c0f24e2fae8384afabcd70b1503e69338f73e9f8c64d542d"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/Title.png",
+        "sha256": "5eca2ef7889dfb4be17417cfa11de4d4c881f3a45bc90b1b638ba621b14764ab"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 1/Title.png",
+        "sha256": "79760d492e9c7f5cc16d3cdead8710975f5395f411a6425dbb7ace413b2cbf19"
+      },
+      "width": 1586,
+      "height": 992,
+      "vertical_scale": 2,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/extras.json",
+      "prompt_id": "Title"
+    },
+    {
+      "id": "Victory-000",
+      "title": "Victory-000",
+      "source": {
+        "path": "images/Amiga/Disk 4/animations/Victory/Victory-000.png",
+        "sha256": "2bb5e65b6e28338ed6b758bd69902929f315661844d83d946bc09b02805fc8ae"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/Victory-000.png",
+        "sha256": "48a1e6ec5ade3b12fbe74de72a386cd3e36741592af4faa662a6dd401a5662e0"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/Victory-000.png",
+        "sha256": "bbdff9f7ae311b496f9300c8a27634ccb5bea02ae3437d7fdde5072a8830e164"
+      },
+      "width": 1586,
+      "height": 992,
+      "vertical_scale": 1,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/extras.json",
+      "prompt_id": "Victory-000"
+    },
+    {
+      "id": "Victory-015",
+      "title": "Victory-015",
+      "source": {
+        "path": "images/Amiga/Disk 4/animations/Victory/Victory-015.png",
+        "sha256": "4c0aa65abeb7f8fdecfa9ef8186bf86d38ca3574b64c9a822d06ab47c7e05e9b"
+      },
+      "input": {
+        "path": "images/Amiga_HD/inputs/Victory-015.png",
+        "sha256": "8c1e50179597ba0e118eab03327100cfa3686c35033eea85dad3ddd0afa9b4cf"
+      },
+      "output": {
+        "path": "images/Amiga_HD/Disk 4/Victory-015.png",
+        "sha256": "a6d034bb3addb01c588e2877087653da7c267848cb5a2ab3a1f1037d593f37fe"
+      },
+      "width": 1586,
+      "height": 992,
+      "vertical_scale": 1,
+      "crop": null,
+      "status": "generated_sample_visual_review",
+      "note": "KI-Neuinterpretation; kleine Details und Spielobjekte benötigen eine Einzelprüfung.",
+      "prompt_file": "prompts/extras.json",
+      "prompt_id": "Victory-015"
+    }
+  ],
+  "completed_date": "2026-10-26"
+}
