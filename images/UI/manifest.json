@@ -6236,6 +6236,37 @@
           "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
         }
       ]
+    },
+    {
+      "kind": "ui",
+      "symbol": "SAVE_LOAD",
+      "id": 1,
+      "label": {
+        "de": "Speichern / Laden",
+        "en": "Save / Load"
+      },
+      "file": "ui/save-load.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "9ae0460fa5fc588ff378bba81d45ff1f9faeeaeee91dfc1de22c06d9b4a58b69",
+      "alpha_bbox": [
+        0,
+        41,
+        1232,
+        1254
+      ],
+      "id_source": "Host UI action namespace; no game enum",
+      "date": "2026-10-31",
+      "style_references": [
+        {
+          "file": "images/UI/objects/tagebuch.png",
+          "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
+        },
+        {
+          "file": "images/UI/verbs/nimm.png",
+          "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
+        }
+      ]
     }
   ]
 }

@@ -140,7 +140,7 @@ void verbList() {
     }
     list+='\n'+line;
     list+=tr("\nBedienung:  objekte, verben", "\nControls:   objects, verbs");
-    say(list);say(tr("Beispiele: nimm dave | betrachte hinweisschild | wende schlüssel auf tür.\nAuch: n/s/o/w, lies <Objekt>, inventar, objekte. Umlaute oder ae/oe/ue sind möglich.\nSpeichern/Laden ist noch nicht verfügbar.", "Examples: take dave | consider sign | use key on door.\nAlso: n/s/e/w, read <object>, inventory, objects.\nSaving/loading is not available yet."));
+    say(list);say(tr("Beispiele: nimm dave | betrachte hinweisschild | wende schlüssel auf tür.\nAuch: n/s/o/w, lies <Objekt>, inventar, objekte. Umlaute oder ae/oe/ue sind möglich.", "Examples: take dave | consider sign | use key on door.\nAlso: n/s/e/w, read <object>, inventory, objects."));
 }
 
 std::string stripArticle(std::string s) {
@@ -353,3 +353,75 @@ extern "C" void GameSubmit(const char *input) {
     command=0;object2=0;
     FlushOutput();
 }
+
+namespace {
+// Exactly the 1719-byte payload documented in spec/C64/savegame_format.md.
+// The browser envelope adds language, displayed image/part and music preference.
+constexpr unsigned SavePayloadSize=1719, SaveDataSize=SavePayloadSize+4;
+std::vector<ScriptByte> snapshotBytes() {
+    std::vector<ScriptByte> bytes;
+    auto word=[&](ScriptWord n){bytes.push_back(n&255);bytes.push_back(n>>8);};
+    for(unsigned i=1;i<ObjectStateCount;++i){
+        if(i<RoomStateCount)for(auto p:{north,east,south,west,up,down,visited})bytes.push_back(p[i]);
+        word(objectDescriptionID[i]);word(remainingPoints[i]);
+        bytes.push_back(objectLocation[i]);bytes.push_back(objectState[i]);
+    }
+    bytes.push_back(visited[0]);bytes.push_back(currentRoom);word(steps);word(score);
+    bytes.push_back(engineState69BF);bytes.push_back(gamePart);
+    bytes.push_back(language);bytes.push_back(lastImage);bytes.push_back(lastImagePart);bytes.push_back(music);
+    return bytes;
+}
+uint32_t saveChecksum(const std::string& text) {
+    uint32_t h=2166136261u;for(unsigned char c:text){h^=c;h*=16777619u;}return h;
+}
+void appendHex(std::string& s,uint32_t n,unsigned digits) {
+    const char* hex="0123456789abcdef";
+    for(unsigned i=digits;i>0;--i)s+=hex[(n>>((i-1)*4))&15];
+}
+bool readHex(const std::string& s,unsigned pos,unsigned digits,uint32_t& n) {
+    n=0;for(unsigned i=0;i<digits;++i){char c=s[pos+i];if(!((c>='0'&&c<='9')||(c>='a'&&c<='f')))return false;n=n*16+(c<='9'?c-'0':c-'a'+10);}return true;
+}
+}
+extern "C" const char *GameSave(void) {
+    static std::string result;
+    if(busy||mode!=GameReady)return nullptr;
+    result="SC1:";for(auto n:snapshotBytes())appendHex(result,n,2);
+    appendHex(result,saveChecksum(result),8);return result.c_str();
+}
+extern "C" int GameLoad(const char *input) {
+    if(busy||!input)return 0;
+    constexpr unsigned length=4+SaveDataSize*2+8;
+    unsigned size=0;while(size<=length&&input[size])++size;
+    if(size!=length)return 0;
+    std::string data(input,size);if(data.substr(0,4)!="SC1:")return 0;
+    uint32_t checksum=0;if(!readHex(data,length-8,8,checksum)||checksum!=saveChecksum(data.substr(0,length-8)))return 0;
+    std::vector<ScriptByte> bytes;for(unsigned i=0;i<SaveDataSize;++i){uint32_t n=0;if(!readHex(data,4+i*2,2,n))return 0;bytes.push_back(ScriptByte(n));}
+    // All validation precedes mutation; reject corrupt or incompatible saves.
+    if(bytes[1712]<1||bytes[1712]>=RoomStateCount||bytes[1718]<1||bytes[1718]>4||bytes[1719]>1||bytes[1721]<1||bytes[1721]>4||bytes[1722]>1)return 0;
+    for(unsigned i=0;i<103;++i)for(unsigned d=0;d<6;++d)if(bytes[i*13+d]>=RoomStateCount)return 0;
+    busy=true;ResetGameState();
+    unsigned at=0;auto byte=[&](){return bytes[at++];};
+    auto word=[&](){unsigned lo=byte();return ScriptWord(lo|(unsigned(byte())<<8));};
+    for(unsigned i=1;i<ObjectStateCount;++i){
+        if(i<RoomStateCount)for(auto p:{north,east,south,west,up,down,visited})p[i]=byte();
+        objectDescriptionID[i]=word();remainingPoints[i]=word();
+        objectLocation[i]=byte();objectState[i]=byte();
+    }
+    visited[0]=byte();currentRoom=byte();steps=word();score=word();engineState69BF=byte();gamePart=byte();
+    language=GameLanguage(byte());lastImage=byte();lastImagePart=byte();music=byte()!=0;
+    descriptionRoom=0;descriptionText=0;titleOnly=false;imageID=255;
+    mode=GameReady;inputResult=GameInputIgnored;
+    if(output){const GameEvent e{GameImageEvent,nullptr,lastImagePart,lastImage,currentRoom};output(&e,outputContext);}
+    roomTitle();
+    // Display without dispatch, step changes or marking the room visited again.
+    const TextID id=currentRoom+(currentRoom<16?106:currentRoom<51?153:currentRoom<66?305:332);
+    const auto text=english()?GameEnglishTextLookup(gamePart,id):GameTextLookup(gamePart,id);
+    if(text.kind==TextLiteral)say(text.text);
+    objects();FlushOutput();busy=false;return 1;
+}
+extern "C" const char *GameRoomName(void) {
+    return currentRoom>0&&currentRoom<RoomStateCount?textRecord(gamePart,currentRoom-1):"";
+}
+extern "C" unsigned GameGetLanguage(void) {return unsigned(language);}
+
+extern "C" const char *GameIntroNarrative(void) {return english()?GameEnglishIntroText:GameIntroText;}

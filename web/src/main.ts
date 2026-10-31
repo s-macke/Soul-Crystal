@@ -2,6 +2,8 @@ import './style.css';
 import { loadEngine, type Engine, type GameEvent, type GameView } from './engine';
 import { imagePath, victoryPath } from './images';
 import { loadControls } from './controls';
+import { createSaveUI } from './save-ui';
+import type { SaveState, SaveRecord } from './saves';
 let controls: Awaited<ReturnType<typeof loadControls>> | undefined;
 const get = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
 const languageButtons = [get<HTMLButtonElement>('start-de'), get<HTMLButtonElement>('start-en')];
@@ -12,6 +14,28 @@ let english = false;
 let starting = false;
 let beforeFirstImage = false;
 let acceptsCommands = false;
+let currentView: GameView | undefined;
+function capture(): SaveState | null {
+  if (!engine || !currentView || currentView.mode !== 0) return null;
+  const snapshot = engine.ccall('web_save', 'string', [], []);
+  if (!snapshot) return null;
+  const {language, part, room, roomName, score, steps} = currentView;
+  return {snapshot, language, part, room, roomName, score, steps};
+}
+const saves = createSaveUI({capture, load: loadSave, english: ()=>english});
+function loadSave(record: SaveRecord): boolean {
+  if (!document.body.classList.contains('playing')) startGame(record.language === 1);
+  const previous = Array.from(transcript.children);
+  const previousEnglish = english;
+  english = record.language === 1;
+  transcript.replaceChildren();
+  const ok = engine.ccall('web_load', 'number', ['string'], [record.snapshot]);
+  if (!ok) { english = previousEnglish; transcript.replaceChildren(...previous); return false; }
+  get('intro-text').replaceChildren();
+  paragraph(get('intro-text'), engine.ccall('web_intro', 'string', [], []));
+  toggleJournal(false);transcript.scrollTop = 0;
+  return true;
+}
 function fail(error: unknown) {
   get('error').hidden = false;
   get('error').textContent = `${english ? 'Could not continue' : 'Das Spiel konnte nicht fortgesetzt werden'}: ${String(error)}`;
@@ -38,6 +62,13 @@ function event(event: GameEvent) {
   }
 }
 function view(view: GameView) {
+  currentView = view;
+  english = view.language === 1;
+  document.documentElement.lang = english ? 'en' : 'de';
+  get('intro').querySelector('summary')!.textContent = english ? 'The story & how to play' : 'Vorgeschichte & Spielanleitung';
+  get('new-game').textContent = english ? 'Start a new adventure' : 'Ein neues Abenteuer beginnen';
+  get('ended-load').hidden = view.mode < 4;
+  get('ended-load').textContent = english ? 'Load game' : 'Spielstand laden';
   controls?.update(view, english);
   if (view.mode === 5) {
     scene.src = `${import.meta.env.BASE_URL}${victoryPath}`;
@@ -52,11 +83,17 @@ function view(view: GameView) {
 }
 function submitCommand(command: string) {
   if (!command || !acceptsCommands) return;
+  const before = capture();
   for (const p of Array.from(transcript.children)) p.classList.add('previous');
   paragraph(transcript, `> ${command}`, 'command');
   try { engine.ccall('web_submit', null, ['string'], [command]); }
   catch (error) { fail(error); }
   transcript.scrollTop = transcript.scrollHeight;
+  if (currentView?.mode === 4 && before) saves.auto(before, 'death');
+  else if (currentView?.mode === 0) {
+    if (before && currentView.part !== before.part) saves.auto(capture(), 'part');
+    else if (before && currentView.room !== before.room) saves.auto(capture(), 'room');
+  }
 }
 function startGame(inEnglish: boolean) {
   if (document.body.classList.contains('playing')) return;
@@ -91,11 +128,14 @@ function toggleJournal(open = !document.body.classList.contains('journal-open'))
 }
 get('journal-toggle').addEventListener('click', () => toggleJournal());
 document.addEventListener('keydown', e => { if (e.key === 'Escape') toggleJournal(false); });
+get('welcome-load').addEventListener('click', () => saves.open());
+get('ended-load').addEventListener('click', () => saves.open());
 get('new-game').addEventListener('click', () => location.reload());
 scene.addEventListener('error', () => fail(new Error(english ? 'Picture could not be loaded.' : 'Bild konnte nicht geladen werden.')));
-Promise.all([loadEngine(event, view), loadControls(get('icon-controls'), submitCommand)]).then(([loaded, loadedControls]) => {
+Promise.all([loadEngine(event, view), loadControls(get('icon-controls'), submitCommand, () => saves.open())]).then(([loaded, loadedControls]) => {
   engine = loaded;
   controls = loadedControls;
   languageButtons.forEach(button => button.disabled = false);
+  get<HTMLButtonElement>('welcome-load').disabled = false;
   get('load-status').textContent = '';
 }).catch(fail);

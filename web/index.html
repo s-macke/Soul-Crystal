@@ -12,17 +12,27 @@
     <button id="start-de" lang="de" disabled>Deutsch</button>
     <button id="start-en" lang="en" disabled>English</button>
   </div>
+  <button id="welcome-load" disabled>Spielstand laden / Load game</button>
   <p id="load-status" role="status">Lädt … / Loading …</p>
 </section>
 <section class="scene" aria-label="Schauplatz"><img id="scene" src="./images/hd/DiskA-002.png" width="2079" height="756" alt="Straße vor dem Hotel"><div class="scene-footer"><span id="scene-label">Soul Crystal · C64</span><span id="stats"></span></div>
 </section>
 <button id="journal-toggle" class="journal-toggle" type="button" aria-label="Tagebuch öffnen" aria-expanded="false" hidden><img src="./icons/objects/tagebuch.png" alt=""></button>
+<div id="adventure-overlay">
 <section id="game" hidden>
   <details id="intro"><summary>Vorgeschichte & Spielanleitung</summary><div id="intro-text"></div></details>
   <div id="transcript" role="log" aria-live="polite" aria-relevant="additions" tabindex="0"></div>
+  <button id="ended-load" type="button" hidden>Spielstand laden / Load game</button>
   <button id="new-game" type="button" hidden>Ein neues Abenteuer beginnen</button>
 </section>
 <section id="icon-controls" aria-label="Spielsteuerung"></section>
+</div>
+<dialog id="save-dialog" aria-labelledby="save-title">
+  <div class="save-heading"><h2 id="save-title">Spielstände</h2><button id="save-close" type="button">Schließen</button></div>
+  <p id="save-local"></p><button id="save-current" type="button">Neuen Spielstand speichern</button>
+  <p id="save-message" role="status"></p><div id="save-list"></div>
+</dialog>
+<p id="save-notice" role="status" aria-live="polite"></p>
 <p id="error" role="alert" hidden></p>
 </main>
 </div><script type="module" src="/src/main.ts"></script>

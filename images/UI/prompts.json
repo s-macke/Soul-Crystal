@@ -3370,6 +3370,23 @@
       ],
       "date": "2026-10-28",
       "id_source": "objectDisplayNames[165] (no enum symbol)"
+    },
+    {
+      "kind": "ui",
+      "symbol": "SAVE_LOAD",
+      "id": 1,
+      "label": {
+        "de": "Speichern / Laden",
+        "en": "Save / Load"
+      },
+      "file": "ui/save-load.png",
+      "id_source": "Host UI action namespace; no game enum",
+      "date": "2026-10-31",
+      "prompt": "Create ONE transparent square painterly fantasy-adventure UI icon for SAVE / LOAD GAME. The two attached images are STYLE REFERENCES ONLY, not edit targets: match their warm golden edge lighting, dark brown contours, hand-painted brushwork and strong readable silhouette. Subject: a compact closed dark teal leather-bound book with brass corner protectors, with TWO large distinct gold arrows in front of the cover: one pointing down into the book, one pointing up out of it. Clearly opposite directions, thick simple arrow shapes, no circular reload arrow. Book and arrows are one coherent centered motif. Readable at 38 and 48 pixels. Square canvas, all content inside with 10 percent transparent padding. No lettering, numbers, frame, tile, background, ground shadow or watermark. True transparent alpha background. Painterly 2D matching the references, not glossy 3D.",
+      "style_references": [
+        "images/UI/objects/tagebuch.png",
+        "images/UI/verbs/nimm.png"
+      ]
     }
   ]
 }

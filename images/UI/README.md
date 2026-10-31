@@ -2,7 +2,7 @@
 
 [Interaktive Vorschau öffnen](index.html), direkt als lokale Datei ohne Server.
 Transparente PNGs, erzeugt am 27.–28.10.2026 mit dem eingebauten `image_gen`.
-Der vollständige Katalog enthält 181 PNGs: 38 Verbsymbole und 143 Objektmotive.
+Der vollständige Katalog enthält 182 PNGs: 38 Befehlssymbole, 143 Objektmotive und eine UI-Aktion.
 Die 143 Objektmotive decken alle 165 Objekt-IDs ab; 135 Motive wurden ergänzt.
 Die einzelnen Zuordnungen enthält `manifest.json`.
 Die ersten zwölf Symbole verwenden die freigegebene gemalte Amiga-HD-Rezeption als Stilreferenz. Die weiteren Symbole verwenden die freigegebenen Hand- und Tagebuchsymbole. Die jeweiligen Referenzen samt Prüfsummen stehen im Manifest.
@@ -38,3 +38,6 @@ als Referenz; sämtliche verwendeten Referenzen sind dokumentiert.
 Das Amulett orientiert sich an der Beschreibung in `out/game_texts.c` (Metallanhänger mit grün leuchtender Schlange). Musik ist als Symbol vorhanden, aktiviert aber keine Musikwiedergabe im Webport. Die Vorschau führt keine Spielbefehle aus und ihre
 Objektauswahl stellt keinen tatsächlichen Raumzustand dar. Der Webport übernimmt den Katalog beim Build automatisch; seine dynamische
 Objektliste verwendet die numerischen IDs. Deutsch und Englisch teilen die Motive.
+
+`ui/save-load.png` ist das gemeinsame Symbol für Speichern/Laden (31.10.2026).
+Es gehört zum separaten UI-Namensraum, nicht zu den Spielverben oder Objekten.

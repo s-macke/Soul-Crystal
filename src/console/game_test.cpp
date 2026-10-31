@@ -8,6 +8,8 @@ extern "C" {
 #include <string>
 #include <vector>
 #include <iostream>
+#include <fstream>
+#include <iterator>
 
 static std::string transcript;
 static std::vector<unsigned> images;
@@ -122,5 +124,30 @@ int main(){
     submit("quit");submit("no");assert(GameGetView().mode==GameReady);
     submit("quit");submit("yes");assert(GameGetView().mode==GameEnded&&contains("Goodbye."));
     transcript.clear();GameStart(record,nullptr);assert(contains("Verben:"));
+    // The portable envelope holds the documented 1719-byte native payload.
+    const std::string saved=GameSave();
+    assert(saved.size()==4+(1719+4)*2+8 && saved.substr(0,4)=="SC1:");
+    std::ifstream seedFile("data/C64/state/initial_payload.bin",std::ios::binary);
+    std::vector<unsigned char> seed((std::istreambuf_iterator<char>(seedFile)),{});
+    assert(seed.size()==1719);
+    // Native $569D resets visits, steps and score; the first display visits room 3.
+    for(unsigned i=0;i<103;++i)seed[i*13+6]=0;
+    seed[2*13+6]=1;seed[1711]=0;seed[1713]=1;seed[1714]=0;seed[1715]=0;seed[1716]=0;
+    for(unsigned i=0;i<seed.size();++i)assert(std::stoul(saved.substr(4+i*2,2),nullptr,16)==seed[i]);
+    const auto savedSteps=steps;
+    for(auto p:{north,east,south,west,up,down,visited})for(unsigned i=0;i<RoomStateCount;++i)p[i]=0;
+    for(auto p:{objectLocation,objectState})for(unsigned i=0;i<ObjectStateCount;++i)p[i]=0;
+    for(auto p:{remainingPoints,objectDescriptionID})for(unsigned i=0;i<ObjectStateCount;++i)p[i]=0;
+    score=999;steps=999;engineState69BF=255;
+    assert(GameLoad(saved.c_str())==1 && std::string(GameSave())==saved && steps==savedSteps);
+    assert(std::string(GameRoomName()).find("Straße")!=std::string::npos);
+    auto corrupt=saved;corrupt[25]=corrupt[25]=='0'?'1':'0';
+    assert(!GameLoad(corrupt.c_str()) && std::string(GameSave())==saved);
+    assert(!GameLoad("SC2:invalid") && std::string(GameSave())==saved);
+    submit("zerstoere dave");assert(GameGetView().mode==GameDead && !GameSave());
+    assert(GameLoad(saved.c_str()) && GameGetView().mode==GameReady && std::string(GameSave())==saved);
+    GameStartLanguage(record,nullptr,GameEnglish);const std::string englishSave=GameSave();
+    GameStart(record,nullptr);assert(GameLoad(englishSave.c_str()) && GameGetLanguage()==1);
+    assert(std::string(GameSave())==englishSave);
     std::cout<<"Console core: intro, parser, hidden objects, native handlers, restart, diary, images and ending verified.\n";
 }

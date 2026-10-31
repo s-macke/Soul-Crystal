@@ -106,3 +106,19 @@ Laden rekonstruiert werden.
 Snapshot-Unterschiede sind zunächst gespielter Zustand, keine unterschiedlichen
 Defaultwerte eines Spielteils. Der [kanonische Startzustand](initial_state.md) ist separat aus den
 Initialdaten auf Disk B1 und der Originalroutine $569D gewonnen und geprüft.
+
+## Browserport
+
+`src/console/game.cpp` implementiert `GameSave`/`GameLoad` anhand exakt der oben
+beschriebenen 1719 Nutzbytes. Der portable String beginnt mit `SC1:`, enthält
+hexadezimal diese Bytes, anschließend Sprache (0/1), zuletzt angezeigte Bild-ID,
+zugehörigen Spielteil und Musikstatus (je ein Byte), zuletzt eine achtstellige
+FNV-1a-Prüfsumme über den vorangehenden String. Dies ist ein Port-Umschlag, keine
+originale C64-Speicherdiskette. Musikstatus wird bewahrt, der Webport spielt keine
+Musik ab. Eingabe-, Scratch- und Text-Cursorwerte werden wie beim kanonischen
+Start zurückgesetzt; Index-0-Reservierungen bleiben null, außer `visited[0]`.
+
+Nur `GameReady` kann gespeichert werden. Laden validiert vor jeder Mutation und
+stellt Raumtext und Bild ohne Dispatch, Besuchsmarkierung oder zusätzlichen Zug
+wieder dar. Der Ausgabetext-Verlauf ist kein Teil des Spielstands. Persistenz,
+Slots, Titel und Autosaves liegen ausschließlich im TypeScript-Host.

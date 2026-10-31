@@ -42,7 +42,7 @@ npm run dev --prefix web
 
 Spielbarer Browserport mit Amiga-HD-Bildern, deutscher/englischer Sprachwahl und
 Symbolsteuerung. Der vorhandene C/C++-Kern wird im Dockerfile zu WebAssembly gebaut.
-Ohne Musik und Spielstände. Details: [Webport](web/README.md).
+Mit lokalen Browser-Spielständen und Autosaves; ohne Musik. Details: [Webport](web/README.md).
 
 ## Frühere SPECIAL-Notizen
 

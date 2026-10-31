@@ -2,7 +2,7 @@
 
 Kleine TypeScript-/Vite-Oberfläche für den vorhandenen C/C++-Spielkern als
 WebAssembly. Deutsche und englische Texte, vollständiges Intro, Symbolsteuerung, Punkte und gemalte Amiga-HD-Bilder. Alle vier Spielteile verwenden
-bereits denselben Kern wie die CLI. Keine Musik, Spielstände oder Cheats.
+bereits denselben Kern wie die CLI. Lokale Browser-Spielstände und Autosaves; keine Musik oder Cheats.
 
 ## Starten
 
@@ -29,13 +29,42 @@ Deutsch und English, starten direkt in der gewählten Sprache. Der Klick fordert
 Browser-Vollbild an, sofern unterstützt; bei Ablehnung bleibt das Spiel im
 fensterfüllenden Layout bedienbar.
 
+## Spielstände
+
+„Menü → Speichern / Laden“ öffnet die lokale Spielstandliste. Am Startbildschirm
+und nach einem Todesfall lässt sich ebenfalls laden. Jeder Titel enthält Raum
+und Spielteil; Datum, Punkte und Sprache stehen darunter. Die Sprache wird beim
+Laden mit wiederhergestellt. Speichern ist nur zwischen Spielzügen möglich,
+nicht in einer laufenden Rückfrage oder nach dem Tod.
+
+Es bleiben bis zu 20 manuelle Spielstände und die letzten acht Autosaves erhalten.
+Autosaves entstehen bei Raum- und Teilwechseln sowie mit dem
+letzten spielbaren Zustand unmittelbar vor einem Todesfall. Spielstart und Neustart
+erzeugen keinen Autosave. Im Startbildschirm wird nur Laden angeboten. Manuelle Spielstände
+werden nie automatisch überschrieben. Löschen benötigt einen zweiten Klick.
+Browserdaten liegen unter `soul-crystal.saves.v1` in localStorage, getrennt pro
+Origin (Browserprofil, Host und Port). Es gibt keine Serverübertragung. Gelöschte
+Browserdaten löschen auch die Spielstände; Export/Import ist noch nicht enthalten.
+
+Der Kern stellt `GameSave`/`GameLoad` bereit. Inhalt und native Reihenfolge folgen
+[dem belegten C64-Savegame](../spec/C64/savegame_format.md): 1719 Bytes plus vier
+Port-Metadatenbytes, Versionskennung und Prüfsumme. Laden führt keinen Spielbefehl
+aus. Die CLI erhält damit noch keine Dateiverwaltung. Der WASM-Replaytest lädt
+nach jedem spielbaren Befehl erneut und prüft identischen Zustand und Endergebnis.
+
 ## Symbolsteuerung
 
 Während des Spiels füllt die Oberfläche die Fensterhöhe (`100dvh`); die Seite
-scrollt nicht. Das Raumbild füllt den Hintergrund. Die kompakte Symbolleiste
-und die aktuelle Spielantwort liegen als transparente Flächen darüber. Das Buch
+scrollt nicht. Das Raumbild füllt den Hintergrund. Eine gemeinsame transparente
+Fläche enthält links die Verben, mittig die aktuelle Spielantwort und rechts
+Raumobjekte und Inventar. Bis 760 Pixel Breite stehen die Verben über dem Text
+und die Objekte darunter. Das Buch
 oben rechts öffnet den vollständigen Verlauf samt Intro; Escape schließt ihn.
 Lange Texte und aufgeklappte Symbolauswahlen scrollen innerhalb ihrer Flächen. Ein Texteingabefeld gibt es nicht mehr; auch Rückfragen bieten Schaltflächen.
+
+„Mehr Verben“ ersetzt die Basisverben durch die zusätzlichen Aktionen;
+„Basisverben“ wechselt zurück. „Menü“ öffnet separat Punkte, Lösung, Neustart,
+Spielende und Anzeigeoptionen.
 
 Verbsymbol wählen und anschließend ein erreichbares Objekt anklicken. Ohne
 gewähltes Verb betrachtet ein Objektklick den Gegenstand. Befehle mit zwei

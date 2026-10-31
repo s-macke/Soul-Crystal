@@ -22,6 +22,14 @@ void GameStartLanguage(GameOutput output, void *context, GameLanguage language);
 void GameSetObjectListTextEnabled(int enabled);
 void GameSubmit(const char *line);
 GameView GameGetView(void);
+/* Versioned portable snapshot. Save only at a ready command boundary.
+   GameSave returns internal storage valid until the next save. Invalid loads
+   return zero without changing state. Hosts own persistence, not the core. */
+const char *GameSave(void);
+int GameLoad(const char *snapshot);
+const char *GameRoomName(void);
+unsigned GameGetLanguage(void);
+const char *GameIntroNarrative(void);
 /* Read-only UI projection: hidden objects return NULL. Names follow the active language. */
 const char *GameObjectName(unsigned id);
 int GameObjectCarried(unsigned id);

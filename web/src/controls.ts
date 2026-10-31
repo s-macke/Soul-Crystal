@@ -5,14 +5,15 @@ export function objectCount(id: number): number { return id >= 40 ? 2 : id >= 27
 export function composeCommand(verb: string, objects: string[], english: boolean): string {
   return [verb, objects.join(english ? ' on ' : ' auf ')].filter(Boolean).join(' ');
 }
-export async function loadControls(host: HTMLElement, submit: (command: string) => void) {
+export async function loadControls(host: HTMLElement, submit: (command: string) => void, openSaves: () => void) {
   const response = await fetch(`${import.meta.env.BASE_URL}icons/manifest.json`);
   if (!response.ok) throw new Error('Icon catalog could not be loaded');
   const {icons}: {icons: Icon[]} = await response.json();
   const verbs = new Map(icons.filter(i=>i.kind==='verbs').map(i=>[i.id,i]));
+  const ui = new Map(icons.filter(i=>i.kind==='ui').map(i=>[i.symbol,i]));
   const objects = new Map(icons.filter(i=>i.kind==='objects').map(i=>[i.id,i]));
   let state: GameView | undefined, locale: Locale = 'de', selected: Icon | undefined;
-  let chosen: GameObject[] = [], expanded = false, labels = false;
+  let chosen: GameObject[] = [], expanded = false, menu = false, labels = false;
   const tr = (de: string,en: string) => locale==='en'?en:de;
   function button(parent: HTMLElement, label: string, icon: Icon | undefined, action: ()=>void, pressed?: boolean) {
     const b = document.createElement('button'); b.type='button'; b.className=icon?'game-icon':'object-name';
@@ -30,15 +31,19 @@ export async function loadControls(host: HTMLElement, submit: (command: string) 
       }
     });parent.append(b);return b;
   }
+  let verbPanel: HTMLElement, objectPanel: HTMLElement;
   function row(title: string, objectRow = false) {
     const section=document.createElement('div');section.className=objectRow?'control-group object-group':'control-group action-group';
     section.setAttribute('role','group');section.setAttribute('aria-label',title);
     const h=document.createElement('h3');h.textContent=title;section.append(h);
-    const items=document.createElement('div');items.className='icon-row';section.append(items);host.append(section);return items;
+    const items=document.createElement('div');items.className='icon-row';section.append(items);(objectRow?objectPanel:verbPanel).append(section);return items;
   }
   function render() {
     host.replaceChildren();host.classList.toggle('icon-labels',labels);
     if(!state || state.mode>=5)return;
+    verbPanel=document.createElement('div');verbPanel.className='verb-panel';
+    objectPanel=document.createElement('div');objectPanel.className='object-panel';
+    host.append(verbPanel,objectPanel);
     if(state.mode!==0){
       if(state.mode===3){
         const answers=row(tr('Wie weiter?','What next?'));
@@ -53,26 +58,35 @@ export async function loadControls(host: HTMLElement, submit: (command: string) 
       }
       return;
     }
-    const toolbar=document.createElement('div');toolbar.className='icon-options';host.append(toolbar);
+    const toolbar=document.createElement('div');toolbar.className='icon-options';verbPanel.append(toolbar);
     button(toolbar,tr('Namen','Names'),undefined,()=>{labels=!labels;render();},labels);
-    button(toolbar,tr('Mehr Verben','More verbs'),undefined,()=>{expanded=!expanded;render();},expanded);
-    const groups: [string,number[]][] = [
-      [tr('Erkunden','Explore'),[10,31]],
-      [tr('Bewegen','Move'),[11,19,6,24,21,5]],
-      [tr('Handeln','Act'),[38,39,35,40]],
-    ];
-    if(expanded)groups.push([tr('Weitere Aktionen','More actions'),[9,7,29,27,42,30,33,41,32,44,43,34,37,36,4,28,23]],
-      [tr('Spiel & Anzeige','Game & display'),[15,16,13,12,2,22,1,3]]);
+    button(toolbar,expanded?tr('Basisverben','Basic verbs'):tr('Mehr Verben','More verbs'),undefined,()=>{
+      expanded=!expanded;menu=false;render();
+    },expanded && !menu);
+    button(toolbar,tr('Menü','Menu'),undefined,()=>{
+      menu=!menu;selected=undefined;chosen=[];render();
+    },menu);
+    if(menu){const saves=row(tr('Spielstände','Saved games'));
+      button(saves,tr('Speichern / Laden','Save / Load'),ui.get('SAVE_LOAD'),openSaves);}
+    const groups: [string,number[]][] = menu
+      ? [[tr('Spiel & Anzeige','Game & display'),[15,16,13,12,2,22,1,3]]]
+      : expanded
+        ? [[tr('Weitere Aktionen','More actions'),[21,5,29,27,42,30,33,41,32,44,43,34,37,36,4,28,23,9,7]]]
+        : [
+          [tr('Erkunden','Explore'),[10,31]],
+          [tr('Bewegen','Move'),[11,19,6,24]],
+          [tr('Handeln','Act'),[38,39,35,40]],
+        ];
     for(const [title,ids] of groups){const items=row(title);for(const id of ids){const icon=verbs.get(id)!;
       button(items,icon.label[locale],icon,()=>{
-        if(!objectCount(id)){submit(icon.command![locale]);return;}
+        if(!objectCount(id)){menu=false;submit(icon.command![locale]);return;}
         selected=icon;chosen=[];render();
         host.querySelector<HTMLButtonElement>('[data-object]')?.focus();
       },selected?.id===id);
     }}
     const status=document.createElement('p');status.className='icon-selection';status.setAttribute('role','status');
-    status.textContent=selected ? `${selected.label[locale]}${chosen.length?' → '+chosen[0].name:''} · ${tr(chosen.length?'Ziel auswählen':'Objekt auswählen',chosen.length?'Choose target':'Choose object')}` : tr('Was möchtest du tun?','What would you like to do?');
-    host.append(status);
+    status.textContent=menu ? tr('Spiel & Anzeige','Game & display') : selected ? `${selected.label[locale]}${chosen.length?' → '+chosen[0].name:''} · ${tr(chosen.length?'Ziel auswählen':'Objekt auswählen',chosen.length?'Choose target':'Choose object')}` : tr('Was möchtest du tun?','What would you like to do?');
+    verbPanel.append(status);
     if(selected)button(status,tr('Abbrechen','Cancel'),undefined,()=>{selected=undefined;chosen=[];render();});
     for(const carried of [false,true]){
       const items=row(carried?tr('Inventar','Inventory'):tr('Hier','Here'),true);

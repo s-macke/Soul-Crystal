@@ -10,7 +10,9 @@ ids=dict((name,int(value,16)) for name,value in re.findall(r'\b([A-Z0-9_]+)\s*=\
 entries=[]
 seen=set()
 for scene in plan['scenes']:
-    if scene['symbol']=='OBJECT_165':
+    if scene['kind']=='ui':
+        assert (scene['symbol'],scene['id']) == ('SAVE_LOAD',1)  # Host UI namespace, not a game enum.
+    elif scene['symbol']=='OBJECT_165':
         assert scene['id']==165 and '"Zombie", // object 165' in (repo/'out/game_tables.c').read_text()
     else:
         assert ids[scene['symbol']]==scene['id'],scene['symbol']
@@ -44,6 +46,7 @@ page='''<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="v
 <header><p class="eyebrow">SOUL CRYSTAL</p><h1>Kleine Bilder. Gleiche Welt.</h1><p>Symbolkatalog · COUNTS</p></header>
 <div class="scene"><img src="../Amiga_HD/style-references/reception-approved.png" alt="Gemalte Hotelrezeption als Stilreferenz" width="2079" height="756"></div>
 <div class="panel"><section aria-labelledby="verbs-title"><h2 id="verbs-title">Aktionen</h2>VERBS</section>
+<section aria-labelledby="ui-title"><h2 id="ui-title">Spielverwaltung</h2><div class="icons">UI_ACTIONS</div></section>
 <section aria-labelledby="objects-title"><h2 id="objects-title">Gegenstände und Personen</h2><div class="icons">OBJECTS</div></section>
 <p id="selection" role="status" aria-live="polite">Ein Symbol auswählen oder mit der Maus darüberfahren.</p></div>
 <footer><label>Symbolgröße <select id="size"><option value="48">48 px</option><option value="64" selected>64 px</option><option value="96">96 px</option></select></label><label>Fläche <select id="surface"><option value="dark">Dunkles Holz</option><option value="light">Pergament</option></select></label><label><input id="labels" type="checkbox"> Namen immer zeigen</label>
@@ -52,6 +55,6 @@ page='''<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="v
 groups=[('Erkunden','SCHAU BETRACHTE INVENTAR AUSGAENGE'),('Bewegen','NORD SUED OST WEST HINAUF HINUNTER BETRITT VERLASSE'),('Handeln','NIMM VERLIERE WENDE GIB BEFESTIGE'),('Gespräch','SPRICH HILF'),('Mechanik','OEFFNE SCHLIESSE ENTRIEGELE VERRIEGELE BEWEGE DRUECKE ZIEHE GRABE ZERSTOERE'),('Zeit','WARTE'),('Spiel','PUNKTE LOESUNG NEUSTART SPIELENDE'),('Anzeige','KURZTEXT AUSFUEHRLICH MUSIKEIN'),('Information','UEBERSOULCRYSTAL CREDITS')]
 verbs='\n'.join(f'<div class="verb-group"><h3>{name}</h3><div class="icons">{buttons("verbs",symbols.split())}</div></div>' for name,symbols in groups)
 assert {e['symbol'] for e in entries if e['kind']=='verbs'}=={s for _,symbols in groups for s in symbols.split()}
-counts=f"{sum(e['kind']=='verbs' for e in entries)} Verben und {sum(e['kind']=='objects' for e in entries)} Gegenstände"
-(root/'index.html').write_text(page.replace('VERBS',verbs).replace('OBJECTS',buttons('objects')).replace('COUNTS',counts).replace('Symbolprobe','Symbolkatalog'))
+counts=f"{sum(e['kind']=='verbs' for e in entries)} Verben und {sum(e['kind']=='objects' for e in entries)} Gegenstände und {sum(e['kind']=='ui' for e in entries)} UI-Aktion"
+(root/'index.html').write_text(page.replace('VERBS',verbs).replace('OBJECTS',buttons('objects')).replace('UI_ACTIONS',buttons('ui')).replace('COUNTS',counts).replace('Symbolprobe','Symbolkatalog'))
 print(f'Validated {len(entries)} transparent icons, enum IDs and hashes; preview generated.')

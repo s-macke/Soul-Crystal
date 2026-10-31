@@ -37,6 +37,13 @@ for (const line of replay.split('\n')) {
   if (!line.startsWith('> ')) continue;
   engine.ccall('web_submit', null, ['string'], [line.slice(2)]);
   commands++;
+  if(view?.mode===0){
+    const snapshot=engine.ccall('web_save','string',[],[]);
+    const before=JSON.stringify(view);
+    assert.equal(engine.ccall('web_load','number',['string'],[snapshot]),1,`Load after ${line}`);
+    assert.equal(engine.ccall('web_save','string',[],[]),snapshot,'Load preserves saved state');
+    assert.equal(JSON.stringify(view),before,'Load preserves view and does not advance a turn');
+  }
 }
 assert.equal(view?.mode, 5, 'Fast replay must win');
 assert.equal(view?.score, 4955);
@@ -54,4 +61,4 @@ engine.ccall('web_submit', null, ['string'], ['north']);
 assert.equal(view?.room, 6);
 assert.ok(view?.objects.some(o=>o.id===41 && o.name!=='Tresen'), 'English object names');
 assert.ok(!texts.some(text => text.startsWith('Available:')), 'English web omits the object text list');
-console.log(`WASM: ${commands} commands, winning score 4955, ${pictures.size} valid pictures; English start verified.`);
+console.log(`WASM: ${commands} commands, winning score 4955, ${pictures.size} valid pictures; save/load after each ready command and English start verified.`);
