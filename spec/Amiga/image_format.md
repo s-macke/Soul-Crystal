@@ -153,4 +153,52 @@ check the selected four-disk set against these values. This establishes
 
 All 13 PIC assets and the room-image contact sheet were visually inspected;
 representative credits, menu and installer graphics were checked as well.
-The code does not decode `.ANIM` files or render dynamic room effects.
+The code also decodes the 13 custom `.ANIM` files (see below). Dynamic room effects remain outside this export.
+
+
+## Custom ANIM files
+
+`Victory.ANIM` on Disk 4 contains the missing winning sequence: an open castle
+gate closes and displays “The End”. Twelve Disk 1 files animate the cast portraits.
+These are custom containers, **not IFF ANIM**. `anim.go` exports 664 PNG frames
+and 13 looping GIF previews under each disk's `animations/<name>/` directory.
+All frames are 320 × 200 **low-resolution** pixels, so the gallery does not double
+their height. GIF delays approximate PAL playback; fades, music and input waits
+are not reproduced.
+
+Records start with big-endian unpacked and stored lengths. Equal lengths mean
+uncompressed bytes; otherwise the existing PowerPacker decoder applies. Victory
+starts with four 8000-byte bitplanes and a zero/zero separator, followed by 15
+deltas and a zero/zero terminator. Its palette is Endpart CODE +0x187e. The win
+branch at +0xba calls +0x20e, which loads this file.
+
+Cast files start with a 4256-byte record (four 96×88 planes plus 16 RGB12 colours)
+and a 12600-byte record (five 192×105 caption planes). Intro +0x55e places the
+portrait at (32,88), and +0x744 places the caption at (128,72), over Cast.PIC.
+The upper 16 palette entries come from Intro +0x1538. Cast trailers are ten
+bytes: `00000000 0a 00000000 0a`; the player stops on the first zero longword.
+
+Intro +0xc7a and Endpart +0xeae apply delta streams. The first four big-endian
+longwords are offsets to per-plane streams (zero means unchanged). For each
+column, one byte gives the number of operations. A nonzero byte below 128 skips
+rows; a byte with bit 7 set copies its lower-seven-bit count of literals; zero
+reads a count and a repeated byte. Screen stride is 40 bytes, plane stride 8000.
+Cast modifies 16 columns, Victory 40. **Two alternating buffers** retain the
+frame from two steps earlier. Applying all deltas to one buffer is incorrect.
+
+### Native validation
+
+All 651 delta updates were independently applied by the original 68000 routines
+using machine68k 0.4.1 and matched Go byte-for-byte. Packed records in that run
+were decompressed by the original Kernal routine. Frozen frame hashes are in
+`testdata/native_anim_frames_sha256.json`. Initial composed screens are shared
+inputs to this comparison, so this proves delta reconstruction, not independent
+emulation of the blitter composition, palettes, timing or complete playback.
+Representative cast frames and the first/last Victory frames were visually checked.
+
+Optional oracle reproduction (machine68k must be installed in that Python):
+
+```sh
+SOUL_ANIM_NATIVE_DUMP=/tmp/soul-anim-raw GO111MODULE=off go test ./src/Go/amigapic -run TestAnimationFrames
+python3 src/Go/amigapic/tools/verify_native_anim.py
+```

@@ -324,6 +324,9 @@ func run() error {
 	if err := exportGFX(*input, *output, &gallery, &records); err != nil {
 		return err
 	}
+	if err := exportANIM(*input, *output, &gallery, &records); err != nil {
+		return err
+	}
 	gallery.WriteString("</html>\n")
 	if err = os.WriteFile(filepath.Join(*output, "index.html"), []byte(gallery.String()), 0644); err != nil {
 		return err
