@@ -25,3 +25,9 @@ const scenes = hd.images.filter(image => /^Disk[A-D]-[0-9]{3}$/.test(image.id) |
 if (scenes.length !== 134) throw new Error('Incomplete HD scene catalog');
 for (const image of scenes)
   await copyFile(new URL(image.output.path, repo), new URL(`images/hd/${image.id}.png`, publicDir));
+
+// Original Amiga music, including intro and ending tracks.
+await mkdir(new URL('music/', publicDir), {recursive:true});
+for (const name of await readdir(new URL('music/Amiga/', repo))) {
+  if (name.endsWith('.mp3')) await copyFile(new URL(`music/Amiga/${name}`, repo), new URL(`music/${name}`, publicDir));
+}

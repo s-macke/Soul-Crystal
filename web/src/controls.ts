@@ -5,7 +5,7 @@ export function objectCount(id: number): number { return id >= 40 ? 2 : id >= 27
 export function composeCommand(verb: string, objects: string[], english: boolean): string {
   return [verb, objects.join(english ? ' on ' : ' auf ')].filter(Boolean).join(' ');
 }
-export async function loadControls(host: HTMLElement, submit: (command: string) => void, openSaves: () => void) {
+export async function loadControls(host: HTMLElement, submit: (command: string) => void, openSaves: () => void, music: {enabled: () => boolean; toggle: () => void}) {
   const response = await fetch(`${import.meta.env.BASE_URL}icons/manifest.json`);
   if (!response.ok) throw new Error('Icon catalog could not be loaded');
   const {icons}: {icons: Icon[]} = await response.json();
@@ -83,7 +83,17 @@ export async function loadControls(host: HTMLElement, submit: (command: string) 
         selected=icon;chosen=[];render();
         host.querySelector<HTMLButtonElement>('[data-object]')?.focus();
       },selected?.id===id);
+
     }}
+    if(menu) {
+      const items=verbPanel.querySelector('.action-group:last-child .icon-row') as HTMLElement;
+      const enabled=music.enabled();
+      const b=button(items,enabled?tr('Musik ausschalten','Mute music'):tr('Musik einschalten','Enable music'),
+        enabled?verbs.get(17):ui.get('MUSIC_OFF'),()=>{
+          music.toggle();render();host.querySelector<HTMLButtonElement>('[data-music]')?.focus({preventScroll:true});
+        },enabled);
+      b.dataset.music='';
+    }
     const status=document.createElement('p');status.className='icon-selection';status.setAttribute('role','status');
     status.textContent=menu ? tr('Spiel & Anzeige','Game & display') : selected ? `${selected.label[locale]}${chosen.length?' → '+chosen[0].name:''} · ${tr(chosen.length?'Ziel auswählen':'Objekt auswählen',chosen.length?'Choose target':'Choose object')}` : tr('Was möchtest du tun?','What would you like to do?');
     verbPanel.append(status);

@@ -6277,6 +6277,30 @@
           "sha256": "c656450855dda087a4922414e84e516d75db6ba6781b39bda619b503748a8959"
         }
       ]
+    },
+    {
+      "kind": "ui",
+      "symbol": "MUSIC_OFF",
+      "label": {
+        "de": "Musik aus",
+        "en": "Music off"
+      },
+      "file": "verbs/musikaus.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "eead2e15c0123bb8e75152cf0bd493bc2affdebe293967dff25fa542d6d0cc12",
+      "alpha_bbox": [
+        41,
+        65,
+        1240,
+        1254
+      ],
+      "tool": "built-in image_gen",
+      "prompt": "Use case: precise-object-edit. Create the matching MUSIC OFF state of this exact painterly golden musical-note game icon. Preserve the two joined golden notes, their silhouette, scale, position, brushwork, rich warm gold and brown shading. Add one clearly legible diagonal muted dark-red bronze slash across the notes, with painterly beveled highlights in the same fantasy adventure style. Slash means muted music, readable at 48 pixels. No text, no frame, no new background. Output square PNG with genuinely transparent background, retaining transparency around and inside the note. This is a companion icon, not a redesign.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-3aaddeaf-b6f6-427f-85ac-55da38d8a4ff.png",
+      "references": [
+        "images/UI/verbs/musikein.png"
+      ]
     }
   ]
 }

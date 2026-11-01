@@ -1,4 +1,6 @@
 import './style.css';
+import { MusicPlayer } from './music';
+import { gameMusic } from './music-map';
 import { loadEngine, type Engine, type GameEvent, type GameView } from './engine';
 import { imagePath, victoryPath } from './images';
 import { loadControls } from './controls';
@@ -15,6 +17,21 @@ let starting = false;
 let beforeFirstImage = false;
 let acceptsCommands = false;
 let currentView: GameView | undefined;
+const music = new MusicPlayer(new Audio(), `${import.meta.env.BASE_URL}music/`);
+let musicEnabled = true;
+try { musicEnabled = localStorage.getItem('soul-crystal-music') !== 'off'; } catch {}
+music.setEnabled(musicEnabled);
+function updateMusic() {
+  music.select(currentView ? (get<HTMLDetailsElement>('intro').open && currentView.mode < 4 ? 'Cast.mp3' : gameMusic(currentView.room, currentView.mode)) : null);
+}
+function toggleMusic() {
+  musicEnabled = !musicEnabled;
+  music.setEnabled(musicEnabled);
+  try { localStorage.setItem('soul-crystal-music', musicEnabled ? 'on' : 'off'); } catch {}
+  updateMusic();
+}
+get('intro').addEventListener('toggle', updateMusic);
+document.addEventListener('visibilitychange', () => music.setVisible(!document.hidden));
 function capture(): SaveState | null {
   if (!engine || !currentView || currentView.mode !== 0) return null;
   const snapshot = engine.ccall('web_save', 'string', [], []);
@@ -40,6 +57,7 @@ function fail(error: unknown) {
   get('error').hidden = false;
   get('error').textContent = `${english ? 'Could not continue' : 'Das Spiel konnte nicht fortgesetzt werden'}: ${String(error)}`;
   controls?.disable();
+  music.select(null);
   languageButtons.forEach(button => button.disabled = true);
   acceptsCommands = false;
 }
@@ -64,6 +82,7 @@ function event(event: GameEvent) {
 function view(view: GameView) {
   currentView = view;
   english = view.language === 1;
+  updateMusic();
   document.documentElement.lang = english ? 'en' : 'de';
   get('intro').querySelector('summary')!.textContent = english ? 'The story & how to play' : 'Vorgeschichte & Spielanleitung';
   get('new-game').textContent = english ? 'Start a new adventure' : 'Ein neues Abenteuer beginnen';
@@ -132,7 +151,7 @@ get('welcome-load').addEventListener('click', () => saves.open());
 get('ended-load').addEventListener('click', () => saves.open());
 get('new-game').addEventListener('click', () => location.reload());
 scene.addEventListener('error', () => fail(new Error(english ? 'Picture could not be loaded.' : 'Bild konnte nicht geladen werden.')));
-Promise.all([loadEngine(event, view), loadControls(get('icon-controls'), submitCommand, () => saves.open())]).then(([loaded, loadedControls]) => {
+Promise.all([loadEngine(event, view), loadControls(get('icon-controls'), submitCommand, () => saves.open(), {enabled: () => musicEnabled, toggle: toggleMusic})]).then(([loaded, loadedControls]) => {
   engine = loaded;
   controls = loadedControls;
   languageButtons.forEach(button => button.disabled = false);
