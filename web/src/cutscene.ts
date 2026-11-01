@@ -289,7 +289,10 @@ async function play(base: string, entry: CutsceneEntry, english: boolean, handov
     ctx.globalAlpha = 1;
     const cue = tl.cues.find(c => c.start <= t && t < c.end);
     cueBox.textContent = cue ? cue.text : '';
-    if (outro !== null ? fadeOut(t) <= 0 : !tl.hold && !tl.loop && t >= tl.duration) setTimeout(close, 300);
+    // A voiced scene ends with its voice: the browser may stop a few
+    // milliseconds short of the timeline's duration.
+    const over = audio ? audio.ended : t >= tl.duration;
+    if (outro !== null ? fadeOut(t) <= 0 : !tl.hold && !tl.loop && over) setTimeout(close, 300);
     else requestAnimationFrame(frame);
   }
 
