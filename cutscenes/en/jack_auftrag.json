@@ -1,0 +1,213 @@
+{
+ "version": 3,
+ "duration": 65.594,
+ "hold": false,
+ "voice": "jack_auftrag.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   3.04,
+   36.2
+  ],
+  [
+   36.3,
+   39.24
+  ],
+  [
+   39.267,
+   50.604
+  ],
+  [
+   51.004,
+   60.611
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "jack_auftrag-01",
+   "path": "Stories/jack/jack_auftrag-01",
+   "start": 0.0,
+   "end": 36.25,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  },
+  {
+   "image": "DiskB-029",
+   "path": "Amiga_HD/Disk 3/DiskB-029",
+   "start": 36.25,
+   "end": 39.254,
+   "from": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ],
+   "to": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ]
+  },
+  {
+   "image": "DiskB-020",
+   "path": "Amiga_HD/Disk 3/DiskB-020",
+   "start": 39.254,
+   "end": 50.804,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "jack_auftrag-02",
+   "path": "Stories/jack/jack_auftrag-02",
+   "start": 50.804,
+   "end": 65.594,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 3/DiskB-020",
+  "Amiga_HD/Disk 3/DiskB-029",
+  "Stories/jack/jack_auftrag-01",
+  "Stories/jack/jack_auftrag-02"
+ ],
+ "cues": [
+  {
+   "start": 3.04,
+   "end": 5.64,
+   "text": "You tell the ghost of the old abbot about your long,"
+  },
+  {
+   "start": 5.693,
+   "end": 8.28,
+   "text": "gruelling journey through the frozen wastes,"
+  },
+  {
+   "start": 8.3,
+   "end": 11.8,
+   "text": "and explain that Firon advised you to ask Brother Jack for help."
+  },
+  {
+   "start": 11.96,
+   "end": 13.48,
+   "text": "Jack nods slowly."
+  },
+  {
+   "start": 14.312,
+   "end": 16.36,
+   "text": "\"I never dared hope that a fearless hero would"
+  },
+  {
+   "start": 16.427,
+   "end": 19.48,
+   "text": "truly come to punish the Dark Lord for his atrocities."
+  },
+  {
+   "start": 19.693,
+   "end": 22.92,
+   "text": "So my last dream has finally come true..."
+  },
+  {
+   "start": 22.96,
+   "end": 25.4,
+   "text": "Our country has a long and tragic history."
+  },
+  {
+   "start": 25.544,
+   "end": 30.6,
+   "text": "Only its rightful ruler can tell you the whole story: Richard, Firon's brother."
+  },
+  {
+   "start": 30.747,
+   "end": 36.2,
+   "text": "After overthrowing him, the Dark Lord murdered him and divided his corpse in two."
+  },
+  {
+   "start": 36.3,
+   "end": 39.24,
+   "text": "His body was laid in his tomb in the graveyard,"
+  },
+  {
+   "start": 39.267,
+   "end": 43.48,
+   "text": "while his head was buried in the blocked tunnel of an old dwarven mine."
+  },
+  {
+   "start": 44.156,
+   "end": 47.244,
+   "text": "Find both parts of our king's body and reunite them!"
+  },
+  {
+   "start": 47.324,
+   "end": 50.604,
+   "text": "This is the only way to bring help to our land..."
+  },
+  {
+   "start": 51.004,
+   "end": 51.884,
+   "text": "help..."
+  },
+  {
+   "start": 52.051,
+   "end": 52.531,
+   "text": "hel...\""
+  },
+  {
+   "start": 52.681,
+   "end": 55.651,
+   "text": "Wrapped in a cloud of bluish smoke,"
+  },
+  {
+   "start": 55.691,
+   "end": 60.611,
+   "text": "Brother Jack's spirit returns to the realm of the dead, leaving you alone..."
+  }
+ ]
+}

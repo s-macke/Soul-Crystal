@@ -1,0 +1,94 @@
+{
+ "version": 3,
+ "duration": 34.148,
+ "hold": false,
+ "voice": "quelle.mp3",
+ "music": {
+  "path": "music/Amiga/16.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.532,
+   29.113
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "quelle-01",
+   "path": "Stories/finale/quelle-01",
+   "start": 0.0,
+   "end": 34.148,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  }
+ ],
+ "images": [
+  "Stories/finale/quelle-01"
+ ],
+ "cues": [
+  {
+   "start": 2.532,
+   "end": 4.553,
+   "text": "You let some of the bluish water run into your"
+  },
+  {
+   "start": 4.613,
+   "end": 8.713,
+   "text": "cupped palms and sip it carefully: After just a few sips,"
+  },
+  {
+   "start": 8.752,
+   "end": 12.713,
+   "text": "you feel a wave of happiness and new strength flowing through you,"
+  },
+  {
+   "start": 12.752,
+   "end": 15.352,
+   "text": "which on the one hand calms you down and on the"
+  },
+  {
+   "start": 15.405,
+   "end": 18.393,
+   "text": "other hand seems to refresh you in a wondrous way."
+  },
+  {
+   "start": 19.213,
+   "end": 21.352,
+   "text": "And when you happen to look down at your body,"
+  },
+  {
+   "start": 21.393,
+   "end": 24.632,
+   "text": "you notice that you have transformed back into a human -"
+  },
+  {
+   "start": 24.846,
+   "end": 29.113,
+   "text": "which, however, also means that you lose your supernatural powers..."
+  }
+ ]
+}

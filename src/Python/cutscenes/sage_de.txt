@@ -1,0 +1,26 @@
+# Erzähltext „Die Sage von der versunkenen Stadt“: Gespräch mit dem Dorfbewohner im
+# Eßzimmer (Teil A), wörtlich aus dem Replay der Hauptroute.
+# Bilder: images/Amiga_HD/<Pfad>; Aufbau und Optionen wie narration_de.txt.
+
+### sage Die Sage von der versunkenen Stadt
+
+## Stories/sage/sage-01
+[cheerful] Du winkst die Bedienung zu Dir heran und nennst ihr Deine dringendsten Wünsche: "Bringen Sie mir bitte ein großes Steak, ein kühles Bier und eine Fra..." - [embarrassed] Plötzlich spürst Du, wie Du rot wirst und stammelst: "Ach nein: Die Frankfurter Allgemeine können Sie wieder streichen. Deutsche Zeitungen werden Sie hier ja wohl ohnehin nicht bekommen, oder?" [smug] Als das Mädchen, ebenfalls rot bis über beide Ohren, hastig verneint, beruhigst Du es - den Altersunterschied von gut zehn Jahren geflissentlich ignorierend - väterlich: "Das macht nichts, meine Tochter: Ich kann sowieso kein Deutsch!", [laughs] und brichst in brüllendes Gelächter aus, [dry] woraufhin der bisher unbeteiligt dasitzende Dorfbewohner die Augen leidend zum Himmel verdreht, als hätte man ihm dort in die Weichteile getreten, wo es so richtig wehtut. Als Du bestürzt feststellst, daß auch die Kellnerin anscheinend unter chronischer Humorlosigkeit leidet, beschließt Du, Deine komische Darbietung abrupt abzubrechen und das Mädchen mit einer gnädigen Handbewegung zu entlassen.
+
+## Stories/sage/sage-04
+Als es in der Küche verschwunden ist, sprichst Du den alten Mann an, ob er Dir nicht vielleicht ein wenig über das Dorf und seine Umgebung erzählen könnte. [mumbles] Langsam und schleppend beginnt der Dorfbewohner, in seinen Bart hineinzubrabbeln, daß er Dir eine interessante Sage erzählen könne. [sarcastic] Gut, Du bist zwar nicht gerade davon ausgegangen, daß er Dir gleich die Adressen der lokalen In-Treffs und Yuppie-Diskotheken aufzählen würde, aber muß es denn gleich ein Märchen sein? [sighs] Vorsichtshalber stützt Du den Kopf auf die Hände, um im Ernstfall nicht mit der Nase auf die Tischkante zu knallen, und während Du sehnsüchtig auf Dein Essen wartest, damit Du wenigstens etwas zu tun hättest, lauschst Du der Geschichte des Alten:
+
+## Stories/sage/sage-02
+[mysterious] Vor langer, langer Zeit soll an dem Platz, den jetzt das Loch Calderwood einnimmt, eine reiche und stolze Stadt gestanden haben -
+
+##+ Disk 2/DiskA-007
+doch von einer Nacht auf die andere war sie verschwunden, und statt ihrer befand sich der See am Fuße der Berge! Es wurde vermutet, daß die Bewohner dieser legendären Stadt für ihren Stolz und ihre Eitelkeit von den Göttern bestraft worden seien. Ebenfalls erzählt man sich, daß sie sehr reich und kunstfertig gewesen wären!
+
+## Disk 2/DiskA-008 focus=0,0,1400,756
+[deadpan] Da Du für Deinen Teil Dich seit Beginn der Erzählung in der Kunst übst, mit offenen Augen zu schlafen, hält der Einheimische Deinen starren Blick für ungläubiges Staunen und setzt noch mal einen drauf:
+
+## Stories/sage/sage-03 pause=1.0
+[whispers] Angeblich behaupten die Leute im Dorf nämlich sogar heute noch, daß die Türme und Dächer der Stadt noch unter Wasser gesehen werden könnten, wenn man es wagte, bei Vollmond um Mitternacht auf den Grund des Sees hinabzutauchen...
+
+##+ Disk 2/DiskA-016
+[dry] ein sehr exklusives und einmaliges Vergnügen übrigens, da keiner der tapferen Männer, die bisher ihr Glück versucht haben, jemals zurückkam...

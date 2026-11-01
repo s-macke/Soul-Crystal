@@ -1,0 +1,435 @@
+{
+ "version": 3,
+ "duration": 185.495,
+ "hold": false,
+ "voice": "richard_geschichte.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   3.053,
+   16.268
+  ],
+  [
+   16.955,
+   44.035
+  ],
+  [
+   45.084,
+   56.974
+  ],
+  [
+   57.007,
+   112.468
+  ],
+  [
+   114.107,
+   126.634
+  ],
+  [
+   127.372,
+   137.345
+  ],
+  [
+   137.385,
+   165.105
+  ],
+  [
+   166.972,
+   179.965
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "richard_geschichte-01",
+   "path": "Stories/richard/richard_geschichte-01",
+   "start": 0.0,
+   "end": 16.611,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  },
+  {
+   "image": "richard_geschichte-02",
+   "path": "Stories/richard/richard_geschichte-02",
+   "start": 16.611,
+   "end": 44.559,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "DiskD-005",
+   "path": "Amiga_HD/Disk 4/DiskD-005",
+   "start": 44.559,
+   "end": 56.991,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "richard_geschichte-03",
+   "path": "Stories/richard/richard_geschichte-03",
+   "start": 56.991,
+   "end": 113.287,
+   "from": [
+    110.2,
+    30.7,
+    1561.8,
+    878.5
+   ],
+   "to": [
+    0.0,
+    0.0,
+    1671.1,
+    940.0
+   ]
+  },
+  {
+   "image": "DiskD-046",
+   "path": "Amiga_HD/Disk 4/DiskD-046",
+   "start": 113.287,
+   "end": 127.003,
+   "from": [
+    0.0,
+    0.0,
+    1345.8,
+    757.0
+   ],
+   "to": [
+    820.3,
+    24.8,
+    1257.7,
+    707.5
+   ]
+  },
+  {
+   "image": "richard_geschichte-04",
+   "path": "Stories/richard/richard_geschichte-04",
+   "start": 127.003,
+   "end": 137.365,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "richard_geschichte-05",
+   "path": "Stories/richard/richard_geschichte-05",
+   "start": 137.365,
+   "end": 166.038,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  },
+  {
+   "image": "richard_geschichte-06",
+   "path": "Stories/richard/richard_geschichte-06",
+   "start": 166.038,
+   "end": 185.495,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 4/DiskD-005",
+  "Amiga_HD/Disk 4/DiskD-046",
+  "Stories/richard/richard_geschichte-01",
+  "Stories/richard/richard_geschichte-02",
+  "Stories/richard/richard_geschichte-03",
+  "Stories/richard/richard_geschichte-04",
+  "Stories/richard/richard_geschichte-05",
+  "Stories/richard/richard_geschichte-06"
+ ],
+ "cues": [
+  {
+   "start": 3.053,
+   "end": 5.788,
+   "text": "Der Geist des Königs schaut Dich eine Weile an,"
+  },
+  {
+   "start": 5.836,
+   "end": 10.027,
+   "text": "dann hüpft er mit einem spitzbübischen Grinsen auf den Rand seines Sarges,"
+  },
+  {
+   "start": 10.048,
+   "end": 12.348,
+   "text": "und nachdem er es sich dort bequem gemacht hat,"
+  },
+  {
+   "start": 12.387,
+   "end": 16.268,
+   "text": "beginnt er Dir, die Geschichte seines Reiches zu erzählen:"
+  },
+  {
+   "start": 16.955,
+   "end": 20.354,
+   "text": "\"Vor langer, langer Zeit\", beginnt er seine Geschichte,"
+  },
+  {
+   "start": 20.395,
+   "end": 24.274,
+   "text": "und sein Gesicht ist wieder das eines alten, verbitterten Mannes,"
+  },
+  {
+   "start": 24.315,
+   "end": 28.035,
+   "text": "\"war dies ein schönes, friedliches und wohlhabendes Land,"
+  },
+  {
+   "start": 28.062,
+   "end": 32.274,
+   "text": "in dem alle meine Untertanen gerecht und weise von mir regiert wurden."
+  },
+  {
+   "start": 32.414,
+   "end": 37.634,
+   "text": "Ich residierte in meinem Schloß auf einer von kristallklarem Wasser umgebenen Insel,"
+  },
+  {
+   "start": 37.667,
+   "end": 39.955,
+   "text": "dessen prachtvoller Bau dem Reichtum und der"
+  },
+  {
+   "start": 40.021,
+   "end": 44.035,
+   "text": "Kunstfertigkeit meines Volkes Ausdruck verlieh..."
+  },
+  {
+   "start": 45.084,
+   "end": 49.855,
+   "text": "Damals beschäftigte ich auch einen jungen Zauberer namens Zargon an meinem Hofe,"
+  },
+  {
+   "start": 49.895,
+   "end": 53.535,
+   "text": "der mich von Zeit zu Zeit mit seinen Kunststückchen zu unterhalten pflegte."
+  },
+  {
+   "start": 53.828,
+   "end": 58.815,
+   "text": "Er war begabt, sehr begabt sogar, doch niemals hätte ich vermutet,"
+  },
+  {
+   "start": 58.855,
+   "end": 62.735,
+   "text": "daß er eine Geheimkammer im Untergeschoß meines Schlosses bewohnte -"
+  },
+  {
+   "start": 62.775,
+   "end": 66.655,
+   "text": "einen Raum, in dem er all seine magischen Experimente durchführte:"
+  },
+  {
+   "start": 67.028,
+   "end": 70.415,
+   "text": "Er war von dem irrsinnigen Gedanken besessen,"
+  },
+  {
+   "start": 70.454,
+   "end": 74.335,
+   "text": "künstlich Gold herzustellen, welches er dringend benötigte,"
+  },
+  {
+   "start": 74.388,
+   "end": 76.734,
+   "text": "um die Lehrstunden, die er bei den höchsten"
+  },
+  {
+   "start": 76.815,
+   "end": 80.255,
+   "text": "Magiern unseres Landes nahm, bezahlen zu können."
+  },
+  {
+   "start": 80.575,
+   "end": 84.095,
+   "text": "Eines Tages jedoch erfüllten sich seine Wünsche dennoch:"
+  },
+  {
+   "start": 84.388,
+   "end": 88.335,
+   "text": "Er wurde in den Siebenten Zirkel der Magiergilde aufgenommen,"
+  },
+  {
+   "start": 88.375,
+   "end": 94.014,
+   "text": "was bedeutete, daß sich seine volle magische Kraft entfaltet hatte und er berechtigt war,"
+  },
+  {
+   "start": 94.047,
+   "end": 96.815,
+   "text": "auch die machtvollsten Sprüche anzuwenden -"
+  },
+  {
+   "start": 96.922,
+   "end": 101.615,
+   "text": "ja, er wurde schließlich sogar mächtiger als seine einstigen Lehrmeister,"
+  },
+  {
+   "start": 101.635,
+   "end": 107.375,
+   "text": "die die Entwicklung ihres begabtesten Schülers nun mit großer Sorge verfolgten -"
+  },
+  {
+   "start": 107.508,
+   "end": 112.468,
+   "text": "doch in seinem unendlichen Ehrgeiz wollte er noch mehr: Er wollte meinen Thron!"
+  },
+  {
+   "start": 114.107,
+   "end": 118.315,
+   "text": "Doch statt meine edlen Ritter in einem tapferen und gerechten Kampf zu bekämpfen,"
+  },
+  {
+   "start": 118.475,
+   "end": 121.434,
+   "text": "besann er sich auf seine magischen Kräfte und"
+  },
+  {
+   "start": 121.495,
+   "end": 126.634,
+   "text": "erschuf eine Armee aus grausamen, untoten Kreaturen..."
+  },
+  {
+   "start": 127.372,
+   "end": 130.945,
+   "text": "In einer finsteren Nacht - es stürmte und gewitterte,"
+  },
+  {
+   "start": 130.985,
+   "end": 133.105,
+   "text": "als wäre der Jüngste Tag angebrochen -"
+  },
+  {
+   "start": 133.425,
+   "end": 137.345,
+   "text": "zog er diese Ausgeburten der Hölle vor meinem Schloß zusammen,"
+  },
+  {
+   "start": 137.385,
+   "end": 139.825,
+   "text": "und als die Uhr vom Turm Mitternacht schlug,"
+  },
+  {
+   "start": 139.885,
+   "end": 145.665,
+   "text": "erhoben sich - welch' makabre Ironie des Schicksals - die Leichnahme meiner Ahnen,"
+  },
+  {
+   "start": 145.685,
+   "end": 150.585,
+   "text": "die in einem Gruftgewölbe unterhalb der Schloßgemächer zur letzten Ruhe gebettet waren,"
+  },
+  {
+   "start": 150.655,
+   "end": 153.505,
+   "text": "aus ihren Särgen - und öffneten die Tore!"
+  },
+  {
+   "start": 153.905,
+   "end": 157.825,
+   "text": "Es bereitete Zargon und seinen Schergen kaum Mühe,"
+  },
+  {
+   "start": 157.865,
+   "end": 160.305,
+   "text": "das Schloß binnen weniger Minuten einzunehmen:"
+  },
+  {
+   "start": 160.652,
+   "end": 165.105,
+   "text": "Niemand hatte diesen Überfall erwartet - ein verhängnisvoller Fehler..."
+  },
+  {
+   "start": 166.972,
+   "end": 170.525,
+   "text": "Nachdem sie die Tür zu meinem Schlafgemach aufgebrochen hatten,"
+  },
+  {
+   "start": 170.565,
+   "end": 173.725,
+   "text": "führten mich Zargons Schwarzblüter zu ihrem Herren ab,"
+  },
+  {
+   "start": 173.745,
+   "end": 176.445,
+   "text": "der mir ohne ein Wort der Erklärung oder Entschuldigung"
+  },
+  {
+   "start": 176.565,
+   "end": 179.965,
+   "text": "die Klinge seines Degens bis zum Heft in die Brust stieß...\""
+  }
+ ]
+}

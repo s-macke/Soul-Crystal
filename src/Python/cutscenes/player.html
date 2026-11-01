@@ -1,0 +1,314 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Soul Crystal Szenen</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=block">
+<!-- Stand-alone viewer and reference player for the cutscenes of make_cutscenes.py.
+     Serve the repository root, e.g. `python3 -m http.server`, and open
+     /src/Python/cutscenes/player.html for the list of scenes, or
+     ?t=cutscenes/de/intro.json for one scene (add &at=<seconds> to show a
+     single frame without audio). A scene starts as soon as everything is
+     loaded; it is opened inside this page, so that the click in the list
+     allows sound. Only when a browser blocks sound (a scene URL opened
+     directly) a start button appears. Escape or "Überspringen" ends a scene; the
+     time bar (shown on mouse movement), Space (pause) and the arrow keys
+     (5 s back and forward) move the picture, voice and subtitles. The music is
+     never moved: it only pauses with the scene. -->
+<style>
+  html, body { margin: 0; height: 100%; background: #000; color: #f0f8ff; font-family: Lato, sans-serif; }
+  #stage { position: relative; width: 100vw; max-width: calc(100vh * 16 / 9); aspect-ratio: 16 / 9; container-type: size; margin: auto; top: 50%; transform: translateY(-50%); }
+  canvas { width: 100%; height: 100%; display: block; }
+  #cue { position: absolute; left: 24%; right: 24%; bottom: 5%; text-align: center; font-size: 4.6cqh; font-weight: 600;
+         text-shadow: 0 0 3px #101010, 0 0 3px #101010, 1px 1px 2px #000; white-space: pre-line; }
+  #start { position: absolute; inset: 0; margin: auto; width: 8em; height: 3em; font-size: 2.5vmin; cursor: pointer; }
+  #loading { position: absolute; inset: 0; display: grid; place-items: center; font-size: 3cqh; opacity: .7; }
+  #skip { position: absolute; right: 2%; top: 3%; font-size: 2.4cqh; opacity: .6; cursor: pointer; }
+  #bar { position: absolute; left: 3%; right: 3%; bottom: 2%; display: flex; gap: 1em; align-items: center;
+         font-size: 2.2cqh; transition: opacity .4s; }
+  #bar.idle { opacity: 0; }
+  #bar input { flex: 1; accent-color: #f0d890; cursor: pointer; }
+  #bar button { font-size: inherit; width: 2.2em; cursor: pointer; }
+  #bar span { min-width: 7em; text-align: right; font-variant-numeric: tabular-nums; text-shadow: 1px 1px 2px #000; }
+  #scenes { max-width: 34em; margin: 10vh auto; padding: 0 16px; font-size: 1.2rem; }
+  #scenes a { color: #f0d890; display: block; margin: .6em 0; }
+</style>
+<nav id="scenes" hidden><h1>Soul Crystal · Szenen</h1></nav>
+<div id="stage" hidden><canvas></canvas><div id="cue"></div><div id="loading">Lädt…</div>
+  <button id="start" hidden>▶ Start</button>
+  <button id="skip" hidden>Überspringen ✕</button>
+  <div id="bar" class="idle" hidden><button id="pause">❚❚</button><input id="seek" type="range" min="0" step="0.01"><span id="time"></span></div></div>
+<script>
+const params = new URLSearchParams(location.search), still = params.get('at');  // ?at=<s>: one frame, no audio
+if (!params.get('t')) {
+  // Without a scene: list all exported scenes per language from index.json.
+  // A scene opens in this page: the click counts as the user's permission to
+  // play sound, which a newly loaded page would not have.
+  const nav = document.getElementById('scenes');
+  nav.hidden = false;
+  addEventListener('popstate', () => location.reload());
+  for (const lang of ['de', 'en']) {
+    const list = document.createElement('section');
+    nav.append(list);
+    fetch(new URL(`/cutscenes/${lang}/index.json`, location.href)).then(r => r.ok ? r.json() : []).then(index => {
+      if (!index.length) return;
+      list.innerHTML = `<h2>${lang === 'de' ? 'Deutsch' : 'English'}</h2>`;
+      index.forEach((scene, i) => {
+        const a = document.createElement('a');
+        a.href = `?t=cutscenes/${lang}/${scene.timeline}`;
+        a.textContent = `${i + 1}. ${scene.title}`;
+        a.onclick = e => {
+          e.preventDefault();
+          history.pushState(null, '', a.href);
+          nav.hidden = true;
+          play(`cutscenes/${lang}/${scene.timeline}`);
+        };
+        list.append(a);
+      });
+    });
+  }
+} else {
+  play(params.get('t'));
+}
+
+function play(scene) {
+  document.getElementById('stage').hidden = false;
+  const timelineUrl = new URL(scene, new URL('/', location.href));
+  const canvas = document.querySelector('canvas'), ctx = canvas.getContext('2d');
+  const cueBox = document.getElementById('cue'), start = document.getElementById('start');
+  const loading = document.getElementById('loading');
+  const clamp = (v, a, b) => Math.min(Math.max(v, a), b);
+
+  // Everything is loaded and decoded before playback can start: all pictures in
+  // parallel, each fully decoded (decoding a large PNG on first draw would
+  // stutter), and enough of voice and music to play through.
+  function sound(url, tick) {
+    const audio = new Audio();
+    const ready = still !== null ? Promise.resolve() : new Promise((ok, fail) => {
+      audio.addEventListener('canplaythrough', ok, {once: true});
+      audio.addEventListener('error', fail, {once: true});
+    }).then(tick);
+    audio.preload = 'auto';
+    audio.src = url;
+    return [audio, ready];
+  }
+
+  async function preload(tl, progress) {
+    let done = 0;
+    const total = tl.images.length + tl.music.length + 1, tick = () => progress(++done, total);
+    const pictures = Promise.all(tl.images.map(async path => {
+      const image = new Image();
+      image.src = new URL(`/images/${path}.png`, location.href).href;
+      await image.decode();
+      tick();
+      return [path, image];
+    }));
+    // The voice is loaded whole into memory, so that it can be seeked with any
+    // server (without HTTP range requests a browser cannot seek a streamed file).
+    let voice = null, voiceReady = tick();
+    if (tl.voice) {
+      const blob = await (await fetch(new URL(tl.voice, timelineUrl))).blob();
+      [voice, voiceReady] = sound(URL.createObjectURL(blob), () => {});
+    }
+    const tracks = tl.music.map(m => sound(new URL(`/${m.path}`, location.href).href, tick));
+    tracks.forEach(([audio]) => audio.loop = true);
+    // Text shots name their font; it must be loaded before the first frame.
+    const fonts = [...new Set(tl.shots.filter(s => s.text).map(s => s.text.font))]
+      .map(font => document.fonts.load(`48px "${font}"`));
+    const [list] = await Promise.all([pictures, voiceReady, ...tracks.map(([, ready]) => ready), ...fonts]);
+    return {pics: Object.fromEntries(list), audio: voice, music: tracks.map(([audio]) => audio)};
+  }
+
+  fetch(timelineUrl).then(r => r.json()).then(async tl => {
+    // One music object plays from 0 to the end; a list holds tracks with their
+    // own start and end on the timeline.
+    if (!Array.isArray(tl.music)) tl.music = [{...tl.music, start: 0}];
+    [canvas.width, canvas.height] = tl.size;
+    const {pics, audio, music} = await preload(tl, (n, total) => loading.textContent = `Lädt… ${n}/${total}`);
+    const [W, H] = tl.size, feather = H * tl.wipeFeather;
+
+    // The music is not synchronized with the voice; only its level follows the
+    // clock: fade in and out, and duck while a speech interval plays.
+    let duck = 1, lastT = 0, outro = null;  // outro: real time when a held or looping scene was released
+    const fadeOut = (t, seconds) => outro !== null ? 1 - (performance.now() - outro) / 1000 / seconds
+      : tl.hold || tl.loop ? 1 : (tl.duration - t) / seconds;
+    function mix(t) {
+      const speaking = tl.speech.some(([a, b]) => a <= t && t < b);
+      const m = tl.music[0], target = speaking ? m.duck : 1, tau = speaking ? m.attack : m.release;
+      if (tl.speech.length) duck += (target - duck) * (1 - Math.exp(-Math.max(t - lastT, 0) / tau));
+      lastT = t;
+      tl.music.forEach((m, i) => {
+        const end = m.end ?? tl.duration, on = t >= m.start && (t < end || m.end === undefined);
+        if (on && music[i].paused) music[i].play();
+        if (!on && !music[i].paused) music[i].pause();
+        const fade = Math.min((t - m.start) / m.fadeIn, m.end === undefined ? fadeOut(t, m.fadeOut)
+          : Math.min((end - t) / m.fadeOut, fadeOut(t, m.fadeOut)));
+        music[i].volume = clamp(m.volume * clamp(fade, 0, 1) * duck, 0, 1);
+      });
+    }
+
+    // Rectangles may have another aspect than the canvas (non-square pixels).
+    function draw(pic, rect, target = ctx) {
+      const [x, y, w, h] = rect, kx = W / w, ky = H / h;
+      target.drawImage(pic, -x * kx, -y * ky, pic.width * kx, pic.height * ky);
+    }
+    // Without a voice the clock is real time (stopped while paused); a loop
+    // jumps back from its end.
+    let t0 = null, paused = false, pausedAt = null;
+    const clock = () => {
+      if (still !== null) return +still;
+      if (audio) return audio.currentTime;
+      let t = ((pausedAt ?? performance.now()) - t0) / 1000;
+      if (tl.loop && t >= tl.loop.end) {
+        t0 += (tl.loop.end - tl.loop.start) * 1000;
+        t -= tl.loop.end - tl.loop.start;
+      }
+      return t;
+    };
+    function frame() {
+      // A held scene stops at its duration; the voice is silent there anyway.
+      const t = Math.min(clock(), tl.duration);
+      if (still === null && !paused) mix(t);
+      if (still === null) showTime(t);
+      ctx.globalAlpha = 1; ctx.fillStyle = '#000'; ctx.fillRect(0, 0, W, H);
+      tl.shots.forEach((s, i) => {
+        // Shots with their own fadeIn/fadeOut appear from and vanish to what
+        // lies below; the others crossfade with the previous shot.
+        const own = s.fadeIn !== undefined;
+        const a = own ? s.start : s.start - tl.fade / 2, b = own ? s.end : s.end + tl.fade / 2;
+        if (t < a || t >= b) return;
+        const p = clamp((t - s.start) / (s.end - s.start), 0, 1);
+        const rect = s.from?.map((v, j) => v + (s.to[j] - v) * p);  // text shots have none
+        ctx.globalAlpha = own ? clamp(Math.min((t - a) / s.fadeIn, (b - t) / s.fadeOut), 0, 1)
+          : i ? clamp((t - a) / tl.fade, 0, 1) : 1;
+        if (s.text) {
+          // Lines centred on (x, y) in canvas pixels.
+          const {lines, x, y, size, lineHeight, color, font} = s.text;
+          ctx.font = `${size}px "${font}"`; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+          ctx.fillStyle = color; ctx.shadowColor = '#000'; ctx.shadowBlur = size / 6;
+          lines.forEach((line, k) => ctx.fillText(line, x, y + (k - (lines.length - 1) / 2) * lineHeight));
+          ctx.shadowBlur = 0;
+          return;
+        }
+        ctx.imageSmoothingEnabled = !s.pixelated;
+        // A frame sequence shows one picture every `step` seconds, then holds the last.
+        const path = s.frames ? s.frames.paths[clamp(Math.floor((t - s.start - s.frames.delay) / s.frames.step),
+                                                     0, s.frames.paths.length - 1)] : s.path;
+        draw(pics[path], rect);
+        if (s.wipe && t > s.wipe.start) {
+          let q = clamp((t - s.wipe.start) / (s.wipe.end - s.wipe.start), 0, 1);
+          q = q * q * (3 - 2 * q);
+          const edge = (H + feather) * q - feather;
+          ctx.save();
+          const grad = ctx.createLinearGradient(0, edge, 0, edge + feather);
+          grad.addColorStop(0, '#000'); grad.addColorStop(1, 'rgba(0,0,0,0)');
+          const mask = new OffscreenCanvas(W, H), m = mask.getContext('2d');
+          m.fillStyle = '#000'; m.fillRect(0, 0, W, Math.max(edge, 0));
+          m.fillStyle = grad; m.fillRect(0, edge, W, feather);
+          m.globalCompositeOperation = 'source-in';
+          draw(pics[s.wipe.path], rect, m);
+          ctx.drawImage(mask, 0, 0);
+          ctx.restore();
+        }
+      });
+      const black = clamp(Math.min(t / tl.blackIn, fadeOut(t, tl.blackOut)), 0, 1);
+      ctx.globalAlpha = 1 - black; ctx.fillStyle = '#000'; ctx.fillRect(0, 0, W, H);
+      const cue = tl.cues.find(c => c.start <= t && t < c.end);
+      cueBox.textContent = cue ? cue.text : '';
+      if (still !== null) return;
+      const longest = Math.max(tl.blackOut, ...tl.music.map(m => m.fadeOut));
+      if (outro !== null && fadeOut(t, longest) <= 0) finish();
+      else if (audio ? !audio.ended || tl.hold : t < tl.duration || tl.hold || tl.loop) requestAnimationFrame(frame);
+      else setTimeout(finish, 500);
+    }
+    if (still !== null) { loading.remove(); frame(); document.body.dataset.ready = '1'; return; }
+    const skip = document.getElementById('skip');
+    const finish = () => { audio?.pause(); music.forEach(m => m.pause()); location.search = ''; };
+    if (audio && !tl.hold) audio.addEventListener('ended', () => setTimeout(finish, 500));
+    // Once a held scene has stopped, or a looping one has reached its loop, any
+    // key or click fades it out.
+    const release = e => {
+      // Not for the time bar and its keys.
+      if (e.target.closest?.('#bar') || [' ', 'ArrowLeft', 'ArrowRight'].includes(e.key)) return;
+      const t = clock();
+      if (outro === null && (tl.hold ? t >= tl.duration - 0.05 : t >= tl.loop.start)) outro = performance.now();
+    };
+    skip.onclick = e => { e.stopPropagation(); finish(); };
+
+    // Time bar: pause and seek move the voice or the real-time clock; the music
+    // keeps its position and only pauses with the scene.
+    const bar = document.getElementById('bar'), seekBar = document.getElementById('seek');
+    const pauseButton = document.getElementById('pause'), timeLabel = document.getElementById('time');
+    const fmt = t => `${Math.floor(t / 60)}:${String(Math.floor(t % 60)).padStart(2, '0')}`;
+    let dragging = false, idleTimer;
+    seekBar.max = tl.duration;
+    function showTime(t) {
+      if (!dragging) seekBar.value = t;
+      timeLabel.textContent = `${fmt(t)} / ${fmt(tl.duration)}`;
+    }
+    function setPaused(on) {
+      if (on === paused || outro !== null) return;
+      paused = on;
+      pauseButton.textContent = on ? '▶' : '❚❚';
+      if (on) {
+        audio?.pause(); music.forEach(m => m.pause());
+        if (!audio) pausedAt = performance.now();
+      } else {
+        if (!audio) { t0 += performance.now() - pausedAt; pausedAt = null; }
+        else if (audio.currentTime < tl.duration) audio.play();
+        // mix() resumes the music tracks that belong to this moment.
+      }
+    }
+    function seek(t) {
+      if (outro !== null) return;
+      t = clamp(t, 0, tl.duration - 0.01);
+      if (audio) {
+        audio.currentTime = t;
+        if (!paused && audio.paused) audio.play();
+      } else {
+        t0 = (pausedAt ?? performance.now()) - t * 1000;
+      }
+    }
+    seekBar.addEventListener('pointerdown', () => dragging = true);
+    seekBar.addEventListener('pointerup', () => { dragging = false; seekBar.blur(); });
+    seekBar.addEventListener('input', () => seek(+seekBar.value));
+    pauseButton.onclick = () => { setPaused(!paused); pauseButton.blur(); };  // Space must not press it again
+    const wake = () => {
+      bar.classList.remove('idle');
+      clearTimeout(idleTimer);
+      idleTimer = setTimeout(() => bar.classList.add('idle'), 2500);
+    };
+    document.addEventListener('pointermove', wake);
+    document.addEventListener('keydown', e => {
+      if (t0 === null) return;  // not started yet
+      if (e.key === ' ') { e.preventDefault(); setPaused(!paused); wake(); }
+      else if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') {
+        e.preventDefault(); seek(clock() + (e.key === 'ArrowLeft' ? -5 : 5)); wake();
+      }
+    });
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') finish(); });
+    // Start as soon as everything is loaded. Browsers allow sound only after a
+    // click on the page; if it is blocked, a start button asks for one.
+    async function begin() {
+      loading.remove(); start.hidden = true;
+      music.forEach(m => m.volume = 0);
+      const probe = audio ?? music[0];
+      try {
+        await probe.play();
+        if (!audio) probe.pause();  // mix() starts the music at its time
+      } catch (error) {
+        if (error.name !== 'NotAllowedError') throw error;
+        start.hidden = false;
+        start.onclick = begin;
+        return;
+      }
+      skip.hidden = false; bar.hidden = false; wake();
+      t0 = performance.now(); mix(0); requestAnimationFrame(frame);
+      // Only now: the press that started the scene must not release it.
+      setTimeout(() => {
+        if (tl.hold || tl.loop) { document.addEventListener('keydown', release); document.addEventListener('pointerdown', release); }
+      });
+    }
+    begin();
+  });
+}
+</script>

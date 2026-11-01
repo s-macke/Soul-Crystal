@@ -1,0 +1,84 @@
+{
+ "version": 3,
+ "duration": 32.82,
+ "hold": false,
+ "voice": "zargon.mp3",
+ "music": {
+  "path": "music/Amiga/16.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.695,
+   27.18
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskD-047",
+   "path": "Amiga_HD/Disk 4/DiskD-047",
+   "start": 0.0,
+   "end": 32.82,
+   "from": [
+    0.0,
+    0.0,
+    1345.8,
+    757.0
+   ],
+   "to": [
+    820.3,
+    24.8,
+    1257.7,
+    707.5
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 4/DiskD-047"
+ ],
+ "cues": [
+  {
+   "start": 2.695,
+   "end": 7.38,
+   "text": "Als Zargon Deine Anwesenheit bemerkt, dreht er sich langsam zu Dir um:"
+  },
+  {
+   "start": 7.567,
+   "end": 10.18,
+   "text": "Du glaubst Deinen Augen nicht trauen zu können,"
+  },
+  {
+   "start": 10.22,
+   "end": 13.94,
+   "text": "als Du in seinen Augen einen leichten Schimmer von Furcht erkennst!"
+  },
+  {
+   "start": 14.956,
+   "end": 20.66,
+   "text": "\"Nun gut, Du hast Deine Aufgabe erfüllt - nun ist es an mir, zu tun,"
+  },
+  {
+   "start": 20.72,
+   "end": 24.9,
+   "text": "was getan werden muß...!\", keucht er und zieht einen kleinen,"
+  },
+  {
+   "start": 24.94,
+   "end": 27.18,
+   "text": "silbernen Dolch unter seinem Cape hervor!"
+  }
+ ]
+}

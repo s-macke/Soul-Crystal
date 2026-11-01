@@ -1,0 +1,411 @@
+{
+ "version": 3,
+ "duration": 193.0,
+ "hold": false,
+ "voice": "sage.mp3",
+ "music": {
+  "path": "music/Amiga/02.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.649,
+   66.185
+  ],
+  [
+   67.186,
+   112.742
+  ],
+  [
+   114.99,
+   125.13
+  ],
+  [
+   125.162,
+   146.17
+  ],
+  [
+   148.137,
+   159.83
+  ],
+  [
+   162.286,
+   178.83
+  ],
+  [
+   179.025,
+   188.03
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "sage-01",
+   "path": "Stories/sage/sage-01",
+   "start": 0.0,
+   "end": 66.686,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  },
+  {
+   "image": "DiskA-008",
+   "path": "Amiga_HD/Disk 2/DiskA-008",
+   "start": 66.686,
+   "end": 113.866,
+   "from": [
+    143.9,
+    24.7,
+    1256.1,
+    706.5
+   ],
+   "to": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ]
+  },
+  {
+   "image": "sage-02",
+   "path": "Stories/sage/sage-02",
+   "start": 113.866,
+   "end": 125.146,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  },
+  {
+   "image": "DiskA-007",
+   "path": "Amiga_HD/Disk 2/DiskA-007",
+   "start": 125.146,
+   "end": 147.154,
+   "from": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ],
+   "to": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ]
+  },
+  {
+   "image": "DiskA-008",
+   "path": "Amiga_HD/Disk 2/DiskA-008",
+   "start": 147.154,
+   "end": 161.058,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    143.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "sage-03",
+   "path": "Stories/sage/sage-03",
+   "start": 161.058,
+   "end": 178.928,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "DiskA-016",
+   "path": "Amiga_HD/Disk 2/DiskA-016",
+   "start": 178.928,
+   "end": 193.0,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 2/DiskA-007",
+  "Amiga_HD/Disk 2/DiskA-008",
+  "Amiga_HD/Disk 2/DiskA-016",
+  "Stories/sage/sage-01",
+  "Stories/sage/sage-02",
+  "Stories/sage/sage-03"
+ ],
+ "cues": [
+  {
+   "start": 2.649,
+   "end": 6.58,
+   "text": "Du winkst die Bedienung zu Dir heran und nennst ihr Deine dringendsten Wünsche:"
+  },
+  {
+   "start": 6.78,
+   "end": 13.299,
+   "text": "\"Bringen Sie mir bitte ein großes Steak, ein kühles Bier und eine Fra...\""
+  },
+  {
+   "start": 13.3,
+   "end": 16.025,
+   "text": "- Plötzlich spürst Du, wie Du rot wirst und stammelst:"
+  },
+  {
+   "start": 16.105,
+   "end": 19.465,
+   "text": "\"Ach nein: Die Frankfurter Allgemeine können Sie wieder streichen."
+  },
+  {
+   "start": 19.545,
+   "end": 23.465,
+   "text": "Deutsche Zeitungen werden Sie hier ja wohl ohnehin nicht bekommen, oder?\""
+  },
+  {
+   "start": 24.795,
+   "end": 30.185,
+   "text": "Als das Mädchen, ebenfalls rot bis über beide Ohren, hastig verneint, beruhigst Du es -"
+  },
+  {
+   "start": 30.245,
+   "end": 34.105,
+   "text": "den Altersunterschied von gut zehn Jahren geflissentlich ignorierend -"
+  },
+  {
+   "start": 34.132,
+   "end": 39.465,
+   "text": "väterlich: \"Das macht nichts, meine Tochter: Ich kann sowieso kein Deutsch!\","
+  },
+  {
+   "start": 39.53,
+   "end": 42.185,
+   "text": "und brichst in brüllendes Gelächter aus,"
+  },
+  {
+   "start": 42.315,
+   "end": 44.585,
+   "text": "woraufhin der bisher unbeteiligt dasitzende"
+  },
+  {
+   "start": 44.665,
+   "end": 48.105,
+   "text": "Dorfbewohner die Augen leidend zum Himmel verdreht,"
+  },
+  {
+   "start": 48.145,
+   "end": 52.945,
+   "text": "als hätte man ihm dort in die Weichteile getreten, wo es so richtig wehtut."
+  },
+  {
+   "start": 53.115,
+   "end": 56.585,
+   "text": "Als Du bestürzt feststellst, daß auch die Kellnerin anscheinend"
+  },
+  {
+   "start": 56.625,
+   "end": 60.025,
+   "text": "unter chronischer Humorlosigkeit leidet, beschließt Du,"
+  },
+  {
+   "start": 60.052,
+   "end": 63.305,
+   "text": "Deine komische Darbietung abrupt abzubrechen und das"
+  },
+  {
+   "start": 63.355,
+   "end": 66.185,
+   "text": "Mädchen mit einer gnädigen Handbewegung zu entlassen."
+  },
+  {
+   "start": 67.186,
+   "end": 71.606,
+   "text": "Als es in der Küche verschwunden ist, sprichst Du den alten Mann an,"
+  },
+  {
+   "start": 71.659,
+   "end": 76.166,
+   "text": "ob er Dir nicht vielleicht ein wenig über das Dorf und seine Umgebung erzählen könnte."
+  },
+  {
+   "start": 77.563,
+   "end": 80.811,
+   "text": "Langsam und schleppend beginnt der Dorfbewohner,"
+  },
+  {
+   "start": 80.838,
+   "end": 86.251,
+   "text": "in seinen Bart hineinzubrabbeln, daß er Dir eine interessante Sage erzählen könne."
+  },
+  {
+   "start": 87.479,
+   "end": 89.619,
+   "text": "Gut, Du bist zwar nicht gerade davon ausgegangen,"
+  },
+  {
+   "start": 89.639,
+   "end": 91.459,
+   "text": "daß er Dir gleich die Adressen der lokalen"
+  },
+  {
+   "start": 91.566,
+   "end": 95.539,
+   "text": "In-Treffs und Yuppie-Diskotheken aufzählen würde,"
+  },
+  {
+   "start": 95.587,
+   "end": 98.459,
+   "text": "aber muß es denn gleich ein Märchen sein?"
+  },
+  {
+   "start": 99.122,
+   "end": 101.702,
+   "text": "Vorsichtshalber stützt Du den Kopf auf die Hände,"
+  },
+  {
+   "start": 101.755,
+   "end": 105.302,
+   "text": "um im Ernstfall nicht mit der Nase auf die Tischkante zu knallen,"
+  },
+  {
+   "start": 105.342,
+   "end": 108.182,
+   "text": "und während Du sehnsüchtig auf Dein Essen wartest,"
+  },
+  {
+   "start": 108.209,
+   "end": 112.742,
+   "text": "damit Du wenigstens etwas zu tun hättest, lauschst Du der Geschichte des Alten:"
+  },
+  {
+   "start": 114.99,
+   "end": 118.65,
+   "text": "Vor langer, langer Zeit soll an dem Platz,"
+  },
+  {
+   "start": 118.69,
+   "end": 125.13,
+   "text": "den jetzt das Loch Calderwood einnimmt, eine reiche und stolze Stadt gestanden haben -"
+  },
+  {
+   "start": 125.162,
+   "end": 128.33,
+   "text": "doch von einer Nacht auf die andere war sie verschwunden,"
+  },
+  {
+   "start": 128.37,
+   "end": 132.25,
+   "text": "und statt ihrer befand sich der See am Fuße der Berge!"
+  },
+  {
+   "start": 132.463,
+   "end": 136.01,
+   "text": "Es wurde vermutet, daß die Bewohner dieser legendären Stadt für"
+  },
+  {
+   "start": 136.05,
+   "end": 140.411,
+   "text": "ihren Stolz und ihre Eitelkeit von den Göttern bestraft worden seien."
+  },
+  {
+   "start": 140.97,
+   "end": 146.17,
+   "text": "Ebenfalls erzählt man sich, daß sie sehr reich und kunstfertig gewesen wären!"
+  },
+  {
+   "start": 148.137,
+   "end": 151.99,
+   "text": "Da Du für Deinen Teil Dich seit Beginn der Erzählung in der Kunst übst,"
+  },
+  {
+   "start": 152.01,
+   "end": 153.91,
+   "text": "mit offenen Augen zu schlafen,"
+  },
+  {
+   "start": 154.07,
+   "end": 156.55,
+   "text": "hält der Einheimische Deinen starren Blick für"
+  },
+  {
+   "start": 156.63,
+   "end": 159.83,
+   "text": "ungläubiges Staunen und setzt noch mal einen drauf:"
+  },
+  {
+   "start": 162.286,
+   "end": 167.07,
+   "text": "Angeblich behaupten die Leute im Dorf nämlich sogar heute noch,"
+  },
+  {
+   "start": 167.11,
+   "end": 171.87,
+   "text": "daß die Türme und Dächer der Stadt noch unter Wasser gesehen werden könnten,"
+  },
+  {
+   "start": 171.918,
+   "end": 178.83,
+   "text": "wenn man es wagte, bei Vollmond um Mitternacht auf den Grund des Sees hinabzutauchen..."
+  },
+  {
+   "start": 179.025,
+   "end": 182.83,
+   "text": "ein sehr exklusives und einmaliges Vergnügen übrigens,"
+  },
+  {
+   "start": 182.883,
+   "end": 188.03,
+   "text": "da keiner der tapferen Männer, die bisher ihr Glück versucht haben, jemals zurückkam..."
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+# Narration "Mylgor's end" (part B, secret laboratory): texts 242, 277 and 391 from
+# texts/C64_en/B2.md, smoothed for speech. Images and options as in narration_en.txt.
+
+### mylgor_labor Mylgor's secret laboratory
+
+## Disk 3/DiskB-033
+[curious] As the sign on the door already suggested, this is Mylgor's secret laboratory: it is crammed with test tubes, flasks and beakers full of all kinds of mysterious liquids, bubbling away in every colour imaginable. You have to concentrate very hard not to be confused by this sudden flood of new impressions - but then you see him:
+
+## Stories/mylgor/mylgor_labor-01
+[dramatic] MYLGOR, the malicious alchemist, the vassal of the great evil whose name you don't even dare to think! When your eyes meet, his face twists into a gloating grimace:
+
+##+ Disk 3/DiskB-040
+slowly he comes towards you, shows you a huge horse syringe that he has just filled with a greenish, bubbling poison, and snarls: [menacing] "You did not follow my orders, my friend, did you...?" [panicked] Hastily you look around for a way to escape, but apart from the huge steel door to the south, you can't see anything...!
+
+### mylgor_explosion The explosion
+
+## Stories/mylgor/mylgor_explosion-01
+[desperate] In your despair, you tug at one of the massive wooden shelves to hurl the chemicals between you and Mylgor - and it is easier than you expected: one short jerk, and it topples over with everything on it! [surprised] "Oh shit: Arnold!", you think, completely amazed at your sudden strength, as the shelf crashes to the floor and the contents of the various bottles spill over the tiles.
+
+##+ Stories/mylgor/mylgor_explosion-02
+As two of the liquids mix, thick, acrid clouds of smoke rise, soon filling the whole room and making it almost impossible for the two of you even to see each other! [dramatic] A loud explosion knocks Mylgor off his feet and hurls him brutally against the opposite wall,
+
+##+ Disk 3/DiskB-042
+and suddenly flames flicker up from the floor, soon spreading and turning the room into a huge sea of fire! [laughs] Hot idea, man! But now let's get out of here before it gets TOO hot...!
+
+### mylgor_ende Mylgor's end
+
+## Disk 3/DiskB-032 pause=1.0
+[hurried] Hastily you lock the laboratory door with the key from Mylgor's study and, to your relief, hear the huge special lock close with a soft click - not a second too soon: at the very moment you turn the key, a terrible explosion in the laboratory shakes the whole house to its foundations - but luckily the massive and wisely locked door keeps the worst of the blast away from you!
+
+##+ Stories/mylgor/mylgor_ende-01
+[tense] Plaster trickles from the ceiling, the floor and the walls tremble threateningly - and suddenly everything goes very quiet: only the crackling of the flames licking at the laboratory door can still be heard... When the dust has settled after a while, you look around: the laboratory door is still locked - only black smoke is seeping out of small cracks in its frame... [relieved] You send a prayer of thanks to heaven for having survived the explosion unharmed - [dry] in stark contrast to Mylgor, by the way, who is now probably spread more or less evenly over the entire laboratory... [announcer voice] WELL DONE: BONUS AWARDED! ...NOW PREPARE FOR NEXT STAGE... [embarrassed] Ahem: just kidding...!

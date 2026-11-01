@@ -1,0 +1,396 @@
+{
+ "version": 3,
+ "duration": 137.8,
+ "hold": false,
+ "voice": "sage.mp3",
+ "music": {
+  "path": "music/Amiga/02.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.57,
+   50.668
+  ],
+  [
+   51.704,
+   81.853
+  ],
+  [
+   83.263,
+   88.953
+  ],
+  [
+   88.973,
+   102.553
+  ],
+  [
+   103.878,
+   113.898
+  ],
+  [
+   115.411,
+   125.858
+  ],
+  [
+   125.928,
+   132.818
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "sage-01",
+   "path": "Stories/sage/sage-01",
+   "start": 0.0,
+   "end": 51.186,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  },
+  {
+   "image": "DiskA-008",
+   "path": "Amiga_HD/Disk 2/DiskA-008",
+   "start": 51.186,
+   "end": 82.558,
+   "from": [
+    143.9,
+    24.7,
+    1256.1,
+    706.5
+   ],
+   "to": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ]
+  },
+  {
+   "image": "sage-02",
+   "path": "Stories/sage/sage-02",
+   "start": 82.558,
+   "end": 88.963,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  },
+  {
+   "image": "DiskA-007",
+   "path": "Amiga_HD/Disk 2/DiskA-007",
+   "start": 88.963,
+   "end": 103.216,
+   "from": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ],
+   "to": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ]
+  },
+  {
+   "image": "DiskA-008",
+   "path": "Amiga_HD/Disk 2/DiskA-008",
+   "start": 103.216,
+   "end": 114.655,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    143.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "sage-03",
+   "path": "Stories/sage/sage-03",
+   "start": 114.655,
+   "end": 125.893,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "DiskA-016",
+   "path": "Amiga_HD/Disk 2/DiskA-016",
+   "start": 125.893,
+   "end": 137.8,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 2/DiskA-007",
+  "Amiga_HD/Disk 2/DiskA-008",
+  "Amiga_HD/Disk 2/DiskA-016",
+  "Stories/sage/sage-01",
+  "Stories/sage/sage-02",
+  "Stories/sage/sage-03"
+ ],
+ "cues": [
+  {
+   "start": 2.57,
+   "end": 6.02,
+   "text": "You wave the waitress over to you and tell her your most urgent wishes:"
+  },
+  {
+   "start": 6.06,
+   "end": 9.379,
+   "text": "\"Please bring me a large steak, a cold beer and the Fra...\""
+  },
+  {
+   "start": 9.38,
+   "end": 11.7,
+   "text": "- Suddenly you feel yourself blushing and stammer:"
+  },
+  {
+   "start": 11.74,
+   "end": 14.1,
+   "text": "\"Oops: forget the Frankfurter Allgemeine."
+  },
+  {
+   "start": 14.18,
+   "end": 17.14,
+   "text": "You probably don't get any German newspapers here anyway, right?\""
+  },
+  {
+   "start": 17.764,
+   "end": 22.42,
+   "text": "When the girl, also red up to her ears, hastily says no, you reassure her -"
+  },
+  {
+   "start": 22.457,
+   "end": 26.82,
+   "text": "deliberately ignoring the age difference of a good ten years - in a fatherly way:"
+  },
+  {
+   "start": 26.86,
+   "end": 29.939,
+   "text": "\"It doesn't matter, my daughter: I can't speak German anyway!\","
+  },
+  {
+   "start": 29.987,
+   "end": 32.107,
+   "text": "and burst into a roar of laughter,"
+  },
+  {
+   "start": 32.224,
+   "end": 34.988,
+   "text": "whereupon the villager, who had been sitting there uninvolved,"
+  },
+  {
+   "start": 35.041,
+   "end": 37.308,
+   "text": "rolls his eyes up to the sky in suffering,"
+  },
+  {
+   "start": 37.335,
+   "end": 40.468,
+   "text": "as if he had been kicked in the soft parts where it really hurts."
+  },
+  {
+   "start": 40.524,
+   "end": 42.988,
+   "text": "When you realize with dismay that the waitress also"
+  },
+  {
+   "start": 43.038,
+   "end": 45.548,
+   "text": "appears to be suffering from a chronic lack of humor,"
+  },
+  {
+   "start": 45.568,
+   "end": 48.028,
+   "text": "you decide to abruptly stop your comic performance"
+  },
+  {
+   "start": 48.068,
+   "end": 50.668,
+   "text": "and dismiss the girl with a merciful wave of your hand."
+  },
+  {
+   "start": 51.704,
+   "end": 53.528,
+   "text": "When she has disappeared into the kitchen,"
+  },
+  {
+   "start": 53.568,
+   "end": 57.128,
+   "text": "you ask the old man if he could tell you a little about the village and its surroundings."
+  },
+  {
+   "start": 57.72,
+   "end": 58.728,
+   "text": "Slowly and haltingly,"
+  },
+  {
+   "start": 58.748,
+   "end": 62.928,
+   "text": "the villager begins to mumble into his beard that he can tell you an interesting legend."
+  },
+  {
+   "start": 63.25,
+   "end": 65.933,
+   "text": "Well, you didn't exactly expect him to tell you the addresses of"
+  },
+  {
+   "start": 65.953,
+   "end": 69.933,
+   "text": "the local hot spots and yuppie discos, but does it have to be a fairy tale?"
+  },
+  {
+   "start": 70.472,
+   "end": 72.893,
+   "text": "As a precaution, you rest your head on your hands so that"
+  },
+  {
+   "start": 72.973,
+   "end": 76.093,
+   "text": "in an emergency you don't hit your nose on the edge of the table,"
+  },
+  {
+   "start": 76.133,
+   "end": 80.253,
+   "text": "and while you wait longingly for your food, so that you'd at least have something to do,"
+  },
+  {
+   "start": 80.293,
+   "end": 84.013,
+   "text": "you listen to the old man's story: A long, long time ago,"
+  },
+  {
+   "start": 84.793,
+   "end": 88.953,
+   "text": "a rich and proud city was said to have stood where Loch Calderwood lies now -"
+  },
+  {
+   "start": 88.973,
+   "end": 91.193,
+   "text": "but in one single night it had disappeared,"
+  },
+  {
+   "start": 91.233,
+   "end": 94.153,
+   "text": "and in its place was the lake at the foot of the mountains!"
+  },
+  {
+   "start": 94.26,
+   "end": 96.713,
+   "text": "It was believed that the inhabitants of this legendary"
+  },
+  {
+   "start": 96.777,
+   "end": 99.993,
+   "text": "city were punished by the gods for their pride and vanity."
+  },
+  {
+   "start": 100.02,
+   "end": 102.553,
+   "text": "It is also said that they were very rich and artistic!"
+  },
+  {
+   "start": 103.878,
+   "end": 105.258,
+   "text": "Since you, for your part,"
+  },
+  {
+   "start": 105.274,
+   "end": 107.018,
+   "text": "have been practicing the art of sleeping with"
+  },
+  {
+   "start": 107.05,
+   "end": 109.338,
+   "text": "your eyes open since the beginning of the story,"
+  },
+  {
+   "start": 109.358,
+   "end": 113.898,
+   "text": "the local takes your stare for incredulous amazement and goes one step further:"
+  },
+  {
+   "start": 115.411,
+   "end": 117.378,
+   "text": "Apparently the people in the village still claim that"
+  },
+  {
+   "start": 117.458,
+   "end": 121.298,
+   "text": "even today the towers and roofs of the city could be seen under water,"
+  },
+  {
+   "start": 121.351,
+   "end": 125.858,
+   "text": "if one dared to dive down to the bottom of the lake under the full moon at midnight..."
+  },
+  {
+   "start": 125.928,
+   "end": 128.498,
+   "text": "a very exclusive and unique pleasure, by the way,"
+  },
+  {
+   "start": 128.551,
+   "end": 132.818,
+   "text": "since none of the brave men who have tried their luck so far has ever come back..."
+  }
+ ]
+}

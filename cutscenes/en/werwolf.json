@@ -1,0 +1,165 @@
+{
+ "version": 3,
+ "duration": 57.775,
+ "hold": false,
+ "voice": "werwolf.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.647,
+   21.14
+  ],
+  [
+   22.0,
+   43.12
+  ],
+  [
+   43.256,
+   52.64
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskB-027",
+   "path": "Amiga_HD/Disk 3/DiskB-027",
+   "start": 0.0,
+   "end": 21.57,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "werwolf-01",
+   "path": "Stories/werwolf/werwolf-01",
+   "start": 21.57,
+   "end": 43.188,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "DiskB-039",
+   "path": "Amiga_HD/Disk 3/DiskB-039",
+   "start": 43.188,
+   "end": 57.775,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 3/DiskB-027",
+  "Amiga_HD/Disk 3/DiskB-039",
+  "Stories/werwolf/werwolf-01"
+ ],
+ "cues": [
+  {
+   "start": 2.647,
+   "end": 3.3,
+   "text": "Heavens!"
+  },
+  {
+   "start": 3.38,
+   "end": 7.62,
+   "text": "It is probably too late to even think of escaping: frozen with horror,"
+  },
+  {
+   "start": 7.66,
+   "end": 12.42,
+   "text": "you have to watch as a huge black shadow rises behind a weathered gravestone -"
+  },
+  {
+   "start": 12.468,
+   "end": 14.02,
+   "text": "only a few metres away from you!"
+  },
+  {
+   "start": 14.169,
+   "end": 21.14,
+   "text": "Unable to move, you have to look on as it silently grows bigger and bigger..."
+  },
+  {
+   "start": 22.0,
+   "end": 26.32,
+   "text": "Suddenly the clouds that had covered the full moon for a short while break apart -"
+  },
+  {
+   "start": 26.98,
+   "end": 29.52,
+   "text": "and you cry out in panic and mortal fear:"
+  },
+  {
+   "start": 29.552,
+   "end": 35.52,
+   "text": "your opponent is a huge grey werewolf, baring its sharp yellow teeth, certain of victory!"
+  },
+  {
+   "start": 35.88,
+   "end": 38.72,
+   "text": "Hissing hoarsely and with outstretched arms,"
+  },
+  {
+   "start": 38.773,
+   "end": 43.12,
+   "text": "it starts to move - step by step, for it is in no hurry..."
+  },
+  {
+   "start": 43.256,
+   "end": 44.56,
+   "text": "But suddenly it stops!"
+  },
+  {
+   "start": 44.76,
+   "end": 47.68,
+   "text": "For a fraction of a second your eyes meet,"
+  },
+  {
+   "start": 47.72,
+   "end": 52.64,
+   "text": "and you feel the lust for murder and the abysmal hatred blazing in its eyes..."
+  }
+ ]
+}

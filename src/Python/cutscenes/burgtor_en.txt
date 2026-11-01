@@ -1,0 +1,14 @@
+# Narration "Before the castle gate" (part C, Zargon's castle ruin): text 223 from
+# texts/C64_en/C1.md, smoothed for speech; the closing directions are left out.
+# Images and options as in narration_en.txt.
+
+### burgtor Before the castle gate
+
+## Disk 2/DiskC-012
+[ominous] Right in front of you, the massive castle gate with its iron fittings rises up, huge and threatening. It seems to stare down at you with malice - almost as if it wanted to say: [menacing] "I will never let you out of here again...!", and at once you get the faint and vague, but nevertheless thoroughly unpleasant feeling that you will really pass through this entrance to the castle only once...
+
+## Disk 2/DiskC-014
+[serious] You still have a little time to think your plan over carefully - and to be fair, we should warn you, even though you are actually already on the right path to completing your task: if you really dare to enter these gloomy walls against all our warnings, this game will not let you sleep until you have finally solved it.
+
+##+ Stories/burgtor/burgtor-01
+[mischievously] So I suggest you first brew a few barrels of coffee in advance, buy a few cartons of cigarettes - and above all, think up a few halfway intelligent excuses for your boss!

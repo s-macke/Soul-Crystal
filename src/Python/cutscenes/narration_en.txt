@@ -1,0 +1,50 @@
+# Narration for the English intro video, source: texts/C64_en/story.txt.
+# Typos and the 40-column line breaks are fixed; the party sentence follows the
+# German original (texts/C64/story.txt) because the C64 wording inverts it.
+# "## <image>" starts a section; the image is in images/Amiga_HD/Disk 1/.
+# focus=x0,y0,x1,y1 limits the camera to a part of it (here: below "DIE STORY").
+# Square brackets are eleven_v3 audio tags and are left out of the subtitles.
+
+### intro The story
+
+## Stories/intro/intro-01
+[relieved] "Here at last! Wasn't as hard as I expected at first!", you think to yourself as you step out of the bus that has taken you from the station of the neighbouring village to your hotel.
+
+## Story1-02
+The first thing you do is breathe a sigh of relief: you somehow managed to escape the annoying advice of your parents for the next days and weeks. [amused] Something you never dreamed possible... until one day, on the verge of a nervous breakdown, you moved out of the house...
+
+## Story1-03
+As you stroll down the street, you think back to your departure, to your very worried parents, who even thought they had to give you advice through the train window at the station - and once again got on your nerves with their constant talking and their limitless pessimism... [exasperated] "What do they want from me? I am seventeen after all, that is almost old enough to marry! Why shouldn't I be able to spend my holidays alone?"
+
+## Story2-01
+[dry] Seventeen years - and you spent thirteen of them, every year, at the same time, in the same old French town, with your parents, who - out of a pure sense of responsibility, of course - don't want to miss any opportunity to monitor every single step you take!
+
+## Story2-02
+[determined] "But now I've had enough of it!", you said to yourself one day, and in your usual courtesy, informed them that you refuse to spend another holiday with them among all these apparently dead people in this French "resort" town... [chuckles] You can still remember the horrified faces of your parents all too well, when their son actually dared to speak up.
+
+## Story2-03
+You can still hear your father's bogus arguments in your head, which he articulated so well in all the endless discussions... [sighs] Especially in the last two months, the arguments seemed to never end. At least you were able to ultimately prevail! [mischievously] Well, you have to admit, with a slight smile on your face, that over the last few weeks you have actually been playing with the thought of staying at home while your parents were away
+
+##+ Stories/intro/intro-02
+and throwing a huge party.
+
+##+ Story2-03
+But one night you finally realized that you are almost forced to travel - if only to show your parents who's the boss in the house!
+
+## Story3-01
+Well, now you are finally here! [inhales deeply] You take a deep breath of fresh, clean air and look around: [excited] YES! This is exactly the right place for young geniuses like you to recover from your stressful everyday lives! The adult life! You are completely free - although only for a couple of weeks, but still free - and that is the only thing that matters to you at the moment.
+
+## Story3-02
+[mischievously] Now you can do what you want, wear what you want, and last but not least, drink as much as you want! [dry] And, well, when your vacation is over, hopefully you will be recovered and strong enough to survive at home for a few months until you turn eighteen...
+
+## Story3-03
+Happy and full of an energy nobody was used to from you back in school, you enter your hotel, sign the guestbook, and receive your room key.
+
+## Story4-01
+You drag your luggage to your room and start unpacking, when you happen to look at your wristwatch. [surprised] It's already half past six, and you wanted to get out and have a look at Loch Calderwood. The old man you met on the bus ride had so many legendary stories to tell about it.
+
+## Story4-02
+So you leave your things as they are for now, lock your room door behind you and leave the key at the reception desk, so you will be able to take a quick look at the landscape before it's time for dinner. After all, you want to be able to tell your mother some stories when you call her later. [sarcastic] It would be even nicer if she had been worried the whole time that her little boy may have taken the wrong bus and is now wandering, lonely and abandoned, through Scotland's forests...
+
+## Story4-03 pause=1.0
+[softly] When you step out of the hotel lobby and back onto the dusty street to go search for the legendary mountain lake, you can feel the warm, red-golden light of the setting sun on your face...

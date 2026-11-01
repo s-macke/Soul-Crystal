@@ -1,0 +1,286 @@
+{
+ "version": 3,
+ "duration": 105.137,
+ "hold": false,
+ "voice": "firon_schluessel.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   3.095,
+   33.825
+  ],
+  [
+   34.675,
+   65.905
+  ],
+  [
+   66.165,
+   71.905
+  ],
+  [
+   72.045,
+   92.465
+  ],
+  [
+   92.745,
+   99.905
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskB-024",
+   "path": "Amiga_HD/Disk 3/DiskB-024",
+   "start": 0.0,
+   "end": 34.25,
+   "from": [
+    600.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "firon_schluessel-04",
+   "path": "Stories/firon/firon_schluessel-04",
+   "start": 34.25,
+   "end": 66.035,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "firon_schluessel-01",
+   "path": "Stories/firon/firon_schluessel-01",
+   "start": 66.035,
+   "end": 71.975,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  },
+  {
+   "image": "firon_schluessel-02",
+   "path": "Stories/firon/firon_schluessel-02",
+   "start": 71.975,
+   "end": 92.605,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "firon_schluessel-03",
+   "path": "Stories/firon/firon_schluessel-03",
+   "start": 92.605,
+   "end": 105.137,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 3/DiskB-024",
+  "Stories/firon/firon_schluessel-01",
+  "Stories/firon/firon_schluessel-02",
+  "Stories/firon/firon_schluessel-03",
+  "Stories/firon/firon_schluessel-04"
+ ],
+ "cues": [
+  {
+   "start": 3.095,
+   "end": 7.505,
+   "text": "Firon antwortet: \"Um Dir zu beweisen, daß ich auf Deiner Seite stehe,"
+  },
+  {
+   "start": 7.545,
+   "end": 11.745,
+   "text": "werde ich Dir einen Schlüssel geben, dessen Zweck Dir später sicherlich noch erklärt wird."
+  },
+  {
+   "start": 12.065,
+   "end": 14.465,
+   "text": "Es liegt leider nicht in meiner Befugnis,"
+  },
+  {
+   "start": 14.492,
+   "end": 17.825,
+   "text": "es Dir persönlich zu sagen, aber es gibt jemanden..."
+  },
+  {
+   "start": 17.865,
+   "end": 20.305,
+   "text": "-jemanden in dem alten Kloster auf dem Hügel"
+  },
+  {
+   "start": 20.358,
+   "end": 23.265,
+   "text": "im Nordosten des Landes, den Du finden solltest."
+  },
+  {
+   "start": 23.465,
+   "end": 25.985,
+   "text": "Wir beide waren Mitglieder einer Lobby,"
+  },
+  {
+   "start": 26.025,
+   "end": 29.265,
+   "text": "die sich im Geheimen mit den Problemen des Landes beschäftigt hat,"
+  },
+  {
+   "start": 29.313,
+   "end": 31.665,
+   "text": "nachdem das Böse die Oberhand gewonnen hatte."
+  },
+  {
+   "start": 31.945,
+   "end": 33.825,
+   "text": "Bedauerlicherweise...\""
+  },
+  {
+   "start": 34.675,
+   "end": 37.505,
+   "text": "- bei diesen Worten seufzt er und blickt für einen kurzen"
+  },
+  {
+   "start": 37.574,
+   "end": 41.665,
+   "text": "Moment geistesabwesend an Dir vorbei in die kalte Leere -"
+  },
+  {
+   "start": 41.705,
+   "end": 45.985,
+   "text": "\"Bedauerlicherweise schaffte er es nicht mehr, zu uns in diese Wüste zu fliehen,"
+  },
+  {
+   "start": 46.038,
+   "end": 49.265,
+   "text": "so daß er den Häschern des Bösen in die Hände fiel..."
+  },
+  {
+   "start": 49.285,
+   "end": 51.185,
+   "text": "Ich habe ihn und das Kloster,"
+  },
+  {
+   "start": 51.225,
+   "end": 56.385,
+   "text": "das uns damals als geheimes Hauptquartier diente, nie mehr wiedergesehen: Alles,"
+  },
+  {
+   "start": 56.405,
+   "end": 58.225,
+   "text": "was mir blieb, war ein Schlüssel,"
+  },
+  {
+   "start": 58.257,
+   "end": 62.785,
+   "text": "dessen Abdruck ich in magischem Eis gegossen und seit Jahrzehnten aufbewahrt habe."
+  },
+  {
+   "start": 63.105,
+   "end": 65.905,
+   "text": "Möge er Dir auf Deiner Suche behilflich sein...\""
+  },
+  {
+   "start": 66.165,
+   "end": 70.545,
+   "text": "Mit diesen Worten steht Firon auf, holt einen großen Schlüssel aus einem"
+  },
+  {
+   "start": 70.572,
+   "end": 75.185,
+   "text": "Geheimfach in seinem Thron und legt ihn Dir vorsichtig in die ausgestreckte Hand."
+  },
+  {
+   "start": 76.13,
+   "end": 79.465,
+   "text": "Mit einem Blick auf das Portal hinter Dir fügt er hinzu:"
+  },
+  {
+   "start": 79.685,
+   "end": 82.065,
+   "text": "\"Meine Wachen werden Dich passieren lassen."
+  },
+  {
+   "start": 82.165,
+   "end": 85.425,
+   "text": "Ich werde sie anweisen, einen meiner schnellsten Dachsschlitten"
+  },
+  {
+   "start": 85.465,
+   "end": 88.945,
+   "text": "für Deine Rückkehr zum Rand der Eisregionen bereit zu machen."
+  },
+  {
+   "start": 89.105,
+   "end": 92.465,
+   "text": "Leb' wohl, mein Freund - und mögen die Götter Dich schützen...\""
+  },
+  {
+   "start": 92.745,
+   "end": 96.145,
+   "text": "Mit diesen Worten winkt Firon den Yeti heran,"
+  },
+  {
+   "start": 96.165,
+   "end": 99.905,
+   "text": "der Dich nach draußen geleitet, wo Firons Schlitten schon auf Dich wartet..."
+  }
+ ]
+}

@@ -1,0 +1,117 @@
+{
+ "version": 3,
+ "duration": 39.541,
+ "hold": false,
+ "voice": "einhorn_gerettet.mp3",
+ "music": {
+  "path": "music/Amiga/02.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.57,
+   12.35
+  ],
+  [
+   13.918,
+   33.75
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "02-rettung",
+   "path": "Stories/einhorn/02-rettung",
+   "start": 0.0,
+   "end": 13.134,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  },
+  {
+   "image": "03-erschoepfung",
+   "path": "Stories/einhorn/03-erschoepfung",
+   "start": 13.134,
+   "end": 39.541,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  }
+ ],
+ "images": [
+  "Stories/einhorn/02-rettung",
+  "Stories/einhorn/03-erschoepfung"
+ ],
+ "cues": [
+  {
+   "start": 2.57,
+   "end": 5.63,
+   "text": "Als der Wolf Dich auf die Lichtung stürmen sieht,"
+  },
+  {
+   "start": 5.67,
+   "end": 8.83,
+   "text": "erschrickt er derartig über Deine hagere Figur,"
+  },
+  {
+   "start": 8.85,
+   "end": 12.35,
+   "text": "daß er sofort den Schwanz einzieht und die Beine in die Pfoten nimmt!"
+  },
+  {
+   "start": 13.918,
+   "end": 17.39,
+   "text": "Nachdem er, noch immer erschüttert über soviel Elend,"
+  },
+  {
+   "start": 17.47,
+   "end": 20.35,
+   "text": "jaulend im Unterholz verschwunden ist,"
+  },
+  {
+   "start": 20.41,
+   "end": 24.27,
+   "text": "legt sich das angeschlagene Einhorn erschöpft auf den Boden,"
+  },
+  {
+   "start": 24.297,
+   "end": 28.03,
+   "text": "um sich ein wenig von dem ungleichen Kampf zu erholen."
+  },
+  {
+   "start": 28.243,
+   "end": 33.75,
+   "text": "Seine Nüstern beben nervös, und es atmet schwer und ungleichmäßig..."
+  }
+ ]
+}

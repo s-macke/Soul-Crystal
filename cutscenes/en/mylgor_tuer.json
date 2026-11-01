@@ -1,0 +1,117 @@
+{
+ "version": 3,
+ "duration": 40.042,
+ "hold": false,
+ "voice": "mylgor_tuer.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.636,
+   11.22
+  ],
+  [
+   11.99,
+   34.742
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskB-006",
+   "path": "Amiga_HD/Disk 3/DiskB-006",
+   "start": 0.0,
+   "end": 11.605,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "mylgor_tuer-01",
+   "path": "Stories/mylgor/mylgor_tuer-01",
+   "start": 11.605,
+   "end": 40.042,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 3/DiskB-006",
+  "Stories/mylgor/mylgor_tuer-01"
+ ],
+ "cues": [
+  {
+   "start": 2.636,
+   "end": 7.3,
+   "text": "You knock timidly on the door and wait: nothing happens!"
+  },
+  {
+   "start": 7.4,
+   "end": 11.22,
+   "text": "You knock again, a little louder this time: no reaction!"
+  },
+  {
+   "start": 11.99,
+   "end": 15.7,
+   "text": "You are just about to hammer on the door with all your might when,"
+  },
+  {
+   "start": 15.8,
+   "end": 19.3,
+   "text": "exactly at the spot where the destructive power of your mighty fists"
+  },
+  {
+   "start": 19.353,
+   "end": 23.46,
+   "text": "would very nearly have revealed itself in all its terrible glory,"
+  },
+  {
+   "start": 23.54,
+   "end": 26.66,
+   "text": "a small hatch opens, and behind it a face appears"
+  },
+  {
+   "start": 26.692,
+   "end": 29.22,
+   "text": "that can only barely be made out in the half-light!"
+  },
+  {
+   "start": 30.222,
+   "end": 34.742,
+   "text": "\"What is your desire, stranger?\", the voice behind the door asks suspiciously."
+  }
+ ]
+}

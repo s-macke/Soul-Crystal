@@ -1,0 +1,252 @@
+{
+ "version": 3,
+ "duration": 98.85,
+ "hold": false,
+ "voice": "mylgor_nacht.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.7,
+   12.1
+  ],
+  [
+   12.233,
+   46.18
+  ],
+  [
+   47.891,
+   70.144
+  ],
+  [
+   70.957,
+   93.384
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskB-001",
+   "path": "Amiga_HD/Disk 3/DiskB-001",
+   "start": 0.0,
+   "end": 12.166,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "mylgor_nacht-01",
+   "path": "Stories/mylgor/mylgor_nacht-01",
+   "start": 12.166,
+   "end": 47.035,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "mylgor_nacht-02",
+   "path": "Stories/mylgor/mylgor_nacht-02",
+   "start": 47.035,
+   "end": 70.55,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  },
+  {
+   "image": "DiskB-001",
+   "path": "Amiga_HD/Disk 3/DiskB-001",
+   "start": 70.55,
+   "end": 98.85,
+   "from": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ],
+   "to": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 3/DiskB-001",
+  "Stories/mylgor/mylgor_nacht-01",
+  "Stories/mylgor/mylgor_nacht-02"
+ ],
+ "cues": [
+  {
+   "start": 2.7,
+   "end": 6.58,
+   "text": "Erst, als Du Dich auf dem Bettzeug ausstreckst, um Dich ein wenig auszuruhen,"
+  },
+  {
+   "start": 6.66,
+   "end": 12.1,
+   "text": "spürst Du, daß Dich Deine Reise doch viel müder gemacht hat als Du geglaubt hattest."
+  },
+  {
+   "start": 12.233,
+   "end": 17.86,
+   "text": "In der Zwischenzeit ist es tiefe Nacht geworden, draußen regnet es in Strömen -"
+  },
+  {
+   "start": 17.88,
+   "end": 22.66,
+   "text": "und Du bist heilfroh, bei diesem Hundewetter ein Dach über dem Kopf zu haben."
+  },
+  {
+   "start": 22.847,
+   "end": 25.14,
+   "text": "Du kuschelst Dich tief in die warme,"
+  },
+  {
+   "start": 25.188,
+   "end": 29.94,
+   "text": "mollige Bettdecke ein und denkst über Deinen weiteren Aufenthalt in dieser seltsamen,"
+  },
+  {
+   "start": 29.988,
+   "end": 32.82,
+   "text": "fremden Welt nach, über den Vertrag,"
+  },
+  {
+   "start": 32.84,
+   "end": 37.3,
+   "text": "den Du mit Mylgor abgeschlossen hast, und was wohl Deine Eltern..."
+  },
+  {
+   "start": 37.38,
+   "end": 38.26,
+   "text": "Elt..."
+  },
+  {
+   "start": 38.32,
+   "end": 39.62,
+   "text": "-El..."
+  },
+  {
+   "start": 39.66,
+   "end": 40.34,
+   "text": "-Zzz..."
+  },
+  {
+   "start": 40.389,
+   "end": 40.731,
+   "text": "-Zzz..."
+  },
+  {
+   "start": 41.147,
+   "end": 46.18,
+   "text": "Mit dem Daumen im Mund fällst Du in den tiefen, traumlosen Schlaf der Erschöpfung..."
+  },
+  {
+   "start": 47.891,
+   "end": 49.864,
+   "text": "Plötzlich wird Dein süßer Schlummer jedoch von"
+  },
+  {
+   "start": 49.904,
+   "end": 53.784,
+   "text": "einem häßlich scharrenden Geräusch von nebenan unterbrochen -"
+  },
+  {
+   "start": 53.824,
+   "end": 56.984,
+   "text": "einem Geräusch wie das Scharren von Stein auf Stein!"
+  },
+  {
+   "start": 57.304,
+   "end": 62.904,
+   "text": "Du stehst auf und willst die Tür zum Kaminzimmer öffnen - aber sie ist abgeschlossen!"
+  },
+  {
+   "start": 64.013,
+   "end": 65.784,
+   "text": "Frustriert legst Du Dich wieder hin,"
+  },
+  {
+   "start": 65.811,
+   "end": 70.144,
+   "text": "um wenigstens noch ein paar Stündchen an der Matratze horchen zu können..."
+  },
+  {
+   "start": 70.957,
+   "end": 74.264,
+   "text": "Am nächsten Nachmittag weckt Dich Mylgor und fordert Dich auf,"
+  },
+  {
+   "start": 74.28,
+   "end": 77.784,
+   "text": "Dich schnell frischzumachen und danach ins Kaminzimmer zu kommen,"
+  },
+  {
+   "start": 77.811,
+   "end": 80.104,
+   "text": "wo er Dir seine Order geben will -"
+  },
+  {
+   "start": 80.184,
+   "end": 82.744,
+   "text": "nur über den nächtlichen Zwischenfall verliert"
+  },
+  {
+   "start": 82.824,
+   "end": 86.584,
+   "text": "er merkwürdigerweise kein Wort: Du beschließt,"
+  },
+  {
+   "start": 86.604,
+   "end": 89.544,
+   "text": "ihn vorsichtshalber auch gar nicht darauf anzusprechen und"
+  },
+  {
+   "start": 89.597,
+   "end": 93.384,
+   "text": "stehst halbwegs ausgeschlafen und entspannt wieder auf..."
+  }
+ ]
+}

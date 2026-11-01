@@ -1,0 +1,175 @@
+{
+ "version": 3,
+ "duration": 66.856,
+ "hold": false,
+ "voice": "richard_erscheint.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.65,
+   8.46
+  ],
+  [
+   8.963,
+   46.743
+  ],
+  [
+   47.996,
+   61.303
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskB-029",
+   "path": "Amiga_HD/Disk 3/DiskB-029",
+   "start": 0.0,
+   "end": 8.712,
+   "from": [
+    300.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    643.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "richard_erscheint-01-v2",
+   "path": "Stories/richard/richard_erscheint-01-v2",
+   "start": 8.712,
+   "end": 47.37,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "richard_erscheint-02",
+   "path": "Stories/richard/richard_erscheint-02",
+   "start": 47.37,
+   "end": 66.856,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 3/DiskB-029",
+  "Stories/richard/richard_erscheint-01-v2",
+  "Stories/richard/richard_erscheint-02"
+ ],
+ "cues": [
+  {
+   "start": 2.65,
+   "end": 8.46,
+   "text": "Vorsichtig legst Du den Schädel neben den Rumpf des Königs - aber was ist denn das?"
+  },
+  {
+   "start": 8.963,
+   "end": 13.303,
+   "text": "Der Totenschädel rollt zum Hals des Skelettes und wächst dort wieder an,"
+  },
+  {
+   "start": 13.343,
+   "end": 16.343,
+   "text": "als ob er niemals irgendwo anders gewesen wäre!"
+  },
+  {
+   "start": 17.13,
+   "end": 18.663,
+   "text": "Im selben Moment jedoch,"
+  },
+  {
+   "start": 18.723,
+   "end": 22.823,
+   "text": "als der Schädel des Königs an seinen angestammten Platz zurückkehrt,"
+  },
+  {
+   "start": 22.863,
+   "end": 26.183,
+   "text": "fühlst Du einen eiskalten Wind im Nacken..."
+  },
+  {
+   "start": 26.223,
+   "end": 28.263,
+   "text": "Mal wieder das Schlimmste befürchtend,"
+  },
+  {
+   "start": 28.303,
+   "end": 31.943,
+   "text": "schließt Du angsterfüllt die Augen: Nichts passiert..."
+  },
+  {
+   "start": 32.283,
+   "end": 37.183,
+   "text": "Als Du sie jedoch wieder zu öffnen wagst - ist der Sarg leer!"
+  },
+  {
+   "start": 37.356,
+   "end": 40.903,
+   "text": "Du schließt Deine Augen zum zweiten Mal und öffnest sie wieder:"
+  },
+  {
+   "start": 41.063,
+   "end": 46.743,
+   "text": "Aber nichts hat sich geändert: Der Sarkophag des Königs ist und bleibt leer!"
+  },
+  {
+   "start": 47.996,
+   "end": 52.023,
+   "text": "Bevor Du jedoch versuchen kannst, auf Deinen schlotternden Beinen davonzulaufen,"
+  },
+  {
+   "start": 52.063,
+   "end": 54.823,
+   "text": "hörst Du eine offensichtlich recht amüsierte,"
+  },
+  {
+   "start": 54.883,
+   "end": 60.183,
+   "text": "sanfte Stimme hinter Dir: \"Willkommen, mein Freund...\""
+  },
+  {
+   "start": 60.21,
+   "end": 61.303,
+   "text": "Es ist König Richard!"
+  }
+ ]
+}

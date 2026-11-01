@@ -1,0 +1,137 @@
+{
+ "version": 3,
+ "duration": 58.93,
+ "hold": false,
+ "voice": "einhorn_kampf.mp3",
+ "music": {
+  "path": "music/Amiga/02.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.63,
+   12.82
+  ],
+  [
+   14.005,
+   53.86
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskA-017",
+   "path": "Amiga_HD/Disk 2/DiskA-017",
+   "start": 0.0,
+   "end": 13.413,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "01-kampf",
+   "path": "Stories/einhorn/01-kampf",
+   "start": 13.413,
+   "end": 58.93,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 2/DiskA-017",
+  "Stories/einhorn/01-kampf"
+ ],
+ "cues": [
+  {
+   "start": 2.63,
+   "end": 7.3,
+   "text": "Als Du die Lichtung betrittst, hörst Du vor Dir ein fürchterliches Knurren und Fauchen!"
+  },
+  {
+   "start": 7.62,
+   "end": 10.34,
+   "text": "Erschrocken hältst Du inne und versteckst Dich"
+  },
+  {
+   "start": 10.38,
+   "end": 12.82,
+   "text": "vorsichtshalber erst einmal hinter dem nächsten Baum!"
+  },
+  {
+   "start": 14.005,
+   "end": 18.82,
+   "text": "Als sich Deine Augen ein wenig an das etwas schummerige Licht gewöhnt haben,"
+  },
+  {
+   "start": 18.86,
+   "end": 23.14,
+   "text": "erkennst Du auf der anderen Seite der Lichtung zwei miteinander kämpfende Tiere:"
+  },
+  {
+   "start": 23.62,
+   "end": 29.94,
+   "text": "Einen großen, grauen Wolf und ein zierliches, weiß schimmerndes Einhorn,"
+  },
+  {
+   "start": 29.988,
+   "end": 33.78,
+   "text": "dessen Fell schon völlig mit seinem bläulichen Blut besudelt ist,"
+  },
+  {
+   "start": 33.82,
+   "end": 36.82,
+   "text": "das aus unzähligen, tiefen Wunden sickert."
+  },
+  {
+   "start": 37.18,
+   "end": 42.58,
+   "text": "Als der Wolf bemerkt, daß der Widerstand des geschwächten Einhorns erlahmt,"
+  },
+  {
+   "start": 42.637,
+   "end": 44.66,
+   "text": "attackiert er es noch wütender!"
+  },
+  {
+   "start": 46.0,
+   "end": 48.62,
+   "text": "Das grazile Fabelwesen hat nicht mehr genug Kraft,"
+  },
+  {
+   "start": 48.633,
+   "end": 53.86,
+   "text": "um den scharfen und langen Wolfszähnen noch lange Widerstand zu leisten..."
+  }
+ ]
+}

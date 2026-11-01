@@ -1,0 +1,32 @@
+# Erzähltext „Mylgors Ende“ (Teil B, Geheimlabor): Texte 242, 277 und 391 aus texts/C64/B2.md.
+# Wortlaut original; reine Wegbeschreibungen fehlen. Aufbau wie narration_de.txt.
+
+### mylgor_labor Mylgors Geheimlabor
+
+## Disk 3/DiskB-033
+[curious] Wie das Schild an der Tür bereits andeutete, ist dies hier Mylgors Geheimlabor: Es ist geradezu überfüllt mit Reagenzgläsern, Kolben und Meßbechern, gefüllt mit allerlei mysterösen Flüssigkeiten, die in allen erdenklichen Farben vor sich hinbrodeln. Du mußt Dich schon sehr konzentrieren, um Dich nicht durch diese plötzliche Schwemme neuer Eindrücke verwirren zu lassen - doch dann siehst Du ihn:
+
+## Stories/mylgor/mylgor_labor-01
+[dramatic] MYLGOR, den bösartigen Alchemisten, den Vasallen des großen Bösen, dessen Namen Du nicht einmal in Gedanken auszusprechen wagst! Als sich Eure Blicke treffen, verzieht sich sein Gesicht zu einer hämischen Grimasse:
+
+##+ Disk 3/DiskB-040
+Langsam kommt er auf Dich zu, zeigt Dir eine riesige Pferdespritze, die er gerade mit einem grünlichen, blubbernden Gift aufgezogen hat, und schnarrt: [menacing] "Du hast meine Befehle nicht befolgt, mein Guter, oder...?" [panicked] Hastig siehst Du Dich nach möglichen Fluchtwegen um, kannst jedoch außer der riesigen Stahltür im Süden nichts entdecken...!
+
+### mylgor_explosion Die Explosion
+
+## Stories/mylgor/mylgor_explosion-01
+[desperate] In Deiner Verzweiflung reißt Du an einem der massiven Holzregale, um die Reagenzien zwischen Dich und Mylgor zu schleudern - und es ist leichter als Du erwartet hattest: Ein kurzer Ruck, und es kippt mitsamt seinem Inhalt um! [surprised] "Au Scheiße: Arnold!", denkst Du Dir, völlig verwundert über Deine plötzliche Kraft, als das Regal krachend auf dem Boden aufschlägt und sich der Inhalt der verschiedenen Reagenzien auf die Fliesen ergießt.
+
+##+ Stories/mylgor/mylgor_explosion-02
+Als sich zwei Flüssigkeiten vermischen, steigen dicke, ätzende Rauchwolken auf, die bald den ganzen Raum erfüllen und es Euch nahezu unmöglich machen, einander auch nur zu sehen! [dramatic] Eine laute Explosion haut Mylgor aus den Socken und wirft ihn brutal gegen die gegenüberliegende Wand,
+
+##+ Disk 3/DiskB-042
+und plötzlich züngeln auf dem Boden Flammen auf, die sich bald ausbreiten und den Raum in ein riesiges Flammenmeer verwandeln! [laughs] Heißer Einfall, Mann! Aber jetzt laß' uns hier besser verschwinden, bevor es ZU heiß wird...!
+
+### mylgor_ende Mylgors Ende
+
+## Disk 3/DiskB-032 pause=1.0
+[hurried] Hastig verschließt Du die Labortür mit dem Schlüssel aus Mylgors Studierzimmer und hörst zu Deiner Beruhigung, wie das riesige Spezialschloß mit einem leisen Klicken schließt - keine Sekunde zu früh: Im selben Moment, als Du den Schlüssel herumdrehst, erschüttert eine fürchterliche Explosion im Labor das ganze Haus bis in die Grundmauern - aber die massive und klugerweise verschlossene Tür hält die schlimmsten Auswirkungen der Druckwelle glücklicherweise von Dir ab!
+
+##+ Stories/mylgor/mylgor_ende-01
+[tense] Putz rieselt von der Decke, der Boden und die Wände beben bedrohlich - und plötzlich wird es sehr still: Nur das knisternde Lecken der Flammen an der Labortür ist noch zu hören... Als sich der Staub nach einer Weile gelegt hat, schaust Du Dich um: Die Labortür ist noch immer verschlossen - nur aus kleinen Ritzen in ihrem Rahmen quillt schwarzer Rauch... [relieved] Du schickst ein Dankgebet dafür zum Himmel, daß Du die Explosion unversehrt überlebt hast - [dry] im krassen Gegensatz zu Mylgor übrigens, der jetzt wahrscheinlich mehr oder minder gleichmäßig über die gesamte Laborfläche verteilt sein dürfte... [announcer voice] WELL DONE: BONUS AWARDED! ...NOW PREPARE FOR NEXT STAGE... [embarrassed] Ähem: Kleiner Scherz...!

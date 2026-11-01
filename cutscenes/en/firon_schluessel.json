@@ -1,0 +1,271 @@
+{
+ "version": 3,
+ "duration": 108.672,
+ "hold": false,
+ "voice": "firon_schluessel.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   3.162,
+   33.843
+  ],
+  [
+   33.898,
+   68.002
+  ],
+  [
+   68.05,
+   74.083
+  ],
+  [
+   74.243,
+   95.605
+  ],
+  [
+   95.636,
+   103.684
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskB-024",
+   "path": "Amiga_HD/Disk 3/DiskB-024",
+   "start": 0.0,
+   "end": 33.87,
+   "from": [
+    600.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "firon_schluessel-04",
+   "path": "Stories/firon/firon_schluessel-04",
+   "start": 33.87,
+   "end": 68.026,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "firon_schluessel-01",
+   "path": "Stories/firon/firon_schluessel-01",
+   "start": 68.026,
+   "end": 74.163,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  },
+  {
+   "image": "firon_schluessel-02",
+   "path": "Stories/firon/firon_schluessel-02",
+   "start": 74.163,
+   "end": 95.62,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "firon_schluessel-03",
+   "path": "Stories/firon/firon_schluessel-03",
+   "start": 95.62,
+   "end": 108.672,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 3/DiskB-024",
+  "Stories/firon/firon_schluessel-01",
+  "Stories/firon/firon_schluessel-02",
+  "Stories/firon/firon_schluessel-03",
+  "Stories/firon/firon_schluessel-04"
+ ],
+ "cues": [
+  {
+   "start": 3.162,
+   "end": 7.442,
+   "text": "Firon answers: \"To prove to you that I am on your side,"
+  },
+  {
+   "start": 7.562,
+   "end": 12.322,
+   "text": "I will give you a key whose purpose will surely be explained to you later."
+  },
+  {
+   "start": 12.379,
+   "end": 18.242,
+   "text": "Unfortunately it is not within my power to tell you myself, but there is someone..."
+  },
+  {
+   "start": 18.293,
+   "end": 21.123,
+   "text": "someone in the old monastery on the hill in the"
+  },
+  {
+   "start": 21.186,
+   "end": 23.843,
+   "text": "northeast of the country whom you should find."
+  },
+  {
+   "start": 24.162,
+   "end": 27.683,
+   "text": "We were both members of a circle that secretly dealt with the"
+  },
+  {
+   "start": 27.736,
+   "end": 31.522,
+   "text": "problems of this country after evil had gained the upper hand."
+  },
+  {
+   "start": 31.763,
+   "end": 33.843,
+   "text": "Sadly...\""
+  },
+  {
+   "start": 33.898,
+   "end": 37.683,
+   "text": "- at these words he sighs and, for a short moment,"
+  },
+  {
+   "start": 37.736,
+   "end": 42.002,
+   "text": "looks absent-mindedly past you into the cold emptiness -"
+  },
+  {
+   "start": 42.082,
+   "end": 46.722,
+   "text": "\"Sadly, he did not manage to flee to us in this wasteland,"
+  },
+  {
+   "start": 46.763,
+   "end": 51.123,
+   "text": "and so he fell into the hands of evil's henchmen..."
+  },
+  {
+   "start": 51.203,
+   "end": 54.082,
+   "text": "I never saw him again, nor the monastery that"
+  },
+  {
+   "start": 54.151,
+   "end": 57.763,
+   "text": "served us as our secret headquarters back then:"
+  },
+  {
+   "start": 57.822,
+   "end": 60.082,
+   "text": "all that remained to me was a key,"
+  },
+  {
+   "start": 60.123,
+   "end": 64.922,
+   "text": "whose imprint I cast in magic ice and have kept for decades."
+  },
+  {
+   "start": 65.052,
+   "end": 68.002,
+   "text": "May it help you on your quest...\""
+  },
+  {
+   "start": 68.05,
+   "end": 72.722,
+   "text": "With these words, Firon rises, takes a large key from a secret"
+  },
+  {
+   "start": 72.769,
+   "end": 78.002,
+   "text": "compartment in his throne and carefully places it in your outstretched hand."
+  },
+  {
+   "start": 78.681,
+   "end": 83.364,
+   "text": "With a look at the portal behind you, he adds: \"My guards will let you pass."
+  },
+  {
+   "start": 83.804,
+   "end": 87.204,
+   "text": "I will order them to prepare one of my fastest badger"
+  },
+  {
+   "start": 87.285,
+   "end": 90.404,
+   "text": "sleds for your return to the edge of the ice regions."
+  },
+  {
+   "start": 90.644,
+   "end": 95.605,
+   "text": "Farewell, my friend - and may the gods protect you...\""
+  },
+  {
+   "start": 95.636,
+   "end": 100.005,
+   "text": "With these words, Firon beckons the yeti, who leads you outside,"
+  },
+  {
+   "start": 100.017,
+   "end": 103.684,
+   "text": "where Firon's sled is already waiting for you..."
+  }
+ ]
+}

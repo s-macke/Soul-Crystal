@@ -1,0 +1,104 @@
+{
+ "version": 3,
+ "duration": 53.094,
+ "hold": false,
+ "voice": "ufer.mp3",
+ "music": {
+  "path": "music/Amiga/02.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   3.053,
+   48.109
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskA-013",
+   "path": "Amiga_HD/Disk 2/DiskA-013",
+   "start": 0.0,
+   "end": 53.094,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 2/DiskA-013"
+ ],
+ "cues": [
+  {
+   "start": 3.053,
+   "end": 6.346,
+   "text": "Du betrittst das Ufer, von wo aus das Grollen des Wasserfalls"
+  },
+  {
+   "start": 6.373,
+   "end": 10.106,
+   "text": "in der südwestlichen Ecke des Bergsees immer noch zu hören ist."
+  },
+  {
+   "start": 10.326,
+   "end": 16.506,
+   "text": "Die Natur sieht hier irgendwie viel sauberer und unberührter aus als auf der Seite,"
+  },
+  {
+   "start": 16.546,
+   "end": 20.266,
+   "text": "von der aus Du den See zum ersten Mal betreten hast -"
+  },
+  {
+   "start": 20.319,
+   "end": 24.106,
+   "text": "Du weißt schon nicht einmal mehr, wie lange das schon zurückliegt!"
+  },
+  {
+   "start": 24.761,
+   "end": 30.268,
+   "text": "Nichtsdestotrotz beginnst Du diese Welt langsam zu mögen, obwohl Du nicht genau weißt,"
+  },
+  {
+   "start": 30.321,
+   "end": 35.388,
+   "text": "wo Dich Deine Eltern wohl vermuten werden, wenn Du Dich heute abend nicht zuhause meldest."
+  },
+  {
+   "start": 36.562,
+   "end": 41.709,
+   "text": "Es bedarf aber trotzdem keiner allzu großen Fantasiebegabung, sich auszurechnen,"
+  },
+  {
+   "start": 41.749,
+   "end": 44.989,
+   "text": "daß dies bis zu Deiner Volljährigkeit wohl erst mal"
+  },
+  {
+   "start": 45.042,
+   "end": 48.109,
+   "text": "Deine letzten \"Solo-Ferien\" gewesen sein dürften..."
+  }
+ ]
+}

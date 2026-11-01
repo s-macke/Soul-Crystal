@@ -1,0 +1,33 @@
+# Erzähltext „Bruder Jack“ (Teil B, kleine Kapelle im Kloster): Texte 377 und 356
+# aus texts/C64/B2.md. Wortlaut original. Aufbau wie narration_de.txt.
+
+### jack_geist Bruder Jacks Geist
+
+## Disk 3/DiskB-030
+[sad] Verzweifelt kniest Du vor dem Altar nieder
+
+##+ Stories/jack/jack_geist-01
+und schickst ein Stoßgebet nach geistvolleren Texten, besseren Grafiken, leistungsfähigeren Computern und kompetenteren Programmierern zum Himmel, [dry] und nebenbei denkst Du auch an den armen, armen Klosterbruder Jack, der hier wohl irgendwann mal vom Schlitten gerutscht sein soll - [whispers] doch nach wenigen Versen bekommst Du das ungute Gefühl, als wäre etwas hinter Dir - und drehst Dich um:
+
+##+ Stories/jack/jack_geist-02
+Du fühlst eine leichte, aber eisig kalte Brise durch den Raum streichen, als Du den Nebel im Kirchenschiff bemerkst, der langsam auf Dich zukommt und dabei dichter und dichter wird, bis er schließlich kurz vor Dir stehenbleibt... Du spürst, wie sich in Deinem Nacken die ersten kalten Schweißperlen bilden, und zitternd vor Angst stammelst Du: [panicked] "Au Scheiße! Alles klar, Leute: Vergeßt das mit den geistvollen Texten und so... War nur'n blöder Witz! Alles in Ordnung, echt!"
+
+##+ Stories/jack/jack_geist-03
+[mysterious] Doch gerade, bevor Du Dir vor Angst in Deine einzige Hose machen kannst, nimmt der Nebel, den Du eigentlich für eine dieser mysteriösen Wolken gehalten hast, durch die hier wohl jeder in himmlische Gefilde abkommandiert wird, menschliche Umrisse an - und vor Dir steht: [excited] BRUDER JACK!
+
+##+ Stories/jack/jack_geist-04
+[warmly] Er begrüßt Dich mit den Worten: "Friede sei mit Dir, mein Sohn!", [sly] schaut dann auf Deine Beinkleider, grinst und fragt scheinheilig: "Deine Hosen... Ähem: Alles in Ordnung?"
+
+### jack_auftrag Jacks Auftrag
+
+## Stories/jack/jack_auftrag-01 pause=1.0
+[curious] Du erzählst dem Geist des alten Klosterabtes von Deiner langen, beschwerlichen Reise durch die Eiswüste, und daß Firon Dir empfohlen habe, Bruder Jack um Hilfe zu bitten. Bedächtig nickt Jack...: [solemn] "Ich habe niemals gewagt, noch darauf zu hoffen, daß wirklich einmal ein unerschrockener Held kommen könnte, um den Dunklen Lord für all seine Greueltaten zu bestrafen. So ist mein letzter Traum denn doch endlich Wirklichkeit geworden... Nun, das Schicksal unseres Landes hat eine lange, traurige Vorgeschichte - und der einzige, der sie Dir erzählen könnte, ist sein rechtmäßiger Herrscher, Firons Bruder Richard. Nach seinem Sturz wurde er damals vom Dunklen Lord ermordet und sein Leichnahm zweigeteilt:
+
+##+ Disk 3/DiskB-029
+Der Rumpf wurde in seiner Gruft auf dem Friedhof beigesetzt,
+
+##+ Disk 3/DiskB-020
+während sein Kopf in dem verschütteten Stollen einer alten Zwergenmine vergraben wurde. [urgent] Finde die beiden Teile des Körpers unseres Königs, und vereine sie wieder! Dies ist der einzige Weg, unserem Land noch Hilfe zu bringen...
+
+##+ Stories/jack/jack_auftrag-02
+[weakly] -bringen... [whispers] -brin..." In eine Wolke aus bläulichem Rauch gehüllt fährt Bruder Jacks Geist wieder zurück ins Reich der Toten und läßt Dich allein...

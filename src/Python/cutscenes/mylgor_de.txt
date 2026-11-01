@@ -1,0 +1,60 @@
+# Erzähltext „Der Pakt mit Mylgor“ (Teil B, Dorf): Texte 383, 362, 247, 381 und 367 aus texts/C64/B2.md.
+# Wortlaut original; reine Wegbeschreibungen fehlen. Aufbau wie narration_de.txt.
+
+### mylgor_tuer An Mylgors Tür
+
+## Disk 3/DiskB-006
+[hesitant] Du klopfst zaghaft an die Tür und wartest: Nichts passiert! Du klopfst noch einmal, diesmal etwas lauter: Keine Reaktion!
+
+##+ Stories/mylgor/mylgor_tuer-01
+[mock heroic] Gerade willst Du mit aller Kraft gegen die Tür hämmern, als sich, just an der Stelle, auf der sich um ein Haar die zerstörerische Wirkung Deiner kraftvollen Fäuste in ihrer ganzen, schrecklichen Größe offenbart hätte, eine kleine Luke öffnet, hinter der ein Gesicht, das sich im Halbdunkel jedoch nur sehr schwer identifizieren läßt, erscheint! [suspicious] "Was ist Dein Begehr, Fremder?", fragt die Stimme hinter der Tür mißtrauisch.
+
+### mylgor_vertrag Der Vertrag mit Blut
+
+## Disk 3/DiskB-006 focus=0,0,1300,756
+Du erzählst dem Fremden hinter der Luke von Deiner Reise in diese Welt und fragst ihn, ob er Dir vielleicht etwas zu essen und einen Platz geben könnte, wo Du die Nacht verbringen kannst. Erstaunlicherweise scheint er Deine Story nicht im Geringsten anzuzweifeln:
+
+##+ Stories/mylgor/mylgor_vertrag-03
+[sly] "Natürlich könnte ich...", antwortet die Stimme hinter der Tür gedehnt, "Aber nur unter einer Bedingung: Wenn ich Dir helfe, mußt Du mir versprechen, auch mir einen kleinen Dienst zu erweisen: Es gibt da eine kleine, selbstverständlich nicht allzu gefährliche Aufgabe, die morgen verrichtet werden müßte. Wenn Du mir eine kurze schriftliche Erklärung unterzeichnest, die besagt, daß Du sie für mich erledigen wirst, werde ich Dir im Gegenzug dazu ein Bett zum Schlafen, warme Kleider und ein warmes Abendessen geben."
+
+##+ Stories/mylgor/mylgor_vertrag-01
+Mit diesen Worten reicht Dir der Mann einen merkwürdigerweise schon vorformulierten Vertrag und ein kleines, scharfes Messerchen durch die Luke hinaus. [nervous] Auf Deine Frage hin, wozu Du denn das Messer bräuchtest, antwortet der Fremde gleichgültig:
+
+##+ Stories/mylgor/mylgor_vertrag-02
+[menacing] "Ich bin nur vorsichtig - zuviele Menschen haben mich schon hintergangen! Daher wirst Du unsere Abmachung mit demselben Blut unterschreiben, daß Du vergießen wirst, solltest Du es wagen, sie zu brechen..."
+
+### mylgor_kaminzimmer Im Kaminzimmer
+
+## Disk 3/DiskB-003
+Als Du den Vertrag sowie das Messer an den Mann zurückgegeben hast, verschwindet sein Gesicht kurz hinter der Luke. Nach wenigen Sekunden hörst Du, wie von innen die Tür aufgeschlossen wird.
+
+##+ Stories/mylgor/mylgor_kaminzimmer-01
+[friendly] "Tritt ein!", sagt der Mann, als er Dir die Tür öffnet, und führt Dich in ein kleines, aber sehr gemütlich eingerichtetes Kaminzimmer. Er stellt sich als "Mylgor, Alchemist" vor und zeigt Dir auch gleich den Raum, in dem Du die Nacht verbringen sollst. Auf Deine Frage hin, wo er denn schlafen wolle, wenn nicht dort, lacht er herzlich und sagt: [laughs] "Meinst Du denn wirklich, daß diese kleine Hütte groß genug zum Leben für einen Wissenschaftler wie mich ist? Nein, aber nicht doch: Dies ist bloß der Raum, in dem mein Diener gewöhnlich schläft, der zur Zeit aber gerade im Nachbardorf ein paar Besorgungen für mich erledigt. Mein Labor und die anderen Räume befinden sich... - sind versteckt! Es spielt keine Rolle, wo..."
+
+##+ Stories/mylgor/mylgor_kaminzimmer-02
+[suspicious] Nervös streicht sich Mylgor über seinen Kinnbart, zwingt sich dann jedoch wieder zu seinem eigentümlichen Lächeln. "Aber ich dachte eigentlich, wir wollten über Dich reden - nicht über mich...?", meint er und nickt mit dem Kopf in Richtung Kaminzimmer, "Laß uns noch ein Stündchen am warmen Kamin plaudern, und ich werde Dir vielleicht ein wenig über die Geschichte unseres Dorfes erzählen. Aber gib mir erst einmal Deine nassen Sachen - Du könntest Dir ja sonst glatt den Tod holen...!" [nervous] Mit einem sehr flauen Gefühl im Magen entkleidest Du Dich, wobei Du den alten Alchemisten jedoch genauestens im Auge behältst: Wer weiß, was das für eine Gefälligkeit sein wird, die Du dem alten Mann erweisen sollst? War da nicht gerade so ein gieriges Funkeln in seinen Augen zu erkennen? Vorsichtshalber lugst Du zur Tür Deiner Kammer: Gott sei Dank! Sie läßt sich abschließen! [embarrassed] Verlegen und unsicher reichst Du Mylgor Deine klamme Badehose, doch alles was er tut, ist, sie zum Trocknen an den Kamin zu legen...
+
+### mylgor_nacht Die Nacht
+
+## Disk 3/DiskB-001
+[tired] Erst, als Du Dich auf dem Bettzeug ausstreckst, um Dich ein wenig auszuruhen, spürst Du, daß Dich Deine Reise doch viel müder gemacht hat als Du geglaubt hattest.
+
+##+ Stories/mylgor/mylgor_nacht-01
+In der Zwischenzeit ist es tiefe Nacht geworden, draußen regnet es in Strömen - und Du bist heilfroh, bei diesem Hundewetter ein Dach über dem Kopf zu haben. Du kuschelst Dich tief in die warme, mollige Bettdecke ein und denkst über Deinen weiteren Aufenthalt in dieser seltsamen, fremden Welt nach, über den Vertrag, den Du mit Mylgor abgeschlossen hast, und was wohl Deine Eltern... Elt... -El... -Zzz... -Zzz... [sleepy] Mit dem Daumen im Mund fällst Du in den tiefen, traumlosen Schlaf der Erschöpfung...
+
+##+ Stories/mylgor/mylgor_nacht-02
+[tense] Plötzlich wird Dein süßer Schlummer jedoch von einem häßlich scharrenden Geräusch von nebenan unterbrochen - einem Geräusch wie das Scharren von Stein auf Stein! Du stehst auf und willst die Tür zum Kaminzimmer öffnen - aber sie ist abgeschlossen! [annoyed] Frustriert legst Du Dich wieder hin, um wenigstens noch ein paar Stündchen an der Matratze horchen zu können...
+
+##+ Disk 3/DiskB-001
+[casual] Am nächsten Nachmittag weckt Dich Mylgor und fordert Dich auf, Dich schnell frischzumachen und danach ins Kaminzimmer zu kommen, wo er Dir seine Order geben will - nur über den nächtlichen Zwischenfall verliert er merkwürdigerweise kein Wort: Du beschließt, ihn vorsichtshalber auch gar nicht darauf anzusprechen und stehst halbwegs ausgeschlafen und entspannt wieder auf...
+
+### mylgor_auftrag Der Auftrag
+
+## Disk 3/DiskB-041 pause=1.0
+[businesslike] Mylgor hat Dich bereits erwartet. Er begrüßt Dich kurz und kommt gleich zum Geschäft: "Ich hoffe, Du erinnerst Dich noch an den Pakt, den wir gestern abend miteinander geschlossen haben. Nun, jetzt ist es an der Zeit, daß auch Du Deinen Teil unserer Abmachung erfüllst:
+
+##+ Stories/mylgor/mylgor_auftrag-02
+Es gibt einen bösen Elfenkönig namens Firon, der sich mit seiner Horde in seinem Eispalast im Nordwesten unseres geliebten Landes versteckt hält. Oft überfällt er jedoch mit seiner Yetiarmee unser kleines, friedliches Dorf und plündert es - vor einigen Jahren hat er es gar vollständig in Schutt und Asche gelegt! [commanding] Als Vorsitzender des Dorfrates befehle ich Dir: Gebiete ihm Einhalt!
+
+##+ Stories/mylgor/mylgor_auftrag-01
+Hier sind ein paar Kleidungsstücke, die Du brauchen wirst, um in den kalten Eisregionen überleben zu können, und ein Flacon mit einem magischen Elixier, das Dich für ein paar Sekunden unsichtbar macht: Benutze es auf gar keinen Fall, bis es wirklich unumgänglich ist, da es Dich, wie schon gesagt, nur für einen Zug schützen wird und Du es auch nur ein einziges Mal anwenden kannst! Nun begib Dich also auf den Weg und beende Firons dunkle Machenschaften: [sly] Möge Zargon Dich behüten...!" Mit diesen Worten öffnet Mylgor eine kleine Truhe, holt die erwähnten Dinge aus ihr heraus und breitet sie auf dem Tisch vor Dir aus.

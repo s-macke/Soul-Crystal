@@ -1,0 +1,761 @@
+{
+ "version": 3,
+ "duration": 316.72,
+ "hold": false,
+ "voice": "intro.mp3",
+ "music": {
+  "path": "music/Amiga/Cast.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   5.18,
+   14.92
+  ],
+  [
+   16.318,
+   32.199
+  ],
+  [
+   34.159,
+   66.509
+  ],
+  [
+   68.939,
+   87.449
+  ],
+  [
+   89.339,
+   118.229
+  ],
+  [
+   119.409,
+   165.275
+  ],
+  [
+   166.988,
+   200.405
+  ],
+  [
+   202.424,
+   220.811
+  ],
+  [
+   222.269,
+   237.327
+  ],
+  [
+   238.454,
+   260.196
+  ],
+  [
+   261.472,
+   294.472
+  ],
+  [
+   296.43,
+   311.85
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "Title",
+   "path": "Amiga_HD/Disk 1/Title",
+   "start": 0.0,
+   "end": 5.18,
+   "from": [
+    -88.8,
+    -0.0,
+    1763.6,
+    992.0
+   ],
+   "to": [
+    -31.1,
+    32.4,
+    1648.2,
+    927.1
+   ]
+  },
+  {
+   "image": "intro-01",
+   "path": "Stories/intro/intro-01",
+   "start": 5.18,
+   "end": 15.619,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "Story1-02",
+   "path": "Amiga_HD/Disk 1/Story1-02",
+   "start": 15.619,
+   "end": 33.179,
+   "from": [
+    0.0,
+    -0.0,
+    1550.2,
+    872.0
+   ],
+   "to": [
+    355.2,
+    28.5,
+    1448.8,
+    815.0
+   ]
+  },
+  {
+   "image": "Story1-03",
+   "path": "Amiga_HD/Disk 1/Story1-03",
+   "start": 33.179,
+   "end": 67.724,
+   "from": [
+    358.9,
+    28.5,
+    1447.1,
+    814.0
+   ],
+   "to": [
+    0.0,
+    -0.0,
+    1548.4,
+    871.0
+   ]
+  },
+  {
+   "image": "Story2-01",
+   "path": "Amiga_HD/Disk 1/Story2-01",
+   "start": 67.724,
+   "end": 88.394,
+   "from": [
+    0.0,
+    -0.0,
+    1550.2,
+    872.0
+   ],
+   "to": [
+    355.2,
+    28.5,
+    1448.8,
+    815.0
+   ]
+  },
+  {
+   "image": "Story2-02",
+   "path": "Amiga_HD/Disk 1/Story2-02",
+   "start": 88.394,
+   "end": 118.819,
+   "from": [
+    355.2,
+    28.5,
+    1448.8,
+    815.0
+   ],
+   "to": [
+    0.0,
+    -0.0,
+    1550.2,
+    872.0
+   ]
+  },
+  {
+   "image": "Story2-03",
+   "path": "Amiga_HD/Disk 1/Story2-03",
+   "start": 118.819,
+   "end": 166.132,
+   "from": [
+    0.0,
+    -0.0,
+    1550.2,
+    872.0
+   ],
+   "to": [
+    355.2,
+    28.5,
+    1448.8,
+    815.0
+   ]
+  },
+  {
+   "image": "Story3-01",
+   "path": "Amiga_HD/Disk 1/Story3-01",
+   "start": 166.132,
+   "end": 201.414,
+   "from": [
+    355.2,
+    28.5,
+    1448.8,
+    815.0
+   ],
+   "to": [
+    0.0,
+    -0.0,
+    1550.2,
+    872.0
+   ]
+  },
+  {
+   "image": "Story3-02",
+   "path": "Amiga_HD/Disk 1/Story3-02",
+   "start": 201.414,
+   "end": 221.54,
+   "from": [
+    0.0,
+    -0.0,
+    1550.2,
+    872.0
+   ],
+   "to": [
+    355.2,
+    28.5,
+    1448.8,
+    815.0
+   ]
+  },
+  {
+   "image": "Story3-03",
+   "path": "Amiga_HD/Disk 1/Story3-03",
+   "start": 221.54,
+   "end": 237.89,
+   "from": [
+    357.9,
+    28.5,
+    1447.1,
+    814.0
+   ],
+   "to": [
+    0.0,
+    -0.0,
+    1548.4,
+    871.0
+   ]
+  },
+  {
+   "image": "Story4-01",
+   "path": "Amiga_HD/Disk 1/Story4-01",
+   "start": 237.89,
+   "end": 260.834,
+   "from": [
+    0.0,
+    -0.0,
+    1550.2,
+    872.0
+   ],
+   "to": [
+    355.2,
+    28.5,
+    1448.8,
+    815.0
+   ]
+  },
+  {
+   "image": "Story4-02",
+   "path": "Amiga_HD/Disk 1/Story4-02",
+   "start": 260.834,
+   "end": 295.451,
+   "from": [
+    355.2,
+    28.5,
+    1448.8,
+    815.0
+   ],
+   "to": [
+    0.0,
+    -0.0,
+    1550.2,
+    872.0
+   ]
+  },
+  {
+   "image": "Story4-03",
+   "path": "Amiga_HD/Disk 1/Story4-03",
+   "start": 295.451,
+   "end": 316.72,
+   "from": [
+    0.0,
+    -0.0,
+    1550.2,
+    872.0
+   ],
+   "to": [
+    354.2,
+    28.5,
+    1448.8,
+    815.0
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 1/Story1-02",
+  "Amiga_HD/Disk 1/Story1-03",
+  "Amiga_HD/Disk 1/Story2-01",
+  "Amiga_HD/Disk 1/Story2-02",
+  "Amiga_HD/Disk 1/Story2-03",
+  "Amiga_HD/Disk 1/Story3-01",
+  "Amiga_HD/Disk 1/Story3-02",
+  "Amiga_HD/Disk 1/Story3-03",
+  "Amiga_HD/Disk 1/Story4-01",
+  "Amiga_HD/Disk 1/Story4-02",
+  "Amiga_HD/Disk 1/Story4-03",
+  "Amiga_HD/Disk 1/Title",
+  "Stories/intro/intro-01"
+ ],
+ "cues": [
+  {
+   "start": 5.18,
+   "end": 5.8,
+   "text": "\"Endlich da!"
+  },
+  {
+   "start": 5.9,
+   "end": 9.16,
+   "text": "War doch gar nicht so schwer, wie ich anfangs angenommen hatte!\"..."
+  },
+  {
+   "start": 9.2,
+   "end": 11.48,
+   "text": "denkst Du Dir, als Du den Bus verläßt,"
+  },
+  {
+   "start": 11.5,
+   "end": 14.92,
+   "text": "der Dich vom Bahnhof des Nachbarortes zu Deinem Hotel gebracht hat."
+  },
+  {
+   "start": 16.318,
+   "end": 18.425,
+   "text": "Du hast es also tatsächlich geschafft,"
+  },
+  {
+   "start": 18.485,
+   "end": 23.385,
+   "text": "den nervenden Ratschlägen Deiner Eltern für die nächsten Tage und Wochen zu entkommen..."
+  },
+  {
+   "start": 23.595,
+   "end": 25.544,
+   "text": "Daran hast Du niemals geglaubt..."
+  },
+  {
+   "start": 25.599,
+   "end": 27.719,
+   "text": "bevor Du nicht irgendwann einmal -"
+  },
+  {
+   "start": 27.772,
+   "end": 32.199,
+   "text": "nahe am Rande des Nervenzusammenbruchs - von zuhause ausgezogen wärest..."
+  },
+  {
+   "start": 34.159,
+   "end": 38.979,
+   "text": "Während Du die Straße entlangschlenderst, denkst Du an die Abreise zurück..."
+  },
+  {
+   "start": 39.175,
+   "end": 41.379,
+   "text": "an Deine ach so besorgten Eltern,"
+  },
+  {
+   "start": 41.399,
+   "end": 44.179,
+   "text": "die Dir sogar noch am Bahnhof durch das Abteilfenster"
+  },
+  {
+   "start": 44.227,
+   "end": 47.379,
+   "text": "hindurch kluge Ratschläge gegeben haben..."
+  },
+  {
+   "start": 47.572,
+   "end": 51.219,
+   "text": "und Dir mit ihrem permanenten Gerede und ihrer grenzenlosen"
+  },
+  {
+   "start": 51.289,
+   "end": 55.299,
+   "text": "Schwarzmalerei mal wieder gehörig auf die Nerven gingen..."
+  },
+  {
+   "start": 55.468,
+   "end": 57.388,
+   "text": "\"Was haben die bloß?..."
+  },
+  {
+   "start": 57.529,
+   "end": 58.909,
+   "text": "Ich bin immerhin siebzehn!"
+  },
+  {
+   "start": 59.069,
+   "end": 62.069,
+   "text": "Da bin ich fast schon alt genug, um zu heiraten!"
+  },
+  {
+   "start": 62.461,
+   "end": 64.589,
+   "text": "Wieso sollte ich dann denn nicht auch in der Lage sein,"
+  },
+  {
+   "start": 64.616,
+   "end": 66.509,
+   "text": "meine Ferien allein zu verbringen?\""
+  },
+  {
+   "start": 68.939,
+   "end": 70.489,
+   "text": "Siebzehn Jahre..."
+  },
+  {
+   "start": 70.509,
+   "end": 72.889,
+   "text": "Und dreizehn davon hast Du jedes Jahr zur selben"
+  },
+  {
+   "start": 72.969,
+   "end": 77.369,
+   "text": "Zeit in diesem öden französischen Kaff verbracht..."
+  },
+  {
+   "start": 77.439,
+   "end": 79.449,
+   "text": "mit Deinen Eltern, die es sich aus"
+  },
+  {
+   "start": 79.561,
+   "end": 83.529,
+   "text": "purem Verantwortungsbewußtsein nicht nehmen lassen wollten,"
+  },
+  {
+   "start": 83.609,
+   "end": 87.449,
+   "text": "jeden einzelnen Deiner Schritte höchstpersönlich zu überwachen!"
+  },
+  {
+   "start": 89.339,
+   "end": 91.589,
+   "text": "\"Jetzt reicht es mir aber!\"..."
+  },
+  {
+   "start": 91.649,
+   "end": 94.869,
+   "text": "sagtest Du Dir eines Tages, und teiltest Deinen Eltern"
+  },
+  {
+   "start": 94.922,
+   "end": 99.189,
+   "text": "in der Dir zueigenen Höflichkeit mit, daß Du nicht gedächtest,"
+  },
+  {
+   "start": 99.216,
+   "end": 102.389,
+   "text": "einen weiteren Urlaub mit ihnen zwischen all diesen"
+  },
+  {
+   "start": 102.437,
+   "end": 107.509,
+   "text": "Scheintoten in diesem französischen \"Kurort\" zu verbringen..."
+  },
+  {
+   "start": 108.371,
+   "end": 113.269,
+   "text": "Du kannst Dich nur zu gut an die entsetzten Gesichter Deiner Eltern erinnern,"
+  },
+  {
+   "start": 113.405,
+   "end": 118.229,
+   "text": "als ihr Sohnemann es doch tatsächlich einmal wagte, seinen Willen durchzusetzen."
+  },
+  {
+   "start": 119.409,
+   "end": 123.489,
+   "text": "Auch heute hast Du noch die Scheinargumente Deines Vaters im Ohr,"
+  },
+  {
+   "start": 123.529,
+   "end": 127.489,
+   "text": "die er in den endlosen Diskussionen vorbrachte..."
+  },
+  {
+   "start": 127.631,
+   "end": 130.451,
+   "text": "Vor allem in den letzten beiden Monaten schienen diese"
+  },
+  {
+   "start": 130.491,
+   "end": 133.758,
+   "text": "Auseinandersetzungen überhaupt kein Ende mehr nehmen zu wollen..."
+  },
+  {
+   "start": 134.345,
+   "end": 138.817,
+   "text": "aber immerhin hast Du Dich ja letztlich doch durchsetzen können!"
+  },
+  {
+   "start": 139.328,
+   "end": 140.228,
+   "text": "Naja..."
+  },
+  {
+   "start": 140.255,
+   "end": 143.188,
+   "text": "Du mußt Dir zwar leicht schmunzelnd eingestehen,"
+  },
+  {
+   "start": 143.228,
+   "end": 147.268,
+   "text": "daß Du in den letzten Wochen eigentlich schon mit dem Gedanken gespielt hast,"
+  },
+  {
+   "start": 147.318,
+   "end": 154.235,
+   "text": "während der Abwesenheit Deiner Eltern zuhause zu bleiben und eine Riesenparty zu geben..."
+  },
+  {
+   "start": 154.283,
+   "end": 159.754,
+   "text": "Aber Dir wurde dann doch klar, daß Du letztlich doch gezwungen warst, zu verreisen..."
+  },
+  {
+   "start": 159.823,
+   "end": 165.275,
+   "text": "Schon allein deshalb, um Deinen Eltern mal zu zeigen, wer der \"Herr im Hause\" ist!"
+  },
+  {
+   "start": 166.988,
+   "end": 168.055,
+   "text": "So..."
+  },
+  {
+   "start": 168.095,
+   "end": 169.655,
+   "text": "und jetzt bist Du hier."
+  },
+  {
+   "start": 170.281,
+   "end": 175.188,
+   "text": "Du atmest tief die frische, saubere Luft ein und schaust Dich um..."
+  },
+  {
+   "start": 175.408,
+   "end": 176.108,
+   "text": "\"Jawoll!"
+  },
+  {
+   "start": 176.198,
+   "end": 182.068,
+   "text": "Das ist genau der richtige Ort für Jung-Genies wie Dich, um sich von den vielen,"
+  },
+  {
+   "start": 182.125,
+   "end": 186.708,
+   "text": "vielen Strapazen ihres stressigen Alltags erholen zu können.\""
+  },
+  {
+   "start": 187.721,
+   "end": 190.228,
+   "text": "So ist also das Erwachsenenleben..."
+  },
+  {
+   "start": 190.255,
+   "end": 191.428,
+   "text": "Du bist völlig frei."
+  },
+  {
+   "start": 192.396,
+   "end": 194.155,
+   "text": "Zwar nur für ein paar Wochen..."
+  },
+  {
+   "start": 194.26,
+   "end": 195.764,
+   "text": "aber eben immerhin frei!"
+  },
+  {
+   "start": 196.064,
+   "end": 200.405,
+   "text": "Und das ist im Moment das einzige, was für Dich zählt."
+  },
+  {
+   "start": 202.424,
+   "end": 204.704,
+   "text": "Nun kannst Du tun, was Du willst..."
+  },
+  {
+   "start": 204.744,
+   "end": 206.304,
+   "text": "und nicht zuletzt..."
+  },
+  {
+   "start": 206.331,
+   "end": 207.744,
+   "text": "trinken, was Du willst."
+  },
+  {
+   "start": 209.011,
+   "end": 209.664,
+   "text": "Naja..."
+  },
+  {
+   "start": 209.684,
+   "end": 212.224,
+   "text": "und wenn Dein Urlaub dann wieder vorüber ist,"
+  },
+  {
+   "start": 212.264,
+   "end": 215.264,
+   "text": "wirst Du hoffentlich erholt und gestärkt genug sein,"
+  },
+  {
+   "start": 215.883,
+   "end": 220.811,
+   "text": "um auch noch die paar Monate bis zu Deiner Volljährigkeit zuhause überleben zu können."
+  },
+  {
+   "start": 222.269,
+   "end": 224.607,
+   "text": "Glücklich und voller Tatendrang..."
+  },
+  {
+   "start": 224.647,
+   "end": 228.367,
+   "text": "den man von Dir zu Schulzeiten zumindest nicht gewohnt ist..."
+  },
+  {
+   "start": 228.407,
+   "end": 232.767,
+   "text": "betrittst Du also Dein Hotel, klingelst an der Rezeption nach dem Portier"
+  },
+  {
+   "start": 232.947,
+   "end": 237.327,
+   "text": "und läßt Dir nach Eintragung ins Gästebuch Deinen Zimmerschlüssel geben."
+  },
+  {
+   "start": 238.454,
+   "end": 243.067,
+   "text": "Du schleppst Dein Gepäck auf Dein Zimmer und beginnst mit dem Auspacken,"
+  },
+  {
+   "start": 243.107,
+   "end": 247.947,
+   "text": "als Dein Blick zufällig auf das Zifferblatt Deiner Armbanduhr fällt..."
+  },
+  {
+   "start": 248.018,
+   "end": 249.227,
+   "text": "es ist schon halb sieben!"
+  },
+  {
+   "start": 249.407,
+   "end": 249.947,
+   "text": "..."
+  },
+  {
+   "start": 249.967,
+   "end": 254.756,
+   "text": "Und Du wolltest Dir doch eigentlich noch Loch Calderwood ansehen, über das der alte Mann,"
+  },
+  {
+   "start": 254.796,
+   "end": 260.196,
+   "text": "den Du während der Busfahrt kennengelernt hast, so viele Legenden zu erzählen hatte."
+  },
+  {
+   "start": 261.472,
+   "end": 265.456,
+   "text": "Also läßt Du Deine Sachen zunächst einmal so liegen wie sie sind,"
+  },
+  {
+   "start": 265.49,
+   "end": 269.936,
+   "text": "verschließt die Zimmertür hinter Dir und gibst den Schlüssel an der Rezeption ab,"
+  },
+  {
+   "start": 269.989,
+   "end": 272.416,
+   "text": "um vor dem Abendessen noch einmal einen kurzen"
+  },
+  {
+   "start": 272.469,
+   "end": 275.376,
+   "text": "Blick auf die Landschaft werfen zu können..."
+  },
+  {
+   "start": 275.479,
+   "end": 278.659,
+   "text": "Schließlich willst Du Deiner Mutter ja etwas erzählen können,"
+  },
+  {
+   "start": 278.675,
+   "end": 281.458,
+   "text": "wenn Du ihr nachher Deine Ankunft meldest..."
+  },
+  {
+   "start": 281.517,
+   "end": 286.348,
+   "text": "wäre ja schließlich noch schöner, wenn sie jetzt schon wieder Angst haben müßte,"
+  },
+  {
+   "start": 286.413,
+   "end": 289.713,
+   "text": "daß ihr kleiner Junge womöglich den falschen Bus genommen hat"
+  },
+  {
+   "start": 290.385,
+   "end": 294.472,
+   "text": "und nun einsam und verlassen durch Schottlands Botanik tigert."
+  },
+  {
+   "start": 296.43,
+   "end": 300.73,
+   "text": "Als Du aus der Hotellobby wieder auf die staubige Straße hinaustrittst..."
+  },
+  {
+   "start": 300.757,
+   "end": 305.29,
+   "text": "um Dich auf die Suche nach dem sagenumwobenen Bergsee zu machen..."
+  },
+  {
+   "start": 305.489,
+   "end": 307.05,
+   "text": "kannst Du schon das warme..."
+  },
+  {
+   "start": 307.17,
+   "end": 308.57,
+   "text": "rotgoldene Licht..."
+  },
+  {
+   "start": 308.59,
+   "end": 310.33,
+   "text": "der untergehenden Abendsonne..."
+  },
+  {
+   "start": 310.35,
+   "end": 311.85,
+   "text": "auf Deinem Gesicht spüren..."
+  }
+ ]
+}

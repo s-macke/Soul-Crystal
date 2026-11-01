@@ -1,0 +1,260 @@
+{
+ "version": 3,
+ "duration": 138.733,
+ "hold": false,
+ "voice": "mylgor_kaminzimmer.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   3.025,
+   15.335
+  ],
+  [
+   16.384,
+   66.388
+  ],
+  [
+   67.34,
+   133.75
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskB-003",
+   "path": "Amiga_HD/Disk 3/DiskB-003",
+   "start": 0.0,
+   "end": 15.86,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "mylgor_kaminzimmer-01",
+   "path": "Stories/mylgor/mylgor_kaminzimmer-01",
+   "start": 15.86,
+   "end": 66.864,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "mylgor_kaminzimmer-02",
+   "path": "Stories/mylgor/mylgor_kaminzimmer-02",
+   "start": 66.864,
+   "end": 138.733,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 3/DiskB-003",
+  "Stories/mylgor/mylgor_kaminzimmer-01",
+  "Stories/mylgor/mylgor_kaminzimmer-02"
+ ],
+ "cues": [
+  {
+   "start": 3.025,
+   "end": 7.095,
+   "text": "Als Du den Vertrag sowie das Messer an den Mann zurückgegeben hast,"
+  },
+  {
+   "start": 7.141,
+   "end": 9.895,
+   "text": "verschwindet sein Gesicht kurz hinter der Luke."
+  },
+  {
+   "start": 10.119,
+   "end": 15.335,
+   "text": "Nach wenigen Sekunden hörst Du, wie von innen die Tür aufgeschlossen wird."
+  },
+  {
+   "start": 16.384,
+   "end": 19.424,
+   "text": "\"Tritt ein!\", sagt der Mann, als er Dir die Tür öffnet,"
+  },
+  {
+   "start": 19.544,
+   "end": 24.464,
+   "text": "und führt Dich in ein kleines, aber sehr gemütlich eingerichtetes Kaminzimmer."
+  },
+  {
+   "start": 24.811,
+   "end": 30.864,
+   "text": "Er stellt sich als \"Mylgor, Alchemist\" vor und zeigt Dir auch gleich den Raum,"
+  },
+  {
+   "start": 30.891,
+   "end": 32.864,
+   "text": "in dem Du die Nacht verbringen sollst."
+  },
+  {
+   "start": 33.144,
+   "end": 36.304,
+   "text": "Auf Deine Frage hin, wo er denn schlafen wolle,"
+  },
+  {
+   "start": 36.32,
+   "end": 39.184,
+   "text": "wenn nicht dort, lacht er herzlich und sagt:"
+  },
+  {
+   "start": 39.788,
+   "end": 41.028,
+   "text": "\"Meinst Du denn wirklich,"
+  },
+  {
+   "start": 41.068,
+   "end": 45.268,
+   "text": "daß diese kleine Hütte groß genug zum Leben für einen Wissenschaftler wie mich ist?"
+  },
+  {
+   "start": 45.561,
+   "end": 52.228,
+   "text": "Nein, aber nicht doch: Dies ist bloß der Raum, in dem mein Diener gewöhnlich schläft,"
+  },
+  {
+   "start": 52.268,
+   "end": 56.548,
+   "text": "der zur Zeit aber gerade im Nachbardorf ein paar Besorgungen für mich erledigt."
+  },
+  {
+   "start": 56.756,
+   "end": 61.108,
+   "text": "Mein Labor und die anderen Räume befinden sich..."
+  },
+  {
+   "start": 61.388,
+   "end": 63.188,
+   "text": "- sind versteckt!"
+  },
+  {
+   "start": 63.561,
+   "end": 66.388,
+   "text": "Es spielt keine Rolle, wo...\""
+  },
+  {
+   "start": 67.34,
+   "end": 70.468,
+   "text": "Nervös streicht sich Mylgor über seinen Kinnbart,"
+  },
+  {
+   "start": 70.508,
+   "end": 73.828,
+   "text": "zwingt sich dann jedoch wieder zu seinem eigentümlichen Lächeln."
+  },
+  {
+   "start": 74.268,
+   "end": 78.068,
+   "text": "\"Aber ich dachte eigentlich, wir wollten über Dich reden -"
+  },
+  {
+   "start": 78.121,
+   "end": 83.188,
+   "text": "nicht über mich...?\", meint er und nickt mit dem Kopf in Richtung Kaminzimmer,"
+  },
+  {
+   "start": 83.748,
+   "end": 87.108,
+   "text": "\"Laß uns noch ein Stündchen am warmen Kamin plaudern,"
+  },
+  {
+   "start": 87.208,
+   "end": 91.588,
+   "text": "und ich werde Dir vielleicht ein wenig über die Geschichte unseres Dorfes erzählen."
+  },
+  {
+   "start": 91.78,
+   "end": 94.788,
+   "text": "Aber gib mir erst einmal Deine nassen Sachen -"
+  },
+  {
+   "start": 94.815,
+   "end": 98.068,
+   "text": "Du könntest Dir ja sonst glatt den Tod holen...!\""
+  },
+  {
+   "start": 98.216,
+   "end": 101.988,
+   "text": "Mit einem sehr flauen Gefühl im Magen entkleidest Du Dich,"
+  },
+  {
+   "start": 102.028,
+   "end": 105.988,
+   "text": "wobei Du den alten Alchemisten jedoch genauestens im Auge behältst:"
+  },
+  {
+   "start": 106.208,
+   "end": 112.708,
+   "text": "Wer weiß, was das für eine Gefälligkeit sein wird, die Du dem alten Mann erweisen sollst?"
+  },
+  {
+   "start": 112.988,
+   "end": 118.268,
+   "text": "War da nicht gerade so ein gieriges Funkeln in seinen Augen zu erkennen?"
+  },
+  {
+   "start": 118.648,
+   "end": 122.868,
+   "text": "Vorsichtshalber lugst Du zur Tür Deiner Kammer: Gott sei Dank!"
+  },
+  {
+   "start": 123.048,
+   "end": 125.668,
+   "text": "Sie läßt sich abschließen!"
+  },
+  {
+   "start": 126.477,
+   "end": 129.51,
+   "text": "Verlegen und unsicher reichst Du Mylgor Deine klamme Badehose,"
+  },
+  {
+   "start": 129.542,
+   "end": 133.75,
+   "text": "doch alles was er tut, ist, sie zum Trocknen an den Kamin zu legen..."
+  }
+ ]
+}

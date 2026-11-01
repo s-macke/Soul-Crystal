@@ -1,0 +1,69 @@
+{
+ "version": 3,
+ "duration": 20.226,
+ "hold": false,
+ "voice": "wasserfall.mp3",
+ "music": {
+  "path": "music/Amiga/02.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   3.009,
+   15.191
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskA-009",
+   "path": "Amiga_HD/Disk 2/DiskA-009",
+   "start": 0.0,
+   "end": 20.226,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 2/DiskA-009"
+ ],
+ "cues": [
+  {
+   "start": 3.009,
+   "end": 6.471,
+   "text": "Du schwimmst direkt vor dem Wasserfall im Nordwesten des Bergsees."
+  },
+  {
+   "start": 6.87,
+   "end": 11.191,
+   "text": "Während Du bemüht bist, nicht von der Strömung abgedriftet zu werden,"
+  },
+  {
+   "start": 11.239,
+   "end": 15.191,
+   "text": "überlegst Du, was wohl hinter ihm versteckt sein mag..."
+  }
+ ]
+}

@@ -1,0 +1,129 @@
+{
+ "version": 3,
+ "duration": 41.885,
+ "hold": true,
+ "voice": "gate.mp3",
+ "music": {
+  "path": "music/Amiga/16.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.535,
+   9.228
+  ],
+  [
+   9.714,
+   35.913
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "Victory-000",
+   "path": "Amiga_HD/Disk 4/Victory-000",
+   "start": 0.0,
+   "end": 9.471,
+   "from": [
+    0.0,
+    49.9,
+    1586.0,
+    892.1
+   ],
+   "to": [
+    103.8,
+    79.1,
+    1482.2,
+    833.8
+   ]
+  },
+  {
+   "image": "gate-01",
+   "path": "Stories/finale/gate-01",
+   "start": 9.471,
+   "end": 41.885,
+   "from": [
+    103.8,
+    79.1,
+    1482.2,
+    833.8
+   ],
+   "to": [
+    0.0,
+    49.9,
+    1586.0,
+    892.1
+   ],
+   "wipe": {
+    "image": "Victory-015",
+    "path": "Amiga_HD/Disk 4/Victory-015",
+    "start": 36.885,
+    "end": 40.885
+   }
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 4/Victory-000",
+  "Amiga_HD/Disk 4/Victory-015",
+  "Stories/finale/gate-01"
+ ],
+ "cues": [
+  {
+   "start": 2.535,
+   "end": 4.708,
+   "text": "Du glaubst Deinen Augen nicht trauen zu können:"
+  },
+  {
+   "start": 4.868,
+   "end": 9.228,
+   "text": "Das Portaltor steht tatsächlich sperrangelweit offen!"
+  },
+  {
+   "start": 9.714,
+   "end": 13.834,
+   "text": "Unter dem Torbogen kannst Du den Geist König Richards schweben sehen,"
+  },
+  {
+   "start": 13.874,
+   "end": 17.434,
+   "text": "der Dir gütig und dankbar zuzulächeln scheint -"
+  },
+  {
+   "start": 17.474,
+   "end": 20.394,
+   "text": "und auch die Vögel zwitschern wieder von den Bäumen herab:"
+  },
+  {
+   "start": 20.574,
+   "end": 25.834,
+   "text": "Das ganze Land blüht wieder auf, zum ersten Mal seit langer, langer Zeit!"
+  },
+  {
+   "start": 27.087,
+   "end": 29.674,
+   "text": "Feierlich gehst Du auf Deinen neugewonnenen Freund"
+  },
+  {
+   "start": 29.807,
+   "end": 35.114,
+   "text": "zu und läßt die finsteren Burgmauern für immer hinter Dir..."
+  },
+  {
+   "start": 35.389,
+   "end": 35.913,
+   "text": "FREI..."
+  }
+ ]
+}

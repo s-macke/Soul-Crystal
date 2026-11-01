@@ -1,0 +1,757 @@
+{
+ "version": 3,
+ "duration": 141.58,
+ "hold": false,
+ "loop": null,
+ "voice": null,
+ "music": [
+  {
+   "path": "music/Amiga/Credits.mp3",
+   "start": 7.82,
+   "end": 141.58,
+   "volume": 0.8,
+   "fadeIn": 0.1,
+   "fadeOut": 2.0
+  }
+ ],
+ "speech": [],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 0.9,
+ "blackIn": 0.01,
+ "blackOut": 2.0,
+ "wipeFeather": 0,
+ "shots": [
+  {
+   "image": "Starbyte",
+   "path": "Amiga_HD/Intro/logos/Starbyte",
+   "start": 0.0,
+   "end": 7.82,
+   "from": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "to": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "ACA",
+   "path": "Amiga_HD/Intro/logos/ACA",
+   "start": 7.82,
+   "end": 17.64,
+   "from": [
+    0.0,
+    -0.25,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    0.0,
+    -0.25,
+    1672.0,
+    940.5
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Title",
+   "path": "Amiga_HD/Disk 1/Title",
+   "start": 17.64,
+   "end": 23.46,
+   "from": [
+    -88.78,
+    -0.0,
+    1763.56,
+    992.0
+   ],
+   "to": [
+    -88.78,
+    -0.0,
+    1763.56,
+    992.0
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Credits-00",
+   "path": "Amiga_HD/Intro/credits-headings/Credits-00",
+   "start": 23.46,
+   "end": 31.2,
+   "from": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "to": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Credits-00",
+   "path": "Amiga_HD/Intro/credits/Credits-00",
+   "start": 25.38,
+   "end": 31.2,
+   "from": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "to": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Credits-01",
+   "path": "Amiga_HD/Intro/credits-headings/Credits-01",
+   "start": 31.2,
+   "end": 38.94,
+   "from": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "to": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Credits-01",
+   "path": "Amiga_HD/Intro/credits/Credits-01",
+   "start": 33.12,
+   "end": 38.94,
+   "from": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "to": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Credits-02",
+   "path": "Amiga_HD/Intro/credits-headings/Credits-02",
+   "start": 38.94,
+   "end": 46.68,
+   "from": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "to": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Credits-02",
+   "path": "Amiga_HD/Intro/credits/Credits-02",
+   "start": 40.86,
+   "end": 46.68,
+   "from": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "to": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Credits-03",
+   "path": "Amiga_HD/Intro/credits-headings/Credits-03",
+   "start": 46.68,
+   "end": 54.42,
+   "from": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "to": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Credits-03",
+   "path": "Amiga_HD/Intro/credits/Credits-03",
+   "start": 48.6,
+   "end": 54.42,
+   "from": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "to": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Credits-04",
+   "path": "Amiga_HD/Intro/credits-headings/Credits-04",
+   "start": 54.42,
+   "end": 62.16,
+   "from": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "to": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Credits-04",
+   "path": "Amiga_HD/Intro/credits/Credits-04",
+   "start": 56.34,
+   "end": 62.16,
+   "from": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "to": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Credits-05",
+   "path": "Amiga_HD/Intro/credits-headings/Credits-05",
+   "start": 62.16,
+   "end": 69.9,
+   "from": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "to": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Credits-05",
+   "path": "Amiga_HD/Intro/credits/Credits-05",
+   "start": 64.08,
+   "end": 69.9,
+   "from": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "to": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Credits-06",
+   "path": "Amiga_HD/Intro/credits-headings/Credits-06",
+   "start": 69.9,
+   "end": 77.64,
+   "from": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "to": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Credits-06",
+   "path": "Amiga_HD/Intro/credits/Credits-06",
+   "start": 71.82,
+   "end": 77.64,
+   "from": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "to": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Credits-07",
+   "path": "Amiga_HD/Intro/credits-headings/Credits-07",
+   "start": 77.64,
+   "end": 85.38,
+   "from": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "to": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Credits-07",
+   "path": "Amiga_HD/Intro/credits/Credits-07",
+   "start": 79.56,
+   "end": 85.38,
+   "from": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "to": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Credits-08",
+   "path": "Amiga_HD/Intro/credits-headings/Credits-08",
+   "start": 85.38,
+   "end": 93.12,
+   "from": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "to": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Credits-08",
+   "path": "Amiga_HD/Intro/credits/Credits-08",
+   "start": 87.3,
+   "end": 93.12,
+   "from": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "to": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Credits-09",
+   "path": "Amiga_HD/Intro/credits-headings/Credits-09",
+   "start": 93.12,
+   "end": 100.86,
+   "from": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "to": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Credits-09",
+   "path": "Amiga_HD/Intro/credits/Credits-09",
+   "start": 95.04,
+   "end": 100.86,
+   "from": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "to": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Credits-10",
+   "path": "Amiga_HD/Intro/credits-headings/Credits-10",
+   "start": 100.86,
+   "end": 108.6,
+   "from": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "to": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Credits-10",
+   "path": "Amiga_HD/Intro/credits/Credits-10",
+   "start": 102.78,
+   "end": 108.6,
+   "from": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "to": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Credits-11",
+   "path": "Amiga_HD/Intro/credits-headings/Credits-11",
+   "start": 108.6,
+   "end": 116.34,
+   "from": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "to": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Credits-11",
+   "path": "Amiga_HD/Intro/credits/Credits-11",
+   "start": 110.52,
+   "end": 116.34,
+   "from": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "to": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Credits-12",
+   "path": "Amiga_HD/Intro/credits-headings/Credits-12",
+   "start": 116.34,
+   "end": 124.08,
+   "from": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "to": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Credits-12",
+   "path": "Amiga_HD/Intro/credits/Credits-12",
+   "start": 118.26,
+   "end": 124.08,
+   "from": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "to": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Credits-13",
+   "path": "Amiga_HD/Intro/credits-headings/Credits-13",
+   "start": 124.08,
+   "end": 131.82,
+   "from": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "to": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Credits-13",
+   "path": "Amiga_HD/Intro/credits/Credits-13",
+   "start": 126.0,
+   "end": 131.82,
+   "from": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "to": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Credits-14",
+   "path": "Amiga_HD/Intro/credits-headings/Credits-14",
+   "start": 131.82,
+   "end": 139.56,
+   "from": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "to": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Credits-14",
+   "path": "Amiga_HD/Intro/credits/Credits-14",
+   "start": 133.74,
+   "end": 139.56,
+   "from": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "to": [
+    -0.44,
+    0.0,
+    1672.89,
+    941.0
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 1/Title",
+  "Amiga_HD/Intro/credits-headings/Credits-00",
+  "Amiga_HD/Intro/credits-headings/Credits-01",
+  "Amiga_HD/Intro/credits-headings/Credits-02",
+  "Amiga_HD/Intro/credits-headings/Credits-03",
+  "Amiga_HD/Intro/credits-headings/Credits-04",
+  "Amiga_HD/Intro/credits-headings/Credits-05",
+  "Amiga_HD/Intro/credits-headings/Credits-06",
+  "Amiga_HD/Intro/credits-headings/Credits-07",
+  "Amiga_HD/Intro/credits-headings/Credits-08",
+  "Amiga_HD/Intro/credits-headings/Credits-09",
+  "Amiga_HD/Intro/credits-headings/Credits-10",
+  "Amiga_HD/Intro/credits-headings/Credits-11",
+  "Amiga_HD/Intro/credits-headings/Credits-12",
+  "Amiga_HD/Intro/credits-headings/Credits-13",
+  "Amiga_HD/Intro/credits-headings/Credits-14",
+  "Amiga_HD/Intro/credits/Credits-00",
+  "Amiga_HD/Intro/credits/Credits-01",
+  "Amiga_HD/Intro/credits/Credits-02",
+  "Amiga_HD/Intro/credits/Credits-03",
+  "Amiga_HD/Intro/credits/Credits-04",
+  "Amiga_HD/Intro/credits/Credits-05",
+  "Amiga_HD/Intro/credits/Credits-06",
+  "Amiga_HD/Intro/credits/Credits-07",
+  "Amiga_HD/Intro/credits/Credits-08",
+  "Amiga_HD/Intro/credits/Credits-09",
+  "Amiga_HD/Intro/credits/Credits-10",
+  "Amiga_HD/Intro/credits/Credits-11",
+  "Amiga_HD/Intro/credits/Credits-12",
+  "Amiga_HD/Intro/credits/Credits-13",
+  "Amiga_HD/Intro/credits/Credits-14",
+  "Amiga_HD/Intro/logos/ACA",
+  "Amiga_HD/Intro/logos/Starbyte"
+ ],
+ "cues": []
+}

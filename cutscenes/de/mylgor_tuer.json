@@ -1,0 +1,117 @@
+{
+ "version": 3,
+ "duration": 45.768,
+ "hold": false,
+ "voice": "mylgor_tuer.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.569,
+   13.54
+  ],
+  [
+   14.222,
+   40.501
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskB-006",
+   "path": "Amiga_HD/Disk 3/DiskB-006",
+   "start": 0.0,
+   "end": 13.881,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "mylgor_tuer-01",
+   "path": "Stories/mylgor/mylgor_tuer-01",
+   "start": 13.881,
+   "end": 45.768,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 3/DiskB-006",
+  "Stories/mylgor/mylgor_tuer-01"
+ ],
+ "cues": [
+  {
+   "start": 2.569,
+   "end": 7.62,
+   "text": "Du klopfst zaghaft an die Tür und wartest: Nichts passiert!"
+  },
+  {
+   "start": 7.993,
+   "end": 13.54,
+   "text": "Du klopfst noch einmal, diesmal etwas lauter: Keine Reaktion!"
+  },
+  {
+   "start": 14.222,
+   "end": 19.142,
+   "text": "Gerade willst Du mit aller Kraft gegen die Tür hämmern, als sich, just an der Stelle,"
+  },
+  {
+   "start": 19.162,
+   "end": 21.462,
+   "text": "auf der sich um ein Haar die zerstörerische"
+  },
+  {
+   "start": 21.502,
+   "end": 24.822,
+   "text": "Wirkung Deiner kraftvollen Fäuste in ihrer ganzen,"
+  },
+  {
+   "start": 24.842,
+   "end": 30.422,
+   "text": "schrecklichen Größe offenbart hätte, eine kleine Luke öffnet, hinter der ein Gesicht,"
+  },
+  {
+   "start": 30.442,
+   "end": 34.822,
+   "text": "das sich im Halbdunkel jedoch nur sehr schwer identifizieren läßt, erscheint!"
+  },
+  {
+   "start": 36.242,
+   "end": 40.501,
+   "text": "\"Was ist Dein Begehr, Fremder?\", fragt die Stimme hinter der Tür mißtrauisch."
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "version": 3,
+ "duration": 36.829,
+ "hold": false,
+ "voice": "richard_abschied.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.532,
+   22.869
+  ],
+  [
+   23.085,
+   31.829
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "richard_abschied-01",
+   "path": "Stories/richard/richard_abschied-01",
+   "start": 0.0,
+   "end": 22.977,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  },
+  {
+   "image": "DiskB-026",
+   "path": "Amiga_HD/Disk 3/DiskB-026",
+   "start": 22.977,
+   "end": 36.829,
+   "from": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ],
+   "to": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 3/DiskB-026",
+  "Stories/richard/richard_abschied-01"
+ ],
+ "cues": [
+  {
+   "start": 2.532,
+   "end": 6.149,
+   "text": "\"Du kennst den Zauberspruch!\", sagt der König ungeduldig,"
+  },
+  {
+   "start": 6.189,
+   "end": 9.589,
+   "text": "\"Das ist nun aber wirklich alles, was ich für Dich tun konnte...:"
+  },
+  {
+   "start": 9.657,
+   "end": 12.549,
+   "text": "Das Schicksal meiner Welt liegt in Deinen Händen,"
+  },
+  {
+   "start": 12.581,
+   "end": 15.749,
+   "text": "doch meine Gebete begleiten Dich - leb' wohl...\""
+  },
+  {
+   "start": 17.014,
+   "end": 22.869,
+   "text": "Der Geist des Königs wird immer transparenter, bis er schließlich ganz unsichtbar ist..."
+  },
+  {
+   "start": 23.085,
+   "end": 27.909,
+   "text": "Angesichts der schweren Bürde, die durch diese ungeheure Verantwortung auf Dir lastet,"
+  },
+  {
+   "start": 27.949,
+   "end": 31.829,
+   "text": "fühlst Du Dich auf einmal unwahrscheinlich allein und verlassen..."
+  }
+ ]
+}

@@ -1,0 +1,281 @@
+{
+ "version": 3,
+ "duration": 122.335,
+ "hold": false,
+ "voice": "seelenkristall.mp3",
+ "music": {
+  "path": "music/Amiga/16.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.959,
+   10.681
+  ],
+  [
+   10.73,
+   58.529
+  ],
+  [
+   60.297,
+   78.67
+  ],
+  [
+   78.803,
+   105.71
+  ],
+  [
+   106.499,
+   117.23
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskD-027",
+   "path": "Amiga_HD/Disk 4/DiskD-027",
+   "start": 0.0,
+   "end": 10.706,
+   "from": [
+    0.0,
+    126.6,
+    1100.0,
+    618.8
+   ],
+   "to": [
+    72.0,
+    146.9,
+    1028.0,
+    578.3
+   ]
+  },
+  {
+   "image": "seelenkristall-01",
+   "path": "Stories/finale/seelenkristall-01",
+   "start": 10.706,
+   "end": 59.413,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "seelenkristall-02",
+   "path": "Stories/finale/seelenkristall-02",
+   "start": 59.413,
+   "end": 78.736,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  },
+  {
+   "image": "seelenkristall-03",
+   "path": "Stories/finale/seelenkristall-03",
+   "start": 78.736,
+   "end": 106.104,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "seelenkristall-04",
+   "path": "Stories/finale/seelenkristall-04",
+   "start": 106.104,
+   "end": 122.335,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 4/DiskD-027",
+  "Stories/finale/seelenkristall-01",
+  "Stories/finale/seelenkristall-02",
+  "Stories/finale/seelenkristall-03",
+  "Stories/finale/seelenkristall-04"
+ ],
+ "cues": [
+  {
+   "start": 2.959,
+   "end": 6.122,
+   "text": "When Zargon notices you looking around for his soul crystal,"
+  },
+  {
+   "start": 6.175,
+   "end": 10.681,
+   "text": "he tries to get to the pedestal before you - but it is already too late:"
+  },
+  {
+   "start": 10.73,
+   "end": 14.041,
+   "text": "With two or three light-footed steps you reach the pedestal,"
+  },
+  {
+   "start": 14.122,
+   "end": 17.402,
+   "text": "grab the jewel and lift it high over your head:"
+  },
+  {
+   "start": 17.421,
+   "end": 22.281,
+   "text": "The stone pulsates dully in your hands, as if it were filled with a life of its own!"
+  },
+  {
+   "start": 23.137,
+   "end": 28.049,
+   "text": "When he realizes that you have now gained power over him, Zargon resorts to begging:"
+  },
+  {
+   "start": 28.101,
+   "end": 30.208,
+   "text": "he desperately begs you to spare him,"
+  },
+  {
+   "start": 30.262,
+   "end": 34.129,
+   "text": "he offers you Mylgor's position as his governor in the small village -"
+  },
+  {
+   "start": 34.228,
+   "end": 39.648,
+   "text": "yes, he even promises to turn you back into a human if you leave his crystal untouched:"
+  },
+  {
+   "start": 39.701,
+   "end": 42.209,
+   "text": "He says there is a spring somewhere whose water could"
+  },
+  {
+   "start": 42.272,
+   "end": 45.409,
+   "text": "heal you of your infection with the werewolf blood..."
+  },
+  {
+   "start": 45.553,
+   "end": 48.129,
+   "text": "For a brief moment you let everything that has happened"
+  },
+  {
+   "start": 48.193,
+   "end": 52.049,
+   "text": "pass before your mind's eye and think about what weighs more:"
+  },
+  {
+   "start": 52.081,
+   "end": 56.368,
+   "text": "your fate - or that of the tormented and downtrodden villagers,"
+  },
+  {
+   "start": 56.389,
+   "end": 58.529,
+   "text": "and it doesn't take you too long to reach a decision:"
+  },
+  {
+   "start": 60.297,
+   "end": 63.149,
+   "text": "Without paying any more attention to Zargon's whimpering,"
+  },
+  {
+   "start": 63.209,
+   "end": 66.669,
+   "text": "you smash the Soul Crystal to the ground with all your might,"
+  },
+  {
+   "start": 66.681,
+   "end": 71.949,
+   "text": "where it shatters into a thousand pieces, each of which still reflects Zargon's portrait!"
+  },
+  {
+   "start": 73.033,
+   "end": 78.67,
+   "text": "However, just as the crystal shatters, you hear Zargon screaming hysterically behind you!"
+  },
+  {
+   "start": 78.803,
+   "end": 84.91,
+   "text": "Scared to death, you turn - to see Zargon in agony with a dense, dark gray cloud,"
+  },
+  {
+   "start": 84.937,
+   "end": 88.27,
+   "text": "which must have been released by the breaking apart of the dark jewel,"
+  },
+  {
+   "start": 88.297,
+   "end": 91.39,
+   "text": "where it must have waited many decades for this one moment!"
+  },
+  {
+   "start": 91.566,
+   "end": 97.79,
+   "text": "Only Zargon's wildly flailing arms and legs still peek out of the dirty gray fog!..."
+  },
+  {
+   "start": 97.854,
+   "end": 100.91,
+   "text": "Then - suddenly - the spook is over:"
+  },
+  {
+   "start": 100.93,
+   "end": 105.71,
+   "text": "the cloud disappears as quickly as it appeared, and with it the evil sorcerer!"
+  },
+  {
+   "start": 106.499,
+   "end": 111.15,
+   "text": "An oppressive silence fills the room as you let yourself slide down the wall,"
+  },
+  {
+   "start": 111.238,
+   "end": 117.23,
+   "text": "exhausted: all that is left of Zargon is his crown and the royal scepter..."
+  }
+ ]
+}

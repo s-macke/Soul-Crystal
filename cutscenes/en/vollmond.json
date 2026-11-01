@@ -1,0 +1,228 @@
+{
+ "version": 3,
+ "duration": 103.36,
+ "hold": false,
+ "voice": "vollmond.mp3",
+ "music": {
+  "path": "music/Amiga/13.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.607,
+   30.341
+  ],
+  [
+   32.466,
+   54.521
+  ],
+  [
+   55.106,
+   67.468
+  ],
+  [
+   69.512,
+   98.365
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "vollmond-03",
+   "path": "Stories/vollmond/vollmond-03",
+   "start": 0.0,
+   "end": 31.403,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  },
+  {
+   "image": "vollmond-01",
+   "path": "Stories/vollmond/vollmond-01",
+   "start": 31.403,
+   "end": 54.814,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "vollmond-02",
+   "path": "Stories/vollmond/vollmond-02",
+   "start": 54.814,
+   "end": 68.49,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  },
+  {
+   "image": "vollmond-04",
+   "path": "Stories/vollmond/vollmond-04",
+   "start": 68.49,
+   "end": 103.36,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  }
+ ],
+ "images": [
+  "Stories/vollmond/vollmond-01",
+  "Stories/vollmond/vollmond-02",
+  "Stories/vollmond/vollmond-03",
+  "Stories/vollmond/vollmond-04"
+ ],
+ "cues": [
+  {
+   "start": 2.607,
+   "end": 6.58,
+   "text": "As if in a trance, you gaze up at the pale full moon -"
+  },
+  {
+   "start": 6.62,
+   "end": 11.06,
+   "text": "until a strange noise from the mountain to the north tears you out of your thoughts:"
+  },
+  {
+   "start": 11.087,
+   "end": 15.06,
+   "text": "it is the same noise you heard back then in the overgrown graveyard of the old,"
+  },
+  {
+   "start": 15.106,
+   "end": 23.62,
+   "text": "ruined monastery - only this time you no longer feel any fear - no, on the contrary:"
+  },
+  {
+   "start": 23.673,
+   "end": 27.7,
+   "text": "in a very strange way the noise even seems familiar to you,"
+  },
+  {
+   "start": 27.753,
+   "end": 30.341,
+   "text": "seems to call you, to lure you...?"
+  },
+  {
+   "start": 32.466,
+   "end": 35.361,
+   "text": "All of a sudden you feel a burning pain in your chest,"
+  },
+  {
+   "start": 35.414,
+   "end": 38.801,
+   "text": "as if a dark power wanted to take possession of your body from within!"
+  },
+  {
+   "start": 39.021,
+   "end": 45.601,
+   "text": "Out of your mind with pain, you want to tear the shirt off your body - and freeze:"
+  },
+  {
+   "start": 45.633,
+   "end": 48.801,
+   "text": "your chest is covered all over with shaggy black hair,"
+  },
+  {
+   "start": 48.833,
+   "end": 54.521,
+   "text": "just like your arms - and after a few more agonising seconds, your whole body!"
+  },
+  {
+   "start": 55.106,
+   "end": 59.041,
+   "text": "You try to scream, but you don't recognise your own voice:"
+  },
+  {
+   "start": 59.081,
+   "end": 67.468,
+   "text": "instead of a human cry of pain, what comes out of your throat is - A WOLF'S HOWL...!"
+  },
+  {
+   "start": 69.512,
+   "end": 73.565,
+   "text": "Feverishly you try to fight down your panic and think clearly:"
+  },
+  {
+   "start": 73.601,
+   "end": 77.645,
+   "text": "apparently the wound the werewolf gave you during your midnight duel in the neglected"
+  },
+  {
+   "start": 77.709,
+   "end": 80.765,
+   "text": "monastery graveyard was not quite as harmless"
+  },
+  {
+   "start": 80.818,
+   "end": 84.125,
+   "text": "after all as you had naively assumed at first!"
+  },
+  {
+   "start": 84.833,
+   "end": 88.525,
+   "text": "You could slap yourself with anger, but it doesn't help..."
+  },
+  {
+   "start": 88.655,
+   "end": 90.365,
+   "text": "Hoping that King Richard will find a way to"
+  },
+  {
+   "start": 90.429,
+   "end": 93.565,
+   "text": "cure you once you have escaped these cursed walls,"
+  },
+  {
+   "start": 93.585,
+   "end": 98.365,
+   "text": "you decide to put off any further thoughts about your hairy future for now..."
+  }
+ ]
+}

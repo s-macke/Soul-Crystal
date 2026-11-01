@@ -1,0 +1,550 @@
+{
+ "version": 3,
+ "duration": 123.78,
+ "hold": false,
+ "loop": {
+  "start": 0.9,
+  "end": 123.78
+ },
+ "voice": null,
+ "music": [
+  {
+   "path": "music/Amiga/Cast.mp3",
+   "start": 0,
+   "volume": 0.8,
+   "fadeIn": 0.1,
+   "fadeOut": 4.0
+  }
+ ],
+ "speech": [],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 0.9,
+ "blackIn": 0.01,
+ "blackOut": 2.0,
+ "wipeFeather": 0,
+ "shots": [
+  {
+   "image": "Dave",
+   "path": "Amiga_HD/Intro/characters/Dave",
+   "start": 0.9,
+   "end": 5.12,
+   "from": [
+    -1120.45,
+    -1392.1,
+    6039.73,
+    3397.34
+   ],
+   "to": [
+    -1028.04,
+    -1282.87,
+    5697.86,
+    3205.04
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "BrotherJack",
+   "path": "Amiga_HD/Intro/characters/BrotherJack",
+   "start": 5.12,
+   "end": 13.96,
+   "from": [
+    -1120.45,
+    -1392.1,
+    6039.73,
+    3397.34
+   ],
+   "to": [
+    -1028.04,
+    -1282.87,
+    5697.86,
+    3205.04
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Firon",
+   "path": "Amiga_HD/Intro/characters/Firon",
+   "start": 13.96,
+   "end": 20.28,
+   "from": [
+    -1120.45,
+    -1392.1,
+    6039.73,
+    3397.34
+   ],
+   "to": [
+    -1028.04,
+    -1282.87,
+    5697.86,
+    3205.04
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "KingRichard",
+   "path": "Amiga_HD/Intro/characters/KingRichard",
+   "start": 20.28,
+   "end": 30.1,
+   "from": [
+    -1120.45,
+    -1392.1,
+    6039.73,
+    3397.34
+   ],
+   "to": [
+    -1028.04,
+    -1282.87,
+    5697.86,
+    3205.04
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Mylgor",
+   "path": "Amiga_HD/Intro/characters/Mylgor",
+   "start": 30.1,
+   "end": 44.82,
+   "from": [
+    -1120.45,
+    -1392.1,
+    6039.73,
+    3397.34
+   ],
+   "to": [
+    -1028.04,
+    -1282.87,
+    5697.86,
+    3205.04
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Zargon",
+   "path": "Amiga_HD/Intro/characters/Zargon",
+   "start": 44.82,
+   "end": 56.04,
+   "from": [
+    -1120.45,
+    -1392.1,
+    6039.73,
+    3397.34
+   ],
+   "to": [
+    -1028.04,
+    -1282.87,
+    5697.86,
+    3205.04
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Inn-keeper",
+   "path": "Amiga_HD/Intro/characters/Inn-keeper",
+   "start": 56.04,
+   "end": 67.4,
+   "from": [
+    -1120.45,
+    -1392.1,
+    6039.73,
+    3397.34
+   ],
+   "to": [
+    -1028.04,
+    -1282.87,
+    5697.86,
+    3205.04
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Native",
+   "path": "Amiga_HD/Intro/characters/Native",
+   "start": 67.4,
+   "end": 79.88,
+   "from": [
+    -1120.45,
+    -1392.1,
+    6039.73,
+    3397.34
+   ],
+   "to": [
+    -1028.04,
+    -1282.87,
+    5697.86,
+    3205.04
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Seller",
+   "path": "Amiga_HD/Intro/characters/Seller",
+   "start": 79.88,
+   "end": 90.4,
+   "from": [
+    -1120.45,
+    -1392.1,
+    6039.73,
+    3397.34
+   ],
+   "to": [
+    -1028.04,
+    -1282.87,
+    5697.86,
+    3205.04
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "OldEremit",
+   "path": "Amiga_HD/Intro/characters/OldEremit",
+   "start": 90.4,
+   "end": 101.06,
+   "from": [
+    -1120.45,
+    -1392.1,
+    6039.73,
+    3397.34
+   ],
+   "to": [
+    -1028.04,
+    -1282.87,
+    5697.86,
+    3205.04
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "OrcFamily",
+   "path": "Amiga_HD/Intro/characters/OrcFamily",
+   "start": 101.06,
+   "end": 112.0,
+   "from": [
+    -1120.45,
+    -1392.1,
+    6039.73,
+    3397.34
+   ],
+   "to": [
+    -1028.04,
+    -1282.87,
+    5697.86,
+    3205.04
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Yeti",
+   "path": "Amiga_HD/Intro/characters/Yeti",
+   "start": 112.0,
+   "end": 123.78,
+   "from": [
+    -1120.45,
+    -1392.1,
+    6039.73,
+    3397.34
+   ],
+   "to": [
+    -1028.04,
+    -1282.87,
+    5697.86,
+    3205.04
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "pixelated": false
+  },
+  {
+   "image": "Cast",
+   "path": "Amiga_HD/Intro/Cast",
+   "start": 0,
+   "end": 124.68,
+   "from": [
+    -241.33,
+    0.0,
+    1930.67,
+    1086.0
+   ],
+   "to": [
+    -241.33,
+    0.0,
+    1930.67,
+    1086.0
+   ],
+   "fadeIn": 0.9,
+   "fadeOut": 0.001,
+   "pixelated": false
+  },
+  {
+   "start": 0.9,
+   "end": 5.12,
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "text": {
+    "lines": [
+     "Oliver Brühl",
+     "als",
+     "Dave Parker"
+    ],
+    "x": 1248.0,
+    "y": 658.8,
+    "size": 64,
+    "lineHeight": 127,
+    "color": "#a8e4ee",
+    "font": "MedievalSharp"
+   }
+  },
+  {
+   "start": 5.12,
+   "end": 13.96,
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "text": {
+    "lines": [
+     "Kai Schulze",
+     "als",
+     "Bruder Jack"
+    ],
+    "x": 1248.0,
+    "y": 658.8,
+    "size": 64,
+    "lineHeight": 127,
+    "color": "#a8e4ee",
+    "font": "MedievalSharp"
+   }
+  },
+  {
+   "start": 13.96,
+   "end": 20.28,
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "text": {
+    "lines": [
+     "Michael Niemeyer",
+     "als",
+     "Der Elfenkönig",
+     "Firon"
+    ],
+    "x": 1248.0,
+    "y": 658.8,
+    "size": 64,
+    "lineHeight": 127,
+    "color": "#a8e4ee",
+    "font": "MedievalSharp"
+   }
+  },
+  {
+   "start": 20.28,
+   "end": 30.1,
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "text": {
+    "lines": [
+     "Klaus-Jürgen Kraft",
+     "als",
+     "König Richard"
+    ],
+    "x": 1248.0,
+    "y": 658.8,
+    "size": 64,
+    "lineHeight": 127,
+    "color": "#a8e4ee",
+    "font": "MedievalSharp"
+   }
+  },
+  {
+   "start": 30.1,
+   "end": 44.82,
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "text": {
+    "lines": [
+     "Kjersten Waldheim",
+     "als",
+     "Der Alchemist",
+     "Mylgor"
+    ],
+    "x": 1248.0,
+    "y": 658.8,
+    "size": 64,
+    "lineHeight": 127,
+    "color": "#a8e4ee",
+    "font": "MedievalSharp"
+   }
+  },
+  {
+   "start": 44.82,
+   "end": 56.04,
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "text": {
+    "lines": [
+     "Chris Link",
+     "als",
+     "Der Magier",
+     "Zargon"
+    ],
+    "x": 1248.0,
+    "y": 658.8,
+    "size": 64,
+    "lineHeight": 127,
+    "color": "#a8e4ee",
+    "font": "MedievalSharp"
+   }
+  },
+  {
+   "start": 56.04,
+   "end": 67.4,
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "text": {
+    "lines": [
+     "Sascha Teuber",
+     "als",
+     "Der Portier"
+    ],
+    "x": 1248.0,
+    "y": 658.8,
+    "size": 64,
+    "lineHeight": 127,
+    "color": "#a8e4ee",
+    "font": "MedievalSharp"
+   }
+  },
+  {
+   "start": 67.4,
+   "end": 79.88,
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "text": {
+    "lines": [
+     "Carsten Jendro",
+     "als",
+     "Der Dorfbewohner"
+    ],
+    "x": 1248.0,
+    "y": 658.8,
+    "size": 64,
+    "lineHeight": 127,
+    "color": "#a8e4ee",
+    "font": "MedievalSharp"
+   }
+  },
+  {
+   "start": 79.88,
+   "end": 90.4,
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "text": {
+    "lines": [
+     "Oliver Schmenk",
+     "als",
+     "Der Verkäufer"
+    ],
+    "x": 1248.0,
+    "y": 658.8,
+    "size": 64,
+    "lineHeight": 127,
+    "color": "#a8e4ee",
+    "font": "MedievalSharp"
+   }
+  },
+  {
+   "start": 90.4,
+   "end": 101.06,
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "text": {
+    "lines": [
+     "Klaus Adamovsky",
+     "als",
+     "Der alte Eremit"
+    ],
+    "x": 1248.0,
+    "y": 658.8,
+    "size": 64,
+    "lineHeight": 127,
+    "color": "#a8e4ee",
+    "font": "MedievalSharp"
+   }
+  },
+  {
+   "start": 101.06,
+   "end": 112.0,
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "text": {
+    "lines": [
+     "Die Starbyte-Crew",
+     "als",
+     "Die Orkfamilie"
+    ],
+    "x": 1248.0,
+    "y": 658.8,
+    "size": 64,
+    "lineHeight": 127,
+    "color": "#a8e4ee",
+    "font": "MedievalSharp"
+   }
+  },
+  {
+   "start": 112.0,
+   "end": 123.78,
+   "fadeIn": 0.9,
+   "fadeOut": 0.9,
+   "text": {
+    "lines": [
+     "Henrik Fisch",
+     "als",
+     "Der Yeti"
+    ],
+    "x": 1248.0,
+    "y": 658.8,
+    "size": 64,
+    "lineHeight": 127,
+    "color": "#a8e4ee",
+    "font": "MedievalSharp"
+   }
+  }
+ ],
+ "images": [
+  "Amiga_HD/Intro/Cast",
+  "Amiga_HD/Intro/characters/BrotherJack",
+  "Amiga_HD/Intro/characters/Dave",
+  "Amiga_HD/Intro/characters/Firon",
+  "Amiga_HD/Intro/characters/Inn-keeper",
+  "Amiga_HD/Intro/characters/KingRichard",
+  "Amiga_HD/Intro/characters/Mylgor",
+  "Amiga_HD/Intro/characters/Native",
+  "Amiga_HD/Intro/characters/OldEremit",
+  "Amiga_HD/Intro/characters/OrcFamily",
+  "Amiga_HD/Intro/characters/Seller",
+  "Amiga_HD/Intro/characters/Yeti",
+  "Amiga_HD/Intro/characters/Zargon"
+ ],
+ "cues": []
+}

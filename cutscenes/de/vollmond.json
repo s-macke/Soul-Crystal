@@ -1,0 +1,253 @@
+{
+ "version": 3,
+ "duration": 113.12,
+ "hold": false,
+ "voice": "vollmond.mp3",
+ "music": {
+  "path": "music/Amiga/13.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.636,
+   33.46
+  ],
+  [
+   35.64,
+   59.88
+  ],
+  [
+   60.434,
+   70.771
+  ],
+  [
+   72.815,
+   108.138
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "vollmond-03",
+   "path": "Stories/vollmond/vollmond-03",
+   "start": 0.0,
+   "end": 34.55,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  },
+  {
+   "image": "vollmond-01",
+   "path": "Stories/vollmond/vollmond-01",
+   "start": 34.55,
+   "end": 60.157,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "vollmond-02",
+   "path": "Stories/vollmond/vollmond-02",
+   "start": 60.157,
+   "end": 71.793,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  },
+  {
+   "image": "vollmond-04",
+   "path": "Stories/vollmond/vollmond-04",
+   "start": 71.793,
+   "end": 113.12,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  }
+ ],
+ "images": [
+  "Stories/vollmond/vollmond-01",
+  "Stories/vollmond/vollmond-02",
+  "Stories/vollmond/vollmond-03",
+  "Stories/vollmond/vollmond-04"
+ ],
+ "cues": [
+  {
+   "start": 2.636,
+   "end": 6.1,
+   "text": "Wie in Trance blickst Du zu dem bleichen, vollen Mond auf -"
+  },
+  {
+   "start": 6.3,
+   "end": 9.22,
+   "text": "bis Du durch ein merkwürdiges Geräusch von dem Berg"
+  },
+  {
+   "start": 9.273,
+   "end": 12.58,
+   "text": "im Norden her aus Deinen Gedanken gerissen wirst:"
+  },
+  {
+   "start": 12.633,
+   "end": 13.86,
+   "text": "Es ist dasselbe Geräusch,"
+  },
+  {
+   "start": 13.9,
+   "end": 17.62,
+   "text": "das Du damals schon einmal auf dem verwilderten Friedhof des alten,"
+  },
+  {
+   "start": 17.66,
+   "end": 20.9,
+   "text": "verfallenen Klosters wahrgenommen hast - nur:"
+  },
+  {
+   "start": 21.108,
+   "end": 25.86,
+   "text": "Dieses Mal verspürst Du keine Angst mehr - nein, im Gegenteil:"
+  },
+  {
+   "start": 26.04,
+   "end": 30.42,
+   "text": "Das Geräusch scheint Dir sogar auf ganz seltsame Weise vertraut zu sein,"
+  },
+  {
+   "start": 30.548,
+   "end": 33.46,
+   "text": "scheint Dich zu rufen, zu locken...?"
+  },
+  {
+   "start": 35.64,
+   "end": 38.72,
+   "text": "Urplötzlich fühlst Du einen brennenden Schmerz in Deiner Brust,"
+  },
+  {
+   "start": 38.773,
+   "end": 43.64,
+   "text": "so als wollte eine dunkle Macht von innen heraus von Deinem Körper Besitz ergreifen!"
+  },
+  {
+   "start": 43.75,
+   "end": 48.0,
+   "text": "Vor Schmerz wie von Sinnen, willst Du Dir das Hemd vom Körper reißen -"
+  },
+  {
+   "start": 48.02,
+   "end": 52.56,
+   "text": "und erstarrst: Deine Brust ist über und über bedeckt mit struppigem,"
+  },
+  {
+   "start": 52.617,
+   "end": 55.6,
+   "text": "schwarzen Haar, genau wie Deine Arme -"
+  },
+  {
+   "start": 55.64,
+   "end": 59.88,
+   "text": "und nach weiteren qualvollen Sekunden Dein ganzer Körper!"
+  },
+  {
+   "start": 60.434,
+   "end": 64.167,
+   "text": "Du versuchst zu schreien, doch Du erkennst Deine eigene Stimme nicht wieder:"
+  },
+  {
+   "start": 64.38,
+   "end": 70.771,
+   "text": "Statt eines menschlichen Schmerzensschreies entringt sich Deiner Kehle - WOLFSGEHEUL...!"
+  },
+  {
+   "start": 72.815,
+   "end": 73.775,
+   "text": "Fieberhaft versuchst Du,"
+  },
+  {
+   "start": 73.788,
+   "end": 79.655,
+   "text": "Deine Panik herunterzukämpfen und einen klaren Gedanken zu fassen: Offenbar war die Wunde,"
+  },
+  {
+   "start": 79.675,
+   "end": 82.615,
+   "text": "die Dir der Werwolf während Eures mitternächtlichen Duells"
+  },
+  {
+   "start": 82.655,
+   "end": 85.895,
+   "text": "auf dem verwahrlosten Klosterfriedhofes geschlagen hat,"
+  },
+  {
+   "start": 85.943,
+   "end": 90.375,
+   "text": "doch nicht ganz so harmlos, wie Du anfangs in Deiner Naivität angenommen hattest!"
+  },
+  {
+   "start": 91.282,
+   "end": 95.014,
+   "text": "Du könntest Dich ohrfeigen vor Wut, aber es hilft nichts..."
+  },
+  {
+   "start": 95.071,
+   "end": 98.938,
+   "text": "In der Hoffnung, daß König Richard schon einen Weg finden wird, Dich zu heilen,"
+  },
+  {
+   "start": 99.018,
+   "end": 103.658,
+   "text": "wenn Du diesem verfluchten Gemäuer erst einmal entkommen bist, beschließt Du,"
+  },
+  {
+   "start": 103.718,
+   "end": 108.138,
+   "text": "weitere Gedanken über Deine behaarte Zukunft fürs erste zu vertagen..."
+  }
+ ]
+}

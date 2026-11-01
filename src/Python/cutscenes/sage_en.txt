@@ -1,0 +1,26 @@
+# Narration "The legend of the sunken city": talking to the villager in the
+# dining room (part A), source: texts/C64_en/B1.md, text 260, with typos and
+# garbled phrases fixed. Images and options as in narration_en.txt.
+
+### sage The legend of the sunken city
+
+## Stories/sage/sage-01
+[cheerful] You wave the waitress over to you and tell her your most urgent wishes: "Please bring me a large steak, a cold beer and the Fra..." - [embarrassed] Suddenly you feel yourself blushing and stammer: "Oops: forget the Frankfurter Allgemeine. You probably don't get any German newspapers here anyway, right?" [smug] When the girl, also red up to her ears, hastily says no, you reassure her - deliberately ignoring the age difference of a good ten years - in a fatherly way: "It doesn't matter, my daughter: I can't speak German anyway!", [laughs] and burst into a roar of laughter, [dry] whereupon the villager, who had been sitting there uninvolved, rolls his eyes up to the sky in suffering, as if he had been kicked in the soft parts where it really hurts. When you realize with dismay that the waitress also appears to be suffering from a chronic lack of humor, you decide to abruptly stop your comic performance and dismiss the girl with a merciful wave of your hand.
+
+## Stories/sage/sage-04
+When she has disappeared into the kitchen, you ask the old man if he could tell you a little about the village and its surroundings. [mumbles] Slowly and haltingly, the villager begins to mumble into his beard that he can tell you an interesting legend. [sarcastic] Well, you didn't exactly expect him to tell you the addresses of the local hot spots and yuppie discos, but does it have to be a fairy tale? [sighs] As a precaution, you rest your head on your hands so that in an emergency you don't hit your nose on the edge of the table, and while you wait longingly for your food, so that you'd at least have something to do, you listen to the old man's story:
+
+## Stories/sage/sage-02
+[mysterious] A long, long time ago, a rich and proud city was said to have stood where Loch Calderwood lies now -
+
+##+ Disk 2/DiskA-007
+but in one single night it had disappeared, and in its place was the lake at the foot of the mountains! It was believed that the inhabitants of this legendary city were punished by the gods for their pride and vanity. It is also said that they were very rich and artistic!
+
+## Disk 2/DiskA-008 focus=0,0,1400,756
+[deadpan] Since you, for your part, have been practicing the art of sleeping with your eyes open since the beginning of the story, the local takes your stare for incredulous amazement and goes one step further:
+
+## Stories/sage/sage-03 pause=1.0
+[whispers] Apparently the people in the village still claim that even today the towers and roofs of the city could be seen under water, if one dared to dive down to the bottom of the lake under the full moon at midnight...
+
+##+ Disk 2/DiskA-016
+[dry] a very exclusive and unique pleasure, by the way, since none of the brave men who have tried their luck so far has ever come back...

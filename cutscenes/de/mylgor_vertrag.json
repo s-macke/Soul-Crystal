@@ -1,0 +1,228 @@
+{
+ "version": 3,
+ "duration": 91.039,
+ "hold": false,
+ "voice": "mylgor_vertrag.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.767,
+   19.034
+  ],
+  [
+   20.266,
+   56.434
+  ],
+  [
+   56.644,
+   72.794
+  ],
+  [
+   73.866,
+   85.514
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskB-006",
+   "path": "Amiga_HD/Disk 3/DiskB-006",
+   "start": 0.0,
+   "end": 19.65,
+   "from": [
+    0.0,
+    12.4,
+    1300.0,
+    731.2
+   ],
+   "to": [
+    85.0,
+    36.3,
+    1215.0,
+    683.4
+   ]
+  },
+  {
+   "image": "mylgor_vertrag-03",
+   "path": "Stories/mylgor/mylgor_vertrag-03",
+   "start": 19.65,
+   "end": 56.539,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "mylgor_vertrag-01",
+   "path": "Stories/mylgor/mylgor_vertrag-01",
+   "start": 56.539,
+   "end": 73.33,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  },
+  {
+   "image": "mylgor_vertrag-02",
+   "path": "Stories/mylgor/mylgor_vertrag-02",
+   "start": 73.33,
+   "end": 91.039,
+   "from": [
+    110.2,
+    30.7,
+    1561.8,
+    878.5
+   ],
+   "to": [
+    0.0,
+    0.0,
+    1671.1,
+    940.0
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 3/DiskB-006",
+  "Stories/mylgor/mylgor_vertrag-01",
+  "Stories/mylgor/mylgor_vertrag-02",
+  "Stories/mylgor/mylgor_vertrag-03"
+ ],
+ "cues": [
+  {
+   "start": 2.767,
+   "end": 8.634,
+   "text": "Du erzählst dem Fremden hinter der Luke von Deiner Reise in diese Welt und fragst ihn,"
+  },
+  {
+   "start": 8.661,
+   "end": 12.314,
+   "text": "ob er Dir vielleicht etwas zu essen und einen Platz geben könnte,"
+  },
+  {
+   "start": 12.367,
+   "end": 14.074,
+   "text": "wo Du die Nacht verbringen kannst."
+  },
+  {
+   "start": 14.474,
+   "end": 19.034,
+   "text": "Erstaunlicherweise scheint er Deine Story nicht im Geringsten anzuzweifeln:"
+  },
+  {
+   "start": 20.266,
+   "end": 21.834,
+   "text": "\"Natürlich könnte ich...\","
+  },
+  {
+   "start": 21.894,
+   "end": 26.714,
+   "text": "antwortet die Stimme hinter der Tür gedehnt, \"Aber nur unter einer Bedingung:"
+  },
+  {
+   "start": 26.922,
+   "end": 33.114,
+   "text": "Wenn ich Dir helfe, mußt Du mir versprechen, auch mir einen kleinen Dienst zu erweisen:"
+  },
+  {
+   "start": 33.301,
+   "end": 38.714,
+   "text": "Es gibt da eine kleine, selbstverständlich nicht allzu gefährliche Aufgabe,"
+  },
+  {
+   "start": 38.774,
+   "end": 40.874,
+   "text": "die morgen verrichtet werden müßte."
+  },
+  {
+   "start": 41.05,
+   "end": 44.874,
+   "text": "Wenn Du mir eine kurze schriftliche Erklärung unterzeichnest,"
+  },
+  {
+   "start": 44.894,
+   "end": 48.394,
+   "text": "die besagt, daß Du sie für mich erledigen wirst,"
+  },
+  {
+   "start": 48.434,
+   "end": 52.554,
+   "text": "werde ich Dir im Gegenzug dazu ein Bett zum Schlafen,"
+  },
+  {
+   "start": 52.618,
+   "end": 56.434,
+   "text": "warme Kleider und ein warmes Abendessen geben.\""
+  },
+  {
+   "start": 56.644,
+   "end": 60.154,
+   "text": "Mit diesen Worten reicht Dir der Mann einen merkwürdigerweise"
+  },
+  {
+   "start": 60.194,
+   "end": 63.674,
+   "text": "schon vorformulierten Vertrag und ein kleines,"
+  },
+  {
+   "start": 63.714,
+   "end": 66.234,
+   "text": "scharfes Messerchen durch die Luke hinaus."
+  },
+  {
+   "start": 67.582,
+   "end": 70.314,
+   "text": "Auf Deine Frage hin, wozu Du denn das Messer bräuchtest,"
+  },
+  {
+   "start": 70.494,
+   "end": 72.794,
+   "text": "antwortet der Fremde gleichgültig:"
+  },
+  {
+   "start": 73.866,
+   "end": 77.514,
+   "text": "\"Ich bin nur vorsichtig - zuviele Menschen haben mich schon hintergangen!"
+  },
+  {
+   "start": 77.734,
+   "end": 81.914,
+   "text": "Daher wirst Du unsere Abmachung mit demselben Blut unterschreiben,"
+  },
+  {
+   "start": 81.934,
+   "end": 85.514,
+   "text": "daß Du vergießen wirst, solltest Du es wagen, sie zu brechen...\""
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+# Narration "Full moon" (part D, roof of the main tower): text 315 from
+# texts/C64_en/C2.md, smoothed for speech. Images and options as in narration_en.txt.
+
+### vollmond Full moon
+
+## Stories/vollmond/vollmond-03
+[dreamy] As if in a trance, you gaze up at the pale full moon - until a strange noise from the mountain to the north tears you out of your thoughts: it is the same noise you heard back then in the overgrown graveyard of the old, ruined monastery - [whispers] only this time you no longer feel any fear - no, on the contrary: in a very strange way the noise even seems familiar to you, seems to call you, to lure you...?
+
+## Stories/vollmond/vollmond-01
+[pained] All of a sudden you feel a burning pain in your chest, as if a dark power wanted to take possession of your body from within! Out of your mind with pain, you want to tear the shirt off your body - and freeze: your chest is covered all over with shaggy black hair, just like your arms - and after a few more agonising seconds, your whole body!
+
+##+ Stories/vollmond/vollmond-02
+[panicked] You try to scream, but you don't recognise your own voice: instead of a human cry of pain, what comes out of your throat is - [howls] A WOLF'S HOWL...!
+
+## Stories/vollmond/vollmond-04 pause=1.0
+[shaken] Feverishly you try to fight down your panic and think clearly: apparently the wound the werewolf gave you during your midnight duel in the neglected monastery graveyard was not quite as harmless after all as you had naively assumed at first! [annoyed] You could slap yourself with anger, but it doesn't help... [dry] Hoping that King Richard will find a way to cure you once you have escaped these cursed walls, you decide to put off any further thoughts about your hairy future for now...

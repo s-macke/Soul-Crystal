@@ -1,0 +1,69 @@
+{
+ "version": 3,
+ "duration": 17.29,
+ "hold": false,
+ "voice": "wasserfall.mp3",
+ "music": {
+  "path": "music/Amiga/02.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.892,
+   12.266
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskA-009",
+   "path": "Amiga_HD/Disk 2/DiskA-009",
+   "start": 0.0,
+   "end": 17.29,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 2/DiskA-009"
+ ],
+ "cues": [
+  {
+   "start": 2.892,
+   "end": 6.907,
+   "text": "You are swimming right in front of the waterfall in the northwest of the mountain lake."
+  },
+  {
+   "start": 6.987,
+   "end": 9.707,
+   "text": "While you try not to be carried away by the current,"
+  },
+  {
+   "start": 9.747,
+   "end": 12.266,
+   "text": "you wonder what might be hidden behind it..."
+  }
+ ]
+}

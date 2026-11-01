@@ -1,0 +1,193 @@
+{
+ "version": 3,
+ "duration": 64.129,
+ "hold": false,
+ "voice": "mylgor_vertrag.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.8,
+   14.12
+  ],
+  [
+   14.256,
+   37.32
+  ],
+  [
+   37.496,
+   50.2
+  ],
+  [
+   50.289,
+   59.009
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskB-006",
+   "path": "Amiga_HD/Disk 3/DiskB-006",
+   "start": 0.0,
+   "end": 14.188,
+   "from": [
+    0.0,
+    12.4,
+    1300.0,
+    731.2
+   ],
+   "to": [
+    85.0,
+    36.3,
+    1215.0,
+    683.4
+   ]
+  },
+  {
+   "image": "mylgor_vertrag-03",
+   "path": "Stories/mylgor/mylgor_vertrag-03",
+   "start": 14.188,
+   "end": 37.408,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "mylgor_vertrag-01",
+   "path": "Stories/mylgor/mylgor_vertrag-01",
+   "start": 37.408,
+   "end": 50.245,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  },
+  {
+   "image": "mylgor_vertrag-02",
+   "path": "Stories/mylgor/mylgor_vertrag-02",
+   "start": 50.245,
+   "end": 64.129,
+   "from": [
+    110.2,
+    30.7,
+    1561.8,
+    878.5
+   ],
+   "to": [
+    0.0,
+    0.0,
+    1671.1,
+    940.0
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 3/DiskB-006",
+  "Stories/mylgor/mylgor_vertrag-01",
+  "Stories/mylgor/mylgor_vertrag-02",
+  "Stories/mylgor/mylgor_vertrag-03"
+ ],
+ "cues": [
+  {
+   "start": 2.8,
+   "end": 6.44,
+   "text": "You tell the stranger behind the hatch about your journey into this world and"
+  },
+  {
+   "start": 6.5,
+   "end": 9.88,
+   "text": "ask him whether he could give you something to eat and a place to spend the night."
+  },
+  {
+   "start": 10.06,
+   "end": 15.56,
+   "text": "Surprisingly, he doesn't doubt your story in the slightest: \"Of course I could...\","
+  },
+  {
+   "start": 15.58,
+   "end": 19.96,
+   "text": "the voice behind the door drawls, \"But only on one condition:"
+  },
+  {
+   "start": 20.013,
+   "end": 25.48,
+   "text": "if I help you, you must promise to do me a small favour, too: there is a small,"
+  },
+  {
+   "start": 25.5,
+   "end": 29.52,
+   "text": "and of course not too dangerous, task that has to be done tomorrow."
+  },
+  {
+   "start": 29.64,
+   "end": 33.0,
+   "text": "If you sign a short written declaration that you will do it for me,"
+  },
+  {
+   "start": 33.04,
+   "end": 37.32,
+   "text": "I will give you a bed to sleep in, warm clothes and a warm supper in return.\""
+  },
+  {
+   "start": 37.496,
+   "end": 42.92,
+   "text": "With these words, the man hands you a contract, strangely enough already written out,"
+  },
+  {
+   "start": 42.96,
+   "end": 45.48,
+   "text": "and a small, sharp little knife through the hatch."
+  },
+  {
+   "start": 46.027,
+   "end": 50.2,
+   "text": "When you ask what you need the knife for, the stranger answers indifferently:"
+  },
+  {
+   "start": 50.289,
+   "end": 53.889,
+   "text": "\"I'm just careful - too many people have betrayed me already!"
+  },
+  {
+   "start": 53.969,
+   "end": 56.369,
+   "text": "That's why you will sign our agreement with the same"
+  },
+  {
+   "start": 56.436,
+   "end": 59.009,
+   "text": "blood that you will shed should you dare to break it...\""
+  }
+ ]
+}

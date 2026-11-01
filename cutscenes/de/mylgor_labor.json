@@ -1,0 +1,175 @@
+{
+ "version": 3,
+ "duration": 72.621,
+ "hold": false,
+ "voice": "mylgor_labor.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.565,
+   27.74
+  ],
+  [
+   29.26,
+   43.847
+  ],
+  [
+   44.071,
+   67.527
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskB-033",
+   "path": "Amiga_HD/Disk 3/DiskB-033",
+   "start": 0.0,
+   "end": 28.5,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "mylgor_labor-01",
+   "path": "Stories/mylgor/mylgor_labor-01",
+   "start": 28.5,
+   "end": 43.959,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "DiskB-040",
+   "path": "Amiga_HD/Disk 3/DiskB-040",
+   "start": 43.959,
+   "end": 72.621,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 3/DiskB-033",
+  "Amiga_HD/Disk 3/DiskB-040",
+  "Stories/mylgor/mylgor_labor-01"
+ ],
+ "cues": [
+  {
+   "start": 2.565,
+   "end": 4.9,
+   "text": "Wie das Schild an der Tür bereits andeutete,"
+  },
+  {
+   "start": 4.96,
+   "end": 11.14,
+   "text": "ist dies hier Mylgors Geheimlabor: Es ist geradezu überfüllt mit Reagenzgläsern,"
+  },
+  {
+   "start": 11.2,
+   "end": 16.02,
+   "text": "Kolben und Meßbechern, gefüllt mit allerlei mysterösen Flüssigkeiten,"
+  },
+  {
+   "start": 16.06,
+   "end": 19.06,
+   "text": "die in allen erdenklichen Farben vor sich hinbrodeln."
+  },
+  {
+   "start": 19.353,
+   "end": 21.94,
+   "text": "Du mußt Dich schon sehr konzentrieren,"
+  },
+  {
+   "start": 21.967,
+   "end": 24.26,
+   "text": "um Dich nicht durch diese plötzliche Schwemme neuer"
+  },
+  {
+   "start": 24.34,
+   "end": 27.74,
+   "text": "Eindrücke verwirren zu lassen - doch dann siehst Du ihn:"
+  },
+  {
+   "start": 29.26,
+   "end": 34.967,
+   "text": "MYLGOR, den bösartigen Alchemisten, den Vasallen des großen Bösen,"
+  },
+  {
+   "start": 34.999,
+   "end": 38.927,
+   "text": "dessen Namen Du nicht einmal in Gedanken auszusprechen wagst!"
+  },
+  {
+   "start": 39.077,
+   "end": 43.847,
+   "text": "Als sich Eure Blicke treffen, verzieht sich sein Gesicht zu einer hämischen Grimasse:"
+  },
+  {
+   "start": 44.071,
+   "end": 49.367,
+   "text": "Langsam kommt er auf Dich zu, zeigt Dir eine riesige Pferdespritze,"
+  },
+  {
+   "start": 49.407,
+   "end": 53.047,
+   "text": "die er gerade mit einem grünlichen, blubbernden Gift aufgezogen hat,"
+  },
+  {
+   "start": 53.147,
+   "end": 59.207,
+   "text": "und schnarrt: \"Du hast meine Befehle nicht befolgt, mein Guter, oder...?\""
+  },
+  {
+   "start": 59.639,
+   "end": 62.407,
+   "text": "Hastig siehst Du Dich nach möglichen Fluchtwegen um,"
+  },
+  {
+   "start": 62.453,
+   "end": 67.527,
+   "text": "kannst jedoch außer der riesigen Stahltür im Süden nichts entdecken...!"
+  }
+ ]
+}

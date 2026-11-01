@@ -1,0 +1,16 @@
+# Erzähltext „Vollmond“ (Teil D, Dach des Hauptturmes): Text 315 aus texts/C64/C2.md.
+# Wortlaut original; reine Wegbeschreibungen fehlen. Aufbau wie narration_de.txt.
+
+### vollmond Vollmond
+
+## Stories/vollmond/vollmond-03
+[dreamy] Wie in Trance blickst Du zu dem bleichen, vollen Mond auf - bis Du durch ein merkwürdiges Geräusch von dem Berg im Norden her aus Deinen Gedanken gerissen wirst: Es ist dasselbe Geräusch, das Du damals schon einmal auf dem verwilderten Friedhof des alten, verfallenen Klosters wahrgenommen hast - [whispers] nur: Dieses Mal verspürst Du keine Angst mehr - nein, im Gegenteil: Das Geräusch scheint Dir sogar auf ganz seltsame Weise vertraut zu sein, scheint Dich zu rufen, zu locken...?
+
+## Stories/vollmond/vollmond-01
+[pained] Urplötzlich fühlst Du einen brennenden Schmerz in Deiner Brust, so als wollte eine dunkle Macht von innen heraus von Deinem Körper Besitz ergreifen! Vor Schmerz wie von Sinnen, willst Du Dir das Hemd vom Körper reißen - und erstarrst: Deine Brust ist über und über bedeckt mit struppigem, schwarzen Haar, genau wie Deine Arme - und nach weiteren qualvollen Sekunden Dein ganzer Körper!
+
+##+ Stories/vollmond/vollmond-02
+[panicked] Du versuchst zu schreien, doch Du erkennst Deine eigene Stimme nicht wieder: Statt eines menschlichen Schmerzensschreies entringt sich Deiner Kehle - [howls] WOLFSGEHEUL...!
+
+## Stories/vollmond/vollmond-04 pause=1.0
+[shaken] Fieberhaft versuchst Du, Deine Panik herunterzukämpfen und einen klaren Gedanken zu fassen: Offenbar war die Wunde, die Dir der Werwolf während Eures mitternächtlichen Duells auf dem verwahrlosten Klosterfriedhofes geschlagen hat, doch nicht ganz so harmlos, wie Du anfangs in Deiner Naivität angenommen hattest! [annoyed] Du könntest Dich ohrfeigen vor Wut, aber es hilft nichts... [dry] In der Hoffnung, daß König Richard schon einen Weg finden wird, Dich zu heilen, wenn Du diesem verfluchten Gemäuer erst einmal entkommen bist, beschließt Du, weitere Gedanken über Deine behaarte Zukunft fürs erste zu vertagen...

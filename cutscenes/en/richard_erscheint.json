@@ -1,0 +1,160 @@
+{
+ "version": 3,
+ "duration": 59.995,
+ "hold": false,
+ "voice": "richard_erscheint.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.71,
+   8.9
+  ],
+  [
+   9.528,
+   43.06
+  ],
+  [
+   43.711,
+   54.742
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskB-029",
+   "path": "Amiga_HD/Disk 3/DiskB-029",
+   "start": 0.0,
+   "end": 9.214,
+   "from": [
+    300.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    643.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "richard_erscheint-01-v2",
+   "path": "Stories/richard/richard_erscheint-01-v2",
+   "start": 9.214,
+   "end": 43.386,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "richard_erscheint-02",
+   "path": "Stories/richard/richard_erscheint-02",
+   "start": 43.386,
+   "end": 59.995,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 3/DiskB-029",
+  "Stories/richard/richard_erscheint-01-v2",
+  "Stories/richard/richard_erscheint-02"
+ ],
+ "cues": [
+  {
+   "start": 2.71,
+   "end": 8.9,
+   "text": "You carefully place the skull next to the king's torso - but what is that?"
+  },
+  {
+   "start": 9.528,
+   "end": 11.54,
+   "text": "The skull rolls to the skeleton's neck and"
+  },
+  {
+   "start": 11.607,
+   "end": 14.82,
+   "text": "grows back there as if it had never been anywhere else!"
+  },
+  {
+   "start": 15.913,
+   "end": 20.9,
+   "text": "At the same moment, however, when the king's skull returns to its rightful place,"
+  },
+  {
+   "start": 20.98,
+   "end": 24.74,
+   "text": "you feel an ice-cold wind on your neck..."
+  },
+  {
+   "start": 24.78,
+   "end": 29.54,
+   "text": "Fearing the worst again, you close your eyes in fear: nothing happens..."
+  },
+  {
+   "start": 29.56,
+   "end": 32.9,
+   "text": "But when you dare to open them again - the coffin is empty!"
+  },
+  {
+   "start": 33.02,
+   "end": 36.9,
+   "text": "You close your eyes for the second time and open them again:"
+  },
+  {
+   "start": 36.94,
+   "end": 43.06,
+   "text": "But nothing has changed: the king's sarcophagus is and remains empty!"
+  },
+  {
+   "start": 43.711,
+   "end": 46.98,
+   "text": "Before you can attempt to run away on your shaking legs, however,"
+  },
+  {
+   "start": 47.06,
+   "end": 53.862,
+   "text": "you hear a soft voice behind you, obviously quite amused: \"Welcome, my friend...\""
+  },
+  {
+   "start": 53.889,
+   "end": 54.742,
+   "text": "It's King Richard!"
+  }
+ ]
+}

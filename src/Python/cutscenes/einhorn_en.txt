@@ -1,0 +1,29 @@
+# Narration "The unicorn" (part A, clearing): texts 224, 255 and 262 from
+# texts/C64_en/B1.md, smoothed for speech. Images and options as in narration_en.txt.
+
+### einhorn_kampf Wolf and unicorn
+
+## Disk 2/DiskA-017
+[tense] As you enter the clearing, you hear a terrible growling and hissing ahead of you! Startled, you stop and, to be safe, hide behind the nearest tree!
+
+##+ Stories/einhorn/01-kampf
+[whispers] When your eyes have got a little used to the dim light, you see two animals fighting on the other side of the clearing: a big grey wolf and a delicate, white-shimmering unicorn, whose coat is already completely stained with its bluish blood, oozing from countless deep wounds. Noticing that the weakened unicorn's resistance is fading, the wolf attacks it even more furiously! [sad] The graceful creature no longer has the strength to hold out much longer against the long, sharp teeth of the wolf...
+
+### einhorn_gerettet The rescued unicorn
+
+## Stories/einhorn/02-rettung
+[amused] When the wolf sees you storming into the clearing, your scrawny figure frightens him so much that he immediately tucks in his tail and runs for his life!
+
+##+ Stories/einhorn/03-erschoepfung
+[softly] After he has disappeared howling into the undergrowth, still shaken by so much misery, the battered unicorn lies down exhausted on the ground to recover a little from the uneven fight. Its nostrils tremble nervously, and its breathing is heavy and uneven...
+
+### kristallkugel The crystal ball
+
+## Stories/einhorn/04-warnung
+[softly] After it has recovered a little, the unicorn thanks you for your help and urgently warns you about continuing your way west. "Once you have left this part of the forest, there is no way back...", it says with an infinitely sad look in its deep blue eyes, "But take this little crystal ball: it could help you find friends in this hostile world..."
+
+##+ Stories/einhorn/05-kristallkugel
+With these words, the unicorn gives you a small, glowing crystal ball, and whispers to you in a fading voice: [whispers] "Think of me when you use it - I do not have long to live..."
+
+##+ Stories/einhorn/06-abschied
+[sad] With a last look back at you, a look so full of regret and pain that it almost breaks your heart, the doomed, beautiful creature turns away and slowly trots off, without looking back at you again, until it has disappeared among the trees...

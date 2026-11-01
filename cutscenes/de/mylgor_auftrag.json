@@ -1,0 +1,210 @@
+{
+ "version": 3,
+ "duration": 100.39,
+ "hold": false,
+ "voice": "mylgor_auftrag.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.966,
+   20.913
+  ],
+  [
+   21.1,
+   50.873
+  ],
+  [
+   50.993,
+   94.996
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskB-041",
+   "path": "Amiga_HD/Disk 3/DiskB-041",
+   "start": 0.0,
+   "end": 21.007,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "mylgor_auftrag-02",
+   "path": "Stories/mylgor/mylgor_auftrag-02",
+   "start": 21.007,
+   "end": 50.933,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "mylgor_auftrag-01",
+   "path": "Stories/mylgor/mylgor_auftrag-01",
+   "start": 50.933,
+   "end": 100.39,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 3/DiskB-041",
+  "Stories/mylgor/mylgor_auftrag-01",
+  "Stories/mylgor/mylgor_auftrag-02"
+ ],
+ "cues": [
+  {
+   "start": 2.966,
+   "end": 4.594,
+   "text": "Mylgor hat Dich bereits erwartet."
+  },
+  {
+   "start": 4.806,
+   "end": 9.314,
+   "text": "Er begrüßt Dich kurz und kommt gleich zum Geschäft: \"Ich hoffe,"
+  },
+  {
+   "start": 9.341,
+   "end": 13.954,
+   "text": "Du erinnerst Dich noch an den Pakt, den wir gestern abend miteinander geschlossen haben."
+  },
+  {
+   "start": 14.094,
+   "end": 20.913,
+   "text": "Nun, jetzt ist es an der Zeit, daß auch Du Deinen Teil unserer Abmachung erfüllst:"
+  },
+  {
+   "start": 21.1,
+   "end": 24.674,
+   "text": "Es gibt einen bösen Elfenkönig namens Firon,"
+  },
+  {
+   "start": 24.814,
+   "end": 27.954,
+   "text": "der sich mit seiner Horde in seinem Eispalast im"
+  },
+  {
+   "start": 28.017,
+   "end": 31.674,
+   "text": "Nordwesten unseres geliebten Landes versteckt hält."
+  },
+  {
+   "start": 31.974,
+   "end": 36.234,
+   "text": "Oft überfällt er jedoch mit seiner Yetiarmee unser kleines,"
+  },
+  {
+   "start": 36.267,
+   "end": 39.474,
+   "text": "friedliches Dorf und plündert es -"
+  },
+  {
+   "start": 39.514,
+   "end": 44.194,
+   "text": "vor einigen Jahren hat er es gar vollständig in Schutt und Asche gelegt!"
+  },
+  {
+   "start": 44.949,
+   "end": 50.873,
+   "text": "Als Vorsitzender des Dorfrates befehle ich Dir: Gebiete ihm Einhalt!"
+  },
+  {
+   "start": 50.993,
+   "end": 54.114,
+   "text": "Hier sind ein paar Kleidungsstücke, die Du brauchen wirst,"
+  },
+  {
+   "start": 54.194,
+   "end": 57.313,
+   "text": "um in den kalten Eisregionen überleben zu können,"
+  },
+  {
+   "start": 57.474,
+   "end": 60.354,
+   "text": "und ein Flacon mit einem magischen Elixier,"
+  },
+  {
+   "start": 60.474,
+   "end": 63.713,
+   "text": "das Dich für ein paar Sekunden unsichtbar macht:"
+  },
+  {
+   "start": 63.834,
+   "end": 65.873,
+   "text": "Benutze es auf gar keinen Fall,"
+  },
+  {
+   "start": 65.914,
+   "end": 70.514,
+   "text": "bis es wirklich unumgänglich ist, da es Dich, wie schon gesagt,"
+  },
+  {
+   "start": 70.574,
+   "end": 76.593,
+   "text": "nur für einen Zug schützen wird und Du es auch nur ein einziges Mal anwenden kannst!"
+  },
+  {
+   "start": 76.754,
+   "end": 82.553,
+   "text": "Nun begib Dich also auf den Weg und beende Firons dunkle Machenschaften:"
+  },
+  {
+   "start": 83.277,
+   "end": 86.355,
+   "text": "Möge Zargon Dich behüten...!\""
+  },
+  {
+   "start": 86.396,
+   "end": 89.316,
+   "text": "Mit diesen Worten öffnet Mylgor eine kleine Truhe,"
+  },
+  {
+   "start": 89.596,
+   "end": 94.996,
+   "text": "holt die erwähnten Dinge aus ihr heraus und breitet sie auf dem Tisch vor Dir aus."
+  }
+ ]
+}

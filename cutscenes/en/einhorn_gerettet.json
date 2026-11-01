@@ -1,0 +1,112 @@
+{
+ "version": 3,
+ "duration": 34.414,
+ "hold": false,
+ "voice": "einhorn_gerettet.mp3",
+ "music": {
+  "path": "music/Amiga/02.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.569,
+   11.31
+  ],
+  [
+   12.462,
+   29.315
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "02-rettung",
+   "path": "Stories/einhorn/02-rettung",
+   "start": 0.0,
+   "end": 11.886,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  },
+  {
+   "image": "03-erschoepfung",
+   "path": "Stories/einhorn/03-erschoepfung",
+   "start": 11.886,
+   "end": 34.414,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  }
+ ],
+ "images": [
+  "Stories/einhorn/02-rettung",
+  "Stories/einhorn/03-erschoepfung"
+ ],
+ "cues": [
+  {
+   "start": 2.569,
+   "end": 4.99,
+   "text": "When the wolf sees you storming into the clearing,"
+  },
+  {
+   "start": 5.023,
+   "end": 7.95,
+   "text": "your scrawny figure frightens him so much that he"
+  },
+  {
+   "start": 8.004,
+   "end": 11.31,
+   "text": "immediately tucks in his tail and runs for his life!"
+  },
+  {
+   "start": 12.462,
+   "end": 17.715,
+   "text": "After he has disappeared howling into the undergrowth, still shaken by so much misery,"
+  },
+  {
+   "start": 17.755,
+   "end": 20.514,
+   "text": "the battered unicorn lies down exhausted on the"
+  },
+  {
+   "start": 20.572,
+   "end": 23.554,
+   "text": "ground to recover a little from the uneven fight."
+  },
+  {
+   "start": 23.775,
+   "end": 29.315,
+   "text": "Its nostrils tremble nervously, and its breathing is heavy and uneven..."
+  }
+ ]
+}

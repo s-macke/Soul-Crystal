@@ -1,0 +1,266 @@
+{
+ "version": 3,
+ "duration": 102.797,
+ "hold": false,
+ "voice": "jack_geist.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.695,
+   4.9
+  ],
+  [
+   5.04,
+   30.54
+  ],
+  [
+   30.793,
+   63.221
+  ],
+  [
+   64.629,
+   83.861
+  ],
+  [
+   84.968,
+   97.141
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskB-030",
+   "path": "Amiga_HD/Disk 3/DiskB-030",
+   "start": 0.0,
+   "end": 4.97,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "jack_geist-01",
+   "path": "Stories/jack/jack_geist-01",
+   "start": 4.97,
+   "end": 30.666,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "jack_geist-02",
+   "path": "Stories/jack/jack_geist-02",
+   "start": 30.666,
+   "end": 63.925,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  },
+  {
+   "image": "jack_geist-03",
+   "path": "Stories/jack/jack_geist-03",
+   "start": 63.925,
+   "end": 84.415,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "jack_geist-04",
+   "path": "Stories/jack/jack_geist-04",
+   "start": 84.415,
+   "end": 102.797,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 3/DiskB-030",
+  "Stories/jack/jack_geist-01",
+  "Stories/jack/jack_geist-02",
+  "Stories/jack/jack_geist-03",
+  "Stories/jack/jack_geist-04"
+ ],
+ "cues": [
+  {
+   "start": 2.695,
+   "end": 4.9,
+   "text": "Verzweifelt kniest Du vor dem Altar nieder"
+  },
+  {
+   "start": 5.04,
+   "end": 8.499,
+   "text": "und schickst ein Stoßgebet nach geistvolleren Texten,"
+  },
+  {
+   "start": 8.5,
+   "end": 11.62,
+   "text": "besseren Grafiken, leistungsfähigeren Computern"
+  },
+  {
+   "start": 11.66,
+   "end": 14.34,
+   "text": "und kompetenteren Programmierern zum Himmel,"
+  },
+  {
+   "start": 14.64,
+   "end": 19.3,
+   "text": "und nebenbei denkst Du auch an den armen, armen Klosterbruder Jack,"
+  },
+  {
+   "start": 19.34,
+   "end": 23.06,
+   "text": "der hier wohl irgendwann mal vom Schlitten gerutscht sein soll -"
+  },
+  {
+   "start": 23.127,
+   "end": 28.9,
+   "text": "doch nach wenigen Versen bekommst Du das ungute Gefühl, als wäre etwas hinter Dir -"
+  },
+  {
+   "start": 28.94,
+   "end": 32.66,
+   "text": "und drehst Dich um: Du fühlst eine leichte,"
+  },
+  {
+   "start": 32.708,
+   "end": 36.26,
+   "text": "aber eisig kalte Brise durch den Raum streichen,"
+  },
+  {
+   "start": 36.32,
+   "end": 39.22,
+   "text": "als Du den Nebel im Kirchenschiff bemerkst,"
+  },
+  {
+   "start": 39.24,
+   "end": 44.26,
+   "text": "der langsam auf Dich zukommt und dabei dichter und dichter wird,"
+  },
+  {
+   "start": 44.3,
+   "end": 46.82,
+   "text": "bis er schließlich kurz vor Dir stehenbleibt..."
+  },
+  {
+   "start": 47.407,
+   "end": 52.9,
+   "text": "Du spürst, wie sich in Deinem Nacken die ersten kalten Schweißperlen bilden,"
+  },
+  {
+   "start": 52.94,
+   "end": 56.541,
+   "text": "und zitternd vor Angst stammelst Du: \"Au Scheiße!"
+  },
+  {
+   "start": 56.634,
+   "end": 60.741,
+   "text": "Alles klar, Leute: Vergeßt das mit den geistvollen Texten und so..."
+  },
+  {
+   "start": 60.781,
+   "end": 61.781,
+   "text": "War nur'n blöder Witz!"
+  },
+  {
+   "start": 61.914,
+   "end": 63.221,
+   "text": "Alles in Ordnung, echt!\""
+  },
+  {
+   "start": 64.629,
+   "end": 68.821,
+   "text": "Doch gerade, bevor Du Dir vor Angst in Deine einzige Hose machen kannst,"
+  },
+  {
+   "start": 68.921,
+   "end": 74.261,
+   "text": "nimmt der Nebel, den Du eigentlich für eine dieser mysteriösen Wolken gehalten hast,"
+  },
+  {
+   "start": 74.288,
+   "end": 78.261,
+   "text": "durch die hier wohl jeder in himmlische Gefilde abkommandiert wird,"
+  },
+  {
+   "start": 78.325,
+   "end": 83.861,
+   "text": "menschliche Umrisse an - und vor Dir steht: BRUDER JACK!"
+  },
+  {
+   "start": 84.968,
+   "end": 88.661,
+   "text": "Er begrüßt Dich mit den Worten: \"Friede sei mit Dir, mein Sohn!\","
+  },
+  {
+   "start": 89.431,
+   "end": 95.301,
+   "text": "schaut dann auf Deine Beinkleider, grinst und fragt scheinheilig: \"Deine Hosen..."
+  },
+  {
+   "start": 95.341,
+   "end": 97.141,
+   "text": "Ähem: Alles in Ordnung?\""
+  }
+ ]
+}

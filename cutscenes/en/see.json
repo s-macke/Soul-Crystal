@@ -1,0 +1,142 @@
+{
+ "version": 3,
+ "duration": 57.653,
+ "hold": false,
+ "voice": "see.mp3",
+ "music": {
+  "path": "music/Amiga/02.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.642,
+   41.22
+  ],
+  [
+   41.753,
+   52.26
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskA-010",
+   "path": "Amiga_HD/Disk 2/DiskA-010",
+   "start": 0.0,
+   "end": 41.486,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "see-01",
+   "path": "Stories/see/see-01",
+   "start": 41.486,
+   "end": 57.653,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 2/DiskA-010",
+  "Stories/see/see-01"
+ ],
+ "cues": [
+  {
+   "start": 2.642,
+   "end": 6.82,
+   "text": "As you wade west along the muddy shore, the water gets colder and colder -"
+  },
+  {
+   "start": 6.9,
+   "end": 11.06,
+   "text": "and, logically, deeper and deeper the closer you get to the middle of the lake."
+  },
+  {
+   "start": 11.193,
+   "end": 14.18,
+   "text": "Until now you could more or less stand on the bottom,"
+  },
+  {
+   "start": 14.22,
+   "end": 18.82,
+   "text": "but now you simply have no other choice: you have to swim if you don't want to sink!"
+  },
+  {
+   "start": 19.61,
+   "end": 23.7,
+   "text": "\"So be it: whatever doesn't kill you makes you stronger!\", you think to yourself,"
+  },
+  {
+   "start": 23.757,
+   "end": 28.98,
+   "text": "splash a little water on your heroic chest and then throw yourself forward, defying death."
+  },
+  {
+   "start": 30.02,
+   "end": 30.58,
+   "text": "Uahhh!"
+  },
+  {
+   "start": 30.73,
+   "end": 34.74,
+   "text": "Despite the warm season, the water is already rather cool,"
+  },
+  {
+   "start": 34.76,
+   "end": 36.98,
+   "text": "but after a few seconds you get used to the temperature."
+  },
+  {
+   "start": 37.931,
+   "end": 41.22,
+   "text": "Actually quite pleasant here - only your rubber ducky is missing!"
+  },
+  {
+   "start": 41.753,
+   "end": 46.66,
+   "text": "As you make your first clumsy strokes, you also feel the strong current pulling you south,"
+  },
+  {
+   "start": 46.687,
+   "end": 49.78,
+   "text": "where a gigantic whirlpool drags everything into its deep"
+  },
+  {
+   "start": 49.82,
+   "end": 52.26,
+   "text": "maw that was careless enough to come within its reach."
+  }
+ ]
+}

@@ -1,0 +1,240 @@
+{
+ "version": 3,
+ "duration": 104.013,
+ "hold": false,
+ "voice": "mylgor_kaminzimmer.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.62,
+   12.86
+  ],
+  [
+   13.6,
+   48.388
+  ],
+  [
+   49.17,
+   98.877
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskB-003",
+   "path": "Amiga_HD/Disk 3/DiskB-003",
+   "start": 0.0,
+   "end": 13.23,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "mylgor_kaminzimmer-01",
+   "path": "Stories/mylgor/mylgor_kaminzimmer-01",
+   "start": 13.23,
+   "end": 48.779,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "mylgor_kaminzimmer-02",
+   "path": "Stories/mylgor/mylgor_kaminzimmer-02",
+   "start": 48.779,
+   "end": 104.013,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 3/DiskB-003",
+  "Stories/mylgor/mylgor_kaminzimmer-01",
+  "Stories/mylgor/mylgor_kaminzimmer-02"
+ ],
+ "cues": [
+  {
+   "start": 2.62,
+   "end": 6.22,
+   "text": "When you have handed the contract and the knife back to the man,"
+  },
+  {
+   "start": 6.28,
+   "end": 8.86,
+   "text": "his face disappears behind the hatch for a moment."
+  },
+  {
+   "start": 9.007,
+   "end": 12.86,
+   "text": "After a few seconds you hear the door being unlocked from inside."
+  },
+  {
+   "start": 13.6,
+   "end": 16.14,
+   "text": "\"Come in!\", says the man as he opens the door and"
+  },
+  {
+   "start": 16.193,
+   "end": 19.66,
+   "text": "leads you into a small but very cosy room with a fireplace."
+  },
+  {
+   "start": 19.9,
+   "end": 22.54,
+   "text": "He introduces himself as \"Mylgor,"
+  },
+  {
+   "start": 22.647,
+   "end": 26.62,
+   "text": "alchemist\" and right away shows you the room where you are to spend the night."
+  },
+  {
+   "start": 26.764,
+   "end": 31.1,
+   "text": "When you ask where he is going to sleep, if not there, he laughs heartily:"
+  },
+  {
+   "start": 31.828,
+   "end": 35.668,
+   "text": "\"Do you really think this little hut is big enough to live in for a scientist like me?"
+  },
+  {
+   "start": 35.988,
+   "end": 40.468,
+   "text": "No, no: this is only the room where my servant usually sleeps -"
+  },
+  {
+   "start": 40.521,
+   "end": 43.428,
+   "text": "he is running some errands for me in the next village at the moment."
+  },
+  {
+   "start": 43.588,
+   "end": 46.308,
+   "text": "My laboratory and the other rooms are..."
+  },
+  {
+   "start": 46.388,
+   "end": 46.708,
+   "text": "- hidden!"
+  },
+  {
+   "start": 46.895,
+   "end": 48.388,
+   "text": "It doesn't matter where...\""
+  },
+  {
+   "start": 49.17,
+   "end": 54.637,
+   "text": "Mylgor nervously strokes his goatee, but then forces himself back into his peculiar smile."
+  },
+  {
+   "start": 55.037,
+   "end": 57.837,
+   "text": "\"But I thought we wanted to talk about you -"
+  },
+  {
+   "start": 57.877,
+   "end": 61.997,
+   "text": "not about me...?\", he says, nodding towards the fireplace room,"
+  },
+  {
+   "start": 62.037,
+   "end": 64.317,
+   "text": "\"Let's chat for an hour by the warm fire,"
+  },
+  {
+   "start": 64.357,
+   "end": 67.117,
+   "text": "and maybe I'll tell you a little about the history of our village."
+  },
+  {
+   "start": 67.277,
+   "end": 71.917,
+   "text": "But first give me your wet things - otherwise you might catch your death...!\""
+  },
+  {
+   "start": 72.133,
+   "end": 75.117,
+   "text": "With a very queasy feeling in your stomach, you undress,"
+  },
+  {
+   "start": 75.147,
+   "end": 78.477,
+   "text": "keeping a close eye on the old alchemist all the time:"
+  },
+  {
+   "start": 78.517,
+   "end": 82.237,
+   "text": "who knows what kind of favour you are supposed to do for the old man?"
+  },
+  {
+   "start": 82.357,
+   "end": 85.037,
+   "text": "Wasn't there a greedy gleam in his eyes just now?"
+  },
+  {
+   "start": 85.25,
+   "end": 89.517,
+   "text": "To be safe, you glance at the door of your room: thank God!"
+  },
+  {
+   "start": 89.597,
+   "end": 90.957,
+   "text": "It can be locked!"
+  },
+  {
+   "start": 91.953,
+   "end": 95.517,
+   "text": "Embarrassed and unsure, you hand Mylgor your damp swimming trunks -"
+  },
+  {
+   "start": 95.557,
+   "end": 98.877,
+   "text": "but all he does is lay them by the fire to dry..."
+  }
+ ]
+}

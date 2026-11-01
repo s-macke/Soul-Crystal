@@ -1,0 +1,94 @@
+{
+ "version": 3,
+ "duration": 36.59,
+ "hold": false,
+ "voice": "firon_prophezeiung.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.572,
+   30.995
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "firon_prophezeiung-01",
+   "path": "Stories/firon/firon_prophezeiung-01",
+   "start": 0.0,
+   "end": 36.59,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  }
+ ],
+ "images": [
+  "Stories/firon/firon_prophezeiung-01"
+ ],
+ "cues": [
+  {
+   "start": 2.572,
+   "end": 4.11,
+   "text": "Es überrascht Firon ein wenig,"
+  },
+  {
+   "start": 4.15,
+   "end": 8.99,
+   "text": "daß Du nicht gleich kurzen Prozeß mit ihm machst, wie eigentlich mit Mylgor abgesprochen."
+  },
+  {
+   "start": 9.087,
+   "end": 12.27,
+   "text": "Nach einer kurzen Pause nickt er jedoch bedächtig:"
+  },
+  {
+   "start": 12.855,
+   "end": 15.555,
+   "text": "\"So erfüllt sich denn endlich die Prophezeiung...\","
+  },
+  {
+   "start": 15.619,
+   "end": 21.075,
+   "text": "sagt er, \"Wenn Du mich nun wirklich verschonen willst, werde ich Dir im Gegenzug verraten,"
+  },
+  {
+   "start": 21.115,
+   "end": 25.956,
+   "text": "wie Du die volle Wahrheit darüber herausfinden kannst, was in diesem Land passiert ist,"
+  },
+  {
+   "start": 25.995,
+   "end": 28.596,
+   "text": "und wer für all die Dinge verantwortlich ist,"
+  },
+  {
+   "start": 28.615,
+   "end": 30.995,
+   "text": "die Du teilweise vielleicht sogar schon gesehen hast...\""
+  }
+ ]
+}

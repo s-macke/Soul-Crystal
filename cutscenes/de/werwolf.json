@@ -1,0 +1,175 @@
+{
+ "version": 3,
+ "duration": 66.671,
+ "hold": false,
+ "voice": "werwolf.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.804,
+   23.78
+  ],
+  [
+   24.907,
+   49.92
+  ],
+  [
+   50.054,
+   61.6
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskB-027",
+   "path": "Amiga_HD/Disk 3/DiskB-027",
+   "start": 0.0,
+   "end": 24.343,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "werwolf-01",
+   "path": "Stories/werwolf/werwolf-01",
+   "start": 24.343,
+   "end": 49.987,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "DiskB-039",
+   "path": "Amiga_HD/Disk 3/DiskB-039",
+   "start": 49.987,
+   "end": 66.671,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 3/DiskB-027",
+  "Amiga_HD/Disk 3/DiskB-039",
+  "Stories/werwolf/werwolf-01"
+ ],
+ "cues": [
+  {
+   "start": 2.804,
+   "end": 2.98,
+   "text": "Himmel!"
+  },
+  {
+   "start": 3.247,
+   "end": 6.66,
+   "text": "Es ist wohl schon zu spät, um noch an Flucht zu denken:"
+  },
+  {
+   "start": 6.753,
+   "end": 9.46,
+   "text": "Starr vor Entsetzen mußt Du zusehen,"
+  },
+  {
+   "start": 9.48,
+   "end": 12.98,
+   "text": "wie sich hinter einem verwitterten Grabstein ein riesiger,"
+  },
+  {
+   "start": 13.026,
+   "end": 16.98,
+   "text": "schwarzer Schatten erhebt - nur einige Meter neben Dir!"
+  },
+  {
+   "start": 17.3,
+   "end": 23.78,
+   "text": "Zu keiner Bewegung fähig, mußt Du mit ansehen, wie er lautlos größer und größer wird..."
+  },
+  {
+   "start": 24.907,
+   "end": 29.68,
+   "text": "Plötzlich reißt die Wolkendecke, die den Vollmond für kurze Zeit verdeckt hatte,"
+  },
+  {
+   "start": 29.72,
+   "end": 33.2,
+   "text": "auseinander - und Du schreist in panischer Todesangst auf:"
+  },
+  {
+   "start": 33.413,
+   "end": 37.44,
+   "text": "Dein Gegner ist ein riesiger, grauer Werwolf,"
+  },
+  {
+   "start": 37.48,
+   "end": 40.72,
+   "text": "der siegesgewiß seine scharfen, gelben Zähne bleckt!"
+  },
+  {
+   "start": 41.013,
+   "end": 46.08,
+   "text": "Heiser fauchend und mit ausgestreckten Armen setzt er sich in Bewegung -"
+  },
+  {
+   "start": 46.12,
+   "end": 49.92,
+   "text": "Schritt für Schritt, denn er kennt keine Eile..."
+  },
+  {
+   "start": 50.054,
+   "end": 51.44,
+   "text": "Doch plötzlich bleibt er stehen!"
+  },
+  {
+   "start": 51.62,
+   "end": 56.0,
+   "text": "Für Bruchteile von Sekunden treffen sich Eure Blicke und Du spürst"
+  },
+  {
+   "start": 56.04,
+   "end": 61.6,
+   "text": "die Mordlust und den abgrundtiefen Haß, die in seinen Augen lodern..."
+  }
+ ]
+}

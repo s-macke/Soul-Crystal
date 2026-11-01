@@ -1,0 +1,13 @@
+# Erzähltext „Vor dem Burgtor“ (Teil C, Zargons Burgruine): Text 223 aus texts/C64/C1.md.
+# Wortlaut original; reine Wegbeschreibungen fehlen. Aufbau wie narration_de.txt.
+
+### burgtor Vor dem Burgtor
+
+## Disk 2/DiskC-012
+[ominous] Direkt vor Dir erhebt sich drohend und massig das massive Burgtor mit seinen eisernen Beschlägen. Hämisch scheint es auf Dich hinabzustarren - fast schon so, als ob es sagen wollte: [menacing] "Dich werde ich hier niemals wieder herauslassen...!", und prompt bekommst Du auch schon das leichte und unbestimmte, andererseits jedoch absolut nicht angenehme Gefühl, daß Du diesen Zugang zum Schloß tatsächlich nur ein einziges Mal durchschreiten wirst...
+
+## Disk 2/DiskC-014
+[serious] Noch hast Du ein wenig Zeit, Dir Dein Vorhaben reiflich zu überlegen - und wir sollten Dich fairerweise warnen, obwohl Du Dich eigentlich schon auf dem richtigen Weg zur Lösung Deiner Aufgabe befindest: Wenn Du es tatsächlich wagen solltest, dieses düstere Gemäuer entgegen allen unseren Warnungen zu betreten, so wird Dich dieses Spiel so lange nicht schlafen lassen, bis Du es endlich gelöst hast.
+
+##+ Stories/burgtor/burgtor-01
+[mischievously] Ich schlage daher vor, daß Du Dir erst einmal ein paar Fäßchen Kaffee auf Vorrat braust, ein paar Stangen Zigaretten kaufst - und Dir vor allen Dingen ein paar halbwegs intelligente Entschuldigungen für Deinen Boss ausdenkst!

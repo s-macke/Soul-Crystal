@@ -1,0 +1,142 @@
+{
+ "version": 3,
+ "duration": 49.776,
+ "hold": false,
+ "voice": "richard_bestimmung.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.534,
+   16.748
+  ],
+  [
+   17.312,
+   44.712
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskB-029",
+   "path": "Amiga_HD/Disk 3/DiskB-029",
+   "start": 0.0,
+   "end": 17.03,
+   "from": [
+    300.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    643.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "richard_bestimmung-01",
+   "path": "Stories/richard/richard_bestimmung-01",
+   "start": 17.03,
+   "end": 49.776,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 3/DiskB-029",
+  "Stories/richard/richard_bestimmung-01"
+ ],
+ "cues": [
+  {
+   "start": 2.534,
+   "end": 4.148,
+   "text": "The king nods in agreement."
+  },
+  {
+   "start": 4.468,
+   "end": 7.828,
+   "text": "\"You're right: We have no more time to lose!\","
+  },
+  {
+   "start": 7.881,
+   "end": 11.349,
+   "text": "he decides, \"The time has come to fight back,"
+  },
+  {
+   "start": 11.401,
+   "end": 16.748,
+   "text": "bring Zargon to justice and free the inhabitants of my kingdom from his tyranny!"
+  },
+  {
+   "start": 17.312,
+   "end": 18.548,
+   "text": "As you can see...\""
+  },
+  {
+   "start": 18.569,
+   "end": 22.308,
+   "text": "- he looks down sadly - \"...unfortunately my supernatural"
+  },
+  {
+   "start": 22.359,
+   "end": 26.228,
+   "text": "appearance no longer allows me to challenge Zargon personally"
+  },
+  {
+   "start": 26.288,
+   "end": 29.748,
+   "text": "and atone for the mischief he has brought on us all,"
+  },
+  {
+   "start": 29.788,
+   "end": 33.748,
+   "text": "but maybe you are strong and smart enough to at least try!"
+  },
+  {
+   "start": 34.206,
+   "end": 34.392,
+   "text": "No!"
+  },
+  {
+   "start": 34.532,
+   "end": 35.992,
+   "text": "Don't say anything now!"
+  },
+  {
+   "start": 36.132,
+   "end": 40.952,
+   "text": "Don't contradict me: This isn't just any job - it's your destiny!\""
+  },
+  {
+   "start": 41.8,
+   "end": 44.712,
+   "text": "King Richard looks at you with pleading eyes..."
+  }
+ ]
+}

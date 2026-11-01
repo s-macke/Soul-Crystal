@@ -1,0 +1,27 @@
+# Erzähltext „Der Werwolf“ (Teil B, Friedhof): Texte 252 und 280 aus texts/C64/B2.md.
+# Wortlaut original; reine Wegbeschreibungen fehlen. Aufbau wie narration_de.txt.
+
+### werwolf Der Werwolf
+
+## Disk 3/DiskB-027
+[terrified] Himmel! Es ist wohl schon zu spät, um noch an Flucht zu denken: Starr vor Entsetzen mußt Du zusehen, wie sich hinter einem verwitterten Grabstein ein riesiger, schwarzer Schatten erhebt - nur einige Meter neben Dir! Zu keiner Bewegung fähig, mußt Du mit ansehen, wie er lautlos größer und größer wird...
+
+## Stories/werwolf/werwolf-01
+Plötzlich reißt die Wolkendecke, die den Vollmond für kurze Zeit verdeckt hatte, auseinander - [screams] und Du schreist in panischer Todesangst auf: Dein Gegner ist ein riesiger, grauer Werwolf, der siegesgewiß seine scharfen, gelben Zähne bleckt! Heiser fauchend und mit ausgestreckten Armen setzt er sich in Bewegung - Schritt für Schritt, denn er kennt keine Eile...
+
+##+ Disk 3/DiskB-039
+[whispers] Doch plötzlich bleibt er stehen! Für Bruchteile von Sekunden treffen sich Eure Blicke und Du spürst die Mordlust und den abgrundtiefen Haß, die in seinen Augen lodern...
+
+### werwolf_kampf Der Kampf
+
+## Stories/werwolf/werwolf_kampf-01 pause=1.0
+[heroic] Bevor Dein untoter Gegner Gelegenheit zum Angriff bekommt, fichst Du mit einer gewandten Bewegung gegen seine Brust! Kurz bevor Deine Klinge jedoch ihr Ziel findet, läßt Du sie überraschend nach oben, gegen den Hals der Bestie, schwingen, wo sie eine klaffende, rauchende Wunde hinterläßt, ohne daß der Werwolf auch nur die geringste Chance gehabt hätte, Deinen wahrhaft mörderisch guten Hieb abzuwehren! Die untote Kreatur sinkt, schwer verwundet durch Deine geweihte Waffe, mit einem ungläubigen Blick in ihren Augen zu Boden und haucht ihr "Leben" aus. [smug] "K.O. wegen vorzeitigen Ablebens in der ersten Runde!" - selbstzufrieden steckst Du Dein Schwert zurück in die Scheide und pustest Dir über die Fingernägel, als Dir der Gedanke kommt, daß dies auch eine Finte sein könnte: Vorsichtig, und mit einer Hand den Schwertgriff fest umklammernd, kniest Du neben dem Wolfskörper nieder, um zu sehen, ob Dein Gegner wirklich tot ist... Deine Sorge war unbegründet: Dampfendes, grünliches Blut rinnt aus einer langen, weit aufklaffenden Wunde aus seiner Kehle.
+
+##+ Stories/werwolf/werwolf_kampf-02
+[worried] Etwas anderes, was Du allerdings auch sehen mußt, ist etwas rotes Blut, das an einer der Wolfsklauen klebt - und als Du Dich, von bösen Vorahnungen geplagt, untersuchst, kannst Du eine kleine, aber dennoch ziemlich tiefe Wunde an Deinem linken Bein erkennen, die der Wolf wohl noch im Fallen gerissen haben muß, und aus der nun - GRÜNES Blut sickert! [shocked] SCHEISSE! Jetzt, wo Du sie bemerkt hast, beginnt die Wunde höllisch zu brennen: Die Infektion hat begonnen, und es wird nur noch eine Frage der Zeit sein, bis auch Du beginnst, bei Vollmond zur Bestie zu werden!
+
+## Stories/werwolf/werwolf_kampf-03
+[sad] Während Du Dich resignierend auf einem der umgefallenen Grabsteine niederläßt, um über Dein ungewisses Schicksal nachzusinnen, verwandelt sich der Körper des Wolfes in den verwesenden Leichnam einer einst wohl einmal wunderschönen, jungen Frau, die dankbar zu Dir aufzublicken scheint!
+
+##+ Stories/werwolf/werwolf_kampf-04
+[whispers] Als Du sie berühren willst - zerfällt sie zu Staub...

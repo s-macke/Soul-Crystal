@@ -1,0 +1,266 @@
+{
+ "version": 3,
+ "duration": 97.22,
+ "hold": false,
+ "voice": "tagebuch.mp3",
+ "music": {
+  "path": "music/Amiga/13.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.63,
+   5.22
+  ],
+  [
+   5.46,
+   24.18
+  ],
+  [
+   25.305,
+   48.985
+  ],
+  [
+   50.089,
+   84.709
+  ],
+  [
+   85.491,
+   92.229
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskD-011",
+   "path": "Amiga_HD/Disk 4/DiskD-011",
+   "start": 0.0,
+   "end": 5.34,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "tagebuch-01",
+   "path": "Stories/tagebuch/tagebuch-01",
+   "start": 5.34,
+   "end": 24.742,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "tagebuch-02",
+   "path": "Stories/tagebuch/tagebuch-02",
+   "start": 24.742,
+   "end": 49.537,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  },
+  {
+   "image": "tagebuch-03",
+   "path": "Stories/tagebuch/tagebuch-03",
+   "start": 49.537,
+   "end": 85.1,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "DiskD-010",
+   "path": "Amiga_HD/Disk 4/DiskD-010",
+   "start": 85.1,
+   "end": 97.22,
+   "from": [
+    0.0,
+    0.0,
+    1345.8,
+    757.0
+   ],
+   "to": [
+    820.3,
+    24.8,
+    1257.7,
+    707.5
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 4/DiskD-010",
+  "Amiga_HD/Disk 4/DiskD-011",
+  "Stories/tagebuch/tagebuch-01",
+  "Stories/tagebuch/tagebuch-02",
+  "Stories/tagebuch/tagebuch-03"
+ ],
+ "cues": [
+  {
+   "start": 2.63,
+   "end": 5.22,
+   "text": "You begin to read the tower warden's tattered diary:"
+  },
+  {
+   "start": 5.46,
+   "end": 10.66,
+   "text": "it describes the siege of the castle from its earliest beginnings to its bitter end:"
+  },
+  {
+   "start": 10.68,
+   "end": 14.58,
+   "text": "the watchful tower warden had noticed the quarrels and power struggles between his"
+  },
+  {
+   "start": 14.66,
+   "end": 19.78,
+   "text": "master and Zargon long before King Richard would even have dared to think of a coup -"
+  },
+  {
+   "start": 19.8,
+   "end": 21.62,
+   "text": "but even the author of these lines would never"
+  },
+  {
+   "start": 21.652,
+   "end": 24.18,
+   "text": "have expected anything like what was yet to come!"
+  },
+  {
+   "start": 25.305,
+   "end": 28.905,
+   "text": "Richard's ghost really did not gloss over anything:"
+  },
+  {
+   "start": 28.932,
+   "end": 33.705,
+   "text": "while his body was already lying cold and twisted on the floor of Zargon's chamber,"
+  },
+  {
+   "start": 33.785,
+   "end": 36.745,
+   "text": "Zargon had all the former followers of the fallen ruler"
+  },
+  {
+   "start": 36.825,
+   "end": 39.945,
+   "text": "herded together like cattle in the castle courtyard,"
+  },
+  {
+   "start": 39.958,
+   "end": 45.465,
+   "text": "where he gave them the choice of either serving him or following their king into death -"
+  },
+  {
+   "start": 45.485,
+   "end": 48.985,
+   "text": "and at this point the notes suddenly end..."
+  },
+  {
+   "start": 50.089,
+   "end": 52.469,
+   "text": "You feel a cold rage rising in you,"
+  },
+  {
+   "start": 52.515,
+   "end": 57.749,
+   "text": "crying out for revenge and retribution, but at the same time desperate helplessness,"
+  },
+  {
+   "start": 57.802,
+   "end": 60.469,
+   "text": "as you close the small leather-bound book again,"
+  },
+  {
+   "start": 60.501,
+   "end": 64.229,
+   "text": "just so you don't have to keep staring at its abrupt ending..."
+  },
+  {
+   "start": 64.3,
+   "end": 68.949,
+   "text": "At the very moment a thick grey cloud of dust rises from the yellowed pages,"
+  },
+  {
+   "start": 68.989,
+   "end": 71.989,
+   "text": "you hear lightning strike the main tower outside,"
+  },
+  {
+   "start": 72.029,
+   "end": 74.869,
+   "text": "bathing the room for a split second in its ghostly,"
+  },
+  {
+   "start": 74.949,
+   "end": 78.549,
+   "text": "pale light and shaking the building to its foundations -"
+  },
+  {
+   "start": 78.602,
+   "end": 81.349,
+   "text": "as if a gigantic iron fist wanted to wipe out"
+  },
+  {
+   "start": 81.381,
+   "end": 84.709,
+   "text": "this breeding ground of evil once and for all!"
+  },
+  {
+   "start": 85.491,
+   "end": 88.229,
+   "text": "It must have been much like this on that fateful night,"
+  },
+  {
+   "start": 88.245,
+   "end": 92.229,
+   "text": "when the loyal tower warden stood by his master for the very last time..."
+  }
+ ]
+}

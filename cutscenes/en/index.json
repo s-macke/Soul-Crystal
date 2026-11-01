@@ -1,0 +1,197 @@
+[
+ {
+  "id": "credits",
+  "title": "Credits",
+  "timeline": "credits.json"
+ },
+ {
+  "id": "cast",
+  "title": "Cast",
+  "timeline": "cast.json"
+ },
+ {
+  "id": "intro",
+  "title": "The story",
+  "timeline": "intro.json"
+ },
+ {
+  "id": "sage",
+  "title": "The legend of the sunken city",
+  "timeline": "sage.json"
+ },
+ {
+  "id": "see",
+  "title": "In the lake",
+  "timeline": "see.json"
+ },
+ {
+  "id": "wasserfall",
+  "title": "In front of the waterfall",
+  "timeline": "wasserfall.json"
+ },
+ {
+  "id": "fremde_welt",
+  "title": "Behind the waterfall",
+  "timeline": "fremde_welt.json"
+ },
+ {
+  "id": "ufer",
+  "title": "On the other shore",
+  "timeline": "ufer.json"
+ },
+ {
+  "id": "einhorn_kampf",
+  "title": "Wolf and unicorn",
+  "timeline": "einhorn_kampf.json"
+ },
+ {
+  "id": "einhorn_gerettet",
+  "title": "The rescued unicorn",
+  "timeline": "einhorn_gerettet.json"
+ },
+ {
+  "id": "kristallkugel",
+  "title": "The crystal ball",
+  "timeline": "kristallkugel.json"
+ },
+ {
+  "id": "mylgor_tuer",
+  "title": "At Mylgor's door",
+  "timeline": "mylgor_tuer.json"
+ },
+ {
+  "id": "mylgor_vertrag",
+  "title": "The contract in blood",
+  "timeline": "mylgor_vertrag.json"
+ },
+ {
+  "id": "mylgor_kaminzimmer",
+  "title": "By the fireplace",
+  "timeline": "mylgor_kaminzimmer.json"
+ },
+ {
+  "id": "mylgor_nacht",
+  "title": "The night",
+  "timeline": "mylgor_nacht.json"
+ },
+ {
+  "id": "mylgor_auftrag",
+  "title": "The mission",
+  "timeline": "mylgor_auftrag.json"
+ },
+ {
+  "id": "firon_thron",
+  "title": "Firon awaits death",
+  "timeline": "firon_thron.json"
+ },
+ {
+  "id": "firon_prophezeiung",
+  "title": "The prophecy",
+  "timeline": "firon_prophezeiung.json"
+ },
+ {
+  "id": "firon_schluessel",
+  "title": "Firon's key",
+  "timeline": "firon_schluessel.json"
+ },
+ {
+  "id": "jack_geist",
+  "title": "Brother Jack's ghost",
+  "timeline": "jack_geist.json"
+ },
+ {
+  "id": "jack_auftrag",
+  "title": "Jack's errand",
+  "timeline": "jack_auftrag.json"
+ },
+ {
+  "id": "richard_erscheint",
+  "title": "King Richard appears",
+  "timeline": "richard_erscheint.json"
+ },
+ {
+  "id": "richard_geschichte",
+  "title": "King Richard's story",
+  "timeline": "richard_geschichte.json"
+ },
+ {
+  "id": "richard_bestimmung",
+  "title": "Your destiny",
+  "timeline": "richard_bestimmung.json"
+ },
+ {
+  "id": "richard_zauberspruch",
+  "title": "The spell",
+  "timeline": "richard_zauberspruch.json"
+ },
+ {
+  "id": "richard_abschied",
+  "title": "Richard's farewell",
+  "timeline": "richard_abschied.json"
+ },
+ {
+  "id": "werwolf",
+  "title": "The werewolf",
+  "timeline": "werwolf.json"
+ },
+ {
+  "id": "werwolf_kampf",
+  "title": "The fight",
+  "timeline": "werwolf_kampf.json"
+ },
+ {
+  "id": "mylgor_labor",
+  "title": "Mylgor's secret laboratory",
+  "timeline": "mylgor_labor.json"
+ },
+ {
+  "id": "mylgor_explosion",
+  "title": "The explosion",
+  "timeline": "mylgor_explosion.json"
+ },
+ {
+  "id": "mylgor_ende",
+  "title": "Mylgor's end",
+  "timeline": "mylgor_ende.json"
+ },
+ {
+  "id": "burgtor",
+  "title": "Before the castle gate",
+  "timeline": "burgtor.json"
+ },
+ {
+  "id": "tagebuch",
+  "title": "The tower warden's diary",
+  "timeline": "tagebuch.json"
+ },
+ {
+  "id": "vollmond",
+  "title": "Full moon",
+  "timeline": "vollmond.json"
+ },
+ {
+  "id": "zargon",
+  "title": "Zargon",
+  "timeline": "zargon.json"
+ },
+ {
+  "id": "seelenkristall",
+  "title": "The soul crystal",
+  "timeline": "seelenkristall.json"
+ },
+ {
+  "id": "zepter",
+  "title": "The sceptre",
+  "timeline": "zepter.json"
+ },
+ {
+  "id": "quelle",
+  "title": "The spring",
+  "timeline": "quelle.json"
+ },
+ {
+  "id": "gate",
+  "title": "The portal gate",
+  "timeline": "gate.json"
+ }
+]

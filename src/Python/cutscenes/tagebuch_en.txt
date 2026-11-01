@@ -1,0 +1,20 @@
+# Narration "The tower warden's diary" (part D, tower warden's house): text 300
+# from texts/C64_en/C2.md, smoothed for speech. Images and options as in
+# narration_en.txt.
+
+### tagebuch The tower warden's diary
+
+## Disk 4/DiskD-011
+[serious] You begin to read the tower warden's tattered diary:
+
+##+ Stories/tagebuch/tagebuch-01
+it describes the siege of the castle from its earliest beginnings to its bitter end: the watchful tower warden had noticed the quarrels and power struggles between his master and Zargon long before King Richard would even have dared to think of a coup - but even the author of these lines would never have expected anything like what was yet to come!
+
+##+ Stories/tagebuch/tagebuch-02
+[grim] Richard's ghost really did not gloss over anything: while his body was already lying cold and twisted on the floor of Zargon's chamber, Zargon had all the former followers of the fallen ruler herded together like cattle in the castle courtyard, where he gave them the choice of either serving him or following their king into death - and at this point the notes suddenly end...
+
+## Stories/tagebuch/tagebuch-03 pause=1.0
+[angry] You feel a cold rage rising in you, crying out for revenge and retribution, but at the same time desperate helplessness, as you close the small leather-bound book again, just so you don't have to keep staring at its abrupt ending... [dramatic] At the very moment a thick grey cloud of dust rises from the yellowed pages, you hear lightning strike the main tower outside, bathing the room for a split second in its ghostly, pale light and shaking the building to its foundations - as if a gigantic iron fist wanted to wipe out this breeding ground of evil once and for all!
+
+##+ Disk 4/DiskD-010
+[sad] It must have been much like this on that fateful night, when the loyal tower warden stood by his master for the very last time...

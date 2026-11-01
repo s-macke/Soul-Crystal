@@ -1,0 +1,167 @@
+{
+ "version": 3,
+ "duration": 76.029,
+ "hold": false,
+ "voice": "mylgor_ende.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   3.036,
+   27.276
+  ],
+  [
+   27.916,
+   71.052
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskB-032",
+   "path": "Amiga_HD/Disk 3/DiskB-032",
+   "start": 0.0,
+   "end": 27.596,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "mylgor_ende-01",
+   "path": "Stories/mylgor/mylgor_ende-01",
+   "start": 27.596,
+   "end": 76.029,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 3/DiskB-032",
+  "Stories/mylgor/mylgor_ende-01"
+ ],
+ "cues": [
+  {
+   "start": 3.036,
+   "end": 7.196,
+   "text": "Hastily you lock the laboratory door with the key from Mylgor's study and,"
+  },
+  {
+   "start": 7.249,
+   "end": 10.46,
+   "text": "to your relief, hear the huge special lock"
+  },
+  {
+   "start": 10.572,
+   "end": 14.293,
+   "text": "close with a soft click - not a second too soon:"
+  },
+  {
+   "start": 14.35,
+   "end": 16.676,
+   "text": "at the very moment you turn the key,"
+  },
+  {
+   "start": 16.736,
+   "end": 21.196,
+   "text": "a terrible explosion in the laboratory shakes the whole house to its foundations -"
+  },
+  {
+   "start": 21.236,
+   "end": 27.276,
+   "text": "but luckily the massive and wisely locked door keeps the worst of the blast away from you!"
+  },
+  {
+   "start": 27.916,
+   "end": 32.284,
+   "text": "Plaster trickles from the ceiling, the floor and the walls tremble threateningly -"
+  },
+  {
+   "start": 32.348,
+   "end": 35.08,
+   "text": "and suddenly everything goes very quiet:"
+  },
+  {
+   "start": 35.167,
+   "end": 40.476,
+   "text": "only the crackling of the flames licking at the laboratory door can still be heard..."
+  },
+  {
+   "start": 40.536,
+   "end": 42.756,
+   "text": "When the dust has settled after a while,"
+  },
+  {
+   "start": 42.796,
+   "end": 45.98,
+   "text": "you look around: the laboratory door is still locked -"
+  },
+  {
+   "start": 46.044,
+   "end": 49.916,
+   "text": "only black smoke is seeping out of small cracks in its frame..."
+  },
+  {
+   "start": 50.656,
+   "end": 54.456,
+   "text": "You send a prayer of thanks to heaven for having survived the explosion unharmed -"
+  },
+  {
+   "start": 54.908,
+   "end": 57.653,
+   "text": "in stark contrast to Mylgor, by the way,"
+  },
+  {
+   "start": 57.707,
+   "end": 62.16,
+   "text": "who is now probably spread more or less evenly over the entire laboratory..."
+  },
+  {
+   "start": 63.382,
+   "end": 64.455,
+   "text": "WELL DONE: BONUS AWARDED!"
+  },
+  {
+   "start": 64.462,
+   "end": 66.881,
+   "text": "...NOW PREPARE FOR NEXT STAGE..."
+  },
+  {
+   "start": 68.001,
+   "end": 71.052,
+   "text": "Ahem: just kidding...!"
+  }
+ ]
+}

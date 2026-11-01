@@ -1,0 +1,29 @@
+# Erzähltext „Firons Wahrheit“ (Teil B, Eispalast): Texte 353–355 aus texts/C64/B2.md.
+# Wortlaut original; reine Wegbeschreibungen fehlen. Aufbau wie narration_de.txt.
+
+### firon_thron Firon erwartet den Tod
+
+## Stories/firon/firon_thron-01
+[solemn] Der alte Elfenkönig erhebt sich von seinem Thron: "Ich wußte, daß Du eines Tages kommen und den Befehl Deines Herren erfüllen würdest. Nun tu Deine Pflicht und vernichte auch noch den letzten Sproß eines edlen Geschlechts - ich werde mich nicht wehren! So lange habe ich auf diesen Augenblick gewartet, und es wird Zeit, daß wir es hinter uns bringen...", [sad] antwortet er Dir mit sanfter Stimme, in deren Melodie so etwas wie Melancholie und Resignation mitschwingt...
+
+### firon_prophezeiung Die Prophezeiung
+
+## Stories/firon/firon_prophezeiung-01 pause=1.0
+[surprised] Es überrascht Firon ein wenig, daß Du nicht gleich kurzen Prozeß mit ihm machst, wie eigentlich mit Mylgor abgesprochen. Nach einer kurzen Pause nickt er jedoch bedächtig: [solemn] "So erfüllt sich denn endlich die Prophezeiung...", sagt er, "Wenn Du mich nun wirklich verschonen willst, werde ich Dir im Gegenzug verraten, wie Du die volle Wahrheit darüber herausfinden kannst, was in diesem Land passiert ist, und wer für all die Dinge verantwortlich ist, die Du teilweise vielleicht sogar schon gesehen hast..."
+
+### firon_schluessel Firons Schlüssel
+
+## Disk 3/DiskB-024 focus=600,0,2079,756
+[warmly] Firon antwortet: "Um Dir zu beweisen, daß ich auf Deiner Seite stehe, werde ich Dir einen Schlüssel geben, dessen Zweck Dir später sicherlich noch erklärt wird. Es liegt leider nicht in meiner Befugnis, es Dir persönlich zu sagen, aber es gibt jemanden... -jemanden in dem alten Kloster auf dem Hügel im Nordosten des Landes, den Du finden solltest. Wir beide waren Mitglieder einer Lobby, die sich im Geheimen mit den Problemen des Landes beschäftigt hat, nachdem das Böse die Oberhand gewonnen hatte. Bedauerlicherweise..."
+
+##+ Stories/firon/firon_schluessel-04
+[sad] - bei diesen Worten seufzt er und blickt für einen kurzen Moment geistesabwesend an Dir vorbei in die kalte Leere - "Bedauerlicherweise schaffte er es nicht mehr, zu uns in diese Wüste zu fliehen, so daß er den Häschern des Bösen in die Hände fiel... Ich habe ihn und das Kloster, das uns damals als geheimes Hauptquartier diente, nie mehr wiedergesehen: Alles, was mir blieb, war ein Schlüssel, dessen Abdruck ich in magischem Eis gegossen und seit Jahrzehnten aufbewahrt habe. Möge er Dir auf Deiner Suche behilflich sein..."
+
+##+ Stories/firon/firon_schluessel-01
+Mit diesen Worten steht Firon auf, holt einen großen Schlüssel aus einem Geheimfach in seinem Thron
+
+##+ Stories/firon/firon_schluessel-02
+und legt ihn Dir vorsichtig in die ausgestreckte Hand. [warmly] Mit einem Blick auf das Portal hinter Dir fügt er hinzu: "Meine Wachen werden Dich passieren lassen. Ich werde sie anweisen, einen meiner schnellsten Dachsschlitten für Deine Rückkehr zum Rand der Eisregionen bereit zu machen. Leb' wohl, mein Freund - und mögen die Götter Dich schützen..."
+
+##+ Stories/firon/firon_schluessel-03
+Mit diesen Worten winkt Firon den Yeti heran, der Dich nach draußen geleitet, wo Firons Schlitten schon auf Dich wartet...

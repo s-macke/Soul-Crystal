@@ -1,0 +1,31 @@
+# Erzähltext „Der Sprung durch den Wasserfall“ (Teil A, See): Texte 218, 220–222 aus texts/C64/B1.md.
+# Wortlaut original; reine Wegbeschreibungen fehlen. Aufbau wie narration_de.txt.
+
+### see Im See
+
+## Disk 2/DiskA-010
+[cheerful] Während Du auf dem schlickigen Uferboden nach Westen watest, wird das Wasser kälter und kälter - und logischerweise auch tiefer und tiefer, je mehr Du Dich der Mitte des Sees näherst. Bis jetzt war es ja noch einigermaßen möglich, auf dem Grund des Sees zu stehen, aber nun bleibt Dir einfach keine andere Wahl: Du mußt schwimmen, wenn Du nicht untergehen willst!
+
+##+ Stories/see/see-02
+[heroic] "Sei's drum: Gelobt sei, was hart macht!", denkst Du Dir, besprenkelst kurz Deine Heldenbrust und wirfst Dich dann mit Todesverachtung der Länge nach nach vorn. [gasps] Uahhh! Das Wasser ist trotz der warmen Jahreszeit schon ziemlich kühl, aber nach einigen Sekunden hast Du Dich an die Temperatur gewöhnt. [amused] Eigentlich doch ganz angenehm hier - nur Dein Quietscheentchen fehlt noch!
+
+##+ Stories/see/see-01
+[worried] Als Du die ersten unbeholfenen Schwimmzüge machst, fühlst Du auch die starke Strömung, die Dich nach Süden zieht, wo ein gigantischer Strudel alles in seinen tiefen Schlund zerrt, was unvorsichtig genug war, in seine Reichweite zu kommen.
+
+### wasserfall Vor dem Wasserfall
+
+## Disk 2/DiskA-009
+[curious] Du schwimmst direkt vor dem Wasserfall im Nordwesten des Bergsees. Während Du bemüht bist, nicht von der Strömung abgedriftet zu werden, überlegst Du, was wohl hinter ihm versteckt sein mag...
+
+### fremde_welt Hinter dem Wasserfall
+
+## Disk 2/DiskA-012 pause=1.0
+[dazed] Immer noch recht benommen von dem harten Schlag, den Dir der Wasserfall versetzt hat, versuchst Du Dich mit leichten, jedoch noch recht linkischen Schwimmzügen über der Wasseroberfläche zu halten, doch plötzlich stutzt Du und hältst inne - so daß Du erst einmal wieder für einen Moment untergehst und Wasser schluckst!
+
+##+ Stories/fremde_welt/fremde_welt-01
+[shocked] Als Du wieder auftauchst, trifft Dich der Schlag: Du scheinst nach wie vor auf der südlichen Seite des Wasserfalls zu paddeln! Für diese Tatsache allein liesse sich ja sogar noch irgendwie eine plausible Erklärung finden, zumal Du unter Wasser eine kurze Zeit die Orientierung verloren hattest, so daß Du sie akzeptieren könntest, wenn, wenn... -wenn sich dort am Seeufer noch Dein Dorf befände! [panicked] Aber es scheint wie vom Erdboden verschluckt zu sein! Statt der kleinen Siedlung befindet sich am Ufer ein tiefer, dunkler Wald mit Bäumen, die Du in Deinem ganzen Leben noch nie gesehen hast! [thoughtful] In Dir kommt der Verdacht auf, daß Du durch den Wasserfall vielleicht in eine parallel zu der Deinigen existierende Welt gelangt sein könntest, so wie in diesen beknackten Adventures zuhause auf Deinem Computer. [dramatic] Nur: DAS hier ist die Realität! Und wo zum Teufel bist Du hier gelandet?
+
+### ufer Am anderen Ufer
+
+## Disk 2/DiskA-013
+[calm] Du betrittst das Ufer, von wo aus das Grollen des Wasserfalls in der südwestlichen Ecke des Bergsees immer noch zu hören ist. Die Natur sieht hier irgendwie viel sauberer und unberührter aus als auf der Seite, von der aus Du den See zum ersten Mal betreten hast - Du weißt schon nicht einmal mehr, wie lange das schon zurückliegt! [wistful] Nichtsdestotrotz beginnst Du diese Welt langsam zu mögen, obwohl Du nicht genau weißt, wo Dich Deine Eltern wohl vermuten werden, wenn Du Dich heute abend nicht zuhause meldest. [dry] Es bedarf aber trotzdem keiner allzu großen Fantasiebegabung, sich auszurechnen, daß dies bis zu Deiner Volljährigkeit wohl erst mal Deine letzten "Solo-Ferien" gewesen sein dürften...

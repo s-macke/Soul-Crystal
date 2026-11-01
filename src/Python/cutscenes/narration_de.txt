@@ -1,0 +1,49 @@
+# Erzähltext für das deutsche Introvideo, Quelle: texts/C64/story.txt.
+# "## <Bild>" beginnt einen Abschnitt; das Bild liegt in images/Amiga_HD/Disk 1/.
+# Eckige Klammern sind eleven_v3-Regieanweisungen und erscheinen nicht im Untertitel.
+# Der Wortlaut folgt dem Original; Auslassungspunkte und Gedankenstriche setzen Pausen.
+# pause=<s> setzt vor einem Abschnitt eine eigene Stille statt der Standardpause.
+
+### intro Vorgeschichte
+
+## Stories/intro/intro-01
+[smug] "Endlich da! War doch gar nicht so schwer, wie ich anfangs angenommen hatte!"... denkst Du Dir, als Du den Bus verläßt, der Dich vom Bahnhof des Nachbarortes zu Deinem Hotel gebracht hat.
+
+## Story1-02
+[proudly] Du hast es also tatsächlich geschafft, den nervenden Ratschlägen Deiner Eltern für die nächsten Tage und Wochen zu entkommen... [laughs softly] Daran hast Du niemals geglaubt... [mock dramatic] bevor Du nicht irgendwann einmal - nahe am Rande des Nervenzusammenbruchs - von zuhause ausgezogen wärest...
+
+## Story1-03
+Während Du die Straße entlangschlenderst, denkst Du an die Abreise zurück... [sarcastic] an Deine ach so besorgten Eltern, die Dir sogar noch am Bahnhof durch das Abteilfenster hindurch kluge Ratschläge gegeben haben... [annoyed] und Dir mit ihrem permanenten Gerede und ihrer grenzenlosen Schwarzmalerei mal wieder gehörig auf die Nerven gingen... [exasperated] "Was haben die bloß?... [indignant] Ich bin immerhin siebzehn! Da bin ich fast schon alt genug, um zu heiraten! [whiny] Wieso sollte ich dann denn nicht auch in der Lage sein, meine Ferien allein zu verbringen?"
+
+## Story2-01
+[deadpan] Siebzehn Jahre... Und dreizehn davon hast Du jedes Jahr zur selben Zeit in diesem öden französischen Kaff verbracht... [sighs] mit Deinen Eltern, [sarcastic] die es sich aus purem Verantwortungsbewußtsein nicht nehmen lassen wollten, jeden einzelnen Deiner Schritte höchstpersönlich zu überwachen!
+
+## Story2-02
+[determined] "Jetzt reicht es mir aber!"... sagtest Du Dir eines Tages, [mock polite] und teiltest Deinen Eltern in der Dir zueigenen Höflichkeit mit, daß Du nicht gedächtest, einen weiteren Urlaub mit ihnen zwischen all diesen Scheintoten in diesem französischen "Kurort" zu verbringen... [chuckles] Du kannst Dich nur zu gut an die entsetzten Gesichter Deiner Eltern erinnern, [mock dramatic] als ihr Sohnemann es doch tatsächlich einmal wagte, seinen Willen durchzusetzen.
+
+## Story2-03
+Auch heute hast Du noch die Scheinargumente Deines Vaters im Ohr, die er in den endlosen Diskussionen vorbrachte... [sighs] Vor allem in den letzten beiden Monaten schienen diese Auseinandersetzungen überhaupt kein Ende mehr nehmen zu wollen... [triumphant] aber immerhin hast Du Dich ja letztlich doch durchsetzen können! [mischievously] Naja... Du mußt Dir zwar leicht schmunzelnd eingestehen, daß Du in den letzten Wochen eigentlich schon mit dem Gedanken gespielt hast, während der Abwesenheit Deiner Eltern zuhause zu bleiben
+
+##+ Stories/intro/intro-02
+[whispers] und eine Riesenparty zu geben...
+
+##+ Story2-03
+Aber Dir wurde dann doch klar, daß Du letztlich doch gezwungen warst, zu verreisen... [proudly] Schon allein deshalb, um Deinen Eltern mal zu zeigen, wer der "Herr im Hause" ist!
+
+## Story3-01
+So... und jetzt bist Du hier. [inhales deeply] Du atmest tief die frische, saubere Luft ein und schaust Dich um... [excited] "Jawoll! Das ist genau der richtige Ort für Jung-Genies wie Dich, [mock dramatic] um sich von den vielen, vielen Strapazen ihres stressigen Alltags erholen zu können." [dreamy] So ist also das Erwachsenenleben... Du bist völlig frei. [deadpan] Zwar nur für ein paar Wochen... [cheerful] aber eben immerhin frei! Und das ist im Moment das einzige, was für Dich zählt.
+
+## Story3-02
+[mischievously] Nun kannst Du tun, was Du willst... und nicht zuletzt... trinken, was Du willst. [dry] Naja... und wenn Dein Urlaub dann wieder vorüber ist, wirst Du hoffentlich erholt und gestärkt genug sein, [sarcastic] um auch noch die paar Monate bis zu Deiner Volljährigkeit zuhause überleben zu können.
+
+## Story3-03
+[cheerful] Glücklich und voller Tatendrang... den man von Dir zu Schulzeiten zumindest nicht gewohnt ist... betrittst Du also Dein Hotel, klingelst an der Rezeption nach dem Portier und läßt Dir nach Eintragung ins Gästebuch Deinen Zimmerschlüssel geben.
+
+## Story4-01
+Du schleppst Dein Gepäck auf Dein Zimmer und beginnst mit dem Auspacken, als Dein Blick zufällig auf das Zifferblatt Deiner Armbanduhr fällt... [surprised] es ist schon halb sieben! ... Und Du wolltest Dir doch eigentlich noch Loch Calderwood ansehen, [mysterious] über das der alte Mann, den Du während der Busfahrt kennengelernt hast, so viele Legenden zu erzählen hatte.
+
+## Story4-02
+Also läßt Du Deine Sachen zunächst einmal so liegen wie sie sind, verschließt die Zimmertür hinter Dir und gibst den Schlüssel an der Rezeption ab, um vor dem Abendessen noch einmal einen kurzen Blick auf die Landschaft werfen zu können... [smug] Schließlich willst Du Deiner Mutter ja etwas erzählen können, wenn Du ihr nachher Deine Ankunft meldest... [sarcastic] wäre ja schließlich noch schöner, wenn sie jetzt schon wieder Angst haben müßte, [mock worried] daß ihr kleiner Junge womöglich den falschen Bus genommen hat [mock dramatic] und nun einsam und verlassen durch Schottlands Botanik tigert.
+
+## Story4-03 pause=1.0
+[wistful] Als Du aus der Hotellobby wieder auf die staubige Straße hinaustrittst... um Dich auf die Suche nach dem sagenumwobenen Bergsee zu machen... [whispers] kannst Du schon das warme... rotgoldene Licht... der untergehenden Abendsonne... auf Deinem Gesicht spüren...

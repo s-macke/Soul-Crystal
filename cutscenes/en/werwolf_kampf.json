@@ -1,0 +1,273 @@
+{
+ "version": 3,
+ "duration": 113.986,
+ "hold": false,
+ "voice": "werwolf_kampf.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.635,
+   56.846
+  ],
+  [
+   57.671,
+   89.576
+  ],
+  [
+   91.022,
+   104.755
+  ],
+  [
+   105.61,
+   109.002
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "werwolf_kampf-01",
+   "path": "Stories/werwolf/werwolf_kampf-01",
+   "start": 0.0,
+   "end": 57.258,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  },
+  {
+   "image": "werwolf_kampf-02",
+   "path": "Stories/werwolf/werwolf_kampf-02",
+   "start": 57.258,
+   "end": 90.299,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "werwolf_kampf-03",
+   "path": "Stories/werwolf/werwolf_kampf-03",
+   "start": 90.299,
+   "end": 105.183,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  },
+  {
+   "image": "werwolf_kampf-04",
+   "path": "Stories/werwolf/werwolf_kampf-04",
+   "start": 105.183,
+   "end": 113.986,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  }
+ ],
+ "images": [
+  "Stories/werwolf/werwolf_kampf-01",
+  "Stories/werwolf/werwolf_kampf-02",
+  "Stories/werwolf/werwolf_kampf-03",
+  "Stories/werwolf/werwolf_kampf-04"
+ ],
+ "cues": [
+  {
+   "start": 2.635,
+   "end": 5.085,
+   "text": "Before your undead opponent gets a chance to attack,"
+  },
+  {
+   "start": 5.126,
+   "end": 7.405,
+   "text": "you lunge at its chest with a deft movement!"
+  },
+  {
+   "start": 7.605,
+   "end": 10.526,
+   "text": "But just before your blade finds its target,"
+  },
+  {
+   "start": 10.566,
+   "end": 14.045,
+   "text": "you surprisingly swing it upwards, against the beast's throat,"
+  },
+  {
+   "start": 14.072,
+   "end": 16.685,
+   "text": "where it leaves a gaping, smoking wound,"
+  },
+  {
+   "start": 16.725,
+   "end": 20.925,
+   "text": "without the werewolf having the slightest chance of parrying your truly murderous blow!"
+  },
+  {
+   "start": 21.145,
+   "end": 25.486,
+   "text": "The undead creature, badly wounded by your consecrated weapon,"
+  },
+  {
+   "start": 25.552,
+   "end": 30.126,
+   "text": "sinks to the ground with a look of disbelief in its eyes and breathes out its \"life\"."
+  },
+  {
+   "start": 30.901,
+   "end": 33.326,
+   "text": "\"Knocked out by premature death in the first round!\""
+  },
+  {
+   "start": 33.566,
+   "end": 38.285,
+   "text": "- smugly you put your sword back into its sheath and blow on your fingernails,"
+  },
+  {
+   "start": 38.317,
+   "end": 41.486,
+   "text": "when it occurs to you that this could also be a trick:"
+  },
+  {
+   "start": 41.541,
+   "end": 45.326,
+   "text": "carefully, one hand firmly gripping the hilt of your sword,"
+  },
+  {
+   "start": 45.365,
+   "end": 50.046,
+   "text": "you kneel down next to the wolf's body to see whether your opponent is really dead..."
+  },
+  {
+   "start": 50.078,
+   "end": 52.686,
+   "text": "Your worry was unfounded: steaming,"
+  },
+  {
+   "start": 52.766,
+   "end": 56.846,
+   "text": "greenish blood is running from a long, gaping wound in its throat."
+  },
+  {
+   "start": 57.671,
+   "end": 59.731,
+   "text": "But something else you have to see is a"
+  },
+  {
+   "start": 59.754,
+   "end": 62.93,
+   "text": "little red blood sticking to one of the wolf's claws -"
+  },
+  {
+   "start": 62.951,
+   "end": 66.85,
+   "text": "and when you examine yourself, plagued by dark forebodings,"
+  },
+  {
+   "start": 66.87,
+   "end": 70.691,
+   "text": "you discover a small but rather deep wound on your left leg,"
+  },
+  {
+   "start": 70.718,
+   "end": 76.531,
+   "text": "which the wolf must have torn while falling, and from which - GREEN blood is now oozing!"
+  },
+  {
+   "start": 77.335,
+   "end": 77.816,
+   "text": "CRAP!"
+  },
+  {
+   "start": 77.975,
+   "end": 83.815,
+   "text": "Now that you have noticed it, the wound starts to burn like hell: the infection has begun,"
+  },
+  {
+   "start": 83.835,
+   "end": 86.215,
+   "text": "and it will only be a matter of time before you,"
+  },
+  {
+   "start": 86.275,
+   "end": 89.576,
+   "text": "too, start turning into a beast at full moon!"
+  },
+  {
+   "start": 91.022,
+   "end": 93.156,
+   "text": "As you sit down, resigned,"
+  },
+  {
+   "start": 93.182,
+   "end": 97.156,
+   "text": "on one of the fallen gravestones to brood over your uncertain fate,"
+  },
+  {
+   "start": 97.176,
+   "end": 100.276,
+   "text": "the wolf's body turns into the decaying corpse of"
+  },
+  {
+   "start": 100.307,
+   "end": 102.996,
+   "text": "what must once have been a beautiful young woman,"
+  },
+  {
+   "start": 103.035,
+   "end": 104.755,
+   "text": "who seems to look up at you gratefully!"
+  },
+  {
+   "start": 105.61,
+   "end": 109.002,
+   "text": "When you try to touch her - she crumbles to dust..."
+  }
+ ]
+}

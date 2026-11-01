@@ -1,0 +1,29 @@
+# Erzähltext „Das Einhorn“ (Teil A, Lichtung): Texte 224, 255 und 262 aus texts/C64/B1.md.
+# Wortlaut original; reine Wegbeschreibungen fehlen. Aufbau wie narration_de.txt.
+
+### einhorn_kampf Wolf und Einhorn
+
+## Disk 2/DiskA-017
+[tense] Als Du die Lichtung betrittst, hörst Du vor Dir ein fürchterliches Knurren und Fauchen! Erschrocken hältst Du inne und versteckst Dich vorsichtshalber erst einmal hinter dem nächsten Baum!
+
+##+ Stories/einhorn/01-kampf
+[whispers] Als sich Deine Augen ein wenig an das etwas schummerige Licht gewöhnt haben, erkennst Du auf der anderen Seite der Lichtung zwei miteinander kämpfende Tiere: Einen großen, grauen Wolf und ein zierliches, weiß schimmerndes Einhorn, dessen Fell schon völlig mit seinem bläulichen Blut besudelt ist, das aus unzähligen, tiefen Wunden sickert. Als der Wolf bemerkt, daß der Widerstand des geschwächten Einhorns erlahmt, attackiert er es noch wütender! [sad] Das grazile Fabelwesen hat nicht mehr genug Kraft, um den scharfen und langen Wolfszähnen noch lange Widerstand zu leisten...
+
+### einhorn_gerettet Das gerettete Einhorn
+
+## Stories/einhorn/02-rettung
+[amused] Als der Wolf Dich auf die Lichtung stürmen sieht, erschrickt er derartig über Deine hagere Figur, daß er sofort den Schwanz einzieht und die Beine in die Pfoten nimmt!
+
+##+ Stories/einhorn/03-erschoepfung
+[softly] Nachdem er, noch immer erschüttert über soviel Elend, jaulend im Unterholz verschwunden ist, legt sich das angeschlagene Einhorn erschöpft auf den Boden, um sich ein wenig von dem ungleichen Kampf zu erholen. Seine Nüstern beben nervös, und es atmet schwer und ungleichmäßig...
+
+### kristallkugel Die Kristallkugel
+
+## Stories/einhorn/04-warnung
+[softly] Nachdem es sich ein wenig erholt hat, dankt das Einhorn Dir für Deine Hilfe und warnt Dich eindringlich, Deinen Weg nach Westen fortzusetzen. "Nachdem Du erst einmal diesen Teil des Waldes verlassen hast, gibt es kein Zurück mehr...", sagt es mit einem unendlich traurigen Blick in seinen tiefblauen Augen, "Doch nimm diese kleine Kristallkugel: Sie könnte Dir helfen, Freunde in dieser feindlichen Welt zu finden..."
+
+##+ Stories/einhorn/05-kristallkugel
+Mit diesen Worten gibt Dir das Einhorn eine kleine, leuchtende Kristallkugel, während es Dir mit ersterbender Stimme zuwispert: [whispers] "Denke an mich, wenn Du sie benutzt - ich habe nicht mehr lange zu leben...".
+
+##+ Stories/einhorn/06-abschied
+[sad] Mit einem letzten Blick zu Dir zurück, einem Blick so voller Bedauern und Schmerz, daß es Dir fast das Herz bricht, wendet sich das todgeweihte, schöne Wesen um und trottet langsam davon, ohne sich noch einmal nach Dir umzudrehen, bis es zwischen den Bäumen verschwunden ist...

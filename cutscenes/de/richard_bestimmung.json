@@ -1,0 +1,157 @@
+{
+ "version": 3,
+ "duration": 56.47,
+ "hold": false,
+ "voice": "richard_bestimmung.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   3.03,
+   18.33
+  ],
+  [
+   18.99,
+   51.147
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskB-029",
+   "path": "Amiga_HD/Disk 3/DiskB-029",
+   "start": 0.0,
+   "end": 18.66,
+   "from": [
+    300.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    643.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "richard_bestimmung-01",
+   "path": "Stories/richard/richard_bestimmung-01",
+   "start": 18.66,
+   "end": 56.47,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 3/DiskB-029",
+  "Stories/richard/richard_bestimmung-01"
+ ],
+ "cues": [
+  {
+   "start": 3.03,
+   "end": 4.45,
+   "text": "Der König nickt zustimmend."
+  },
+  {
+   "start": 4.77,
+   "end": 8.13,
+   "text": "\"Du hast recht: Wir haben keine Zeit mehr zu verlieren!\","
+  },
+  {
+   "start": 8.17,
+   "end": 11.65,
+   "text": "beschließt er, \"Die Zeit ist reif, zurückzuschlagen,"
+  },
+  {
+   "start": 11.73,
+   "end": 14.77,
+   "text": "Zargon seiner gerechten Strafe zuzuführen und die"
+  },
+  {
+   "start": 14.83,
+   "end": 18.33,
+   "text": "Bewohner meines Reiches aus seiner Tyrannis zu befreien!"
+  },
+  {
+   "start": 18.99,
+   "end": 20.53,
+   "text": "Wie Du sehen kannst...\""
+  },
+  {
+   "start": 20.55,
+   "end": 22.21,
+   "text": "- er schaut traurig an sich herunter -"
+  },
+  {
+   "start": 22.37,
+   "end": 26.77,
+   "text": "\"...erlaubt es mir meine übernatürliche Erscheinungsform leider nicht mehr,"
+  },
+  {
+   "start": 26.85,
+   "end": 30.37,
+   "text": "Zargon persönlich herauszufordern und das Unheil,"
+  },
+  {
+   "start": 30.41,
+   "end": 33.17,
+   "text": "das er über uns alle gebracht hat, zu sühnen,"
+  },
+  {
+   "start": 33.218,
+   "end": 37.57,
+   "text": "aber vielleicht bist Du ja stark und klug genug, um es zumindest zu versuchen!"
+  },
+  {
+   "start": 38.721,
+   "end": 39.014,
+   "text": "Nein!"
+  },
+  {
+   "start": 39.134,
+   "end": 40.294,
+   "text": "Sag' jetzt nichts!"
+  },
+  {
+   "start": 40.454,
+   "end": 42.574,
+   "text": "Du darfst mir nicht widersprechen:"
+  },
+  {
+   "start": 42.678,
+   "end": 47.494,
+   "text": "Dies hier ist nicht bloß irgendeine Aufgabe - es ist Deine Bestimmung!\""
+  },
+  {
+   "start": 48.124,
+   "end": 51.147,
+   "text": "König Richard schaut Dich aus flehenden Augen an..."
+  }
+ ]
+}

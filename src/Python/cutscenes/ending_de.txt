@@ -1,0 +1,46 @@
+# Erzähltext für das deutsche Endvideo: die letzten Spieltexte von Teil D,
+# wörtlich aus dem Replay der Hauptroute (tests/replays/walkthrough.replay).
+# Bilder: images/Amiga_HD/<Pfad>; Aufbau und Optionen wie narration_de.txt.
+
+### zargon Zargon
+
+## Disk 4/DiskD-047
+[tense] Als Zargon Deine Anwesenheit bemerkt, dreht er sich langsam zu Dir um: Du glaubst Deinen Augen nicht trauen zu können, als Du in seinen Augen einen leichten Schimmer von Furcht erkennst! [menacing] "Nun gut, Du hast Deine Aufgabe erfüllt - nun ist es an mir, zu tun, was getan werden muß...!", keucht er und zieht einen kleinen, silbernen Dolch unter seinem Cape hervor!
+
+### seelenkristall Der Seelenkristall
+
+## Disk 4/DiskD-027 focus=0,0,1100,872
+[determined] Als Zargon bemerkt, wie Du Dich nach seinem Seelenkristall umblickst, versucht er vor Dir zu dem Podest zu gelangen - doch es ist bereits zu spät:
+
+##+ Stories/finale/seelenkristall-01
+Mit zwei, drei leichtfüßigen Schritten erreichst Du den Sockel, ergreifst das Juwel und stemmst es hoch über Deinen Kopf: Dumpf pulsiert der Stein in Deinen Händen, als wäre er von eigenem Leben erfüllt! [sarcastic] Als er erkennen muß, daß Du nunmehr die Macht über ihn erlangt hast, verlegt Zargon sich aufs Bitten: Er fleht Dich verzweifelt an, ihn zu verschonen, er bietet Dir Mylgors Stelle als sein Statthalter in dem kleinen Dorf an - ja, er verspricht Dir sogar, Dich wieder in einen Menschen zurückzuverwandeln, wenn Du seinen Kristall unangetastet ließest: Er sagt, es gäbe irgendwo eine Quelle, deren Wasser Dich von Deiner Infektion mit dem Werwolfsblut heilen könnte... [thoughtful] Einen kurzen Augenblick lang läßt Du das Geschehene noch einmal vor Deinem geistigen Auge Revue passieren und denkst darüber nach, was wohl mehr wiegt: Dein Schicksal - oder das der gepeinigten und geknechteten Dorfbewohner, und Du brauchst nicht allzu lange, um zu einer Entscheidung zu gelangen:
+
+## Stories/finale/seelenkristall-02
+[furious] Ohne Zargons Jammergewinsel weiter zu beachten, schmetterst Du den Seelenkristall mit aller Kraft zu Boden, wo er in tausend Splitter zerbirst, von denen jedoch immer noch jeder einzelne Zargons Portrait widerspiegelt! [shocked] Im selben Moment jedoch, als der Kristall zerbricht, hörst Du Zargon hinter Dir hysterisch aufschreien!
+
+##+ Stories/finale/seelenkristall-03
+Zu Tode erschrocken, drehst Du Dich um - um Zargon im Todeskampf mit einer dichten, dunkelgrauen Wolke zu sehen, die wohl durch das Auseinanderbrechen des dunklen Juwels freigesetzt worden ist, in dem sie viele Jahrzehnte auf diesen einen Moment gewartet haben muß! Lediglich Zargons wild um sich schlagende Arme und Beine schauen noch aus dem schmutziggrauen Nebel heraus!... Dann - plötzlich - ist der Spuk vorbei: Die Wolke verschwindet ebenso schnell, wie sie aufgetaucht ist, und mit ihr auch der böse Hexenmeister!
+
+##+ Stories/finale/seelenkristall-04
+[exhausted] Eine bedrückende Stille erfüllt den Raum, als Du Dich erschöpft an der Wand hinuntergleiten läßt: Alles, was von Zargon übriggeblieben ist, sind seine Krone und das Königszepter...
+
+### zepter Das Zepter
+
+## Disk 4/DiskD-015
+[curious] Du schiebst Zargons Szepter in den Slot - und es scheint tatsächlich zu passen!
+
+##+ Stories/finale/zepter-01
+Mit einem laut vernehmbaren Klicken rastet der Griff ein, und als Du das Szepter wie einen Hebel hin- und herbewegst, hörst Du plötzlich ein scharrendes Geräusch von oben zu Dir hinunterschallen: [excited] DAS PORTALTOR!!!
+
+### quelle Die Quelle
+
+## Stories/finale/quelle-01
+[calm] Du läßt etwas von dem bläulichen Wasser in Deine schalenförmig gehaltenen Handflächen laufen und nippst vorsichtig daran: Schon nach wenigen Schlückchen fühlst Du, wie Dich eine Woge von Fröhlichkeit und neuer Kraft durchströmt, die Dich einerseits beruhigt und andererseits gleichzeitig auf gar wundersame Weise zu erfrischen scheint. [surprised] Und als Du zufällig an Deinem Körper herunterblickst, bemerkst Du, daß Du Dich wieder in einen Menschen zurückverwandelt hast - [wistful] was allerdings auch bedeutet, daß Du Deine übernatürlichen Kräfte einbüßt...
+
+### gate Das Portaltor
+
+## Disk 4/Victory-000 pause=1.0
+[amazed] Du glaubst Deinen Augen nicht trauen zu können: Das Portaltor steht tatsächlich sperrangelweit offen!
+
+##+ Stories/finale/gate-01
+[warmly] Unter dem Torbogen kannst Du den Geist König Richards schweben sehen, der Dir gütig und dankbar zuzulächeln scheint - und auch die Vögel zwitschern wieder von den Bäumen herab: Das ganze Land blüht wieder auf, zum ersten Mal seit langer, langer Zeit! [solemn] Feierlich gehst Du auf Deinen neugewonnenen Freund zu und läßt die finsteren Burgmauern für immer hinter Dir... [whispers] FREI...

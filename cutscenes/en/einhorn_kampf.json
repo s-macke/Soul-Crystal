@@ -1,0 +1,132 @@
+{
+ "version": 3,
+ "duration": 50.129,
+ "hold": false,
+ "voice": "einhorn_kampf.mp3",
+ "music": {
+  "path": "music/Amiga/02.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.642,
+   12.26
+  ],
+  [
+   13.268,
+   45.06
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskA-017",
+   "path": "Amiga_HD/Disk 2/DiskA-017",
+   "start": 0.0,
+   "end": 12.764,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "01-kampf",
+   "path": "Stories/einhorn/01-kampf",
+   "start": 12.764,
+   "end": 50.129,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 2/DiskA-017",
+  "Stories/einhorn/01-kampf"
+ ],
+ "cues": [
+  {
+   "start": 2.642,
+   "end": 6.74,
+   "text": "As you enter the clearing, you hear a terrible growling and hissing ahead of you!"
+  },
+  {
+   "start": 6.9,
+   "end": 12.26,
+   "text": "Startled, you stop and, to be safe, hide behind the nearest tree!"
+  },
+  {
+   "start": 13.268,
+   "end": 15.86,
+   "text": "When your eyes have got a little used to the dim light,"
+  },
+  {
+   "start": 15.9,
+   "end": 19.54,
+   "text": "you see two animals fighting on the other side of the clearing:"
+  },
+  {
+   "start": 19.58,
+   "end": 24.34,
+   "text": "a big grey wolf and a delicate, white-shimmering unicorn,"
+  },
+  {
+   "start": 24.38,
+   "end": 28.26,
+   "text": "whose coat is already completely stained with its bluish blood,"
+  },
+  {
+   "start": 28.34,
+   "end": 30.66,
+   "text": "oozing from countless deep wounds."
+  },
+  {
+   "start": 30.92,
+   "end": 34.9,
+   "text": "Noticing that the weakened unicorn's resistance is fading,"
+  },
+  {
+   "start": 34.92,
+   "end": 37.3,
+   "text": "the wolf attacks it even more furiously!"
+  },
+  {
+   "start": 38.32,
+   "end": 40.98,
+   "text": "The graceful creature no longer has the strength to hold"
+  },
+  {
+   "start": 41.04,
+   "end": 45.06,
+   "text": "out much longer against the long, sharp teeth of the wolf..."
+  }
+ ]
+}

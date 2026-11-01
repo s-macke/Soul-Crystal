@@ -1,0 +1,180 @@
+{
+ "version": 3,
+ "duration": 71.834,
+ "hold": false,
+ "voice": "mylgor_explosion.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.593,
+   30.169
+  ],
+  [
+   30.45,
+   50.569
+  ],
+  [
+   50.609,
+   66.73
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "mylgor_explosion-01",
+   "path": "Stories/mylgor/mylgor_explosion-01",
+   "start": 0.0,
+   "end": 30.309,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  },
+  {
+   "image": "mylgor_explosion-02",
+   "path": "Stories/mylgor/mylgor_explosion-02",
+   "start": 30.309,
+   "end": 50.589,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "DiskB-042",
+   "path": "Amiga_HD/Disk 3/DiskB-042",
+   "start": 50.589,
+   "end": 71.834,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 3/DiskB-042",
+  "Stories/mylgor/mylgor_explosion-01",
+  "Stories/mylgor/mylgor_explosion-02"
+ ],
+ "cues": [
+  {
+   "start": 2.593,
+   "end": 6.246,
+   "text": "In Deiner Verzweiflung reißt Du an einem der massiven Holzregale,"
+  },
+  {
+   "start": 6.273,
+   "end": 10.326,
+   "text": "um die Reagenzien zwischen Dich und Mylgor zu schleudern -"
+  },
+  {
+   "start": 10.367,
+   "end": 12.486,
+   "text": "und es ist leichter als Du erwartet hattest:"
+  },
+  {
+   "start": 12.686,
+   "end": 16.806,
+   "text": "Ein kurzer Ruck, und es kippt mitsamt seinem Inhalt um!"
+  },
+  {
+   "start": 17.469,
+   "end": 23.049,
+   "text": "\"Au Scheiße: Arnold!\", denkst Du Dir, völlig verwundert über Deine plötzliche Kraft,"
+  },
+  {
+   "start": 23.09,
+   "end": 26.649,
+   "text": "als das Regal krachend auf dem Boden aufschlägt und sich der"
+  },
+  {
+   "start": 26.757,
+   "end": 30.169,
+   "text": "Inhalt der verschiedenen Reagenzien auf die Fliesen ergießt."
+  },
+  {
+   "start": 30.45,
+   "end": 36.569,
+   "text": "Als sich zwei Flüssigkeiten vermischen, steigen dicke, ätzende Rauchwolken auf,"
+  },
+  {
+   "start": 36.609,
+   "end": 41.37,
+   "text": "die bald den ganzen Raum erfüllen und es Euch nahezu unmöglich machen,"
+  },
+  {
+   "start": 41.409,
+   "end": 42.969,
+   "text": "einander auch nur zu sehen!"
+  },
+  {
+   "start": 44.224,
+   "end": 46.969,
+   "text": "Eine laute Explosion haut Mylgor aus den Socken"
+  },
+  {
+   "start": 47.069,
+   "end": 50.569,
+   "text": "und wirft ihn brutal gegen die gegenüberliegende Wand,"
+  },
+  {
+   "start": 50.609,
+   "end": 53.769,
+   "text": "und plötzlich züngeln auf dem Boden Flammen auf,"
+  },
+  {
+   "start": 53.809,
+   "end": 58.489,
+   "text": "die sich bald ausbreiten und den Raum in ein riesiges Flammenmeer verwandeln!"
+  },
+  {
+   "start": 59.849,
+   "end": 61.289,
+   "text": "Heißer Einfall, Mann!"
+  },
+  {
+   "start": 61.417,
+   "end": 66.73,
+   "text": "Aber jetzt laß' uns hier besser verschwinden, bevor es ZU heiß wird...!"
+  }
+ ]
+}

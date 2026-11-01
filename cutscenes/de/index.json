@@ -1,0 +1,197 @@
+[
+ {
+  "id": "credits",
+  "title": "Credits",
+  "timeline": "credits.json"
+ },
+ {
+  "id": "cast",
+  "title": "Besetzung",
+  "timeline": "cast.json"
+ },
+ {
+  "id": "intro",
+  "title": "Vorgeschichte",
+  "timeline": "intro.json"
+ },
+ {
+  "id": "sage",
+  "title": "Die Sage von der versunkenen Stadt",
+  "timeline": "sage.json"
+ },
+ {
+  "id": "see",
+  "title": "Im See",
+  "timeline": "see.json"
+ },
+ {
+  "id": "wasserfall",
+  "title": "Vor dem Wasserfall",
+  "timeline": "wasserfall.json"
+ },
+ {
+  "id": "fremde_welt",
+  "title": "Hinter dem Wasserfall",
+  "timeline": "fremde_welt.json"
+ },
+ {
+  "id": "ufer",
+  "title": "Am anderen Ufer",
+  "timeline": "ufer.json"
+ },
+ {
+  "id": "einhorn_kampf",
+  "title": "Wolf und Einhorn",
+  "timeline": "einhorn_kampf.json"
+ },
+ {
+  "id": "einhorn_gerettet",
+  "title": "Das gerettete Einhorn",
+  "timeline": "einhorn_gerettet.json"
+ },
+ {
+  "id": "kristallkugel",
+  "title": "Die Kristallkugel",
+  "timeline": "kristallkugel.json"
+ },
+ {
+  "id": "mylgor_tuer",
+  "title": "An Mylgors Tür",
+  "timeline": "mylgor_tuer.json"
+ },
+ {
+  "id": "mylgor_vertrag",
+  "title": "Der Vertrag mit Blut",
+  "timeline": "mylgor_vertrag.json"
+ },
+ {
+  "id": "mylgor_kaminzimmer",
+  "title": "Im Kaminzimmer",
+  "timeline": "mylgor_kaminzimmer.json"
+ },
+ {
+  "id": "mylgor_nacht",
+  "title": "Die Nacht",
+  "timeline": "mylgor_nacht.json"
+ },
+ {
+  "id": "mylgor_auftrag",
+  "title": "Der Auftrag",
+  "timeline": "mylgor_auftrag.json"
+ },
+ {
+  "id": "firon_thron",
+  "title": "Firon erwartet den Tod",
+  "timeline": "firon_thron.json"
+ },
+ {
+  "id": "firon_prophezeiung",
+  "title": "Die Prophezeiung",
+  "timeline": "firon_prophezeiung.json"
+ },
+ {
+  "id": "firon_schluessel",
+  "title": "Firons Schlüssel",
+  "timeline": "firon_schluessel.json"
+ },
+ {
+  "id": "jack_geist",
+  "title": "Bruder Jacks Geist",
+  "timeline": "jack_geist.json"
+ },
+ {
+  "id": "jack_auftrag",
+  "title": "Jacks Auftrag",
+  "timeline": "jack_auftrag.json"
+ },
+ {
+  "id": "richard_erscheint",
+  "title": "König Richard erscheint",
+  "timeline": "richard_erscheint.json"
+ },
+ {
+  "id": "richard_geschichte",
+  "title": "König Richards Geschichte",
+  "timeline": "richard_geschichte.json"
+ },
+ {
+  "id": "richard_bestimmung",
+  "title": "Deine Bestimmung",
+  "timeline": "richard_bestimmung.json"
+ },
+ {
+  "id": "richard_zauberspruch",
+  "title": "Der Zauberspruch",
+  "timeline": "richard_zauberspruch.json"
+ },
+ {
+  "id": "richard_abschied",
+  "title": "Richards Abschied",
+  "timeline": "richard_abschied.json"
+ },
+ {
+  "id": "werwolf",
+  "title": "Der Werwolf",
+  "timeline": "werwolf.json"
+ },
+ {
+  "id": "werwolf_kampf",
+  "title": "Der Kampf",
+  "timeline": "werwolf_kampf.json"
+ },
+ {
+  "id": "mylgor_labor",
+  "title": "Mylgors Geheimlabor",
+  "timeline": "mylgor_labor.json"
+ },
+ {
+  "id": "mylgor_explosion",
+  "title": "Die Explosion",
+  "timeline": "mylgor_explosion.json"
+ },
+ {
+  "id": "mylgor_ende",
+  "title": "Mylgors Ende",
+  "timeline": "mylgor_ende.json"
+ },
+ {
+  "id": "burgtor",
+  "title": "Vor dem Burgtor",
+  "timeline": "burgtor.json"
+ },
+ {
+  "id": "tagebuch",
+  "title": "Das Tagebuch des Turmwächters",
+  "timeline": "tagebuch.json"
+ },
+ {
+  "id": "vollmond",
+  "title": "Vollmond",
+  "timeline": "vollmond.json"
+ },
+ {
+  "id": "zargon",
+  "title": "Zargon",
+  "timeline": "zargon.json"
+ },
+ {
+  "id": "seelenkristall",
+  "title": "Der Seelenkristall",
+  "timeline": "seelenkristall.json"
+ },
+ {
+  "id": "zepter",
+  "title": "Das Zepter",
+  "timeline": "zepter.json"
+ },
+ {
+  "id": "quelle",
+  "title": "Die Quelle",
+  "timeline": "quelle.json"
+ },
+ {
+  "id": "gate",
+  "title": "Das Portaltor",
+  "timeline": "gate.json"
+ }
+]

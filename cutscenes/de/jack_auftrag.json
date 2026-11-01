@@ -1,0 +1,223 @@
+{
+ "version": 3,
+ "duration": 92.842,
+ "hold": false,
+ "voice": "jack_auftrag.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   3.156,
+   52.65
+  ],
+  [
+   52.95,
+   57.689
+  ],
+  [
+   57.719,
+   73.129
+  ],
+  [
+   74.066,
+   86.498
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "jack_auftrag-01",
+   "path": "Stories/jack/jack_auftrag-01",
+   "start": 0.0,
+   "end": 52.8,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  },
+  {
+   "image": "DiskB-029",
+   "path": "Amiga_HD/Disk 3/DiskB-029",
+   "start": 52.8,
+   "end": 57.704,
+   "from": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ],
+   "to": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ]
+  },
+  {
+   "image": "DiskB-020",
+   "path": "Amiga_HD/Disk 3/DiskB-020",
+   "start": 57.704,
+   "end": 73.597,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "jack_auftrag-02",
+   "path": "Stories/jack/jack_auftrag-02",
+   "start": 73.597,
+   "end": 92.842,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 3/DiskB-020",
+  "Amiga_HD/Disk 3/DiskB-029",
+  "Stories/jack/jack_auftrag-01",
+  "Stories/jack/jack_auftrag-02"
+ ],
+ "cues": [
+  {
+   "start": 3.156,
+   "end": 6.65,
+   "text": "Du erzählst dem Geist des alten Klosterabtes von Deiner langen,"
+  },
+  {
+   "start": 6.689,
+   "end": 9.37,
+   "text": "beschwerlichen Reise durch die Eiswüste,"
+  },
+  {
+   "start": 9.389,
+   "end": 13.73,
+   "text": "und daß Firon Dir empfohlen habe, Bruder Jack um Hilfe zu bitten."
+  },
+  {
+   "start": 13.88,
+   "end": 19.529,
+   "text": "Bedächtig nickt Jack...: \"Ich habe niemals gewagt, noch darauf zu hoffen,"
+  },
+  {
+   "start": 19.609,
+   "end": 23.45,
+   "text": "daß wirklich einmal ein unerschrockener Held kommen könnte,"
+  },
+  {
+   "start": 23.502,
+   "end": 27.21,
+   "text": "um den Dunklen Lord für all seine Greueltaten zu bestrafen."
+  },
+  {
+   "start": 27.636,
+   "end": 32.889,
+   "text": "So ist mein letzter Traum denn doch endlich Wirklichkeit geworden..."
+  },
+  {
+   "start": 32.99,
+   "end": 36.17,
+   "text": "Nun, das Schicksal unseres Landes hat eine lange,"
+  },
+  {
+   "start": 36.223,
+   "end": 39.45,
+   "text": "traurige Vorgeschichte - und der einzige,"
+  },
+  {
+   "start": 39.469,
+   "end": 45.61,
+   "text": "der sie Dir erzählen könnte, ist sein rechtmäßiger Herrscher, Firons Bruder Richard."
+  },
+  {
+   "start": 45.897,
+   "end": 49.289,
+   "text": "Nach seinem Sturz wurde er damals vom Dunklen"
+  },
+  {
+   "start": 49.37,
+   "end": 52.65,
+   "text": "Lord ermordet und sein Leichnahm zweigeteilt:"
+  },
+  {
+   "start": 52.95,
+   "end": 57.689,
+   "text": "Der Rumpf wurde in seiner Gruft auf dem Friedhof beigesetzt,"
+  },
+  {
+   "start": 57.719,
+   "end": 62.569,
+   "text": "während sein Kopf in dem verschütteten Stollen einer alten Zwergenmine vergraben wurde."
+  },
+  {
+   "start": 63.249,
+   "end": 67.689,
+   "text": "Finde die beiden Teile des Körpers unseres Königs, und vereine sie wieder!"
+  },
+  {
+   "start": 67.93,
+   "end": 73.129,
+   "text": "Dies ist der einzige Weg, unserem Land noch Hilfe zu bringen..."
+  },
+  {
+   "start": 74.066,
+   "end": 74.65,
+   "text": "-bringen..."
+  },
+  {
+   "start": 76.259,
+   "end": 76.819,
+   "text": "-brin...\""
+  },
+  {
+   "start": 77.192,
+   "end": 82.218,
+   "text": "In eine Wolke aus bläulichem Rauch gehüllt fährt Bruder Jacks"
+  },
+  {
+   "start": 82.259,
+   "end": 86.498,
+   "text": "Geist wieder zurück ins Reich der Toten und läßt Dich allein..."
+  }
+ ]
+}

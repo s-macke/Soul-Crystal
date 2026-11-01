@@ -1,0 +1,32 @@
+# Narration "Through the waterfall" (part A, lake): texts 218 and 220-222 from
+# texts/C64_en/B1.md, smoothed for speech; pure directions are left out.
+# Images and options as in narration_en.txt.
+
+### see In the lake
+
+## Disk 2/DiskA-010
+[cheerful] As you wade west along the muddy shore, the water gets colder and colder - and, logically, deeper and deeper the closer you get to the middle of the lake. Until now you could more or less stand on the bottom, but now you simply have no other choice: you have to swim if you don't want to sink!
+
+##+ Stories/see/see-02
+[heroic] "So be it: whatever doesn't kill you makes you stronger!", you think to yourself, splash a little water on your heroic chest and then throw yourself forward, defying death. [gasps] Uahhh! Despite the warm season, the water is already rather cool, but after a few seconds you get used to the temperature. [amused] Actually quite pleasant here - only your rubber ducky is missing!
+
+##+ Stories/see/see-01
+[worried] As you make your first clumsy strokes, you also feel the strong current pulling you south, where a gigantic whirlpool drags everything into its deep maw that was careless enough to come within its reach.
+
+### wasserfall In front of the waterfall
+
+## Disk 2/DiskA-009
+[curious] You are swimming right in front of the waterfall in the northwest of the mountain lake. While you try not to be carried away by the current, you wonder what might be hidden behind it...
+
+### fremde_welt Behind the waterfall
+
+## Disk 2/DiskA-012 pause=1.0
+[dazed] Still quite dazed from the hard blow the waterfall gave you, you try to keep yourself above the surface with light but rather clumsy strokes - but suddenly you stop short, so that you go under again for a moment and swallow water!
+
+##+ Stories/fremde_welt/fremde_welt-01
+[shocked] When you come up again, it hits you: you still seem to be paddling on the southern side of the waterfall! There might even be some plausible explanation for that alone, especially since you lost your bearings under water for a moment, so you could accept it if, if... if only your village were still there on the shore! [panicked] But it seems to have vanished from the face of the earth! Instead of the little village, there is a deep, dark forest on the shore, with trees you have never seen in your whole life! [thoughtful] You begin to suspect that the waterfall may have taken you into a world that exists parallel to your own - just like in those silly adventure games on your computer at home. [dramatic] Only: THIS is reality! And where the hell have you ended up?
+
+### ufer On the other shore
+
+## Disk 2/DiskA-013
+[calm] You step onto the shore, where the roar of the waterfall in the southwest corner of the mountain lake can still be heard. Nature somehow looks much cleaner and more untouched here than on the side where you first entered the lake - you don't even know anymore how long ago that was! [wistful] Nevertheless, you slowly begin to like this world, even though you don't really know where your parents will think you are if you don't call home tonight. [dry] But it doesn't take much imagination to figure out that this has probably been your last "solo vacation" until you come of age...

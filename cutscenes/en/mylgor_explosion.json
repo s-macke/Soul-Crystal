@@ -1,0 +1,180 @@
+{
+ "version": 3,
+ "duration": 62.291,
+ "hold": false,
+ "voice": "mylgor_explosion.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   3.1,
+   25.987
+  ],
+  [
+   26.035,
+   42.987
+  ],
+  [
+   43.027,
+   56.755
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "mylgor_explosion-01",
+   "path": "Stories/mylgor/mylgor_explosion-01",
+   "start": 0.0,
+   "end": 26.011,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  },
+  {
+   "image": "mylgor_explosion-02",
+   "path": "Stories/mylgor/mylgor_explosion-02",
+   "start": 26.011,
+   "end": 43.007,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "DiskB-042",
+   "path": "Amiga_HD/Disk 3/DiskB-042",
+   "start": 43.007,
+   "end": 62.291,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 3/DiskB-042",
+  "Stories/mylgor/mylgor_explosion-01",
+  "Stories/mylgor/mylgor_explosion-02"
+ ],
+ "cues": [
+  {
+   "start": 3.1,
+   "end": 5.02,
+   "text": "In your despair, you tug at one of the massive"
+  },
+  {
+   "start": 5.06,
+   "end": 8.32,
+   "text": "wooden shelves to hurl the chemicals between you and Mylgor -"
+  },
+  {
+   "start": 8.42,
+   "end": 11.98,
+   "text": "and it is easier than you expected: one short jerk,"
+  },
+  {
+   "start": 12.06,
+   "end": 14.642,
+   "text": "and it topples over with everything on it!"
+  },
+  {
+   "start": 15.393,
+   "end": 20.581,
+   "text": "\"Oh shit: Arnold!\", you think, completely amazed at your sudden strength,"
+  },
+  {
+   "start": 20.616,
+   "end": 23.527,
+   "text": "as the shelf crashes to the floor and the contents"
+  },
+  {
+   "start": 23.627,
+   "end": 25.987,
+   "text": "of the various bottles spill over the tiles."
+  },
+  {
+   "start": 26.035,
+   "end": 30.558,
+   "text": "As two of the liquids mix, thick, acrid clouds of smoke rise,"
+  },
+  {
+   "start": 30.627,
+   "end": 33.953,
+   "text": "soon filling the whole room and making it almost"
+  },
+  {
+   "start": 33.998,
+   "end": 36.707,
+   "text": "impossible for the two of you even to see each other!"
+  },
+  {
+   "start": 37.347,
+   "end": 39.61,
+   "text": "A loud explosion knocks Mylgor off his"
+  },
+  {
+   "start": 39.667,
+   "end": 42.987,
+   "text": "feet and hurls him brutally against the opposite wall,"
+  },
+  {
+   "start": 43.027,
+   "end": 46.387,
+   "text": "and suddenly flames flicker up from the floor,"
+  },
+  {
+   "start": 46.419,
+   "end": 50.355,
+   "text": "soon spreading and turning the room into a huge sea of fire!"
+  },
+  {
+   "start": 51.507,
+   "end": 52.627,
+   "text": "Hot idea, man!"
+  },
+  {
+   "start": 52.707,
+   "end": 56.755,
+   "text": "But now let's get out of here before it gets TOO hot...!"
+  }
+ ]
+}

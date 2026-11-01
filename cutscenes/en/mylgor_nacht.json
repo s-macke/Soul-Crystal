@@ -1,0 +1,222 @@
+{
+ "version": 3,
+ "duration": 82.136,
+ "hold": false,
+ "voice": "mylgor_nacht.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.636,
+   8.924
+  ],
+  [
+   9.164,
+   38.523
+  ],
+  [
+   38.707,
+   58.769
+  ],
+  [
+   58.837,
+   77.169
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskB-001",
+   "path": "Amiga_HD/Disk 3/DiskB-001",
+   "start": 0.0,
+   "end": 9.044,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "mylgor_nacht-01",
+   "path": "Stories/mylgor/mylgor_nacht-01",
+   "start": 9.044,
+   "end": 38.615,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "mylgor_nacht-02",
+   "path": "Stories/mylgor/mylgor_nacht-02",
+   "start": 38.615,
+   "end": 58.803,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  },
+  {
+   "image": "DiskB-001",
+   "path": "Amiga_HD/Disk 3/DiskB-001",
+   "start": 58.803,
+   "end": 82.136,
+   "from": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ],
+   "to": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 3/DiskB-001",
+  "Stories/mylgor/mylgor_nacht-01",
+  "Stories/mylgor/mylgor_nacht-02"
+ ],
+ "cues": [
+  {
+   "start": 2.636,
+   "end": 5.484,
+   "text": "Only when you stretch out on the bedclothes to rest a little do"
+  },
+  {
+   "start": 5.504,
+   "end": 8.924,
+   "text": "you notice that your journey has made you much more tired than you thought."
+  },
+  {
+   "start": 9.164,
+   "end": 14.444,
+   "text": "In the meantime it has become deep night, it is pouring with rain outside -"
+  },
+  {
+   "start": 14.464,
+   "end": 18.364,
+   "text": "and you are very glad to have a roof over your head in this dreadful weather."
+  },
+  {
+   "start": 18.544,
+   "end": 24.284,
+   "text": "You snuggle deep into the warm, cosy blanket and think about your stay in this strange,"
+  },
+  {
+   "start": 24.334,
+   "end": 29.484,
+   "text": "foreign world, about the contract you have made with Mylgor, and what your parents..."
+  },
+  {
+   "start": 29.544,
+   "end": 30.044,
+   "text": "par..."
+  },
+  {
+   "start": 30.071,
+   "end": 30.444,
+   "text": "pa..."
+  },
+  {
+   "start": 30.524,
+   "end": 31.484,
+   "text": "-Zzz..."
+  },
+  {
+   "start": 31.524,
+   "end": 31.964,
+   "text": "-Zzz..."
+  },
+  {
+   "start": 32.972,
+   "end": 38.523,
+   "text": "With your thumb in your mouth, you fall into the deep, dreamless sleep of exhaustion..."
+  },
+  {
+   "start": 38.707,
+   "end": 40.769,
+   "text": "Suddenly, though, your sweet slumber is"
+  },
+  {
+   "start": 40.816,
+   "end": 44.369,
+   "text": "interrupted by an ugly scraping noise from next door -"
+  },
+  {
+   "start": 44.409,
+   "end": 47.329,
+   "text": "a noise like stone scraping on stone!"
+  },
+  {
+   "start": 47.529,
+   "end": 52.209,
+   "text": "You get up and want to open the door to the fireplace room - but it is locked!"
+  },
+  {
+   "start": 53.129,
+   "end": 58.769,
+   "text": "Frustrated, you lie down again to listen to the mattress for at least a few more hours..."
+  },
+  {
+   "start": 58.837,
+   "end": 62.129,
+   "text": "The next afternoon, Mylgor wakes you up and tells you to freshen up"
+  },
+  {
+   "start": 62.189,
+   "end": 66.609,
+   "text": "quickly and then come to the fireplace room, where he wants to give you his orders -"
+  },
+  {
+   "start": 66.669,
+   "end": 71.969,
+   "text": "but strangely enough, he doesn't say a word about the incident in the night: you decide,"
+  },
+  {
+   "start": 71.996,
+   "end": 77.169,
+   "text": "to be on the safe side, not to mention it either, and get up halfway rested and relaxed..."
+  }
+ ]
+}

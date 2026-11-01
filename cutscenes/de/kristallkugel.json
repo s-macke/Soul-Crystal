@@ -1,0 +1,175 @@
+{
+ "version": 3,
+ "duration": 73.699,
+ "hold": false,
+ "voice": "kristallkugel.mp3",
+ "music": {
+  "path": "music/Amiga/02.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   3.29,
+   30.51
+  ],
+  [
+   30.579,
+   46.144
+  ],
+  [
+   46.572,
+   68.709
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "04-warnung",
+   "path": "Stories/einhorn/04-warnung",
+   "start": 0.0,
+   "end": 30.544,
+   "from": [
+    0.0,
+    0.0,
+    1671.1,
+    940.0
+   ],
+   "to": [
+    110.2,
+    30.7,
+    1561.8,
+    878.5
+   ]
+  },
+  {
+   "image": "05-kristallkugel",
+   "path": "Stories/einhorn/05-kristallkugel",
+   "start": 30.544,
+   "end": 46.358,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "06-abschied",
+   "path": "Stories/einhorn/06-abschied",
+   "start": 46.358,
+   "end": 73.699,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  }
+ ],
+ "images": [
+  "Stories/einhorn/04-warnung",
+  "Stories/einhorn/05-kristallkugel",
+  "Stories/einhorn/06-abschied"
+ ],
+ "cues": [
+  {
+   "start": 3.29,
+   "end": 5.434,
+   "text": "Nachdem es sich ein wenig erholt hat,"
+  },
+  {
+   "start": 5.466,
+   "end": 9.275,
+   "text": "dankt das Einhorn Dir für Deine Hilfe und warnt Dich eindringlich,"
+  },
+  {
+   "start": 9.302,
+   "end": 11.674,
+   "text": "Deinen Weg nach Westen fortzusetzen."
+  },
+  {
+   "start": 12.314,
+   "end": 16.314,
+   "text": "\"Nachdem Du erst einmal diesen Teil des Waldes verlassen hast,"
+  },
+  {
+   "start": 16.346,
+   "end": 18.139,
+   "text": "gibt es kein Zurück mehr...\","
+  },
+  {
+   "start": 18.139,
+   "end": 22.245,
+   "text": "sagt es mit einem unendlich traurigen Blick in seinen tiefblauen Augen,"
+  },
+  {
+   "start": 22.305,
+   "end": 27.745,
+   "text": "\"Doch nimm diese kleine Kristallkugel: Sie könnte Dir helfen,"
+  },
+  {
+   "start": 27.814,
+   "end": 30.51,
+   "text": "Freunde in dieser feindlichen Welt zu finden...\""
+  },
+  {
+   "start": 30.579,
+   "end": 34.945,
+   "text": "Mit diesen Worten gibt Dir das Einhorn eine kleine,"
+  },
+  {
+   "start": 35.013,
+   "end": 40.305,
+   "text": "leuchtende Kristallkugel, während es Dir mit ersterbender Stimme zuwispert:"
+  },
+  {
+   "start": 41.544,
+   "end": 46.144,
+   "text": "\"Denke an mich, wenn Du sie benutzt - ich habe nicht mehr lange zu leben...\"."
+  },
+  {
+   "start": 46.572,
+   "end": 53.188,
+   "text": "Mit einem letzten Blick zu Dir zurück, einem Blick so voller Bedauern und Schmerz,"
+  },
+  {
+   "start": 53.229,
+   "end": 57.528,
+   "text": "daß es Dir fast das Herz bricht, wendet sich das todgeweihte,"
+  },
+  {
+   "start": 57.588,
+   "end": 64.1,
+   "text": "schöne Wesen um und trottet langsam davon, ohne sich noch einmal nach Dir umzudrehen,"
+  },
+  {
+   "start": 64.148,
+   "end": 68.709,
+   "text": "bis es zwischen den Bäumen verschwunden ist..."
+  }
+ ]
+}

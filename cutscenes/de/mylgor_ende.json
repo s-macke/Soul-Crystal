@@ -1,0 +1,182 @@
+{
+ "version": 3,
+ "duration": 87.306,
+ "hold": false,
+ "voice": "mylgor_ende.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.604,
+   32.636
+  ],
+  [
+   33.856,
+   82.325
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskB-032",
+   "path": "Amiga_HD/Disk 3/DiskB-032",
+   "start": 0.0,
+   "end": 33.246,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "mylgor_ende-01",
+   "path": "Stories/mylgor/mylgor_ende-01",
+   "start": 33.246,
+   "end": 87.306,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 3/DiskB-032",
+  "Stories/mylgor/mylgor_ende-01"
+ ],
+ "cues": [
+  {
+   "start": 2.604,
+   "end": 4.876,
+   "text": "Hastig verschließt Du die Labortür mit dem Schlüssel"
+  },
+  {
+   "start": 4.916,
+   "end": 8.636,
+   "text": "aus Mylgors Studierzimmer und hörst zu Deiner Beruhigung,"
+  },
+  {
+   "start": 8.656,
+   "end": 12.956,
+   "text": "wie das riesige Spezialschloß mit einem leisen Klicken schließt -"
+  },
+  {
+   "start": 13.009,
+   "end": 16.556,
+   "text": "keine Sekunde zu früh: Im selben Moment,"
+  },
+  {
+   "start": 16.596,
+   "end": 18.476,
+   "text": "als Du den Schlüssel herumdrehst,"
+  },
+  {
+   "start": 18.536,
+   "end": 25.116,
+   "text": "erschüttert eine fürchterliche Explosion im Labor das ganze Haus bis in die Grundmauern -"
+  },
+  {
+   "start": 25.164,
+   "end": 28.956,
+   "text": "aber die massive und klugerweise verschlossene Tür hält die"
+  },
+  {
+   "start": 28.996,
+   "end": 32.636,
+   "text": "schlimmsten Auswirkungen der Druckwelle glücklicherweise von Dir ab!"
+  },
+  {
+   "start": 33.856,
+   "end": 37.836,
+   "text": "Putz rieselt von der Decke, der Boden und die Wände beben bedrohlich -"
+  },
+  {
+   "start": 38.036,
+   "end": 41.076,
+   "text": "und plötzlich wird es sehr still:"
+  },
+  {
+   "start": 41.226,
+   "end": 46.636,
+   "text": "Nur das knisternde Lecken der Flammen an der Labortür ist noch zu hören..."
+  },
+  {
+   "start": 46.676,
+   "end": 50.076,
+   "text": "Als sich der Staub nach einer Weile gelegt hat, schaust Du Dich um:"
+  },
+  {
+   "start": 50.316,
+   "end": 53.676,
+   "text": "Die Labortür ist noch immer verschlossen -"
+  },
+  {
+   "start": 53.736,
+   "end": 58.316,
+   "text": "nur aus kleinen Ritzen in ihrem Rahmen quillt schwarzer Rauch..."
+  },
+  {
+   "start": 58.385,
+   "end": 61.036,
+   "text": "Du schickst ein Dankgebet dafür zum Himmel,"
+  },
+  {
+   "start": 61.076,
+   "end": 67.436,
+   "text": "daß Du die Explosion unversehrt überlebt hast - im krassen Gegensatz zu Mylgor übrigens,"
+  },
+  {
+   "start": 67.496,
+   "end": 70.316,
+   "text": "der jetzt wahrscheinlich mehr oder minder gleichmäßig"
+  },
+  {
+   "start": 70.412,
+   "end": 73.596,
+   "text": "über die gesamte Laborfläche verteilt sein dürfte..."
+  },
+  {
+   "start": 74.524,
+   "end": 77.116,
+   "text": "WELL DONE: BONUS AWARDED!"
+  },
+  {
+   "start": 77.196,
+   "end": 79.756,
+   "text": "...NOW PREPARE FOR NEXT STAGE..."
+  },
+  {
+   "start": 80.705,
+   "end": 82.325,
+   "text": "Ähem: Kleiner Scherz...!"
+  }
+ ]
+}

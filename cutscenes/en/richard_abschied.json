@@ -1,0 +1,112 @@
+{
+ "version": 3,
+ "duration": 35.373,
+ "hold": false,
+ "voice": "richard_abschied.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.535,
+   20.795
+  ],
+  [
+   20.944,
+   30.395
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "richard_abschied-01",
+   "path": "Stories/richard/richard_abschied-01",
+   "start": 0.0,
+   "end": 20.87,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  },
+  {
+   "image": "DiskB-026",
+   "path": "Amiga_HD/Disk 3/DiskB-026",
+   "start": 20.87,
+   "end": 35.373,
+   "from": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ],
+   "to": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 3/DiskB-026",
+  "Stories/richard/richard_abschied-01"
+ ],
+ "cues": [
+  {
+   "start": 2.535,
+   "end": 5.515,
+   "text": "\"You know the magic spell!\", says the king impatiently,"
+  },
+  {
+   "start": 5.555,
+   "end": 8.075,
+   "text": "\"But that's really all I could do for you...:"
+  },
+  {
+   "start": 8.143,
+   "end": 14.315,
+   "text": "The fate of my world is in your hands, but my prayers are with you - farewell...\""
+  },
+  {
+   "start": 14.383,
+   "end": 16.155,
+   "text": "The spirit of the king becomes more and more"
+  },
+  {
+   "start": 16.228,
+   "end": 20.795,
+   "text": "transparent until it is finally completely invisible..."
+  },
+  {
+   "start": 20.944,
+   "end": 25.115,
+   "text": "In view of the heavy burden that weighs on you with this enormous responsibility,"
+  },
+  {
+   "start": 25.155,
+   "end": 30.395,
+   "text": "you suddenly feel incredibly alone and abandoned..."
+  }
+ ]
+}

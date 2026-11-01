@@ -1,0 +1,61 @@
+# Narration "The pact with Mylgor" (part B, village): texts 383, 362, 247, 381 and
+# 367 from texts/C64_en/B2.md, smoothed for speech. Images and options as in
+# narration_en.txt.
+
+### mylgor_tuer At Mylgor's door
+
+## Disk 3/DiskB-006
+[hesitant] You knock timidly on the door and wait: nothing happens! You knock again, a little louder this time: no reaction!
+
+##+ Stories/mylgor/mylgor_tuer-01
+[mock heroic] You are just about to hammer on the door with all your might when, exactly at the spot where the destructive power of your mighty fists would very nearly have revealed itself in all its terrible glory, a small hatch opens, and behind it a face appears that can only barely be made out in the half-light! [suspicious] "What is your desire, stranger?", the voice behind the door asks suspiciously.
+
+### mylgor_vertrag The contract in blood
+
+## Disk 3/DiskB-006 focus=0,0,1300,756
+You tell the stranger behind the hatch about your journey into this world and ask him whether he could give you something to eat and a place to spend the night. Surprisingly, he doesn't doubt your story in the slightest:
+
+##+ Stories/mylgor/mylgor_vertrag-03
+[sly] "Of course I could...", the voice behind the door drawls, "But only on one condition: if I help you, you must promise to do me a small favour, too: there is a small, and of course not too dangerous, task that has to be done tomorrow. If you sign a short written declaration that you will do it for me, I will give you a bed to sleep in, warm clothes and a warm supper in return."
+
+##+ Stories/mylgor/mylgor_vertrag-01
+With these words, the man hands you a contract, strangely enough already written out, and a small, sharp little knife through the hatch. [nervous] When you ask what you need the knife for, the stranger answers indifferently:
+
+##+ Stories/mylgor/mylgor_vertrag-02
+[menacing] "I'm just careful - too many people have betrayed me already! That's why you will sign our agreement with the same blood that you will shed should you dare to break it..."
+
+### mylgor_kaminzimmer By the fireplace
+
+## Disk 3/DiskB-003
+When you have handed the contract and the knife back to the man, his face disappears behind the hatch for a moment. After a few seconds you hear the door being unlocked from inside.
+
+##+ Stories/mylgor/mylgor_kaminzimmer-01
+[friendly] "Come in!", says the man as he opens the door and leads you into a small but very cosy room with a fireplace. He introduces himself as "Mylgor, alchemist" and right away shows you the room where you are to spend the night. When you ask where he is going to sleep, if not there, he laughs heartily: [laughs] "Do you really think this little hut is big enough to live in for a scientist like me? No, no: this is only the room where my servant usually sleeps - he is running some errands for me in the next village at the moment. My laboratory and the other rooms are... - hidden! It doesn't matter where..."
+
+##+ Stories/mylgor/mylgor_kaminzimmer-02
+[suspicious] Mylgor nervously strokes his goatee, but then forces himself back into his peculiar smile. "But I thought we wanted to talk about you - not about me...?", he says, nodding towards the fireplace room, "Let's chat for an hour by the warm fire, and maybe I'll tell you a little about the history of our village. But first give me your wet things - otherwise you might catch your death...!" [nervous] With a very queasy feeling in your stomach, you undress, keeping a close eye on the old alchemist all the time: who knows what kind of favour you are supposed to do for the old man? Wasn't there a greedy gleam in his eyes just now? To be safe, you glance at the door of your room: thank God! It can be locked! [embarrassed] Embarrassed and unsure, you hand Mylgor your damp swimming trunks - but all he does is lay them by the fire to dry...
+
+### mylgor_nacht The night
+
+## Disk 3/DiskB-001
+[tired] Only when you stretch out on the bedclothes to rest a little do you notice that your journey has made you much more tired than you thought.
+
+##+ Stories/mylgor/mylgor_nacht-01
+In the meantime it has become deep night, it is pouring with rain outside - and you are very glad to have a roof over your head in this dreadful weather. You snuggle deep into the warm, cosy blanket and think about your stay in this strange, foreign world, about the contract you have made with Mylgor, and what your parents... par... pa... -Zzz... -Zzz... [sleepy] With your thumb in your mouth, you fall into the deep, dreamless sleep of exhaustion...
+
+##+ Stories/mylgor/mylgor_nacht-02
+[tense] Suddenly, though, your sweet slumber is interrupted by an ugly scraping noise from next door - a noise like stone scraping on stone! You get up and want to open the door to the fireplace room - but it is locked! [annoyed] Frustrated, you lie down again to listen to the mattress for at least a few more hours...
+
+##+ Disk 3/DiskB-001
+[casual] The next afternoon, Mylgor wakes you up and tells you to freshen up quickly and then come to the fireplace room, where he wants to give you his orders - but strangely enough, he doesn't say a word about the incident in the night: you decide, to be on the safe side, not to mention it either, and get up halfway rested and relaxed...
+
+### mylgor_auftrag The mission
+
+## Disk 3/DiskB-041 pause=1.0
+[businesslike] Mylgor has already been expecting you. He greets you briefly and comes straight to business: "I hope you still remember the pact we made last night. Well, now it is time for you to fulfil your part of our agreement:
+
+##+ Stories/mylgor/mylgor_auftrag-02
+there is an evil elf king named Firon, who hides with his horde in his ice palace in the northwest of our beloved country. Yet he often raids our small, peaceful village with his yeti army and plunders it - a few years ago he even burned it to the ground! [commanding] As head of the village council, I command you: stop him!
+
+##+ Stories/mylgor/mylgor_auftrag-01
+Here are some clothes you will need to survive in the cold ice regions, and a flask with a magic elixir that makes you invisible for a few seconds: do not use it unless it is absolutely unavoidable, because, as I said, it will protect you for one move only, and you can use it only once! Now be on your way and put an end to Firon's dark schemes: [sly] may Zargon protect you...!" With these words, Mylgor opens a small chest, takes out the things he mentioned and spreads them out on the table in front of you.

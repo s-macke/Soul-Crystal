@@ -1,0 +1,89 @@
+{
+ "version": 3,
+ "duration": 38.603,
+ "hold": false,
+ "voice": "firon_prophezeiung.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.626,
+   32.94
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "firon_prophezeiung-01",
+   "path": "Stories/firon/firon_prophezeiung-01",
+   "start": 0.0,
+   "end": 38.603,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  }
+ ],
+ "images": [
+  "Stories/firon/firon_prophezeiung-01"
+ ],
+ "cues": [
+  {
+   "start": 2.626,
+   "end": 5.655,
+   "text": "Firon is a little surprised that you don't make short work of him,"
+  },
+  {
+   "start": 5.708,
+   "end": 7.655,
+   "text": "as was actually agreed with Mylgor."
+  },
+  {
+   "start": 7.855,
+   "end": 11.575,
+   "text": "After a short pause, though, he nods slowly:"
+  },
+  {
+   "start": 12.82,
+   "end": 19.9,
+   "text": "\"So the prophecy is finally being fulfilled...\", he says, \"If you really want to spare me,"
+  },
+  {
+   "start": 20.42,
+   "end": 24.38,
+   "text": "I will tell you in return how you can find out the"
+  },
+  {
+   "start": 24.433,
+   "end": 27.1,
+   "text": "whole truth about what happened in this country,"
+  },
+  {
+   "start": 27.26,
+   "end": 32.94,
+   "text": "and who is responsible for all the things you may already have seen in part...\""
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+# Narration "King Richard's story" in the royal crypt (part B), source:
+# texts/C64_en/B2.md, texts 384 and 357 to 360, with typos and garbled phrases
+# fixed. Images and options as in narration_en.txt.
+
+### richard_erscheint King Richard appears
+
+## Disk 3/DiskB-029 focus=300,0,1900,756
+[nervous] You carefully place the skull next to the king's torso - but what is that?
+
+##+ Stories/richard/richard_erscheint-01-v2
+[surprised] The skull rolls to the skeleton's neck and grows back there as if it had never been anywhere else! [whispers] At the same moment, however, when the king's skull returns to its rightful place, you feel an ice-cold wind on your neck... Fearing the worst again, you close your eyes in fear: nothing happens... But when you dare to open them again - the coffin is empty! You close your eyes for the second time and open them again: But nothing has changed: the king's sarcophagus is and remains empty!
+
+##+ Stories/richard/richard_erscheint-02
+[scared] Before you can attempt to run away on your shaking legs, however, you hear a soft voice behind you, obviously quite amused: [warmly] "Welcome, my friend..." It's King Richard!
+
+### richard_geschichte King Richard's story
+
+## Stories/richard/richard_geschichte-01 pause=1.0
+[amused] The king's ghost looks at you for a while, then hops onto the edge of his coffin with a mischievous grin, and after making himself comfortable there, he begins to tell you the history of his kingdom:
+
+##+ Stories/richard/richard_geschichte-02
+[wistful] "A long, long time ago", he begins his story, and his face is again that of an old, bitter man, "this was a beautiful, peaceful and prosperous country, in which all my subjects were justly and wisely ruled by me. I resided in my castle on an island surrounded by crystal clear waters, whose magnificent construction expressed the wealth and artistry of my people...
+
+## Disk 4/DiskD-005
+At that time I also employed a young magician named Zargon at my court, who used to entertain me from time to time with his tricks. He was talented, very talented in fact,
+
+##+ Stories/richard/richard_geschichte-03
+but I would never have suspected that he lived in a secret chamber in the basement of my castle - a room in which he carried out all his magical experiments: he was obsessed with the crazy idea of artificially producing gold, which he urgently needed in order to pay for the lessons he took from the highest magicians in our country. One day, however, his wishes came true: he was accepted into the Seventh Circle of the Mages Guild, which meant that his full magical power had developed and he was entitled to use even the most powerful spells - yes, he eventually became even more powerful than his former teachers, who now followed the development of their most gifted student with great concern - [bitter] but in his infinite ambition he wanted even more: He wanted my throne!
+
+## Disk 4/DiskD-046
+[grim] But instead of fighting my noble knights in a brave and fair fight, he turned to his magical powers and created an army of cruel, undead creatures...
+
+## Stories/richard/richard_geschichte-04
+[dramatic] One dark night - there was a thunderstorm as if the Day of Judgment had dawned - he gathered these spawns of hell in front of my castle,
+
+##+ Stories/richard/richard_geschichte-05
+and when the clock on the tower struck midnight - what a macabre irony of fate - the corpses of my ancestors, who had been laid to rest in a crypt beneath the castle chambers, rose from their coffins - and opened the gates! It was little trouble for Zargon and his henchmen to take the castle within a few minutes: no one had expected this attack - a fatal mistake...
+
+## Stories/richard/richard_geschichte-06
+[sad] After breaking down the door to my bedchamber, Zargon's blackbloods led me away to their master, who, without a word of explanation or apology, drove the blade of his sword up to the hilt into my chest..."
+
+### richard_bestimmung Your destiny
+
+## Disk 3/DiskB-029 focus=300,0,1900,756 pause=1.5
+[determined] The king nods in agreement. "You're right: We have no more time to lose!", he decides, "The time has come to fight back, bring Zargon to justice and free the inhabitants of my kingdom from his tyranny!
+
+##+ Stories/richard/richard_bestimmung-01
+[sad] As you can see..." - he looks down sadly - "...unfortunately my supernatural appearance no longer allows me to challenge Zargon personally and atone for the mischief he has brought on us all, but maybe you are strong and smart enough to at least try! [firmly] No! Don't say anything now! Don't contradict me: This isn't just any job - it's your destiny!" [pleading] King Richard looks at you with pleading eyes...
+
+### richard_zauberspruch The spell
+
+## Disk 3/DiskB-041 pause=1.0
+[cheerful] "Well, bravo! You seem to have understood what this game is about!", says the king and happily folds his hands over his stomach, [serious] "But before you have even the slightest chance of being able to challenge Zargon, you must first defeat his vassal: Mylgor!
+
+## Disk 3/DiskB-024
+You know him: he was the one who ordered you to assassinate Firon - my younger brother, who emigrated when Zargon came to power and is now holed up with a handful of the old members of his secret society in a palace of ice, to be safe from further persecution by Zargon's henchmen.
+
+## Disk 3/DiskB-029 focus=0,0,1500,756
+I assume Mylgor has already been informed of the failure of his plan and is therefore hiding in the secret chambers beneath his little hut: I don't know how you can get there, but maybe this spell will help you open doors locked by a spell. [wistful] It's not strong enough to break barriers like the ones Zargon put around the world gate behind the waterfall, but it is all that remains of my once mighty magical powers... And now let me teach you the spell..."
+
+##+ Stories/richard/richard_zauberspruch-01
+[whispers] The king places three fingers of his right hand on your forehead, and a cold shiver comes over you as you suddenly feel the icy coldness of his body... Richard murmurs a few throaty sounds in a strange, ancient language and then opens his eyes again: You now have the remaining astral energy that he still had...
+
+### richard_abschied Richard's farewell
+
+## Stories/richard/richard_abschied-01 pause=1.5
+[impatient] "You know the magic spell!", says the king impatiently, "But that's really all I could do for you...: [warmly] The fate of my world is in your hands, but my prayers are with you - farewell..." [softly] The spirit of the king becomes more and more transparent until it is finally completely invisible...
+
+##+ Disk 3/DiskB-026
+[wistful] In view of the heavy burden that weighs on you with this enormous responsibility, you suddenly feel incredibly alone and abandoned...

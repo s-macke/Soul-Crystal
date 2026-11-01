@@ -1,0 +1,165 @@
+{
+ "version": 3,
+ "duration": 64.4,
+ "hold": false,
+ "voice": "mylgor_labor.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.525,
+   24.42
+  ],
+  [
+   25.8,
+   37.648
+  ],
+  [
+   37.696,
+   58.8
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskB-033",
+   "path": "Amiga_HD/Disk 3/DiskB-033",
+   "start": 0.0,
+   "end": 25.11,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "mylgor_labor-01",
+   "path": "Stories/mylgor/mylgor_labor-01",
+   "start": 25.11,
+   "end": 37.672,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "DiskB-040",
+   "path": "Amiga_HD/Disk 3/DiskB-040",
+   "start": 37.672,
+   "end": 64.4,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 3/DiskB-033",
+  "Amiga_HD/Disk 3/DiskB-040",
+  "Stories/mylgor/mylgor_labor-01"
+ ],
+ "cues": [
+  {
+   "start": 2.525,
+   "end": 4.14,
+   "text": "As the sign on the door already suggested,"
+  },
+  {
+   "start": 4.2,
+   "end": 9.748,
+   "text": "this is Mylgor's secret laboratory: it is crammed with test tubes,"
+  },
+  {
+   "start": 9.78,
+   "end": 13.547,
+   "text": "flasks and beakers full of all kinds of mysterious liquids,"
+  },
+  {
+   "start": 13.605,
+   "end": 16.58,
+   "text": "bubbling away in every colour imaginable."
+  },
+  {
+   "start": 16.66,
+   "end": 20.207,
+   "text": "You have to concentrate very hard not to be confused by"
+  },
+  {
+   "start": 20.26,
+   "end": 24.42,
+   "text": "this sudden flood of new impressions - but then you see him:"
+  },
+  {
+   "start": 25.8,
+   "end": 28.064,
+   "text": "MYLGOR, the malicious alchemist,"
+  },
+  {
+   "start": 28.112,
+   "end": 32.752,
+   "text": "the vassal of the great evil whose name you don't even dare to think!"
+  },
+  {
+   "start": 32.848,
+   "end": 39.92,
+   "text": "When your eyes meet, his face twists into a gloating grimace: slowly he comes towards you,"
+  },
+  {
+   "start": 39.97,
+   "end": 44.448,
+   "text": "shows you a huge horse syringe that he has just filled with a greenish,"
+  },
+  {
+   "start": 44.48,
+   "end": 51.2,
+   "text": "bubbling poison, and snarls: \"You did not follow my orders, my friend, did you...?\""
+  },
+  {
+   "start": 52.16,
+   "end": 54.0,
+   "text": "Hastily you look around for a way to escape,"
+  },
+  {
+   "start": 54.04,
+   "end": 58.8,
+   "text": "but apart from the huge steel door to the south, you can't see anything...!"
+  }
+ ]
+}

@@ -1,0 +1,147 @@
+{
+ "version": 3,
+ "duration": 56.12,
+ "hold": false,
+ "voice": "burgtor.mp3",
+ "music": {
+  "path": "music/Amiga/04.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.633,
+   24.667
+  ],
+  [
+   25.512,
+   51.127
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskC-012",
+   "path": "Amiga_HD/Disk 2/DiskC-012",
+   "start": 0.0,
+   "end": 25.09,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "DiskC-014",
+   "path": "Amiga_HD/Disk 2/DiskC-014",
+   "start": 25.09,
+   "end": 56.12,
+   "from": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ],
+   "to": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 2/DiskC-012",
+  "Amiga_HD/Disk 2/DiskC-014"
+ ],
+ "cues": [
+  {
+   "start": 2.633,
+   "end": 3.46,
+   "text": "Right in front of you,"
+  },
+  {
+   "start": 3.5,
+   "end": 8.46,
+   "text": "the massive castle gate with its iron fittings rises up, huge and threatening."
+  },
+  {
+   "start": 8.553,
+   "end": 12.58,
+   "text": "It seems to stare down at you with malice - almost as if it wanted to say:"
+  },
+  {
+   "start": 13.027,
+   "end": 15.787,
+   "text": "\"I will never let you out of here again...!\","
+  },
+  {
+   "start": 15.807,
+   "end": 19.947,
+   "text": "and at once you get the faint and vague, but nevertheless thoroughly unpleasant"
+  },
+  {
+   "start": 19.997,
+   "end": 24.667,
+   "text": "feeling that you will really pass through this entrance to the castle only once..."
+  },
+  {
+   "start": 25.512,
+   "end": 29.127,
+   "text": "You still have a little time to think your plan over carefully - and to be fair,"
+  },
+  {
+   "start": 29.18,
+   "end": 31.287,
+   "text": "we should warn you, even though you are actually"
+  },
+  {
+   "start": 31.347,
+   "end": 34.007,
+   "text": "already on the right path to completing your task:"
+  },
+  {
+   "start": 34.06,
+   "end": 38.087,
+   "text": "if you really dare to enter these gloomy walls against all our warnings,"
+  },
+  {
+   "start": 38.119,
+   "end": 41.207,
+   "text": "this game will not let you sleep until you have finally solved it."
+  },
+  {
+   "start": 41.918,
+   "end": 45.367,
+   "text": "So I suggest you first brew a few barrels of coffee in advance,"
+  },
+  {
+   "start": 45.407,
+   "end": 48.087,
+   "text": "buy a few cartons of cigarettes - and above all,"
+  },
+  {
+   "start": 48.114,
+   "end": 51.127,
+   "text": "think up a few halfway intelligent excuses for your boss!"
+  }
+ ]
+}

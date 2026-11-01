@@ -1,0 +1,162 @@
+{
+ "version": 3,
+ "duration": 63.117,
+ "hold": false,
+ "voice": "fremde_welt.mp3",
+ "music": {
+  "path": "music/Amiga/02.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.524,
+   14.564
+  ],
+  [
+   15.268,
+   57.604
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskA-012",
+   "path": "Amiga_HD/Disk 2/DiskA-012",
+   "start": 0.0,
+   "end": 14.916,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "fremde_welt-01",
+   "path": "Stories/fremde_welt/fremde_welt-01",
+   "start": 14.916,
+   "end": 63.117,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 2/DiskA-012",
+  "Stories/fremde_welt/fremde_welt-01"
+ ],
+ "cues": [
+  {
+   "start": 2.524,
+   "end": 5.684,
+   "text": "Still quite dazed from the hard blow the waterfall gave you,"
+  },
+  {
+   "start": 5.724,
+   "end": 10.164,
+   "text": "you try to keep yourself above the surface with light but rather clumsy strokes -"
+  },
+  {
+   "start": 10.204,
+   "end": 14.564,
+   "text": "but suddenly you stop short, so that you go under again for a moment and swallow water!"
+  },
+  {
+   "start": 15.268,
+   "end": 17.284,
+   "text": "When you come up again, it hits you:"
+  },
+  {
+   "start": 17.324,
+   "end": 20.484,
+   "text": "you still seem to be paddling on the southern side of the waterfall!"
+  },
+  {
+   "start": 20.577,
+   "end": 23.924,
+   "text": "There might even be some plausible explanation for that alone,"
+  },
+  {
+   "start": 23.968,
+   "end": 27.124,
+   "text": "especially since you lost your bearings under water for a moment,"
+  },
+  {
+   "start": 27.177,
+   "end": 30.404,
+   "text": "so you could accept it if, if..."
+  },
+  {
+   "start": 30.484,
+   "end": 33.364,
+   "text": "if only your village were still there on the shore!"
+  },
+  {
+   "start": 33.749,
+   "end": 36.404,
+   "text": "But it seems to have vanished from the face of the earth!"
+  },
+  {
+   "start": 36.474,
+   "end": 40.804,
+   "text": "Instead of the little village, there is a deep, dark forest on the shore,"
+  },
+  {
+   "start": 40.836,
+   "end": 43.444,
+   "text": "with trees you have never seen in your whole life!"
+  },
+  {
+   "start": 44.264,
+   "end": 46.324,
+   "text": "You begin to suspect that the waterfall may have"
+  },
+  {
+   "start": 46.377,
+   "end": 49.604,
+   "text": "taken you into a world that exists parallel to your own -"
+  },
+  {
+   "start": 49.652,
+   "end": 53.044,
+   "text": "just like in those silly adventure games on your computer at home."
+  },
+  {
+   "start": 53.7,
+   "end": 55.604,
+   "text": "Only: THIS is reality!"
+  },
+  {
+   "start": 55.764,
+   "end": 57.604,
+   "text": "And where the hell have you ended up?"
+  }
+ ]
+}

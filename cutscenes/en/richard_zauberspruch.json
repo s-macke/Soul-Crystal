@@ -1,0 +1,233 @@
+{
+ "version": 3,
+ "duration": 91.591,
+ "hold": false,
+ "voice": "richard_zauberspruch.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.564,
+   18.603
+  ],
+  [
+   19.824,
+   38.743
+  ],
+  [
+   39.984,
+   65.828
+  ],
+  [
+   65.937,
+   86.556
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskB-041",
+   "path": "Amiga_HD/Disk 3/DiskB-041",
+   "start": 0.0,
+   "end": 19.214,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "DiskB-024",
+   "path": "Amiga_HD/Disk 3/DiskB-024",
+   "start": 19.214,
+   "end": 39.364,
+   "from": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ],
+   "to": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ]
+  },
+  {
+   "image": "DiskB-029",
+   "path": "Amiga_HD/Disk 3/DiskB-029",
+   "start": 39.364,
+   "end": 65.882,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    243.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "richard_zauberspruch-01",
+   "path": "Stories/richard/richard_zauberspruch-01",
+   "start": 65.882,
+   "end": 91.591,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 3/DiskB-024",
+  "Amiga_HD/Disk 3/DiskB-029",
+  "Amiga_HD/Disk 3/DiskB-041",
+  "Stories/richard/richard_zauberspruch-01"
+ ],
+ "cues": [
+  {
+   "start": 2.564,
+   "end": 3.484,
+   "text": "\"Well, bravo!"
+  },
+  {
+   "start": 3.624,
+   "end": 6.284,
+   "text": "You seem to have understood what this game is about!\","
+  },
+  {
+   "start": 6.332,
+   "end": 10.524,
+   "text": "says the king and happily folds his hands over his stomach,"
+  },
+  {
+   "start": 10.654,
+   "end": 15.004,
+   "text": "\"But before you have even the slightest chance of being able to challenge Zargon,"
+  },
+  {
+   "start": 15.144,
+   "end": 18.603,
+   "text": "you must first defeat his vassal: Mylgor!"
+  },
+  {
+   "start": 19.824,
+   "end": 25.383,
+   "text": "You know him: he was the one who ordered you to assassinate Firon - my younger brother,"
+  },
+  {
+   "start": 25.524,
+   "end": 30.103,
+   "text": "who emigrated when Zargon came to power and is now holed up with a"
+  },
+  {
+   "start": 30.163,
+   "end": 35.063,
+   "text": "handful of the old members of his secret society in a palace of ice,"
+  },
+  {
+   "start": 35.116,
+   "end": 38.743,
+   "text": "to be safe from further persecution by Zargon's henchmen."
+  },
+  {
+   "start": 39.984,
+   "end": 43.184,
+   "text": "I assume Mylgor has already been informed of the failure of his plan"
+  },
+  {
+   "start": 43.284,
+   "end": 47.264,
+   "text": "and is therefore hiding in the secret chambers beneath his little hut:"
+  },
+  {
+   "start": 47.304,
+   "end": 48.864,
+   "text": "I don't know how you can get there,"
+  },
+  {
+   "start": 48.904,
+   "end": 51.824,
+   "text": "but maybe this spell will help you open doors locked by a spell."
+  },
+  {
+   "start": 53.136,
+   "end": 55.029,
+   "text": "It's not strong enough to break barriers like the"
+  },
+  {
+   "start": 55.077,
+   "end": 58.389,
+   "text": "ones Zargon put around the world gate behind the waterfall,"
+  },
+  {
+   "start": 58.429,
+   "end": 62.389,
+   "text": "but it is all that remains of my once mighty magical powers..."
+  },
+  {
+   "start": 62.429,
+   "end": 65.828,
+   "text": "And now let me teach you the spell...\""
+  },
+  {
+   "start": 65.937,
+   "end": 69.517,
+   "text": "The king places three fingers of his right hand on your forehead,"
+  },
+  {
+   "start": 69.557,
+   "end": 75.997,
+   "text": "and a cold shiver comes over you as you suddenly feel the icy coldness of his body..."
+  },
+  {
+   "start": 76.047,
+   "end": 78.717,
+   "text": "Richard murmurs a few throaty sounds in a strange,"
+  },
+  {
+   "start": 78.767,
+   "end": 82.797,
+   "text": "ancient language and then opens his eyes again:"
+  },
+  {
+   "start": 82.857,
+   "end": 86.556,
+   "text": "You now have the remaining astral energy that he still had..."
+  }
+ ]
+}

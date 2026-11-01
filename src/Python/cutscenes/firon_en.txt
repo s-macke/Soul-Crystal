@@ -1,0 +1,29 @@
+# Narration "Firon's truth" (part B, ice palace): texts 353-355 from
+# texts/C64_en/B2.md, smoothed for speech. Images and options as in narration_en.txt.
+
+### firon_thron Firon awaits death
+
+## Stories/firon/firon_thron-01
+[solemn] The old elf king rises from his throne: "I knew that one day you would come and carry out your master's order. Now do your duty and destroy the last scion of a noble line, too - I will not resist! I have waited so long for this moment, and it is time we got it over with...", [sad] he answers in a gentle voice that carries something like melancholy and resignation...
+
+### firon_prophezeiung The prophecy
+
+## Stories/firon/firon_prophezeiung-01 pause=1.0
+[surprised] Firon is a little surprised that you don't make short work of him, as was actually agreed with Mylgor. After a short pause, though, he nods slowly: [solemn] "So the prophecy is finally being fulfilled...", he says, "If you really want to spare me, I will tell you in return how you can find out the whole truth about what happened in this country, and who is responsible for all the things you may already have seen in part..."
+
+### firon_schluessel Firon's key
+
+## Disk 3/DiskB-024 focus=600,0,2079,756
+[warmly] Firon answers: "To prove to you that I am on your side, I will give you a key whose purpose will surely be explained to you later. Unfortunately it is not within my power to tell you myself, but there is someone... someone in the old monastery on the hill in the northeast of the country whom you should find. We were both members of a circle that secretly dealt with the problems of this country after evil had gained the upper hand. Sadly..."
+
+##+ Stories/firon/firon_schluessel-04
+[sad] - at these words he sighs and, for a short moment, looks absent-mindedly past you into the cold emptiness - "Sadly, he did not manage to flee to us in this wasteland, and so he fell into the hands of evil's henchmen... I never saw him again, nor the monastery that served us as our secret headquarters back then: all that remained to me was a key, whose imprint I cast in magic ice and have kept for decades. May it help you on your quest..."
+
+##+ Stories/firon/firon_schluessel-01
+With these words, Firon rises, takes a large key from a secret compartment in his throne
+
+##+ Stories/firon/firon_schluessel-02
+and carefully places it in your outstretched hand. [warmly] With a look at the portal behind you, he adds: "My guards will let you pass. I will order them to prepare one of my fastest badger sleds for your return to the edge of the ice regions. Farewell, my friend - and may the gods protect you..."
+
+##+ Stories/firon/firon_schluessel-03
+With these words, Firon beckons the yeti, who leads you outside, where Firon's sled is already waiting for you...

@@ -1,0 +1,162 @@
+{
+ "version": 3,
+ "duration": 79.4,
+ "hold": false,
+ "voice": "burgtor.mp3",
+ "music": {
+  "path": "music/Amiga/04.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.769,
+   33.06
+  ],
+  [
+   33.902,
+   74.4
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskC-012",
+   "path": "Amiga_HD/Disk 2/DiskC-012",
+   "start": 0.0,
+   "end": 33.481,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "DiskC-014",
+   "path": "Amiga_HD/Disk 2/DiskC-014",
+   "start": 33.481,
+   "end": 79.4,
+   "from": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ],
+   "to": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 2/DiskC-012",
+  "Amiga_HD/Disk 2/DiskC-014"
+ ],
+ "cues": [
+  {
+   "start": 2.769,
+   "end": 5.7,
+   "text": "Direkt vor Dir erhebt sich drohend und massig"
+  },
+  {
+   "start": 5.76,
+   "end": 9.46,
+   "text": "das massive Burgtor mit seinen eisernen Beschlägen."
+  },
+  {
+   "start": 9.7,
+   "end": 14.66,
+   "text": "Hämisch scheint es auf Dich hinabzustarren - fast schon so, als ob es sagen wollte:"
+  },
+  {
+   "start": 15.596,
+   "end": 19.38,
+   "text": "\"Dich werde ich hier niemals wieder herauslassen...!\","
+  },
+  {
+   "start": 19.42,
+   "end": 23.22,
+   "text": "und prompt bekommst Du auch schon das leichte und unbestimmte,"
+  },
+  {
+   "start": 23.26,
+   "end": 26.74,
+   "text": "andererseits jedoch absolut nicht angenehme Gefühl,"
+  },
+  {
+   "start": 26.78,
+   "end": 33.06,
+   "text": "daß Du diesen Zugang zum Schloß tatsächlich nur ein einziges Mal durchschreiten wirst..."
+  },
+  {
+   "start": 33.902,
+   "end": 38.32,
+   "text": "Noch hast Du ein wenig Zeit, Dir Dein Vorhaben reiflich zu überlegen -"
+  },
+  {
+   "start": 38.38,
+   "end": 40.96,
+   "text": "und wir sollten Dich fairerweise warnen,"
+  },
+  {
+   "start": 41.013,
+   "end": 45.84,
+   "text": "obwohl Du Dich eigentlich schon auf dem richtigen Weg zur Lösung Deiner Aufgabe befindest:"
+  },
+  {
+   "start": 45.968,
+   "end": 48.88,
+   "text": "Wenn Du es tatsächlich wagen solltest,"
+  },
+  {
+   "start": 48.937,
+   "end": 53.76,
+   "text": "dieses düstere Gemäuer entgegen allen unseren Warnungen zu betreten,"
+  },
+  {
+   "start": 53.813,
+   "end": 59.2,
+   "text": "so wird Dich dieses Spiel so lange nicht schlafen lassen, bis Du es endlich gelöst hast."
+  },
+  {
+   "start": 60.44,
+   "end": 66.08,
+   "text": "Ich schlage daher vor, daß Du Dir erst einmal ein paar Fäßchen Kaffee auf Vorrat braust,"
+  },
+  {
+   "start": 66.12,
+   "end": 68.4,
+   "text": "ein paar Stangen Zigaretten kaufst -"
+  },
+  {
+   "start": 68.46,
+   "end": 70.64,
+   "text": "und Dir vor allen Dingen ein paar halbwegs"
+  },
+  {
+   "start": 70.684,
+   "end": 74.4,
+   "text": "intelligente Entschuldigungen für Deinen Boss ausdenkst!"
+  }
+ ]
+}

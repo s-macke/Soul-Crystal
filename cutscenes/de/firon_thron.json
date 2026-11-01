@@ -1,0 +1,94 @@
+{
+ "version": 3,
+ "duration": 36.373,
+ "hold": false,
+ "voice": "firon_thron.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.636,
+   31.3
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "firon_thron-01",
+   "path": "Stories/firon/firon_thron-01",
+   "start": 0.0,
+   "end": 36.373,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  }
+ ],
+ "images": [
+  "Stories/firon/firon_thron-01"
+ ],
+ "cues": [
+  {
+   "start": 2.636,
+   "end": 6.66,
+   "text": "Der alte Elfenkönig erhebt sich von seinem Thron: \"Ich wußte,"
+  },
+  {
+   "start": 6.7,
+   "end": 10.58,
+   "text": "daß Du eines Tages kommen und den Befehl Deines Herren erfüllen würdest."
+  },
+  {
+   "start": 10.66,
+   "end": 13.62,
+   "text": "Nun tu Deine Pflicht und vernichte auch noch den letzten"
+  },
+  {
+   "start": 13.7,
+   "end": 17.7,
+   "text": "Sproß eines edlen Geschlechts - ich werde mich nicht wehren!"
+  },
+  {
+   "start": 17.887,
+   "end": 20.66,
+   "text": "So lange habe ich auf diesen Augenblick gewartet,"
+  },
+  {
+   "start": 20.68,
+   "end": 23.78,
+   "text": "und es wird Zeit, daß wir es hinter uns bringen...\","
+  },
+  {
+   "start": 23.91,
+   "end": 25.78,
+   "text": "antwortet er Dir mit sanfter Stimme,"
+  },
+  {
+   "start": 25.807,
+   "end": 31.3,
+   "text": "in deren Melodie so etwas wie Melancholie und Resignation mitschwingt..."
+  }
+ ]
+}

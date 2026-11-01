@@ -1,0 +1,104 @@
+{
+ "version": 3,
+ "duration": 38.181,
+ "hold": false,
+ "voice": "ufer.mp3",
+ "music": {
+  "path": "music/Amiga/02.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   3.013,
+   33.193
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskA-013",
+   "path": "Amiga_HD/Disk 2/DiskA-013",
+   "start": 0.0,
+   "end": 38.181,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 2/DiskA-013"
+ ],
+ "cues": [
+  {
+   "start": 3.013,
+   "end": 5.588,
+   "text": "You step onto the shore, where the roar of the waterfall"
+  },
+  {
+   "start": 5.641,
+   "end": 8.707,
+   "text": "in the southwest corner of the mountain lake can still be heard."
+  },
+  {
+   "start": 8.834,
+   "end": 11.987,
+   "text": "Nature somehow looks much cleaner and more untouched"
+  },
+  {
+   "start": 12.035,
+   "end": 14.627,
+   "text": "here than on the side where you first entered the lake -"
+  },
+  {
+   "start": 14.647,
+   "end": 17.027,
+   "text": "you don't even know anymore how long ago that was!"
+  },
+  {
+   "start": 18.019,
+   "end": 20.634,
+   "text": "Nevertheless, you slowly begin to like this world,"
+  },
+  {
+   "start": 20.665,
+   "end": 22.634,
+   "text": "even though you don't really know where your parents"
+  },
+  {
+   "start": 22.65,
+   "end": 25.273,
+   "text": "will think you are if you don't call home tonight."
+  },
+  {
+   "start": 25.734,
+   "end": 28.153,
+   "text": "But it doesn't take much imagination to figure out that this"
+  },
+  {
+   "start": 28.193,
+   "end": 33.193,
+   "text": "has probably been your last \"solo vacation\" until you come of age..."
+  }
+ ]
+}

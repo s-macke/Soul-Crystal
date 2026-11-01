@@ -1,0 +1,180 @@
+{
+ "version": 3,
+ "duration": 75.9,
+ "hold": false,
+ "voice": "mylgor_auftrag.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.647,
+   16.74
+  ],
+  [
+   16.767,
+   37.78
+  ],
+  [
+   37.972,
+   70.902
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskB-041",
+   "path": "Amiga_HD/Disk 3/DiskB-041",
+   "start": 0.0,
+   "end": 16.754,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "mylgor_auftrag-02",
+   "path": "Stories/mylgor/mylgor_auftrag-02",
+   "start": 16.754,
+   "end": 37.876,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "mylgor_auftrag-01",
+   "path": "Stories/mylgor/mylgor_auftrag-01",
+   "start": 37.876,
+   "end": 75.9,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 3/DiskB-041",
+  "Stories/mylgor/mylgor_auftrag-01",
+  "Stories/mylgor/mylgor_auftrag-02"
+ ],
+ "cues": [
+  {
+   "start": 2.647,
+   "end": 4.5,
+   "text": "Mylgor has already been expecting you."
+  },
+  {
+   "start": 4.873,
+   "end": 8.02,
+   "text": "He greets you briefly and comes straight to business:"
+  },
+  {
+   "start": 8.54,
+   "end": 11.46,
+   "text": "\"I hope you still remember the pact we made last night."
+  },
+  {
+   "start": 11.684,
+   "end": 16.74,
+   "text": "Well, now it is time for you to fulfil your part of our agreement:"
+  },
+  {
+   "start": 16.767,
+   "end": 19.62,
+   "text": "there is an evil elf king named Firon,"
+  },
+  {
+   "start": 19.68,
+   "end": 24.18,
+   "text": "who hides with his horde in his ice palace in the northwest of our beloved country."
+  },
+  {
+   "start": 24.4,
+   "end": 30.18,
+   "text": "Yet he often raids our small, peaceful village with his yeti army and plunders it -"
+  },
+  {
+   "start": 30.22,
+   "end": 32.74,
+   "text": "a few years ago he even burned it to the ground!"
+  },
+  {
+   "start": 33.833,
+   "end": 37.78,
+   "text": "As head of the village council, I command you: stop him!"
+  },
+  {
+   "start": 37.972,
+   "end": 41.86,
+   "text": "Here are some clothes you will need to survive in the cold ice regions,"
+  },
+  {
+   "start": 42.0,
+   "end": 46.66,
+   "text": "and a flask with a magic elixir that makes you invisible for a few seconds:"
+  },
+  {
+   "start": 46.713,
+   "end": 52.1,
+   "text": "do not use it unless it is absolutely unavoidable, because, as I said,"
+  },
+  {
+   "start": 52.127,
+   "end": 56.26,
+   "text": "it will protect you for one move only, and you can use it only once!"
+  },
+  {
+   "start": 56.48,
+   "end": 63.702,
+   "text": "Now be on your way and put an end to Firon's dark schemes: may Zargon protect you...!\""
+  },
+  {
+   "start": 63.734,
+   "end": 66.982,
+   "text": "With these words, Mylgor opens a small chest,"
+  },
+  {
+   "start": 67.035,
+   "end": 70.902,
+   "text": "takes out the things he mentioned and spreads them out on the table in front of you."
+  }
+ ]
+}

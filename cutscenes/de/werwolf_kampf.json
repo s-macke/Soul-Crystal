@@ -1,0 +1,298 @@
+{
+ "version": 3,
+ "duration": 131.729,
+ "hold": false,
+ "voice": "werwolf_kampf.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.571,
+   68.429
+  ],
+  [
+   69.059,
+   104.269
+  ],
+  [
+   106.189,
+   123.169
+  ],
+  [
+   123.819,
+   126.729
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "werwolf_kampf-01",
+   "path": "Stories/werwolf/werwolf_kampf-01",
+   "start": 0.0,
+   "end": 68.744,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  },
+  {
+   "image": "werwolf_kampf-02",
+   "path": "Stories/werwolf/werwolf_kampf-02",
+   "start": 68.744,
+   "end": 105.229,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "werwolf_kampf-03",
+   "path": "Stories/werwolf/werwolf_kampf-03",
+   "start": 105.229,
+   "end": 123.494,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  },
+  {
+   "image": "werwolf_kampf-04",
+   "path": "Stories/werwolf/werwolf_kampf-04",
+   "start": 123.494,
+   "end": 131.729,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  }
+ ],
+ "images": [
+  "Stories/werwolf/werwolf_kampf-01",
+  "Stories/werwolf/werwolf_kampf-02",
+  "Stories/werwolf/werwolf_kampf-03",
+  "Stories/werwolf/werwolf_kampf-04"
+ ],
+ "cues": [
+  {
+   "start": 2.571,
+   "end": 5.709,
+   "text": "Bevor Dein untoter Gegner Gelegenheit zum Angriff bekommt,"
+  },
+  {
+   "start": 5.757,
+   "end": 8.829,
+   "text": "fichst Du mit einer gewandten Bewegung gegen seine Brust!"
+  },
+  {
+   "start": 9.069,
+   "end": 14.109,
+   "text": "Kurz bevor Deine Klinge jedoch ihr Ziel findet, läßt Du sie überraschend nach oben,"
+  },
+  {
+   "start": 14.149,
+   "end": 17.389,
+   "text": "gegen den Hals der Bestie, schwingen, wo sie eine klaffende,"
+  },
+  {
+   "start": 17.442,
+   "end": 19.149,
+   "text": "rauchende Wunde hinterläßt,"
+  },
+  {
+   "start": 19.213,
+   "end": 22.589,
+   "text": "ohne daß der Werwolf auch nur die geringste Chance gehabt hätte,"
+  },
+  {
+   "start": 22.616,
+   "end": 25.789,
+   "text": "Deinen wahrhaft mörderisch guten Hieb abzuwehren!"
+  },
+  {
+   "start": 26.029,
+   "end": 30.829,
+   "text": "Die untote Kreatur sinkt, schwer verwundet durch Deine geweihte Waffe,"
+  },
+  {
+   "start": 30.869,
+   "end": 36.029,
+   "text": "mit einem ungläubigen Blick in ihren Augen zu Boden und haucht ihr \"Leben\" aus."
+  },
+  {
+   "start": 37.249,
+   "end": 37.549,
+   "text": "\"K.O."
+  },
+  {
+   "start": 37.589,
+   "end": 40.029,
+   "text": "wegen vorzeitigen Ablebens in der ersten Runde!\""
+  },
+  {
+   "start": 40.309,
+   "end": 42.909,
+   "text": "- selbstzufrieden steckst Du Dein Schwert zurück in"
+  },
+  {
+   "start": 42.929,
+   "end": 45.869,
+   "text": "die Scheide und pustest Dir über die Fingernägel,"
+  },
+  {
+   "start": 45.909,
+   "end": 49.549,
+   "text": "als Dir der Gedanke kommt, daß dies auch eine Finte sein könnte:"
+  },
+  {
+   "start": 49.989,
+   "end": 53.869,
+   "text": "Vorsichtig, und mit einer Hand den Schwertgriff fest umklammernd,"
+  },
+  {
+   "start": 54.002,
+   "end": 59.149,
+   "text": "kniest Du neben dem Wolfskörper nieder, um zu sehen, ob Dein Gegner wirklich tot ist..."
+  },
+  {
+   "start": 59.496,
+   "end": 62.909,
+   "text": "Deine Sorge war unbegründet: Dampfendes,"
+  },
+  {
+   "start": 62.962,
+   "end": 68.429,
+   "text": "grünliches Blut rinnt aus einer langen, weit aufklaffenden Wunde aus seiner Kehle."
+  },
+  {
+   "start": 69.059,
+   "end": 73.309,
+   "text": "Etwas anderes, was Du allerdings auch sehen mußt, ist etwas rotes Blut,"
+  },
+  {
+   "start": 73.349,
+   "end": 76.509,
+   "text": "das an einer der Wolfsklauen klebt - und als Du Dich,"
+  },
+  {
+   "start": 76.549,
+   "end": 79.389,
+   "text": "von bösen Vorahnungen geplagt, untersuchst,"
+  },
+  {
+   "start": 79.423,
+   "end": 84.589,
+   "text": "kannst Du eine kleine, aber dennoch ziemlich tiefe Wunde an Deinem linken Bein erkennen,"
+  },
+  {
+   "start": 84.609,
+   "end": 87.389,
+   "text": "die der Wolf wohl noch im Fallen gerissen haben muß,"
+  },
+  {
+   "start": 87.429,
+   "end": 90.109,
+   "text": "und aus der nun - GRÜNES Blut sickert!"
+  },
+  {
+   "start": 91.216,
+   "end": 91.789,
+   "text": "SCHEISSE!"
+  },
+  {
+   "start": 91.962,
+   "end": 94.109,
+   "text": "Jetzt, wo Du sie bemerkt hast,"
+  },
+  {
+   "start": 94.149,
+   "end": 98.189,
+   "text": "beginnt die Wunde höllisch zu brennen: Die Infektion hat begonnen,"
+  },
+  {
+   "start": 98.269,
+   "end": 100.909,
+   "text": "und es wird nur noch eine Frage der Zeit sein,"
+  },
+  {
+   "start": 100.949,
+   "end": 104.269,
+   "text": "bis auch Du beginnst, bei Vollmond zur Bestie zu werden!"
+  },
+  {
+   "start": 106.189,
+   "end": 110.249,
+   "text": "Während Du Dich resignierend auf einem der umgefallenen Grabsteine niederläßt,"
+  },
+  {
+   "start": 110.302,
+   "end": 113.049,
+   "text": "um über Dein ungewisses Schicksal nachzusinnen,"
+  },
+  {
+   "start": 113.097,
+   "end": 116.249,
+   "text": "verwandelt sich der Körper des Wolfes in den verwesenden"
+  },
+  {
+   "start": 116.302,
+   "end": 119.449,
+   "text": "Leichnam einer einst wohl einmal wunderschönen,"
+  },
+  {
+   "start": 119.489,
+   "end": 123.169,
+   "text": "jungen Frau, die dankbar zu Dir aufzublicken scheint!"
+  },
+  {
+   "start": 123.819,
+   "end": 126.729,
+   "text": "Als Du sie berühren willst - zerfällt sie zu Staub..."
+  }
+ ]
+}

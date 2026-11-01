@@ -1,0 +1,102 @@
+{
+ "version": 3,
+ "duration": 27.465,
+ "hold": false,
+ "voice": "zepter.mp3",
+ "music": {
+  "path": "music/Amiga/16.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.575,
+   7.225
+  ],
+  [
+   7.345,
+   21.871
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskD-015",
+   "path": "Amiga_HD/Disk 4/DiskD-015",
+   "start": 0.0,
+   "end": 7.285,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "zepter-01",
+   "path": "Stories/finale/zepter-01",
+   "start": 7.285,
+   "end": 27.465,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 4/DiskD-015",
+  "Stories/finale/zepter-01"
+ ],
+ "cues": [
+  {
+   "start": 2.575,
+   "end": 7.225,
+   "text": "Du schiebst Zargons Szepter in den Slot - und es scheint tatsächlich zu passen!"
+  },
+  {
+   "start": 7.345,
+   "end": 11.465,
+   "text": "Mit einem laut vernehmbaren Klicken rastet der Griff ein,"
+  },
+  {
+   "start": 11.505,
+   "end": 15.065,
+   "text": "und als Du das Szepter wie einen Hebel hin- und herbewegst,"
+  },
+  {
+   "start": 15.106,
+   "end": 18.185,
+   "text": "hörst Du plötzlich ein scharrendes Geräusch von oben"
+  },
+  {
+   "start": 18.266,
+   "end": 21.871,
+   "text": "zu Dir hinunterschallen: DAS PORTALTOR!!!"
+  }
+ ]
+}

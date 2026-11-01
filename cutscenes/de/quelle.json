@@ -1,0 +1,94 @@
+{
+ "version": 3,
+ "duration": 42.94,
+ "hold": false,
+ "voice": "quelle.mp3",
+ "music": {
+  "path": "music/Amiga/16.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   3.094,
+   37.906
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "quelle-01",
+   "path": "Stories/finale/quelle-01",
+   "start": 0.0,
+   "end": 42.94,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  }
+ ],
+ "images": [
+  "Stories/finale/quelle-01"
+ ],
+ "cues": [
+  {
+   "start": 3.094,
+   "end": 6.947,
+   "text": "Du läßt etwas von dem bläulichen Wasser in Deine schalenförmig gehaltenen"
+  },
+  {
+   "start": 7.011,
+   "end": 12.867,
+   "text": "Handflächen laufen und nippst vorsichtig daran: Schon nach wenigen Schlückchen fühlst Du,"
+  },
+  {
+   "start": 12.907,
+   "end": 17.267,
+   "text": "wie Dich eine Woge von Fröhlichkeit und neuer Kraft durchströmt,"
+  },
+  {
+   "start": 17.287,
+   "end": 20.707,
+   "text": "die Dich einerseits beruhigt und andererseits gleichzeitig"
+  },
+  {
+   "start": 20.827,
+   "end": 23.907,
+   "text": "auf gar wundersame Weise zu erfrischen scheint."
+  },
+  {
+   "start": 25.003,
+   "end": 27.827,
+   "text": "Und als Du zufällig an Deinem Körper herunterblickst,"
+  },
+  {
+   "start": 27.887,
+   "end": 32.307,
+   "text": "bemerkst Du, daß Du Dich wieder in einen Menschen zurückverwandelt hast -"
+  },
+  {
+   "start": 32.447,
+   "end": 37.906,
+   "text": "was allerdings auch bedeutet, daß Du Deine übernatürlichen Kräfte einbüßt..."
+  }
+ ]
+}

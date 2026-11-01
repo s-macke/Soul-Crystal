@@ -1,0 +1,415 @@
+{
+ "version": 3,
+ "duration": 169.126,
+ "hold": false,
+ "voice": "richard_geschichte.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.752,
+   14.733
+  ],
+  [
+   14.873,
+   40.972
+  ],
+  [
+   41.779,
+   53.752
+  ],
+  [
+   53.772,
+   103.192
+  ],
+  [
+   103.993,
+   114.533
+  ],
+  [
+   115.444,
+   123.714
+  ],
+  [
+   123.853,
+   148.994
+  ],
+  [
+   149.963,
+   164.093
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "richard_geschichte-01",
+   "path": "Stories/richard/richard_geschichte-01",
+   "start": 0.0,
+   "end": 14.803,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  },
+  {
+   "image": "richard_geschichte-02",
+   "path": "Stories/richard/richard_geschichte-02",
+   "start": 14.803,
+   "end": 41.376,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "DiskD-005",
+   "path": "Amiga_HD/Disk 4/DiskD-005",
+   "start": 41.376,
+   "end": 53.762,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "richard_geschichte-03",
+   "path": "Stories/richard/richard_geschichte-03",
+   "start": 53.762,
+   "end": 103.593,
+   "from": [
+    110.2,
+    30.7,
+    1561.8,
+    878.5
+   ],
+   "to": [
+    0.0,
+    0.0,
+    1671.1,
+    940.0
+   ]
+  },
+  {
+   "image": "DiskD-046",
+   "path": "Amiga_HD/Disk 4/DiskD-046",
+   "start": 103.593,
+   "end": 114.988,
+   "from": [
+    0.0,
+    0.0,
+    1345.8,
+    757.0
+   ],
+   "to": [
+    820.3,
+    24.8,
+    1257.7,
+    707.5
+   ]
+  },
+  {
+   "image": "richard_geschichte-04",
+   "path": "Stories/richard/richard_geschichte-04",
+   "start": 114.988,
+   "end": 123.784,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "richard_geschichte-05",
+   "path": "Stories/richard/richard_geschichte-05",
+   "start": 123.784,
+   "end": 149.478,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  },
+  {
+   "image": "richard_geschichte-06",
+   "path": "Stories/richard/richard_geschichte-06",
+   "start": 149.478,
+   "end": 169.126,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 4/DiskD-005",
+  "Amiga_HD/Disk 4/DiskD-046",
+  "Stories/richard/richard_geschichte-01",
+  "Stories/richard/richard_geschichte-02",
+  "Stories/richard/richard_geschichte-03",
+  "Stories/richard/richard_geschichte-04",
+  "Stories/richard/richard_geschichte-05",
+  "Stories/richard/richard_geschichte-06"
+ ],
+ "cues": [
+  {
+   "start": 2.752,
+   "end": 4.972,
+   "text": "The king's ghost looks at you for a while,"
+  },
+  {
+   "start": 5.036,
+   "end": 8.892,
+   "text": "then hops onto the edge of his coffin with a mischievous grin,"
+  },
+  {
+   "start": 8.953,
+   "end": 11.133,
+   "text": "and after making himself comfortable there,"
+  },
+  {
+   "start": 11.185,
+   "end": 14.733,
+   "text": "he begins to tell you the history of his kingdom:"
+  },
+  {
+   "start": 14.873,
+   "end": 18.492,
+   "text": "\"A long, long time ago\", he begins his story,"
+  },
+  {
+   "start": 18.513,
+   "end": 22.172,
+   "text": "and his face is again that of an old, bitter man,"
+  },
+  {
+   "start": 22.212,
+   "end": 26.492,
+   "text": "\"this was a beautiful, peaceful and prosperous country,"
+  },
+  {
+   "start": 26.519,
+   "end": 30.412,
+   "text": "in which all my subjects were justly and wisely ruled by me."
+  },
+  {
+   "start": 30.812,
+   "end": 35.933,
+   "text": "I resided in my castle on an island surrounded by crystal clear waters,"
+  },
+  {
+   "start": 35.959,
+   "end": 40.972,
+   "text": "whose magnificent construction expressed the wealth and artistry of my people..."
+  },
+  {
+   "start": 41.779,
+   "end": 47.032,
+   "text": "At that time I also employed a young magician named Zargon at my court,"
+  },
+  {
+   "start": 47.073,
+   "end": 49.912,
+   "text": "who used to entertain me from time to time with his tricks."
+  },
+  {
+   "start": 50.153,
+   "end": 53.752,
+   "text": "He was talented, very talented in fact,"
+  },
+  {
+   "start": 53.772,
+   "end": 55.993,
+   "text": "but I would never have suspected that he lived in"
+  },
+  {
+   "start": 56.073,
+   "end": 59.032,
+   "text": "a secret chamber in the basement of my castle -"
+  },
+  {
+   "start": 59.073,
+   "end": 62.793,
+   "text": "a room in which he carried out all his magical experiments:"
+  },
+  {
+   "start": 62.846,
+   "end": 67.272,
+   "text": "he was obsessed with the crazy idea of artificially producing gold,"
+  },
+  {
+   "start": 67.299,
+   "end": 69.752,
+   "text": "which he urgently needed in order to pay for the"
+  },
+  {
+   "start": 69.812,
+   "end": 72.793,
+   "text": "lessons he took from the highest magicians in our country."
+  },
+  {
+   "start": 73.032,
+   "end": 76.713,
+   "text": "One day, however, his wishes came true:"
+  },
+  {
+   "start": 76.766,
+   "end": 80.232,
+   "text": "he was accepted into the Seventh Circle of the Mages Guild,"
+  },
+  {
+   "start": 80.26,
+   "end": 83.593,
+   "text": "which meant that his full magical power had developed and"
+  },
+  {
+   "start": 83.619,
+   "end": 88.312,
+   "text": "he was entitled to use even the most powerful spells - yes,"
+  },
+  {
+   "start": 88.339,
+   "end": 92.393,
+   "text": "he eventually became even more powerful than his former teachers,"
+  },
+  {
+   "start": 92.433,
+   "end": 97.672,
+   "text": "who now followed the development of their most gifted student with great concern -"
+  },
+  {
+   "start": 97.733,
+   "end": 103.192,
+   "text": "but in his infinite ambition he wanted even more: He wanted my throne!"
+  },
+  {
+   "start": 103.993,
+   "end": 108.053,
+   "text": "But instead of fighting my noble knights in a brave and fair fight,"
+  },
+  {
+   "start": 108.106,
+   "end": 114.533,
+   "text": "he turned to his magical powers and created an army of cruel, undead creatures..."
+  },
+  {
+   "start": 115.444,
+   "end": 120.594,
+   "text": "One dark night - there was a thunderstorm as if the Day of Judgment had dawned -"
+  },
+  {
+   "start": 120.647,
+   "end": 123.714,
+   "text": "he gathered these spawns of hell in front of my castle,"
+  },
+  {
+   "start": 123.853,
+   "end": 126.994,
+   "text": "and when the clock on the tower struck midnight -"
+  },
+  {
+   "start": 127.025,
+   "end": 131.633,
+   "text": "what a macabre irony of fate - the corpses of my ancestors,"
+  },
+  {
+   "start": 131.694,
+   "end": 135.633,
+   "text": "who had been laid to rest in a crypt beneath the castle chambers,"
+  },
+  {
+   "start": 135.745,
+   "end": 139.353,
+   "text": "rose from their coffins - and opened the gates!"
+  },
+  {
+   "start": 139.501,
+   "end": 144.674,
+   "text": "It was little trouble for Zargon and his henchmen to take the castle within a few minutes:"
+  },
+  {
+   "start": 144.754,
+   "end": 148.994,
+   "text": "no one had expected this attack - a fatal mistake..."
+  },
+  {
+   "start": 149.963,
+   "end": 152.493,
+   "text": "After breaking down the door to my bedchamber,"
+  },
+  {
+   "start": 152.573,
+   "end": 156.173,
+   "text": "Zargon's blackbloods led me away to their master,"
+  },
+  {
+   "start": 156.254,
+   "end": 159.773,
+   "text": "who, without a word of explanation or apology,"
+  },
+  {
+   "start": 159.84,
+   "end": 164.093,
+   "text": "drove the blade of his sword up to the hilt into my chest...\""
+  }
+ ]
+}

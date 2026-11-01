@@ -1,0 +1,182 @@
+{
+ "version": 3,
+ "duration": 85.706,
+ "hold": false,
+ "voice": "fremde_welt.mp3",
+ "music": {
+  "path": "music/Amiga/02.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.535,
+   20.544
+  ],
+  [
+   21.779,
+   80.153
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskA-012",
+   "path": "Amiga_HD/Disk 2/DiskA-012",
+   "start": 0.0,
+   "end": 21.162,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "fremde_welt-01",
+   "path": "Stories/fremde_welt/fremde_welt-01",
+   "start": 21.162,
+   "end": 85.706,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 2/DiskA-012",
+  "Stories/fremde_welt/fremde_welt-01"
+ ],
+ "cues": [
+  {
+   "start": 2.535,
+   "end": 4.704,
+   "text": "Immer noch recht benommen von dem harten Schlag,"
+  },
+  {
+   "start": 4.745,
+   "end": 8.385,
+   "text": "den Dir der Wasserfall versetzt hat, versuchst Du Dich mit leichten,"
+  },
+  {
+   "start": 8.43,
+   "end": 13.264,
+   "text": "jedoch noch recht linkischen Schwimmzügen über der Wasseroberfläche zu halten,"
+  },
+  {
+   "start": 13.296,
+   "end": 16.305,
+   "text": "doch plötzlich stutzt Du und hältst inne -"
+  },
+  {
+   "start": 16.358,
+   "end": 20.544,
+   "text": "so daß Du erst einmal wieder für einen Moment untergehst und Wasser schluckst!"
+  },
+  {
+   "start": 21.779,
+   "end": 24.225,
+   "text": "Als Du wieder auftauchst, trifft Dich der Schlag:"
+  },
+  {
+   "start": 24.465,
+   "end": 28.784,
+   "text": "Du scheinst nach wie vor auf der südlichen Seite des Wasserfalls zu paddeln!"
+  },
+  {
+   "start": 29.004,
+   "end": 32.225,
+   "text": "Für diese Tatsache allein liesse sich ja sogar"
+  },
+  {
+   "start": 32.272,
+   "end": 35.105,
+   "text": "noch irgendwie eine plausible Erklärung finden,"
+  },
+  {
+   "start": 35.165,
+   "end": 39.585,
+   "text": "zumal Du unter Wasser eine kurze Zeit die Orientierung verloren hattest,"
+  },
+  {
+   "start": 39.638,
+   "end": 44.465,
+   "text": "so daß Du sie akzeptieren könntest, wenn, wenn..."
+  },
+  {
+   "start": 44.504,
+   "end": 47.504,
+   "text": "-wenn sich dort am Seeufer noch Dein Dorf befände!"
+  },
+  {
+   "start": 48.593,
+   "end": 51.105,
+   "text": "Aber es scheint wie vom Erdboden verschluckt zu sein!"
+  },
+  {
+   "start": 51.397,
+   "end": 55.184,
+   "text": "Statt der kleinen Siedlung befindet sich am Ufer ein tiefer,"
+  },
+  {
+   "start": 55.232,
+   "end": 60.505,
+   "text": "dunkler Wald mit Bäumen, die Du in Deinem ganzen Leben noch nie gesehen hast!"
+  },
+  {
+   "start": 61.139,
+   "end": 62.632,
+   "text": "In Dir kommt der Verdacht auf,"
+  },
+  {
+   "start": 62.673,
+   "end": 65.833,
+   "text": "daß Du durch den Wasserfall vielleicht in eine parallel"
+  },
+  {
+   "start": 65.912,
+   "end": 69.752,
+   "text": "zu der Deinigen existierende Welt gelangt sein könntest,"
+  },
+  {
+   "start": 69.833,
+   "end": 74.312,
+   "text": "so wie in diesen beknackten Adventures zuhause auf Deinem Computer."
+  },
+  {
+   "start": 74.653,
+   "end": 77.352,
+   "text": "Nur: DAS hier ist die Realität!"
+  },
+  {
+   "start": 77.472,
+   "end": 80.153,
+   "text": "Und wo zum Teufel bist Du hier gelandet?"
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+# Erzähltext „König Richards Geschichte“ in der Königsgruft (Teil B): Schädel auf
+# das Skelett, dreimal „sprich König“ aus dem Replay der Hauptroute und der
+# Abschied (texts/C64/B2.md, Text 360).
+# Bilder: images/Amiga_HD/<Pfad>; Aufbau und Optionen wie narration_de.txt.
+
+### richard_erscheint König Richard erscheint
+
+## Disk 3/DiskB-029 focus=300,0,1900,756
+[nervous] Vorsichtig legst Du den Schädel neben den Rumpf des Königs - aber was ist denn das?
+
+##+ Stories/richard/richard_erscheint-01-v2
+[surprised] Der Totenschädel rollt zum Hals des Skelettes und wächst dort wieder an, als ob er niemals irgendwo anders gewesen wäre! [whispers] Im selben Moment jedoch, als der Schädel des Königs an seinen angestammten Platz zurückkehrt, fühlst Du einen eiskalten Wind im Nacken... Mal wieder das Schlimmste befürchtend, schließt Du angsterfüllt die Augen: Nichts passiert... Als Du sie jedoch wieder zu öffnen wagst - ist der Sarg leer! Du schließt Deine Augen zum zweiten Mal und öffnest sie wieder: Aber nichts hat sich geändert: Der Sarkophag des Königs ist und bleibt leer!
+
+##+ Stories/richard/richard_erscheint-02
+[scared] Bevor Du jedoch versuchen kannst, auf Deinen schlotternden Beinen davonzulaufen, hörst Du eine offensichtlich recht amüsierte, sanfte Stimme hinter Dir: [warmly] "Willkommen, mein Freund..." Es ist König Richard!
+
+### richard_geschichte König Richards Geschichte
+
+## Stories/richard/richard_geschichte-01 pause=1.0
+[amused] Der Geist des Königs schaut Dich eine Weile an, dann hüpft er mit einem spitzbübischen Grinsen auf den Rand seines Sarges, und nachdem er es sich dort bequem gemacht hat, beginnt er Dir, die Geschichte seines Reiches zu erzählen:
+
+##+ Stories/richard/richard_geschichte-02
+[wistful] "Vor langer, langer Zeit", beginnt er seine Geschichte, und sein Gesicht ist wieder das eines alten, verbitterten Mannes, "war dies ein schönes, friedliches und wohlhabendes Land, in dem alle meine Untertanen gerecht und weise von mir regiert wurden. Ich residierte in meinem Schloß auf einer von kristallklarem Wasser umgebenen Insel, dessen prachtvoller Bau dem Reichtum und der Kunstfertigkeit meines Volkes Ausdruck verlieh...
+
+## Disk 4/DiskD-005
+Damals beschäftigte ich auch einen jungen Zauberer namens Zargon an meinem Hofe, der mich von Zeit zu Zeit mit seinen Kunststückchen zu unterhalten pflegte. Er war begabt, sehr begabt sogar,
+
+##+ Stories/richard/richard_geschichte-03
+doch niemals hätte ich vermutet, daß er eine Geheimkammer im Untergeschoß meines Schlosses bewohnte - einen Raum, in dem er all seine magischen Experimente durchführte: Er war von dem irrsinnigen Gedanken besessen, künstlich Gold herzustellen, welches er dringend benötigte, um die Lehrstunden, die er bei den höchsten Magiern unseres Landes nahm, bezahlen zu können. Eines Tages jedoch erfüllten sich seine Wünsche dennoch: Er wurde in den Siebenten Zirkel der Magiergilde aufgenommen, was bedeutete, daß sich seine volle magische Kraft entfaltet hatte und er berechtigt war, auch die machtvollsten Sprüche anzuwenden - ja, er wurde schließlich sogar mächtiger als seine einstigen Lehrmeister, die die Entwicklung ihres begabtesten Schülers nun mit großer Sorge verfolgten - [bitter] doch in seinem unendlichen Ehrgeiz wollte er noch mehr: Er wollte meinen Thron!
+
+## Disk 4/DiskD-046
+[grim] Doch statt meine edlen Ritter in einem tapferen und gerechten Kampf zu bekämpfen, besann er sich auf seine magischen Kräfte und erschuf eine Armee aus grausamen, untoten Kreaturen...
+
+## Stories/richard/richard_geschichte-04
+[dramatic] In einer finsteren Nacht - es stürmte und gewitterte, als wäre der Jüngste Tag angebrochen - zog er diese Ausgeburten der Hölle vor meinem Schloß zusammen,
+
+##+ Stories/richard/richard_geschichte-05
+und als die Uhr vom Turm Mitternacht schlug, erhoben sich - welch' makabre Ironie des Schicksals - die Leichnahme meiner Ahnen, die in einem Gruftgewölbe unterhalb der Schloßgemächer zur letzten Ruhe gebettet waren, aus ihren Särgen - und öffneten die Tore! Es bereitete Zargon und seinen Schergen kaum Mühe, das Schloß binnen weniger Minuten einzunehmen: Niemand hatte diesen Überfall erwartet - ein verhängnisvoller Fehler...
+
+## Stories/richard/richard_geschichte-06
+[sad] Nachdem sie die Tür zu meinem Schlafgemach aufgebrochen hatten, führten mich Zargons Schwarzblüter zu ihrem Herren ab, der mir ohne ein Wort der Erklärung oder Entschuldigung die Klinge seines Degens bis zum Heft in die Brust stieß..."
+
+### richard_bestimmung Deine Bestimmung
+
+## Disk 3/DiskB-029 focus=300,0,1900,756 pause=1.5
+[determined] Der König nickt zustimmend. "Du hast recht: Wir haben keine Zeit mehr zu verlieren!", beschließt er, "Die Zeit ist reif, zurückzuschlagen, Zargon seiner gerechten Strafe zuzuführen und die Bewohner meines Reiches aus seiner Tyrannis zu befreien!
+
+##+ Stories/richard/richard_bestimmung-01
+[sad] Wie Du sehen kannst..." - er schaut traurig an sich herunter - "...erlaubt es mir meine übernatürliche Erscheinungsform leider nicht mehr, Zargon persönlich herauszufordern und das Unheil, das er über uns alle gebracht hat, zu sühnen, aber vielleicht bist Du ja stark und klug genug, um es zumindest zu versuchen! [firmly] Nein! Sag' jetzt nichts! Du darfst mir nicht widersprechen: Dies hier ist nicht bloß irgendeine Aufgabe - es ist Deine Bestimmung!" [pleading] König Richard schaut Dich aus flehenden Augen an...
+
+### richard_zauberspruch Der Zauberspruch
+
+## Disk 3/DiskB-041 pause=1.0
+[cheerful] "Na, bravo! Du scheinst also verstanden zu haben, worum es in diesem Spiel geht!", sagt der König und faltet zufrieden die Hände über dem Bauch, [serious] "Bevor Du jedoch auch nur die geringste Chance haben wirst, Zargon herausfordern zu können, mußt Du erst einmal seinen Vasallen besiegen: Mylgor!
+
+## Disk 3/DiskB-024
+Du kennst ihn: Er war derjenige, der Dir befohlen hatte, Firon zu ermorden - meinen jüngeren Bruder, der emigriert ist, als Zargon an die Macht kam, und sich nun mit einer Handvoll der alten Mitglieder seines Geheimbundes in einem Palast aus Eis verschanzt, um vor weiteren Nachstellungen durch Zargons Schergen sicher zu sein.
+
+## Disk 3/DiskB-029 focus=0,0,1500,756
+Ich nehme an, daß Mylgor bereits vom Scheitern seines Plans in Kenntnis gesetzt wurde und sich daher in den Geheimkammern unter seiner kleinen Hütte versteckt: Ich weiß zwar nicht, wie Du dorthin gelangst, aber vielleicht wird Dir dieser Zauberspruch helfen, durch einen Bann verschlossene Türen zu öffnen. [wistful] Er ist zwar nicht stark genug, um Barrieren wie die, die Zargon um das Weltentor hinter dem Wasserfall gelegt hat, zu brechen, aber er ist alles, was von meinen einstmals mächtigen magischen Kräften übriggeblieben ist... Und nun laß mich Dich den Zauberspruch lehren..."
+
+##+ Stories/richard/richard_zauberspruch-01
+[whispers] Der König legt drei Finger seiner rechten Hand auf Deine Stirn, und ein kalter Schauder überkommt Dich, als Du plötzlich die eisige Kälte seines Körpers spürst... In einer fremden, uralten Sprache murmelt Richard einige kehlige Laute und öffnet dann wieder die Augen: Du besitzt nun die restliche Astralenergie, die er noch hatte...
+
+### richard_abschied Richards Abschied
+
+## Stories/richard/richard_abschied-01 pause=1.5
+[impatient] "Du kennst den Zauberspruch!", sagt der König ungeduldig, "Das ist nun aber wirklich alles, was ich für Dich tun konnte...: [warmly] Das Schicksal meiner Welt liegt in Deinen Händen, doch meine Gebete begleiten Dich - leb' wohl..." [softly] Der Geist des Königs wird immer transparenter, bis er schließlich ganz unsichtbar ist...
+
+##+ Disk 3/DiskB-026
+[wistful] Angesichts der schweren Bürde, die durch diese ungeheure Verantwortung auf Dir lastet, fühlst Du Dich auf einmal unwahrscheinlich allein und verlassen...

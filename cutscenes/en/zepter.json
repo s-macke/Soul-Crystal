@@ -1,0 +1,97 @@
+{
+ "version": 3,
+ "duration": 23.755,
+ "hold": false,
+ "voice": "zepter.mp3",
+ "music": {
+  "path": "music/Amiga/16.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.605,
+   6.555
+  ],
+  [
+   6.715,
+   18.723
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskD-015",
+   "path": "Amiga_HD/Disk 4/DiskD-015",
+   "start": 0.0,
+   "end": 6.635,
+   "from": [
+    0.0,
+    0.0,
+    1344.0,
+    756.0
+   ],
+   "to": [
+    822.9,
+    24.7,
+    1256.1,
+    706.5
+   ]
+  },
+  {
+   "image": "zepter-01",
+   "path": "Stories/finale/zepter-01",
+   "start": 6.635,
+   "end": 23.755,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 4/DiskD-015",
+  "Stories/finale/zepter-01"
+ ],
+ "cues": [
+  {
+   "start": 2.605,
+   "end": 6.555,
+   "text": "You slide Zargon's scepter into the slot - and it actually seems to fit!"
+  },
+  {
+   "start": 6.715,
+   "end": 9.995,
+   "text": "The handle snaps into place with a loud click,"
+  },
+  {
+   "start": 10.035,
+   "end": 12.955,
+   "text": "and as you move the scepter back and forth like a lever,"
+  },
+  {
+   "start": 12.995,
+   "end": 18.723,
+   "text": "you suddenly hear a scraping noise echoing down from above: THE PORTAL GATE!!!"
+  }
+ ]
+}

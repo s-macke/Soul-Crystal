@@ -1,0 +1,19 @@
+# Erzähltext „Das Tagebuch des Turmwächters“ (Teil D, Haus des Turmwächters): Text 300 aus texts/C64/C2.md.
+# Wortlaut original; reine Wegbeschreibungen fehlen. Aufbau wie narration_de.txt.
+
+### tagebuch Das Tagebuch des Turmwächters
+
+## Disk 4/DiskD-011
+[serious] Du beginnst das zerfledderte Tagebuch des Turmwächters zu lesen:
+
+##+ Stories/tagebuch/tagebuch-01
+Es beschreibt die Belagerung des Schlosses von ihren frühesten Anfängen bis zu ihrem bitteren Ende: Der umsichtige Turmwächter hatte die Auseinandersetzungen und Machtkämpfe zwischen seinem Herrn und Zargon schon längst bemerkt, bevor König Richard auch nur an einen Umsturz zu denken gewagt hätte - doch auch der Verfasser dieser Zeilen hätte niemals so etwas erwartet wie das, was erst noch kommen sollte!
+
+##+ Stories/tagebuch/tagebuch-02
+[grim] Richards Geist hat offenbar wirklich nichts beschönigt: Als sein Körper schon kalt und verkrümmt auf dem Boden von Zargons Gemach lag, ließ Zargon alle ehemaligen Gefolgsleute des gestürzten Herrschers wie Vieh im Burghof zusammentreiben, wo er sie vor die Wahl stellte, entweder ihm zu dienen, oder ihrem König in den Tod zu folgen - und an dieser Stelle enden die Aufzeichnungen plötzlich...
+
+## Stories/tagebuch/tagebuch-03 pause=1.0
+[angry] Du fühlst kalte, nach Rache und Vergeltung schreiende Wut, aber gleichzeitig auch verzweifelte Hilflosigkeit in Dir aufsteigen, als Du das kleine, ledergebundene Buch wieder zuschlägst, um nur nicht weiter auf sein abruptes Ende starren zu müssen... [dramatic] Im selben Moment, als eine dichte, graue Staubwolke aus den vergilbten Seiten aufsteigt, hörst Du draußen einen Blitz in den Hauptturm einschlagen, der den Raum für Bruchteile von Sekunden in sein gespenstisches, fahles Licht taucht und das Gebäude bis in die Grundmauern erschüttert - so, als wollte eine gigantische, eherne Faust diese Brutstätte des Bösen ein für alle Male auslöschen!
+
+##+ Disk 4/DiskD-010
+[sad] So ähnlich muß es sich wohl auch in der verhängnisvollen Nacht zugetragen haben, in der der brave Turmwächter seinem Herrn zum allerletzten Mal die Treue hielt...

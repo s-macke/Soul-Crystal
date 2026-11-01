@@ -1,0 +1,79 @@
+{
+ "version": 3,
+ "duration": 37.145,
+ "hold": false,
+ "voice": "firon_thron.mp3",
+ "music": {
+  "path": "music/Amiga/05.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   2.568,
+   32.019
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "firon_thron-01",
+   "path": "Stories/firon/firon_thron-01",
+   "start": 0.0,
+   "end": 37.145,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  }
+ ],
+ "images": [
+  "Stories/firon/firon_thron-01"
+ ],
+ "cues": [
+  {
+   "start": 2.568,
+   "end": 5.22,
+   "text": "The old elf king rises from his throne:"
+  },
+  {
+   "start": 5.62,
+   "end": 10.34,
+   "text": "\"I knew that one day you would come and carry out your master's order."
+  },
+  {
+   "start": 10.64,
+   "end": 18.26,
+   "text": "Now do your duty and destroy the last scion of a noble line, too - I will not resist!"
+  },
+  {
+   "start": 18.86,
+   "end": 25.22,
+   "text": "I have waited so long for this moment, and it is time we got it over with...\","
+  },
+  {
+   "start": 25.362,
+   "end": 32.019,
+   "text": "he answers in a gentle voice that carries something like melancholy and resignation..."
+  }
+ ]
+}

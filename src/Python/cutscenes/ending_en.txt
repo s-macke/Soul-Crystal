@@ -1,0 +1,46 @@
+# Narration for the English ending video, source: texts/C64_en/C2.md
+# (texts 254, 269, 379, 369 and 258). Typos and line breaks are fixed.
+# Images: images/Amiga_HD/<path>; format and options as in narration_en.txt.
+
+### zargon Zargon
+
+## Disk 4/DiskD-047
+[tense] When Zargon notices your presence, he slowly turns to you: You don't believe your eyes when you see a faint glimmer of fear in his eyes! [menacing] "Well, you've done your job - now it's my turn to do what needs to be done...!", he gasps and pulls out a small, silver dagger from under his cape!
+
+### seelenkristall The soul crystal
+
+## Disk 4/DiskD-027 focus=0,0,1100,872
+[determined] When Zargon notices you looking around for his soul crystal, he tries to get to the pedestal before you - but it is already too late:
+
+##+ Stories/finale/seelenkristall-01
+With two or three light-footed steps you reach the pedestal, grab the jewel and lift it high over your head: The stone pulsates dully in your hands, as if it were filled with a life of its own! [sarcastic] When he realizes that you have now gained power over him, Zargon resorts to begging: he desperately begs you to spare him, he offers you Mylgor's position as his governor in the small village - yes, he even promises to turn you back into a human if you leave his crystal untouched: He says there is a spring somewhere whose water could heal you of your infection with the werewolf blood... [thoughtful] For a brief moment you let everything that has happened pass before your mind's eye and think about what weighs more: your fate - or that of the tormented and downtrodden villagers, and it doesn't take you too long to reach a decision:
+
+## Stories/finale/seelenkristall-02
+[furious] Without paying any more attention to Zargon's whimpering, you smash the Soul Crystal to the ground with all your might, where it shatters into a thousand pieces, each of which still reflects Zargon's portrait! [shocked] However, just as the crystal shatters, you hear Zargon screaming hysterically behind you!
+
+##+ Stories/finale/seelenkristall-03
+Scared to death, you turn - to see Zargon in agony with a dense, dark gray cloud, which must have been released by the breaking apart of the dark jewel, where it must have waited many decades for this one moment! Only Zargon's wildly flailing arms and legs still peek out of the dirty gray fog!... Then - suddenly - the spook is over: the cloud disappears as quickly as it appeared, and with it the evil sorcerer!
+
+##+ Stories/finale/seelenkristall-04
+[exhausted] An oppressive silence fills the room as you let yourself slide down the wall, exhausted: all that is left of Zargon is his crown and the royal scepter...
+
+### zepter The sceptre
+
+## Disk 4/DiskD-015
+[curious] You slide Zargon's scepter into the slot - and it actually seems to fit!
+
+##+ Stories/finale/zepter-01
+The handle snaps into place with a loud click, and as you move the scepter back and forth like a lever, you suddenly hear a scraping noise echoing down from above: [excited] THE PORTAL GATE!!!
+
+### quelle The spring
+
+## Stories/finale/quelle-01
+[calm] You let some of the bluish water run into your cupped palms and sip it carefully: After just a few sips, you feel a wave of happiness and new strength flowing through you, which on the one hand calms you down and on the other hand seems to refresh you in a wondrous way. [surprised] And when you happen to look down at your body, you notice that you have transformed back into a human - [wistful] which, however, also means that you lose your supernatural powers...
+
+### gate The portal gate
+
+## Disk 4/Victory-000 pause=1.0
+[amazed] You won't believe your eyes: The portal gate is actually wide open!
+
+##+ Stories/finale/gate-01
+[warmly] You can see the ghost of King Richard hovering under the archway, smiling kindly and gratefully at you - and the birds are chirping down from the trees again: The whole country is blooming again, for the first time in a long, long time! [solemn] You solemnly approach your newly found friend and leave the dark castle walls behind you forever... [whispers] FREE...

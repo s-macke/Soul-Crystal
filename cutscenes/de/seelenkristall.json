@@ -1,0 +1,316 @@
+{
+ "version": 3,
+ "duration": 155.611,
+ "hold": false,
+ "voice": "seelenkristall.mp3",
+ "music": {
+  "path": "music/Amiga/16.mp3",
+  "volume": 0.55,
+  "fadeIn": 1.5,
+  "fadeOut": 4.0,
+  "duck": 0.3,
+  "attack": 0.15,
+  "release": 0.9
+ },
+ "speech": [
+  [
+   3.14,
+   11.82
+  ],
+  [
+   12.0,
+   75.949
+  ],
+  [
+   77.862,
+   100.089
+  ],
+  [
+   100.236,
+   136.369
+  ],
+  [
+   137.592,
+   150.536
+  ]
+ ],
+ "size": [
+  1920,
+  1080
+ ],
+ "fade": 1.6,
+ "blackIn": 1.5,
+ "blackOut": 2.0,
+ "wipeFeather": 0.0833,
+ "shots": [
+  {
+   "image": "DiskD-027",
+   "path": "Amiga_HD/Disk 4/DiskD-027",
+   "start": 0.0,
+   "end": 11.91,
+   "from": [
+    0.0,
+    126.6,
+    1100.0,
+    618.8
+   ],
+   "to": [
+    72.0,
+    146.9,
+    1028.0,
+    578.3
+   ]
+  },
+  {
+   "image": "seelenkristall-01",
+   "path": "Stories/finale/seelenkristall-01",
+   "start": 11.91,
+   "end": 76.906,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "seelenkristall-02",
+   "path": "Stories/finale/seelenkristall-02",
+   "start": 76.906,
+   "end": 100.162,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  },
+  {
+   "image": "seelenkristall-03",
+   "path": "Stories/finale/seelenkristall-03",
+   "start": 100.162,
+   "end": 136.981,
+   "from": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ],
+   "to": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ]
+  },
+  {
+   "image": "seelenkristall-04",
+   "path": "Stories/finale/seelenkristall-04",
+   "start": 136.981,
+   "end": 155.611,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  }
+ ],
+ "images": [
+  "Amiga_HD/Disk 4/DiskD-027",
+  "Stories/finale/seelenkristall-01",
+  "Stories/finale/seelenkristall-02",
+  "Stories/finale/seelenkristall-03",
+  "Stories/finale/seelenkristall-04"
+ ],
+ "cues": [
+  {
+   "start": 3.14,
+   "end": 7.02,
+   "text": "Als Zargon bemerkt, wie Du Dich nach seinem Seelenkristall umblickst,"
+  },
+  {
+   "start": 7.084,
+   "end": 13.18,
+   "text": "versucht er vor Dir zu dem Podest zu gelangen - doch es ist bereits zu spät: Mit zwei,"
+  },
+  {
+   "start": 13.244,
+   "end": 16.14,
+   "text": "drei leichtfüßigen Schritten erreichst Du den Sockel,"
+  },
+  {
+   "start": 16.2,
+   "end": 19.9,
+   "text": "ergreifst das Juwel und stemmst es hoch über Deinen Kopf:"
+  },
+  {
+   "start": 20.14,
+   "end": 25.82,
+   "text": "Dumpf pulsiert der Stein in Deinen Händen, als wäre er von eigenem Leben erfüllt!"
+  },
+  {
+   "start": 26.996,
+   "end": 28.14,
+   "text": "Als er erkennen muß,"
+  },
+  {
+   "start": 28.18,
+   "end": 33.02,
+   "text": "daß Du nunmehr die Macht über ihn erlangt hast, verlegt Zargon sich aufs Bitten:"
+  },
+  {
+   "start": 33.153,
+   "end": 36.06,
+   "text": "Er fleht Dich verzweifelt an, ihn zu verschonen,"
+  },
+  {
+   "start": 36.113,
+   "end": 40.78,
+   "text": "er bietet Dir Mylgors Stelle als sein Statthalter in dem kleinen Dorf an -"
+  },
+  {
+   "start": 40.86,
+   "end": 45.66,
+   "text": "ja, er verspricht Dir sogar, Dich wieder in einen Menschen zurückzuverwandeln,"
+  },
+  {
+   "start": 45.708,
+   "end": 49.34,
+   "text": "wenn Du seinen Kristall unangetastet ließest:"
+  },
+  {
+   "start": 49.393,
+   "end": 52.06,
+   "text": "Er sagt, es gäbe irgendwo eine Quelle,"
+  },
+  {
+   "start": 52.1,
+   "end": 56.22,
+   "text": "deren Wasser Dich von Deiner Infektion mit dem Werwolfsblut heilen könnte..."
+  },
+  {
+   "start": 57.469,
+   "end": 60.469,
+   "text": "Einen kurzen Augenblick lang läßt Du das Geschehene noch"
+  },
+  {
+   "start": 60.526,
+   "end": 65.189,
+   "text": "einmal vor Deinem geistigen Auge Revue passieren und denkst darüber nach,"
+  },
+  {
+   "start": 65.269,
+   "end": 68.469,
+   "text": "was wohl mehr wiegt: Dein Schicksal -"
+  },
+  {
+   "start": 68.501,
+   "end": 74.149,
+   "text": "oder das der gepeinigten und geknechteten Dorfbewohner, und Du brauchst nicht allzu lange,"
+  },
+  {
+   "start": 74.202,
+   "end": 79.989,
+   "text": "um zu einer Entscheidung zu gelangen: Ohne Zargons Jammergewinsel weiter zu beachten,"
+  },
+  {
+   "start": 80.749,
+   "end": 84.529,
+   "text": "schmetterst Du den Seelenkristall mit aller Kraft zu Boden,"
+  },
+  {
+   "start": 84.609,
+   "end": 87.249,
+   "text": "wo er in tausend Splitter zerbirst,"
+  },
+  {
+   "start": 87.289,
+   "end": 92.649,
+   "text": "von denen jedoch immer noch jeder einzelne Zargons Portrait widerspiegelt!"
+  },
+  {
+   "start": 93.316,
+   "end": 96.289,
+   "text": "Im selben Moment jedoch, als der Kristall zerbricht,"
+  },
+  {
+   "start": 96.329,
+   "end": 100.089,
+   "text": "hörst Du Zargon hinter Dir hysterisch aufschreien!"
+  },
+  {
+   "start": 100.236,
+   "end": 102.929,
+   "text": "Zu Tode erschrocken, drehst Du Dich um -"
+  },
+  {
+   "start": 103.009,
+   "end": 108.449,
+   "text": "um Zargon im Todeskampf mit einer dichten, dunkelgrauen Wolke zu sehen,"
+  },
+  {
+   "start": 108.489,
+   "end": 113.249,
+   "text": "die wohl durch das Auseinanderbrechen des dunklen Juwels freigesetzt worden ist,"
+  },
+  {
+   "start": 113.302,
+   "end": 117.969,
+   "text": "in dem sie viele Jahrzehnte auf diesen einen Moment gewartet haben muß!"
+  },
+  {
+   "start": 118.269,
+   "end": 122.209,
+   "text": "Lediglich Zargons wild um sich schlagende Arme und Beine"
+  },
+  {
+   "start": 122.309,
+   "end": 126.209,
+   "text": "schauen noch aus dem schmutziggrauen Nebel heraus!..."
+  },
+  {
+   "start": 126.257,
+   "end": 131.969,
+   "text": "Dann - plötzlich - ist der Spuk vorbei: Die Wolke verschwindet ebenso schnell,"
+  },
+  {
+   "start": 132.009,
+   "end": 136.369,
+   "text": "wie sie aufgetaucht ist, und mit ihr auch der böse Hexenmeister!"
+  },
+  {
+   "start": 137.592,
+   "end": 139.816,
+   "text": "Eine bedrückende Stille erfüllt den Raum,"
+  },
+  {
+   "start": 139.876,
+   "end": 142.776,
+   "text": "als Du Dich erschöpft an der Wand hinuntergleiten läßt:"
+  },
+  {
+   "start": 143.123,
+   "end": 150.536,
+   "text": "Alles, was von Zargon übriggeblieben ist, sind seine Krone und das Königszepter..."
+  }
+ ]
+}

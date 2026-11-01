@@ -1,0 +1,27 @@
+# Narration "The werewolf" (part B, graveyard): texts 252 and 280 from
+# texts/C64_en/B2.md, smoothed for speech. Images and options as in narration_en.txt.
+
+### werwolf The werewolf
+
+## Disk 3/DiskB-027
+[terrified] Heavens! It is probably too late to even think of escaping: frozen with horror, you have to watch as a huge black shadow rises behind a weathered gravestone - only a few metres away from you! Unable to move, you have to look on as it silently grows bigger and bigger...
+
+## Stories/werwolf/werwolf-01
+Suddenly the clouds that had covered the full moon for a short while break apart - [screams] and you cry out in panic and mortal fear: your opponent is a huge grey werewolf, baring its sharp yellow teeth, certain of victory! Hissing hoarsely and with outstretched arms, it starts to move - step by step, for it is in no hurry...
+
+##+ Disk 3/DiskB-039
+[whispers] But suddenly it stops! For a fraction of a second your eyes meet, and you feel the lust for murder and the abysmal hatred blazing in its eyes...
+
+### werwolf_kampf The fight
+
+## Stories/werwolf/werwolf_kampf-01 pause=1.0
+[heroic] Before your undead opponent gets a chance to attack, you lunge at its chest with a deft movement! But just before your blade finds its target, you surprisingly swing it upwards, against the beast's throat, where it leaves a gaping, smoking wound, without the werewolf having the slightest chance of parrying your truly murderous blow! The undead creature, badly wounded by your consecrated weapon, sinks to the ground with a look of disbelief in its eyes and breathes out its "life". [smug] "Knocked out by premature death in the first round!" - smugly you put your sword back into its sheath and blow on your fingernails, when it occurs to you that this could also be a trick: carefully, one hand firmly gripping the hilt of your sword, you kneel down next to the wolf's body to see whether your opponent is really dead... Your worry was unfounded: steaming, greenish blood is running from a long, gaping wound in its throat.
+
+##+ Stories/werwolf/werwolf_kampf-02
+[worried] But something else you have to see is a little red blood sticking to one of the wolf's claws - and when you examine yourself, plagued by dark forebodings, you discover a small but rather deep wound on your left leg, which the wolf must have torn while falling, and from which - GREEN blood is now oozing! [shocked] CRAP! Now that you have noticed it, the wound starts to burn like hell: the infection has begun, and it will only be a matter of time before you, too, start turning into a beast at full moon!
+
+## Stories/werwolf/werwolf_kampf-03
+[sad] As you sit down, resigned, on one of the fallen gravestones to brood over your uncertain fate, the wolf's body turns into the decaying corpse of what must once have been a beautiful young woman, who seems to look up at you gratefully!
+
+##+ Stories/werwolf/werwolf_kampf-04
+[whispers] When you try to touch her - she crumbles to dust...

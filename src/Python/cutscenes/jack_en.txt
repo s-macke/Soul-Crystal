@@ -1,0 +1,33 @@
+# Narration "Brother Jack" (part B, small monastery chapel), source:
+# texts/C64_en/B2.md, texts 377 and 356. Images and options as in narration_en.txt.
+
+### jack_geist Brother Jack's ghost
+
+## Disk 3/DiskB-030
+[sad] Desperately, you kneel before the altar
+
+##+ Stories/jack/jack_geist-01
+and offer a quick prayer for wittier writing, better graphics, more powerful computers and competent programmers. [dry] You spare a thought for poor Brother Jack, too, who apparently kicked the bucket here. [whispers] After a few lines, though, you get the unpleasant feeling that something is behind you. You turn.
+
+##+ Stories/jack/jack_geist-02
+An icy draught stirs the air. Mist is gathering in the chapel, drifting closer and growing denser until it stops right before you... Cold sweat prickles at the back of your neck. Shaking, you stammer, [panicked] "Oh, shit! All right, lads, forget the bit about the writing and everything! Just a joke! Everything's fine, honestly!"
+
+##+ Stories/jack/jack_geist-03
+[mysterious] Just before you wet your only pair of trousers, the cloud you had taken for your one-way transport to the hereafter assumes a human shape. There stands [excited] BROTHER JACK!
+
+##+ Stories/jack/jack_geist-04
+[warmly] "Peace be with you, my son!" he says. [sly] Then he glances at your trousers, grins, and asks with mock innocence, "Your trousers... ahem. Everything all right?"
+
+### jack_auftrag Jack's errand
+
+## Stories/jack/jack_auftrag-01 pause=1.0
+[curious] You tell the ghost of the old abbot about your long, gruelling journey through the frozen wastes, and explain that Firon advised you to ask Brother Jack for help. Jack nods slowly. [solemn] "I never dared hope that a fearless hero would truly come to punish the Dark Lord for his atrocities. So my last dream has finally come true... Our country has a long and tragic history. Only its rightful ruler can tell you the whole story: Richard, Firon's brother. After overthrowing him, the Dark Lord murdered him and divided his corpse in two.
+
+##+ Disk 3/DiskB-029
+His body was laid in his tomb in the graveyard,
+
+##+ Disk 3/DiskB-020
+while his head was buried in the blocked tunnel of an old dwarven mine. [urgent] Find both parts of our king's body and reunite them! This is the only way to bring help to our land...
+
+##+ Stories/jack/jack_auftrag-02
+[weakly] help... [whispers] hel..." Wrapped in a cloud of bluish smoke, Brother Jack's spirit returns to the realm of the dead, leaving you alone...
