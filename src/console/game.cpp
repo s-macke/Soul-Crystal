@@ -112,15 +112,15 @@ const Verb verbs[] = {
     {"uebersoulcrystal",UEBERSOULCRYSTAL,"Info:       "},{"credits",CREDITS}
 };
 const Verb englishVerbs[] = {
-    {"view",SCHAU,"Explore:    "},{"consider",BETRACHTE},{"backpack",INVENTAR},{"paths",AUSGAENGE},
-    {"north",NORD,"Move:       "},{"south",SUED},{"east",OST},{"west",WEST},{"upward",HINAUF},{"downward",HINUNTER},
+    {"look",SCHAU,"Explore:    "},{"examine",BETRACHTE},{"inventory",INVENTAR},{"exits",AUSGAENGE},
+    {"north",NORD,"Move:       "},{"south",SUED},{"east",OST},{"west",WEST},{"up",HINAUF},{"down",HINUNTER},
     {"enter",BETRITT},{"leave",VERLASSE},
-    {"take",NIMM,"Actions:    "},{"lose",VERLIERE},{"use",WENDE},{"giv",GIB},{"attach",BEFESTIGE},
-    {"speak",SPRICH,"Talk:       "},{"help",HILF},
+    {"take",NIMM,"Actions:    "},{"drop",VERLIERE},{"use",WENDE},{"give",GIB},{"attach",BEFESTIGE},
+    {"talk",SPRICH,"Talk:       "},{"help",HILF},
     {"open",OEFFNE,"Mechanisms: "},{"close",SCHLIESSE},{"unlock",ENTRIEGELE},{"lock",VERRIEGELE},
-    {"move",BEWEGE},{"push",DRUECKE},{"tug",ZIEHE},{"dig",GRABE},{"destroy",ZERSTOERE},
+    {"move",BEWEGE},{"push",DRUECKE},{"pull",ZIEHE},{"dig",GRABE},{"destroy",ZERSTOERE},
     {"wait",WARTE,"Time:       "},
-    {"points",PUNKTE,"Game:       "},{"solve",LOESUNG},{"restart",NEUSTART},{"quit",SPIELENDE},
+    {"score",PUNKTE,"Game:       "},{"solution",LOESUNG},{"restart",NEUSTART},{"quit",SPIELENDE},
     {"compact",KURZTEXT,"Display:    "},{"verbose",AUSFUEHRLICH},{"music",MUSIKEIN},
     {"about",UEBERSOULCRYSTAL,"Info:       "},{"credits",CREDITS}
 };
@@ -140,7 +140,7 @@ void verbList() {
     }
     list+='\n'+line;
     list+=tr("\nBedienung:  objekte, verben", "\nControls:   objects, verbs");
-    say(list);say(tr("Beispiele: nimm dave | betrachte hinweisschild | wende schlüssel auf tür.\nAuch: n/s/o/w, lies <Objekt>, inventar, objekte. Umlaute oder ae/oe/ue sind möglich.", "Examples: take dave | consider sign | use key on door.\nAlso: n/s/e/w, read <object>, inventory, objects."));
+    say(list);say(tr("Beispiele: nimm dave | betrachte hinweisschild | wende schlüssel auf tür.\nAuch: n/s/o/w, lies <Objekt>, inventar, objekte. Umlaute oder ae/oe/ue sind möglich.", "Examples: take dave | examine sign | use key on door.\nAlso: n/s/e/w, read <object>, inventory, objects."));
 }
 
 std::string stripArticle(std::string s) {
@@ -155,9 +155,11 @@ ObjectID resolve(std::string phrase) {
     std::vector<ObjectID> exact,partial;
     for(unsigned i=1;i<ObjectStateCount;++i) if(available(i)) {
         std::string name=normalize(objectName(i));
-        if(name==phrase) exact.push_back(ObjectID(i));
+        // Old fan-translation spellings remain input aliases; display uses reviewed names.
+        std::string legacy=english()?normalize(englishObjectNames[i]):name;
+        if(name==phrase || legacy==phrase) exact.push_back(ObjectID(i));
         // Convenience for e.g. 'schlüssel'; never choose an ambiguous match.
-        else if(!phrase.empty() && name.find(phrase)!=std::string::npos) partial.push_back(ObjectID(i));
+        else if(!phrase.empty() && (name.find(phrase)!=std::string::npos || legacy.find(phrase)!=std::string::npos)) partial.push_back(ObjectID(i));
     }
     const auto& matches=exact.empty()?partial:exact;
     if(matches.size()==1) return matches[0];
@@ -278,7 +280,7 @@ extern "C" void GameSubmit(const char *input) {
         const GameMode before=mode;
         if(yes && before!=GameConfirmQuit) reset(false);
         else if((yes&&before==GameConfirmQuit)||(no&&before==GameDead)){mode=GameEnded;say(tr("Auf Wiedersehen.", "Goodbye."));}
-        else {mode=GameReady;say(tr("Weiter geht's.", "Continuing."));}
+        else {mode=GameReady;say(tr("Weiter geht's.", "On we go."));}
         return;
     }
     if(mode==GameSolutionPrompt){inputResult=GameInputAccepted;if(line==tr("n","r")||line==tr("neustart","restart"))reset(false);else if(line==tr("e","q")||line==tr("ende","quit")){mode=GameEnded;say(tr("Auf Wiedersehen.", "Goodbye."));}else if(line==tr("abbrechen","cancel")){mode=GameReady;}else {inputResult=GameInputRejected;say(tr("N, E oder abbrechen?", "R, Q or cancel?"));}return;}
@@ -288,10 +290,10 @@ extern "C" void GameSubmit(const char *input) {
     if(verb==tr("laden","load")||verb==tr("speichern","save")){inputResult=GameInputBlocked;say(tr("Speichern/Laden ist noch nicht verfügbar.", "Saving/loading is not available yet."));return;}
     if(english()) {
         const std::pair<const char*,const char*> aliases[] = {
-            {"n","north"},{"s","south"},{"e","east"},{"w","west"},{"up","upward"},{"down","downward"},
-            {"i","backpack"},{"inventory","backpack"},{"look","view"},{"examine","consider"},{"inspect","consider"},
-            {"read","consider"},{"drop","lose"},{"give","giv"},{"pull","tug"},{"talk","speak"},{"exits","paths"},
-            {"score","points"},{"solution","solve"}};
+            {"n","north"},{"s","south"},{"e","east"},{"w","west"},{"upward","up"},{"downward","down"},
+            {"i","inventory"},{"backpack","inventory"},{"view","look"},{"consider","examine"},{"inspect","examine"},
+            {"read","examine"},{"lose","drop"},{"giv","give"},{"tug","pull"},{"speak","talk"},{"paths","exits"},
+            {"points","score"},{"solve","solution"}};
         for(const auto& alias:aliases)if(verb==alias.first){verb=alias.second;break;}
     } else {
     if(verb=="n")verb="nord";if(verb=="s")verb="sued";if(verb=="o")verb="ost";if(verb=="w")verb="west";

@@ -1,56 +1,329 @@
 {
-  "source": "A2_seq10.bin",
+  "edition": "Reviewed English; native extraction is in original/.",
   "encoding": "length byte + absolute pointer to following payload + PETSCII text",
   "records": [
-    {"descriptor": "$4811", "address": "$4814", "byte_length": 6, "text": "?error"},
-    {"descriptor": "$481A", "address": "$481D", "byte_length": 3, "text": " at"},
-    {"descriptor": "$4820", "address": "$4823", "byte_length": 9, "text": "exgosub -"},
-    {"descriptor": "$4837", "address": "$483A", "byte_length": 13, "text": "illegal mesnr"},
-    {"descriptor": "$4847", "address": "$484A", "byte_length": 10, "text": "print text"},
-    {"descriptor": "$4854", "address": "$4857", "byte_length": 5, "text": "newmu"},
-    {"descriptor": "$485F", "address": "$4862", "byte_length": 8, "text": " North, "},
-    {"descriptor": "$486A", "address": "$486D", "byte_length": 7, "text": " East, "},
-    {"descriptor": "$4874", "address": "$4877", "byte_length": 7, "text": "South, "},
-    {"descriptor": "$487E", "address": "$4881", "byte_length": 8, "text": "  West, "},
-    {"descriptor": "$4889", "address": "$488C", "byte_length": 8, "text": "up    , "},
-    {"descriptor": "$4894", "address": "$4897", "byte_length": 10, "text": "down    , "},
-    {"descriptor": "$48A4", "address": "$48A7", "byte_length": 1, "text": "."},
-    {"descriptor": "$48B1", "address": "$48B4", "byte_length": 11, "text": "Loading... "},
-    {"descriptor": "$48BF", "address": "$48C2", "byte_length": 36, "text": "Game was loaded successfully...     "},
-    {"descriptor": "$48E6", "address": "$48E9", "byte_length": 43, "text": "Please select the saved game to load...    "},
-    {"descriptor": "$4914", "address": "$4917", "byte_length": 63, "text": "Please select save slot.                                       "},
-    {"descriptor": "$4956", "address": "$4959", "byte_length": 16, "text": "Saving...       "},
-    {"descriptor": "$4969", "address": "$496C", "byte_length": 37, "text": "Game was saved successfully...       "},
-    {"descriptor": "$4991", "address": "$4994", "byte_length": 65, "text": "Enter a name for the save, press return when finished.           "},
-    {"descriptor": "$5E6A", "address": "$5E6D", "byte_length": 21, "text": "                     "},
-    {"descriptor": "$5E82", "address": "$5E85", "byte_length": 12, "text": "?coderequest"},
-    {"descriptor": "$5E91", "address": "$5E94", "byte_length": 3, "text": "old"},
-    {"descriptor": "$5E97", "address": "$5E9A", "byte_length": 3, "text": "new"},
-    {"descriptor": "$5E9D", "address": "$5EA0", "byte_length": 29, "text": "Music-player routine for the "},
-    {"descriptor": "$5EBD", "address": "$5EC0", "byte_length": 20, "text": " SID configured.    "},
-    {"descriptor": "$5ED7", "address": "$5EDA", "byte_length": 2, "text": ", "},
-    {"descriptor": "$5EDC", "address": "$5EDF", "byte_length": 13, "text": "Sehr viele..."},
-    {"descriptor": "$5EEC", "address": "$5EEF", "byte_length": 1, "text": "."},
-    {"descriptor": "$5EF6", "address": "$5EF9", "byte_length": 6, "text": "      "},
-    {"descriptor": "$5EFF", "address": "$5F02", "byte_length": 19, "text": "  Savegame Diskette"},
-    {"descriptor": "$5F15", "address": "$5F18", "byte_length": 9, "text": "Diskette "},
-    {"descriptor": "$5F21", "address": "$5F24", "byte_length": 8, "text": ",  Side "},
-    {"descriptor": "$5F2C", "address": "$5F2F", "byte_length": 10, "text": " please..."},
-    {"descriptor": "$5F42", "address": "$5F45", "byte_length": 17, "text": "So far you have  "},
-    {"descriptor": "$5F56", "address": "$5F59", "byte_length": 36, "text": " of  5060 possible points scored.   "},
-    {"descriptor": "$5F7D", "address": "$5F80", "byte_length": 13, "text": "Bitte gib den"},
-    {"descriptor": "$5F8D", "address": "$5F90", "byte_length": 16, "text": ". Buchstaben des"},
-    {"descriptor": "$5FA0", "address": "$5FA3", "byte_length": 8, "text": ". Wortes"},
-    {"descriptor": "$5FAB", "address": "$5FAE", "byte_length": 10, "text": " auf Seite"},
-    {"descriptor": "$5FB8", "address": "$5FBB", "byte_length": 8, "text": ", Absatz"},
-    {"descriptor": "$5FC3", "address": "$5FC6", "byte_length": 7, "text": ", Zeile"},
-    {"descriptor": "$5FCD", "address": "$5FD0", "byte_length": 63, "text": " ein, Denke auch daran, das einzeln stehende Zeilen (wie z.B. Ü"},
-    {"descriptor": "$600F", "address": "$6012", "byte_length": 62, "text": "berschriften) nicht mitzuzählen sind! - Bitte drücke jetzt die"},
-    {"descriptor": "$6877", "address": "$687A", "byte_length": 21, "text": " betreffende Taste..."},
-    {"descriptor": "$688F", "address": "$6892", "byte_length": 7, "text": "Okay - "},
-    {"descriptor": "$6899", "address": "$689C", "byte_length": 10, "text": " dropped. "},
-    {"descriptor": "$68A6", "address": "$68A9", "byte_length": 12, "text": " - taken.   "},
-    {"descriptor": "$68BA", "address": "$68BD", "byte_length": 30, "text": "Deleting saved games...       "},
-    {"descriptor": "$68DB", "address": "$68DE", "byte_length": 37, "text": "Okay: All saved games are deleted.   "}
-  ]
+    {
+      "address": "$4814",
+      "byte_length": 6,
+      "descriptor": "$4811",
+      "text": "?error"
+    },
+    {
+      "address": "$481D",
+      "byte_length": 3,
+      "descriptor": "$481A",
+      "text": " at"
+    },
+    {
+      "address": "$4823",
+      "byte_length": 9,
+      "descriptor": "$4820",
+      "text": "exgosub -"
+    },
+    {
+      "address": "$483A",
+      "byte_length": 13,
+      "descriptor": "$4837",
+      "text": "illegal mesnr"
+    },
+    {
+      "address": "$484A",
+      "byte_length": 10,
+      "descriptor": "$4847",
+      "text": "print text"
+    },
+    {
+      "address": "$4857",
+      "byte_length": 5,
+      "descriptor": "$4854",
+      "text": "newmu"
+    },
+    {
+      "address": "$4862",
+      "byte_length": 8,
+      "descriptor": "$485F",
+      "text": " North, "
+    },
+    {
+      "address": "$486D",
+      "byte_length": 7,
+      "descriptor": "$486A",
+      "text": " East, "
+    },
+    {
+      "address": "$4877",
+      "byte_length": 7,
+      "descriptor": "$4874",
+      "text": "South, "
+    },
+    {
+      "address": "$4881",
+      "byte_length": 8,
+      "descriptor": "$487E",
+      "text": "  West, "
+    },
+    {
+      "address": "$488C",
+      "byte_length": 8,
+      "descriptor": "$4889",
+      "text": "up    , "
+    },
+    {
+      "address": "$4897",
+      "byte_length": 10,
+      "descriptor": "$4894",
+      "text": "down    , "
+    },
+    {
+      "address": "$48A7",
+      "byte_length": 1,
+      "descriptor": "$48A4",
+      "text": "."
+    },
+    {
+      "address": "$48B4",
+      "byte_length": 11,
+      "descriptor": "$48B1",
+      "text": "Loading... "
+    },
+    {
+      "address": "$48C2",
+      "byte_length": 36,
+      "descriptor": "$48BF",
+      "original_text": "Game was loaded successfully...     ",
+      "text": "Game loaded successfully."
+    },
+    {
+      "address": "$48E9",
+      "byte_length": 43,
+      "descriptor": "$48E6",
+      "original_text": "Please select the saved game to load...    ",
+      "text": "Choose a saved game to load."
+    },
+    {
+      "address": "$4917",
+      "byte_length": 63,
+      "descriptor": "$4914",
+      "original_text": "Please select save slot.                                       ",
+      "text": "Choose a save slot."
+    },
+    {
+      "address": "$4959",
+      "byte_length": 16,
+      "descriptor": "$4956",
+      "text": "Saving...       "
+    },
+    {
+      "address": "$496C",
+      "byte_length": 37,
+      "descriptor": "$4969",
+      "original_text": "Game was saved successfully...       ",
+      "text": "Game saved successfully."
+    },
+    {
+      "address": "$4994",
+      "byte_length": 65,
+      "descriptor": "$4991",
+      "original_text": "Enter a name for the save, press return when finished.           ",
+      "text": "Enter a name for your save, then press Return."
+    },
+    {
+      "address": "$5E6D",
+      "byte_length": 21,
+      "descriptor": "$5E6A",
+      "text": "                     "
+    },
+    {
+      "address": "$5E85",
+      "byte_length": 12,
+      "descriptor": "$5E82",
+      "text": "?coderequest"
+    },
+    {
+      "address": "$5E94",
+      "byte_length": 3,
+      "descriptor": "$5E91",
+      "text": "old"
+    },
+    {
+      "address": "$5E9A",
+      "byte_length": 3,
+      "descriptor": "$5E97",
+      "text": "new"
+    },
+    {
+      "address": "$5EA0",
+      "byte_length": 29,
+      "descriptor": "$5E9D",
+      "text": "Music-player routine for the "
+    },
+    {
+      "address": "$5EC0",
+      "byte_length": 20,
+      "descriptor": "$5EBD",
+      "text": " SID configured.    "
+    },
+    {
+      "address": "$5EDA",
+      "byte_length": 2,
+      "descriptor": "$5ED7",
+      "text": ", "
+    },
+    {
+      "address": "$5EDF",
+      "byte_length": 13,
+      "descriptor": "$5EDC",
+      "original_text": "Sehr viele...",
+      "text": "Lots..."
+    },
+    {
+      "address": "$5EEF",
+      "byte_length": 1,
+      "descriptor": "$5EEC",
+      "text": "."
+    },
+    {
+      "address": "$5EF9",
+      "byte_length": 6,
+      "descriptor": "$5EF6",
+      "text": "      "
+    },
+    {
+      "address": "$5F02",
+      "byte_length": 19,
+      "descriptor": "$5EFF",
+      "original_text": "  Savegame Diskette",
+      "text": "  Save disk"
+    },
+    {
+      "address": "$5F18",
+      "byte_length": 9,
+      "descriptor": "$5F15",
+      "original_text": "Diskette ",
+      "text": "Disk "
+    },
+    {
+      "address": "$5F24",
+      "byte_length": 8,
+      "descriptor": "$5F21",
+      "original_text": ",  Side ",
+      "text": ", side "
+    },
+    {
+      "address": "$5F2F",
+      "byte_length": 10,
+      "descriptor": "$5F2C",
+      "original_text": " please...",
+      "text": ", please..."
+    },
+    {
+      "address": "$5F45",
+      "byte_length": 17,
+      "descriptor": "$5F42",
+      "original_text": "So far you have  ",
+      "text": "So far you have scored "
+    },
+    {
+      "address": "$5F59",
+      "byte_length": 36,
+      "descriptor": "$5F56",
+      "original_text": " of  5060 possible points scored.   ",
+      "text": " of a possible 5060 points."
+    },
+    {
+      "address": "$5F80",
+      "byte_length": 13,
+      "descriptor": "$5F7D",
+      "original_text": "Bitte gib den",
+      "text": "Please enter letter "
+    },
+    {
+      "address": "$5F90",
+      "byte_length": 16,
+      "descriptor": "$5F8D",
+      "original_text": ". Buchstaben des",
+      "text": " of word "
+    },
+    {
+      "address": "$5FA3",
+      "byte_length": 8,
+      "descriptor": "$5FA0",
+      "original_text": ". Wortes",
+      "text": " "
+    },
+    {
+      "address": "$5FAE",
+      "byte_length": 10,
+      "descriptor": "$5FAB",
+      "original_text": " auf Seite",
+      "text": " on page "
+    },
+    {
+      "address": "$5FBB",
+      "byte_length": 8,
+      "descriptor": "$5FB8",
+      "original_text": ", Absatz",
+      "text": ", paragraph "
+    },
+    {
+      "address": "$5FC6",
+      "byte_length": 7,
+      "descriptor": "$5FC3",
+      "original_text": ", Zeile",
+      "text": ", line "
+    },
+    {
+      "address": "$5FD0",
+      "byte_length": 63,
+      "descriptor": "$5FCD",
+      "original_text": " ein, Denke auch daran, das einzeln stehende Zeilen (wie z.B. Ü",
+      "text": ". Do not count standalone lines (such as headings). "
+    },
+    {
+      "address": "$6012",
+      "byte_length": 62,
+      "descriptor": "$600F",
+      "original_text": "berschriften) nicht mitzuzählen sind! - Bitte drücke jetzt die",
+      "text": "Please press the appropriate key "
+    },
+    {
+      "address": "$687A",
+      "byte_length": 21,
+      "descriptor": "$6877",
+      "original_text": " betreffende Taste...",
+      "text": "now..."
+    },
+    {
+      "address": "$6892",
+      "byte_length": 7,
+      "descriptor": "$688F",
+      "text": "Okay - "
+    },
+    {
+      "address": "$689C",
+      "byte_length": 10,
+      "descriptor": "$6899",
+      "text": " dropped. "
+    },
+    {
+      "address": "$68A9",
+      "byte_length": 12,
+      "descriptor": "$68A6",
+      "text": " - taken.   "
+    },
+    {
+      "address": "$68BD",
+      "byte_length": 30,
+      "descriptor": "$68BA",
+      "text": "Deleting saved games...       "
+    },
+    {
+      "address": "$68DE",
+      "byte_length": 37,
+      "descriptor": "$68DB",
+      "original_text": "Okay: All saved games are deleted.   ",
+      "text": "All saved games have been deleted."
+    }
+  ],
+  "source": "A2_seq10.bin"
 }

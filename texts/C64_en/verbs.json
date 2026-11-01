@@ -1,47 +1,312 @@
 {
-  "source": "A2_seq9.bin (command labels checked against seq7/seq8; IDs against seq8)",
   "commands": [
-    {"address": "$AB1D", "frontend_code": 75, "command_id": 38, "label": "TAKE", "symbol": "NIMM"},
-    {"address": "$AB23", "frontend_code": 66, "command_id": 29, "label": "LOSE", "symbol": "VERLIERE"},
-    {"address": "$AB2D", "frontend_code": 68, "command_id": 31, "label": "CONSIDER", "symbol": "BETRACHTE"},
-    {"address": "$AB38", "frontend_code": 40, "command_id": 9, "label": "BACKPACK", "symbol": "INVENTAR"},
-    {"address": "$AB42", "frontend_code": 65, "command_id": 28, "label": "DESTROY", "symbol": "ZERSTOERE"},
-    {"address": "$AB4C", "frontend_code": 96, "command_id": 40, "label": "USE", "symbol": "WENDE"},
-    {"address": "$AB5A", "frontend_code": 72, "command_id": 35, "label": "OPEN", "symbol": "OEFFNE"},
-    {"address": "$AB61", "frontend_code": 64, "command_id": 27, "label": "CLOSE", "symbol": "SCHLIESSE"},
-    {"address": "$AB6C", "frontend_code": 99, "command_id": 43, "label": "LOCK", "symbol": "VERRIEGELE"},
-    {"address": "$AB77", "frontend_code": 100, "command_id": 44, "label": "UNLOCK", "symbol": "ENTRIEGELE"},
-    {"address": "$AB82", "frontend_code": 97, "command_id": 41, "label": "ATTACH", "symbol": "BEFESTIGE"},
-    {"address": "$AB8D", "frontend_code": 71, "command_id": 34, "label": "MOVE", "symbol": "BEWEGE"},
-    {"address": "$AB9C", "frontend_code": 74, "command_id": 37, "label": "PUSH", "symbol": "DRUECKE"},
-    {"address": "$ABA4", "frontend_code": 73, "command_id": 36, "label": "TUG", "symbol": "ZIEHE"},
-    {"address": "$ABAB", "frontend_code": 76, "command_id": 39, "label": "SPEAK", "symbol": "SPRICH"},
-    {"address": "$ABB3", "frontend_code": 98, "command_id": 42, "label": "GIV", "symbol": "GIB"},
-    {"address": "$ABB8", "frontend_code": 69, "command_id": 32, "label": "HELP", "symbol": "HILF"},
-    {"address": "$ABBE", "frontend_code": 54, "command_id": 23, "label": "WAIT", "symbol": "WARTE"},
-    {"address": "$ABCC", "frontend_code": 41, "command_id": 10, "label": "VIEW", "symbol": "SCHAU"},
-    {"address": "$ABD3", "frontend_code": 38, "command_id": 7, "label": "PATHS", "symbol": "AUSGAENGE"},
-    {"address": "$ABDD", "frontend_code": 67, "command_id": 30, "label": "ENTER", "symbol": "BETRITT"},
-    {"address": "$ABE6", "frontend_code": 70, "command_id": 33, "label": "LEAVE", "symbol": "VERLASSE"},
-    {"address": "$ABF0", "frontend_code": 35, "command_id": 4, "label": "DIG", "symbol": "GRABE"},
-    {"address": "$AC18", "frontend_code": 46, "command_id": 15, "label": "POINTS", "symbol": "PUNKTE"},
-    {"address": "$AC20", "frontend_code": 47, "command_id": 16, "label": "SOLVE", "symbol": "LOESUNG"},
-    {"address": "$AC28", "frontend_code": 32, "command_id": 1, "label": "ABOUT", "symbol": "UEBERSOULCRYSTAL"},
-    {"address": "$AC33", "frontend_code": 34, "command_id": 3, "label": "CREDITS", "symbol": "CREDITS"},
-    {"address": "$AC3C", "frontend_code": 44, "command_id": 13, "label": "RESTART", "symbol": "NEUSTART"},
-    {"address": "$AC46", "frontend_code": 43, "command_id": 12, "label": "QUIT", "symbol": "SPIELENDE"},
-    {"address": "$AC58", "frontend_code": 51, "command_id": 20, "label": "SAVE", "symbol": "SPEICHERN"},
-    {"address": "$AC63", "frontend_code": 45, "command_id": 14, "label": "LOAD", "symbol": "LADEN"},
-    {"address": "$AC6A", "frontend_code": 39, "command_id": 8, "label": "CLEAR", "symbol": "DISKETTEINSTALLIEREN"},
-    {"address": "$AC7C", "frontend_code": 53, "command_id": 2, "label": "COMPACT", "symbol": "KURZTEXT"},
-    {"address": "$AC86", "frontend_code": 33, "command_id": 22, "label": "VERBOSE", "symbol": "AUSFUEHRLICH"},
-    {"address": "$AC91", "frontend_code": 49, "command_id": 18, "label": "MUSIC", "symbol": "AUSGAENGE12"},
-    {"address": "$AC98", "frontend_code": 48, "command_id": 17, "label": "SID TYPE", "symbol": "MUSIKEIN"},
-    {"address": "$ACA8", "frontend_code": 42, "command_id": 11, "label": "NORTH", "symbol": "NORD"},
-    {"address": "$ACB0", "frontend_code": 37, "command_id": 6, "label": "EAST", "symbol": "OST"},
-    {"address": "$ACB7", "frontend_code": 50, "command_id": 19, "label": "SOUTH", "symbol": "SUED"},
-    {"address": "$ACBE", "frontend_code": 55, "command_id": 24, "label": "WEST", "symbol": "WEST"},
-    {"address": "$ACC6", "frontend_code": 52, "command_id": 21, "label": "UPWARD", "symbol": "HINAUF"},
-    {"address": "$ACCE", "frontend_code": 36, "command_id": 5, "label": "DOWNWARD", "symbol": "HINUNTER"}
-  ]
+    {
+      "address": "$AB1D",
+      "command_id": 38,
+      "frontend_code": 75,
+      "label": "TAKE",
+      "symbol": "NIMM"
+    },
+    {
+      "address": "$AB23",
+      "command_id": 29,
+      "frontend_code": 66,
+      "label": "DROP",
+      "original_label": "LOSE",
+      "symbol": "VERLIERE"
+    },
+    {
+      "address": "$AB2D",
+      "command_id": 31,
+      "frontend_code": 68,
+      "label": "EXAMINE",
+      "original_label": "CONSIDER",
+      "symbol": "BETRACHTE"
+    },
+    {
+      "address": "$AB38",
+      "command_id": 9,
+      "frontend_code": 40,
+      "label": "INVENTORY",
+      "original_label": "BACKPACK",
+      "symbol": "INVENTAR"
+    },
+    {
+      "address": "$AB42",
+      "command_id": 28,
+      "frontend_code": 65,
+      "label": "DESTROY",
+      "symbol": "ZERSTOERE"
+    },
+    {
+      "address": "$AB4C",
+      "command_id": 40,
+      "frontend_code": 96,
+      "label": "USE",
+      "symbol": "WENDE"
+    },
+    {
+      "address": "$AB5A",
+      "command_id": 35,
+      "frontend_code": 72,
+      "label": "OPEN",
+      "symbol": "OEFFNE"
+    },
+    {
+      "address": "$AB61",
+      "command_id": 27,
+      "frontend_code": 64,
+      "label": "CLOSE",
+      "symbol": "SCHLIESSE"
+    },
+    {
+      "address": "$AB6C",
+      "command_id": 43,
+      "frontend_code": 99,
+      "label": "LOCK",
+      "symbol": "VERRIEGELE"
+    },
+    {
+      "address": "$AB77",
+      "command_id": 44,
+      "frontend_code": 100,
+      "label": "UNLOCK",
+      "symbol": "ENTRIEGELE"
+    },
+    {
+      "address": "$AB82",
+      "command_id": 41,
+      "frontend_code": 97,
+      "label": "ATTACH",
+      "symbol": "BEFESTIGE"
+    },
+    {
+      "address": "$AB8D",
+      "command_id": 34,
+      "frontend_code": 71,
+      "label": "MOVE",
+      "symbol": "BEWEGE"
+    },
+    {
+      "address": "$AB9C",
+      "command_id": 37,
+      "frontend_code": 74,
+      "label": "PUSH",
+      "symbol": "DRUECKE"
+    },
+    {
+      "address": "$ABA4",
+      "command_id": 36,
+      "frontend_code": 73,
+      "label": "PULL",
+      "original_label": "TUG",
+      "symbol": "ZIEHE"
+    },
+    {
+      "address": "$ABAB",
+      "command_id": 39,
+      "frontend_code": 76,
+      "label": "TALK",
+      "original_label": "SPEAK",
+      "symbol": "SPRICH"
+    },
+    {
+      "address": "$ABB3",
+      "command_id": 42,
+      "frontend_code": 98,
+      "label": "GIVE",
+      "original_label": "GIV",
+      "symbol": "GIB"
+    },
+    {
+      "address": "$ABB8",
+      "command_id": 32,
+      "frontend_code": 69,
+      "label": "HELP",
+      "symbol": "HILF"
+    },
+    {
+      "address": "$ABBE",
+      "command_id": 23,
+      "frontend_code": 54,
+      "label": "WAIT",
+      "symbol": "WARTE"
+    },
+    {
+      "address": "$ABCC",
+      "command_id": 10,
+      "frontend_code": 41,
+      "label": "LOOK",
+      "original_label": "VIEW",
+      "symbol": "SCHAU"
+    },
+    {
+      "address": "$ABD3",
+      "command_id": 7,
+      "frontend_code": 38,
+      "label": "EXITS",
+      "original_label": "PATHS",
+      "symbol": "AUSGAENGE"
+    },
+    {
+      "address": "$ABDD",
+      "command_id": 30,
+      "frontend_code": 67,
+      "label": "ENTER",
+      "symbol": "BETRITT"
+    },
+    {
+      "address": "$ABE6",
+      "command_id": 33,
+      "frontend_code": 70,
+      "label": "LEAVE",
+      "symbol": "VERLASSE"
+    },
+    {
+      "address": "$ABF0",
+      "command_id": 4,
+      "frontend_code": 35,
+      "label": "DIG",
+      "symbol": "GRABE"
+    },
+    {
+      "address": "$AC18",
+      "command_id": 15,
+      "frontend_code": 46,
+      "label": "SCORE",
+      "original_label": "POINTS",
+      "symbol": "PUNKTE"
+    },
+    {
+      "address": "$AC20",
+      "command_id": 16,
+      "frontend_code": 47,
+      "label": "SOLUTION",
+      "original_label": "SOLVE",
+      "symbol": "LOESUNG"
+    },
+    {
+      "address": "$AC28",
+      "command_id": 1,
+      "frontend_code": 32,
+      "label": "ABOUT",
+      "symbol": "UEBERSOULCRYSTAL"
+    },
+    {
+      "address": "$AC33",
+      "command_id": 3,
+      "frontend_code": 34,
+      "label": "CREDITS",
+      "symbol": "CREDITS"
+    },
+    {
+      "address": "$AC3C",
+      "command_id": 13,
+      "frontend_code": 44,
+      "label": "RESTART",
+      "symbol": "NEUSTART"
+    },
+    {
+      "address": "$AC46",
+      "command_id": 12,
+      "frontend_code": 43,
+      "label": "QUIT",
+      "symbol": "SPIELENDE"
+    },
+    {
+      "address": "$AC58",
+      "command_id": 20,
+      "frontend_code": 51,
+      "label": "SAVE",
+      "symbol": "SPEICHERN"
+    },
+    {
+      "address": "$AC63",
+      "command_id": 14,
+      "frontend_code": 45,
+      "label": "LOAD",
+      "symbol": "LADEN"
+    },
+    {
+      "address": "$AC6A",
+      "command_id": 8,
+      "frontend_code": 39,
+      "label": "CLEAR",
+      "symbol": "DISKETTEINSTALLIEREN"
+    },
+    {
+      "address": "$AC7C",
+      "command_id": 2,
+      "frontend_code": 53,
+      "label": "COMPACT",
+      "symbol": "KURZTEXT"
+    },
+    {
+      "address": "$AC86",
+      "command_id": 22,
+      "frontend_code": 33,
+      "label": "VERBOSE",
+      "symbol": "AUSFUEHRLICH"
+    },
+    {
+      "address": "$AC91",
+      "command_id": 18,
+      "frontend_code": 49,
+      "label": "MUSIC",
+      "symbol": "AUSGAENGE12"
+    },
+    {
+      "address": "$AC98",
+      "command_id": 17,
+      "frontend_code": 48,
+      "label": "SID TYPE",
+      "symbol": "MUSIKEIN"
+    },
+    {
+      "address": "$ACA8",
+      "command_id": 11,
+      "frontend_code": 42,
+      "label": "NORTH",
+      "symbol": "NORD"
+    },
+    {
+      "address": "$ACB0",
+      "command_id": 6,
+      "frontend_code": 37,
+      "label": "EAST",
+      "symbol": "OST"
+    },
+    {
+      "address": "$ACB7",
+      "command_id": 19,
+      "frontend_code": 50,
+      "label": "SOUTH",
+      "symbol": "SUED"
+    },
+    {
+      "address": "$ACBE",
+      "command_id": 24,
+      "frontend_code": 55,
+      "label": "WEST",
+      "symbol": "WEST"
+    },
+    {
+      "address": "$ACC6",
+      "command_id": 21,
+      "frontend_code": 52,
+      "label": "UP",
+      "original_label": "UPWARD",
+      "symbol": "HINAUF"
+    },
+    {
+      "address": "$ACCE",
+      "command_id": 5,
+      "frontend_code": 36,
+      "label": "DOWN",
+      "original_label": "DOWNWARD",
+      "symbol": "HINUNTER"
+    }
+  ],
+  "edition": "Reviewed English; native extraction is in original/.",
+  "source": "A2_seq9.bin (command labels checked against seq7/seq8; IDs against seq8)"
 }

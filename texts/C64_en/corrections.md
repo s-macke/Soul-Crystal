@@ -1,54 +1,49 @@
-# Geprüfte englische Übersetzungskorrekturen
+# Geprüfte englische Spielfassung
 
-`corrections.json` enthält 37 eng begrenzte Korrekturregeln mit Ziel, erwartetem
-Originalwortlaut, Ersatz, erwarteter Trefferzahl und Begründung. Sie betreffen
-26 Archivdatensätze, sechs Passagen in Intro/Tagebuch und einen Objektnamen.
+Alle 1486 Archivdatensätze wurden vollständig gegen Deutsch geprüft. 853
+Archivdatensätze sind geändert: B1 179, B2 239, C1 172, C2 263. Hinzu kommen
+Intro, Tagebuch, Objektnamen, Befehls- und Engine-Texte. Insgesamt enthält
+`corrections.json` 963 Regeln mit erwartetem Ausgangstext und Trefferzahl.
 
-Korrigiert werden die dokumentierten Befunde aus
-`spec/C64/english_translation_review.md`:
+## Dateien und Reproduktion
 
-- **Tagebuch Tag 3:** Türklinke ausdrücklich **nach oben** drücken.
-- **Elixier:** Unsichtbarkeit für **one turn**, nicht „puff“ oder „hit“.
-- **Verriegeln:** `lock/locked` statt „complete/finished/over/close“, auf allen Seiten.
-- **Pfeife:** `pipe` statt „whistle“, auch in Wiederholungen und beim Fährmann.
-- **Pfeifendiebstahl:** schnell verschwinden statt einen Teller reinigen.
-- **Objekt 5:** `Leather pouch` statt `Leather socks`; ID und Symbol unverändert.
-- **Tagebuch Tag 2:** Zweifel an Zargons Charakter bleibt eine Frage.
-- **Tagebuch Tag 3:** Simona lädt den Turmwächter ein, nicht umgekehrt.
-- **Intro Seiten 4, 6 und 7:** Daves Partyplan, ungewohnter Tatendrang während
-  der Schulzeit und geplante Ankunftsmeldung an die Mutter richtiggestellt.
-
-## Original und Spielfassung
-
-`B1/B2/C1/C2.json/.md`, `story.txt/.json`, `diary.txt`, `objects.json/.md` und
-sämtliche Intro-PNGs bleiben unveränderte Extraktionsbelege. Die Originalbilder
-zeigen deshalb weiterhin die unkorrigierte Fanübersetzung. Die CLI stellt
-Bilder ohnehin nicht dar; sie zeigt den korrigierten Introtext.
-
-Der Go-Exporter liest die Korrekturen **beim Generieren**, prüft den erwarteten
-Originalwortlaut und bricht bei einer Abweichung ab. Nur die englischen C-Daten
-in `out/game_texts_en.c/.h` enthalten die Änderungen. Deutsche Texte, Text-IDs,
-Objekt-IDs, Bytecode und Spielzustand ändern sich nicht. Die ursprüngliche
-englische Namensliste bleibt ebenfalls erhalten; eine C-Funktion liefert für
-Objekt 5 den korrigierten Anzeigenamen. Anzeige und Parser verwenden beide
-`Leather pouch`.
+- `original/`: unveränderte Extraktionsbelege, einschließlich Bildschirmzeilen.
+- `B1/B2/C1/C2.json/.md`, `story.txt/.json`, `diary.txt`, Begriffsdateien:
+  redigierte lesbare Fassung, identisch mit der für das Spiel erzeugten Prosa.
+- `review-a-c.json`, `review-b.json`, `review-d.json`, `review-documents.json`:
+  vollständige Prüflisten und begründete Änderungsvorschläge. Gemeinsame Texte
+  werden beim Zusammenführen vereinheitlicht; einzelne Vorschläge können daher
+  von der ausgewählten Formulierung abweichen.
+- `review-coverage.json`: maschinenlesbare Abdeckung und Änderungszahlen.
+- `corrections.json`: ausgewählte Ersatzregeln; Änderungen am Ausgangstext führen
+  beim Export zu einem Fehler statt still zu einer falschen Zuordnung.
 
 ```sh
+python3 src/Python/merge_english_review.py
 GOCACHE=/tmp/soul-go-cache GO111MODULE=off go run ./src/Go/text -language en
 ./build_console.sh
-./build/soul-crystal --language en
+./build_wasm_docker.sh
+npm run build --prefix web
 ```
 
-C/C++ lädt weder Korrekturliste noch andere JSON-Dateien zur Laufzeit.
-Der Compiler benötigt nur die eingecheckten C-Daten.
+Archivexporte werden stets aus den originalen Disks gewonnen, dann korrigiert.
+Intro, Tagebuch und Begriffe werden aus `original/` gelesen. `screen_lines`,
+Quelladressen und Byte-Längen beschreiben weiterhin ausschließlich die Originale.
+Die Diskimages selbst bleiben unverändert. C/C++ liest keine JSON-Dateien.
 
-## Prüfungen
+## Stil und Bedeutung
 
-- Alle 1486 Rohdatensätze werden weiterhin direkt gegen die englischen Disks geprüft.
-- Die kompilierten englischen Textdaten werden gegen Disktexte plus Korrekturen geprüft.
-- Zusätzliche feste Prüfungen sichern Verriegeln, Elixierdauer, Fluchthinweis,
-  Türklinke, Zweifel an Zargon, Simona, Partyplan und den Objektnamen ab.
-- Geänderte Ausgangstexte oder eine unerwartete Anzahl gleicher Fundstellen
-  müssen die Korrekturanwendung scheitern lassen.
-- Beide vollständigen Sprach-Durchläufe sowie die Konsolentests prüfen, dass
-  korrigierte Texte/Namen die Spielmechanik nicht verändern.
+Idiomatisches Englisch mit jugendlichem Spott, gelegentlich bissigem Erzähler
+und den ursprünglichen Wortspielen. Keine zusätzliche Handlung, keine neuen
+Rätselhinweise, keine aktuelle Internetsprache. Die Figuren behalten eigene
+Stimmen; insbesondere wird das Tagebuch nicht in Teenager-Slang umgeschrieben.
+
+Gemeinsame Archivtexte werden anhand identischer deutscher Ausgangstexte
+vereinheitlicht, niemals pauschal anhand gleicher Datensatznummern. Namen und
+Befehle behalten ihre IDs; bisherige englische Eingaben bleiben Parser-Aliase.
+
+Die neuen Texte werden gegen die Korrekturregeln und die einkompilierten C-Daten
+geprüft; native Bildschirmzeilen zusätzlich gegen die Disks. Beide Sprachfassungen
+werden mit schnellem und ausführlichem Replay Zug für Zug verglichen.
+
+Weitere Beispiele: [Vollständiger Prüfbericht](../../spec/C64/english_full_review.md).

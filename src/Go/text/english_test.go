@@ -18,7 +18,7 @@ func TestEnglishCatalogs(t *testing.T) {
 				t.Fatal(err)
 			}
 			var en, de Catalog
-			for path, dst := range map[string]*Catalog{"../../../texts/C64_en/" + disk.name + ".json": &en, "../../../texts/C64/" + disk.name + ".json": &de} {
+			for path, dst := range map[string]*Catalog{"../../../texts/C64_en/original/" + disk.name + ".json": &en, "../../../texts/C64/" + disk.name + ".json": &de} {
 				data, err := os.ReadFile(path)
 				if err != nil {
 					t.Fatal(err)
@@ -50,5 +50,60 @@ func TestEnglishCatalogs(t *testing.T) {
 				}
 			}
 		})
+	}
+}
+
+// Every edited export must agree with the same checked rules used for the C
+// arrays. The native screen lines and byte offsets remain untouched evidence.
+func TestReviewedEnglishExports(t *testing.T) {
+	root, err := filepath.Abs("../../..")
+	if err != nil {
+		t.Fatal(err)
+	}
+	rules, err := readEnglishCorrections(root)
+	if err != nil {
+		t.Fatal(err)
+	}
+	for _, disk := range knownRanges {
+		var raw, reviewed Catalog
+		for path, dst := range map[string]*Catalog{"original/" + disk.name + ".json": &raw, disk.name + ".json": &reviewed} {
+			b, err := os.ReadFile(filepath.Join(root, "texts/C64_en", path))
+			if err != nil {
+				t.Fatal(err)
+			}
+			if err = json.Unmarshal(b, dst); err != nil {
+				t.Fatal(err)
+			}
+		}
+		if len(raw.Records) != len(reviewed.Records) {
+			t.Fatal("record count changed")
+		}
+		for key, r := range raw.Records {
+			want, err := correctedEnglishText(rules, disk.name+":"+key, r.Text)
+			if err != nil {
+				t.Fatal(err)
+			}
+			got := reviewed.Records[key]
+			if got.Text != want || got.Index != r.Index || got.SourceOffset != r.SourceOffset || !reflect.DeepEqual(got.ScreenLines, r.ScreenLines) {
+				t.Fatalf("reviewed %s:%s differs from rules/evidence", disk.name, key)
+			}
+		}
+	}
+	for _, name := range []string{"story", "diary"} {
+		raw, err := os.ReadFile(filepath.Join(root, "texts/C64_en/original", name+".txt"))
+		if err != nil {
+			t.Fatal(err)
+		}
+		want, err := correctedEnglishText(rules, name, string(raw))
+		if err != nil {
+			t.Fatal(err)
+		}
+		got, err := os.ReadFile(filepath.Join(root, "texts/C64_en", name+".txt"))
+		if err != nil {
+			t.Fatal(err)
+		}
+		if string(got) != want {
+			t.Fatalf("reviewed %s is stale", name)
+		}
 	}
 }

@@ -1,170 +1,1058 @@
 {
-  "source": "A2_seq2.bin",
+  "edition": "Reviewed English; native extraction is in original/.",
   "objects": [
-    {"id": 1, "address": "$C294", "name": "Adventurer", "symbol": "ABENTEURER"},
-    {"id": 2, "address": "$C29E", "name": "Stonealtar", "symbol": "STEINALTAR"},
-    {"id": 3, "address": "$C2A8", "name": "Amulet", "symbol": "AMULETT"},
-    {"id": 4, "address": "$C2AF", "name": "Badger sleigh", "symbol": "DACHSSCHLITTEN"},
-    {"id": 5, "address": "$C2BD", "name": "Leather socks", "symbol": "LEDERSOECKCHEN"},
-    {"id": 6, "address": "$C2CA", "name": "Keg", "symbol": "FASS"},
-    {"id": 7, "address": "$C2CD", "name": "Bed", "symbol": "GAESTEBETT"},
-    {"id": 8, "address": "$C2D6", "name": "bed", "symbol": "BETT1"},
-    {"id": 9, "address": "$C2DA", "name": "bed", "symbol": "BETT2"},
-    {"id": 10, "address": "$C2DE", "name": "Bedding", "symbol": "BETTZEUG"},
-    {"id": 11, "address": "$C2E6", "name": "Beehive", "symbol": "BIENENSTOCK"},
-    {"id": 12, "address": "$C2F1", "name": "Bell", "symbol": "KLINGEL"},
-    {"id": 13, "address": "$C2F8", "name": "Gore", "symbol": "BLUT"},
-    {"id": 14, "address": "$C2FC", "name": "Water", "symbol": "WASSER"},
-    {"id": 15, "address": "$C302", "name": "Boat", "symbol": "BOOT"},
-    {"id": 16, "address": "$C306", "name": "Boat", "symbol": "KAHN"},
-    {"id": 17, "address": "$C30A", "name": "Boat key", "symbol": "BOOTSSCHLUESSEL"},
-    {"id": 18, "address": "$C318", "name": "Bookshelves", "symbol": "BUECHERREGALE"},
-    {"id": 19, "address": "$C324", "name": "Books", "symbol": "BUECHER"},
-    {"id": 20, "address": "$C32A", "name": "Fur boots", "symbol": "FELLSTIEFEL"},
-    {"id": 21, "address": "$C335", "name": "Slice of bread", "symbol": "WEISSBROTSCHEIBE"},
-    {"id": 22, "address": "$C344", "name": "Brick", "symbol": "ZIEGELSTEIN"},
-    {"id": 23, "address": "$C34F", "name": "Brochure", "symbol": "PROSPEKT"},
-    {"id": 24, "address": "$C357", "name": "Chair", "symbol": "STUHL"},
-    {"id": 25, "address": "$C35C", "name": "Chest", "symbol": "TRUHE"},
-    {"id": 26, "address": "$C361", "name": "Ork kid", "symbol": "ORKKIND"},
-    {"id": 27, "address": "$C368", "name": "Fireplace", "symbol": "FEUERSTELLE"},
-    {"id": 28, "address": "$C373", "name": "Flue", "symbol": "KAMIN"},
-    {"id": 29, "address": "$C378", "name": "Codenumber", "symbol": "CODENUMMER"},
-    {"id": 30, "address": "$C382", "name": "Tombs", "symbol": "SAERGE"},
-    {"id": 31, "address": "$C387", "name": "Silver coins", "symbol": "SILBERMUENZEN"},
-    {"id": 32, "address": "$C393", "name": "Pledge", "symbol": "VERTRAG"},
-    {"id": 33, "address": "$C39A", "name": "Cadaver", "symbol": "KADAVER"},
-    {"id": 34, "address": "$C3A1", "name": "Crown", "symbol": "KRONE"},
-    {"id": 35, "address": "$C3A6", "name": "Crystal", "symbol": "KRISTALL"},
-    {"id": 36, "address": "$C3AE", "name": "Crystalball", "symbol": "KRISTALLKUGEL"},
-    {"id": 37, "address": "$C3BB", "name": "Cu-Sath", "symbol": "CU_SATH"},
-    {"id": 38, "address": "$C3C2", "name": "Curtain", "symbol": "SAMTVORHANG"},
-    {"id": 39, "address": "$C3CD", "name": "Shaft", "symbol": "SCHACHT"},
-    {"id": 40, "address": "$C3D4", "name": "Desk", "symbol": "SCHREIBTISCH1"},
-    {"id": 41, "address": "$C3E0", "name": "Desk", "symbol": "TRESEN"},
-    {"id": 42, "address": "$C3E6", "name": "Study table", "symbol": "STUDIERTISCH"},
-    {"id": 43, "address": "$C3F2", "name": "Desk", "symbol": "SCHREIBTISCH2"},
-    {"id": 44, "address": "$C3FE", "name": "Marble desk", "symbol": "MARMORTISCH"},
-    {"id": 45, "address": "$C409", "name": "Diary", "symbol": "TAGEBUCH"},
-    {"id": 46, "address": "$C411", "name": "Dishes", "symbol": "GESCHIRR"},
-    {"id": 47, "address": "$C419", "name": "Dog sled", "symbol": "HUNDESCHLITTEN"},
-    {"id": 48, "address": "$C427", "name": "Room-door", "symbol": "ZIMMERTUER1"},
-    {"id": 49, "address": "$C430", "name": "Room-door", "symbol": "ZIMMERTUER2"},
-    {"id": 50, "address": "$C439", "name": "Door", "symbol": "HOLZTUER"},
-    {"id": 51, "address": "$C440", "name": "Oak door", "symbol": "EICHENTUER"},
-    {"id": 52, "address": "$C449", "name": "Doorknob", "symbol": "TUERKLINKE"},
-    {"id": 53, "address": "$C452", "name": "Drawers", "symbol": "SCHUBLADEN"},
-    {"id": 54, "address": "$C45C", "name": "Hermit", "symbol": "EREMIT"},
-    {"id": 55, "address": "$C462", "name": "Orklady", "symbol": "ORKFRAU"},
-    {"id": 56, "address": "$C469", "name": "Ferryman", "symbol": "FAEHRMANN"},
-    {"id": 57, "address": "$C471", "name": "Purple fire", "symbol": "PURPURFEUER"},
-    {"id": 58, "address": "$C47C", "name": "Firon", "symbol": "FIRON"},
-    {"id": 59, "address": "$C481", "name": "Ice key", "symbol": "EISSCHLUESSEL"},
-    {"id": 60, "address": "$C48D", "name": "Holy water font", "symbol": "WEIHWASSERBECKEN"},
-    {"id": 61, "address": "$C48D", "name": "Holy water font", "symbol": "IEEEEEEEEE"},
-    {"id": 62, "address": "$C4A7", "name": "Food", "symbol": "SPEISEN"},
-    {"id": 63, "address": "$C4AE", "name": "Ornate bed", "symbol": "HIMMELBETT"},
-    {"id": 64, "address": "$C4B8", "name": "Door", "symbol": "HAUSTUER"},
-    {"id": 65, "address": "$C4BF", "name": "Burial gate", "symbol": "FRIEDHOFSTOR1"},
-    {"id": 66, "address": "$C4CB", "name": "Burial gate", "symbol": "FRIEDHOFSTOR2"},
-    {"id": 67, "address": "$C4D7", "name": "Dig", "symbol": "GRAB"},
-    {"id": 68, "address": "$C4DB", "name": "Tombstone", "symbol": "GRABSTEIN"},
-    {"id": 69, "address": "$C4E4", "name": "Herbs", "symbol": "KRAEUTER"},
-    {"id": 70, "address": "$C4EB", "name": "Hole", "symbol": "ERDLOCH"},
-    {"id": 71, "address": "$C4F2", "name": "Honey", "symbol": "HONIG"},
-    {"id": 72, "address": "$C4F7", "name": "Hotel", "symbol": "HOTEL"},
-    {"id": 73, "address": "$C4FC", "name": "Icepalace", "symbol": "EISPALAST"},
-    {"id": 74, "address": "$C505", "name": "Clerk", "symbol": "PORTIER"},
-    {"id": 75, "address": "$C50C", "name": "Iron key", "symbol": "EISENSCHLUESSEL"},
-    {"id": 76, "address": "$C51A", "name": "Jacks Ghost", "symbol": "JACKSGEIST"},
-    {"id": 77, "address": "$C525", "name": "Jeans", "symbol": "JEANS"},
-    {"id": 78, "address": "$C52A", "name": "Boiler", "symbol": "KESSEL"},
-    {"id": 79, "address": "$C530", "name": "King", "symbol": "KOENIG"},
-    {"id": 80, "address": "$C535", "name": "Knife", "symbol": "MESSER"},
-    {"id": 81, "address": "$C53B", "name": "Lab door", "symbol": "LABORTUER"},
-    {"id": 82, "address": "$C543", "name": "Laboratory key", "symbol": "LABORSCHLUESSEL"},
-    {"id": 83, "address": "$C551", "name": "Jetty", "symbol": "BOOTSSTEG"},
-    {"id": 84, "address": "$C55A", "name": "Gate key", "symbol": "TORSCHLUESSEL"},
-    {"id": 85, "address": "$C566", "name": "Portcullis", "symbol": "FALLGITTER1"},
-    {"id": 86, "address": "$C570", "name": "Portcullis", "symbol": "FALLGITTER2"},
-    {"id": 87, "address": "$C57A", "name": "Gate door", "symbol": "GITTERTUER1"},
-    {"id": 88, "address": "$C583", "name": "Gate door", "symbol": "GITTERTUER2"},
-    {"id": 89, "address": "$C58C", "name": "Mail", "symbol": "BRIEF"},
-    {"id": 90, "address": "$C591", "name": "Magicdoor", "symbol": "ZAUBERTUER"},
-    {"id": 91, "address": "$C59A", "name": "Ork man", "symbol": "ORKMANN"},
-    {"id": 92, "address": "$C5A1", "name": "Siteplan", "symbol": "LAGEPLAN"},
-    {"id": 93, "address": "$C5A9", "name": "Gravestone", "symbol": "GRABPLATTE"},
-    {"id": 94, "address": "$C5B3", "name": "Menu", "symbol": "SPEISEKARTE"},
-    {"id": 95, "address": "$C5BE", "name": "Fullmoon", "symbol": "VOLLMOND"},
-    {"id": 96, "address": "$C5C6", "name": "Mummy", "symbol": "MUMIEN"},
-    {"id": 97, "address": "$C5CC", "name": "Mylgor", "symbol": "MYLGOR"},
-    {"id": 98, "address": "$C5D2", "name": "Villager", "symbol": "DORFBEWOHNER"},
-    {"id": 99, "address": "$C5DE", "name": "N door", "symbol": "NORDTUER"},
-    {"id": 100, "address": "$C5E5", "name": "Note", "symbol": "NOTIZ"},
-    {"id": 101, "address": "$C5EA", "name": "Memo", "symbol": "ZETTEL"},
-    {"id": 102, "address": "$C5F0", "name": "Drawing", "symbol": "GEMAELDE1"},
-    {"id": 103, "address": "$C5F7", "name": "Drawing", "symbol": "GEMAELDE2"},
-    {"id": 104, "address": "$C5FE", "name": "Paper", "symbol": "PAPIER"},
-    {"id": 105, "address": "$C604", "name": "Pentagram", "symbol": "DRUDENFUSS1"},
-    {"id": 106, "address": "$C60D", "name": "Pentagram", "symbol": "DRUDENFUSS2"},
-    {"id": 107, "address": "$C616", "name": "Scent", "symbol": "PARFUEM"},
-    {"id": 108, "address": "$C61C", "name": "Pipe", "symbol": "PFEIFE"},
-    {"id": 109, "address": "$C622", "name": "Platform", "symbol": "PLATTFORM"},
-    {"id": 110, "address": "$C62B", "name": "Rat poison", "symbol": "RATTENGIFT"},
-    {"id": 111, "address": "$C635", "name": "Portal", "symbol": "PORTALTOR1"},
-    {"id": 112, "address": "$C63E", "name": "Portaltor", "symbol": "PORTALTOR2"},
-    {"id": 113, "address": "$C647", "name": "Elixir", "symbol": "ELIXIER"},
-    {"id": 114, "address": "$C64E", "name": "Pray", "symbol": "GEBET"},
-    {"id": 115, "address": "$C653", "name": "Rats", "symbol": "RATTEN"},
-    {"id": 116, "address": "$C659", "name": "Reagents", "symbol": "REAGENZIEN"},
-    {"id": 117, "address": "$C663", "name": "Room-key", "symbol": "ZIMMERSCHLUESSEL"},
-    {"id": 118, "address": "$C672", "name": "Safe", "symbol": "TRESOR"},
-    {"id": 119, "address": "$C678", "name": "Casket", "symbol": "SARKOPHAG"},
-    {"id": 120, "address": "$C681", "name": "Scepter", "symbol": "UNKNOWN2"},
-    {"id": 121, "address": "$C688", "name": "Graffiti", "symbol": "SCHMIEREREIEN"},
-    {"id": 122, "address": "$C695", "name": "Salesman", "symbol": "VERKAEUFER"},
-    {"id": 123, "address": "$C69E", "name": "Pantry shelf", "symbol": "VORRATSREGALE"},
-    {"id": 124, "address": "$C6AB", "name": "Bookshelf", "symbol": "BUECHERWAND"},
-    {"id": 125, "address": "$C6B5", "name": "Cotton shirt", "symbol": "BAUMWOLLHEMD"},
-    {"id": 126, "address": "$C6C1", "name": "Sneakers", "symbol": "TURNSCHUHE"},
-    {"id": 127, "address": "$C6CB", "name": "Shovel", "symbol": "SCHAUFEL"},
-    {"id": 128, "address": "$C6D3", "name": "Billboard", "symbol": "HINWEISSCHILD"},
-    {"id": 129, "address": "$C6E0", "name": "Warning", "symbol": "WARNSCHILD"},
-    {"id": 130, "address": "$C6EA", "name": "Silver", "symbol": "SILBER"},
-    {"id": 131, "address": "$C6F0", "name": "Skelly", "symbol": "SKELETT1"},
-    {"id": 132, "address": "$C6F7", "name": "Skelly", "symbol": "SKELETT2"},
-    {"id": 133, "address": "$C6FE", "name": "Skull", "symbol": "TOTENSCHAEDEL"},
-    {"id": 134, "address": "$C70A", "name": "Heaven", "symbol": "HIMMEL"},
-    {"id": 135, "address": "$C710", "name": "Slot", "symbol": "SLOT"},
-    {"id": 136, "address": "$C714", "name": "Magic spell", "symbol": "ZAUBERSPRUCH"},
-    {"id": 137, "address": "$C720", "name": "Source", "symbol": "QUELLE"},
-    {"id": 138, "address": "$C726", "name": "Warriorstatue", "symbol": "KRIEGERSTATUE"},
-    {"id": 139, "address": "$C733", "name": "Lab door", "symbol": "STAHLTUER1"},
-    {"id": 140, "address": "$C73B", "name": "Stl door", "symbol": "STAHLTUER2"},
-    {"id": 141, "address": "$C743", "name": "Stl door", "symbol": "STAHLTUER3"},
-    {"id": 142, "address": "$C74B", "name": "Short sword", "symbol": "KURZSCHWERT"},
-    {"id": 143, "address": "$C756", "name": "T-Shirt", "symbol": "TSHIRT"},
-    {"id": 144, "address": "$C75D", "name": "Table", "symbol": "TISCH"},
-    {"id": 145, "address": "$C762", "name": "Table", "symbol": "ESSTISCH1"},
-    {"id": 146, "address": "$C769", "name": "Table", "symbol": "ESSTISCH2"},
-    {"id": 147, "address": "$C771", "name": "Purple cloak", "symbol": "PURPURMANTEL"},
-    {"id": 148, "address": "$C77D", "name": "Pant", "symbol": "HOSE"},
-    {"id": 149, "address": "$C781", "name": "Treetrunk", "symbol": "BAUMSTAMM1"},
-    {"id": 150, "address": "$C78A", "name": "Treetrunk", "symbol": "BAUMSTAMM2"},
-    {"id": 151, "address": "$C793", "name": "Swimsuit", "symbol": "BADEHOSE"},
-    {"id": 152, "address": "$C79B", "name": "Unicorn", "symbol": "EINHORN"},
-    {"id": 153, "address": "$C7A2", "name": "Kays key", "symbol": "KAYSSCHLUESSEL"},
-    {"id": 154, "address": "$C7B0", "name": "Wardrobe", "symbol": "KLEIDERSCHRANK"},
-    {"id": 155, "address": "$C7BE", "name": "Holy water", "symbol": "WEIHWASSER"},
-    {"id": 156, "address": "$C7C8", "name": "Waterfall", "symbol": "WASSERFALL1"},
-    {"id": 157, "address": "$C7D2", "name": "Wasserfall", "symbol": "WASSERFALL2"},
-    {"id": 158, "address": "$C7DC", "name": "Weapon", "symbol": "WAFFEN"},
-    {"id": 159, "address": "$C7E2", "name": "Werwolf", "symbol": "WERWOLF"},
-    {"id": 160, "address": "$C7E9", "name": "W door", "symbol": "WESTTUER"},
-    {"id": 161, "address": "$C7F0", "name": "Wolf", "symbol": "WOLF"},
-    {"id": 162, "address": "$C7F4", "name": "Yeti", "symbol": "YETI"},
-    {"id": 163, "address": "$C7F8", "name": "Dave", "symbol": "DAVE"},
-    {"id": 164, "address": "$C7FC", "name": "Zargon", "symbol": "ZARGON"},
-    {"id": 165, "address": "$C802", "name": "Zombie", "symbol": null}
-  ]
+    {
+      "address": "$C294",
+      "id": 1,
+      "name": "Adventurer",
+      "symbol": "ABENTEURER"
+    },
+    {
+      "address": "$C29E",
+      "id": 2,
+      "name": "Stone altar",
+      "original_name": "Stonealtar",
+      "symbol": "STEINALTAR"
+    },
+    {
+      "address": "$C2A8",
+      "id": 3,
+      "name": "Amulet",
+      "symbol": "AMULETT"
+    },
+    {
+      "address": "$C2AF",
+      "id": 4,
+      "name": "Badger sleigh",
+      "symbol": "DACHSSCHLITTEN"
+    },
+    {
+      "address": "$C2BD",
+      "id": 5,
+      "name": "Leather pouch",
+      "original_name": "Leather socks",
+      "symbol": "LEDERSOECKCHEN"
+    },
+    {
+      "address": "$C2CA",
+      "id": 6,
+      "name": "Keg",
+      "symbol": "FASS"
+    },
+    {
+      "address": "$C2CD",
+      "id": 7,
+      "name": "Bed",
+      "symbol": "GAESTEBETT"
+    },
+    {
+      "address": "$C2D6",
+      "id": 8,
+      "name": "Bed",
+      "original_name": "bed",
+      "symbol": "BETT1"
+    },
+    {
+      "address": "$C2DA",
+      "id": 9,
+      "name": "Bed",
+      "original_name": "bed",
+      "symbol": "BETT2"
+    },
+    {
+      "address": "$C2DE",
+      "id": 10,
+      "name": "Bedding",
+      "symbol": "BETTZEUG"
+    },
+    {
+      "address": "$C2E6",
+      "id": 11,
+      "name": "Beehive",
+      "symbol": "BIENENSTOCK"
+    },
+    {
+      "address": "$C2F1",
+      "id": 12,
+      "name": "Bell",
+      "symbol": "KLINGEL"
+    },
+    {
+      "address": "$C2F8",
+      "id": 13,
+      "name": "Blood",
+      "original_name": "Gore",
+      "symbol": "BLUT"
+    },
+    {
+      "address": "$C2FC",
+      "id": 14,
+      "name": "Water",
+      "symbol": "WASSER"
+    },
+    {
+      "address": "$C302",
+      "id": 15,
+      "name": "Boat",
+      "symbol": "BOOT"
+    },
+    {
+      "address": "$C306",
+      "id": 16,
+      "name": "Boat",
+      "symbol": "KAHN"
+    },
+    {
+      "address": "$C30A",
+      "id": 17,
+      "name": "Boat key",
+      "symbol": "BOOTSSCHLUESSEL"
+    },
+    {
+      "address": "$C318",
+      "id": 18,
+      "name": "Bookshelves",
+      "symbol": "BUECHERREGALE"
+    },
+    {
+      "address": "$C324",
+      "id": 19,
+      "name": "Books",
+      "symbol": "BUECHER"
+    },
+    {
+      "address": "$C32A",
+      "id": 20,
+      "name": "Fur boots",
+      "symbol": "FELLSTIEFEL"
+    },
+    {
+      "address": "$C335",
+      "id": 21,
+      "name": "Slice of bread",
+      "symbol": "WEISSBROTSCHEIBE"
+    },
+    {
+      "address": "$C344",
+      "id": 22,
+      "name": "Brick",
+      "symbol": "ZIEGELSTEIN"
+    },
+    {
+      "address": "$C34F",
+      "id": 23,
+      "name": "Brochure",
+      "symbol": "PROSPEKT"
+    },
+    {
+      "address": "$C357",
+      "id": 24,
+      "name": "Chair",
+      "symbol": "STUHL"
+    },
+    {
+      "address": "$C35C",
+      "id": 25,
+      "name": "Chest",
+      "symbol": "TRUHE"
+    },
+    {
+      "address": "$C361",
+      "id": 26,
+      "name": "Orc child",
+      "original_name": "Ork kid",
+      "symbol": "ORKKIND"
+    },
+    {
+      "address": "$C368",
+      "id": 27,
+      "name": "Fireplace",
+      "symbol": "FEUERSTELLE"
+    },
+    {
+      "address": "$C373",
+      "id": 28,
+      "name": "Chimney",
+      "original_name": "Flue",
+      "symbol": "KAMIN"
+    },
+    {
+      "address": "$C378",
+      "id": 29,
+      "name": "Code number",
+      "original_name": "Codenumber",
+      "symbol": "CODENUMMER"
+    },
+    {
+      "address": "$C382",
+      "id": 30,
+      "name": "Coffins",
+      "original_name": "Tombs",
+      "symbol": "SAERGE"
+    },
+    {
+      "address": "$C387",
+      "id": 31,
+      "name": "Silver coins",
+      "symbol": "SILBERMUENZEN"
+    },
+    {
+      "address": "$C393",
+      "id": 32,
+      "name": "Contract",
+      "original_name": "Pledge",
+      "symbol": "VERTRAG"
+    },
+    {
+      "address": "$C39A",
+      "id": 33,
+      "name": "Cadaver",
+      "symbol": "KADAVER"
+    },
+    {
+      "address": "$C3A1",
+      "id": 34,
+      "name": "Crown",
+      "symbol": "KRONE"
+    },
+    {
+      "address": "$C3A6",
+      "id": 35,
+      "name": "Crystal",
+      "symbol": "KRISTALL"
+    },
+    {
+      "address": "$C3AE",
+      "id": 36,
+      "name": "Crystal ball",
+      "original_name": "Crystalball",
+      "symbol": "KRISTALLKUGEL"
+    },
+    {
+      "address": "$C3BB",
+      "id": 37,
+      "name": "Cu-Sath",
+      "symbol": "CU_SATH"
+    },
+    {
+      "address": "$C3C2",
+      "id": 38,
+      "name": "Curtain",
+      "symbol": "SAMTVORHANG"
+    },
+    {
+      "address": "$C3CD",
+      "id": 39,
+      "name": "Shaft",
+      "symbol": "SCHACHT"
+    },
+    {
+      "address": "$C3D4",
+      "id": 40,
+      "name": "Desk",
+      "symbol": "SCHREIBTISCH1"
+    },
+    {
+      "address": "$C3E0",
+      "id": 41,
+      "name": "Counter",
+      "original_name": "Desk",
+      "symbol": "TRESEN"
+    },
+    {
+      "address": "$C3E6",
+      "id": 42,
+      "name": "Study table",
+      "symbol": "STUDIERTISCH"
+    },
+    {
+      "address": "$C3F2",
+      "id": 43,
+      "name": "Desk",
+      "symbol": "SCHREIBTISCH2"
+    },
+    {
+      "address": "$C3FE",
+      "id": 44,
+      "name": "Marble table",
+      "original_name": "Marble desk",
+      "symbol": "MARMORTISCH"
+    },
+    {
+      "address": "$C409",
+      "id": 45,
+      "name": "Diary",
+      "symbol": "TAGEBUCH"
+    },
+    {
+      "address": "$C411",
+      "id": 46,
+      "name": "Dishes",
+      "symbol": "GESCHIRR"
+    },
+    {
+      "address": "$C419",
+      "id": 47,
+      "name": "Dog sled",
+      "symbol": "HUNDESCHLITTEN"
+    },
+    {
+      "address": "$C427",
+      "id": 48,
+      "name": "Room door",
+      "original_name": "Room-door",
+      "symbol": "ZIMMERTUER1"
+    },
+    {
+      "address": "$C430",
+      "id": 49,
+      "name": "Room door",
+      "original_name": "Room-door",
+      "symbol": "ZIMMERTUER2"
+    },
+    {
+      "address": "$C439",
+      "id": 50,
+      "name": "Door",
+      "symbol": "HOLZTUER"
+    },
+    {
+      "address": "$C440",
+      "id": 51,
+      "name": "Oak door",
+      "symbol": "EICHENTUER"
+    },
+    {
+      "address": "$C449",
+      "id": 52,
+      "name": "Door handle",
+      "original_name": "Doorknob",
+      "symbol": "TUERKLINKE"
+    },
+    {
+      "address": "$C452",
+      "id": 53,
+      "name": "Drawers",
+      "symbol": "SCHUBLADEN"
+    },
+    {
+      "address": "$C45C",
+      "id": 54,
+      "name": "Hermit",
+      "symbol": "EREMIT"
+    },
+    {
+      "address": "$C462",
+      "id": 55,
+      "name": "Orc woman",
+      "original_name": "Orklady",
+      "symbol": "ORKFRAU"
+    },
+    {
+      "address": "$C469",
+      "id": 56,
+      "name": "Ferryman",
+      "symbol": "FAEHRMANN"
+    },
+    {
+      "address": "$C471",
+      "id": 57,
+      "name": "Purple fire",
+      "symbol": "PURPURFEUER"
+    },
+    {
+      "address": "$C47C",
+      "id": 58,
+      "name": "Firon",
+      "symbol": "FIRON"
+    },
+    {
+      "address": "$C481",
+      "id": 59,
+      "name": "Ice key",
+      "symbol": "EISSCHLUESSEL"
+    },
+    {
+      "address": "$C48D",
+      "id": 60,
+      "name": "Holy water font",
+      "symbol": "WEIHWASSERBECKEN"
+    },
+    {
+      "address": "$C48D",
+      "id": 61,
+      "name": "Holy water font",
+      "symbol": "IEEEEEEEEE"
+    },
+    {
+      "address": "$C4A7",
+      "id": 62,
+      "name": "Food",
+      "symbol": "SPEISEN"
+    },
+    {
+      "address": "$C4AE",
+      "id": 63,
+      "name": "Four-poster bed",
+      "original_name": "Ornate bed",
+      "symbol": "HIMMELBETT"
+    },
+    {
+      "address": "$C4B8",
+      "id": 64,
+      "name": "Door",
+      "symbol": "HAUSTUER"
+    },
+    {
+      "address": "$C4BF",
+      "id": 65,
+      "name": "Graveyard gate",
+      "original_name": "Burial gate",
+      "symbol": "FRIEDHOFSTOR1"
+    },
+    {
+      "address": "$C4CB",
+      "id": 66,
+      "name": "Graveyard gate",
+      "original_name": "Burial gate",
+      "symbol": "FRIEDHOFSTOR2"
+    },
+    {
+      "address": "$C4D7",
+      "id": 67,
+      "name": "Grave",
+      "original_name": "Dig",
+      "symbol": "GRAB"
+    },
+    {
+      "address": "$C4DB",
+      "id": 68,
+      "name": "Tombstone",
+      "symbol": "GRABSTEIN"
+    },
+    {
+      "address": "$C4E4",
+      "id": 69,
+      "name": "Herbs",
+      "symbol": "KRAEUTER"
+    },
+    {
+      "address": "$C4EB",
+      "id": 70,
+      "name": "Hole",
+      "symbol": "ERDLOCH"
+    },
+    {
+      "address": "$C4F2",
+      "id": 71,
+      "name": "Honey",
+      "symbol": "HONIG"
+    },
+    {
+      "address": "$C4F7",
+      "id": 72,
+      "name": "Hotel",
+      "symbol": "HOTEL"
+    },
+    {
+      "address": "$C4FC",
+      "id": 73,
+      "name": "Ice palace",
+      "original_name": "Icepalace",
+      "symbol": "EISPALAST"
+    },
+    {
+      "address": "$C505",
+      "id": 74,
+      "name": "Clerk",
+      "symbol": "PORTIER"
+    },
+    {
+      "address": "$C50C",
+      "id": 75,
+      "name": "Iron key",
+      "symbol": "EISENSCHLUESSEL"
+    },
+    {
+      "address": "$C51A",
+      "id": 76,
+      "name": "Jack's ghost",
+      "original_name": "Jacks Ghost",
+      "symbol": "JACKSGEIST"
+    },
+    {
+      "address": "$C525",
+      "id": 77,
+      "name": "Jeans",
+      "symbol": "JEANS"
+    },
+    {
+      "address": "$C52A",
+      "id": 78,
+      "name": "Cauldron",
+      "original_name": "Boiler",
+      "symbol": "KESSEL"
+    },
+    {
+      "address": "$C530",
+      "id": 79,
+      "name": "King",
+      "symbol": "KOENIG"
+    },
+    {
+      "address": "$C535",
+      "id": 80,
+      "name": "Knife",
+      "symbol": "MESSER"
+    },
+    {
+      "address": "$C53B",
+      "id": 81,
+      "name": "Lab door",
+      "symbol": "LABORTUER"
+    },
+    {
+      "address": "$C543",
+      "id": 82,
+      "name": "Laboratory key",
+      "symbol": "LABORSCHLUESSEL"
+    },
+    {
+      "address": "$C551",
+      "id": 83,
+      "name": "Jetty",
+      "symbol": "BOOTSSTEG"
+    },
+    {
+      "address": "$C55A",
+      "id": 84,
+      "name": "Gate key",
+      "symbol": "TORSCHLUESSEL"
+    },
+    {
+      "address": "$C566",
+      "id": 85,
+      "name": "Portcullis",
+      "symbol": "FALLGITTER1"
+    },
+    {
+      "address": "$C570",
+      "id": 86,
+      "name": "Portcullis",
+      "symbol": "FALLGITTER2"
+    },
+    {
+      "address": "$C57A",
+      "id": 87,
+      "name": "Barred door",
+      "original_name": "Gate door",
+      "symbol": "GITTERTUER1"
+    },
+    {
+      "address": "$C583",
+      "id": 88,
+      "name": "Barred door",
+      "original_name": "Gate door",
+      "symbol": "GITTERTUER2"
+    },
+    {
+      "address": "$C58C",
+      "id": 89,
+      "name": "Letter",
+      "original_name": "Mail",
+      "symbol": "BRIEF"
+    },
+    {
+      "address": "$C591",
+      "id": 90,
+      "name": "Magic door",
+      "original_name": "Magicdoor",
+      "symbol": "ZAUBERTUER"
+    },
+    {
+      "address": "$C59A",
+      "id": 91,
+      "name": "Orc man",
+      "original_name": "Ork man",
+      "symbol": "ORKMANN"
+    },
+    {
+      "address": "$C5A1",
+      "id": 92,
+      "name": "Map",
+      "original_name": "Siteplan",
+      "symbol": "LAGEPLAN"
+    },
+    {
+      "address": "$C5A9",
+      "id": 93,
+      "name": "Grave slab",
+      "original_name": "Gravestone",
+      "symbol": "GRABPLATTE"
+    },
+    {
+      "address": "$C5B3",
+      "id": 94,
+      "name": "Menu",
+      "symbol": "SPEISEKARTE"
+    },
+    {
+      "address": "$C5BE",
+      "id": 95,
+      "name": "Full moon",
+      "original_name": "Fullmoon",
+      "symbol": "VOLLMOND"
+    },
+    {
+      "address": "$C5C6",
+      "id": 96,
+      "name": "Mummies",
+      "original_name": "Mummy",
+      "symbol": "MUMIEN"
+    },
+    {
+      "address": "$C5CC",
+      "id": 97,
+      "name": "Mylgor",
+      "symbol": "MYLGOR"
+    },
+    {
+      "address": "$C5D2",
+      "id": 98,
+      "name": "Villager",
+      "symbol": "DORFBEWOHNER"
+    },
+    {
+      "address": "$C5DE",
+      "id": 99,
+      "name": "North door",
+      "original_name": "N door",
+      "symbol": "NORDTUER"
+    },
+    {
+      "address": "$C5E5",
+      "id": 100,
+      "name": "Note",
+      "symbol": "NOTIZ"
+    },
+    {
+      "address": "$C5EA",
+      "id": 101,
+      "name": "Memo",
+      "symbol": "ZETTEL"
+    },
+    {
+      "address": "$C5F0",
+      "id": 102,
+      "name": "Painting",
+      "original_name": "Drawing",
+      "symbol": "GEMAELDE1"
+    },
+    {
+      "address": "$C5F7",
+      "id": 103,
+      "name": "Painting",
+      "original_name": "Drawing",
+      "symbol": "GEMAELDE2"
+    },
+    {
+      "address": "$C5FE",
+      "id": 104,
+      "name": "Paper",
+      "symbol": "PAPIER"
+    },
+    {
+      "address": "$C604",
+      "id": 105,
+      "name": "Pentagram",
+      "symbol": "DRUDENFUSS1"
+    },
+    {
+      "address": "$C60D",
+      "id": 106,
+      "name": "Pentagram",
+      "symbol": "DRUDENFUSS2"
+    },
+    {
+      "address": "$C616",
+      "id": 107,
+      "name": "Scent",
+      "symbol": "PARFUEM"
+    },
+    {
+      "address": "$C61C",
+      "id": 108,
+      "name": "Pipe",
+      "symbol": "PFEIFE"
+    },
+    {
+      "address": "$C622",
+      "id": 109,
+      "name": "Platform",
+      "symbol": "PLATTFORM"
+    },
+    {
+      "address": "$C62B",
+      "id": 110,
+      "name": "Rat poison",
+      "symbol": "RATTENGIFT"
+    },
+    {
+      "address": "$C635",
+      "id": 111,
+      "name": "Portal",
+      "symbol": "PORTALTOR1"
+    },
+    {
+      "address": "$C63E",
+      "id": 112,
+      "name": "Portal",
+      "original_name": "Portaltor",
+      "symbol": "PORTALTOR2"
+    },
+    {
+      "address": "$C647",
+      "id": 113,
+      "name": "Elixir",
+      "symbol": "ELIXIER"
+    },
+    {
+      "address": "$C64E",
+      "id": 114,
+      "name": "Prayer",
+      "original_name": "Pray",
+      "symbol": "GEBET"
+    },
+    {
+      "address": "$C653",
+      "id": 115,
+      "name": "Rats",
+      "symbol": "RATTEN"
+    },
+    {
+      "address": "$C659",
+      "id": 116,
+      "name": "Reagents",
+      "symbol": "REAGENZIEN"
+    },
+    {
+      "address": "$C663",
+      "id": 117,
+      "name": "Room key",
+      "original_name": "Room-key",
+      "symbol": "ZIMMERSCHLUESSEL"
+    },
+    {
+      "address": "$C672",
+      "id": 118,
+      "name": "Safe",
+      "symbol": "TRESOR"
+    },
+    {
+      "address": "$C678",
+      "id": 119,
+      "name": "Sarcophagus",
+      "original_name": "Casket",
+      "symbol": "SARKOPHAG"
+    },
+    {
+      "address": "$C681",
+      "id": 120,
+      "name": "Sceptre",
+      "original_name": "Scepter",
+      "symbol": "UNKNOWN2"
+    },
+    {
+      "address": "$C688",
+      "id": 121,
+      "name": "Graffiti",
+      "symbol": "SCHMIEREREIEN"
+    },
+    {
+      "address": "$C695",
+      "id": 122,
+      "name": "Salesman",
+      "symbol": "VERKAEUFER"
+    },
+    {
+      "address": "$C69E",
+      "id": 123,
+      "name": "Pantry shelves",
+      "original_name": "Pantry shelf",
+      "symbol": "VORRATSREGALE"
+    },
+    {
+      "address": "$C6AB",
+      "id": 124,
+      "name": "Bookshelf",
+      "symbol": "BUECHERWAND"
+    },
+    {
+      "address": "$C6B5",
+      "id": 125,
+      "name": "Cotton shirt",
+      "symbol": "BAUMWOLLHEMD"
+    },
+    {
+      "address": "$C6C1",
+      "id": 126,
+      "name": "Sneakers",
+      "symbol": "TURNSCHUHE"
+    },
+    {
+      "address": "$C6CB",
+      "id": 127,
+      "name": "Shovel",
+      "symbol": "SCHAUFEL"
+    },
+    {
+      "address": "$C6D3",
+      "id": 128,
+      "name": "Sign",
+      "original_name": "Billboard",
+      "symbol": "HINWEISSCHILD"
+    },
+    {
+      "address": "$C6E0",
+      "id": 129,
+      "name": "Warning sign",
+      "original_name": "Warning",
+      "symbol": "WARNSCHILD"
+    },
+    {
+      "address": "$C6EA",
+      "id": 130,
+      "name": "Silver",
+      "symbol": "SILBER"
+    },
+    {
+      "address": "$C6F0",
+      "id": 131,
+      "name": "Skeleton",
+      "original_name": "Skelly",
+      "symbol": "SKELETT1"
+    },
+    {
+      "address": "$C6F7",
+      "id": 132,
+      "name": "Skeleton",
+      "original_name": "Skelly",
+      "symbol": "SKELETT2"
+    },
+    {
+      "address": "$C6FE",
+      "id": 133,
+      "name": "Skull",
+      "symbol": "TOTENSCHAEDEL"
+    },
+    {
+      "address": "$C70A",
+      "id": 134,
+      "name": "Sky",
+      "original_name": "Heaven",
+      "symbol": "HIMMEL"
+    },
+    {
+      "address": "$C710",
+      "id": 135,
+      "name": "Slot",
+      "symbol": "SLOT"
+    },
+    {
+      "address": "$C714",
+      "id": 136,
+      "name": "Magic spell",
+      "symbol": "ZAUBERSPRUCH"
+    },
+    {
+      "address": "$C720",
+      "id": 137,
+      "name": "Spring",
+      "original_name": "Source",
+      "symbol": "QUELLE"
+    },
+    {
+      "address": "$C726",
+      "id": 138,
+      "name": "Warrior statue",
+      "original_name": "Warriorstatue",
+      "symbol": "KRIEGERSTATUE"
+    },
+    {
+      "address": "$C733",
+      "id": 139,
+      "name": "Steel door",
+      "original_name": "Lab door",
+      "symbol": "STAHLTUER1"
+    },
+    {
+      "address": "$C73B",
+      "id": 140,
+      "name": "Steel door",
+      "original_name": "Stl door",
+      "symbol": "STAHLTUER2"
+    },
+    {
+      "address": "$C743",
+      "id": 141,
+      "name": "Steel door",
+      "original_name": "Stl door",
+      "symbol": "STAHLTUER3"
+    },
+    {
+      "address": "$C74B",
+      "id": 142,
+      "name": "Short sword",
+      "symbol": "KURZSCHWERT"
+    },
+    {
+      "address": "$C756",
+      "id": 143,
+      "name": "T-shirt",
+      "original_name": "T-Shirt",
+      "symbol": "TSHIRT"
+    },
+    {
+      "address": "$C75D",
+      "id": 144,
+      "name": "Table",
+      "symbol": "TISCH"
+    },
+    {
+      "address": "$C762",
+      "id": 145,
+      "name": "Table",
+      "symbol": "ESSTISCH1"
+    },
+    {
+      "address": "$C769",
+      "id": 146,
+      "name": "Table",
+      "symbol": "ESSTISCH2"
+    },
+    {
+      "address": "$C771",
+      "id": 147,
+      "name": "Purple cloak",
+      "symbol": "PURPURMANTEL"
+    },
+    {
+      "address": "$C77D",
+      "id": 148,
+      "name": "Trousers",
+      "original_name": "Pant",
+      "symbol": "HOSE"
+    },
+    {
+      "address": "$C781",
+      "id": 149,
+      "name": "Tree trunk",
+      "original_name": "Treetrunk",
+      "symbol": "BAUMSTAMM1"
+    },
+    {
+      "address": "$C78A",
+      "id": 150,
+      "name": "Tree trunk",
+      "original_name": "Treetrunk",
+      "symbol": "BAUMSTAMM2"
+    },
+    {
+      "address": "$C793",
+      "id": 151,
+      "name": "Swimming trunks",
+      "original_name": "Swimsuit",
+      "symbol": "BADEHOSE"
+    },
+    {
+      "address": "$C79B",
+      "id": 152,
+      "name": "Unicorn",
+      "symbol": "EINHORN"
+    },
+    {
+      "address": "$C7A2",
+      "id": 153,
+      "name": "Kay's key",
+      "original_name": "Kays key",
+      "symbol": "KAYSSCHLUESSEL"
+    },
+    {
+      "address": "$C7B0",
+      "id": 154,
+      "name": "Wardrobe",
+      "symbol": "KLEIDERSCHRANK"
+    },
+    {
+      "address": "$C7BE",
+      "id": 155,
+      "name": "Holy water",
+      "symbol": "WEIHWASSER"
+    },
+    {
+      "address": "$C7C8",
+      "id": 156,
+      "name": "Waterfall",
+      "symbol": "WASSERFALL1"
+    },
+    {
+      "address": "$C7D2",
+      "id": 157,
+      "name": "Waterfall",
+      "original_name": "Wasserfall",
+      "symbol": "WASSERFALL2"
+    },
+    {
+      "address": "$C7DC",
+      "id": 158,
+      "name": "Weapons",
+      "original_name": "Weapon",
+      "symbol": "WAFFEN"
+    },
+    {
+      "address": "$C7E2",
+      "id": 159,
+      "name": "Werewolf",
+      "original_name": "Werwolf",
+      "symbol": "WERWOLF"
+    },
+    {
+      "address": "$C7E9",
+      "id": 160,
+      "name": "West door",
+      "original_name": "W door",
+      "symbol": "WESTTUER"
+    },
+    {
+      "address": "$C7F0",
+      "id": 161,
+      "name": "Wolf",
+      "symbol": "WOLF"
+    },
+    {
+      "address": "$C7F4",
+      "id": 162,
+      "name": "Yeti",
+      "symbol": "YETI"
+    },
+    {
+      "address": "$C7F8",
+      "id": 163,
+      "name": "Dave",
+      "symbol": "DAVE"
+    },
+    {
+      "address": "$C7FC",
+      "id": 164,
+      "name": "Zargon",
+      "symbol": "ZARGON"
+    },
+    {
+      "address": "$C802",
+      "id": 165,
+      "name": "Zombie",
+      "symbol": null
+    }
+  ],
+  "source": "A2_seq2.bin"
 }

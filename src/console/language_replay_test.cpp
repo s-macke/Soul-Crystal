@@ -50,7 +50,7 @@ int main(int argc,char** argv) {
     }
     assert(GameGetView().mode==GameWon);
     response.clear();GameStartLanguage(capture,nullptr,GameEnglish);
-    assert(response.find("Here at last!")!=std::string::npos);
+    assert(response.find("Made it!")!=std::string::npos);
     assert(response.find("Verbs:")!=std::string::npos);
     std::ofstream replay;if(argc==3)replay.open(argv[2]);
     for(const auto& step:trace) {

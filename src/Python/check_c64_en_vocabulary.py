@@ -17,7 +17,7 @@ def main():
     ram = bytearray(65536)
     ram[0xa00:0xa00 + len(data) - 2] = data[2:]
     assert ram[0x42d1:0x42d4] == bytes.fromhex('ad0096')
-    directory = Path('texts/C64_en')
+    directory = Path('texts/C64_en/original')
     verbs = json.loads((directory / 'verbs.json').read_text())['commands']
     assert {v['command_id'] for v in verbs} == set(range(1, 45)) - {25, 26}
     for verb in verbs:

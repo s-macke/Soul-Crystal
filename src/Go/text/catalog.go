@@ -220,8 +220,12 @@ func main() {
 		fmt.Fprintln(os.Stderr, "language must be de or en")
 		os.Exit(2)
 	}
-	exportMarkdown(ranges, outputDir)
-	if err := exportCatalogs(ranges, outputDir, *language); err != nil {
+	rawOutputDir := outputDir
+	if *language == "en" {
+		rawOutputDir = filepath.Join(outputDir, "original")
+	}
+	exportMarkdown(ranges, rawOutputDir)
+	if err := exportCatalogs(ranges, rawOutputDir, *language); err != nil {
 		fmt.Fprintln(os.Stderr, err)
 		os.Exit(1)
 	}

@@ -1,3 +1,5 @@
+> Update 2026-11-01: Die vollständige Überarbeitung steht in [english_full_review.md](english_full_review.md). Die hier zitierten ursprünglichen Wortlaute liegen jetzt unter `texts/C64_en/original/`.
+
 # Prüfung der englischen C64-Fanübersetzung
 
 Stand: 2026-10-25. Unabhängige Prüfung durch den beauftragten Subagenten,

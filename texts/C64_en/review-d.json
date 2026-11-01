@@ -1,0 +1,1153 @@
+{
+  "reviewed": {
+    "C2": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268,
+      269,
+      270,
+      271,
+      272,
+      273,
+      274,
+      275,
+      276,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      287,
+      288,
+      289,
+      290,
+      291,
+      292,
+      293,
+      294,
+      295,
+      296,
+      297,
+      298,
+      299,
+      300,
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      319,
+      320,
+      321,
+      322,
+      323,
+      324,
+      325,
+      326,
+      327,
+      328,
+      329,
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338,
+      339,
+      340,
+      341,
+      342,
+      343,
+      344,
+      345,
+      346,
+      347,
+      348,
+      349,
+      350,
+      351,
+      352,
+      353,
+      354,
+      355,
+      356,
+      357,
+      358,
+      359,
+      360,
+      361,
+      362,
+      363,
+      364,
+      365,
+      366,
+      367,
+      368,
+      369,
+      370,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386,
+      387,
+      388,
+      389,
+      390,
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419,
+      420,
+      421,
+      422,
+      423,
+      424,
+      425,
+      426,
+      427,
+      428,
+      429,
+      430,
+      431,
+      432,
+      433,
+      434
+    ]
+  },
+  "replacements": [
+    {
+      "target": "C2:209",
+      "text": "You find yourself in the castle garden. Once, when someone still tended it, this must have been a peaceful, idyllic spot. Those days seem gone for good: everything has run wild beneath a tangle of ivy. Long ago, lords and ladies may have strolled here (and perhaps done more than stroll!) in the shade of the box hedges. Now the overgrown garden feels eerie and threatening... The stables lie to the north. A small gate in the eastern wall leads back to the courtyard.",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:210",
+      "text": "You enter the castle courtyard and stop to listen. Not a bird sings; not a tree rustles. Every living creature that could leave this place has done so! Suddenly you think of all the people who never made it out of these sinister walls. Perhaps you're one of them, even if you don't know it. Don't know it YET, I mean... Behind you stands the massive castle gate; ahead is the main building. A small gate in the western wall leads into the castle garden. In a shadowy corner of the courtyard, you can also make out a narrow shaft descending into darkness...",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:211",
+      "text": "You enter the castle stables. Once, the finest and fastest horses in the land rested and fed here. Today, the only occupant is the decidedly less handsome corpse of an adventurer, horribly disfigured by burns! A small steel chest sits beside his grotesquely twisted, outstretched hand. The only visible exit is the south door, leading back to the castle garden. If you're clever enough, though, another way up or down may soon present itself. It all depends on your point of view...",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:212",
+      "text": "You enter the castle's grand reception hall in awe. Ornate vases, valuable paintings and expensive carpets testify to its former owners' good taste. Whoever furnished this place certainly appreciated pomp and luxury. You try to picture noble lords and ladies from distant lands being welcomed here at state receptions. A nation capable of building and furnishing such a castle must have been rich and proud indeed. But what has the Dark Lord done to it all? At the far end of the hall lies the ancestral gallery; behind you, the main doorway leads back to the courtyard.",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:213",
+      "text": "You jump back as a flight of steps suddenly looms out of the darkness before you, just in time to avoid tumbling down and breaking every bone in your body! A shiver runs through you as you notice the sickly yellow light spilling through the door in the eastern wall... The stone spiral staircase winds both up and down. Up leads to the battlements of the main tower; down takes you into the castle's basement. If, for whatever reason, you don't fancy exploring either floor just yet, you can always stand here until the end of time. Or return to the reception hall through the door in the eastern wall.",
+      "reason": "Restore the missing second half, including the downstairs route and east exit; preserve original room wording despite any map discrepancy."
+    },
+    {
+      "target": "C2:214",
+      "text": "Your breath catches as you see the paintings on the gallery walls: although this is supposed to be King Richard's ancestral gallery, all the portraits depict exactly the same thing: a stern-eyed, grey-haired old man, wrapped in a dark purple cape, who seems to follow your every step with a haughty, hate-filled stare. ZARGON! You tremble... If he actually looks like the man in the pictures, then you have absolutely no idea how you, of all people, could possibly defeat him! To the north is the castle's dining room, to the south is the entrance hall, and through a door to the west you reach a gloomy stairwell...",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:215",
+      "text": "You find yourself in the pantry adjoining the castle kitchen to the east. Dusty, cobweb-covered shelves line the walls, though many have fallen down over the decades, scattering their contents across the floor. Now you begin to understand why the rats - and perhaps not just the rats...! - wanted to keep you out: they must have thought you'd eat all their delicacies! Beneath a trapdoor, a staircase descends into a dark vault...",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:216",
+      "text": "You enter the neglected castle kitchen. Nothing seems to have been touched for years; even the contents of the shelves are buried in dust. Then you look down and freeze. Among all the filth and rotting scraps lie a few small slices of bread - and they look quite fresh! Someone - or something? - must still come here from time to time to feed the rats scurrying about. Fat, ugly rats, by the way, though some look distinctly ill... An unpleasant suspicion creeps over you: someone has noticed your arrival and doesn't want you getting any further into the castle. And you could be damn right...! The dining room lies to the east, the kitchen garden beyond the north door, and the pantry through the door to the west.",
+      "reason": "Restore who feeds the rats and why; the original English garbles the warning about a deliberate trap."
+    },
+    {
+      "target": "C2:217",
+      "text": "You are in a large, festively decorated dining room. Despite its comfortable furnishings, this room exudes an eerie, almost threatening atmosphere: it seems so unreal! Despite all the signs that this hall has not been entered for decades, the table still bends under the weight of laden bowls and plates! A ghostly, deeply evil presence hangs over these deserted halls, although you couldn't even say exactly why: you just feel something like an icy cold wind blowing through the empty hall, almost imperceptibly caressing your back - almost as if a ghostly hand wanted to keep you away from these walls, like a final, unmistakable warning from Death himself... To the south lies the castle gallery, and through the small door in the west wall you can see the castle kitchen.",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:218",
+      "text": "You enter the castle's herb garden. Long ago, its plants supplied the kitchens. The herbs growing here now look more suited to magical potions than dinner... A small door to the south leads back to the castle kitchen. -A.C.A breaking in for a chat: \"Sorry, this room is really just here to improve the atmosphere. Still, we hope you're enjoying our game as much as we are, although your recent moves leave us seriously wondering whether someone like you will ever finish it. There's no danger here, though, so make yourself a coffee and enjoy your last breather before the grand finale. Have fun!\" -A.C.A chat end. Bye...",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:219",
+      "text": "You step onto the roof of the main tower, high above the mountain on which Zargon's castle stands. Night has fallen. Gazing at the stars glittering light-years away in the dark sky, you suddenly feel very alone... You think of your poor mother, probably crying her eyes out at home, and your determined father, no doubt giving the entire Loch Calderwood police force hell for failing to find you. But you haven't time to worry about such trifles: you have a mission to complete, right HERE and NOW! When you've had enough of the cold, you can return to the castle down the stone spiral staircase, or enter the tower guard's little house to the north.",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:220",
+      "text": "You are standing in the tower guard's house. A fierce battle seems to have taken place here, as you can see from the destroyed or overturned furniture and the terrible mess on the floor: Zargon seems to have had some problems taking the castle and surprising its inhabitants - at least some of them seem to have fought back! And who knows: maybe one or two of the king's loyal followers are still alive and hiding somewhere in the castle or in the surrounding wilderness? The tower guard's desk, the only piece of furniture that still looks halfway intact, is a complete mess, like almost everything else that wasn't broken during the scuffle. You can leave this room again through the door in the south wall that leads back to the roof of the main tower.",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:221",
+      "text": "You climb into a dark, damp shaft. A narrow beam of light falls from above, but isn't bright enough for you to take a closer look at your surroundings. As you carefully grope your way along the rocky walls, you hear strange shuffling noises behind the north wall! If you only had the right tool with you, you could get to the bottom of the matter, but for now you're left with an uneasy sense of uncertainty... The slippery iron rungs you're clinging to lead both up and down, even deeper into the mountain...",
+      "reason": "Steigeisen are fixed climbing rungs, not wearable crampons; preserve the north-wall digging hint."
+    },
+    {
+      "target": "C2:222",
+      "text": "You enter a dimly lit, cramped prison cell: a sweet smell of decay fills your nostrils, but you've gotten used to that by now... In the south-west corner of the cell lies a completely gnawed skeleton on a dirty bed of straw - probably one of the unfortunates who were caught by Zargon's henchmen when they - just like you - tried to free the country from Zargon's reign of terror. To be on the safe side, you first check whether the straw bed has room for two corpses, when you notice some hastily scrawled graffiti on the mossy cell walls! In the north, through a barred door, you can see a room bathed in an eerie, red light by torches, while a massive steel door marks the exit to the east.",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:223",
+      "text": "This is the gatekeeper's office. A few erratically flickering candles transform the room into an eerie, dancing play of light and shadow, but why are they burning anyway? The old gatekeeper should have been dead for decades! Perhaps Zargon just wants to watch your bungling attempts to destroy him, or in the meantime has he even assigned one of his horde to open - or rather, CLOSE - the gate to lure inexperienced adventurers like you into his deadly traps...? The stairwell, from which you can return to the upper floor of the castle, is to the north, while a massive steel door leads through the wall to the west.",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:224",
+      "text": "You look around the room of Kay, the Dungeon Master. Everything in this room uncomfortably reminds you of that nasty B-movie you saw at the cinema back home last month: a film in which a cruel despot kept people in his dungeons until they were too weak even to beg for mercy or cry for help during the long, revolting torture that awaited them! Kay and his sidekick Kriss seemed to have been similar sadists: all over the room you will find instruments of torture whose uses are far beyond your innocent imagination! Each of the devices is lovingly explained, such as \"Thumbscrews for FLAKE fingers\", \"For our dear Holger\", or \"Dahmlos'sche Jungfrau\". In another corner of the room hangs a cage in which two rotten skeletons crouch, which could charitably be described as human: \"The Seifert team: Mr. Copper & Blitter-Boy\" is written in delicate letters on the board next to it. You think of the poor creatures who, no doubt unwillingly lent their names to these instruments of torture: apparently they were the unfortunate knights who dared to defy Zargon's will... The only way out of this site of hundreds of murders is through a small latticed door to the south.",
+      "reason": "Reverse the erroneous claim that prisoners were weakened so they could scream; local cinema is not a home cinema."
+    },
+    {
+      "target": "C2:225",
+      "text": "You are in the basement of the stairwell. \"Hmmm...: It's pretty dark down here!\" you observe with an expert eye, since you can barely see a thing (man! What a sentence!). Above your head is the middle floor of the castle, from which you descended here. You shiver as you realise that Zargon is probably down here on this floor too - hiding behind one of those walls, maybe just a few yards from you, just waiting for you to rush unsuspectingly into his chamber without suspecting the slightest danger - and you can be damn sure that he won't be alone...! The passage leads north into a corridor, east into an armoury, and south into the gatekeeper's office.",
+      "reason": "Zargon is in the basement with Dave, not on the middle floor overhead."
+    },
+    {
+      "target": "C2:226",
+      "text": "You enter the armoury of the castle: countless ancient weapons and suits of armour line the walls - but all of them, without exception, are dusty or eaten away by rust, since they have not been used - let alone cared for - for decades. Apparently, King Richard's brave retainers didn't even have time to prepare for their final, cruel battle: they were treacherously attacked from behind and slaughtered like cattle! In the corner stands a life-size statue of a seasoned old warrior in full armour. You can only leave the armoury through the west door, which leads back into the stairwell.",
+      "reason": "The attackers were cowardly, not Richard's followers."
+    },
+    {
+      "target": "C2:227",
+      "text": "You enter a gloomy hall. Yes, really, that's about all I can tell you. It's a plain tunnel whose sole purpose is to connect two rooms we had to build round a corner. Know what I mean? Yes? Oh, come off it! Of course you DON'T: you haven't drawn a map, have you? Thought not! Still, I hope you'll forgive this little workaround. You've made it this far without any serious trouble (yes, SERIOUS! If only you knew what's still waiting for you...) and hopefully spent a few enjoyable hours in our little world. Now that this rambling nonsense has once again padded out a room description, here's everything we managed to think of about this place in three years of development: a curtain hangs on the wall to your right, hiding the passage to the castle's wine cellar. Further north, an eerie phosphorescent glow shines in the darkness. Frightening, isn't it? I mean, frightening how so little information can fill so much mindless text!",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:228",
+      "text": "You stand in a damp wine cellar beneath the pantry. The heavy smell of fermentation nearly takes your breath away. Whatever fine vintage once filled the three huge wooden barrels against the western wall, the sour stuff in them now wouldn't win so much as a consolation prize in WINZER! One barrel looks oddly familiar, though you can't quite remember where you've seen it before... Slippery stone steps in the northeastern corner lead back to the pantry on the castle's ground floor.",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:229",
+      "text": "You enter a corridor in the basement of the castle. Right in front of you rises a huge black ebony door, eerily bathed in the glow of torches mounted on the walls. Oddly enough, the otherwise rough, rocky floor for a metre in front of the door is neatly tiled: this is where the living quarters seem to start again. Now you can either go back to the stone steps in the south or try to open the door in the north - if it isn't already open... As you happen to look up, you see two dirty grey birds circling high overhead in a blue sky: \"Vultures!\", flashes through your mind... Have you lost it? We are several metres underground! Maybe you should just stop taking those dreadful drugs?",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:230",
+      "text": "You enter a long, gloomy hall lined with some mysterious stone boxes. Exactly in the middle of the vault someone has drawn a large pentagram on the floor. After your eyes have gotten used to the darkness down here, your blood runs cold when you look at the large containers again! These \"boxes\" are somehow too big and massive for ordinary chests or the like! They can only be... COFFINS! You break out in a cold sweat of fear: \"NO! Please, not again!\" You fervently beg the A.C.A gods - but they show no mercy: Coffins they are, and coffins they're staying! And now you finally notice the penetrating smell of rot and decay in the air - the sweet scent of death, which oozes out of every crack in the stone sarcophagi in thick, light green clouds of smoke... The only visible way out of this room is the portal in the south, which will lead you back to the lobby.",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:231",
+      "text": "This seems to be Zargon's bedroom, decorated in subdued black and red. Portraits of Zargon and his demonic allies hang on the walls. A little dressing table holds delicate perfume bottles, make-up (speaking of \"OOPS\": greetings to LEVEL 9!) and assorted aids to making a not-quite-so-young sorcerer look a little younger. But what really catches your eye is his pitch-black four-poster bed with its red velvet curtains. Perhaps we could hold his teddy bear hostage...? The eastern door leads back to Zargon's Black Library.",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:232",
+      "text": "If spiritualism, the occult and other obscure pursuits are your thing, save your game and pitch camp in this Black Library. You'll be in seventh heaven! The shelves bow under the weight of ancient, yellowed tomes. Here you'll find just about everything any deranged mind has ever put to paper about devil worship, death cults and similar nonsense. Apart from the shelves, the room contains a large antique leather armchair and a matching study table. A candle set in a smashed human skull casts a restless, flickering light across the room... There are exits in all four directions. You may just have to find them first...",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:233",
+      "text": "Here lie the spoils of Zargon's blasphemous crimes: in this room are hoarded vast quantities of valuable vases, ornate rugs and other luxuries - all either stolen or brought down from the upper floor after the royal castle was taken. In the corner you can see a small steel safe. My goodness: It's a regular treasure chamber! Through the door in the west wall you get back to the Black Library.",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:234",
+      "text": "You are in Zargon's laboratory, which seems to double as a sacrificial chamber. Compared with Mylgor's lab, for instance, this place has a distinctly mystical air. Instead of flasks and test tubes, there is only a holy water font and another bowl holding Zargon's magical purple fire, both on black marble pedestals. The only way out of this unholy place is through the eastern door.",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:235",
+      "text": "You find yourself in Zargon's study. As usual, almost everything is black, but the black marble table in the centre is something else: its workmanship is so exquisite, so nearly perfect, that you can barely tear your eyes away! Exits lead east to Zargon's inner sanctum and west to his secret laboratory. And then, of course, there's that suspicious wall of bookshelves to the south...",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:236",
+      "text": "Carefully, desperately trying not to make a sound, you enter the evil sorcerer Zargon's inner sanctum. Purple, green and turquoise smoke billows from the cauldrons, taking the shapes of demons, spirits and devils. They converse in a language as alien to you as the world whose inhabitants spoke it millions of years ago. Whatever they're saying, it sounds truly diabolical! In the northwestern corner stands a pedestal with a black velvet cushion for Zargon's Soul Crystal: the jewel that grants him his unholy power and holds him captive forever! The only way out of this unnerving chaos of voices and colours is the black ebony door in the western wall.",
+      "reason": "Render Mysterium as inner sanctum and restore the garbled description of speaking demons; preserve pedestal and exit locations."
+    },
+    {
+      "target": "C2:237",
+      "text": "You are in the gatekeeper's house. Like all other servants at the king's court, he seems to have been a Butah dwarf, which can be easily seen from the size of his small wooden hut: when you enter it you have to bend low to avoid banging your head on the door frame! The tiny size of the furniture confirms your assumptions: Even the relatively generously sized bed would be too small for you to be able to sit on it even remotely comfortably! Otherwise, however, the entire living space is quite sparsely furnished, albeit not nearly as primitive as the other rooms in this cave system might lead one to expect. Through the small door in the north wall you can get back to the shore of the small island.",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:238",
+      "text": "You enter the old ferryman's rather crudely furnished hut: on the wall hangs a small display case showing every conceivable combination of sailor's knots, while a small sign on the north wall says that each crossing to the small island on the underground lake will cost you five dollars: Even this place seems to have had a currency reform, apparently only hard capitalist cash will do! Leaning casually against a rough-hewn counter and contentedly chewing on the mouthpiece of his pipe, stands the ferry captain: an old, white-bearded sea dog with a blue captain's hat on his head. You can exit the ferry house through the door in the eastern wall.",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:239",
+      "text": "You are standing on the shore of a small, subterranean lake: huge stalactites hang overhead and stalagmites rise all around you, mysteriously glowing in all imaginable colours. To the east is the lake, in the middle of which you can see a tiny island with a small wooden hut on it, while further to the west is the old ferryman's hut. Of course, you can also return to the cave system, which extends further into the mountain behind a dark hole in the high rock face in the north.",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:241",
+      "text": "You carefully grope your way through the tunnel when it suddenly occurs to you that you should actually be right under the castle, maybe even right under Zargon's chambers! However, you are much more concerned with the question of how many of these boring rooms this adventure might still contain, and whether the authors really had enough imagination to dream up a half-decent description for every last location. So you carefully read through this description of the room and answer your own question with a firm \"No!\"! The most inspired sentence was \"Passages lead in every direction except west.\"",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:242",
+      "text": "You enter a quiet, cool place in the middle of the Butah cave system. A fresh spring with bluish water gushes happily out of the north wall to refresh the thirsty throats of hard-working (!) adventurers. What makes you a little suspicious, however, is the small sign next to the spring, showing a dog's head crossed out in red - similar to the STOP signs on your home world! But since you don't meet the conditions that would entitle you to drink from the spring anyway, the meaning of the sign doesn't really matter to you... You can continue your way north or west.",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:243",
+      "text": "Still amazed at the sheer size of this game - and completely stunned by the boundless smugness of its authors - you enter the throne room of the Butah king. Your footsteps echo eerily off the marble floor as you approach the massive stone throne on the dais in front of the west wall. The flickering light that comes from the torches attached to the pillars makes your shadow dance eerily back and forth on the walls, and from somewhere a soft hissing reaches your ear... A hole in the eastern wall leads back into the Butah dwarves' cave system.",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:244",
+      "text": "As you enter the dark cave, you immediately notice the sharp animal stench stinging your nostrils and almost taking your breath away. It smells like danger... It growls like danger too... Shit! This IS danger! Two sleepy eyes open in front of you, glaring at you angrily, and as your eyes adjust to the darkness, you make out the silhouette of a large, muscular Cu-Sath, a cousin of the prehistoric sabre-toothed tiger, with powerful claws and long, sharp fangs! Well, buddy: good luck! Exits lead in all directions except north - the only question left is how you're going to reach them...",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:245",
+      "text": "You enter a sinister, dark cave system with water running down its mossy walls and forming small, brackish pools on the rocky floor. These passages were once created by the Butahs, a small people closely related to the dwarves, as many of them used to work as servants or craftsmen in the court of King Richard - when they were alive... You can leave these underground caves by climbing the iron rungs up the wall, or explore further along one of the three passages leading north, south and west.",
+      "reason": "Restore the upward route via fixed rungs; these are not wearable crampons."
+    },
+    {
+      "target": "C2:246",
+      "text": "You are standing in a kind of \"cave dwelling\" that seems to have been vacated in a hurry: there is hardly any furniture left here, apart from the small stone bed, where something resembling a mammoth hide lies over a few layers of dirty straw. There are also a few smaller belongings of the former cave dwellers lying around on the floor, which they must have forgotten or lost during their hasty departure... The breach in the wall in the south takes you back to the small T-junction.",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:247",
+      "text": "As you enter the courtyard, you sense something strange and dangerous behind you and spin round. You can hardly believe your eyes: the great gate you passed through seconds ago is slowly moving, as though an invisible hand were pushing it shut! Panic-stricken, you dash towards the shrinking gap, desperate to escape these sinister walls before it's too late. But it already is: the massive gate slams shut in your face! Well, you're up to your neck in the sh... er, soup again! You'd better accept your fate and get on with the task you've been given. Quickly, too. I don't want to find out what happens in this creepy castle at midnight...!",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:248",
+      "text": "When the rats notice your presence, they begin squeaking nervously - or rather, HUNGRILY?! One of them in particular, an ugly fat beast, looks at you with small, maliciously glittering eyes while blocking the door in the west of the room...",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:249",
+      "text": "It seems the rats don't have quite as much time to waste as you do, because it's supper time and the fat beasts seem to know it perfectly well: as if on cue, they all jump at you at once! You can barely fend off the little beasts' relentless attacks and you are thrown to the ground, where you have to watch helplessly as they turn you into a tasty rat supper! Well: It's really a pretty bad feeling to have an eye ripped out of your head while you're still alive: the pain almost drives you insane! But just as you open your mouth to roar loudly, a rat jumps onto your face, dances there to hot, ritualistic rhythms - and spins into a pirouette, cries an ecstatic \"Ouh!\" and tears out your tongue with a flourish so that your scream is muffled by a warm gush of your own blood to a gurgling rattle! Don't worry, you won't choke on it! Because with your remaining eye you can already see a third rat sniffing your carotid artery curiously before it finally cuts it through with a single, hearty bite of its razor-sharp incisors and puts you out of your misery...",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:250",
+      "text": "It was a stupid mistake to come here again - no matter under what circumstances: Two gigantic, rotting mummies are already waiting for you... However: Somehow our two bandaged comedians seem a little childish: they fancy a round of tug-of-war before you die! In the desperate hope of getting an opportunity to escape during the competition, you agree to a match - until it is made absolutely clear to you that you should not take part in the game as an athlete, but as a ROPE! Well, your body wasn't exactly competition-grade equipment, because it tears after only two rounds of determined tugging, so that there are now two halves of you, spilling ruptured intestines, blood and bile over the nice, clean floor...",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:251",
+      "text": "When you materialize again in the middle of the white pentagram in Zargon's inner sanctum, the old sorcerer rises from his high-backed chair in amazement. \"Why did you have to come so early?\", he rasps with a hint of disappointment in his voice, \"I don't have any time at the moment to take care of you - unfortunately...!\" With a casual flick of his right hand, he creates a huge fireball in the air out of nowhere and hurls it right at you! The last thing you can think about in the remaining time is Zargon's extreme waste of energy - because a modest little lightning bolt would probably have done it! Then it suddenly becomes very bright - and very hot! In the end, a small pile of smoking ash is all that's left of your body...",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:252",
+      "text": "When Zargon sees you appear in the middle of his white chalk pentagram, he gets up and rises to his full height: \"Why couldn't you wait?\" he snarls in disappointment, \"I have absolutely no time for you at the moment - unfortunately...\" With a slight flick of his right hand, he attempts to summon a fireball, but all you can see is a small flame scorching his palms! As you giggle gleefully, the sorcerer screams in pain, \"Damn! But you haven't won yet!\" He claps his hands briefly (\"Say hooo!\"), and a few seconds later two huge, ugly mummies materialize in the pentagram next to you. Completely shocked and unable to defend yourself, you don't cause them the slightest problem: Strong claws grab your throat, and shortly thereafter you hear your neck snap with a short, loud \"CRACK!\"! \"Thank God!\" you think with relief, \"I was afraid they would strangle me!\" As your soul departs for the happy hunting grounds, you watch as your head is brutally ripped from your torso and smashed to the ground, where your brains ooze across the flagstones until Zargon has someone mop them up...",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:253",
+      "text": "If you thought Zargon would be frightened when you burst into his secret chambers, you've got another think coming! He calmly finishes his conversation with a demon lord before even turning to you. After sizing you up for a few seconds, he shouts, \"Out! Now! Do you think I'd let you wander round my castle for hours just to slaughter you without having a little fun first? You haven't a hope of beating me yet! Get out and prepare properly for our fight! I'm entitled to some enjoyment, you know. A fellow has to treat himself occasionally...\" He shoves you angrily through the doorway and shuts the door. Outside, you can still hear him muttering: \"Young fools! Not the faintest idea what they're doing, but always charging in headfirst! How does that idiot expect to get onto the high-score table? I really must have a word with Chris and Kai. Putting me in this stupid game was bad enough, but sending me wimps like that is beyond a joke! I ought to complain to the Society for the Prevention of Cruelty to Non-Player Characters...\"",
+      "reason": "Restore Zargon's threat to kill Dave, which the fan translation reverses; retain the comic villain's complaint."
+    },
+    {
+      "target": "C2:254",
+      "text": "When Zargon notices your presence, he slowly turns to you: You can hardly believe your eyes as you catch a faint glimmer of fear in his eyes! \"Well, you've done your job. Now I must do what has to be done...!\" he gasps and pulls out a small, silver dagger from under his cape!",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:255",
+      "text": "Noticing the Butah King's cloak around your shoulders, the old ferryman falls to his knees and asks in a submissive voice, \"Your Majesty wishes to use the boat?\" You nod kindly, remove the foot you instinctively planted on the man's neck and gesture graciously for him to get up again. \"Then take the boat key from your humble servant and forgive him the miserable condition of his ferry: it must be beneath Your Majesty to set a royal foot aboard her, but business is bad: forgive me!\" After he has licked your feet clean, the ferry captain goes back to his work with countless bows. You see: clothes make the man!",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:256",
+      "text": "The rats don't approve of you crossing their territory. Not one little bit! You're very welcome to dinner, though. Unfortunately, as the main course...",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:258",
+      "text": "You won't believe your eyes: The portal gate is actually wide open! You can see the ghost of King Richard hovering under the archway, who seems to be smiling kindly and gratefully at you - and the birds are chirping down from the trees again: The whole country is blooming again, for the first time in a long, long time! You solemnly approach your newly found friend and leave the dark castle walls behind you forever - FREE...",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:259",
+      "text": "It was a rather silly mistake to leave the castle in werewolf form: just as you pass through the gate, overjoyed to have escaped Zargon's curse, you suddenly feel a searing pain in your back: It was that stupid old hermit, out hunting wolves today! Slowly and trembling with pain, you turn your head to the side and pull a spear out of your back - a spear with a silver-plated tip! You feel yourself getting weaker and weaker, and as you ponder your utterly senseless and unnecessary death, everything suddenly goes dark - forever...",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:261",
+      "text": "Noticing your intention to cross its lair, the Cu-Sath bares its teeth in anger, but then...: But wait a minute! What is that? It looks like the beast likes your perfume as it's the same one its master used a long, long time ago! You won't believe your eyes when the otherwise dangerous beast begins to purr gently and nestles tenderly against your body! Then you feel something strange, warm running down your calves: Disgusted, you look down your pant leg where the Cu-Sath has left its scent to show you its strong affection. But then you shrug indifferently: After all, being soiled with animal excrement is healthier than being turned into animal excrement, right? Fortified by this profound philosophical insight, you continue your way through the cave with a happy heart...",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:262",
+      "text": "As you try to cross its territory, the Cu-Sath gets on with its job: guarding the hall to the west! There's not much to say about your sudden death. Brief, painful, and that's you finished! There are far more spectacular ways to die in this game, you know. Keep playing like this and you'll discover them soon enough!",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:265",
+      "text": "Ta-da! Once again, our contestant Dave Parker thought he had all the time in the world! Zargon spots you desperately searching for a weapon to counter him and his magic, seizes his chance, and stabs you with his little consecrated silver dagger. As you sprawl at his feet, the last thing you see is the sole of his boot slowly approaching your face...",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:267",
+      "text": "You try to force the chest open - but the moment you touch its lock, you see a bright white bolt of lightning flash out of it, killing you instantly! You didn't have a chance: the suspense was positively electric! There was nothing to be done! But tell me: are you blind? The charred corpse of the unfortunate adventurer should have warned you! Well, maybe TWO charred corpses might be better able to act as a deterrent to someone as blind as you next time...",
+      "reason": "Adapt Spannung's tension/voltage pun into English and preserve the narrator's blindness joke."
+    },
+    {
+      "target": "C2:268",
+      "text": "With one last sneer, you tear up the contract that bound you to Zargon and Mylgor into handy little scraps and let them flutter to the floor with a satisfied smile - but the moment the first piece of paper hits the floor, you feel a stabbing pain around your heart that slowly but surely takes over your entire body! As a living torch, you fall to the ground with a last, terrible scream, and while your soul goes to hell, you can watch a skull forming out of the smoke of the last flames: Now you are free at last! No one will ever be able to force you to do anything again...",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:269",
+      "text": "Zargon sees you looking towards his Soul Crystal and tries to reach the pedestal first. Too late! In two or three nimble strides, you're there. You seize the jewel and raise it above your head. It pulses heavily in your hands, as though alive! Realising that you now hold power over him, Zargon starts to beg. He pleads for his life, offers you Mylgor's position as governor of the village, and even promises to make you human again if you'll spare the crystal. Somewhere, he says, there is a spring whose water can cure the infection of werewolf blood... For a moment you think back over everything that has happened. Which matters more: your own fate, or that of the villagers he has tormented and enslaved? The decision doesn't take long. Ignoring his whining, you hurl the Soul Crystal to the floor. It shatters into a thousand splinters, each still reflecting Zargon's face! At that very instant, he screams behind you. You spin round to see him struggling for his life inside a dense, dark grey cloud, released from the shattered jewel where it must have waited for decades for this one moment. Only his wildly flailing arms and legs protrude from the murk! Then, suddenly, it is over. The cloud vanishes as quickly as it appeared, taking the evil sorcerer with it. An oppressive silence fills the room. Exhausted, you slide down the wall. All that remains of Zargon is his crown and the royal sceptre...",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:270",
+      "text": "You rush to the soul crystal to destroy it and thus end Zargon's blasphemous existence once and for all - but as you cross the white chalk pentagram between you and the pedestal, you suddenly feel so strange! So tired - and so dizzy! And as you look down at yourself, you notice your body slowly dematerializing to be teleported to another location in Zargon's castle! Perhaps you remember another pentagram in these walls...?",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:271",
+      "text": "Carefully, and without taking your eyes off Zargon, you approach the cauldron. The old magician seems to know very well what you are up to and raises his hands to cast a spell to summon two of his fiendish vassals into his magical pentagram - but before his hands meet in the air you have already knocked over the heavy cauldron, spilling its steaming contents over the floor, almost completely wiping out the chalk pentagram!",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:272",
+      "text": "Oh, that's a good one! Do you have any idea how heavy that thing is? You couldn't shift that cauldron so much as an inch!",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:273",
+      "text": "I wouldn't touch them for a million! If you really want to indulge in any necrophilic hobbies, please do so in real life - but not here!",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:274",
+      "text": "Unfortunately, your boat has drifted away while you were gone. It's bobbing unattended in the middle of the lake, well out of reach. And unfortunately, we also \"forgot\" to put a \"Swim\" button in SOUL CRYSTAL. Stupidity has to have consequences, you know! Next time, perhaps we'll tie our boat to the jetty a little more carefully, shall we? We didn't put the thing there just for decoration...",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:275",
+      "text": "As you enter the white pentagram, you suddenly feel so strangely dizzy: Everything around you begins to spin - and suddenly your vision goes black! You die... No! Excuse me: you don't die, of course! Not yet! It seems you're merely being teleported, because when you wake up from your dreamless sleep, your surroundings have changed completely...",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:279",
+      "text": "You tap the wood cautiously. A hollow thud echoes from inside. Well, that barrel doesn't sound particularly full...",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:287",
+      "text": "A heavy chest with little to recommend its looks, apart from a small, exquisitely crafted lock that seems quite out of place on it. Still, a lock that small should make any attempt at breaking in considerably easier...",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:288",
+      "text": "The combination is: \"1A9C9A2\": Revealing, isn't it? Well, just kidding: That isn't a secret code, as you might have expected, but the complete hexdump of this program!",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:291",
+      "text": "Your blood runs cold when you look at the almost completely decomposed faces: All you can read from them is fear and indescribable horror... After you have turned away from the dead diners, trembling, you look around again: there are twisted corpses, individual body parts and other things all over the room, the meaning and origin of which you would prefer not to know at all! Indeed: it seems to have happened exactly as King Richard had described it to you: Zargon's men had entered the castle and indiscriminately massacred everything that dared to oppose them - even women and children! Now you slowly notice how the penetrating stench of the decaying corpses rises to your nose - the sweet smell of decaying flesh...",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:293",
+      "text": "Zargon's Soul Crystal is an otherworldly jewel of phenomenal size. Resting on a black velvet cushion, the stone glows in a mystical, cold fire that lets it radiate an almost unearthly light. As you look closer, you barely suppress a startled cry: The face reflected in the crystal isn't yours. It's Zargon's...!",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:297",
+      "text": "Books and magazines are lined up more or less neatly on the tower guard's desk: his defence against boredom in peacetime. There are twelve issues of PLAYBOY, January to December 712 (man, one of their finest years!), the bestsellers \"Sagt der AMSTRAD leise Servus\" and \"How to blow up my ATARI\", and finally a few of his diaries...",
+      "reason": "Restore the corrupted and truncated bookshelf text, including the year and the diaries; retain the original named books."
+    },
+    {
+      "target": "C2:299",
+      "text": "You examine the small, worm-eaten diary. Long ago, it must have been bound in leather. The number 713 is written in large letters on its cover.",
+      "reason": "Restore the year 713 lost in the corrupted fan text."
+    },
+    {
+      "target": "C2:300",
+      "text": "You begin reading the tower guard's battered diary. It describes the siege from its first beginnings to its bitter end. The perceptive guard had noticed the disputes and power struggles between his master and Zargon long before King Richard could even imagine a coup. Yet even he could never have expected what was to come! Richard's ghost clearly wasn't exaggerating: while the king's body lay cold and twisted on the floor of Zargon's chamber, the sorcerer rounded up his former followers like cattle in the courtyard. There he offered them a choice: serve him, or follow their king into death. And there the diary ends... Cold anger cries out for revenge within you, mingled with desperate helplessness. You snap the little leather-bound book shut, unable to stare at that abrupt ending any longer. A thick grey cloud of dust rises from its yellowed pages. At that instant, lightning strikes the main tower outside, flooding the room with ghostly pale light for a fraction of a second and shaking the building to its foundations, as though a giant iron fist were trying to smash this nest of evil once and for all! It must have been much the same on the fateful night when the brave tower guard stood by his master for the very last time...",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:302",
+      "text": "Directly above the keyhole is a small golden door handle.",
+      "reason": "Türklinke is a lever handle; calling it a doorknob obscures the lift-versus-push puzzle."
+    },
+    {
+      "target": "C2:304",
+      "text": "The ferry captain seems a rather gruff but oddly lovable old sea dog.",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:305",
+      "text": "This must be the magical purple fire that Zargon is said to draw his magical powers from! As you approach the bowl, however, you realise to your surprise that the blazing fire does not radiate any heat at all - on the contrary, it even radiates icy cold...",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:307",
+      "text": "In Zargon's four-poster bed you will only find his red polka-dot pyjamas and black silk sheets - or what did you expect? However: People who go about their nightly activities on silk sheets are actually a bit suspect, you're undoubtedly right...",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:309",
+      "text": "Oh, come on! Please don't make a habit of this! You're not planning to wear out my last nerve by asking about every bit of rubbish these brain-dead programmers stuffed into the game, are you? It's an ordinary iron key, as its name should have told you! I had been working on the assumption that you could read, rather than just click at random...",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:310",
+      "text": "The smoke rising from Zargon's cauldron twists into grotesque faces of monsters and demons: his diabolical allies!",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:313",
+      "text": "It's a letter from Mylgor to his master Zargon! You read: \"Your Wickedness! Yesterday I found a new \"volunteer\" who could eliminate your arch-enemy Firon. I hope at least he will finally manage to destroy him without first paying attention to his stupid talk, like his predecessors have done. If Dave, the name of the young man I sent out, has fulfilled his task satisfactorily, I will of course send him to you so that you can amuse yourself with him in your well-stocked torture chambers... Together with this letter I send you the contract in which Dave pledged his soul to us - do with it as you please. Farewell, my lord, your devoted servant Mylgor.\" Aha! Things are beginning to make sense! But the matter still remains very mysterious, because the contract isn't in the envelope!",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:315",
+      "text": "You stare up at the pale full moon as if in a trance, until a strange sound from the mountain to the north snaps you out of it. You've heard that sound before, in the overgrown graveyard of the ruined monastery. Only this time you aren't afraid. Quite the opposite: it feels strangely familiar, almost as though it were calling to you, drawing you in... Suddenly, a burning pain tears through your chest, as though some dark power were trying to possess you from within! Mad with pain, you reach to rip off your shirt - and freeze. Shaggy black hair covers your chest and arms. A few agonising seconds later, it covers your whole body! You try to scream, but the voice that comes out isn't yours. Instead of a human cry of pain, your throat gives forth a WOLF'S HOWL...! Frantically, you fight down the panic and try to think. Apparently, that wound the werewolf gave you during your midnight duel in the monastery graveyard wasn't quite as harmless as you'd naively assumed! You could kick yourself, but that won't help. Perhaps King Richard can find a cure once you escape this cursed castle. For now, you decide to put all thoughts of your hairy future on hold...",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:317",
+      "text": "The mummies are wrapped in thick white bandages. Unwrapping them would take months, quite apart from the fact that you probably wouldn't recognise any of the dead anyway...",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:319",
+      "text": "All of the paintings depict roughly the same thing: an elderly man clad in the traditional purple Mages Guild cape, the hood almost entirely covering his face: the only thing you can make out beneath it are two dangerously glowing eyes that mercilessly seem to follow your every step... On the forehead of the hood you can see an embroidered, golden pentagram that identifies Zargon as a member of the seventh circle, as an archmage for whom nothing, absolutely nothing, is impossible: membership in this magicians' guild is after all a highly honorable distinction, which so far has only been bestowed on the seven most powerful of the powerful - among them, for example, King Richard and his brother Firon. However, just as you are about to take a closer look at the pictures, roaring laughter rings out from the walls: all of the magicians depicted seem to be mocking you! Just a trick? Or maybe Zargon is actually behind one of these pictures to amuse himself for a while before he finally sends you to your doom...?",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:321",
+      "text": "A white chalk pentagram, drawn on the floor with painstaking care. It measures about five metres across.",
+      "reason": "Drudenfuß is a pentagram, not a pentagon."
+    },
+    {
+      "target": "C2:322",
+      "text": "The perfume bottle's label reads, in flowing script: \"Honc Schwartenfranz de Paris - For Winners\". Must be pretty potent stuff! Curious, you open it and sniff. Ugh! That's revolting! Perhaps the little orc child's mother would like it, but I... I... I think I'm... going... to... throw...!",
+      "reason": "Restore the fictional brand and the interrupted vomiting joke."
+    },
+    {
+      "target": "C2:325",
+      "text": "A small steel safe with a seven-position combination lock.",
+      "reason": "Stellen means combination positions, not necessarily numeric digits: its code includes letters."
+    },
+    {
+      "target": "C2:326",
+      "text": "Oho! In the safe's upper compartment is something remarkably like the contract you signed with Mylgor!",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:327",
+      "text": "A golden royal eagle sits enthroned at the tip of the sceptre, its wings proudly spread, ready for flight. The bottom end looks very odd though - as if it's not just meant to be used as a handle...",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:328",
+      "text": "The graffiti reads: \"The king's might will open the way!\", \"For a good time gimme a call: 32168!\", \"Don't push it - PULL it!\", \"Paul, shut your gob!\", \"Chris, we love you!\", and \"The power that fills my heart with dread is by the purple fire fed!\" The rest is illegible. Somehow I doubt its literary merits exceed those of the rubbish you've just read.",
+      "reason": "Retain both crucial puzzle clues and adapt the rhyming purple-fire clue rather than translating its syntax literally."
+    },
+    {
+      "target": "C2:330",
+      "text": "The shelves are packed with ancient tomes on the occult. The smell of dry leather and yellowed paper catches in your nose as you take down a book and blow the dust off its cover. One look at the ancient writing on the front, though, and you put it straight back in defeat. Who on earth is supposed to be able to read that?",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:331",
+      "text": "The warning sign shows a dog's head crossed out in red - almost like a prohibition sign: somehow the water doesn't quite seem to comply with the Bavarian purity laws for drinks served to four-legged customers...",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:332",
+      "text": "As you let your eyes wander over the pale bones of the skeleton, you realise that not a single shred of flesh is left on them! Full of disgust, you look at the gaping crack in his skullcap, which was apparently the cause of his premature death: \"It was probably better for him to die here than in Zargon's torture chambers.\" You think to yourself shuddering as you glance through the barred door... But what is that? The skeleton's bony fingers point to a few scrawls on the wall, as if to give you one last clue...?",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:334",
+      "text": "Beside the slot is a little sign marked \"Gate\"! Blimey, this little thing seems to be all that's keeping us in the castle! I've no idea how to work the opening mechanism, though. The slot doesn't look as if it takes a key. Or a sword, before you ask...",
+      "reason": "Translate Tor as Gate and preserve the warning that ordinary keys and swords do not fit."
+    },
+    {
+      "target": "C2:336",
+      "text": "The statue represents a heavily armed, battle-hardened old warrior leaning on his huge two-handed sword.",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:338",
+      "text": "Dust lies thick on the dining tables, almost a finger's depth. A finger like the one on the corpse slumped in the chair beside you! \"Eeeugh!\" You leap back with a hysterical yell, straight into the rotting arms of another corpse, stretched out to catch you - or seize you? Trembling, you slowly turn your head and stifle another scream. These people, whoever they were, aren't undead, as you might have expected after everything you've seen on your journey. They're the castle's former inhabitants. Or they were, until Zargon and his pack burst in and slaughtered everyone without mercy...",
+      "reason": "Remove corrupted scream and duplicated translation fragments, retaining the distinction between corpses and undead."
+    },
+    {
+      "target": "C2:339",
+      "text": "The royal cloak of the Butah dwarves' ruler: a heavy, richly decorated garment.",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:340",
+      "text": "This is the key that the dungeon master Kay used long ago to be able to open all the doors of the castle - but that really was a long, long time ago: in the meantime, most of the locks in Zargon's keep have naturally been replaced with newer, sturdier ones. However, there is still a lock in these walls that this key fits into - and it may be closer than you think...",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:341",
+      "text": "Some holy water used by Zargon in his idolatry to appease the A.C.A gods. Strange: This \"holy\" water smells a lot more like Barcadi-Cola than the water you're used to from your church at home (MAN! That IS Barcadi-Cola - don't tell anyone. Hic!)... I just wonder what deeper significance it might have for a villain like Zargon...",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:342",
+      "text": "I wouldn't bother trying to take those old, battered weapons. They're either broken, hanging too high on the walls, or so rusty they'd fall to pieces the moment you tried to use them...",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:344",
+      "text": "Not a chance, my friend! Never heard of other people's mail being private?",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:347",
+      "text": "But I don't want to! Take a close look at these sorry excuses for weapons: In a real battle they would probably let you down miserably! Your good old sword would definitely serve you better...",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:351",
+      "text": "Better leave them alone! A bright light might disturb their beauty sleep, and who knows how a mummy in a morning mood would deal with a nuisance like you...?",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:353",
+      "text": "You still haven't quite grasped the point of the game, have you? Rather disappointing, after all the effort we put into dreaming up a story dripping with clichés so even a dim bulb like you could follow it! Once more: the idea is to destroy Zargon, not help him! Got that? NOT help him! Repeat after me: \"Dooon't heeelp him!\" Good. Carry on!",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:354",
+      "text": "You try shifting the bookshelves aside, just as you would in any other adventure. And, just as in any other adventure, it works! The shelves turn quietly on little platforms you couldn't make out in the gloom. Don't pat yourself on the back just yet, though. What else would you do with bookshelves except move them from wall to wall? Well, apparently some people actually put things in them. Each to their own...",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:356",
+      "text": "Aren't you a clever little fellow! If everything in this game were that easy, you'd have thrown it in the bin by now. Or deleted it, if it's a pirate copy. GRMPH! So, on that basis: \"Sorry, you can't do that!\" Cruel, aren't we?",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:357",
+      "text": "As you touch the statue, you feel a mysterious power flowing through you: you pull your hands protectively in front of your face as you are blinded by a glaring white light - and when you take them down again, you discover, to your astonishment, that your surroundings has completely changed...",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:358",
+      "text": "After all the nonsense you've had to read, it's only natural to want to drown your frustration at the money you've wasted in wine. Unless, of course, this is a copy...? \"As long as it's alcoholic!\" you tell yourself with a shrug, remembering how foul the contents of these barrels must taste by now. Resolutely, you open the middle barrel, expecting a shower of fine vintage. To your surprise, it's completely empty! A tunnel leads through its tar-lined walls and away into the eerie darkness...",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:359",
+      "text": "You take a book off the shelf and try to read it. No luck: it's written in an ancient language you can't understand...",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:360",
+      "text": "You open the tower guard's old diary. A dense cloud of dust rises from its battered yellow pages, almost taking your breath away and sending you into a coughing fit. Serves you right for being nosy?",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:361",
+      "text": "I don't see what the problem is. All you need to do is use the door handle...",
+      "reason": "Preserve the deliberately unspecific instruction without inventing a knob-turning action that contradicts the puzzle."
+    },
+    {
+      "target": "C2:362",
+      "text": "You try to open the small chest, but unfortunately the complicated mechanism of the delicate lock stubbornly defeats your lock-picking skills...",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:363",
+      "text": "Not bad! Did you interpret the writing from the prison cell correctly or did you just learn from old mistakes? The door swings open quietly, revealing the way to Zargon's secret chambers...",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:364",
+      "text": "You push the door handle down. A faint click sounds beneath your feet, and before you can jump back, a hidden trapdoor opens! At the last instant you catch the edge of the pit and try to haul yourself up. \"I wish I hadn't skipped so many PE lessons!\" you think desperately. Several exhausting attempts later, you realise you'll never get out without help. Looking down in panic, you see long iron spikes far below, crusted with dried blood. You open your mouth to shout, then realise that would only waste your breath. The only person who could hear you down here is Zargon, and you know exactly how much sympathy you'd get from him! Facing the hopelessness of your position, you say one last prayer and let go. A man has to know when it's time to leave... Unfortunately, the drop lasts longer than expected. Your head strikes the jagged rock walls again and again, yet you never quite lose consciousness. Then, suddenly, it's over. Impaled on the spikes, you let out a dying scream that shakes the castle, drowned out only by Zargon's mocking laughter...",
+      "reason": "Restore natural prose and consistently describe the fatal downward movement of a lever handle."
+    },
+    {
+      "target": "C2:367",
+      "text": "The old ferryman looks up from his pipe, gives you a casual nod and says a crossing will cost five hard dollars. A bit rich, considering you're supposed to be saving his world...",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:368",
+      "text": "This really isn't the time! Zargon is definitely not your friend. Spend what little time you have left thinking of a way to beat him instead of standing there gawping!",
+      "reason": "Maulaffen feilhalten means gawp or stand idly, not sell mouth monkeys."
+    },
+    {
+      "target": "C2:369",
+      "text": "You cup your hands beneath the bluish water and sip cautiously. After just a few mouthfuls, a wave of happiness and renewed strength washes through you, soothing and wonderfully refreshing at once. Then you happen to look down at yourself: you're human again! Which, of course, also means you've lost your supernatural strength...",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:370",
+      "text": "You sip the bluish water. All you feel is pleasantly refreshed, which is worth something: the game's not over yet, and you'll need every ounce of strength you can muster! Though that may now be a problem...",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:371",
+      "text": "Mmm, yum... Ugh, I feel siiick!",
+      "reason": "Schlecht means physically sick here, not disliking the food."
+    },
+    {
+      "target": "C2:372",
+      "text": "You wolf down the slice of white bread, so blinded by greed that you forget you poisoned it yourself a few minutes ago! By the time the penny drops, it's too late. Should we put that phrase on a hotkey? For the last time in your young life, you feel yourself falling ill. No, sorry: you feel your final hour approaching. Not much of an improvement, admittedly... With a last strangled retch, you crumple to the floor and die like a rat. Rat poison was responsible, after all! Next time, read the warning on the packet a little more carefully: \"Keep away from children!\"",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:373",
+      "text": "You set the combination and turn the heavy iron wheel - silently prepared to be confronted again with one of those lousy Zargon traps, but nothing like that happens: with a soft \"click!\" the cylinders of the lock slide back into their starting position! Congratulations and all that - but where the hell did you actually learn that...?",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:374",
+      "text": "You toss the contract into Zargon's magical purple fire and watch with a smug smile as the paper turns brown, then curls and finally bursts into flames, whereupon it crackles into black smoke...",
+      "reason": "Use one consistent name for the purple fire puzzle object."
+    },
+    {
+      "target": "C2:375",
+      "text": "\"Anything Napoliton... er, what's-his-name could do, I can do better!\", you think to yourself, and you place Zargon's crown on your head crowning yourself ruler of the realm. But what you unfortunately didn't know was that this crown turns its wearer into a cruel servant of evil! So now you have also made a pact with the forces of hell that previously controlled Zargon's will and soul and were seriously worried about his successor...: At the same moment as you place the crown on your noble head, it clutches your skull like a vice! Screaming wildly in pain, you try to tear the devilish gem off your head again - but you just can't do it anymore! On the contrary: it tightens and tightens, and with every second that passes you become more and more a servant of Satan! When the pain slowly subsides and you only feel the dull, monotonous pulsation of your cold blood in your head, you turn around slowly with a cruel smile on your lips -and watch with great satisfaction as the shards of the crystal you have just destroyed, float again above the ground and assemble into a new soul crystal - a Soul Crystal reflecting YOUR face...",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:376",
+      "text": "You try a bite, then spit it straight out in disgust. Revolting! Well, what did you expect after all this time? You swallow hard as little white worms and fat grey maggots crawl from the very piece of bread you just had in your mouth. Then you spot half a maggot sticking out of the loaf, bitten through and still twitching. That's the end of your self-control. You retch and throw up, spreading the remains of your meals across the floor. And something in the mess is still... MOVING...?",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:377",
+      "text": "All right, I'm not allowed to refuse your orders, but honestly, I wouldn't have done that. This \"perfume\" stinks to high heaven! If you ever get back to the village alive, remember to take a long bath. No, make that two! One whiff of this \"Honc Schwartenfranz de Paris\" and the girls will run a mile! Sniff... Ahem. Make it THREE baths!!!",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:378",
+      "text": "You carefully read the small print beneath the instructions on the rat poison packet: \"The Federal Minister of Health...\" Well, that settles it! Grinning in anticipation, you open the packet and sprinkle a double, absolutely fatal dose over the poor, innocent slice of white bread. It dies instantly, without ever knowing why! Nice work, genius! What are we supposed to do with a bread corpse?",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:379",
+      "text": "You slide Zargon's sceptre into the slot - and it actually seems to fit! The handle snaps into place with a loud click, and as you move the sceptre back and forth like a lever, you suddenly hear a scraping noise echoing down from above: THE PORTAL GATE!!!",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:380",
+      "text": "You've always enjoyed borrowed glory, haven't you? You proudly drape the Butah king's purple cloak over your shoulders.",
+      "reason": "Adapt fremde Federn to borrowed glory rather than inventing literal feathers."
+    },
+    {
+      "target": "C2:382",
+      "text": "If you think you can wriggle out of your task by slurping down the holy water, think again! You'd need a weapon as well, preferably silver-plated. And don't expect me to turn my own sword on myself!",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:383",
+      "text": "Is that really all you ever think about? Take it from me: a pretty young orc girl makes much better company than a cold, hard statue! If it were at least made of rubb... never mind! You're seventeen, for goodness' sake. Surely you're old enough to find a nice girlfriend instead of pursuing a male (!!!) statue...",
+      "reason": "Render the original non-graphic innuendo naturally without the literal 'hop in the box' and 'gum' errors."
+    },
+    {
+      "target": "C2:384",
+      "text": "You carefully secure the boat to the jetty with the chain you find aboard, making sure it won't drift away while you're gone.",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:385",
+      "text": "\"Here, tuck in!\" you call, tossing the rats the thin slice of bread. They pounce on it and devour it in seconds! How selfless, giving away your last crust. Sadly, no stars turn into gold coins and fall into your outstretched shirt, however patiently you wait. But what's this? The rats are staggering round the room as though they're tipsy! You've poisoned them! Treacherously poisoned them, killed them, murdered them! Murderer! MASS MURDERER! Don't give the monitor that innocent look: you knew perfectly well the bread was poisoned! Without the slightest pang of conscience, you watch in cold satisfaction as the rats topple over, one by one, legs in the air. Once the last victim of your extermination campaign has departed for the happy hunting grounds, you can finally cross the room unmolested, if you wish.",
+      "reason": "Restore the Sterntaler fairy-tale reward joke, which the fan translation loses entirely."
+    },
+    {
+      "target": "C2:386",
+      "text": "Oh, there we have another real animal lover sitting in front of the computer, huh? Full of pity for the poor, hungry creatures, you share your last bit of bread with them. But after you've finished your meager meal, the rats still look up at you with hungry, beady eyes! Apparently you whet their appetite with the bread - and now they are waiting for the MEAT COURSE!",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:388",
+      "text": "Well, um... I don't quite know how to break this to you without getting on your nerves again, but... ahem. We need to check your right to play this game one last time. I'm terribly sorry, but it seems to be the only way to keep pirate copies within tolerable (?) limits and ensure our programmers get the money they've worked so hard for. So, just once more, please. This time, though, it's from the tower guard's diary. \"Variatio delectat!\"",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:389",
+      "text": "Wow! I can hardly believe it! You've actually got an original! A genuine original! So it was YOU! Thank you, great master! Your generous contribution has made us so rich we don't know what to do with it all! We put half in our numbered Swiss bank account so we can live off the interest later. With the other half, ahem... the four of us ordered a family-size pizza! Still, you've done a good deed for a few \"poor schoolboys\". Let us kiss your keys in gratitude! Now, after all that shameless grovelling, let's see what happens next...",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:390",
+      "text": "Aaargh! I had already suspected it - but THAT is really too much for a simple parser! Why did you do that? I mean, if you've actually sacrificed that much time to get to this point in the game, which also means you must have kind of enjoyed it, why the hell didn't you buy it? Do you seriously believe that we would be able to produce such a gigantic program again if you simply cheated us out of our money, which, God knows, we've earned through hard work and considerable sacrifice? Do you think we would still like to produce more programs of this kind if someone like you casually wrecks years of our work? Just think about the consequences of your actions: God knows we don't want to live in huge villas and be able to buy one Porsche after the other (my penthouse in Paris and the company Bentley are enough for me - one is modest!), but if we don't even earn enough money with this job to cover our normal living expenses, then we will soon have to look for another one, willy-nilly! It's up to you and your friends how long good software will be around - and last but not least you're hurting yourself with your stupid copying! So: Please buy the original program if you want other A.C.A productions to appear as well...",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:391",
+      "text": "Exits lead to:",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:393",
+      "text": "Please put the floppy disk on which you saved your games into your drive. Remember that it must be named \"SoulSave\". Otherwise, format it as instructed in your user manual and rename it \"SoulSave\". Press <ESC> or the right mouse button to cancel the action!",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:397",
+      "text": "Phew! That was a close one...",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:405",
+      "text": "Saved game loaded successfully. You can carry on from where you saved. Have fun!",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:406",
+      "text": "Please choose a slot for your saved game.",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:407",
+      "text": "Saving the game under the chosen name in the selected slot...",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:412",
+      "text": "To stop crafty pirates using saved games to skip the code checks between chapters and play for free, we need you to enter a code from the manual. Sorry, but it has to be done...",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:424",
+      "text": "ERROR! The system data file could not be loaded! Either you didn't install the game correctly, or your storage device has just given up the ghost...",
+      "reason": "Correct mistranslation and awkward literal phrasing."
+    },
+    {
+      "target": "C2:427",
+      "text": "Well, when you've got to go, you've got to go! You glance around to check nobody's watching, undo your trousers and... HOLD IT! Not here, mate! Isn't acid rain enough of a problem already...?",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    },
+    {
+      "target": "C2:428",
+      "text": "Would you like to quit (<B>), start a new game (<N>), or load a saved game (<L>)? Press one of those keys, or use the right mouse button to quit and the left to restart.",
+      "reason": "Keep the original functional key bindings, but remove malformed translated markup."
+    },
+    {
+      "target": "C2:432",
+      "text": "You draw the curtain closed again, hiding the passage back to the wine cellar.",
+      "reason": "Restore idiomatic English, narrative rhythm and the original meaning."
+    }
+  ]
+}

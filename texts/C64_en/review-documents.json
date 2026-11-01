@@ -1,0 +1,904 @@
+{
+  "reviewed": {
+    "story": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "diary": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "objects": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165
+    ],
+    "verbs": [
+      38,
+      29,
+      31,
+      9,
+      28,
+      40,
+      35,
+      27,
+      43,
+      44,
+      41,
+      34,
+      37,
+      36,
+      39,
+      42,
+      32,
+      23,
+      10,
+      7,
+      30,
+      33,
+      4,
+      15,
+      16,
+      1,
+      3,
+      13,
+      12,
+      20,
+      14,
+      8,
+      2,
+      22,
+      18,
+      17,
+      11,
+      6,
+      19,
+      24,
+      21,
+      5
+    ],
+    "frontend_labels": [
+      "$AAF5",
+      "$AAFF",
+      "$AB0A",
+      "$AB12",
+      "$AB1D",
+      "$AB23",
+      "$AB2D",
+      "$AB38",
+      "$AB42",
+      "$AB4C",
+      "$AB53",
+      "$AB5A",
+      "$AB61",
+      "$AB6C",
+      "$AB77",
+      "$AB82",
+      "$AB8D",
+      "$AB95",
+      "$AB9C",
+      "$ABA4",
+      "$ABAB",
+      "$ABB3",
+      "$ABB8",
+      "$ABBE",
+      "$ABC5",
+      "$ABCC",
+      "$ABD3",
+      "$ABDD",
+      "$ABE6",
+      "$ABF0",
+      "$ABF7",
+      "$AC18",
+      "$AC20",
+      "$AC28",
+      "$AC33",
+      "$AC3C",
+      "$AC46",
+      "$AC51",
+      "$AC58",
+      "$AC63",
+      "$AC6A",
+      "$AC75",
+      "$AC7C",
+      "$AC86",
+      "$AC91",
+      "$AC98",
+      "$ACA2",
+      "$AD0C",
+      "$AD18",
+      "$AD1F",
+      "$AD2D",
+      "$AD34",
+      "$AD3B",
+      "$AD41",
+      "$ACA8",
+      "$ACB0",
+      "$ACB7",
+      "$ACBE",
+      "$ACC6",
+      "$ACCE"
+    ],
+    "engine_texts": [
+      "$4814",
+      "$481D",
+      "$4823",
+      "$483A",
+      "$484A",
+      "$4857",
+      "$4862",
+      "$486D",
+      "$4877",
+      "$4881",
+      "$488C",
+      "$4897",
+      "$48A7",
+      "$48B4",
+      "$48C2",
+      "$48E9",
+      "$4917",
+      "$4959",
+      "$496C",
+      "$4994",
+      "$5E6D",
+      "$5E85",
+      "$5E94",
+      "$5E9A",
+      "$5EA0",
+      "$5EC0",
+      "$5EDA",
+      "$5EDF",
+      "$5EEF",
+      "$5EF9",
+      "$5F02",
+      "$5F18",
+      "$5F24",
+      "$5F2F",
+      "$5F45",
+      "$5F59",
+      "$5F80",
+      "$5F90",
+      "$5FA3",
+      "$5FAE",
+      "$5FBB",
+      "$5FC6",
+      "$5FD0",
+      "$6012",
+      "$687A",
+      "$6892",
+      "$689C",
+      "$68A9",
+      "$68BD",
+      "$68DE"
+    ]
+  },
+  "replacements": [
+    {
+      "target": "story",
+      "text": "THE STORY\n\n[Page 1]\n\n\"Made it! That wasn't nearly as difficult as I thought,\" you tell yourself as you step off the bus that brought you from the next village's railway station to your hotel. You've actually escaped your parents' endless advice for the next few weeks. You never thought that would happen until the day you finally moved out — probably on the verge of a nervous breakdown...\n\n[Page 2]\n\nStrolling down the street, you think back to your departure. Your ever-so-concerned parents were still dispensing pearls of wisdom through the train window at the station. The nonstop chatter! The doom and gloom! Honestly, what is their problem? You're seventeen, for crying out loud. Almost old enough to get married! Surely you can manage a holiday on your own?\n\nSeventeen years old. And for thirteen of those years, you've spent the same weeks in the same dreary little French town...\n\n[Page 3]\n\n...with your parents, who, out of a noble sense of duty, simply couldn't pass up the chance to supervise your every move. Personally.\n\n\"That's it. I've had enough!\" you decided one day. With your customary tact, you informed them that you had no intention of spending another holiday surrounded by the living dead in that French \"health resort\".\n\nYou can still picture their horrified faces. Their own son, daring to get his own way! And you can still hear your father's flimsy arguments from those endless discussions...\n\n[Page 4]\n\nEspecially over the last two months. The arguments just went on and on. Still, you won in the end!\n\nAll right, you admit with a small grin, you'd actually been toying with staying home while your parents were away and throwing a huge party. But then you realised you simply HAD to go somewhere. If only to show them who's boss!\n\nAnd now here you are. You take a deep breath of fresh, clean air and look around. Yes!\n\n[Page 5]\n\nJust the place for a young genius like you to recover from the endless hardships of everyday life!\n\nSo this is adulthood. Complete freedom. Only for a few weeks, admittedly, but freedom all the same. And right now, that's all that matters. You can do what you like. And, last but certainly not least, drink what you like.\n\nWith any luck, by the end of your holiday you'll be sufficiently rested to survive those last few months at home before you turn eighteen...\n\n[Page 6]\n\nHappy and bursting with an enthusiasm rarely witnessed during term time, you enter the hotel, ring for the receptionist, sign the guestbook and collect your room key.\n\nYou lug your bags upstairs and start unpacking. A glance at your watch brings you up short: half past six already! You wanted to take a look at Loch Calderwood — the lake the old man on the bus had so many legends to tell about.\n\nThe unpacking can wait. You leave your things where they are and lock your room...\n\n[Page 7]\n\n...behind you, then hand in the key at reception. There's still time to see a little of the countryside before dinner. Besides, you'll want something to tell your mother when you let her know you've arrived safely.\n\nThe last thing you need is her imagining that her poor little boy caught the wrong bus and is wandering lost and abandoned through the Scottish wilderness.\n\n[Page 8]\n\nYou step out of the hotel lobby and back onto the dusty street, ready to search for the legendary mountain lake. The setting sun bathes your face in warm, red-gold light...\n",
+      "reason": "Restore German meaning, teenage sarcasm and idiomatic British English throughout all eight intro pages."
+    },
+    {
+      "target": "diary",
+      "text": "The Diary of the Tower Guardian\n\n1st Day of the Year 713:\n\nThis morning the couriers finally returned from the frozen lands. They had visited Firon, our king's brother, in his palace to deliver the king's blessings for the new year. Yet none of them looked pleased or hopeful. Quite the opposite: some message from Firon, the Elven King, must have frightened them badly. I have been unable to discover more, but even King Richard looked deeply troubled as he left his council chamber with the envoys.\n\n2nd Day of the Year 713:\n\nThe new year begins with an ill omen. The noble Sir Henryk was killed on today's hunt when his horse stumbled during the pursuit of a badger and fell on top of him. Apart from the old Archmage Grywinn and the king himself, Sir Henryk was the last person at court to oppose admitting the young, ambitious court magician Zargon to the Seventh Circle of the Mages' Guild. Now the king and Grywinn stand alone against the other three archmages, and Zargon is close to his goal.\n\nFor years he has shut himself away to perfect his knowledge of the magical elements, but does he also possess the strength of character and wisdom needed to use that knowledge for the good of our people? We do not even know where he comes from. He has never spoken to any of us about himself. He is secretive and mysterious, and something about him frightens me.\n\n3rd Day of the Year 713:\n\nEarly this morning, the nobles of the realm laid Sir Henryk to rest in the graveyard of St Jacobi's monastery. After they returned from the funeral service, a great banquet was held in his honour. To take my mind off these dark thoughts, I looked down from my chamber in the main tower at the young officers strolling through the courtyard with their sweethearts. Servants hurried to and fro, bringing this guest one thing and that guest another, determined that the king's company should want for nothing. When Vyrton relieved me for an hour, I went down to join them.\n\nNo one noticed a lowly tower guard among all those finely dressed guests, so I could watch undisturbed. Then a young woman hurried past, so beautiful and graceful that, but for her serving apron, I would have taken her for a noblewoman. I must still have been standing there thunderstruck when she came back. She blushed, gave me a cheerful wink and vanished into the kitchen. After this had happened two or three times, I finally plucked up the courage to catch her arm and ask her name. \"Simona,\" she said.\n\nThere was no time to talk. She had guests to attend to, and my break was over. But before I left, Simona whispered to me that she had put aside a few treats from the feast. If I wished, I could meet her in the castle basement just before midnight, and we could have a little feast of our own. Now I sit here looking down into the courtyard and counting the minutes. My only consolation is that I can admire Simona from my window as much as I please. She has just spotted me and waved up, laughing. It seems she rather likes me too. I do hope she comes tonight!\n\nSimona did not disappoint me. Just before midnight, she slipped into the basement so quietly that I jumped when she suddenly appeared before me. I was mortified, but she merely smiled and pointed conspiratorially to a basket of delicacies rescued from the banquet. Over good food and a carafe of rich wine, we grew ever closer — whether through the wine's charms or fate's designs, I cannot say. At last, emboldened by the wine, I confessed my love. She had just begun to say the words I had longed to hear since our first meeting when we heard soft footsteps on the stone spiral staircase leading to the entrance hall.\n\nTo protect her reputation, I drew her into a recess beyond the torchlight and hid beside her to see who had dared interrupt our secret meeting. It was Zargon! He crept past us and along the corridor, stopping at a heavy door. After a hurried glance over his shoulder, he pushed the door handle upwards and disappeared into the darkness beyond.\n\nStill shaken by this strange interruption, I wondered why he would be studying tonight of all nights. Tomorrow he would enter the Seventh Circle of the Guild and fulfil his greatest ambition. Surely he ought to be asleep, ready to face his great day with a clear head. But what did we care about Zargon and his ridiculous conjuring tricks? There were more important things to attend to...\n\n4th Day of the Year 713:\n\nYesterday ended so beautifully. Today was terrible. Before Zargon's initiation, Grywinn cast the rune-sticks to seek the gods' judgement on his elevation to archmage. Suddenly, a bolt of lightning struck from a clear sky and reduced Grywinn and his rune-sticks to ashes. Screams broke out. People fled in every direction. Only Zargon remained calm.\n\nStanding tall beside Grywinn's charred body, he took the pentagram amulet intended for his initiation and hung it around his own neck. \"If the most powerful magician in the land can no longer appoint me, then the second most powerful will have to do it!\" he cried.\n\nThe king and the terrified crowd were too stunned by the old mage's death to protest. Richard alone looked at Zargon with open contempt, making it plain that he knew who was responsible. I saw Grywinn's face just before the lightning struck. Whatever he had seen in the future had filled him with terror...\n\n5th Day of the Year 713:\n\nI am afraid. I can scarcely sleep for fear of what Grywinn foresaw. Now that Zargon can wield the full extent of his magic, will he turn it against his own people? Yesterday proved that he will kill to gain power. What terrible deed can he be preparing, if even its preparation demands a murder? Woe to us if my fears prove true!\n\nZargon is seen less and less. When he does appear, it is often in the gloomy vaults where the king's ancestors lie buried — a place none of us ordinary servants would dare enter alone. If he notices anyone else there, he hurries out without a word, almost as though fleeing something.\n\nWhile I sat with Simona in the castle kitchen during my midday break, we could see into the dining hall. Zargon was arguing fiercely with King Richard. He wanted the army taught the rudiments of magic to make it stronger, a proposal Richard had rejected years ago. The power-hungry magician seemed to have lost all respect for his ruler's decisions. He even called Richard a coward who was not man enough to contemplate war. At last the king rose in anger and strode out. Zargon remained at the table, smiling to himself and toying with his dinner knife...\n\n6th Day of the Year 713:\n\nSomething dreadful has happened! Noble warrior, if you should one day read these words, know that we are in mortal danger. Only the almighty gods can save our poor souls now. At the stroke of midnight, I heard shouting in the courtyard and hurried to the window. Horror seized me. Four half-rotted mummies were staggering across the courtyard to open the great castle gate. It had barely opened a crack before a vast army of hideously disfigured monsters poured in and seized the castle.\n\nScreams and cries filled the halls as the raging horde cut down everyone who resisted. Then all fell silent. A small band of rotting corpses, raised into a hideous mockery of life, emerged from the main building. In their midst was King Richard. He offered no resistance as they dragged him into another building. A few seconds of silence — then my lord's long, agonised death cry!\n\nMay the gods have mercy on my soul. The king's surviving soldiers have been herded into the courtyard like cattle for slaughter. They huddle together, trembling like frightened children. Now Zargon emerges from the doorway through which we heard our master's final cry: that wretched traitor, murderer and blasphemer! Slowly he walks along the line of prisoners, then steps onto a ledge. He offers the murdered king's followers a choice: serve Zargon as their rightful lord, or follow their king in death.\n\nNot one man raises a hand to join him. Zargon unleashes his pack on the defenceless prisoners. Within moments, the courtyard becomes a slaughterhouse. None of them survives...\n\nZargon has just ordered his henchmen to search the castle for anyone still alive. It is only a matter of time before they find me up here and drag me down. Take this book, noble warrior, as the last record of a glorious and peaceful age before evil came to our land. Pray for our souls. Avenge us, our friends and our families. I hope there is still time to take my own life and escape the torments my loyal comrades suff...\n",
+      "reason": "Restore courier visit, opposing votes, Simona invitation, upward door handle, chronology, murder preparations and unfinished final sentence; preserve the diarist's earnest historical voice."
+    },
+    {
+      "target": "object:2",
+      "text": "Stone altar",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:5",
+      "text": "Leather pouch",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:8",
+      "text": "Bed",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:9",
+      "text": "Bed",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:13",
+      "text": "Blood",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:26",
+      "text": "Orc child",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:28",
+      "text": "Chimney",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:29",
+      "text": "Code number",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:30",
+      "text": "Coffins",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:32",
+      "text": "Contract",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:36",
+      "text": "Crystal ball",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:41",
+      "text": "Counter",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:44",
+      "text": "Marble table",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:48",
+      "text": "Room door",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:49",
+      "text": "Room door",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:52",
+      "text": "Door handle",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:55",
+      "text": "Orc woman",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:63",
+      "text": "Four-poster bed",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:65",
+      "text": "Graveyard gate",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:66",
+      "text": "Graveyard gate",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:67",
+      "text": "Grave",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:73",
+      "text": "Ice palace",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:76",
+      "text": "Jack's ghost",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:78",
+      "text": "Cauldron",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:87",
+      "text": "Barred door",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:88",
+      "text": "Barred door",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:89",
+      "text": "Letter",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:90",
+      "text": "Magic door",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:91",
+      "text": "Orc man",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:92",
+      "text": "Map",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:93",
+      "text": "Grave slab",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:95",
+      "text": "Full moon",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:96",
+      "text": "Mummies",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:99",
+      "text": "North door",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:102",
+      "text": "Painting",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:103",
+      "text": "Painting",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:112",
+      "text": "Portal",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:114",
+      "text": "Prayer",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:117",
+      "text": "Room key",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:119",
+      "text": "Sarcophagus",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:120",
+      "text": "Sceptre",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:123",
+      "text": "Pantry shelves",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:128",
+      "text": "Sign",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:129",
+      "text": "Warning sign",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:131",
+      "text": "Skeleton",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:132",
+      "text": "Skeleton",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:134",
+      "text": "Sky",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:137",
+      "text": "Spring",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:138",
+      "text": "Warrior statue",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:139",
+      "text": "Steel door",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:140",
+      "text": "Steel door",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:141",
+      "text": "Steel door",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:143",
+      "text": "T-shirt",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:148",
+      "text": "Trousers",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:149",
+      "text": "Tree trunk",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:150",
+      "text": "Tree trunk",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:151",
+      "text": "Swimming trunks",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:153",
+      "text": "Kay's key",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:157",
+      "text": "Waterfall",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:158",
+      "text": "Weapons",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:159",
+      "text": "Werewolf",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "object:160",
+      "text": "West door",
+      "reason": "Correct object meaning, spelling or natural English noun; retain original ID and parser alias."
+    },
+    {
+      "target": "verb:29",
+      "text": "DROP",
+      "reason": "Use standard English adventure command terminology; command ID unchanged."
+    },
+    {
+      "target": "verb:31",
+      "text": "EXAMINE",
+      "reason": "Use standard English adventure command terminology; command ID unchanged."
+    },
+    {
+      "target": "verb:9",
+      "text": "INVENTORY",
+      "reason": "Use standard English adventure command terminology; command ID unchanged."
+    },
+    {
+      "target": "verb:37",
+      "text": "PUSH",
+      "reason": "Use standard English adventure command terminology; command ID unchanged."
+    },
+    {
+      "target": "verb:36",
+      "text": "PULL",
+      "reason": "Use standard English adventure command terminology; command ID unchanged."
+    },
+    {
+      "target": "verb:39",
+      "text": "TALK",
+      "reason": "Use standard English adventure command terminology; command ID unchanged."
+    },
+    {
+      "target": "verb:42",
+      "text": "GIVE",
+      "reason": "Use standard English adventure command terminology; command ID unchanged."
+    },
+    {
+      "target": "verb:10",
+      "text": "LOOK",
+      "reason": "Use standard English adventure command terminology; command ID unchanged."
+    },
+    {
+      "target": "verb:7",
+      "text": "EXITS",
+      "reason": "Use standard English adventure command terminology; command ID unchanged."
+    },
+    {
+      "target": "verb:15",
+      "text": "SCORE",
+      "reason": "Use standard English adventure command terminology; command ID unchanged."
+    },
+    {
+      "target": "verb:16",
+      "text": "SOLUTION",
+      "reason": "Use standard English adventure command terminology; command ID unchanged."
+    },
+    {
+      "target": "verb:21",
+      "text": "UP",
+      "reason": "Use standard English adventure command terminology; command ID unchanged."
+    },
+    {
+      "target": "verb:5",
+      "text": "DOWN",
+      "reason": "Use standard English adventure command terminology; command ID unchanged."
+    },
+    {
+      "target": "frontend:$AB23",
+      "text": "DROP",
+      "reason": "Match reviewed command label."
+    },
+    {
+      "target": "frontend:$AB2D",
+      "text": "EXAMINE",
+      "reason": "Match reviewed command label."
+    },
+    {
+      "target": "frontend:$AB38",
+      "text": "INVENTORY",
+      "reason": "Match reviewed command label."
+    },
+    {
+      "target": "frontend:$ABA4",
+      "text": "PULL",
+      "reason": "Match reviewed command label."
+    },
+    {
+      "target": "frontend:$ABAB",
+      "text": "TALK",
+      "reason": "Match reviewed command label."
+    },
+    {
+      "target": "frontend:$ABB3",
+      "text": "GIVE",
+      "reason": "Match reviewed command label."
+    },
+    {
+      "target": "frontend:$ABCC",
+      "text": "LOOK",
+      "reason": "Match reviewed command label."
+    },
+    {
+      "target": "frontend:$ABD3",
+      "text": "EXITS",
+      "reason": "Match reviewed command label."
+    },
+    {
+      "target": "frontend:$AC18",
+      "text": "SCORE",
+      "reason": "Match reviewed command label."
+    },
+    {
+      "target": "frontend:$AC20",
+      "text": "SOLUTION",
+      "reason": "Match reviewed command label."
+    },
+    {
+      "target": "frontend:$ACC6",
+      "text": "UP",
+      "reason": "Match reviewed command label."
+    },
+    {
+      "target": "frontend:$ACCE",
+      "text": "DOWN",
+      "reason": "Match reviewed command label."
+    },
+    {
+      "target": "engine:$48C2",
+      "text": "Game loaded successfully.",
+      "reason": "Natural English engine wording; translate leftover German fragments without changing formatting order."
+    },
+    {
+      "target": "engine:$48E9",
+      "text": "Choose a saved game to load.",
+      "reason": "Natural English engine wording; translate leftover German fragments without changing formatting order."
+    },
+    {
+      "target": "engine:$4917",
+      "text": "Choose a save slot.",
+      "reason": "Natural English engine wording; translate leftover German fragments without changing formatting order."
+    },
+    {
+      "target": "engine:$496C",
+      "text": "Game saved successfully.",
+      "reason": "Natural English engine wording; translate leftover German fragments without changing formatting order."
+    },
+    {
+      "target": "engine:$4994",
+      "text": "Enter a name for your save, then press Return.",
+      "reason": "Natural English engine wording; translate leftover German fragments without changing formatting order."
+    },
+    {
+      "target": "engine:$5EDF",
+      "text": "Lots...",
+      "reason": "Natural English engine wording; translate leftover German fragments without changing formatting order."
+    },
+    {
+      "target": "engine:$5F02",
+      "text": "  Save disk",
+      "reason": "Natural English engine wording; translate leftover German fragments without changing formatting order."
+    },
+    {
+      "target": "engine:$5F18",
+      "text": "Disk ",
+      "reason": "Natural English engine wording; translate leftover German fragments without changing formatting order."
+    },
+    {
+      "target": "engine:$5F24",
+      "text": ", side ",
+      "reason": "Natural English engine wording; translate leftover German fragments without changing formatting order."
+    },
+    {
+      "target": "engine:$5F2F",
+      "text": ", please...",
+      "reason": "Natural English engine wording; translate leftover German fragments without changing formatting order."
+    },
+    {
+      "target": "engine:$5F45",
+      "text": "So far you have scored ",
+      "reason": "Natural English engine wording; translate leftover German fragments without changing formatting order."
+    },
+    {
+      "target": "engine:$5F59",
+      "text": " of a possible 5060 points.",
+      "reason": "Natural English engine wording; translate leftover German fragments without changing formatting order."
+    },
+    {
+      "target": "engine:$5F80",
+      "text": "Please enter letter ",
+      "reason": "Natural English engine wording; translate leftover German fragments without changing formatting order."
+    },
+    {
+      "target": "engine:$5F90",
+      "text": " of word ",
+      "reason": "Natural English engine wording; translate leftover German fragments without changing formatting order."
+    },
+    {
+      "target": "engine:$5FA3",
+      "text": " ",
+      "reason": "Natural English engine wording; translate leftover German fragments without changing formatting order."
+    },
+    {
+      "target": "engine:$5FBB",
+      "text": ", paragraph ",
+      "reason": "Natural English engine wording; translate leftover German fragments without changing formatting order."
+    },
+    {
+      "target": "engine:$5FC6",
+      "text": ", line ",
+      "reason": "Natural English engine wording; translate leftover German fragments without changing formatting order."
+    },
+    {
+      "target": "engine:$5FD0",
+      "text": ". Do not count standalone lines (such as headings). ",
+      "reason": "Natural English engine wording; translate leftover German fragments without changing formatting order."
+    },
+    {
+      "target": "engine:$6012",
+      "text": "Please press the appropriate key ",
+      "reason": "Natural English engine wording; translate leftover German fragments without changing formatting order."
+    },
+    {
+      "target": "engine:$687A",
+      "text": "now...",
+      "reason": "Natural English engine wording; translate leftover German fragments without changing formatting order."
+    },
+    {
+      "target": "engine:$68DE",
+      "text": "All saved games have been deleted.",
+      "reason": "Natural English engine wording; translate leftover German fragments without changing formatting order."
+    },
+    {
+      "target": "engine:$5FAE",
+      "text": " on page ",
+      "reason": "Natural English engine wording; translate leftover German fragments without changing formatting order."
+    }
+  ]
+}

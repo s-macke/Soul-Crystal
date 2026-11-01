@@ -64,22 +64,14 @@ func correctEnglishAssets(root string, catalogs []Catalog, intro, diary []byte) 
 			texts[cat.Side+":"+key] = r.Text
 		}
 	}
-	var objects struct {
-		Objects []struct {
-			ID   int    `json:"id"`
-			Name string `json:"name"`
-		} `json:"objects"`
-	}
-	b, err := os.ReadFile(filepath.Join(root, "texts/C64_en/objects.json"))
+	auxiliary, err := englishAuxiliaryTexts(root)
 	if err != nil {
 		return nil, nil, nil, nil, err
 	}
-	if err = json.Unmarshal(b, &objects); err != nil {
-		return nil, nil, nil, nil, err
+	for target, text := range auxiliary {
+		texts[target] = text
 	}
-	for _, o := range objects.Objects {
-		texts["object:"+strconv.Itoa(o.ID)] = o.Name
-	}
+
 	targets := map[string]bool{}
 	for _, c := range corrections {
 		targets[c.Target] = true

@@ -1,12 +1,10 @@
 {
-  "source": "data/c64_en/SoulCrystalA2.d64",
   "chain": 11,
-  "prg_sha256": "056914a72c113ddd241483fb0f3f3346868ebdcf31175ab97074b55f1b0f2da9",
-  "title": "THE STORY",
+  "edition": "Reviewed English prose; screen_lines retain native evidence.",
   "pages": [
     {
-      "page": 1,
       "image": "story0.png",
+      "page": 1,
       "screen_lines": [
         "                                        ",
         "                                        ",
@@ -33,11 +31,12 @@
         "                                        ",
         "                                        ",
         "                                        "
-      ]
+      ],
+      "text": "\"Made it! That wasn't nearly as difficult as I thought,\" you tell yourself as you step off the bus that brought you from the next village's railway station to your hotel. You've actually escaped your parents' endless advice for the next few weeks. You never thought that would happen until the day you finally moved out — probably on the verge of a nervous breakdown..."
     },
     {
-      "page": 2,
       "image": "story1.png",
+      "page": 2,
       "screen_lines": [
         "As you stroll down the street,          ",
         "you think back about your departure,    ",
@@ -64,11 +63,12 @@
         "                   french town,         ",
         "                                        ",
         "                                        "
-      ]
+      ],
+      "text": "Strolling down the street, you think back to your departure. Your ever-so-concerned parents were still dispensing pearls of wisdom through the train window at the station. The nonstop chatter! The doom and gloom! Honestly, what is their problem? You're seventeen, for crying out loud. Almost old enough to get married! Surely you can manage a holiday on your own?\n\nSeventeen years old. And for thirteen of those years, you've spent the same weeks in the same dreary little French town..."
     },
     {
-      "page": 3,
       "image": "story2.png",
+      "page": 3,
       "screen_lines": [
         "with your parents, who - out of a pure  ",
         "sense of responsibility, of course -    ",
@@ -95,11 +95,12 @@
         "discussions...                          ",
         "                                        ",
         "                                        "
-      ]
+      ],
+      "text": "...with your parents, who, out of a noble sense of duty, simply couldn't pass up the chance to supervise your every move. Personally.\n\n\"That's it. I've had enough!\" you decided one day. With your customary tact, you informed them that you had no intention of spending another holiday surrounded by the living dead in that French \"health resort\".\n\nYou can still picture their horrified faces. Their own son, daring to get his own way! And you can still hear your father's flimsy arguments from those endless discussions..."
     },
     {
-      "page": 4,
       "image": "story3.png",
+      "page": 4,
       "screen_lines": [
         "Especially in the                       ",
         "last two months, the                    ",
@@ -126,11 +127,12 @@
         "                                        ",
         "                                        ",
         "                                        "
-      ]
+      ],
+      "text": "Especially over the last two months. The arguments just went on and on. Still, you won in the end!\n\nAll right, you admit with a small grin, you'd actually been toying with staying home while your parents were away and throwing a huge party. But then you realised you simply HAD to go somewhere. If only to show them who's boss!\n\nAnd now here you are. You take a deep breath of fresh, clean air and look around. Yes!"
     },
     {
-      "page": 5,
       "image": "story4.png",
+      "page": 5,
       "screen_lines": [
         "This is exactly the right place for     ",
         "young geniuses like you to be able to   ",
@@ -157,11 +159,12 @@
         "few months until you                    ",
         "turn eighteen...                        ",
         "                                        "
-      ]
+      ],
+      "text": "Just the place for a young genius like you to recover from the endless hardships of everyday life!\n\nSo this is adulthood. Complete freedom. Only for a few weeks, admittedly, but freedom all the same. And right now, that's all that matters. You can do what you like. And, last but certainly not least, drink what you like.\n\nWith any luck, by the end of your holiday you'll be sufficiently rested to survive those last few months at home before you turn eighteen..."
     },
     {
-      "page": 6,
       "image": "story5.png",
+      "page": 6,
       "screen_lines": [
         "Happy and full of the                   ",
         "energy that you used                    ",
@@ -188,11 +191,12 @@
         "now and lock your room door...          ",
         "                                        ",
         "                                        "
-      ]
+      ],
+      "text": "Happy and bursting with an enthusiasm rarely witnessed during term time, you enter the hotel, ring for the receptionist, sign the guestbook and collect your room key.\n\nYou lug your bags upstairs and start unpacking. A glance at your watch brings you up short: half past six already! You wanted to take a look at Loch Calderwood — the lake the old man on the bus had so many legends to tell about.\n\nThe unpacking can wait. You leave your things where they are and lock your room..."
     },
     {
-      "page": 7,
       "image": "story6.png",
+      "page": 7,
       "screen_lines": [
         "                                        ",
         "...behind you and leave the key at the  ",
@@ -219,11 +223,12 @@
         "                                        ",
         "                                        ",
         "                                        "
-      ]
+      ],
+      "text": "...behind you, then hand in the key at reception. There's still time to see a little of the countryside before dinner. Besides, you'll want something to tell your mother when you let her know you've arrived safely.\n\nThe last thing you need is her imagining that her poor little boy caught the wrong bus and is wandering lost and abandoned through the Scottish wilderness."
     },
     {
-      "page": 8,
       "image": "story7.png",
+      "page": 8,
       "screen_lines": [
         "                                        ",
         "                                        ",
@@ -250,7 +255,11 @@
         "                                        ",
         "                                        ",
         "                                        "
-      ]
+      ],
+      "text": "You step out of the hotel lobby and back onto the dusty street, ready to search for the legendary mountain lake. The setting sun bathes your face in warm, red-gold light..."
     }
-  ]
+  ],
+  "prg_sha256": "056914a72c113ddd241483fb0f3f3346868ebdcf31175ab97074b55f1b0f2da9",
+  "source": "data/c64_en/SoulCrystalA2.d64",
+  "title": "THE STORY"
 }

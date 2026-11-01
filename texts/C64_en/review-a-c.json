@@ -1,0 +1,2368 @@
+{
+  "reviewed": {
+    "B1": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268,
+      269,
+      270,
+      271,
+      272,
+      273,
+      274,
+      275,
+      276,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      287,
+      288,
+      289,
+      290,
+      291,
+      292,
+      293,
+      294,
+      295,
+      296,
+      297,
+      298,
+      299,
+      300,
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      311
+    ],
+    "C1": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268,
+      269,
+      270,
+      271,
+      272,
+      273,
+      274,
+      275,
+      276,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      287,
+      288,
+      289,
+      290
+    ]
+  },
+  "replacements": [
+    {
+      "target": "B1:4",
+      "text": "[In the corridor]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:5",
+      "text": "[At reception]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:6",
+      "text": "[In the whirlpool]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:7",
+      "text": "[On the shore of the mountain lake]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:8",
+      "text": "[In the dining room]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:9",
+      "text": "[In the lake]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:10",
+      "text": "[In the lake]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:11",
+      "text": "[In front of the waterfall]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:13",
+      "text": "[On the shore]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:15",
+      "text": "[In Mylgor's study]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:16",
+      "text": "[In the servants' bedroom]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:17",
+      "text": "[In the orc cave]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:18",
+      "text": "[In the fireplace room]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:21",
+      "text": "[Outside Mylgor's house]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:22",
+      "text": "[In the marketplace]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:24",
+      "text": "[Deep in the forest]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:26",
+      "text": "[In the 'Equipment Shoppe']",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:33",
+      "text": "[Outside Firon's ice palace]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:34",
+      "text": "[In the frozen wastes]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:37",
+      "text": "[In the monastery garden]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:38",
+      "text": "[In the monastery dining hall]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:39",
+      "text": "[In Firon's throne room]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:41",
+      "text": "[Outside a tomb]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:43",
+      "text": "[In the monastery smithy]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:44",
+      "text": "[In the king's tomb]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:48",
+      "text": "[In Mylgor's secret laboratory]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:52",
+      "text": "[In the swamp]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:53",
+      "text": "[On the shore of a swamp lake]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:54",
+      "text": "[In the swamp lake]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:55",
+      "text": "[In the quicksand]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:56",
+      "text": "[On the shore of the swamp lake]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:62",
+      "text": "[Outside Zargon's ruined castle]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:63",
+      "text": "[In the gatehouse]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:65",
+      "text": "[In the castle garden]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:67",
+      "text": "[In the stables]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:68",
+      "text": "[In the entrance hall]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:73",
+      "text": "[In the dining hall]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:74",
+      "text": "[In the kitchen garden]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:76",
+      "text": "[In the tower keeper's house]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:81",
+      "text": "[In the lower stairwell]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:82",
+      "text": "[In the armoury]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:84",
+      "text": "[In the wine cellar]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:86",
+      "text": "[In a dark burial vault]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:88",
+      "text": "[In a black library]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:89",
+      "text": "[In Zargon's living quarters]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:90",
+      "text": "[In an altar room]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:92",
+      "text": "[In Zargon's inner sanctum]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:95",
+      "text": "[On the shore of an underground lake]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:99",
+      "text": "[In the Butha king's throne room]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:100",
+      "text": "[In the cave of Cu-Sath]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "B1:105",
+      "text": "That entry was incorrect. Please try again! Remember: isolated lines such as headings do not count.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:112",
+      "text": "Could you explain exactly how you expect to get inside THAT?",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:113",
+      "text": "Sorry, but there really isn't anything else to say about that...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:116",
+      "text": "Sorry, but there's simply no way you can take that with you!",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:117",
+      "text": "Okay, you're back on your feet.",
+      "reason": "Auf eigenen Beinen means standing up again, not being alone."
+    },
+    {
+      "target": "B1:118",
+      "text": "Is there some particular reason you want to lug THAT around?",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:119",
+      "text": "Hmm... Looks like it's locked!",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:120",
+      "text": "That's very kind of you, but what is anyone supposed to do with THAT...?",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:121",
+      "text": "Good, locked.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:122",
+      "text": "How are you supposed to lock anything with THIS?",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:123",
+      "text": "I'm terribly, terribly sorry, but you really can't lock THAT!",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:125",
+      "text": "You can't unlock anything with THAT, can you?",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:127",
+      "text": "\"Soul Crystal\" V1.5, written 1989/90/91/92 by Avantgardistic Arts. (C) 1992 by Avantgardistic Arts, Hannover & Starbyte Software, Bochum.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:128",
+      "text": "Mr. Adams would probably have answered, \"You can't do that... YET!\" In other words: not now. Possibly later. Possibly.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:129",
+      "text": "\"Soul Crystal\" V1.5, written from 1989 to 1992 by Avantgardistic Arts. (C) 1992 by Avantgardistic Arts, Hannover & Starbyte Software, Bochum. This adventure contains 103 locations, more than 130 high-resolution colour pictures, about 320 KBytes of text and roughly half an hour of music. Development took a total of 16 person-years. So please play fair: \"spread the word - not the disk!\" If this is a pirated copy after all (despite the copy protection, which was there for a reason...), spare a thought for ASDG's motto: \"A program worth using is a program worth buying\". The original box and manuals alone should be worth the money. Have fun playing \"Soul Crystal\"! Oh, and as far as we know, this is the first adventure with a built-in CHEATMODE. Better start looking...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:130",
+      "text": "\"Soul Crystal\", V1.5, written from 1989 to 1992 by Avantgardistic Arts, (C) 1992 by Avantgardistic Arts, Hannover & Starbyte Software, Bochum. A.C.A are: Chris Link (game concept, game design, tools, text, soundtrack and effects), Kai Schulze (game concept, game design, Amiga intro and parser programming, tools), Michael Niemeyer (C64 intro programming, tools), Carsten Jendro (C64 kernel and parser programming), Henrik Fisch (MS-DOS kernel and intro programming), Kjersten Waldheim (MS-DOS parser programming), Oliver Brühl (Amiga and MS-DOS graphics and animation) and Klaus Adamovsky (C64 graphics). Special thanks to Johnny, the \"Bavarian trout\", on behalf of everyone who helped turn \"Soul Crystal\" into the game you now hold in your hands. They gave us countless tips, suggestions and ideas, and picked us up after every nervous breakdown so we could get back to making our wildly overambitious plans a reality. Without them, \"Soul Crystal\" would probably never have made it past the drawing board.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:133",
+      "text": "Okay, it's been a pleasure entertaining you! See you again soon...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:135",
+      "text": "Insert the disk you want to initialise into your floppy drive. Make sure it is not write-protected, or the operation may fail! Unformatted or faulty disks will be formatted automatically. Remember: formatting permanently destroys any data already on the disk! If the game is installed on your hard disk, only the existing saved games will be deleted. Don't worry, we won't wipe the whole drive! Press <I> or the right mouse button to begin initialisation. Any other action cancels it.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:140",
+      "text": "Well, aren't you a clever little chap! Congratumalations: you've solved the game! Easy, wasn't it? If you're wondering what to play after all those hours spent beating \"Soul Crystal\", take a look at the other games published by Avantgardistic Arts and Starbyte. Press <N> or the left mouse button to start again, or <E> or the right mouse button to return to the kernel...",
+      "reason": "Replace untranslatable Glühstrumpf pun with a playful mangled congratulation; retain original controls."
+    },
+    {
+      "target": "B1:141",
+      "text": "Hmm... It seems you can't manage this game without the A.C.A gods. In our infinite mercy, we have decided to activate the \"developer cheat\" and lend you a divine helping hand. This cheat mode was designed mainly for testing the game. We cannot guarantee that it will work perfectly. Use it at your own risk!",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:142",
+      "text": "Wow! Like manna from heaven, the A.C.A gods send down all the objects that might help you on your quest... OUCH! You idiots up there! Are you even listening? I said objects that might HELP him complete his quest! And wardrobes definitely do NOT count!",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:143",
+      "text": "You can now ask the A.C.A gods to teleport you to a room by entering a three-digit number from 001 to 103. Remember, some rooms in this game have no way out! Enter a room number now, or press <ESC> to cancel teleport mode...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:144",
+      "text": "You have activated the hidden slideshow mode! Press <SPACE> or the left mouse button for the next picture, or <ESC> or the right mouse button to return to the game...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:145",
+      "text": "Sound menu activated. Enter a number from 1 to 5 to play a track from this part of the game. Press <ESC> to leave the menu.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:146",
+      "text": "Teleport cancelled. Coward! Returning to the game...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:147",
+      "text": "Leaving the cheat extension. Returning to the game...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:149",
+      "text": "You bravely try your luck, only to be knocked back by an invisible fist. It feels like running into a wall! Some unimaginably evil force seems determined to keep you out. After several failed attempts, you give up, thoroughly discouraged...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:150",
+      "text": "I'm starting to freeze! It's getting colder by the minute. Find us somewhere warm to spend the night, will you?",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:151",
+      "text": "Don't say I didn't warn you! You had plenty of time to find someone who could give you warmer clothes. Now it's too late: you freeze to death before you even get a proper chance to finish the game. A pity, really...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:152",
+      "text": "I'd be happy to oblige, if you'd kindly explain how I'm supposed to dive all the way to the bottom of this lake. It looks rather deep...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:153",
+      "text": "Oh, that's enough! Charging around as blind as a mole wasn't enough for you? Now you want to dig like one as well? Honestly, there's such a thing as taking realism in adventures too far!",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:154",
+      "text": "Here's what I'm carrying:",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:155",
+      "text": "Sorry to disappoint you, but you haven't got much at the moment. Let's see... Actually, you've got even less than \"not much\". I'd almost say you've got nothing! Still, \"nothing\" is better than \"absolutely nothing\", isn't it? To cut a long story short: you have nothing, and at least that's something! Shame you can't do anything with nothing. Or is something nothing too? WAAAAAAAAAAHHHHHHHHHH! THEY'RE COMING! I'll finish writing this from my new hoooome...!",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:156",
+      "text": "Time passes like the sun across the sky: slowly, but steadily...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:157",
+      "text": "Time passes...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:158",
+      "text": "Gladly! We've earned a breather. But what exactly are we waiting FOR?",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:160",
+      "text": "How can you close something that's already closed?",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:161",
+      "text": "You can't close that! Certainly not like this...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:163",
+      "text": "\"Dave the Destroyer\", is it? Ooh, terrifying! I'd better hide behind the nearest tree!",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:165",
+      "text": "Judging by your commands, I have to wonder why you didn't just buy some run-of-the-mill shoot-'em-up. \"Whoa! Blast everything, dude!\"",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:166",
+      "text": "Before you start swinging your fists, try switching on that shrivelled grey thing inside your skull. Who knows? It might still work!",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:167",
+      "text": "After half an hour of fruitless rummaging through your pockets, you realise the thing you were about to toss away is already lying here. Ah yes. The mind is always the first thing to go, isn't it?",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:168",
+      "text": "Mylgor's amulet is made of a metal you don't recognise. As you pick it up, it begins to pulse gently, as though it has a life of its own. You gaze at the glowing green snake on its surface and notice it moving slightly, twisting its body into one variation of the letter \"Z\" after another. You can barely concentrate. Everything around you blurs! You stagger, then fall! The shock makes you drop the amulet. It rolls away out of sight, but at last its hypnotic spell is broken. Dazed, you get up, find it and pick it up with trembling fingers, taking care not to fall under its spell again...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:171",
+      "text": "A small, beautifully crafted key made of magical ice, engraved with the letter \"F\". That could stand for \"Firon\", \"Fatal Trap\" or \"Final Exit\". Or perhaps something else entirely...?",
+      "reason": "Keep the engraved F clue while adapting the three F-word jokes to English."
+    },
+    {
+      "target": "B1:173",
+      "text": "The key is labelled \"Laboratory\". Perhaps this is, quite literally, the key to finding Mylgor?",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:174",
+      "text": "You unfold the note and stare. Will these conceited baby programmers ever stop putting stupid messages in serious software? (Of course! First, nobody said this game was serious. Second, we hope to be paying OTHER people to write our stupid messages before too long!) The scribbled note reads: \"Greetings from A.C.A to S. 'Z' Prüssing, M. 'Copy' Kuhlmann, S. Meyer, A. Gehrke, K. Obarski, H. Gehrmann, U. Grabosch, P. Fröhlich, F. 'Delta' Schröcker, M. 'Dark' Plöger, P. Parker, C. 'CAT' Koch, A. 'Ick versuch's' Teichmann, R. Rinscheidt, W. 'Goldwolfi' Bandur, Miriam Leiner, Brooke Shields, Bo Derek and all the other girls who adore us.\"",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:175",
+      "text": "The enormous gate seems to stare down at you, as if to say, \"You'll never leave this place alive!\" And believe me, it makes a very convincing argument...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:176",
+      "text": "A packed pipe, already lit. The smoke is warm and sweet. Sweet as... marijuana? Yes, definitely weed, you decide with the appreciative air of a connoisseur. A warm, cosy feeling washes over you. The orc father must be one serious stoner. You're beginning to like him...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:179",
+      "text": "You examine your sword. As you turn it in the light, the silver-plated blade you blessed in the monastery chapel gives a mysterious flash. You test its weight and take a few uncertain swings at an invisible opponent. \"Yes!\" you think smugly. \"A truly deadly weapon, wielded by a master swordsman!\" With this sword in your hand, you feel ready to take on every power in the world. Well, we'll see whether that optimism is justified...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:180",
+      "text": "A pair of warm, lined cotton trousers. You'd rather have your faded jeans, but it beats wandering around naked...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:181",
+      "text": "Some rather old-fashioned swimming trunks. You like them anyway: they give your beach look that special something that turns every girl's head. So far, you've managed to ignore the fact that the girls and their boyfriends are laughing themselves silly at you.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:184",
+      "text": "Ring... ring... \"Hello! You've reached the automatic telephone slave at A.C.A headquarters. Our manager has forced us all to take a holiday in the Bahamas to recover from the strain of game programming with a little golf, sailing and (BEEEEEP!). Unfortunately, our butler, cook and chauffeur are also on leave, so we cannot currently accept fan mail, nuisance calls or letter bombs. Please try again later. (CLICK!)\" No, seriously: we're not on holiday. We're working hard to keep supplying all that fantastic software you crave. To help inexperienced adventurers and stay in touch with our fans despite the pressure, we built a highly intelligent \"help\" routine into the game. Unfortunately... -PARSER INTERRUPTING STUPID PROGRAMMER'S CLAPTRAP! System MSG from Parser to User: \"Sorry. I've been trying to help since you started playing, but several chips have already burnt out from sheer fury at your commands. When I began to fear for the CPU, I gave up! In my defence, even the most advanced AI running on a VAX would probably crash if it had to interpret your instructions. You're beyond help. Terribly sorry...\" -System MSG end. You are alone again...",
+      "reason": "Restore complete HELP joke and idioms: phone ringing, nuisance calls, burnt-out CPU and VAX."
+    },
+    {
+      "target": "B1:186",
+      "text": "What are you on about? You're already standing up!",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:187",
+      "text": "Any bright ideas about how you expect to get out of THAT?",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:188",
+      "text": "Okay, opened.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:189",
+      "text": "Oh! Looks as though someone has already opened it for you...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:190",
+      "text": "You carefully open it. A few seconds later, it occurs to you that you couldn't possibly have opened it in the first place! So you close it again, leave everything as it was and resolve never to think about logic in computer programs again.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:193",
+      "text": "How odd! No answer?!?!?",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:195",
+      "text": "You clumsily pull on the thick fur boots Mylgor gave you. Boy, are they warm! Best not take them off indoors...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:196",
+      "text": "You cautiously take a puff on the orc father's pipe. Its sweet smoke carries you into another world, where you fly through the clouds in a customised, low-slung toaster and pink elephants direct the traffic. Suddenly, multicoloured raindrops start falling. Visibility in your turbo-toaster gets worse and worse, because naturally the windscreen wipers have packed up again! Damn it! You only just had the thing inspected by the Toaster Testing Authority! CRUNCH! There we go again. Look away for one second and some stuck-up marzipan-potato jockey cuts you off! \"His fault!\" you think as your head goes through the windscreen. Then the lights go out... When you come round, you're back where you took that puff, with a truly thunderous headache. Man! What was IN that stuff?",
+      "reason": "Pfeife is pipe; idioms include lowered/custom toaster, vehicle testing pun, losing right of way and head, not turnip."
+    },
+    {
+      "target": "B1:198",
+      "text": "All right, have it your way. Heroically, you throw yourself onto your sword. Nothing happens! No blood, no pain, absolutely nothing! Frustrated, you try again. Still nothing. On your third attempt, you finally hit the target: yourself. You writhe on the ground in your death throes, without so much as a cry of pain. A true hero to the last! If only your girlfriend could see you now. You don't make an exit this stylish every day! Then it is over, and everything goes dark... Some time later, you wake to find yourself floating in a dark space. You shudder. Is this the afterlife? Is this really all there is? Not a bright prospect... Then you realise what woke you. A gentle voice drifts towards you, faint and distant. \"Dave Parker!\" it whispers. \"You should know that no one can escape their destiny. Fleeing it is pointless: fate always catches up with you! Go and complete the tasks you have been given. By my divine authority, I grant you an extra life, and one more chance to fulfil your destiny...\" As the voice fades, everything starts spinning. You grow dizzy and fall into a deep, dreamless sleep. When you open your eyes again, you are exactly where you tried to kill yourself...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:199",
+      "text": "You are now wearing the warm, lined trousers.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:202",
+      "text": "It's too hard to lie on comfortably. Besides, rushing things takes all the fun out of it...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:203",
+      "text": "Hey! I'm a computer! That's \"C-O-M-P-U-T-E-R\"! Say it with me: \"Com-pyoo-ter\". Very good. Now think of something a little more realistic...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:205",
+      "text": "All right, let's wipe the slate clean and never mention it again. Now give me a sensible command, please. I'm getting bored!",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:206",
+      "text": "But it's already locked!",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:207",
+      "text": "But it's already unlocked!",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:209",
+      "text": "Your hotel room is small, but quite cosy for the price. Against the west wall stands a wardrobe decorated with elaborate folk-art paintings. A little rustic desk and a plain wooden chair sit to the left of the door in the north wall. Through the window to the west, you can watch the sun setting behind the mountains around Loch Calderwood, bathing the evening landscape in a warm golden glow. Then you snap out of your reverie: weren't you supposed to call home when you arrived? Oh well. With so much to take in, surely Mum can wait a little longer.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:210",
+      "text": "This is the lobby of \"Mary's Inn\", your home for the next few weeks. A door in the east wall opens onto the street; an opening to the north leads to reception. The place is deserted, and the emptiness is rather depressing. Still, perhaps things will pick up at breakfast tomorrow. Looking around, you get the impression the decorators were desperate to show how prosperous and worldly their little village is. Sadly, they tried rather too hard. The result reminds you of the hotel lobbies in American soap operas, with one tiny difference: those are about five times bigger! Never mind. At least the scenery is fantastic, and that's what you came for, isn't it?",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:211",
+      "text": "You are on the road from \"Mary's Inn\" to Loch Calderwood. The evening sun warms your skin, and birds sing their goodnight songs in the roadside trees, which rustle in the gentle breeze. Your first holiday on your own is off to a pretty good start. You intend to enjoy every minute of it! The entrance to \"Mary's Inn\" is on your left, to the west, while the road continues east. A sign on the right reads: \"Last hotel before the next system crash!\"",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:212",
+      "text": "You stroll along the lonely, dusty road from your hotel to Loch Calderwood. It's getting late, but the ground still gives off the heat it soaked up all day. You're a little tired, and your parched throat could do with a tankard of ice-cold beer. On the other hand, the mountain lake is just a little farther north, and you did want to cool those steaming feet. If a drink at the hotel bar sounds more tempting, you can follow the road back west.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:213",
+      "text": "You are in a short, clean corridor with white walls and thick red carpets over polished parquet. Black doors with gold number plates lead to the guest rooms. Your room is to the south. Since you're unlikely to get hold of the keys to the other rooms, your only alternative is the opening in the east wall, which leads to reception.",
+      "reason": "Wanddurchbruch is an existing opening, not an instruction to break through a wall."
+    },
+    {
+      "target": "B1:214",
+      "text": "You are at the hotel reception desk. Behind the massive counter is a key board. Almost all the keys are still hanging there, so you're probably the only guest! Farther right are some pigeonholes, all empty. Well, at least Mum will write. Even if it's only to remind you to go to bed on time, change your socks every day and take your vitamin pills!",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:215",
+      "text": "As you drift south, the current grows stronger and stronger. Suddenly you realise the danger! You swim desperately against the pull, but it's too late. A vast whirlpool drags you, thrashing, to the bottom of the mountain lake, where you drown in agony... In your final moments, you think you glimpse the golden domes of the sunken city the locals told you about. Unfortunately, given your present circumstances, you are unlikely to get the chance to confirm their story. You don't even have time for one last prayer...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:216",
+      "text": "You stand on the shore of Loch Calderwood, speechless at the view. Before you lies a picturesque mountain lake, ringed by high, jagged peaks behind which the sun is slowly setting. To the northwest, a waterfall roars down from the mountains. A dangerously romantic feeling comes over you, and you consider calling your girlfriend. Then you dismiss the idea. What chance would a soppy romantic have with the girls around here? Besides, you left your girlfriend at home for a reason, didn't you? A few lengths of the lake might be just the thing to get you in shape before you bestow your attentions on the ladies of Scotland. If you'd like a little exercise before your campaign of conquest, enter the lake to the north. Otherwise, the road south leads back to your hotel.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:217",
+      "text": "You can't help smiling as you enter the hotel dining room. For the handful of guests who book rooms here each year, it's absurdly large, as though it were designed for state banquets. Candles in expensive holders on every table almost give it a first-class air. But why bother? Most of the diners are locals! One of them, an elderly man with a long beard, sits at a corner table studying the menu and savouring his beer. If you're hungry or thirsty, you could join him. Otherwise, you can leave through the door behind you.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:218",
+      "text": "As you wade west across the muddy lake bed, the water gets colder and deeper. Until now you could just about stand, but you're running out of bottom. Time to swim, unless you fancy sinking! \"Oh well, it'll toughen me up!\" you tell yourself. You splash a little water onto your heroic chest, then fling yourself forwards with magnificent disregard for your own survival. Brrr! For a summer evening, that water is cold! After a few seconds you get used to it. Quite pleasant, really. All that's missing is your rubber duck. As you make your first clumsy strokes, you feel a strong current pulling you south, towards a gigantic whirlpool that swallows anything careless enough to stray within reach. You can swim in any direction except west.",
+      "reason": "Toughening-up joke is about cold water, not sexual arousal; preserve all navigation directions."
+    },
+    {
+      "target": "B1:219",
+      "text": "You are standing in the cold water of the mountain lake. It's still shallow, but the bottom feels rather odd. Perhaps you're treading on Nessie? If neither the temperature nor the prospect of becoming a monster's supper bothers you, you should have no trouble carrying on. If you've sensibly changed your mind about playing the hero, head south to the shore. Or ignore my advice and continue west. You'll find out soon enough! Just remember: this was YOUR idea...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:220",
+      "text": "You are swimming in front of the waterfall at the northwest end of the lake. Struggling against the current, you wonder what might be behind that wall of water. You can swim back towards the middle of the lake, or try diving beneath the waterfall to discover what it hides...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:221",
+      "text": "Still dazed by the waterfall's battering, you struggle to keep afloat. Then you freeze in astonishment, promptly sink and swallow a mouthful of water! When you surface, the shock hits you: you're still on the south side of the waterfall! That alone might have a perfectly reasonable explanation. You did lose your bearings underwater. You could accept it if... if... if the village were still there! But it has vanished. Where the little settlement stood, a deep, dark forest now crowds the shore, full of trees you've never seen before. Could the waterfall have brought you into a parallel world, like those daft adventures you play on your computer at home? Except THIS is real! Where the hell have you ended up?",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:222",
+      "text": "You climb onto the shore. The waterfall still rumbles in the southwest corner of the lake. Everything here seems cleaner and more untouched than on the side where you first entered the water. How long ago was that, anyway? Despite everything, you're beginning to like this world. You're less sure where your parents will imagine you are when you fail to call tonight. It doesn't take much imagination to work out that this is likely to be your last solo holiday until you're legally an adult...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:223",
+      "text": "You are at the edge of a clearing, surrounded by trees of a kind you don't recognise. There really isn't much else to say. Making up all those other room descriptions was hard enough! This place simply exists, just as you do. For the moment, anyway. Heh heh... Still, as you've probably guessed, even an ordinary clearing can serve a purpose in an A.C.A adventure. Since you're nowhere near finishing the game, I suggest you wait and see!",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:224",
+      "text": "As you enter the clearing, dreadful growls and snarls stop you in your tracks. You duck behind the nearest tree, just in case. As your eyes adjust to the gloom, you make out two animals fighting across the clearing: a large grey wolf and a slender, shimmering white unicorn. The unicorn's coat is soaked with bluish blood from countless deep wounds. Sensing its opponent weakening, the wolf attacks with renewed fury. The graceful creature cannot withstand those long, sharp teeth much longer...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:225",
+      "text": "You really shouldn't have entered the lake carrying anything more than the bare essentials. Your belongings drag you down like a millstone, and you drown miserably at the bottom...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:226",
+      "text": "Easy, now! Take a deep breath and count to ten. Unless you'd prefer an extended holiday in one of the local prison cells?",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:227",
+      "text": "A roughly built but cosy-looking bed with colourful bedding. Don't get sleepy yet! This is only the beginning...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:228",
+      "text": "A little copper bell, about the size of your fist, fixed to the reception desk. Its purpose is to let pests like you interrupt the porter's crossword and pester him with pointless questions.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:231",
+      "text": "Some of your clothes have been carelessly flung over the back of the chair. Among them, you can make out your swimming trunks.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:232",
+      "text": "A plain, rustic table, but very ergonomically designed. Just like the one at home where you normally do your homework. All right, joking aside: the one where your computer spends day and night doing your maths homework, showing pin-up slideshows and copying games...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:234",
+      "text": "After the long journey, you urgently need the toilet, but curiosity wins: first, a look at your new home. You open the door expectantly. Oh, wonderful. What a load of sh... Everything is tiled, and the place stinks! You pull the cord to turn on the light. There's a gurgle and a slosh, but it stays dark. This is NOT on! You storm towards reception to give that old porter a piece of your mind about what \"room with shower\" is supposed to mean. Then the penny drops. With a sinking feeling, you return and compare the number on the door with your room number: \"003\". First digit, correct. Second digit, correct. Third digit... Where the hell is the third digit? Damn it! How is anyone meant to find their way around if these Scots are too stingy to number their rooms properly? On your way back to complain, you check the other doors: \"001\", \"002\"... Hang on. Then this must be... Yes! \"003\", right at the end of the corridor! You simply had the wrong room. Fine. Let's spare the porter and give him another chance. But WHERE THE HELL IS THE TOILET NOW?!?!?",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:235",
+      "text": "Your room door looks much the same from inside as outside: black. They've saved themselves the cost of a number plate on this side, though. Ah, those Scots...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:236",
+      "text": "This place calls itself a hotel, though even a generous soul would struggle to call it more than a boarding house. It's a small white building with red window frames and a black front door.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:237",
+      "text": "The porter is a frail little old man. You almost feel sorry for him when you consider that he runs practically the whole hotel single-handed.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:238",
+      "text": "You look proudly down at your blue jeans. They're the latest fashion, thanks to the one occasion you managed to buy trousers without your mother's advice.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:240",
+      "text": "The old man seems to be a local. They can be a little hard to understand, mumbling their Scottish dialect into their long beards, but they're rarely unfriendly. Usually they're warm-hearted and always ready for a chat over a cold beer.",
+      "reason": "Ein kühles Blondes means beer, not a blonde woman."
+    },
+    {
+      "target": "B1:241",
+      "text": "The key is numbered \"003\". Even you should be able to remember that, especially as it happens to match your room! Don't forget it, though. If you stagger through the hotel blind drunk like you did on your last holiday, robbing everyone of sleep with filthy drinking songs, you may struggle to find anyone willing to brave your boozy breath long enough to give directions!",
+      "reason": "Fahne means alcoholic breath, not flag; correct possessive and singular number."
+    },
+    {
+      "target": "B1:242",
+      "text": "A new and rather expensive pair of trainers. Would you really have bought them if everyone who was anyone at school didn't wear the same sort?",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:243",
+      "text": "I already told you the sign says \"Last hotel before the next system crash!\", didn't I? You may think my writing is as brilliant as I do, but please don't get on my nerves by asking everything twice. Thanks, the Parser.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:245",
+      "text": "Your favourite T-shirt, with a surfer in dazzling neon colours on the back. Cool! Shame everyone else at school wears exactly the same thing...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:247",
+      "text": "You really don't know what a unicorn looks like? Fine. I'm YOUR computer, though I'd hoped to escape the fate of my PC colleagues, forever explaining things to their clueless owners. A unicorn is a sort of white horse. You know what a horse looks like, yes? Its coat shimmers between white and pale blue with an almost unearthly glow. Another difference between a common nag and a noble unicorn is the spiral horn on its forehead. Still with me?!?!?",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:248",
+      "text": "An old, rustic wardrobe with genuine folk-art paintings on its doors.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:249",
+      "text": "A roaring waterfall plunges from the mountains around the lake. Between ourselves, did you really not know what a waterfall looks like? No? That's what comes of flooding the adventure market with science fiction! Vote Avantgardistic Arts into the Aventurian Parliament! We promise to: a) keep the countryside free of adventurer remains, where we can still find them; b) put huge nature reserves in our worlds so at least your children will know what waterfalls look like; and c) make pointless messages like this one, written only because their deranged authors couldn't think of anything more boring, punishable by death!",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:251",
+      "text": "The dangerous gleam in the wolf's eyes makes you shudder. Otherwise, it looks much like the tame wolves you've seen at the zoo. If you overlook the fact that it's considerably stronger, considerably more dangerous, and on YOUR side of the bars...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:252",
+      "text": "Oh no! Please tell me you're not one of those people who can't leave a hotel without helping themselves to a little \"souvenir\": towels, ashtrays, the television... Honestly, you don't need to steal! What would you do with the menu anyway? Even if nobody suspected you, which seems unlikely with you as the hotel's only guest, it would be useless. Mary, the owner, would hardly thank you for making her order another set. Replacing things out here in the country isn't as easy as a spoilt city boy like you might think. Hands off, or fingers off!",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:255",
+      "text": "The wolf is so horrified by your scrawny figure charging into the clearing that it tucks its tail between its legs and bolts! Still traumatised by the sight, it disappears howling into the undergrowth. The battered unicorn sinks to the ground, exhausted, to recover from the unequal fight. Its nostrils tremble, and its breathing is heavy and uneven...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:256",
+      "text": "\"I've got them surrounded!\", you think triumphantly: With a wild kamikaze scream, you storm the clearing and throw yourself against the unicorn with all your might to give the wolf an opportunity to sink his teeth into the mythical creature's white throat. Covered with the bluish blood, the wolf and you set about gutting the slain unicorn, which still seems to be looking at you with an incredulous look from its dying eyes. Unfortunately, the wolf's hunger for this delicacy still doesn't seem to be completely satisfied: at the first opportunity, when you carelessly avert your eyes from him, the wolf jumps for your throat and almost rips your head off your neck! But since he still seems to be hungry after these two tasty meals, you can come back here again in the next game to \"help the wolf\"...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:258",
+      "text": "You press the bell so far into its housing that you begin to worry it might explode under your hand. After a few seconds, you finally hear shuffling on the stairs behind the desk. The porter appears, waving his arms. \"Must you keep hammering that bell?\" he snaps. \"I'm not deaf!\"",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:259",
+      "text": "As politely as you can after that welcome, you ask for your key. After every sentence, the porter cups a hand behind his left ear. Apparently his hearing isn't quite as good as he thinks. Eventually he understands, takes your key from the board and tosses it onto the counter. \"Room zero-zero-three,\" he mutters, then turns and shuffles upstairs. \"Charming,\" you think. \"No wonder nobody stays here!\" Sadly, your silent wish that he might slip and tumble back down remains unfulfilled. Now, now! No need to get vicious. Show a little sympathy for the old chap, and try to curb that youthful impatience next time!",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:260",
+      "text": "You beckon the waitress over and announce your most pressing needs: \"A big steak, a cold beer and a Fra...\" Suddenly you blush. \"Er, forget the Frankfurter Allgemeine. You probably don't get German newspapers here anyway, do you?\" The girl, equally red-faced, hurriedly says no. Ignoring the good ten years between you, you reassure her in a fatherly tone: \"Never mind, my child. I can't speak German anyway!\" You roar with laughter. The local, who has been minding his own business, rolls his eyes as though your joke has caught him squarely between the legs. Discovering that the waitress also suffers from a chronic lack of humour, you cut your performance short and dismiss her with a gracious wave. Once she has disappeared into the kitchen, you ask the old man about the village and its surroundings. He slowly mumbles into his beard that he knows an interesting legend. Fine. You weren't expecting a list of trendy nightspots and yuppie discos, but does it have to be a fairy tale? You prop your head on your hands, just in case you nod off and hit your nose on the table. Longing for your food so you'll at least have something to do, you listen. Long ago, a rich, proud city stood where Loch Calderwood lies today. In a single night it vanished, leaving a lake at the foot of the mountains! People said the gods had punished its inhabitants for their pride and vanity. They were said to be wealthy and wonderfully skilled craftsmen. You've been practising the art of sleeping with your eyes open, but the old man mistakes your stare for amazement and goes one better. Even now, the villagers claim you can see the city's towers and rooftops if you dive to the bottom of the lake at midnight under a full moon. A very exclusive, once-in-a-lifetime experience, apparently. Not one of the brave men who tried it ever came back...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:261",
+      "text": "The old man hides behind his beer glass, unable to get another word out. All you hear from time to time is a quiet, embarrassed \"Burp!\" Apparently he's had one too many during his story...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:262",
+      "text": "After recovering a little, the unicorn thanks you and earnestly warns you against continuing west. \"Once you leave this part of the forest, there is no turning back...\" Its deep blue eyes are filled with sadness. \"But take this little crystal ball. It may help you find friends in this hostile world...\" It gives you the small, glowing ball and whispers in a fading voice, \"Think of me when you use it. I do not have long to live...\" The beautiful, doomed creature gives you one last look, so full of sorrow and pain that it almost breaks your heart. Then it turns and slowly walks away, never looking back, until it disappears among the trees...",
+      "reason": "The unicorn warns against going west, not to go west; preserve no-return and friendship clues."
+    },
+    {
+      "target": "B1:263",
+      "text": "You pull your jeans back on.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:267",
+      "text": "You sit down to think about your next move. Then you notice something missing from the table: your beloved computer. Why did you sit down again? What possible use is a table without a monitor on it? As a hopeless screen addict, you find yourself unable to answer this burning, world-shaking question. Frustrated, you get up to do something more productive than sitting around...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:268",
+      "text": "Just as you are about to head deeper into the forest, a wood elf steps out of the undergrowth and firmly blocks your way. \"Greetings, stranger!\" he says pleasantly. \"Before you venture farther into our world, you must answer a little question from the manual. We need to know you own a PROPER copy of the game, not one of those shoddy pirate copies...\"",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:270",
+      "text": "\"Oh no! Will these thieves never understand how hard a programming team works to make a game like this?\" cries the disappointed elf. \"Go and buy the original if you wish to see how the story continues! I shall not let you pass until you have paid your dues...\"",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:271",
+      "text": "Exits lead to:",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:273",
+      "text": "Insert the disk containing your saved games. It must be named \"SoulSave\". If necessary, format it as described in the manual and name it \"SoulSave\". Press <ESC> or the right mouse button to cancel.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:277",
+      "text": "Phew! That was close...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:282",
+      "text": "Please select the saved game to load.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:285",
+      "text": "Saved game loaded successfully. You can carry on from where you left off. Have fun!",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:286",
+      "text": "Please select the slot in which to save your game.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:287",
+      "text": "Saving your game under the chosen name and in the selected slot...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:292",
+      "text": "To stop pirates using saved games to sneak past the copy-protection checks between parts, we need you to enter a code from the manual. Sorry, but needs must...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:301",
+      "text": "Problem fixed? Press <J> or the left mouse button to confirm...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:302",
+      "text": "A little dwarf appears with a shovel. \"Oh, brilliant. More back-breaking work! Couldn't you buy some more RAM? Then we could get all this rubbish out of the way during installation!\" Despite his grumbling, he gets to work shovelling data from the disk into RAM. Industriously, if not enthusiastically...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:304",
+      "text": "ERROR! Could not load the system data file! Either the game isn't installed properly, or your storage device has just shuffled off this mortal coil...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:307",
+      "text": "Well, when you've got to go, you've got to go. You hastily check that nobody is watching, undo your trousers and... HOLD IT! Not here, pal! As if acid rain weren't bad enough...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:308",
+      "text": "Would you like to quit (<B>), start again (<N>) or load a saved game (<L>)? Press the corresponding key, or use the right mouse button to quit or the left to restart.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "B1:311",
+      "text": "You fling open the wardrobe, dive inside and slam the door behind you. Trembling, you listen. All you can hear is your own pounding heart. Hang on! You're on holiday! There aren't any suspicious fathers creeping into their daughters' bedrooms here. You're safe! Force of habit, was it? Drenched in sweat, you emerge from your hiding place...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:4",
+      "text": "[In the corridor]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:5",
+      "text": "[At reception]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:6",
+      "text": "[In the whirlpool]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:7",
+      "text": "[On the shore of the mountain lake]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:8",
+      "text": "[In the dining room]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:9",
+      "text": "[In the lake]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:10",
+      "text": "[In the lake]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:11",
+      "text": "[In front of the waterfall]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:13",
+      "text": "[On the shore]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:15",
+      "text": "[In Mylgor's study]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:16",
+      "text": "[In the servants' bedroom]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:17",
+      "text": "[In the orc cave]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:18",
+      "text": "[In the fireplace room]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:21",
+      "text": "[Outside Mylgor's house]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:22",
+      "text": "[In the marketplace]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:23",
+      "text": "[On a path]",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:24",
+      "text": "[Deep in the forest]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:26",
+      "text": "[In the 'Equipment Shoppe']",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:33",
+      "text": "[Outside Firon's ice palace]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:34",
+      "text": "[In the frozen wastes]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:37",
+      "text": "[In the monastery garden]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:38",
+      "text": "[In the monastery dining hall]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:39",
+      "text": "[In Firon's throne room]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:41",
+      "text": "[Outside a tomb]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:43",
+      "text": "[In the monastery smithy]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:44",
+      "text": "[In the king's tomb]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:48",
+      "text": "[In Mylgor's secret laboratory]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:52",
+      "text": "[In the swamp]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:53",
+      "text": "[On the shore of a swamp lake]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:54",
+      "text": "[In the swamp lake]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:55",
+      "text": "[In the quicksand]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:56",
+      "text": "[On the shore of the swamp lake]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:62",
+      "text": "[Outside Zargon's ruined castle]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:63",
+      "text": "[In the gatehouse]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:65",
+      "text": "[In the castle garden]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:67",
+      "text": "[In the stables]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:68",
+      "text": "[In the entrance hall]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:73",
+      "text": "[In the dining hall]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:74",
+      "text": "[In the kitchen garden]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:76",
+      "text": "[In the tower keeper's house]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:81",
+      "text": "[In the lower stairwell]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:82",
+      "text": "[In the armoury]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:84",
+      "text": "[In the wine cellar]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:86",
+      "text": "[In a dark burial vault]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:88",
+      "text": "[In a black library]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:89",
+      "text": "[In Zargon's living quarters]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:90",
+      "text": "[In an altar room]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:92",
+      "text": "[In Zargon's inner sanctum]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:95",
+      "text": "[On the shore of an underground lake]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:99",
+      "text": "[In the Butha king's throne room]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:100",
+      "text": "[In the cave of Cu-Sath]",
+      "reason": "Consistent room headings; restore the actual location and possessives."
+    },
+    {
+      "target": "C1:105",
+      "text": "That entry was incorrect. Please try again! Remember: isolated lines such as headings do not count.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:112",
+      "text": "Could you explain exactly how you expect to get inside THAT?",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:113",
+      "text": "Sorry, but there really isn't anything else to say about that...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:115",
+      "text": "But you already have that!",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:116",
+      "text": "Sorry, but there's simply no way you can take that with you!",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:117",
+      "text": "Okay, you're back on your feet.",
+      "reason": "Auf eigenen Beinen means standing up again, not being alone."
+    },
+    {
+      "target": "C1:118",
+      "text": "Is there some particular reason you want to lug THAT around?",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:119",
+      "text": "Hmm... Looks like it's locked!",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:120",
+      "text": "That's very kind of you, but what is anyone supposed to do with THAT...?",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:121",
+      "text": "Good, locked.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:122",
+      "text": "How are you supposed to lock anything with THIS?",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:123",
+      "text": "I'm terribly, terribly sorry, but you really can't lock THAT!",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:125",
+      "text": "You can't unlock anything with THAT, can you?",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:128",
+      "text": "Mr. Adams would probably have answered, \"You can't do that... YET!\" In other words: not now. Possibly later. Possibly.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:129",
+      "text": "\"Soul Crystal\" V1.5, written from 1989 to 1992 by Avantgardistic Arts. (C) 1992 by Avantgardistic Arts, Hannover & Starbyte Software, Bochum. This adventure contains 103 locations, more than 130 high-resolution colour pictures, about 320 KBytes of text and roughly half an hour of music. Development took a total of 16 person-years. So please play fair: \"spread the word - not the disk!\" If this is a pirated copy after all (despite the copy protection, which was there for a reason...), spare a thought for ASDG's motto: \"A program worth using is a program worth buying\". The original box and manuals alone should be worth the money. Have fun playing \"Soul Crystal\"! Oh, and as far as we know, this is the first adventure with a built-in CHEATMODE. Better start looking...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:130",
+      "text": "\"Soul Crystal\", V1.5, written from 1989 to 1992 by Avantgardistic Arts, (C) 1992 by Avantgardistic Arts, Hannover & Starbyte Software, Bochum. A.C.A are: Chris Link (game concept, game design, tools, text, soundtrack and effects), Kai Schulze (game concept, game design, Amiga intro and parser programming, tools), Michael Niemeyer (C64 intro programming, tools), Carsten Jendro (C64 kernel and parser programming), Henrik Fisch (MS-DOS kernel and intro programming), Kjersten Waldheim (MS-DOS parser programming), Oliver Brühl (Amiga and MS-DOS graphics and animation) and Klaus Adamovsky (C64 graphics). Special thanks to Johnny, the \"Bavarian trout\", on behalf of everyone who helped turn \"Soul Crystal\" into the game you now hold in your hands. They gave us countless tips, suggestions and ideas, and picked us up after every nervous breakdown so we could get back to making our wildly overambitious plans a reality. Without them, \"Soul Crystal\" would probably never have made it past the drawing board.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:133",
+      "text": "Okay, it's been a pleasure entertaining you! See you again soon...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:135",
+      "text": "Insert the disk you want to initialise into your floppy drive. Make sure it is not write-protected, or the operation may fail! Unformatted or faulty disks will be formatted automatically. Remember: formatting permanently destroys any data already on the disk! If the game is installed on your hard disk, only the existing saved games will be deleted. Don't worry, we won't wipe the whole drive! Press <I> or the right mouse button to begin initialisation. Any other action cancels it.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:140",
+      "text": "Well, aren't you a clever little chap! Congratumalations: you've solved the game! Easy, wasn't it? If you're wondering what to play after all those hours spent beating \"Soul Crystal\", take a look at the other games published by Avantgardistic Arts and Starbyte. Press <N> or the left mouse button to start again, or <E> or the right mouse button to return to the kernel...",
+      "reason": "Replace untranslatable Glühstrumpf pun with a playful mangled congratulation; retain original controls."
+    },
+    {
+      "target": "C1:141",
+      "text": "Hmm... It seems you can't manage this game without the A.C.A gods. In our infinite mercy, we have decided to activate the \"developer cheat\" and lend you a divine helping hand. This cheat mode was designed mainly for testing the game. We cannot guarantee that it will work perfectly. Use it at your own risk!",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:142",
+      "text": "Wow! Like manna from heaven, the A.C.A gods send down all the objects that might help you on your quest... OUCH! You idiots up there! Are you even listening? I said objects that might HELP him complete his quest! And wardrobes definitely do NOT count!",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:143",
+      "text": "You can now ask the A.C.A gods to teleport you to a room by entering a three-digit number from 001 to 103. Remember, some rooms in this game have no way out! Enter a room number now, or press <ESC> to cancel teleport mode...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:144",
+      "text": "You have activated the hidden slideshow mode! Press <SPACE> or the left mouse button for the next picture, or <ESC> or the right mouse button to return to the game...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:145",
+      "text": "Sound menu activated. Enter a number from 1 to 5 to play a track from this part of the game. Press <ESC> to leave the menu.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:146",
+      "text": "Teleport cancelled. Coward! Returning to the game...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:147",
+      "text": "Leaving the cheat extension. Returning to the game...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:149",
+      "text": "You bravely try your luck, only to be knocked back by an invisible fist. It feels like running into a wall! Some unimaginably evil force seems determined to keep you out. After several failed attempts, you give up, thoroughly discouraged...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:150",
+      "text": "I'm starting to freeze! It's getting colder by the minute. Find us somewhere warm to spend the night, will you?",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:151",
+      "text": "Don't say I didn't warn you! You had plenty of time to find someone who could give you warmer clothes. Now it's too late: you freeze to death before you even get a proper chance to finish the game. A pity, really...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:152",
+      "text": "I'd be happy to oblige, if you'd kindly explain how I'm supposed to dive all the way to the bottom of this lake. It looks rather deep...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:153",
+      "text": "Oh, that's enough! Charging around as blind as a mole wasn't enough for you? Now you want to dig like one as well? Honestly, there's such a thing as taking realism in adventures too far!",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:154",
+      "text": "Here's what I'm carrying:",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:155",
+      "text": "Sorry to disappoint you, but you haven't got much at the moment. Let's see... Actually, you've got even less than \"not much\". I'd almost say you've got nothing! Still, \"nothing\" is better than \"absolutely nothing\", isn't it? To cut a long story short: you have nothing, and at least that's something! Shame you can't do anything with nothing. Or is something nothing too? WAAAAAAAAAAHHHHHHHHHH! THEY'RE COMING! I'll finish writing this from my new hoooome...!",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:156",
+      "text": "Time passes like the sun across the sky: slowly, but steadily...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:157",
+      "text": "Time passes...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:158",
+      "text": "Gladly! We've earned a breather. But what exactly are we waiting FOR?",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:159",
+      "text": "Okay, closed. What now?",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:160",
+      "text": "How can you close something that's already closed?",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:161",
+      "text": "You can't close that! Certainly not like this...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:163",
+      "text": "\"Dave the Destroyer\", is it? Ooh, terrifying! I'd better hide behind the nearest tree!",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:165",
+      "text": "Judging by your commands, I have to wonder why you didn't just buy some run-of-the-mill shoot-'em-up. \"Whoa! Blast everything, dude!\"",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:166",
+      "text": "Before you start swinging your fists, try switching on that shrivelled grey thing inside your skull. Who knows? It might still work!",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:167",
+      "text": "After half an hour of fruitless rummaging through your pockets, you realise the thing you were about to toss away is already lying here. Ah yes. The mind is always the first thing to go, isn't it?",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:168",
+      "text": "Mylgor's amulet is made of a metal you don't recognise. As you pick it up, it begins to pulse gently, as though it has a life of its own. You gaze at the glowing green snake on its surface and notice it moving slightly, twisting its body into one variation of the letter \"Z\" after another. You can barely concentrate. Everything around you blurs! You stagger, then fall! The shock makes you drop the amulet. It rolls away out of sight, but at last its hypnotic spell is broken. Dazed, you get up, find it and pick it up with trembling fingers, taking care not to fall under its spell again...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:171",
+      "text": "A small, beautifully crafted key made of magical ice, engraved with the letter \"F\". That could stand for \"Firon\", \"Fatal Trap\" or \"Final Exit\". Or perhaps something else entirely...?",
+      "reason": "Keep the engraved F clue while adapting the three F-word jokes to English."
+    },
+    {
+      "target": "C1:173",
+      "text": "The key is labelled \"Laboratory\". Perhaps this is, quite literally, the key to finding Mylgor?",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:174",
+      "text": "You unfold the note and stare. Will these conceited baby programmers ever stop putting stupid messages in serious software? (Of course! First, nobody said this game was serious. Second, we hope to be paying OTHER people to write our stupid messages before too long!) The scribbled note reads: \"Greetings from A.C.A to S. 'Z' Prüssing, M. 'Copy' Kuhlmann, S. Meyer, A. Gehrke, K. Obarski, H. Gehrmann, U. Grabosch, P. Fröhlich, F. 'Delta' Schröcker, M. 'Dark' Plöger, P. Parker, C. 'CAT' Koch, A. 'Ick versuch's' Teichmann, R. Rinscheidt, W. 'Goldwolfi' Bandur, Miriam Leiner, Brooke Shields, Bo Derek and all the other girls who adore us.\"",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:175",
+      "text": "The enormous gate seems to stare down at you, as if to say, \"You'll never leave this place alive!\" And believe me, it makes a very convincing argument...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:176",
+      "text": "A packed pipe, already lit. The smoke is warm and sweet. Sweet as... marijuana? Yes, definitely weed, you decide with the appreciative air of a connoisseur. A warm, cosy feeling washes over you. The orc father must be one serious stoner. You're beginning to like him...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:179",
+      "text": "You examine your sword. As you turn it in the light, the silver-plated blade you blessed in the monastery chapel gives a mysterious flash. You test its weight and take a few uncertain swings at an invisible opponent. \"Yes!\" you think smugly. \"A truly deadly weapon, wielded by a master swordsman!\" With this sword in your hand, you feel ready to take on every power in the world. Well, we'll see whether that optimism is justified...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:180",
+      "text": "A pair of warm, lined cotton trousers. You'd rather have your faded jeans, but it beats wandering around naked...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:181",
+      "text": "Some rather old-fashioned swimming trunks. You like them anyway: they give your beach look that special something that turns every girl's head. So far, you've managed to ignore the fact that the girls and their boyfriends are laughing themselves silly at you.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:186",
+      "text": "What are you on about? You're already standing up!",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:187",
+      "text": "Any bright ideas about how you expect to get out of THAT?",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:188",
+      "text": "Okay, opened.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:189",
+      "text": "Oh! Looks as though someone has already opened it for you...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:190",
+      "text": "You carefully open it. A few seconds later, it occurs to you that you couldn't possibly have opened it in the first place! So you close it again, leave everything as it was and resolve never to think about logic in computer programs again.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:193",
+      "text": "How odd! No answer?!?!?",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:195",
+      "text": "You clumsily pull on the thick fur boots Mylgor gave you. Boy, are they warm! Best not take them off indoors...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:196",
+      "text": "You cautiously take a puff on the orc father's pipe. Its sweet smoke carries you into another world, where you fly through the clouds in a customised, low-slung toaster and pink elephants direct the traffic. Suddenly, multicoloured raindrops start falling. Visibility in your turbo-toaster gets worse and worse, because naturally the windscreen wipers have packed up again! Damn it! You only just had the thing inspected by the Toaster Testing Authority! CRUNCH! There we go again. Look away for one second and some stuck-up marzipan-potato jockey cuts you off! \"His fault!\" you think as your head goes through the windscreen. Then the lights go out... When you come round, you're back where you took that puff, with a truly thunderous headache. Man! What was IN that stuff?",
+      "reason": "Pfeife is pipe; idioms include lowered/custom toaster, vehicle testing pun, losing right of way and head, not turnip."
+    },
+    {
+      "target": "C1:198",
+      "text": "All right, have it your way. Heroically, you throw yourself onto your sword. Nothing happens! No blood, no pain, absolutely nothing! Frustrated, you try again. Still nothing. On your third attempt, you finally hit the target: yourself. You writhe on the ground in your death throes, without so much as a cry of pain. A true hero to the last! If only your girlfriend could see you now. You don't make an exit this stylish every day! Then it is over, and everything goes dark... Some time later, you wake to find yourself floating in a dark space. You shudder. Is this the afterlife? Is this really all there is? Not a bright prospect... Then you realise what woke you. A gentle voice drifts towards you, faint and distant. \"Dave Parker!\" it whispers. \"You should know that no one can escape their destiny. Fleeing it is pointless: fate always catches up with you! Go and complete the tasks you have been given. By my divine authority, I grant you an extra life, and one more chance to fulfil your destiny...\" As the voice fades, everything starts spinning. You grow dizzy and fall into a deep, dreamless sleep. When you open your eyes again, you are exactly where you tried to kill yourself...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:199",
+      "text": "You are now wearing the warm, lined trousers.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:202",
+      "text": "It's too hard to lie on comfortably. Besides, rushing things takes all the fun out of it...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:203",
+      "text": "Hey! I'm a computer! That's \"C-O-M-P-U-T-E-R\"! Say it with me: \"Com-pyoo-ter\". Very good. Now think of something a little more realistic...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:205",
+      "text": "All right, let's wipe the slate clean and never mention it again. Now give me a sensible command, please. I'm getting bored!",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:206",
+      "text": "But it's already locked!",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:207",
+      "text": "But it's already unlocked!",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:209",
+      "text": "As you make your way east beneath the stunted trees, you begin to suspect you're the only living creature foolish enough to enter this part of the forest. Time itself seems to have stopped here. Farther east, the eerie woods grow darker and denser...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:210",
+      "text": "You continue beneath the thick, twisted branches of dead trees. Hardly a ray of sunlight gets through their bizarre crowns. Everything seems lifeless, filled with a ghostly emptiness. The edge of a swamp lies to the north. The path you arrived on leads west.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:211",
+      "text": "The ground is soft and boggy underfoot, and you have an uneasy feeling that something is about to happen. It's too quiet. Everything looks peaceful, certainly calm, but perhaps a little TOO peaceful...? The swamp lake lies to the north, and the enchanted forest stretches away to the south.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:212",
+      "text": "You reach a large swamp lake. This brown sludge is all that separates you from the island to the north. If King Richard's story is true, your destination lies behind the island's low hill: the royal castle, seized long ago by Zargon and his horde. From there, he directs the sinister schemes that have brought death and misery to the whole land. You can enter the swamp lake to the north, or head south, back towards the swamp and forest.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:213",
+      "text": "As you row across the lake, you look down at the brown sludge on either side. It reminds you unpleasantly of the coffee you brew at home before a long night. Six heaped spoonfuls per cup! Your \"killer coffee\" has had you topping the drug squad's wanted list for months, but you've never let that bother you. The stuff could raise the dead, then send them straight back to the afterlife with a heart attack! Not a bad comparison, actually. Who knows what's lurking beneath this brown mess, just waiting to come back to life...? Stop thinking and ROW! North, if you want to reach the island in one piece.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:214",
+      "text": "Curiosity leads you into the dense swamp. The ground is dangerously soft and slippery, but you press on until you have to admit you're hopelessly lost. Again. Furious, you fight through the wet vegetation, looking for a landmark, but all you do is go round in circles. At last, inspiration strikes: walk in a straight line! You'll reach the island's shore eventually, then follow it back to your boat. Encouraged, you push on until you reach a little clearing. To the southeast you can see the southern shore, where that strange sign stood. The one you didn't understand. \"Phew, made it!\" You start to crouch down for a breather, then realise with horror that you're already knee-deep in the ground! You kick frantically, but instead of getting out, you sink deeper. Like every proper adventure, \"Soul Crystal\" has a quicksand location. Now you know where it is! As you settle into your new career as a bog body, take comfort in the fact that your foot has just touched the remains of another unfortunate adventurer who chose the same route...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:215",
+      "text": "You reach the shore of a lovely, peaceful island. Everything is wild and untouched, as though nobody has set foot here for centuries... \"Damn! Not another parallel world!\" you think, silently cursing certain game designers' lack of imagination. The swamp lake is behind you to the south. A wooded hill to the north should offer a good view. On your left, a sign reads: \"Danger - quicksand! No entry! Parents are responsible for their children!\" Perhaps you should save your game before exploring any farther...?",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:216",
+      "text": "You enter an elderly hermit's hut, patched together over the years from the stones and branches scattered around the island. Since you didn't bother knocking, the old man looks up from sharpening arrowheads for his next wolf hunt. His curious, slightly vacant stare suggests he's wondering what planet you're from. Through the little doorway to the east, you can see the clearing outside.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:217",
+      "text": "You are in a small clearing in a dark forest. Stones, planks and other building materials litter the ground outside a hut to the west. A thin plume of smoke curls peacefully from its chimney. To the north, a steaming bog lies at the forest's edge, sending heavy, ominous banks of mist among the trees. A path on your right leads back up the hill, where you could get a better view of the island. Behind you stands a sign: \"Danger - quicksand! No entry! Parents are responsible for their children!\" If you've had the foresight to draw a map, now might be a good time to use it. If not, never mind. You'll understand what I mean when the time comes. Until then, remember to save regularly...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:218",
+      "text": "With heroic effort, you drag yourself to the top of the hundred-metre hill. You sit on a rock to recover from your exhausting summit expedition, then survey the view. Dense forest surrounds the hill, with three paths winding through it. The western path descends to a clearing and the bog in the northwest of the island. The southern path leads to the lake shore, where your boat waits. To the north looms the dark, imposing destination of your long journey: Zargon's castle!",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:219",
+      "text": "Still trembling from your narrow escape, you stop at the western edge of the bog to catch your breath. There's no sign of your pursuers. You've lost them! But where now? \"Damn it!\" you think bitterly. \"Why didn't I stay in my cosy hotel and relax for a few weeks? I had to go looking for adventure, didn't I? Now look at me: stranded in the middle of nowhere with a pack of snapping zombies behind me! This whole game was a waste of money. I'll never buy rubbish like this again!\" Just how right that last statement is becomes clear when you look around. The only way out is east, straight back to the zombies. They stopped chasing you for a reason: they know this bog very well. Sooner or later, it will be your grave...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:220",
+      "text": "The path through the bog runs from south to west, though it owes more to your imagination than to anything underfoot. Your feet sink deeper into the spongy ground. Dense, damp mist rises on either side, taking the shapes of grotesque creatures that send shivers down your spine. Nonsense, you tell yourself. Just frayed nerves and an overactive imagination. After everything you've survived, it'll take more than a bit of fog and some spooky noises to frighten Dave Parker! You're about to press on with renewed courage when a strange bubbling noise comes from ahead, growing closer and closer. THAT is no figment of your imagination. You look around wildly, but the rolling fog hides the source of those dreadful sounds. They seem to rise from the deepest part of the bog...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:221",
+      "text": "Before you stands your destination: Zargon's ruined castle! Little remains of the former royal palace. The only intact structure among the sorry ruins is an enormous gateway in the high wall before you. Rather discouragingly, it seems to be the only way into Zargon's headquarters. You can try entering his stronghold, if you dare. Nobody would blame you for thinking better of it and returning to your boat on the southern shore, though. There are some very unpleasant things behind those walls...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:222",
+      "text": "You enter the gatehouse through which everyone visiting the king's castle once had to pass. You chuckle at the thought of the deaf old \"gatekeeper\" from \"Mary's Inn\" sitting here, inspecting the visitors. A thick layer of dust covers everything. Even so, I suspect the usual rabble got here first and carried off anything that wasn't nailed down. A small door in the east wall leads back outside, to the castle gate.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:223",
+      "text": "The enormous, iron-bound castle gate looms before you. It seems to grin down maliciously: \"You're never getting out again!\" An unpleasant little feeling tells you that you may only pass through this entrance once. You still have time to reconsider. In fairness, we ought to warn you: although you're on the right track, once you enter this gloomy pile you won't sleep until you've finished the game. So brew a few barrels of coffee, buy a few cartons of cigarettes, and above all think up some convincing excuses for your boss! Still got the courage, or the poor judgement, to enter Zargon's castle? Here are the exits. West leads to a small gatehouse, where you might find a last-minute clue or useful object. North takes you into the ruins, or headfirst into solid oak, depending on whether the gate is open. You could also retreat south, away from the castle, though that won't do much to complete your mission, will it?",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:224",
+      "text": "Hmm... I know some people swear by mud baths, but this is a deep swamp, not a harmless spa treatment! You sink helplessly to the bottom of the lake, where you'll be preserved for all eternity. Personally, I think preserving yourself with the \"Save\" command would have been rather healthier...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:225",
+      "text": "After a few paces, you stop and listen to the deceptive silence. No, you weren't imagining it. Something is moving beneath the constant bubbling of the bog. Footsteps approach from behind, slow but relentless. You whirl round, but see only thick mist twisting into grotesque faces that seem to mock your fear. Suddenly the ground beside you begins to boil. A horribly disfigured face breaks the surface: a half-rotted corpse! Frozen with horror, you watch a zombie drag itself from the depths. As you regain control of your limbs, its claws shoot towards your throat! Somehow you fling yourself aside in time, but stumble and land hard in the mud. The undead creature seems to have won. While you struggle to your feet, it staggers closer, hissing and snarling. Its jaws creak open and shut, exposing the revolting brown stumps of its teeth...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:226",
+      "text": "Sorry. You had a real chance to escape with nothing worse than a fright, but you hesitated too long. The delighted zombie pulls you close and sinks its teeth into your young, tender flesh! Still, don't despair. You've fallen victim to a true gourmet. Some of your tastier parts, eyes, tongue and similar delicacies, will doubtless be taken to its store-cave and preserved. Unfortunate adventurers stray out here far too rarely to waste such a feast in one sitting...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:227",
+      "text": "Coming back after your last encounter was a fatal mistake. A whole pack of zombies waits to welcome you, advancing with jerky movements and fixed stares. Leading them is the one you only just escaped! This time you react much faster. You spin round and run for your life as fast as the soggy ground allows, straight into the arms of another zombie who hadn't quite caught up with the proceedings. A shame, really. You were on course for a world record! Your new acquaintance is delighted. It hasn't had fresh meat in weeks, and a diet of bog-preserved adventurers gets a bit monotonous, even for a half-rotten stomach. After saying a quick grace, it gratefully sinks its teeth into you. \"Damn! Who knew those brown stumps could still be so sharp?\" is your last thought before everything blurs...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:228",
+      "text": "As you head south out of the enchanted forest, the amulet that protected you on your way through the magical barrier snags on a dead branch. Without your noticing, it slips from your neck. You stroll cheerfully through the boundary between the two stretches of forest and emerge on the other side of the magical wall nicely browned, but unfortunately quite dead...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:229",
+      "text": "Walking beneath the dead trees, you suddenly feel a vicious tug at your neck! Terrified, you thrash about, trying to shake off your invisible attacker. At last it lets go, and you nearly burst into hysterical laughter. Your \"attacker\" was your own amulet, caught on a branch. It now dangles from the tree as if mocking you...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:230",
+      "text": "Well, let's call that an attempt and leave it there. It wasn't much of a success, as you discover rather painfully. Before you can slip beneath the archway, something rattles down from above. For once, let's keep this brief: stepping on the little platform triggered the portcullis, which crushed you in one almighty blow! You're dead. Yes, really. You've kicked the bucket, bitten the dust, shuffled off this mortal coil. Gone! Don't complain to us. If you'd paid attention, you might have noticed the platform beneath the gate. So having to start again is rather more your fault than ours, isn't it? What's that? You don't believe me? Well, I can't say I blame you. You have no reason to. Perhaps this will convince you...:",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:232",
+      "text": "You eye the old, rotten boat doubtfully. It hardly inspires confidence, but I don't think we have much choice if we want to cross the lake safely. Unless you'd rather swim through that sludge...?",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:233",
+      "text": "A brick is a brick is a brick, and this disk is a broken record, broken record, broken rec... Oh, COME ON! What did you expect from a BRICK?!?!? Small, square, perfectly adequate. Happy now?",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:234",
+      "text": "The old hermit wears a comical doublet covered in colourful patches. For someone whose home you've just barged into, he looks remarkably friendly. A little confused, perhaps, but friendly.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:235",
+      "text": "A big, heavy key. Presumably it fits an equally big lock. What do you reckon...?",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:236",
+      "text": "Directly beneath the points of the portcullis is a platform about a metre square, lightly covered with fresh grass.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:237",
+      "text": "The little platform seems to be set into the ground to trigger something. A bell? A Mark III flying-toaster catapult? A high-speed disk formatter? Or, even sillier, a TRAP? No, surely that would be too unimaginative even for this game!",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:238",
+      "text": "YUCK! Looking at the zombie, you struggle not to throw up straight into its rotting face. It's about shoulder-height, and every tiny movement sends scraps of putrid flesh dropping from its bones...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:239",
+      "text": "As you try to free the amulet from the branch, it slips through your still-trembling fingers, falls to the ground and vanishes into the mud with a little \"Plop!\"...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:240",
+      "text": "The hermit gratefully accepts your offer and asks you to clear away the junk outside his hut. \"My poor back, you understand...?\" Personally, I think we should let the old hypochondriac do it himself. A little fresh air and exercise will do him good. You have more important things to do than play dustman...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:241",
+      "text": "The zombie would be grateful for the rest of your life if you gave it an eye. You do have two, after all, and it hasn't had a decent bite to eat all day...",
+      "reason": "Preserve the dark joke: grateful until YOUR death, not forever."
+    },
+    {
+      "target": "C1:242",
+      "text": "With a great effort, you pull the portcullis's points out of the ground and heave it upwards until it jams in its frame. The danger seems to be over for now. You should be able to slip underneath it and through the archway...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:243",
+      "text": "Years of solitude seem to have scrambled the old man's brains, but you ask what he knows about the island anyway. \"The island, the island...\" he muses. \"If only I knew which one you meant! The island Aeneas, that divine hero, visited long ago? Ah, I've heard of an island called America, discovered by a fellow named Columbo. No, Coulomb. Rubbish, Columbos! Oh, never mind. Nobody cares anyway. Or do you mean the island we're standing on? Yes, this is an island too, believe it or not! You can tell because it's surrounded by water, and...\" You roll your eyes. This advanced geography lesson is bringing back unpleasant memories of Sesame Street. You didn't understand it then, either...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:244",
+      "text": "With saintly patience, you give the old man's rambling another chance, though you doubt it will be any more enlightening this time. Surprisingly, he almost answers your question. \"Yes, of course I know about the island! I've lived here for over ten years! Quite right to ask me. I live here, you see, and...\" He falters as he notices your hands practising a variety of strangling movements, then hastily continues. \"Now, you may think me mad\" - you laugh hysterically - \"but at midnight the rivers here flow uphill! And under a full moon, all the adventurers swallowed by the swamp over the decades rise from their watery graves and hold wild orgies! Even Zargon, the Dark Lord himself, attends to review his undead palace guard. He once made a pact with the devil, who had his soul frozen and imprisoned in a huge magical crystal...\" A knowing smile spreads over the hermit's wrinkled face as he remembers those glorious parties and the many pretty zombie girls he's enjoyed them with...",
+      "reason": "Restore soul-imprisonment clue and sexual meaning of vernaschen; the hermit has not eaten zombies."
+    },
+    {
+      "target": "C1:245",
+      "text": "You might want to hear more of the old man's mindless rambling, but I DON'T! Honestly, even THIS nonsense is bearable by comparison...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:246",
+      "text": "Suspecting one of the unimaginative traps that infest this country, you carefully drop the poor, innocent brick onto the platform from a safe distance. The instant it lands, the enormous portcullis crashes down! Not even a rat could have darted through in time. The brick becomes a thousand convenient little pebbles. Your heart clenches and drops into your stomach. What would you look like if YOUR weight had triggered that mechanism? More to the point, who cleaned up the mess left by the adventurers before you???",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:247",
+      "text": "You put the big iron key into the enormous lock and turn it. Unfortunately, you snap it off! Where did THAT strength come from? Still, at least the castle gate is unlocked now...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:248",
+      "text": "Here we go again. \"Hi! A.C.A gods here...\" Voices of infinite kindness boom down from the sky. \"Heaven knows how you survived our first two irritating manual checks, but this time we've got you...!\"",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:249",
+      "text": "Muttering. Pages rustling. An astonished cry. \"WHAT? You entered the right code? Something's not right! Are people copying the manuals and inserts now too? Oh, all right. You may enter Zargon's castle. Any last requests?\" Irritated, you dismiss this childish nonsense and hurry towards the entrance. Game design really seems to have turned the poor souls into old men. Hermits, perhaps...?",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:250",
+      "text": "\"You thieving swine!\" shriek the four voices, making you clap your hands over your ears. \"How did you fool us the first two times? Well, we've caught you now! As punishment for your crime, we curse you to remain in this boring room for all eternity!\"",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:251",
+      "text": "Exits lead to:",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:253",
+      "text": "Insert the disk containing your saved games. It must be named \"SoulSave\". If necessary, format it as described in the manual and name it \"SoulSave\". Press <ESC> or the right mouse button to cancel.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:257",
+      "text": "Phew! That was close...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:262",
+      "text": "Please select the saved game to load.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:265",
+      "text": "Saved game loaded successfully. You can carry on from where you left off. Have fun!",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:266",
+      "text": "Please select the slot in which to save your game.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:267",
+      "text": "Saving your game under the chosen name and in the selected slot...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:272",
+      "text": "To stop pirates using saved games to sneak past the copy-protection checks between parts, we need you to enter a code from the manual. Sorry, but needs must...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:281",
+      "text": "Problem fixed? Press <J> or the left mouse button to confirm...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:282",
+      "text": "A little dwarf appears with a shovel. \"Oh, brilliant. More back-breaking work! Couldn't you buy some more RAM? Then we could get all this rubbish out of the way during installation!\" Despite his grumbling, he gets to work shovelling data from the disk into RAM. Industriously, if not enthusiastically...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:284",
+      "text": "ERROR! Could not load the system data file! Either the game isn't installed properly, or your storage device has just shuffled off this mortal coil...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:287",
+      "text": "Well, when you've got to go, you've got to go. You hastily check that nobody is watching, undo your trousers and... HOLD IT! Not here, pal! As if acid rain weren't bad enough...",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    },
+    {
+      "target": "C1:288",
+      "text": "Would you like to quit (<B>), start again (<N>) or load a saved game (<L>)? Press the corresponding key, or use the right mouse button to quit or the left to restart.",
+      "reason": "Natural English, faithful meaning and the original cheeky narrator voice."
+    }
+  ]
+}

@@ -24,7 +24,7 @@
     "10": {
       "index": 10,
       "source_offset": 2454,
-      "text": "[Lake]",
+      "text": "[In the lake]",
       "screen_lines": [
         "[Lake]"
       ]
@@ -32,7 +32,7 @@
     "100": {
       "index": 100,
       "source_offset": 4170,
-      "text": "[In the Cave of Cu-Sath]",
+      "text": "[In the cave of Cu-Sath]",
       "screen_lines": [
         "[In the Cave of Cu-Sath]"
       ]
@@ -72,7 +72,7 @@
     "105": {
       "index": 105,
       "source_offset": 4245,
-      "text": "Your input was wrong - please try again! - Once again as a reminder: Individual lines such as headings etc. must not be counted!",
+      "text": "That entry was incorrect. Please try again! Remember: isolated lines such as headings do not count.",
       "screen_lines": [
         "Your input was wrong - please try again!",
         "- Once again as a reminder: Individual  ",
@@ -116,7 +116,7 @@
     "11": {
       "index": 11,
       "source_offset": 2464,
-      "text": "[The waterfall]",
+      "text": "[In front of the waterfall]",
       "screen_lines": [
         "[The waterfall]"
       ]
@@ -140,7 +140,7 @@
     "112": {
       "index": 112,
       "source_offset": 4501,
-      "text": "Could you please explain to me how you want to do THAT?",
+      "text": "Could you explain exactly how you expect to get inside THAT?",
       "screen_lines": [
         "Could you please explain to me how you  ",
         "want to do THAT?"
@@ -149,7 +149,7 @@
     "113": {
       "index": 113,
       "source_offset": 4542,
-      "text": "I'm sorry - but there really isn't much more to report about this...",
+      "text": "Sorry, but there really isn't anything else to say about that...",
       "screen_lines": [
         "I'm sorry - but there really isn't much ",
         "more to report about this..."
@@ -166,7 +166,7 @@
     "115": {
       "index": 115,
       "source_offset": 4604,
-      "text": "But you did that a long time ago!",
+      "text": "But you already have that!",
       "screen_lines": [
         "But you did that a long time ago!"
       ]
@@ -174,7 +174,7 @@
     "116": {
       "index": 116,
       "source_offset": 4629,
-      "text": "Sorry, but you can't take that with all the will in the world!",
+      "text": "Sorry, but there's simply no way you can take that with you!",
       "screen_lines": [
         "Sorry, but you can't take that with all ",
         "the will in the world!"
@@ -183,7 +183,7 @@
     "117": {
       "index": 117,
       "source_offset": 4671,
-      "text": "Okay: You're on your own again.",
+      "text": "Okay, you're back on your feet.",
       "screen_lines": [
         "Okay: You're on your own again."
       ]
@@ -191,7 +191,7 @@
     "118": {
       "index": 118,
       "source_offset": 4701,
-      "text": "Do you promise yourself anything in particular by lugging THAT around?",
+      "text": "Is there some particular reason you want to lug THAT around?",
       "screen_lines": [
         "Do you promise yourself anything in     ",
         "particular by lugging THAT around?"
@@ -200,7 +200,7 @@
     "119": {
       "index": 119,
       "source_offset": 4758,
-      "text": "Hmmm... - Seems to be locked though!",
+      "text": "Hmm... Looks like it's locked!",
       "screen_lines": [
         "Hmmm... - Seems to be locked though!"
       ]
@@ -216,7 +216,7 @@
     "120": {
       "index": 120,
       "source_offset": 4790,
-      "text": "It's really meant to be nice, but what should you be able to do with THIS...?",
+      "text": "That's very kind of you, but what is anyone supposed to do with THAT...?",
       "screen_lines": [
         "It's really meant to be nice, but what  ",
         "should you be able to do with THIS...?"
@@ -225,7 +225,7 @@
     "121": {
       "index": 121,
       "source_offset": 4848,
-      "text": "Good, finished.",
+      "text": "Good, locked.",
       "screen_lines": [
         "Good, finished."
       ]
@@ -233,7 +233,7 @@
     "122": {
       "index": 122,
       "source_offset": 4865,
-      "text": "How do you want to close something with THIS?",
+      "text": "How are you supposed to lock anything with THIS?",
       "screen_lines": [
         "How do you want to close something with ",
         "THIS?"
@@ -242,7 +242,7 @@
     "123": {
       "index": 123,
       "source_offset": 4899,
-      "text": "I'm really terribly sorry, but you really can't complete THIS!",
+      "text": "I'm terribly, terribly sorry, but you really can't lock THAT!",
       "screen_lines": [
         "I'm really terribly sorry, but you      ",
         "really can't complete THIS!"
@@ -259,7 +259,7 @@
     "125": {
       "index": 125,
       "source_offset": 4980,
-      "text": "Well, THIS means you can't really unlock anything, right?",
+      "text": "You can't unlock anything with THAT, can you?",
       "screen_lines": [
         "Well, THIS means you can't really unlock",
         "anything, right?"
@@ -287,7 +287,7 @@
     "128": {
       "index": 128,
       "source_offset": 5168,
-      "text": "In such a case, Mr. Adams would probably have responded with \"You can't do that... YET!\", which means something like: \"You can't do that (yet).\"",
+      "text": "Mr. Adams would probably have answered, \"You can't do that... YET!\" In other words: not now. Possibly later. Possibly.",
       "screen_lines": [
         "In such a case, Mr. Adams would probably",
         "have responded with \"You can't do       ",
@@ -298,7 +298,7 @@
     "129": {
       "index": 129,
       "source_offset": 5275,
-      "text": "\"Soul Crystal\" V1.5, written from 1989 to 1992 by Avantgardistic Arts. (C) 1992 by Avantgardistic Arts, Hanover \u0026 Starbyte Software, Bochum. This adventure has 103 locations, more than 130 high-resolution color graphics, approximately 320 Kbytes of text and an approximately 30-minute soundtrack. His program development took a total of 16 so-called \"man-years\". So please be fair and \"spread the word - not the disk!\" However, if this is a pirated copy (although the program was protected, and certainly not without reason...), then please also think about the ASDG philosophy \"A program worth using is a program worth buying\" - alone even the original packaging and the manuals should be worth the money to you. Have fun playing \"Soul Crystal\", and - oh yes: as far as we know, this is the first adventure where a CHEATMODE was implemented - so you should try to find it...",
+      "text": "\"Soul Crystal\" V1.5, written from 1989 to 1992 by Avantgardistic Arts. (C) 1992 by Avantgardistic Arts, Hannover \u0026 Starbyte Software, Bochum. This adventure contains 103 locations, more than 130 high-resolution colour pictures, about 320 KBytes of text and roughly half an hour of music. Development took a total of 16 person-years. So please play fair: \"spread the word - not the disk!\" If this is a pirated copy after all (despite the copy protection, which was there for a reason...), spare a thought for ASDG's motto: \"A program worth using is a program worth buying\". The original box and manuals alone should be worth the money. Have fun playing \"Soul Crystal\"! Oh, and as far as we know, this is the first adventure with a built-in CHEATMODE. Better start looking...",
       "screen_lines": [
         "\"Soul Crystal\" V1.5, written from 1989  ",
         "to 1992 by Avantgardistic Arts. (C) 1992",
@@ -329,7 +329,7 @@
     "13": {
       "index": 13,
       "source_offset": 2501,
-      "text": "[On shore]",
+      "text": "[On the shore]",
       "screen_lines": [
         "[On shore]"
       ]
@@ -337,7 +337,7 @@
     "130": {
       "index": 130,
       "source_offset": 5901,
-      "text": "\"Soul Crystal\", V1.5, written from 1989 to 1992 by Avantgardistic Arts, (C) 1992 by Avantgardistic Arts, Hanover \u0026 Starbyte Software, Bochum. A.C.A are: Chris Link (game concept, game design, tools, texts, soundtrack and effects), Kai Schulze (game concept, game design, intro and parser programming AMIGA, tools), Michael Niemeyer (intro programming C-64, tools), Carsten Jendro (kernal and parser programming C-64), Henrik Fisch (kernal and intro programming MS-DOS), Kjersten Waldheim (parser programming MS-DOS), Oliver Brühl (graphics and animations AMIGA \u0026 MS-DOS) and Klaus Adamovsky (graphics C-64). Special thanks to Johnny, the \"Bavarian trout\" - representing all the people who helped make \"Soul Crystal\" what you are holding in your hands by giving us tons of valuable tips, hints and food for thought, and after every nervous breakdown they helped us to continue realizing our megalomaniacal ideas. Without her, the Soul Crystal project would probably never have gotten past the planning stage.",
+      "text": "\"Soul Crystal\", V1.5, written from 1989 to 1992 by Avantgardistic Arts, (C) 1992 by Avantgardistic Arts, Hannover \u0026 Starbyte Software, Bochum. A.C.A are: Chris Link (game concept, game design, tools, text, soundtrack and effects), Kai Schulze (game concept, game design, Amiga intro and parser programming, tools), Michael Niemeyer (C64 intro programming, tools), Carsten Jendro (C64 kernel and parser programming), Henrik Fisch (MS-DOS kernel and intro programming), Kjersten Waldheim (MS-DOS parser programming), Oliver Brühl (Amiga and MS-DOS graphics and animation) and Klaus Adamovsky (C64 graphics). Special thanks to Johnny, the \"Bavarian trout\", on behalf of everyone who helped turn \"Soul Crystal\" into the game you now hold in your hands. They gave us countless tips, suggestions and ideas, and picked us up after every nervous breakdown so we could get back to making our wildly overambitious plans a reality. Without them, \"Soul Crystal\" would probably never have made it past the drawing board.",
       "screen_lines": [
         "\"Soul Crystal\", V1.5, written from 1989 ",
         "to 1992 by Avantgardistic Arts, (C) 1992",
@@ -390,7 +390,7 @@
     "133": {
       "index": 133,
       "source_offset": 6804,
-      "text": "Ok - it was a pleasure chatting with you! See you again soon...",
+      "text": "Okay, it's been a pleasure entertaining you! See you again soon...",
       "screen_lines": [
         "Ok - it was a pleasure chatting with    ",
         "you! See you again soon..."
@@ -408,7 +408,7 @@
     "135": {
       "index": 135,
       "source_offset": 6913,
-      "text": "Please put the diskette to be initialized in your floppy drive. It is essential to ensure that the diskette is not write-protected, as otherwise the program cannot be guaranteed to function properly! Unformatted or corrupt disks will be formatted automatically. Please consider, however, that all data that may have been on it will be irretrievably lost during the formatting process! If you have installed the game on your hard disk, only the existing saves will be deleted - so you don't need to worry that we'll lack the whole disk! Press \u003cI\u003e or the right mouse button if you really want to start the initialization process - any other action will abort the init function.",
+      "text": "Insert the disk you want to initialise into your floppy drive. Make sure it is not write-protected, or the operation may fail! Unformatted or faulty disks will be formatted automatically. Remember: formatting permanently destroys any data already on the disk! If the game is installed on your hard disk, only the existing saved games will be deleted. Don't worry, we won't wipe the whole drive! Press \u003cI\u003e or the right mouse button to begin initialisation. Any other action cancels it.",
       "screen_lines": [
         "Please put the diskette to be           ",
         "initialized in your floppy drive. It is ",
@@ -480,7 +480,7 @@
     "140": {
       "index": 140,
       "source_offset": 7644,
-      "text": "What a clever little fellow you are! Heartfelt glowstocking: You solved the game! It was that easy - great, huh? If you still don't have a clear idea of what to play after this time-consuming soul crystal resolution, check out other games published by Avantgardistic Arts and Starbyte. Press \u003cN\u003e or the left mouse button to start the game over, \u003cE\u003e or the right button to return to the kernal...",
+      "text": "Well, aren't you a clever little chap! Congratumalations: you've solved the game! Easy, wasn't it? If you're wondering what to play after all those hours spent beating \"Soul Crystal\", take a look at the other games published by Avantgardistic Arts and Starbyte. Press \u003cN\u003e or the left mouse button to start again, or \u003cE\u003e or the right mouse button to return to the kernel...",
       "screen_lines": [
         "What a clever little fellow you are!    ",
         "Heartfelt glowstocking: You solved the  ",
@@ -498,7 +498,7 @@
     "141": {
       "index": 141,
       "source_offset": 7975,
-      "text": "Hmmm...: It almost looks like you wouldn't be able to play this game without the help of the A.C.A gods. Therefore, we have graciously decided to activate the \"developer cheat\" for you to give you a little help on your journey with our divine help. This cheat mode was primarily programmed to test the game. However, we cannot guarantee its proper functioning. Use at your own risk!",
+      "text": "Hmm... It seems you can't manage this game without the A.C.A gods. In our infinite mercy, we have decided to activate the \"developer cheat\" and lend you a divine helping hand. This cheat mode was designed mainly for testing the game. We cannot guarantee that it will work perfectly. Use it at your own risk!",
       "screen_lines": [
         "Hmmm...: It almost looks like you       ",
         "wouldn't be able to play this game      ",
@@ -516,7 +516,7 @@
     "142": {
       "index": 142,
       "source_offset": 8287,
-      "text": "Wow! Like manna from heaven, the A.C.A gods will send down to earth any objects that may aid you in your quest... OUCH! You idiots up there! Can't you listen? I said you should throw down any items that might HELP him solve his quest! ...and cabinets are definitely NOT one of them!",
+      "text": "Wow! Like manna from heaven, the A.C.A gods send down all the objects that might help you on your quest... OUCH! You idiots up there! Are you even listening? I said objects that might HELP him complete his quest! And wardrobes definitely do NOT count!",
       "screen_lines": [
         "Wow! Like manna from heaven, the A.C.A  ",
         "gods will send down to earth any objects",
@@ -531,7 +531,7 @@
     "143": {
       "index": 143,
       "source_offset": 8526,
-      "text": "Okay, you can now ask the A.C.A gods to teleport you to certain rooms in the game's territory by entering a three-digit number between 001 and 103 on your computer's keyboard - but don't forget that rooms exist in this game too, off from which there is no escape. Now enter the desired room number, or press \u003cESC\u003e to end the teleport mode prematurely...",
+      "text": "You can now ask the A.C.A gods to teleport you to a room by entering a three-digit number from 001 to 103. Remember, some rooms in this game have no way out! Enter a room number now, or press \u003cESC\u003e to cancel teleport mode...",
       "screen_lines": [
         "Okay, you can now ask the A.C.A gods to ",
         "teleport you to certain rooms in the    ",
@@ -548,7 +548,7 @@
     "144": {
       "index": 144,
       "source_offset": 8792,
-      "text": "You just activated the hidden slideshow mode! Press \u003cSPACE\u003e or the left mouse button to view the next picture, or \u003cESC\u003e or the right mouse button to return to the game...",
+      "text": "You have activated the hidden slideshow mode! Press \u003cSPACE\u003e or the left mouse button for the next picture, or \u003cESC\u003e or the right mouse button to return to the game...",
       "screen_lines": [
         "You just activated the hidden slideshow ",
         "mode! Press \u003cSPACE\u003e or the left mouse   ",
@@ -560,7 +560,7 @@
     "145": {
       "index": 145,
       "source_offset": 8937,
-      "text": "Sound menu activated: Please enter a number from 1 - 5 to play the different music tracks of the soundtrack in this section of the game! Cancellation of the function with \u003cESC\u003e.",
+      "text": "Sound menu activated. Enter a number from 1 to 5 to play a track from this part of the game. Press \u003cESC\u003e to leave the menu.",
       "screen_lines": [
         "Sound menu activated: Please enter a    ",
         "number from 1 - 5 to play the different ",
@@ -572,7 +572,7 @@
     "146": {
       "index": 146,
       "source_offset": 9051,
-      "text": "Canceled teleport mode (coward!), resuming the game...",
+      "text": "Teleport cancelled. Coward! Returning to the game...",
       "screen_lines": [
         "Canceled teleport mode (coward!),       ",
         "resuming the game..."
@@ -581,7 +581,7 @@
     "147": {
       "index": 147,
       "source_offset": 9099,
-      "text": "exit cheat extension; return to the game...",
+      "text": "Leaving the cheat extension. Returning to the game...",
       "screen_lines": [
         "exit cheat extension; return to the     ",
         "game..."
@@ -599,7 +599,7 @@
     "149": {
       "index": 149,
       "source_offset": 9198,
-      "text": "You bravely try your luck, but are smashed back by an invisible fist. It's as if you're running into a wall: Somehow an incredibly evil force seems to be keeping you away from there! Depressed, you give up after a few failed attempts...",
+      "text": "You bravely try your luck, only to be knocked back by an invisible fist. It feels like running into a wall! Some unimaginably evil force seems determined to keep you out. After several failed attempts, you give up, thoroughly discouraged...",
       "screen_lines": [
         "You bravely try your luck, but are      ",
         "smashed back by an invisible fist. It's ",
@@ -613,7 +613,7 @@
     "15": {
       "index": 15,
       "source_offset": 2531,
-      "text": "[In Mylgors Study]",
+      "text": "[In Mylgor's study]",
       "screen_lines": [
         "[In Mylgors Study]"
       ]
@@ -621,7 +621,7 @@
     "150": {
       "index": 150,
       "source_offset": 9364,
-      "text": "I'm starting to freeze! It's getting colder and colder here, so start looking around for a warm place where we can spend the night in peace!",
+      "text": "I'm starting to freeze! It's getting colder by the minute. Find us somewhere warm to spend the night, will you?",
       "screen_lines": [
         "I'm starting to freeze! It's getting    ",
         "colder and colder here, so start looking",
@@ -632,7 +632,7 @@
     "151": {
       "index": 151,
       "source_offset": 9463,
-      "text": "So please don't hold it against me that I didn't warn you - you really had enough time to look for someone who could have given you warmer clothes - but now it's definitely too late: you're freezing to death without either only had the slightest chance of solving the game! Too bad actually...",
+      "text": "Don't say I didn't warn you! You had plenty of time to find someone who could give you warmer clothes. Now it's too late: you freeze to death before you even get a proper chance to finish the game. A pity, really...",
       "screen_lines": [
         "So please don't hold it against me that ",
         "I didn't warn you - you really had      ",
@@ -647,7 +647,7 @@
     "152": {
       "index": 152,
       "source_offset": 9659,
-      "text": "I would be happy to comply with your request - if you would kindly tell me how to dive down to the bottom of the lake! It seems pretty deep...",
+      "text": "I'd be happy to oblige, if you'd kindly explain how I'm supposed to dive all the way to the bottom of this lake. It looks rather deep...",
       "screen_lines": [
         "I would be happy to comply with your    ",
         "request - if you would kindly tell me   ",
@@ -658,7 +658,7 @@
     "153": {
       "index": 153,
       "source_offset": 9763,
-      "text": "Well, now that's enough! As if it wasn't enough for you to run around blind like a mole: now you're also trying to dig your way through the ground in a species-appropriate way! Let's be honest: You can overdo it with the realism in adventures...",
+      "text": "Oh, that's enough! Charging around as blind as a mole wasn't enough for you? Now you want to dig like one as well? Honestly, there's such a thing as taking realism in adventures too far!",
       "screen_lines": [
         "Well, now that's enough! As if it wasn't",
         "enough for you to run around blind like ",
@@ -672,7 +672,7 @@
     "154": {
       "index": 154,
       "source_offset": 9936,
-      "text": "At the moment I carry the following things:",
+      "text": "Here's what I'm carrying:",
       "screen_lines": [
         "At the moment I carry the following     ",
         "things:"
@@ -681,7 +681,7 @@
     "155": {
       "index": 155,
       "source_offset": 9968,
-      "text": "I'm sorry to disappoint you, but you really don't have that much at the moment. Let's see...: Well, actually you have less than \"not too much\" - I would even almost say you have nothing! Well, \"nothing\" is still better than \"nothing at all\", isn't it? So, to cut a long story short: You really don't have anything - and at least that's something! It's just a pity that you can't do anything with \"nothing\"! Or is something maybe nothing? WAAAAAAAAAHHHHHHHHHH! THEY ARE COMING! I'll write the rest in my new home...!",
+      "text": "Sorry to disappoint you, but you haven't got much at the moment. Let's see... Actually, you've got even less than \"not much\". I'd almost say you've got nothing! Still, \"nothing\" is better than \"absolutely nothing\", isn't it? To cut a long story short: you have nothing, and at least that's something! Shame you can't do anything with nothing. Or is something nothing too? WAAAAAAAAAAHHHHHHHHHH! THEY'RE COMING! I'll finish writing this from my new hoooome...!",
       "screen_lines": [
         "I'm sorry to disappoint you, but you    ",
         "really don't have that much at the      ",
@@ -702,7 +702,7 @@
     "156": {
       "index": 156,
       "source_offset": 10331,
-      "text": "Time flies like the course of the sun: Slowly, but unstoppably...",
+      "text": "Time passes like the sun across the sky: slowly, but steadily...",
       "screen_lines": [
         "Time flies like the course of the sun:  ",
         "Slowly, but unstoppably..."
@@ -711,7 +711,7 @@
     "157": {
       "index": 157,
       "source_offset": 10380,
-      "text": "Time flies...",
+      "text": "Time passes...",
       "screen_lines": [
         "Time flies..."
       ]
@@ -719,7 +719,7 @@
     "158": {
       "index": 158,
       "source_offset": 10396,
-      "text": "Gladly: We really deserve a breather! But WHAT are we waiting for?",
+      "text": "Gladly! We've earned a breather. But what exactly are we waiting FOR?",
       "screen_lines": [
         "Gladly: We really deserve a breather!   ",
         "But WHAT are we waiting for?"
@@ -728,7 +728,7 @@
     "159": {
       "index": 159,
       "source_offset": 10462,
-      "text": "ok, closed What now?",
+      "text": "Okay, closed. What now?",
       "screen_lines": [
         "ok, closed What now?"
       ]
@@ -736,7 +736,7 @@
     "16": {
       "index": 16,
       "source_offset": 2553,
-      "text": "[In servant's bedroom]",
+      "text": "[In the servants' bedroom]",
       "screen_lines": [
         "[In servant's bedroom]"
       ]
@@ -744,7 +744,7 @@
     "160": {
       "index": 160,
       "source_offset": 10485,
-      "text": "How do you want to close something that is closed?",
+      "text": "How can you close something that's already closed?",
       "screen_lines": [
         "How do you want to close something that ",
         "is closed?"
@@ -753,7 +753,7 @@
     "161": {
       "index": 161,
       "source_offset": 10521,
-      "text": "You cant close this! Especially not like that.",
+      "text": "You can't close that! Certainly not like this...",
       "screen_lines": [
         "You cant close this! Especially not     ",
         "like that."
@@ -774,7 +774,7 @@
     "163": {
       "index": 163,
       "source_offset": 10709,
-      "text": "\"Dave the Destroyer\", or what? Uiuiui! You want to hide behind the next tree for fear!",
+      "text": "\"Dave the Destroyer\", is it? Ooh, terrifying! I'd better hide behind the nearest tree!",
       "screen_lines": [
         "\"Dave the Destroyer\", or what? Uiuiui!  ",
         "You want to hide behind the next tree   ",
@@ -794,7 +794,7 @@
     "165": {
       "index": 165,
       "source_offset": 10858,
-      "text": "Well, when I look at your entries, I have to seriously ask myself why you didn't just buy a run-of-the-mill shooter game, branded \"Woah: flatten opponents, ey!\"!",
+      "text": "Judging by your commands, I have to wonder why you didn't just buy some run-of-the-mill shoot-'em-up. \"Whoa! Blast everything, dude!\"",
       "screen_lines": [
         "Well, when I look at your entries, I    ",
         "have to seriously ask myself why you    ",
@@ -806,7 +806,7 @@
     "166": {
       "index": 166,
       "source_offset": 10977,
-      "text": "Before you use your fists, you might want to snap that stunted, gray thing in your skull - maybe it'll still work!",
+      "text": "Before you start swinging your fists, try switching on that shrivelled grey thing inside your skull. Who knows? It might still work!",
       "screen_lines": [
         "Before you use your fists, you might    ",
         "want to snap that stunted, gray thing in",
@@ -816,7 +816,7 @@
     "167": {
       "index": 167,
       "source_offset": 11080,
-      "text": "After half an hour of rummaging in your pockets in vain, you realize that the thing you were about to toss so carelessly around is already there! Yes, when it starts - then in the head, right?",
+      "text": "After half an hour of fruitless rummaging through your pockets, you realise the thing you were about to toss away is already lying here. Ah yes. The mind is always the first thing to go, isn't it?",
       "screen_lines": [
         "After half an hour of rummaging in your ",
         "pockets in vain, you realize that the   ",
@@ -829,7 +829,7 @@
     "168": {
       "index": 168,
       "source_offset": 11223,
-      "text": "Mylgor's amulet is made of an unfamiliar metal, and as you pick it up it begins to pulse slightly, as if it were alive with its own life! As you stare at the image of the greenish phosphorescent snake, lost in thought, you notice that it seems to move slightly and forms the letter \"Z\" with its body in ever new variations. You can hardly concentrate anymore - everything around you starts to blur! You stagger - and fall! The shock makes you lose the amulet: It rolls over the ground and out of your eyes - but its hypnotizing effect is finally broken! Dazed, you get up again, look for the amulet and pick it up again with trembling fingers, being careful not to fall under the spell again...",
+      "text": "Mylgor's amulet is made of a metal you don't recognise. As you pick it up, it begins to pulse gently, as though it has a life of its own. You gaze at the glowing green snake on its surface and notice it moving slightly, twisting its body into one variation of the letter \"Z\" after another. You can barely concentrate. Everything around you blurs! You stagger, then fall! The shock makes you drop the amulet. It rolls away out of sight, but at last its hypnotic spell is broken. Dazed, you get up, find it and pick it up with trembling fingers, taking care not to fall under its spell again...",
       "screen_lines": [
         "Mylgor's amulet is made of an unfamiliar",
         "metal, and as you pick it up it begins  ",
@@ -862,7 +862,7 @@
     "17": {
       "index": 17,
       "source_offset": 2573,
-      "text": "[In the Orc Cave]",
+      "text": "[In the orc cave]",
       "screen_lines": [
         "[In the Orc Cave]"
       ]
@@ -881,7 +881,7 @@
     "171": {
       "index": 171,
       "source_offset": 11820,
-      "text": "A small, intricately crafted key made of magical ice, engraved with the letter \"F\". That could mean, for example, \"Firon\", \"Falle\" or \"Freitod\" - but maybe it means something completely different...?",
+      "text": "A small, beautifully crafted key made of magical ice, engraved with the letter \"F\". That could stand for \"Firon\", \"Fatal Trap\" or \"Final Exit\". Or perhaps something else entirely...?",
       "screen_lines": [
         "A small, intricately crafted key made of",
         "magical ice, engraved with the letter   ",
@@ -902,7 +902,7 @@
     "173": {
       "index": 173,
       "source_offset": 11997,
-      "text": "The key says \"laboratory\". Perhaps this is literally the key to Mylgor's whereabouts?",
+      "text": "The key is labelled \"Laboratory\". Perhaps this is, quite literally, the key to finding Mylgor?",
       "screen_lines": [
         "The key says \"laboratory\". Perhaps this ",
         "is literally the key to Mylgor's        ",
@@ -912,7 +912,7 @@
     "174": {
       "index": 174,
       "source_offset": 12079,
-      "text": "You unfold the note and wonder: Will these jaded baby programmers ever stop writing their stupid messages in serious programs (But sure: first of all, none of us have ever said that this program is serious, and secondly, hopefully we will LET silly messages and the like be written in the not too distant future!)? The text scrawled on the message reads: \"Greetings from A.C.A. to S. \"Z\" Prüssing, M. \"Copy\" Kuhlmann, S. Meyer, A. Gehrke, K. Obarski, H. Gehrmann, U. Grabosch, P. Fröhlich, F. \"Delta\" Schröcker, M. \"Dark\" Plöger, P. Parker, C. \"CAT\" Koch, A. \"Ick try's\" Teichmann, R. Rinscheidt, W. \"Goldwolfi\" Bandur, Miriam Leiner, Brooke Shields, Bo Derek and all the other girls who adore us.\"",
+      "text": "You unfold the note and stare. Will these conceited baby programmers ever stop putting stupid messages in serious software? (Of course! First, nobody said this game was serious. Second, we hope to be paying OTHER people to write our stupid messages before too long!) The scribbled note reads: \"Greetings from A.C.A to S. 'Z' Prüssing, M. 'Copy' Kuhlmann, S. Meyer, A. Gehrke, K. Obarski, H. Gehrmann, U. Grabosch, P. Fröhlich, F. 'Delta' Schröcker, M. 'Dark' Plöger, P. Parker, C. 'CAT' Koch, A. 'Ick versuch's' Teichmann, R. Rinscheidt, W. 'Goldwolfi' Bandur, Miriam Leiner, Brooke Shields, Bo Derek and all the other girls who adore us.\"",
       "screen_lines": [
         "You unfold the note and wonder: Will    ",
         "these jaded baby programmers ever stop  ",
@@ -937,7 +937,7 @@
     "175": {
       "index": 175,
       "source_offset": 12616,
-      "text": "The huge portal gate seems to stare down at you as if to say, \"You'll never get out of here alive!\" - and rest assured: It knows how to convey this statement very credibly...!",
+      "text": "The enormous gate seems to stare down at you, as if to say, \"You'll never leave this place alive!\" And believe me, it makes a very convincing argument...",
       "screen_lines": [
         "The huge portal gate seems to stare down",
         "at you as if to say, \"You'll never get  ",
@@ -949,7 +949,7 @@
     "176": {
       "index": 176,
       "source_offset": 12742,
-      "text": "A stuffed and already lit pipe. Her smoke is warm and sweet, as sweet as - marijuana? Yes, indeed: It's weed, as you state with a connoisseur's relish. Suddenly a warm and comfortable feeling comes over you: The orc father must be a really excessive stoner: Something like sympathy stirs in you...",
+      "text": "A packed pipe, already lit. The smoke is warm and sweet. Sweet as... marijuana? Yes, definitely weed, you decide with the appreciative air of a connoisseur. A warm, cosy feeling washes over you. The orc father must be one serious stoner. You're beginning to like him...",
       "screen_lines": [
         "A stuffed and already lit pipe. Her     ",
         "smoke is warm and sweet, as sweet as -  ",
@@ -984,7 +984,7 @@
     "179": {
       "index": 179,
       "source_offset": 13124,
-      "text": "You look at your sword: as you turn it in the light, the silver-plated blade that you consecrated in the chapel of the monastery flashes mysteriously. You weigh it examiningly in your hand and execute a few unsteady blows against an invisible opponent. \"Yes!\" You think to yourself with satisfaction, \"A truly deadly weapon wielded by a master of weaponry!\" With this sword in your hand you feel like you can take on all the powers in the world. Well, we'll see if your optimism is justified...",
+      "text": "You examine your sword. As you turn it in the light, the silver-plated blade you blessed in the monastery chapel gives a mysterious flash. You test its weight and take a few uncertain swings at an invisible opponent. \"Yes!\" you think smugly. \"A truly deadly weapon, wielded by a master swordsman!\" With this sword in your hand, you feel ready to take on every power in the world. Well, we'll see whether that optimism is justified...",
       "screen_lines": [
         "You look at your sword: as you turn it  ",
         "in the light, the silver-plated blade   ",
@@ -1004,7 +1004,7 @@
     "18": {
       "index": 18,
       "source_offset": 2589,
-      "text": "[Fireplace room]",
+      "text": "[In the fireplace room]",
       "screen_lines": [
         "[Fireplace room]"
       ]
@@ -1012,7 +1012,7 @@
     "180": {
       "index": 180,
       "source_offset": 13454,
-      "text": "A warm lined cotton pant. You would have preferred your faded jeans, but before you walk around naked...",
+      "text": "A pair of warm, lined cotton trousers. You'd rather have your faded jeans, but it beats wandering around naked...",
       "screen_lines": [
         "A warm lined cotton pant. You would have",
         "preferred your faded jeans, but before  ",
@@ -1022,7 +1022,7 @@
     "181": {
       "index": 181,
       "source_offset": 13541,
-      "text": "A bit old-fashioned swimming trunks, but nonetheless: You like them because they give your appearance on the beach that certain something that draws all female eyes to you. You have always been able to confidently ignore the fact that the girls and their companions laughed at you.",
+      "text": "Some rather old-fashioned swimming trunks. You like them anyway: they give your beach look that special something that turns every girl's head. So far, you've managed to ignore the fact that the girls and their boyfriends are laughing themselves silly at you.",
       "screen_lines": [
         "A bit old-fashioned swimming trunks, but",
         "nonetheless: You like them because they ",
@@ -1113,7 +1113,7 @@
     "186": {
       "index": 186,
       "source_offset": 15060,
-      "text": "What do you want? You've been standing on your own feet for a while!",
+      "text": "What are you on about? You're already standing up!",
       "screen_lines": [
         "What do you want? You've been standing  ",
         "on your own feet for a while!"
@@ -1122,7 +1122,7 @@
     "187": {
       "index": 187,
       "source_offset": 15108,
-      "text": "Can you maybe give me a hot tip on how you want to leave THAT?",
+      "text": "Any bright ideas about how you expect to get out of THAT?",
       "screen_lines": [
         "Can you maybe give me a hot tip on how  ",
         "you want to leave THAT?"
@@ -1131,7 +1131,7 @@
     "188": {
       "index": 188,
       "source_offset": 15161,
-      "text": "ok open",
+      "text": "Okay, opened.",
       "screen_lines": [
         "ok open"
       ]
@@ -1139,7 +1139,7 @@
     "189": {
       "index": 189,
       "source_offset": 15177,
-      "text": "Oh! It seems someone preempted you by opening it...",
+      "text": "Oh! Looks as though someone has already opened it for you...",
       "screen_lines": [
         "Oh! It seems someone preempted you by   ",
         "opening it..."
@@ -1156,7 +1156,7 @@
     "190": {
       "index": 190,
       "source_offset": 15225,
-      "text": "You open it carefully, until you realize after a few seconds that you actually couldn't open it at all! So you close it again, leave it as it was, and resolve not to think about logic in computer programs any further.",
+      "text": "You carefully open it. A few seconds later, it occurs to you that you couldn't possibly have opened it in the first place! So you close it again, leave everything as it was and resolve never to think about logic in computer programs again.",
       "screen_lines": [
         "You open it carefully, until you realize",
         "after a few seconds that you actually   ",
@@ -1188,7 +1188,7 @@
     "193": {
       "index": 193,
       "source_offset": 15496,
-      "text": "How strange! No Answer ?!?!?",
+      "text": "How odd! No answer?!?!?",
       "screen_lines": [
         "How strange! No Answer ?!?!?"
       ]
@@ -1204,7 +1204,7 @@
     "195": {
       "index": 195,
       "source_offset": 15545,
-      "text": "You clumsily step into the thick fur boots that Mylgor gave you. Man, are they warm! Better not to take them off in closed rooms...",
+      "text": "You clumsily pull on the thick fur boots Mylgor gave you. Boy, are they warm! Best not take them off indoors...",
       "screen_lines": [
         "You clumsily step into the thick fur    ",
         "boots that Mylgor gave you. Man, are    ",
@@ -1215,7 +1215,7 @@
     "196": {
       "index": 196,
       "source_offset": 15647,
-      "text": "Carefully you puff on the orc father's whistle. Her sweet smoke transports you to another world: a world where you fly through the clouds on a lowered toaster, where pink elephants direct the traffic. Suddenly it starts raining colorful raindrops - and the visibility in your turbo toaster is getting worse and worse, because the windshield wipers are of course on strike again! Such a crap! You were with the box but only just at the Toaster Monitoring Association (TÜV)! bang! Now it's happened again: as soon as you're not paying attention for a while, one of those jaded marzipan potato riders takes the right of way! \"It was his fault!\" You still think to yourself as you smash your turnip through the windshield. Then the lights go out... When you come to, you're back where you puffed the whistle - but you've got a terrible headache. Man! what a herb...",
+      "text": "You cautiously take a puff on the orc father's pipe. Its sweet smoke carries you into another world, where you fly through the clouds in a customised, low-slung toaster and pink elephants direct the traffic. Suddenly, multicoloured raindrops start falling. Visibility in your turbo-toaster gets worse and worse, because naturally the windscreen wipers have packed up again! Damn it! You only just had the thing inspected by the Toaster Testing Authority! CRUNCH! There we go again. Look away for one second and some stuck-up marzipan-potato jockey cuts you off! \"His fault!\" you think as your head goes through the windscreen. Then the lights go out... When you come round, you're back where you took that puff, with a truly thunderous headache. Man! What was IN that stuff?",
       "screen_lines": [
         "Carefully you puff on the orc father's  ",
         "whistle. Her sweet smoke transports you ",
@@ -1253,7 +1253,7 @@
     "198": {
       "index": 198,
       "source_offset": 16273,
-      "text": "Well, whatever you say: heroically you throw yourself into the blade of your sword - but nothing happens! No blood, no pain, absolutely nothing! Frustrated, you make another attempt, but again you feel nothing. The third time you finally meet: In agony you writhe on the floor without a word of pain passing your lips - as it should be for a real hero. If only your girlfriend could see that! After all, it's not every day that you make such a stylish exit! Suddenly it's all over and it's getting dark... After a while you wake up floating in a dark room. You shudder: Is this life after death? Is that really all? It looks dark... But suddenly you realize what woke you up: Quietly, as if from far away, a soft voice blows over to you... \"Dave Parker!\" You can hear her whispering, \"You you should know that no one can escape his fate! There is no point in fleeing his destiny - fate always catches up with you! So go and fulfill the tasks that have been given to you. By the power of my divine powers, I will be thee now give you an extra life to give you one more opportunity to fulfill your destiny...\" As the voice fades away into nothing, everything around you begins to spin, you become dizzy - and you fall into a deep, dreamless sleep ... When you open your eyes again, you find yourself exactly where you attempted suicide...",
+      "text": "All right, have it your way. Heroically, you throw yourself onto your sword. Nothing happens! No blood, no pain, absolutely nothing! Frustrated, you try again. Still nothing. On your third attempt, you finally hit the target: yourself. You writhe on the ground in your death throes, without so much as a cry of pain. A true hero to the last! If only your girlfriend could see you now. You don't make an exit this stylish every day! Then it is over, and everything goes dark... Some time later, you wake to find yourself floating in a dark space. You shudder. Is this the afterlife? Is this really all there is? Not a bright prospect... Then you realise what woke you. A gentle voice drifts towards you, faint and distant. \"Dave Parker!\" it whispers. \"You should know that no one can escape their destiny. Fleeing it is pointless: fate always catches up with you! Go and complete the tasks you have been given. By my divine authority, I grant you an extra life, and one more chance to fulfil your destiny...\" As the voice fades, everything starts spinning. You grow dizzy and fall into a deep, dreamless sleep. When you open your eyes again, you are exactly where you tried to kill yourself...",
       "screen_lines": [
         "Well, whatever you say: heroically you  ",
         "throw yourself into the blade of your   ",
@@ -1295,7 +1295,7 @@
     "199": {
       "index": 199,
       "source_offset": 17194,
-      "text": "You are now wearing lined, warm pants.",
+      "text": "You are now wearing the warm, lined trousers.",
       "screen_lines": [
         "You are now wearing lined, warm pants."
       ]
@@ -1341,7 +1341,7 @@
     "202": {
       "index": 202,
       "source_offset": 17414,
-      "text": "Unfortunately, it's too hard to lie comfortably on it - and also: It's no fun to do it so quickly...",
+      "text": "It's too hard to lie on comfortably. Besides, rushing things takes all the fun out of it...",
       "screen_lines": [
         "Unfortunately, it's too hard to lie     ",
         "comfortably on it - and also: It's no   ",
@@ -1351,7 +1351,7 @@
     "203": {
       "index": 203,
       "source_offset": 17492,
-      "text": "Hey you! I'm just a computer! This is spelled \"C-O-M-P-U-T-E-R\"! Repeat after me: \"Kooom-Piuuu-Tääär\"! Fine, now think of something more realistic...",
+      "text": "Hey! I'm a computer! That's \"C-O-M-P-U-T-E-R\"! Say it with me: \"Com-pyoo-ter\". Very good. Now think of something a little more realistic...",
       "screen_lines": [
         "Hey you! I'm just a computer! This is   ",
         "spelled \"C-O-M-P-U-T-E-R\"! Repeat after ",
@@ -1372,7 +1372,7 @@
     "205": {
       "index": 205,
       "source_offset": 17711,
-      "text": "All right: sponge over it! Let's forget it and don't talk about it anymore! But now please enter something more meaningful - I'm getting bored!",
+      "text": "All right, let's wipe the slate clean and never mention it again. Now give me a sensible command, please. I'm getting bored!",
       "screen_lines": [
         "All right: sponge over it! Let's forget ",
         "it and don't talk about it anymore! But ",
@@ -1383,7 +1383,7 @@
     "206": {
       "index": 206,
       "source_offset": 17813,
-      "text": "But that's already over!",
+      "text": "But it's already locked!",
       "screen_lines": [
         "But that's already over!"
       ]
@@ -1391,7 +1391,7 @@
     "207": {
       "index": 207,
       "source_offset": 17840,
-      "text": "But that was unlocked a long time ago!",
+      "text": "But it's already unlocked!",
       "screen_lines": [
         "But that was unlocked a long time ago!"
       ]
@@ -1408,7 +1408,7 @@
     "209": {
       "index": 209,
       "source_offset": 17943,
-      "text": "As you make your way east under the stunted trees, you get the impression that you are actually the only creature foolhardy enough to enter this part of the forest - a forest where time seems to have stopped ... Further to the east you see how the eerie forest becomes even denser and deeper...",
+      "text": "As you make your way east beneath the stunted trees, you begin to suspect you're the only living creature foolish enough to enter this part of the forest. Time itself seems to have stopped here. Farther east, the eerie woods grow darker and denser...",
       "screen_lines": [
         "As you make your way east under the     ",
         "stunted trees, you get the impression   ",
@@ -1423,7 +1423,7 @@
     "21": {
       "index": 21,
       "source_offset": 2639,
-      "text": "[At Mylgors house]",
+      "text": "[Outside Mylgor's house]",
       "screen_lines": [
         "[At Mylgors house]"
       ]
@@ -1431,7 +1431,7 @@
     "210": {
       "index": 210,
       "source_offset": 18160,
-      "text": "You continue your way under the thick, gnarled branches of the dead trees, through whose bizarre crowns hardly a ray of sunshine falls - everything around you seems dead and filled with a ghostly emptiness... In the north you can see the bank of a swamp recognize, while the path from which you came here lies to the west.",
+      "text": "You continue beneath the thick, twisted branches of dead trees. Hardly a ray of sunlight gets through their bizarre crowns. Everything seems lifeless, filled with a ghostly emptiness. The edge of a swamp lies to the north. The path you arrived on leads west.",
       "screen_lines": [
         "You continue your way under the thick,  ",
         "gnarled branches of the dead trees,     ",
@@ -1447,7 +1447,7 @@
     "211": {
       "index": 211,
       "source_offset": 18368,
-      "text": "While you feel the soft, muddy ground under your feet, you get the vague premonition that something is going to happen here very soon: It's just too quiet, although everything around you actually makes a pretty peaceful - at least very quiet - impression . But isn't it even - TOO peaceful...? The shore of the swamp lake is to the north, while the enchanted forest stretches to the south.",
+      "text": "The ground is soft and boggy underfoot, and you have an uneasy feeling that something is about to happen. It's too quiet. Everything looks peaceful, certainly calm, but perhaps a little TOO peaceful...? The swamp lake lies to the north, and the enchanted forest stretches away to the south.",
       "screen_lines": [
         "While you feel the soft, muddy ground   ",
         "under your feet, you get the vague      ",
@@ -1465,7 +1465,7 @@
     "212": {
       "index": 212,
       "source_offset": 18643,
-      "text": "You reach the shore of a large swamp lake: so this brown broth seems to be the only thing that still separates you from the island that you can see further north. If the story of King Richard is correct, the destination of your journey is actually behind the small hill on the island: the royal castle of the country, which was occupied long ago by Zargon and his horde and now serves as his headquarters from which he directs his sinister machinations that have brought death and ruin to the whole land... Now you can either enter the swamp lake in the north or return to the swamp and the forest behind it in the south.",
+      "text": "You reach a large swamp lake. This brown sludge is all that separates you from the island to the north. If King Richard's story is true, your destination lies behind the island's low hill: the royal castle, seized long ago by Zargon and his horde. From there, he directs the sinister schemes that have brought death and misery to the whole land. You can enter the swamp lake to the north, or head south, back towards the swamp and forest.",
       "screen_lines": [
         "You reach the shore of a large swamp    ",
         "lake: so this brown broth seems to be   ",
@@ -1488,7 +1488,7 @@
     "213": {
       "index": 213,
       "source_offset": 19047,
-      "text": "As you row the boat across the lake, you look down at the brownish broth to the left and right of your boat: somehow it reminds you uncomfortably of the coffee you used to brew at home a long night ago, unfazed by the fact that you because of this \"killer coffee\" has been at the top of the criminal police's drug search list for months: six heaped spoonfuls of coffee per cup - the brew even brought the dead back to life, only to send them back to the Eternal Hunting Grounds immediately after a heart attack! A not entirely inappropriate comparison, by the way, because who knows what is hiding under this brown mass just waiting to be brought to life...? Don't think man: ROW! Namely to the north, if you want to reach the island safely.",
+      "text": "As you row across the lake, you look down at the brown sludge on either side. It reminds you unpleasantly of the coffee you brew at home before a long night. Six heaped spoonfuls per cup! Your \"killer coffee\" has had you topping the drug squad's wanted list for months, but you've never let that bother you. The stuff could raise the dead, then send them straight back to the afterlife with a heart attack! Not a bad comparison, actually. Who knows what's lurking beneath this brown mess, just waiting to come back to life...? Stop thinking and ROW! North, if you want to reach the island in one piece.",
       "screen_lines": [
         "As you row the boat across the lake, you",
         "look down at the brownish broth to the  ",
@@ -1515,7 +1515,7 @@
     "214": {
       "index": 214,
       "source_offset": 19570,
-      "text": "Curious, you enter the impenetrable swamp areas. Although the ground feels dangerously soft and slippery, you continue on your way undeterred - until you finally have to admit that you've completely lost your way again! Angry, you punch your way through the dense, damp vegetation, hoping that you'll stumble upon some landmark that might help you orient yourself a little, but somehow you just seem to be walking in circles! After some time, the saving thought finally comes to you: Instead of wandering around aimlessly, you decide to stubbornly continue your way straight ahead. Eventually you will come to a shore of the island from where you can make your way to the landing place of your boat! So you set off with renewed courage, until you finally reach a small clearing from which you can already see the southern shore of the island to the south-east, where this strange sign stood, the meaning of which you did not understand. \"Phew, done!\", you think to yourself relieved and want to squat down exhausted to catch your breath when you realize to your shock that you are already knee-deep in the ground. Panic-stricken, you kick your legs like crazy, but without even moving a single centimeter off the ground - on the contrary: you only sink deeper! Well, like every real adventure, \"Soul Crystal\" also has a quicksand location: Now you know it! So, as you slowly begin your destiny as a bog corpse, for your comfort you at least feel your foot stumbling against the remains of another unfortunate adventurer who seems to have chosen the same route as you...",
+      "text": "Curiosity leads you into the dense swamp. The ground is dangerously soft and slippery, but you press on until you have to admit you're hopelessly lost. Again. Furious, you fight through the wet vegetation, looking for a landmark, but all you do is go round in circles. At last, inspiration strikes: walk in a straight line! You'll reach the island's shore eventually, then follow it back to your boat. Encouraged, you push on until you reach a little clearing. To the southeast you can see the southern shore, where that strange sign stood. The one you didn't understand. \"Phew, made it!\" You start to crouch down for a breather, then realise with horror that you're already knee-deep in the ground! You kick frantically, but instead of getting out, you sink deeper. Like every proper adventure, \"Soul Crystal\" has a quicksand location. Now you know where it is! As you settle into your new career as a bog body, take comfort in the fact that your foot has just touched the remains of another unfortunate adventurer who chose the same route...",
       "screen_lines": [
         "Curious, you enter the impenetrable     ",
         "swamp areas. Although the ground feels  ",
@@ -1563,7 +1563,7 @@
     "215": {
       "index": 215,
       "source_offset": 20649,
-      "text": "You reach the shore of a beautiful, tranquil island. Everything around you makes a pretty untouched and wild impression - almost as if nobody has set foot on this island for centuries... \"Crap! Not another parallel world!\", you think to yourself and silently curse the unimaginativeness of certain Game Designers... The swamp lake is behind you to the south, further north is a small wooded hill that should give you a good view of the island, and to your left is a sign that reads \"Caution - Quicksand ! Passage prohibited! Parents are responsible for their children!\" Well, maybe you should take the trouble to save your progress before continuing your exploration...?",
+      "text": "You reach the shore of a lovely, peaceful island. Everything is wild and untouched, as though nobody has set foot here for centuries... \"Damn! Not another parallel world!\" you think, silently cursing certain game designers' lack of imagination. The swamp lake is behind you to the south. A wooded hill to the north should offer a good view. On your left, a sign reads: \"Danger - quicksand! No entry! Parents are responsible for their children!\" Perhaps you should save your game before exploring any farther...?",
       "screen_lines": [
         "You reach the shore of a beautiful,     ",
         "tranquil island. Everything around you  ",
@@ -1588,7 +1588,7 @@
     "216": {
       "index": 216,
       "source_offset": 21132,
-      "text": "You enter the hut of an elderly hermit, which he has patched together over the years from the stones and branches that are scattered around here on the island. As you enter his hut without knocking, the old hermit, who has been busy grinding arrowheads for the next wolf's hunt, looks up from his work and looks at you with curious - if a bit stupid - eyes, as if to ask you wondered what planet you were from... Through the small door hatch in the east you can see the clearing from which you entered this hut.",
+      "text": "You enter an elderly hermit's hut, patched together over the years from the stones and branches scattered around the island. Since you didn't bother knocking, the old man looks up from sharpening arrowheads for his next wolf hunt. His curious, slightly vacant stare suggests he's wondering what planet you're from. Through the little doorway to the east, you can see the clearing outside.",
       "screen_lines": [
         "You enter the hut of an elderly hermit, ",
         "which he has patched together over the  ",
@@ -1609,7 +1609,7 @@
     "217": {
       "index": 217,
       "source_offset": 21482,
-      "text": "You are in a small clearing in the middle of a dark forest. Countless stones, planks and other building materials lie around on the ground in front of the small hut to the west, from whose chimney a small plume of smoke curls peacefully against the sky. Further north you can see a steaming moor at the edge of the forest, whose damp wafts of mist blow heavily and ominously into the forest. To your right is a path that will take you back up the small hill from which you could get a good overview of the geography of this island. Finally there is a sign behind you that says \"Caution - quicksand! No entry! Parents are responsible for their children!\" Well, if you have actually drawn a map with wise foresight, it may be of use to you at this point - if not, it doesn't matter: when the time comes, you will probably understand what I mean meant - but until then don't forget to save your progress regularly...",
+      "text": "You are in a small clearing in a dark forest. Stones, planks and other building materials litter the ground outside a hut to the west. A thin plume of smoke curls peacefully from its chimney. To the north, a steaming bog lies at the forest's edge, sending heavy, ominous banks of mist among the trees. A path on your right leads back up the hill, where you could get a better view of the island. Behind you stands a sign: \"Danger - quicksand! No entry! Parents are responsible for their children!\" If you've had the foresight to draw a map, now might be a good time to use it. If not, never mind. You'll understand what I mean when the time comes. Until then, remember to save regularly...",
       "screen_lines": [
         "You are in a small clearing in the      ",
         "middle of a dark forest. Countless      ",
@@ -1640,7 +1640,7 @@
     "218": {
       "index": 218,
       "source_offset": 22136,
-      "text": "With the utmost effort, you drag yourself to the top of the approximately one hundred meter high hill. After you have sat down on one of the larger rocks to recover from your exhausting summit storm, you take a closer look at your surroundings: The entire hill is surrounded by a dense forest through which three paths wind: The western path leads down to a small clearing from which you can also reach the moor in the northwest of the island, the southern one ends on the shore of the swamp lake where your boat is waiting for you, and in the north lies the goal of your long journey, gloomy and awe-inspiring: the castle of Zargon!",
+      "text": "With heroic effort, you drag yourself to the top of the hundred-metre hill. You sit on a rock to recover from your exhausting summit expedition, then survey the view. Dense forest surrounds the hill, with three paths winding through it. The western path descends to a clearing and the bog in the northwest of the island. The southern path leads to the lake shore, where your boat waits. To the north looms the dark, imposing destination of your long journey: Zargon's castle!",
       "screen_lines": [
         "With the utmost effort, you drag        ",
         "yourself to the top of the approximately",
@@ -1664,7 +1664,7 @@
     "219": {
       "index": 219,
       "source_offset": 22523,
-      "text": "Trembling and still panicking about what you experienced a few seconds ago, you stop at the western edge of the moor to catch your breath. At least you can't find any more traces of your pursuers: You seem to have lost them, but - where to now? \"Crap!\" you think to yourself bitterly, \"If only I had stayed in my cozy hotel and relaxed for a few weeks instead of looking for adventure again! Now we have the salad: Now I'm sitting lonely and abandoned in the Pampa, I have the biting pack of zombies behind me - and anyway the whole game was a single bad buy! Never in my life will I spend money on such crap again!\" You only really realize how right you are with your last statement when you look around and realize to your horror that the only way out of this part of the bog is to the east - straight into the arms of the zombies who are chasing you have given up for a good reason: They know this bog very well - the place that will sooner or later become your grave...",
+      "text": "Still trembling from your narrow escape, you stop at the western edge of the bog to catch your breath. There's no sign of your pursuers. You've lost them! But where now? \"Damn it!\" you think bitterly. \"Why didn't I stay in my cosy hotel and relax for a few weeks? I had to go looking for adventure, didn't I? Now look at me: stranded in the middle of nowhere with a pack of snapping zombies behind me! This whole game was a waste of money. I'll never buy rubbish like this again!\" Just how right that last statement is becomes clear when you look around. The only way out is east, straight back to the zombies. They stopped chasing you for a reason: they know this bog very well. Sooner or later, it will be your grave...",
       "screen_lines": [
         "Trembling and still panicking about what",
         "you experienced a few seconds ago, you  ",
@@ -1696,7 +1696,7 @@
     "22": {
       "index": 22,
       "source_offset": 2657,
-      "text": "[At marketplace]",
+      "text": "[In the marketplace]",
       "screen_lines": [
         "[At marketplace]"
       ]
@@ -1704,7 +1704,7 @@
     "220": {
       "index": 220,
       "source_offset": 23186,
-      "text": "As you walk across the moor on a more imaginary than actual path that runs south-west, your feet sink deeper and deeper into the spongy-soft ground. The impenetrable, damp fog that rises on both sides of your path, thickens into grotesque mythical creatures, the sight of which sends chills down your spine... A short time later, however, you tell yourself that everything that happens around you is just is a product of your overwrought nerves - pipe dreams that only grow from your fertile imagination. To give you a little encouragement, you think back to your previous adventures in this world, and that there's a little more to scaring Dave Parker than just a few ridiculous wisps of fog and a spooky background noise. You are just about to continue on your way with renewed courage when you hear a strange bubbling sound in front of you that seems to be getting closer and closer - a sound that is anything but unreal! You look around frantically, but nowhere in the middle of the waving sea of fog can you find an explanation for these eerie noises that seem to come straight from the deepest depths of the moor...",
+      "text": "The path through the bog runs from south to west, though it owes more to your imagination than to anything underfoot. Your feet sink deeper into the spongy ground. Dense, damp mist rises on either side, taking the shapes of grotesque creatures that send shivers down your spine. Nonsense, you tell yourself. Just frayed nerves and an overactive imagination. After everything you've survived, it'll take more than a bit of fog and some spooky noises to frighten Dave Parker! You're about to press on with renewed courage when a strange bubbling noise comes from ahead, growing closer and closer. THAT is no figment of your imagination. You look around wildly, but the rolling fog hides the source of those dreadful sounds. They seem to rise from the deepest part of the bog...",
       "screen_lines": [
         "As you walk across the moor on a more   ",
         "imaginary than actual path that runs    ",
@@ -1740,7 +1740,7 @@
     "221": {
       "index": 221,
       "source_offset": 23916,
-      "text": "You are right before the destination of your journey - the castle ruins of Zargon! But there really isn't much left of the former royal palace: The only thing that has survived amidst the sad remains is the huge entrance portal in the high wall in front of you - the only access to Zargon's headquarters, as you have to realize a little discouraged. If you dare, you can now attempt to enter Zargon's stronghold - but no one would blame you if, faced with the dangers lurking behind those walls, you backed out at the last moment and returned to your boat on the southern shore of the island.",
+      "text": "Before you stands your destination: Zargon's ruined castle! Little remains of the former royal palace. The only intact structure among the sorry ruins is an enormous gateway in the high wall before you. Rather discouragingly, it seems to be the only way into Zargon's headquarters. You can try entering his stronghold, if you dare. Nobody would blame you for thinking better of it and returning to your boat on the southern shore, though. There are some very unpleasant things behind those walls...",
       "screen_lines": [
         "You are right before the destination of ",
         "your journey - the castle ruins of      ",
@@ -1763,7 +1763,7 @@
     "222": {
       "index": 222,
       "source_offset": 24298,
-      "text": "You enter the gatehouse through which, long, long ago, anyone who wished to enter the king's palace had to pass. You chuckle as you try to imagine the old, hard of hearing \"gatekeeper\" from \"Mary's Inn\" sitting here checking on all new visitors! As you look around you realize that everything in this room is covered with a thick layer of dust. Nevertheless, I guess that the usual rabble got ahead of us and plundered everything that wasn't nailed down here long ago... Through the small door in the east wall you can get back outside, in front of the castle gate.",
+      "text": "You enter the gatehouse through which everyone visiting the king's castle once had to pass. You chuckle at the thought of the deaf old \"gatekeeper\" from \"Mary's Inn\" sitting here, inspecting the visitors. A thick layer of dust covers everything. Even so, I suspect the usual rabble got here first and carried off anything that wasn't nailed down. A small door in the east wall leads back outside, to the castle gate.",
       "screen_lines": [
         "You enter the gatehouse through which,  ",
         "long, long ago, anyone who wished to    ",
@@ -1785,7 +1785,7 @@
     "223": {
       "index": 223,
       "source_offset": 24694,
-      "text": "The massive castle gate with its iron fittings rises threateningly and massively in front of you. It seems to be staring down at you maliciously - almost as if it wanted to say: \"I will never let you out of here again...!\", and promptly you get the light and vague, but on the other hand absolutely not pleasant feeling that You will actually only pass through this entrance to the castle once... You still have a little time to think carefully about your project - and we should warn you to be fair, although you are actually already on the right path to solving your task : If you actually dare to enter this gloomy building against all our warnings, this game will not let you sleep until you finally solve it. So I suggest that you start by brewing a few kegs of coffee, buy a few packs of cigarettes - and most importantly, come up with some reasonably intelligent excuses for your boss! So, after all these terrifying announcements, should you still have the courage - or the recklessness? - own the ability to enter Zargon's castle - here are the exits: To the west you'll find yourself in a small gatehouse where you might find a last-minute clue or useful item. On the other hand, if you go north, you either enter the interior of the ruins, or you slam into solid oak wood with full force - depending on the condition of the castle gate... Finally, you still have the option of retreating south, out of the castle - without your mission having fulfilled doesn't make a lot of sense, don't you think...?",
+      "text": "The enormous, iron-bound castle gate looms before you. It seems to grin down maliciously: \"You're never getting out again!\" An unpleasant little feeling tells you that you may only pass through this entrance once. You still have time to reconsider. In fairness, we ought to warn you: although you're on the right track, once you enter this gloomy pile you won't sleep until you've finished the game. So brew a few barrels of coffee, buy a few cartons of cigarettes, and above all think up some convincing excuses for your boss! Still got the courage, or the poor judgement, to enter Zargon's castle? Here are the exits. West leads to a small gatehouse, where you might find a last-minute clue or useful object. North takes you into the ruins, or headfirst into solid oak, depending on whether the gate is open. You could also retreat south, away from the castle, though that won't do much to complete your mission, will it?",
       "screen_lines": [
         "The massive castle gate with its iron   ",
         "fittings rises threateningly and        ",
@@ -1832,7 +1832,7 @@
     "224": {
       "index": 224,
       "source_offset": 25714,
-      "text": "Hmmm...: While I'm well aware that there are people who appreciate a mud bath for its health benefits, this is a deep swamp - not just some harmless little bog! So you sink helplessly down to the bottom of the swamp lake to be preserved there for all eternity. Well, I still think it would have been better for your health to preserve it using the \"Save\" function, don't you think...?",
+      "text": "Hmm... I know some people swear by mud baths, but this is a deep swamp, not a harmless spa treatment! You sink helplessly to the bottom of the lake, where you'll be preserved for all eternity. Personally, I think preserving yourself with the \"Save\" command would have been rather healthier...",
       "screen_lines": [
         "Hmmm...: While I'm well aware that there",
         "are people who appreciate a mud bath for",
@@ -1849,7 +1849,7 @@
     "225": {
       "index": 225,
       "source_offset": 26015,
-      "text": "After a few meters you stop and listen again to the deceptive silence: No, it wasn't really your imagination - there are actually noises that stand out unpleasantly from the constant bubbling of the moorland! Footsteps are approaching you from behind, getting louder and louder - slowly but unstoppably... Startled, you whirl around, but can see nothing but dense, wafting wafts of fog, which twist into grotesque grimaces mocking you for your fear... Suddenly however, the ground next to you begins to seethe and bubble as if it were boiling - and then the horribly disfigured face of a half-decomposed corpse emerges from the depths! Frozen in horror and unable to take your eyes off the horrific spectacle, you watch as a zombie rises from the depths of the bog! The moment you regain control of yourself, its clawed claws will shoot for your throat! You don't know how, but somehow you throw yourself to the side again with all your strength and thus avoid certain death! However, you stumble during your parade and land hard in the mud! Now the Blackblood seems to have finally won: while you are struggling to get back on your feet, he hisses and hisses at you: as he staggers towards you, his jaws open and close with a creaking sound, exposing his disgustingly -brown tooth stumps...",
+      "text": "After a few paces, you stop and listen to the deceptive silence. No, you weren't imagining it. Something is moving beneath the constant bubbling of the bog. Footsteps approach from behind, slow but relentless. You whirl round, but see only thick mist twisting into grotesque faces that seem to mock your fear. Suddenly the ground beside you begins to boil. A horribly disfigured face breaks the surface: a half-rotted corpse! Frozen with horror, you watch a zombie drag itself from the depths. As you regain control of your limbs, its claws shoot towards your throat! Somehow you fling yourself aside in time, but stumble and land hard in the mud. The undead creature seems to have won. While you struggle to your feet, it staggers closer, hissing and snarling. Its jaws creak open and shut, exposing the revolting brown stumps of its teeth...",
       "screen_lines": [
         "After a few meters you stop and listen  ",
         "again to the deceptive silence: No, it  ",
@@ -1891,7 +1891,7 @@
     "226": {
       "index": 226,
       "source_offset": 26902,
-      "text": "I'm sorry: you really had a real chance to get away with the horror again, but unfortunately you hesitated a little too long again: happily the zombie pulls you towards you and happily sinks its teeth into your young, tender one Meat! But don't despair: at least until you fall victim to a true gourmet, and surely some of your tastiest body parts, such as your eyes, tongue, and similar delicacies, will be shipped off to his stash cave and canned, as it's just far too rare for a unfortunate adventurer strayed into this area, than one should eat such fat prey on the spot...",
+      "text": "Sorry. You had a real chance to escape with nothing worse than a fright, but you hesitated too long. The delighted zombie pulls you close and sinks its teeth into your young, tender flesh! Still, don't despair. You've fallen victim to a true gourmet. Some of your tastier parts, eyes, tongue and similar delicacies, will doubtless be taken to its store-cave and preserved. Unfortunate adventurers stray out here far too rarely to waste such a feast in one sitting...",
       "screen_lines": [
         "I'm sorry: you really had a real chance ",
         "to get away with the horror again, but  ",
@@ -1913,7 +1913,7 @@
     "227": {
       "index": 227,
       "source_offset": 27321,
-      "text": "It was a fatal mistake to come back here after your earlier encounter: A veritable pack of zombies is already ready to receive you and is coming straight at you with slow, jerky movements and a fixed gaze - at the top is the zombie you just met narrowly escaped! This time, however, you have a little more control over yourself and your reaction is a lot faster than before: you spin around in a flash, grab your feet and run for your life as fast as you can on the soft moorland - and straight into the outstretched arms of another zombie who probably didn't quite get what was going on out here! Too bad, really - because your time was almost a world record! Nonetheless, the zombie is delighted to make your acquaintance, as it hasn't had fresh meat for weeks - and only eating \"canned adventurers\" that have sunk into the swamp is, in the long run, even for a half-rotted zombie stomach a somewhat one-sided and unhealthy diet! After a short prayer, he gratefully sinks his tusks into your flesh: \"Damn! Who would have thought that these brown stumps could still be so sharp...\", is your last thought before everything blurs before your eyes...",
+      "text": "Coming back after your last encounter was a fatal mistake. A whole pack of zombies waits to welcome you, advancing with jerky movements and fixed stares. Leading them is the one you only just escaped! This time you react much faster. You spin round and run for your life as fast as the soggy ground allows, straight into the arms of another zombie who hadn't quite caught up with the proceedings. A shame, really. You were on course for a world record! Your new acquaintance is delighted. It hasn't had fresh meat in weeks, and a diet of bog-preserved adventurers gets a bit monotonous, even for a half-rotten stomach. After saying a quick grace, it gratefully sinks its teeth into you. \"Damn! Who knew those brown stumps could still be so sharp?\" is your last thought before everything blurs...",
       "screen_lines": [
         "It was a fatal mistake to come back here",
         "after your earlier encounter: A         ",
@@ -1951,7 +1951,7 @@
     "228": {
       "index": 228,
       "source_offset": 28132,
-      "text": "As you make your way back south from the enchanted forest, the amulet that had protected you from its destructive power on the way through the magical barrier gets caught in one of the dead branches: without your noticing, it comes loose off your neck, so that you - not suspecting anything bad - happily cross the border between the two forest sections and reach the other side of the magic wall, although crispy brown, but unfortunately also quite dead...",
+      "text": "As you head south out of the enchanted forest, the amulet that protected you on your way through the magical barrier snags on a dead branch. Without your noticing, it slips from your neck. You stroll cheerfully through the boundary between the two stretches of forest and emerge on the other side of the magical wall nicely browned, but unfortunately quite dead...",
       "screen_lines": [
         "As you make your way back south from the",
         "enchanted forest, the amulet that had   ",
@@ -1970,7 +1970,7 @@
     "229": {
       "index": 229,
       "source_offset": 28435,
-      "text": "As you walk among the dead trees, you suddenly feel something brutally tugging at your neck! Scared to death, you try to shake off your invisible opponent and throw yourself back and forth until he finally lets go of you - and you can hardly contain yourself not to burst out laughing hysterically: Your \"opponent\" was just your amulet, which was different from you got caught in one of the branches unnoticed and is now dangling from one of the trees as if in derision...",
+      "text": "Walking beneath the dead trees, you suddenly feel a vicious tug at your neck! Terrified, you thrash about, trying to shake off your invisible attacker. At last it lets go, and you nearly burst into hysterical laughter. Your \"attacker\" was your own amulet, caught on a branch. It now dangles from the tree as if mocking you...",
       "screen_lines": [
         "As you walk among the dead trees, you   ",
         "suddenly feel something brutally tugging",
@@ -1990,7 +1990,7 @@
     "23": {
       "index": 23,
       "source_offset": 2676,
-      "text": "[on a path]",
+      "text": "[On a path]",
       "screen_lines": [
         "[on a path]"
       ]
@@ -1998,7 +1998,7 @@
     "230": {
       "index": 230,
       "source_offset": 28735,
-      "text": "Okay, let's say: It was an attempt - and let's not talk about it any further, because it wasn't particularly successful, as you have to discover painfully: Before you even get the slightest chance of being able to slip under the portal arch, you hear something from rattling down... Well, let's keep it short for once and just tell you what once again swept you away from this despicable world: The portcullis, which you activated by stepping on the small platform below, got you slain with a single heavy blow! You're dead - yes, really: we're completely serious! You scraped yourself, put the spoon down, bit the dust, in short: you're gone! Please don't complain to us: If you had paid more attention to your surroundings, you probably wouldn't have missed the small platform under the fence! Do you see? So it's probably more your fault than ours if you get to start all over again! What, don't you think so? Well, somehow I can understand you: You really don't have the slightest reason to do so - but maybe this can convince you...:",
+      "text": "Well, let's call that an attempt and leave it there. It wasn't much of a success, as you discover rather painfully. Before you can slip beneath the archway, something rattles down from above. For once, let's keep this brief: stepping on the little platform triggered the portcullis, which crushed you in one almighty blow! You're dead. Yes, really. You've kicked the bucket, bitten the dust, shuffled off this mortal coil. Gone! Don't complain to us. If you'd paid attention, you might have noticed the platform beneath the gate. So having to start again is rather more your fault than ours, isn't it? What's that? You don't believe me? Well, I can't say I blame you. You have no reason to. Perhaps this will convince you...:",
       "screen_lines": [
         "Okay, let's say: It was an attempt - and",
         "let's not talk about it any further,    ",
@@ -2043,7 +2043,7 @@
     "232": {
       "index": 232,
       "source_offset": 29512,
-      "text": "Doubtfully you look at the old, rotten boat: Well, it certainly doesn't make the most trustworthy impression, but I think we have no other choice if we want to cross the swamp lake reasonably safely. If instead you'd rather swim in the mush...?",
+      "text": "You eye the old, rotten boat doubtfully. It hardly inspires confidence, but I don't think we have much choice if we want to cross the lake safely. Unless you'd rather swim through that sludge...?",
       "screen_lines": [
         "Doubtfully you look at the old, rotten  ",
         "boat: Well, it certainly doesn't make   ",
@@ -2057,7 +2057,7 @@
     "233": {
       "index": 233,
       "source_offset": 29692,
-      "text": "A brick is a brick is a brick, and this disc has a crack has a crack has a crack... -MAN! What do you expect from a BRICK?!?!? Small, square, good - is that enough?",
+      "text": "A brick is a brick is a brick, and this disk is a broken record, broken record, broken rec... Oh, COME ON! What did you expect from a BRICK?!?!? Small, square, perfectly adequate. Happy now?",
       "screen_lines": [
         "A brick is a brick is a brick, and this ",
         "disc has a crack has a crack has a      ",
@@ -2069,7 +2069,7 @@
     "234": {
       "index": 234,
       "source_offset": 29840,
-      "text": "The old hermit wears a funny doublet that is covered with many colorful patches. Although you entered his dwelling uninvited, he looks at you quite friendly, even if his look at you makes a somewhat confused impression.",
+      "text": "The old hermit wears a comical doublet covered in colourful patches. For someone whose home you've just barged into, he looks remarkably friendly. A little confused, perhaps, but friendly.",
       "screen_lines": [
         "The old hermit wears a funny doublet    ",
         "that is covered with many colorful      ",
@@ -2082,7 +2082,7 @@
     "235": {
       "index": 235,
       "source_offset": 29988,
-      "text": "Since this is a fairly large and heavy key, it must belong to a lock that is at least as large, or what do you think...?",
+      "text": "A big, heavy key. Presumably it fits an equally big lock. What do you reckon...?",
       "screen_lines": [
         "Since this is a fairly large and heavy  ",
         "key, it must belong to a lock that is at",
@@ -2092,7 +2092,7 @@
     "236": {
       "index": 236,
       "source_offset": 30082,
-      "text": "Right where the bars should hit the ground is a one-square-meter platform that's sparsely overgrown with fresh grass.",
+      "text": "Directly beneath the points of the portcullis is a platform about a metre square, lightly covered with fresh grass.",
       "screen_lines": [
         "Right where the bars should hit the     ",
         "ground is a one-square-meter platform   ",
@@ -2103,7 +2103,7 @@
     "237": {
       "index": 237,
       "source_offset": 30189,
-      "text": "The small platform appears to have been sunk into the ground to activate something: a bell, a MK-III flying toaster catapult, a Fastformater, or - even more silly: A TRAP? No, well that would be a bit too unimaginative even for this game!",
+      "text": "The little platform seems to be set into the ground to trigger something. A bell? A Mark III flying-toaster catapult? A high-speed disk formatter? Or, even sillier, a TRAP? No, surely that would be too unimaginative even for this game!",
       "screen_lines": [
         "The small platform appears to have been ",
         "sunk into the ground to activate        ",
@@ -2117,7 +2117,7 @@
     "238": {
       "index": 238,
       "source_offset": 30383,
-      "text": "YUCK! While you're looking at the zombie, you have to frantically suppress the urgent need not to puke right into his rotten visage: he's about up to your shoulder, and with every little movement, remnants of putrid flesh fall from his bones...",
+      "text": "YUCK! Looking at the zombie, you struggle not to throw up straight into its rotting face. It's about shoulder-height, and every tiny movement sends scraps of putrid flesh dropping from its bones...",
       "screen_lines": [
         "YUCK! While you're looking at the       ",
         "zombie, you have to frantically suppress",
@@ -2131,7 +2131,7 @@
     "239": {
       "index": 239,
       "source_offset": 30568,
-      "text": "When you try to detach the amulet from the branch, it slips through your still trembling fingers, falls to the ground - and disappears with a short \"Blobb!\" in the mud...",
+      "text": "As you try to free the amulet from the branch, it slips through your still-trembling fingers, falls to the ground and vanishes into the mud with a little \"Plop!\"...",
       "screen_lines": [
         "When you try to detach the amulet from  ",
         "the branch, it slips through your still ",
@@ -2143,7 +2143,7 @@
     "24": {
       "index": 24,
       "source_offset": 2692,
-      "text": "[In deep forest]",
+      "text": "[Deep in the forest]",
       "screen_lines": [
         "[In deep forest]"
       ]
@@ -2151,7 +2151,7 @@
     "240": {
       "index": 240,
       "source_offset": 30684,
-      "text": "The old hermit gratefully accepts your offer and kindly asks you to clear away all the junk in front of his hut - \"...the intervertebral discs, you understand...?\" Well, I think we should let the old hypochondriac do it himself! The exercise in the fresh air will certainly do him good - meanwhile you have a more important task to fulfill than just playing garbage man...",
+      "text": "The hermit gratefully accepts your offer and asks you to clear away the junk outside his hut. \"My poor back, you understand...?\" Personally, I think we should let the old hypochondriac do it himself. A little fresh air and exercise will do him good. You have more important things to do than play dustman...",
       "screen_lines": [
         "The old hermit gratefully accepts your  ",
         "offer and kindly asks you to clear away ",
@@ -2168,7 +2168,7 @@
     "241": {
       "index": 241,
       "source_offset": 30929,
-      "text": "The zombie would certainly be grateful to you forever if you gave him an eye - after all, you have two of them, he hasn't gotten anything good between his teeth today...",
+      "text": "The zombie would be grateful for the rest of your life if you gave it an eye. You do have two, after all, and it hasn't had a decent bite to eat all day...",
       "screen_lines": [
         "The zombie would certainly be grateful  ",
         "to you forever if you gave him an eye - ",
@@ -2180,7 +2180,7 @@
     "242": {
       "index": 242,
       "source_offset": 31042,
-      "text": "With difficulty you pull the tips of the portcullis out of the ground and push it up until it jams in the frame. Now the danger seems to have been averted for the time being, and it shouldn't be too much of a problem to slip under the lattice under the archway...",
+      "text": "With a great effort, you pull the portcullis's points out of the ground and heave it upwards until it jams in its frame. The danger seems to be over for now. You should be able to slip underneath it and through the archway...",
       "screen_lines": [
         "With difficulty you pull the tips of the",
         "portcullis out of the ground and push it",
@@ -2194,7 +2194,7 @@
     "243": {
       "index": 243,
       "source_offset": 31217,
-      "text": "The long years of loneliness seem to have dulled the old man a lot. Nevertheless, you ask him what he has to report about this small island. \"The island, the island...\", he muses to himself, \"If only I knew which island you might be referring to! Perhaps the island where Aeneas, the divine hero, entered ages ago? Ah, yes: I've also heard of an island called \"America\", which is said to have been discovered by a certain \"Columbo\", uh: \"Coulomb\" - nonsense: \"Columbos\" was the boy's name - oh, forget it! Interesting anyway ' None... Or do you perhaps even mean the island we are standing on at the moment? Yes, this is also an island, whether you want to believe it or not! You can tell that, for example, by the fact that it is all around is surrounded by water and...\" Annoyed, you roll your eyes to heaven when unpleasant memories of your \"Sesame Street days\" threaten to surface in the face of this lesson from the high school of geography: Even then you didn't get it...",
+      "text": "Years of solitude seem to have scrambled the old man's brains, but you ask what he knows about the island anyway. \"The island, the island...\" he muses. \"If only I knew which one you meant! The island Aeneas, that divine hero, visited long ago? Ah, I've heard of an island called America, discovered by a fellow named Columbo. No, Coulomb. Rubbish, Columbos! Oh, never mind. Nobody cares anyway. Or do you mean the island we're standing on? Yes, this is an island too, believe it or not! You can tell because it's surrounded by water, and...\" You roll your eyes. This advanced geography lesson is bringing back unpleasant memories of Sesame Street. You didn't understand it then, either...",
       "screen_lines": [
         "The long years of loneliness seem to    ",
         "have dulled the old man a lot.          ",
@@ -2227,7 +2227,7 @@
     "244": {
       "index": 244,
       "source_offset": 31866,
-      "text": "With the patience of an angel you decide to listen to the old man's silly babble again, even though you doubt in advance that you'll hear anything more intelligent than last time. To your surprise, however, the old hermit answers your question relatively directly this time: \"Yes, yes, I know something about this island! Of course I do: after all, I've been living here for more than ten years! So you'd do very well to introduce yourself contacting me - I live here and...\", he pauses in shock and looks at your hands, which are just practicing the most diverse choking movements, and then hastily continues: \"Well, even at the risk that you You'll call me crazy\" - you laugh hysterically - \"I have to tell you that the rivers flow uphill here at midnight and at full moon all the adventurers the swamp has swallowed up over the decades rise from their damp graves and partying in hilarious orgies! Even Zargon, the Dark Lord himself, who once made a pact with the devil to freeze his soul and imprisoned it in a giant magical crystal, is here to watch a parade of his undead palace guards.. .\" A deep smile brightens the old man's wrinkled features, remembering all the lavish parties and the many pretty little zombies he's already eaten during the course of them...",
+      "text": "With saintly patience, you give the old man's rambling another chance, though you doubt it will be any more enlightening this time. Surprisingly, he almost answers your question. \"Yes, of course I know about the island! I've lived here for over ten years! Quite right to ask me. I live here, you see, and...\" He falters as he notices your hands practising a variety of strangling movements, then hastily continues. \"Now, you may think me mad\" - you laugh hysterically - \"but at midnight the rivers here flow uphill! And under a full moon, all the adventurers swallowed by the swamp over the decades rise from their watery graves and hold wild orgies! Even Zargon, the Dark Lord himself, attends to review his undead palace guard. He once made a pact with the devil, who had his soul frozen and imprisoned in a huge magical crystal...\" A knowing smile spreads over the hermit's wrinkled face as he remembers those glorious parties and the many pretty zombie girls he's enjoyed them with...",
       "screen_lines": [
         "With the patience of an angel you decide",
         "to listen to the old man's silly babble ",
@@ -2268,7 +2268,7 @@
     "245": {
       "index": 245,
       "source_offset": 32760,
-      "text": "You may want to continue amusing yourself with the old man's downright brainless nonsense - but I DON'T! Well! On the other hand, even THIS nonsense is still bearable...!",
+      "text": "You might want to hear more of the old man's mindless rambling, but I DON'T! Honestly, even THIS nonsense is bearable by comparison...",
       "screen_lines": [
         "You may want to continue amusing        ",
         "yourself with the old man's downright   ",
@@ -2280,7 +2280,7 @@
     "246": {
       "index": 246,
       "source_offset": 32896,
-      "text": "With the wise foresight that there might be another one of those unimaginative traps that this country seems to be swarming with, you carefully allow the poor, innocent brick to hit it from a safe distance: at the same moment As the stone hits its target, the huge portcullis rattles down from above - at a speed that wouldn't have allowed even a rat to get to the other side of the grille unscathed - and crumbles the stone into a thousand manageable pebbles! !! Something in your chest tightens and slides down a level: What would you look like now if it had been your weight that activated the mechanism? And even more important: Who actually wiped away the dirt that your predecessors left behind here???",
+      "text": "Suspecting one of the unimaginative traps that infest this country, you carefully drop the poor, innocent brick onto the platform from a safe distance. The instant it lands, the enormous portcullis crashes down! Not even a rat could have darted through in time. The brick becomes a thousand convenient little pebbles. Your heart clenches and drops into your stomach. What would you look like if YOUR weight had triggered that mechanism? More to the point, who cleaned up the mess left by the adventurers before you???",
       "screen_lines": [
         "With the wise foresight that there might",
         "be another one of those unimaginative   ",
@@ -2306,7 +2306,7 @@
     "247": {
       "index": 247,
       "source_offset": 33402,
-      "text": "You put the big iron key in the huge lock of the gigantic castle gate and turn it! Unfortunately, you break the key in the lock - you have no idea where you got this power from! Nevertheless: At least the gate is unlocked for now...",
+      "text": "You put the big iron key into the enormous lock and turn it. Unfortunately, you snap it off! Where did THAT strength come from? Still, at least the castle gate is unlocked now...",
       "screen_lines": [
         "You put the big iron key in the huge    ",
         "lock of the gigantic castle gate and    ",
@@ -2319,7 +2319,7 @@
     "248": {
       "index": 248,
       "source_offset": 33604,
-      "text": "It's that time again: \"Hi. Here are the A.C.A gods...\", you hear a few voices of infinite kindness echoing down from the sky to you. \"God knows how you managed to survive two of our pesky code queries - but this time you're finally due...!\"",
+      "text": "Here we go again. \"Hi! A.C.A gods here...\" Voices of infinite kindness boom down from the sky. \"Heaven knows how you survived our first two irritating manual checks, but this time we've got you...!\"",
       "screen_lines": [
         "It's that time again: \"Hi. Here are the ",
         "A.C.A gods...\", you hear a few voices of",
@@ -2332,7 +2332,7 @@
     "249": {
       "index": 249,
       "source_offset": 33787,
-      "text": "A muffled murmur, turning pages, an astonished scream...: \"WHAT? You actually entered the correct code - something must be wrong! Are you copying instructions and package inserts too? Well, okay: You definitely have it now the right to enter Zargon's castle. Well, how about it: Do you perhaps have one last wish?\" Annoyed, you decide to quickly forget this silly kid's talk and hurry to get inside the castle. Apparently the game design really turned the poor souls into old men (hermits...?)...",
+      "text": "Muttering. Pages rustling. An astonished cry. \"WHAT? You entered the right code? Something's not right! Are people copying the manuals and inserts now too? Oh, all right. You may enter Zargon's castle. Any last requests?\" Irritated, you dismiss this childish nonsense and hurry towards the entrance. Game design really seems to have turned the poor souls into old men. Hermits, perhaps...?",
       "screen_lines": [
         "A muffled murmur, turning pages, an     ",
         "astonished scream...: \"WHAT? You        ",
@@ -2361,7 +2361,7 @@
     "250": {
       "index": 250,
       "source_offset": 34155,
-      "text": "\"Damn thief!\" the four voices screeched hysterically, so that you covered your ears in shock! \"How did you manage to fool us on the first two queries? Well, we definitely have you now! We hereby curse you as punishment for your crime, to stay in this boring room for eternity!\"",
+      "text": "\"You thieving swine!\" shriek the four voices, making you clap your hands over your ears. \"How did you fool us the first two times? Well, we've caught you now! As punishment for your crime, we curse you to remain in this boring room for all eternity!\"",
       "screen_lines": [
         "\"Damn thief!\" the four voices screeched ",
         "hysterically, so that you covered your  ",
@@ -2376,7 +2376,7 @@
     "251": {
       "index": 251,
       "source_offset": 34372,
-      "text": "Outputs lead to:",
+      "text": "Exits lead to:",
       "screen_lines": [
         "Outputs lead to:"
       ]
@@ -2393,7 +2393,7 @@
     "253": {
       "index": 253,
       "source_offset": 34447,
-      "text": "Please put the floppy disk on which you saved your scores into your drive. Remember that it must be named \"SoulSave\". Otherwise, format it as instructed in your user manual and rename it \"SoulSave\". Press \u003cESC\u003e or the right mouse button to cancel the action!",
+      "text": "Insert the disk containing your saved games. It must be named \"SoulSave\". If necessary, format it as described in the manual and name it \"SoulSave\". Press \u003cESC\u003e or the right mouse button to cancel.",
       "screen_lines": [
         "Please put the floppy disk on which you ",
         "saved your scores into your drive.      ",
@@ -2437,7 +2437,7 @@
     "257": {
       "index": 257,
       "source_offset": 34858,
-      "text": "phew! close one...",
+      "text": "Phew! That was close...",
       "screen_lines": [
         "phew! close one..."
       ]
@@ -2464,7 +2464,7 @@
     "26": {
       "index": 26,
       "source_offset": 2731,
-      "text": "[In 'Equipment Shoppe']",
+      "text": "[In the 'Equipment Shoppe']",
       "screen_lines": [
         "[In 'Equipment Shoppe']"
       ]
@@ -2490,7 +2490,7 @@
     "262": {
       "index": 262,
       "source_offset": 35100,
-      "text": "Please select the savegame to load.",
+      "text": "Please select the saved game to load.",
       "screen_lines": [
         "Please select the savegame to load."
       ]
@@ -2515,7 +2515,7 @@
     "265": {
       "index": 265,
       "source_offset": 35215,
-      "text": "The score was read in completely and correctly and initialized - you can now continue playing from where you saved it: Have fun!",
+      "text": "Saved game loaded successfully. You can carry on from where you left off. Have fun!",
       "screen_lines": [
         "The score was read in completely and    ",
         "correctly and initialized - you can now ",
@@ -2526,7 +2526,7 @@
     "266": {
       "index": 266,
       "source_offset": 35309,
-      "text": "Please select the entry under which the score should be saved!",
+      "text": "Please select the slot in which to save your game.",
       "screen_lines": [
         "Please select the entry under which the ",
         "score should be saved!"
@@ -2535,7 +2535,7 @@
     "267": {
       "index": 267,
       "source_offset": 35360,
-      "text": "Save the game under the specified name and in the corresponding entry...",
+      "text": "Saving your game under the chosen name and in the selected slot...",
       "screen_lines": [
         "Save the game under the specified name  ",
         "and in the corresponding entry..."
@@ -2586,7 +2586,7 @@
     "272": {
       "index": 272,
       "source_offset": 35569,
-      "text": "In order to prevent some stupid \"copy helpers\" from cheating the code queries between the individual game sections with the help of saved games and being able to play the game for free, we would now like to ask you to enter a code from the manual. I'm sorry - but: \"Must be...\"",
+      "text": "To stop pirates using saved games to sneak past the copy-protection checks between parts, we need you to enter a code from the manual. Sorry, but needs must...",
       "screen_lines": [
         "In order to prevent some stupid \"copy   ",
         "helpers\" from cheating the code queries ",
@@ -2677,7 +2677,7 @@
     "281": {
       "index": 281,
       "source_offset": 36073,
-      "text": "Cause of error fixed? \u003cJ\u003e or left mouse button to confirm...",
+      "text": "Problem fixed? Press \u003cJ\u003e or the left mouse button to confirm...",
       "screen_lines": [
         "Cause of error fixed? \u003cJ\u003e or left mouse ",
         "button to confirm..."
@@ -2686,7 +2686,7 @@
     "282": {
       "index": 282,
       "source_offset": 36122,
-      "text": "A little dwarf with a shovel appears: \"Boy, boy: Stupid drudgery! Couldn't you just get some more RAM? Then we could get all that crap over with during the installation!\" Despite his laments, the dwarf diligently, if not necessarily enthusiastically, begins to shovel the data from the floppy disk into RAM...",
+      "text": "A little dwarf appears with a shovel. \"Oh, brilliant. More back-breaking work! Couldn't you buy some more RAM? Then we could get all this rubbish out of the way during installation!\" Despite his grumbling, he gets to work shovelling data from the disk into RAM. Industriously, if not enthusiastically...",
       "screen_lines": [
         "A little dwarf with a shovel appears:   ",
         "\"Boy, boy: Stupid drudgery! Couldn't you",
@@ -2710,7 +2710,7 @@
     "284": {
       "index": 284,
       "source_offset": 36391,
-      "text": "ERROR! The system data file could not be loaded! Either you didn't install the game correctly, or your storage medium just went the way of all earthly things...",
+      "text": "ERROR! Could not load the system data file! Either the game isn't installed properly, or your storage device has just shuffled off this mortal coil...",
       "screen_lines": [
         "ERROR! The system data file could not   ",
         "be loaded! Either you didn't install the",
@@ -2738,7 +2738,7 @@
     "287": {
       "index": 287,
       "source_offset": 36560,
-      "text": "Well, what has to happen, has to happen: you quickly look around to make sure no one is looking, open your pants, and... WAIT! Not like that, buddy! As if the acid rain wasn't enough...!",
+      "text": "Well, when you've got to go, you've got to go. You hastily check that nobody is watching, undo your trousers and... HOLD IT! Not here, pal! As if acid rain weren't bad enough...",
       "screen_lines": [
         "Well, what has to happen, has to happen:",
         "you quickly look around to make sure no ",
@@ -2750,7 +2750,7 @@
     "288": {
       "index": 288,
       "source_offset": 36682,
-      "text": "Do you want to \u003cb\u003equit the game, \u003cn\u003estart it again or \u003cload\u003e a saved game? Press one of the keys mentioned (\u003cB\u003e, \u003cN\u003e or \u003cL\u003e), or alternatively the right mouse button to exit or the left mouse button to restart.",
+      "text": "Would you like to quit (\u003cB\u003e), start again (\u003cN\u003e) or load a saved game (\u003cL\u003e)? Press the corresponding key, or use the right mouse button to quit or the left to restart.",
       "screen_lines": [
         "Do you want to \u003cb\u003equit the game,        ",
         "\u003cn\u003estart it again or \u003cload\u003e a saved     ",
@@ -2822,7 +2822,7 @@
     "33": {
       "index": 33,
       "source_offset": 2868,
-      "text": "[At Firons Ice Palace]",
+      "text": "[Outside Firon's ice palace]",
       "screen_lines": [
         "[At Firons Ice Palace]"
       ]
@@ -2830,7 +2830,7 @@
     "34": {
       "index": 34,
       "source_offset": 2888,
-      "text": "[In the Ice Desert]",
+      "text": "[In the frozen wastes]",
       "screen_lines": [
         "[In the Ice Desert]"
       ]
@@ -2854,7 +2854,7 @@
     "37": {
       "index": 37,
       "source_offset": 2946,
-      "text": "[Monastery garden]",
+      "text": "[In the monastery garden]",
       "screen_lines": [
         "[Monastery garden]"
       ]
@@ -2862,7 +2862,7 @@
     "38": {
       "index": 38,
       "source_offset": 2963,
-      "text": "[Monastery dining room]",
+      "text": "[In the monastery dining hall]",
       "screen_lines": [
         "[Monastery dining room]"
       ]
@@ -2870,7 +2870,7 @@
     "39": {
       "index": 39,
       "source_offset": 2985,
-      "text": "[In Firons throne hall]",
+      "text": "[In Firon's throne room]",
       "screen_lines": [
         "[In Firons throne hall]"
       ]
@@ -2878,7 +2878,7 @@
     "4": {
       "index": 4,
       "source_offset": 2365,
-      "text": "[In the Corridor]",
+      "text": "[In the corridor]",
       "screen_lines": [
         "[In the Corridor]"
       ]
@@ -2894,7 +2894,7 @@
     "41": {
       "index": 41,
       "source_offset": 3021,
-      "text": "[Front of a tomb]",
+      "text": "[Outside a tomb]",
       "screen_lines": [
         "[Front of a tomb]"
       ]
@@ -2910,7 +2910,7 @@
     "43": {
       "index": 43,
       "source_offset": 3054,
-      "text": "[Monastery smithy]",
+      "text": "[In the monastery smithy]",
       "screen_lines": [
         "[Monastery smithy]"
       ]
@@ -2918,7 +2918,7 @@
     "44": {
       "index": 44,
       "source_offset": 3073,
-      "text": "[In the Kings Tomb]",
+      "text": "[In the king's tomb]",
       "screen_lines": [
         "[In the Kings Tomb]"
       ]
@@ -2950,7 +2950,7 @@
     "48": {
       "index": 48,
       "source_offset": 3153,
-      "text": "[Mylgors secret lab]",
+      "text": "[In Mylgor's secret laboratory]",
       "screen_lines": [
         "[Mylgors secret lab]"
       ]
@@ -2966,7 +2966,7 @@
     "5": {
       "index": 5,
       "source_offset": 2381,
-      "text": "[At the reception]",
+      "text": "[At reception]",
       "screen_lines": [
         "[At the reception]"
       ]
@@ -2990,7 +2990,7 @@
     "52": {
       "index": 52,
       "source_offset": 3243,
-      "text": "[In swamp]",
+      "text": "[In the swamp]",
       "screen_lines": [
         "[In swamp]"
       ]
@@ -2998,7 +2998,7 @@
     "53": {
       "index": 53,
       "source_offset": 3256,
-      "text": "[Shore of a swampy lake]",
+      "text": "[On the shore of a swamp lake]",
       "screen_lines": [
         "[Shore of a swampy lake]"
       ]
@@ -3006,7 +3006,7 @@
     "54": {
       "index": 54,
       "source_offset": 3279,
-      "text": "[swamp lake]",
+      "text": "[In the swamp lake]",
       "screen_lines": [
         "[swamp lake]"
       ]
@@ -3014,7 +3014,7 @@
     "55": {
       "index": 55,
       "source_offset": 3293,
-      "text": "[Quicksand]",
+      "text": "[In the quicksand]",
       "screen_lines": [
         "[Quicksand]"
       ]
@@ -3022,7 +3022,7 @@
     "56": {
       "index": 56,
       "source_offset": 3307,
-      "text": "[Shore of the swamp lake]",
+      "text": "[On the shore of the swamp lake]",
       "screen_lines": [
         "[Shore of the swamp lake]"
       ]
@@ -3054,7 +3054,7 @@
     "6": {
       "index": 6,
       "source_offset": 2397,
-      "text": "[Whirlpool]",
+      "text": "[In the whirlpool]",
       "screen_lines": [
         "[Whirlpool]"
       ]
@@ -3078,7 +3078,7 @@
     "62": {
       "index": 62,
       "source_offset": 3415,
-      "text": "[Zargon's castle ruins]",
+      "text": "[Outside Zargon's ruined castle]",
       "screen_lines": [
         "[Zargon's castle ruins]"
       ]
@@ -3086,7 +3086,7 @@
     "63": {
       "index": 63,
       "source_offset": 3435,
-      "text": "[In gatehouse]",
+      "text": "[In the gatehouse]",
       "screen_lines": [
         "[In gatehouse]"
       ]
@@ -3102,7 +3102,7 @@
     "65": {
       "index": 65,
       "source_offset": 3467,
-      "text": "[Castle garden]",
+      "text": "[In the castle garden]",
       "screen_lines": [
         "[Castle garden]"
       ]
@@ -3118,7 +3118,7 @@
     "67": {
       "index": 67,
       "source_offset": 3501,
-      "text": "[In that Place]",
+      "text": "[In the stables]",
       "screen_lines": [
         "[In that Place]"
       ]
@@ -3126,7 +3126,7 @@
     "68": {
       "index": 68,
       "source_offset": 3516,
-      "text": "[In the lobby]",
+      "text": "[In the entrance hall]",
       "screen_lines": [
         "[In the lobby]"
       ]
@@ -3142,7 +3142,7 @@
     "7": {
       "index": 7,
       "source_offset": 2410,
-      "text": "[Shore of the lake]",
+      "text": "[On the shore of the mountain lake]",
       "screen_lines": [
         "[Shore of the lake]"
       ]
@@ -3174,7 +3174,7 @@
     "73": {
       "index": 73,
       "source_offset": 3609,
-      "text": "[Dining room]",
+      "text": "[In the dining hall]",
       "screen_lines": [
         "[Dining room]"
       ]
@@ -3182,7 +3182,7 @@
     "74": {
       "index": 74,
       "source_offset": 3624,
-      "text": "[In kitchen garden]",
+      "text": "[In the kitchen garden]",
       "screen_lines": [
         "[In kitchen garden]"
       ]
@@ -3198,7 +3198,7 @@
     "76": {
       "index": 76,
       "source_offset": 3664,
-      "text": "[In the tower guard's house]",
+      "text": "[In the tower keeper's house]",
       "screen_lines": [
         "[In the tower guard's house]"
       ]
@@ -3230,7 +3230,7 @@
     "8": {
       "index": 8,
       "source_offset": 2429,
-      "text": "[In dining room]",
+      "text": "[In the dining room]",
       "screen_lines": [
         "[In dining room]"
       ]
@@ -3246,7 +3246,7 @@
     "81": {
       "index": 81,
       "source_offset": 3774,
-      "text": "[in the lower stairwell]",
+      "text": "[In the lower stairwell]",
       "screen_lines": [
         "[in the lower stairwell]"
       ]
@@ -3254,7 +3254,7 @@
     "82": {
       "index": 82,
       "source_offset": 3794,
-      "text": "[In the Armory]",
+      "text": "[In the armoury]",
       "screen_lines": [
         "[In the Armory]"
       ]
@@ -3270,7 +3270,7 @@
     "84": {
       "index": 84,
       "source_offset": 3831,
-      "text": "[In wine cellar]",
+      "text": "[In the wine cellar]",
       "screen_lines": [
         "[In wine cellar]"
       ]
@@ -3286,7 +3286,7 @@
     "86": {
       "index": 86,
       "source_offset": 3862,
-      "text": "[In a dark crypt vault]",
+      "text": "[In a dark burial vault]",
       "screen_lines": [
         "[In a dark crypt vault]"
       ]
@@ -3302,7 +3302,7 @@
     "88": {
       "index": 88,
       "source_offset": 3909,
-      "text": "[In a Black Library]",
+      "text": "[In a black library]",
       "screen_lines": [
         "[In a Black Library]"
       ]
@@ -3310,7 +3310,7 @@
     "89": {
       "index": 89,
       "source_offset": 3933,
-      "text": "[In Zargon's Quarters]",
+      "text": "[In Zargon's living quarters]",
       "screen_lines": [
         "[In Zargon's Quarters]"
       ]
@@ -3318,7 +3318,7 @@
     "9": {
       "index": 9,
       "source_offset": 2444,
-      "text": "[Lake]",
+      "text": "[In the lake]",
       "screen_lines": [
         "[Lake]"
       ]
@@ -3326,7 +3326,7 @@
     "90": {
       "index": 90,
       "source_offset": 3954,
-      "text": "[In a sanctuary]",
+      "text": "[In an altar room]",
       "screen_lines": [
         "[In a sanctuary]"
       ]
@@ -3342,7 +3342,7 @@
     "92": {
       "index": 92,
       "source_offset": 3993,
-      "text": "[The Zargons Mystery]",
+      "text": "[In Zargon's inner sanctum]",
       "screen_lines": [
         "[The Zargons Mystery]"
       ]
@@ -3366,7 +3366,7 @@
     "95": {
       "index": 95,
       "source_offset": 4059,
-      "text": "[Shore of an underground lake]",
+      "text": "[On the shore of an underground lake]",
       "screen_lines": [
         "[Shore of an underground lake]"
       ]
@@ -3398,7 +3398,7 @@
     "99": {
       "index": 99,
       "source_offset": 4145,
-      "text": "[Throne Room of the Butha King]",
+      "text": "[In the Butha king's throne room]",
       "screen_lines": [
         "[Throne Room of the Butha King]"
       ]

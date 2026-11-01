@@ -1,6 +1,6 @@
 # Englische Begriffe aus Disk A2
 
-Die Extraktion verwendet `src/C/extract_vocabulary.cpp` und die bestehende
+Die unveränderte Extraktion unter `original/` verwendet `src/C/extract_vocabulary.cpp` und die bestehende
 Routine `DecodeObjectDisplayNames` aus `src/C/object_names.h`. Die vorhandenen
 deutschen Symbolnamen stammen unverändert aus `src/C/tables.h`.
 
@@ -79,7 +79,8 @@ Vom Repository-Verzeichnis aus; C++17 und Python-Standardbibliothek genügen:
 ```sh
 GOCACHE=/tmp/soul-go-cache GO111MODULE=off go run ./src/Go/disk -english -out /tmp/soul-c64-en A2
 clang++ -std=c++17 -Wall -Wextra -pedantic src/C/extract_vocabulary.cpp -o /tmp/soul-extract-vocabulary
-/tmp/soul-extract-vocabulary /tmp/soul-c64-en texts/C64_en out/game_vocabulary_en.h
+/tmp/soul-extract-vocabulary /tmp/soul-c64-en texts/C64_en/original out/game_vocabulary_en.h
+GOCACHE=/tmp/soul-go-cache GO111MODULE=off go run ./src/Go/text -language en
 python3 src/Python/check_c64_en_vocabulary.py /tmp/soul-c64-en
 clang++ -std=c++17 src/C/tests/object_names_test.cpp -o /tmp/soul-object-names-test
 /tmp/soul-object-names-test
@@ -90,3 +91,12 @@ nicht auf JSON-Dateien umgestellt. `--language en` verwendet einkompilierte
 Texte und die generierte Namensliste `out/game_vocabulary_en.h`. Für die
 Konsolenbedienung bezeichnet `music` die bisherige Port-Funktion zum Umschalten
 des Musikflags (ID 17); die originale SID-Menükonfiguration wird nicht emuliert.
+
+## Redigierte Fassung
+
+Die JSON-/Markdown-Dateien im Hauptverzeichnis enthalten die geprüften englischen
+Bezeichnungen. `original/` und `out/game_vocabulary_en.h` dokumentieren weiterhin
+die native Extraktion. Der Text-Exporter generiert Namenskorrekturen als C-Funktion;
+Anzeige und Parser verwenden die korrigierten Namen. Native Namen bleiben als
+Eingabe-Aliase gültig. Die CLI zeigt etwa `examine`, `drop`, `give`, `inventory`
+und `exits`; alte Befehlsnamen funktionieren weiterhin. IDs bleiben unverändert.

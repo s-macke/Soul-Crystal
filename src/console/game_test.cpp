@@ -103,13 +103,13 @@ int main(){
     assert(objectLocation[DAVE]==3&&objectState[JEANS]==1);
     // Language is selected at start and survives restart, death and diary reads.
     transcript.clear();GameStartLanguage(record,nullptr,GameEnglish);
-    assert(contains("Here at last!")&&contains("Verbs:")&&contains("Available:"));
+    assert(contains("Made it!")&&contains("Verbs:")&&contains("Available:"));
     assert(!contains("Endlich da;")&&!contains("Objekte:"));
     submit("take dave");assert(GameGetView().inputResult==GameInputAccepted);
     objectLocation[LEDERSOECKCHEN]=currentRoom;
     submit("objects");assert(contains("Leather pouch")&&!contains("Leather socks"));
     submit("consider leather pouch");assert(GameGetView().inputResult==GameInputAccepted);
-    submit("consider leather socks");assert(GameGetView().inputResult==GameInputRejected);
+    submit("consider leather socks");assert(GameGetView().inputResult==GameInputAccepted); // Legacy input alias.
     submit("nimm dave");assert(GameGetView().inputResult==GameInputRejected&&contains("Unknown verb"));
     submit("save");assert(GameGetView().inputResult==GameInputBlocked);
     submit("restart");assert(GameGetView().mode==GameConfirmRestart&&contains("yes/no"));
@@ -120,7 +120,7 @@ int main(){
     submit("cancel");assert(GameGetView().mode==GameReady);
     gamePart=PartD;currentRoom=IM_HAUS_DES_TURMWAECHTERS;objectLocation[DAVE]=currentRoom;
     objectLocation[TAGEBUCH]=currentRoom;objectState[TAGEBUCH]=1;
-    submit("read the diary");assert(contains("The Diary of the Tower Guardian")&&contains("torments suffered by my fellow comrades.")&&contains("door handle upwards"));
+    submit("read the diary");assert(contains("The Diary of the Tower Guardian")&&contains("torments my loyal comrades suff...")&&contains("door handle upwards"));
     submit("quit");submit("no");assert(GameGetView().mode==GameReady);
     submit("quit");submit("yes");assert(GameGetView().mode==GameEnded&&contains("Goodbye."));
     transcript.clear();GameStart(record,nullptr);assert(contains("Verben:"));

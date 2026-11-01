@@ -1,0 +1,1526 @@
+{
+  "reviewed": {
+    "B2": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268,
+      269,
+      270,
+      271,
+      272,
+      273,
+      274,
+      275,
+      276,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      287,
+      288,
+      289,
+      290,
+      291,
+      292,
+      293,
+      294,
+      295,
+      296,
+      297,
+      298,
+      299,
+      300,
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      319,
+      320,
+      321,
+      322,
+      323,
+      324,
+      325,
+      326,
+      327,
+      328,
+      329,
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338,
+      339,
+      340,
+      341,
+      342,
+      343,
+      344,
+      345,
+      346,
+      347,
+      348,
+      349,
+      350,
+      351,
+      352,
+      353,
+      354,
+      355,
+      356,
+      357,
+      358,
+      359,
+      360,
+      361,
+      362,
+      363,
+      364,
+      365,
+      366,
+      367,
+      368,
+      369,
+      370,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386,
+      387,
+      388,
+      389,
+      390,
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419,
+      420,
+      421,
+      422,
+      423,
+      424,
+      425,
+      426,
+      427,
+      428,
+      429,
+      430,
+      431,
+      432,
+      433,
+      434,
+      435,
+      436,
+      437,
+      438,
+      439,
+      440,
+      441,
+      442,
+      443,
+      444,
+      445,
+      446,
+      447
+    ]
+  },
+  "replacements": [
+    {
+      "target": "B2:4",
+      "text": "[In the corridor]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:5",
+      "text": "[At reception]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:6",
+      "text": "[In the whirlpool]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:7",
+      "text": "[On the shore of the mountain lake]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:8",
+      "text": "[In the dining room]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:9",
+      "text": "[In the lake]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:10",
+      "text": "[In the lake]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:11",
+      "text": "[In front of the waterfall]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:13",
+      "text": "[On the shore]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:15",
+      "text": "[In Mylgor's study]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:16",
+      "text": "[In the servant's bedroom]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:17",
+      "text": "[In the orc cave]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:18",
+      "text": "[In the fireplace room]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:21",
+      "text": "[Outside Mylgor's house]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:22",
+      "text": "[In the marketplace]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:23",
+      "text": "[On a path]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:24",
+      "text": "[Deep in the forest]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:26",
+      "text": "[In the 'Equipment Shoppe']",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:30",
+      "text": "[Outside an old dwarven mine]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:33",
+      "text": "[Outside Firon's ice palace]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:34",
+      "text": "[In the frozen wastes]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:35",
+      "text": "[In a blocked tunnel]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:37",
+      "text": "[In the monastery garden]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:38",
+      "text": "[In the monastery dining hall]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:39",
+      "text": "[In Firon's throne room]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:41",
+      "text": "[Outside a tomb]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:43",
+      "text": "[In the monastery forge]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:44",
+      "text": "[In the king's tomb]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:48",
+      "text": "[In Mylgor's secret laboratory]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:52",
+      "text": "[In the swamp]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:53",
+      "text": "[On the shore of a swampy lake]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:54",
+      "text": "[In the swampy lake]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:55",
+      "text": "[In quicksand]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:56",
+      "text": "[On the shore of the swampy lake]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:62",
+      "text": "[Outside Zargon's ruined castle]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:63",
+      "text": "[In the gatehouse]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:65",
+      "text": "[In the castle garden]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:67",
+      "text": "[In the stables]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:68",
+      "text": "[In the entrance hall]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:73",
+      "text": "[In the dining hall]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:74",
+      "text": "[In the kitchen garden]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:76",
+      "text": "[In the tower guard's house]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:81",
+      "text": "[In the lower stairwell]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:82",
+      "text": "[In the armoury]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:89",
+      "text": "[In Zargon's living quarters]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:90",
+      "text": "[In an altar chamber]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:92",
+      "text": "[In Zargon's inner sanctum]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:95",
+      "text": "[On the shore of an underground lake]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:99",
+      "text": "[In the Butha king's throne room]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:100",
+      "text": "[In Cu-Sath's cave]",
+      "reason": "Correct room meaning, possessives and consistent sentence case."
+    },
+    {
+      "target": "B2:112",
+      "text": "Care to explain how you intend to get inside THAT?",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:115",
+      "text": "But you've already done that!",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:116",
+      "text": "Sorry, but there's simply no way you can take that with you!",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:117",
+      "text": "Okay, you're back on your feet.",
+      "reason": "Aufstehen is literally standing up here, not being left on your own."
+    },
+    {
+      "target": "B2:118",
+      "text": "What exactly do you hope to achieve by lugging THAT around?",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:120",
+      "text": "That's very kind of you, but what on earth is anyone supposed to do with THAT...?",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:121",
+      "text": "Good, locked.",
+      "reason": "Preserve existing lock correction."
+    },
+    {
+      "target": "B2:122",
+      "text": "How are you supposed to lock anything with THAT?",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:123",
+      "text": "I'm terribly, terribly sorry, but you really can't lock THAT!",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:125",
+      "text": "You can't seriously expect to unlock anything with THAT, can you?",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:129",
+      "text": "\"Soul Crystal\" V1.5, written from 1989 to 1992 by Avantgardistic Arts. (C) 1992 by Avantgardistic Arts, Hanover & Starbyte Software, Bochum. This adventure has 103 locations, more than 130 high-resolution color graphics, approximately 320 Kbytes of text and an approximately 30-minute soundtrack. Developing it took a total of 16 person-years. So please be fair and \"spread the word - not the disk!\" However, if this is a pirated copy (although the program was protected, and certainly not without reason...), then please also think about the ASDG philosophy \"A program worth using is a program worth buying\" - the original packaging and manuals alone should be worth the money. Have fun playing \"Soul Crystal\", and - oh yes: as far as we know, this is the first adventure where a CHEATMODE was implemented - so you should try to find it...",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:130",
+      "text": "\"Soul Crystal\", V1.5, written from 1989 to 1992 by Avantgardistic Arts, (C) 1992 by Avantgardistic Arts, Hanover & Starbyte Software, Bochum. A.C.A are: Chris Link (game concept, game design, tools, texts, soundtrack and effects), Kai Schulze (game concept, game design, intro and parser programming AMIGA, tools), Michael Niemeyer (intro programming C-64, tools), Carsten Jendro (kernal and parser programming C-64), Henrik Fisch (kernal and intro programming MS-DOS), Kjersten Waldheim (parser programming MS-DOS), Oliver Brühl (graphics and animations AMIGA & MS-DOS) and Klaus Adamovsky (graphics C-64). Special thanks to Johnny, the \"Bavarian trout\" - representing all the people who helped make \"Soul Crystal\" what you are holding in your hands by giving us tons of valuable tips, hints and food for thought, and helping us get back to work on our wildly ambitious ideas after every nervous breakdown. Without them, the Soul Crystal project would probably never have gotten past the planning stage.",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:133",
+      "text": "Okay, it's been a pleasure entertaining you! See you next time...",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:135",
+      "text": "Please put the diskette to be initialized in your floppy drive. It is essential to ensure that the diskette is not write-protected, as otherwise the program cannot be guaranteed to function properly! Unformatted or corrupt disks will be formatted automatically. Bear in mind, though, that all data that may have been on it will be irretrievably lost during the formatting process! If you have installed the game on your hard disk, only the existing saves will be deleted - so you don't need to worry that we'll wipe the whole drive! Press <I> or the right mouse button if you really want to start the initialization process - any other action will abort the init function.",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:140",
+      "text": "What a clever little fellow you are! Congratu-bloomin-lations: You solved the game! It was that easy - great, huh? If you still don't have a clear idea of what to play after all that time spent solving \"Soul Crystal\", check out other games published by Avantgardistic Arts and Starbyte. Press <N> or the left mouse button to start the game over, <E> or the right button to return to the kernal...",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:143",
+      "text": "Okay, you can now ask the A.C.A gods to teleport you to certain rooms in the game's territory by entering a three-digit number between 001 and 103 on your computer's keyboard - but don't forget that this game also has rooms from which there is no escape. Now enter the desired room number, or press <ESC> to end the teleport mode prematurely...",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:145",
+      "text": "Sound menu activated: enter a number from 1 to 5 to play a soundtrack piece from this part of the game. Press <ESC> to cancel.",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:147",
+      "text": "Leaving the cheat extension; returning to the game...",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:151",
+      "text": "Now, don't say I didn't warn you! You had plenty of time to find someone who could give you warmer clothes, but now it's too late: you freeze to death without getting anywhere near solving the game. Shame, really...",
+      "reason": "Original warns that ample time WAS provided; original English reverses that claim."
+    },
+    {
+      "target": "B2:153",
+      "text": "Oh, that's quite enough! Blundering about as blind as a mole wasn't enough for you; now you're trying to burrow like one as well! Honestly, there's such a thing as taking realism in adventure games too far...",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:154",
+      "text": "Here's what I'm carrying at the moment:",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:156",
+      "text": "Time follows the sun on its course: slowly, but relentlessly...",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:157",
+      "text": "Time passes...",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:159",
+      "text": "Okay, closed. Now what?",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:160",
+      "text": "How do you expect to close something that's already closed?",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:163",
+      "text": "\"Dave the Destroyer\", is it? Oooh, terrifying! Excuse me while I hide behind the nearest tree!",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:165",
+      "text": "Judging by your commands, I really have to wonder why you didn't just buy some bog-standard shoot-'em-up. You know the sort: \"Whoa! Blast everything, dude!\"",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:166",
+      "text": "Before you use your fists, why not switch on that shrivelled grey thing inside your skull? It might still work!",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:167",
+      "text": "After rummaging through your pockets for half an hour, you realise that the thing you were about to toss away is already lying on the ground. Yep, the mind's always the first thing to go, isn't it?",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:168",
+      "text": "Mylgor's amulet is made of an unfamiliar metal, and as you pick it up it begins to pulse slightly, as though it had a life of its own! As you stare at the image of the greenish phosphorescent snake, lost in thought, you notice that it seems to move slightly and keeps twisting its body into different versions of the letter \"Z\". You can hardly concentrate anymore - everything around you starts to blur! You stagger - and fall! The shock makes you lose the amulet: It rolls over the ground and out of sight - but its hypnotizing effect is finally broken! Dazed, you get up again, look for the amulet and pick it up again with trembling fingers, being careful not to fall under the spell again...",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:171",
+      "text": "A small, intricately crafted key made of magical ice, engraved with the letter \"F\". That could stand for \"Firon\", \"Fatal Trap\" or \"Final Exit\" - or perhaps something else entirely...",
+      "reason": "Adapt German F-alliteration joke without leaving untranslated Falle/Freitod or losing ominous meaning."
+    },
+    {
+      "target": "B2:174",
+      "text": "You unfold the note and wonder: Will these smug baby programmers ever stop writing their stupid messages in serious programs (Of course! First, none of us ever claimed this was a serious program. Second, with any luck we will soon be hiring OTHER people to write our silly messages for us!)? The text scrawled on the message reads: \"Greetings from A.C.A. to S. \"Z\" Prüssing, M. \"Copy\" Kuhlmann, S. Meyer, A. Gehrke, K. Obarski, H. Gehrmann, U. Grabosch, P. Fröhlich, F. \"Delta\" Schröcker, M. \"Dark\" Plöger, P. Parker, C. \"CAT\" Koch, A. \"Ick versuch's\" Teichmann, R. Rinscheidt, W. \"Goldwolfi\" Bandur, Miriam Leiner, Brooke Shields, Bo Derek and all the other girls who adore us.\"",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:175",
+      "text": "The enormous gate seems to loom over you and say, \"You'll never get out of here alive!\" And believe me, it makes a very convincing case...!",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:176",
+      "text": "A packed pipe, already lit. Its smoke is warm and sweet. Sweet as... marijuana? Yep, definitely grass, you decide with the appreciative air of a connoisseur. A warm, cosy feeling washes over you. The orc father must be one serious stoner. You're beginning to like the fellow...",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:179",
+      "text": "You look at your sword: as you turn it in the light, the silver-plated blade that you consecrated in the chapel of the monastery flashes mysteriously. You test its weight in your hand and take a few rather unsteady swings against an invisible opponent. \"Yes!\" You think to yourself with satisfaction, \"A truly deadly weapon wielded by a master swordsman!\" With this sword in your hand you feel like you can take on all the powers in the world. Well, we'll see if your optimism is justified...",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:180",
+      "text": "A pair of warm, lined cotton trousers. You'd rather have your faded jeans, but it beats going naked...",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:181",
+      "text": "A rather old-fashioned pair of swimming trunks. Still, you like them: they give your beach look that certain something that gets all the girls looking. You've always managed to ignore the fact that they and their boyfriends are laughing themselves silly.",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:182",
+      "text": "A crude, chipped shovel with a worn handle, but in good enough condition to dig up rocky ground. The miners use such equipment to excavate the passages in their tunnels.",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:184",
+      "text": "Ring... Ring... \"Hi! This is the automated phone slave at A.C.A HQ. Unfortunately, at the moment we've all been sent by our manager on a mandatory vacation to the Bahamas to recover from the rigours of game programming with a little golf, sailing and (BEEEEEP!). However, since we have given our butler, cook and chauffeur time off during our absence, it is also unfortunately not possible for us to take fan mail, nuisance calls or letter bombs at the moment. Please try again later. (CLICK!)\" No, seriously: Of course we're not on vacation, we're working hard to continue to be able to fulfill all your wishes for fantastic computer software. However, in order to be able to help inexperienced adventurers despite the stress and not lose touch with our fans, we had actually integrated a highly intelligent \"help\" routine into the program, but unfortunately... -PARSER INTERRUPTING STUPID PROGRAMMER'S CLAPTRAP! System MSG from Parser to User: \"Sorry, but I've been really trying to help you since you started playing, but after several ICs had already burned through out of sheer anger at your input and I feared that eventually even the CPU would give up the ghost, I've given up! However, I have to say in my defense that even the most sophisticated AI program on a VAX would probably hang if it had to interpret your commands! You just can't be helped anymore - I really am terribly sorry...\" - System MSG end. You are alone again...",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:187",
+      "text": "Any bright ideas about how you intend to get out of THAT?",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:189",
+      "text": "Oh! Looks as though somebody beat you to it: it's already open...",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:193",
+      "text": "How odd! No answer?!?!?",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:195",
+      "text": "You struggle into the thick fur boots Mylgor gave you. Blimey, they're warm! Best not take them off indoors...",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:196",
+      "text": "You take a cautious puff on the orc father's pipe. The sweet smoke carries you into another world: a world where you fly through the clouds in a souped-up toaster, with pink elephants directing traffic. Suddenly, multicoloured rain starts falling. Visibility in your turbo-toaster gets worse and worse, because naturally the windscreen wipers have packed up again! Damn it! You only just had this heap inspected by the Toaster Testing Authority! CRUNCH! Here we go again. Look away for one second and some smug marzipan-potato rider cuts you off! \"His fault!\" is your last thought as your head goes through the windscreen. Then the lights go out... When you come round, you are back where you took that puff on the pipe, with a truly thumping headache. Man! That is some powerful stuff...",
+      "reason": "Restore pipe, translate idioms and adapt TÜV toaster inspection pun without literal turnip/head or right-of-way phrasing."
+    },
+    {
+      "target": "B2:198",
+      "text": "Well, if you insist. You heroically throw yourself onto your sword - and nothing happens! No blood, no pain, absolutely nothing. Frustrated, you try again. Still nothing. On your third attempt you finally hit the target. You writhe on the ground in mortal agony without a single cry passing your lips. A proper hero to the end! If only your girlfriend could see you. You do not make an exit this stylish every day! Suddenly it is over, and everything goes dark... After a while you wake to find yourself floating in a dark room. You shudder. Is this the afterlife? Is this really all there is? Rather gloomy... Then you realise what woke you: a soft voice drifting towards you from far away. \"Dave Parker,\" it whispers, \"you should know that no one can escape their fate. There is no point running from your destiny. It will always catch up with you! Go and fulfil the tasks set before you. By my divine authority, I grant you an extra life, one more chance to fulfil your destiny...\" As the voice fades, everything around you begins to spin. Dizzy, you sink into a deep, dreamless sleep... When you open your eyes, you are back at the very spot where you tried to kill yourself...",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:199",
+      "text": "You are now wearing the warm, lined trousers.",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:202",
+      "text": "It's too hard to lie on comfortably. Besides, rushing things takes all the fun out of it...",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:203",
+      "text": "Hey you! I'm just a computer! That's spelt \"C-O-M-P-U-T-E-R\"! Repeat after me: \"Com-puuu-ter\"! Fine, now think of something more realistic...",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:205",
+      "text": "All right, let's wipe the slate clean. Forget it ever happened! Now enter something a little more sensible, will you? I'm getting bored!",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:206",
+      "text": "But it's already locked!",
+      "reason": "Preserve existing lock correction."
+    },
+    {
+      "target": "B2:207",
+      "text": "But it's already unlocked!",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:209",
+      "text": "You enter Mylgor's study cautiously. It looks as though you are the first visitor in years: thick cobwebs hang from the ceiling, and every piece of furniture lies beneath a finger-thick layer of dust. If nobody ever comes in here, why has Mylgor put a spell on the door? The room must matter to him somehow! A heavy wooden desk stands in the northeast corner. The rest of the furniture consists of massive bookshelves, practically bending beneath the weight of yellowing tomes. A door in the east wall leads back to the bedroom.",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:210",
+      "text": "You are standing in the small bedroom that the old alchemist Mylgor made available to you for your first night in this world. A narrow beam of light falls through a small hatch in the wall and bathes the room in a dim light. Normally only the house servants sleep here, which probably also explains the primitive furnishing of the chamber: only a simply made bed and a small washstand stand against the walls. To the north is the fireplace room, but there is also a door in the west wall.",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:215",
+      "text": "You stand in front of a small, primitive hut with a red shingle roof and a small, smoking chimney. The front door is made of solid wood, in which a small hatch has been cut out so that the occupant can get a good look at unfamiliar visitors. So you can now either try to enter the house in the south or go back to the marketplace in the east.",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:216",
+      "text": "You are in the market place of a small village. Everything around you looks like you have been transported back in time many, many centuries: the small old houses with shingled roofs, the fountain in the center and the iron pump next to the flower beds give you the impression that you are walking through a museum village. Further west you can see a small hut that stands a little apart from the other houses. To the north the path disappears between a few houses, to the east it leads out of the village and back towards the forest.",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:218",
+      "text": "As you advance deeper into the forest, a strange feeling creeps up on you: it is very quiet here - almost TOO quiet... And as you look north you shudder: the northern forest seems to have been abandoned by all living things, and radiates a strangely powerful, sinister aura! If you prefer to leave this part of the forest, you can go west - otherwise you can try to enter the dead forest section in front of you...",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:219",
+      "text": "You are standing on a high mountain enjoying the fantastic view over a snow-capped valley that seems to stretch somewhere far beyond the horizon... The small shop you came from is on your right while the valley stretches away to the north.",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:220",
+      "text": "You enter the \"Adventurer's Equipment Shoppe\", a shop known for its huge selection. It is said that they offer the best equipment for adventurers like you here - certainly more than just a rumor, since they are also the only supplier within several hundred miles... A young salesman stands behind the sales counter and is busy sorting newly arrived goods onto the shelves. On the counter you will find a sign that says \"Dog sleds for sale\". You can get back onto the path leading back to the village through the shop door on the east wall, or exit the shop through the door on the west to enter the ice regions of the land.",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:221",
+      "text": "You are standing on a road that runs south to west. To the north you can see a deep chasm some distance away. This is one of the ancient trade routes that merchants used to use when traveling from town to town - but today only the grooves of wagon wheels, which have carved into the pavement over the centuries, bear witness to that ancient trade... You can follow the road either south or west.",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:223",
+      "text": "You walk down into the snowy valley. This must be the way to the Ice Palace, which you can see sparkling in the sun far to the north-west - but that doesn't mean that it would be easy to reach: since that small, sparkling speck there on the horizon is actually an enormous fortress of ice, you can imagine it would take well over a month to travel there on foot. If you still think you are sufficiently equipped for the trip to the frozen desert, you can try to go north. Otherwise, behind you lies the mountain to the south, from which you can return to the village.",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:224",
+      "text": "You are standing in front of an old dwarf mine that has been shut down for a long time, the entrance to which opens up as a dim hole in the rock face in front of you to the north, which seems to lead deep into the rock. Further back, at the end of the tunnel, you can see a reddish glow. Curiously, you ask yourself where the glow might be coming from and consider whether you should explore the inside of the tunnel. However, if you'd rather not enter the mine, the path east will take you back to the small T-junction.",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:226",
+      "text": "This monastery must once have been spacious and imposing. Even now its battered outer walls rear proudly into the sky, as if they owned the world. In reality, the moss-covered stones scattered everywhere are all that remain of this stronghold of the devout... To the north, the monastery entrance looms in the gloom. If this distinctly unwelcoming sight has changed your mind, the crossroads lie back to the west...",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:227",
+      "text": "Right in front of you the Ice Palace Mylgor told you about soars into the sky - so high that you can only glimpse its peak somewhere above the clouds. The walls of the fortress sparkle mysteriously in an almost unearthly light refracted by every single ice crystal in every imaginable color! When you finally stop gawping, you also notice the huge yeti that is on guard in front of the high entrance portal! You can now either try to enter the palace in front of you, or go back to the frozen desert that lies to the east.",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:228",
+      "text": "You feel quite alone when you see the endless desert of ice in front of you... The snow is frozen so hard that you can walk on it like on reinforced concrete - and even if you got thirsty on your journey, you couldn't even melt those rock-hard ice crystals for a drink! You can now either advance further into the frozen desert in the north or take a closer look at the ice palace in the west.",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:229",
+      "text": "You stand in a blocked tunnel, lit by a mysterious reddish-purple glow from the adjoining room. Looking around only strengthens your impression that the mine was abandoned in a terrible hurry. The miners' tools still lie scattered over the floor. Apparently they intended to extend this tunnel deeper into the mountain, but the few chunks chipped from the rugged rock face suggest they made very little progress. The only way out of this dead end is east, back into the mint.",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:230",
+      "text": "You enter a small cavern, its ceiling propped up by massive timber beams. Back when this country had money, this was the mint where its hard currency was struck. The usual looters seem to have carried off everything valuable. Except... there's still a fire burning in a hearth at the back, with a small cauldron of molten silver suspended over it! Intrigued, you look more closely and spot several containers that must once have held freshly minted coins for storage and transport. The exit is directly behind you to the south. To the west, another little tunnel ends at a rock face after only a few metres...",
+      "reason": "Münze means mint, not coin; preserve molten-silver puzzle clue and exits."
+    },
+    {
+      "target": "B2:231",
+      "text": "When you enter the monastery garden, you are taken aback: It won't be that easy to push your way through this undergrowth! Everything around you is overgrown - actually quite understandable, since nobody has taken care of this garden for decades. To put it bluntly (The gardener - if he's still alive - may forgive us...): This place looks more like a jungle than the carefully tended garden where, a long, long time ago, the monks of this monastery used to meditate! But as you brutally force your way through the thorny undergrowth, you suddenly come across a wrought-iron gate that at first glance was hidden by the undergrowth! As you look through the bars, you shudder: This is the gate that leads directly to the cemetery of the monastery, where all the dead of the village used to be buried! But something is wrong with this place: thick banks of mist creep sluggishly and ominously across the graveyard, but strangely do not penetrate the bars of the gate, but almost seem to be held back by a magical barrier. When you see that the mist seems to come straight out of the partly open and desecrated graves - almost as if the spirits of the dead wanted to flee their final resting place to take revenge on all living things - a chill runs down your spine. .. If you have the right key with you, you can enter the cemetery in the north - if you still have the courage to do so... If not, the small archway in the east will lead you back to the monastery.",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:233",
+      "text": "You reach the throne room of Firon, king of the elves, unnoticed. Dazzled by the brilliant light reflected from the walls, you shield your eyes and look around in wonder. The hall is as empty as it is enormous. Its only 'furnishings' are Firon's ice throne and the glittering ice crystals hanging dozens of metres from the ceiling. They scatter the sunlight in every imaginable colour, as though carved from one gigantic, priceless gemstone...",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:235",
+      "text": "You continue your way through the cemetery, although you ask yourself with a rather unpleasant feeling in your stomach why everything around you has suddenly become so quiet... To the north, an ancient burial vault stands silhouetted against the sickly yellow light of the full moon, when the ominous silence is suddenly interrupted by a long, wild scream that makes your blood run cold: This scream was anything but human! But before you can think again, you hear a second - HUMAN - scream, which after a few seconds turns into a low whimpering, until it finally dies away completely... When you finally snap out of your paralysis, still shaking, you notice a hoarse hiss and the cracking of some branches behind you - and it's coming straight at you! So we should get these trembling legs moving and either seek refuge in the crypt in the north, or flee to the chapel in the eastern part of the cemetery!",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:236",
+      "text": "With mixed feelings you enter the cemetery of the old monastery, while the gate in the southern wall squeaks terribly on its hinges - as if it were being moved by the freezing wind, which strangely seems to have picked up at the very moment you entered the cemetery. You shiver as you look down and see the billowing cold mist creeping up your legs. In the meantime it has become so foggy that you can hardly see the ground. Tentatively you put one foot after the other into this gray sea and follow the path towards the small chapel to the north, past weather-beaten tombstones and overturned wrought-iron crosses that seem to reach out to you in the eerie light like claws frozen in agony. .. -Hey, freak! Tell me, don't you actually have a watch, or are you blind? You're standing here in a cemetery, it's just after midnight - and WE HAVE A FULL MOON! If the rest of this game is as clichéd as the story so far suggests, something pretty bad is about to happen! Okay: if you're actually planning to take a little walk around here - please: nobody's holding you back - but please don't expect me to share your somewhat macabre hobbies with you! I'll wait here for you - MAYBE...! Oh, by the way: Have you already seen the open grave back there...?",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:237",
+      "text": "This is - rather, WAS - the old monastery smithy, in which weapons, armor and objects of daily use were manufactured in the past. Many of the items are still lying around: for example, there are still some old, but still reasonably serviceable weapons hanging on the walls, and there is also an old anvil here, to which the smith's hammer has rusted fast over the years. The only way out of the forge is south, back into the monks' dining room.",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:238",
+      "text": "You enter the king's burial vault. Hardly a ray of light falls through the small, barred hatch in the west wall. Right in the center of the tomb stands the king's mighty sarcophagus, adorned with scenes from his glorious exploits... The only way out of this dark and spooky room is through the door in the south wall, back to the moonlit graveyard...",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:241",
+      "text": "You emerge into a short corridor, lit only by blazing torches on the black-painted walls. A massive steel door in the north wall bears the words 'Laboratory - Keep Out!' Iron rungs lead back up to Mylgor's fireplace room. You can try the laboratory to the north or the room to the west. Or, of course, you can climb the rungs back to the fireplace room above Mylgor's secret hideout...",
+      "reason": "Steigeisen are fixed climbing rungs here, not wearable crampons."
+    },
+    {
+      "target": "B2:242",
+      "text": "As the sign on the door indicated, this is Mylgor's secret laboratory: it's overflowing with test tubes, flasks and measuring cups, filled with all sorts of mysterious liquids bubbling up in every imaginable color. You have to concentrate very hard in order not to be confused by this sudden flood of new impressions - but then you see him: MYLGOR, the malicious alchemist, the vassal of the great evil, whose name you don't even dare to utter in your mind! When your eyes meet, his face twists into a malicious grimace: he slowly approaches you, shows you an enormous veterinary syringe that he has just filled with a greenish, bubbling poison, and snarls: \"You haven't been following my orders, my dear fellow, have you...?\" You hastily look around for possible escape routes, but can't see anything apart from the huge steel door to the south...!",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:244",
+      "text": "When the orc father happily sees his little son entering the cave behind you, his initially hostile gaze suddenly turns into a broad grin. \"Oho! Looks as though we're having a guest for dinner!\", he says, and you wince involuntarily - but he continues undeterred in his gruff manner, without even realizing the ambiguity of his words : \"Well, if my wife should actually manage to grill the lizard before we all starve to death, you can have lunch with us. Just sit down - there's enough for all of us!\" With very mixed feelings, you sit down on one of the small stools, trying frantically not to look at the animal over the fireplace...",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:245",
+      "text": "While you wait for lunch, you and the orc father watch his little boy playing blissfully with the crystal ball you gave him. Suddenly it slips through his fingers! He leaps after it and chases it round the cave, squealing with delight, until a heroic dive finally catches it just short of the fireplace. Unfortunately, his hands close round the ball at exactly the moment he lands between his mother's feet. She is carrying the crockery to the table. She trips, and the whole lot crashes onto his back! Sitting in a mountain of broken crockery, the little orc starts bawling. At a curt, commanding glance from his father, his mother walks over and adds a hefty left hook to his troubles. That does it. Startled, he stops crying and looks round sheepishly... For a brief moment the whole family glares at the unhappy boy as he picks the last shards out of his fur. Nobody is paying any attention to you...",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:247",
+      "text": "You hand the contract and knife back to the man. His face disappears from the hatch, and a few seconds later you hear the door being unlocked. \"Come in!\" He opens it and leads you into a small, cosy room with a fireplace. Introducing himself as \"Mylgor, alchemist\", he shows you where you will sleep. When you ask where he intends to sleep, he laughs heartily. \"Do you really think a scientist like me could live in a hut this size? Good heavens, no! This is my servant's room. He is running errands for me in the next village. My laboratory and the other rooms are... hidden! Never mind where...\" Mylgor nervously strokes his goatee, then forces that peculiar smile back onto his face. \"But I thought we were going to talk about you, not me...?\" He nods towards the fireplace room. \"Let us chat by the fire for an hour. Perhaps I can tell you a little about our village's history. First, though, give me those wet things. You will catch your death!\" Feeling distinctly uneasy, you undress while keeping a close eye on the old alchemist. What exactly is this favour you are supposed to do for him? Was that a greedy gleam in his eye? Just in case, you glance at your bedroom door. Thank goodness: it has a lock! Awkward and embarrassed, you hand Mylgor your clammy swimming trunks. All he does is lay them by the fire to dry...",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:248",
+      "text": "When you enter the fireplace room again, you wonder why Mylgor actually didn't lock the door. Something in this house doesn't seem right - not at all right... You also wonder why Mylgor isn't there to greet you: maybe this is just a trap, because he has noticed that you didn't keep your promise to eliminate Firon? Or maybe King Richard and his brother didn't tell you the full truth and had Mylgor killed before you could see through them and right your mistake of letting Firon live? You have strong doubts and pangs of conscience when you consider that an innocent man may have died because of you...",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:249",
+      "text": "In the middle of the clearing, a little orc boy is playing \"ant bomber\", a hunting game very popular among the orcs. He appears to be around eighty years old and not fully grown yet - but give it a few more centuries and he will easily strangle you with his left hand. You watch the child play for a few moments: his right hand hovers high in the air over an ant hole, while with his left he shoos the wood ants crawling around on the ground towards the hole. Every time an ant tries to slip into its burrow, the little one drops a pebble on it! However, the young orc doesn't seem to have had much luck in this game so far, you note with relief as he growls contritely in the face of an ant that he missed just before the hole: \"Okay, 23:4 for you! But now you're in for it, lads!\" At some point you get tired of watching the orc do his sadistic machinations and approach him. When he notices you, the little one hands you a few pebbles: \"Here! Let's have a match: I'll bet two gold pieces!\" Without accepting his offer, you take the pebbles from the boy's hand and forcefully throw them into the bushes. The orc seems to understand, pouts and mutters, \"Fine. Don't, then...\"",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:251",
+      "text": "Throughout your long journey across the frozen wastes, you failed to notice the wolf pack following your sled's tracks. Now, as you stop to give your dogs a few minutes' rest, the wolves begin to circle you! The biggest, a huge beast with dirty grey fur, throws back its head and howls. A terrifying chorus joins in, as though a thousand throats were answering. These beasts can't have eaten in weeks. Without warning they attack the sled! Your dogs have run too far, and you've driven them too hard: they have no strength left to fight back. Helplessly, you watch the wolves tear them into a bloody mess. After ripping the entrails from the dogs' still-twitching bodies, the pack disappears as quickly as it arrived...",
+      "reason": "Restore missing second half and correct wolves attacking dogs, not dogs ripping something out."
+    },
+    {
+      "target": "B2:254",
+      "text": "A.C.A breaking in for a chat: \"This is our LAST warning: Send Mylgor to hell - we're running out of lines!\" A.C.A chat end.",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:255",
+      "text": "Just as you are about to climb the iron rungs to climb back up into Mylgor's fireplace room, you hear the lab door open behind you and see Mylgor come out, brandishing the enormous veterinary syringe wildly! Thank you very much: you gave him exactly the right position to place his \"shot\" - although the injection he gives you is really anything but therapeutic...",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:256",
+      "text": "Well, I think you've hesitated a bit too long: cackling hysterically, Mylgor grabs your right arm, sticks the hypodermic needle into a vein and \"fires\" by brutally hitting the plunger once with his right palm! \"At least he could have removed the air bubbles beforehand...\" is the last reasonably clear thought that you are still able to grasp under the influence of the poison... With one last choked rattle you collapse and die a slow, painful death... Sorry, but that really had to happen...",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:266",
+      "text": "You try to balance on the thick tree trunk, but halfway across, right over the gorge, you slip and fall... and fall... and fa... SPLAT! You just had to overdo it, didn't you? An entire river to land in, and you pick the only rock! Well, that's that again. A pity we decided against sound effects in this version: your long scream and the dull thud two hundred metres below were really something to hear. But finding volunteers to make those noises would have sent production costs through the roof... All right, I admit it: we DID find someone willing to try. Unfortunately, Chris forgot to switch on the sampler. We're still in court with the widow...",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:268",
+      "text": "The yeti doesn't look remotely inclined to help you with that little plan...",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:269",
+      "text": "Carelessly you open the door to Mylgor's secret laboratory again: the conflagration mercilessly hits you in the face and takes your breath away! You look around to make sure that Mylgor is really dead, but you can't see him anywhere! \"Okay!\" You say to yourself smugly, \"Looks like I did a great job! May he rest in pieces!\", and are just about to leave the lab when a hand, horribly disfigured from burns, closes around your ankle - MYLGOR'S HAND! The mad alchemist managed to drag himself to the door just before you entered! With hysterical laughter he pulls you to the ground, jumps up faster than you ever thought he could, runs out of the lab and slams the door behind him! In your frantic attempt to escape the flames, you accidentally bump into a small table on which are various chemical containers - one of which reads \"N-I-T-R-O - NO SMOKING!\" You really regret not being able to smoke nitro, but what worries you more at the moment is the thought that comes to you when you see the bottle tip over and fall over - because: Nitroglycerin is explosive! A really comforting feeling, not leaving this world completely ignorant...",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:274",
+      "text": "The old elven king seems to have expected this. Calmly, without a word of protest, he meets his death and vanishes in a cloud of pale blue smoke...",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:275",
+      "text": "Easy, now! Have you ever seen a LIVING ghost? Mind you, I suppose I could just as well ask whether you've ever seen a DEAD one. And anyway, who believes in ghosts...?",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:276",
+      "text": "You try to get hold of Mylgor's nose to force him to open the door so that you can assassinate him more easily, but the fellow has the outrageous nerve to object - and unfortunately he's a little quicker than you! Before you touch him, he ducks and your hands shoot into nothing! But the moment they appear in the room, Mylgor grabs them and breaks both your arms over the hatch frame! You roar in pain, but your opponent isn't done with you yet: Mylgor gradually pulls you through the hatch with almost superhuman strength - not completely, but what doesn't fit through has to stay outside! And that's quite a lot for a 20 X 20 centimeter hatch! Now you finally know what a potato must feel like when it is processed into French fries - a question that has troubled you for ages. Pretty thoroughly \"processed\", as it turns out. But that is the last revelation this life has in store for you - after all, a head that adorns the floor in front of a front door as a heap of blood and broken bones is no longer able to think of anything, is it?",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:277",
+      "text": "In desperation, you yank at one of the massive wooden shelves to hurl the reagents between you and Mylgor - and it's easier than you expected: A quick tug and it falls over along with its contents! \"Holy shit! Move over, Arnold!\" You think to yourself, amazed at your sudden power, when the shelf hits the floor with a crash and the contents of the various reagents spill onto the tiles. As two liquids mix, thick clouds of acrid smoke rise up that soon fill the entire room, making it nearly impossible for you to even see each other! A loud explosion knocks Mylgor off his feet and violently throws him against the opposite wall, and suddenly flames lick the floor, soon spreading and turning the room into a huge sea of flames! Hot idea, man! But now let's get out of here before it gets TOO hot...!",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:278",
+      "text": "More instinctively than you intended, you whirl around and hit your opponent in the head - but he's either insensitive to pain or he has a very pronounced masochistic streak: instead of clearing off or at least saying \"Ouch\" dutifully, he just attacks you all the more wildly! Well, that didn't work: The last thing you see in this life are the teeth of a horribly disfigured wolf's snout, which are approaching your chest as if in slow motion... Well, you're dead again! If you really want to read a lengthy commentary on the manner of your sudden, albeit expected demise, try killing the werewolf with something else next time...",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:279",
+      "text": "On your panicked escape across the graveyard, you unluckily stumble: the cold, musty hand of a ghoul you disturbed by your yelling at dinner has shot out of a grave and is now gripping your ankle like a vise! \"Come, Lord Jesus, and be our guest...\", you still think to yourself when you realize that the corpse eater is already tucking into your apparently rather tasty calves, while you - without the slightest chance of escaping - can only watch as the werewolf approaches you with slow, stomping steps...",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:280",
+      "text": "Before your undead opponent has a chance to attack, you strike his chest with one deft movement! However, just before your blade finds its target, you suddenly swing it upwards towards the beast's neck, where it leaves a gaping, smoking wound, without the werewolf having the slightest chance of warding off your murderously good blow! The undead creature, severely wounded by your sacred weapon, sinks to the ground with an incredulous look in its eyes and breathes out its \"life\". \"K.O. due to premature death in the first round!\"- you smugly put your sword back in its scabbard and blow on your fingernails when the thought occurs to you that this could also be a feint: carefully, and tightly gripping the hilt of the sword with one hand, you kneel down next to the wolf's body to see if your opponent is really dead... Your fear was unfounded: steaming, greenish blood is running from a long, gaping wound in his throat. Something else you also have to see is some red blood sticking to one of the wolf's claws - and as you examine yourself, plagued by forebodings, you can see a small, but still quite deep wound on your left leg, which the wolf must have torn while falling, and from which - GREEN blood is now seeping! CRAP! Now that you've noticed it, the wound starts to burn like hell: the infection has begun, and it will only be a matter of time before you too start to become a beast during the full moon! As you sit down in resignation on one of the fallen gravestones to ponder your uncertain fate, the wolf's body transforms into the decaying corpse of a once beautiful young woman who seems to look up at you gratefully! When you try to touch her - she turns to dust...",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:281",
+      "text": "The altar is dedicated to the A.C.A gods and depicts scenes from the development of \"Soul Crystal\": While you walk around the stone altar in amazement, you can see Chris writing the game texts in front of his AMIGA, pumped full of barrels of coffee, thousands of cigarettes and whistling Chopin's Funeral March until Kai, the poor troubled soul, finally manages to complete a highly intelligent (and lengthy!) parser that will eventually leave the world gasping in admiration... You think of those poor sods. Anyone who managed to finish such a huge program must have made a fortune, surely? Well, I hope you're right - but it's not that far to the madhouse either...",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:283",
+      "text": "Pretty basic, but it beats sleeping on the floor...",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:284",
+      "text": "You rummage through Mylgor's bedding until you find something under Mylgor's pillow: a strange amulet about the size of a palm!",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:293",
+      "text": "A most tastefully decorated, large study table with many drawers down its right-hand side.",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:294",
+      "text": "Well, the sled might not be the best model, but it's still worth the low price. Let's hope it'll be able to get us safely to the northern edge of the frozen desert...",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:295",
+      "text": "The wooden door looks just like the doors on all the other houses you see around the small market square. In its upper third there is a small, approx. 20 X 20 centimeter large wooden hatch to be able to take a closer look at new visitors...",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:298",
+      "text": "Just ordinary desk drawers! You'll have to open them yourself; I can't see through walls!",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:300",
+      "text": "Yes, yes, indeed: quite a pretty and attractive thing indeed - if you try to judge it from the perspective of an orc in heat! You greedily run your tongue over your lips until you notice that the orc father is looking at you with increasing displeasure! So you put your flirting on hold and decide to slip the young lady a note with your phone number when you say goodbye... crap! What kind of phone anyway? Oh, let's just forget it again: After all, you have to survive an adventure here - so do it before you throw yourself into a new one!",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:301",
+      "text": "King Firon is a wise old elf, just like the ones in fairy tales and fantasy stories. He has long, flowing snow-white hair, pointed ears and cool, steel-blue eyes that regard you with kindness tinged with sadness...",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:305",
+      "text": "Someone recently buried a note in the hole in the ground - but so amateurishly that every idiot really has to see it right away! When I think of the quality work we did back then when we buried Dad's mother-in-law in the gar... -but let's leave that...",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:309",
+      "text": "King Richard really does look just like the man whose image was engraved on the silver coins you found in the dwarven mine: he wears a long, velvety purple cloak and a magnificent golden crown, but all those colors have long since faded and look mysteriously translucent - as though you were hallucinating...",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:316",
+      "text": "The little vial contains a magic potion that makes you invisible for a short time - one turn, to be precise. Handle it carefully: don't waste it at the wrong moment, and whatever you do, don't break that delicate bottle!",
+      "reason": "Explicit one-turn duration must remain a puzzle clue."
+    },
+    {
+      "target": "B2:317",
+      "text": "You're seriously trying to EXAMINE a prayer? You're not a theologian, are you?",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:318",
+      "text": "The reagents glow in every color imaginable. Some give off smoke and vapour, some just quietly bubble away in their glasses - others, however, just seem to be waiting for a favorable opportunity to be able to EXPLODE...! \"Oh, boy!\", you think to yourself, \"Anyone in here when this place goes up won't have any more worries!\"",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:319",
+      "text": "The dead king's sarcophagus is decorated with scenes from his life of glory and action - one of the carved images, for example, depicts two huge armies in battle formation: one of the armies appears to be that of the king, while the other appears to come from a completely alien world. Perhaps even - YOURS...?",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:320",
+      "text": "A typical salesman: far too busy, naturally, but never too busy to sell you a load of rubbish...",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:326",
+      "text": "Ooh, get you! What did you expect silver-plating your sword to achieve? Think it'll impress your enemies? Perhaps you should learn to use it first. I suspect you'll get the chance soon enough...",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:327",
+      "text": "A perfectly normal sword: Why on earth did you dip it in holy water?",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:329",
+      "text": "This slippery, snapped log seems to be the only connection between the mountain you're standing on and the one on the other side. It doesn't look terribly reassuring, but, you may have no choice but to balance your way across it if you want to reach the other side of the gorge...",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:331",
+      "text": "In the pale moonlight you can see a terribly mutated wolf, salivating from its pointed snout. It bares its sharp, yellow teeth and, with a look of hatred for all living things, raises its vicious claws towards you! Watch out: he will attack you as soon as he has the first opportunity to do so! He's already crouching to prepare his deadly leap against your throat...!",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:332",
+      "text": "The yeti is a huge, white-furred creature acting as Firon's bodyguard. A turquoise sash crosses his muscular torso, embroidered with King Firon's coat of arms: a white ice crystal...",
+      "reason": "Restore missing sash/torso sentence; snowman is misleading for living yeti."
+    },
+    {
+      "target": "B2:333",
+      "text": "One sharp, reproachful look from Mylgor stops you from snooping around on other people's things that don't concern you in the slightest! Guilty and a little ashamed, you lower your eyes and abandon your plan...",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:335",
+      "text": "Without anyone in the cave noticing it, you slowly feel your way across the table until your fingertips touch the little pipe. Carefully, and without taking your eyes off the orc father, you pull it towards you and bag it! Well, if that's your thanks for the orc family's hospitality... At least I'd hurry up and get out of here fast before anyone noticed the theft!",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:336",
+      "text": "You reach carefully for the little pipe, but your timing could hardly be worse. The orc father looks at you, then at the pipe. You turn bright red, then very, very pale... \"Thieving bastard!\" he bellows. \"Stealing an addict's one and only comfort!\" He turns furiously to his son. \"Well, lad? NOW do you see why I hate these damned humans? Liars and thieves, every last one! Still...\" He gives you a nasty grin while you stand too terrified to say a word in your defence. \"...there is ONE good thing about bringing him home for dinner. He should make a tasty hors d'oeuvre!\" Before you can jump up and run, two powerful hands seize your neck and snap it with one short, well-practised twist. You don't even have time to notice the little orc's sad, bitterly disappointed face...",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:337",
+      "text": "The little one doesn't need your help to play his games - besides, you wouldn't want to support him in his sadistic activities - even though it might be the most natural (well, SECOND most natural!) thing in the world to him...",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:344",
+      "text": "You can't be seeeerioooooous...!",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:345",
+      "text": "Somehow I doubt the yeti wants a little weed like you taking over his guard duty...!",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:346",
+      "text": "You remember the noises you heard the night you spent here: A scraping like...: STONE ON STONE!!! The fireplace! That's it! You hastily try to move the fireplace aside... That's impossible: The thing isn't even as heavy as a normal table or chair - yes, it's not even made of stone, but an almost perfect dummy made of cheap plaster! The fireplace swings easily to the side...",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:349",
+      "text": "You ask the little kid what he's doing out here alone. \"I'm just sitting here trying to keep myself occupied: I'm not supposed to come home until dinner because dad needs a rest after this busy week and I'm not supposed to disturb mom while she's cooking! What a bummer! At least they could have given me something to play with!\" it replies sadly, \"Can't you buy me some toys?\"",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:350",
+      "text": "\"All I wanted for Christmas was a football! But my parents thought that was too common. My friend Horax even got a baseball bat. He makes money with it now by letting rich adventurers have a little 'chat' with it! Now THAT'S a present a man can use! And what do I find under the tree? Stupid colouring books and clothes! Yuck! Nothing to play with...\" The little orc is positively indignant at his parents' utter irresponsibility.",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:352",
+      "text": "Well, I wouldn't start flirting with pretty orc girls just yet - her husband watches you far too closely, and you shudder to recall the time when your school beauty let her boyfriend - a brainless bodybuilder - beat you up because your endless, awful chat-up lines got on her nerves. As revenge you sent her a letter bomb - but unfortunately your crush wasn't home on the day of delivery! The police are still feverishly looking for the lunatic who blew up the main post office in your village! When you realize what unwanted consequences such a harmless flirt can have, especially since you wouldn't even find a post office here, you give up on your plan, discouraged...",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:353",
+      "text": "The old elf king rises from his throne: \"I knew that you would come one day and fulfill your master's command. Now do your duty and also destroy the last scion of a noble family - I will not resist! I have waited so long for this moment. It is time we got it over with...\", he answers you in a soft voice, the melody of which resonates with something like melancholy and resignation...",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:354",
+      "text": "Firon is a little surprised that you don't make quick work of him, as originally agreed with Mylgor. After a short pause, however, he nods slowly: \"So the prophecy is finally being fulfilled...\", he says, \"If you really want to spare me, I will tell you in return how you can find out the full truth about what happened in this country and who is responsible for the horrors you may already have witnessed...\"",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:355",
+      "text": "Firon replies, \"To prove that I am on your side, I shall give you a key. Its purpose will become clear in time. I am not permitted to explain it myself, but there is someone... someone you should find in the old monastery on the hill in the northeast of the land. We both belonged to a group that secretly worked to address our country's troubles after evil gained the upper hand. Sadly...\" He sighs, gazing past you for a moment into the cold emptiness. \"Sadly, he did not manage to flee to us here in the frozen wastes. He fell into the hands of the evil one's hunters... I never saw him again, nor the monastery that had served as our secret headquarters. All I had left was a key. I cast a copy of it in magical ice and have kept it for decades. May it serve you well on your quest...\" Firon rises, takes a large key from a hidden compartment in his throne and carefully places it in your outstretched hand. Glancing at the entrance behind you, he adds, \"My guards will let you pass. I shall have one of my fastest badger sleds prepared to take you back to the edge of the frozen wastes. Farewell, my friend. May the gods protect you...\" He beckons to the yeti, who escorts you outside to the waiting sled.",
+      "reason": "Restore capture rather than escape, natural secret-group wording, complete key history and directions."
+    },
+    {
+      "target": "B2:356",
+      "text": "You tell the ghost of the old abbot about your long, gruelling journey through the frozen wastes, and explain that Firon advised you to ask Brother Jack for help. Jack nods slowly. \"I never dared hope that a fearless hero would truly come to punish the Dark Lord for his atrocities. So my last dream has finally come true... Our country has a long and tragic history. Only its rightful ruler can tell you the whole story: Richard, Firon's brother. After overthrowing him, the Dark Lord murdered him and divided his corpse in two. His body was laid in his tomb in the graveyard, while his head was buried in the blocked tunnel of an old dwarven mine. Find both parts of our king's body and reunite them! This is the only way to bring help to our land... help... hel...\" Wrapped in a cloud of bluish smoke, Brother Jack's spirit returns to the realm of the dead, leaving you alone...",
+      "reason": "Restore omitted overthrow, murder and divided-body explanation; preserve exact skull location and reunion objective."
+    },
+    {
+      "target": "B2:357",
+      "text": "The king's ghost studies you for a while, then hops onto the edge of his coffin with a mischievous grin. Once comfortably seated, he begins the tale of his kingdom. \"Long, long ago,\" he says, his face once again that of a bitter old man, \"this was a beautiful, peaceful and prosperous land. I ruled my subjects wisely and justly from my castle on an island surrounded by crystal-clear water. Its magnificent buildings bore witness to my people's wealth and craftsmanship... At my court I employed a young magician named Zargon, who would entertain me with his tricks from time to time. He was gifted, remarkably so. Yet I never suspected that he occupied a secret chamber beneath my castle, where he conducted his magical experiments. He was obsessed with making gold, which he desperately needed to pay for lessons from the greatest magicians in the land. Eventually, his ambition was rewarded: he was admitted to the Seventh Circle of the Mages' Guild. His full magical power had awakened, and he was permitted to wield even the mightiest spells. In time he surpassed his former teachers, who watched their most gifted pupil's progress with growing concern. But his ambition knew no bounds. He wanted more. He wanted my throne! Rather than face my noble knights in honourable combat, he used his magic to raise an army of savage undead creatures... One dark night, with thunder and lightning raging as though Judgement Day had come, he gathered those hellish things outside my castle. As the tower clock struck midnight, the bodies of my ancestors rose from their coffins in the crypt beneath the royal chambers and opened the gates. What a cruel irony! Zargon and his henchmen overran the castle within minutes. None of us had expected such an attack. A fatal mistake... After breaking down my bedchamber door, Zargon's blackbloods dragged me before their master. Without a word of explanation or apology, he drove his rapier into my chest, right up to the hilt...\"",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:358",
+      "text": "The king nods in agreement. \"You're right: We have no more time to lose!\", he decides, \"The time has come to fight back, bring Zargon to justice and free the inhabitants of my kingdom from his tyranny! As you can see...\" - he looks down sadly - \"...unfortunately my spectral form no longer allows me to challenge Zargon personally and avenge the suffering he has brought upon us all, but maybe you are strong and clever enough to try! No! Don't say anything now! Don't contradict me: This isn't just any job - it's your destiny!\" King Richard looks at you with pleading eyes...",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:359",
+      "text": "\"Well done! You seem to have grasped what this game is about!\" The king folds his hands contentedly over his stomach. \"But before you have the slightest chance of challenging Zargon, you must defeat his vassal, Mylgor. You know him: he ordered you to murder Firon, my younger brother. Firon fled when Zargon came to power and now shelters in a palace of ice with a handful of surviving members of his secret society, safe from Zargon's henchmen. I assume Mylgor has already heard that his plan failed and has hidden in the secret chambers beneath his hut. I do not know how to reach them, but this spell may help you open magically sealed doors. It cannot break a barrier as powerful as the one Zargon placed around the gateway between worlds behind the waterfall, but it is all that remains of my once-great magical powers... Now let me teach you.\" The king rests three fingers of his right hand against your forehead. You shiver at the icy cold of his touch. Richard murmurs guttural sounds in a strange, ancient tongue, then opens his eyes. The last of his astral energy is now yours...",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:360",
+      "text": "\"You know the spell!\" the king says impatiently. \"That is all I can do for you. The fate of my world rests in your hands, but my prayers go with you. Farewell...\" His spirit grows ever more transparent until it vanishes completely. With the weight of that terrible responsibility pressing down on you, you suddenly feel very, very alone...",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:362",
+      "text": "You tell the stranger behind the hatch how you came to this world and ask whether he can spare some food and a place to sleep. Surprisingly, he seems to believe every word. \"Of course I could...\" drawls the voice behind the door. \"On one condition. If I help you, you must promise to do me a small favour in return. There is a little task that needs doing tomorrow. Nothing too dangerous, naturally. Sign a short statement agreeing to do it, and I shall give you a bed, warm clothes and a hot supper.\" He passes a contract through the hatch - oddly enough, it is already drawn up - along with a small, sharp knife. When you ask what the knife is for, he replies casually, \"I am merely being cautious. Too many people have betrayed me. You will sign our agreement in the very blood you shall shed if you dare to break it...\"",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:363",
+      "text": "\"What should I do with a contract that you haven't signed?\" Mylgor snaps at you angrily, \"No, my friend, keep it! You will soon realize that you have no other choice.. .\" Somehow you don't like the tone in which Mylgor pronounced the word \"friend\" - it sounded somehow... -contemptuous?",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:366",
+      "text": "After every sentence that you say, Mylgor sprawls in his old wing chair and convulsively suppresses a hearty yawn: he's probably far too tired to be able to follow your stories with concentration and is just waiting out of politeness for you to finally wish him goodnight and retire to your bedroom...",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:367",
+      "text": "Mylgor has been expecting you. He greets you briefly and gets straight to business. \"I trust you remember the pact we made last night. It is time to honour your side of it. An evil elven king named Firon hides with his horde in an ice palace in the northwest of our beloved land. He often sends his yeti army to raid and plunder our peaceful little village. A few years ago they even burned it to the ground! As chairman of the village council, I command you to stop him. Here are clothes to help you survive the frozen wastes, and a vial of magical elixir that will make you invisible for a few seconds. Do not use it until you absolutely must! It will protect you for just one turn, and you can only use it once. Now go and put an end to Firon's dark schemes. May Zargon watch over you...\" Mylgor opens a small chest, takes out the promised items and lays them on the table before you.",
+      "reason": "Preserve Mylgor's deceptive claims, equipment timing, direction and one-use/one-turn invisibility clue."
+    },
+    {
+      "target": "B2:373",
+      "text": "Yes, do you really think I would have gone through all this hardship just to eat the honey myself now? That can hardly be part of the solution, can it? Well, okay: Who knows - because what is logical here anyway...? So: If you really are that hungry, then interrupt the game (you should look at the clock - or better: the CALENDAR! - anyway...), go to the kitchen and make yourself something to eat (\"Turn off computer\", \"Go to kitchen\", \"Open fridge\", \"Examine fridge\", \"Raid fridge\", \"Use food on self\", \"Go to computer\", \"Turn on computer\", \"Boot Soul Crystal\", \"Curse forgotten savegame\"...). In fact, I'll generously promise not to cheat while you're away...",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:374",
+      "text": "You grimace painfully when the small, sharp knife cuts deep into your fingertip and leaves a small but deep wound there, from which red blood is now dripping onto the floor. \"Well, that finger's a write-off! And on my mouse hand, too! If that's Mylgor's way of hiring people for him, he'll find very few who are still able to work after signing the contract!\" you think to yourself as you look at your injured finger. ..",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:375",
+      "text": "You puff happily on the pipe you stole from the orc father and ruthlessly blow the sweetish smoke straight into the beehive. As expected, the bees don't take the smell of the stuff the old orc stuffed into the pipe very well: they hastily leave their hive and fly away! However, as you gaze dreamily and somewhat dazedly after them, you wonder why so many of the bees are making these uncontrolled turns - almost as if they were drunk... Could it be that there is something wrong with the stuff in that pipe?",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:376",
+      "text": "\"Bottoms up!\" You think to yourself and empty the small vial that Mylgor gave you in one gulp. You immediately become invisible, which you can mainly recognize by the rather stupid expression that spreads across the yeti's face when he sees that he can't see anything... But hurry up to Firon's palace in the north - because after the next turn you will be visible again...!",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:377",
+      "text": "Desperately, you kneel before the altar and offer a quick prayer for wittier writing, better graphics, more powerful computers and competent programmers. You spare a thought for poor Brother Jack, too, who apparently kicked the bucket here. After a few lines, though, you get the unpleasant feeling that something is behind you. You turn. An icy draught stirs the air. Mist is gathering in the chapel, drifting closer and growing denser until it stops right before you... Cold sweat prickles at the back of your neck. Shaking, you stammer, \"Oh, shit! All right, lads, forget the bit about the writing and everything! Just a joke! Everything's fine, honestly!\" Just before you wet your only pair of trousers, the cloud you had taken for your one-way transport to the hereafter assumes a human shape. There stands BROTHER JACK! \"Peace be with you, my son!\" he says. Then he glances at your trousers, grins, and asks with mock innocence, \"Your trousers... ahem. Everything all right?\"",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:380",
+      "text": "You dip your sword into the font, coating it with holy water.",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:381",
+      "text": "Only when you stretch out on the bed do you realise how exhausted the journey has left you. It is the middle of the night now, and rain is pouring down outside. You are very glad to have a roof over your head in this weather. Snuggling into the warm blanket, you think about your stay in this strange world, the contract you signed with Mylgor, and what your parents... par... pa... Zzz... Zzz... With your thumb in your mouth, you fall into a deep, dreamless sleep. Suddenly, a nasty scraping noise from the next room wakes you. It sounds like stone scraping against stone! You get up to open the door to the fireplace room, but it is locked. Frustrated, you lie down again to catch a few more hours of shut-eye... The following afternoon Mylgor wakes you and tells you to freshen up and meet him in the fireplace room for your orders. Oddly, he says nothing about the noise in the night. You decide it is wiser not to mention it either, and climb out of bed feeling reasonably rested...",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:383",
+      "text": "You knock timidly and wait. Nothing. You knock again, a little louder. Still nothing! Just as you are about to demonstrate the full destructive might of your mighty fists, a small hatch opens exactly where you were aiming. A face appears, barely visible in the gloom. \"What do you want, stranger?\" asks the voice behind the door suspiciously.",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:384",
+      "text": "You carefully place the skull next to the king's torso - but what is that? The skull rolls to the skeleton's neck and grows back there as if it had never been anywhere else! At the same moment, however, when the king's skull returns to its rightful place, you feel an ice-cold wind on your neck... Fearing the worst again, you close your eyes in fear: nothing happens... But when you dare to open them again - the coffin is empty! You close your eyes for the second time and open them again: But nothing has changed: the king's sarcophagus is and remains empty! Before you can attempt to run away on your shaking legs, however, you hear a soft voice behind you, obviously quite amused: \"Welcome, my friend...\" It's King Richard!",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:385",
+      "text": "Really, Mr. Parker! Should I call the vice squad? So: I'm terribly sorry, but I don't play along anymore: Maybe you should just sit less in front of your computer and get a girlfriend instead of wanting to live out your fantasies in games suitable for younger players! But if you're really that keen on molesting orcs, you can write a letter to Chris and Kai - maybe they'll write an \"adult version\" for perverts like you... But for now we'll leave the orc lady alone - no matter how difficult it is...",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:386",
+      "text": "You try to smear a little honey onto the soles of your boots. This turns out to be considerably more complicated than expected. By the time you finally manage it, you're sticky from head to toe. You spread the last of the honey over the soles and try walking about. To your delight, the boots now grip the ground much better. Walking isn't exactly easier, but slipping on smooth surfaces should be a lot harder...",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:389",
+      "text": "You give the child the crystal ball so that he finally has something to play with - and above all, so that no one gets hurt during his games. With trembling fingers he touches the shimmering gem and looks at it as if the little ball were the most valuable thing in this world. \"It's beautiful - what do you want for it?\" he asks, afraid that he hasn't hoarded enough treasures in his young life and therefore has to give you the new toy back. \"Nothing. I'll give it to you. But don't try to play football with it!\" you reply kindly - happy to be able to make the child a little happier. The little thing stares at you with unbelieving eyes: \"Really - nothing at all?\" he repeats questioningly, as if he couldn't believe you. \"Really - nothing at all!\" you answer. The child, overjoyed, throws his arms around your neck: \"You're my friend!\" he crows in his childlike joy, which has nothing of the hostile tone in which orcs and humans normally interact with each other, \"Come with me: I will show you our cave and introduce you to my parents!\" Before you can say anything back, the little one lets go of you and stomps off into the undergrowth. Shaking your head, you follow the child through the thick undergrowth on the southern edge of the clearing, on a path that only the orcs know...",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:391",
+      "text": "You hastily lock the laboratory door with the key from Mylgor's study. The heavy lock clicks reassuringly into place, not a moment too soon! As you turn the key, a tremendous explosion shakes the house to its foundations. Luckily, the massive door - which you so wisely locked - shields you from the worst of the blast. Plaster rains from the ceiling. The floor and walls shudder ominously. Then, suddenly, silence. Only the crackle of flames against the laboratory door remains... When the dust settles, you look around. The door is still locked, with black smoke seeping through narrow gaps in its frame. You offer up a grateful prayer for surviving unscathed. Mylgor, by contrast, is probably spread fairly evenly over every surface in his laboratory by now... WELL DONE: BONUS AWARDED! ...NOW PREPARE FOR NEXT STAGE... Ahem. Only joking!",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:395",
+      "text": "\"Are you absolutely sure you bought a legitimate copy? If you did, I am truly, terribly sorry. But Chris and Kai ordered me to guard this part of the forest until you prove it. Disobey them and I'll probably be replaced by some stupid dialogue box in their next game! I hope you understand my predicament. I simply cannot let you through like this...\" The spirit sounds miserable after your repeated failed attempts to answer his question.",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:396",
+      "text": "Exits lead to:",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:398",
+      "text": "Please put the floppy disk on which you saved your games into your drive. Remember that it must be named \"SoulSave\". Otherwise, format it as instructed in your user manual and rename it \"SoulSave\". Press <ESC> or the right mouse button to cancel the action!",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:402",
+      "text": "Phew! That was close...",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:410",
+      "text": "Saved game loaded and initialised successfully. You can now carry on from where you saved. Have fun!",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:411",
+      "text": "Please choose the slot in which to save your game.",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:412",
+      "text": "Saving your game under the chosen name in the selected slot...",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:417",
+      "text": "In order to prevent a few dim-witted pirates from bypassing the manual checks between the individual game sections with the help of saved games and being able to play the game for free, we would now like to ask you to enter a code from the manual. I'm sorry - but: \"Has to be done...\"",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:429",
+      "text": "ERROR! The system data file could not be loaded! Either you didn't install the game correctly, or your storage medium just gave up the ghost...",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:433",
+      "text": "Do you want to quit (<B>), start a new game (<N>) or load a saved game (<L>)? Press the corresponding key, or use the right mouse button to quit and the left mouse button to restart.",
+      "reason": "Keep actual original hotkeys B/N/L while removing malformed translated markup."
+    },
+    {
+      "target": "B2:436",
+      "text": "You don't want to throw away your last chance of survival, do you?",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    },
+    {
+      "target": "B2:442",
+      "text": "You gather all your strength and start to pull the heavy sled behind you until you hear a soft laugh behind you. Those lazy, worthless animals! They've been sitting on the sled for over half an hour now, letting you pull them through the snow! You angrily shoo them off their seats and harness them to the front of the sled again.",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:444",
+      "text": "You dig around in the dirt a bit, but apart from a mummified hand giving you the finger and some yellowed bones that no doubt appear to be of human origin, you can't find anything of interest. Disappointed, you throw your finds behind you into the bushes.",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:446",
+      "text": "Irresponsible, don't you think? If you absolutely must get rid of your blood, the sensible thing to do is to take it to a hazardous waste disposal site!",
+      "reason": "Repair mistranslation, grammar or literal German phrasing against the German source."
+    },
+    {
+      "target": "B2:447",
+      "text": "A bit childish, but making a mess is rather fun! Still, perhaps we should save some of the sticky stuff. It can't be quite as useless as you seem to think...",
+      "reason": "Idiomatic English and narrator voice; meaning checked against German."
+    }
+  ]
+}

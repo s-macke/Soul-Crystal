@@ -11,17 +11,19 @@ Fassung mit `./build/soul-crystal --language en`.
 | C1 / Teil C | 291 | 251 | 3724 Bytes |
 | C2 / Teil D | 435 | 391 | 6917 Bytes |
 
-Alle **1486 Archivdatensätze** liegen jeweils als JSON und Markdown vor. JSON
-enthält Quellpfad, SHA-256 der Disk, Datensatznummer, Byteposition, Text und
-originale Bildschirmzeilen. Schreibfehler und Übersetzungsvarianten bleiben
-absichtlich erhalten. Die Datensatznummer ist nicht die logische Text-ID.
+Alle **1486 Archivdatensätze** liegen jeweils als JSON und Markdown vor.
+Die Dateien in diesem Verzeichnis enthalten die vollständig geprüfte englische
+Spielfassung. Unveränderte Extraktionsbelege liegen in `original/`. JSON behält
+Quellpfad, Disk-SHA-256, Datensatznummer, Byteposition und originale
+`screen_lines`; nur `text` ist redigiert. Die Datensatznummer ist nicht die
+logische Text-ID. Siehe [vollständige Prüfung](../../spec/C64/english_full_review.md).
 
 ## Intro und Tagebuch
 
 - `story.txt`: Text aller acht Intro-Seiten, mit Seitengrenzen. Aus den
   Zeichendaten gelesen, ohne OCR. Einrückungen für Illustrationen entfernt;
-  Zeilenumbrüche, Absätze und Originalschreibweise erhalten.
-- `story.json`: dieselben acht Seiten mit jeweils 25 originalen 40-Zeichen-Zeilen.
+  Seitengrenzen erhalten, Sprache und Sinn anhand des deutschen Intros überarbeitet.
+- `story.json`: redigierter Seitentext plus jeweils 25 originale 40-Zeichen-Zeilen.
 - `../../images/C64_en/story/story0.png` bis `story7.png`: die acht Intro-Seiten,
   aus den originalen Zeichen und Illustrationen zusammengesetzt. 320×200 Pixel,
   ohne Emulator-Rand; feste C64-Palette, keine CRT-Filter oder PAL-Korrektur.
@@ -59,8 +61,8 @@ und Positionen der `rXX`-Platzhalter. Stichproben gleicher Datensatznummern:
 | 126 | Wie soll denn DAS funktionieren? | How is that supposed to work? |
 | gemeinsamer Textblock, erster Eintrag | Ausgänge führen nach: | Outputs lead to: |
 
-Dies ist ein struktureller Vergleich mit semantischen Stichproben, keine
-vollständige sprachliche Prüfung jeder Übersetzung. Die native Text-ID-Umrechnung
+Der ursprüngliche Strukturvergleich wurde durch die vollständige sprachliche
+Prüfung aller Datensätze ergänzt (siehe Prüfbericht). Die native Text-ID-Umrechnung
 `$3C02..$4001` wurde inzwischen direkt aus A2 Kette 10 verglichen und ist
 bytegleich. `TestEnglishTextIDRoutingMatchesGerman` sichert das ab. Deshalb
 enthält `text_ids.json` die gleiche ID-Zuordnung wie Deutsch.
@@ -89,7 +91,7 @@ pdftotext -layout -f 10 -l 12 'data/c64_en/Soul Crystal Walkthrough and Info.pdf
 python3 - <<'PY'
 from pathlib import Path
 text = Path('/tmp/soul-diary.txt').read_text()
-Path('texts/C64_en/diary.txt').write_text(text.replace('\f', '\n').strip() + '\n')
+Path('texts/C64_en/original/diary.txt').write_text(text.replace('\f', '\n').strip() + '\n')
 PY
 ```
 
@@ -99,10 +101,16 @@ Reproduktionsbefehle stehen in [vocabulary.md](vocabulary.md).
 
 ## Qualität der Fanübersetzung
 
-Die Texte sind originalgetreu extrahiert, aber nicht fehlerfrei übersetzt.
-Die unabhängige [Übersetzungsprüfung](../../spec/C64/english_translation_review.md)
-nennt unter anderem fehlende Rätselhinweise und falsche Verriegelungsmeldungen.
-Die Rohtexte behalten diese Originalformulierungen. Die spielbare englische
-Fassung verwendet inzwischen die geprüften Korrekturen aus `corrections.json`.
-Diese werden nur bei der Erzeugung der C-Daten angewendet; zur Laufzeit werden
-keine JSON-Dateien gelesen. Siehe [Korrekturen](corrections.md).
+Alle Archivtexte, acht Intro-Seiten, sechs Tagebucheinträge, 165 Objektnamen,
+42 Befehlsbezeichnungen, 60 Frontend-Beschriftungen und 50 Engine-Fragmente
+wurden gegen ihre Bedeutung geprüft. Drei Subagenten teilten sich die vier
+Spielteile; gemeinsame Texte wurden anschließend vereinheitlicht. Der freche,
+jugendliche Erzählton bleibt erhalten, das Tagebuch behält seine eigene Stimme.
+
+`corrections.json` enthält quelltextgeprüfte Ersatzregeln. Der Export erzeugt
+sowohl die redigierten JSON-/Markdown-/Textdateien hier als auch die C-Daten
+in `out/`. Es gibt weiterhin kein JSON-Laden zur Laufzeit. Die Originaldisks,
+Originalbilder und deutschen Texte werden nicht verändert.
+
+Nach einer erneuten Intro-/Begriffsextraktion nach `original/` den Go-Export
+oben erneut ausführen. Einzelheiten: [Korrekturen](corrections.md).

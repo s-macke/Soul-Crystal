@@ -2,6 +2,7 @@ package main
 
 import (
 	"bytes"
+	"encoding/json"
 	"os"
 	"os/exec"
 	"path/filepath"
@@ -45,8 +46,8 @@ int main(void) {
   if(strcmp(GameEnglishTextRecord(p,121),"Good, locked.")) return 10;
   if(strstr(GameEnglishTextRecord(p,196),"whistle")) return 11;
  }
- if(!strstr(GameEnglishTextRecord(2,316),"for one turn")) return 12;
- if(!strstr(GameEnglishTextRecord(2,367),"for one turn")) return 13;
+ if(!strstr(GameEnglishTextRecord(2,316),"one turn")) return 12;
+ if(!strstr(GameEnglishTextRecord(2,367),"one turn")) return 13;
  if(!strstr(GameEnglishTextRecord(2,335),"get out of here")) return 14;
  if(!strstr(GameEnglishDiaryText,"door handle upwards")) return 15;
  if(!strstr(GameEnglishDiaryText,"but does he also possess")) return 16;
@@ -54,6 +55,7 @@ int main(void) {
  if(!strstr(GameEnglishIntroText,"throwing a huge party")) return 18;
  if(strcmp(GameEnglishObjectNameOverride(5),"Leather pouch")) return 19;
  if(GameEnglishObjectNameOverride(7)) return 20;
+ for(unsigned id=1;id<=165;id++) emit(GameEnglishObjectNameOverride(id));
  return 0;
 `
 		harness = strings.Replace(harness, "return 0;", checks, 1)
@@ -82,7 +84,7 @@ int main(void) {
 	var want bytes.Buffer
 	documents := []string{"texts/C64/story.txt", "data/tagebuch.txt"}
 	if language == "en" {
-		documents = []string{"texts/C64_en/story.txt", "texts/C64_en/diary.txt"}
+		documents = []string{"texts/C64_en/original/story.txt", "texts/C64_en/original/diary.txt"}
 	}
 	for _, path := range documents {
 		data, err := os.ReadFile(filepath.Join(root, path))
@@ -136,6 +138,35 @@ int main(void) {
 				text = records[r]
 			}
 			want.WriteString(strconv.Itoa(kind) + ":" + text)
+			want.WriteByte(0)
+		}
+	}
+	if language == "en" {
+		var objects struct {
+			Objects []struct {
+				ID   int    `json:"id"`
+				Name string `json:"name"`
+			} `json:"objects"`
+		}
+		data, err := os.ReadFile(filepath.Join(root, "texts/C64_en/original/objects.json"))
+		if err != nil {
+			t.Fatal(err)
+		}
+		if err = json.Unmarshal(data, &objects); err != nil {
+			t.Fatal(err)
+		}
+		for _, object := range objects.Objects {
+			target := "object:" + strconv.Itoa(object.ID)
+			text, err := correctedEnglishText(corrections, target, object.Name)
+			if err != nil {
+				t.Fatal(err)
+			}
+			for _, rule := range corrections {
+				if rule.Target == target {
+					want.WriteString(text)
+					break
+				}
+			}
 			want.WriteByte(0)
 		}
 	}

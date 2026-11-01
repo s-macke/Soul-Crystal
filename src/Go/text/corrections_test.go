@@ -42,7 +42,7 @@ func TestReviewedEnglishCorrections(t *testing.T) {
 		}
 	}
 	for _, name := range []string{"story", "diary"} {
-		raw, err := os.ReadFile(filepath.Join(root, "texts/C64_en", name+".txt"))
+		raw, err := os.ReadFile(filepath.Join(root, "texts/C64_en/original", name+".txt"))
 		if err != nil {
 			t.Fatal(err)
 		}

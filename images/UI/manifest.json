@@ -12,7 +12,7 @@
       "id": 31,
       "label": {
         "de": "Betrachte",
-        "en": "Consider"
+        "en": "Examine"
       },
       "file": "verbs/betrachte.png",
       "width": 1254,
@@ -26,7 +26,7 @@
       ],
       "command": {
         "de": "betrachte",
-        "en": "consider"
+        "en": "examine"
       },
       "style_references": [
         {
@@ -70,7 +70,7 @@
       "id": 39,
       "label": {
         "de": "Sprich",
-        "en": "Speak"
+        "en": "Talk"
       },
       "file": "verbs/sprich.png",
       "width": 1254,
@@ -84,7 +84,7 @@
       ],
       "command": {
         "de": "sprich",
-        "en": "speak"
+        "en": "talk"
       },
       "style_references": [
         {
@@ -157,7 +157,7 @@
       "id": 9,
       "label": {
         "de": "Inventar",
-        "en": "Backpack"
+        "en": "Inventory"
       },
       "file": "verbs/inventar.png",
       "width": 1254,
@@ -171,7 +171,7 @@
       ],
       "command": {
         "de": "inventar",
-        "en": "backpack"
+        "en": "inventory"
       },
       "style_references": [
         {
@@ -336,7 +336,7 @@
       "id": 10,
       "label": {
         "de": "Schau",
-        "en": "View"
+        "en": "Look"
       },
       "file": "verbs/schau.png",
       "width": 1254,
@@ -350,7 +350,7 @@
       ],
       "command": {
         "de": "schau",
-        "en": "view"
+        "en": "look"
       },
       "style_references": [
         {
@@ -369,7 +369,7 @@
       "id": 7,
       "label": {
         "de": "Ausgänge",
-        "en": "Paths"
+        "en": "Exits"
       },
       "file": "verbs/ausgaenge.png",
       "width": 1254,
@@ -383,7 +383,7 @@
       ],
       "command": {
         "de": "ausgaenge",
-        "en": "paths"
+        "en": "exits"
       },
       "style_references": [
         {
@@ -534,7 +534,7 @@
       "id": 21,
       "label": {
         "de": "Hinauf",
-        "en": "Upward"
+        "en": "Up"
       },
       "file": "verbs/hinauf.png",
       "width": 1254,
@@ -548,7 +548,7 @@
       ],
       "command": {
         "de": "hinauf",
-        "en": "upward"
+        "en": "up"
       },
       "style_references": [
         {
@@ -567,7 +567,7 @@
       "id": 5,
       "label": {
         "de": "Hinunter",
-        "en": "Downward"
+        "en": "Down"
       },
       "file": "verbs/hinunter.png",
       "width": 1254,
@@ -581,7 +581,7 @@
       ],
       "command": {
         "de": "hinunter",
-        "en": "downward"
+        "en": "down"
       },
       "style_references": [
         {
@@ -666,7 +666,7 @@
       "id": 29,
       "label": {
         "de": "Verliere",
-        "en": "Lose"
+        "en": "Drop"
       },
       "file": "verbs/verliere.png",
       "width": 1254,
@@ -680,7 +680,7 @@
       ],
       "command": {
         "de": "verliere",
-        "en": "lose"
+        "en": "drop"
       },
       "style_references": [
         {
@@ -699,7 +699,7 @@
       "id": 42,
       "label": {
         "de": "Gib",
-        "en": "Giv"
+        "en": "Give"
       },
       "file": "verbs/gib.png",
       "width": 1254,
@@ -713,7 +713,7 @@
       ],
       "command": {
         "de": "gib",
-        "en": "giv"
+        "en": "give"
       },
       "style_references": [
         {
@@ -963,7 +963,7 @@
       "id": 36,
       "label": {
         "de": "Ziehe",
-        "en": "Tug"
+        "en": "Pull"
       },
       "file": "verbs/ziehe.png",
       "width": 1254,
@@ -977,7 +977,7 @@
       ],
       "command": {
         "de": "ziehe",
-        "en": "tug"
+        "en": "pull"
       },
       "style_references": [
         {
@@ -1095,7 +1095,7 @@
       "id": 15,
       "label": {
         "de": "Punkte",
-        "en": "Points"
+        "en": "Score"
       },
       "file": "verbs/punkte.png",
       "width": 1254,
@@ -1109,7 +1109,7 @@
       ],
       "command": {
         "de": "punkte",
-        "en": "points"
+        "en": "score"
       },
       "style_references": [
         {
@@ -1128,7 +1128,7 @@
       "id": 16,
       "label": {
         "de": "Lösung",
-        "en": "Solve"
+        "en": "Solution"
       },
       "file": "verbs/loesung.png",
       "width": 1254,
@@ -1142,7 +1142,7 @@
       ],
       "command": {
         "de": "loesung",
-        "en": "solve"
+        "en": "solution"
       },
       "style_references": [
         {
@@ -1293,7 +1293,7 @@
       "id": 17,
       "label": {
         "de": "Musik",
-        "en": "Music"
+        "en": "Sid type"
       },
       "file": "verbs/musikein.png",
       "width": 1254,
@@ -1480,7 +1480,7 @@
       "id": 143,
       "label": {
         "de": "T-Shirt",
-        "en": "T-Shirt"
+        "en": "T-shirt"
       },
       "file": "objects/tshirt.png",
       "width": 1254,
@@ -1550,7 +1550,7 @@
       "id": 128,
       "label": {
         "de": "Hinweisschild",
-        "en": "Billboard"
+        "en": "Sign"
       },
       "file": "objects/hinweisschild.png",
       "width": 1254,
@@ -1679,7 +1679,7 @@
       "id": 41,
       "label": {
         "de": "Tresen",
-        "en": "Desk"
+        "en": "Counter"
       },
       "file": "objects/tresen.png",
       "width": 1254,
@@ -1773,7 +1773,7 @@
       "id": 151,
       "label": {
         "de": "Badehose",
-        "en": "Swimsuit"
+        "en": "Swimming trunks"
       },
       "file": "objects/badehose.png",
       "width": 1254,
@@ -1803,7 +1803,7 @@
       "id": 2,
       "label": {
         "de": "Steinaltar",
-        "en": "Stonealtar"
+        "en": "Stone altar"
       },
       "file": "objects/steinaltar.png",
       "width": 1254,
@@ -1953,7 +1953,7 @@
       "id": 8,
       "label": {
         "de": "Bett",
-        "en": "bed"
+        "en": "Bed"
       },
       "file": "objects/gaestebett.png",
       "width": 1254,
@@ -1984,7 +1984,7 @@
       "id": 9,
       "label": {
         "de": "Bett",
-        "en": "bed"
+        "en": "Bed"
       },
       "file": "objects/gaestebett.png",
       "width": 1254,
@@ -2075,7 +2075,7 @@
       "id": 13,
       "label": {
         "de": "Blut",
-        "en": "Gore"
+        "en": "Blood"
       },
       "file": "objects/blut.png",
       "width": 1254,
@@ -2466,7 +2466,7 @@
       "id": 26,
       "label": {
         "de": "Orkkind",
-        "en": "Ork kid"
+        "en": "Orc child"
       },
       "file": "objects/orkkind.png",
       "width": 1254,
@@ -2530,7 +2530,7 @@
       "id": 28,
       "label": {
         "de": "Kamin",
-        "en": "Flue"
+        "en": "Chimney"
       },
       "file": "objects/kamin.png",
       "width": 1254,
@@ -2560,7 +2560,7 @@
       "id": 29,
       "label": {
         "de": "Codenummer",
-        "en": "Codenumber"
+        "en": "Code number"
       },
       "file": "objects/codenummer.png",
       "width": 1254,
@@ -2590,7 +2590,7 @@
       "id": 30,
       "label": {
         "de": "Särge",
-        "en": "Tombs"
+        "en": "Coffins"
       },
       "file": "objects/saerge.png",
       "width": 1254,
@@ -2620,7 +2620,7 @@
       "id": 32,
       "label": {
         "de": "Vertrag",
-        "en": "Pledge"
+        "en": "Contract"
       },
       "file": "objects/vertrag.png",
       "width": 1254,
@@ -2710,7 +2710,7 @@
       "id": 36,
       "label": {
         "de": "Kristallkugel",
-        "en": "Crystalball"
+        "en": "Crystal ball"
       },
       "file": "objects/kristallkugel.png",
       "width": 1254,
@@ -2921,7 +2921,7 @@
       "id": 44,
       "label": {
         "de": "Marmortisch",
-        "en": "Marble desk"
+        "en": "Marble table"
       },
       "file": "objects/marmortisch.png",
       "width": 1254,
@@ -3011,7 +3011,7 @@
       "id": 48,
       "label": {
         "de": "Zimmertür",
-        "en": "Room-door"
+        "en": "Room door"
       },
       "file": "objects/zimmertuer1.png",
       "width": 1254,
@@ -3041,7 +3041,7 @@
       "id": 49,
       "label": {
         "de": "Zimmertür",
-        "en": "Room-door"
+        "en": "Room door"
       },
       "file": "objects/zimmertuer1.png",
       "width": 1254,
@@ -3102,7 +3102,7 @@
       "id": 99,
       "label": {
         "de": "Nordtür",
-        "en": "N door"
+        "en": "North door"
       },
       "file": "objects/holztuer.png",
       "width": 1254,
@@ -3133,7 +3133,7 @@
       "id": 160,
       "label": {
         "de": "Westtür",
-        "en": "W door"
+        "en": "West door"
       },
       "file": "objects/holztuer.png",
       "width": 1254,
@@ -3225,7 +3225,7 @@
       "id": 52,
       "label": {
         "de": "Türklinke",
-        "en": "Doorknob"
+        "en": "Door handle"
       },
       "file": "objects/tuerklinke.png",
       "width": 1254,
@@ -3319,7 +3319,7 @@
       "id": 55,
       "label": {
         "de": "Orkfrau",
-        "en": "Orklady"
+        "en": "Orc woman"
       },
       "file": "objects/orkfrau.png",
       "width": 1254,
@@ -3568,7 +3568,7 @@
       "id": 63,
       "label": {
         "de": "Himmelbett",
-        "en": "Ornate bed"
+        "en": "Four-poster bed"
       },
       "file": "objects/himmelbett.png",
       "width": 1254,
@@ -3598,7 +3598,7 @@
       "id": 65,
       "label": {
         "de": "Friedhofstor",
-        "en": "Burial gate"
+        "en": "Graveyard gate"
       },
       "file": "objects/friedhofstor1.png",
       "width": 1254,
@@ -3628,7 +3628,7 @@
       "id": 66,
       "label": {
         "de": "Friedhofstor",
-        "en": "Burial gate"
+        "en": "Graveyard gate"
       },
       "file": "objects/friedhofstor1.png",
       "width": 1254,
@@ -3659,7 +3659,7 @@
       "id": 67,
       "label": {
         "de": "Grab",
-        "en": "Dig"
+        "en": "Grave"
       },
       "file": "objects/grab.png",
       "width": 1254,
@@ -3779,7 +3779,7 @@
       "id": 73,
       "label": {
         "de": "Eispalast",
-        "en": "Icepalace"
+        "en": "Ice palace"
       },
       "file": "objects/eispalast.png",
       "width": 1254,
@@ -3839,7 +3839,7 @@
       "id": 76,
       "label": {
         "de": "Jacks Geist",
-        "en": "Jacks Ghost"
+        "en": "Jack's ghost"
       },
       "file": "objects/jacksgeist.png",
       "width": 1254,
@@ -3873,7 +3873,7 @@
       "id": 78,
       "label": {
         "de": "Kessel",
-        "en": "Boiler"
+        "en": "Cauldron"
       },
       "file": "objects/kessel.png",
       "width": 1254,
@@ -4148,7 +4148,7 @@
       "id": 87,
       "label": {
         "de": "Gittertür",
-        "en": "Gate door"
+        "en": "Barred door"
       },
       "file": "objects/gittertuer1.png",
       "width": 1254,
@@ -4178,7 +4178,7 @@
       "id": 88,
       "label": {
         "de": "Gittertür",
-        "en": "Gate door"
+        "en": "Barred door"
       },
       "file": "objects/gittertuer1.png",
       "width": 1254,
@@ -4209,7 +4209,7 @@
       "id": 89,
       "label": {
         "de": "Brief",
-        "en": "Mail"
+        "en": "Letter"
       },
       "file": "objects/brief.png",
       "width": 1254,
@@ -4239,7 +4239,7 @@
       "id": 90,
       "label": {
         "de": "Zaubertür",
-        "en": "Magicdoor"
+        "en": "Magic door"
       },
       "file": "objects/zaubertuer.png",
       "width": 1254,
@@ -4269,7 +4269,7 @@
       "id": 91,
       "label": {
         "de": "Orkmann",
-        "en": "Ork man"
+        "en": "Orc man"
       },
       "file": "objects/orkmann.png",
       "width": 1254,
@@ -4303,7 +4303,7 @@
       "id": 92,
       "label": {
         "de": "Lageplan",
-        "en": "Siteplan"
+        "en": "Map"
       },
       "file": "objects/lageplan.png",
       "width": 1254,
@@ -4333,7 +4333,7 @@
       "id": 93,
       "label": {
         "de": "Grabplatte",
-        "en": "Gravestone"
+        "en": "Grave slab"
       },
       "file": "objects/grabplatte.png",
       "width": 1254,
@@ -4393,7 +4393,7 @@
       "id": 95,
       "label": {
         "de": "Vollmond",
-        "en": "Fullmoon"
+        "en": "Full moon"
       },
       "file": "objects/vollmond.png",
       "width": 1254,
@@ -4423,7 +4423,7 @@
       "id": 96,
       "label": {
         "de": "Mumien",
-        "en": "Mummy"
+        "en": "Mummies"
       },
       "file": "objects/mumien.png",
       "width": 1254,
@@ -4581,7 +4581,7 @@
       "id": 102,
       "label": {
         "de": "Gemälde",
-        "en": "Drawing"
+        "en": "Painting"
       },
       "file": "objects/gemaelde1.png",
       "width": 1254,
@@ -4611,7 +4611,7 @@
       "id": 103,
       "label": {
         "de": "Gemälde",
-        "en": "Drawing"
+        "en": "Painting"
       },
       "file": "objects/gemaelde1.png",
       "width": 1254,
@@ -4883,7 +4883,7 @@
       "id": 112,
       "label": {
         "de": "Portaltor",
-        "en": "Portaltor"
+        "en": "Portal"
       },
       "file": "objects/portaltor1.png",
       "width": 1254,
@@ -4944,7 +4944,7 @@
       "id": 114,
       "label": {
         "de": "Gebet",
-        "en": "Pray"
+        "en": "Prayer"
       },
       "file": "objects/gebet.png",
       "width": 1254,
@@ -5064,7 +5064,7 @@
       "id": 119,
       "label": {
         "de": "Sarkophag",
-        "en": "Casket"
+        "en": "Sarcophagus"
       },
       "file": "objects/sarkophag.png",
       "width": 1254,
@@ -5094,7 +5094,7 @@
       "id": 120,
       "label": {
         "de": "Zepter",
-        "en": "Scepter"
+        "en": "Sceptre"
       },
       "file": "objects/unknown2.png",
       "width": 1254,
@@ -5188,7 +5188,7 @@
       "id": 123,
       "label": {
         "de": "Vorratsregale",
-        "en": "Pantry shelf"
+        "en": "Pantry shelves"
       },
       "file": "objects/vorratsregale.png",
       "width": 1254,
@@ -5248,7 +5248,7 @@
       "id": 129,
       "label": {
         "de": "Warnschild",
-        "en": "Warning"
+        "en": "Warning sign"
       },
       "file": "objects/warnschild.png",
       "width": 1254,
@@ -5308,7 +5308,7 @@
       "id": 131,
       "label": {
         "de": "Skelett",
-        "en": "Skelly"
+        "en": "Skeleton"
       },
       "file": "objects/skelett1.png",
       "width": 1254,
@@ -5338,7 +5338,7 @@
       "id": 132,
       "label": {
         "de": "Skelett",
-        "en": "Skelly"
+        "en": "Skeleton"
       },
       "file": "objects/skelett1.png",
       "width": 1254,
@@ -5399,7 +5399,7 @@
       "id": 134,
       "label": {
         "de": "Himmel",
-        "en": "Heaven"
+        "en": "Sky"
       },
       "file": "objects/himmel.png",
       "width": 1254,
@@ -5489,7 +5489,7 @@
       "id": 137,
       "label": {
         "de": "Quelle",
-        "en": "Source"
+        "en": "Spring"
       },
       "file": "objects/quelle.png",
       "width": 1254,
@@ -5519,7 +5519,7 @@
       "id": 138,
       "label": {
         "de": "Kriegerstatue",
-        "en": "Warriorstatue"
+        "en": "Warrior statue"
       },
       "file": "objects/kriegerstatue.png",
       "width": 1254,
@@ -5549,7 +5549,7 @@
       "id": 139,
       "label": {
         "de": "Stahltür",
-        "en": "Lab door"
+        "en": "Steel door"
       },
       "file": "objects/stahltuer1.png",
       "width": 1254,
@@ -5579,7 +5579,7 @@
       "id": 140,
       "label": {
         "de": "Stahltür",
-        "en": "Stl door"
+        "en": "Steel door"
       },
       "file": "objects/stahltuer1.png",
       "width": 1254,
@@ -5610,7 +5610,7 @@
       "id": 141,
       "label": {
         "de": "Stahltür",
-        "en": "Stl door"
+        "en": "Steel door"
       },
       "file": "objects/stahltuer1.png",
       "width": 1254,
@@ -5792,7 +5792,7 @@
       "id": 148,
       "label": {
         "de": "Hose",
-        "en": "Pant"
+        "en": "Trousers"
       },
       "file": "objects/hose.png",
       "width": 1254,
@@ -5822,7 +5822,7 @@
       "id": 149,
       "label": {
         "de": "Baumstamm",
-        "en": "Treetrunk"
+        "en": "Tree trunk"
       },
       "file": "objects/baumstamm1.png",
       "width": 1254,
@@ -5852,7 +5852,7 @@
       "id": 150,
       "label": {
         "de": "Baumstamm",
-        "en": "Treetrunk"
+        "en": "Tree trunk"
       },
       "file": "objects/baumstamm1.png",
       "width": 1254,
@@ -5913,7 +5913,7 @@
       "id": 153,
       "label": {
         "de": "Kays Schlüssel",
-        "en": "Kays key"
+        "en": "Kay's key"
       },
       "file": "objects/kaysschluessel.png",
       "width": 1254,
@@ -6033,7 +6033,7 @@
       "id": 157,
       "label": {
         "de": "Wasserfall",
-        "en": "Wasserfall"
+        "en": "Waterfall"
       },
       "file": "objects/wasserfall1.png",
       "width": 1254,
@@ -6064,7 +6064,7 @@
       "id": 158,
       "label": {
         "de": "Waffen",
-        "en": "Weapon"
+        "en": "Weapons"
       },
       "file": "objects/waffen.png",
       "width": 1254,
@@ -6094,7 +6094,7 @@
       "id": 159,
       "label": {
         "de": "Werwolf",
-        "en": "Werwolf"
+        "en": "Werewolf"
       },
       "file": "objects/werwolf.png",
       "width": 1254,

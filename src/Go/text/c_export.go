@@ -34,7 +34,7 @@ GameText GameTextLookup(GamePart part, TextID id);
 `
 	introPath, diaryPath := "texts/C64/story.txt", "data/tagebuch.txt"
 	if language == "en" {
-		introPath, diaryPath = "texts/C64_en/story.txt", "texts/C64_en/diary.txt"
+		introPath, diaryPath = "texts/C64_en/original/story.txt", "texts/C64_en/original/diary.txt"
 	}
 	intro, err := os.ReadFile(introPath)
 	if err != nil {
@@ -50,6 +50,9 @@ GameText GameTextLookup(GamePart part, TextID id);
 	if language == "en" {
 		catalogs, intro, diary, objectOverrides, err = correctEnglishAssets(".", catalogs, intro, diary)
 		if err != nil {
+			return err
+		}
+		if err = exportReviewedEnglish(".", catalogs, intro, diary); err != nil {
 			return err
 		}
 	}

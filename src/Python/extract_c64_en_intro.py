@@ -150,7 +150,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('prg', type=Path)
     parser.add_argument('--images', type=Path, default=Path('images/C64_en/story'))
-    parser.add_argument('--texts', type=Path, default=Path('texts/C64_en'))
+    parser.add_argument('--texts', type=Path, default=Path('texts/C64_en/original'))
     args = parser.parse_args()
     data = args.prg.read_bytes()
     digest = hashlib.sha256(data).hexdigest()
