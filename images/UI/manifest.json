@@ -1615,11 +1615,11 @@
       "file": "objects/dave.png",
       "width": 1254,
       "height": 1254,
-      "sha256": "bf327955a09821808e5fbf8f141277e89ad233007e24715c3916f1605939aa97",
+      "sha256": "b4fe0797e7b0770b6bb22494dbc48e8bde9b309baf890d1694235ec8b2465e08",
       "alpha_bbox": [
-        33,
-        29,
-        1236,
+        0,
+        47,
+        1216,
         1254
       ],
       "date": "2026-10-28",
@@ -1636,7 +1636,18 @@
           "file": "images/Amiga/Disk 1/animations/Dave/Dave-000.png",
           "sha256": "3bbe4981db1fc177afa0bee4feeb6959d4477479c0940e480a9e3df2fa3cf8e6"
         }
-      ]
+      ],
+      "revisions": [
+        {
+          "date": "2026-11-01",
+          "tool": "built-in image_gen",
+          "prompt": "Update Soul Crystal inventory icon in first reference to match current canonical Dave in second reference. Square 1024x1024 transparent-background isolated head-and-shoulders portrait, clear silhouette and readable at 48px. Dave is a seventeen-year-old boy, same youthful soft face, tousled medium brown hair, bright blue eyes, cheeky warm smile as reference two. BLUE short-sleeved crew-neck T-shirt with plain front. Preserve hand-painted adventure-game icon style of first reference, warm highlights, visible painterly brushwork. No adult square jaw, no stubble, no dark shirt. Chest-up icon only, not full body or folded arms; generous transparent margins around head and shoulders. No background glow, no frame, no text, actual alpha transparency.",
+          "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-f09aedc2-ee56-41e3-8ba6-634089c0bd2c.png",
+          "reference": "images/Amiga_HD/Intro/characters/Dave.png",
+          "input_sha256": "bf327955a09821808e5fbf8f141277e89ad233007e24715c3916f1605939aa97"
+        }
+      ],
+      "bytes": 1563972
     },
     {
       "kind": "objects",
@@ -1778,11 +1789,11 @@
       "file": "objects/badehose.png",
       "width": 1254,
       "height": 1254,
-      "sha256": "627e9ac78706144f2e3ea1465973bbab4c1d697c04300f45eb578d39ba591a8d",
+      "sha256": "367e81225ff23a2c4b63cd74d20013581cd090b580d2d5cdc6f21d8818c0ac2e",
       "alpha_bbox": [
         0,
-        17,
-        1222,
+        55,
+        1250,
         1254
       ],
       "date": "2026-10-28",
@@ -1795,7 +1806,18 @@
           "file": "images/UI/objects/tagebuch.png",
           "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
         }
-      ]
+      ],
+      "revisions": [
+        {
+          "date": "2026-11-01",
+          "tool": "built-in image_gen",
+          "prompt": "Correct first reference Soul Crystal swimming-trunks inventory icon to match canonical costume visible in second reference. One isolated pair of OLD-FASHIONED RED AND WHITE VERTICALLY STRIPED swimming trunks, high gathered elastic waistband, short loose slightly baggy legs, vintage modest cut. Stripes run from waistband DOWN to leg hems, not horizontally. Rich crimson red and warm white cloth. Preserve first reference three-quarter front view and warm hand-painted adventure-game icon style, bold readable silhouette, visible brushwork, naturally draped fabric, no wearer. Square canvas with complete garment and comfortable transparent margin on all sides, designed to remain readable at 48px. No blue fabric, no scenery, no frame, no text, no background glow, actual transparent alpha background. Second image only reference for costume colour/pattern, do not include the person or lake.",
+          "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-f3e8f65e-7dad-4298-bd66-590a4c617a33.png",
+          "reference": "images/Stories/see/see-02.png",
+          "input_sha256": "627e9ac78706144f2e3ea1465973bbab4c1d697c04300f45eb578d39ba591a8d"
+        }
+      ],
+      "bytes": 1652800
     },
     {
       "kind": "objects",
