@@ -296,3 +296,16 @@ body:not(.playing) #adventure-overlay{display:none}
 .playing .game-icon.no-exit img{opacity:.32;filter:grayscale(.9) drop-shadow(0 1px 2px #0006)}
 .game-icon.no-exit:hover img,.game-icon.no-exit:focus-visible img{opacity:.6}
 .game-icon.no-exit span{color:#b6afa3}
+/* Cutscene overlay (src/cutscene.ts): a 16:9 stage over the whole window. */
+.cutscene{position:fixed;inset:0;z-index:20;display:grid;place-items:center;background:#000;color:#f0f8ff}
+.cutscene-stage{position:relative;width:min(100vw,calc(100dvh*16/9));aspect-ratio:16/9;container-type:size}
+.cutscene canvas{width:100%;height:100%;display:block}
+.cutscene-cue{position:absolute;left:24%;right:24%;bottom:5%;text-align:center;font-size:4.6cqh;font-weight:600;white-space:pre-line;text-shadow:0 0 3px #101010,0 0 3px #101010,1px 1px 2px #000}
+.cutscene-start{position:absolute;inset:0;margin:auto;width:8em;height:3em;font-size:3cqh}
+.cutscene-skip{position:absolute;right:2%;top:3%;font-size:2.4cqh;opacity:.6}
+.cutscene-skip:hover{opacity:1}
+.cutscene-bar{position:absolute;left:3%;right:3%;bottom:2%;display:flex;gap:1em;align-items:center;font-size:2.2cqh;transition:opacity .4s}
+.cutscene-bar.idle{opacity:0}
+.cutscene-bar input{flex:1;accent-color:#f0d890}
+.cutscene-bar button{font-size:inherit;width:2.2em}
+.cutscene-bar span{min-width:7em;text-align:right;font-variant-numeric:tabular-nums;text-shadow:1px 1px 2px #000}

@@ -70,7 +70,13 @@ Zeitbalken (erscheint bei Mausbewegung): Ziehen springt, Leertaste pausiert,
 Pfeiltasten springen 5 s zurück oder vor. Bild, Stimme und Untertitel folgen; die
 Musik wird nie zurückgesetzt, sie pausiert nur mit der Szene. Die Stimme wird
 dafür ganz in den Speicher geladen, so ist sie auch ohne HTTP-Range-Anfragen
-spulbar. Das Spiel soll den Zeitbalken ebenfalls bekommen.
+spulbar. Im Web-Spiel (`web/src/cutscene.ts`) laufen die Szenen mit demselben
+Zeitbalken als Overlay; `index.json` nennt dafür pro Szene unter `trigger` den
+Anfang des auslösenden Spieltexts (`TRIGGERS` in `make_cutscenes.py`) oder
+`start` für Credits, Besetzung und Vorgeschichte nach der Sprachwahl. Nur
+Szenen mit `"music": true` (`OWN_MUSIC`: Credits, Besetzung, Vorgeschichte,
+Portaltor) spielen dort ihre eigene Musik; die übrigen laufen über der Musik
+des Spiels.
 
 ## Format
 
@@ -157,7 +163,9 @@ stehen im Index vor allen anderen Szenen.
 
 - Deutsch „Marcel – Friendly German Explainer“, Englisch „Lukas – Excited
   youthful young man“, jeweils `eleven_v3` mit Stabilität 0 („Creative“).
-- Intro: 5 s Titelbild, sonst 2,5 s erstes Bild mit Musik allein, dann pro
+- Szenen: 2,5 s erstes Bild mit Musik allein (die Vorgeschichte beginnt ohne
+  Titelbild, das kommt schon in den Credits; die Option `title` stellt 5 s
+  Titelbild voran), dann pro
   Abschnitt ein Bild, 0,7 s Pause vor jedem Abschnitt, 1,6 s Überblendung,
   5 s Ausklang.
 - `gate`: Nach dem letzten Satz senkt sich wie in `Victory.ANIM` das Fallgitter:

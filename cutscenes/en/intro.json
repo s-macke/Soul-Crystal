@@ -1,6 +1,6 @@
 {
  "version": 3,
- "duration": 237.84,
+ "duration": 235.34,
  "hold": false,
  "voice": "intro.mp3",
  "music": {
@@ -14,52 +14,60 @@
  },
  "speech": [
   [
-   5.072,
-   13.96
+   2.572,
+   11.46
   ],
   [
-   15.01,
-   30.905
+   12.51,
+   28.405
   ],
   [
-   31.658,
-   53.632
+   29.158,
+   51.132
   ],
   [
-   54.991,
-   70.145
+   52.491,
+   67.645
   ],
   [
-   71.685,
-   91.325
+   69.185,
+   88.825
   ],
   [
-   92.475,
-   126.025
+   89.975,
+   114.085
   ],
   [
-   127.269,
-   150.891
+   114.125,
+   115.685
   ],
   [
-   152.29,
-   167.594
+   115.845,
+   123.525
   ],
   [
-   168.527,
-   176.454
+   124.769,
+   148.391
   ],
   [
-   177.604,
-   192.674
+   149.79,
+   165.094
   ],
   [
-   193.667,
-   219.374
+   166.027,
+   173.954
   ],
   [
-   221.75,
-   232.854
+   175.104,
+   190.174
+  ],
+  [
+   191.167,
+   216.874
+  ],
+  [
+   219.25,
+   230.354
   ]
  ],
  "size": [
@@ -72,237 +80,255 @@
  "wipeFeather": 0.0833,
  "shots": [
   {
-   "image": "Title",
-   "path": "Amiga_HD/Disk 1/Title",
-   "start": 0.0,
-   "end": 5.072,
-   "from": [
-    -88.8,
-    -0.0,
-    1763.6,
-    992.0
-   ],
-   "to": [
-    -31.1,
-    32.4,
-    1648.2,
-    927.1
-   ]
-  },
-  {
    "image": "intro-01",
    "path": "Stories/intro/intro-01",
-   "start": 5.072,
-   "end": 14.485,
+   "start": 0.0,
+   "end": 11.985,
    "from": [
-    109.4,
-    31.0,
-    1562.6,
-    879.0
-   ],
-   "to": [
     0.0,
     0.2,
     1672.0,
     940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
    ]
   },
   {
    "image": "Story1-02",
    "path": "Amiga_HD/Disk 1/Story1-02",
-   "start": 14.485,
-   "end": 31.281,
+   "start": 11.985,
+   "end": 28.781,
    "from": [
-    0.0,
-    -0.0,
-    1550.2,
-    872.0
-   ],
-   "to": [
     355.2,
     28.5,
     1448.8,
     815.0
+   ],
+   "to": [
+    0.0,
+    -0.0,
+    1550.2,
+    872.0
    ]
   },
   {
    "image": "Story1-03",
    "path": "Amiga_HD/Disk 1/Story1-03",
-   "start": 31.281,
-   "end": 54.311,
+   "start": 28.781,
+   "end": 51.811,
    "from": [
-    358.9,
-    28.5,
-    1447.1,
-    814.0
-   ],
-   "to": [
     0.0,
     -0.0,
     1548.4,
     871.0
+   ],
+   "to": [
+    358.9,
+    28.5,
+    1447.1,
+    814.0
    ]
   },
   {
    "image": "Story2-01",
    "path": "Amiga_HD/Disk 1/Story2-01",
-   "start": 54.311,
-   "end": 70.915,
+   "start": 51.811,
+   "end": 68.415,
    "from": [
-    0.0,
-    -0.0,
-    1550.2,
-    872.0
-   ],
-   "to": [
     355.2,
     28.5,
     1448.8,
     815.0
+   ],
+   "to": [
+    0.0,
+    -0.0,
+    1550.2,
+    872.0
    ]
   },
   {
    "image": "Story2-02",
    "path": "Amiga_HD/Disk 1/Story2-02",
-   "start": 70.915,
-   "end": 91.9,
+   "start": 68.415,
+   "end": 89.4,
    "from": [
-    355.2,
-    28.5,
-    1448.8,
-    815.0
-   ],
-   "to": [
     0.0,
     -0.0,
     1550.2,
     872.0
+   ],
+   "to": [
+    355.2,
+    28.5,
+    1448.8,
+    815.0
    ]
   },
   {
    "image": "Story2-03",
    "path": "Amiga_HD/Disk 1/Story2-03",
-   "start": 91.9,
-   "end": 126.647,
+   "start": 89.4,
+   "end": 114.105,
    "from": [
-    0.0,
-    -0.0,
-    1550.2,
-    872.0
-   ],
-   "to": [
     355.2,
     28.5,
     1448.8,
     815.0
+   ],
+   "to": [
+    0.0,
+    -0.0,
+    1550.2,
+    872.0
+   ]
+  },
+  {
+   "image": "intro-02",
+   "path": "Stories/intro/intro-02",
+   "start": 114.105,
+   "end": 115.765,
+   "from": [
+    0.0,
+    0.2,
+    1672.0,
+    940.5
+   ],
+   "to": [
+    109.4,
+    31.0,
+    1562.6,
+    879.0
+   ]
+  },
+  {
+   "image": "Story2-03",
+   "path": "Amiga_HD/Disk 1/Story2-03",
+   "start": 115.765,
+   "end": 124.147,
+   "from": [
+    355.2,
+    28.5,
+    1448.8,
+    815.0
+   ],
+   "to": [
+    0.0,
+    -0.0,
+    1550.2,
+    872.0
    ]
   },
   {
    "image": "Story3-01",
    "path": "Amiga_HD/Disk 1/Story3-01",
-   "start": 126.647,
-   "end": 151.59,
+   "start": 124.147,
+   "end": 149.09,
    "from": [
-    355.2,
-    28.5,
-    1448.8,
-    815.0
-   ],
-   "to": [
     0.0,
     -0.0,
     1550.2,
     872.0
+   ],
+   "to": [
+    355.2,
+    28.5,
+    1448.8,
+    815.0
    ]
   },
   {
    "image": "Story3-02",
    "path": "Amiga_HD/Disk 1/Story3-02",
-   "start": 151.59,
-   "end": 168.06,
+   "start": 149.09,
+   "end": 165.56,
    "from": [
-    0.0,
-    -0.0,
-    1550.2,
-    872.0
-   ],
-   "to": [
     355.2,
     28.5,
     1448.8,
     815.0
+   ],
+   "to": [
+    0.0,
+    -0.0,
+    1550.2,
+    872.0
    ]
   },
   {
    "image": "Story3-03",
    "path": "Amiga_HD/Disk 1/Story3-03",
-   "start": 168.06,
-   "end": 177.029,
+   "start": 165.56,
+   "end": 174.529,
    "from": [
-    357.9,
-    28.5,
-    1447.1,
-    814.0
-   ],
-   "to": [
     0.0,
     -0.0,
     1548.4,
     871.0
+   ],
+   "to": [
+    357.9,
+    28.5,
+    1447.1,
+    814.0
    ]
   },
   {
    "image": "Story4-01",
    "path": "Amiga_HD/Disk 1/Story4-01",
-   "start": 177.029,
-   "end": 193.17,
+   "start": 174.529,
+   "end": 190.67,
    "from": [
-    0.0,
-    -0.0,
-    1550.2,
-    872.0
-   ],
-   "to": [
     355.2,
     28.5,
     1448.8,
     815.0
+   ],
+   "to": [
+    0.0,
+    -0.0,
+    1550.2,
+    872.0
    ]
   },
   {
    "image": "Story4-02",
    "path": "Amiga_HD/Disk 1/Story4-02",
-   "start": 193.17,
-   "end": 220.562,
+   "start": 190.67,
+   "end": 218.062,
    "from": [
-    355.2,
-    28.5,
-    1448.8,
-    815.0
-   ],
-   "to": [
     0.0,
     -0.0,
     1550.2,
     872.0
+   ],
+   "to": [
+    355.2,
+    28.5,
+    1448.8,
+    815.0
    ]
   },
   {
    "image": "Story4-03",
    "path": "Amiga_HD/Disk 1/Story4-03",
-   "start": 220.562,
-   "end": 237.84,
+   "start": 218.062,
+   "end": 235.34,
    "from": [
-    0.0,
-    -0.0,
-    1550.2,
-    872.0
-   ],
-   "to": [
     354.2,
     28.5,
     1448.8,
     815.0
+   ],
+   "to": [
+    0.0,
+    -0.0,
+    1550.2,
+    872.0
    ]
   }
  ],
@@ -318,323 +344,323 @@
   "Amiga_HD/Disk 1/Story4-01",
   "Amiga_HD/Disk 1/Story4-02",
   "Amiga_HD/Disk 1/Story4-03",
-  "Amiga_HD/Disk 1/Title",
-  "Stories/intro/intro-01"
+  "Stories/intro/intro-01",
+  "Stories/intro/intro-02"
  ],
  "cues": [
   {
-   "start": 5.072,
-   "end": 5.96,
+   "start": 2.572,
+   "end": 3.46,
    "text": "\"Here at last!"
   },
   {
-   "start": 6.1,
-   "end": 10.12,
+   "start": 3.6,
+   "end": 7.62,
    "text": "Wasn't as hard as I expected at first!\", you think to yourself as you step out of"
   },
   {
-   "start": 10.14,
-   "end": 13.96,
+   "start": 7.64,
+   "end": 11.46,
    "text": "the bus that has taken you from the station of the neighbouring village to your hotel."
   },
   {
-   "start": 15.01,
-   "end": 18.26,
+   "start": 12.51,
+   "end": 15.76,
    "text": "The first thing you do is breathe a sigh of relief:"
   },
   {
-   "start": 18.3,
-   "end": 20.9,
+   "start": 15.8,
+   "end": 18.4,
    "text": "you somehow managed to escape the annoying advice"
   },
   {
-   "start": 20.927,
-   "end": 23.06,
+   "start": 18.427,
+   "end": 20.56,
    "text": "of your parents for the next days and weeks."
   },
   {
-   "start": 23.577,
-   "end": 25.945,
+   "start": 21.077,
+   "end": 23.445,
    "text": "Something you never dreamed possible..."
   },
   {
-   "start": 25.998,
-   "end": 30.905,
+   "start": 23.498,
+   "end": 28.405,
    "text": "until one day, on the verge of a nervous breakdown, you moved out of the house..."
   },
   {
-   "start": 31.658,
-   "end": 33.045,
+   "start": 29.158,
+   "end": 30.545,
    "text": "As you stroll down the street,"
   },
   {
-   "start": 33.085,
-   "end": 36.405,
+   "start": 30.585,
+   "end": 33.905,
    "text": "you think back to your departure, to your very worried parents,"
   },
   {
-   "start": 36.445,
-   "end": 40.325,
+   "start": 33.945,
+   "end": 37.825,
    "text": "who even thought they had to give you advice through the train window at the station -"
   },
   {
-   "start": 40.365,
-   "end": 42.325,
+   "start": 37.865,
+   "end": 39.825,
    "text": "and once again got on your nerves with their"
   },
   {
-   "start": 42.378,
-   "end": 45.684,
+   "start": 39.878,
+   "end": 43.184,
    "text": "constant talking and their limitless pessimism..."
   },
   {
-   "start": 45.745,
-   "end": 47.205,
+   "start": 43.245,
+   "end": 44.705,
    "text": "\"What do they want from me?"
   },
   {
-   "start": 47.285,
-   "end": 51.125,
+   "start": 44.785,
+   "end": 48.625,
    "text": "I am seventeen after all, that is almost old enough to marry!"
   },
   {
-   "start": 51.165,
-   "end": 53.632,
+   "start": 48.665,
+   "end": 51.132,
    "text": "Why shouldn't I be able to spend my holidays alone?\""
   },
   {
-   "start": 54.991,
-   "end": 58.545,
+   "start": 52.491,
+   "end": 56.045,
    "text": "Seventeen years - and you spent thirteen of them, every year,"
   },
   {
-   "start": 58.572,
-   "end": 62.225,
+   "start": 56.072,
+   "end": 59.725,
    "text": "at the same time, in the same old French town, with your parents,"
   },
   {
-   "start": 62.285,
-   "end": 65.745,
+   "start": 59.785,
+   "end": 63.245,
    "text": "who - out of a pure sense of responsibility, of course -"
   },
   {
-   "start": 65.765,
-   "end": 70.145,
+   "start": 63.265,
+   "end": 67.645,
    "text": "don't want to miss any opportunity to monitor every single step you take!"
   },
   {
-   "start": 71.685,
-   "end": 73.725,
+   "start": 69.185,
+   "end": 71.225,
    "text": "\"But now I've had enough of it!\","
   },
   {
-   "start": 73.785,
-   "end": 77.165,
+   "start": 71.285,
+   "end": 74.665,
    "text": "you said to yourself one day, and in your usual courtesy,"
   },
   {
-   "start": 77.218,
-   "end": 80.205,
+   "start": 74.718,
+   "end": 77.705,
    "text": "informed them that you refuse to spend another holiday with them"
   },
   {
-   "start": 80.272,
-   "end": 84.845,
+   "start": 77.772,
+   "end": 82.345,
    "text": "among all these apparently dead people in this French \"resort\" town..."
   },
   {
-   "start": 84.99,
-   "end": 89.005,
+   "start": 82.49,
+   "end": 86.505,
    "text": "You can still remember the horrified faces of your parents all too well,"
   },
   {
-   "start": 89.037,
-   "end": 91.325,
+   "start": 86.537,
+   "end": 88.825,
    "text": "when their son actually dared to speak up."
   },
   {
-   "start": 92.475,
-   "end": 95.865,
+   "start": 89.975,
+   "end": 93.365,
    "text": "You can still hear your father's bogus arguments in your head,"
   },
   {
-   "start": 95.892,
-   "end": 100.184,
+   "start": 93.392,
+   "end": 97.684,
    "text": "which he articulated so well in all the endless discussions..."
   },
   {
-   "start": 100.578,
-   "end": 104.025,
+   "start": 98.078,
+   "end": 101.525,
    "text": "Especially in the last two months, the arguments seemed to never end."
   },
   {
-   "start": 104.185,
-   "end": 106.585,
+   "start": 101.685,
+   "end": 104.085,
    "text": "At least you were able to ultimately prevail!"
   },
   {
-   "start": 107.193,
-   "end": 110.665,
+   "start": 104.693,
+   "end": 108.165,
    "text": "Well, you have to admit, with a slight smile on your face,"
   },
   {
-   "start": 110.697,
-   "end": 114.025,
+   "start": 108.197,
+   "end": 111.525,
    "text": "that over the last few weeks you have actually been playing with the thought"
   },
   {
-   "start": 114.052,
-   "end": 118.185,
+   "start": 111.552,
+   "end": 115.685,
    "text": "of staying at home while your parents were away and throwing a huge party."
   },
   {
-   "start": 118.345,
-   "end": 123.065,
+   "start": 115.845,
+   "end": 120.565,
    "text": "But one night you finally realized that you are almost forced to travel -"
   },
   {
-   "start": 123.118,
-   "end": 126.025,
+   "start": 120.618,
+   "end": 123.525,
    "text": "if only to show your parents who's the boss in the house!"
   },
   {
-   "start": 127.269,
-   "end": 130.165,
+   "start": 124.769,
+   "end": 127.665,
    "text": "Well, now you are finally here!"
   },
   {
-   "start": 130.63,
-   "end": 134.971,
+   "start": 128.13,
+   "end": 132.471,
    "text": "You take a deep breath of fresh, clean air and look around: YES!"
   },
   {
-   "start": 135.051,
-   "end": 137.851,
+   "start": 132.551,
+   "end": 135.351,
    "text": "This is exactly the right place for young geniuses"
   },
   {
-   "start": 137.899,
-   "end": 141.371,
+   "start": 135.399,
+   "end": 138.871,
    "text": "like you to recover from your stressful everyday lives!"
   },
   {
-   "start": 141.491,
-   "end": 142.931,
+   "start": 138.991,
+   "end": 140.431,
    "text": "The adult life!"
   },
   {
-   "start": 143.001,
-   "end": 146.731,
+   "start": 140.501,
+   "end": 144.231,
    "text": "You are completely free - although only for a couple of weeks,"
   },
   {
-   "start": 146.771,
-   "end": 150.891,
+   "start": 144.271,
+   "end": 148.391,
    "text": "but still free - and that is the only thing that matters to you at the moment."
   },
   {
-   "start": 152.29,
-   "end": 154.794,
+   "start": 149.79,
+   "end": 152.294,
    "text": "Now you can do what you want, wear what you want,"
   },
   {
-   "start": 154.834,
-   "end": 158.114,
+   "start": 152.334,
+   "end": 155.614,
    "text": "and last but not least, drink as much as you want!"
   },
   {
-   "start": 158.734,
-   "end": 161.514,
+   "start": 156.234,
+   "end": 159.014,
    "text": "And, well, when your vacation is over,"
   },
   {
-   "start": 161.562,
-   "end": 163.994,
+   "start": 159.062,
+   "end": 161.494,
    "text": "hopefully you will be recovered and strong enough to"
   },
   {
-   "start": 164.044,
-   "end": 167.594,
+   "start": 161.544,
+   "end": 165.094,
    "text": "survive at home for a few months until you turn eighteen..."
   },
   {
-   "start": 168.527,
-   "end": 172.214,
+   "start": 166.027,
+   "end": 169.714,
    "text": "Happy and full of an energy nobody was used to from you back in school,"
   },
   {
-   "start": 172.354,
-   "end": 176.454,
+   "start": 169.854,
+   "end": 173.954,
    "text": "you enter your hotel, sign the guestbook, and receive your room key."
   },
   {
-   "start": 177.604,
-   "end": 180.834,
+   "start": 175.104,
+   "end": 178.334,
    "text": "You drag your luggage to your room and start unpacking,"
   },
   {
-   "start": 180.866,
-   "end": 182.914,
+   "start": 178.366,
+   "end": 180.414,
    "text": "when you happen to look at your wristwatch."
   },
   {
-   "start": 183.383,
-   "end": 187.714,
+   "start": 180.883,
+   "end": 185.214,
    "text": "It's already half past six, and you wanted to get out and have a look at Loch Calderwood."
   },
   {
-   "start": 187.874,
-   "end": 192.674,
+   "start": 185.374,
+   "end": 190.174,
    "text": "The old man you met on the bus ride had so many legendary stories to tell about it."
   },
   {
-   "start": 193.667,
-   "end": 196.414,
+   "start": 191.167,
+   "end": 193.914,
    "text": "So you leave your things as they are for now,"
   },
   {
-   "start": 196.478,
-   "end": 200.334,
+   "start": 193.978,
+   "end": 197.834,
    "text": "lock your room door behind you and leave the key at the reception desk,"
   },
   {
-   "start": 200.387,
-   "end": 204.574,
+   "start": 197.887,
+   "end": 202.074,
    "text": "so you will be able to take a quick look at the landscape before it's time for dinner."
   },
   {
-   "start": 204.654,
-   "end": 208.974,
+   "start": 202.154,
+   "end": 206.474,
    "text": "After all, you want to be able to tell your mother some stories when you call her later."
   },
   {
-   "start": 209.561,
-   "end": 212.174,
+   "start": 207.061,
+   "end": 209.674,
    "text": "It would be even nicer if she had been worried the whole time"
   },
   {
-   "start": 212.206,
-   "end": 216.254,
+   "start": 209.706,
+   "end": 213.754,
    "text": "that her little boy may have taken the wrong bus and is now wandering,"
   },
   {
-   "start": 216.334,
-   "end": 219.374,
+   "start": 213.834,
+   "end": 216.874,
    "text": "lonely and abandoned, through Scotland's forests..."
   },
   {
-   "start": 221.75,
-   "end": 224.134,
+   "start": 219.25,
+   "end": 221.634,
    "text": "When you step out of the hotel lobby and back onto"
   },
   {
-   "start": 224.154,
-   "end": 227.814,
+   "start": 221.654,
+   "end": 225.314,
    "text": "the dusty street to go search for the legendary mountain lake,"
   },
   {
-   "start": 227.834,
-   "end": 232.854,
+   "start": 225.334,
+   "end": 230.354,
    "text": "you can feel the warm, red-golden light of the setting sun on your face..."
   }
  ]

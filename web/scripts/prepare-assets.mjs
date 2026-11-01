@@ -31,3 +31,22 @@ await mkdir(new URL('music/', publicDir), {recursive:true});
 for (const name of await readdir(new URL('music/Amiga/', repo))) {
   if (name.endsWith('.mp3')) await copyFile(new URL(`music/Amiga/${name}`, repo), new URL(`music/${name}`, publicDir));
 }
+
+// Narrated cutscenes (src/Python/cutscenes): timelines and voices per
+// language, and every picture they show under cutscenes/images/.
+const pictures = new Set();
+for (const lang of ['de', 'en']) {
+  const source = new URL(`cutscenes/${lang}/`, repo), target = new URL(`cutscenes/${lang}/`, publicDir);
+  await mkdir(target, {recursive:true});
+  for (const name of await readdir(source)) {
+    if (!/\.(json|mp3)$/.test(name)) continue;
+    await copyFile(new URL(name, source), new URL(name, target));
+    if (name.endsWith('.json') && name !== 'index.json')
+      for (const path of JSON.parse(await readFile(new URL(name, source), 'utf8')).images) pictures.add(path);
+  }
+}
+for (const path of pictures) {
+  const target = new URL(`cutscenes/images/${path}.png`, publicDir);
+  await mkdir(new URL('./', target), {recursive:true});
+  await copyFile(new URL(`images/${path}.png`, repo), target);
+}

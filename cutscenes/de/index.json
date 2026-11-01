@@ -2,196 +2,239 @@
  {
   "id": "credits",
   "title": "Credits",
-  "timeline": "credits.json"
+  "timeline": "credits.json",
+  "trigger": "start",
+  "music": true
  },
  {
   "id": "cast",
   "title": "Besetzung",
-  "timeline": "cast.json"
+  "timeline": "cast.json",
+  "trigger": "start",
+  "music": true
  },
  {
   "id": "intro",
   "title": "Vorgeschichte",
-  "timeline": "intro.json"
+  "timeline": "intro.json",
+  "trigger": "start",
+  "music": true
  },
  {
   "id": "sage",
   "title": "Die Sage von der versunkenen Stadt",
-  "timeline": "sage.json"
+  "timeline": "sage.json",
+  "trigger": "Du winkst die Bedienung zu Dir heran und nennst ihr Deine dr"
  },
  {
   "id": "see",
   "title": "Im See",
-  "timeline": "see.json"
+  "timeline": "see.json",
+  "trigger": "Während Du auf dem schlickigen Uferboden nach Westen watest,"
  },
  {
   "id": "wasserfall",
   "title": "Vor dem Wasserfall",
-  "timeline": "wasserfall.json"
+  "timeline": "wasserfall.json",
+  "trigger": "Du schwimmst direkt vor dem Wasserfall im Nordwesten des Ber"
  },
  {
   "id": "fremde_welt",
   "title": "Hinter dem Wasserfall",
-  "timeline": "fremde_welt.json"
+  "timeline": "fremde_welt.json",
+  "trigger": "Immer noch recht benommen von dem harten Schlag, den Dir der"
  },
  {
   "id": "ufer",
   "title": "Am anderen Ufer",
-  "timeline": "ufer.json"
+  "timeline": "ufer.json",
+  "trigger": "Du betrittst das Ufer, von wo aus das Grollen des Wasserfall"
  },
  {
   "id": "einhorn_kampf",
   "title": "Wolf und Einhorn",
-  "timeline": "einhorn_kampf.json"
+  "timeline": "einhorn_kampf.json",
+  "trigger": "Als Du die Lichtung betrittst, hörst Du vor Dir ein fürchter"
  },
  {
   "id": "einhorn_gerettet",
   "title": "Das gerettete Einhorn",
-  "timeline": "einhorn_gerettet.json"
+  "timeline": "einhorn_gerettet.json",
+  "trigger": "Als der Wolf Dich auf die Lichtung stürmen sieht, erschrickt"
  },
  {
   "id": "kristallkugel",
   "title": "Die Kristallkugel",
-  "timeline": "kristallkugel.json"
+  "timeline": "kristallkugel.json",
+  "trigger": "Nachdem es sich ein wenig erholt hat, dankt das Einhorn Dir "
  },
  {
   "id": "mylgor_tuer",
   "title": "An Mylgors Tür",
-  "timeline": "mylgor_tuer.json"
+  "timeline": "mylgor_tuer.json",
+  "trigger": "Du klopfst zaghaft an die Tür und wartest: Nichts passiert! "
  },
  {
   "id": "mylgor_vertrag",
   "title": "Der Vertrag mit Blut",
-  "timeline": "mylgor_vertrag.json"
+  "timeline": "mylgor_vertrag.json",
+  "trigger": "Du erzählst dem Fremden hinter der Luke von Deiner Reise in "
  },
  {
   "id": "mylgor_kaminzimmer",
   "title": "Im Kaminzimmer",
-  "timeline": "mylgor_kaminzimmer.json"
+  "timeline": "mylgor_kaminzimmer.json",
+  "trigger": "Als Du den Vertrag sowie das Messer an den Mann zurückgegebe"
  },
  {
   "id": "mylgor_nacht",
   "title": "Die Nacht",
-  "timeline": "mylgor_nacht.json"
+  "timeline": "mylgor_nacht.json",
+  "trigger": "Erst, als Du Dich auf dem Bettzeug ausstreckst, um Dich ein "
  },
  {
   "id": "mylgor_auftrag",
   "title": "Der Auftrag",
-  "timeline": "mylgor_auftrag.json"
+  "timeline": "mylgor_auftrag.json",
+  "trigger": "Mylgor hat Dich bereits erwartet. Er begrüßt Dich kurz und k"
  },
  {
   "id": "firon_thron",
   "title": "Firon erwartet den Tod",
-  "timeline": "firon_thron.json"
+  "timeline": "firon_thron.json",
+  "trigger": "Der alte Elfenkönig erhebt sich von seinem Thron: \"Ich wußte"
  },
  {
   "id": "firon_prophezeiung",
   "title": "Die Prophezeiung",
-  "timeline": "firon_prophezeiung.json"
+  "timeline": "firon_prophezeiung.json",
+  "trigger": "Es überrascht Firon ein wenig, daß Du nicht gleich kurzen Pr"
  },
  {
   "id": "firon_schluessel",
   "title": "Firons Schlüssel",
-  "timeline": "firon_schluessel.json"
+  "timeline": "firon_schluessel.json",
+  "trigger": "Firon antwortet: \"Um Dir zu beweisen, daß ich auf Deiner Sei"
  },
  {
   "id": "jack_geist",
   "title": "Bruder Jacks Geist",
-  "timeline": "jack_geist.json"
+  "timeline": "jack_geist.json",
+  "trigger": "Verzweifelt kniest Du vor dem Altar nieder und schickst ein "
  },
  {
   "id": "jack_auftrag",
   "title": "Jacks Auftrag",
-  "timeline": "jack_auftrag.json"
+  "timeline": "jack_auftrag.json",
+  "trigger": "Du erzählst dem Geist des alten Klosterabtes von Deiner lang"
  },
  {
   "id": "richard_erscheint",
   "title": "König Richard erscheint",
-  "timeline": "richard_erscheint.json"
+  "timeline": "richard_erscheint.json",
+  "trigger": "Vorsichtig legst Du den Schädel neben den Rumpf des Königs -"
  },
  {
   "id": "richard_geschichte",
   "title": "König Richards Geschichte",
-  "timeline": "richard_geschichte.json"
+  "timeline": "richard_geschichte.json",
+  "trigger": "Der Geist des Königs schaut Dich eine Weile an, dann hüpft e"
  },
  {
   "id": "richard_bestimmung",
   "title": "Deine Bestimmung",
-  "timeline": "richard_bestimmung.json"
+  "timeline": "richard_bestimmung.json",
+  "trigger": "Der König nickt zustimmend. \"Du hast recht: Wir haben keine "
  },
  {
   "id": "richard_zauberspruch",
   "title": "Der Zauberspruch",
-  "timeline": "richard_zauberspruch.json"
+  "timeline": "richard_zauberspruch.json",
+  "trigger": "\"Na, bravo! Du scheinst also verstanden zu haben, worum es i"
  },
  {
   "id": "richard_abschied",
   "title": "Richards Abschied",
-  "timeline": "richard_abschied.json"
+  "timeline": "richard_abschied.json",
+  "trigger": "\"Du kennst den Zauberspruch!\", sagt der König ungeduldig, \"D"
  },
  {
   "id": "werwolf",
   "title": "Der Werwolf",
-  "timeline": "werwolf.json"
+  "timeline": "werwolf.json",
+  "trigger": "Himmel! Es ist wohl schon zu spät, um noch an Flucht zu denk"
  },
  {
   "id": "werwolf_kampf",
   "title": "Der Kampf",
-  "timeline": "werwolf_kampf.json"
+  "timeline": "werwolf_kampf.json",
+  "trigger": "Bevor Dein untoter Gegner Gelegenheit zum Angriff bekommt, f"
  },
  {
   "id": "mylgor_labor",
   "title": "Mylgors Geheimlabor",
-  "timeline": "mylgor_labor.json"
+  "timeline": "mylgor_labor.json",
+  "trigger": "Wie das Schild an der Tür bereits andeutete, ist dies hier M"
  },
  {
   "id": "mylgor_explosion",
   "title": "Die Explosion",
-  "timeline": "mylgor_explosion.json"
+  "timeline": "mylgor_explosion.json",
+  "trigger": "In Deiner Verzweiflung reißt Du an einem der massiven Holzre"
  },
  {
   "id": "mylgor_ende",
   "title": "Mylgors Ende",
-  "timeline": "mylgor_ende.json"
+  "timeline": "mylgor_ende.json",
+  "trigger": "Hastig verschließt Du die Labortür mit dem Schlüssel aus Myl"
  },
  {
   "id": "burgtor",
   "title": "Vor dem Burgtor",
-  "timeline": "burgtor.json"
+  "timeline": "burgtor.json",
+  "trigger": "Direkt vor Dir erhebt sich drohend und massig das massive Bu"
  },
  {
   "id": "tagebuch",
   "title": "Das Tagebuch des Turmwächters",
-  "timeline": "tagebuch.json"
+  "timeline": "tagebuch.json",
+  "trigger": "Du beginnst das zerfledderte Tagebuch des Turmwächters zu le"
  },
  {
   "id": "vollmond",
   "title": "Vollmond",
-  "timeline": "vollmond.json"
+  "timeline": "vollmond.json",
+  "trigger": "Wie in Trance blickst Du zu dem bleichen, vollen Mond auf - "
  },
  {
   "id": "zargon",
   "title": "Zargon",
-  "timeline": "zargon.json"
+  "timeline": "zargon.json",
+  "trigger": "Als Zargon Deine Anwesenheit bemerkt, dreht er sich langsam "
  },
  {
   "id": "seelenkristall",
   "title": "Der Seelenkristall",
-  "timeline": "seelenkristall.json"
+  "timeline": "seelenkristall.json",
+  "trigger": "Als Zargon bemerkt, wie Du Dich nach seinem Seelenkristall u"
  },
  {
   "id": "zepter",
   "title": "Das Zepter",
-  "timeline": "zepter.json"
+  "timeline": "zepter.json",
+  "trigger": "Du schiebst Zargons Szepter in den Slot - und es scheint tat"
  },
  {
   "id": "quelle",
   "title": "Die Quelle",
-  "timeline": "quelle.json"
+  "timeline": "quelle.json",
+  "trigger": "Du läßt etwas von dem bläulichen Wasser in Deine schalenförm"
  },
  {
   "id": "gate",
   "title": "Das Portaltor",
-  "timeline": "gate.json"
+  "timeline": "gate.json",
+  "trigger": "Du glaubst Deinen Augen nicht trauen zu können: Das Portalto",
+  "music": true
  }
 ]

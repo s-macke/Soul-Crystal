@@ -3,6 +3,7 @@ export class MusicPlayer {
   private current: string | null = null;
   private enabled = true;
   private visible = true;
+  private suspended = false;
   constructor(private audio: HTMLAudioElement, private base: string) {
     audio.loop = true;
     audio.volume = 0.35;
@@ -19,8 +20,10 @@ export class MusicPlayer {
   }
   setEnabled(enabled: boolean) { this.enabled = enabled; this.sync(); }
   setVisible(visible: boolean) { this.visible = visible; this.sync(); }
+  // A cutscene with its own music pauses the game music meanwhile.
+  setSuspended(suspended: boolean) { this.suspended = suspended; this.sync(); }
   private sync() {
-    if (!this.enabled || !this.visible || !this.current) { this.audio.pause(); return; }
+    if (!this.enabled || !this.visible || this.suspended || !this.current) { this.audio.pause(); return; }
     if (this.audio.paused) {
       // Autoplay policies or unavailable audio must never interrupt the game.
       void this.audio.play().catch(() => {});

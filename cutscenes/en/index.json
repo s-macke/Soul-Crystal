@@ -2,196 +2,239 @@
  {
   "id": "credits",
   "title": "Credits",
-  "timeline": "credits.json"
+  "timeline": "credits.json",
+  "trigger": "start",
+  "music": true
  },
  {
   "id": "cast",
   "title": "Cast",
-  "timeline": "cast.json"
+  "timeline": "cast.json",
+  "trigger": "start",
+  "music": true
  },
  {
   "id": "intro",
   "title": "The story",
-  "timeline": "intro.json"
+  "timeline": "intro.json",
+  "trigger": "start",
+  "music": true
  },
  {
   "id": "sage",
   "title": "The legend of the sunken city",
-  "timeline": "sage.json"
+  "timeline": "sage.json",
+  "trigger": "You beckon the waitress over and announce your most pressing"
  },
  {
   "id": "see",
   "title": "In the lake",
-  "timeline": "see.json"
+  "timeline": "see.json",
+  "trigger": "As you wade west across the muddy lake bed, the water gets c"
  },
  {
   "id": "wasserfall",
   "title": "In front of the waterfall",
-  "timeline": "wasserfall.json"
+  "timeline": "wasserfall.json",
+  "trigger": "You are swimming in front of the waterfall at the northwest "
  },
  {
   "id": "fremde_welt",
   "title": "Behind the waterfall",
-  "timeline": "fremde_welt.json"
+  "timeline": "fremde_welt.json",
+  "trigger": "Still dazed by the waterfall's battering, you struggle to ke"
  },
  {
   "id": "ufer",
   "title": "On the other shore",
-  "timeline": "ufer.json"
+  "timeline": "ufer.json",
+  "trigger": "You climb onto the shore. The waterfall still rumbles in the"
  },
  {
   "id": "einhorn_kampf",
   "title": "Wolf and unicorn",
-  "timeline": "einhorn_kampf.json"
+  "timeline": "einhorn_kampf.json",
+  "trigger": "As you enter the clearing, dreadful growls and snarls stop y"
  },
  {
   "id": "einhorn_gerettet",
   "title": "The rescued unicorn",
-  "timeline": "einhorn_gerettet.json"
+  "timeline": "einhorn_gerettet.json",
+  "trigger": "The wolf is so horrified by your scrawny figure charging int"
  },
  {
   "id": "kristallkugel",
   "title": "The crystal ball",
-  "timeline": "kristallkugel.json"
+  "timeline": "kristallkugel.json",
+  "trigger": "After recovering a little, the unicorn thanks you and earnes"
  },
  {
   "id": "mylgor_tuer",
   "title": "At Mylgor's door",
-  "timeline": "mylgor_tuer.json"
+  "timeline": "mylgor_tuer.json",
+  "trigger": "You knock timidly and wait. Nothing. You knock again, a litt"
  },
  {
   "id": "mylgor_vertrag",
   "title": "The contract in blood",
-  "timeline": "mylgor_vertrag.json"
+  "timeline": "mylgor_vertrag.json",
+  "trigger": "You tell the stranger behind the hatch how you came to this "
  },
  {
   "id": "mylgor_kaminzimmer",
   "title": "By the fireplace",
-  "timeline": "mylgor_kaminzimmer.json"
+  "timeline": "mylgor_kaminzimmer.json",
+  "trigger": "You hand the contract and knife back to the man. His face di"
  },
  {
   "id": "mylgor_nacht",
   "title": "The night",
-  "timeline": "mylgor_nacht.json"
+  "timeline": "mylgor_nacht.json",
+  "trigger": "Only when you stretch out on the bed do you realise how exha"
  },
  {
   "id": "mylgor_auftrag",
   "title": "The mission",
-  "timeline": "mylgor_auftrag.json"
+  "timeline": "mylgor_auftrag.json",
+  "trigger": "Mylgor has been expecting you. He greets you briefly and get"
  },
  {
   "id": "firon_thron",
   "title": "Firon awaits death",
-  "timeline": "firon_thron.json"
+  "timeline": "firon_thron.json",
+  "trigger": "The old elf king rises from his throne: \"I knew that you wou"
  },
  {
   "id": "firon_prophezeiung",
   "title": "The prophecy",
-  "timeline": "firon_prophezeiung.json"
+  "timeline": "firon_prophezeiung.json",
+  "trigger": "Firon is a little surprised that you don't make quick work o"
  },
  {
   "id": "firon_schluessel",
   "title": "Firon's key",
-  "timeline": "firon_schluessel.json"
+  "timeline": "firon_schluessel.json",
+  "trigger": "Firon replies, \"To prove that I am on your side, I shall giv"
  },
  {
   "id": "jack_geist",
   "title": "Brother Jack's ghost",
-  "timeline": "jack_geist.json"
+  "timeline": "jack_geist.json",
+  "trigger": "Desperately, you kneel before the altar and offer a quick pr"
  },
  {
   "id": "jack_auftrag",
   "title": "Jack's errand",
-  "timeline": "jack_auftrag.json"
+  "timeline": "jack_auftrag.json",
+  "trigger": "You tell the ghost of the old abbot about your long, gruelli"
  },
  {
   "id": "richard_erscheint",
   "title": "King Richard appears",
-  "timeline": "richard_erscheint.json"
+  "timeline": "richard_erscheint.json",
+  "trigger": "You carefully place the skull next to the king's torso - but"
  },
  {
   "id": "richard_geschichte",
   "title": "King Richard's story",
-  "timeline": "richard_geschichte.json"
+  "timeline": "richard_geschichte.json",
+  "trigger": "The king's ghost studies you for a while, then hops onto the"
  },
  {
   "id": "richard_bestimmung",
   "title": "Your destiny",
-  "timeline": "richard_bestimmung.json"
+  "timeline": "richard_bestimmung.json",
+  "trigger": "The king nods in agreement. \"You're right: We have no more t"
  },
  {
   "id": "richard_zauberspruch",
   "title": "The spell",
-  "timeline": "richard_zauberspruch.json"
+  "timeline": "richard_zauberspruch.json",
+  "trigger": "\"Well done! You seem to have grasped what this game is about"
  },
  {
   "id": "richard_abschied",
   "title": "Richard's farewell",
-  "timeline": "richard_abschied.json"
+  "timeline": "richard_abschied.json",
+  "trigger": "\"You know the spell!\" the king says impatiently. \"That is al"
  },
  {
   "id": "werwolf",
   "title": "The werewolf",
-  "timeline": "werwolf.json"
+  "timeline": "werwolf.json",
+  "trigger": "Heaven! It's probably already too late to even think about e"
  },
  {
   "id": "werwolf_kampf",
   "title": "The fight",
-  "timeline": "werwolf_kampf.json"
+  "timeline": "werwolf_kampf.json",
+  "trigger": "Before your undead opponent has a chance to attack, you stri"
  },
  {
   "id": "mylgor_labor",
   "title": "Mylgor's secret laboratory",
-  "timeline": "mylgor_labor.json"
+  "timeline": "mylgor_labor.json",
+  "trigger": "As the sign on the door indicated, this is Mylgor's secret l"
  },
  {
   "id": "mylgor_explosion",
   "title": "The explosion",
-  "timeline": "mylgor_explosion.json"
+  "timeline": "mylgor_explosion.json",
+  "trigger": "In desperation, you yank at one of the massive wooden shelve"
  },
  {
   "id": "mylgor_ende",
   "title": "Mylgor's end",
-  "timeline": "mylgor_ende.json"
+  "timeline": "mylgor_ende.json",
+  "trigger": "You hastily lock the laboratory door with the key from Mylgo"
  },
  {
   "id": "burgtor",
   "title": "Before the castle gate",
-  "timeline": "burgtor.json"
+  "timeline": "burgtor.json",
+  "trigger": "The enormous, iron-bound castle gate looms before you. It se"
  },
  {
   "id": "tagebuch",
   "title": "The tower warden's diary",
-  "timeline": "tagebuch.json"
+  "timeline": "tagebuch.json",
+  "trigger": "You begin reading the tower guard's battered diary. It descr"
  },
  {
   "id": "vollmond",
   "title": "Full moon",
-  "timeline": "vollmond.json"
+  "timeline": "vollmond.json",
+  "trigger": "You stare up at the pale full moon as if in a trance, until "
  },
  {
   "id": "zargon",
   "title": "Zargon",
-  "timeline": "zargon.json"
+  "timeline": "zargon.json",
+  "trigger": "When Zargon notices your presence, he slowly turns to you: Y"
  },
  {
   "id": "seelenkristall",
   "title": "The soul crystal",
-  "timeline": "seelenkristall.json"
+  "timeline": "seelenkristall.json",
+  "trigger": "Zargon sees you looking towards his Soul Crystal and tries t"
  },
  {
   "id": "zepter",
   "title": "The sceptre",
-  "timeline": "zepter.json"
+  "timeline": "zepter.json",
+  "trigger": "You slide Zargon's sceptre into the slot - and it actually s"
  },
  {
   "id": "quelle",
   "title": "The spring",
-  "timeline": "quelle.json"
+  "timeline": "quelle.json",
+  "trigger": "You cup your hands beneath the bluish water and sip cautious"
  },
  {
   "id": "gate",
   "title": "The portal gate",
-  "timeline": "gate.json"
+  "timeline": "gate.json",
+  "trigger": "You won't believe your eyes: The portal gate is actually wid",
+  "music": true
  }
 ]

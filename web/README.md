@@ -29,6 +29,25 @@ Deutsch und English, starten direkt in der gewählten Sprache. Der Klick fordert
 Browser-Vollbild an, sofern unterstützt; bei Ablehnung bleibt das Spiel im
 fensterfüllenden Layout bedienbar.
 
+## Zwischensequenzen
+
+Nach der Sprachwahl laufen Credits, Besetzung und Vorgeschichte, danach beginnt
+das Spiel. Im Spiel startet eine vertonte Szene, sobald das Spiel ihren Text
+zeigt; der Text erscheint trotzdem im Protokoll, die Szene liegt als Overlay
+darüber. Jede Szene läuft einmal pro Spiel, nach dem Laden eines Spielstands
+wieder. Credits, Besetzung, Vorgeschichte und das Portaltor am Ende bringen
+ihre eigene Musik mit (in `index.json` mit `music` markiert), die Spielmusik
+pausiert so lange. Alle anderen Szenen laufen über der Spielmusik.
+„Überspringen“ oder Escape beendet eine Szene; der Zeitbalken (bei
+Mausbewegung), die Leertaste (Pause) und die Pfeiltasten (5 s) verschieben Bild,
+Stimme und Untertitel. Das Portaltor am Ende bleibt stehen, bis eine Taste
+gedrückt wird.
+
+Die Szenen kommen aus `cutscenes/` (siehe `src/Python/cutscenes/README.md`);
+`index.json` nennt pro Szene den Anfang des auslösenden Spieltexts.
+`prepare-assets` kopiert sie mit allen gezeigten Bildern nach
+`public/cutscenes/`.
+
 ## Spielstände
 
 „Menü → Speichern / Laden“ öffnet die lokale Spielstandliste. Am Startbildschirm

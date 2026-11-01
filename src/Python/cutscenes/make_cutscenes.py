@@ -39,11 +39,35 @@ FILES = {'narration': 'Cast', 'sage': '02', 'wasserfall': '02', 'einhorn': '02',
          'mylgor': '05', 'firon': '05', 'jack': '05', 'richard': '05', 'werwolf': '05',
          'mylgorende': '05', 'burgtor': '04', 'tagebuch': '13', 'vollmond': '13',
          'ending': '16'}
-# The intro opens with the title picture. The game ends at the gate: the
-# portcullis slides down like in Victory.ANIM, and "The End" stays with the
-# music until a key is pressed.
-OPTIONS = {'intro': {'title': 'Disk 1/Title'},
-           'gate': {'finale': 'Disk 4/Victory-015', 'hold': True}}
+# The intro starts with its first story picture (the title picture comes
+# right before it in the credits; {'title': <picture>} would open with it).
+# The game ends at the gate: the portcullis slides down like in Victory.ANIM,
+# and "The End" stays with the music until a key is pressed.
+OPTIONS = {'gate': {'finale': 'Disk 4/Victory-015', 'hold': True}}
+
+# The game text that starts each scene in the web game ("<side> <record>" of
+# texts/C64*/<side>.json). index.json carries the start of that text in each
+# language; the game plays the scene when it shows a text beginning with it.
+# "start" scenes play in index order after the language choice.
+TRIGGERS = {
+    'credits': 'start', 'cast': 'start', 'intro': 'start',
+    'sage': 'B1 260', 'see': 'B1 218', 'wasserfall': 'B1 220', 'fremde_welt': 'B1 221',
+    'ufer': 'B1 222', 'einhorn_kampf': 'B1 224', 'einhorn_gerettet': 'B1 255',
+    'kristallkugel': 'B1 262', 'mylgor_tuer': 'B2 383', 'mylgor_vertrag': 'B2 362',
+    'mylgor_kaminzimmer': 'B2 247', 'mylgor_nacht': 'B2 381', 'mylgor_auftrag': 'B2 367',
+    'firon_thron': 'B2 353', 'firon_prophezeiung': 'B2 354', 'firon_schluessel': 'B2 355',
+    'jack_geist': 'B2 377', 'jack_auftrag': 'B2 356', 'richard_erscheint': 'B2 384',
+    'richard_geschichte': 'B2 357', 'richard_bestimmung': 'B2 358',
+    'richard_zauberspruch': 'B2 359', 'richard_abschied': 'B2 360', 'werwolf': 'B2 252',
+    'werwolf_kampf': 'B2 280', 'mylgor_labor': 'B2 242', 'mylgor_explosion': 'B2 277',
+    'mylgor_ende': 'B2 391', 'burgtor': 'C1 223', 'tagebuch': 'C2 300',
+    'vollmond': 'C2 315', 'zargon': 'C2 254', 'seelenkristall': 'C2 269',
+    'zepter': 'C2 379', 'quelle': 'C2 369', 'gate': 'C2 258',
+}
+TRIGGER_CHARS = 60      # compared with whitespace collapsed
+# Scenes that bring their own music into the game (the opening and the very
+# end); all others play over the music that is already running.
+OWN_MUSIC = {'credits', 'cast', 'intro', 'gate'}
 
 MODEL = 'eleven_v3'
 VOICES = {
@@ -469,6 +493,16 @@ def main():
             write_index(Path(args.out) / lang, lang, known)
 
 
+def trigger(name, lang):
+    """'start', or the beginning of the scene's game text in this language."""
+    if TRIGGERS[name] == 'start':
+        return 'start'
+    side, record = TRIGGERS[name].split()
+    texts = json.loads((ROOT / 'texts' / ('C64' if lang == 'de' else 'C64_en') / f'{side}.json')
+                       .read_text(encoding='utf-8'))
+    return ' '.join(texts['records'][record]['text'].split())[:TRIGGER_CHARS]
+
+
 def write_index(out, lang, known):
     """List the exported scenes of one language in story order, with titles.
 
@@ -476,7 +510,9 @@ def write_index(out, lang, known):
     """
     first = {'credits': {'de': 'Credits', 'en': 'Credits'},
              'cast': {'de': 'Besetzung', 'en': 'Cast'}}
-    index = [{'id': name, 'title': titles.get(lang, name), 'timeline': f'{name}.json'}
+    index = [{'id': name, 'title': titles.get(lang, name), 'timeline': f'{name}.json',
+              **({'trigger': trigger(name, lang)} if name in TRIGGERS else {}),
+              **({'music': True} if name in OWN_MUSIC else {})}
              for name, titles in [*first.items(), *((n, t) for n, (_, t) in known.items())]
              if (out / f'{name}.json').exists()]
     (out / 'index.json').write_text(json.dumps(index, ensure_ascii=False, indent=1) + '\n',

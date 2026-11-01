@@ -5,6 +5,7 @@ import { loadEngine, type Engine, type GameEvent, type GameView } from './engine
 import { imagePath, victoryPath } from './images';
 import { loadControls } from './controls';
 import { createSaveUI } from './save-ui';
+import { Cutscenes } from './cutscene';
 import type { SaveState, SaveRecord } from './saves';
 let controls: Awaited<ReturnType<typeof loadControls>> | undefined;
 const get = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
@@ -21,6 +22,12 @@ const music = new MusicPlayer(new Audio(), `${import.meta.env.BASE_URL}music/`);
 let musicEnabled = true;
 try { musicEnabled = localStorage.getItem('soul-crystal-music') !== 'off'; } catch {}
 music.setEnabled(musicEnabled);
+// Scenes play over the game when it shows their text; not while a save loads.
+const cutscenes = new Cutscenes(`${import.meta.env.BASE_URL}cutscenes/`,
+  {music: `${import.meta.env.BASE_URL}music/`, enabled: () => musicEnabled,
+  ownMusic: on => music.setSuspended(on)});
+let loading = false;
+cutscenes.prepare('de'); cutscenes.prepare('en');
 function updateMusic() {
   music.select(currentView ? (get<HTMLDetailsElement>('intro').open && currentView.mode < 4 ? 'Cast.mp3' : gameMusic(currentView.room, currentView.mode)) : null);
 }
@@ -41,12 +48,16 @@ function capture(): SaveState | null {
 }
 const saves = createSaveUI({capture, load: loadSave, english: ()=>english});
 function loadSave(record: SaveRecord): boolean {
-  if (!document.body.classList.contains('playing')) startGame(record.language === 1);
+  if (!document.body.classList.contains('playing')) startGame(record.language === 1, false);
   const previous = Array.from(transcript.children);
   const previousEnglish = english;
   english = record.language === 1;
   transcript.replaceChildren();
-  const ok = engine.ccall('web_load', 'number', ['string'], [record.snapshot]);
+  loading = true;
+  let ok: number;
+  try { ok = engine.ccall('web_load', 'number', ['string'], [record.snapshot]); }
+  finally { loading = false; }
+  cutscenes.reset();
   if (!ok) { english = previousEnglish; transcript.replaceChildren(...previous); return false; }
   get('intro-text').replaceChildren();
   paragraph(get('intro-text'), engine.ccall('web_intro', 'string', [], []));
@@ -71,6 +82,7 @@ function paragraph(parent: HTMLElement, text: string, className = '') {
 function event(event: GameEvent) {
   if (event.kind === 0) {
     paragraph(starting && beforeFirstImage ? get('intro-text') : transcript, event.text);
+    if (!loading) cutscenes.text(english ? 'en' : 'de', event.text);
   } else if (event.kind === 1) {
     beforeFirstImage = false;
     const path = imagePath(event.part, event.image, event.room);
@@ -123,7 +135,7 @@ function submitCommand(command: string) {
     else if (before && currentView.room !== before.room) saves.auto(capture(), 'room');
   }
 }
-function startGame(inEnglish: boolean) {
+function startGame(inEnglish: boolean, withIntro = true) {
   if (document.body.classList.contains('playing')) return;
   english = inEnglish;
   // Fullscreen requires a user gesture; the viewport layout also works when unavailable.
@@ -144,6 +156,8 @@ function startGame(inEnglish: boolean) {
   try { engine.ccall('web_start', null, ['number'], [english ? 1 : 0]); }
   catch (error) { fail(error); }
   finally { starting = false; }
+  // Credits, cast and story, each skippable, before the game itself.
+  if (withIntro) void cutscenes.start(english ? 'en' : 'de');
   saves.checkpoint(capture());
   get('icon-controls').querySelector<HTMLButtonElement>('button')?.focus({preventScroll: true});
 }
