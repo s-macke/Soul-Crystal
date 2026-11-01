@@ -122,3 +122,18 @@ Nur `GameReady` kann gespeichert werden. Laden validiert vor jeder Mutation und
 stellt Raumtext und Bild ohne Dispatch, Besuchsmarkierung oder zusätzlichen Zug
 wieder dar. Der Ausgabetext-Verlauf ist kein Teil des Spielstands. Persistenz,
 Slots, Titel und Autosaves liegen ausschließlich im TypeScript-Host.
+
+### Browser autosave checkpoints
+
+Room changes create an autosave only if meaningful state differs from the last
+checkpoint (a successful save, new-game start, or loaded game). The comparison
+retains inventory/object state, descriptions, remaining points, exit tables,
+score, engine state and game part. It ignores visited flags, current room,
+Dave's location, move count, language, displayed image/part, music and checksum.
+The actual saved snapshot remains complete and unchanged.
+
+Part transitions and pre-death snapshots bypass this progress filter. Every
+autosave still checks its complete snapshot against all retained saves, including
+manual ones, and skips exact duplicates without refreshing timestamps. Manual
+saves are explicit and bypass both filters. Failed storage writes do not advance
+the checkpoint. The browser retains at most eight autosaves and twenty manual saves.

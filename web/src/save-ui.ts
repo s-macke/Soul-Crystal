@@ -75,6 +75,7 @@ export function createSaveUI(options: {capture: ()=>SaveState|null; load: (recor
   close.onclick=()=>dialog.close();
   return {
     open(){render();dialog.showModal();if(testMode&&!fixtures.length&&!fixtureRequest)fixtureRequest=fetchFixtures();},
-    auto(state:SaveState|null,kind:SaveKind){if(!state)return;try{store.add(state,kind);notify(tr('Automatisch gespeichert.','Autosaved.'));}catch{notify(error());}},
+    checkpoint(state:SaveState|null){if(state)store.checkpoint(state);},
+    auto(state:SaveState|null,kind:SaveKind){if(!state)return;try{if(store.add(state,kind))notify(tr('Automatisch gespeichert.','Autosaved.'));}catch{notify(error());}},
   };
 }

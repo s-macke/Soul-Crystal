@@ -51,6 +51,7 @@ function loadSave(record: SaveRecord): boolean {
   get('intro-text').replaceChildren();
   paragraph(get('intro-text'), engine.ccall('web_intro', 'string', [], []));
   toggleJournal(false);transcript.scrollTop = 0;
+  saves.checkpoint(capture());
   return true;
 }
 function fail(error: unknown) {
@@ -143,6 +144,7 @@ function startGame(inEnglish: boolean) {
   try { engine.ccall('web_start', null, ['number'], [english ? 1 : 0]); }
   catch (error) { fail(error); }
   finally { starting = false; }
+  saves.checkpoint(capture());
   get('icon-controls').querySelector<HTMLButtonElement>('button')?.focus({preventScroll: true});
 }
 languageButtons.forEach((button, index) => button.addEventListener('click', () => startGame(index === 1)));
