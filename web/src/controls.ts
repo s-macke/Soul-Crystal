@@ -69,7 +69,7 @@ export async function loadControls(host: HTMLElement, submit: (command: string) 
     if(menu){const saves=row(tr('Spielstände','Saved games'));
       button(saves,tr('Speichern / Laden','Save / Load'),ui.get('SAVE_LOAD'),openSaves);}
     const groups: [string,number[]][] = menu
-      ? [[tr('Spiel & Anzeige','Game & display'),[15,16,13,12,2,22,1,3]]]
+      ? [[tr('Spiel & Anzeige','Game & display'),[15,16,13,12,1,3]]]
       : expanded
         ? [[tr('Weitere Aktionen','More actions'),[21,5,29,27,42,30,33,41,32,44,43,34,37,36,4,28,23,9,7]]]
         : [
@@ -78,15 +78,26 @@ export async function loadControls(host: HTMLElement, submit: (command: string) 
           [tr('Handeln','Act'),[38,39,35,40]],
         ];
     for(const [title,ids] of groups){const items=row(title);for(const id of ids){const icon=verbs.get(id)!;
-      button(items,icon.label[locale],icon,()=>{
+      const b=button(items,icon.label[locale],icon,()=>{
         if(!objectCount(id)){menu=false;submit(icon.command![locale]);return;}
         selected=icon;chosen=[];render();
         host.querySelector<HTMLButtonElement>('[data-object]')?.focus();
       },selected?.id===id);
-
+      if([11,6,19,24,21,5].includes(id) && state.exits && !state.exits.includes(id)) {
+        b.classList.add('no-exit');
+        const description=`${icon.label[locale]} · ${tr('Kein Ausgang in dieser Richtung','No exit in this direction')}`;
+        b.title=description;b.setAttribute('aria-label',description);
+      }
     }}
     if(menu) {
       const items=verbPanel.querySelector('.action-group:last-child .icon-row') as HTMLElement;
+      const verbose=state.verbose;
+      const textMode=button(items,verbose?tr('Auf Kurztext umschalten','Switch to brief descriptions'):tr('Ausführliche Texte aktivieren','Enable verbose descriptions'),
+        verbs.get(verbose?22:2),()=>{
+          submit(verbs.get(verbose?2:22)!.command![locale]);
+          host.querySelector<HTMLButtonElement>('[data-text-mode]')?.focus({preventScroll:true});
+        },verbose);
+      textMode.dataset.textMode='';
       const enabled=music.enabled();
       const b=button(items,enabled?tr('Musik ausschalten','Mute music'):tr('Musik einschalten','Enable music'),
         enabled?verbs.get(17):ui.get('MUSIC_OFF'),()=>{

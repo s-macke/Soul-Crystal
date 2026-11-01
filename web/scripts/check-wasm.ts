@@ -19,11 +19,23 @@ const engine = await createEngine({
 });
 engine.ccall('web_start', null, ['number'], [0]);
 assert.equal(view?.room, 3);
+assert.ok(Array.isArray(view?.exits) && view.exits.includes(24), 'Starting street exposes its west exit');
+assert.ok(view?.exits.every(id=>[11,6,19,24,21,5].includes(id)), 'Only direction command IDs are exported');
 assert.ok(texts.some(text => text.includes('SOUL CRYSTAL')));
 assert.ok(!texts.some(text => text.startsWith('Objekte:')), 'Web omits the object text list');
 assert.ok(view?.objects.some(o=>o.id===163 && !o.carried), 'Dave is in the room');
 assert.ok(!view?.objects.some(o=>o.id===12), 'Hidden bell must not leak');
 assert.ok(view?.objects.some(o=>o.id===77 && o.carried), 'Clothing is carried');
+// Text-mode projection follows commands and restores from the actual save state.
+engine.ccall('web_submit',null,['string'],['kurztext']);
+assert.equal(view?.verbose,false);
+const briefSave=engine.ccall('web_save','string',[],[]);
+engine.ccall('web_submit',null,['string'],['ausfuehrlich']);
+assert.equal(view?.verbose,true);
+assert.equal(engine.ccall('web_load','number',['string'],[briefSave]),1);
+assert.equal(view?.verbose,false);
+engine.ccall('web_submit',null,['string'],['ausfuehrlich']);
+assert.equal(view?.verbose,true);
 for(const command of ['west','nord','betrachte tresen']) engine.ccall('web_submit',null,['string'],[command]);
 assert.ok(view?.objects.some(o=>o.id===12 && o.name==='Klingel'), 'Inspection reveals bell');
 engine.ccall('web_submit',null,['string'],['nimm prospekt']);

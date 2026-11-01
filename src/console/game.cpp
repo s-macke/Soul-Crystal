@@ -180,10 +180,10 @@ void reset(bool intro) {
 // The original transitions are intercepted BEFORE the script ($38EB..$39D5).
 // Handbook checks are deliberately disabled in this port at the user's request.
 // Keep the original transition conditions and destinations ($5BE2..$5C8F).
-bool transitionRequested() {
-    return (gamePart==PartA && currentRoom==15 && command==WEST) ||
-        (gamePart==PartB && currentRoom==25 && command==NORD && objectLocation[AMULETT]==255 && objectState[AMULETT]==1) ||
-        (gamePart==PartC && currentRoom==65 && command==NORD && north[65]!=0);
+bool transitionRequested(unsigned direction) {
+    return (gamePart==PartA && currentRoom==15 && direction==WEST) ||
+        (gamePart==PartB && currentRoom==25 && direction==NORD && objectLocation[AMULETT]==255 && objectState[AMULETT]==1) ||
+        (gamePart==PartC && currentRoom==65 && direction==NORD && north[65]!=0);
 }
 }
 
@@ -321,7 +321,7 @@ extern "C" void GameSubmit(const char *input) {
     } else if(!args.empty()){say(tr("Dieses Verb benötigt kein Objekt.", "This verb does not take an object."));return;}
     inputResult=GameInputAccepted;
     command=parsed;object1=first;object2=second;pendingTextID=0;
-    if(transitionRequested()) {
+    if(transitionRequested(command)) {
         // Native $5BE2/$5C11/$5C4D: skip the manual challenge and disk I/O,
         // preserve the shared mutable state, then enter the next part directly.
         if(gamePart==PartB)message(222);
@@ -425,5 +425,21 @@ extern "C" const char *GameRoomName(void) {
     return currentRoom>0&&currentRoom<RoomStateCount?textRecord(gamePart,currentRoom-1):"";
 }
 extern "C" unsigned GameGetLanguage(void) {return unsigned(language);}
+extern "C" int GameVerboseDescriptions(void) {return visited[0]!=0;}
 
 extern "C" const char *GameIntroNarrative(void) {return english()?GameEnglishIntroText:GameIntroText;}
+
+extern "C" int GameDirectionAvailable(unsigned commandID) {
+    if(currentRoom>=RoomStateCount)return 0;
+    // Part transitions bypass the exit tables; use the movement conditions.
+    if(transitionRequested(commandID))return 1;
+    switch(commandID) {
+    case NORD:return north[currentRoom]!=0;
+    case OST:return east[currentRoom]!=0;
+    case SUED:return south[currentRoom]!=0;
+    case WEST:return west[currentRoom]!=0;
+    case HINAUF:return up[currentRoom]!=0;
+    case HINUNTER:return down[currentRoom]!=0;
+    default:return 0;
+    }
+}

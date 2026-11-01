@@ -29,11 +29,14 @@ const char *GameSave(void);
 int GameLoad(const char *snapshot);
 const char *GameRoomName(void);
 unsigned GameGetLanguage(void);
+int GameVerboseDescriptions(void);
 const char *GameIntroNarrative(void);
 /* Read-only UI projection: hidden objects return NULL. Names follow the active language. */
 const char *GameObjectName(unsigned id);
 int GameObjectCarried(unsigned id);
 unsigned GameObjectLimit(void);
+/* Same current exit tables as the exits command; does not predict scripted obstacles. */
+int GameDirectionAvailable(unsigned commandID);
 #ifdef __cplusplus
 }
 #endif

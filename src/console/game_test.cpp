@@ -75,7 +75,14 @@ int main(){
     assert(GameGetView().mode==GameReady&&GameGetView().imagePart==2&&GameGetView().image==25);
     // The amulet requirement still applies; bypassing protection is not a shortcut.
     submit("nord");assert(gamePart==PartB);
-    currentRoom=25;objectLocation[DAVE]=25;objectLocation[AMULETT]=255;objectState[AMULETT]=1;
+    currentRoom=25;objectLocation[DAVE]=25;
+    assert(north[25]==0); // Crossing into Part C is not a table exit.
+    objectLocation[AMULETT]=255;objectState[AMULETT]=0;
+    assert(!GameDirectionAvailable(NORD)); // Carried but not worn.
+    objectLocation[AMULETT]=25;objectState[AMULETT]=1;
+    assert(!GameDirectionAvailable(NORD)); // Not carried.
+    objectLocation[AMULETT]=255;objectState[AMULETT]=1;
+    assert(GameDirectionAvailable(NORD));
     submit("nord");assert(gamePart==PartC&&currentRoom==51&&objectLocation[DAVE]==51);
     currentRoom=65;objectLocation[DAVE]=65;north[65]=0;
     submit("nord");assert(gamePart==PartC);

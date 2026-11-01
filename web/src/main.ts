@@ -100,6 +100,14 @@ function view(view: GameView) {
   acceptsCommands = !ended;
   get('new-game').hidden = !ended;
 }
+function showLatestTextStart() {
+  transcript.scrollTop = 0;
+  // The journal also shows older turns: align the start of the current reply.
+  if (document.body.classList.contains('journal-open')) {
+    const first = transcript.querySelector<HTMLElement>('p:not(.previous):not(.command)');
+    if (first) transcript.scrollTop = first.getBoundingClientRect().top - transcript.getBoundingClientRect().top;
+  }
+}
 function submitCommand(command: string) {
   if (!command || !acceptsCommands) return;
   const before = capture();
@@ -107,7 +115,7 @@ function submitCommand(command: string) {
   paragraph(transcript, `> ${command}`, 'command');
   try { engine.ccall('web_submit', null, ['string'], [command]); }
   catch (error) { fail(error); }
-  transcript.scrollTop = transcript.scrollHeight;
+  showLatestTextStart();
   if (currentView?.mode === 4 && before) saves.auto(before, 'death');
   else if (currentView?.mode === 0) {
     if (before && currentView.part !== before.part) saves.auto(capture(), 'part');
@@ -143,7 +151,7 @@ function toggleJournal(open = !document.body.classList.contains('journal-open'))
   get('icon-controls').inert = open;
   get('journal-toggle').setAttribute('aria-expanded', String(open));
   get('journal-toggle').setAttribute('aria-label', english ? (open ? 'Close journal' : 'Open journal') : (open ? 'Tagebuch schließen' : 'Tagebuch öffnen'));
-  transcript.scrollTop = transcript.scrollHeight;
+  showLatestTextStart();
 }
 get('journal-toggle').addEventListener('click', () => toggleJournal());
 document.addEventListener('keydown', e => { if (e.key === 'Escape') toggleJournal(false); });

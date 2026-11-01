@@ -290,3 +290,9 @@ body:not(.playing) #adventure-overlay{display:none}
 @media(max-height:440px){#welcome-load{padding:6px 18px}#save-dialog{padding:12px}}
 
 #test-save-list{border:1px solid #ac9059;padding:12px;margin:14px 0;border-radius:8px}#test-save-list>p{font-size:12px;color:#c0bba8}#test-save-list>h3{margin:0 0 8px;font:20px Georgia,serif}
+
+/* Keep unavailable directions usable, but visually quieter than listed exits. */
+.game-icon.no-exit img{opacity:.32;filter:grayscale(.9)}
+.playing .game-icon.no-exit img{opacity:.32;filter:grayscale(.9) drop-shadow(0 1px 2px #0006)}
+.game-icon.no-exit:hover img,.game-icon.no-exit:focus-visible img{opacity:.6}
+.game-icon.no-exit span{color:#b6afa3}
