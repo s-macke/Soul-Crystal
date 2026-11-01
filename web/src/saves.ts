@@ -16,6 +16,16 @@ export function progressKey(snapshot: string): string {
   for (const index of [1711,1712,1713,1714,1719,1720,1721,1722]) bytes[index] = '00';
   return bytes.join('');
 }
+// The same snapshot in the other language: byte 1719 holds it, followed by the
+// FNV-1a checksum over the text before it (GameSave in src/console/game.cpp).
+export function withLanguage(snapshot: string, language: number): string {
+  if (!/^SC1:[0-9a-f]{3454}$/.test(snapshot) || ![0, 1].includes(language)) throw new Error('Invalid snapshot');
+  const at = 4 + 1719 * 2;
+  const text = snapshot.slice(0, at) + language.toString(16).padStart(2, '0') + snapshot.slice(at + 2, -8);
+  let hash = 2166136261;
+  for (const c of text) hash = Math.imul(hash ^ c.charCodeAt(0), 16777619) >>> 0;
+  return text + hash.toString(16).padStart(8, '0');
+}
 export class SaveStore {
   private baseline: string | undefined;
   // Starting/loading establishes a checkpoint without creating a save slot.

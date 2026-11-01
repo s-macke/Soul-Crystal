@@ -1,4 +1,4 @@
-import { SaveStore, type SaveState, type SaveRecord, type SaveKind } from './saves';
+import { SaveStore, withLanguage, type SaveState, type SaveRecord, type SaveKind } from './saves';
 export function createSaveUI(options: {capture: ()=>SaveState|null; load: (record: SaveRecord)=>boolean; english: ()=>boolean}) {
   const store = new SaveStore(()=>window.localStorage);
   const dialog = document.getElementById('save-dialog') as HTMLDialogElement;
@@ -31,16 +31,21 @@ export function createSaveUI(options: {capture: ()=>SaveState|null; load: (recor
     if(!testMode)return;
     testSection.replaceChildren();
     const heading=document.createElement('h3');heading.textContent=tr('Testspielstände · nur lokal','Test saves · local development only');
-    const note=document.createElement('p');note.textContent=tr('Aus dem deutschen Replay erspielt. Unveränderliche Vorlagen, getrennt von deinen Spielständen.','Played through the German replay. Read-only templates, separate from your saves.');
+    const note=document.createElement('p');note.textContent=tr('Aus dem deutschen Replay erspielt, ladbar auf Deutsch oder Englisch. Unveränderliche Vorlagen, getrennt von deinen Spielständen.','Played through the German replay, loadable in German or English. Read-only templates, separate from your saves.');
     testSection.append(heading,note);
     if(fixtureMessage){const p=document.createElement('p');p.textContent=fixtureMessage;testSection.append(p);}
     for(const fixture of fixtures){
       const item=document.createElement('article');item.className='save-slot test-save';
       const title=document.createElement('h3');title.textContent=`${'ABCD'[fixture.part-1]} · ${fixture.label} · ${fixture.roomName}`;
-      const detail=document.createElement('p');detail.textContent=`${fixture.score} ${tr('Punkte','points')} · ${tr('Replay-Befehl','Replay command')} ${fixture.commandIndex} · Deutsch`;
-      const button=document.createElement('button');button.className='test-save-load';button.textContent=tr('Testspielstand laden','Load test save');button.setAttribute('aria-label',`${button.textContent}: ${fixture.label}`);
-      button.onclick=()=>{try{if(!options.load(fixture))throw new Error('Invalid fixture');dialog.close();notify(tr('Testspielstand geladen.','Test save loaded.'));}catch{message.textContent=tr('Testspielstand nicht kompatibel. Vorlagen neu erzeugen.','Incompatible test save. Regenerate fixtures.');}};
-      item.append(title,detail,button);testSection.append(item);
+      const detail=document.createElement('p');detail.textContent=`${fixture.score} ${tr('Punkte','points')} · ${tr('Replay-Befehl','Replay command')} ${fixture.commandIndex}`;
+      // Played in German; the language is one byte of the snapshot, so each loads in both.
+      const buttons=([[0,'Deutsch'],[1,'English']] as const).map(([language,name])=>{
+        const button=document.createElement('button');button.className='test-save-load';button.textContent=name;button.lang=language?'en':'de';
+        button.setAttribute('aria-label',`${tr('Testspielstand laden','Load test save')}: ${fixture.label} · ${name}`);
+        button.onclick=()=>{try{if(!options.load({...fixture,language,snapshot:withLanguage(fixture.snapshot,language)}))throw new Error('Invalid fixture');dialog.close();notify(tr('Testspielstand geladen.','Test save loaded.'));}catch{message.textContent=tr('Testspielstand nicht kompatibel. Vorlagen neu erzeugen.','Incompatible test save. Regenerate fixtures.');}};
+        return button;
+      });
+      item.append(title,detail,...buttons);testSection.append(item);
     }
   }
   const tr=(de:string,en:string)=>options.english()?en:de;

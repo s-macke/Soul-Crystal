@@ -76,7 +76,9 @@ nach jedem spielbaren Befehl erneut und prüft identischen Zustand und Endergebn
 `http://localhost:5174/?test=1` (Port des laufenden Vite-Servers) aktiviert im
 Ladedialog den separaten Bereich **Testspielstände**. Ohne den Parameter und im
 Produktionsbuild erscheint dieser Bereich nicht. Die Vorlagen stammen aus dem
-deutschen `tests/replays/fast.replay`; Laden stellt daher auch Deutsch wieder her.
+deutschen `tests/replays/fast.replay`. Jede lässt sich auf Deutsch oder Englisch
+laden: Die Sprache ist ein Byte des Spielstands (`withLanguage` in `src/saves.ts`
+setzt es und erneuert die Prüfsumme).
 Sie sind unveränderlich, werden nicht in localStorage importiert und lassen sich
 nach dem Laden ganz normal weiterspielen oder als eigener Spielstand speichern.
 
