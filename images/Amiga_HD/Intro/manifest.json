@@ -122,7 +122,7 @@
       "file": "characters/Native.png",
       "source_frame": "images/Amiga/Disk 1/animations/Native/Native-000.png",
       "prompt": "Use case: illustration-story. Faithful HD repaint of ONLY the character portrait inside the small LEFT decorative frame in the supplied Amiga Soul Crystal cast screen. Extract its subject conceptually, omit ALL outer frame, all text, logos and castle background. Create one static vertical portrait, target 1024x1536, transparent background, isolated character and essential original props. Rich hand-painted classic adventure style, natural anatomy, confident visible brushwork, saturated restrained colors, no pixelation, no photorealism or 3D. Original pixels are vertically compressed: restore natural portrait proportions. Crop approximately waist-up, keep complete head and any visible hands inside generous margins, flat lower termination acceptable for portrait mounting. Preserve reference facial identity, costume and pose except explicit continuity corrections. Native villager: elderly grey-haired man with thick grey beard, worn olive-green jacket, pale shirt, seated with pewter mug on plain table. Quiet earnest expression. Preserve original kindly lined face. No labels or text. True transparent background, no shadow rectangle or decorative frame.",
-      "generated_source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-31cef46d-1e10-43e0-99d7-8b3fc81a66f8.png",
+      "generated_source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-913a16bf-b2ce-4111-a05f-bf990d93c81a.png",
       "width": 1024,
       "height": 1536,
       "mode": "RGBA",
@@ -130,8 +130,15 @@
         0,
         254
       ],
-      "sha256": "ced9fecc844b8ca7cab7a7815b77f3a8ee48492c4d8f300e4db6aa9962736afc",
-      "bytes": 2651851
+      "sha256": "a1796d808c3be69cff734a4e1a23886da8a0435eaf6926689a14a880c0ff3786",
+      "bytes": 2748406,
+      "revisions": [
+        {
+          "prompt": "Edit first image, Soul Crystal Native/villager cast portrait. User correction: his hair is far too neat and he should look eccentric and a little wild, like the same old storyteller in the second reference tavern scene. Keep his identity, grey-white hair, weathered face, olive green coat, offwhite shirt, pewter mug, hands, pose, painterly brushwork and vertical framing. Change hair to much more dishevelled shaggy grey-white flyaway tufts sticking out unevenly, no tidy swept hairstyle. Make beard longer, scruffier and uneven like reference two. Add mischievous slightly wild amused expression, raised bushy eyebrows, twinkle in eyes, crooked knowing grin. Endearing eccentric village storyteller, not sinister or monstrous, no exaggerated cartoon. Preserve genuinely transparent background, no scenery, no frame or text. Target 1024x1536.",
+          "generated_source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-913a16bf-b2ce-4111-a05f-bf990d93c81a.png",
+          "input_sha256": "ced9fecc844b8ca7cab7a7815b77f3a8ee48492c4d8f300e4db6aa9962736afc"
+        }
+      ]
     },
     {
       "id": "OldEremit",
