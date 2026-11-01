@@ -1,0 +1,451 @@
+{
+  "date": "2026-11-01",
+  "tool": "built-in image_gen",
+  "scope": "Static portraits from the twelve Amiga Disk 1 cast animations, separate Cast backdrop, and all fifteen intro credit cards. Includes ACA and Starbyte publisher cards.",
+  "images": [
+    {
+      "id": "Dave",
+      "file": "characters/Dave.png",
+      "source_frame": "images/Amiga/Disk 1/animations/Dave/Dave-000.png",
+      "prompt": "Use case: illustration-story. Faithful HD repaint of ONLY the character portrait inside the small LEFT decorative frame in the supplied Amiga Soul Crystal cast screen. Extract its subject conceptually, omit ALL outer frame, all text, logos and castle background. Create one static vertical portrait, target 1024x1536, transparent background, isolated character and essential original props. Rich hand-painted classic adventure style, natural anatomy, confident visible brushwork, saturated restrained colors, no pixelation, no photorealism or 3D. Original pixels are vertically compressed: restore natural portrait proportions. Crop approximately waist-up, keep complete head and any visible hands inside generous margins, flat lower termination acceptable for portrait mounting. Preserve reference facial identity, costume and pose except explicit continuity corrections. Young Dave Parker, short tousled brown hair, arms folded and confident slightly cheeky smile. Continuity correction requested by user: BLUE short-sleeved T-shirt, plain front (neon surfer graphic is on back, not visible). No labels or text. True transparent background, no shadow rectangle or decorative frame.",
+      "generated_source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-44f431a5-1235-4493-9697-dd8a9484ff5c.png",
+      "previous_generated_source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-735917cb-52fa-4a11-9995-5dd556b3e0a0.png",
+      "revision_prompt": "Use case: identity-preserve. Correct ONLY Dave's age and identity in first image, a Soul Crystal cast portrait. He is SEVENTEEN, not a man in his twenties. Second image is authoritative character identity: the same youthful boy in foreground of party thought scene. Match his youthful rounder cheeks, smaller softer jaw, tousled medium-brown hair, slim adolescent build, no stubble, no adult muscular forearms. Retain first image folded-arms pose, blue short-sleeved crew-neck T-shirt, confident but boyish slightly cheeky smile, vertical portrait framing and hand-painted classic adventure style. Front of T-shirt plain, neon surfer is on back and not visible. Genuinely transparent background, no decorative frame, no text, no scenery or thought bubble. Target 1024x1536.",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "sha256": "8514dcace05883162bd8d690f4f309771af0752a554e9ab240bc7709ac8d4030",
+      "bytes": 2218387
+    },
+    {
+      "id": "Firon",
+      "file": "characters/Firon.png",
+      "source_frame": "images/Amiga/Disk 1/animations/Firon/Firon-000.png",
+      "prompt": "Use case: illustration-story. Faithful HD repaint of ONLY the character portrait inside the small LEFT decorative frame in the supplied Amiga Soul Crystal cast screen. Extract its subject conceptually, omit ALL outer frame, all text, logos and castle background. Create one static vertical portrait, target 1024x1536, transparent background, isolated character and essential original props. Rich hand-painted classic adventure style, natural anatomy, confident visible brushwork, saturated restrained colors, no pixelation, no photorealism or 3D. Original pixels are vertically compressed: restore natural portrait proportions. Crop approximately waist-up, keep complete head and any visible hands inside generous margins, flat lower termination acceptable for portrait mounting. Preserve reference facial identity, costume and pose except explicit continuity corrections. Elderly elf king Firon on his icy crystalline throne, long silver-white hair, pointed ears, blue robe with red inner collar and gold details, gold crown with blue central stone consistent with established HD story art. Solemn expression, hands on throne arms. Include throne as isolated prop. No labels or text. True transparent background, no shadow rectangle or decorative frame.",
+      "generated_source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-0813b1ec-2b2d-46ab-a149-39ecd35a3a66.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "sha256": "76634dec7e5551d8ea5836cc52a6cf765cb537625fe1d9ffcc1fcda424f59991",
+      "bytes": 2963839
+    },
+    {
+      "id": "KingRichard",
+      "file": "characters/KingRichard.png",
+      "source_frame": "images/Amiga/Disk 1/animations/KingRichard/KingRichard-000.png",
+      "prompt": "Use case: illustration-story. Faithful HD repaint of ONLY the character portrait inside the small LEFT decorative frame in the supplied Amiga Soul Crystal cast screen. Extract its subject conceptually, omit ALL outer frame, all text, logos and castle background. Create one static vertical portrait, target 1024x1536, transparent background, isolated character and essential original props. Rich hand-painted classic adventure style, natural anatomy, confident visible brushwork, saturated restrained colors, no pixelation, no photorealism or 3D. Original pixels are vertically compressed: restore natural portrait proportions. Crop approximately waist-up, keep complete head and any visible hands inside generous margins, flat lower termination acceptable for portrait mounting. Preserve reference facial identity, costume and pose except explicit continuity corrections. Living King Richard from intro cast, not ghost: elderly long white beard and hair, gold crown with red gems, regal purple and red ermine-trimmed robe, on ornate gold throne, kind dignified face. Include throne. No labels or text. True transparent background, no shadow rectangle or decorative frame.",
+      "generated_source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-9a4278b4-3c24-4029-8fe4-a33253aa0f86.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "sha256": "c304686248bea710eeabb708217908f8e9442c48b680e5c0e01eea7bf7cc5668",
+      "bytes": 3068539
+    },
+    {
+      "id": "Mylgor",
+      "file": "characters/Mylgor.png",
+      "source_frame": "images/Amiga/Disk 1/animations/Mylgor/Mylgor-000.png",
+      "prompt": "Use case: illustration-story. Faithful HD repaint of ONLY the character portrait inside the small LEFT decorative frame in the supplied Amiga Soul Crystal cast screen. Extract its subject conceptually, omit ALL outer frame, all text, logos and castle background. Create one static vertical portrait, target 1024x1536, transparent background, isolated character and essential original props. Rich hand-painted classic adventure style, natural anatomy, confident visible brushwork, saturated restrained colors, no pixelation, no photorealism or 3D. Original pixels are vertically compressed: restore natural portrait proportions. Crop approximately waist-up, keep complete head and any visible hands inside generous margins, flat lower termination acceptable for portrait mounting. Preserve reference facial identity, costume and pose except explicit continuity corrections. Alchemist Mylgor with dark swept hair and pointed dark beard, blue gold-trimmed robe, calculating expression. Original tabletop alchemy apparatus, books, flask and small skull as foreground props. Keep original character identity, no grey-haired redesign. No labels or text. True transparent background, no shadow rectangle or decorative frame.",
+      "generated_source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-95dcf254-0063-471f-8ff5-39382236a26b.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "sha256": "fb7b6851b40e1d6dfafee4da770e541deecdb13fecea8e3a523fc1e3439ec791",
+      "bytes": 2740905
+    },
+    {
+      "id": "Zargon",
+      "file": "characters/Zargon.png",
+      "source_frame": "images/Amiga/Disk 1/animations/Zargon/Zargon-000.png",
+      "prompt": "Use case: illustration-story. Faithful HD repaint of ONLY the character portrait inside the small LEFT decorative frame in the supplied Amiga Soul Crystal cast screen. Extract its subject conceptually, omit ALL outer frame, all text, logos and castle background. Create one static vertical portrait, target 1024x1536, transparent background, isolated character and essential original props. Rich hand-painted classic adventure style, natural anatomy, confident visible brushwork, saturated restrained colors, no pixelation, no photorealism or 3D. Original pixels are vertically compressed: restore natural portrait proportions. Crop approximately waist-up, keep complete head and any visible hands inside generous margins, flat lower termination acceptable for portrait mounting. Preserve reference facial identity, costume and pose except explicit continuity corrections. Zargon in deep purple hooded robe, angular ominous face, suspicious expression, hands mostly hidden in robe, dark wizard. No invented giant staff or jewelry. No labels or text. True transparent background, no shadow rectangle or decorative frame.",
+      "generated_source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-a81fc1dc-057a-455a-af9d-3472499b2804.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "sha256": "8d28b4dd755b94ca49fcb22c376b1b0a8e67eaf647dccfcfeea4d14b624bedac",
+      "bytes": 2724664
+    },
+    {
+      "id": "BrotherJack",
+      "file": "characters/BrotherJack.png",
+      "source_frame": "images/Amiga/Disk 1/animations/BrotherJack/BrotherJack-000.png",
+      "prompt": "Use case: illustration-story. Faithful HD repaint of ONLY the character portrait inside the small LEFT decorative frame in the supplied Amiga Soul Crystal cast screen. Extract its subject conceptually, omit ALL outer frame, all text, logos and castle background. Create one static vertical portrait, target 1024x1536, transparent background, isolated character and essential original props. Rich hand-painted classic adventure style, natural anatomy, confident visible brushwork, saturated restrained colors, no pixelation, no photorealism or 3D. Original pixels are vertically compressed: restore natural portrait proportions. Crop approximately waist-up, keep complete head and any visible hands inside generous margins, flat lower termination acceptable for portrait mounting. Preserve reference facial identity, costume and pose except explicit continuity corrections. Brother Jack: hooded monk in coarse brown robe, hood shadows conceal most of face, solemn and mysterious, folded hands/sleeves as original. No labels or text. True transparent background, no shadow rectangle or decorative frame.",
+      "generated_source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-6338d040-03ee-45ed-9e27-d5505d940db7.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "sha256": "fd494ae99c28d2077b592969bcfbe20c6ec893ca8e970c18daba47a61c3f5c10",
+      "bytes": 2606368
+    },
+    {
+      "id": "Inn-keeper",
+      "file": "characters/Inn-keeper.png",
+      "source_frame": "images/Amiga/Disk 1/animations/Inn-keeper/Inn-keeper-000.png",
+      "prompt": "Use case: illustration-story. Faithful HD repaint of ONLY the character portrait inside the small LEFT decorative frame in the supplied Amiga Soul Crystal cast screen. Extract its subject conceptually, omit ALL outer frame, all text, logos and castle background. Create one static vertical portrait, target 1024x1536, transparent background, isolated character and essential original props. Rich hand-painted classic adventure style, natural anatomy, confident visible brushwork, saturated restrained colors, no pixelation, no photorealism or 3D. Original pixels are vertically compressed: restore natural portrait proportions. Crop approximately waist-up, keep complete head and any visible hands inside generous margins, flat lower termination acceptable for portrait mounting. Preserve reference facial identity, costume and pose except explicit continuity corrections. Inn-keeper: jovial middle-aged heavyset man, short brown-grey hair and moustache, pale shirt, green waistcoat, red bow tie; behind small reception counter with open ledger and brass service bell as original. No labels or text. True transparent background, no shadow rectangle or decorative frame.",
+      "generated_source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-4a3bef7a-39ef-4eaa-93d3-fc50aa1e7bd4.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "sha256": "2a2bfdf50af50c3f9e78b7bdb7b444074014a6d91bfd159c2b44020b38feac9a",
+      "bytes": 2701536
+    },
+    {
+      "id": "Native",
+      "file": "characters/Native.png",
+      "source_frame": "images/Amiga/Disk 1/animations/Native/Native-000.png",
+      "prompt": "Use case: illustration-story. Faithful HD repaint of ONLY the character portrait inside the small LEFT decorative frame in the supplied Amiga Soul Crystal cast screen. Extract its subject conceptually, omit ALL outer frame, all text, logos and castle background. Create one static vertical portrait, target 1024x1536, transparent background, isolated character and essential original props. Rich hand-painted classic adventure style, natural anatomy, confident visible brushwork, saturated restrained colors, no pixelation, no photorealism or 3D. Original pixels are vertically compressed: restore natural portrait proportions. Crop approximately waist-up, keep complete head and any visible hands inside generous margins, flat lower termination acceptable for portrait mounting. Preserve reference facial identity, costume and pose except explicit continuity corrections. Native villager: elderly grey-haired man with thick grey beard, worn olive-green jacket, pale shirt, seated with pewter mug on plain table. Quiet earnest expression. Preserve original kindly lined face. No labels or text. True transparent background, no shadow rectangle or decorative frame.",
+      "generated_source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-31cef46d-1e10-43e0-99d7-8b3fc81a66f8.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "sha256": "ced9fecc844b8ca7cab7a7815b77f3a8ee48492c4d8f300e4db6aa9962736afc",
+      "bytes": 2651851
+    },
+    {
+      "id": "OldEremit",
+      "file": "characters/OldEremit.png",
+      "source_frame": "images/Amiga/Disk 1/animations/OldEremit/OldEremit-000.png",
+      "prompt": "Use case: illustration-story. Faithful HD repaint of ONLY the character portrait inside the small LEFT decorative frame in the supplied Amiga Soul Crystal cast screen. Extract its subject conceptually, omit ALL outer frame, all text, logos and castle background. Create one static vertical portrait, target 1024x1536, transparent background, isolated character and essential original props. Rich hand-painted classic adventure style, natural anatomy, confident visible brushwork, saturated restrained colors, no pixelation, no photorealism or 3D. Original pixels are vertically compressed: restore natural portrait proportions. Crop approximately waist-up, keep complete head and any visible hands inside generous margins, flat lower termination acceptable for portrait mounting. Preserve reference facial identity, costume and pose except explicit continuity corrections. Old hermit: gaunt aged man, unruly white-grey hair and very long white beard, deep wrinkles and bushy brows, ragged brown cloak over dark tunic, thoughtful stern eyes. No labels or text. True transparent background, no shadow rectangle or decorative frame.",
+      "generated_source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-5aed218a-bfb2-4a31-82f8-1639e53efa9f.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "sha256": "701a752bf079ed24627536ea6e50f8fb404b07df288c127b33285f1ddf285679",
+      "bytes": 3372801
+    },
+    {
+      "id": "OrcFamily",
+      "file": "characters/OrcFamily.png",
+      "source_frame": "images/Amiga/Disk 1/animations/OrcFamily/OrcFamily-000.png",
+      "prompt": "Use case: illustration-story. Faithful HD repaint of ONLY the character portrait inside the small LEFT decorative frame in the supplied Amiga Soul Crystal cast screen. Extract its subject conceptually, omit ALL outer frame, all text, logos and castle background. Create one static vertical portrait, target 1024x1536, transparent background, isolated character and essential original props. Rich hand-painted classic adventure style, natural anatomy, confident visible brushwork, saturated restrained colors, no pixelation, no photorealism or 3D. Original pixels are vertically compressed: restore natural portrait proportions. Crop approximately waist-up, keep complete head and any visible hands inside generous margins, flat lower termination acceptable for portrait mounting. Preserve reference facial identity, costume and pose except explicit continuity corrections. Orc family group exactly three characters: green-skinned father front center in blue shirt with pipe, adult mother behind right with brown-orange hair and red/cream clothes, small child lower left. Match original arrangement and facial identities. No fourth person. No labels or text. True transparent background, no shadow rectangle or decorative frame.",
+      "generated_source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-9fd4284c-2ca8-4c8a-b969-39d97ef40cc7.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "sha256": "b46c17effd0d4d060859360b6cedbd7761de7c82b07ab4c79e56c8d63c0d483c",
+      "bytes": 3088850
+    },
+    {
+      "id": "Seller",
+      "file": "characters/Seller.png",
+      "source_frame": "images/Amiga/Disk 1/animations/Seller/Seller-000.png",
+      "prompt": "Use case: illustration-story. Faithful HD repaint of ONLY the character portrait inside the small LEFT decorative frame in the supplied Amiga Soul Crystal cast screen. Extract its subject conceptually, omit ALL outer frame, all text, logos and castle background. Create one static vertical portrait, target 1024x1536, transparent background, isolated character and essential original props. Rich hand-painted classic adventure style, natural anatomy, confident visible brushwork, saturated restrained colors, no pixelation, no photorealism or 3D. Original pixels are vertically compressed: restore natural portrait proportions. Crop approximately waist-up, keep complete head and any visible hands inside generous margins, flat lower termination acceptable for portrait mounting. Preserve reference facial identity, costume and pose except explicit continuity corrections. Seller: middle-aged human merchant with curly reddish-brown hair, strong hooked nose, brown patterned coat over white shirt, affable sly expression. Follow original portrait's identity. No labels or text. True transparent background, no shadow rectangle or decorative frame.",
+      "generated_source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-f25bdc84-ab30-4929-8417-a16160154141.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "sha256": "e0546d50be79c0eee4a70bbd9071948e586361b8f0eb82d0ae225d46801dd063",
+      "bytes": 2871742
+    },
+    {
+      "id": "Yeti",
+      "file": "characters/Yeti.png",
+      "source_frame": "images/Amiga/Disk 1/animations/Yeti/Yeti-000.png",
+      "prompt": "Use case: illustration-story. Faithful HD repaint of ONLY the character portrait inside the small LEFT decorative frame in the supplied Amiga Soul Crystal cast screen. Extract its subject conceptually, omit ALL outer frame, all text, logos and castle background. Create one static vertical portrait, target 1024x1536, transparent background, isolated character and essential original props. Rich hand-painted classic adventure style, natural anatomy, confident visible brushwork, saturated restrained colors, no pixelation, no photorealism or 3D. Original pixels are vertically compressed: restore natural portrait proportions. Crop approximately waist-up, keep complete head and any visible hands inside generous margins, flat lower termination acceptable for portrait mounting. Preserve reference facial identity, costume and pose except explicit continuity corrections. Yeti: friendly big white/light icy-blue furred humanoid snow creature, rounded muzzle and dark eyes, broad upper body, large pale hand giving thumbs-up as original. Not wolf, not aggressive, no clothing. No labels or text. True transparent background, no shadow rectangle or decorative frame.",
+      "generated_source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-00dfe3d3-4be8-4469-b7ed-0254a0123746.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "sha256": "75b9519d5a2812aaf45b43a2eadca298b5e851a2e1e0276d7af288aacce0a9f2",
+      "bytes": 3052234
+    },
+    {
+      "id": "Cast",
+      "file": "Cast.png",
+      "source_frame": "images/Amiga/Disk 1/Cast.png",
+      "prompt": "Use case: illustration-story. Faithful HD repaint of provided original Soul Crystal Amiga Cast.png screen as reusable static intro CAST BACKDROP. Preserve overall original 4:3 display layout (source 320x200 pixels displayed as 4:3), target 1920x1440. Hand-painted classic fantasy adventure style. Exact title text 'SOUL CRYSTAL' in two lines in upper left, turquoise icy crystalline lettering with its distinctive original shape. Below title on left, the original tall narrow turquoise-grey ornamental stone/metal portrait frame with segmented edges and angular corners, same relative size and placement. Its central portrait opening must be EMPTY AND FULLY TRANSPARENT so a character can be composited underneath. Rest of screen: deep purple twilight sky, black silhouetted medieval castle with pointed towers on rocky island, lake reflections, bare branches, silhouetted reeds and foreground shore as in original. Keep the large right-side area dark and quiet to allow credits later, but no credits text yet. No characters, no portraits, no actor names, no new layout, no extra frame around whole image. Outer backdrop remains opaque; ONLY inner left portrait aperture is transparent. Preserve mood, silhouette composition, proportions and sparse purple/black/cyan palette rather than inventing a different castle landscape.",
+      "generated_source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-b5d0f591-215c-49e3-bae9-da283f03a315.png",
+      "width": 1448,
+      "height": 1086,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "sha256": "34c0771ab2510ed13070e57ff16c06013bcac3fb832dbb4f456b99198f4b6534",
+      "bytes": 2320307
+    },
+    {
+      "id": "Credits-00",
+      "file": "credits/Credits-00.png",
+      "source_frame": "images/Amiga/Disk 1/Credits-00.png",
+      "heading": "STORY\nAND\nCONCEPT:",
+      "names": "CHRIS LINK\nKAI SCHULZE",
+      "prompt": "Faithful HD remake of this Amiga Soul Crystal intro credit card. Single landscape 1920x1080 image, pure solid black background. No scenery, frames, logos or ornaments. Elegant classic engraved Roman serif uppercase typography, smooth sharp high resolution edges. Heading luminous cobalt blue with fine cyan/silver bevel highlights; credited names silver white with very subtle engraved shading. Preserve original wording EXACTLY including umlauts and original line breaks. Center text block horizontally and vertically with ample black margins, readable natural letter proportions. Heading slightly smaller than names. Do not add or repeat words. Heading text verbatim:\nSTORY\nAND\nCONCEPT:\nNames below, verbatim:\nCHRIS LINK\nKAI SCHULZE",
+      "generated_source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-382205df-d0ae-4fea-a8b7-f33192c495b7.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sha256": "9723dbec1e3a80a41f89272816fc3788a5eed93e3f86e5e703c9b2240d49f451",
+      "bytes": 679028
+    },
+    {
+      "id": "Credits-01",
+      "file": "credits/Credits-01.png",
+      "source_frame": "images/Amiga/Disk 1/Credits-01.png",
+      "heading": "GAME DESIGN:",
+      "names": "CHRIS LINK\nKAI SCHULZE",
+      "prompt": "Faithful HD remake of this Amiga Soul Crystal intro credit card. Single landscape 1920x1080 image, pure solid black background. No scenery, frames, logos or ornaments. Elegant classic engraved Roman serif uppercase typography, smooth sharp high resolution edges. Heading luminous cobalt blue with fine cyan/silver bevel highlights; credited names silver white with very subtle engraved shading. Preserve original wording EXACTLY including umlauts and original line breaks. Center text block horizontally and vertically with ample black margins, readable natural letter proportions. Heading slightly smaller than names. Do not add or repeat words. Heading text verbatim:\nGAME DESIGN:\nNames below, verbatim:\nCHRIS LINK\nKAI SCHULZE",
+      "generated_source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-08081518-ac9b-45cb-a89f-101415da75f5.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sha256": "80a9ce155d76644af30cbefcde7ae56094e12da8f988c8b4cdc729794d9e5e03",
+      "bytes": 582532
+    },
+    {
+      "id": "Credits-02",
+      "file": "credits/Credits-02.png",
+      "source_frame": "images/Amiga/Disk 1/Credits-02.png",
+      "heading": "GRAPHICAL\nARTWORKS:",
+      "names": "OLIVER BRÜHL",
+      "prompt": "Faithful HD remake of this Amiga Soul Crystal intro credit card. Single landscape 1920x1080 image, pure solid black background. No scenery, frames, logos or ornaments. Elegant classic engraved Roman serif uppercase typography, smooth sharp high resolution edges. Heading luminous cobalt blue with fine cyan/silver bevel highlights; credited names silver white with very subtle engraved shading. Preserve original wording EXACTLY including umlauts and original line breaks. Center text block horizontally and vertically with ample black margins, readable natural letter proportions. Heading slightly smaller than names. Do not add or repeat words. Heading text verbatim:\nGRAPHICAL\nARTWORKS:\nNames below, verbatim:\nOLIVER BRÜHL",
+      "generated_source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-3b03862c-3c71-436d-92f4-e9b8f33f87d0.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sha256": "b81fb101453b349a6801ede7bba1650a1c264ce23d3947f81fff0f15c03ce66a",
+      "bytes": 664350
+    },
+    {
+      "id": "Credits-03",
+      "file": "credits/Credits-03.png",
+      "source_frame": "images/Amiga/Disk 1/Credits-03.png",
+      "heading": "SOUNDTRACK\nAND\nSAMPLING:",
+      "names": "CHRIS LINK",
+      "prompt": "Faithful HD remake of this Amiga Soul Crystal intro credit card. Single landscape 1920x1080 image, pure solid black background. No scenery, frames, logos or ornaments. Elegant classic engraved Roman serif uppercase typography, smooth sharp high resolution edges. Heading luminous cobalt blue with fine cyan/silver bevel highlights; credited names silver white with very subtle engraved shading. Preserve original wording EXACTLY including umlauts and original line breaks. Center text block horizontally and vertically with ample black margins, readable natural letter proportions. Heading slightly smaller than names. Do not add or repeat words. Heading text verbatim:\nSOUNDTRACK\nAND\nSAMPLING:\nNames below, verbatim:\nCHRIS LINK",
+      "generated_source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-dfed3f6c-0cdf-4f8b-96b3-8a40aa8df1fd.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sha256": "e35ff4a4e78e1bdbc96a3d138c00ea056a710b794cdbad1fb8ac003299ad3c5b",
+      "bytes": 711544
+    },
+    {
+      "id": "Credits-04",
+      "file": "credits/Credits-04.png",
+      "source_frame": "images/Amiga/Disk 1/Credits-04.png",
+      "heading": "TEXTS:",
+      "names": "CHRIS LINK",
+      "prompt": "Faithful HD remake of this Amiga Soul Crystal intro credit card. Single landscape 1920x1080 image, pure solid black background. No scenery, frames, logos or ornaments. Elegant classic engraved Roman serif uppercase typography, smooth sharp high resolution edges. Heading luminous cobalt blue with fine cyan/silver bevel highlights; credited names silver white with very subtle engraved shading. Preserve original wording EXACTLY including umlauts and original line breaks. Center text block horizontally and vertically with ample black margins, readable natural letter proportions. Heading slightly smaller than names. Do not add or repeat words. Heading text verbatim:\nTEXTS:\nNames below, verbatim:\nCHRIS LINK",
+      "generated_source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-a32ae30a-3e44-41c7-a1fd-ec6276046ea7.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sha256": "7b1026373927e12f7f9737bef091845b29c5b1faa7512d657bf56fc7b539ec02",
+      "bytes": 489318
+    },
+    {
+      "id": "Credits-05",
+      "file": "credits/Credits-05.png",
+      "source_frame": "images/Amiga/Disk 1/Credits-05.png",
+      "heading": "GRAPHIC\nCONVERSIONS:",
+      "names": "KLAUS ADAMOVSKY\nMICHAEL NIEMEYER\nCHRIS LINK\nHENRIK FISCH",
+      "prompt": "Faithful HD remake of this Amiga Soul Crystal intro credit card. Single landscape 1920x1080 image, pure solid black background. No scenery, frames, logos or ornaments. Elegant classic engraved Roman serif uppercase typography, smooth sharp high resolution edges. Heading luminous cobalt blue with fine cyan/silver bevel highlights; credited names silver white with very subtle engraved shading. Preserve original wording EXACTLY including umlauts and original line breaks. Center text block horizontally and vertically with ample black margins, readable natural letter proportions. Heading slightly smaller than names. Do not add or repeat words. Heading text verbatim:\nGRAPHIC\nCONVERSIONS:\nNames below, verbatim:\nKLAUS ADAMOVSKY\nMICHAEL NIEMEYER\nCHRIS LINK\nHENRIK FISCH",
+      "generated_source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-9dfee5f0-65cc-4291-81e7-0a1357b54c48.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sha256": "0b17d49e5b697d039e3aa38b98748fb0ee88940700603fa9fef9daccea12ed04",
+      "bytes": 886238
+    },
+    {
+      "id": "Credits-06",
+      "file": "credits/Credits-06.png",
+      "source_frame": "images/Amiga/Disk 1/Credits-06.png",
+      "heading": "MUSIC\nCONVERSION:",
+      "names": "OLIVER KLÄWER",
+      "prompt": "Faithful HD remake of this Amiga Soul Crystal intro credit card. Single landscape 1920x1080 image, pure solid black background. No scenery, frames, logos or ornaments. Elegant classic engraved Roman serif uppercase typography, smooth sharp high resolution edges. Heading luminous cobalt blue with fine cyan/silver bevel highlights; credited names silver white with very subtle engraved shading. Preserve original wording EXACTLY including umlauts and original line breaks. Center text block horizontally and vertically with ample black margins, readable natural letter proportions. Heading slightly smaller than names. Do not add or repeat words. Heading text verbatim:\nMUSIC\nCONVERSION:\nNames below, verbatim:\nOLIVER KLÄWER",
+      "generated_source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-9f285da5-9fa2-4661-8534-5315d56cc1b8.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sha256": "bc037ec61e612eceb925d5910f33d849a35566879b4d2723f9c845e4963e38e7",
+      "bytes": 665340
+    },
+    {
+      "id": "Credits-07",
+      "file": "credits/Credits-07.png",
+      "source_frame": "images/Amiga/Disk 1/Credits-07.png",
+      "heading": "MENU\nSYSTEM:",
+      "names": "KAI SCHULZE\nCHRIS LINK\nCARSTEN JENDRO\nOLIVER BRÜHL",
+      "prompt": "Faithful HD remake of this Amiga Soul Crystal intro credit card. Single landscape 1920x1080 image, pure solid black background. No scenery, frames, logos or ornaments. Elegant classic engraved Roman serif uppercase typography, smooth sharp high resolution edges. Heading luminous cobalt blue with fine cyan/silver bevel highlights; credited names silver white with very subtle engraved shading. Preserve original wording EXACTLY including umlauts and original line breaks. Center text block horizontally and vertically with ample black margins, readable natural letter proportions. Heading slightly smaller than names. Do not add or repeat words. Heading text verbatim:\nMENU\nSYSTEM:\nNames below, verbatim:\nKAI SCHULZE\nCHRIS LINK\nCARSTEN JENDRO\nOLIVER BRÜHL",
+      "generated_source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-e1668593-5759-4078-8c50-8b8c6fa71905.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sha256": "3049b7fbc535d297c7c94d3dca1a7c150200090628b69a754d2c52517b88b7b5",
+      "bytes": 849610
+    },
+    {
+      "id": "Credits-08",
+      "file": "credits/Credits-08.png",
+      "source_frame": "images/Amiga/Disk 1/Credits-08.png",
+      "heading": "PARSER\nSYSTEM:",
+      "names": "KAI SCHULZE\nKJERSTEN WALDHEIM\nCARSTEN JENDRO",
+      "prompt": "Faithful HD remake of this Amiga Soul Crystal intro credit card. Single landscape 1920x1080 image, pure solid black background. No scenery, frames, logos or ornaments. Elegant classic engraved Roman serif uppercase typography, smooth sharp high resolution edges. Heading luminous cobalt blue with fine cyan/silver bevel highlights; credited names silver white with very subtle engraved shading. Preserve original wording EXACTLY including umlauts and original line breaks. Center text block horizontally and vertically with ample black margins, readable natural letter proportions. Heading slightly smaller than names. Do not add or repeat words. Heading text verbatim:\nPARSER\nSYSTEM:\nNames below, verbatim:\nKAI SCHULZE\nKJERSTEN WALDHEIM\nCARSTEN JENDRO",
+      "generated_source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-09869b37-1aae-47bc-aa24-b9f395e4c580.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sha256": "00a04a2174d4a42eebbd69003360dc77160669ab1b5b074374300d6ecfcfda40",
+      "bytes": 765833
+    },
+    {
+      "id": "Credits-09",
+      "file": "credits/Credits-09.png",
+      "source_frame": "images/Amiga/Disk 1/Credits-09.png",
+      "heading": "DATA COMPRESSION\nROUTINES:",
+      "names": "MICHAEL NIEMEYER\nKAI SCHULZE\nHENRIK FISCH",
+      "prompt": "Faithful HD remake of this Amiga Soul Crystal intro credit card. Single landscape 1920x1080 image, pure solid black background. No scenery, frames, logos or ornaments. Elegant classic engraved Roman serif uppercase typography, smooth sharp high resolution edges. Heading luminous cobalt blue with fine cyan/silver bevel highlights; credited names silver white with very subtle engraved shading. Preserve original wording EXACTLY including umlauts and original line breaks. Center text block horizontally and vertically with ample black margins, readable natural letter proportions. Heading slightly smaller than names. Do not add or repeat words. Heading text verbatim:\nDATA COMPRESSION\nROUTINES:\nNames below, verbatim:\nMICHAEL NIEMEYER\nKAI SCHULZE\nHENRIK FISCH",
+      "generated_source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-ea270761-7a99-4d22-9421-5f63ff0c2963.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sha256": "f0c2ab3c8fc620bb62b4599e3a47f3b7c4c1ac0ca1c5523a6d57e7cc3a44b533",
+      "bytes": 772830
+    },
+    {
+      "id": "Credits-10",
+      "file": "credits/Credits-10.png",
+      "source_frame": "images/Amiga/Disk 1/Credits-10.png",
+      "heading": "INTRO CODING:",
+      "names": "KAI SCHULZE\nMICHAEL NIEMEYER\nHENRIK FISCH",
+      "prompt": "Faithful HD remake of this Amiga Soul Crystal intro credit card. Single landscape 1920x1080 image, pure solid black background. No scenery, frames, logos or ornaments. Elegant classic engraved Roman serif uppercase typography, smooth sharp high resolution edges. Heading luminous cobalt blue with fine cyan/silver bevel highlights; credited names silver white with very subtle engraved shading. Preserve original wording EXACTLY including umlauts and original line breaks. Center text block horizontally and vertically with ample black margins, readable natural letter proportions. Heading slightly smaller than names. Do not add or repeat words. Heading text verbatim:\nINTRO CODING:\nNames below, verbatim:\nKAI SCHULZE\nMICHAEL NIEMEYER\nHENRIK FISCH",
+      "generated_source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-e5426d24-5e3e-42ff-b9b0-115f2980bde2.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sha256": "be8b6dbcfe8198a4dda5ee747cb38985a6f11741a1d2b560bca28b44cc590a64",
+      "bytes": 741746
+    },
+    {
+      "id": "Credits-11",
+      "file": "credits/Credits-11.png",
+      "source_frame": "images/Amiga/Disk 1/Credits-11.png",
+      "heading": "TEST\nPLAYING:",
+      "names": "SVEN PRÜSSING\nMARC-OLIVER ORTH\nCHRISTIAN KOCH",
+      "prompt": "Faithful HD remake of this Amiga Soul Crystal intro credit card. Single landscape 1920x1080 image, pure solid black background. No scenery, frames, logos or ornaments. Elegant classic engraved Roman serif uppercase typography, smooth sharp high resolution edges. Heading luminous cobalt blue with fine cyan/silver bevel highlights; credited names silver white with very subtle engraved shading. Preserve original wording EXACTLY including umlauts and original line breaks. Center text block horizontally and vertically with ample black margins, readable natural letter proportions. Heading slightly smaller than names. Do not add or repeat words. Heading text verbatim:\nTEST\nPLAYING:\nNames below, verbatim:\nSVEN PRÜSSING\nMARC-OLIVER ORTH\nCHRISTIAN KOCH",
+      "generated_source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-692d0c47-16ce-4de9-ab3a-0ae8ee2ac93e.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sha256": "595831a39a46d5b50363c297d986a12cfd3eb3cb4a76f02cb1969d0132121bac",
+      "bytes": 799421
+    },
+    {
+      "id": "Credits-12",
+      "file": "credits/Credits-12.png",
+      "source_frame": "images/Amiga/Disk 1/Credits-12.png",
+      "heading": "PROJECT\nMANAGEMENT:",
+      "names": "CHRIS LINK\nKAI SCHULZE\nMICHAEL NIEMEYER\nHENRIK FISCH",
+      "prompt": "Faithful HD remake of this Amiga Soul Crystal intro credit card. Single landscape 1920x1080 image, pure solid black background. No scenery, frames, logos or ornaments. Elegant classic engraved Roman serif uppercase typography, smooth sharp high resolution edges. Heading luminous cobalt blue with fine cyan/silver bevel highlights; credited names silver white with very subtle engraved shading. Preserve original wording EXACTLY including umlauts and original line breaks. Center text block horizontally and vertically with ample black margins, readable natural letter proportions. Heading slightly smaller than names. Do not add or repeat words. Heading text verbatim:\nPROJECT\nMANAGEMENT:\nNames below, verbatim:\nCHRIS LINK\nKAI SCHULZE\nMICHAEL NIEMEYER\nHENRIK FISCH",
+      "generated_source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-11590a75-430a-47dc-ad39-eaed269052ab.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sha256": "4436fbc56246314782ff0aa44e7d941fea6961c7032a2da705687685efc4c8fb",
+      "bytes": 846089
+    },
+    {
+      "id": "Credits-13",
+      "file": "credits/Credits-13.png",
+      "source_frame": "images/Amiga/Disk 1/Credits-13.png",
+      "heading": "EXECUTIVE\nPRODUCERS:",
+      "names": "CHRIS LINK\nMARKUS SCHEER",
+      "prompt": "Faithful HD remake of this Amiga Soul Crystal intro credit card. Single landscape 1920x1080 image, pure solid black background. No scenery, frames, logos or ornaments. Elegant classic engraved Roman serif uppercase typography, smooth sharp high resolution edges. Heading luminous cobalt blue with fine cyan/silver bevel highlights; credited names silver white with very subtle engraved shading. Preserve original wording EXACTLY including umlauts and original line breaks. Center text block horizontally and vertically with ample black margins, readable natural letter proportions. Heading slightly smaller than names. Do not add or repeat words. Heading text verbatim:\nEXECUTIVE\nPRODUCERS:\nNames below, verbatim:\nCHRIS LINK\nMARKUS SCHEER",
+      "generated_source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-0e638564-d8ba-4035-a14b-9b19169474c6.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sha256": "22425f7543e0f3894e610d3c0c0bb9f991d7aa1ac63b44782aa1037e32d20fc6",
+      "bytes": 717983
+    },
+    {
+      "id": "Credits-14",
+      "file": "credits/Credits-14.png",
+      "source_frame": "images/Amiga/Disk 1/Credits-14.png",
+      "heading": "STARRING:",
+      "names": "",
+      "prompt": "Faithful HD remake of this Amiga Soul Crystal intro credit card. Single landscape 1920x1080 image, pure solid black background. No scenery, frames, logos or ornaments. Elegant classic engraved Roman serif uppercase typography, smooth sharp high resolution edges. Heading luminous cobalt blue with fine cyan/silver bevel highlights; credited names silver white with very subtle engraved shading. Preserve original wording EXACTLY including umlauts and original line breaks. Center text block horizontally and vertically with ample black margins, readable natural letter proportions. Heading slightly smaller than names. Do not add or repeat words. Heading text verbatim:\nSTARRING:\nNo names on this card.",
+      "generated_source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-29010aba-42ac-4ad1-8e18-d39e748a8ae5.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sha256": "31948ff7935f2c2d2842d47473aafb98c381118d0dcdf58da14c11508b8e1791",
+      "bytes": 376357
+    },
+    {
+      "id": "ACA",
+      "file": "logos/ACA.png",
+      "source_frame": "images/Amiga/Disk 1/ACA.png",
+      "prompt": "Faithful HD restoration of the supplied Soul Crystal Amiga ACA intro logo. Landscape 1920x1080 canvas with solid pure black background. Original pixels are vertically compressed; restore natural proportions so parchment is a broad horizontal scroll, about twice as wide as tall, centered with black margins. Preserve the exact distinctive handwritten interlocking gold emblem and original composition. Warm golden yellow aged parchment with curled top and bottom rollers, subtle paper grain, finely painted golden shading, clean high-resolution edges. Reproduce exact text, no substitutions: small 'An' above emblem; 'Avantgardistic Arts' below emblem; 'Production...' on final line. Elegant original serif letterforms, dark brown ink. Preserve spelling Avantgardistic exactly. This is an authentic game publisher card restoration, not a redesign. No new symbols, no additional text or border.",
+      "generated_source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-ff235934-007d-429e-93b1-73d7542f9557.png",
+      "width": 1672,
+      "height": 940,
+      "mode": "RGB",
+      "sha256": "1b9ecc5c8e6fc535eeeef0f5f890f911f7c1eef134f1f10a8b3a5934200848e5",
+      "bytes": 1979611
+    },
+    {
+      "id": "Starbyte",
+      "file": "logos/Starbyte.png",
+      "source_frame": "images/Amiga/Disk 1/Starbyte.png",
+      "prompt": "Faithful HD restoration of the supplied original Starbyte publisher card from Soul Crystal Amiga. Single landscape 1920x1080 image on solid pure black background. Preserve the distinctive original STARBYTE logo: highly slanted handwritten connected angular sweeping strokes, very long sweeping S and extended underline/terminal strokes, bright electric cyan turquoise faces with cobalt blue fine bevel/shadows and silver glints. Trace the original identity closely, not a new typeset logo. Restore natural proportions from vertically compressed original pixels, centered wide logo in upper-middle of frame with comfortable black margins, no clipping. Under the right half of the logo the exact word 'PRESENTS...' in silver white widely spaced elegant uppercase Roman serif letters. No other words, ornaments or scenery. Clean smooth high resolution edges and polished early-1990s fantasy-adventure publisher aesthetic.",
+      "generated_source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-319d909d-b24e-4d18-b070-4bf40c047a96.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sha256": "259715612e7b0489e2ca13929607c3e6da22a8778fe02fb748a17b34890edb1c",
+      "bytes": 664211
+    }
+  ]
+}
