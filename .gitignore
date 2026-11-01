@@ -19,3 +19,13 @@ tables
 # Vite dependencies and copied web assets
 /web/node_modules/
 /web/public/
+
+# Local secrets (ElevenLabs API key for src/Python/cutscenes)
+.env
+
+# Python bytecode
+__pycache__/
+
+# Generated review pages of the story illustrations
+/images/Stories/cutscene-audit.html
+/images/Stories/cutscene-audit.json
