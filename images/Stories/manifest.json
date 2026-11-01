@@ -1083,6 +1083,108 @@
           "input_sha256": "d11697e3b06467948b43b3df2e586ae38bb7c6f1eb3508f4db3ebfbc2adccd40"
         }
       ]
+    },
+    {
+      "id": "jack_geist-01",
+      "scene": "jack_geist",
+      "file": "jack/jack_geist-01.png",
+      "brief": "Man kniet vor dem Steinaltar und betet.",
+      "cue": "Man kniet vor dem Steinaltar und betet.",
+      "prompt": "Use case: illustration-story. Create ONE full-bleed landscape 16:9 HD painterly adventure-game story illustration, target 2048x1152. Match reference 1's small medieval chapel: rough blue-violet stone blocks, simple stone altar on steps, wall cross, squat benches and stone holy-water basin, rich purple light and dark arches. Match confident visible painted brushwork, saturated light, readable shapes, no photography or 3D. Reference 2 is ONLY for protagonist's winter clothing: dark fur coat with grey fur trim, lined trousers, fur boots, leather gloves. Do NOT include the blue-robed man Mylgor. Player is first-person, no exposed arms. No captions, text, borders, panels or watermark. Brother Jack if present is ONLY a long grey hooded monk's robe, lightly translucent, hovering above floor, completely concealing astral body. No visible hands or feet, no skeleton or glowing eyes; at most a faint suggestion of face deep under hood.\nNarrative moment: First-person view kneeling close before the stone altar, the player's two leather-gloved hands clasped together in prayer in the foreground, thick grey fur cuffs and winter-clothed knees visible. Cross above altar. Serious quiet devotional composition; humor comes from narration. NO ghost yet.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-d12e40bc-f504-4d60-a39f-b0df9e95da1f.png",
+      "references": [
+        "images/Amiga_HD/Disk 3/DiskB-030.png",
+        "images/Stories/mylgor/mylgor_auftrag-01.png"
+      ],
+      "width": 1672,
+      "height": 941,
+      "bytes": 2532127,
+      "sha256": "3dcf96c0f9735d84d2b424331fb08251f26ab05ac619a50fd6fc52895da51ff9"
+    },
+    {
+      "id": "jack_geist-02",
+      "scene": "jack_geist",
+      "file": "jack/jack_geist-02.png",
+      "brief": "Nebel zieht durch das Kirchenschiff.",
+      "cue": "Nebel zieht durch das Kirchenschiff.",
+      "prompt": "Use case: illustration-story. Create ONE full-bleed landscape 16:9 HD painterly adventure-game story illustration, target 2048x1152. Match reference 1's small medieval chapel: rough blue-violet stone blocks, simple stone altar on steps, wall cross, squat benches and stone holy-water basin, rich purple light and dark arches. Match confident visible painted brushwork, saturated light, readable shapes, no photography or 3D. Reference 2 is ONLY for protagonist's winter clothing: dark fur coat with grey fur trim, lined trousers, fur boots, leather gloves. Do NOT include the blue-robed man Mylgor. Player is first-person, no exposed arms. No captions, text, borders, panels or watermark. Brother Jack if present is ONLY a long grey hooded monk's robe, lightly translucent, hovering above floor, completely concealing astral body. No visible hands or feet, no skeleton or glowing eyes; at most a faint suggestion of face deep under hood.\nNarrative moment: First-person camera has turned back over the shoulder away from the altar toward the chapel aisle. A sliver of player's fur-covered shoulder in foreground. Low cold mist creeps along floor between the benches and grows denser; a few small candle flames bend in an icy draft. No human outline or ghost yet, suspenseful atmosphere. Architecture remains this small chapel, not a cathedral.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-3a416b67-1880-47b2-93fd-9bee709a1b55.png",
+      "references": [
+        "images/Amiga_HD/Disk 3/DiskB-030.png",
+        "images/Stories/mylgor/mylgor_auftrag-01.png"
+      ],
+      "width": 1672,
+      "height": 941,
+      "bytes": 2415177,
+      "sha256": "2ca575232dcb08c89eefbb75a52a69744f2b37b3c3875df4e62934c5491d45eb"
+    },
+    {
+      "id": "jack_geist-03",
+      "scene": "jack_geist",
+      "file": "jack/jack_geist-03.png",
+      "brief": "Der Nebel nimmt menschliche Umrisse an.",
+      "cue": "Der Nebel nimmt menschliche Umrisse an.",
+      "prompt": "Use case: illustration-story. Create ONE full-bleed landscape 16:9 HD painterly adventure-game story illustration, target 2048x1152. Match reference 1's small medieval chapel: rough blue-violet stone blocks, simple stone altar on steps, wall cross, squat benches and stone holy-water basin, rich purple light and dark arches. Match confident visible painted brushwork, saturated light, readable shapes, no photography or 3D. Reference 2 is ONLY for protagonist's winter clothing: dark fur coat with grey fur trim, lined trousers, fur boots, leather gloves. Do NOT include the blue-robed man Mylgor. Player is first-person, no exposed arms. No captions, text, borders, panels or watermark. Brother Jack if present is ONLY a long grey hooded monk's robe, lightly translucent, hovering above floor, completely concealing astral body. No visible hands or feet, no skeleton or glowing eyes; at most a faint suggestion of face deep under hood.\nNarrative moment: Facing down the chapel aisle from beside the altar: dense mist immediately in front of viewer is just taking on the outline of a hovering grey hooded monk, still half amorphous vapor, translucent edges. Hood is empty shadow; no hands or feet, no face yet. Violet chapel masonry and benches visible through mist. Quiet supernatural tension.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-a82e094f-00d4-4ef0-8519-8b621fd993a5.png",
+      "references": [
+        "images/Amiga_HD/Disk 3/DiskB-030.png",
+        "images/Stories/mylgor/mylgor_auftrag-01.png"
+      ],
+      "width": 1672,
+      "height": 941,
+      "bytes": 2470057,
+      "sha256": "a4197db671cfb06a347ed8c1b197e2f85373fb307bc40c603a134086347fc4f0"
+    },
+    {
+      "id": "jack_geist-04",
+      "scene": "jack_geist",
+      "file": "jack/jack_geist-04.png",
+      "brief": "Jack grinst: Deine Hosen ... alles in Ordnung?",
+      "cue": "Jack grinst: Deine Hosen ... alles in Ordnung?",
+      "prompt": "Use case: illustration-story. Create ONE full-bleed landscape 16:9 HD painterly adventure-game story illustration, target 2048x1152. Match reference 1's small medieval chapel: rough blue-violet stone blocks, simple stone altar on steps, wall cross, squat benches and stone holy-water basin, rich purple light and dark arches. Match confident visible painted brushwork, saturated light, readable shapes, no photography or 3D. Reference 2 is ONLY for protagonist's winter clothing: dark fur coat with grey fur trim, lined trousers, fur boots, leather gloves. Do NOT include the blue-robed man Mylgor. Player is first-person, no exposed arms. No captions, text, borders, panels or watermark. Brother Jack if present is ONLY a long grey hooded monk's robe, lightly translucent, hovering above floor, completely concealing astral body. No visible hands or feet, no skeleton or glowing eyes; at most a faint suggestion of face deep under hood.\nNarrative moment: Brother Jack now fully recognizable as a hovering translucent grey hooded robe close to viewer in the chapel aisle. He tilts his hood downward with an amused, kindly, mischievous expression only faintly suggested deep in shadow, glancing at player's LINED WINTER TROUSERS visible at lower foreground from first-person kneeling viewpoint. Player's fur cuffs and gloved hands rest defensively on knees. No wet patch, no nudity. Comic reaction conveyed by Jack's gentle tilt, not an exposed detailed face. No hands or feet on Jack.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-a13330b6-eb5a-4f71-bd41-0268c8262b89.png",
+      "references": [
+        "images/Amiga_HD/Disk 3/DiskB-030.png",
+        "images/Stories/mylgor/mylgor_auftrag-01.png"
+      ],
+      "width": 1672,
+      "height": 941,
+      "bytes": 2386964,
+      "sha256": "890008e940d3b73f84e3d9a41b6dcb8ad7477f1da1f4aa32d0dabedda590eb83"
+    },
+    {
+      "id": "jack_auftrag-01",
+      "scene": "jack_auftrag",
+      "file": "jack/jack_auftrag-01.png",
+      "brief": "Jack nickt und erzählt von König Richard.",
+      "cue": "Jack nickt und erzählt von König Richard.",
+      "prompt": "Use case: illustration-story. Create ONE full-bleed landscape 16:9 HD painterly adventure-game story illustration, target 2048x1152. Match reference 1's small medieval chapel: rough blue-violet stone blocks, simple stone altar on steps, wall cross, squat benches and stone holy-water basin, rich purple light and dark arches. Match confident visible painted brushwork, saturated light, readable shapes, no photography or 3D. Reference 2 is ONLY for protagonist's winter clothing: dark fur coat with grey fur trim, lined trousers, fur boots, leather gloves. Do NOT include the blue-robed man Mylgor. Player is first-person, no exposed arms. No captions, text, borders, panels or watermark. Brother Jack if present is ONLY a long grey hooded monk's robe, lightly translucent, hovering above floor, completely concealing astral body. No visible hands or feet, no skeleton or glowing eyes; at most a faint suggestion of face deep under hood.\nNarrative moment: Medium-wide first-person conversation with Brother Jack in the same violet chapel. The hovering translucent grey hooded monk inclines his hood slowly in a solemn thoughtful nod, telling the tragic history of the king. Robe covers entire body, sleeves closed and empty, absolutely no visible hands or feet. Face only a faint suggestion deep in hood. Strong contemplative storytelling composition, no other characters, no illustrative flashbacks.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-bfabc806-141a-4178-9b9b-9cd8b0e3bb7f.png",
+      "references": [
+        "images/Amiga_HD/Disk 3/DiskB-030.png",
+        "images/Stories/mylgor/mylgor_auftrag-01.png"
+      ],
+      "width": 1672,
+      "height": 941,
+      "bytes": 2372814,
+      "sha256": "cae46f5d4c82fa3fa45ae03810776c0417fb337d1257be1caba509c0a692ba53"
+    },
+    {
+      "id": "jack_auftrag-02",
+      "scene": "jack_auftrag",
+      "file": "jack/jack_auftrag-02.png",
+      "brief": "Jack löst sich in bläulichem Rauch auf.",
+      "cue": "Jack löst sich in bläulichem Rauch auf.",
+      "prompt": "Use case: illustration-story. Create ONE full-bleed landscape 16:9 HD painterly adventure-game story illustration, target 2048x1152. Match reference 1's small medieval chapel: rough blue-violet stone blocks, simple stone altar on steps, wall cross, squat benches and stone holy-water basin, rich purple light and dark arches. Match confident visible painted brushwork, saturated light, readable shapes, no photography or 3D. Reference 2 is ONLY for protagonist's winter clothing: dark fur coat with grey fur trim, lined trousers, fur boots, leather gloves. Do NOT include the blue-robed man Mylgor. Player is first-person, no exposed arms. No captions, text, borders, panels or watermark. Brother Jack if present is ONLY a long grey hooded monk's robe, lightly translucent, hovering above floor, completely concealing astral body. No visible hands or feet, no skeleton or glowing eyes; at most a faint suggestion of face deep under hood.\nNarrative moment: Brother Jack departs: the same hovering grey hooded robe is dissolving into a cloud of BLUE smoke, fabric edges unraveling into immaterial vapor, hood and torso already mostly transparent. No corpse, skeleton, hands or feet and no discarded physical garment. The empty chapel aisle and benches become visible behind and through him. Poignant magical departure, serene blue smoke against violet stone, no other figures.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-df93cffd-2473-4b4f-93e0-1a4abe3e44b4.png",
+      "references": [
+        "images/Amiga_HD/Disk 3/DiskB-030.png",
+        "images/Stories/mylgor/mylgor_auftrag-01.png"
+      ],
+      "width": 1672,
+      "height": 941,
+      "bytes": 2636815,
+      "sha256": "431522b179f2850a967997f8a21ac7c2a8a4e03da009dc7cc0d5a69a80873eb9"
     }
   ],
   "updated": "2026-11-01"
