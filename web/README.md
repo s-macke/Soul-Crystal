@@ -52,6 +52,34 @@ Port-Metadatenbytes, Versionskennung und Prüfsumme. Laden führt keinen Spielbe
 aus. Die CLI erhält damit noch keine Dateiverwaltung. Der WASM-Replaytest lädt
 nach jedem spielbaren Befehl erneut und prüft identischen Zustand und Endergebnis.
 
+## Lokaler Testmodus
+
+`http://localhost:5174/?test=1` (Port des laufenden Vite-Servers) aktiviert im
+Ladedialog den separaten Bereich **Testspielstände**. Ohne den Parameter und im
+Produktionsbuild erscheint dieser Bereich nicht. Die Vorlagen stammen aus dem
+deutschen `tests/replays/fast.replay`; Laden stellt daher auch Deutsch wieder her.
+Sie sind unveränderlich, werden nicht in localStorage importiert und lassen sich
+nach dem Laden ganz normal weiterspielen oder als eigener Spielstand speichern.
+
+```sh
+npm run test-saves --prefix web
+```
+
+Der Generator erstellt 17 Checkpoints: Teilanfänge A–D, Rezeption, Wasserfall,
+Einhorn, Orkhöhle, Eispalast, Krypta, Geheimlabor, Burgeingang, Torwächter,
+Bibliothek, Altar, Mysterium und die letzte Aktion vor dem Ende. Er spielt zuerst
+regulär bis zum Ende und prüft dann für jede Vorlage einzeln, dass Laden und der
+restliche Replay-Ablauf wieder mit 4955 Punkten gewinnen. Zustände werden nicht
+per Teleport oder Inventarmanipulation hergestellt. Jede Vorlage nennt Raum,
+Punkte und die Anzahl bereits ausgeführter Replay-Befehle.
+
+Ausgabe: `build/test-saves.json` (generiert, nicht versioniert). Der Katalog enthält
+Replay- und WASM-Prüfsummen; der Entwicklungsserver weist veraltete Vorlagen ab.
+`npm run dev` erzeugt sie automatisch mit dem vorhandenen WASM-Build. Nach
+Kernänderungen zuerst `./build_wasm_docker.sh`, dann Assets und Vorlagen erneuern
+oder den Entwicklungsserver neu starten. Die JSON-Datei liegt außerhalb von
+`web/public`; der Vite-Endpunkt `/__test-saves` existiert nur im Entwicklungsserver.
+
 ## Symbolsteuerung
 
 Während des Spiels füllt die Oberfläche die Fensterhöhe (`100dvh`); die Seite

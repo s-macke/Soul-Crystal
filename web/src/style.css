@@ -288,3 +288,5 @@ body:not(.playing) #adventure-overlay{display:none}
 #save-notice:empty{display:none}#welcome-load{background:transparent;color:#c6c5ae;border:1px solid #b2955d55;padding:10px 22px;font-size:14px}
 #ended-load{margin:4px 0;padding:8px}
 @media(max-height:440px){#welcome-load{padding:6px 18px}#save-dialog{padding:12px}}
+
+#test-save-list{border:1px solid #ac9059;padding:12px;margin:14px 0;border-radius:8px}#test-save-list>p{font-size:12px;color:#c0bba8}#test-save-list>h3{margin:0 0 8px;font:20px Georgia,serif}
