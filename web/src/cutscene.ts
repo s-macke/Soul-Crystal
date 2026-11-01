@@ -53,8 +53,12 @@ export class Cutscenes {
   // Starts loading the scene list early, so that a text can be matched at once.
   prepare(lang: string) { void this.entries(lang); }
   // Credits, cast and story after the language choice.
+  // Called before the game starts its music: the opening scenes bring their
+  // own, and a moment of the room music before them would crackle.
   async start(lang: string) {
+    this.options.ownMusic(true);
     for (const entry of await this.entries(lang)) if (entry.trigger === 'start') this.enqueue(lang, entry);
+    if (!this.playing) this.options.ownMusic(false);
   }
   // A game text that begins like a scene's text plays that scene, once per game.
   text(lang: string, text: string) {
@@ -84,7 +88,9 @@ export class Cutscenes {
       catch (error) { console.error(`Cutscene ${entry.id}`, error); }
       finally {
         if (!(this.queue[0]?.entry.music && this.options.enabled())) { this.carried.forEach(stop); this.carried.clear(); }
-        if (entry.music) this.options.ownMusic(false);
+        // Between two scenes with their own music the game music stays off; a
+        // moment of it in between would crackle.
+        if (entry.music && !this.queue[0]?.entry.music) this.options.ownMusic(false);
       }
     }
     this.playing = false;
@@ -232,7 +238,9 @@ async function play(base: string, entry: CutsceneEntry, english: boolean, handov
       const out = outro !== null ? (handover!.next() ? 1 : 1 - (performance.now() - outro) / 1000 / tl.blackOut)
         : tl.hold || tl.loop ? 1 : (tl.duration - t) / m.fadeOut;
       const from = taken.get(i);
-      const fade = Math.min(from === undefined ? (t - start) / m.fadeIn : 1,
+      // Faded in over at least half a second: the level changes once per
+      // frame, and a few large steps on a loud entry crackle.
+      const fade = Math.min(from === undefined ? (t - start) / Math.max(m.fadeIn, 0.5) : 1,
                             m.end === undefined ? out : Math.min((end - t) / m.fadeOut, out));
       let volume = m.volume * clamp(fade, 0, 1) * duck;
       // A taken-over track glides from its previous level to this scene's.

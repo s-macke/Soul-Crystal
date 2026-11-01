@@ -153,11 +153,11 @@ function startGame(inEnglish: boolean, withIntro = true) {
     get('new-game').textContent = 'Start a new adventure';
   }
   starting = beforeFirstImage = true;
+  // Credits, cast and story, each skippable, before the game itself.
+  if (withIntro) void cutscenes.start(english ? 'en' : 'de');
   try { engine.ccall('web_start', null, ['number'], [english ? 1 : 0]); }
   catch (error) { fail(error); }
   finally { starting = false; }
-  // Credits, cast and story, each skippable, before the game itself.
-  if (withIntro) void cutscenes.start(english ? 'en' : 'de');
   saves.checkpoint(capture());
   get('icon-controls').querySelector<HTMLButtonElement>('button')?.focus({preventScroll: true});
 }
