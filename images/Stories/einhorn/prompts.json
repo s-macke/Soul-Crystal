@@ -1,0 +1,49 @@
+{
+  "tool": "built-in image_gen",
+  "use_case": "illustration-story",
+  "source": "src/Python/cutscenes/einhorn_de.txt",
+  "images": [
+    {
+      "file": "01-kampf.png",
+      "prompt": "Use case: illustration-story. Create ONE full-bleed 16:9 landscape illustration, target 2048x1152, for Soul Crystal narrative cutscene. Rich hand-painted classic adventure game art, textured visible brushwork, detailed painterly foliage, NOT photo or 3D. Reference forest image defines art style and setting: old gnarled brown trees, lush green grass, gray rocks, fallen branch and deep blue shadowed forest, soft warm highlights. Same woodland clearing across series. Unicorn continuity: one delicate slender white shimmering unicorn, long ivory spiral horn, silver-white mane, deep sapphire BLUE eyes, subtle non-graphic blue blood stains along flank and shoulder, exhausted but beautiful, no tack or jewelry. One large shaggy charcoal-gray wolf where requested. No text, UI, borders, watermark, collage, extra animals, red blood, gore. View from behind a foreground tree into the clearing: the large gray wolf snarls and lunges toward the weakened white unicorn, which defensively recoils. Both animals clearly readable, unicorn full body and horn visible. Tense discovery, player viewpoint from hiding, no visible human. Implied danger, no explicit bite or exposed wounds.",
+      "references": [
+        "images/Amiga_HD/Disk 2/DiskA-014.png"
+      ]
+    },
+    {
+      "file": "02-rettung.png",
+      "prompt": "Use case: illustration-story. Create ONE full-bleed 16:9 landscape illustration, target 2048x1152, for Soul Crystal narrative cutscene. Rich hand-painted classic adventure game art, textured visible brushwork, detailed painterly foliage, NOT photo or 3D. Reference forest image defines art style and setting: old gnarled brown trees, lush green grass, gray rocks, fallen branch and deep blue shadowed forest, soft warm highlights. Same woodland clearing across series. Unicorn continuity: one delicate slender white shimmering unicorn, long ivory spiral horn, silver-white mane, deep sapphire BLUE eyes, subtle non-graphic blue blood stains along flank and shoulder, exhausted but beautiful, no tack or jewelry. One large shaggy charcoal-gray wolf where requested. No text, UI, borders, watermark, collage, extra animals, red blood, gore.  Reference image defines the EXACT unicorn, wolf and location; produce a NEW composition for the next story moment, not the same fight pose. Rescue moment from first-person viewpoint entering the SAME clearing. The SAME gray wolf runs away into dark brush in background, tail tucked, looking back in fright. The SAME wounded white unicorn remains foreground, lowering itself exhausted onto grass. No human body needed; viewer's arrival causes the flight. One wolf, one unicorn. Relief mixed with concern.",
+      "references": [
+        "images/Stories/einhorn/01-kampf.png"
+      ]
+    },
+    {
+      "file": "03-erschoepfung.png",
+      "prompt": "Use case: illustration-story. Create ONE full-bleed 16:9 landscape illustration, target 2048x1152, for Soul Crystal narrative cutscene. Rich hand-painted classic adventure game art, textured visible brushwork, detailed painterly foliage, NOT photo or 3D. Reference forest image defines art style and setting: old gnarled brown trees, lush green grass, gray rocks, fallen branch and deep blue shadowed forest, soft warm highlights. Same woodland clearing across series. Unicorn continuity: one delicate slender white shimmering unicorn, long ivory spiral horn, silver-white mane, deep sapphire BLUE eyes, subtle non-graphic blue blood stains along flank and shoulder, exhausted but beautiful, no tack or jewelry. One large shaggy charcoal-gray wolf where requested. No text, UI, borders, watermark, collage, extra animals, red blood, gore.  Reference image defines the EXACT unicorn and location; create a new composition, omit the wolf completely. The SAME white unicorn now lies alone in grass in the SAME clearing, legs folded naturally, head held low, ears nervous, nostrils flared with labored breathing. Subtle blue stains visible on white coat. Medium-wide intimate scene, no wolf. Tender vulnerable atmosphere, not dead.",
+      "references": [
+        "images/Stories/einhorn/01-kampf.png"
+      ]
+    },
+    {
+      "file": "04-warnung.png",
+      "prompt": "Use case: illustration-story. Create ONE full-bleed 16:9 landscape illustration, target 2048x1152, for Soul Crystal narrative cutscene. Rich hand-painted classic adventure game art, textured visible brushwork, detailed painterly foliage, NOT photo or 3D. Reference forest image defines art style and setting: old gnarled brown trees, lush green grass, gray rocks, fallen branch and deep blue shadowed forest, soft warm highlights. Same woodland clearing across series. Unicorn continuity: one delicate slender white shimmering unicorn, long ivory spiral horn, silver-white mane, deep sapphire BLUE eyes, subtle non-graphic blue blood stains along flank and shoulder, exhausted but beautiful, no tack or jewelry. One large shaggy charcoal-gray wolf where requested. No text, UI, borders, watermark, collage, extra animals, red blood, gore.  Reference image defines EXACT unicorn identity and painting style; new close-up composition without wolf. Intimate close portrait of the SAME living but exhausted white unicorn speaking its warning to the viewer, deep sapphire-blue eyes filled with sadness, long ivory spiral horn and silver mane visible, head slightly inclined. Same blue-shadowed forest and warm highlights behind it. Quiet solemn trust, subtle blue stain at shoulder, no wolf.",
+      "references": [
+        "images/Stories/einhorn/01-kampf.png"
+      ]
+    },
+    {
+      "file": "05-kristallkugel.png",
+      "prompt": "Use case: illustration-story. Create ONE full-bleed 16:9 landscape illustration, target 2048x1152, for Soul Crystal narrative cutscene. Rich hand-painted classic adventure game art, textured visible brushwork, detailed painterly foliage, NOT photo or 3D. Reference forest image defines art style and setting: old gnarled brown trees, lush green grass, gray rocks, fallen branch and deep blue shadowed forest, soft warm highlights. Same woodland clearing across series. Unicorn continuity: one delicate slender white shimmering unicorn, long ivory spiral horn, silver-white mane, deep sapphire BLUE eyes, subtle non-graphic blue blood stains along flank and shoulder, exhausted but beautiful, no tack or jewelry. One large shaggy charcoal-gray wolf where requested. No text, UI, borders, watermark, collage, extra animals, red blood, gore.  Reference image defines EXACT unicorn identity and painting style; new composition without wolf. Gift moment: the SAME exhausted white unicorn faces viewer in same woodland clearing. A small glowing crystal sphere rests in a single open human palm in foreground (first-person view, hand enters naturally from bottom edge); unicorn's muzzle close to the small sphere, sorrowful sapphire eyes visible. Sphere portable palm-sized, translucent cool blue-white glow, NO ornamental stand, no magical beam, no invented ceremony. Horn and white mane clearly recognizable. Trust and farewell.",
+      "references": [
+        "images/Stories/einhorn/01-kampf.png"
+      ]
+    },
+    {
+      "file": "06-abschied.png",
+      "prompt": "Use case: illustration-story. Create ONE full-bleed 16:9 landscape illustration, target 2048x1152, for Soul Crystal narrative cutscene. Rich hand-painted classic adventure game art, textured visible brushwork, detailed painterly foliage, NOT photo or 3D. Reference forest image defines art style and setting: old gnarled brown trees, lush green grass, gray rocks, fallen branch and deep blue shadowed forest, soft warm highlights. Same woodland clearing across series. Unicorn continuity: one delicate slender white shimmering unicorn, long ivory spiral horn, silver-white mane, deep sapphire BLUE eyes, subtle non-graphic blue blood stains along flank and shoulder, exhausted but beautiful, no tack or jewelry. One large shaggy charcoal-gray wolf where requested. No text, UI, borders, watermark, collage, extra animals, red blood, gore.  Reference image defines EXACT unicorn identity and painting style; new wide farewell composition without wolf. Final farewell: the SAME wounded slender white unicorn walks slowly AWAY from viewer between trees into deep blue forest, viewed from behind in three-quarter rear view, head facing forward and NOT looking back. White mane and tail, subtle blue stains, slender legs and horn silhouette identifiable. Empty clearing in foreground, same rocks and fallen branch. Small retreating figure, poignant quiet sorrow, no wolf or humans.",
+      "references": [
+        "images/Stories/einhorn/01-kampf.png"
+      ]
+    }
+  ]
+}

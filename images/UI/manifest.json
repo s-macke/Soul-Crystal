@@ -1485,12 +1485,12 @@
       "file": "objects/tshirt.png",
       "width": 1254,
       "height": 1254,
-      "sha256": "0811161d14c0d0ee208ec505b11ff89fb4d0a53cd7cdde2e7e941d28210c5a29",
+      "sha256": "f5f1ebf48e5e43472648bd09fee996d20bf49aacc07983286704f9a7cb8e16af",
       "alpha_bbox": [
         0,
-        35,
-        1194,
-        1254
+        23,
+        1206,
+        1196
       ],
       "date": "2026-10-28",
       "style_references": [
@@ -1502,7 +1502,17 @@
           "file": "images/UI/objects/tagebuch.png",
           "sha256": "8da4266692391784f1efd8dabcb894aa092e87d8ad5fcaf600ad5ce1e3dd1fea"
         }
-      ]
+      ],
+      "revisions": [
+        {
+          "date": "2026-11-01",
+          "tool": "built-in image_gen",
+          "prompt": "Use case: precise-object-edit. Tight clothing-continuity correction to existing Soul Crystal painterly artwork. Recolor ONLY the brown short-sleeved T-shirt fabric to saturated medium royal BLUE matching the game's protagonist's blue T-shirt. Preserve silhouette, front view, folds, brushwork, highlights, dimensions and transparent background. Plain front; the neon surfer print is on its back and should NOT be visible from this front view. No other objects, labels or text. Preserve painterly style; no unrelated changes.",
+          "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-f74b8979-c175-4c95-af0f-5f5d12e56064.png",
+          "input_sha256": "0811161d14c0d0ee208ec505b11ff89fb4d0a53cd7cdde2e7e941d28210c5a29"
+        }
+      ],
+      "bytes": 1504633
     },
     {
       "kind": "objects",

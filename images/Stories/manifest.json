@@ -1,0 +1,1089 @@
+{
+  "version": 1,
+  "date": "2026-10-31",
+  "tool": "built-in image_gen",
+  "status": "Selected illustrations; timeline integration status is tracked separately.",
+  "notes": [
+    "Mylgor retains the dark-haired design confirmed by the user against the original Amiga portrait.",
+    "The selected Richard skull scene uses v2, correcting the player's clothing; the first draft remains as provenance.",
+    "Painterly interpretations for visual review, not exact reproductions of original graphics."
+  ],
+  "images": [
+    {
+      "id": "intro-01",
+      "scene": "intro",
+      "file": "intro/intro-01.png",
+      "brief": "Bus arrival outside the hotel, with the young traveller and luggage",
+      "references": [
+        "images/Amiga_HD/Disk 1/Story2-03.png",
+        "images/Amiga_HD/Disk 2/DiskA-002.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Bus arrival outside the hotel, with the young traveller and luggage. Summer evening in Scotland, modest village hotel, period bus without readable lettering. A slim seventeen-year-old boy with short brown hair, blue casual top, jeans and travel bags; use rear three-quarter view. No fantasy clothing; match the boy in reference.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-5e02760a-8dc5-494e-962e-1e782c135803.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2462456,
+      "sha256": "51f29065d4b7f14fcb3ef045299680cc386026484d862a51a884b6793b5e7d7e",
+      "revisions": [
+        {
+          "date": "2026-11-01",
+          "tool": "built-in image_gen",
+          "prompt": "Use case: precise-object-edit. Tight clothing-continuity correction to existing Soul Crystal painterly artwork. Correct ONLY protagonist's upper garment: a royal BLUE SHORT-SLEEVED crew-neck T-SHIRT, sleeves ending at mid upper arm, bare elbows and forearms, not rolled sleeves or long sleeves. Add a clearly readable neon pink/cyan/lime SURFER riding a wave graphic on the BACK of the shirt, naturally partly occluded by the existing backpack. No lettering. Preserve young man's identity, hair, pose, bags, jeans, bus, hotel, scenery, lighting and exact composition. Preserve painterly style; no unrelated changes.",
+          "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-18113240-f0ce-4d92-8192-ae44be37f19b.png",
+          "input_sha256": "4cfc29c420e329b11fcb93e5d18a1d1d133fc889aac6fc41a633060078516fd8"
+        }
+      ]
+    },
+    {
+      "id": "sage-01",
+      "scene": "sage",
+      "file": "sage/sage-01.png",
+      "brief": "Waitress taking the order with the old villager at the table",
+      "references": [
+        "images/Amiga_HD/Disk 2/DiskA-008.png",
+        "images/Amiga_HD/Disk 2/DiskA-007.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Waitress taking the order with the old villager at the table. Cozy hotel dining room with the same elderly white-bearded villager, candle and wooden table as reference. The waitress is fully clothed and simply taking an order; awkward gentle humor, no sexualization. Player viewpoint from the table, no extra protagonist visible.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-ba30ad29-43ba-444f-b92e-8a20c903c070.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2484376,
+      "sha256": "9e877e1180c1ed25cfafd3fa926d78cfa194bada7c4e6d0f36b3e7defa664219"
+    },
+    {
+      "id": "sage-02",
+      "scene": "sage",
+      "file": "sage/sage-02.png",
+      "brief": "Prosperous legendary city before its disappearance",
+      "references": [
+        "images/Amiga_HD/Disk 2/DiskA-007.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Prosperous legendary city before its disappearance. An imagined historical vision of the legend: beautiful medieval town of artisans and towers filling the valley now occupied by the lake. Match surrounding mountains of lake reference, no lake covering town yet. No modern buildings. Grand wide establishing view, no characters from the tavern.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-ea03170f-20c3-4b22-bae1-bb38227cb678.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3362396,
+      "sha256": "9d82e7cc69157a9cf0620adb76985dd2c7424b6f7052ebd1f573dc5b26bf6399"
+    },
+    {
+      "id": "sage-03",
+      "scene": "sage",
+      "file": "sage/sage-03.png",
+      "brief": "Submerged towers and rooftops under moonlit water",
+      "references": [
+        "images/Stories/sage/sage-02.png",
+        "images/Amiga_HD/Disk 2/DiskA-007.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Submerged towers and rooftops under moonlit water. Underwater view of the SAME legendary town, roofs and spires beneath clear dark-blue lake water. Full moonlight filters down from surface, haunting beautiful mystery, no skeletons, no corpse, no living modern buildings, no diver required.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-d749b647-5e8e-44cc-8aa6-9d173fa4f898.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2937964,
+      "sha256": "f3bdab85cc13fb3f5186191a4ebfb656fc75814acadfac409299b32d9797d0c5"
+    },
+    {
+      "id": "see-01",
+      "scene": "see",
+      "file": "see/see-01.png",
+      "brief": "Water-level swimming viewpoint with the dangerous whirlpool visible at a distance",
+      "references": [
+        "images/Amiga_HD/Disk 2/DiskA-010.png",
+        "images/Amiga_HD/Disk 2/DiskA-009.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Water-level swimming viewpoint with the dangerous whirlpool visible at a distance. First-person view of gentle swimming at the surface, human hands optional. Large dangerous whirlpool distant to one side; the player is NOT being swallowed. Mountain lake, sunset, no drowning person or rubber duck.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-0fadb37d-bd11-4fba-a862-115282679018.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2992726,
+      "sha256": "8d01a1a981de6b9721ac802893cd0e0aa44458f0715148b09a2814ac69cf3d97"
+    },
+    {
+      "id": "fremde_welt-01",
+      "scene": "fremde_welt",
+      "file": "fremde_welt/fremde_welt-01.png",
+      "brief": "Emerging at water level to discover the unfamiliar forest where the village should be",
+      "references": [
+        "images/Amiga_HD/Disk 2/DiskA-012.png",
+        "images/Amiga_HD/Disk 2/DiskA-013.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Emerging at water level to discover the unfamiliar forest where the village should be. First-person water-level discovery. Mist and spray at edge, unfamiliar lush forest now on the shore, no village or buildings. Human hands briefly breaking surface, no drowning. Shock and wonder; no invented glowing portal.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-5da6df18-63c6-4c97-853d-7390cfcab444.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3003279,
+      "sha256": "5c468ef6a4c0aff43736da74a0f1040819e43d4b4af54c85d446ab02e45049a9"
+    },
+    {
+      "id": "mylgor_tuer-01",
+      "scene": "mylgor_tuer",
+      "file": "mylgor/mylgor_tuer-01.png",
+      "brief": "Mylgor peering suspiciously through the small hatch in his door",
+      "references": [
+        "images/UI/objects/mylgor.png",
+        "images/Amiga_HD/Disk 3/DiskB-006.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Mylgor peering suspiciously through the small hatch in his door. Close view of dark heavy wooden front door in village, small sliding hatch open at eye level, Mylgor face visible behind it. Same dark swept hair, dark pointed goatee with grey streaks, blue-gold high collar from portrait. Suspicious, sly, older alchemist. No full village panorama.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-fa3887c6-e4bc-4677-b671-63978f2f46da.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2537774,
+      "sha256": "540de1a313d3a4cf8ba64dfbbdc5dc42587a61474f32a9e5a81107cd3ae2818b"
+    },
+    {
+      "id": "mylgor_vertrag-01",
+      "scene": "mylgor_vertrag",
+      "file": "mylgor/mylgor_vertrag-01.png",
+      "brief": "Contract and small knife passed through the hatch toward the viewer",
+      "references": [
+        "images/UI/objects/mylgor.png",
+        "images/Amiga_HD/Disk 3/DiskB-006.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Contract and small knife passed through the hatch toward the viewer. Same door and hatch, Mylgor passing out a folded parchment contract and a small knife, viewer receives them with one human hand. Parchment only indistinct script, no readable words. No cutting or visible injury. Suspicious atmosphere.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-62030f8c-159d-4a18-a2d0-a9ab5b3a3e91.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2208240,
+      "sha256": "f4c2d75e6e22608c5af67eba7d04e5e916b08f362a4c08bac2dee1f1bd914548",
+      "revisions": [
+        {
+          "date": "2026-11-01",
+          "tool": "built-in image_gen",
+          "prompt": "Use case: precise-object-edit. Correct clothing continuity in this existing Soul Crystal illustration. Replace ONLY the player's dark sleeve in lower-right foreground with bare damp forearm, slightly chilled skin. Preserve receiving palm and fingers exactly. Keep Mylgor's own BLUE ROBE AND SLEEVES unchanged, contract, knife, hatch, lighting and pose unchanged. This is a tightly scoped arm-clothing correction: preserve original painterly style, colors, image dimensions, viewpoint and all other content. No new text or objects. Only the player's hands and forearms are in frame.",
+          "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-9c9abbfe-6a47-424e-ac79-e8df3cb30845.png",
+          "input_sha256": "bfe0a4a34648f7fb2ac038c43d527a7e0b31ea3c183bd31d6c17f9c1eca19df2",
+          "note": "Player sleeves replaced with bare arms; same filename."
+        }
+      ]
+    },
+    {
+      "id": "mylgor_kaminzimmer-01",
+      "scene": "mylgor_kaminzimmer",
+      "file": "mylgor/mylgor_kaminzimmer-01.png",
+      "brief": "Mylgor welcoming the viewer beside the fireplace",
+      "references": [
+        "images/UI/objects/mylgor.png",
+        "images/Amiga_HD/Disk 3/DiskB-003.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Mylgor welcoming the viewer beside the fireplace. Mylgor same dark hair and pointed grey-streaked goatee, blue-gold robe; deceptively warm welcome in the green-lit fireplace room. Viewer first person, no other visible person.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-cafd0f63-ab59-462b-8cb2-dedc833d2508.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2342963,
+      "sha256": "f50c614d3f23dc386a84cbaa547b1019f78d89d7b80a5211d8d35274e937751f"
+    },
+    {
+      "id": "mylgor_kaminzimmer-02",
+      "scene": "mylgor_kaminzimmer",
+      "file": "mylgor/mylgor_kaminzimmer-02.png",
+      "brief": "Mylgor nervously touching his goatee, damp swimming trunks drying by the fire",
+      "references": [
+        "images/UI/objects/mylgor.png",
+        "images/Amiga_HD/Disk 3/DiskB-003.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Mylgor nervously touching his goatee, damp swimming trunks drying by the fire. Mylgor same identity, wary sideways glance while stroking pointed goatee. A pair of damp red-and-white striped swimming trunks drying on a rack by fireplace is a small story detail. No visible undressing, no unclothed person, player off-camera.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-ae160ee3-2586-4231-b225-029128cacbbb.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2445177,
+      "sha256": "605ad503d5be51d2b90a0f9b4bc085db5d2f1447d36cf7c8e780e91042981cca"
+    },
+    {
+      "id": "mylgor_nacht-01",
+      "scene": "mylgor_nacht",
+      "file": "mylgor/mylgor_nacht-01.png",
+      "brief": "Rainy night in the bedroom, viewpoint from under the blanket",
+      "references": [
+        "images/Amiga_HD/Disk 3/DiskB-001.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Rainy night in the bedroom, viewpoint from under the blanket. First-person view from bed under a thick purple blanket, rain streaking the small window at night, heavy shut door. No visible body except blanket-covered knees if necessary, no nude person, no Mylgor.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-13429b30-e7dc-4143-ab3e-3a39ac86d003.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2331974,
+      "sha256": "2e37c57a9c385a6a1cf76e2fef49ea4c636d1bbe1c396cec1f30dd433be3d139"
+    },
+    {
+      "id": "mylgor_nacht-02",
+      "scene": "mylgor_nacht",
+      "file": "mylgor/mylgor_nacht-02.png",
+      "brief": "First-person attempt at the locked bedroom door during the scraping noise",
+      "references": [
+        "images/Amiga_HD/Disk 3/DiskB-001.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: First-person attempt at the locked bedroom door during the scraping noise. Same bedroom at night, human hand trying handle of the firmly locked wooden door; tense faint firelight beneath door, rain-dark window. Do NOT reveal secret passage or source of noise, no intruder.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-48e8ad3b-e458-401b-ab61-4d1d2efd657a.png",
+      "width": 1671,
+      "height": 941,
+      "bytes": 2198667,
+      "sha256": "f183b31a1ef63f445f4a68fafa1145b4869f7a921be86f5acded896927107f85",
+      "revisions": [
+        {
+          "date": "2026-11-01",
+          "tool": "built-in image_gen",
+          "prompt": "Use case: precise-object-edit. Correct clothing continuity in this existing Soul Crystal illustration. Replace ONLY player's dark sleeve at lower-right with a bare forearm reaching for same iron door ring. No sleeve or cuff anywhere on player arm. Keep hand pose, door, ring, bed, blanket, stormy window, lighting, composition unchanged. Only hand and forearm visible; do not reveal any body or add another person. This is a tightly scoped arm-clothing correction: preserve original painterly style, colors, image dimensions, viewpoint and all other content. No new text or objects. Only the player's hands and forearms are in frame.",
+          "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-f6802182-c513-4a6f-84d5-ed36e9e987c6.png",
+          "input_sha256": "b7802aaf2f09c3badc83b35c3f8dd1ee12c1badc5fd1a3a1941cbca06fe96071",
+          "note": "Player sleeves replaced with bare arms; same filename."
+        }
+      ]
+    },
+    {
+      "id": "mylgor_auftrag-01",
+      "scene": "mylgor_auftrag",
+      "file": "mylgor/mylgor_auftrag-01.png",
+      "brief": "Mylgor laying winter clothes and the elixir out from a small chest",
+      "references": [
+        "images/UI/objects/mylgor.png",
+        "images/Amiga_HD/Disk 3/DiskB-003.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Mylgor laying winter clothes and the elixir out from a small chest. Same Mylgor in blue-gold robe at fireplace room table. Open small wooden chest, winter cloak, warm boots and gloves, small green magic-elixir flask arranged on table. Commanding expression; no illustration of alleged yeti invasion.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-76a3328f-a977-4e0d-beef-71a11d6dbcd3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2463195,
+      "sha256": "fd2efabad3c482b210658a79e9e459d8c06fcfafae26699e26ef9eef3011cb85"
+    },
+    {
+      "id": "firon_thron-01",
+      "scene": "firon_thron",
+      "file": "firon/firon_thron-01.png",
+      "brief": "The aged elf king Firon rising from his ice throne, resigned and unarmed",
+      "references": [
+        "images/UI/objects/firon.png",
+        "images/Amiga_HD/Disk 3/DiskB-024.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: The aged elf king Firon rising from his ice throne, resigned and unarmed. Firon is the ELDERLY elf king from portrait, silver-white hair, pointed ears, blue royal robe with gold trim and red inner collar, gold crown with blue gem. Not muscular bare-chested ice guard. Rise gently from ice throne, hands open empty, weary resignation.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-6e739d08-84e4-495f-bcff-5c6d89e597a4.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2642876,
+      "sha256": "0f6c4e7bc94b820a43c96cb9b6976571c6653079fe114cc62b794a4b8167b77f"
+    },
+    {
+      "id": "firon_prophezeiung-01",
+      "scene": "firon_prophezeiung",
+      "file": "firon/firon_prophezeiung-01.png",
+      "brief": "Close view of Firon understanding the prophecy, surprise turning to hope",
+      "references": [
+        "images/Stories/firon/firon_thron-01.png",
+        "images/Amiga_HD/Disk 3/DiskB-024.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Close view of Firon understanding the prophecy, surprise turning to hope. Same aged crowned Firon, blue-gold royal robe, empathetic expression beginning to hope, close portrait with ice throne background; no actual prophecy apparition or writing.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-ae455413-de58-4908-ae67-288df6312592.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2545110,
+      "sha256": "b7356d31720a4c13ded79eae37df142c2f2fa0e5b24dfa62f7ed05d7e6e87b6e"
+    },
+    {
+      "id": "firon_schluessel-01",
+      "scene": "firon_schluessel",
+      "file": "firon/firon_schluessel-01.png",
+      "brief": "Firon opening the hidden compartment in his throne",
+      "references": [
+        "images/Stories/firon/firon_thron-01.png",
+        "images/Amiga_HD/Disk 3/DiskB-024.png",
+        "images/UI/objects/eisschluessel.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Firon opening the hidden compartment in his throne. Same Firon bending beside throne to open a small hidden compartment in its ice armrest. Large translucent pale blue ice key inside. Keep room/robe/crown consistent.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-909f38dc-4649-4665-a540-ae9e856823de.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2759994,
+      "sha256": "4c6bfd0897ce1b3cfe1532759031a33d05142ab500a7272c08cbc8700d8f6aa0"
+    },
+    {
+      "id": "firon_schluessel-02",
+      "scene": "firon_schluessel",
+      "file": "firon/firon_schluessel-02.png",
+      "brief": "Firon placing the large ice key in the viewer’s hand",
+      "references": [
+        "images/Stories/firon/firon_thron-01.png",
+        "images/Amiga_HD/Disk 3/DiskB-024.png",
+        "images/UI/objects/eisschluessel.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Firon placing the large ice key in the viewer’s hand. Same Firon placing translucent pale-blue crystalline key with round bow and toothed shaft into an outstretched HUMAN hand, first-person view. Match key reference; warm trust amid icy blue throne hall.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-d1bb5ffd-2334-401d-a185-4513c30eeab3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2470998,
+      "sha256": "af91c61b17d4380e62f4186fd6d8b035fc4cb1502b19867eb1a97466916911d8"
+    },
+    {
+      "id": "firon_schluessel-03",
+      "scene": "firon_schluessel",
+      "file": "firon/firon_schluessel-03.png",
+      "brief": "Yeti escort beside the waiting badger-drawn sled outside the palace",
+      "references": [
+        "images/UI/objects/yeti.png",
+        "images/Amiga_HD/Disk 3/DiskB-019.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Yeti escort beside the waiting badger-drawn sled outside the palace. Snowy palace entrance, friendly tall white-furred Yeti escort next to a wooden sled harnessed to a small team of sturdy LARGE BADGERS, unmistakable black-and-white striped badger faces, not dogs or reindeer. Sled waits empty; snowy fantasy wasteland. No Firon necessary.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-1279db6f-fccf-47af-8198-9a6b5f29d51d.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2901523,
+      "sha256": "88ecd451b2d8d37bb06a54d4326238f6ae577f37192c61d98376a32b498234b8"
+    },
+    {
+      "id": "richard_erscheint-01",
+      "scene": "richard_erscheint",
+      "file": "richard/richard_erscheint-01-v2.png",
+      "brief": "Skull returning to the royal skeleton in the open sarcophagus",
+      "references": [
+        "images/Stories/richard/richard_erscheint-01.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Edit this painted scene, preserving all composition, lighting, skull, skeleton, sarcophagus and painterly style. Correct ONLY the two foreground HUMAN PLAYER forearms: the player is an ordinary traveller, NOT a king. Replace BOTH purple ermine-trimmed royal sleeves and gold wrist jewelry with simple plain brown wool tunic sleeves and bare human wrists. No ermine or jewelry on the player. Keep the ROYAL SKELETON'S ermine robe, crown and red brooch intact. Output same landscape image dimensions, no text.",
+      "previous_file": "richard/richard_erscheint-01.png",
+      "original_prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Skull returning to the royal skeleton in the open sarcophagus. King absent as ghost yet. First-person human hands placing one crowned skull at the neck of the royal skeleton in an open ornate stone sarcophagus. Quiet supernatural blue glow, dignified archaeological bones, no fleshy remains, no blood. Same purple-lit crypt.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-09ae765b-3e10-4a04-8fe0-c5cef469864c.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2542210,
+      "sha256": "c6c83e3b245e4b519a86da1c70957d616285e351147dad564671ee56bd551fd6"
+    },
+    {
+      "id": "richard_erscheint-02",
+      "scene": "richard_erscheint",
+      "file": "richard/richard_erscheint-02.png",
+      "brief": "Friendly ghost of King Richard appearing beside the now-empty sarcophagus",
+      "references": [
+        "images/UI/objects/koenig.png",
+        "images/Amiga_HD/Disk 3/DiskB-029.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Friendly ghost of King Richard appearing beside the now-empty sarcophagus. King Richard friendly older white-bearded crowned king, purple royal mantle with ermine collar, red jewels like portrait. Semi-transparent blue-white spirit standing beside OPEN EMPTY stone sarcophagus; no skeleton remains. Warm welcome, no menacing skeletal face.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-6d95ff26-a26b-4e03-af61-c92290db80c3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2662442,
+      "sha256": "e3df3470944d7d70acaf1d1ae6fcc456866e8cdf597d22f981f51411a6b12dea"
+    },
+    {
+      "id": "richard_geschichte-01",
+      "scene": "richard_geschichte",
+      "file": "richard/richard_geschichte-01.png",
+      "brief": "Richard’s ghost seated on the edge of his sarcophagus telling the story",
+      "references": [
+        "images/Stories/richard/richard_erscheint-02.png",
+        "images/Amiga_HD/Disk 3/DiskB-029.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Richard’s ghost seated on the edge of his sarcophagus telling the story. Same friendly translucent Richard ghost seated casually on rim of open empty sarcophagus, telling story, gentle wistful face, purple ermine mantle and golden crown. Same crypt.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-c35554ac-fbe4-43c8-bd20-10b8fa277348.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2580882,
+      "sha256": "dfe68433aa4da79470214fcd3ff4bb18c8e464cce85e781703392ec9a7e2fdb2"
+    },
+    {
+      "id": "richard_geschichte-02",
+      "scene": "richard_geschichte",
+      "file": "richard/richard_geschichte-02.png",
+      "brief": "The prosperous island castle during Richard’s reign",
+      "references": [
+        "images/Amiga_HD/Disk 2/DiskC-009.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: The prosperous island castle during Richard’s reign. Historical flashback, restore referenced island castle to its former prosperous intact beauty. Clear blue water surrounding island, elegant stone towers and bridges, green cultivated land, warm daylight. No ominous ruins or undead, no figures needed.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-ca16c8c7-7f0d-4a1c-8e56-9fdc28b2e8cf.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3201817,
+      "sha256": "e37eefb230cfb3e8122a6d574ccec24c85847666b686f89d936f3a9555d42088"
+    },
+    {
+      "id": "richard_geschichte-03",
+      "scene": "richard_geschichte",
+      "file": "richard/richard_geschichte-03.png",
+      "brief": "Young Zargon performing secret alchemical experiments",
+      "references": [
+        "images/UI/objects/zargon.png",
+        "images/Amiga_HD/Disk 4/DiskD-006.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Young Zargon performing secret alchemical experiments. Historical YOUNGER living Zargon, same angular face, dark hair and purple robe, no crown yet, secret stone basement laboratory, intent on alchemical attempt to create gold. Retorts and furnace, coins needed for lessons, no actual successful gold miracle necessary. No Mylgor.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-0e1aa7b6-100e-4c8d-99cb-0f23cdb31662.png",
+      "width": 1672,
+      "height": 940,
+      "bytes": 2554778,
+      "sha256": "1039ff7245c96891e69a906e5c13cb67be73a5393369d99d8dc76c162683ed97"
+    },
+    {
+      "id": "richard_geschichte-04",
+      "scene": "richard_geschichte",
+      "file": "richard/richard_geschichte-04.png",
+      "brief": "Zargon mustering his undead army outside the castle in a storm",
+      "references": [
+        "images/UI/objects/zargon.png",
+        "images/Stories/richard/richard_geschichte-02.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Zargon mustering his undead army outside the castle in a storm. Historical Zargon in purple hooded robe commanding orderly rows of undead warriors outside the SAME island castle at stormy midnight, cold lightning over stone battlements. Undead mostly armored silhouettes/skeletons, no gore. No modern army.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-dc7c91fc-174f-4206-9854-16a1d73e4ce6.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2915501,
+      "sha256": "e59e784c1121de132250f1e1f637f79ff724abb9c5a88246c60eafa8fa3c9894"
+    },
+    {
+      "id": "richard_geschichte-05",
+      "scene": "richard_geschichte",
+      "file": "richard/richard_geschichte-05.png",
+      "brief": "Royal ancestors leaving their coffins and opening the castle gates",
+      "references": [
+        "images/UI/objects/zargon.png",
+        "images/Stories/richard/richard_geschichte-02.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Royal ancestors leaving their coffins and opening the castle gates. One coherent cinematic composition at the INNER side of castle gate adjoining crypt passage: ancient crowned ancestral skeletons in decayed royal robes open heavy gate from inside; open stone coffins visible down adjoining crypt corridor, storm and undead army beyond gate. Not a collage. No modern figures.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-9e593a6c-6e19-4b94-afdc-0695e65a016c.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3052848,
+      "sha256": "31408ee4d7da4c81fb9c1c3ce7bc8bc89750c2de2924de702b0c4638015b6d55"
+    },
+    {
+      "id": "richard_geschichte-06",
+      "scene": "richard_geschichte",
+      "file": "richard/richard_geschichte-06.png",
+      "brief": "Captured living Richard confronted and killed by Zargon, staged without graphic detail",
+      "references": [
+        "images/UI/objects/koenig.png",
+        "images/UI/objects/zargon.png",
+        "images/Amiga_HD/Disk 4/DiskD-024.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Captured living Richard confronted and killed by Zargon, staged without graphic detail. Historical living Richard in same purple ermine robe and crown, confronted by Zargon in purple cloak and armed undead guards in stone royal chamber. Zargon drives a rapier toward Richard, exact impact obscured by cloak/foreground guard, dramatic silhouettes, no blood or visible wound. Richard not a ghost yet. Defeat and betrayal, not graphic violence.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-b80477b2-4f3c-41a3-b46c-e526823d5ec6.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2492036,
+      "sha256": "1f27e951c85fabce91061416df78cfeae2d467afc4bb7f7a20a4af0f85f9a926"
+    },
+    {
+      "id": "richard_zauberspruch-01",
+      "scene": "richard_zauberspruch",
+      "file": "richard/richard_zauberspruch-01.png",
+      "brief": "Richard reaching three fingers of his right hand toward the viewer’s forehead to transfer his remaining magic",
+      "references": [
+        "images/Stories/richard/richard_erscheint-02.png",
+        "images/Amiga_HD/Disk 3/DiskB-029.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Richard reaching three fingers of his right hand toward the viewer’s forehead to transfer his remaining magic. First-person close view of SAME friendly Richard ghost extending EXACTLY three fingers of right hand toward viewer forehead/camera, other two fingers folded. Cold pale magic glow, same open sarcophagus in background, no beams or written spell. Human player off camera.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-712089b2-4496-4d91-8975-13c310b70300.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2569880,
+      "sha256": "6ad5c55f2a71f9a3495d8806b4b3abf24defb61f3ddf0865f189567d62632c78"
+    },
+    {
+      "id": "richard_abschied-01",
+      "scene": "richard_abschied",
+      "file": "richard/richard_abschied-01.png",
+      "brief": "Richard’s ghost fading away beside the same sarcophagus",
+      "references": [
+        "images/Stories/richard/richard_erscheint-02.png",
+        "images/Amiga_HD/Disk 3/DiskB-029.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Richard’s ghost fading away beside the same sarcophagus. SAME ghost Richard almost transparent, gently fading to pale wisps beside same open EMPTY stone sarcophagus. Preserve regal silhouette and kind face. Empty quiet crypt, loneliness, no exterior graveyard.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-98880ca9-977f-401f-a0c0-05a9853ced66.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2460401,
+      "sha256": "85895a48e3605619e8d3289cb09be4c6cc89de821d3df9a73d7ab9550b0a73d9"
+    },
+    {
+      "id": "werwolf-01",
+      "scene": "werwolf",
+      "file": "werwolf/werwolf-01.png",
+      "brief": "Large grey werewolf rising behind a gravestone under the emerging full moon",
+      "references": [
+        "images/Amiga_HD/Disk 3/DiskB-039.png",
+        "images/Amiga_HD/Disk 3/DiskB-027.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Large grey werewolf rising behind a gravestone under the emerging full moon. Full body grey shaggy werewolf, hostile yellow eyes and yellow fangs matching face reference, rising behind gravestone, moon breaking clouds, old ruined chapel behind. One beast only, grey fur distinct from later BLACK-furred player.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-76e030bc-6519-4c2f-bb5a-1e041016ed19.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2678556,
+      "sha256": "b6ce60e864961134ced24703b57ffe9039ec9ffac0fb76a49edb18e4ce996a74"
+    },
+    {
+      "id": "werwolf_kampf-01",
+      "scene": "werwolf_kampf",
+      "file": "werwolf/werwolf_kampf-01.png",
+      "brief": "First-person consecrated sword striking against the werewolf in the graveyard",
+      "references": [
+        "images/Stories/werwolf/werwolf-01.png",
+        "images/Amiga_HD/Disk 3/DiskB-027.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: First-person consecrated sword striking against the werewolf in the graveyard. Human first-person sword hand, plain straight consecrated sword swung at looming grey werewolf, graveyard under moon. Action just BEFORE contact, diagonal blade guards foreground; no cut throat detail, no gore. Player still human.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-f66e022a-4d51-4ef6-83a2-80b731416735.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2835604,
+      "sha256": "b8979c28f8bd0fbcc939657f61f7b777ea670134ab22dcbcbf85e62df0af7c76"
+    },
+    {
+      "id": "werwolf_kampf-02",
+      "scene": "werwolf_kampf",
+      "file": "werwolf/werwolf_kampf-02.png",
+      "brief": "Aftermath with the fallen werewolf and discovery of green blood at the viewer’s left-leg wound",
+      "references": [
+        "images/Stories/werwolf/werwolf-01.png",
+        "images/Amiga_HD/Disk 3/DiskB-027.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Aftermath with the fallen werewolf and discovery of green blood at the viewer’s left-leg wound. First-person looking downward in graveyard: human left shin with small tear in trouser cloth and tiny unnatural green stain, fallen GREY werewolf beyond, sword safely low in human hand. Non-graphic subtle injury, no open wound, no severed parts. The human player has not transformed.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-e33ea153-dff0-4728-875a-35f9553db899.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2781606,
+      "sha256": "47bbdba40478446470deb1da067bf8073bf10ee5526bbdbface38fad13d3e7ae"
+    },
+    {
+      "id": "werwolf_kampf-03",
+      "scene": "werwolf_kampf",
+      "file": "werwolf/werwolf_kampf-03.png",
+      "brief": "The defeated creature revealed as a young woman on the graveyard ground",
+      "references": [
+        "images/Stories/werwolf/werwolf-01.png",
+        "images/Amiga_HD/Disk 3/DiskB-027.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: The defeated creature revealed as a young woman on the graveyard ground. SAME graveyard ground where beast fell now holds a young adult woman in a modest tattered full-length old dress, pale and weary, grateful expression, moonlit, hints of age and dust but no graphic decomposition. NO werewolf also present, she is its transformed body, not a second victim.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-0231515a-26ef-4ae8-b6b0-a63231244993.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2618200,
+      "sha256": "e43dc20e5dd498eb05a8766383127a39a9931ce0acd997ef9137647bbc79e641"
+    },
+    {
+      "id": "werwolf_kampf-04",
+      "scene": "werwolf_kampf",
+      "file": "werwolf/werwolf_kampf-04.png",
+      "brief": "The woman dissolving into dust as the viewer reaches toward her",
+      "references": [
+        "images/Stories/werwolf/werwolf_kampf-03.png",
+        "images/Amiga_HD/Disk 3/DiskB-027.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: The woman dissolving into dust as the viewer reaches toward her. SAME adult woman in modest full-length dress softly dissolving into dust and pale moonlit motes in same graveyard spot, viewer HUMAN hand reaching toward her. Graceful tragic release, not gore, no extra corpse.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-bd5e922f-5ee2-4c8f-9c20-6f8a0c91393e.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2861594,
+      "sha256": "593c42b36d2e1177571a98398f5385b16f384cf94b315b8de276402d44d3c181"
+    },
+    {
+      "id": "mylgor_labor-01",
+      "scene": "mylgor_labor",
+      "file": "mylgor/mylgor_labor-01.png",
+      "brief": "Mylgor advancing through his laboratory holding the large syringe of green poison",
+      "references": [
+        "images/UI/objects/mylgor.png",
+        "images/Amiga_HD/Disk 3/DiskB-033.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Mylgor advancing through his laboratory holding the large syringe of green poison. SAME Mylgor dark hair, pointed greying goatee, blue-gold robe, malicious face, holds a giant veterinary syringe full of bubbling GREEN poison while advancing toward human player through flask-filled laboratory. No injection yet. Steel exit door visible, no other people.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-50997c97-76f5-4018-acdd-352f7ded62f0.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2673732,
+      "sha256": "8bbbe689250a319daa0d4be8a792de657b4887ab7cf4ecb9ec8edc6200186fa7"
+    },
+    {
+      "id": "mylgor_explosion-01",
+      "scene": "mylgor_explosion",
+      "file": "mylgor/mylgor_explosion-01.png",
+      "brief": "The heavy reagent shelf toppling between the viewer and Mylgor, bottles shattering",
+      "references": [
+        "images/Stories/mylgor/mylgor_labor-01.png",
+        "images/Amiga_HD/Disk 3/DiskB-033.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: The heavy reagent shelf toppling between the viewer and Mylgor, bottles shattering. Human first-person hands pulling heavy wooden reagent shelving over between viewer and SAME Mylgor; bottles of colored chemicals tumbling, glass breaking on stone tiles, start of smoke where liquids mingle. Mylgor recoils still recognizable, same laboratory. No fur on player.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-42dca1e5-e332-4abd-9b85-e5804d121bf4.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2809639,
+      "sha256": "28ef4780ecd74042219b8d9841c85667293e083d2bb2a6787e291018b84e98e2"
+    },
+    {
+      "id": "mylgor_explosion-02",
+      "scene": "mylgor_explosion",
+      "file": "mylgor/mylgor_explosion-02.png",
+      "brief": "Mixing chemicals erupting into smoke and flames, Mylgor thrown toward the far wall",
+      "references": [
+        "images/Stories/mylgor/mylgor_labor-01.png",
+        "images/Amiga_HD/Disk 3/DiskB-033.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Mixing chemicals erupting into smoke and flames, Mylgor thrown toward the far wall. SAME laboratory full of flame and thick smoke, overturned shelf foreground, SAME Mylgor silhouette thrown back toward stone far wall by blast. No injury closeup, no burning player hands, readable escape route edge.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-0e12c8c2-5b48-487a-98c9-5da88557f4d6.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2805719,
+      "sha256": "2a96d2ccb3a4744f97c8af1729323786ea93900de03f3fcfafba7649d4505d43"
+    },
+    {
+      "id": "mylgor_ende-01",
+      "scene": "mylgor_ende",
+      "file": "mylgor/mylgor_ende-01.png",
+      "brief": "Heavy closed laboratory door with key in the lock, falling plaster and black smoke escaping around its frame",
+      "references": [
+        "images/Amiga_HD/Disk 3/DiskB-032.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Heavy closed laboratory door with key in the lock, falling plaster and black smoke escaping around its frame. View from safe corridor OUTSIDE heavy steel lab door, key already in lock, black smoke curling around frame, dust and plaster falling after blast. Closed intact door protects player, no MAPPING DEPT or any signage/text, no Mylgor visible.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-2d8c9ed9-5831-49bd-a059-8ecb9622e292.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2585905,
+      "sha256": "5021918c15b6eaab56a95040b3709190c9cb660c2a37f40b5726bf8806a13eb7"
+    },
+    {
+      "id": "tagebuch-01",
+      "scene": "tagebuch",
+      "file": "tagebuch/tagebuch-01.png",
+      "brief": "Worn leather-bound diary open at its abruptly ending yellowed pages",
+      "references": [
+        "images/UI/objects/tagebuch.png",
+        "images/Amiga_HD/Disk 4/DiskD-011.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Worn leather-bound diary open at its abruptly ending yellowed pages. Close first-person view of aged small leather diary on plain wooden table in tower keeper setting, last yellowed page has faded indistinct cursive marks abruptly stopping midway, remaining page blank. No invented readable text or magic runes. Candle and deep dusk, no narrator visible.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-c3104518-5e9b-4f8c-a2cc-9ed827655e47.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2486653,
+      "sha256": "0ab7e14c2e33f9a88953d52eea58ee99bfb9c1bfc4d52afa40c147530cde40da"
+    },
+    {
+      "id": "tagebuch-02",
+      "scene": "tagebuch",
+      "file": "tagebuch/tagebuch-02.png",
+      "brief": "Zargon confronting Richard’s captured followers in the castle courtyard",
+      "references": [
+        "images/UI/objects/zargon.png",
+        "images/Stories/richard/richard_geschichte-02.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Zargon confronting Richard’s captured followers in the castle courtyard. Historical flashback in castle courtyard after coup: SAME Zargon purple hood addressing Richard loyal followers herded together, armored undead guards restraining crowd. Stern ultimatum and fear, no execution depicted. Architecture same castle, lightning storm, no Richard ghost.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-8b11c800-f0fe-4deb-adc2-26a96d1c9f05.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2919734,
+      "sha256": "743e4cab033a27f808ecdb63389a68a68050b51e62f742d237622e37b9e141d5"
+    },
+    {
+      "id": "tagebuch-03",
+      "scene": "tagebuch",
+      "file": "tagebuch/tagebuch-03.png",
+      "brief": "The diary closing in a cloud of dust while a lightning strike illuminates the room and tower",
+      "references": [
+        "images/UI/objects/tagebuch.png",
+        "images/Amiga_HD/Disk 4/DiskD-011.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: The diary closing in a cloud of dust while a lightning strike illuminates the room and tower. Same diary being shut by human hands on table, grey dust rises; lightning visibly strikes main tower seen THROUGH window, illuminating keeper room pale white. One coherent interior scene, no split panels. No burning book.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-383d7c48-5350-41e1-beb4-ceec622d962a.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2585779,
+      "sha256": "f5dd3dee0bae7e675e675b58937d3fed2fc5eed74f108874a9bf6e2676e4a9ad"
+    },
+    {
+      "id": "vollmond-01",
+      "scene": "vollmond",
+      "file": "vollmond/vollmond-01.png",
+      "brief": "First-person view of hands and forearms growing black fur on the tower roof",
+      "references": [
+        "images/Amiga_HD/Disk 4/DiskD-010.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: First-person view of hands and forearms growing black fur on the tower roof. First-person on stone tower roof under full moon, HUMAN forearms and hands developing BLACK fur and claws; torn sleeve edges, alarm, no gore or bare torso needed. Black-furred player, not grey graveyard enemy.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-97577b7c-101e-46bd-8b66-dd692b870014.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2419492,
+      "sha256": "876236691685dca4fa989d8feaf701468e8b92ed88aaa055099adb44fcb47369"
+    },
+    {
+      "id": "vollmond-02",
+      "scene": "vollmond",
+      "file": "vollmond/vollmond-02.png",
+      "brief": "The transformed black-haired player werewolf howling beneath the full moon",
+      "references": [
+        "images/Stories/vollmond/vollmond-01.png",
+        "images/Amiga_HD/Disk 4/DiskD-010.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: The transformed black-haired player werewolf howling beneath the full moon. Player now a BLACK shaggy werewolf on same tower battlement, howling toward pale full moon, remnants of purple/blue travel clothing. Rear three-quarter full-body silhouette, thoughtful tragic fear, not attacking anyone. Not grey enemy portrait.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-a2b0e5d2-0ead-4128-a5a3-b90251692478.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2466438,
+      "sha256": "1807dcbd9245b57346a5ae5b619d979be631b9fd3f22577927a8c0ebc50bcbe2"
+    },
+    {
+      "id": "seelenkristall-01",
+      "scene": "seelenkristall",
+      "file": "finale/seelenkristall-01.png",
+      "brief": "Player’s black-furred hands raising the pulsing soul crystal while Zargon begs",
+      "references": [
+        "images/UI/objects/zargon.png",
+        "images/Amiga_HD/Disk 4/DiskD-025.png",
+        "images/UI/objects/kristall.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Player’s black-furred hands raising the pulsing soul crystal while Zargon begs. First-person BLACK-furred clawed hands lifting large faceted green-blue SOUL GEM high. SAME Zargon in purple hooded cloak, gold crown with red jewel at brow, retreats pleading below across pedestal. Same stone magic room, not spherical unicorn crystal ball. No dagger fight now.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-d3c30356-0f5b-4956-aa22-db540c7a163c.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2854021,
+      "sha256": "1246e11b7c73f6f20c3bbec2b689bc63d020a55343870f24cfd882a3bf586fea"
+    },
+    {
+      "id": "seelenkristall-02",
+      "scene": "seelenkristall",
+      "file": "finale/seelenkristall-02.png",
+      "brief": "Soul crystal shattering on the floor, fragments reflecting Zargon’s face",
+      "references": [
+        "images/Stories/finale/seelenkristall-01.png",
+        "images/UI/objects/zargon.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Soul crystal shattering on the floor, fragments reflecting Zargon’s face. Low close view of large green-blue soul gemstone shattering on stone floor beside same pedestal. Several large shards visibly reflect SAME Zargon angular face, tiny splinters sparkle, dark grey vapor begins escaping. Optional black-furred hands at upper edge. No bloody injury.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-ae93fe94-8a2a-423c-91bf-1432a3f4d209.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3005120,
+      "sha256": "c39d425634e08cd6a5e9e679b3344807f1a8b3d30c26948b787e15f122680aed"
+    },
+    {
+      "id": "seelenkristall-03",
+      "scene": "seelenkristall",
+      "file": "finale/seelenkristall-03.png",
+      "brief": "Zargon engulfed by the released dense dark-grey cloud",
+      "references": [
+        "images/Stories/finale/seelenkristall-01.png",
+        "images/UI/objects/zargon.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Zargon engulfed by the released dense dark-grey cloud. SAME crowned purple-cloaked Zargon engulfed by thick DARK GREY smoky cloud released from shattered gem, arms visible flailing, no tentacles, no giant monster, no gore. Same magical stone chamber and pedestal as prior shot.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-eff3c47c-52f1-49f4-b3a9-b8b64fd4e723.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2888804,
+      "sha256": "7e651b3aaeab736c7e6395272575ea7c344a4e4b90f2a815c035bcf2793542fe"
+    },
+    {
+      "id": "seelenkristall-04",
+      "scene": "seelenkristall",
+      "file": "finale/seelenkristall-04.png",
+      "brief": "Aftermath: the same room silent, only crown and sceptre remaining",
+      "references": [
+        "images/Stories/finale/seelenkristall-01.png",
+        "images/UI/objects/zargon.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Aftermath: the same room silent, only crown and sceptre remaining. SAME chamber AFTER smoke and Zargon have vanished, empty pedestal, crystal fragments nearby, gold crown with red jewel and gold royal sceptre with red gem lying on floor as the only remains of Zargon. No body, no ash person, no ghost. Exhausted silence.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-4fe9fe6c-d3fb-4d02-b4f5-a2cb985e8d11.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2911515,
+      "sha256": "627a177b5ffc05e7a2d7547974d3ef8582914a2c82389acb0d2ba41f30f535a1"
+    },
+    {
+      "id": "zepter-01",
+      "scene": "zepter",
+      "file": "finale/zepter-01.png",
+      "brief": "Royal sceptre fitted into the slot and operated as a lever by the still-transformed player",
+      "references": [
+        "images/Amiga_HD/Disk 4/DiskD-015.png",
+        "images/Stories/finale/seelenkristall-04.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Royal sceptre fitted into the slot and operated as a lever by the still-transformed player. First-person BLACK-furred hand operating golden royal sceptre with red gem as lever seated handle-first in narrow slot in wall mechanism in referenced dungeon room. Clearly fits mechanical slot, no ordinary key, no human hands yet.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-f1cd2df4-63ee-4586-a571-58c57340cd35.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2167120,
+      "sha256": "d995b407406e7a2053c2ed46260891a8523ae7083fb7d3e70af9b8afc2e6f31c"
+    },
+    {
+      "id": "quelle-01",
+      "scene": "quelle",
+      "file": "finale/quelle-01.png",
+      "brief": "Cupped hands drinking blue spring water, the black fur receding into human skin",
+      "references": [
+        "images/Amiga_HD/Disk 4/DiskD-033.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Cupped hands drinking blue spring water, the black fur receding into human skin. First-person cupped hands gathering cool BLUE spring water in magical violet cave. Black fur receding at wrists, hands now mostly human, clear transition in ONE moment, no split image. Water flowing gently, peace and restored humanity, no nude body.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-e5abc4c9-e922-4ed7-b8dd-e0f208f6dadc.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2822083,
+      "sha256": "ee5ccc3d7ecb8fba34126c671bb159125d478ffc7dcf11d38be0e2e1a0c010bc"
+    },
+    {
+      "id": "gate-01",
+      "scene": "gate",
+      "file": "finale/gate-01.png",
+      "brief": "Richard’s friendly ghost beneath the open gate, with renewed greenery and birds outside",
+      "references": [
+        "images/Amiga_HD/Disk 4/Victory-000.png",
+        "images/Stories/finale/gate-01-v1.png",
+        "images/Amiga/Disk 4/animations/Victory/Victory-000.png"
+      ],
+      "prompt": "Use case: compositing. Correct the Soul Crystal ending illustration. Image 1 is the FIXED BACKGROUND and authoritative gate architecture (HD Victory-000). Image 2 is only the CHARACTER reference for King Richard from the incorrect prior scene. Image 3 is original Amiga architectural evidence. Preserve image 1 camera, aspect ratio, narrow stone barrel-vault passage, thick stone walls on both sides, open timber gate leaves with two blue-green iron straps, RAISED BLACK IRON PORTCULLIS visibly hanging across the top, orange straight path leading to dense green trees and purple sky. Do not widen the passage, change its perspective, remove the portcullis, add a lake or distant castle, or use the scenery of image 2. Add ONLY the friendly translucent ghost of King Richard hovering under the archway in the middle distance, smiling kindly and gratefully at the viewer, with white hair and beard, gold crown with red gemstones, purple ermine-trimmed robe and subtle blue spectral glow matching image 2. His scale must fit inside this actual doorway, keep enough gate and path visible to recognize image 1 exactly. Add a couple of tiny birds near the outside trees. Match background's painterly brushwork. Full-bleed single landscape illustration, no text or UI or borders. Preserve architecture above all.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-af0079c7-7802-45d3-a9db-2cfccb7f5b24.png",
+      "width": 1586,
+      "height": 992,
+      "bytes": 2938374,
+      "sha256": "51a63619cd902b57b6c5198d18fba766ba4dcd97a03595d671fec86558af979a",
+      "previous_versions": [
+        {
+          "id": "gate-01",
+          "scene": "gate",
+          "file": "finale/gate-01-v1.png",
+          "brief": "Richard’s friendly ghost beneath the open gate, with renewed greenery and birds outside",
+          "references": [
+            "images/Stories/richard/richard_erscheint-02.png",
+            "images/Amiga_HD/Disk 4/Victory-000.png"
+          ],
+          "prompt": "Use case: illustration-story. Create ONE new full-bleed landscape story illustration for the Soul Crystal adventure game, approximately 16:9, target 2048x1152. Match the rich hand-painted classic adventure art of the references: visible confident brushwork, expressive readable shapes, saturated colors, warm highlights and cool deep shadows. Not photography, not 3D, not anime. References are for style, character identity and location, not a request to reproduce their framing or UI. Compose the requested new narrative moment. No captions, text, logos, watermarks, borders, montage or split panels. Natural anatomy, clear focal action; leave enough space around subjects for gentle camera movements. Do not invent extra plot events. Any injury or violence is suggested cinematically, without gore, exposed organs or graphic wounds. Narrative moment: Richard’s friendly ghost beneath the open gate, with renewed greenery and birds outside. Open sunny castle gate matching Victory-000, FRIENDLY translucent King Richard with same white beard, gold crown red gems and purple ermine robe hovers under arch smiling gratefully. Lush renewed green countryside and a few small birds beyond, no bars shut, no THE END text. Player offscreen human again.",
+          "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-c4c3455a-f018-4a6f-a1b2-1b40f85918ea.png",
+          "width": 1672,
+          "height": 941,
+          "bytes": 3275600,
+          "sha256": "09de8f79972f94b314c270c979c07e571443cf57ceb449f024c4c45a054ef650"
+        }
+      ],
+      "revision_note": "Corrected architecture against original Victory-000: narrow stone passage, raised portcullis, straight tree-lined path; removed invented distant lake and castle."
+    },
+    {
+      "id": "richard_bestimmung-01",
+      "scene": "richard_bestimmung",
+      "file": "richard/richard_bestimmung-01.png",
+      "brief": "Sad, pleading close-up of Richard's ghost",
+      "cue": "ganze Szene",
+      "references": [
+        "images/Stories/richard/richard_geschichte-01.png"
+      ],
+      "prompt": "Use case: illustration-story. Generate one full-bleed landscape 16:9 painterly Soul Crystal adventure illustration, target 2048x1152. Match reference brushwork, saturated colors, character identities and location architecture closely. No text, captions, UI, watermark or collage. A single narrative instant. Close-up waist-up of the same elderly ghost King Richard in the same crypt beside his sarcophagus. White beard, gold red-gem crown, purple ermine robe, translucent blue glow. His head inclines sadly toward his translucent open hands, while his raised eyes plead toward the viewer for help. Vulnerable and earnest, not smiling or angry. Make face expressive and prominently readable; keep spectral torso and hands visible.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-d1ea907a-cfde-4ad4-ba28-d4776a0b8c02.png",
+      "date": "2026-11-01",
+      "status": "generated; cue documented; not yet integrated",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2496527,
+      "sha256": "b2e36b77a85ccdeafaf93593bebb4fded82789949b5579a05c9ab5a60c42d73e"
+    },
+    {
+      "id": "firon_schluessel-04",
+      "scene": "firon_schluessel",
+      "file": "firon/firon_schluessel-04.png",
+      "brief": "Firon sighs and stares past the visitor into the cold hall",
+      "cue": "Szenenanfang",
+      "references": [
+        "images/Stories/firon/firon_prophezeiung-01.png"
+      ],
+      "prompt": "Use case: illustration-story. Generate one full-bleed landscape 16:9 painterly Soul Crystal adventure illustration, target 2048x1152. Match reference brushwork, saturated colors, character identities and location architecture closely. No text, captions, UI, watermark or collage. A single narrative instant. Same silver-haired elf King Firon, gold blue-gem crown, blue gold-trimmed robe, seated on his crystalline ice throne. A medium close portrait as he sighs, shoulders slumped, melancholy unfocused eyes staring past the viewer into the cold empty hall. His hand rests on throne arm, not on chin. Regret over a lost friend. Preserve ice hall architecture, cold blue light. No key in hands yet.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-4828876d-cdcd-42bd-84fa-86ab7f72a796.png",
+      "date": "2026-11-01",
+      "status": "generated; cue documented; not yet integrated",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2559598,
+      "sha256": "86a1c6e04450c01a8e0ec3dd5ebc7f1fbce1ebfc542a711023eaeb86b5438ff4"
+    },
+    {
+      "id": "mylgor_auftrag-02",
+      "scene": "mylgor_auftrag",
+      "file": "mylgor/mylgor_auftrag-02.png",
+      "brief": "Mylgor commands the journey northwest from his table",
+      "cue": "Szenenanfang",
+      "references": [
+        "images/Stories/mylgor/mylgor_auftrag-01.png"
+      ],
+      "prompt": "Use case: illustration-story. Generate one full-bleed landscape 16:9 painterly Soul Crystal adventure illustration, target 2048x1152. Match reference brushwork, saturated colors, character identities and location architecture closely. No text, captions, UI, watermark or collage. A single narrative instant. Same dark-haired Mylgor with short pointed beard and blue gold robe, behind the SAME timber table in SAME fireplace room. He sternly gives an order to the unseen player, extending one arm and pointing toward the northwest beyond the room, toward upper left of composition. No compass or map necessary, no ice palace conjured indoors, no inset landscape. This is BEFORE distributing supplies: chest closed, bare table, no laid-out clothes or potion yet. Strong commanding gesture, direct authoritative gaze.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-26683a9f-18db-4c32-9970-5fa0177f9daa.png",
+      "date": "2026-11-01",
+      "status": "generated; cue documented; not yet integrated",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2260514,
+      "sha256": "fa8173476e8c353c02cf9d7e87e1d5c0b75ef748c8386639863f45a142c83ffb"
+    },
+    {
+      "id": "mylgor_vertrag-02",
+      "scene": "mylgor_vertrag",
+      "file": "mylgor/mylgor_vertrag-02.png",
+      "brief": "Signing the contract with a bloodied fingertip at the hatch",
+      "cue": "Auf Deine Frage hin, wozu Du denn das Messer …",
+      "references": [
+        "images/Stories/mylgor/mylgor_vertrag-01.png"
+      ],
+      "prompt": "Use case: illustration-story. Generate one full-bleed landscape 16:9 painterly Soul Crystal adventure illustration, target 2048x1152. Match reference brushwork, saturated colors, character identities and location architecture closely. No text, captions, UI, watermark or collage. A single narrative instant. First-person view at precisely the SAME small open wooden hatch. Unfolded parchment contract on the hatch sill. The player's left hand steadies parchment while right index fingertip draws a small dark-red signature stroke in blood. Only a tiny droplet, no visible open wound, no gore. Small knife safely resting flat beside paper; no cutting action. Mylgor with the same dark hair, beard and blue robe watches coolly from inside the hatch. Natural hands with five fingers, simple dark sleeves, no royal clothing. Indistinct contract strokes, no readable text.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-2d0a50c4-1f9c-4b2a-9c41-53c4c0e86d64.png",
+      "date": "2026-11-01",
+      "status": "generated; cue documented; not yet integrated",
+      "width": 1673,
+      "height": 940,
+      "bytes": 2309219,
+      "sha256": "2bbc9ea7c9cdb08e5d777b332201a861e2e3e23d7bfbe7e5457a53249d940202",
+      "revisions": [
+        {
+          "date": "2026-11-01",
+          "tool": "built-in image_gen",
+          "prompt": "Use case: precise-object-edit. Correct clothing continuity in this existing Soul Crystal illustration. Replace ONLY BOTH player's dark sleeves along the lower edge with bare forearms, lightly damp chilled skin. Preserve hands, signing fingertip, signature, paper, knife, hatch and Mylgor unchanged. Mylgor's own blue robe and sleeves must remain. This is a tightly scoped arm-clothing correction: preserve original painterly style, colors, image dimensions, viewpoint and all other content. No new text or objects. Only the player's hands and forearms are in frame.",
+          "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-2f281fbb-ff31-42b6-98ec-95f845601fd6.png",
+          "input_sha256": "90d9e261b3dcb0d49754bb89cc4501e0297bcc0029e58d6ea8f68fd70fa62434",
+          "note": "Player sleeves replaced with bare arms; same filename."
+        }
+      ]
+    },
+    {
+      "id": "vollmond-03",
+      "scene": "vollmond",
+      "file": "vollmond/vollmond-03.png",
+      "brief": "Still human, entranced by the full moon on the tower roof",
+      "cue": "Szenenanfang",
+      "references": [
+        "images/Stories/vollmond/vollmond-02.png",
+        "images/Stories/intro/intro-01.png"
+      ],
+      "prompt": "Use case: illustration-story. Generate one full-bleed landscape 16:9 painterly Soul Crystal adventure illustration, target 2048x1152. Match reference brushwork, saturated colors, character identities and location architecture closely. No text, captions, UI, watermark or collage. A single narrative instant. Same stone tower roof, crenellations and right-side arched doorway as first reference, same large full moon upper left and deep blue sky. The protagonist is STILL FULLY HUMAN: slim brown-haired seventeen-year-old, viewed from behind in three-quarter view, dressed fully in plain practical dark brown long-sleeved shirt, trousers and boots. No luggage. He stands motionless with head tilted toward moon, entranced. No fur, claws, wolf face or transformation yet. Second reference only for human build and hair, not scenery or luggage. Quiet ominous atmosphere.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-dbe1126a-ebd8-4dec-b637-40857faf1474.png",
+      "date": "2026-11-01",
+      "status": "generated; cue documented; not yet integrated",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2330246,
+      "sha256": "74c5ff8a88895f2cc072d0e86f3e6f7166eca286c909488288a621ab4f0764f6"
+    },
+    {
+      "id": "vollmond-04",
+      "scene": "vollmond",
+      "file": "vollmond/vollmond-04.png",
+      "brief": "Black-furred werewolf sits on the roof trying to think clearly",
+      "cue": "Fieberhaft versuchst Du …",
+      "references": [
+        "images/Stories/vollmond/vollmond-02.png"
+      ],
+      "prompt": "Use case: illustration-story. Generate one full-bleed landscape 16:9 painterly Soul Crystal adventure illustration, target 2048x1152. Match reference brushwork, saturated colors, character identities and location architecture closely. No text, captions, UI, watermark or collage. A single narrative instant. Exactly same black-furred werewolf protagonist and same moonlit tower roof as reference. Now seated safely on a low stone ledge inside the battlements, elbows on knees, one clawed hand supporting forehead, other relaxed on knee. Head lowered pensively, distressed but regaining composure, mouth closed, NOT howling or attacking. Maintain black fur, wolf muzzle, ears, tail and modest torn clothing from reference. Same full moon, blue stone crenellations, arched doorway, night lighting. Medium-wide shot with readable thoughtful pose.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-4a9c426a-7cc8-4b33-b4dd-24e23b59b66b.png",
+      "date": "2026-11-01",
+      "status": "generated; cue documented; not yet integrated",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2408074,
+      "sha256": "2c1efb06fc370eebbbfc4a62d02eaa6a064b80a00fb92e82e4f70d48c2bfc887"
+    },
+    {
+      "id": "mylgor_vertrag-03",
+      "scene": "mylgor_vertrag",
+      "file": "mylgor/mylgor_vertrag-03.png",
+      "brief": "Mylgor offers help with a calculating grin at the hatch",
+      "cue": "Natürlich könnte ich … / Of course I could …",
+      "references": [
+        "images/Stories/mylgor/mylgor_vertrag-01.png"
+      ],
+      "prompt": "Use case: illustration-story. Create a new full-bleed landscape 16:9 Soul Crystal story illustration matching the supplied reference exactly in painterly style, character identity, wooden door/hatch architecture, lighting and costume. Narrative moment BEFORE the contract is handed out: Mylgor responds 'Of course I could...' with a sly calculating grin at the stranger outside. Medium close framing through the SAME open small hatch, his dark swept hair, dark pointed beard with subtle grey streak, blue gold-trimmed robe. His face and eyes are the focus: one slightly raised eyebrow, restrained crooked smile, false hospitality and hidden intent, not broad comedy or monstrous evil. Warm candlelight inside, cool twilight outside. His forearms rest casually inside on the wooden sill. No paper, knife, blood or player's hands yet. Keep the surrounding timber door, iron fittings and hatch identifiable. No readable text, captions, UI, watermark, extra characters or split panels.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-47a34d72-403e-4d6d-9233-566466a8e4d1.png",
+      "date": "2026-11-01",
+      "status": "cue added to DE/EN narration sources; videos not rebuilt",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2237054,
+      "sha256": "9c5a1a359271af2b1783f337459b305975a6cd6b71393dbb5936a4602d6adae0"
+    },
+    {
+      "id": "burgtor-01",
+      "scene": "burgtor",
+      "file": "burgtor/burgtor-01.png",
+      "brief": "A sleepless 1992 Amiga player stockpiles coffee and excuses",
+      "cue": "Ich schlage daher vor … / So I suggest …",
+      "references": [
+        "images/Stories/intro/intro-01.png"
+      ],
+      "prompt": "Use case: illustration-story. One full-bleed 16:9 landscape painterly Soul Crystal humorous story insert, target 2048x1152. Rich saturated colors, visible hand-painted brushwork matching references, not 3D or photograph, no watermark or UI. Deadpan humorous fourth-wall cutaway, Germany circa 1992 at 3 AM. An ADULT male office worker about 35 years old in a casual sweater sits absorbed before a historically recognizable beige Amiga 500 all-in-one wedge keyboard computer with separate chunky CRT monitor, wired mouse, joystick and floppy disks. CRT shows a tiny pixel-art castle gate adventure. Modest period home office, no modern flat screens or phones or RGB gaming gear. Absurdly several small coffee BARRELS with taps beside desk and steaming mugs, stacks of unopened unbranded cigarette cartons (no promotional branding). On desk in clear view a paper note with legible exact heading 'Ausreden für den Chef', a few scribbled illegible lines underneath. Cool CRT glow and warm desk lamp, dark window, tired but determined face. This is an adult real-world player, NOT the teenage game hero. Reference for painterly style only. No other readable text.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-043a627b-2bac-4675-b1ec-2b16e0a993d3.png",
+      "date": "2026-11-01",
+      "status": "cue added to DE/EN narration sources; videos not rebuilt",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2663959,
+      "sha256": "9802dbee16b0b45d6c58d85014902e885c374bf4a2350ff8bf91dd89b9e7bb1e"
+    },
+    {
+      "id": "see-02",
+      "scene": "see",
+      "file": "see/see-02.png",
+      "brief": "Cold-water bravado with a discreet rubber duck",
+      "cue": "Sei's drum: Gelobt sei, was hart macht! / So be it …",
+      "references": [
+        "images/Stories/see/see-01.png",
+        "images/Stories/intro/intro-01.png"
+      ],
+      "prompt": "Use case: illustration-story. One full-bleed 16:9 landscape painterly Soul Crystal humorous story insert, target 2048x1152. Rich saturated colors, visible hand-painted brushwork matching references, not 3D or photograph, no watermark or UI. Same mountain lake sunset and brown-haired young male protagonist as references. Nonsexual comedic bathing scene: he wades waist-deep close to the shore in opaque cold water, wearing ordinary dark swimming shorts, bare shoulders and chest, no nudity below waist or sexualized framing. Medium wide view, slim ordinary build not muscular pin-up. Bravely splashes a handful of icy water onto his chest, involuntary cold grimace undermines heroic posture. A tiny yellow rubber duck floats discreetly behind him as visual narrator joke. Calm shallow shore water, distant mountains and forest; no whirlpool yet, no other people. Warm sunset versus cold blue water.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-d9c92625-6456-4dbc-9f34-17fbf6acbd4c.png",
+      "date": "2026-11-01",
+      "status": "cue added to DE/EN narration sources; videos not rebuilt",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2847924,
+      "sha256": "3cdc56654a97c05dd1d79b825f5723a8badd61a6013c2025bdb613cecf61eabf",
+      "revisions": [
+        {
+          "date": "2026-11-01",
+          "tool": "built-in image_gen",
+          "prompt": "Use case: precise-object-edit. Revise image 1, the Soul Crystal lake illustration. Change camera depiction of protagonist to a REAR THREE-QUARTER VIEW: back and back of head toward viewer, facing out into the lake, NOT front-facing and no chest facing camera. Same slim brown-haired young traveller, bare back and arms, modest ordinary nonsexual bathing scene. He splashes cold water onto his chest away from camera, shoulders slightly hunched from cold. Replace modern dark swim shorts with OLD-FASHIONED LOOSE KNEE-LENGTH RED AND WHITE VERTICALLY STRIPED SWIMMING TRUNKS, high waistband, opaque fabric. Image 2 is the authoritative existing striped trunks design drying by fireplace, use clothing only. Image 3 original pixel art provides corroborating old-fashioned red/white vertical stripe styling only, do not copy pose or door. Keep shorts on, fully covering pelvis, upper legs under water. Water around upper thighs/waist, enough striped waistband visible. Preserve image 1 lake, sunset, mountains, woodland, rocks, tiny yellow rubber duck, rich painterly brushwork and landscape dimensions. No other people, no text. Show wide environmental composition, not a closeup of body.",
+          "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-906678be-1f19-4de0-9675-042db39326df.png",
+          "input_sha256": "8e965ed6132a9087fd3aef77ca7c8c408a98bd7912fecc5e86d912fd121754fb",
+          "references": [
+            "images/Stories/see/see-02.png",
+            "images/Stories/mylgor/mylgor_kaminzimmer-02.png",
+            "images/Amiga/Disk 3/DiskB-037.png"
+          ],
+          "note": "Rear three-quarter view; old-fashioned red-white vertical striped trunks. Text 181 describes old-fashioned trunks without specifying color; DiskB-037 visually shows stripes but garment identity is not verified."
+        }
+      ]
+    },
+    {
+      "id": "sage-04",
+      "scene": "sage",
+      "file": "sage/sage-04.png",
+      "brief": "The bored traveller props up his head while the old villager rambles",
+      "cue": "Als es in der Küche verschwunden ist … / When she has disappeared …",
+      "references": [
+        "images/Stories/sage/sage-01.png",
+        "images/Stories/intro/intro-01.png"
+      ],
+      "prompt": "Use case: illustration-story. One full-bleed 16:9 landscape painterly Soul Crystal humorous story insert, target 2048x1152. Rich saturated colors, visible hand-painted brushwork matching references, not 3D or photograph, no watermark or UI. Same rustic Scottish inn dining room and SAME grey-bearded old villager in green as first reference. Across the wooden table sits the slim brown-haired young traveller from second reference wearing blue casual shirt. Traveller props his head in BOTH hands, elbows on table, heavy eyelids and deadpan bored expression, trying not to fall asleep. Old man looks down and mumbles earnestly into beard, rambling with a small hand gesture. Waitress has left and is absent. Traveller still waiting for meal: no steak, food or meal on table, only empty place setting and candle. Readable two-person composition, warm room light, subtle humor in expressions, no speech bubbles.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-db268ef4-908d-4813-a116-84d2b77a52e0.png",
+      "date": "2026-11-01",
+      "status": "cue added to DE/EN narration sources; videos not rebuilt",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2275049,
+      "sha256": "cbdd4508054fc03fe72f9e6593d0d47731a2b58c3e3a357249ce2a75be0c5fc2",
+      "revisions": [
+        {
+          "date": "2026-11-01",
+          "tool": "built-in image_gen",
+          "prompt": "Use case: precise-object-edit. Tight clothing-continuity correction to existing Soul Crystal painterly artwork. Correct ONLY the young traveller's blue upper garment into a royal blue SHORT-SLEEVED crew-neck T-SHIRT, sleeves ending mid upper arm, bare elbows and forearms, no rolled sleeves. Plain front; surfer print belongs on back and is not visible here. Preserve his bored face, both hands supporting head, older man, dining room, empty plate, lighting, colors and framing. Preserve painterly style; no unrelated changes.",
+          "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-0fe23258-68a2-4b8d-a956-47a36827746f.png",
+          "input_sha256": "d6eb8cb2024e64f1f876911eb1a90633a1fcd6161aaa1631b2acd2dd99850620"
+        }
+      ]
+    },
+    {
+      "id": "intro-02",
+      "scene": "intro",
+      "file": "intro/intro-02.png",
+      "brief": "The traveller imagines a huge secret house party",
+      "cue": "und eine Riesenparty zu geben … / and throwing a huge party",
+      "references": [
+        "images/Stories/intro/intro-01.png"
+      ],
+      "prompt": "Use case: illustration-story. One full-bleed 16:9 landscape painterly Soul Crystal humorous story insert, target 2048x1152. Rich saturated colors, visible hand-painted brushwork matching references, not 3D or photograph, no watermark or UI. The same slim brown-haired teenage traveller with blue casual shirt stands near Scottish hotel exterior, small foreground bust portrait with a mischievous closed-mouth smile. A VERY CLEAR cloud-shaped THOUGHT BUBBLE connected to his head by two small thought dots occupies most of the illustration. Inside this imagined bubble only: enormous lively early-1990s house party in parents' ordinary living room, many fully clothed teenage friends dancing, colorful balloons, confetti, cassette stereo and vinyl records, pizza and soda, no alcohol or smoking. No romance or sexual content. Bubble has soft luminous painted edges and a distinct dreamy warm palette to clearly identify an unreal fantasy rather than an actual event. Outer scene stays quiet with sunset light. No words in bubble or elsewhere. Maintain handpainted adventure style, not comic panels.",
+      "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-d79f44d3-08e6-418a-9afc-981804f365d6.png",
+      "date": "2026-11-01",
+      "status": "cue added to DE/EN narration sources; videos not rebuilt",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2658617,
+      "sha256": "f3db65f7287dcd7ac1f80d5d697926ca0ec59b68f977f4b635054dc3ed555ade",
+      "revisions": [
+        {
+          "date": "2026-11-01",
+          "tool": "built-in image_gen",
+          "prompt": "Use case: precise-object-edit. Tight clothing-continuity correction to existing Soul Crystal painterly artwork. Correct ONLY the protagonist's blue upper garments in BOTH appearances: foreground daydreaming boy and central blue-shirted dancing boy inside thought bubble. Both wear a royal blue SHORT-SLEEVED crew-neck T-SHIRT, sleeves ending at mid upper arm; no rolled long sleeves. Plain front, neon surfer graphic exists only on back and is not visible in these frontal poses. Preserve all faces, poses, friends' clothes, thought bubble, party, scenery and exact framing. Preserve painterly style; no unrelated changes.",
+          "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-91c9156c-aa8a-41eb-b316-36cd8702129f.png",
+          "input_sha256": "d11697e3b06467948b43b3df2e586ae38bb7c6f1eb3508f4db3ebfbc2adccd40"
+        }
+      ]
+    }
+  ],
+  "updated": "2026-11-01"
+}

@@ -1,0 +1,56 @@
+{
+  "images": [
+    {
+      "file": "01-kampf.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2572120,
+      "sha256": "640905769b024fe89980d3ab66bf8e64b207f552e3791cbf2b00c2f87ddb1fa2"
+    },
+    {
+      "file": "02-rettung.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2678082,
+      "sha256": "84c28342d5c757d7b6f5b075565e8c0a721946439606112c4be404df874c51ae"
+    },
+    {
+      "file": "03-erschoepfung.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2449142,
+      "sha256": "0f79d7acb7f097542595e1ebfb7cb876e3954eab0e80bbd6cf5e1a8eebd47bc5"
+    },
+    {
+      "file": "04-warnung.png",
+      "width": 1672,
+      "height": 940,
+      "bytes": 2653092,
+      "sha256": "4a2daf43172a02dc0223cc580760f105dfc0cba22e83ce15d7c5e119913cdf0f"
+    },
+    {
+      "file": "05-kristallkugel.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2435173,
+      "sha256": "b71398ab176a1c3ce0a5ac8029633f0d15bd8d75304dff6ecfdae03ba172a46b",
+      "revisions": [
+        {
+          "date": "2026-11-01",
+          "tool": "built-in image_gen",
+          "prompt": "Use case: precise-object-edit. Correct clothing continuity in this existing Soul Crystal illustration. Replace ONLY the player's brown sleeve in the lower-left foreground with a naturally bare wet forearm, small water droplets and slight cold goosebumps. Preserve the exact palm, crystal sphere, unicorn, forest, lighting, framing and pose. This is a tightly scoped arm-clothing correction: preserve original painterly style, colors, image dimensions, viewpoint and all other content. No new text or objects. Only the player's hands and forearms are in frame.",
+          "source": "/home/sebastian/.codex/generated_images/01a16f44-d1ed-7fc1-bbd1-4ccecd7e2feb/exec-86a8c065-d9f4-478f-9854-b78e8479179c.png",
+          "input_sha256": "3174089c178a9ccb4343b9e9fdd93dc274cc7972763ab479e46083e036ddae63",
+          "note": "Player sleeves replaced with bare arms; same filename."
+        }
+      ]
+    },
+    {
+      "file": "06-abschied.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2437556,
+      "sha256": "d59bc6b0542a26637525ad7a0ac2d4f5c362e141ae332a673b0bc787ed1dcc6d"
+    }
+  ]
+}
