@@ -42,37 +42,17 @@ What began as a personal investigation has become a way to experience the game
 again. This repository brings that adaptation together with a standalone
 console version, extracted assets, and documentation of the original game.
 
-## Textkonsole
+## Build and run
 
-```sh
-./build_console.sh
-./build/soul-crystal --language de
-./build/soul-crystal --language en
-```
+Run the following commands from the repository root.
 
-Deutsch (Standard) und die englische C64-Fanübersetzung verwenden dieselbe
-Spiellogik. Spielbare Basis mit einkompilierten Texten, Intro, Verbliste und
-zustandsabhängiger Objektliste. Keine Laufzeitdateien oder zusätzlichen Libraries.
-Handbuchabfragen sind deaktiviert; die Teilübergänge laufen ohne Rückfrage weiter;
-Speichern/Laden und Cheats sind nicht enthalten.
-Details und Tests: [Konsolenanwendung](spec/C64/console_application.md).
+### Browser version
 
-Die vorhandene Komplettlösung dient als Grundlage für einen automatischen
-[Replay-Runner](tests/replays/README.md):
+Requirements: Docker with BuildKit, Node.js 22.12 or later, npm, and Python 3
+with Pillow and WebP support.
 
-```sh
-./build/soul-replay tests/replays/part_a.replay
-```
-
-Die vollständige Hauptroute erreicht mit 597 Befehlen und 410 Prüfstellen den
-Gewinn (5.010 Punkte). Zusätzlich gibt es `tests/replays/fast.replay` mit der
-ursprünglichen 334-Befehle-Route sowie 46 eigenständige Todesfall-Replays.
-`./check-replay.sh` prüft alle Läufe; `./check-replay-coverage.sh` misst ihre
-kombinierte Skriptabdeckung. `./check-replay-texts.sh` listet tatsächlich
-ausgegebene und noch fehlende Originaltexte. Ergebnisse und Grenzen:
-[Abdeckungsbericht](spec/C64/replay_coverage.md).
-
-## Webport (TypeScript, Vite und WebAssembly)
+Build the WebAssembly engine, install the web dependencies, and start the local
+server:
 
 ```sh
 ./build_wasm_docker.sh
@@ -80,31 +60,30 @@ npm ci --prefix web
 npm run dev --prefix web
 ```
 
-Spielbarer Browserport mit Amiga-HD-Bildern, deutscher/englischer Sprachwahl und
-Symbolsteuerung. Der vorhandene C/C++-Kern wird im Dockerfile zu WebAssembly gebaut.
-Mit lokalen Browser-Spielständen und Autosaves; ohne Musik. Details: [Webport](web/README.md).
+Open the address printed by Vite, usually <http://127.0.0.1:5173/>.
 
-## Frühere SPECIAL-Notizen
+To create the static site for deployment:
 
+```sh
+npm run build --prefix web
+```
 
-      3 SPECIAL(0x0001);    coderequest? passwortabfrage?
-      4 SPECIAL(0x0002);    laden
-      4 SPECIAL(0x0003);    speichern
-      4 SPECIAL(0x0004);    neustart 
-      4 SPECIAL(0x0005);    spielende
-      4 SPECIAL(0x0006);    Loesung
-      4 SPECIAL(0x0007);    Musik ein
-      8 SPECIAL(0x0008);    Ausgaenge anzeigen
-      4 SPECIAL(0x0009);    Diskette installieren
-      4 SPECIAL(0x000a);    Inventar anzeigen
-      1 SPECIAL(0x0032);    Der Code ist Ok Text
-      1 SPECIAL(0x0033);    gewonnen: zeige das ende des spiels: danach hall of fame und dann credits
-      4 SPECIAL(0x0064);    
-      4 SPECIAL(0x0065);
-      4 SPECIAL(0x0066);    // compares command variable
-      4 SPECIAL(0x0067);
-      1 SPECIAL(0x0068);    // compares room numbers
-      1 SPECIAL(0x0069);
-      1 SPECIAL(0x006a);
-      1 SPECIAL(0x00c8);  // test: exgosub - 200
+The complete site is written to `build/web/`. To preview that production build
+locally:
 
+```sh
+npm run preview --prefix web
+```
+
+### Console version
+
+Requirements: Bash and Clang with C11 and C++17 support. You can select other
+compatible compilers through the `CC` and `CXX` environment variables.
+
+```sh
+./build_console.sh
+./build/soul-crystal --language en
+```
+
+Use `--language de` to play in German. The executable includes the game texts
+and needs no additional runtime assets.
