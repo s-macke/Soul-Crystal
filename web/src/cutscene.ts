@@ -18,7 +18,7 @@ interface Track {path: string; start?: number; end?: number; volume: number; fad
 interface Timeline {
   duration: number; hold?: boolean; loop?: {start: number; end: number}; voice: string | null; size: [number, number];
   fade: number; blackIn: number; blackOut: number; wipeFeather: number;
-  shots: Shot[]; images: string[]; cues: {start: number; end: number; text: string}[];
+  shots: Shot[]; images: string[]; imageUrls: Record<string, string>; cues: {start: number; end: number; text: string}[];
   music: Track | Track[]; speech: [number, number][];
 }
 interface Options {music: string; enabled(): boolean; ownMusic(on: boolean): void}
@@ -175,7 +175,8 @@ async function play(base: string, entry: CutsceneEntry, english: boolean, handov
   // seeked without HTTP range requests. Meanwhile the screen stays black.
   const pictures = Promise.all(tl.images.map(async path => {
     const image = new Image();
-    image.src = `${base}../images/${path.split('/').map(encodeURIComponent).join('/')}.png`;
+    if (!tl.imageUrls[path]) throw new Error(`Missing cutscene asset: ${path}`);
+    image.src = `${base}${tl.imageUrls[path].split('/').map(encodeURIComponent).join('/')}`;
     await image.decode();
     return [path, image] as const;
   }));

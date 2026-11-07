@@ -10,6 +10,7 @@
     "preview": "vite preview --host 127.0.0.1",
     "test": "node --import tsx --test src/*.test.ts",
     "test:wasm": "node --import tsx scripts/check-wasm.ts",
+    "test:build-assets": "python3 scripts/check-build-assets.py",
     "test:assets": "node scripts/check-assets.mjs",
     "test-saves": "node --import tsx scripts/generate-test-saves.ts"
   },

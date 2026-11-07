@@ -6,7 +6,7 @@ bereits denselben Kern wie die CLI. Lokale Browser-Spielstände und Autosaves; k
 
 ## Starten
 
-Voraussetzungen: Docker mit BuildKit, Node.js 22.12+ und npm.
+Voraussetzungen: Docker mit BuildKit, Node.js 22.12+, npm sowie Python 3 mit Pillow (mit WebP-Unterstützung).
 Vom Repository-Verzeichnis:
 
 ```sh
@@ -203,3 +203,41 @@ Der Test prüft alle 134 HD-Bildadressen und alle UI-Symbole auf PNG-Content-Typ
 Ein HTTP-200 allein reicht wegen Vites HTML-Fallback nicht aus. Das Kopieren
 behält deshalb vorhandene Bildverzeichnisse bei; Löschen und Neuanlegen während
 Vite läuft kann dessen Cache für öffentliche Dateien ungültig machen.
+
+## Web asset sizes and shared images
+
+`prepare-assets` creates web-only icons at 144 × 144 pixels (384 × 384
+for the title-screen crystal), using lossless WebP with transparency. Python 3
+with WebP-enabled Pillow is required. Source PNGs remain unchanged; the served
+icon catalog describes the resized files and their checksums.
+
+Painted backgrounds and cutscene illustrations use WebP quality 80 at their
+original dimensions, preserving cutscene crop and zoom coordinates. Original
+low-resolution pixel art uses lossless WebP. Conversion is cached by source and
+output checksum plus encoder settings in `build/web-images.json`.
+
+Gameplay image IDs resolve through `images/manifest.json`. Cutscene timelines
+receive an `imageUrls` map, relative to the timeline file. The manifests select
+one deployed URL per image; the browser never races PNG and WebP downloads.
+Identical source PNGs share one WebP, including backgrounds used by both gameplay
+and cutscenes. Original timeline IDs, crop coordinates, animation frames and
+wipes stay unchanged. Old generated PNGs and WebPs are pruned without removing
+directories, so a running Vite server keeps serving the asset directories.
+
+After `npm run build`, run `npm run test:build-assets` to verify every scene and
+cutscene image against its source and conversion checksums, decoded dimensions,
+lossless icon appearance and alpha, unchanged timelines, and the absence of
+duplicate images or stale PNGs. `npm run test:assets -- <base-url>` checks that
+all deployed images are actually served as WebPs, including cutscene images.
+
+## GitHub Pages deployment
+
+`.github/workflows/static.yml` builds and deploys on pushes to `main` and can
+also be started from the Actions tab. It installs Node.js 22, Python 3.12 and
+`requirements-assets.txt`, builds the WASM engine with the pinned Emscripten
+Docker image, runs the engine/web checks, generates the compressed WebP assets,
+and verifies the finished site and its image URLs. Only `build/web/` is uploaded
+to Pages; source artwork and development saves are not deployed.
+
+For the same image encoder locally, install it with
+`python3 -m pip install -r web/requirements-assets.txt` in your Python environment.

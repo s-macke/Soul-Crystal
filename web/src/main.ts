@@ -2,7 +2,7 @@ import './style.css';
 import { MusicPlayer } from './music';
 import { gameMusic } from './music-map';
 import { loadEngine, type Engine, type GameEvent, type GameView } from './engine';
-import { imagePath, victoryPath } from './images';
+import { imagePath, victoryPath, loadSceneAssets, sceneAsset } from './images';
 import { loadControls } from './controls';
 import { createSaveUI } from './save-ui';
 import { Cutscenes } from './cutscene';
@@ -87,7 +87,7 @@ function event(event: GameEvent) {
     beforeFirstImage = false;
     const path = imagePath(event.part, event.image, event.room);
     if (path !== null) {
-      scene.src = `${import.meta.env.BASE_URL}${path}`;
+      scene.src = `${import.meta.env.BASE_URL}${sceneAsset(path)}`;
       scene.alt = english ? `Scene in room ${event.room}` : `Schauplatz in Raum ${event.room}`;
     }
   }
@@ -103,7 +103,7 @@ function view(view: GameView) {
   get('ended-load').textContent = english ? 'Load game' : 'Spielstand laden';
   controls?.update(view, english);
   if (view.mode === 5) {
-    scene.src = `${import.meta.env.BASE_URL}${victoryPath}`;
+    scene.src = `${import.meta.env.BASE_URL}${sceneAsset(victoryPath)}`;
     scene.alt = english ? 'The adventure is won' : 'Das Abenteuer ist gewonnen';
   }
   get('scene-label').textContent = `${english ? 'Part' : 'Teil'} ${'ABCD'[view.part - 1]}`;
@@ -175,7 +175,7 @@ get('welcome-load').addEventListener('click', () => saves.open());
 get('ended-load').addEventListener('click', () => saves.open());
 get('new-game').addEventListener('click', () => location.reload());
 scene.addEventListener('error', () => fail(new Error(english ? 'Picture could not be loaded.' : 'Bild konnte nicht geladen werden.')));
-Promise.all([loadEngine(event, view), loadControls(get('icon-controls'), submitCommand, () => saves.open(), {enabled: () => musicEnabled, toggle: toggleMusic})]).then(([loaded, loadedControls]) => {
+Promise.all([loadSceneAssets(import.meta.env.BASE_URL).then(() => loadEngine(event, view)), loadControls(get('icon-controls'), submitCommand, () => saves.open(), {enabled: () => musicEnabled, toggle: toggleMusic})]).then(([loaded, loadedControls]) => {
   engine = loaded;
   controls = loadedControls;
   languageButtons.forEach(button => button.disabled = false);

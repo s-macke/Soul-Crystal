@@ -8,6 +8,16 @@ const parts = [
   {name: 'D', offset: 65, rooms: 38, count: 51},
 ];
 export const victoryPath = 'images/hd/Victory-015.png';
+let sceneAssets: Record<string, string> = {};
+export async function loadSceneAssets(base: string) {
+  const response = await fetch(`${base}images/manifest.json`);
+  if (!response.ok) throw new Error('Scene asset catalog could not be loaded');
+  sceneAssets = await response.json();
+}
+export function sceneAsset(path: string): string {
+  if (!sceneAssets[path]) throw new Error(`Missing scene asset: ${path}`);
+  return sceneAssets[path];
+}
 export function imagePath(part: number, image: number, room: number): string | null {
   const info = parts[part - 1];
   if (!info) throw new Error(`Unknown game part ${part}`);
