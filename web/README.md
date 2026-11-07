@@ -19,8 +19,8 @@ npm run dev
 Dann die von Vite angegebene Adresse öffnen (normalerweise
 http://127.0.0.1:5173). Sprache wählen und das Abenteuer beginnen. Mit `west`,
 `nord`, `betrachte tresen` gelangt man zur Rezeption und entdeckt die Klingel.
-`verben` und `objekte` zeigen die entsprechenden Listen. Das Intro steht vollständig unter
-„Vorgeschichte & Spielanleitung“. Neuladen beginnt ein neues Spiel.
+`verben` und `objekte` zeigen die entsprechenden Listen. Die Vorgeschichte wird
+als animierte Zwischensequenz gezeigt. Neuladen beginnt ein neues Spiel.
 
 ## Spielstart
 

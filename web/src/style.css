@@ -103,19 +103,7 @@ select {
   font-size:12px;
   color:#bfd1aa;
   border-top:1px solid #526047}
-details {
-  font-size:14px;
-  color:#becbb6;
-  border-bottom:1px solid #ffffff18;
-  padding:6px 0 16px}
-summary {
-  cursor:pointer}
-#intro-text {
-  line-height:1.65;
-  max-height:45vh;
-  overflow:auto;
-  padding:0 14px}
-#intro-text p,#transcript p {
+#transcript p {
   white-space:pre-wrap}
 #transcript {
   height:clamp(220px,30vh,420px);
@@ -191,7 +179,6 @@ body.playing{height:100dvh;min-height:0;overflow:hidden;background:#080b0a}
 .journal-toggle img{width:100%;height:100%;object-fit:contain}
 .journal-toggle:hover{background:#4d3826}
 .playing #game{position:relative;width:min(100%,1040px);max-width:none;margin:0;min-height:0;max-height:26dvh;display:flex;flex-direction:column;padding:12px 22px;background:linear-gradient(110deg,#101510ed,#15201be0);border:1px solid #be9a5459;border-radius:12px;box-shadow:0 8px 30px #0006;backdrop-filter:blur(12px)}
-.playing #intro{display:none}
 .playing #transcript{height:auto;min-height:0;overflow:auto;padding:0 8px 0 0;font-family:Georgia,serif;font-size:17px;line-height:1.5;scrollbar-width:thin}
 .playing #transcript p{margin:5px 0}
 .playing #transcript .previous,.playing #transcript .command{display:none}
@@ -213,8 +200,6 @@ body.playing{height:100dvh;min-height:0;overflow:hidden;background:#080b0a}
 .playing .icon-labels .game-icon span{max-width:110px;padding:1px}
 .playing #new-game{padding:8px 12px;margin-top:8px}
 .playing.journal-open #game{position:absolute;inset:65px max(20px,calc((100% - 1040px)/2)) 20px;width:auto;max-height:none;z-index:6;background:#121b17f5;padding:20px}
-.playing.journal-open #intro{display:block;flex:none}
-.playing.journal-open #intro-text{max-height:40dvh}
 .playing.journal-open #transcript{flex:1}
 .playing.journal-open #transcript .previous,.playing.journal-open #transcript .command{display:block}
 .playing #error{position:fixed;top:64px;left:20px;right:20px;z-index:10;max-height:40dvh;overflow:auto}

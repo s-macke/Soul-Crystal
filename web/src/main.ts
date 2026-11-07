@@ -29,7 +29,7 @@ const cutscenes = new Cutscenes(`${import.meta.env.BASE_URL}cutscenes/`,
 let loading = false;
 cutscenes.prepare('de'); cutscenes.prepare('en');
 function updateMusic() {
-  music.select(currentView ? (get<HTMLDetailsElement>('intro').open && currentView.mode < 4 ? 'Cast.mp3' : gameMusic(currentView.room, currentView.mode)) : null);
+  music.select(currentView ? gameMusic(currentView.room, currentView.mode) : null);
 }
 function toggleMusic() {
   musicEnabled = !musicEnabled;
@@ -37,7 +37,6 @@ function toggleMusic() {
   try { localStorage.setItem('soul-crystal-music', musicEnabled ? 'on' : 'off'); } catch {}
   updateMusic();
 }
-get('intro').addEventListener('toggle', updateMusic);
 document.addEventListener('visibilitychange', () => music.setVisible(!document.hidden));
 function capture(): SaveState | null {
   if (!engine || !currentView || currentView.mode !== 0) return null;
@@ -59,8 +58,6 @@ function loadSave(record: SaveRecord): boolean {
   finally { loading = false; }
   cutscenes.reset();
   if (!ok) { english = previousEnglish; transcript.replaceChildren(...previous); return false; }
-  get('intro-text').replaceChildren();
-  paragraph(get('intro-text'), engine.ccall('web_intro', 'string', [], []));
   toggleJournal(false);transcript.scrollTop = 0;
   saves.checkpoint(capture());
   return true;
@@ -81,7 +78,8 @@ function paragraph(parent: HTMLElement, text: string, className = '') {
 }
 function event(event: GameEvent) {
   if (event.kind === 0) {
-    paragraph(starting && beforeFirstImage ? get('intro-text') : transcript, event.text);
+    // The animated opening replaces the engine's introductory text and instructions.
+    if (!starting || !beforeFirstImage) paragraph(transcript, event.text);
     if (!loading) cutscenes.text(english ? 'en' : 'de', event.text);
   } else if (event.kind === 1) {
     beforeFirstImage = false;
@@ -97,7 +95,6 @@ function view(view: GameView) {
   english = view.language === 1;
   updateMusic();
   document.documentElement.lang = english ? 'en' : 'de';
-  get('intro').querySelector('summary')!.textContent = english ? 'The story & how to play' : 'Vorgeschichte & Spielanleitung';
   get('new-game').textContent = english ? 'Start a new adventure' : 'Ein neues Abenteuer beginnen';
   get('ended-load').hidden = view.mode < 4;
   get('ended-load').textContent = english ? 'Load game' : 'Spielstand laden';
@@ -149,7 +146,6 @@ function startGame(inEnglish: boolean, withIntro = true) {
   get('journal-toggle').hidden = false;
   get('journal-toggle').setAttribute('aria-label', english ? 'Open journal' : 'Tagebuch öffnen');
   if (english) {
-    get('intro').querySelector('summary')!.textContent = 'The story & how to play';
     get('new-game').textContent = 'Start a new adventure';
   }
   starting = beforeFirstImage = true;
