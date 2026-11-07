@@ -244,6 +244,9 @@ body:not(.playing) #welcome{width:100%;max-width:none;height:100%;margin:0;paddi
 .language-choices button{min-width:140px;padding:16px 28px;border:1px solid #b2955d88;border-radius:3px;background:linear-gradient(#30392ddd,#18231ddd);color:#f3e3bb;font-family:Georgia,serif;font-size:22px;box-shadow:0 6px 22px #0005}
 .language-choices button:hover{background:#3c4e3a;border-color:#e1c783;box-shadow:0 0 24px #c6b77622}
 #welcome #load-status{margin:0;min-height:18px;font-size:12px}
+#welcome .github-link{color:#bdc7b9;font-size:14px;text-decoration:underline;text-underline-offset:4px;padding:6px 12px}
+#welcome .github-link:hover{color:#f3e3bb}
+#welcome .github-link:focus-visible{outline:2px solid #e1c783;outline-offset:4px;border-radius:3px}
 body:not(.playing) #error{position:fixed;bottom:12px;left:12px;right:12px;max-height:30dvh;overflow:auto;z-index:10}
 @media(max-height:440px){body:not(.playing) #welcome{padding:10px;gap:6px}.title-crystal{width:60px;height:60px}#welcome h1{font-size:32px}.language-choices button{padding:10px 24px}}
 

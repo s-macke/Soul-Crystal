@@ -1,6 +1,10 @@
 # Soul Crystal
 
-![Soul Crystal browser adaptation: five scenes with reimagined graphics, English adventure text, and icon controls](images/readme/soul-crystal.gif)
+## [▶ Play Soul Crystal in your browser](https://s-macke.github.io/Soul_Crystal/)
+
+**German & English · No installation required**
+
+[![Soul Crystal browser adaptation: five scenes with reimagined graphics, English adventure text, and icon controls](images/readme/soul-crystal.gif)](https://s-macke.github.io/Soul_Crystal/)
 
 [*Soul Crystal*](https://www.c64-wiki.de/wiki/Soul_Crystal) is a German-language
 text adventure that I played in the 1990s.
